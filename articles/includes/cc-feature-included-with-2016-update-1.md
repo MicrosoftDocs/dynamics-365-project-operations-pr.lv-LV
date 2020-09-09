@@ -1,0 +1,1 @@
+Šis līdzeklis tiek atbalstīts programmā Dynamics CRM Online 2016 Update 1. Vai jūs interesē šī līdzekļa iegūšana? [Atrodiet Dynamics 365 administratoru vai atbalsta personu](../basics/find-administrator-support.md)
