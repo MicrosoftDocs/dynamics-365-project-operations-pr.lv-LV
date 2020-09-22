@@ -1,0 +1,1 @@
+# <a name="welcome-to-dynamics-365-project-operations"></a>Laipni lūdzam dynamics-365-project-operations!
