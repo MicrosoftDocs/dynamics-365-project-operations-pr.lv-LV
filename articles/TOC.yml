@@ -28,6 +28,8 @@
               href: environment/resource-provision-new-environment.md
             - name: Drošības modelis
               href: environment/security-model.md
+            - name: Project Operations integrācijas konfigurēšana katrā juridiskā entītijā
+              href: environment/resource-configure-integration-per-legal-entity.md
     - name: Pārdošanas process
       items:
         - name: Pārdošanas pārskats
@@ -44,10 +46,14 @@
           href: sales/manage-leads.md
         - name: Iespēju pārvaldība
           items:
+            - name: Pārvaldiet uz projektiem balstītas iespējas
+              href: sales/manage-project-based-opportunities.md
             - name: Iespēju galvene
               href: sales/opportunity-header.md
             - name: Projektu līnijas
               href: sales/project-based-lines.md
+            - name: Uz projektu balstītu iespēju kopēšana
+              href: sales/copy-project-based-opportunity.md
             - name: Projekta piedāvājuma izveide no iespējām
               href: sales/link-quotes-opportunities.md
             - name: Iespējas slēgšana
@@ -56,6 +62,8 @@
           items:
             - name: Pamata koncepti
               href: sales/quotes-key-concepts.md
+            - name: Kopsavilkuma informācija par projekta piedāvājumu
+              href: sales/quote-values-budget-limits-contract.md
             - name: Vairāku klientu pārvaldīšana piedāvājuma gadījumā
               href: sales/manage-multiple-customers-quote.md
             - name: Produktu piedāvājuma rindas
@@ -68,16 +76,40 @@
               items:
                 - name: Projektu cenrāžu pārvaldība
                   href: sales/managing-project-price-lists.md
+                - name: Pārvaldīt vairākus klientus projekta piedāvājumu rindās
+                  href: sales/manage-multiple-customers-quote-line.md
                 - name: Izmaksu izveide piedāvājuma rindā
                   href: sales/create-estimate-quote-line.md
+                - name: Projekta aprēķinu importēšana uz projekta piedāvājuma rindu
+                  href: sales/import-estimate-quote-line.md
                 - name: 'Piedāvājumu vērtību, klientu budžetu un pārāk nepārsniedzošo ierobežojumu pārvaldība'
                   href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Rēķinu grafiki projekta piedāvājuma rindās
+                  href: sales/invoice-schedule-quote-line.md
             - name: Projekta piedāvājuma rindas kopēšana
               href: sales/lose-quote.md
             - name: Piedāvājuma aizvēršana
               href: sales/win-quote.md
+        - name: Līgumu pārvaldība
+          items:
+            - name: "Pamata koncepti\_— projektu līgumi"
+              href: sales/contracts-key-concepts.md
+            - name: Projekta līguma iestatījumi
+              href: sales/project-contract-settings.md
+            - name: Projekta līguma rindas
+              items:
+                - name: Konfigurēt uz projektiem balstītu līguma rindu maksas komponentus
+                  href: sales/configure-chargeable-contract-line.md
+                - name: Importēt budžetu uz projekta līguma rindu
+                  href: sales/import-estimate-project-contract-line.md
+                - name: Rēķinu grafika izveide projekta līguma rindā
+                  href: sales/invoice-schedules-contract-line.md
+            - name: Projekta līguma apstiprināšana
+              href: pro/sales/confirm-contract-sales.md
     - name: Cenu un izmaksu noteikšana
       items:
+        - name: Cenrāžu iestatīšana
+          href: pricing-costing/price-list-setup.md
         - name: Produktu cenrāži
           href: pricing-costing/product-price-list.md
         - name: Projekta cenrāži
@@ -86,6 +118,22 @@
               items:
                 - name: Pārdošanas cenrāžu iestatījums
                   href: pricing-costing/sales-price-list-setup.md
+                - name: Iestatīt darba rēķinu likmes
+                  href: pricing-costing/set-up-labor-bill-rate.md
+                - name: Darba izmaksu likmju iestatīšana
+                  href: pricing-costing/set-up-labor-cost-rate.md
+                - name: Izmaksu un pārdošanas likmju iestatīšana izdevumiem
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: Noklusējuma cenrāži
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: Izmaksu cenu atrisināšana aprēķiniem un faktiskajiem datiem
+                  href: pricing-costing/cost-price-resolution.md
+        - name: Noklusējumi un ignorējumi
+          items:
+            - name: Atrisināt aprēķinu un faktisko pārdošanas cenu
+              href: pricing-costing/sales-price-resolution.md
+            - name: Cenrāžu kopēšana
+              href: pricing-costing/copy-price-lists.md
         - name: Cenu noteikšanas dimensijas
           items:
             - name: Cenu noteikšanas dimensiju pārskats
@@ -146,6 +194,10 @@
           items:
             - name: Sadarbība ar Office grupām
               href: project-management/collaboration-groups.md
+        - name: Izstrādātāja piezīmes
+          items:
+            - name: 'Projekta veidņu izstrāde, izmantojot kopēšanas projektu'
+              href: project-management/dev-copy-project.md
     - name: Resursu pārvaldība
       items:
         - name: Pamata koncepti
@@ -162,11 +214,25 @@
               href: resource-management/define-resource-requirements.md
             - name: Resursu prasību atjaunināšana
               href: resource-management/update-resource-requirements.md
+            - name: Resursa pieprasījuma iesniegšana
+              href: resource-management/submit-resource-requirements.md
+            - name: Rezervēt projektam
+              href: resource-management/book-project.md
+            - name: Piedāvāto resursu pārskats
+              href: resource-management/review-proposed-resources.md
         - name: Decentralizēta resursu rezervēšana (hibrīds)
           items:
             - name: Darba grupas dalībnieku pievienošana no darba grupas dalībnieku režģa
               href: resource-management/add-team-members-grid.md
-        - name: Atļauto metožu rezervēšana
+            - name: Vispārējo resursu vajadzību izpilde
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Resursu administrēšana
+          items:
+            - name: Prasmju un metodiku definēšana
+              href: resource-management/define-skills-proficiencies.md
+            - name: Resursu kalendāru definēšana
+              href: resource-management/define-resource-calendars.md
+        - name: Piešķiršanas metožu rezervēšana
           href: resource-management/booking-allocation-methods.md
         - name: Prasmju un kvalifikācijas modeļi
           href: resource-management/skills-proficiency-models.md
@@ -174,8 +240,16 @@
           items:
             - name: Resursu saskaņošanas pārskats
               href: resource-management/resource-reconciliation-overview.md
+            - name: Laika joslu pārvaldība
+              href: resource-management/manage-multiple-time-zones.md
     - name: Laiks
       items:
+        - name: Laika pārskats
+          href: time/time-entry-overview.md
+        - name: Laika ierakstu izveide
+          items:
+            - name: Laika ievades lietotāja saskarnes uzvedība
+              href: time/ui-behavior-time.md
         - name: Izstrādātāja piezīmes
           items:
             - name: Nedēļas laika ierakstu pielāgošanas režģis
@@ -242,8 +316,12 @@
               href: actuals/create-confirm-correction-journals.md
     - name: Proforma rēķini
       items:
+        - name: Izrakstīšanas rezervju pārvaldība
+          href: proforma-invoicing/manage-billing-backlog.md
         - name: Izveidot manuālu proformas rēķinu
           href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Apstiprināt pro formas rēķinu
+          href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Labotie rēķini
           href: proforma-invoicing/corrective-invoices.md
         - name: Automātiskas rēķina izveides konfigurēšana
@@ -252,6 +330,8 @@
       items:
         - name: Projekta kategoriju iestatīšana
           href: project-accounting/configure-project-categories.md
+        - name: Konfigurēt iekšējo projektu uzskaiti
+          href: project-accounting/configure-accounting-internal-projects.md
         - name: Konfigurēt apmaksājamo projektu uzskaiti
           href: project-accounting/configure-accounting-billable-projects.md
 - name: "Lite izvietošana\_— pāreja uz proforma rēķina izrakstīšanu"
@@ -280,10 +360,14 @@
           href: pro/sales/managing-leads-sales.md
         - name: Iespēju pārvaldība
           items:
+            - name: Pārvaldiet uz projektiem balstītas iespējas
+              href: sales/manage-project-based-opportunities.md
             - name: Iespēju galvene
               href: pro/sales/opportunity-header-sales.md
             - name: Projektu līnijas
               href: pro/sales/project-based-lines-sales.md
+            - name: Uz projektu balstītu iespēju kopēšana
+              href: sales/copy-project-based-opportunity.md
             - name: Projekta piedāvājuma izveide no iespējām
               href: sales/link-quotes-opportunities.md
             - name: Uz produktiem balstītas iespēju rindas
@@ -316,18 +400,70 @@
                   href: pro/sales/create-estimate-quote-line-sales.md
                 - name: Projekta piedāvājuma rindas (pārdošana)
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Projekta aprēķinu importēšana uz projekta piedāvājuma rindu
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Rēķinu grafiki projekta piedāvājuma rindās
+                  href: sales/invoice-schedule-quote-line.md
+                - name: Piedāvājuma rindas maksas komponentu konfigurēšana
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: Projekta piedāvājuma rindas kopēšana
           href: sales/lose-quote.md
         - name: Piedāvājuma aizvēršana
           href: pro/sales/win-quote-sales.md
+    - name: Līgumu pārvaldība
+      items:
+        - name: Projekta līgumu pamata koncepti
+          href: pro/sales/contracts-key-concepts-sales.md
+        - name: Projekta līguma lauki un informācija
+          href: pro/sales/project-contract-settings-sales.md
+        - name: Uz produktiem balstītas līguma rindas
+          items:
+            - name: Uz produktiem balstītu līgumu rindu pārskats
+              href: pro/sales/product-based-contract-lines-overview-sales.md
+            - name: Produktu izmaksu aprēķina līgumu rindas
+              href: pro/sales/cost-product-based-contract-lines-sales.md
+        - name: Projekta līguma rindas
+          items:
+            - name: Uz projektiem balstītu līguma rindu maksas komponentu konfigurēšana
+              href: pro/sales/configure-chargeable-components-contract-line.md
+            - name: Budžeta importēšana uz projekta līguma rindu
+              href: pro/sales/import-estimate-project-contract-line-sales.md
+            - name: Rēķinu grafiku izveide projekta līguma rindā
+              href: pro/sales/invoice-schedules-contract-line-sales.md
+        - name: Projekta līgumu kopēšana
+          href: pro/sales/copy-project-contracts-sales.md
+        - name: Projekta līguma apstiprināšana
+          href: pro/sales/confirm-contract-sales.md
+        - name: 'Avansi un līgumi, kuru pamatā ir saistības'
+          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
     - name: Cenu un izmaksu noteikšana
       items:
+        - name: Cenrāžu iestatīšana
+          href: pricing-costing/price-list-setup.md
         - name: Projekta cenrāži
           items:
             - name: Cenrāža iestatījumi pārdošanai
               items:
                 - name: Pārdošanas cenrāžu iestatījums
                   href: pricing-costing/sales-price-list-setup.md
+                - name: Darba rēķinu likmju iestatīšana
+                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+                - name: Darba rēķinu izmaksu iestatīšana
+                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+                - name: Izmaksu un pārdošanas cenu iestatīšana kataloga produktiem
+                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+                - name: Izmaksu un pārdošanas likmju iestatīšana izdevumiem
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: Noklusējuma cenrāži
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: Izmaksu cenu atrisināšana aprēķiniem un faktiskajiem datiem
+                  href: pro/pricing-costing/cost-price-resolution-sales.md
+        - name: Noklusējumi un ignorējumi
+          items:
+            - name: Aprēķinu un faktisko pārdošanas cenu atrisināšana
+              href: pro/pricing-costing/sales-price-resolution-sales.md
+            - name: Cenrāžu kopēšana
+              href: pricing-costing/copy-price-lists.md
         - name: Cenu noteikšanas dimensijas
           items:
             - name: Esoša lauka kā cenu dimensijas izmantošana
@@ -402,11 +538,25 @@
               href: resource-management/define-resource-requirements.md
             - name: Resursu prasību atjaunināšana
               href: resource-management/update-resource-requirements.md
+            - name: Resursa pieprasījuma iesniegšana
+              href: resource-management/submit-resource-requirements.md
+            - name: Rezervēt projektam
+              href: resource-management/book-project.md
+            - name: Piedāvāto resursu pārskats
+              href: resource-management/review-proposed-resources.md
         - name: Decentralizēta resursu rezervēšana (hibrīds)
           items:
             - name: Darba grupas dalībnieku pievienošana no darba grupas dalībnieku režģa
               href: resource-management/add-team-members-grid.md
-        - name: Atļauto metožu rezervēšana
+            - name: Vispārējo resursu vajadzību izpilde
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Resursu administrēšana
+          items:
+            - name: Prasmju un metodiku definēšana
+              href: resource-management/define-skills-proficiencies.md
+            - name: Resursu kalendāru definēšana
+              href: resource-management/define-resource-calendars.md
+        - name: Piešķiršanas metožu rezervēšana
           href: resource-management/booking-allocation-methods.md
         - name: Prasmju un kvalifikācijas modeļi
           href: resource-management/skills-proficiency-models.md
@@ -414,8 +564,16 @@
           items:
             - name: Resursu saskaņošanas pārskats
               href: resource-management/resource-reconciliation-overview.md
+            - name: Laika joslu pārvaldība
+              href: resource-management/manage-multiple-time-zones.md
     - name: Laiks
       items:
+        - name: Laika pārskats
+          href: time/time-entry-overview.md
+        - name: Laika ierakstu izveide
+          items:
+            - name: Laika ievades lietotāja saskarnes uzvedība
+              href: time/ui-behavior-time.md
         - name: Izstrādātāja piezīmes
           items:
             - name: Nedēļas laika ierakstu pielāgošanas režģis
@@ -440,9 +598,520 @@
               href: actuals/create-confirm-correction-journals.md
         - name: Proforma rēķini
           items:
-            - name: Izveidot manuālu proformas rēķinu
-              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Izrakstīšanas rezervju pārvaldība
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Manuālu proformas rēķinu izveide
+              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+            - name: Honorāra vai avansa aprēķins
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
             - name: Labotie rēķini
               href: proforma-invoicing/corrective-invoices.md
             - name: Automātiskas rēķina izveides konfigurēšana
               href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: 'Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem'
+  items:
+    - name: Pārskats par projektu pārvaldību un uzskaiti
+      href: prod-pma/overview-project-management-accounting.md
+    - name: Starpuzņēmumu rēķinu izrakstīšana
+      href: prod-pma/intercompany-invoicing.md
+    - name: Starpuzņēmumu projektu rēķinu izrakstīšanas konfigurēšana
+      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Darba un izdevumu standarta izmaksu konfigurēšana
+      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Kreditora maksājumu saglabāšanas nosacījumu izveide un lietošana
+      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Apmaksātu kreditoru maksājumu iestatīšana un lietošana
+      href: prod-pma/setup-manage-vendor-payments.md
+    - name: Projekta izmaksu uzkrāšana pirkšanas kvītīs
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+    - name: Projekta rēķina izrakstīšana
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Projektu līgumi
+      href: prod-pma/project-contracts.md
+    - name: 'Papildu līgumu norēķiniem, pamatojoties uz progresu, izveide'
+      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+    - name: Projekta prognozes un budžeti
+      href: prod-pma/project-forecasts-budgets.md
+    - name: Budžeta modeļu izveide projekta budžetiem
+      href: prod-pma/create-forecast-models-project-budgets.md
+    - name: Projekta budžeta pārcelšana finanšu gada beigām
+      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Projekta pārdošanas pasūtījumi
+      href: prod-pma/project-sales-orders.md
+    - name: Pirkšanas pasūtījumi projektam
+      href: prod-pma/project-purchase-orders.md
+    - name: Projekta piedāvājumi
+      href: prod-pma/project-quotations.md
+    - name: 'Projekta piedāvājuma apstiprināšana, labošana un sūtīšana'
+      href: prod-pma/confirm-update-send-project-quotation.md
+    - name: Piedāvājuma pārsūtīšana projektam
+      href: prod-pma/transfer-quote-new-existing-project.md
+    - name: Projektu resursu izmantošana
+      items:
+        - name: Projekta resursu izmantošanas pārskats
+          href: prod-pma/project-resourcing.md
+        - name: Projekta resursu iestatīšana
+          href: prod-pma/set-up-project-resources.md
+        - name: Resursu kompetenču pārvaldība
+          href: prod-pma/manage-resource-competencies.md
+        - name: Jauna projekta izveide
+          href: prod-pma/create-new-project.md
+        - name: Uz lomām balstītu cenu iestatīšana
+          href: prod-pma/set-up-role-based-pricing.md
+        - name: Projekta izveides darba grupa
+          href: prod-pma/create-project-team.md
+        - name: Resursu noslodzes sinhronizēšana
+          href: prod-pma/synchronize-resource-capacity.md
+        - name: Projekta resursu plānošanas veiktspēja
+          href: prod-pma/project-scheduling-performance.md
+        - name: Lomu iestatīšana darba sadalījuma struktūras veidnēm
+          href: prod-pma/set-up-roles-wbs-template.md
+        - name: Resursa izpilde plānotiem resursiem
+          href: prod-pma/resource-fulfillment-planned-resources.md
+    - name: Vienumu saņemšana pirkšanas pasūtījumā no vienuma prasībām
+      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+    - name: Darba sadalījuma struktūras
+      items:
+        - name: Darba sadalījuma struktūru pārskats
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client integrācija
+          href: prod-pma/project-integration.md
+        - name: Project mobilo programmu pārskats
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Projekta laika ieraksta mobilā darbvieta
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Projekta darba laika uzskaites tabulas mobilā programma
+          href: prod-pma/project-timesheet.md
+        - name: Projekta laika uzskaites tabulas mobilajā ierīcē
+          href: prod-pma/mobile-timesheets.md
+        - name: Pielāgotu lauku ieviešana projekta darba laika uzskaites tabulas mobilajā programmā
+          href: prod-pma/custom-fields-mobile.md
+    - name: Projektu piešķires
+      href: prod-pma/project-grants.md
+    - name: Projekta aprēķina likvidēšana
+      href: prod-pma/eliminate-project-estimate.md
+- name: Izdevumu pārvaldība
+  items:
+    - name: Izdevumu pārvaldības pārskats
+      href: prod-exp/expense-management.md
+    - name: Atjaunotas izdevumu atskaites
+      href: prod-exp/ExpenseWorkspaceNew.md
+    - name: Izdevumu pārvaldības plānošana
+      href: prod-exp/plan-expense-management.md
+    - name: Izdevumu pārvaldības parametri
+      href: prod-exp/Expense-Management-Parameters.md
+    - name: Izdevumu pārvaldības mobilā darbvieta
+      href: prod-exp/expense-management-mobile-workspace.md
+    - name: Izdevumu pārvaldības darbplūsmu iestatīšana
+      href: prod-exp/expense-workflows.md
+    - name: Izdevumu pārvaldības darbplūsma
+      href: prod-exp/expense-workflow.md
+    - name: Izdevumu deleģēšanas pārvalde
+      href: prod-exp/manage-expense-delegation.md
+    - name: Izdevumu kvīšu apstrāde
+      href: prod-exp/expense-receipt-processing.md
+    - name: Kredītkaršu transakciju importēšana un uzturēšana
+      href: prod-exp/import-credit-card.md
+    - name: Sadalījums uz izdevumu atskaitēm
+      href: prod-exp/expense-report-distributions.md
+    - name: Starpuzņēmumu izdevumi
+      href: prod-exp/intercompany-expense.md
+    - name: Izdevumu politiku definēšana
+      href: prod-exp/travel-expense-policies.md
+    - name: Izdevumu pārskatu skatīšana
+      href: prod-exp/view-expense-report.md
+    - name: Izdevumu atskaites publicēšana
+      href: prod-exp/post-expense.md
+    - name: Izdevumu atskaites un vairāki apstiprinātāji
+      href: prod-exp/expense-report-multiple-approvers.md
+    - name: PVN atmaksa modulī Izdevumu pārvaldība
+      href: prod-exp/VAT-expense-report.md
+    - name: Dienasnaudas noteikumi
+      href: prod-exp/per-diem.md
+    - name: Ceļojuma pieprasījumi
+      href: prod-exp/travel-req.md
+    - name: Personiskie izdevumi izmaksu atskaitē
+      href: prod-exp/personal-expenses.md
+- name: Dynamics 365 Project Service Automation
+  items:
+    - name: Project Service Automation pārskats
+      href: psa/overview.md
+    - name: Jaunumi
+      items:
+        - name: 'Atjauninājumu izlaiduma grafiks, kas paredzēts Project Service 3.x'
+          href: psa/version-history-ps.md
+        - name: "24.\_izlaiduma V3 atjauninājuma vai izmaiņu jaunumi"
+          href: psa/whats-new-ur-24.md
+        - name: "23.\_izlaiduma V3 atjauninājuma vai izmaiņu jaunumi"
+          href: psa/whats-new-ur-23.md
+        - name: "22.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-21.md
+        - name: "20.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-20.md
+        - name: "19.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-19.md
+        - name: "18.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-18.md
+        - name: "17.5.\_izlaiduma V3, Hotfix atjauninājuma vai izmaiņu jaunumi"
+          href: psa/whats-new-ur-17-5.md
+        - name: "17.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-17.md
+        - name: "16.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-16.md
+        - name: "15.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-15.md
+        - name: "14.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-14.md
+        - name: "13.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-13.md
+        - name: "12.\_izlaiduma V3 atjauninājuma jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-12.md
+        - name: "Jaunumi un izmaiņas Project Service Automation V3 1.\_laidienā 2020"
+          href: psa/whats-new-v3-2020-wave1.md
+        - name: Jaunumi un izmaiņas Project Service Automation V3
+          href: psa/whats-new-changed-v3.md
+    - name: Project Service Automation 3.x ieviešana
+      items:
+        - name: Ieviešanas pārskats
+          href: psa/install-sample-data-3-x.md
+    - name: Jaunināšana
+      items:
+        - name: Project Service Automation atjauninājums (3.x)
+          href: psa/upgrade-psa-home-page.md
+        - name: "Jaunināšanas apsvērumi\_— versija 2.x vai 1.x uz versiju 3"
+          href: psa/upgrade-v3.md
+        - name: Izstrāde (3.x)
+          href: psa/developer-guides/overview-dev-notes-v3.x.md
+        - name: Entītijas izmaiņas
+          href: psa/developer-guides/entity-changes-v3.x.md
+        - name: Laiks un izdevumi
+          href: psa/developer-guides/time-expense-changes-v3.x.md
+        - name: Resursu pārvaldība
+          href: psa/developer-guides/resource-management-changes-v3.x.md
+        - name: Novecojuši tīmekļa resursi Project Service Automation 3.x versijai
+          href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Projektu plānošana
+      items:
+        - name: Projekta plānošanas pārskats
+          href: psa/project-planning.md
+        - name: Projektu grafiki
+          href: psa/project-creating.md
+        - name: Projekta izmaksas un ieguvumi
+          href: psa/project-estimating.md
+        - name: Pārdošanas tāmes un projekti
+          href: psa/project-leveraging.md
+        - name: Projekta norise un izmaksu patēriņš
+          href: psa/project-tracking.md
+        - name: Projekta veidnes
+          href: psa/project-templates.md
+        - name: Projekta posmi
+          href: psa/project-stages.md
+        - name: Projekta iestatījumi
+          href: psa/project-settings.md
+    - name: Cenu noteikšana un izmaksu aprēķināšana
+      items:
+        - name: Cenu noteikšana un izmaksu pārskats
+          href: psa/pricing-costing-dimensions.md
+        - name: Risinājuma izveide pielāgotām cenu noteikšanas dimensijām
+          href: psa/custompricingdimensionssolution.md
+        - name: Pielāgotu lauku un entītiju izveide
+          href: psa/create-custom-fields-entities.md
+        - name: 'Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām '
+          href: psa/field-references.md
+        - name: 'Pielāgotu lauku kā cenu kategoriju iestatīšana '
+          href: psa/set-up-pricing-dimensions.md
+        - name: 'Spraudņu atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas'
+          href: psa/update-plug-in-attributes.md
+        - name: Elementu kā cenu noteikšanas dimensiju izmantošana
+          items:
+            - name: Esošu lauku kā cenu noteikšanas dimensiju izmantošana programmā Project Service
+              href: psa/use-existing-field.md
+            - name: Rezervējamu resursu kā cenu noteikšanas dimensiju izmantošana
+              href: psa/bookable-resource-pricing-dimension.md
+            - name: Darījumu kategoriju kā cenu noteikšanas dimensiju izmantošana
+              href: psa/transaction-category-pricing-dimension.md
+        - name: 'Rezervējamais resurss, kam projektā ir vairākas lomas'
+          href: psa/bookable-resource-multiple-roles.md
+        - name: Cenu noteikšanas dimensiju izslēgšana
+          href: psa/turn-off-pricing-dimension.md
+    - name: 'Piedāvājumi, cenu noteikšana un norēķini'
+      items:
+        - name: 'Piedāvājumu, cenu noteikšanas un norēķinu pārskats'
+          href: psa/quote-bill-price.md
+        - name: Piedāvājums
+          items:
+            - name: Pārdošanas procesi
+              href: psa/basic-sales-process.md
+            - name: Vienību grupas un vienības
+              href: psa/advanced-units.md
+            - name: Organizācijas vienības
+              href: psa/advanced-organizational.md
+            - name: Piedāvājumi un piedāvājumu rindas
+              href: psa/basic-quote-lines.md
+            - name: Produktu piedāvājuma rindas
+              href: psa/product-based-quote-lines.md
+            - name: Projekta piedāvājumu analizēšana
+              href: psa/basic-analyzing-quotes.md
+        - name: Cenu noteikšana
+          items:
+            - name: Projekta cenu noteikšana
+              href: psa/basic-pricing.md
+            - name: Preču kataloga cenu noteikšana
+              hreF: psa/product-catalog-pricing.md
+            - name: Uzņēmuma darījumi
+              href: psa/basic-business-transactions.md
+            - name: Novērtējumi
+              href: psa/estimates.md
+        - name: Norēķini
+          items:
+            - name: Projekta piedāvājumu analizēšana
+              href: psa/basic-analyzing-quotes.md
+            - name: Iepriekš apstiprinātā laika vai izdevumu ierakstu atsaukšana
+              href: psa/recall-approved.md
+            - name: Iepriekš apstiprinātā laika vai izdevumu ierakstu atcelšana
+              href: psa/cancel-approval.md
+            - name: Faktiski
+              href: psa/actuals.md
+            - name: Ar apstiprinātiem laika un izdevumu ierakstiem izveidoto faktisko ierakstu lielapjoma korekcija
+              href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+            - name: Pārskatīt projektu norēķinu neizpildīto darbību žurnālu
+              href: psa/review-invoicing-backlog.md
+            - name: Rēķinu izrakstīšana
+              href: psa/invoicing.md
+            - name: Vairākvalūtu scenāriji
+              href: psa/advanced-currency.md
+    - name: Resursu projekti
+      items:
+        - name: Resursu izmantošanas projektu pārskats
+          href: psa/resource-management.md
+        - name: Vispārīgu grāmatojamu resursu piešķiršana uzdevumam un resursu vajadzību ģenerēšana
+          href: psa/assign-generic-bookable-resource.md
+        - name: Rezervēt projekta darba grupai rezervējamos resursus un piešķirt uzdevumu
+          href: psa/assign-named-bookable-resource.md
+        - name: Resursa piešķiršana uzdevumam
+          href: psa/FAQ-assign-resources-to-tasks.md
+        - name: Rezervēt nosauktos resursus no resursu vajadzībām
+          href: psa/book-named-resource.md
+        - name: Resursu rezervējumi un to saistība ar uzdevumu piešķirēm
+          href: psa/FAQ-bookings-and-assignments.md
+        - name: Resursa pieprasījuma iesniegšana
+          href: psa/submit-resource-request.md
+        - name: Piedāvātā resursa akceptēšana vai noraidīšana
+          href: psa/accept-reject-proposed-resource.md
+        - name: Skatīt resursu apmaksājamo lietojumu
+          href: psa/FAQ-utilization-view.md
+        - name: Rezervējumu un norīkojumu saskaņošana
+          href: psa/reconcile-booking-assignment.md
+    - name: Resursu pārvaldība
+      items:
+        - name: Resursu pārvaldības mājas lapa
+          href: psa/resource-management-home-page.md
+        - name: Resursu pārvaldība
+          href: psa/manage-resources.md
+        - name: Pamata koncepti
+          href: psa/reports-key-concepts.md
+        - name: Resursu pieprasījumu izpilde
+          href: psa/resource-management-fulfill-requests.md
+        - name: Pieprasošie resursi
+          href: psa/resource-management-propose-resources.md
+        - name: Resursu rezervēšana
+          href: psa/resource-management-book-resources-scheduleboard.md
+        - name: Atļauto metožu rezervēšana
+          href: psa/FAQ-allocation-methods.md
+        - name: Vieglās rezervācijas prasības
+          href: psa/resource-management-softbook-requirements.md
+        - name: Resursu vieglā rezervācija
+          href: psa/FAQ-soft-book.md
+        - name: Projekta rezervācijas izveide no paneļa Grafiks
+          href: psa/FAQ-project-booking-schedule-board.md
+        - name: Prasmju un kvalifikācijas modeļi
+          href: psa/resource-management-skills-proficiency.md
+        - name: Resursu pārvaldības BUJ
+          href: psa/resource-management-faq.md
+    - name: Atskaišu veidošana
+      items:
+        - name: Atskaišu izveides pārskats
+          href: psa/reports-reporting-dynamics-365-project-service.md
+        - name: Informācijas paneļi
+          href: psa/reports-dashboards.md
+        - name: Darbs ar Project Service Automation datu modeli
+          href: psa/reports-working-project-service-data-model.md
+    - name: Laika ieraksts
+      items:
+        - name: Laika ierakstu izveide
+          href: psa/time-entries.md
+        - name: Laika ierakstu kalendārs
+          href: psa/time-entry-calendar.md
+        - name: Nedēļas laika ierakstu pielāgošana
+          href: psa/time-entry-extensibility-v3.md
+    - name: BUJ un traucējummeklēšana
+      items:
+        - name: Kāpēc cena pēc noklusējuma ir nulle par faktiskajiem izdevumiem?
+          href: psa/FAQ-zero-price-expense-cost-actuals.md
+        - name: Kāpēc uz izdevumu pārdošanas faktiskajiem datiem attiecas nulles cenas noklusējums?
+          href: psa/FAQ-zero-price-expense-sales-actuals.md
+        - name: Kāpēc cenu noklusējums ir nulle par laika izmaksu faktiskajiem datiem?
+          href: psa/FAQ-zero-price-time-cost-actuals.md
+        - name: Kāpēc cenas noklusējums ir nulle laika faktiskajiem datiem?
+          href: psa/FAQ-zero-price-time-sales-actuals.md
+        - name: Kāpēc nevar izdzēst ierakstus no entītijas Faktiskās vērtības?
+          href: psa/FAQ-deleting-actuals.md
+    - name: Project Service Automation 2.x un 1.x
+      items:
+        - name: BUJ un traucējummeklēšana
+          items:
+            - name: Kā uzdevumam piešķirt resursu (lietotnes versija 2.x)?
+              href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
+            - name: Kā veikt resursu vieglo rezervāciju (lietotnes versija 2.x)?
+              href: psa/FAQ-soft-book-in-web-app.md
+            - name: Kā pielāgot projekta posmu biznesa procesu plūsmu?
+              href: psa/FAQ-customize-bpf.md
+            - name: Darba sadalījuma struktūras jaunināšanas apsvērumi
+              href: psa/upgrade-considerations-tasks.md
+        - name: Tehniskie dokumenti
+          href: psa/white-papers.md
+        - name: Administratora vednis
+          href: psa/admin-guide.md
+        - name: Instalēšana un pielāgošana
+          href: psa/install-customize.md
+        - name: Demonstrācijas datu izmantošana
+          href: psa/use-demo-data.md
+        - name: Project Service Automation konfigurēšana
+          items:
+            - name: Project Service Automation programmas konfigurēšana
+              href: psa/configure.md
+            - name: Laika vienību iestatīšana
+              href: psa/set-up-time-units.md
+            - name: Valūtas un valūtas kursu iestatīšana
+              href: psa/set-up-currencies-exchange-rates.md
+            - name: Uzņēmuma vienību izveide
+              href: psa/create-organizational-units.md
+            - name: Rēķinu biežuma iestatīšana
+              href: psa/set-up-invoice-frequencies.md
+            - name: Darījumu kategoriju iestatīšana
+              href: psa/configure-transaction-categories.md
+            - name: Izdevumu kategoriju iestatīšana
+              href: psa/configure-expense-categories.md
+            - name: Preču kataloga vienību izveide
+              href: psa/create-product-catalog-items.md
+            - name: Cenrāža izveide
+              href: psa/create-price-list.md
+        - name: Resursi
+          items:
+            - name: Resursu iestatīšana
+              href: psa/set-up-resources.md
+            - name: Resursu pievienošana
+              href: psa/add-resources.md
+            - name: Resursu prasmju pievienošana
+              href: psa/add-resource-skills.md
+            - name: Kvalifikācijas modeļu iestatīšana
+              href: psa/set-up-proficiency-models.md
+            - name: Resursu lomu iestatīšana
+              href: psa/add-resource-roles.md
+            - name: Resursu lomu konfigurēšana
+              href: psa/configure-resource-roles.md
+            - name: Prasmju saistīšana ar resursiem
+              href: psa/associate-skills-with-resources.md
+            - name: Prasmju un resursu lomu saistīšana
+              href: psa/associate-skills-with-resource-roles.md
+            - name: Darba stundu veidnes izveide
+              href: psa/create-work-hours-template.md
+            - name: Kalendāra piemērošana resursam
+              href: psa/apply-calendar-resource.md
+            - name: Papildu iestatījumu konfigurēšana
+              href: psa/configure-additional-parameters-settings.md
+            - name: Project Finder Mobile iespējošana
+              href: psa/enable-project-finder-mobile-app-features.md
+        - name: Resursu pārvaldība
+          items:
+            - name: Resursu pārvaldības vednis
+              href: psa/resource-manager-guide.md
+            - name: Resursu pieprasījumu pārvaldība
+              href: psa/manage-resource-requests.md
+            - name: Resursu plānošana projektam
+              href: psa/schedule-resources-project.md
+            - name: Resursu pieejamības skats
+              href: psa/view-resource-availability.md
+            - name: Resursu lietojuma skats
+              href: psa/view-resource-utilization.md
+            - name: Universal Resource Scheduling (URS)
+              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+        - name: Projektu pārvaldība
+          items:
+            - name: Projekta pārvaldnieka vednis
+              href: psa/project-manager-guide.md
+            - name: Darba novērtējuma iesniegšana
+              href: psa/provide-estimates-project-during-sales-process.md
+            - name: Projekta izveide
+              href: psa/create-project.md
+            - name: Projekta ar darbu sadalījuma struktūru plānošana
+              href: psa/schedule-project-work-breakdown-structure.md
+            - name: Projekta izmaksu un ieņēmumu tāmes noteikšana
+              href: psa/determine-project-cost-revenue-estimates.md
+            - name: Projekta norises un izmaksu izsekošana
+              href: psa/track-project-progress-cost.md
+            - name: Projekta veidnes izveide
+              href: psa/create-project-template.md
+            - name: Resursu pieprasījumu iesniegšana
+              href: psa/submit-resource-requests.md
+            - name: Office 365 grupas izveide projektam
+              href: psa/create-office-365-group-project.md
+            - name: Dokumentu pievienošana projektam
+              href: psa/add-documents-project.md
+            - name: Projekta statusa izsekošana
+              href: psa/track-project-status.md
+            - name: Projekta darba grupas dalībnieku skatīšana un rezervāciju pārvalde
+              href: psa/view-project-team-members-manage-bookings.md
+            - name: Projekta izmaksu skatīšana un rediģēšana
+              href: psa/view-edit-project-estimates.md
+            - name: Laika un izmaksu aprēķini
+              href: psa/approve-time-expenses.md
+            - name: Projekta faktisko datu pārskats
+              href: psa/review-project-actuals.md
+            - name: Rēķinu skatīšana un sūtīšana
+              href: psa/view-send-invoices.md
+            - name: Informācijas paneļu un atskaišu skatīšana
+              href: psa/view-dashboards-reports.md
+            - name: 'Pievienojumprogrammas izmantošana, lai plānotu darbu programmā Microsoft Project'
+              href: psa/add-plan-work-microsoft-project.md
+        - name: '  Uzņēmumu pārvaldība'
+          items:
+            - name: Konta pārvaldnieka vednis
+              href: psa/account-manager-guide.md
+            - name: Klienta konta izveide
+              href: psa/create-customer-account.md
+            - name: Projekta iespēju izveide
+              href: psa/create-project-opportunity.md
+            - name: Projekta piedāvājuma izveide
+              href: psa/create-project-quote.md
+            - name: Projekta līguma izveide
+              href: psa/create-project-contract.md
+        - name: Laiks un izdevumi
+          items:
+            - name: 'Laiks, izdevumi un sadarbība'
+              href: psa/time-expense-collaboration-guide.md
+            - name: Lietotņu ieguve
+              href: psa/get-apps.md
+            - name: Pierakstīties
+              href: psa/sign-in.md
+            - name: Grafika skatīšana
+              href: psa/view-schedule.md
+            - name: Projektu pārvaldība un rezervācijas pakalpojumā Office 365
+              href: psa/manage-project-bookings-office-365-calendar.md
+            - name: Laika ievade
+              href: psa/enter-time.md
+            - name: Izdevumu ievade
+              href: psa/enter-expenses.md
+            - name: Deleģēšanas laiks vai izdevumu ievade
+              href: psa/allow-someone-else-enter-time-entry-expense.md
+            - name: Plāna beigu laiks
+              href: psa/schedule-time-off.md
+            - name: 'Sadarbība, izmantojot Office 365 grupas] (collaborate-project-team-members-office-365-groups.md'
+            - name: 'Atrast projektus, izmantojot Project Finder mobile'
+              href: psa/find-next-project-finder-mobile-app.md
+            - name: Projekta resursu centrmezgla vednis
+              href: psa/project-resource-hub-users-guide.md
+        - name: Izstrādātāja piezīmes
+          items:
+            - name: Pielāgotu veidlapu pievienošana entītijām
+              href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
