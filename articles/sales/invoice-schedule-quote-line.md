@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908369"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080377"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Rēķinu grafiki projekta piedāvājuma rindās
 
@@ -32,7 +32,7 @@ Ja projekta piedāvājuma rindas norēķinu metode ir Laiks un materiāli, sist�
 3. Atveriet laika un materiālu piedāvājuma rindu, kurai jāizveido rēķina grafiks, pamatojoties uz datumiem. 
 4. Cilnē **Rēķinu grafiks** atlasiet vērtības laukos **Rēķina perioda sākuma datums** un **Rēķini biežums**. 
 5. Apakšrežģī atlasiet vienumu **Izveidot rēķinu izrakstīšanas grafiku**.
-6. Programma izveido rēķinu izrakstīšanas grafiku, kurā lauki **Rēķina izpildes datums**, **Darījuma pēdējais datums** un **Izpildes statuss** iestatīti tālāk norādītajā veidā.
+6. Programma izveido rēķinu izrakstīšanas grafiku, kurā lauki **Rēķina izpildes datums** , **Darījuma pēdējais datums** un **Izpildes statuss** iestatīti tālāk norādītajā veidā.
 
     - **Rēķina izpildes datums** ir iestatīts uz datumu, ko nosaka, pamatojoties uz rēķinu biežumu.
     - **Darījuma pēdējais datums** ir iestatīts uz dienu pirms **Rēķina izpildes datuma**.
@@ -58,7 +58,7 @@ Ja projekta piedāvājuma rindai ir **Fiksēta** norēķinu metode, sistēma izv
 
 Fiksētas cenas atskaites punktus var izveidot arī manuāli, ja tie nav periodiski sadalīti. Lai manuāli izveidotu atskaites punktu, veiciet tālāk aprakstītās darbības.
 
-Atveriet Fiksētās cenas piedāvājuma rindu, kurai ir nepieciešams izveidot atskaites punktu. Cilnē **Rēķinu izrakstīšanas grafiks**, kas atrodas apakšrežģī, atlasiet vienumu **+ Izveidot jaunu piedāvājuma rindas atskaites punktu** un ievadiet nepieciešamo informāciju, pamatojoties uz šo tabulu.
+Atveriet Fiksētās cenas piedāvājuma rindu, kurai ir nepieciešams izveidot atskaites punktu. Cilnē **Rēķinu izrakstīšanas grafiks** , kas atrodas apakšrežģī, atlasiet vienumu **+ Izveidot jaunu piedāvājuma rindas atskaites punktu** un ievadiet nepieciešamo informāciju, pamatojoties uz šo tabulu.
 
 | **Lauks** | **Atrašanās vieta** | **Atbilstība, mērķis un norādes** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |

@@ -3,23 +3,23 @@ title: Projekta kopēšana
 description: Šajā tēmā sniegta informācija par projektu kopēšanu risinājumā Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908363"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080385"
 ---
 # <a name="copy-a-project"></a>Projekta kopēšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Izmantojot Dynamics 365 Project Operations, varat ātri izveidot jaunus projektus, izmantojot darbību **Kopēt projektu** veidlapā **Projekti**. Lai kopētu projektu, atlasiet projektu un pēc tam atlasiet vienumu **Kopēt**. Ar šo darbību tiks kopēta šāda informācija:
+Izmantojot Dynamics 365 Project Operations, varat ātri izveidot jaunus projektus, atlasot **Kopēt projektu** veidlapā **Projekti**. Lai kopētu projektu, atveriet to projektu, ko vēlaties kopēt, un pēc tam atlasiet **Kopēt projektu**. Ar šo darbību tiks kopēta šāda informācija:
 
 - Projekta rekvizīti
 - Darba sadalījuma struktūra
@@ -58,4 +58,6 @@ Kad tiek kopēta projekta darba grupa no avota projekta, tiek kopēti vispārēj
 
 ## <a name="estimates"></a>Novērtējumi
 
-Kopējot projektu, gan resursu, gan izmaksu aprēķinu rindas tiek kopētas no avota projekta.
+Kopējot projektu, gan resursu, gan izmaksu aprēķinu rindas tiek kopētas no avota projekta. 
+
+Informāciju par to, kā programmiski piekļūt projekta kopēšanai, skatiet rakstā [Projekta veidņu izstrāde, izmantojot projekta kopēšanu](dev-copy-project.md).

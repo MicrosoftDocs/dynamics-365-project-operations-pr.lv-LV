@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080318"
 ---
 # <a name="per-diems"></a>Dienasnauda
 
@@ -30,4 +30,4 @@ Dienasnauda ir pabalsts, ko maksā darba ņēmējam, kurš dodas komandējumā. 
 4. Lai norādītu maltīšu procentuālo atskaitījumu brokastīm, pusdienām vai vakariņām, atjauniniet laukus lapā **Izdevumu pārvaldības parametri** cilnē **Dienasnauda**. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Izdevumu iesniegšana, izmantojot dienasnaudu
-Lai iesniegtu izdevumus, kas attiecas uz dienasnaudu, izmantojiet izdevumu kategoriju **Dienasnauda**, kad veidojat izdevumu atskaiti. Ievadiet **Dienasnauda no datuma**, **Dienasnauda līdz datumam** un **Dienasnaudas atrašanās vieta**. Summu aprēķina, par pamatu izmantojot dienasnaudas likmes izvēlētajai atrašanās vietai, un atskaitījums par maltītēm tiek aprēķināts, par pamatu izmantojot dienasnaudas likmju līmeņus.
+Lai iesniegtu izdevumus, kas attiecas uz dienasnaudu, izmantojiet izdevumu kategoriju **Dienasnauda** , kad veidojat izdevumu atskaiti. Ievadiet **Dienasnauda no datuma** , **Dienasnauda līdz datumam** un **Dienasnaudas atrašanās vieta**. Summu aprēķina, par pamatu izmantojot dienasnaudas likmes izvēlētajai atrašanās vietai, un atskaitījums par maltītēm tiek aprēķināts, par pamatu izmantojot dienasnaudas likmju līmeņus.

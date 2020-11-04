@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965835"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080320"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Vairāku klientu pārvaldība projekta piedāvājumu rindās
+
+_**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 Projekta piedāvājuma rindas atbalsta scenārijus, kuros katrā piedāvājuma rindā ir to klientu saraksts, kas par to maksā. Šis klientu saraksts projekta piedāvājuma rindā var būt tāds pats kā piedāvājuma klientu saraksts. Varat arī mainīt klientu sarakstu, lai tas būtu atšķirīgs. Lai izveidotu izrietošu projekta līgumu, kad projekta piedāvājums ir iegūts, projekta piedāvājuma rindas klientu saraksts tiek kopēts uz atbilstošo projekta līguma rindu. Projekta piedāvājuma klienti tiek pārkopēti projekta līgumā.
 
@@ -31,11 +33,11 @@ Tālāk sniegtajā tabulā parādīti lauki piedāvājuma rindas klienta ierakst
 
 | Lauks | Atrašanās vieta | Apraksts un norādes | Lejupstraumes ietekme |
 | --- | --- | --- | --- |
-| **Uzņēmums** | Rediģējams režģis cilnē **Piedāvājuma klienti**, galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu. | Uzskaita visus aktīvos uzņēmumus. Pēc ieraksta izveides šis lauks tiek slēgts. Ja ir jāatjaunina lauks, dzēsiet un atkārtoti izveidojiet šo ierakstu. Ja esat ierakstījis faktiskās vērtības, ierakstu nevar izdzēst. | Kad izvēlaties uzņēmumu no pievienojamo uzņēmumu galvenā saraksta, Piedāvājuma rindas klients tiek pievienots arī kā Piedāvājuma klients. Piedāvājuma rindas klienti arī pārkopēti uz projekta līguma rindas klientiem, kad piedāvājums ir iegūts. |
-| **Norēķinu sadalījuma procenti** | Rediģējams režģis cilnē **Piedāvājuma klienti**, galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu. | Norāda katra nepārdotā pārdošanas darījuma procentuālo attiecību, kas tiks piešķirta šim piedāvājuma rindas klientam. | Kopēts uz projekta līguma rindas klientiem. |
-| **Nepārsniedzamais ierobežojums** | Rediģējams režģis cilnē **Piedāvājuma klienti**, galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu. | Norāda, vai pastāv vienošanās ierobežojums vai maksimālā vērtība attiecībā uz kopējo summu, par ko šim klientam tiks izrakstīts rēķins saistībā ar šo piedāvājuma rindu. | Pārkopēts uz projekta līguma rindas klientiem, kad piedāvājums ir iegūts. |
-| **Atbildīgais uzņēmums** | Rediģējams režģis cilnē **Piedāvājuma klienti**, galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu, | Juridiskā persona, kurā ir iestatīts klients modulī **Projekta pārvaldība un uzskaite**. Šis lauks ir tikai lasāms un ir iestatīts kā pats par piedāvājumu atbildīgais uzņēmums. Klientu saraksts, ko pievienot laukā **Uzņēmums**, jau tiek filtrēts kā atbildīgā uzņēmuma saraksts Project Operations modulī **Projekta pārvaldība un uzskaite**. | Atbildīgais uzņēmums ir konceptuāli līdzvērtīgs juridiskai personai. Visas izmaksas un ieņēmumi, kas uzkrājas no šī projekta, tiek ieskaitīti atbildīgā uzņēmuma Virsgrāmatā. |
-| **Tiek noapaļots** | Rediģējams režģis cilnē **Piedāvājuma klienti**, galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu. | Norāda, vai šis klients ir šīs projekta piedāvājuma rindas noklusējuma noapaļošanas klients. | Pārkopēts uz projekta līguma klientiem, kad piedāvājums ir iegūts. |
+| **Uzņēmums** | Rediģējams režģis cilnē **Piedāvājuma klienti** , galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu. | Uzskaita visus aktīvos uzņēmumus. Pēc ieraksta izveides šis lauks tiek slēgts. Ja ir jāatjaunina lauks, dzēsiet un atkārtoti izveidojiet šo ierakstu. Ja esat ierakstījis faktiskās vērtības, ierakstu nevar izdzēst. | Kad izvēlaties uzņēmumu no pievienojamo uzņēmumu galvenā saraksta, Piedāvājuma rindas klients tiek pievienots arī kā Piedāvājuma klients. Piedāvājuma rindas klienti arī pārkopēti uz projekta līguma rindas klientiem, kad piedāvājums ir iegūts. |
+| **Norēķinu sadalījuma procenti** | Rediģējams režģis cilnē **Piedāvājuma klienti** , galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu. | Norāda katra nepārdotā pārdošanas darījuma procentuālo attiecību, kas tiks piešķirta šim piedāvājuma rindas klientam. | Kopēts uz projekta līguma rindas klientiem. |
+| **Nepārsniedzamais ierobežojums** | Rediģējams režģis cilnē **Piedāvājuma klienti** , galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu. | Norāda, vai pastāv vienošanās ierobežojums vai maksimālā vērtība attiecībā uz kopējo summu, par ko šim klientam tiks izrakstīts rēķins saistībā ar šo piedāvājuma rindu. | Pārkopēts uz projekta līguma rindas klientiem, kad piedāvājums ir iegūts. |
+| **Atbildīgais uzņēmums** | Rediģējams režģis cilnē **Piedāvājuma klienti** , galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu, | Juridiskā persona, kurā ir iestatīts klients modulī **Projekta pārvaldība un uzskaite**. Šis lauks ir tikai lasāms un ir iestatīts kā pats par piedāvājumu atbildīgais uzņēmums. Klientu saraksts, ko pievienot laukā **Uzņēmums** , jau tiek filtrēts kā atbildīgā uzņēmuma saraksts Project Operations modulī **Projekta pārvaldība un uzskaite**. | Atbildīgais uzņēmums ir konceptuāli līdzvērtīgs juridiskai personai. Visas izmaksas un ieņēmumi, kas uzkrājas no šī projekta, tiek ieskaitīti atbildīgā uzņēmuma Virsgrāmatā. |
+| **Tiek noapaļots** | Rediģējams režģis cilnē **Piedāvājuma klienti** , galvenā veidlapa un ātrās izveides veidlapa attiecībā uz piedāvājuma rindas klientu. | Norāda, vai šis klients ir šīs projekta piedāvājuma rindas noklusējuma noapaļošanas klients. | Pārkopēts uz projekta līguma klientiem, kad piedāvājums ir iegūts. |
 
 ## <a name="edit-billing-split-percentages"></a>Norēķina sadalījuma procentu rediģēšana
 

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fe2ab3a1b12c00e346e27709d66b5a0cb81a3b56
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898225"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080551"
 ---
 # <a name="pricing-dimensions-overview"></a>Cenu noteikšanas dimensiju pārskats
 
@@ -36,8 +35,8 @@ Dimensijas, kas tiek izmantotas cilvēkresursos, lai iestatītu cenu un izmaksu 
 
 Šī iemesla dēļ ir pieejamas divu tālāk norādīto tipu cenu noteikšanas dimensiju vērtības:
 
-- **Opciju kopas**: Dimensijas, kas ir fiksēti uzskaitījumi kādai vērtību kopai.
-- **Uz entītiju balstītas vērtības**: Dimensijas, kas var būt dažādu vērtību kopa.
+- **Opciju kopas** : Dimensijas, kas ir fiksēti uzskaitījumi kādai vērtību kopai.
+- **Uz entītiju balstītas vērtības** : Dimensijas, kas var būt dažādu vērtību kopa.
 
 ## <a name="pricing-dimensions"></a>Cenu noteikšanas dimensijas
 
@@ -48,7 +47,7 @@ Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtu
 ## <a name="pricing-human-resource-time"></a>Cilvēkresursu laika cenu noteikšana
 Tas, kā organizācija nosaka cenu cilvēkresursu laikam, bieži vien ir nozīmīgs stratēģisks apsvērums, kas tieši ietekmē organizācijas ienesīgumu. Sadarbojieties ar finanšu darba grupām un prakses līderiem, kad organizācija ir gatava noteikt veidu, kā tā vēlas iestatīt norēķinu un izmaksu likmes cilvēkresursu laikam.
 
-Vēl viens apsvērums attiecībā uz cenu noteikšanu tostarp ir — vai atkārtoti izmantot laukus vai entītijas, kuras pašlaik nav cenu noteikšanas dimensijas, bet kuras ir attiecināmas kā cenu noteikšanas dimensijas jūsu organizācijai. Tādi lauki kā **Transakcijas kategorija** (**msdyn_transactioncategory**) un **Rezervējams resurss** (**bookableresource**) ir kandidātdimensiju piemēri. 
+Vēl viens apsvērums attiecībā uz cenu noteikšanu tostarp ir — vai atkārtoti izmantot laukus vai entītijas, kuras pašlaik nav cenu noteikšanas dimensijas, bet kuras ir attiecināmas kā cenu noteikšanas dimensijas jūsu organizācijai. Tādi lauki kā **Transakcijas kategorija** ( **msdyn_transactioncategory** ) un **Rezervējams resurss** ( **bookableresource** ) ir kandidātdimensiju piemēri. 
 
 Ir jāņem vērā arī tas, vai cenu noteikšanas dimensijai ir jābūt tabulai vai opciju kopai. Ja prognozējat, ka dimensiju vērtībām būs izmaiņas, kas pārsniedz 10 vai 12, un ja šīm vērtībām jums ir nepieciešami papildu atribūti, jūs varētu izveidot entītiju, nevis opciju kopu. Lai uzturētu opciju kopu, piemēram, pievienotu vai noņemtu vērtības, ir nepieciešams administrators vai izstrādātājs, savukārt jaunu rindu pievienošanu tabulai var veikt vairums lietotāju.
 

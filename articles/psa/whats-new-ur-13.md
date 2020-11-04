@@ -1,0 +1,58 @@
+---
+title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 13, V3
+description: Šajā tēmā ir sniegta informācija par to, kas jauns Project Service Automation atjauninājuma izlaidumā 13, 3. versijā
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-projectservice
+ms.date: 02/04/2020
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 435b70255dd0053a496362c9ced9e742cfcca843
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080404"
+---
+# <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation atjauninājumu izlaidums 13, V3
+Mēs priecājamies paziņot par jaunāko programmas Dynamics 365 Project Service Automation (PSA) lietojumprogrammas atjaunināšanu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Šis laidiens ir saderīgs ar Dynamics 365 9. x. Lai atjauninātu šo laidienu, apmeklējiet administrēšanas centru Dynamics 365 tiešsaistē un dodieties uz risinājumu lapu, lai instalētu atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+
+Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation V3, atjauninājuma izlaidumā 13. Šai versijai ir būvējuma numurs V3.10.3.18 , un tas ir pieejams šādā grafikā:
+
+- **Vispārēja pieejamība (pašatjauninājums):** 2019. gada novembris
+- **Automātiskais atjauninājums:** 2019. gada decembris
+
+
+## <a name="update-release-13"></a>Atjauninājumu izlaidums 13 
+
+### <a name="bug-fixes"></a>Kļūdu labojumi
+
+- Laiks un izdevumi
+
+     - Novērsts: meklēšanas funkcionalitāte lapā **Izmaksu apstiprinājums** nedarbojas, meklējot pēc izdevumu mērķa.
+
+- Resursu pārvaldība
+
+     - Novērsts: skaitļi saskaņošanā ir atjaunināti, lai būtu pareizi pamatoti.
+     - Novērsts: nosauktos resursus uzdevumiem nevar tikt piešķirti cilnē **Plānot**.
+
+- Projekta pārvaldība
+
+     - Novērsts: nulles atsauces izņēmums, piešķirot darba grupas dalībnieku, kad **TransactionType** trūkst **Vienību** un **DefaultGroup** iestatījuma informācijas.
+
+- Sales
+
+     - Novērsts: transakciju tipu ierakstu dublikāts atgriež kļūdu, kad ir izveidoti lomu cenrāža ieraksti.
+     - Novērsts: papildu pogas **Jaunas iespējas** , **Piedāvājums** , **Pasūtījuma rinda** un **Produkta pievienošana** ir redzamas komandu, piedāvājumu, pasūtījumu produktu un no projekta rindu apakšrežģa komandas.
+
+

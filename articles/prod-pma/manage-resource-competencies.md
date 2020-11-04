@@ -1,0 +1,55 @@
+---
+title: Resursu kompetenču pārvaldība
+description: Šajā tēmā sniegta informācija par projekta resursu kompetences iestatīšanu.
+author: Yowelle
+manager: AnnBe
+ms.date: 09/01/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ProjProjectsListPage
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: 82022
+ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
+ms.search.region: Global
+ms.author: andchoi
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080469"
+---
+# <a name="manage-resource-competencies"></a>Resursu kompetenču pārvaldība
+
+[!include [banner](../includes/banner.md)]
+
+Resursu kompetences ir būtiska resursu pārvaldības daļa. Kompetences var izmantot kā bāzlīniju, lai noteiktu resursus, kuriem ir pareizais prasmju, izglītības, sertifikācijas un projekta pieredzes līdzsvars. Šī informācija ir jāiestata katram resursam un tā regulāri jāatjaunina. Tādējādi iespējas var maksimizēt, ja projekta resursu piešķires laikā tiek saskaņotas noteiktas resursu kompetences.
+
+[![Prasmju, sertifikāciju, izglītības un projekta pieredzes piemēri](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+
+Tālāk aprakstītajās procedūrās ir paskaidrots, kā iestatīt dažas resursa kompetences.
+
+Lai iestatītu kompetences darba ņēmējam, varat izmantot Cilvēkresursu saraksta lapu **Darba ņēmēji** vai Projekta pārvaldības un uzskaites lapu **Resursi**. Šīm procedūrām tiek izmantota Cilvēkresursu saraksta lapa **Darba ņēmēji**.
+
+## <a name="set-up-competencies-certificates"></a>Kompetenču iestatīšana: Sertifikāti
+
+1. Saraksta lapā **Darba ņēmēji** atlasiet tā darba ņēmēja rindu, kurai jāpievieno sertifikāta informācija.
+2. Darbību rūts cilnes **Darba ņēmējs** grupā **Kompetences** atlasiet **Sertifikāti**.
+3. Atlasiet **Jauna** un pēc tam laukā **Sertifikāta veids** atlasiet **PMP**.
+4. Laukā **Sākuma datums** atlasiet **10/1/2015** un pēc tam atlasiet **Saglabāt**.
+
+## <a name="set-up-competencies-skills"></a>Kompetenču iestatīšana: Prasmes
+
+1. Saraksta lapā **Darba ņēmēji** pārliecinieties, ka joprojām ir atlasīts darba ņēmējs, kuru izmantojāt iepriekšējā procedūrā. Pēc tam darbību rūts cilnes **Darba ņēmējs** grupā **Kompetences** atlasiet **Prasmes**.
+2. Atlasiet **Jauns**.
+3. Laukā **Prasmes** atlasiet **Projektu pārvaldība**.
+4. Laukā **Līmenis** atlasiet **5 Eksperts**.
+5. Laukā **Līmeņa datums** atlasiet **1-/14/2014**.
+6. Laukā **Pieredze gados** ievadiet **10**.
+7. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.

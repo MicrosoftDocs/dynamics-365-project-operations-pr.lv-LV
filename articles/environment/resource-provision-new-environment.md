@@ -3,17 +3,17 @@ title: Jaunas vides nodrošināšana
 description: Šajā tēmā ir sniegta informācija par to, kā nodrošināt jaunu Project Operations vidi.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949371"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080331"
 ---
 # <a name="provision-a-new-environment"></a>Jaunas vides nodrošināšana
 
@@ -26,21 +26,21 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Veiciet tālāk norādītās darbības, lai iespējotu Project Operations automatizētās nodrošināšanas plūsmu savam LCS projektam.
 
 1. Dodieties uz [LCS](https://lcs.dynamics.com/v2) un atlasiet elementu **Priekšskatījuma līdzekļa pārvaldība**.
-2. Sarakstā **Priekšskatījuma līdzeklis** atlasiet **Project Operations** un pēc tam atlasiet **Priekšskatījuma līdzeklis iespējots**, lai iespējotu programmu Project Operations.
+2. Sarakstā **Priekšskatījuma līdzeklis** atlasiet **Project Operations līdzeklis** un pēc tam atlasiet **Priekšskatījuma līdzeklis iespējots** , lai iespējotu programmu Project Operations.
 
 > [!NOTE]
 > Šī darbība tiek veikta tikai viereiz katrā LCS projektā.
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations vides nodrošināšana
 
-1. Atveriet jaunu Dynamics 365 Finance [demonstrācijas vidi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vai [smilškastes/ražošanas vides](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) izvietojumu. 
+1. Atveriet jaunu Dynamics 365 Finance [demonstrācijas vidi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vai [smilškastes/ražošanas vides](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) izvietojumu. 
 2. Veiciet vednī **Vidnes nodrošināšana** norādītās darbības. 
 
 > [!IMPORTANT]
 > Pārliecinieties, vai atlasītā lietojumprogrammas versija ir 10.0.13 vai jaunāka.
 
 3. Lai nodrošinātu Project Operations, sadaļā **Papildu iestatījumi** atlasiet **Common Data Service**. 
-4. Iespējojiet **Common Data Service iestatījumu**, atlasot **Jā**, un pēc tam ievadiet informāciju obligātajos laukos:
+4. Iespējojiet **Common Data Service iestatījumu** , atlasot **Jā** , un pēc tam ievadiet informāciju obligātajos laukos:
 
   - Nosaukums/vārds, uzvārds
   - Reģions
@@ -54,7 +54,7 @@ Veiciet tālāk norādītās darbības, lai iespējotu Project Operations automa
 ![Izvietošanas iestatījumi](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Atlasiet **Piekrist**, lai apstiprinātu pakalpojuma noteikumus, un pēc tam atlasiet **Gatavs**, lai atgrieztos izvietošanas iestatījumos.
+> Atlasiet **Piekrist** , lai apstiprinātu pakalpojuma noteikumus, un pēc tam atlasiet **Gatavs** , lai atgrieztos izvietošanas iestatījumos.
 
 ![Izvietošanas piekrišana](./media/2DeploymentConsent.png)
 
@@ -72,7 +72,7 @@ Lietojiet Project Operations Finance demonstrācijas datus 10.0.13 pakalpojuma l
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Atjauninājumu lietošana Finance vidē
 
-Programmai Project Operations ir nepieciešama Finance vide ar lietojumprogrammas versiju **10.0.13 (10.0.569.20009)** vai jaunāku versiju.
+Programmai Project Operations ir nepieciešama Finance vide ar lietojumprogrammas versiju  **10.0.13 (10.0.569.20009)** vai jaunāku versiju.
 
 Lai saņemtu šo versiju, iespējams, jūsu Finance videi būs jālieto kvalitātes atjauninājumi.
 
@@ -116,7 +116,7 @@ Vide apkalpošana aizņems zināmu laiku. Pēc pabeigšanas vide atgriezīsies i
 
 ![Saite uz CDS](./media/12LinktoCDS.png)
 
-4. Atlasiet **Lietot risinājumu**, lai piekļūtu entītijām, kas tiks kartētas integrācijā.
+4. Atlasiet **Lietot risinājumu** , lai piekļūtu entītijām, kas tiks kartētas integrācijā.
 
 ![Lietot risinājumu](./media/13ApplySolutions.png)
 
@@ -165,18 +165,19 @@ Atsvaidzināšana aizņems aptuveni 20 minūtes. Kad tā būs pabeigta, saņems
 | **Integrāciju entitīja projekta transakciju relācijām (msdyn\_transactionconnections)** | No | No | N/A | No | N/A |
 | **Project Operations integrācijas līguma rindu atskaites punkti (msdyn\_contractlinesscheduleofvalues)** | No | No | N/A | No | N/A |
 | **Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimateslines)** | No | No | N/A | No | N/A |
-| **Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments)** | No | No | N/A | No | N/A |
+| **Project Operations integrācijas projekta izdevumu kategorijas eksporta entītija (msdyn\_expensecategories)** | No | No | N/A | No | N/A |
 | **Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn\_expenses)** | Jā | No | N/A | No | N/A |
 | **Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments)** | Jā | No | N/A | No | N/A |
 
+
 4. Lai atsvaidzinātu entītiju, atlasiet kartējuma nosaukumu un pēc tam atlasiet **Atsvaidzināt entītijas**. 
-5. Pēc atsvaidzināšanas pabeigšanas turpiniet ar kartējuma palaišanu.
+
 
 ![Atsvaidzināt kartējumu](./media/20RefreshMapping.png)
 
-Pirms nākamā kartējuma iespējošanas pārliecinieties, vai kartējumam tabulā ir statuss **Darbojas**. Kartējumu ar lielāku priekšnosacījumu skaitu palaišana var aizņemt zināmu laiku.
+5. Kad atsvaidzināšana ir pabeigta, palaidiet karti. Pirms nākamā kartējuma iespējošanas pārliecinieties, vai kartējumam tabulā ir statuss **Darbojas**. Kartējumu ar lielāku priekšnosacījumu skaitu palaišana var aizņemt zināmu laiku.
 
-Lai palaistu kartējumu ar priekšnosacījumiem, iespējojiet pārslēgšanas pogu **Rādīt saistītos entītiju kartējumus**. Ja tabulā redzams, ka vienumam **Priekšnosacījumu sākotnējā sinhronizācija** ir vērtība **Nē**, pirms palaišanas pārbaudiet, vai **Sākotnējās sinhronizācijas** karodziņš ir **Izslēgts** visos priekšnosacījumu kartējumos.
+Lai palaistu kartējumu ar priekšnosacījumiem, iespējojiet pārslēgšanas pogu **Rādīt saistītos entītiju kartējumus**. Ja tabulā redzams, ka vienumam **Priekšnosacījumu sākotnējā sinhronizācija** ir vērtība **Nē** , pirms palaišanas pārbaudiet, vai **Sākotnējās sinhronizācijas** karodziņš ir **Izslēgts** visos priekšnosacījumu kartējumos.
 
 ![Palaist kartējumu](./media/21RunMap.png)
 

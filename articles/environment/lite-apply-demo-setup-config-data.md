@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080309"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Demonstrācijas iestatīšanas un konfigurācijas datu lietošana Project Operations Lite izvietošanā — pāreja uz proforma rēķinu izrakstīšanu
 
@@ -25,7 +25,7 @@ _**Lite izvietošana — pāriet uz proforma rēķina izrakstīšanu_
 
 ![Konfigurāciju migrēšana](./media/1ConfigurationMigration.png)
 
-4. CMT vedņa 2. lapā atlasiet **Office 365** kā **Izvietošanas tips** vērtību.
+4. CMT Wizard 2. lapā atlasiet **Microsoft 365** kā **Izvietošanas tips** vērtību.
 5. Atlasiet izvēles rūtiņas **Parādīt pieejamo organizāciju sarakstu** un **Rādīt opciju Papildus**.
 6. Atlasiet sava nomnieka reģionu, ievadiet akreditācijas datus un pēc tam atlasiet **Pieteikties**.
 

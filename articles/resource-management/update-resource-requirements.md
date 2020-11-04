@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080297"
 ---
 # <a name="edit-a-resource-requirement"></a>Resursu vajadzības rediģēšana
 
@@ -36,4 +36,4 @@ Lai rediģētu darba grupas dalībnieka resursa prasību, kā projekta vadītāj
 
 ## <a name="edit-resource-assignment-contours"></a>Resursu piešķiršanas kontūru rediģēšana
 
-Papildus resursa prasību informācijas rediģēšanai projekta vadītājs var atjaunināt atsevišķas resursa prasību kontūras, izmantojot funkcionalitāti **Norādīt shēmu**. Ja ir atlasīta funkcionalitāte **Norādīt shēmu**, tiek atvērta lapa, kurā varat skatīt kontūras dienas, nedēļas vai mēneša laika skalā. Katru kontūru var pielāgot sākuma laikam, beigu laikam un kopējam ieguldījumam noteiktā periodā.
+Papildus resursa prasību informācijas rediģēšanai projekta vadītājs var atjaunināt atsevišķas resursa prasību kontūras, izmantojot funkcionalitāti **Norādīt shēmu**. Ja ir atlasīta funkcionalitāte **Norādīt shēmu** , tiek atvērta lapa, kurā varat skatīt kontūras dienas, nedēļas vai mēneša laika skalā. Katru kontūru var pielāgot sākuma laikam, beigu laikam un kopējam ieguldījumam noteiktā periodā.

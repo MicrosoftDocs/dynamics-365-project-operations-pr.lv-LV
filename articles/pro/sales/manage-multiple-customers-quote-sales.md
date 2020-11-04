@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966822"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080344"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Vairāku klientu pārvaldība projekta piedāvājumos (pārdošana)
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Projekta piedāvājumi atbalsta scenāriju, kurā priekšlikumā ir iesaistīti vairāki klienti, kas finansēs darījumu. Piedāvājuma cilnē **Kopsavilkums** ir lauks **Potenciālais klients**, kurā identificē darījuma primāro klientu. Citus darījuma klientus var iestatīt projekta piedāvājuma cilnē **Klienti**.
+Projekta piedāvājumi atbalsta scenāriju, kurā priekšlikumā ir iesaistīti vairāki klienti, kas finansēs darījumu. Piedāvājuma cilnē **Kopsavilkums** ir lauks **Potenciālais klients** , kurā identificē darījuma primāro klientu. Citus darījuma klientus var iestatīt projekta piedāvājuma cilnē **Klienti**.
 
 Visi piedāvājuma klienti projekta piedāvājuma cilnē **Klienti** pēc noklusējuma ir piedāvājuma rindas klienti visām **jaunajām** projekta piedāvājuma rindām, kas izveidotas šim piedāvājumam. Esošas projekta piedāvājuma rindas nepārņem jaunus piedāvājuma klientu ierakstus, kas ir izveidoti pēc tām.
 
@@ -31,7 +31,7 @@ Piedāvājuma klientus un piedāvājuma rindas klientus var pievienot, atjaunin�
 
 Klients, kas norādīts projekta piedāvājuma kopsavilkuma cilnē kā potenciālais klients, ir piedāvājuma primārais klients. Mēģinot dzēst primāro klientu no piedāvājuma klientu saraksta, jums tiek parādīts kļūdas ziņojums par to, ka piedāvājumam nevar dzēst primārā klienta ierakstu.
 
-Primāro klientu nedrīkst atjaunināt no piedāvājuma klienta saraksta. Tomēr varat ietekmēt primāro klientu, mainot potenciālo klientu piedāvājuma cilnē **Kopsavilkums**. Kad šis lauks tiek atjaunināts sadaļā **Piedāvājuma kopsavilkumā**, jaunais potenciālais klients tiek pievienots kā jauns piedāvājuma klients ar iestatītu karodziņu **Primārais**. Iepriekšējais potenciālais klients joprojām būs piedāvājuma klients.
+Primāro klientu nedrīkst atjaunināt no piedāvājuma klienta saraksta. Tomēr varat ietekmēt primāro klientu, mainot potenciālo klientu piedāvājuma cilnē **Kopsavilkums**. Kad šis lauks tiek atjaunināts sadaļā **Piedāvājuma kopsavilkumā** , jaunais potenciālais klients tiek pievienots kā jauns piedāvājuma klients ar iestatītu karodziņu **Primārais**. Iepriekšējais potenciālais klients joprojām būs piedāvājuma klients.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Piedāvājuma klienta ieraksta izveide, atjaunināšana vai dzēšana
 

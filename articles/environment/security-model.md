@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080329"
 ---
 # <a name="security-model"></a>Drošības modelis
 
@@ -36,10 +36,11 @@ Project Operations priekšgalsistēmas iespējas ietver šādas lomas:
 
 
 Microsoft Project tīmeklim ir šādas lomas:
-| Loma                          | Apraksts                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Projekta lietotājs | Projekta sadarbības lietotājs, kas var izveidot savus projektus un skatīt visus ar viņu kopīgotos projektus.| Lietotājs|
-| Projekta sistēma | Lietojumprogrammas kontekstam lietota loma. Klientiem nedrīkst izmantot šo sistēmas lomu. | Globāls|
+
+| Loma           | Apraksts                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Projekta lietotājs   | Projekta sadarbības lietotājs, kas var izveidot savus projektus un apskatīt ar tiem koplietotos projektus. | Lietotājs   |
+| Projekta sistēma | Pieteikuma kontekstam lietota loma. Klientiem nedrīkst izmantot šo sistēmas lomu.                                    | Globāls |
 
 ## <a name="security-enforcement"></a>Drošības ieviešana
 Projekta līmenī veiktās darbības tiek veiktas pieteiktā lietotāja kontekstā. Tas nozīmē, ka, lai izveidotu, atvērtu vai dzēstu projektu, lietotājam CDS ir jābūt pieejamai piekļuvei. Piekļuvi CDS var piešķirt, izmantojot jebkuru no platformā iekļautajiem iespējamajiem mehānismiem. Piemēram, lietotājs var piekļūt projektam, ja viņam ir lielāks tvērums vai arī ir veikta konkrēta kopīgošanas darbība, kas piešķir lietotājam piekļuvi.
@@ -56,6 +57,8 @@ Grupas ļauj kopīgi strādāt ar projekta atļaujām un atbalsta sadarbības ar
 Project Operations neveido grupu, veicot netiešu darbību. Programma grupu veido, veicot skaidru grupu saspiešanas darbību.
 
 Grupas dalībnieku meklēšana dialogā **Grupas pārvaldība** ir ierobežota tiem, kas ir iestatīti kā daļa no vides drošības grupas. Papildinformāciju skatiet tēmā [Lietotāju piekļuves vidēm kontrolēšana: drošības grupas un licences](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Grupas režīms](./media/groupsmode.png)
 
 1. Izveidotais projekts pieder lietotājam, kas to izveidoja.
 2. Projekta īpašnieks tiek atjaunināts darba grupā.

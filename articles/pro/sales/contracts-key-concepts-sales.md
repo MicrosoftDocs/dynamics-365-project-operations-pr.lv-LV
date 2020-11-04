@@ -1,0 +1,93 @@
+---
+title: Projekta līgumu pamata koncepti
+description: Šajā tēmā ir sniegta informācija par projekta līgumu pamata konceptiem.
+author: rumant
+manager: Annbe
+ms.date: 10/07/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080350"
+---
+# <a name="key-concepts-of-project-contracts"></a>Projekta līgumu pamata koncepti
+
+_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+
+Šajā tēmā minēti galvenie jēdzieni, kas jāzina, pirms sākat lietot projekta līgumos risinājumā Dynamics 365 Project Operations.
+
+## <a name="contracting-unit"></a>Līgumslēdzēja vienība
+
+Līgumslēdzēja vienība pārstāv struktūrvienību vai praksi, kurai pieder projekta nodrošinājums. Katrai līgumslēdzējai vienībai var iestatīt resursu izmaksas. Norādot resursa izmaksas, var iestatīt arī dažādas resursu izmaksu likmes. Šī Līgumslēdzēja struktūrvienība aizņemas šos resursus citām uzņēmuma struktūrvienībām vai praksēm. Resursu izmaksu likmes sauc par pārsūtīšanas cenām, resursu aizņēmumiem vai apmaiņas cenām. Kad iestatāt resursu aizņēmumu izmaksu likmes no citām struktūrvienībām, izmantojiet aizdodošās struktūrvienības valūtu.
+
+## <a name="cost-currency"></a>Izmaksu valūta
+
+Izmaksu valūta ir valūta, kurā ekrānā tiek ziņotas izmaksas. Šī valūta ir atvasināta no valūtas, kas ir piesaistīta laukam **Līgumslēdzēja vienība** līgumā un projektā. Izmaksas var reģistrēt jebkurā valūtā attiecībā pret projektu. Taču tiek veikta valūtas konvertēšana no valūtas, kurā tika ierakstītas izmaksas, uz projekta izmaksu valūtu, ja tā tiek rādīta ekrānā.
+
+Common Data Service (CDS) platformā valūtas kursam nevar būt spēkā esamības datuma, tāpēc laika gaitā ekrānā redzamās summas var mainīties, atjauninot valūtas maiņas kursus. Tomēr datubāzē ierakstītās izmaksas paliek nemainīgas, jo summas tiek glabātas valūtā, kādā tās radušās.
+
+## <a name="sales-currency"></a>Pārdošanas valūta
+
+Pārdošanas valūta risinājumā Project Operations ir valūta, kādā tiek reģistrētas un parādītas prognozētās un faktiskās pārdošanas summas. Pārdošanas valūta ir arī valūta, kurā klientam tiek izrakstīts rēķins par darījumu. Projekta līgumā pārdošanas valūtas noklusējuma vērtība tiek ņemta no klienta vai uzņēmuma ieraksta, un to var mainīt tikai laikā, kad tiek izveidots līgums. Kad līgums ir izveidots, slēdzot piedāvājumu kā iegūtu, līgumā norādītā valūta tiek iestatīta kā noklusējuma no piedāvājuma valūtas.
+
+Kad no nulles izveidojat projekta līgumu, lauku **Pārdošanas valūta** nevar rediģēt. Produktu un projektu cenrāžu noklusējuma vērtības ir balstītas uz šī līguma valūtu.
+
+Atšķirībā no izmaksām pārdošanas vērtības var reģistrēt tikai pārdošanas valūtā.
+
+## <a name="billing-method"></a>Rēķinu izrakstīšanas metode
+
+Parasti projektiem ir divu veidu līgumu modeļi — fiksētas maksas un uz patēriņu balstīti. Šie modeļi projekta operācijās tiek attēloti kā norēķinu metodes ar divām iespējamām vērtībām.
+
+- Laiks un materiāli: uz patēriņu balstīts līguma modelis, kurā visām radītajām izmaksām ir atbilstoši ieņēmumi. Aprēķinot vai radot vairāk izmaksu, palielinās arī aplēstais un faktiskais pārdošanas apjoms. Līguma rindās, kurām ir šāda norēķinu metode, kas pabeidz faktiskos ieņēmumus, norādiet ierobežojumus, ko nedrīkst pārsniegt. Nepārsniedzamie ierobežojumi neietekmē prognozējamos ieņēmumus.
+- Fiksēta cena: fiksētas maksas līguma modelis, kas norāda, ka pārdošanas vērtības ir neatkarīgas no izmaksām, kas radušās. Pārdošanas vērtība ir fiksēta un nemainās, aplēšot vai radot vairāk izmaksu.
+
+## <a name="project-price-lists"></a>Projekta cenrāži
+
+Projekta cenrāži tiek izmantoti cenu, nevis izmaksu likmju noklusējuma vērtību iestatīšanai laika, izdevumu un citos ar projektu saistītos komponentos. Var būt vairāki cenrāži. Katra projekta līguma cenrādim ir sava datumu efektivitāte. Projekta operācijas neatbalsta spēkā esamības datumu pārklāšanos projektu cenrāžos.
+
+Ja projekta līgums tiek izveidots, iegūstot projekta piedāvājumu, projekta cenrāži tiek kopēti kopā ar līguma nosaukumu un iekļauto datumu. Šīs informācijas kopēšana ir nozīmē pielāgotas cenas projekta komponentiem šajā projekta līgumā.
+
+## <a name="product-price-lists"></a>Produktu cenrāži
+
+Produktu cenrāži tiek izmantoti cenu, nevis izmaksu likmju noklusējuma vērtību iestatīšanai līguma produkta rindās. Katram līgumam ir tikai viens produktu cenrādis.
+
+## <a name="transaction-classes"></a>Darījumu klases
+
+Project Operations atbalsta četru veidu transakciju klases:
+
+- Laiks
+- Izdevumi
+- Materiāls
+- Maksa
+
+Izmaksu un pārdošanas vērtības var aprēķināt un radīt laika, izmaksu un materiālu transakciju klasēs. Maksa ir tikai ieņēmumu darījumu klase.
+
+## <a name="work-entities-and-billing-entities"></a>Darba entītijas un norēķinu entītijas
+
+Entītijas, kas atspoguļo darbu, ir projekti un uzdevumi. Entītijas, kas atspoguļo norēķinu aspektus, ir līguma rindas. Varat saistīt dažādas darba entītijas ar norēķinu opcijām, saistot tās ar līguma rindām.
+
+## <a name="multi-customer-deals"></a>Vairāku klientu darījumi
+
+Vairāku klientu darījumiem ir nekā viens klients, kas jāiekļauj darījuma rēķinā. Tālāk norādīti bieži sastopami piemēri.
+
+- OEM uzņēmumi un to partneri: partneri un tālākpārdevēji pārdod produktu ar dažiem pievienotās vērtības pakalpojumiem, kas parasti ietver noteiktu darījumu ar klientu. OEM piedāvājumi piedāvā finansēt daļu projekta. 
+
+- Publiskā sektora projekti: vairāki vietējās valdības departamenti vienojas par projekta finansēšanu, un tiem tiek izrakstīts rēķins atbilstoši iepriekš saskaņotam sadalījumam. Piemēram, skolas rajons un vietējā pašvaldība vienojas par peldbaseina būvniecības finansēšanu.
+
+## <a name="invoice-schedules"></a>Rēķina izrakstīšanas grafiki
+
+Rēķinu izrakstīšanas grafiki ir specifiski katrai līguma rindai un ir nepieciešami, lai automātiska rēķinu izrakstīšana darbotos. Rēķinu grafiki ir izveidoti, pamatojoties uz noteiktiem sākuma un beigu datumiem un rēķina biežumu. Grafiki tiek izmantoti līguma posmā, kad ir konfigurēts automātiskais rēķinu izveides process. Kad no piedāvājuma tiek izveidots projekta līgums, rēķinu izrakstīšanas grafiks no piedāvājuma tiek kopēts uz projekta līgumu.
+
+## <a name="changes-from-the-dynamics-365-sales-contract"></a>Izmaiņas no Dynamics 365 Sales līguma
+
+Projektu operāciju līgumi tiek veidoti, izmantojot Dynamics 365 Sales līgumus. Tomēr ir dažas būtiskas novirzes un atšķirības funkcionalitātē, kas jāņem vērā.
+
+- Projektu operāciju līgumos ir divi dažādi rindu tipi — viens projektiem un viens produktiem.
+- Projektu operāciju līgumiem ir savas veidlapas un lietotāja interfeisa elementi, biznesa kārtulas, biznesa loģika spraudņi, kā arī klienta puses skripti, kas atšķir tos no pārdošanas līgumiem.
+
+Šo iemeslu dēļ pārdošanas līgumu un projekta līgumu nedrīkst izmantot kā savstarpējus aizstājējus.

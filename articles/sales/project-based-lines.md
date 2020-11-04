@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080305"
 ---
 # <a name="project-based-opportunity-lines"></a>Uz projektiem balstītas iespēju rindas
 
@@ -28,7 +28,7 @@ Tālāk ir uzskaitīti lauki projekta iespējas rindā.
 
 | **Lauks** | **Atrašanās vieta** | **Atbilstība, mērķis un norādes** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |
-| Preces tips | Cilne Vispārīgi (slēpta) | Šis ir opciju kopas lauks. Ja ir instalēts Dynamics 365 Operations, viena no pieejamajām opcijām ir **Projekta pakalpojums**.  | Šī lauka vērtība tiek iestatīta uz **Projekta pakalpojums**, kad iespējai tiek izveidota projekta iespēju rinda no projekta rindu režģa. <br> Ja šī vērtība tiek mainīta vai ignorēta, projekta funkcionalitāte projekta rindas vienumiem netiks iespējota. |
+| Preces tips | Cilne Vispārīgi (slēpta) | Šis ir opciju kopas lauks. Ja ir instalēts Dynamics 365 Operations, viena no pieejamajām opcijām ir **Projekta pakalpojums**.  | Šī lauka vērtība tiek iestatīta uz **Projekta pakalpojums** , kad iespējai tiek izveidota projekta iespēju rinda no projekta rindu režģa. <br> Ja šī vērtība tiek mainīta vai ignorēta, projekta funkcionalitāte projekta rindas vienumiem netiks iespējota. |
 | Iespēja | Cilne Vispārīgi | Šis lauks ir tikai lasāms, un tajā ir atsauce uz primāro iespējas ierakstu, kam pieder šis rindas vienums. | Šim laukam nav lejupstraumes ietekmes. |
 | Nosaukums/vārds, uzvārds | Cilne Vispārīgi | Šis ir rediģējams teksta lauks, ko var izmantot, lai šim rindas vienumam piešķirtu īsu identitāti | Šī vērtība tiek pārnesta uz piedāvājuma rindu, veidojot piedāvājumu no šīs iespējas |
 | Klienta budžets | Cilne Vispārīgi | Šo rediģējamo valūtas lauku var izmantot, lai izsekotu summu, ko klients ir gatavs tērēt šim rindas vienumam. | Šī vērtība tiek pārnesta uz atbilstošo lauku piedāvājuma rindā, veidojot piedāvājumu no šīs iespējas |

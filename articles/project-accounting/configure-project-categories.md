@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080340"
 ---
 # <a name="configure-project-categories"></a>Projekta kategoriju iestatīšana
 
@@ -45,7 +45,7 @@ Projekta kategorijas ir detalizētākais kategoriju konfigurācijas līmenis, un
 
 1. Dodieties uz **Projekta pārvaldība un uzskaite** \> **Iestatīšana** \> **Kategorijas** \> **Projekta kategorijas**.
 2. Atlasiet **Jauns**.
-3. Atlasiet tās Koplietotās kategorijas **Kategorijas ID**, ko izveidojāt iepriekšējā sadaļā. Project Operations ļauj izmantot tikai tās koplietotās kategorijas, kas ir saistītas ar darījumu kategorijām.
+3. Atlasiet tās Koplietotās kategorijas **Kategorijas ID** , ko izveidojāt iepriekšējā sadaļā. Project Operations ļauj izmantot tikai tās koplietotās kategorijas, kas ir saistītas ar darījumu kategorijām.
 4. Atlasiet kategoriju grupu.
 
 ## <a name="category-groups"></a>Kategoriju grupas

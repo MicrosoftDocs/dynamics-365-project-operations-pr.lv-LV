@@ -1,0 +1,37 @@
+---
+title: Izmaksu atrisināšana novērtējumiem un faktiskajiem datiem
+description: Šajā tēmā ir sniegta informācija par to, kā tiek atrisinātas novērtējumu un faktiskās izmaksas.
+author: rumant
+manager: Annbe
+ms.date: 10/13/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: bad8f4b95ac5803d3f334e1b306d2a9d27a6645d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080354"
+---
+# <a name="resolving-cost-prices-on-estimates-and-actuals"></a>Izmaksu atrisināšana novērtējumiem un faktiskajiem datiem
+
+_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+
+Lai atrisinātu izmaksas un izmaksu cenrādi attiecībā uz aprēķiniem un faktiskajiem rādītājiem, sistēma izmanto informāciju saistītā projekta laukos **Datums** , **Valūta** un **Līgumslēdzēja vienība**. Kad izmaksu cenrādis ir atrisināts, programma atrisina izmaksu likmi.
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Izmaksu likmju atrisināšana attiecībā uz faktiskajām un novērtējuma rindām par laiku
+
+Laika novērtējuma rindas norāda uz piedāvājuma un līguma rindu detalizētu informāciju par laika un resursu piešķirēm projektā.
+
+Kad izmaksu cenrādis ir atrisināts, sistēma izmanto laukus **Loma** un **Resursu vienība** novērtējuma rindā laikam, lai atrastu lomu cenu rindu atbilstību atrisinātajā cenrādī. Šī saskaņošana pieņem, ka darba izmaksām izmantojat neiekļautas cenas noteikšanas dimensijas. Ja esat konfigurējis sistēmu saskaņot laukus, nevis laukus **Loma** un **Resursu vienība** (vai papildus tiem), tad cita kombinācija tiks izmantota, lai izgūtu atbilstošo lomas cenu rindu. Ja lietojumprogramma atrod lomas cenu rindu, kurai ir izmaksu likme lauku rindai **Loma** un **Resursu vienība** , tā ir noklusējuma izmaksu likme. Ja lietojumprogramma nespēj saskaņot lauku **Loma** un **Resursu vienība** vērtības, tad tā iegūst lomu cenu rindas ar atbilstošu lomu, bet anulē vērtības vienumam **Resursu vienība**. Kad ir atrasts atbilstošs lomu cenu ieraksts, šim ierakstam tiek atjaunotas izmaksu likmju noklusējuma vērtības. 
+
+> [!NOTE]
+> Ja laukiem **Loma** un **Resursu vienība** konfigurējat atšķirīgas prioritātes vai ja ir citas augstākas prioritātes kategorijas, šī darbība attiecīgi mainīsies. Sistēma iegūst lomu cenu ierakstus ar vērtībām, kas atbilst katrai cenu dimensijas vērtībai prioritātes secībā ar rindām, kurām ir Null vērtības tām dimensijām, kas tuvojas pēdējam.
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Izmaksu likmju atrisināšana attiecībā uz faktiskajām un novērtējuma rindām par izdevumiem
+
+Novērtēšanas rindas izdevumiem attiecas uz piedāvājuma un līguma rindas informāciju izdevumiem, kā arī izdevuma novērtēšanas rindām projektā.
+
+Kad izmaksu cenrādis ir atrisināts, sistēma izmanto lauku **Kategorija** un **Vienība** kombināciju izdevumu novērtēšanas rindā, lai atrastu atbilstību ar **Kategorijas cena** rindām atrisinātajā cenrādī. Ja sistēma atrod kategorijas cenas rindu, kurai ir izmaksu likme lauku kombinācijai **Kategorija** un **Vienība** , tad izmaksu likme ir tiek noklusēta. Ja sistēma nevar saskaņot **Kategorija** un **Vienība** vērtības vai tā var atrast atbilstošu kategorijas cenu rindu, bet cenas noteikšanas metode nav **Cena par vienību** , tiek atjaunota izmaksu likmes noklusējuma vērtība — nulle (0).

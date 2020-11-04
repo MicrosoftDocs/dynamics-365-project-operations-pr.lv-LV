@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080367"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Projekta cenrāžu pārvaldība projekta piedāvājumos (Pārdošana)
 
@@ -30,7 +30,7 @@ Ja projekta piedāvājumam nav projekta cenrāžu, tiek parādīts brīdinājuma
 Lai izveidotu vai atlasītu konkrētu cenrādi, ko izmantot projekta darbu un izdevumu aprēķinam, izpildiet tālāk norādītās darbības.
 
 1. Piedāvājumā atlasiet cilni **Projekta cena** un apakšrežģī atlasiet vienumu **+ Pievienot jaunu projekta cenrādi**.
-2. Ātrās izveides lapā atlasiet cenrādi. Nolaižamajā sarakstā ir parādīti visi cenrāži, kuru konteksts ir iestatīts kā **Pārdošana**, un valūta atbilst piedāvājuma valūtai.
+2. Ātrās izveides lapā atlasiet cenrādi. Nolaižamajā sarakstā ir parādīti visi cenrāži, kuru konteksts ir iestatīts kā **Pārdošana** , un valūta atbilst piedāvājuma valūtai.
 4. Ievadiet projekta cenrāža saistības aprakstu un atlasiet vienumu **Saglabāt un aizvērt**.
 
 Tiek izveidota projekta cenrāža sasaiste.

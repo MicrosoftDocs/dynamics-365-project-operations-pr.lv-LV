@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080373"
 ---
 # <a name="manage-leads-pro"></a>Interesentu pārvaldība (Pro)
 
@@ -23,7 +23,7 @@ Project Operations ļauj pārvaldīt un kvalificēt projekta interesentus. Inter
 
 ## <a name="list-of-project-sales-leads"></a>Projekta pārdošanas interesentu saraksts
 
-Sadaļas **Pārdošana** kreisajā navigācijas rūtī atveriet saraksta lapu **Interesenti**, lai skatītu sarakstu ar visiem interesentu ierakstiem sistēmā. Parādītais interesentu saraksts satur darba un cita veida interesentus, ko var izveidot, ja jums ir arī lietojumprogrammas Dynamics 365 Sales vai Dynamics 365 Field Service.
+Sadaļas **Pārdošana** kreisajā navigācijas rūtī atveriet saraksta lapu **Interesenti** , lai skatītu sarakstu ar visiem interesentu ierakstiem sistēmā. Parādītais interesentu saraksts satur darba un cita veida interesentus, ko var izveidot, ja jums ir arī lietojumprogrammas Dynamics 365 Sales vai Dynamics 365 Field Service.
 
 Varat izveidot filtrēto skatu, lai skatītu tikai projekta interesentus, izveidojot filtru ar vērtību **Tips**. Piemēram, varat atlasīt, lai parādītu tikai darba interesentus.
 
@@ -34,14 +34,14 @@ Ja projekta interesents ir kvalificēts, tiek izveidota iespēja un uzņēmums. 
 - Norēķinu metodes Laiks un materiāli un Fiksēta cena
 - Vairāki cenrāži ar spēkā esamības datumu, kas paredzēti personāla vadībai, izdevumiem un materiāliem, kas ir saistīti ar projektiem.
 
-Lai kvalificēts interesents automātiski izveidotu iespēju, iestatiet atribūtu **Tips** uz **Balstīts uz darbu**, kad izveidojat interesentu. Ja izvēlaties citu tipu, interesents neveido projekta iespējas, ja tas ir kvalificēts. Ja projekta iespējas netiek izveidotas, projekta specifiskās funkcijas nav pieejamas lejupstraumes pārdošanas procesos.
+Lai kvalificēts interesents automātiski izveidotu iespēju, iestatiet atribūtu **Tips** uz **Balstīts uz darbu** , kad izveidojat interesentu. Ja izvēlaties citu tipu, interesents neveido projekta iespējas, ja tas ir kvalificēts. Ja projekta iespējas netiek izveidotas, projekta specifiskās funkcijas nav pieejamas lejupstraumes pārdošanas procesos.
 
 Šajā tabulā ir iekļauta svarīga lauku informācija par interesentu, kā arī šo lauku lejupstraumes ietekme.
 
 | **Lauks** | **Atrašanās vieta** | **Atbilstība, mērķis un norādes** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |
 | Tēma | Cilne Vispārīgi | Šis ir teksta lauks, un tam ir jāietver īss darījuma apraksts. | Interesenta tēma pēc noklusējuma tiks izmantota kā iespējas tēma, kā arī piedāvājuma un projekta līguma nosaukums. |
-| Veidi | Cilne Vispārīgi | Šajā opciju kopas laukā ir tālāk norādītās opcijas.</br>- Balstīts uz darbu (pieejams tikai tad, ja ir instalēts Project Operations)</br>- Balstīts uz vienumu (pieejams tikai tad, ja ir instalēts Project Operations un Sales)</br>- Opcijas, kuru pamatā ir servisa uzturēšana (pieejama, ja ir instalēts Field Service) | Ja šī lauka vērtība interesentam ir iestatīta uz **Balstīts uz darbu**, interesents ir kvalificēts, lai izveidotu projekta iespēju. Uz projektu balstītai iespējai ir nepieciešams iespējot visus projektam specifiskos paplašinājumus un funkcionalitāti šī darījuma lejupstraumes pārdošanas procesā. |
+| Veidi | Cilne Vispārīgi | Šajā opciju kopas laukā ir tālāk norādītās opcijas.</br>- Balstīts uz darbu (pieejams tikai tad, ja ir instalēts Project Operations)</br>- Balstīts uz vienumu (pieejams tikai tad, ja ir instalēts Project Operations un Sales)</br>- Opcijas, kuru pamatā ir servisa uzturēšana (pieejama, ja ir instalēts Field Service) | Ja šī lauka vērtība interesentam ir iestatīta uz **Balstīts uz darbu** , interesents ir kvalificēts, lai izveidotu projekta iespēju. Uz projektu balstītai iespējai ir nepieciešams iespējot visus projektam specifiskos paplašinājumus un funkcionalitāti šī darījuma lejupstraumes pārdošanas procesā. |
 | Vārds | Cilne Vispārīgi | Paredzamā klienta kontaktpersonas vārds | Ja interesents ir kvalificēts, tiek izveidots uzņēmums, kontaktpersona un iespēja. Šeit iestatītā vērtība ir kontaktpersonas vārds. |
 | Uzvārds | Cilne Vispārīgi | Paredzamā klienta kontaktpersonas uzvārds | Ja interesents ir kvalificēts, tiek izveidots uzņēmums, kontaktpersona un iespēja. Šeit iestatītā vērtība ir kontaktpersonas uzvārds. |
 | Uzņēmums | Cilne Vispārīgi | Paredzamā klienta uzņēmuma nosaukums | Ja interesents ir kvalificēts, tiek izveidots uzņēmums, kontaktpersona un iespēja. Šeit iestatītā vērtība ir izveidotā uzņēmuma nosaukums. |
@@ -49,11 +49,11 @@ Lai kvalificēts interesents automātiski izveidotu iespēju, iestatiet atribūt
 
 ## <a name="qualify-a-new-project-based-lead"></a>Jauna projekta interesenta kvalificēšana
 
-Interesenti, kuru vērtība **Tips** ir iestatīta uz **Balstīts uz darbu**, tiek saukti par projekta interesentiem. Ja projekta interesents ir kvalificēts, tiek izveidota tālāk norādītā informācija.
+Interesenti, kuru vērtība **Tips** ir iestatīta uz **Balstīts uz darbu** , tiek saukti par projekta interesentiem. Ja projekta interesents ir kvalificēts, tiek izveidota tālāk norādītā informācija.
 
 - Uzņēmums, kas izmanto lauku **Uzņēmums** no interesenta.
 - Kontaktpersonas ieraksts, kas saistīts ar uzņēmumu, pamatojoties uz vērtībām interesenta laukos **Vārds** un **Uzvārds**.
-- Projekta iespēja, kuras lauks **Tips** ir iestatīts kā &quot;**Balstīts uz darbu**.
+- Projekta iespēja, kuras lauks **Tips** ir iestatīts kā **Balstīts uz darbu**.
 
 Detalizētu informāciju par interesentu kvalificēšanu skatiet tēmā [Interesentu kvalificēšana vai pārvēršana](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

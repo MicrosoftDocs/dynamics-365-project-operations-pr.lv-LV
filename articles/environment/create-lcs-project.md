@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: f42a5e4dbb9e82d8e635d1fbfb17c49c73f25d60
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930536"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080301"
 ---
 # <a name="start-a-new-project-in-lcs"></a>Jauna projekta sākšana LCS
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Izmantojiet Lifecycle Services (LCS), lai pārvaldītu savas Dynamics 365 Project Operations vides. Lai izveidotu jaunu LCS projektu, izpildiet tālāk aprakstītās darbības.
 
-1. Dodieties uz sadaļu [LCS](https://lcs.dynamics.com/Logon/Index) un atlasiet vienumu **Pieteikties**, izmantojot kontu, ko izmantojāt abonementam.
+1. Dodieties uz sadaļu [LCS](https://lcs.dynamics.com/Logon/Index) un atlasiet vienumu **Pieteikties** , izmantojot kontu, ko izmantojāt abonementam.
 2. Ja tiek piedāvāts, piekrītiet juridiskajiem un konfidencialitātes nosacījumiem.
 3. Atlasiet plusa zīmi ( **+** ), lai izveidotu jaunu projektu.
 4. Priekšskatīšanas nolūkiem atlasiet projekta tipu **Migrēt, izveidot risinājumus un uzzināt**.

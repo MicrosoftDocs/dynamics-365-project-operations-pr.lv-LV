@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080541"
 ---
 # <a name="products"></a>Produkti
 
@@ -40,21 +39,21 @@ Produkti ir jūsu uzņēmuma pamatā. Preču katalogs risinājumā Dynamics 365
     -  **Nosaukums**
     -  **Produkta ID**
     -  **Vecākelements:** Atlasiet galveno produktu saimi. Ja pakārtotu produktu veidojat produktu saimē, šeit tiek aizpildīts primārās produktu saimes nosaukums. To nevar mainīt pēc tam, kad ieraksts ir saglabāts.
-    -  **Derīgs no**/**Derīgs līdz**: definējiet produkta derīguma periodu, atlasot vienuma **Derīgs no** un **Derīgs līdz** datumu.
-    -  **Vienību grupa**: atlasiet vienību grupu. Vienību grupa ir dažādu vienību kolekcija, kādās produkts tiek pārdots, un tā nosaka, kā atsevišķi vienumi tiek grupēti lielākos daudzumos. Piemēram, kā produktu pievienojot sēklas, varat izveidot vienību grupu “Sēklas” un noteikt tās primāro vienību — “paciņa”.
-    -  **Noklusējuma vienība**: atlasiet biežāk lietoto vienību, kādā produkts tiks pārdots. Vienības daudzums vai mērvienības, kādā produkts tiek pārdots. Piemēram, ja pievienojat preci “Sēklas”, tās varat pārdot paciņās, kastēs vai paletēs. Tās visas kļūst par produkta par vienību. Ja sēklas visbiežāk tiek pārdotas paciņās, atlasiet to kā vienību.
-    -  **Noklusējuma cenrādis**: ja šis produkts ir jauns, šis lauks ir tikai lasāms. Lai varētu atlasīt noklusējuma cenrādi, vispirms ir jāaizpilda visi obligātie lauki un jāsaglabā ieraksts. Kaut arī noklusējuma cenrādis nav obligāts, pēc produkta ieraksta saglabāšanas ir ieteicams iestatīt noklusējuma cenrādi katram produktam. Pēc tam, ja klienta ierakstā nav ietverts cenrādis, programma Sales var izmantot noklusējuma cenrādi, lai ģenerētu piedāvājumus, pasūtījumus un rēķinus.
-    -  **Atbalstītais zīmju skaits aiz komata**: ievadiet veselu skaitli no 0 līdz 5. Ja produktu nevar iedalīt daļējos daudzumos, ievadiet 0. Ja ar produktu nav saistīts cenrādis, šī lauka vērtība tiek izmantota, lai pārbaudītu piedāvājuma, pasūtījuma vai rēķina preces ieraksta lauka **Daudzums** vērtības precizitāti.
-    -  **Tēma**: saistiet šo produktu ar kādu tēmu. Tēmas var izmantot, lai kategorizētu produktus un filtrētu atskaites.
+    -  **Derīgs no**/**Derīgs līdz** : definējiet produkta derīguma periodu, atlasot vienuma **Derīgs no** un **Derīgs līdz** datumu.
+    -  **Vienību grupa** : atlasiet vienību grupu. Vienību grupa ir dažādu vienību kolekcija, kādās produkts tiek pārdots, un tā nosaka, kā atsevišķi vienumi tiek grupēti lielākos daudzumos. Piemēram, kā produktu pievienojot sēklas, varat izveidot vienību grupu “Sēklas” un noteikt tās primāro vienību — “paciņa”.
+    -  **Noklusējuma vienība** : atlasiet biežāk lietoto vienību, kādā produkts tiks pārdots. Vienības daudzums vai mērvienības, kādā produkts tiek pārdots. Piemēram, ja pievienojat preci “Sēklas”, tās varat pārdot paciņās, kastēs vai paletēs. Tās visas kļūst par produkta par vienību. Ja sēklas visbiežāk tiek pārdotas paciņās, atlasiet to kā vienību.
+    -  **Noklusējuma cenrādis** : ja šis produkts ir jauns, šis lauks ir tikai lasāms. Lai varētu atlasīt noklusējuma cenrādi, vispirms ir jāaizpilda visi obligātie lauki un jāsaglabā ieraksts. Kaut arī noklusējuma cenrādis nav obligāts, pēc produkta ieraksta saglabāšanas ir ieteicams iestatīt noklusējuma cenrādi katram produktam. Pēc tam, ja klienta ierakstā nav ietverts cenrādis, programma Sales var izmantot noklusējuma cenrādi, lai ģenerētu piedāvājumus, pasūtījumus un rēķinus.
+    -  **Atbalstītais zīmju skaits aiz komata** : ievadiet veselu skaitli no 0 līdz 5. Ja produktu nevar iedalīt daļējos daudzumos, ievadiet 0. Ja ar produktu nav saistīts cenrādis, šī lauka vērtība tiek izmantota, lai pārbaudītu piedāvājuma, pasūtījuma vai rēķina preces ieraksta lauka **Daudzums** vērtības precizitāti.
+    -  **Tēma** : saistiet šo produktu ar kādu tēmu. Tēmas var izmantot, lai kategorizētu produktus un filtrētu atskaites.
 
 4.  Atlasiet vienumu **Saglabāt**.
 5.  Cilnes **Papildinformācija** sadaļā **Cenrāža elementi** atlasiet ikonu **Vairāk komandu** un pēc tam atlasiet **Pievienot jaunu cenrāža elementu**.
 7.  Cilnes **Papildinformācija** sadaļā **Produktu relācija** atlasiet ikonu **Vairāk komandu** un pēc tam atlasiet **Pievienot jaunu produktu relāciju**.
 8.  Veidlapā **Jauna produktu relācija** ievadiet tālāk norādīto informāciju un komandjoslā atlasiet **Saglabāt un aizvērt**.
 
-    -   **Saistītais produkts**: Atlasiet produktu, ko vēlaties pievienot kā saistīto produktu jau esošajam produkta ierakstam, ar kuru strādājat.
-    -   **Pārdošanas relāciju veids**: Atlasiet, vai produktu vēlaties pievienot kā papildu produktu, šķērspārdošanas produktu, piederumu vai aizstājējproduktu.
-    -   **Virziens**: Atlasiet, vai produktu relācija ir vienvirziena vai divvirzienu. Atlasot vienvirziena opciju, sadaļā **Saistītais produkts** atlasītais produkts tiks parādīts kā ieteikums esošajam produktam, bet ne otrādi.
+    -   **Saistītais produkts** : Atlasiet produktu, ko vēlaties pievienot kā saistīto produktu jau esošajam produkta ierakstam, ar kuru strādājat.
+    -   **Pārdošanas relāciju veids** : Atlasiet, vai produktu vēlaties pievienot kā papildu produktu, šķērspārdošanas produktu, piederumu vai aizstājējproduktu.
+    -   **Virziens** : Atlasiet, vai produktu relācija ir vienvirziena vai divvirzienu. Atlasot vienvirziena opciju, sadaļā **Saistītais produkts** atlasītais produkts tiks parādīts kā ieteikums esošajam produktam, bet ne otrādi.
 
 9.  Produkta veidlapā atlasiet **Saglabāt**.
 
@@ -120,8 +119,8 @@ Sistēma pārliecinās, ka kā daudzuma koeficienti ir atzīmēti tikai skaitlis
 
 Piemēram, ja ir šādi rekvizīti: 
 
-- **Lietotāju skaits**: Lietotāju skaits 
-- **Mēnešu skaits**: Abonēšanas mēnešu skaits
+- **Lietotāju skaits** : Lietotāju skaits 
+- **Mēnešu skaits** : Abonēšanas mēnešu skaits
 - **Produkta SKU** 
 
 Rekvizītus **Lietotāju skaits** un **Mēnešu skaits** var atzīmēt kā daudzuma koeficientus, rediģējot produkta rindas rekvizītus. 

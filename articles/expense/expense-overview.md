@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080324"
 ---
 # <a name="expense-home-page"></a>Sākumlapas izdevumi
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations atbalsta iespēju apstrādāt izdevumus. Izdevum
 
 Risinājumā Project Operations ir divi atbalstīti Izdevumu izvietošanas modeļi: 
 
-- **Pilna**: pilna izvietošana ir pieejama **Project Operations scenārijiem, kas balstīti uz resursiem/nav balstīti uz krājumiem**, vai **Project Operations scenārijiem, kas balstīti uz ražošanas pasūtījumiem**.
-- **Pamata**: pamata izvietošana ir pieejama **Project Operations scenārijiem, kas balstīti uz resursiem/nav balstīti uz krājumiem** un **Lite izvietošanai — pārejai uz proforma rēķina izrakstīšanu**.
+- **Pilna** : pilna izvietošana ir pieejama **Project Operations scenārijiem, kas balstīti uz resursiem/nav balstīti uz krājumiem** , vai **Project Operations scenārijiem, kas balstīti uz ražošanas pasūtījumiem**.
+- **Pamata** : pamata izvietošana ir pieejama **Project Operations scenārijiem, kas balstīti uz resursiem/nav balstīti uz krājumiem** un **Lite izvietošanai — pārejai uz proforma rēķina izrakstīšanu**.
 
 ## <a name="full"></a>Pilntiesīgs 
 Pilna Izdevumu izvietošana nodrošina pilnīgu politikas izpildi, kas ietver iespēju izveidot politikas, piemēram:

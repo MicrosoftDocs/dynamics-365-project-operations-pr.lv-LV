@@ -1,5 +1,5 @@
 ---
-title: Sākumlapa Faktiski
+title: Pašreizējās
 description: Šajā tēmā ir sniegta informācija par to, kā strādāt ar faktiskajiem datiem Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907327"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080434"
 ---
-# <a name="actuals"></a>Pašreizējās
+# <a name="actuals"></a>Pašreizējās 
 
 _**Attiecas uz:** Project Operations scenārijiem, kas kas nav balstīti uz resursiem/krājumiem_
 
@@ -46,7 +45,7 @@ Kad iesniegts laika ieraksts ir saistīts ar projektu, kas ir kartēts uz fiksē
 
 Noklusējuma cenu izveides loģika atrodas žurnāla rindā. Lauka vērtības no laika ieraksta tiek kopētas uz žurnāla rindu. Šajās vērtībās ir iekļauts darījuma datums, līguma rinda, uz kuru projekts ir kartēts, un valūtas rezultāts atbilstošajā cenrādī.
 
-Laukus, kas ietekmē noklusējuma cenas, piemēram, **Loma** un **Org. vienība**, izmanto atbilstošas cenas noteikšanai žurnāla rindā. Varat pievienot pielāgotu lauku laika ierakstam. Ja vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku entītijā Faktiskie dati un izmantojiet lauku kartējumus, lai kopētu lauku no laika ieraksta uz faktisko.
+Laukus, kas ietekmē noklusējuma cenas, piemēram, **Loma** un **Org. vienība** , izmanto atbilstošas cenas noteikšanai žurnāla rindā. Varat pievienot pielāgotu lauku laika ierakstam. Ja vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku entītijā Faktiskie dati un izmantojiet lauku kartējumus, lai kopētu lauku no laika ieraksta uz faktisko.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Žurnāla rindu un pamata izdevumu iesniegšana
 

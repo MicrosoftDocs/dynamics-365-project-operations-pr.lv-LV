@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906248"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080313"
 ---
 # <a name="travel-requisitions"></a>Ceļojuma pieprasījumi
 
@@ -52,7 +52,7 @@ Atlasiet ceļojuma pieprasījumu, kuru vēlaties apstiprināt, un pēc tam atlas
 
 1. Izveidojiet jaunu izdevumu atskaiti un izdevumu atskaites galvenē, kā arī apstiprināto ceļa pieprasījumu sarakstā atlasiet **Kartēt uz ceļojuma pieprasījumu**.
 2. Lauks **Ceļojuma pieprasījuma summa** tiek automātiski atjaunināts izdevumu atskaites galvenē.
-3. Pievienojiet visus izdevumus, kas radušies ceļojuma laikā. Ja ir aktivizēts lauks **Iepriekš atļauts**, tiek atjaunināta konkrētās izdevumu kategorijas saskaņotā summa un atļautā summa.
+3. Pievienojiet visus izdevumus, kas radušies ceļojuma laikā. Ja ir aktivizēts lauks **Iepriekš atļauts** , tiek atjaunināta konkrētās izdevumu kategorijas saskaņotā summa un atļautā summa.
 
 > [!NOTE]
 > Kartējot izdevumu atskaiti uz apstiprinātu ceļojuma pieprasījumu, transakcijas summa nevar būt lielāka par atļauto summu. 

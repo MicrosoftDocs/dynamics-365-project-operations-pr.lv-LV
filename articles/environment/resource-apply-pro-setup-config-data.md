@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948970"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080317"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service programmai Project Operations
 
@@ -27,7 +27,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 ![Konfigurāciju migrēšana](./media/1ConfigurationMigration.png)
 
-4. CMT vedņa 2. lapā atlasiet **Office 365** kā **Izvietošanas tips** vērtību.
+4. CMT Wizard 2. lapā atlasiet **Microsoft 365** kā **Izvietošanas tips** vērtību.
 5. Atlasiet izvēles rūtiņas **Parādīt pieejamo organizāciju sarakstu** un **Rādīt opciju Papildus**.
 6. Atlasiet sava nomnieka reģionu, ievadiet akreditācijas datus un atlasiet **Pieteikties**.
 
@@ -75,7 +75,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 ![Atvērt vidi](./media/7OpenEnvironment.png)
 
-2. Atveriet sadaļas **Projekti** > **Resursi** un pēc tam atlasiet **Jauns**, lai savam lietotājam izveidotu rezervējamu resursu.
+2. Atveriet sadaļas **Projekti** > **Resursi** un pēc tam atlasiet **Jauns** , lai savam lietotājam izveidotu rezervējamu resursu.
 
 ![Rezervējamie resursi](./media/8BookableResources.png)
 
@@ -114,10 +114,10 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
  
 12. Atjauniniet šos laukus:
 
- - **Noklusējuma uzņēmums**: USPM
- - **Noklusējuma organizācijas vienība**: Contoso Robotics Global
- - **Rēķina izrakstīšanas biežums**: septītā un pēdējā diena
- - **Darba stundu veidne**: mainiet uz izveidoto veidni
+ - **Noklusējuma uzņēmums** : USPM
+ - **Noklusējuma organizācijas vienība** : Contoso Robotics Global
+ - **Rēķina izrakstīšanas biežums** : septītā un pēdējā diena
+ - **Darba stundu veidne** : mainiet uz izveidoto veidni
 
 13. Atlasiet vienumu **Saglabāt**. 
 

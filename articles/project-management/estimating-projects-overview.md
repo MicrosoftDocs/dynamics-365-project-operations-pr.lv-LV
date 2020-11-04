@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968052"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080333"
 ---
 # <a name="estimate-projects-overview"></a>Projekta izdevumu pārskats
 
@@ -74,8 +74,8 @@ Ja pievienojāt pielāgotu lauku piedāvājuma rindu informācijai un vēlaties,
 2. Atlasiet vienumu **Meklēt** un meklējiet spraudni, lai veiktu atjaunināšanu.
 3. Atlasiet spraudni un pēc tam galvenajā lapā noklikšķiniet vienumu **Atlasīt**.
 4. Atlasiet spraudņa darbību, lai atjauninātu, ar peles labo pogu noklikšķiniet un pēc tam atlasiet vienumu **Atjaunināt**.
-5. Dialoglodziņa **Esošas darbības atjaunināšana** laukā **Filtrēšanas atribūti** atlasiet vienumu atlasiet daudzpunktes pogu (**...**):
+5. Dialoglodziņa **Esošas darbības atjaunināšana** laukā **Filtrēšanas atribūti** atlasiet vienumu atlasiet daudzpunktes pogu ( **...** ):
 6. Dialoglodziņā **Atribūtu atlase** atzīmējiet pielāgotu atribūtu izvēles rūtiņas.
-7. Noklikšķiniet uz vienuma **Labi**, lai aizvērtu dialoglodziņu, un pēc tam uz **Atjaunināt darbību**.
+7. Noklikšķiniet uz vienuma **Labi** , lai aizvērtu dialoglodziņu, un pēc tam uz **Atjaunināt darbību**.
 8. Otrajā spraudnī atkārtojiet 1.–7. darbību.
 9. Aizveriet **PluginRegistrationTool**.
