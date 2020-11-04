@@ -1,0 +1,93 @@
+---
+title: Piedāvāto resursu pārskats
+description: Šajā tēmā ir sniegta informācija par to, kā piedāvāt projekta resursus.
+author: ruhercul
+manager: AnnBe
+ms.date: 09/23/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-customerservice
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: ruhercul
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080411"
+---
+# <a name="review-proposed-resources"></a><span data-ttu-id="88a1d-103">Piedāvāto resursu pārskats</span><span class="sxs-lookup"><span data-stu-id="88a1d-103">Review proposed resources</span></span>
+
+<span data-ttu-id="88a1d-104">_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_</span><span class="sxs-lookup"><span data-stu-id="88a1d-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="88a1d-105">Resursu vadītāji var piedāvāt resursu projektu vadītājam, izmantojot resursu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="88a1d-105">Resource managers can propose a resource to the project manager by using a resource request.</span></span>
+
+1. <span data-ttu-id="88a1d-106">Pieprasījumu režģī vai pašā pieprasījumā atlasiet opciju **Atrast resursus**.</span><span class="sxs-lookup"><span data-stu-id="88a1d-106">From the request grid or the request itself, select **Find Resources**.</span></span>
+2. <span data-ttu-id="88a1d-107">Lapā **Plānošanas palīgs** atlasiet resursu un pēc tam rūtī **Izveidot resursu rezervāciju** , laukā **Rezervācijas statuss** atlasiet **Rezervēt**.</span><span class="sxs-lookup"><span data-stu-id="88a1d-107">On the **Schedule Assistant** page, select the resource, and then, in the **Create Resource Booking** pane, in the **Booking Status** field, select **Book**.</span></span>
+
+<span data-ttu-id="88a1d-108">Tiek veikti šādi statusa atjauninājumi:</span><span class="sxs-lookup"><span data-stu-id="88a1d-108">The following status updates occur:</span></span>
+
+- <span data-ttu-id="88a1d-109">Lapā **Plānošanas palīgs** statusa indikatori tiek atjaunināti, lai norādītu, ka rezervācija ir piedāvāta, nevis stingri rezervēta.</span><span class="sxs-lookup"><span data-stu-id="88a1d-109">On the **Schedule Assistant** page, the status indicators are updated to indicate that the booking is proposed, not hard-booked.</span></span>
+- <span data-ttu-id="88a1d-110">Resursa pieprasījumā statuss tiek mainīts uz **Nepieciešama pārskatīšana**.</span><span class="sxs-lookup"><span data-stu-id="88a1d-110">On the resource request, the status is changed to **Needs Review**.</span></span>
+- <span data-ttu-id="88a1d-111">Projekta cilnē **Darba grupa** vērtība vispārējā darba grupas dalībnieka vienumam **Pieprasījuma statuss** ir mainīta uz **Nepieciešama pārskatīšana**.</span><span class="sxs-lookup"><span data-stu-id="88a1d-111">On the **Team** tab of the project, the generic team member's **Request Status** value is changed to **Needs Review**.</span></span>
+
+<span data-ttu-id="88a1d-112">Projekta vadītājs var pieņemt vai noraidīt piedāvājumu.</span><span class="sxs-lookup"><span data-stu-id="88a1d-112">The project manager can either accept or reject the proposal.</span></span>
+
+<span data-ttu-id="88a1d-113">Kad resursu vadītāji apstrādā resursu pieprasījumus, viņi var izmantot jebkuru no tālāk minētajām metodēm.</span><span class="sxs-lookup"><span data-stu-id="88a1d-113">When resource managers process resource requests, they can use any of the following approaches:</span></span>
+
+- <span data-ttu-id="88a1d-114">Piedāvāt vairākus resursus, lai apmierinātu pieprasījumu, ja nepieciešamo stundu izpildei nav pieejams viens resurss.</span><span class="sxs-lookup"><span data-stu-id="88a1d-114">Propose multiple resources to satisfy the demand if no single resource is available to fulfill the required hours.</span></span> <span data-ttu-id="88a1d-115">Piedāvātās stundas tiek sadalītas starp vairākiem resursiem, kas var apmierināt nepieciešamo stundu skaitu.</span><span class="sxs-lookup"><span data-stu-id="88a1d-115">Proposed hours are then split among multiple resources that can satisfy the required hours.</span></span> <span data-ttu-id="88a1d-116">Šādā gadījumā stundas nevar pārklāties.</span><span class="sxs-lookup"><span data-stu-id="88a1d-116">In this scenario, the hours can't overlap.</span></span>
+- <span data-ttu-id="88a1d-117">Piedāvāt mazāk resursu, nekā nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="88a1d-117">Propose fewer resources than are required.</span></span> <span data-ttu-id="88a1d-118">Šādā gadījumā paredzētā resursa noslodze ir mazāka nekā prasītāja norādītais nepieciešamo stundu laiks.</span><span class="sxs-lookup"><span data-stu-id="88a1d-118">In this scenario, the proposed resource capacity is less than the required hours that the requestor specified.</span></span> <span data-ttu-id="88a1d-119">Tāpēc, kad prasītājs pieņem piedāvātos resursus, tiek izveidota neizpildīta resursa vajadzība, lai norādītu atlikušo pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="88a1d-119">Therefore, when the requestor accepts the proposed resources, an unfulfilled resource requirement is created to capture the remaining demand.</span></span>
+- <span data-ttu-id="88a1d-120">Rezervēt vairākus resursus, lai apmierinātu pieprasījumu, ja darba izpildei nav pieejams viens resurss.</span><span class="sxs-lookup"><span data-stu-id="88a1d-120">Book multiple resources to satisfy the demand if no single resource is available to complete the work.</span></span>
+- <span data-ttu-id="88a1d-121">Rezervēt mazāk resursu, nekā nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="88a1d-121">Book fewer resources than are required.</span></span> <span data-ttu-id="88a1d-122">Šādā gadījumā rezervēto stundu skaits ir mazāks par nepieciešamo stundu skaitu.</span><span class="sxs-lookup"><span data-stu-id="88a1d-122">In this scenario, the booked hours are fewer than the required hours.</span></span> <span data-ttu-id="88a1d-123">Sistēma palīdz piedāvāt resursus, nevis rezervācijas, lai pieprasītājs varētu pārbaudīt un sekot līdzi atlikušajām vajadzībām.</span><span class="sxs-lookup"><span data-stu-id="88a1d-123">The system guides you to propose resources instead of bookings, so that the requestor can verify and keep track of remaining demand.</span></span>
+
+## <a name="billable-utilization"></a><span data-ttu-id="88a1d-124">Apmaksājamā izmantošana</span><span class="sxs-lookup"><span data-stu-id="88a1d-124">Billable utilization</span></span>
+
+<span data-ttu-id="88a1d-125">Resursiem var būt mērķa apmaksājamā izmantošana.</span><span class="sxs-lookup"><span data-stu-id="88a1d-125">Resources can have a target billable utilization.</span></span> <span data-ttu-id="88a1d-126">Šī mērķa izmantošana tiek definēta kā atribūts resursa noklusējuma lomā vai iestatīta atsevišķa rezervācijas resursa ierakstā.</span><span class="sxs-lookup"><span data-stu-id="88a1d-126">This target utilization is either defined as an attribute on a resource's default role or set on the record of the individual bookable resource.</span></span> <span data-ttu-id="88a1d-127">Izmantošanas aprēķini ir balstīti uz faktiskajām stundām, par kurām resursi ir paziņojuši, izmantojot apstiprinātos laika ierakstus.</span><span class="sxs-lookup"><span data-stu-id="88a1d-127">Utilization calculations are based on the actual hours that resources have reported by using approved time entries.</span></span>
+
+<span data-ttu-id="88a1d-128">Izmantošanas aprēķināšanai lieto šādas formulas:</span><span class="sxs-lookup"><span data-stu-id="88a1d-128">The following formulas are used to calculate utilization:</span></span>
+
+- <span data-ttu-id="88a1d-129">Apmaksājamā izmantošana = Rēķinā iekļaujamās stundas ÷ Resursa noslodze</span><span class="sxs-lookup"><span data-stu-id="88a1d-129">Billable utilization = Chargeable actual hours ÷ Resource capacity</span></span>
+- <span data-ttu-id="88a1d-130">Neapmaksājamā izmantošana = Faktiskais laiks ar norēķinu tipa ID = Rēķinā neiekļaujams, Papildu vai Nav pieejams ÷ Resursa noslodze</span><span class="sxs-lookup"><span data-stu-id="88a1d-130">Non-billable utilization = Actual time with billing type ID = Non-chargeable, Complementary, or Not available ÷ Resource capacity</span></span>
+- <span data-ttu-id="88a1d-131">Iekšējs = Faktiskais laiks bez pārdošanas līguma ÷ Resursa noslodze</span><span class="sxs-lookup"><span data-stu-id="88a1d-131">Internal = Actual time with no sales contract ÷ Resource capacity</span></span>
+- <span data-ttu-id="88a1d-132">Resursa noslodze = Resursa darba stundas – Ārpus biroja – Brīvdienas</span><span class="sxs-lookup"><span data-stu-id="88a1d-132">Resource capacity = Resource work hours – Out-of-office – Non-working days</span></span>
+
+<span data-ttu-id="88a1d-133">Skatu **Resursa izmantojums** var atrast rūtī **Resursi**.</span><span class="sxs-lookup"><span data-stu-id="88a1d-133">You can find the **Resource Utilization** view in the **Resources** pane.</span></span>
+
+<span data-ttu-id="88a1d-134">Katra režģa šūna norāda resursa apmaksājamās izmantošanas procentuālo vērtību periodā, piemēram, dienā, nedēļā vai mēnesī.</span><span class="sxs-lookup"><span data-stu-id="88a1d-134">Each cell in the grid represents the billable utilization percentage of the resource in a period, such as a day, week, or month.</span></span> <span data-ttu-id="88a1d-135">Šūnu iekrāsošanai lieto šādas formulas:</span><span class="sxs-lookup"><span data-stu-id="88a1d-135">The following formulas are used to color the cells:</span></span>
+
+- <span data-ttu-id="88a1d-136">**Zaļa:** Apmaksājamā izmantošana \>= Resursa mērķa lietojums</span><span class="sxs-lookup"><span data-stu-id="88a1d-136">**Green:** Billable utilization \>= Resource target utilization</span></span>
+- <span data-ttu-id="88a1d-137">**Dzeltena:** Mērķa lietojums – 20 \<= Apmaksājamā izmantošana \< Mērķa lietojums</span><span class="sxs-lookup"><span data-stu-id="88a1d-137">**Yellow:** Target utilization – 20 \<= Billable utilization \< Target utilization</span></span>
+- <span data-ttu-id="88a1d-138">**Sarkana:** Apmaksājamā izmantošana \< Mērķa lietojums – 20</span><span class="sxs-lookup"><span data-stu-id="88a1d-138">**Red:** Billable utilization \< Target utilization – 20</span></span>
+
+<span data-ttu-id="88a1d-139">Tā kā skats **Apmaksājamā izmantošana** ir atkarīgs no plānošanas paneļa, varat izmantot plānošanas paneļa filtrēšanas iespējas, lai filtrētu rezultātus.</span><span class="sxs-lookup"><span data-stu-id="88a1d-139">Because the **Resource Utilization** view is based on the Schedule Board, you can use the filtering capabilities of the Schedule Board to filter your results.</span></span>
+
+<span data-ttu-id="88a1d-140">Režģim ir jāiestata mērķa lietojums lomai vai atsevišķam resursam.</span><span class="sxs-lookup"><span data-stu-id="88a1d-140">The grid requires that you set a target utilization on either the role or the individual resource.</span></span> <span data-ttu-id="88a1d-141">Lai veiktu šo iestatīšanu, atveriet **Resursi** \> **Resursu lomas**.</span><span class="sxs-lookup"><span data-stu-id="88a1d-141">To do this setup, go to **Resources** \> **Resource roles**.</span></span>
+
+<span data-ttu-id="88a1d-142">Turklāt katram rezervējamajam resursam ir jāpiešķir noklusējuma loma.</span><span class="sxs-lookup"><span data-stu-id="88a1d-142">Additionally, a default role must be assigned to each bookable resource.</span></span> <span data-ttu-id="88a1d-143">Atveriet sadaļu **Resursi** \> **Resursi.**</span><span class="sxs-lookup"><span data-stu-id="88a1d-143">Go to **Resources** \> **Resources**.</span></span> <span data-ttu-id="88a1d-144">Cilnē **Project Service** pārbaudiet, vai resursa loma ir definēta un vai laukā **Ir noklusējuma** ir iestatīta vērtība **Jā**.</span><span class="sxs-lookup"><span data-stu-id="88a1d-144">On the **Project Service** tab, verify that a resource role is defined, and that the **Is Default** field for it is set to **Yes**.</span></span> <span data-ttu-id="88a1d-145">Varat pievienot papildu lomas, kurām iestatīta opcija **Ir noklusējuma = Nē**.</span><span class="sxs-lookup"><span data-stu-id="88a1d-145">You can add additional roles where **Is Default = No**.</span></span> <span data-ttu-id="88a1d-146">Loma, kurai iestatīta opcija **Ir noklusējuma = Jā** , tiek izmantota, lai novērtētu resursa izmantojumu atbilstoši attiecīgās mērķim.</span><span class="sxs-lookup"><span data-stu-id="88a1d-146">The role where the **Is Default = Yes** is used to evaluate the resource's utilization against the target for that role.</span></span>
+
+<span data-ttu-id="88a1d-147">Cilnē **Project Service** resursam var iestatīt arī atsevišķu mērķa lietojumu.</span><span class="sxs-lookup"><span data-stu-id="88a1d-147">On the **Project Service** tab, you can also set an individual target utilization for the resource.</span></span> <span data-ttu-id="88a1d-148">Šādā gadījumā lietojuma aprēķinā tiek izmantots mērķa lietojums, lai novērtētu resursa mērķi, nevis resursa noklusējuma lomas mērķi.</span><span class="sxs-lookup"><span data-stu-id="88a1d-148">The utilization calculation then uses that target utilization to evaluate the resource's target instead of the target of the resource's default role.</span></span>
+
+<span data-ttu-id="88a1d-149">Resursa lietojums tiek rādīts tikai tad, ja šis resurss ir apstiprinājis rēķinā iekļaujamu laiku periodā, kas ir norādīts režģī.</span><span class="sxs-lookup"><span data-stu-id="88a1d-149">Utilization is shown for a resource only if that resource has approved, chargeable time during the period that is shown in the grid.</span></span>
+
+## <a name="resource-availability"></a><span data-ttu-id="88a1d-150">Resursu pieejamība</span><span class="sxs-lookup"><span data-stu-id="88a1d-150">Resource availability</span></span>
+
+<span data-ttu-id="88a1d-151">Ir ļoti svarīgi, lai resursu vadītāji varētu apskatīt resursu pieejamību un atjaunināt rezervācijas.</span><span class="sxs-lookup"><span data-stu-id="88a1d-151">It's critical that resource managers be able to view the availability of resources and update bookings.</span></span> <span data-ttu-id="88a1d-152">Dažos gadījumos nav oficiāla pieprasījuma (resursa pieprasījuma), bet resursu vadītājam ir jāreaģē uz neplānotu pieprasījumu, kas rodas, izmantojot tādus kanālus kā e-pasts, tālruņa saruna vai tūlītējais ziņojums.</span><span class="sxs-lookup"><span data-stu-id="88a1d-152">In some cases, there is no formal demand (resource request), but a resource manager must respond to an unplanned demand that comes through channels such as an email, phone call, or instant message.</span></span> <span data-ttu-id="88a1d-153">Resursu vadītāji izmanto plānošanas paneli, lai atjauninātu resursus un rezervācijas.</span><span class="sxs-lookup"><span data-stu-id="88a1d-153">Resource managers use the Schedule Board to update resources and bookings.</span></span>
+
+<span data-ttu-id="88a1d-154">Resursa darba stundas tiek izmantotas par pamatu resursa pieejamības aprēķināšanai.</span><span class="sxs-lookup"><span data-stu-id="88a1d-154">Resource work hours are used as the basis for calculating the availability of a resource.</span></span> <span data-ttu-id="88a1d-155">Resursu rezervēšana patērē resursu noslodzi.</span><span class="sxs-lookup"><span data-stu-id="88a1d-155">Resource bookings consume the capacity of the resources.</span></span>
+
+<span data-ttu-id="88a1d-156">Plānošanas panelī tiek izmantotas krāsas un ēnojums, lai norādītu rezervācijas, pieejamību un rezervēšanas pārsniegšanu, kā arī rezervāciju statusu.</span><span class="sxs-lookup"><span data-stu-id="88a1d-156">The Schedule Board uses colors and shading to show bookings, availability, and overbookings, and also the status of bookings.</span></span> <span data-ttu-id="88a1d-157">Iestatījums plānošanas paneļa iestatījumos ļauj rādīt apzīmējumus.</span><span class="sxs-lookup"><span data-stu-id="88a1d-157">A setting in the Schedule Board settings lets you show a legend.</span></span>
+
+<span data-ttu-id="88a1d-158">Ja blakus atsevišķiem rezervējamiem resursiem plānošanas panelī tiek parādīta pa labi vērsta bultiņa, resursu var izvērst, lai skatītu detalizētu informāciju par darbu, kuram attiecīgais resurss ir rezervēts.</span><span class="sxs-lookup"><span data-stu-id="88a1d-158">If a right-pointing arrow appears next to an individual bookable resource on the Schedule Board, the resource can be expanded to show details of the work that the resource is booked on.</span></span>
+
+<span data-ttu-id="88a1d-159">Tā kā Dynamics 365 Project Operations izmanto programmu Universal Resource Scheduling, ja ir instalēts arī risinājums Dynamics 365 Field Service, varat skatīt detalizētu informāciju par resursu rezervācijām projektiem, darba pasūtījumiem un citām entītijām, uz kurām esat paplašinājis plānošanu.</span><span class="sxs-lookup"><span data-stu-id="88a1d-159">Because Dynamics 365 Project Operations uses the Universal Resource Scheduling engine, if you also have Dynamics 365 Field Service installed, you can view the details of resource bookings for projects, work orders, and any other entities that you've extended scheduling to.</span></span>
+
+<span data-ttu-id="88a1d-160">Lai skatītu papildinformāciju par atsevišķu resursu, ar peles labo pogu noklikšķiniet uz tā, lai atvērtu resursa karti.</span><span class="sxs-lookup"><span data-stu-id="88a1d-160">To view more details about an individual resource, right-click it to open the resource card.</span></span>
+
