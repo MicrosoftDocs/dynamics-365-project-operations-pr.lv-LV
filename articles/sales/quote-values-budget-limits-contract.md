@@ -1,21 +1,21 @@
 ---
-title: Kopsavilkuma informācija par projekta piedāvājumu
+title: Projekta piedāvājuma iestatījumi
 description: Šajā tēmā ir sniegta informācija par iestatījumiem un informāciju, kas attiecas uz projekta piedāvājumiem un ietekmē tos.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080290"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180246"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Kopsavilkuma informācija par projekta piedāvājumu
+# <a name="project-quote-settings"></a>Projekta piedāvājuma iestatījumi
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
@@ -24,7 +24,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Tālāk sniegtajā tabulā ir uzskaitīti tie kopsavilkuma informācijas lauki projekta piedāvājumā, kas ir unikāli Dynamics 365 Project Operations vai kuriem ir dažas būtiskas izmaiņas darbībā atšķirībā no Dynamics 365 Sales piedāvājumiem.
 
-| **Lauks** | **Atrašanās vieta** | **Atbilstība, mērķis un norādes** | **Lejupstraumes ietekme** |
+| **Lauks** | **Atrašanās vieta** | **Apraksts** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |
 | Veidi | Kopsavilkuma cilne (slēpta) | Šajā opciju kopas laukā ir tālāk norādītās opcijas.</br>- Balstīts uz darbu (pieejams tikai tad, ja ir instalēts Project Operations)</br>- Balstīts uz vienumu (pieejams tikai tad, ja ir instalēts Project Operations un Sales)</br>- Opcijas, kuru pamatā ir servisa uzturēšana (pieejama, ja ir instalēts risinājums Dynamics 365 Field Service) | Ja izmantojat lietojumprogrammu Project Operations, šī lauka vērtība automātiski tiek uzstādīta uz **Balstīts uz darbu**. Šādi piedāvājums tiek klasificēts kā projekta piedāvājums. Piedāvājumam ir jābūt projekta piedāvājumam, lai iespējotu visus projektam specifiskos paplašinājumus un funkcionalitāti. |
 | Atbildīgais uzņēmums | Kopsavilkums | Juridiskā persona, kas uzskaitīs izmaksas un ieņēmumus, kas uzkrājas no šī projekta vai projektiem, kas saistīti ar šo piedāvājumu. Ja piedāvājums ir izveidots no iespējas, šis lauks tiek kopēts no atbilstošā iespējas lauka. | Atbildīgais uzņēmums ir pielīdzināms juridiskās personas jēdzienam Project Operations modulī **Projekta pārvaldība un grāmatvedība**. Visas izmaksas un ieņēmumi, kas uzkrājušies no šī projekta, tiks ieskaitīti atbildīgā uzņēmuma virsgrāmatā. |
@@ -38,7 +38,7 @@ Tālāk sniegtajā tabulā ir uzskaitīti tie kopsavilkuma informācijas lauki p
 
 Tālāk ir norādītas cilnes un KPI, kas ir pieejami projekta piedāvājumā un ir unikālas risinājumā Project Operations vai kam ir dažas būtiskas darbības izmaiņas, salīdzinājumā ar piedāvājumiem programmā Sales.
 
-| **Lauks** | **Atrašanās vieta** | **Atbilstība, mērķis un norādes** |
+| **Lauks** | **Atrašanās vieta** | **Apraksts** |
 | --- | --- | --- |
 | Ienesīguma analīze | Cilne piedāvājumā | Cilnē ir redzamas šādas metrikas:</br>- Kopējās rēķinā iekļaujamās izmaksas</br></br>- Kopējās rēķinā neiekļaujamās izmaksas</br>- Kopējie ieņēmumi</br>- Kopējie ieņēmumi (pamatvalūtā)</br>- Bruto peļņa</br>- Koriģētā bruto peļņa|
 | Salīdzinājums ar klienta vēlmju robežām | Cilne piedāvājumā | Šajā cilnē ir redzamas šādas metrikas:</br>- Prognozējamā pabeigšana</br>- Pieprasītā pabeigšana</br>- Klienta budžets</br>- Piedāvātā vērtība |

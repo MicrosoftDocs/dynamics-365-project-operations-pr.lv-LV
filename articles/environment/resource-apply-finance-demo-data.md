@@ -1,21 +1,21 @@
 ---
-title: Project Operations demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
+title: Demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
 description: Šajā tēmā ir izskaidrots, kā lietot Project Operations demonstrācijas datus Dynamics 365 Finance mākoņpakalpojumā viesotā vidē.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096631"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365247"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Project Operations demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
@@ -28,7 +28,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Pirmā iezīmēto akreditācijas datu kopa ir lokālā konta akreditācijas dati, un tajā ir ietverta hipersaite uz attālās darbvirsmas savienojumu. Akreditācijas dati ietver vides administratora lietotājvārdu un paroli. Otrā akreditācijas datu kopa tiek izmantota, lai šajā vidē pieteiktos programmā SQL Server.
 
-2. Izveidojiet attālo savienojumu ar vidi, izmantojot sadaļā **Lokālie konti** esošo hipersaiti, un izmantojiet **Lokālā konta akreditācijas datus** , lai veiktu autentifikāciju.
+2. Izveidojiet attālo savienojumu ar vidi, izmantojot sadaļā **Lokālie konti** esošo hipersaiti, un izmantojiet **Lokālā konta akreditācijas datus**, lai veiktu autentifikāciju.
 3. Dodieties uz **Interneta informācijas pakalpojumi** > **Lietojumprogrammas kopas** > **AOSService** un apturiet pakalpojumu. Jūs pašlaik apturat pakalpojuma darbību, lai varētu turpināt aizstāt SQL datu bāzi.
 
 ![Apturēt AOS](./media/2StopAOS.png)
@@ -76,6 +76,6 @@ Procesa pabeigšanai nepieciešamas dažas minūtes. Jūs saņemsit apstiprināj
 
 ![IIS atiestatīšana](./media/9IISReset.png)
 
-18. Aizveriet attālās darbvirsmas sesiju un izmantojiet LCS lapu **Vides informācija** , lai pieteiktos vidē un pārliecinātos, vai tā darbojas, kā paredzēts.
+18. Aizveriet attālās darbvirsmas sesiju un izmantojiet LCS lapu **Vides informācija**, lai pieteiktos vidē un pārliecinātos, vai tā darbojas, kā paredzēts.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088013"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181147"
 ---
 # <a name="project-contract-settings"></a>Projekta līguma iestatījumi
 
@@ -23,9 +23,9 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Tālāk sniegtajā tabulā ir uzskaitīti projekta līguma lauki, kas ir unikāli Dynamics 365 projektu darbībām vai kuriem ir dažas svarīgas izmaiņas, veicot pārdošanas pasūtījumus programmā Dynamics 365 Sales.
 
-| Lauks | Atrašanās vieta | Atbilstība, mērķis un norādes | Lejupstraumes ietekme |
+| Lauks | Atrašanās vieta | Apraksts | Lejupstraumes ietekme |
 | --- | --- | --- | --- |
-| Veidi | **Kopsavilkuma** cilne (paslēpta) | Šis ir opciju kopas lauks ar šādām opcijām:</br>- **Balstīts uz darbu** (pieejama tikai tad, ja ir instalēts Project Operations)</br>- **Balstīts uz vienumu** (pieejama tikai tad, ja ir instalēts Project Operations un Sales)</br>- **Balstīts uz pakalpojuma uzturēšanu** (pieejama, ja ir instalēts Dynamics 365 Field Service) | Projekta operācijās šī lauka vērtība noklusējumā ir **Balstīts uz darbu** , un līgums tiek klasificēts kā projekta līgums. Līgumam ir jābūt uz projektu balstītam, lai iespējotu visus projektam specifiskos paplašinājumus un funkcionalitāti. |
+| Veidi | **Kopsavilkuma** cilne (paslēpta) | Šis ir opciju kopas lauks ar šādām opcijām:</br>- **Balstīts uz darbu** (pieejama tikai tad, ja ir instalēts Project Operations)</br>- **Balstīts uz vienumu** (pieejama tikai tad, ja ir instalēts Project Operations un Sales)</br>- **Balstīts uz pakalpojuma uzturēšanu** (pieejama, ja ir instalēts Dynamics 365 Field Service) | Projekta operācijās šī lauka vērtība noklusējumā ir **Balstīts uz darbu**, un līgums tiek klasificēts kā projekta līgums. Līgumam ir jābūt uz projektu balstītam, lai iespējotu visus projektam specifiskos paplašinājumus un funkcionalitāti. |
 | Atbildīgais uzņēmums | Cilne **Kopsavilkums** | Juridiska entītija, kas uzskaita izmaksas un ieņēmumus, kuri uzkrāti no tiem projektiem, kas saistīti ar šo projekta līgumu. Veidojot līgumu no piedāvājuma, šis lauks tiek kopēts no piedāvājuma ieraksta atbilstošā lauka. | Atbildīgais uzņēmums ir pielīdzināms juridiskās entītijas jēdzienam Project Operations modulī **Projekta pārvaldība un uzskaite**. Visas izmaksas un ieņēmumi, kas uzkrājušies no šī projekta, tiek ieskaitīti atbildīgā uzņēmuma virsgrāmatā. |
 | Klients | Cilne **Kopsavilkums** | Atsauce uz klienta uzņēmuma vai konta ierakstu. Veidojot līgumu no piedāvājuma, šis lauks tiek kopēts no piedāvājuma ieraksta atbilstošā lauka. | Projekta līguma noklusējuma valūta, pamatojoties uz klienta valūtu. Valūtu var mainīt, pirms līgums ir saglabāts. |
 | Konta pārvaldnieks | Cilne **Kopsavilkums** | Šī darījuma konta pārvaldnieka vārds. Veidojot līgumu no piedāvājuma, šis lauks tiek kopēts no piedāvājuma ieraksta atbilstošā lauka. | Konta pārvaldnieks ir atbildīgs par attiecību ar klientu pārvaldīšanu līdz projekta pabeigšanai. Pamatojoties uz grāmatojamo resursu ierakstu, kas saistīts ar konta pārvaldnieku, līguma vienība neizpilda projekta līguma saistības. |
@@ -37,7 +37,7 @@ Tālāk sniegtajā tabulā ir uzskaitīti projekta līguma lauki, kas ir unikāl
 
 Projekta līguma cilnē **Līguma veiktspēja** ir pieejami šādi KPI:
 
-| Lauks | Atrašanās vieta | Atbilstība, mērķis un norādes |
+| Lauks | Atrašanās vieta | Apraksts |
 | --- | --- | --- |
 | Līguma vērtība | Kopējais līgums | Projekta līguma kopējā vērtība. |
 | Rēķinā norādītā summa | Kopējais līgums | Visu to rēķinu vērtību summa, kas ir atbilstoši šim līgumam. |

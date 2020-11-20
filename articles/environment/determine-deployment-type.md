@@ -3,17 +3,17 @@ title: Nosakiet savu izvietošanas veidu
 description: Šajā tēmā ir sniegta informācija, kas jums palīdzēs noteikt pareizo Project Operations izvietošanas tipu savam uzņēmumam.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080448"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401227"
 ---
 # <a name="determine-your-deployment-type"></a>Nosakiet savu izvietošanas veidu
 
@@ -25,11 +25,11 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Esošie Dynamics klienti, kas izmanto Dynamics 365 Project Service Automation
-Project Operations ietver iespējas, kas piegādātas kopā ar Project Service Automation. Nākotnē šiem klientiem tiks izlaists jaunināšanas ceļš.
+Project Operations ietver iespējas, kas piegādātas kopā ar Project Service Automation. Šiem klientiem jaunināšanas ceļš tiks izlaists 2021. gada 1. laidienā.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Esošie Dynamics 365 Finance klienti, kas izmanto Projektu pārvaldību un uzskaiti 
 
-Esošie Finance klienti, kas izmanto Projekta pārvaldības un uzskaites funkcionalitāti, var turpināt to lietošanu līdzšinējā veidā. Skatiet [Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem](#pma).
+Esošie finanšu klienti, kas izmanto projekta pārvaldības un grāmatvedības funkcionalitāti, var turpināt to lietot bez izmaiņām. Skatiet [Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem](#pma).
 
 
 ## <a name="deployment-types"></a>Izvietojuma tipi
@@ -47,12 +47,13 @@ Project Operations vienā un tajā pašā vidē atbalsta scenārijus, kas balst�
 
 Lite izvietošana ietver tālāk norādītās iespējas.
 
+- Pārdošanas process projektiem, kas paplašina Dynamics 365 Sales lietojumprogrammas lietošanas iespējas
 - Projektu plānošana, izmantojot Microsoft Project tīmeklim
 - Vairākdimensiju izcenojums
 - Vienota resursu pārvaldība
 - Laika izsekošana
 - Pamata izdevumi
-- Rēķina priekšlikums
+- Proforma un uz klientiem vērsti rēķini 
 
 #### <a name="deployment-steps"></a>Izvietošanas darbības
 Nosakiet labāko Project Operations izvietošanas modeli, izmantojot rīku [Izvietošanas anketa](https://aka.ms/provisionprojectoperations).
@@ -62,16 +63,17 @@ Lai īstenotu šo izvietošanu skatiet informāciju šeit: [Pierakstīšanās pr
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 Project Operations scenāriji, kas balstīti uz resursiem/nav balstīti uz krājumiem, ietver tālāk norādītās iespējas.
-  
+ 
+- Pārdošanas process projektiem, kas paplašina Dynamics 365 Sales lietojumprogrammu
 - Projektu plānošana, izmantojot Microsoft Project tīmeklim
 - Vairākdimensiju izcenojums
 - Vienota resursu pārvaldība
 - Laika izsekošana
 - Pamata izdevumi
-- Pilni izdevumi
+- Pilnas izdevumi
 - OCR apliecinājums
-- Pilna rēķinu izrakstīšana
-- Ieņēmumu atzinība
+- Proforma un uz klientiem vērsti rēķini 
+- Projektu ieņēmumu atzīšana
 
 #### <a name="deployment-steps"></a>Izvietošanas darbības
 Nosakiet labāko Project Operations izvietošanas modeli, izmantojot rīku [Izvietošanas anketa](https://aka.ms/provisionprojectoperations).

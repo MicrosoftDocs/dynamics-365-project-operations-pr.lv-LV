@@ -1,21 +1,21 @@
 ---
-title: Avansi un līgumus, kas balstīti uz honorāru
+title: Avansi un līgumi, kuru pamatā ir saistības — Lite
 description: Šajā tēmā ir sniegta informācija par līguma modeļiem un avansiem, kas balstīti uz honorāriem, risinājumā Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088006"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180876"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Avansi un līgumus, kas balstīti uz honorāru 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Avansi un līgumi, kuru pamatā ir saistības — Lite
 
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
@@ -33,7 +33,7 @@ Papildus periodiskam uz honorāru balstītam plānam risinājums Project Operati
 
 Project Operations honorārs nav pieejams lietošanai, kamēr par to nav izrakstīts rēķins klientam. Tas ir norādīts attiecībā uz avansu un honorāru apakšrežģī minētajiem laukiem.
 
-| Lauks | Atbilstība, mērķis un norādes | Lejupstraumes ietekme |
+| Lauks | Apraksts | Lejupstraumes ietekme |
 | --- | --- | --- |
 | Pieejamā summa | Summa, kas ir pieejama izmantošanai honorāra vai avansa ierakstam. | Līdz brīdim, kad par avansu vai honorāru ir izrakstīts rēķins, tas nav pieejams izmantošanai, kas nozīmē, ka pieejamā summa būs nulle. |
 | Izmantotā summa | Summa, kas jau tiek izmantota honorāra vai avansa ierakstam. | Avansu vai honorāru var daļēji piesaistīt rēķinam ar faktiskajām izmaksām, kurām būs kāda daļa, kas iezīmēta kā jau izmantota vai patērēta. Pārējā avansa vai honorāru summa ir pieejama, lai nākotnē saskaņotu rēķinu ar faktiskajām izmaksām. |

@@ -1,21 +1,21 @@
 ---
-title: Projekta piedāvājuma rindas (Pro)
+title: Projekta piedāvājuma rindas pārskats — Lite
 description: Šajā tēmā ir sniegta informācija par projekta piedāvājumu rindu izmantošanu projektu darbam. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080374"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181101"
 ---
-# <a name="project-based-quote-lines-pro"></a>Projekta piedāvājuma rindas (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Projekta piedāvājuma rindas pārskats — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -31,12 +31,12 @@ Projekta piedāvājumu rindas ir paredzētas, lai palīdzētu aprēķināt proje
 
 Tālāk redzamajā tabulā ir sniegta informācija par projekta piedāvājuma rindas cilnes **Vispārīgi** laukiem. Šie lauki palīdz izveidot pamatu detalizētam, vispusīgam projekta darba aprēķinam.
 
-| **Lauks** | **Atbilstība, mērķis un norādes** | **Lejupstraumes ietekme** |
+| **Lauks** | **Apraksts** | **Lejupstraumes ietekme** |
 | --- | --- | --- |
 | Nosaukums/vārds, uzvārds | Piedāvājuma rindas nosaukums, kas palīdz identificēt aprēķināmā piedāvājuma diskrēto komponentu. | Pārkopēts uz projekta līguma rindu, kas tiek izveidota no šīs piedāvājuma rindas, kad piedāvājums ir iegūts. |
 | Rēķinu izrakstīšanas metode | No iespējas izveidotam piedāvājumam šī vērtība tiek kopēta no atbilstošā lauka iespējas rindā. Šajā laukā ir iekļauti divi galvenie līgumu slēgšanas modeļi, kurus atbalsta Dynamics 365 Project Operations:</br>- fiksēta cena;</br>- laiks un materiāli.| Šī vērtība tiek pārkopēta uz projekta līguma rindu, kas tiek izveidota no šīs piedāvājuma rindas, kad piedāvājums ir iegūts. |
 | Project | Izmantojiet šo neobligāto lauku, lai identificētu projektu, kas tiks izmantots darba veikšanai šajā iesaistē. Ja projekts ir kartēts uz piedāvājuma rindu, tas atvieglo apmaksājamo uzdevumu iestatīšanu, kā arī projekta aprēķina ievietošanu piedāvājuma rindā kā piedāvājuma rindas detaļu. Ja projekts netiek kartēts uz projekta piedāvājuma rindu, aprēķins ir jāizveido manuāli, izveidojot katru piedāvājuma rindas detaļu. | Šī vērtība tiek pārkopēta uz projekta līguma rindu, kas tiek izveidota no šīs piedāvājuma rindas, kad piedāvājums ir iegūts.|
-| Iekļautie uzdevumi | Norāda, vai šī piedāvājuma rinda tiek izmantota visiem atlasītā projekta uzdevumiem vai dažiem no tiem. Šim laukam ir šādas iespējamās vērtības:</br>- visi projekta uzdevumi;</br>- tikai atlasītie projekta uzdevumi.</br>Tukša vērtība šajā laukā ir līdzvērtīga opcijai **Visi projekta uzdevumi**. | Ja pēc tam projekta lapā ir atlasīts **Tikai atlasītie projekta uzdevumi** , cilnē **Uzdevumu norēķinu iestatīšana** var atlasīt specifiskus uzdevumus, kurus saistīt ar šo piedāvājuma rindu. Šī vērtība tiek pārkopēta uz projekta līguma rindu, kas tiek izveidota no šīs piedāvājuma rindas, kad piedāvājums ir iegūts. |
+| Iekļautie uzdevumi | Norāda, vai šī piedāvājuma rinda tiek izmantota visiem atlasītā projekta uzdevumiem vai dažiem no tiem. Šim laukam ir šādas iespējamās vērtības:</br>- visi projekta uzdevumi;</br>- tikai atlasītie projekta uzdevumi.</br>Tukša vērtība šajā laukā ir līdzvērtīga opcijai **Visi projekta uzdevumi**. | Ja pēc tam projekta lapā ir atlasīts **Tikai atlasītie projekta uzdevumi**, cilnē **Uzdevumu norēķinu iestatīšana** var atlasīt specifiskus uzdevumus, kurus saistīt ar šo piedāvājuma rindu. Šī vērtība tiek pārkopēta uz projekta līguma rindu, kas tiek izveidota no šīs piedāvājuma rindas, kad piedāvājums ir iegūts. |
 | Iekļaut laiku | Karodziņš **Jā**/**Nē** norāda, vai atlasītajā projektā šīs piedāvājuma rindas aprēķinā tiks iekļauti laika darījumi vai darba izmaksas. Vērtība **Nē** norāda, ka šīs piedāvājuma rindas aprēķinā netiks iekļauti laika darījumi vai darba izmaksas. Vērtība **Jā** norāda, ka šīs piedāvājuma rindas aprēķinā tiks iekļauti laika darījumi vai darba izmaksas. | Šī vērtība tiek pārkopēta uz projekta līguma rindu, kas tiek izveidota no šīs piedāvājuma rindas, kad piedāvājums ir iegūts. |
 | Iekļaut izdevumus | Karodziņš **Jā**/**Nē** norāda, vai atlasītajā projektā šīs piedāvājuma rindas aprēķinā tiks iekļautas izdevumu izmaksas. Vērtība **Nē** norāda, ka šīs piedāvājuma rindas aprēķinā netiks iekļautas izdevumu izmaksas. Vērtība **Jā** norāda, ka šīs piedāvājuma rindas aprēķinā tiks iekļautas izdevumu izmaksas. | Šī vērtība tiek pārkopēta uz projekta līguma rindu, kas tiek izveidota no šīs piedāvājuma rindas, kad piedāvājums ir iegūts. |
 | Iekļaut maksu | Karodziņš **Jā**/**Nē** norāda, vai atlasītajā projektā šīs piedāvājuma rindas aprēķinā tiks iekļautas maksas. Vērtība **Nē** norāda, ka šīs piedāvājuma rindas aprēķinā netiks iekļautas maksas. Vērtība **Jā** norāda, ka šīs piedāvājuma rindas aprēķinā tiks iekļautas maksas. | Šī vērtība tiek pārkopēta uz projekta līguma rindu, kas tiek izveidota no šīs piedāvājuma rindas, kad piedāvājums ir iegūts. |
@@ -49,15 +49,15 @@ Tālāk redzamajā tabulā ir sniegta informācija par projekta piedāvājuma ri
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Validācijas kārtulas laukiem projekta piedāvājumu rindu cilnē Vispārīgi
 
-**1. kārtula** : ja lauks **Iekļautie uzdevumi** ir tukšs vai ir iestatīts uz **Visi projekta uzdevumi** , projekts tiek iekļauts piedāvājuma rindā.
+**1. kārtula**: ja lauks **Iekļautie uzdevumi** ir tukšs vai ir iestatīts uz **Visi projekta uzdevumi**, projekts tiek iekļauts piedāvājuma rindā.
 
-**2. kārtula** : ja lauks **Iekļautie uzdevumi** ir tukšs vai ir iestatīts uz **Visi projekta uzdevumi** , projektu un noteiktu transakciju klasi var iekļaut tikai vienā projekta piedāvājuma rindā.
+**2. kārtula**: ja lauks **Iekļautie uzdevumi** ir tukšs vai ir iestatīts uz **Visi projekta uzdevumi**, projektu un noteiktu transakciju klasi var iekļaut tikai vienā projekta piedāvājuma rindā.
 
-**3. kārtula** : ja lauks **Iekļautie uzdevumi** ir ir iestatīts uz **Tikai atlasītie projekta uzdevumi** , projektu un noteiktu transakciju klasi var iekļaut vairākās projekta piedāvājuma rindās.
+**3. kārtula**: ja lauks **Iekļautie uzdevumi** ir ir iestatīts uz **Tikai atlasītie projekta uzdevumi**, projektu un noteiktu transakciju klasi var iekļaut vairākās projekta piedāvājuma rindās.
 
-**4. kārtula** : ja iespējai ir vairāki piedāvājumi, var būt pieejamas piedāvājumu rindas no dažādiem piedāvājumiem, kas visi attiecas uz vienu un to pašu projektu un ietver to pašu transakciju klasi.
+**4. kārtula**: ja iespējai ir vairāki piedāvājumi, var būt pieejamas piedāvājumu rindas no dažādiem piedāvājumiem, kas visi attiecas uz vienu un to pašu projektu un ietver to pašu transakciju klasi.
 
-**5. kārtula** : ja piedāvājumi nepieder vienai un tai pašai iespējai, tie nevar ietvert to pašu projektu un transakciju klasi.
+**5. kārtula**: ja piedāvājumi nepieder vienai un tai pašai iespējai, tie nevar ietvert to pašu projektu un transakciju klasi.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

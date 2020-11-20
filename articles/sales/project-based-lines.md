@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080305"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181956"
 ---
 # <a name="project-based-opportunity-lines"></a>Uz projektiem balstītas iespēju rindas
 
@@ -26,9 +26,9 @@ Projektu iespēju rindas ir rindas vienumi, kas tiks nodrošināti klientam, izm
 
 Tālāk ir uzskaitīti lauki projekta iespējas rindā.
 
-| **Lauks** | **Atrašanās vieta** | **Atbilstība, mērķis un norādes** | **Lejupstraumes ietekme** |
+| **Lauks** | **Atrašanās vieta** | **Apraksts** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |
-| Preces tips | Cilne Vispārīgi (slēpta) | Šis ir opciju kopas lauks. Ja ir instalēts Dynamics 365 Operations, viena no pieejamajām opcijām ir **Projekta pakalpojums**.  | Šī lauka vērtība tiek iestatīta uz **Projekta pakalpojums** , kad iespējai tiek izveidota projekta iespēju rinda no projekta rindu režģa. <br> Ja šī vērtība tiek mainīta vai ignorēta, projekta funkcionalitāte projekta rindas vienumiem netiks iespējota. |
+| Preces tips | Cilne Vispārīgi (slēpta) | Šis ir opciju kopas lauks. Ja ir instalēts Dynamics 365 Operations, viena no pieejamajām opcijām ir **Projekta pakalpojums**.  | Šī lauka vērtība tiek iestatīta uz **Projekta pakalpojums**, kad iespējai tiek izveidota projekta iespēju rinda no projekta rindu režģa. <br> Ja šī vērtība tiek mainīta vai ignorēta, projekta funkcionalitāte projekta rindas vienumiem netiks iespējota. |
 | Iespēja | Cilne Vispārīgi | Šis lauks ir tikai lasāms, un tajā ir atsauce uz primāro iespējas ierakstu, kam pieder šis rindas vienums. | Šim laukam nav lejupstraumes ietekmes. |
 | Nosaukums/vārds, uzvārds | Cilne Vispārīgi | Šis ir rediģējams teksta lauks, ko var izmantot, lai šim rindas vienumam piešķirtu īsu identitāti | Šī vērtība tiek pārnesta uz piedāvājuma rindu, veidojot piedāvājumu no šīs iespējas |
 | Klienta budžets | Cilne Vispārīgi | Šo rediģējamo valūtas lauku var izmantot, lai izsekotu summu, ko klients ir gatavs tērēt šim rindas vienumam. | Šī vērtība tiek pārnesta uz atbilstošo lauku piedāvājuma rindā, veidojot piedāvājumu no šīs iespējas |

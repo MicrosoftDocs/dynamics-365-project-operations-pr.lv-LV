@@ -1,21 +1,21 @@
 ---
-title: Rēķina izrakstīšana par honorāru vai avansu
+title: Honorāra vai avansa aprēķins — Lite
 description: Šajā tēmā sniegta informācija par to, kā programmā Project Operations izrakstīt rēķinus par honorāru vai avansu.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088009"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180561"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Rēķina izrakstīšana par honorāru vai avansu
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Honorāra vai avansa aprēķins — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -32,7 +32,7 @@ Veiciet tālāk norādītās darbības, lai izrakstītu rēķinu par honorāru v
 
 Var izveidot honorāru vai avansu tieši rēķinā.
 
-1. Rēķina melnraksta apakšrežģī **Avansi un honorāri** atlasiet vienumu **Jauns** , lai izveidotu jaunu honorāru vai avansu. 
+1. Rēķina melnraksta apakšrežģī **Avansi un honorāri** atlasiet vienumu **Jauns**, lai izveidotu jaunu honorāru vai avansu. 
 2. Lapā **Ātrā izveide** pievienojiet nepieciešamo informāciju un pēc tam atlasiet vienumu **Saglabāt**. Tiek izveidots honorārs vai avanss ar rēķinu saistītajam projekta līgumam. Honorārs vai avanss tiek automātiski atzīmēts kā **Gatavs rēķina izrakstīšanai** un pēc tam pievienots apakšrežģim **Avansi un honorāri** lapā **Rēķins**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Rēķinā izrakstīta honorāra vai avansa saskaņošana
@@ -43,7 +43,7 @@ Katram rēķinam, kas ir izveidots projekta līgumam, kuram ir izrakstīts rēķ
 
 To var redzēt lapas **Rēķins** režģī **Lietotie honorāri un avansi**. Tālāk atrodamajā tabulā ir sniegta informācija par laukiem, kas atrodas lapas **Projekta rēķins** režģī **Lietotie honorāri un avansi**.
 
-| Lauks | Atrašanās vieta | Atbilstība, mērķis un norādes | Lejupstraumes ietekme |
+| Lauks | Atrašanās vieta | Apraksts | Lejupstraumes ietekme |
 | --- | --- | --- | --- |
 | Apraksts | Režģis **Lietotie honorāri un avansi** lapā **Projekta rēķins** |Šis tikai lasāmais lauks nodrošina avansa vai honorāra aprakstu, kas tiek izmantots šajā rēķinā. Šo vērtību rēķinā nevar mainīt. Šo vērtību var atjaunināt lapas **Projekta līgums** apakšrežģī. | Šo lauku var parādīt klientam drukātajā rēķinā, lai norādītu, kurš honorārs vai avanss tiek izmantots rēķinā. |
 | Kad piegādāts | Režģis **Lietotie honorāri un avansi** lapā **Projekta rēķins**  | Šis tikai lasāmais lauks nodrošina avansa vai honorāra rēķina datumu, kas tiek izmantots šajā rēķinā. Šo vērtību rēķinā nevar mainīt. Šo vērtību var atjaunināt lapas **Projekta līgums** apakšrežģī. | Šo lauku var parādīt klientam drukātajā rēķinā, lai norādītu datumu, kad honorārs vai avanss tika vispirms izrakstīts klienta rēķinā. |

@@ -1,21 +1,21 @@
 ---
-title: Uz produktiem balstītu līgumu rindu pārskats
+title: Uz produktiem balstītu līgumu rindu pārskats — Lite
 description: Šajā tēmā ir sniegta informācija par līguma rindām, kuras ir balstītas uz produktu.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080371"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177880"
 ---
-# <a name="product-based-contract-lines-overview"></a>Uz produktiem balstītu līgumu rindu pārskats
+# <a name="product-based-contract-lines-overview---lite"></a>Uz produktiem balstītu līgumu rindu pārskats — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -43,6 +43,6 @@ Ja līguma rinda ir balstīta uz preču katalogu, pārdošanas cenu varat pārla
 - **Pārlabot izcenojumu**
 - **Izmantot noklusējumu**
 
-Ja iestatāt lauku **Cenu noteikšana** uz **Pārlabot cenu noteikšanu** , noklusējuma cena nav iestatīta. Ievadiet produkta cenu līguma rindā. Ja iestatījāt lauku uz **Izmantotu noklusējumu** , tiek izmantota noklusējuma pārdošanas cena un lauku nevar rediģēt.
+Ja iestatāt lauku **Cenu noteikšana** uz **Pārlabot cenu noteikšanu**, noklusējuma cena nav iestatīta. Ievadiet produkta cenu līguma rindā. Ja iestatījāt lauku uz **Izmantotu noklusējumu**, tiek izmantota noklusējuma pārdošanas cena un lauku nevar rediģēt.
 
-Pēc Project Operations instalēšanas noklusētās pārdošanas cenas tiek ievadītas līguma produktu rindās. Lauks **Cenu noteikšana** tiek iestatīts uz **Pārlabot cenu noteikšanu** , lai jūs varētu rediģēt noteiktā cenu līguma rindās. Šī ir Project Operations specifiska pārlabošana uz produktu bāzētu līniju uzvedībai risinājumā Dynamics 365 Sales.
+Pēc Project Operations instalēšanas noklusētās pārdošanas cenas tiek ievadītas līguma produktu rindās. Lauks **Cenu noteikšana** tiek iestatīts uz **Pārlabot cenu noteikšanu**, lai jūs varētu rediģēt noteiktā cenu līguma rindās. Šī ir Project Operations specifiska pārlabošana uz produktu bāzētu līniju uzvedībai risinājumā Dynamics 365 Sales.

@@ -1,23 +1,33 @@
 ---
-title: Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service programmai Project Operations
+title: Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service
 description: Šajā tēmā ir sniegta informācija par konfigurācijas datu iestatīšanu un lietošanu programmā Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080317"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401137"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service programmai Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service 
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
+
+## <a name="prerequisites"></a>Priekšnosacījumi
+
+Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda šādi priekšnosacījumi:
+
+1.  Nodrošināt CDS vidi un Dynamics 365 Finance vidi risinājumam Project Operations.
+2.  Informācija par juridiskajām entītijām no Dynamics 365 Finance tiek kopīgota ar CDS vidi. Tas nozīmē, ka entītijai **Uzņēmums** pakalpojumā CDS ir šādi uzņēmumu ieraksti:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Iestatīšanas un konfigurācijas datu instalēšana
 
@@ -75,7 +85,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 ![Atvērt vidi](./media/7OpenEnvironment.png)
 
-2. Atveriet sadaļas **Projekti** > **Resursi** un pēc tam atlasiet **Jauns** , lai savam lietotājam izveidotu rezervējamu resursu.
+2. Atveriet sadaļas **Projekti** > **Resursi** un pēc tam atlasiet **Jauns**, lai savam lietotājam izveidotu rezervējamu resursu.
 
 ![Rezervējamie resursi](./media/8BookableResources.png)
 
@@ -114,10 +124,10 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
  
 12. Atjauniniet šos laukus:
 
- - **Noklusējuma uzņēmums** : USPM
- - **Noklusējuma organizācijas vienība** : Contoso Robotics Global
- - **Rēķina izrakstīšanas biežums** : septītā un pēdējā diena
- - **Darba stundu veidne** : mainiet uz izveidoto veidni
+ - **Noklusējuma uzņēmums**: USPM
+ - **Noklusējuma organizācijas vienība**: Contoso Robotics Global
+ - **Rēķina izrakstīšanas biežums**: septītā un pēdējā diena
+ - **Darba stundu veidne**: mainiet uz izveidoto veidni
 
 13. Atlasiet vienumu **Saglabāt**. 
 

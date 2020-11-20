@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080348"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180381"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projekta piedāvājuma rindas aprēķināšana
 
@@ -30,9 +30,9 @@ Lai aprēķinātu projekta piedāvājuma rindu, projekta piedāvājuma rindā at
 
 Lai izveidotu aprēķinu projekta piedāvājuma rindā, atlasiet cilni **Piedāvājuma rindas informācija** . Rindas elements, ko izveidojat šajā cilnē, apkopo šīs piedāvājuma rindas aprēķināto vērtību. 
 
-Lai izveidotu piedāvājuma rindas informāciju, atlasiet vienumu **+ Jauna piedāvājuma rindas informācija** apakšrežģī **Piedāvājuma rindas informācijas**. Tiks atvērts ātrās izveides slīdnis. Veidlapā **Piedāvājuma rinda** ir šādi lauki:
+Lai izveidotu piedāvājuma rindas informāciju, atlasiet **+ Jauna piedāvājuma rindas informācija** apakšrežģī **Piedāvājuma rindas informācija**. Tiks atvērts ātrās izveides slīdnis. Veidlapā **Piedāvājuma rinda** ir šādi lauki:
 
-| **Lauks** | **Atrašanās vieta** | **Atbilstība, mērķis un norādes** | **Lejupstraumes ietekme** |
+| **Lauks** | **Atrašanās vieta** | **Apraksts** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |
 | Apraksts | Ātrā izveide | Konkrētā aprēķina apraksts. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
 | Darījuma klase | Ātrā izveide | Šis nolaižamais saraksts nodrošina darījumu klases, kas ir ietvertas projekta piedāvājuma rindas cilnē **Vispārīgi**.  | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
@@ -50,11 +50,11 @@ Lai izveidotu piedāvājuma rindas informāciju, atlasiet vienumu **+ Jauna pied
 
 ## <a name="update-prices-on-quote-line-details"></a>Cenas atjaunināšana piedāvājuma rindas informācijā
 
-Ja esat mainījis cenas projekta cenrādī, kas ir pievienots piedāvājumam, vai līgumslēdzēja vienības izmaksu cenrādī, varat atlasīt vienumu **Pārrēķināt** lapā **Piedāvājums** , lai atsvaidzinātu atsevišķas piedāvājuma rindas informācijas cenas un atspoguļotu veiktās izmaiņas. Kad atlasāt opciju **Pārrēķināt** , jūs ar brīdinājumu tiekat informēts, ka cenas piedāvājuma rindas informācijā par visām šī piedāvājuma rindām tiks atiestatītas. Atlasiet **Jā** , lai atsvaidzinātu cenas gan pārdošanas, gan izmaksu piedāvājuma rindas informācijā.
+Ja esat mainījis cenas projekta cenrādī, kas ir pievienots piedāvājumam, vai līgumslēdzēja vienības izmaksu cenrādī, varat atlasīt vienumu **Pārrēķināt** lapā **Piedāvājums**, lai atsvaidzinātu atsevišķas piedāvājuma rindas informācijas cenas un atspoguļotu veiktās izmaiņas. Kad atlasāt opciju **Pārrēķināt**, jūs ar brīdinājumu tiekat informēts, ka cenas piedāvājuma rindas informācijā par visām šī piedāvājuma rindām tiks atiestatītas. Atlasiet **Jā**, lai atsvaidzinātu cenas gan pārdošanas, gan izmaksu piedāvājuma rindas informācijā.
 
 ## <a name="access-quote-line-details-for-cost"></a>Piekļuve piedāvājuma rindas informācijai attiecībā uz izmaksām
 
-Cilnē **Piedāvājuma rindas informācija** atlasiet režģa rindu, lai iespējotu dažas darbības apakšrežģa rīkjoslā. Ja ir atlasīta piedāvājuma rindas informācija, pirmā darbība apakšrežģa rīkjoslā ir **Atvērt izmaksu informāciju**. Atlasiet vienumu **Atvērt izmaksu informāciju** , lai skatītu šīs piedāvājuma rindas saistīto izmaksu likmi un summu.
+Cilnē **Piedāvājuma rindas informācija** atlasiet režģa rindu, lai iespējotu dažas darbības apakšrežģa rīkjoslā. Ja atlasāt piedāvājuma rindas informāciju, pirmā darbība apakšrežģa rīkjoslā ir **Atvērt izmaksu informāciju**. Atlasiet vienumu **Atvērt izmaksu informāciju**, lai skatītu šīs piedāvājuma rindas saistīto izmaksu likmi un summu.
 
 > [!NOTE]
 > Mainot piedāvājuma rindas informācijas resursu vienības, daudzuma, datumu, lomas vai kategorijas vērtības attiecībā uz izmaksām, tiek mainītas arī atbilstošās vērtības piedāvājuma rindas informācijā par pārdošanu.

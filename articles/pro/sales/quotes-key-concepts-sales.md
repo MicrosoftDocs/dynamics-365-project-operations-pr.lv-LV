@@ -1,21 +1,21 @@
 ---
-title: Projekta piedāvājuma pamata koncepti
+title: Piedāvājumi — pamata koncepti — Lite
 description: Šajā tēmā ir sniegta informācija par projekta piedāvājumu izmantošanu Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080368"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178015"
 ---
-# <a name="project-quote-key-concepts"></a>Projekta piedāvājuma pamata koncepti
+# <a name="quotes---key-concepts---lite"></a>Piedāvājumi — pamata koncepti — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -40,7 +40,7 @@ Atšķirībā no izmaksām pārdošanas vērtības var reģistrēt tikai pārdo�
 
 ## <a name="billing-method"></a>Rēķinu izrakstīšanas metode
 
-Projektiem parasti ir fiksēta maksa un uz patēriņu balstīti līgumu modeļi. Tas ir parādīts risinājumā Project Operations kā **Rēķinu izrakstīšanas metode** , un tai ir divas vērtības — laiks un materiāli un fiksēta cena.
+Projektiem parasti ir fiksēta maksa un uz patēriņu balstīti līgumu modeļi. Tas ir parādīts risinājumā Project Operations kā **Rēķinu izrakstīšanas metode**, un tai ir divas vērtības — laiks un materiāli un fiksēta cena.
 
 - **Laiks un materiāli:** šis ir uz patēriņu balstīts līguma modelis, kurā visām radītajām izmaksām ir atbilstoši ieņēmumi. Aprēķinot vai radot vairāk izmaksu, palielinās arī aplēstais un faktiskais pārdošanas apjoms. Varat norādīt nepārsniedzamos ierobežojumus to piedāvājumu rindās, kam ir šī norēķinu metode. Tādējādi tiek iestatīta maksimālā robežvērtība faktiskajiem ieņēmumiem. Nepārsniedzamie ierobežojumi neietekmē prognozējamos ieņēmumus.
 - **Fiksēta cena:** šis ir fiksētas maksas līguma modelis, kas norāda, ka pārdošanas vērtības ir neatkarīgas no izmaksām, kas radušās. Pārdošanas vērtība ir fiksēta un nemainās, aplēšot vai radot vairāk izmaksu.
@@ -78,7 +78,7 @@ Vairāku klientu darījumi rodas, ja rēķinā ir vairāk nekā viens klients. T
 
 ## <a name="invoice-schedules"></a>Rēķina izrakstīšanas grafiki
 
-Rēķinu grafiki ir specifiski katrai piedāvājuma rindai un arī nav obligāti. Rēķinu grafiki ir izveidoti, pamatojoties uz noteiktiem sākuma un beigu datumiem un rēķina biežumu. Rēķinu grafiki tiek izmantoti līguma posmā, kad ir konfigurēts automātiskais rēķinu izveides process. Piedāvājuma posmā grafiki ir neobligāti. Ja rēķinu grafiki tiek izveidoti posmā **Piedāvājums** , tie tiek kopēti uz projekta līgumu, kas izveidots, kad projekta piedāvājums tiek iegūts.
+Rēķinu grafiki ir specifiski katrai piedāvājuma rindai un arī nav obligāti. Rēķinu grafiki ir izveidoti, pamatojoties uz noteiktiem sākuma un beigu datumiem un rēķina biežumu. Rēķinu grafiki tiek izmantoti līguma posmā, kad ir konfigurēts automātiskais rēķinu izveides process. Piedāvājuma posmā grafiki ir neobligāti. Ja rēķinu grafiki tiek izveidoti posmā **Piedāvājums**, tie tiek kopēti uz projekta līgumu, kas izveidots, kad projekta piedāvājums tiek iegūts.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Izmaiņas no Dynamics 365 Sales piedāvājuma:
 

@@ -1,23 +1,30 @@
 ---
-title: Demonstrācijas iestatīšanas un konfigurācijas datu lietošana
+title: Demonstrācijas iestatīšanas un konfigurācijas datu lietošana — Lite
 description: Šajā tēmā ir sniegta informācija par demonstrācijas iestatīšanas un konfigurācijas datu lietošanu programmai Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080309"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401272"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Demonstrācijas iestatīšanas un konfigurācijas datu lietošana Project Operations Lite izvietošanā — pāreja uz proforma rēķinu izrakstīšanu
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demonstrācijas iestatīšanas un konfigurācijas datu lietošana lietojumprogrammā Project Operations — Lite 
 
 _**Lite izvietošana — pāriet uz proforma rēķina izrakstīšanu_
+
+## <a name="prerequisites"></a>Priekšnosacījumi
+
+Pirms konfigurēšanas sākšanas ir nepieciešama Common Data Service (CDS) vide, kas ir nodrošināta līdzeklim Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Norādījumi
 
 1. Lejupielādējiet [Galveno datu pakotni](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Pārejiet uz mapi *ProjOpsDemoDataSetupAndMaster - Integrated CMT* un palaidiet izpildāmo failu *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Lite izvietošana — pāriet uz proforma rēķina izrakstīšanu_
 10. Atkarībā no tīkla ātruma importēšanas darbība notiek apmēram divas līdz desmit minūtes. Pēc pabeigšanas izejiet no CMT vedņa. 
 11. Pārbaudiet savas organizācijas datus šajās 20 entītijās:
 
-- Valūta
-- Organizācijas vienība
-- Kontaktinformācija
-- Nodokļu grupa
-- Klientu grupa
-- Vienība
-- Vienību grupa
-- Cenrādis
-- Projekta parametru cenrādis
-- Rēķina izrakstīšanas biežums
-- Rēķinu biežuma informācija
-- Rezervējamo resursu kategorija
-- Darījuma kategorija
-- Izdevumu kategorija
-- Lomas cena
-- Transakcijas kategorijas cena
-- Īpašību
-- Rezervējamais resurssss
-- Rezervējamo resursu kategorijas saistība
-- Rezervējamā resursa īpašība
+-   Valūta
+-   Konts
+-   Organizācijas vienība
+-   Kontaktinformācija
+-   Nodokļu grupa
+-   Klientu grupa
+-   Vienība
+-   Vienību grupa
+-   Cenrādis
+-   Projekta parametru cenrādis 
+-   Rēķina izrakstīšanas biežums
+-   Rezervējamo resursu kategorija
+-   Darījuma kategorija
+-   Izdevumu kategorija
+-   Lomas cena
+-   Transakcijas kategorijas cena
+-   Īpašību
+-   Rezervējamais resurssss
+-   Rezervējamo resursu kategorijas saistība
+-   Rezervējamā resursa īpašība
 
 ![Pabeigt importēšanu](./media/6CompleteImport.png)

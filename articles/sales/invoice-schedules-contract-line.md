@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4080676"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180786"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Rēķina grafika izveidošana projekta līguma rindā 
 
@@ -27,13 +27,13 @@ Ja projekta līguma rindai ir laika un materiālu norēķinu metode, varat izvei
 
 1. Dodieties uz **iestatījumi** > **Rēķinu biežumi** un iestatiet rēķinu biežumu.
 2. Atveriet projekta līguma ierakstu un cilnes **Kopsavilkums** laukā **Pieprasītais piegādes datums** atlasiet datumu.
-3. Atveriet līguma rindu **Laiks un materiāli** , kurai veidojat rēķina grafiks, pamatojoties uz datumiem. 
+3. Atveriet līguma rindu **Laiks un materiāli**, kurai veidojat rēķina grafiks, pamatojoties uz datumiem. 
 4. Cilnē **Rēķinu grafiks** atlasiet norēķinu sākuma datumu un rēķinu biežumu.
-5. Apakšrežģī atlasiet vienumu **Izveidot rēķinu izrakstīšanas grafiku**. Rēķinu grafiks tiek ģenerēts ar šādi iestatītiem laukiem **Rēķina izpildes datums** , **Darījuma pēdējais datums** un **Izpildes statuss**.
+5. Apakšrežģī atlasiet vienumu **Izveidot rēķinu izrakstīšanas grafiku**. Rēķinu grafiks tiek ģenerēts ar šādi iestatītiem laukiem **Rēķina izpildes datums**, **Darījuma pēdējais datums** un **Izpildes statuss**.
 
-    - **Rēķina izpildes datums** : šis ir datums, ko nosaka, pamatojoties uz rēķinu biežumu.
-    - **Darījuma pēdējais datums** : diena pirms rēķina izpildes datuma.
-    - **Izpildes statuss** : automātiski iestatīts uz **Nav palaists**. Kad automātiskās rēķina izveides uzdevums tiek pildīts attiecībā uz noteiktu rēķina izpildes datumu, šis lauks tiek atjaunināts, rādot **Izpilde neveiksmīga** vai **Izpilde neizdevās**.
+    - **Rēķina izpildes datums**: šis ir datums, ko nosaka, pamatojoties uz rēķinu biežumu.
+    - **Darījuma pēdējais datums**: diena pirms rēķina izpildes datuma.
+    - **Izpildes statuss**: automātiski iestatīts uz **Nav palaists**. Kad automātiskās rēķina izveides uzdevums tiek pildīts attiecībā uz noteiktu rēķina izpildes datumu, šis lauks tiek atjaunināts, rādot **Izpilde neveiksmīga** vai **Izpilde neizdevās**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Fiksētas cenas rēķina grafika izveide līguma rindai
 
@@ -46,14 +46,14 @@ Izpildiet tālāk aprakstītās darbības, lai izveidotu atskaites punktu rēķi
 
 1. Dodieties uz **iestatījumi** > **Rēķinu biežumi** un iestatiet rēķinu biežumu.
 2. Atveriet projekta līguma ierakstu un cilnes **Kopsavilkums** laukā **Pieprasītais piegādes datums** atlasiet datumu.
-3. Atveriet līguma rindu **Fiksēta cena** , kurai izveidojat atskaites punktu grafiku. Cilnē **Norēķinu atskaites punkti** atlasiet norēķinu sākuma datumu un rēķinu biežumu. 
-4. Apakšrežģī atlasiet vienumu **Izveidot periodiskos atskaites punktus**. Rēķinu grafiks tiek ģenerēts ar šādi iestatītiem laukiem **Atskaites punkta nosaukums** , **Atskaites punkta datums** un **Atskaites punkta summa**.
+3. Atveriet līguma rindu **Fiksēta cena**, kurai izveidojat atskaites punktu grafiku. Cilnē **Norēķinu atskaites punkti** atlasiet norēķinu sākuma datumu un rēķinu biežumu. 
+4. Apakšrežģī atlasiet vienumu **Izveidot periodiskos atskaites punktus**. Rēķinu grafiks tiek ģenerēts ar šādi iestatītiem laukiem **Atskaites punkta nosaukums**, **Atskaites punkta datums** un **Atskaites punkta summa**.
 
-    - **Atskaites punkta nosaukums** : šis ir datums, ko nosaka, pamatojoties uz rēķinu biežumu.
-    - **Atskaites punkta datums** : šis ir datums, ko nosaka, pamatojoties uz rēķinu biežumu.
-    - **Atskaites punkta summa** : šī summa tiek aprēķināta, dalot līguma summu līguma rindā ar atskaites punktu skaitu, kas noteikts pēc biežuma, un norēķinu sākuma datuma un pieprasītajiem izpildes datumiem.
+    - **Atskaites punkta nosaukums**: šis ir datums, ko nosaka, pamatojoties uz rēķinu biežumu.
+    - **Atskaites punkta datums**: šis ir datums, ko nosaka, pamatojoties uz rēķinu biežumu.
+    - **Atskaites punkta summa**: šī summa tiek aprēķināta, dalot līguma summu līguma rindā ar atskaites punktu skaitu, kas noteikts pēc biežuma, un norēķinu sākuma datuma un pieprasītajiem izpildes datumiem.
 
-    Ja līguma rindai ir vērtība laukā **Aprēķinātā nodokļu summa** , šis lauks ir proporcionāli līdzvērtīgs arī katram atskaites punktam, kad tiek ģenerēti periodiski atskaites punkti.
+    Ja līguma rindai ir vērtība laukā **Aprēķinātā nodokļu summa**, šis lauks ir proporcionāli līdzvērtīgs arī katram atskaites punktam, kad tiek ģenerēti periodiski atskaites punkti.
 
 Norēķinu atskaites punktiem ir jābūt vienāiem ar līguma rindas līgumā ietverto vērtību. Ja tā nav, lapā **Līguma rinda** tiks rādīta kļūda. Kļūdu var labot, pārbaudot, vai norēķinu atskaites punktu kopsumma atbilst līguma rindas vērtībai, izveidojot, rediģējot vai dzēšot atskaites punktus. Pēc izmaiņu veikšanas atsvaidziniet lapu, lai noņemtu kļūdu.
 
@@ -64,7 +64,7 @@ Jūs varat ģenerēt fiksētas cenas atskaites punktus manuāli, ja tie nav peri
 1. Atveriet fiksētās cenas līguma rindu, kurai veidojat atskaites punktu, un apakšrežģa cilnē **Rēķinu grafiks** atlasiet **+ Izveidot jaunu līguma rindas atskaites punktu**. 
 2. Lapā **Atskaites punktu izveide** ievadiet nepieciešamo informāciju, pamatojoties uz šo tabulu.
 
-| Lauks | Atrašanās vieta | Atbilstība, mērķis un norādes | Lejupstraumes ietekme |
+| Lauks | Atrašanās vieta | Apraksts | Lejupstraumes ietekme |
 | --- | --- | --- | --- |
 | Atskaites punkta nosaukums | Ātrā izveide | Teksta lauks atskaites punkta nosaukumam. | Tas tiek nodots arī projekta līguma rindas atskaites punktam un rēķinam. |
 | Projekta uzdevums | Ātrā izveide | Ja atskaites punkts ir saistīts ar projekta uzdevumu, izmantojiet šo atsauci, lai pievienotu pielāgotu loģiku, lai noteiktu atskaites punkta statusu, pamatojoties uz uzdevuma statusu. | Programmā šī atsauce uz uzdevumu nerada lejupstraumes ietekmi. |

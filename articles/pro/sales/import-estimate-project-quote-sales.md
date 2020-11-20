@@ -1,21 +1,21 @@
 ---
-title: Projekta aprēķinu importēšana projekta piedāvājuma rindā
+title: Projekta aprēķinu importēšana uz projekta piedāvājuma rindu — Lite
 description: Šajā tēmā sniegta informācija par to, kā importēt aprēķinus no projekta piedāvājuma rindā.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080346"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177745"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekta aprēķinu importēšana projekta piedāvājuma rindā
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Projekta aprēķinu importēšana uz projekta piedāvājuma rindu — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -30,7 +30,7 @@ Ja projekts ir izveidots posmā pirms pārdošanas, varat izvēlēties no projek
   - **Loma** 
   - **Projekta uzdevums**
 
-Pamatojoties uz veikto atlasi, projekta aprēķini par visām darījumu klasēm, kas iekļautas šajā piedāvājuma rindā, tiek kopētas. Lai pārbaudītu, kādas darījumu klases ir ietvertas, atlasiet cilni **Vispārīgi** projekta piedāvājuma rindā un pārbaudiet vērtības laukos **Iekļaut laiku** , **Iekļaut izdevumus** un **Iekļaut maksas**.  Lai pārbaudītu, kādi uzdevumi ir iekļauti, piedāvājuma rindā atlasiet cilni **Apmaksājamie uzdevumi**.
+Pamatojoties uz veikto atlasi, projekta aprēķini par visām darījumu klasēm, kas iekļautas šajā piedāvājuma rindā, tiek kopētas. Lai pārbaudītu, kādas darījumu klases ir ietvertas, atlasiet cilni **Vispārīgi** projekta piedāvājuma rindā un pārbaudiet vērtības laukos **Iekļaut laiku**, **Iekļaut izdevumus** un **Iekļaut maksas**.  Lai pārbaudītu, kādi uzdevumi ir iekļauti, piedāvājuma rindā atlasiet cilni **Apmaksājamie uzdevumi**.
 
 Atkarībā no saistītajiem uzdevumiem un iekļauto darījumu klasēm, šo uzdevumu un darījumu klašu kombināciju aprēķini tiek importēti piedāvājuma rindā.
 

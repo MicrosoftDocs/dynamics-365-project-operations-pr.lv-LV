@@ -1,21 +1,21 @@
 ---
-title: Uz projektiem balstītas iespēju rindas (Pro)
+title: Uz projektu balstītas iespēju rindas — Lite
 description: Šajā tēmā ir sniegta informācija par iespēju rindām, kuras ir balstītas uz projektu. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080369"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181017"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Uz projektiem balstītas iespēju rindas (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Uz projektu balstītas iespēju rindas — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -25,9 +25,9 @@ Projektu iespēju rindas ir rindas vienumi, kas tiks nodrošināti klientam, izm
 
 Tālāk ir uzskaitīti lauki projekta iespējas rindā.
 
-| **Lauks** | **Atrašanās vieta** | **Atbilstība, mērķis un norādes** | **Lejupstraumes ietekme** |
+| **Lauks** | **Atrašanās vieta** | **Apraksts** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |
-| Preces tips | Cilne Vispārīgi (slēpta) | Varat atlasīt vienu no šīm opcijām:</br>- Projekta pakalpojums (pieejams tikai tad, ja ir instalēts Dynamics 365 Project Operations)</br>- Produkts (pieejams tikai tad, ja ir instalēts Project Operations un Dynamics 365 Sales) | Šī lauka vērtība tiek iestatīta uz **Projekta pakalpojums** , kad iespējai tiek izveidota projekta iespēju rinda no projekta rindu režģa. <br> Ja šī vērtība tiek mainīta vai ignorēta, projekta funkcionalitāte projekta rindas vienumiem netiks iespējota. |
+| Preces tips | Cilne Vispārīgi (slēpta) | Varat atlasīt vienu no šīm opcijām:</br>- Projekta pakalpojums (pieejams tikai tad, ja ir instalēts Dynamics 365 Project Operations)</br>- Produkts (pieejams tikai tad, ja ir instalēts Project Operations un Dynamics 365 Sales) | Šī lauka vērtība tiek iestatīta uz **Projekta pakalpojums**, kad iespējai tiek izveidota projekta iespēju rinda no projekta rindu režģa. <br> Ja šī vērtība tiek mainīta vai ignorēta, projekta funkcionalitāte projekta rindas vienumiem netiks iespējota. |
 | Iespēja | Cilne Vispārīgi | Šis lauks ir tikai lasāms, un tajā ir atsauce uz primāro iespējas ierakstu, kam pieder šis rindas vienums. | Šim laukam nav lejupstraumes ietekmes. |
 | Nosaukums/vārds, uzvārds | Cilne Vispārīgi | Šis rediģējamais teksta lauks ir izmantojams, lai rindas vienumam piešķirtu īsu identitāti. | Šī vērtība tiek pārnesta uz piedāvājuma rindu, veidojot piedāvājumu no šīs iespējas. |
 | Klienta budžets | Cilne Vispārīgi | Šo rediģējamo valūtas lauku var izmantot, lai izsekotu summu, ko klients ir gatavs tērēt šim rindas vienumam. | Šī vērtība tiek pārnesta uz atbilstošo lauku piedāvājuma rindā, veidojot piedāvājumu no šīs iespējas. |

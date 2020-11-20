@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080341"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180606"
 ---
 # <a name="set-up-labor-cost-rates"></a>Darba izmaksu likmju iestatīšana
 
@@ -22,13 +22,13 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Katram cenrādim ir darba likmju (lomu cenu) kopa, kas atbilst cenrāža saturam un datuma efektivitātei.
 
-1. Izveidojiet cenrādi un cilnē **Lomas cena** apakšrežģī atlasiet **Jauna loma**.
+1. Izveidojiet cenrādi un apakšrežģa cilnē **Lomas cena** atlasiet **Jauna loma**.
 2. Lapā **Ātrās izveides** atlasiet lomu un organizācijas vienību.
 3. Ievadiet citu nepieciešamo lauka informāciju.
 
 Šajā tabulā ir iekļauti daži lauki, kas ir svarīgi, veidojot darba likmes izmaksu cenrādī.
 
-| Lauks | Atrašanās vieta | Atbilstība, mērķis un norādes | Lejupstraumes ietekme |
+| Lauks | Atrašanās vieta | Apraksts | Lejupstraumes ietekme |
 | --- | --- | --- | --- |
 | Loma | Cilne **Vispārīgi** un lapas **Ātrā izveide** | Atlasiet lomu, uz kuru attiecas izmaksu likme. | Loma ienākošajā tāmē vai faktiskajos datos tiks saskaņota ar šo rindu, lai noklusētu lomas izmaksas. |
 | Resursu uzņēmums | Cilne **Vispārīgi** un lapas **Ātrā izveide** | Atlasiet juridisko entītiju, kurai loma ir piešķirta. Piemēram, izstrādātājs no Fabrikam India vai izstrādātājs no Fabrikam USA. | Ienākošie aprēķini vai faktiskās resursu piesaistes uzņēmums tiks saskaņots ar šo rindu, lai noklusētu lomas izmaksu likmi. |
@@ -40,7 +40,7 @@ Katram cenrādim ir darba likmju (lomu cenu) kopa, kas atbilst cenrāža saturam
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Iekšējo cenu noteikšana un izmaksas par resursiem ārpus jūsu nodaļas vai juridiskās personas
 
-Projektu uzņēmumos parasti izmanto dažādu juridisku personu vai nodaļu darbiniekus projektos. Projektu var veikt viena juridiska persona, bet darbinieki vai konsultanti, kas strādā pie projekta, var būt no tās pašas juridiskas personas vai no citas, vai var būt abu kombinācija. Risinājumā Dynamics 365 Project Operations juridiskā persona, kurai pieder projekta piegāde, ir **Uzņēmuma īpašnieks** , un struktūrvienība, kurai pieder piegāde, ir **Līgumslēdzēja vienība**. Citas juridiskas personas, kas nodrošina resursus, ir resursu **Resursu uzņēmumi** , un nodaļas, kas nodrošina resursus, ir **Resursu struktūrvienības**. Lielākajā daļā valstu uzņēmumiem ir jānodrošina, ka juridiskās personas vai nodaļas, kas nodrošina resursus, maksā uzņēmējsabiedrībai un līgumslēdzējai vienībai par resursu izmantošanu.
+Projektu uzņēmumos parasti izmanto dažādu juridisku personu vai nodaļu darbiniekus projektos. Projektu var veikt viena juridiska persona, bet darbinieki vai konsultanti, kas strādā pie projekta, var būt no tās pašas juridiskas personas vai no citas, vai var būt abu kombinācija. Risinājumā Dynamics 365 Project Operations juridiskā persona, kurai pieder projekta piegāde, ir **Uzņēmuma īpašnieks**, un struktūrvienība, kurai pieder piegāde, ir **Līgumslēdzēja vienība**. Citas juridiskas personas, kas nodrošina resursus, ir resursu **Resursu uzņēmumi**, un nodaļas, kas nodrošina resursus, ir **Resursu struktūrvienības**. Lielākajā daļā valstu uzņēmumiem ir jānodrošina, ka juridiskās personas vai nodaļas, kas nodrošina resursus, maksā uzņēmējsabiedrībai un līgumslēdzējai vienībai par resursu izmantošanu.
 
 Piemēram, Fabrikam uzņēmumam ir jānodrošina, lai Fabrikam India-Robotics būtu panākta vienošanās par izmaksu likmes karti ar Fabrikam US-Robotics vai Fabrikam UK-Robotics.
 
