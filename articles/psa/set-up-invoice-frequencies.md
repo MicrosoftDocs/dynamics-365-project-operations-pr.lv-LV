@@ -3,7 +3,7 @@ title: Rēķinu biežumu iestatīšana
 description: Rēķinu biežumu iestatīšana programmā Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080660"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132048"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Rēķinu biežumu iestatīšana (Project Service)
 
@@ -37,9 +37,9 @@ ms.locfileid: "4080660"
   
 3.  Apgabalā **Vispārīgi** ievadiet rēķinu biežuma nosaukumu laukā **Nosaukums**.  
   
-4.  Sadaļā **Periods** atlasiet **Reizi mēnesī** , **Divreiz nedēļā** vai **Reizi nedēļā**.  
+4.  Sadaļā **Periods** atlasiet **Reizi mēnesī**, **Divreiz nedēļā** vai **Reizi nedēļā**.  
   
-5.  Ja norādījāt periodu reizi mēnesī vai divreiz nedēļā, sadaļā **Izpildes dienas** atlasiet **Perioda diena** , lai rēķinu izrakstītu norādītajā perioda dienā (darbdienā vai nedēļas nogalē), vai atlasiet vienumu **Perioda darbdiena** , lai rēķinu izrakstītu norādītajā perioda darbdienā.  
+5.  Ja norādījāt periodu reizi mēnesī vai divreiz nedēļā, sadaļā **Izpildes dienas** atlasiet **Perioda diena**, lai rēķinu izrakstītu norādītajā perioda dienā (darbdienā vai nedēļas nogalē), vai atlasiet vienumu **Perioda darbdiena**, lai rēķinu izrakstītu norādītajā perioda darbdienā.  
   
 6.  Ja norādījāt periodu reizi mēnesī, sadaļā **Izpildes mēnesī** atlasiet skaitu, cik reizes mēnesī vēlaties šo rēķinu izpildīt.  
   

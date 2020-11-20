@@ -1,21 +1,21 @@
 ---
-title: Project Operations Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu
+title: Izvietot projekta operācijas — Lite
 description: Šajā tēmā ir sniegta informācija par to, kā instalēt Project Operations Lite izvietošanu — pāreju uz proforma rēķinu izrakstīšanu.
 author: stsporen
 manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e938876d459b3f6dfedd90e57e3042cda96bffb7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080308"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175675"
 ---
-# <a name="deploy-project-operations-lite-deployment--deal-to-proforma-invoicing"></a>Project Operations Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu
+# <a name="deploy-project-operations---lite"></a>Izvietot projekta operācijas — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -38,7 +38,7 @@ Project Operations atbalsta vairākus izvietošanas modeļus. Lai noteiktu labā
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Project Operations instalēšana esošā CDS vidē
 
-1. Kā [Globāls vai Power Platform administrators ](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci atrodiet vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com), kur vēlaties instalēt Project Operations.
+1. Kā [Globāls vai Power Platform administrators](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci atrodiet vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com), kur vēlaties instalēt Project Operations.
 2. Instalējiet **Microsoft Dynamics 365 Project Operations** no Dynamics 365 programmu izvietošanas saraksta. Papildinformāciju skatiet šeit: [Dynamics Dynamics 365 programmu pārvaldība](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 

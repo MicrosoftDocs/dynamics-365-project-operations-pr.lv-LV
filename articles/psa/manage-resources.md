@@ -3,7 +3,7 @@ title: Resursu pārvaldīšana
 description: Šajā tēmā ir sniegta informācija par to, kā varat pārvaldīt resursus.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080645"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132342"
 ---
 # <a name="manage-resources"></a>Resursu pārvaldīšana
 
@@ -31,9 +31,9 @@ ms.locfileid: "4080645"
 
 Dynamics 365 Project Service Automation ietver resursu pārvaldnieka informācijas paneli, kas nodrošina vizuālu pārskatu par resursu pieprasījumu un lietojumu visā organizācijā. Diagrammas šajā informācijas panelī var izmantot, lai vizualizētu tālāk norādīto informāciju.
 
-- **Resursu pieprasījums**  — diagrammā **Aktīvais resursu pieprasījums** ir parādīti iesniegtie resursi. Šie resursi ir apkopoti vai nu pēc lomas, vai pēc projekta.
-- **Neiesniegts resursu pieprasījums**  — diagrammā **Nepiešķirts resursu pieprasījums** ir parādītas visas resursu vajadzības, kas nav iesniegtas. Tas palīdz resursu pārvaldniekiem apskatīt pieprasījumu, kas nav apstiprināts un ko varētu iesniegt, izmantojot resursa pieprasījumu.
-- **Apmaksājamā izmantošana iepriekšējai nedēļai**  —– diagrammā **Izmantošana pēc lomas** ir parādīts organizācijas faktiskās apmaksājamajās izmantošanas procentuālais daudzums pēc lomas salīdzinājumā ar tās mērķa izmantošanu pēc lomas.
+- **Resursu pieprasījums** — diagrammā **Aktīvais resursu pieprasījums** ir parādīti iesniegtie resursi. Šie resursi ir apkopoti vai nu pēc lomas, vai pēc projekta.
+- **Neiesniegts resursu pieprasījums** — diagrammā **Nepiešķirts resursu pieprasījums** ir parādītas visas resursu vajadzības, kas nav iesniegtas. Tas palīdz resursu pārvaldniekiem apskatīt pieprasījumu, kas nav apstiprināts un ko varētu iesniegt, izmantojot resursa pieprasījumu.
+- **Apmaksājamā izmantošana iepriekšējai nedēļai** —– diagrammā **Izmantošana pēc lomas** ir parādīts organizācijas faktiskās apmaksājamajās izmantošanas procentuālais daudzums pēc lomas salīdzinājumā ar tās mērķa izmantošanu pēc lomas.
 
     > [!NOTE]
     > Lai diagrammu **Izmantošana pēc lomas** padarītu pieejamu, izveidojiet darbu, kurā tiek izpildīta darbplūsma UpdateRoleUtilization. Šis periodiskais darbs tiek palaists ik pēc septiņām dienām, lai aprēķinātu apmaksājamo izmantošanu iepriekšējām septiņām dienām. Rezultāti tiek apkopoti pēc lomas.
@@ -44,11 +44,11 @@ Projektu vadītāji var izmantot šo resursu pārvaldnieka informācijas paneli,
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Darba grupas dalībnieka pievienošana tieši projektam
 
-Lai kādu darba grupas dalībnieku pievienotu tieši projektam, lapā **Projekti** , cilnē **Darba grupa** atlasiet **Jauns**. Tiek parādīts dialoglodziņš **Ātrā izveide:Projekta darba grupas dalībnieks**. Šajā dialoglodziņā varat veikt tālāk norādītos uzdevumus.
+Lai kādu darba grupas dalībnieku pievienotu tieši projektam, lapā **Projekti**, cilnē **Darba grupa** atlasiet **Jauns**. Tiek parādīts dialoglodziņš **Ātrā izveide:Projekta darba grupas dalībnieks**. Šajā dialoglodziņā varat veikt tālāk norādītos uzdevumus.
 
-- **Rezervēt nosauktu resursu**  — laukā **Rezervējamais resurss** atlasiet resursa nosaukumu. Pēc tam atlasiet lomu, iestatiet periodu un atlasiet piešķiršanas metodi. Jūsu atlasītais nosauktais resurss tiek pievienots projektam, izmantojot atlasīto sadalījuma metodi un resursu kalendāru.
-- **Pievienot vispārēju resursu**  — lauku **Rezervējamais resurss** atstājiet tukšu un pēc tam atlasiet lomu, iestatiet periodu un atlasiet vēlamo piešķiršanas metodi. Darba grupai tiek pievienots vispārējs resurss kā vietturis, lai uzturētu pieprasījuma modeli, kas tiek izmantots nosaukto resursu rezervēšanai darba grupā. Šī vajadzība tiek izpildīta atbilstoši projekta kalendāram.
-- **Pievienot darba grupai nosauktu resursu, nepatērējot resursa noslodzi**  — laukā **Rezervējamais resurss** atlasiet kādu resursu. Pēc tam atlasiet periodu un kā sadalījuma metodi atlasiet **Nav**. Resurss tiek pievienots darba grupai, bet ar rezervēšanu šī resursa noslodze netiek patērēta.
+- **Rezervēt nosauktu resursu** — laukā **Rezervējamais resurss** atlasiet resursa nosaukumu. Pēc tam atlasiet lomu, iestatiet periodu un atlasiet piešķiršanas metodi. Jūsu atlasītais nosauktais resurss tiek pievienots projektam, izmantojot atlasīto sadalījuma metodi un resursu kalendāru.
+- **Pievienot vispārēju resursu** — lauku **Rezervējamais resurss** atstājiet tukšu un pēc tam atlasiet lomu, iestatiet periodu un atlasiet vēlamo piešķiršanas metodi. Darba grupai tiek pievienots vispārējs resurss kā vietturis, lai uzturētu pieprasījuma modeli, kas tiek izmantots nosaukto resursu rezervēšanai darba grupā. Šī vajadzība tiek izpildīta atbilstoši projekta kalendāram.
+- **Pievienot darba grupai nosauktu resursu, nepatērējot resursa noslodzi** — laukā **Rezervējamais resurss** atlasiet kādu resursu. Pēc tam atlasiet periodu un kā sadalījuma metodi atlasiet **Nav**. Resurss tiek pievienots darba grupai, bet ar rezervēšanu šī resursa noslodze netiek patērēta.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Darba grupas dalībnieka rezervēšana, lai izpildītu resursu vajadzības attiecībā uz vispārēju resursu
 
@@ -56,23 +56,23 @@ Programmā PSA vispārēju resursu varat rezervēt kādai projekta darba grupai 
 
 Lai vispārējā resursā kādam izstrādātājam norādītu nepieciešamās prasmes, izpildiet tālāk aprakstīto procedūru.
 
-1. Lapā **Projekti** , cilnē **Darba grupa** atlasiet vienumu **Jauns** , lai rezervētu kādu vispārējo resursu.
+1. Lapā **Projekti**, cilnē **Darba grupa** atlasiet vienumu **Jauns**, lai rezervētu kādu vispārējo resursu.
 
     ![Darba grupai rezervēts vispārējais resurss](media/Resource-Management-image9.png)
 
-2. Skatā **Visi darba grupas dalībnieki** , kolonnā **Resursu vajadzība** atlasiet saiti, lai vispārīgajam resursam pievienotu nepieciešamās prasmes.
+2. Skatā **Visi darba grupas dalībnieki**, kolonnā **Resursu vajadzība** atlasiet saiti, lai vispārīgajam resursam pievienotu nepieciešamās prasmes.
 
     ![Vajadzības saite](media/Resource-Management-image10.png)
 
-3. Tiek parādīta lapa **Resursu vajadzība** , un tās režģī **Prasmes** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot jaunu vajadzības īpašību** , lai savam izstrādātājam pievienotu nepieciešamās prasmes.
+3. Tiek parādīta lapa **Resursu vajadzība**, un tās režģī **Prasmes** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot jaunu vajadzības īpašību**, lai savam izstrādātājam pievienotu nepieciešamās prasmes.
 
     ![Komanda Pievienot jaunu vajadzības īpašību](media/Resource-Management-image11.png)
 
-4. Tiek parādīts dialoglodziņš **Ātrā izveide: Vajadzības īpašība** , un tā laukā **Īpašība** atlasiet nepieciešamo prasmi. Pēc tam laukā **Novērtējuma vērtība** atlasiet kvalifikācijas līmeni šai prasmei. Visbeidzot laukā **Resursu vajadzība** iestatiet šo vajadzību, lai tā kā avotu izmantotu resursus no organizācijas struktūrvienībām vai pat nosauktiem resursiem. Kad esat pabeidzis, noklikšķiniet uz **saglabāt**.
+4. Tiek parādīts dialoglodziņš **Ātrā izveide: Vajadzības īpašība**, un tā laukā **Īpašība** atlasiet nepieciešamo prasmi. Pēc tam laukā **Novērtējuma vērtība** atlasiet kvalifikācijas līmeni šai prasmei. Visbeidzot laukā **Resursu vajadzība** iestatiet šo vajadzību, lai tā kā avotu izmantotu resursus no organizācijas struktūrvienībām vai pat nosauktiem resursiem. Kad esat pabeidzis, noklikšķiniet uz **saglabāt**.
 
     ![Dialoglodziņš Ātrā izveide: Vajadzības īpašība](media/Resource-Management-image12.png)
 
-5. Lapā **Resursu vajadzība** atlasiet **Rezervēt** , lai izpildītu resursu vajadzību.
+5. Lapā **Resursu vajadzība** atlasiet **Rezervēt**, lai izpildītu resursu vajadzību.
 
     ![Poga Rezervēt lapā Resursu vajadzība](media/Resource-Management-image13.png)
 
@@ -89,11 +89,11 @@ Lai vispārējā resursā kādam izstrādātājam norādītu nepieciešamās pra
 
     Tālāk ir norādīti daži no bieži izmantotajiem filtriem.
 
-    - **Īpašības kopā ar novērtējumu**  — papildus kvalifikācijas novērtējumiem filtrēt arī pēc prasmēm, sertifikācijām un citām resursu īpašībām.
-    - **Lomas**  — filtrēt pēc noklusējuma lomām, kas ir piešķirtas rezervējamiem resursiem.
-    - **Organizācijas struktūrvienības**  — filtrēt rezervējamos resursus pēc organizācijas struktūrvienībām, kurām tie ir piešķirti.
+    - **Īpašības kopā ar novērtējumu** — papildus kvalifikācijas novērtējumiem filtrēt arī pēc prasmēm, sertifikācijām un citām resursu īpašībām.
+    - **Lomas** — filtrēt pēc noklusējuma lomām, kas ir piešķirtas rezervējamiem resursiem.
+    - **Organizācijas struktūrvienības** — filtrēt rezervējamos resursus pēc organizācijas struktūrvienībām, kurām tie ir piešķirti.
 
-6. Ja neesat apmierināts ar sākotnējās vajadzības meklēšanas rezultātiem, varat mainīt šos filtrēšanas kritērijus. Izvērsiet rūti **Filtra skats** kreisajā pusē un pēc tam atlasiet **Meklēt** , lai atrastu papildu resursus.
+6. Ja neesat apmierināts ar sākotnējās vajadzības meklēšanas rezultātiem, varat mainīt šos filtrēšanas kritērijus. Izvērsiet rūti **Filtra skats** kreisajā pusē un pēc tam atlasiet **Meklēt**, lai atrastu papildu resursus.
 
     ![Rūts Filtra skats](media/Resource-Management-image16.png)
 
@@ -103,11 +103,11 @@ Lai vispārējā resursā kādam izstrādātājam norādītu nepieciešamās pra
 
 8. Atlasiet resursus atbilstoši pieprasījumam, kas ir norādīts vajadzībā, kā redzams režģa augšpusē. Šūnu atlasi režģī varat notīrīt un atstāt šo resursa noslodzi atvērtu. Kā rezervētu vienlaikus var atlasīt tikai vienu resursu.
 
-9. Atlasiet **Rezervēt** , lai rezervētu atlasīto resursu, un atstājiet plānošanas paneli atvērtu, lai varētu atlasīt papildu resursus. Var arī atlasīt **Rezervēt un iziet** , lai rezervētu atlasīto resursu un aizvērtu plānošanas paneli.
+9. Atlasiet **Rezervēt**, lai rezervētu atlasīto resursu, un atstājiet plānošanas paneli atvērtu, lai varētu atlasīt papildu resursus. Var arī atlasīt **Rezervēt un iziet**, lai rezervētu atlasīto resursu un aizvērtu plānošanas paneli.
 
     ![Rezervējamais resurss](media/Resource-Management-image19.png)
 
-    Jūs saņemat paziņojumu par rezervētajām stundām. Pieprasījuma indikatori rāda, cik ļoti rezervācijas vajadzība ir izpildīta un cik vēl ir atlicis. Varat arī redzēt, cik daudz no atlasītā resursa noslodzes ir patērēts. Atlasiet **Izvērst** , lai skatītu plašāku informāciju par resursu rezervēšanu.
+    Jūs saņemat paziņojumu par rezervētajām stundām. Pieprasījuma indikatori rāda, cik ļoti rezervācijas vajadzība ir izpildīta un cik vēl ir atlicis. Varat arī redzēt, cik daudz no atlasītā resursa noslodzes ir patērēts. Atlasiet **Izvērst**, lai skatītu plašāku informāciju par resursu rezervēšanu.
 
 9. Atgriezieties skatā **Visi darba grupas dalībnieki**. Pievērsiet uzmanību, ka režģī šis vispārējais resurss ir aizstāts ar nosaukto resursu, un 40 stundas šim resursam ir norādītas kā rezervētas.
 
@@ -120,7 +120,7 @@ Lai vispārējā resursā kādam izstrādātājam norādītu nepieciešamās pra
 
 Programmā PSA varat izveidot uzdevumus un pēc tam šiem uzdevumiem piešķirt vispārējos resursus. Šādi resursu pieprasījumu var parādīt kā vietturus, kamēr veidojat grafika un finanšu skaitļu tāmi. Pēc tam varat ģenerēt resursu vajadzības attiecībā uz vispārīgajiem resursiem un izpildīt tās.
 
-1. Lapā **Projekti** , cilnē **Grafiks** atlasiet vienumu **Pievienot** , lai izveidotu uzdevumu.
+1. Lapā **Projekti**, cilnē **Grafiks** atlasiet vienumu **Pievienot**, lai izveidotu uzdevumu.
 
     ![Izveidots jauns uzdevums](media/Resource-Management-image21.png)
 
@@ -132,7 +132,7 @@ Programmā PSA varat izveidot uzdevumus un pēc tam šiem uzdevumiem piešķirt 
 
     ![Ievadīts jaunā vispārējā resursa nosaukums](media/Resource-Management-image23.png)
 
-4. Tiek parādīts dialoglodziņš **Ātrā izveide: Projekta darba grupas dalībnieks** , un tā laukā **Loma** atlasiet lomu šim vispārējam resursam. Laukā **Resursu vienība** atlasiet organizācijas struktūrvienību šim vispārējam resursam. Pēc tam atlasiet **Saglabāt**.
+4. Tiek parādīts dialoglodziņš **Ātrā izveide: Projekta darba grupas dalībnieks**, un tā laukā **Loma** atlasiet lomu šim vispārējam resursam. Laukā **Resursu vienība** atlasiet organizācijas struktūrvienību šim vispārējam resursam. Pēc tam atlasiet **Saglabāt**.
 
     ![Dialoglodziņš Ātrā izveide: Projekta darba grupas dalībnieks](media/Resource-Management-image24.png)
 
@@ -191,14 +191,14 @@ Programmā PSA varat izveidot uzdevumus un pēc tam šiem uzdevumiem piešķirt 
 
 PSA nepiešķir abus resursus šim uzdevumam, jo šāda uzvedība radītu mazāk prognozējamu grafiku. Šajā vienkāršajā piemērā stundas var viegli sadalīt vienādi starp diviem resursiem. Taču sarežģītākos scenārijos, kas ietver vairākus uzdevumus un vairākus resursus, programmai PSA būtu jāizdara pieņēmumi par veidu, kā piešķirt rezervācijas, kas ir saņemtas par vairākiem resursiem vairākos uzdevumos.
 
-Tādēļ šajos scenārijos projektu vadītājs ir atbildīgs par vairāku rezervāciju parsēšanu un to piešķiršanu pēc nepieciešamības. Lai sadalītu rezervācijas, projektu vadītājs no vispārējiem resursiem piešķir uzdevumus nosauktajiem resursiem un pēc tam izmanto skatu **Saskaņošana** , lai pārliecinātos, ka sadalīšana ar šādām rezervācijām darbojas.
+Tādēļ šajos scenārijos projektu vadītājs ir atbildīgs par vairāku rezervāciju parsēšanu un to piešķiršanu pēc nepieciešamības. Lai sadalītu rezervācijas, projektu vadītājs no vispārējiem resursiem piešķir uzdevumus nosauktajiem resursiem un pēc tam izmanto skatu **Saskaņošana**, lai pārliecinātos, ka sadalīšana ar šādām rezervācijām darbojas.
 
 ### <a name="edit-a-resource-requirement"></a>Resursu vajadzības rediģēšana
 
 Kad resursu vajadzība ir izveidota, projektu vadītājs vai resursu pārvaldnieks varētu vēlēties rediģēt detalizēto informāciju, lai precizētu meklēšanas kritērijus, kad tiek izmantots plānošanas panelis. Lai rediģētu resursu vajadzību, izpildiet tālāk aprakstītās darbības.
 
-1. Lapā **Projekti** , cilnē **Darba grupa** atlasiet saiti uz jebkuru no vispārējo resursu vajadzībām.
-2. Tiek parādīta lapa **Resursu vajadzība** , un tajā varat atjaunināt vairākus atribūtus. Lūk, daži piemēri:
+1. Lapā **Projekti**, cilnē **Darba grupa** atlasiet saiti uz jebkuru no vispārējo resursu vajadzībām.
+2. Tiek parādīta lapa **Resursu vajadzība**, un tajā varat atjaunināt vairākus atribūtus. Lūk, daži piemēri:
 
     - Nosaukums
     - Sākuma datums
@@ -217,13 +217,13 @@ Lapā **Resursu vajadzība** projektu vadītājs vai resursu pārvaldnieks var a
 
 Kad vispārēju vai nosauktu resursu esat pievienojis projekta darba grupai, varat mainīt šī resursa rezervācijas.
 
-1. Lapā **Projekti** , cilnē **Darba grupa** atlasiet kādu darba grupas dalībnieku un pēc tam atlasiet vienumu **Uzturēt rezervācijas**.
+1. Lapā **Projekti**, cilnē **Darba grupa** atlasiet kādu darba grupas dalībnieku un pēc tam atlasiet vienumu **Uzturēt rezervācijas**.
 
     ![Plānošanas panelis ir atvērts atlasītajam darba grupas dalībniekam](media/Resource-Management-image40.png)
 
     Tiek parādīts plānošanas panelis, un tajā ir redzamas projekta darba grupas dalībnieku rezervācijas. Izvērsiet darba grupas dalībnieka ierakstu, lai skatītu informāciju par stundām, kuras ir rezervētas šim projektam un citiem projektiem, kas patērē šī darba grupas dalībnieka noslodzi.
 
-2. Atlasiet un velciet rezervāciju, lai to paplašinātu vai saīsinātu. Tiek parādīts dialoglodziņš **Izveidot resursu rezervāciju** , un tajā varat pielāgot šo rezervāciju.
+2. Atlasiet un velciet rezervāciju, lai to paplašinātu vai saīsinātu. Tiek parādīts dialoglodziņš **Izveidot resursu rezervāciju**, un tajā varat pielāgot šo rezervāciju.
 
     ![Dialoglodziņš Izveidot resursu rezervāciju](media/Resource-Management-image41.png)
 
@@ -242,7 +242,7 @@ Varat mainīt jebkuru noklusējuma vai pielāgoto rezervācijas statusu.
 Programmā PSA ir tālāk norādītie statusi.
 
 - **Atcelts** — šis statuss atceļ resursa rezervāciju un atbrīvo resursa noslodzi.
-- **Stingrā rezervēšana** — šis statuss patērē resursa noslodzi. Ja vienumu **Uzturēt rezervācijas** atverat no režģa **Visi darba grupas dalībnieki** lapā **Projekti** , rezervācijai parasti ir šis statuss.
+- **Stingrā rezervēšana** — šis statuss patērē resursa noslodzi. Ja vienumu **Uzturēt rezervācijas** atverat no režģa **Visi darba grupas dalībnieki** lapā **Projekti**, rezervācijai parasti ir šis statuss.
 - **Vieglā rezervēšana** — šis statuss resursu pievieno darba grupai, bet nepatērē resursa noslodzi. Tas norāda, ka resurss ir rezervēts iespējamam darbam, bet tam joprojām ir noslodze, ja gadījumā tas ir nepieciešams citiem uzdevumiem. Vispārīgās resursu pieejamības ziņā vieglajai rezervēšanai ir citāds statuss nekā stingrajai rezervēšanai.
 - **Piedāvāts** — šis statuss apzīmē resursu pārvaldnieka vai projektu vadītāja piedāvājumu kādam resursam. Piedāvājumi nepatērē resursa noslodzi, un resurss netiek pievienots projekta grupai. Lai resursam veiktu stingro rezervēšanu darba grupai, projektu vadītājam ir jāpieņem piedāvājums.
 
@@ -277,7 +277,7 @@ Lai piedāvāto resursu skatītu kopā ar piedāvājuma rezervācijas efekta viz
 
 ![Cilne Piedāvātie resursi](media/Resource-Management-image49.png)
 
-Atlasiet **Pieņemt visus piedāvājumus** , lai pieņemtu visus piedāvātos resursus, vai atlasiet **Noraidīt visus piedāvājumus** , lai tos noraidītu. Ja pieņemat piedāvātos resursus, tie ir stingri rezervēti projektā kā darba grupas dalībnieki un aizstāj vispārējos resursus.
+Atlasiet **Pieņemt visus piedāvājumus**, lai pieņemtu visus piedāvātos resursus, vai atlasiet **Noraidīt visus piedāvājumus**, lai tos noraidītu. Ja pieņemat piedāvātos resursus, tie ir stingri rezervēti projektā kā darba grupas dalībnieki un aizstāj vispārējos resursus.
 
 > [!NOTE]
 > Ir jāpieņem vai jānoraida visi piedāvātie resursi. Tos nevar pieņemt vai noraidīt daļēji.
@@ -286,7 +286,7 @@ Atlasiet **Pieņemt visus piedāvājumus** , lai pieņemtu visus piedāvātos re
 
 Reizēm projektu vadītājam projektā ir jāaizstāj kāds no rezervētajiem darba grupas dalībniekiem.
 
-1. Lapā **Projekti** , cilnē **Darba grupa** atlasiet kādu resursu, kam ir nepieciešams aizstājējs, un pēc tam atlasiet vienumu **Uzturēt rezervācijas**.
+1. Lapā **Projekti**, cilnē **Darba grupa** atlasiet kādu resursu, kam ir nepieciešams aizstājējs, un pēc tam atlasiet vienumu **Uzturēt rezervācijas**.
 2. Izvērsiet resursu, lai apskatītu projektus, kuriem tas ir piešķirts.
 
     ![Resurss ir izvērsts, lai parādītu piešķirtos projektus](media/Resource-Management-image50.png)
@@ -318,7 +318,7 @@ Reizēm projektu vadītājam projektā ir jāaizstāj kāds no rezervētajiem da
 
 Darba grupas dalībniekiem rezervācijas un piešķires ir brīvi savienotas. Citiem vārdiem sakot — resursiem var būt piešķires, bet var nebūt rezervāciju, vai arī tiem var būt rezervācijas, bet var nebūt piešķiru. Ideālā gadījumā rezervācijām un piešķirēm vajadzētu būt saskaņotām, lai resursiem būtu atvēlēta noslodze uzdevumu piešķiru izpildīšanai. Taču rezervācijas var būt balstītas uz pieejamību, un projekta gaitā uzdevumu laiki var mainīties. Tādēļ rezervāciju un piešķiru brīvais savienojums nodrošina elastību.
 
-Programmā PSA ir cilne **Saskaņošana** , kas ļauj projektu vadītājiem saskaņot darba grupas dalībnieku rezervācijas un viņu piešķires projektu darba grupās.
+Programmā PSA ir cilne **Saskaņošana**, kas ļauj projektu vadītājiem saskaņot darba grupas dalībnieku rezervācijas un viņu piešķires projektu darba grupās.
 
 ![Cilne Saskaņošana](media/Resource-Management-image56.png)
 
@@ -333,11 +333,11 @@ Katram resursam šī cilne aprēķina atšķirību starp darba grupas dalībniek
 
 Reizēm, kad laiku skatāt augstākā līmenī nekā dienas līmenis (piemēram, mēneša līmenī), varat pamanīt, ka neto starpība resursam ir nulle (citiem vārdiem sakot, rezervācijas = piešķires). Taču, ja laiku skatāt nedēļas līmenī, varat redzēt, ka pirmajā nedēļā piešķires ir nulle stundu un rezervācijas ir 40 stundas, bet otrajā nedēļā piešķires ir 40 stundas un rezervācijas ir nulle stundu. Kopumā rezervācijas un piešķires ir saskaņotas, bet katrai nedēļai tās atšķiras.
 
-Kad laiku skatāties augstākos līmeņos, šūnām cilnē **Saskaņošana** ir indikators, lai informētu jūs, ka pastāv atšķirības zemākos līmeņos. Veicot dubultklikšķi uz šūnas, varat tuvināt, lai apskatītu atšķirību. Pēc tam varat noklikšķināt ar peles labo pogu, lai tālinātu. Atlasot kādu resursu un pēc tam režģa rīkjoslā izmantojot vadīklu **Nākamā atšķirība** , varat pāriet uz nākamo atšķirību starp šī resursa rezervācijām un piešķirēm. Pēc tam varat izmantot vadīklu **Iepriekšējā atšķirība** , lai dotos atpakaļ. Varat arī izslēgt atšķirību indikatoru un navigācijas uzvedību sadaļā **Iestatījumi**.
+Kad laiku skatāties augstākos līmeņos, šūnām cilnē **Saskaņošana** ir indikators, lai informētu jūs, ka pastāv atšķirības zemākos līmeņos. Veicot dubultklikšķi uz šūnas, varat tuvināt, lai apskatītu atšķirību. Pēc tam varat noklikšķināt ar peles labo pogu, lai tālinātu. Atlasot kādu resursu un pēc tam režģa rīkjoslā izmantojot vadīklu **Nākamā atšķirība**, varat pāriet uz nākamo atšķirību starp šī resursa rezervācijām un piešķirēm. Pēc tam varat izmantot vadīklu **Iepriekšējā atšķirība**, lai dotos atpakaļ. Varat arī izslēgt atšķirību indikatoru un navigācijas uzvedību sadaļā **Iestatījumi**.
 
 ![Atšķirību indikators](media/Resource-Management-image57.png)
 
-Ja jums ir uzdevumu piešķires kādam resursam, bet nav nevienas rezervācijas, lapā **Projekti** , cilnē **Saskaņošana** atlasiet rezervāciju deficītu un pēc tam atlasiet vienumu **Paplašināt rezervāciju**. Tiek parādīts dialoglodziņš **Paplašināt rezervāciju** , un tajā ir redzama rezervācija, kura ir nepieciešama, lai novērstu šo resursu deficītu. Tur ir redzamas arī resursu esošās rezervācijas visos projektos vai citos plānojamos elementos. Ja atlasāt **Labi** , lai izveidotu rezervāciju attiecīgajam resursam neatkarīgi no šī resursa pieejamības, varat izraisīt virsrezervāciju.
+Ja jums ir uzdevumu piešķires kādam resursam, bet nav nevienas rezervācijas, lapā **Projekti**, cilnē **Saskaņošana** atlasiet rezervāciju deficītu un pēc tam atlasiet vienumu **Paplašināt rezervāciju**. Tiek parādīts dialoglodziņš **Paplašināt rezervāciju**, un tajā ir redzama rezervācija, kura ir nepieciešama, lai novērstu šo resursu deficītu. Tur ir redzamas arī resursu esošās rezervācijas visos projektos vai citos plānojamos elementos. Ja atlasāt **Labi**, lai izveidotu rezervāciju attiecīgajam resursam neatkarīgi no šī resursa pieejamības, varat izraisīt virsrezervāciju.
 
 ![Dialoglodziņš Paplašināt rezervāciju](media/Resource-Management-image58.png)
 

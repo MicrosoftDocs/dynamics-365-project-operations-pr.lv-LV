@@ -3,7 +3,7 @@ title: Laika ievade
 description: Laika ievade programmā Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080647"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132882"
 ---
 # <a name="enter-time-project-service"></a>Laika ievade (Project Service)
 
@@ -35,7 +35,7 @@ Ievadiet stundas vismaz reizi nedēļā — vai tik bieži, cik to pieprasīja 
   
 1. Dodieties uz **Project Service > Laika ieraksti**. Tiks parādīts jūsu kalendārs.  
   
-2. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien** , lai atgrieztos pašreizējā nedēļā.  
+2. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien**, lai atgrieztos pašreizējā nedēļā.  
   
 3. Lai ievadītu laiku, noklikšķiniet uz **Jauns** vai veiciet dubultklikšķi kalendārā zem dienas, kurā vēlaties ievadīt laiku.  
   
@@ -51,7 +51,7 @@ Ievadiet stundas vismaz reizi nedēļā — vai tik bieži, cik to pieprasīja 
   
    Ja izmantojat mobilo programmu, veiciet tālāk minētās darbības.  
   
-9. Izvēlnē doties uz **Laika ieraksti**.     Varat pārslēgties uz skatu **Diena** , **Nedēļa** vai **Mēnesis** , vai arī pāriet uz iepriekšējo vai nākamo periodu.  
+9. Izvēlnē doties uz **Laika ieraksti**.     Varat pārslēgties uz skatu **Diena**, **Nedēļa** vai **Mēnesis**, vai arī pāriet uz iepriekšējo vai nākamo periodu.  
   
 10. Pieskarieties vienumam **…** pēc tam pieskarieties vienumam **Jauns**.  
   

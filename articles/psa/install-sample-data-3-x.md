@@ -3,7 +3,7 @@ title: Parauga datu instalācija
 description: Šajā tēmā ir sniegta informācija par datu parauga instalēšanu pakalpojumā Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080509"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132432"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Lietojumprogrammas Project Service datu parauga instalēšana
 
@@ -28,11 +28,11 @@ Lai palīdzētu jums izveidot savu izmēģinājumversijas vidi, Microsoft nodro�
 
 Tālāk ir norād. iestat./ats. datu par. pak.
 
-- [**V902PSMasterData**  — tikai Project Service versijai 3.x](https://go.microsoft.com/fwlink/?linkid=2026540&clcid=0x409)
+- [**V902PSMasterData** — tikai Project Service versijai 3.x](https://go.microsoft.com/fwlink/?linkid=2026540&clcid=0x409)
 
-- [**V902FSMasterData**  — tikai Field Service versijai 8.x](https://go.microsoft.com/fwlink/?linkid=2026536&clcid=0x409)
+- [**V902FSMasterData** — tikai Field Service versijai 8.x](https://go.microsoft.com/fwlink/?linkid=2026536&clcid=0x409)
 
-- [**V902FPSMasterData**  — Field Service 8.x un Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
+- [**V902FPSMasterData** — Field Service 8.x un Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
 
 Jaunākā **demonstr.** datu pak. ir:
 
@@ -49,7 +49,7 @@ Instalējot jebkuru no datu paraugu pakotnēm, instalēšanas procesa laikā tie
 
 - Tiek izveidoti vai iestatīti Project Service, Field Service vai abu lietojumprogrammu (ja tas ir attiecināms) lietošanas noklusējuma parametri.
 
-- Tiek importēti lietojumprogrammu datu paraugi, piemēram, rezervējamie resursi, lietojumprogrammai raksturīgās lomas, pārdošanas un izmaksu cenu saraksti, organizācijas struktūrvienības, pārdošanas procesa ieraksti un citas entītijas, kas sniedz iespēju demonstrēt galvenās iespējas.  
+- Tiek importēti lietojumprogrammu datu paraugi, piemēram, rezervējamie resursi, lietojumprogrammai raksturīgās lomas, pārdošanas un izmaksu cenu saraksti, organizācijas struktūrvienības, pārdošanas procesa ieraksti un citas entītijas, kas sniedz iespēju demonstrēt galvenās iespējas.  
 
 Kopā ar **demonstr. datu** pakotni saņemat minētos un papildu darbību datus, piemēram, darba uzdevumus un projektus.
 
@@ -114,13 +114,13 @@ Pakotne **FPSMasterData** ir paredzēta instalēšanai sistēmā ar vienu lietot
 
 Lai izveidotu vai konfigurētu lietotājus, pārejiet uz sadaļu **Iestatījumi** > **Drošība** > **Lietotāji** un veiciet tālāk norādītās darbības.
 
-1. Lietotājam ar parametru UserFullname=“Spencer Low” un lietotājvārdu spencerl ( **ar mazajiem burtiem** ) iestatiet lomas Projekta vadītājs un Prakses pārvaldnieks.
+1. Lietotājam ar parametru UserFullname=“Spencer Low” un lietotājvārdu spencerl (**ar mazajiem burtiem**) iestatiet lomas Projekta vadītājs un Prakses pārvaldnieks.
 
-2. Atlasiet lietotāju **Spencer Low** un pēc tam atlasiet vienumu **Pārvaldīt lomas**. Atrodiet un atlasiet lomu **Sistēmas administrators** un pēc tam atlasiet vienumu **Labi** , lai piešķirtu lietotājam Spencer Low visas administratora tiesības. Šī darbība ir nepieciešama, lai nodrošinātu, ka izveidotajiem ierakstu paraugiem ir pareizs lietotāja īpašumtiesību iestatījums un tādējādi tiek pareizi aizpildīti skati.
+2. Atlasiet lietotāju **Spencer Low** un pēc tam atlasiet vienumu **Pārvaldīt lomas**. Atrodiet un atlasiet lomu **Sistēmas administrators** un pēc tam atlasiet vienumu **Labi**, lai piešķirtu lietotājam Spencer Low visas administratora tiesības. Šī darbība ir nepieciešama, lai nodrošinātu, ka izveidotajiem ierakstu paraugiem ir pareizs lietotāja īpašumtiesību iestatījums un tādējādi tiek pareizi aizpildīti skati.
 
-3. Lejupielādētajā pakotnē jums ir jāatjaunina datu kartēšanas fails, izmantojot noklusējuma lietotāju konteksta e-pasta adreses. Lai to izdarītu, atveriet mapi **PkgFolder** , atrodiet failu **ImportUserMapFile.xml** un pēc tam atveriet to Notepad (vai Visual Studio, vai citā XML redaktorā). Kā lauka **DefaultUserToMapTo=** vērtību iestatiet lietotāja Spencer Low e-pasta adresi.
+3. Lejupielādētajā pakotnē jums ir jāatjaunina datu kartēšanas fails, izmantojot noklusējuma lietotāju konteksta e-pasta adreses. Lai to izdarītu, atveriet mapi **PkgFolder**, atrodiet failu **ImportUserMapFile.xml** un pēc tam atveriet to Notepad (vai Visual Studio, vai citā XML redaktorā). Kā lauka **DefaultUserToMapTo=** vērtību iestatiet lietotāja Spencer Low e-pasta adresi.
 
-4. Ja neizmantojat lietotāju Spencer Low ar lietotājvārdu **spencerl** , ir jāatjaunina vēl viens fails. Atveriet failu **DemoDataPreImportConfig.xml** un pēc tam atrodiet tagu **userstocreateandconfigure**. Atjauniniet tagu **\<login\>** , izmantojot Spencer Low lietotāja lietotājvārdu. Papildinform. skatiet: [Tehniskās piezīmes](#technical-notes).
+4. Ja neizmantojat lietotāju Spencer Low ar lietotājvārdu **spencerl**, ir jāatjaunina vēl viens fails. Atveriet failu **DemoDataPreImportConfig.xml** un pēc tam atrodiet tagu **userstocreateandconfigure**. Atjauniniet tagu **\<login\>**, izmantojot Spencer Low lietotāja lietotājvārdu. Papildinform. skatiet: [Tehniskās piezīmes](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Lietot. izveide/konfig. — demonstr. datu pak.
 
@@ -138,14 +138,14 @@ Demonstr. datu pak. vajag 6 lietotājus. Lai pakotni instalētu pareizi, veiciet
   
 2. Demonstr. datu import. ietvaros piešķiriet minētajiem 6 lietot. admin. lomu, lai ierakstu paraugi tiktu pareizi importēti. 
 
-3. Atv. **PkgFolder** , tad atrodiet un atv. **ImportUserMapFile.xml**. Atjauniniet laukus **New=** ar attiecīgo lietotāju e-pasta adresēm jūsu sistēmā.
+3. Atv. **PkgFolder**, tad atrodiet un atv. **ImportUserMapFile.xml**. Atjauniniet laukus **New=** ar attiecīgo lietotāju e-pasta adresēm jūsu sistēmā.
 
    > [!div class="mx-imgBorder"]
    > ![UserMapFile ekrānuzņēmums](media/sample-data-7.png)
 
-4. Ja lietotājam ar pilno vārdu “Spencer Low” ir cits lietotāja ID, nevis **“spencerl”** , tad ir jāatjaunina papildu fails. Atv. **DemoDataPreImportConfig.xml** un atrod. tagu **userstocreateandconfigure**. Atjauniniet tagu **\<login\>** ar loginId (reģistrjutīgs). 
+4. Ja lietotājam ar pilno vārdu “Spencer Low” ir cits lietotāja ID, nevis **“spencerl”**, tad ir jāatjaunina papildu fails. Atv. **DemoDataPreImportConfig.xml** un atrod. tagu **userstocreateandconfigure**. Atjauniniet tagu **\<login\>** ar loginId (reģistrjutīgs). 
 
-5. Pirmā lietot. kalendāru (tagā **userstocreateandconfigure** ) izmanto, lai aizpildītu darba st. visiem rezervējamiem resurs., importējot demonstr. datus. Atv. **Iestatījumi** > **Drošība** > **Lietotāji** , atrodiet lietot. “Spencer Low” un atv. opciju “Darba stundas”. Rediģējiet esošās darba st., atlasot opciju **Viss periodiskais iknedēļas grafiks no sākuma līdz beigām**. **Darba st. jābūt iestat. 8.00–17.00 (9 st.), no pirmd. līdz piektd., un laika joslai jābūt iest. Klusā ok. laiks (ASV un Kanāda)**. Tas jādara, lai pareizi parādītu projektu un plānošanas paneli.
+5. Pirmā lietot. kalendāru (tagā **userstocreateandconfigure**) izmanto, lai aizpildītu darba st. visiem rezervējamiem resurs., importējot demonstr. datus. Atv. **Iestatījumi** > **Drošība** > **Lietotāji**, atrodiet lietot. “Spencer Low” un atv. opciju “Darba stundas”. Rediģējiet esošās darba st., atlasot opciju **Viss periodiskais iknedēļas grafiks no sākuma līdz beigām**. **Darba st. jābūt iestat. 8.00–17.00 (9 st.), no pirmd. līdz piektd., un laika joslai jābūt iest. Klusā ok. laiks (ASV un Kanāda)**. Tas jādara, lai pareizi parādītu projektu un plānošanas paneli.
 
 **Ieteikums.** Apsveriet iespēju tagad izveidot savas organizācijas dublējumu, ko izmantot gadījumā, ja datu parauga instalēšana neizdodas un ir jāatjauno sākotnējais stāvoklis. Papildinformāciju skatiet rakstā [Instanču dublēšana un atjaunošana](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -168,14 +168,14 @@ Demonstr. datu pak. vajag 6 lietotājus. Lai pakotni instalētu pareizi, veiciet
 
 4. Atlasiet organizāciju, kurā vēlaties instalēt datu paraugu.
 
-5. Atlasiet vienumu **Tālāk** , līdz tiek parādīts dialoglodziņš **Demonstrācijas datu iestatīšana**.
+5. Atlasiet vienumu **Tālāk**, līdz tiek parādīts dialoglodziņš **Demonstrācijas datu iestatīšana**.
 
    > [!div class="mx-imgBorder"]
    > ![Ekrānuzņēmums: demonstrācijas datu instalēšanas programmas statusa logs](media/sample-data-3.png)
 
 6. Pirms turpināšanas ņemiet vērā, ka datu parauga instalēšana var ilgt līdz vienai stundai (parasti ~10 minūtes). Jums ir jānodrošina, lai dators būtu ieslēgts un savienots ar tīklu visa instalēšanas procesa laikā un netiktu deaktivizēta jūsu sesija.   
 
-7. Kad viss ir sagatavots, noklikšķiniet uz **Tālāk** , lai sāktu datu parauga instalēšanas procesu. Pēc datu parauga ielādes noklikšķiniet uz **Pabeigt**.
+7. Kad viss ir sagatavots, noklikšķiniet uz **Tālāk**, lai sāktu datu parauga instalēšanas procesu. Pēc datu parauga ielādes noklikšķiniet uz **Pabeigt**.
 
 ## <a name="verify-the-sample-data-installation"></a>Datu parauga instalēšanas pārbaude
 
@@ -203,7 +203,7 @@ Tālāk ir sniegta tehniskā papildinformācija par šo datu instalēšanu.
 
 Ja datu paraugs ir jāinstalē esošā Field Service vai Project Service izmēģinājumversijas vai demonstrācijas vidē, kurā jau ir dati, ir jāaiztur instalēšanas programmas veiktās drošības priekšpārbaudes.
 
-Lai to izdarītu, pārejiet uz mapi **PkgFolder** , atrodiet failu **DemoDataPreImportConfig.xml** un atveriet to programmā Piezīmjbloks (vai citā XML redaktorā).
+Lai to izdarītu, pārejiet uz mapi **PkgFolder**, atrodiet failu **DemoDataPreImportConfig.xml** un atveriet to programmā Piezīmjbloks (vai citā XML redaktorā).
 
 Atrodiet tālāk norādīto vērtību un mainiet iestatījumu no true uz false.
 
@@ -223,7 +223,7 @@ Atrodiet tālāk norādīto vērtību un mainiet iestatījumu no true uz false.
 
 Šajā pirmsimportēšanas konfigurācijas failā ir ietverti vairāki citi konfigurācijas komponenti. Tostarp tālāk norādītie, kas ir paredzēti lietotājiem ar tehniskajām zināšanām.
 
-- **\<RequiredSolutions\>** : tiek norādīti iepriekš instalējamie risinājumi un to versiju numuri.
+- **\<RequiredSolutions\>**: tiek norādīti iepriekš instalējamie risinājumi un to versiju numuri.
 
 - **\<InstallSampleData\>** kontrolē, vai tiek instalēti papildu parauga datu paraugi.
 
@@ -231,17 +231,17 @@ Atrodiet tālāk norādīto vērtību un mainiet iestatījumu no true uz false.
 
     - True — vienlaikus ar FS un PSA datu paraugiem tiek instalēti iebūvētie dati.
 
-- **\<PreImportDataCollection\>** : tiek norādīti atsevišķa faila datu kartējumi un saistītie ieraksti, kas ir jāimportē pirms galvenā datu parauga instalēšanas procesa.
+- **\<PreImportDataCollection\>**: tiek norādīti atsevišķa faila datu kartējumi un saistītie ieraksti, kas ir jāimportē pirms galvenā datu parauga instalēšanas procesa.
 
 - **\<EntitiesToEnableScheduling\>** nosaka, kuras entītijas ir jāiespējo rezervēšanai Microsoft Dynamics Scheduling (sauktai arī par Universal Resource Scheduling).
 
-- **\<UsersToCreateAndConfigure\>** : tiek norādīti rezervējamie resursi, kas tiks izveidoti (ja tie vēl nepastāv) pirms datu parauga importēšanas izpildes. Ņemiet vērā, ka katra avota sist. datu parauga rezervējamā resursa ieraksta param. FullName un login atbilst mērķa sist. rezervējamā resursa ieraksta param. Tāpēc šajā priekškonfigurācijas failā nevar mainīt vārdus, ja vien iepriekš neimportējat datu paraugu mērķa sistēmā, izmantojot šos vārdus, pēc tam nepārdēvējat rezervējamos resursus un iespējoto lietotāju ierakstus, izmantojot vēlamo vārdu kopu, un pēc tam vēlreiz neeksportējat datus importēšanai galamērķa sistēmā (atbilstošā veidā atjauninot **ImportUserMapFile.xml** vecos un jaunos ierakstus).
+- **\<UsersToCreateAndConfigure\>**: tiek norādīti rezervējamie resursi, kas tiks izveidoti (ja tie vēl nepastāv) pirms datu parauga importēšanas izpildes. Ņemiet vērā, ka katra avota sist. datu parauga rezervējamā resursa ieraksta param. FullName un login atbilst mērķa sist. rezervējamā resursa ieraksta param. Tāpēc šajā priekškonfigurācijas failā nevar mainīt vārdus, ja vien iepriekš neimportējat datu paraugu mērķa sistēmā, izmantojot šos vārdus, pēc tam nepārdēvējat rezervējamos resursus un iespējoto lietotāju ierakstus, izmantojot vēlamo vārdu kopu, un pēc tam vēlreiz neeksportējat datus importēšanai galamērķa sistēmā (atbilstošā veidā atjauninot **ImportUserMapFile.xml** vecos un jaunos ierakstus).
 
-- **\<PluginsToDisable\>** : tiek norādīti atsevišķi rindas elementu spraudņi, kas ir jāatspējo datu parauga importēšanas laikā un pēc tam atkal jāiespējo.
+- **\<PluginsToDisable\>**: tiek norādīti atsevišķi rindas elementu spraudņi, kas ir jāatspējo datu parauga importēšanas laikā un pēc tam atkal jāiespējo.
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Fabrikam Robotics fiktīvais scenārijs
 
-Instalējot Field Service un Project Service atsauces datu paraugu pakotnes, tiek instalēts **Fabrikam ražošanas galveno datu (v3.0.0.0) risinājums** , kā arī aptuveni 4000 ierakstu un aptuveni 40 dažādas entītijas. Atsevišķajā Field Service vai Project Service datu parauga pakotnē ir ietverta attiecīgajai lietojumprogrammai paredzēta pakotnes **v902FPSMasterData** datu parauga apakškopa. **Demonstrācijas datu** pakotne instalē **Fabrikam ražošanas demonstrācija datu (v3.0.0.7) risin.** ar aptuveni 22 000 ierakstu visām 148 entītijām.
+Instalējot Field Service un Project Service atsauces datu paraugu pakotnes, tiek instalēts **Fabrikam ražošanas galveno datu (v3.0.0.0) risinājums**, kā arī aptuveni 4000 ierakstu un aptuveni 40 dažādas entītijas. Atsevišķajā Field Service vai Project Service datu parauga pakotnē ir ietverta attiecīgajai lietojumprogrammai paredzēta pakotnes **v902FPSMasterData** datu parauga apakškopa. **Demonstrācijas datu** pakotne instalē **Fabrikam ražošanas demonstrācija datu (v3.0.0.7) risin.** ar aptuveni 22 000 ierakstu visām 148 entītijām.
 
 Fiktīvais uzņēmums Fabrikam Robotics ražo elektroierīču montāžas līnijas robotus un ir slavens ar produktu kvalitāti, inovācijām un lielisku klientu apkalpošanu, tostarp uzstādīšanas plānošanas, ieviešanas un turpmākās apkopes pakalpojumiem. Uzņēmuma Fabrikam centrālais birojs atrodas ASV (Fabrikam US), un tam ir projektu tipa pakalpojumu sniegšanas centri Francijā, Indijā, Apvienotajā Karalistē un Šveicē.
 

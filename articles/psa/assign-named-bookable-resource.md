@@ -3,7 +3,7 @@ title: Nosaukto rezervējamo resursu rezervēšana projekta darba grupai un uzde
 description: Šajā tēmā ir sniegta informācija par to, kā rezervēt nosauktos resursus projekta darba grupām un piešķirt tās uzdevumiem.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080563"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130182"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Nosaukto rezervējamo resursu rezervēšana projekta darba grupai un uzdevumu piešķiršana 
 
@@ -44,7 +44,7 @@ Projekta darba grupai varat pievienot nosauktu resursu, to tieši rezervējot da
 ![Darba grupas dalībnieka pievienošana ātrās izveides veidlapā](media/RM-how-to-2.png)
 
 
-Tagad rezervēto resursu varat piešķirt projekta uzdevumiem. Lapā **Projekts** noklikšķiniet uz cilnes **Grafiks** , lai jaunajam resursam piešķirtu uzdevumus. Resursu atlasītājā, kas palaists no uzdevumu režģa lauka **Resursi** , tiks parādīti darba grupas dalībnieki, kurus varat atlasīt.
+Tagad rezervēto resursu varat piešķirt projekta uzdevumiem. Lapā **Projekts** noklikšķiniet uz cilnes **Grafiks**, lai jaunajam resursam piešķirtu uzdevumus. Resursu atlasītājā, kas palaists no uzdevumu režģa lauka **Resursi**, tiks parādīti darba grupas dalībnieki, kurus varat atlasīt.
 
 ![Darba grupas dalībnieka piešķiršana uzdevumam grafika cilnē](media/RM-how-to-3.png)
 
@@ -53,7 +53,7 @@ Atšķirības starp darba grupas dalībnieku rezervācijām un piešķirēm vara
 
 ![Cilne Resursu saskaņošana](media/RM-how-to-4.png)
 
-Varat arī izmantot resursu atlasītāju cilnē **Grafiks** , lai meklētu un atlasītu rezervējamos resursus, kas vēl nav daļa no projekta darba grupas. Tie tiek parādīti resursu atlasītājā kā **Citi resursi**.
+Varat arī izmantot resursu atlasītāju cilnē **Grafiks**, lai meklētu un atlasītu rezervējamos resursus, kas vēl nav daļa no projekta darba grupas. Tie tiek parādīti resursu atlasītājā kā **Citi resursi**.
 
 ![Darba grupā neiekļauta dalībnieka resursa piešķiršana uzdevumam](media/RM-how-to-5.png)
 
@@ -61,7 +61,7 @@ Veicot šo darbību, resurss tiek pievienots projekta darba grupai un piešķirt
 
 ![Darba grupas dalībnieks ar piešķirēm un bez rezervācijām](media/RM-how-to-6.png)
 
-Varat izmantot cilnes **Saskaņošana** rezervācijas paplašināšanas iespēju vai vienumu **Plānošanas panelis** , lai rezervētu resursa noslodzi uz projektā.
+Varat izmantot cilnes **Saskaņošana** rezervācijas paplašināšanas iespēju vai vienumu **Plānošanas panelis**, lai rezervētu resursa noslodzi uz projektā.
 
 ![Rezervāciju paplašināšana darba grupas dalībniekam resursu saskaņošanas cilnē](media/RM-how-to-7.png)
 

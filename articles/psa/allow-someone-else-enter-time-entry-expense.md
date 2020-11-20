@@ -3,7 +3,7 @@ title: Atļaut citai personai ievadīt laika ierakstu vai izdevumus
 description: Citu personu pilnvarošana jūsu laika vai izdevumu ierakstu ievadei programmā Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080417"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130386"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Citas personas pilnvarošana jūsu laika vai izdevumu ierakstu ievadei (Project Service)
 
@@ -65,7 +65,7 @@ Iestatiet pārstāvi, lai atļautu citai personai jūsu vietā izveidot laika va
   
 3.  Noklikšķiniet uz **Labi**.  
   
-4.  Tiks parādīts kalendārs. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien** , lai atgrieztos pašreizējā nedēļā.  
+4.  Tiks parādīts kalendārs. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien**, lai atgrieztos pašreizējā nedēļā.  
   
 5.  Lai ievadītu laiku, noklikšķiniet uz **Jauns** vai veiciet dubultklikšķi kalendārā zem dienas, kurā vēlaties ievadīt laiku.  
   
@@ -81,13 +81,13 @@ Iestatiet pārstāvi, lai atļautu citai personai jūsu vietā izveidot laika va
   
 3.  Noklikšķiniet uz **Labi**.  
   
-4.  Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien** , lai atgrieztos pašreizējā nedēļā.  
+4.  Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien**, lai atgrieztos pašreizējā nedēļā.  
   
 5.  Lai ievadītu izdevumus, noklikšķiniet **Jauns**.  
   
 6.  Aizpildiet laukus veidlapā **Jauni izdevumi**. Var pievienot arī kvītis.  
   
-7.  Noklikšķiniet uz **Saglabāt** , kad esat pabeidzis.  
+7.  Noklikšķiniet uz **Saglabāt**, kad esat pabeidzis.  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)

@@ -3,7 +3,7 @@ title: Projekta izveidošana
 description: Projekta izveide programmā Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080456"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133107"
 ---
 # <a name="create-a-project-project-service"></a>Projekta izveide (Project Service)
 
@@ -37,7 +37,7 @@ Izveidojiet projektu, izmantojot [!INCLUDE[pn_project_service_auto](../includes/
   
 3.  Zonā **Kopsavilkums** ievadiet projekta nosaukumu un pēc tam iespējami vairāk detalizētu datu. Ar sarkanu zvaigznīti (*) atzīmētie vienumi ir obligāti.  
   
-4.  Noklikšķiniet uz **Saglabāt** , lai izveidotu projektu un varētu turpināt tā rediģēšanu.  
+4.  Noklikšķiniet uz **Saglabāt**, lai izveidotu projektu un varētu turpināt tā rediģēšanu.  
   
 Pēc tam izveidojiet projekta darba sadalījuma struktūru, lai definētu projektam nepieciešamos uzdevumus, laika grafiku un resursu lomas.  
 

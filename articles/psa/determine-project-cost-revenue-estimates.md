@@ -3,7 +3,7 @@ title: Projekta izmaksu un ieņēmumu tāmju noteikšana
 description: Projekta izmaksu un ieņēmumu tāmju noteikšana programmā Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1652b39b6c8a703bf198a990eb9047eff9dc9f4c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080452"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133017"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Projekta izmaksu un ieņēmumu tāmju noteikšana 
 
@@ -35,7 +35,7 @@ Projekta tāmes sniedz finanšu skatu par prognozēto un plānoto darbu projekta
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] cenrāži definē izmaksu un rēķinu koeficientus attiecībā uz projektu izmantotajām lomām. Pamatojoties uz lomām, kas ir saistīts ar uzdevumiem projekta darba sadalījuma struktūrā, varat noteikt ieguldītā darba ietekmi uz izmaksām un ieņēmumiem.  
   
 ## <a name="cost-price-defaulting"></a>Izmaksu cenas noklusējuma izmantošana  
-Katrs projekts pieder kādai organizācijai (norādīta projekta laukā **Atbildīgā vienība** ). Ar atbildīgo uzņēmuma struktūrvienību saistītais cenrādis nosaka vienības izmaksu cenu. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] nosaka izmaksu cenas attiecībā uz lomām, izmaksu cenrādī meklējot lomas, vienības un organizācijas vienības kombināciju, lai tāmju rindās spēkā stāšanās datumam iegūtu pareizo izmaksu cenu.  
+Katrs projekts pieder kādai organizācijai (norādīta projekta laukā **Atbildīgā vienība**). Ar atbildīgo uzņēmuma struktūrvienību saistītais cenrādis nosaka vienības izmaksu cenu. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] nosaka izmaksu cenas attiecībā uz lomām, izmaksu cenrādī meklējot lomas, vienības un organizācijas vienības kombināciju, lai tāmju rindās spēkā stāšanās datumam iegūtu pareizo izmaksu cenu.  
   
 Ja lomas, vienības un uzņēmuma struktūrvienības kombinācija nesniedz izmaksu cenu no atbildīgās vienības cenrāža, tad vienība netiek ņemta vērā par labu lomas un uzņēmuma struktūrvienības kombinācijai. Ja izmaksu cena pastāv, šī cena tiek konvertēta uz vienību, kuru izvēlējāties tāmes rindā.  
   

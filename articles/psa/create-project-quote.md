@@ -3,7 +3,7 @@ title: Projekta piedāvājuma izveide
 description: Projekta piedāvājuma izveide programmā Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080552"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133152"
 ---
 # <a name="create-a-project-quote-project-service"></a>Projekta piedāvājuma izveide (Project Service)
 
@@ -33,11 +33,11 @@ Piedāvājuma izveide ir līdzīga iespējas izveidei. Iespēja ir paredzēta ie
   
 1. Lai izveidotu piedāvājumu no iespējas, dodieties uz **Project Service > Iespējas** un pēc tam noklikšķiniet uz iespējas, kurai vēlaties izveidot piedāvājumu.  
   
-2. Noklikšķiniet uz **Nākamais posms** procesa joslas labajā pusē un pēc tam atlasiet esošu piedāvājumu vai noklikšķiniet uz **Izveidot** , lai izveidotu jaunu piedāvājumu.  
+2. Noklikšķiniet uz **Nākamais posms** procesa joslas labajā pusē un pēc tam atlasiet esošu piedāvājumu vai noklikšķiniet uz **Izveidot**, lai izveidotu jaunu piedāvājumu.  
   
 3. Ja nepieciešams, apgabalā **Kopsavilkums** mainiet jebkuru informāciju.  
   
-4. Noklikšķiniet uz **Saglabāt** , lai izveidotu piedāvājumu un lai varētu turpināt tā rediģēšanu.  
+4. Noklikšķiniet uz **Saglabāt**, lai izveidotu piedāvājumu un lai varētu turpināt tā rediģēšanu.  
   
 5. Lai pievienotu piedāvājumam produktu, sadaļas **Ar produktu saistītās rindas** apgabalā **Piedāvājuma rindas** noklikšķiniet uz **Jauns**. Atlasiet vienumu sadaļā **Produkta nosaukums** un pēc tam norādiet daudzumu, pārdošanas cenu un piedāvājumā norādīto summu.  
   

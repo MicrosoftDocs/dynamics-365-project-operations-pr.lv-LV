@@ -3,7 +3,7 @@ title: Organizācijas struktūrvienības
 description: Šajā tēmā ir sniegta informācija par organizācijas struktūrvienībām programmā Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080556"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130632"
 ---
 # <a name="organizational-units"></a>Organizācijas struktūrvienības 
 
@@ -50,8 +50,8 @@ Turklāt organizācijas struktūrvienībai ir atribūts entītijā Resurss. Katr
 
 Programmā PSA organizācijas struktūrvienībai ir divas lomas.
 
-- **Līgumslēdzēja struktūrvienība**  — organizācijas struktūrvienība, kas pārstāv uzņēmuma grupu vai nodaļu, kas ir primāri atbildīga par pārdošanas darījuma iegūšanu, kā arī darba un pakalpojumu sniegšanas klientam pārvaldību. Līgumslēdzēja struktūrvienību norāda lauks **Līgumslēdzēja struktūrvienība** lapu **Iespēja** , **Piedāvājums** , **Projekta līgums** un **Projekts** virsraksta sadaļā.
-- **Resursu struktūrvienība**  — organizācijas struktūrvienība, kam pieder vai ir piešķirts resurss. Šī organizācijas struktūrvienība tās resursiem var nodrošināt atsevišķas lomas darba paziņojumos (SOW) un projektos, kas pieder līgumslēdzējai struktūrvienībai.
+- **Līgumslēdzēja struktūrvienība** — organizācijas struktūrvienība, kas pārstāv uzņēmuma grupu vai nodaļu, kas ir primāri atbildīga par pārdošanas darījuma iegūšanu, kā arī darba un pakalpojumu sniegšanas klientam pārvaldību. Līgumslēdzēja struktūrvienību norāda lauks **Līgumslēdzēja struktūrvienība** lapu **Iespēja**, **Piedāvājums**, **Projekta līgums** un **Projekts** virsraksta sadaļā.
+- **Resursu struktūrvienība** — organizācijas struktūrvienība, kam pieder vai ir piešķirts resurss. Šī organizācijas struktūrvienība tās resursiem var nodrošināt atsevišķas lomas darba paziņojumos (SOW) un projektos, kas pieder līgumslēdzējai struktūrvienībai.
 
 > ![Līgumslēdzēja struktūrvienības un resursu struktūrvienības](media/advanced-1.png)
 

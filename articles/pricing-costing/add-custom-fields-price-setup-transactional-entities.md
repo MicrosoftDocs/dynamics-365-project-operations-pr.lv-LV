@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080484"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130992"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Obligāto pielāgoto lauku pievienošana cenu iestatījumiem un transakciju entītijām 
 
@@ -33,7 +33,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 Šajā tēmā procedūras parādīs, kā pievienot vajadzīgās pielāgotās lauku atsauces entītijām un lietotāja saskarnes (UI) elementus, piemēram, veidlapas un skatus.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pielāgotu cenas noteikšanas dimensiju lauku pievienošana 
-Pēc pielāgotu lauku un entītiju izveidošanas nākamais solis ir panākt, lai cenas iestatījumi un transakciju entītijas brīdinātu par pielāgotām entītijām vai opciju kopām, izveidojot atsauču laukus. Atkarībā no tā, vai jūsu cenrāža dimensiju sarakstā ir iekļautas opciju kopas dimensijas vai entītiju dimensijas, vai arī abas, veiciet tikai tās darbības, kas ir **Uz opciju kopu pamatotas pielāgotās cenu noteiktās dimensijas** vai **Uz entītijām pamatotas pielāgotās cenu noteiktās dimensijas** , vai tās abas.
+Pēc pielāgotu lauku un entītiju izveidošanas nākamais solis ir panākt, lai cenas iestatījumi un transakciju entītijas brīdinātu par pielāgotām entītijām vai opciju kopām, izveidojot atsauču laukus. Atkarībā no tā, vai jūsu cenrāža dimensiju sarakstā ir iekļautas opciju kopas dimensijas vai entītiju dimensijas, vai arī abas, veiciet tikai tās darbības, kas ir **Uz opciju kopu pamatotas pielāgotās cenu noteiktās dimensijas** vai **Uz entītijām pamatotas pielāgotās cenu noteiktās dimensijas**, vai tās abas.
 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Uz opciju kopu pamatotas pielāgotās cenu noteiktās dimensijas
 Ja ir noteikta opcija pielāgotā cenu noteikšanas dimensija, pievienojiet to kā galveno entītiju lauku. Šajā procedūrā **Resursa darba atrašanās vieta** un **Resursa darba stundas** tiek izmantotas kā opciju kopas cenas noteikšanas dimensijas. Tās vispirms ir jāpievieno kā cenu noteikšanas entītijām **Lomu cenas** un **Lomu cenas uzcenojums**.
@@ -41,32 +41,32 @@ Ja ir noteikta opcija pielāgotā cenu noteikšanas dimensija, pievienojiet to k
 1. Programmā Project Operations atlasiet **Iestatījumi** > **Risinājumi** un pēc tam veiciet dubultklikšķi uz **\<your organization name> cenu noteikšanas dimensijas**. 
 2. Kreisajā navigācijas rūtī izvērsiet sadaļu **Entītijas > Lomas cenas**.
 3. Izvērsiet entītiju **Lomas cenas** un atlasiet vienumu **Lauki**.
-4. Atlasiet **Jauns** , lai izveidotu jaunu lauku ar nosaukumu **Resursa darba atrašanās vieta** un atlasiet vienumu **Opciju kopa** kā lauka tipu. 
-5. Atlasiet **Lietot esošu opciju kopu** , atlasiet **Resursu darba atrašanās vieta** opciju kopu un pēc tam atlasiet **Saglabāt**.
+4. Atlasiet **Jauns**, lai izveidotu jaunu lauku ar nosaukumu **Resursa darba atrašanās vieta** un atlasiet vienumu **Opciju kopa** kā lauka tipu. 
+5. Atlasiet **Lietot esošu opciju kopu**, atlasiet **Resursu darba atrašanās vieta** opciju kopu un pēc tam atlasiet **Saglabāt**.
 6. Atkārtojiet 1.–5. darbību, lai šo lauku pievienotu entītijai **Lomu cenas uzcenojumi**. 
 7. Atkārtojiet 1.–5. darbību opciju kopai **Resursu darba stundas**.
 
 > [!IMPORTANT]
 > Ja pievienojat lauku vairāk nekā vienai entītijai, izmantojiet vienu un to pašu lauka nosaukumu visās entītijās. 
 
-Projekta pārdošanas un novērtējuma fāzēs aprēķini par darba intensitāti, kas nepieciešams, lai pabeigtu **Vietēji** un **Uz vietas** darbu, kā arī **Regulārās stundās** un **Virsstundas** , tiek izmantotas, lai novērtētu piedāvājuma/projekta vērtību. Lauku **Resursa darba atrašanās vieta** un **Resursa darba stundas** tiek pievienotas novērtēšanas entītijām, **Piedāvājumu rindu informācija** , **Līgumu rindu informācija** , **Projekta darba grupas dalībnieki** un **Novērtējuma rinda**.
+Projekta pārdošanas un novērtējuma fāzēs aprēķini par darba intensitāti, kas nepieciešams, lai pabeigtu **Vietēji** un **Uz vietas** darbu, kā arī **Regulārās stundās** un **Virsstundas**, tiek izmantotas, lai novērtētu piedāvājuma/projekta vērtību. Lauku **Resursa darba atrašanās vieta** un **Resursa darba stundas** tiek pievienotas novērtēšanas entītijām, **Piedāvājumu rindu informācija**, **Līgumu rindu informācija**, **Projekta darba grupas dalībnieki** un **Novērtējuma rinda**.
 
 1. Programmā Project Operations atlasiet **Iestatījumi** > **Risinājumi** un pēc tam veiciet dubultklikšķi uz **\<your organization name> cenu noteikšanas dimensijas**. 
 2. Risinājuma pārlūkā kreisajā navigācijas rūtī atlasiet **Entītijas > Piedāvājuma rindu informācija**.
 3. Izvērsiet entītiju **Piedāvājuma rindas** un atlasiet **Lauki**.
-4. Atlasiet **Jauns** , lai izveidotu jaunu lauku ar nosaukumu **Resursa darba atrašanās vieta** un atlasiet lauka veidu **Opciju kopa**. 
+4. Atlasiet **Jauns**, lai izveidotu jaunu lauku ar nosaukumu **Resursa darba atrašanās vieta** un atlasiet lauka veidu **Opciju kopa**. 
 5. Atlasiet **Izmantot esošu opciju kopu** un **Resursa darba atrašanās vieta** un pēc tam atlasiet **Saglabāt**.
-6. Atkārtojiet 1.–5. darbību, lai pievienotu šo lauku **Projekta līguma rindu informācija** , **Projekta darba grupas dalībnieks** un **Novērtējuma rinda** entītijām.
+6. Atkārtojiet 1.–5. darbību, lai pievienotu šo lauku **Projekta līguma rindu informācija**, **Projekta darba grupas dalībnieks** un **Novērtējuma rinda** entītijām.
 7. Atkārtojiet 1.–6. darbību opciju kopai **Resursa darba stundas**. 
 
-Piegādei un rēķinu izrakstīšanai pabeigtajam darbam ir precīzi jārēķinās, vai tas ir veikts **Vietēji** vai **Uz vietas** , kā arī to, vai tas ir pabeigts projekta faktiskajās **Regulārās stundas** laikā vai **Virsstundas**. **Resursa darba atrašanās vieta** un **Resursa darba stundas** lauki jāpievieno entītijām **Laika ievade** , **Faktiski** , **Rēķina rindas informācija** un **Žurnāla rinda**.
+Piegādei un rēķinu izrakstīšanai pabeigtajam darbam ir precīzi jārēķinās, vai tas ir veikts **Vietēji** vai **Uz vietas**, kā arī to, vai tas ir pabeigts projekta faktiskajās **Regulārās stundas** laikā vai **Virsstundas**. **Resursa darba atrašanās vieta** un **Resursa darba stundas** lauki jāpievieno entītijām **Laika ievade**, **Faktiski**, **Rēķina rindas informācija** un **Žurnāla rinda**.
 
 1. Atlasiet **Iestatījumi** > **Risinājumi** un pēc tam veiciet dubultklikšķi uz **\<your organization name> cenu noteikšanas dimensijas**.
 2. Risinājuma pārlūkā kreisajā navigācijas rūtī atlasiet **Entītijas > Laika ievade**.
 3. Izvērsiet **Piedāvājuma rindas informācija** un atlasiet **Lauki**.
-4. Atlasiet **Jauns** , lai izveidotu jaunu lauku ar nosaukumu **Resursa darba atrašanās vieta** un atlasiet vienumu **Opciju kopa** kā lauka tipu. 
-5. Atlasiet **Lietot esošu opciju kopu** , atlasiet **Resursu darba atrašanās vieta** opciju kopu un pēc tam atlasiet **Saglabāt**.
-6. Atkārtojiet 1.–5. darbību, lai o lauku pievienotu **Faktiski** , **Rēķina rindu informācija** un **Žurnāla rinda** entītijām.
+4. Atlasiet **Jauns**, lai izveidotu jaunu lauku ar nosaukumu **Resursa darba atrašanās vieta** un atlasiet vienumu **Opciju kopa** kā lauka tipu. 
+5. Atlasiet **Lietot esošu opciju kopu**, atlasiet **Resursu darba atrašanās vieta** opciju kopu un pēc tam atlasiet **Saglabāt**.
+6. Atkārtojiet 1.–5. darbību, lai o lauku pievienotu **Faktiski**, **Rēķina rindu informācija** un **Žurnāla rinda** entītijām.
 7. Atkārtojiet 1.–6. darbību opciju kopai **Resursa darba stundas**. 
 
 Šādi tiek pabeigtas shēmas izmaiņas, kas nepieciešamas opciju kopas pielāgotām dimensijām.
@@ -78,13 +78,13 @@ Ja pielāgotā cenu noteikšanas dimensija ir entītija, jūs pievienosit 1: N a
 1. Programmā Project Operations atlasiet **Iestatījumi** > **Risinājumi** un pēc tam veiciet dubultklikšķi uz **\<your organization name> cenu noteikšanas dimensijas**. 
 2. Risinājuma pārlūkā kreisajā navigācijas rūtī atlasiet **Entītijas > Standarta nosaukums**.
 3. Izvērsiet **Standarta nosaukums** entītiju un atlasiet **1: N attiecības**.
-4. Atlasiet **Jauns** , lai veidotu jaunu 1:N attiecību, ko sauc **Standarta nosaukums rezervējamam resursam**. Ievadiet nepieciešamo informāciju un pēc tam atlasiet **Saglabāt**.
+4. Atlasiet **Jauns**, lai veidotu jaunu 1:N attiecību, ko sauc **Standarta nosaukums rezervējamam resursam**. Ievadiet nepieciešamo informāciju un pēc tam atlasiet **Saglabāt**.
 
 Standarta nosaukums būs jāpievieno arī cenu noteikšanas entītijām **Lomas cena** un **Lomas cenas uzcenojums.** Tas tiek pabeigts arī, izmantojot 1:N attiecības starp **Standarta nosaukums** un **Lomas cena** entītijām, kā arī **Standarta nosaukums** un **Lomas cenas uzcenojums**.
 
 1. Risinājuma pārlūkā kreisajā navigācijas rūtī atlasiet **Entītijas > Standarta nosaukums**.
 2. Izvērsiet **Standarta nosaukums** entītiju un atlasiet **1: N attiecības**.
-3. Atlasiet **Jauns** , lai izveidotu jaunu 1:N attiecību, ko sauc par **Standarta nosaukums rezervētajam resursam**. Ievadiet nepieciešamo informāciju un pēc tam atlasiet **Saglabāt**.
+3. Atlasiet **Jauns**, lai izveidotu jaunu 1:N attiecību, ko sauc par **Standarta nosaukums rezervētajam resursam**. Ievadiet nepieciešamo informāciju un pēc tam atlasiet **Saglabāt**.
 4. Atkārtojiet 1.–4. darbību, lai izveidotu 1: N attiecību starp **Standarta nosaukums** un **Lomu cenas uzcenojums** entītijām,
 
 Projekta pārdošanas un novērtēšanas fāzēs cenas piedāvājumam/projektam ir nepieciešami darba intensitātes aprēķini katram standarta nosaukumam. Tas nozīmē, ka 1:N attiecības no Standarta nosaukuma līdz katrai no šīm novērtēšanas entītijām ir nepieciešamas: 
@@ -94,11 +94,11 @@ Projekta pārdošanas un novērtēšanas fāzēs cenas piedāvājumam/projektam 
 - **Projekta grupas dalībnieks**
 - **Novērtējuma rinda**
 
-5. Atkārtojiet 1.–5. darbību, lai izveidotu 1: N attiecības no **Standarta nosaukums** uz **Piedāvājuma rindas informācija** , **Projekta līguma rindas informācija** , **Projekta darba grupas dalībnieks** un **Novērtētā rinda**.
+5. Atkārtojiet 1.–5. darbību, lai izveidotu 1: N attiecības no **Standarta nosaukums** uz **Piedāvājuma rindas informācija**, **Projekta līguma rindas informācija**, **Projekta darba grupas dalībnieks** un **Novērtētā rinda**.
 
-  Piegādes un rēķinu izrakstīšanas fāzēs darbam, kas pabeigts pēc katra standarta nosaukuma, ir precīzi jāatbilst projekta faktiskajām cenām. Tas nozīmē, ka ir jābūt 1: N attiecībām no **Standarta virsraksts** uz **Laika ievade** , **Faktiskie** , **Rēķina rindas informācija** un **Žurnāla rindas entītijas**.
+  Piegādes un rēķinu izrakstīšanas fāzēs darbam, kas pabeigts pēc katra standarta nosaukuma, ir precīzi jāatbilst projekta faktiskajām cenām. Tas nozīmē, ka ir jābūt 1: N attiecībām no **Standarta virsraksts** uz **Laika ievade**, **Faktiskie**, **Rēķina rindas informācija** un **Žurnāla rindas entītijas**.
 
-6. Atkārtojiet 1.–6. darbību, lai izveidotu 1: N attiecības no **Standarta virsraksts** uz **Laika ievade** , **Faktiskie** , **Rēķina rindas informācija** un **Žurnāla rindas entītijas**.
+6. Atkārtojiet 1.–6. darbību, lai izveidotu 1: N attiecības no **Standarta virsraksts** uz **Laika ievade**, **Faktiskie**, **Rēķina rindas informācija** un **Žurnāla rindas entītijas**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Dimensiju vērtību noklusējuma iestatīšana, izmantojot platformas kartēšanas līdzekļus
 Laika ievadei būtu noderīgi, ja sistēmas būtu noklusējuma standarta ieraksts laika ievadē no rezervējamā resursa, kas reģistrē laika ierakstu. Veiciet šīs darbības, lai pievienotu lauka kartējumus 1:N attiecībā no **Rezervējams resurss** uz **Laika ievade**.
@@ -106,7 +106,7 @@ Laika ievadei būtu noderīgi, ja sistēmas būtu noklusējuma standarta ierakst
 1. Risinājuma pārlūkā kreisajā navigācijas rūtī atlasiet **Entītijas > Standarta nosaukums**.
 2. Izvērsiet **Standarta nosaukums** entītiju un atlasiet **1: N attiecības**.
 3. Veiciet dubultklikšķi uz **Rezervējams resurss uz Laika ievade**. Lapā **Attiecības** atlasiet **Izmantot lauku kartējumus.** 
-4. Atlasiet **Jauns** , lai izveidotu jaunu lauka kartēšanu starp lauku **Standarta nosaukums** entītijā **Rezervējams resurss** atsauces laukā **Standarta nosaukums** lauka entītijā **Laika ievade**. 
+4. Atlasiet **Jauns**, lai izveidotu jaunu lauka kartēšanu starp lauku **Standarta nosaukums** entītijā **Rezervējams resurss** atsauces laukā **Standarta nosaukums** lauka entītijā **Laika ievade**. 
 
 Šādi tiek pabeigtas shēmas izmaiņas, kas nepieciešamas uz entītijām pamatotām pielāgotām dimensijām.
 

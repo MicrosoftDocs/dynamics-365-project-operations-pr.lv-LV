@@ -3,7 +3,7 @@ title: Vienību grupas un vienības
 description: Šajā tēmā ir sniegta informācija par vienību grupām un vienībām.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080460"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130587"
 ---
 # <a name="unit-groups-and-units"></a>Vienību grupas un vienības
 
@@ -33,16 +33,16 @@ Vienību grupas un vienības ir Microsoft Dynamics 365 pamata entītijas. Vien�
 
 Tālāk sniegti daži vienību un vienību grupu piemēri.
  
-- **Vienību grupa** : attālums 
-    - **Vienības** : jūdze, kilometrs utt.
-- **Vienību grupa** : laiks
-    - **Vienības** : stunda, diena, nedēļa utt. 
+- **Vienību grupa**: attālums 
+    - **Vienības**: jūdze, kilometrs utt.
+- **Vienību grupa**: laiks
+    - **Vienības**: stunda, diena, nedēļa utt. 
 
 Iestatot vairākas vienību grupas vienības, ir jāiestata arī pārvēršanas koeficients starp tām, norādot pirmo vienību, kas iestatīta kā vienību grupas noklusējuma vai primārā vienība. 
 
-Piemēram, ja vienību grupā **Laiks** kā pirmo vienību iestatāt vienību **Stunda** , sistēma vienību **Stunda** apzīmē kā noklusējuma vienību. Ja nākamā vienība, ko iestatāt, ir **Diena** , jums ir jāiestata pārvēršanas koeficients starp vienībām **Diena** un **Stunda**. Ja pēc tam kā trešo vienību pievienosit vienību **Nedēļa** , jums jāiestata vienības **Nedēļa** pārvēršanas koeficients, lai to varētu izteikt vienībās **Diena** vai **Stunda**. 
+Piemēram, ja vienību grupā **Laiks** kā pirmo vienību iestatāt vienību **Stunda**, sistēma vienību **Stunda** apzīmē kā noklusējuma vienību. Ja nākamā vienība, ko iestatāt, ir **Diena**, jums ir jāiestata pārvēršanas koeficients starp vienībām **Diena** un **Stunda**. Ja pēc tam kā trešo vienību pievienosit vienību **Nedēļa**, jums jāiestata vienības **Nedēļa** pārvēršanas koeficients, lai to varētu izteikt vienībās **Diena** vai **Stunda**. 
 
-Tālāk esošajā attēlā parādīts iestatīšanas piemērs vienībai **Diena** , kur laukā **Daudzums** ir parādīts stundu skaits vienā dienā, un vienībai **Nedēļa** , kur laukā **Daudzums** ir parādīts dienu skaits vienā nedēļā.
+Tālāk esošajā attēlā parādīts iestatīšanas piemērs vienībai **Diena**, kur laukā **Daudzums** ir parādīts stundu skaits vienā dienā, un vienībai **Nedēļa**, kur laukā **Daudzums** ir parādīts dienu skaits vienā nedēļā.
 
 > ![Vienību grupa: informācijas lapa](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation izmanto vienības un vienību grupas, la
 
 Attiecībā uz izdevumiem katrai izdevumu kategorijai ir noklusējuma vienību grupa un vienība. Šīs vērtības tiek ievadītas kā noklusējuma vērtības izdevumu kategoriju cenrāža ierakstos. 
 
-Piemēram, jums ir izdevumu kategorija ar nosaukumu **Attālums**. Tai ir vienību grupa ar nosaukumu **Attālums** un noklusējuma vienība ar nosaukumu **Jūdze**. Ja vienību grupu **Distance** iestatāt tā, lai tai būtu divas vienības ( **Jūdze** un **Kilometrs** ), kategorijai **Attālums** varat iestatīt divas cenas vienā cenrādī: cenu par jūdzi un cenu par kilometru.
+Piemēram, jums ir izdevumu kategorija ar nosaukumu **Attālums**. Tai ir vienību grupa ar nosaukumu **Attālums** un noklusējuma vienība ar nosaukumu **Jūdze**. Ja vienību grupu **Distance** iestatāt tā, lai tai būtu divas vienības (**Jūdze** un **Kilometrs**), kategorijai **Attālums** varat iestatīt divas cenas vienā cenrādī: cenu par jūdzi un cenu par kilometru.
 
 | Izdevumu kategorija  | Vienību grupa  | Vienība      | Izcenojuma metode  | Vienības cena  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Lauka **Laiks piedāvājumā** novērtējuma rindas var izteikt jebkurā laika v
 Šajā piemērā ir parādīts, kā PSA izmanto vienību grupu, vienības un pārvēršanas koeficientus.
 - Vienības
 
-   - **Vienību grupa** : laiks 
-   - **Vienības** : stunda 
+   - **Vienību grupa**: laiks 
+   - **Vienības**: stunda 
     
-    - **Diena**  — pārvēršanas koeficients: 8 stundas       
-    - **Nedēļa**  — pārvēršanas koeficients: 40 stundu  
+    - **Diena** — pārvēršanas koeficients: 8 stundas       
+    - **Nedēļa** — pārvēršanas koeficients: 40 stundu  
         
 - Cenrāža iestatīšana projektā A.
 
-    - **Nosaukums** : UK pārdošanas cenas 2016. gadā 
-    - **Noklusējuma laika vienība** : diena 
-    - **Valūta** : GBP
+    - **Nosaukums**: UK pārdošanas cenas 2016. gadā 
+    - **Noklusējuma laika vienība**: diena 
+    - **Valūta**: GBP
 
 | Loma      | Vienību grupa | Vienība | Organizācijas vienība | Cena   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Dažās valstīs vai reģionos ir juridiska prasība norēķinu likmes iestatīt
 Nē. Grafika novērtējums pašlaik ir ierobežots līdz stundām, un to nevar mainīt.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Vai vienības un vienību grupas var rediģēt, dzēst un pievienot?
-Jā. Izņemot vienību grupu **Laiks** un vienību **Stunda** , visas vienības var dzēst un rediģēt, kā arī var pievienot jaunas vienības. Programmā PSA nevar dzēst vienību grupu **Laiks** un **Stunda**. Tomēr tās var atjaunināt, izmantojot tulkotu tekstu laukam **Nosaukums**.
+Jā. Izņemot vienību grupu **Laiks** un vienību **Stunda**, visas vienības var dzēst un rediģēt, kā arī var pievienot jaunas vienības. Programmā PSA nevar dzēst vienību grupu **Laiks** un **Stunda**. Tomēr tās var atjaunināt, izmantojot tulkotu tekstu laukam **Nosaukums**.

@@ -1,21 +1,21 @@
 ---
-title: Piedāvājuma rindas apmaksājamo komponentu konfigurēšana
+title: Piedāvājuma rindas maksas komponentu konfigurēšana — Lite
 description: Šajā tēmā ir sniegta informācija par apmaksājamu un neapmaksājamu komponentu iestatīšanu projekta piedāvājuma rindā.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080565"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177115"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Piedāvājuma rindas apmaksājamo komponentu konfigurēšana
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Piedāvājuma rindas maksas komponentu konfigurēšana — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -34,31 +34,31 @@ Iekļauto komponentu apakškopu var atzīmēt kā apmaksājamu, izmantojot lauku
 
 Apmaksājamus komponentus var definēt uzdevumos, lomās un darījumu kategorijās.
 
-Iekļaujamība rēķinā tiek definēta par piedāvājuma rindu un tā attiecas uz visām rindā iekļautajām darījumu klasēm. Ja lauks **Iekļaut uzdevumus** ir tukšs vai iestatīts uz **Viss projekts** , cilne **Apmaksājamie uzdevumi** nav pieejama.
+Iekļaujamība rēķinā tiek definēta par piedāvājuma rindu un tā attiecas uz visām rindā iekļautajām darījumu klasēm. Ja lauks **Iekļaut uzdevumus** ir tukšs vai iestatīts uz **Viss projekts**, cilne **Apmaksājamie uzdevumi** nav pieejama.
 
-Iekļaujamību rēķinā definē lomām piedāvājuma rindai, un tā attiecas tikai uz darījumu klasi **Laiks**. Ja lauks **Iekļaut laiku** projekta piedāvājuma rindā ir tukšs vai iestatīts uz **Nē** , cilne **Apmaksājamās lomas** nav pieejama.
+Iekļaujamību rēķinā definē lomām piedāvājuma rindai, un tā attiecas tikai uz darījumu klasi **Laiks**. Ja lauks **Iekļaut laiku** projekta piedāvājuma rindā ir tukšs vai iestatīts uz **Nē**, cilne **Apmaksājamās lomas** nav pieejama.
 
-Apmaksas apjoms tiek definēts pēc darījumu kategorijām piedāvājuma rindai, un tas attiecas tikai uz darījumu klasi **Izdevumi**. Ja lauks **Iekļaut izdevumus** projekta piedāvājuma rindā ir tukšs vai iestatīts uz **Nē** , cilne **Apmaksājamās kategorijas** nav pieejama.
+Apmaksas apjoms tiek definēts pēc darījumu kategorijām piedāvājuma rindai, un tas attiecas tikai uz darījumu klasi **Izdevumi**. Ja lauks **Iekļaut izdevumus** projekta piedāvājuma rindā ir tukšs vai iestatīts uz **Nē**, cilne **Apmaksājamās kategorijas** nav pieejama.
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Projekta uzdevuma atjaunināšana par apmaksājamu vai neapmaksājamu
 
 Projekta uzdevums var būt apmaksājams vai neapmaksājam noteiktā projekta piedāvājuma rindā, kas nodrošina šādas iestatīšanas iespējas.
 
-Ja projekta piedāvājuma rindā ir iekļauts **Laiks** un uzdevums **T1** , uzdevums tiek saistīts ar piedāvājuma rindu kā apmaksājams. Ja ir otra piedāvājuma rinda, kurā ir iekļautas lauks **Izmaksas** , varat saistīt **T1** uzdevumu piedāvājuma rindā kā neapmaksājamu. Rezultāts ir tāds, ka viss šajā uzdevumā reģistrētais laiks ir apmaksājams, un visi izdevumi uzdevumā ir neapmaksājami.
+Ja projekta piedāvājuma rindā ir iekļauts **Laiks** un uzdevums **T1**, uzdevums tiek saistīts ar piedāvājuma rindu kā apmaksājams. Ja ir otra piedāvājuma rinda, kurā ir iekļautas lauks **Izmaksas**, varat saistīt **T1** uzdevumu piedāvājuma rindā kā neapmaksājamu. Rezultāts ir tāds, ka viss šajā uzdevumā reģistrētais laiks ir apmaksājams, un visi izdevumi uzdevumā ir neapmaksājami.
 
-Uzdevuma norēķinu veidu var konfigurēt projekta piedāvājuma rindas cilnē **Apmaksājamie uzdevumi** , atjauninot lauku **Norēķinu veids** apakšrežģī **Līguma rindas uzdevumi**. Vai arī varat atjaunināt projekta uzdevuma norēķinu tipu laukā **Norēķinu tips** apakšrežģim uzdevuma norēķinu iestatījumos projektam, kurā tiek radītas piedāvājuma rindas, kas saistītas ar uzdevumu.
+Uzdevuma norēķinu tipu var konfigurēt projekta piedāvājuma rindas cilnē **Rēķinā iekļaujamie uzdevumi**, atjauninot lauku **Norēķinu tips** apakšrežģī **Piedāvājuma rindas uzdevumi**. Vai arī varat atjaunināt projekta uzdevuma norēķinu veida lauku **Norēķinu tips** projekta norēķinu iestatījumu apakšrežģī, kas rāda ar uzdevumu saistītās piedāvājuma rindas.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Lomas atjaunināšana par apmaksājamu vai neapmaksājamu
 
 Loma var būt apmaksājama vai neapmaksājama noteiktas projekta piedāvājuma rindas kontekstā.
 
-Lomas norēķinu veidu var konfigurēt projekta piedāvājuma rindas cilnē **Apmaksājamās lomas** , atjauninot piedāvājuma rindas cilnes lauku **Norēķinu veids** apakšrežģī **Apmaksājamas lomas**.
+Lomas norēķinu tipu var konfigurēt piedāvājuma rindas cilnē **Rēķinā iekļaujamās lomas**, atjauninot lauku **Norēķinu tips** apakšrežģī **Rēķinā iekļaujamās lomas**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Darījumu kategorijas atjaunināšana par apmaksājamu vai neapmaksājamu
 
 Darījumu kategorija var būt apmaksājama vai neapmaksājama noteiktā piedāvājuma rindā.
 
-Darījuma norēķinu veidu var konfigurēt projekta piedāvājuma rindas cilnē **Apmaksājamās kategorijas** , atjauninot piedāvājuma rindas cilnes lauku **Norēķinu tips** apakšrežģī **Apmaksājamas kategorijas**.
+Transakcijas norēķinu tipu var konfigurēt piedāvājuma rindas cilnē **Rēķinā iekļaujamās kategorijas**, atjauninot lauku **Norēķinu tips** apakšrežģī **Rēķinā iekļaujamās kategorijas**.
 
 ### <a name="resolve-chargeability"></a>Apmaksājamības atrisināšana
 Aprēķins vai faktiski dati, kas izveidoti par laiku, tiks uzskatīti par apmaksājamiem tikai tad, ja piedāvājuma rindā būs iekļauts lauks **Laiks** un lauki **Uzdevums** un **Loma** piedāvājuma rindā būs konfigurēta kā apmaksājama.

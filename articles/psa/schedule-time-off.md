@@ -3,7 +3,7 @@ title: Brīvā laika plānošana
 description: Brīvā laika plānošana programmā Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080669"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132207"
 ---
 # <a name="schedule-time-off-project-service"></a>Brīvā laika plānošana (Project Service)
 
@@ -35,7 +35,7 @@ Plānojiet savu atvaļinājumu vai neierašanos līdzīgi kā ievadāt laiku pro
   
 1.  Dodieties uz **Project Service > Laika ieraksti**. Tiks parādīts jūsu kalendārs.  
   
-2.  Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien** , lai atgrieztos pašreizējā nedēļā.  
+2.  Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien**, lai atgrieztos pašreizējā nedēļā.  
   
 3.  Lai ievadītu laiku, noklikšķiniet uz **Jauns** vai veiciet dubultklikšķi kalendārā zem dienas, kurā vēlaties ievadīt laiku.  
   

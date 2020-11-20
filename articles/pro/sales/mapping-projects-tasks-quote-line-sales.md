@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080336"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130722"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projektu un uzdevumu kartēšana par projekta piedāvājuma rindu
 
@@ -50,14 +50,14 @@ Lapā **Projekts** tiek nodrošināta optimāla pieredze uzdevumu saistīšanai 
 7. Parādītajā dialoga lapā atlasiet piedāvājuma rindu, kurā ir redzamas piedāvājumā iekļautās projekta piedāvājuma rindas.
 8. Laukā **Norēķinu tips** norādiet, vai šie uzdevumi ir apmaksājami vai neapmaksājami.
 9. Atzīmējiet izvēles rūtiņu, lai norādītu, vai saistībā ir jāiekļauj atlasīto uzdevumu pakārtotie uzdevumi. Atzīmējot rūtiņu, atlasīto uzdevumu pakārotie uzdevumi tiek saistīti ar piedāvājuma rindu.
-10. Atlasiet **Labi** , lai aizvērtu dialogu.
+10. Atlasiet **Labi**, lai aizvērtu dialogu.
 
 ### <a name="from-the-quote-line-page"></a>No piedāvājuma rindas lapas
 
 Projekta uzdevumus var saistīt ar piedāvājuma rindām no cilnes **Apmaksājamie uzdevumi** lapā **Piedāvājuma rinda**.
 
 >[!NOTE]
->Vislabākā vieta projekta uzdevumu saistīšanai ar piedāvājuma rindām ir cilnē **Uzdevuma norēķini** lapā **Projekts**. Ja uzdevumi tiek saistīti no cilnes **Apmaksājamie uzdevumi** lapā **Piedāvājuma rindas** , tad katrs projekts ir jāsaista manuāli.
+>Vislabākā vieta projekta uzdevumu saistīšanai ar piedāvājuma rindām ir cilnē **Uzdevuma norēķini** lapā **Projekts**. Ja uzdevumi tiek saistīti no cilnes **Apmaksājamie uzdevumi** lapā **Piedāvājuma rindas**, tad katrs projekts ir jāsaista manuāli.
 
 1. Projekta piedāvājuma rindas cilnē **Vispārīgi** pārbaudiet, vai laukā **Projekts** ir atlasīts projekts.
 2. Laukā **Iekļautie uzdevumi** atlasiet **Tikai atlasītie uzdevumi**.
@@ -78,7 +78,7 @@ Projekta uzdevumus var saistīt ar piedāvājuma rindām no cilnes **Apmaksājam
 4. Parādītajā dialoga lapā atlasiet piedāvājuma rindu.
 5. Atzīmējiet izvēles rūtiņu, lai norādītu, vai saistība ir jāatceļ arī atlasīto uzdevumu pakārtotajiem uzdevumiem. Atzīmējot rūtiņu, atlasīto uzdevumu pakārotie uzdevumi tiek atsaistīti no piedāvājuma rindas.
 6. Atlasiet **Labi**. Brīdinājuma ziņojums informē, ka, noņemot šo saistību, visi iepriekš ierakstītie faktiskie dati uzdevumā var tikt atcelti. 
-7. Noklikšķiniet **Labi** , lai turpinātu un noņemtu saistību starp uzdevumu un projekta piedāvājuma rindu.
+7. Noklikšķiniet **Labi**, lai turpinātu un noņemtu saistību starp uzdevumu un projekta piedāvājuma rindu.
 
 ### <a name="from-the-quote-line-page"></a>No piedāvājuma rindas lapas
 
@@ -86,7 +86,7 @@ Projekta uzdevumus var arī atsaistīt no piedāvājuma rindām no cilnes **Apma
 
 1. Cilnē **Apmaksājamie uzdevumi** atlasiet **Dzēst piedāvājuma rindas uzdevumu**.
 2. Atlasiet **Labi**. Brīdinājuma ziņojums informē, ka, noņemot šo saistību, visi iepriekš ierakstītie faktiskie dati uzdevumā var tikt atcelti. 
-3. Noklikšķiniet **Labi** , lai turpinātu un noņemtu saistību starp uzdevumu un projekta piedāvājuma rindu.
+3. Noklikšķiniet **Labi**, lai turpinātu un noņemtu saistību starp uzdevumu un projekta piedāvājuma rindu.
 
 >[!NOTE]
 > Šī procedūra nedzēš uzdevumu no projekta. Tā tikai noņem uzdevuma saistību no projekta piedāvājuma rindas.

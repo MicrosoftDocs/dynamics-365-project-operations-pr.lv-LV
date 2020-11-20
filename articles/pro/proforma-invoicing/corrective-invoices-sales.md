@@ -1,21 +1,21 @@
 ---
-title: Kredīti un labotie rēķini
+title: Labotie rēķini — Lite
 description: Šajā tēmā ir sniegta informācija par labotiem rēķiniem projekta operācijās.
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080555"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176440"
 ---
-# <a name="credits-and-corrected-invoices"></a>Kredīti un labotie rēķini
+# <a name="corrected-invoices---lite"></a>Labotie rēķini — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -35,7 +35,7 @@ No apstiprinātā rēķina tiek izveidots jauns rēķina melnraksts. Visa rēķi
 - Honorāru un avansu saskaņošanu var labot, ja ir izmantota nepareiza summa, lai salīdzinātu ar iepriekš apstiprināta rēķina maksu.
 
 > [!IMPORTANT]
-> Rēķina rindas informācija, kas ir korekcija citām jau rēķinā izrakstītām izmaksām, kam lauks **Korekcija** ir iestatīts uz **Jā**. Rēķiniem, kam ir labotas rēķina rindas detaļas, ir lauks **Ir labojumi** , kas arī ir iestatīts uz **Jā**.
+> Rēķina rindas informācija, kas ir korekcija citām jau rēķinā izrakstītām izmaksām, kam lauks **Korekcija** ir iestatīts uz **Jā**. Rēķiniem, kam ir labotas rēķina rindas detaļas, ir lauks **Ir labojumi**, kas arī ir iestatīts uz **Jā**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiskie dati, kas izveidoti, apstiprinot labotu rēķinu:
 

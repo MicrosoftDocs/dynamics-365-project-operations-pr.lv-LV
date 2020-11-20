@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 774399f2c02d8434c9c042c3a9f995792893bfce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 442a901af8754fa0335bbf43f4ac8c73b11f9499
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080618"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131667"
 ---
 # <a name="define-project-calendars"></a>Projekta kalendāru definēšana
 
@@ -45,7 +45,7 @@ Lai izveidotu projekta grafiku, jums ir jāizveido projekta kalendāra veidne, k
 4. Atlasiet **Jauns nedēļas grafiks** un pēc tam iestatiet opcijas šī resursa grafikam. Varat iestatīt periodisku nedēļas grafiku, dienas stundu parametrus, uzņēmuma slēgšanas gadījumus un citus rādītājus.
 5. Iestatiet datumu diapazonu, atlasiet **Saglabāt** un pēc tam atlasiet **Aizvērt**. 
 6. Atgriezieties saraksta lapā **Resursi** un atlasiet resursu, kuram iestatījāt darba stundas. 
-7. Atlasiet **Iestatīt kalendāru kā** , lai iestatītu darba veidni. 
+7. Atlasiet **Iestatīt kalendāru kā**, lai iestatītu darba veidni. 
 8. Dialoglodziņā **Darba veidne** ievadiet nosaukumu šai darba veidnei un pēc tam atlasiet **Lietot**. 
 
 Tagad šo darba veidni varat sasaistīt ar projekta kalendāra veidni.

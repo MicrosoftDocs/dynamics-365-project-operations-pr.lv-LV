@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080333"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131577"
 ---
 # <a name="estimate-projects-overview"></a>Projekta izdevumu pārskats
 
@@ -74,8 +74,8 @@ Ja pievienojāt pielāgotu lauku piedāvājuma rindu informācijai un vēlaties,
 2. Atlasiet vienumu **Meklēt** un meklējiet spraudni, lai veiktu atjaunināšanu.
 3. Atlasiet spraudni un pēc tam galvenajā lapā noklikšķiniet vienumu **Atlasīt**.
 4. Atlasiet spraudņa darbību, lai atjauninātu, ar peles labo pogu noklikšķiniet un pēc tam atlasiet vienumu **Atjaunināt**.
-5. Dialoglodziņa **Esošas darbības atjaunināšana** laukā **Filtrēšanas atribūti** atlasiet vienumu atlasiet daudzpunktes pogu ( **...** ):
+5. Dialoglodziņa **Esošas darbības atjaunināšana** laukā **Filtrēšanas atribūti** atlasiet vienumu atlasiet daudzpunktes pogu (**...**):
 6. Dialoglodziņā **Atribūtu atlase** atzīmējiet pielāgotu atribūtu izvēles rūtiņas.
-7. Noklikšķiniet uz vienuma **Labi** , lai aizvērtu dialoglodziņu, un pēc tam uz **Atjaunināt darbību**.
+7. Noklikšķiniet uz vienuma **Labi**, lai aizvērtu dialoglodziņu, un pēc tam uz **Atjaunināt darbību**.
 8. Otrajā spraudnī atkārtojiet 1.–7. darbību.
 9. Aizveriet **PluginRegistrationTool**.

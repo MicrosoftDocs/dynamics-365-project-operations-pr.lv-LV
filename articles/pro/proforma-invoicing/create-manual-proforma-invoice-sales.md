@@ -1,21 +1,21 @@
 ---
-title: Manuāla proformas rēķina izveide
+title: Izveidot manuālu proformas rēķinu — Lite
 description: Šajā tēmā ir sniegta informācija par manuāla proforma rēķina izveidi risinājumā Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5e93206737507bf6698a9746815c790d3dfc904
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4080673"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176395"
 ---
-# <a name="creating-a-manual-proforma-invoice"></a>Manuāla proformas rēķina izveide
+# <a name="create-a-manual-proforma-invoice---lite"></a>Izveidot manuālu proformas rēķinu — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -31,6 +31,6 @@ Visi izveidotie projekta rēķini ir pieejami apgabala **Pārdošana** lapas **R
 
 ## <a name="project-contract-details-page"></a>Informācijas lapa Projekta līgums
 
-Proforma rēķinu var izveidot arī no informācijas lapas **Projekta līgums** , kas izveido rēķinu šim konkrētajam projekta līgumam. Sistēma pārbauda, vai projekta līgumam ir rezerve **Gatavs rēķina izrakstīšanai** ar datumu pirms šodienas datuma. No šiem līgumiem sistēma izveido proforma rēķinu melnrakstus, pamatojoties uz klientu skaitu katrā rēķina rindā.
+Proforma rēķinu var izveidot arī no informācijas lapas **Projekta līgums**, kas izveido rēķinu šim konkrētajam projekta līgumam. Sistēma pārbauda, vai projekta līgumam ir rezerve **Gatavs rēķina izrakstīšanai** ar datumu pirms šodienas datuma. No šiem līgumiem sistēma izveido proforma rēķinu melnrakstus, pamatojoties uz klientu skaitu katrā rēķina rindā.
 
-Ja ir izveidots viens proforma rēķins, tiek atvērta lapa **Rēķins**. Ja šim projekta līgumam ir izveidoti vairāki rēķini, tiek atvērta saraksta lapa **Rēķini** , lai parādītu visus izveidotos rēķinus.
+Ja ir izveidots viens proforma rēķins, tiek atvērta lapa **Rēķins**. Ja šim projekta līgumam ir izveidoti vairāki rēķini, tiek atvērta saraksta lapa **Rēķini**, lai parādītu visus izveidotos rēķinus.

@@ -1,22 +1,22 @@
 ---
-title: Automātiskas proforma rēķina izrakstīšanas konfigurēšana
+title: Automātiskas rēķina izveides konfigurēšana — Lite
 description: Šajā tēmā ir sniegta informācija par proforma rēķinu automātiskas izveides konfigurēšanu.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080353"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176575"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Automātiskas proforma rēķina izrakstīšanas konfigurēšana
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Automātiskas rēķina izveides konfigurēšana — Lite
+ 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
 Jūs varat konfigurēt automātisku rēķinu izveidi risinājumā Dynamics 365 Project Operations. Sistēma izveido melnraksta proforma rēķinu, pamatojoties uz rēķina grafiku katram projekta līgumam un līguma rindai. Rēķinu grafiki tiek konfigurēti līguma rindas līmenī. Katrai līguma rindai var noteikt atsevišķu rēķina grafiku vai vienu un to pašu rēķina grafiku var iekļaut ikvienā līguma rindā.
@@ -48,21 +48,21 @@ Rēķina grafiki, kas definēti katrā no šiem diviem rindas elementiem, izskat
 
 Šajā piemērā, kad tiek izpildīta automātiskā rēķinu izveide:
 
-- **4. oktobris vai jebkura diena pirms tā** : šim līgumam netiek ģenerēts rēķins, jo tabula **Rēķina grafiks** katrai no šīm līguma rindām neizsauc 4. oktobri, svētdienu kā rēķina izpildes datumu.
-- **5. oktobris, pirmdiena** : viens rēķins tiek ģenerēts:
+- **4. oktobris vai jebkura diena pirms tā**: šim līgumam netiek ģenerēts rēķins, jo tabula **Rēķina grafiks** katrai no šīm līguma rindām neizsauc 4. oktobri, svētdienu kā rēķina izpildes datumu.
+- **5. oktobris, pirmdiena**: viens rēķins tiek ģenerēts:
 
     - Prototipa darbs, kas ietver atskaites punktu, ja tas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
     - Ieviešanas darbs, kurā ir iekļauti visi laika darījumi, kas izveidoti pirms darījuma pabeigšanas datuma 4. oktobrī, svētdienā, kas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
     - Radušies izdevumi, kuros ir iekļauti visi izdevumu darījumi, kas izveidoti pirms darījuma pabeigšanas datuma 4. oktobrī, svētdienā, kas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
   
-- **6. oktobris vai jebkura diena pirms 19. oktobra** : šim līgumam netiek ģenerēts rēķins, jo tabula **Rēķina grafiks** katrai no šīm līguma rindām neizsauc 6. oktobri vai jebkuru datumu pirms 19. oktobra kā rēķina izpildes datumu.
-- **19. oktobris, pirmdiena** : viens rēķins tiek izveidots no ieviešanas darba, kurā ir iekļauti visi laika darījumi, kas izveidoti pirms darījuma pabeigšanas datuma 18. oktobrī, svētdienā, kas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
-- **2. novembris, pirmdiena** : viens rēķins tiek ģenerēts:
+- **6. oktobris vai jebkura diena pirms 19. oktobra**: šim līgumam netiek ģenerēts rēķins, jo tabula **Rēķina grafiks** katrai no šīm līguma rindām neizsauc 6. oktobri vai jebkuru datumu pirms 19. oktobra kā rēķina izpildes datumu.
+- **19. oktobris, pirmdiena**: viens rēķins tiek izveidots no ieviešanas darba, kurā ir iekļauti visi laika darījumi, kas izveidoti pirms darījuma pabeigšanas datuma 18. oktobrī, svētdienā, kas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
+- **2. novembris, pirmdiena**: viens rēķins tiek ģenerēts:
 
     - Ieviešanas darbs, kurā ir iekļauti visi laika darījumi, kas izveidoti pirms darījuma pabeigšanas datuma 1. novembrī, svētdienā, kas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
     - Radušies izdevumi, kuros ir iekļauti visi izdevumu darījumi, kas izveidoti pirms darījuma pabeigšanas datuma 1. novembrī, svētdienā, kas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
 
-- **3. novembris, otrdiena** : viens rēķins tiek ģenerēts prototipa darbam, kas ietver 12000 USD atskaites punktu, ja tas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
+- **3. novembris, otrdiena**: viens rēķins tiek ģenerēts prototipa darbam, kas ietver 12000 USD atskaites punktu, ja tas ir atzīmēts kā **Gatavs rēķina izrakstīšanai**.
 
 ## <a name="configure-automatic-invoicing"></a>Automātiskās rēķinu izrakstīšanas konfigurēšana
 
@@ -85,7 +85,7 @@ Veiciet tālāk norādītās darbības, lai konfigurētu automātisko rēķina i
 
 **ProcessRunCaller** un **ProcessRunner** darbplūsmas veido rēķinus. **ProcessRunCaller** izsauc **ProcessRunner**. **ProcessRunner** ir darbplūsma, kas faktiski izveido rēķinus. Darbplūsma darbojas caur visām līguma rindām, kurām ir jāizveido rēķini, un izveido rēķinu šīm rindām. Lai noteiktu līguma rindas, kurām jāizveido rēķini, darbs tiek apskatīts līguma rindu rēķina izpildes datumos. Ja līguma rindām, kas attiecas uz vienu līgumu, ir vienāds rēķina izpildes datums, darījumi tiek apvienoti vienā rēķinā, kurā ir divas rēķina rindas. Ja nav nevienas transakcijas rēķinu izveidei, darbs izlaiž rēķina izveidošanu.
 
-Kad **ProcessRunner** ir beidzis darboties, tas izsauc **ProcessRunCaller** , nodrošina beigu laiku un ir slēgts. **ProcessRunCaller** pēc tam sāk skaitīt laiku, kas darbojas 24 stundas no norādītā beigu laika. Taimera laika skaitīšanas beigās **ProcessRunCaller** tiek slēgts.
+Kad **ProcessRunner** ir beidzis darboties, tas izsauc **ProcessRunCaller**, nodrošina beigu laiku un ir slēgts. **ProcessRunCaller** pēc tam sāk skaitīt laiku, kas darbojas 24 stundas no norādītā beigu laika. Taimera laika skaitīšanas beigās **ProcessRunCaller** tiek slēgts.
 
 Lielapjoma izpildes darbs rēķinu izveidošanai ir kārtējais darbs. Ja šis pakešapstrādes process ir palaists vairākas reizes, tiek izveidoti vairāki darba gadījumi un var tikt izraisītas kļūdas. Tāpēc pakešapstrāde jāsāk tikai vienu reizi, un pēc tam tā ir jārestartē tikai tad, ja tā pārstāj darboties.
 

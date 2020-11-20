@@ -3,7 +3,7 @@ title: Laika ierakstu izveide
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot laika ierakstus.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080535"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131290"
 ---
 # <a name="create-time-entries"></a>Laika ierakstu izveide
 
@@ -36,12 +36,12 @@ Dynamics 365 Project Service Automation iepriekšējās versijās laika ieraksti
 Lai izveidotu laika ierakstu, veiciet šādas darbības.
 
 1. Lapā **Laika ieraksti** atlasiet **Jauns**.
-2. Dialoglodziņā **Ātrā izveide: laika ieraksts** , ievadiet laika ieraksta ilgumu minūtēs, stundās vai dienās. Ilgums ir jāievada šādā formātā: *x* minūtes, *x* stundas vai *x* dienas. Stundas un dienas var ievadīt arī kā decimālās vērtības, piemēram, *x,x* stundas vai *x,x* dienas.
+2. Dialoglodziņā **Ātrā izveide: laika ieraksts**, ievadiet laika ieraksta ilgumu minūtēs, stundās vai dienās. Ilgums ir jāievada šādā formātā: *x* minūtes, *x* stundas vai *x* dienas. Stundas un dienas var ievadīt arī kā decimālās vērtības, piemēram, *x,x* stundas vai *x,x* dienas.
 3. Atlasiet laika ieraksta tipu un projektu, kuram ievadāt laika ierakstu.
 4. Laukā **Projekta uzdevums** atrodiet šī laika ieraksta uzdevumu.
 
     > [!NOTE]
-    > Ja izveidojat laika ierakstu uzdevumam, kas nav piešķirts lietotājam, laukā **Projekta uzdevums** atlasiet pogu **Meklēšana** , atlasiet **Mainīt skatu** un pēc tam atlasiet **Visus aktīvus projekta uzdevumus** , lai uzskaitītu visus uzdevumus.
+    > Ja izveidojat laika ierakstu uzdevumam, kas nav piešķirts lietotājam, laukā **Projekta uzdevums** atlasiet pogu **Meklēšana**, atlasiet **Mainīt skatu** un pēc tam atlasiet **Visus aktīvus projekta uzdevumus**, lai uzskaitītu visus uzdevumus.
 
 5. Ievadiet aprakstu, ja ir nepieciešams apraksts, un pēc tam atlasiet vienumu **Saglabāt un aizvērt**.
 
@@ -57,9 +57,9 @@ Pēc laika ieraksta izveidošanas un saglabāšanas to var rediģēt laika ierak
 Pēc dažu laika ierakstu izveides varat tos kopēt, lai izveidotu papildu lielapjoma laika ierakstus.
 
 1. Lapā **Laika ieraksti** atlasiet **Kopēt nedēļu**.
-2. Lauka grupā **No perioda** , laukos **Sākuma datums** un **Beigu datums** , definējiet datumu diapazonu, no kura kopēt laika ierakstus.
-3. Lauka grupā **Līdz periodam** , laukā **Sākuma datums** norādiet datumu, kuram izveidot laika ierakstus.
-4. Atlasiet **Kopēt** , lai izveidotu to laika ierakstu kopiju, kas atbilst tās nedēļas dienai, kura norādīta lauka grupā **Līdz periodam**. Piemēram, pagājušās nedēļas pirmdienas laika ieraksts tiek kopēts uz tās nedēļas pirmdienu, kas norādīta lauka grupā **Līdz periodam**.
+2. Lauka grupā **No perioda**, laukos **Sākuma datums** un **Beigu datums**, definējiet datumu diapazonu, no kura kopēt laika ierakstus.
+3. Lauka grupā **Līdz periodam**, laukā **Sākuma datums** norādiet datumu, kuram izveidot laika ierakstus.
+4. Atlasiet **Kopēt**, lai izveidotu to laika ierakstu kopiju, kas atbilst tās nedēļas dienai, kura norādīta lauka grupā **Līdz periodam**. Piemēram, pagājušās nedēļas pirmdienas laika ieraksts tiek kopēts uz tās nedēļas pirmdienu, kas norādīta lauka grupā **Līdz periodam**.
 
 ## <a name="import-data-for-time-entries"></a>Datu importēšana laika ierakstiem
 

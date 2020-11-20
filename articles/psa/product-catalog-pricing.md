@@ -3,7 +3,7 @@ title: Produktu kataloga cenu noteikšana
 description: Šajā tēmā ir sniegta informācija par to, kā programmatūrā Dynamics 365 Project Service Automation (PSA) darbojas produktu kataloga cenu noteikšana.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080475"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132297"
 ---
 # <a name="product-catalog-pricing"></a>Produktu kataloga cenu noteikšana 
 
@@ -46,11 +46,11 @@ PSA atbalsta dažādas noapaļošanas opcijas, kad cenas tiek konfigurētas kā 
 
 > ![Produktu no produktu kataloga pievienošana dažādiem cenrāžiem](media/basic-guide-16.png)
 
-Kad kādam piedāvājumam izveidojat jaunu pielāgotu cenrādi, lapā **Projekta piedāvājums** atlasot **Izveidot pielāgotu izcenojumu** , PSA izveido cenrāža kopiju un lauks **Entītija** jaunā cenrāža virsrakstā tiek iestatīts uz **Pārdošanas entītija**. Jaunā cenrāža nosaukumam tiek pievienots piedāvājuma nosaukums un laikspiedols. Jaunā cenrāža nosaukumu un piedāvājuma nosaukumu varat arī izmantot pielāgotās darbplūsmās, lai aktivizētu papildu pārskatīšanu un apstiprināšanu piedāvājumiem, kuros tiek izmantots pielāgots izcenojums.
+Kad kādam piedāvājumam izveidojat jaunu pielāgotu cenrādi, lapā **Projekta piedāvājums** atlasot **Izveidot pielāgotu izcenojumu**, PSA izveido cenrāža kopiju un lauks **Entītija** jaunā cenrāža virsrakstā tiek iestatīts uz **Pārdošanas entītija**. Jaunā cenrāža nosaukumam tiek pievienots piedāvājuma nosaukums un laikspiedols. Jaunā cenrāža nosaukumu un piedāvājuma nosaukumu varat arī izmantot pielāgotās darbplūsmās, lai aktivizētu papildu pārskatīšanu un apstiprināšanu piedāvājumiem, kuros tiek izmantots pielāgots izcenojums.
 
  
 ## <a name="default-product-price-list"></a>Noklusējuma produktu cenrādis
-Katram klienta ierakstam ir lauks **Noklusējuma cenrādis** , kur varat norādīt cenrādi, kurš atbilst šī klienta valūtai. Programmatūrā PSA šajā laukā noklusējuma vērtība netiek ievadīta automātiski. Ja ar noteiktu klientu pastāv pielāgota vienošanās par cenu noteikšanu, šo lauku varat izmantot, lai saistītu kādu cenrādi ar šo klientu.
+Katram klienta ierakstam ir lauks **Noklusējuma cenrādis**, kur varat norādīt cenrādi, kurš atbilst šī klienta valūtai. Programmatūrā PSA šajā laukā noklusējuma vērtība netiek ievadīta automātiski. Ja ar noteiktu klientu pastāv pielāgota vienošanās par cenu noteikšanu, šo lauku varat izmantot, lai saistītu kādu cenrādi ar šo klientu.
 
 Lai ievadītu noklusējuma produktu cenrāžus, iespējas, piedāvājuma un projekta līguma entītijas izmanto tālāk norādīto secību. Tāda pati secība tiek izmantota projektu cenrāžiem.
 

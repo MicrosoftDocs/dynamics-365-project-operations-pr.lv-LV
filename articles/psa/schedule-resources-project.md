@@ -3,7 +3,7 @@ title: Resursu plānošana projektam
 description: Resursu plānošana projektam programmā Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080650"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132154"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Resursu plānošana projektam (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4080650"
 
 Jūs varat pārbaudīt resursu pieejamību, lai iegūtu vispārēju priekšstatu par resursu rezervēšanas līmeni, vai arī varat veikt skata filtrēšanu pēc prasmēm, darba grupas, atrašanās vietas un citām opcijām.  
   
-Plānošanas panelis parāda sarakstu ar resursiem un to pieejamību. Izvēlieties skata režīmu, lai parādītu pieejamību pēc vērtības **Stundas** , **Diena** , **Nedēļa** vai **Mēnesis**.  
+Plānošanas panelis parāda sarakstu ar resursiem un to pieejamību. Izvēlieties skata režīmu, lai parādītu pieejamību pēc vērtības **Stundas**, **Diena**, **Nedēļa** vai **Mēnesis**.  
   
 Lai izmantotu plānošanas paneli, ir svarīgi to iestatīt. Lai iegūtu papildinformāciju, skatiet [Plānošanas paneļa konfigurēšana (Field Service vai Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -51,8 +51,8 @@ Ja lietojat vecāku versiju, resursu pieejamību skatiet sadaļā [Resursu pieej
 
 1.  Sarakstā **Rezervācijas prasības** ar peles labo pogu noklikšķiniet uz neplānotas rezervācijas un izvēlēties kādu no tālāk norādītajām darbībām.  
   
-- Izvēlieties **Atrast pieejamību — pašreizējie resursi** , lai atrastu pieejamos resursus no plānošanas paneļa resursu saraksta.  
-- Izvēlieties **Atrast pieejamību — visi resursi** , lai atrastu sistēmā pieejamos resursus.  
+- Izvēlieties **Atrast pieejamību — pašreizējie resursi**, lai atrastu pieejamos resursus no plānošanas paneļa resursu saraksta.  
+- Izvēlieties **Atrast pieejamību — visi resursi**, lai atrastu sistēmā pieejamos resursus.  
    > [!NOTE]
    >  Kad jūs to izdarāt, filtri parādīs izvēlēto rezervācijas prasību opcijas.  
   

@@ -3,7 +3,7 @@ title: Projekta veidnes izveide
 description: Projekta veidnes izveide programmā Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 700d1bb1fd7299b49b6c6f8e4d84d14bc1d52c1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 78d25183aad8d86593d3f2582295db59eb84cf14
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080457"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133197"
 ---
 # <a name="create-a-project-template-project-service"></a>Projekta veidnes izveide (Project Service)
 
@@ -34,29 +34,29 @@ Projekta veidnes ietaupa jūsu laiku, ja jūsu uzņēmums regulāri iesniedz pie
 ## <a name="components-of-project-template"></a>Projekta veidnes komponenti
  Projekta veidne sastāv no trim komponentiem.  
   
-- **Darba sadalījuma struktūra** : darba sadalījuma struktūrai projekta veidnē ir tāds pats elementu kopums kā projektā. Varat izveidot uzdevumu hierarhiju, piesaistīt lomas uzdevumam, noteikt plānošanas atribūtus, iestatīt atkarības un skatīt visus datus Ganta shēmā. Darba sadalījuma struktūra projekta veidnēs atbalsta arī uzdevumu režīmus katram uzdevumam. Nav nekādas atšķirības starp projekta veidni un projektu, veidojot darba grafiku.  
+- **Darba sadalījuma struktūra**: darba sadalījuma struktūrai projekta veidnē ir tāds pats elementu kopums kā projektā. Varat izveidot uzdevumu hierarhiju, piesaistīt lomas uzdevumam, noteikt plānošanas atribūtus, iestatīt atkarības un skatīt visus datus Ganta shēmā. Darba sadalījuma struktūra projekta veidnēs atbalsta arī uzdevumu režīmus katram uzdevumam. Nav nekādas atšķirības starp projekta veidni un projektu, veidojot darba grafiku.  
   
-- **Projekta tāmes** : projekta tāmes veidnēs darbojas tāpat kā projektos, izņemot to, ka cenrāži noklusējuma izmaksu cenām un pārdošanas cenām vienmēr ir noklusējuma izmaksu cenu un pārdošanas cenu rāži, kas definēti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parametros. Pārējās funkcionalitātes ir tādas pašas kā projektā.  
+- **Projekta tāmes**: projekta tāmes veidnēs darbojas tāpat kā projektos, izņemot to, ka cenrāži noklusējuma izmaksu cenām un pārdošanas cenām vienmēr ir noklusējuma izmaksu cenu un pārdošanas cenu rāži, kas definēti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parametros. Pārējās funkcionalitātes ir tādas pašas kā projektā.  
   
-- **Projekta darba grupas izveide** : kad veidojat projekta komandu projekta veidnei, nevarat rezervēt nosauktu resursu veidnē. Varat izmantot funkciju **Projekta darba grupas ģenerēšana** darba sadalījuma struktūrā, lai ģenerētu vispārējo resursu kopu. Varat norādīt arī vispārīgo resursu vajadzīgās prasmes un pieredzi. Projekta veidnēs nevarat aizstāt vispārīgu resursu ar rezervējamu resursu.  
+- **Projekta darba grupas izveide**: kad veidojat projekta komandu projekta veidnei, nevarat rezervēt nosauktu resursu veidnē. Varat izmantot funkciju **Projekta darba grupas ģenerēšana** darba sadalījuma struktūrā, lai ģenerētu vispārējo resursu kopu. Varat norādīt arī vispārīgo resursu vajadzīgās prasmes un pieredzi. Projekta veidnēs nevarat aizstāt vispārīgu resursu ar rezervējamu resursu.  
   
 ## <a name="create-a-project-from-a-template"></a>Projekta izveidošana no veidnes  
  Projektu no veidnes var izveidot šādos veidos.  
   
 -   Veidojot projektu no piedāvājuma, varat izvēlēties projekta veidni projekta ātrās izveides veidlapā.  
   
--   Veidojot projektu, noklikšķinot uz **Jauns projekts** , tiek parādīta projekta veidlapa, pirms saglabājat ierakstu. Šeit varat noklikšķināt uz lauka **Izvēlēties veidni** , lai izvēlētos no saraksta ar iepriekš definētām projekta veidnēm jūsu organizācijā.  
+-   Veidojot projektu, noklikšķinot uz **Jauns projekts**, tiek parādīta projekta veidlapa, pirms saglabājat ierakstu. Šeit varat noklikšķināt uz lauka **Izvēlēties veidni**, lai izvēlētos no saraksta ar iepriekš definētām projekta veidnēm jūsu organizācijā.  
   
--   Noklikšķiniet uz **Izveidot projektu no veidnes** lapā **Projekta veidne** , lai izveidotu projektu no veidnes.  
+-   Noklikšķiniet uz **Izveidot projektu no veidnes** lapā **Projekta veidne**, lai izveidotu projektu no veidnes.  
   
 ## <a name="copying-components-of-a-template-to-a-project"></a>Veidnes komponentu kopēšana projektā  
  Kopējot veidnes komponentus projektu, jāņem vērā dažas lietas.  
   
- **Darba sadalījuma struktūras kopēšana** : kopējot darba sadalījuma struktūru no projekta veidnes, ja projektam ir cits projektu kalendārs nekā veidnei, uzdevumu grafikam tiks izmantotas darba stundas no projekta kalendāra. Tā grafiks tiek pielāgots atbalstošajam projekta kalendāram. Līdzīgi arī pirmajam uzdevumam darba sadalījuma struktūrā tiek paņemts projekta sākuma datums, bet pārējais uzdevumu hierarhiju grafiks tiek atjaunināts, pamatojoties uz ilgumu un atkarībām, kas norādītas veidnes darba sadalījuma struktūrā.  
+ **Darba sadalījuma struktūras kopēšana**: kopējot darba sadalījuma struktūru no projekta veidnes, ja projektam ir cits projektu kalendārs nekā veidnei, uzdevumu grafikam tiks izmantotas darba stundas no projekta kalendāra. Tā grafiks tiek pielāgots atbalstošajam projekta kalendāram. Līdzīgi arī pirmajam uzdevumam darba sadalījuma struktūrā tiek paņemts projekta sākuma datums, bet pārējais uzdevumu hierarhiju grafiks tiek atjaunināts, pamatojoties uz ilgumu un atkarībām, kas norādītas veidnes darba sadalījuma struktūrā.  
   
- **Projekta tāmju kopēšana** : kopējot pa projekta tāmes rindiņām, cenrāži tiek atjaunoti, balstoties uz projekta atbildīgo vienību izmaksu cenrādim un uz klientu pārdošanas cenrādim. Vienības izmaksu un pārdošanas cenas nosaka no šiem cenrāžiem projektiem, kas saistīti ar pārdošanas vienību.  
+ **Projekta tāmju kopēšana**: kopējot pa projekta tāmes rindiņām, cenrāži tiek atjaunoti, balstoties uz projekta atbildīgo vienību izmaksu cenrādim un uz klientu pārdošanas cenrādim. Vienības izmaksu un pārdošanas cenas nosaka no šiem cenrāžiem projektiem, kas saistīti ar pārdošanas vienību.  
   
- **Projekta darba grupas kopēšana** : kopējot projekta darba grupu no veidnes projektā, vispārīgie resursu tiek kopētas līdzi kopā ar veidnē noteiktajām prasmēm un pieredzi. Vispārīgo resursu piešķires arī tiek saglabātas kā projekta veidnē.  
+ **Projekta darba grupas kopēšana**: kopējot projekta darba grupu no veidnes projektā, vispārīgie resursu tiek kopētas līdzi kopā ar veidnē noteiktajām prasmēm un pieredzi. Vispārīgo resursu piešķires arī tiek saglabātas kā projekta veidnē.  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)

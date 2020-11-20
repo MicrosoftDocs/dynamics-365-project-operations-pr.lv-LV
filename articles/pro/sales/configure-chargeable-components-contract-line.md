@@ -1,21 +1,21 @@
 ---
-title: Projekta līguma rindas apmaksājamo komponentu konfigurēšana
+title: Uz projektiem balstītu līguma rindu maksas komponentu konfigurēšana — Lite
 description: Šajā tēmā ir sniegta informācija par to, kā projektu operācijās līguma rindām pievienot apmaksājamus komponentus.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080351"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177160"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Projekta līguma rindas apmaksājamo komponentu konfigurēšana
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Uz projektiem balstītu līguma rindu maksas komponentu konfigurēšana — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -34,31 +34,31 @@ Iekļauto komponentu apakškopu var atzīmēt kā apmaksājamu, izmantojot lauku
 
 Apmaksājamus komponentus var definēt uzdevumos, lomās un darījumu kategorijās.
 
-Iekļaujamība rēķinā tiek definēta par projekta līguma rindas uzdevumiem un tā attiecas uz visām rindā iekļautajām darījumu klasēm. Ja lauks **Iekļaut uzdevumus** līguma rindā ir tukšs vai iestatīts uz **Viss projekts** , cilne **Apmaksājamiem uzdevumi** nebūs pieejama.
+Iekļaujamība rēķinā tiek definēta par projekta līguma rindas uzdevumiem un tā attiecas uz visām rindā iekļautajām darījumu klasēm. Ja lauks **Iekļaut uzdevumus** līguma rindā ir tukšs vai iestatīts uz **Viss projekts**, cilne **Apmaksājamiem uzdevumi** nebūs pieejama.
 
-Apmaksas apjoms, kas definēts pēc lomām projekta līguma rinai, attiecas tikai uz darījumu klasi **Laiks**. Ja lauks **Iekļaut laiku** līguma rindā ir tukšs vai iestatīts uz **Nē** , cilne **Apmaksājamās lomas** nebūs pieejama.
+Apmaksas apjoms, kas definēts pēc lomām projekta līguma rinai, attiecas tikai uz darījumu klasi **Laiks**. Ja lauks **Iekļaut laiku** līguma rindā ir tukšs vai iestatīts uz **Nē**, cilne **Apmaksājamās lomas** nebūs pieejama.
 
-Apmaksas apjoms, kas definēts pēc darījumu kategorijām projekta līguma rindai, attiecas tikai uz darījumu klasi **Izdevumi**. Ja lauks **Iekļaut izdevumus** līguma rindā ir iestatīts uz **Nē** , cilne **Apmaksājamās kategorijas** nebūs pieejama.
+Apmaksas apjoms, kas definēts pēc darījumu kategorijām projekta līguma rindai, attiecas tikai uz darījumu klasi **Izdevumi**. Ja lauks **Iekļaut izdevumus** līguma rindā ir iestatīts uz **Nē**, cilne **Apmaksājamās kategorijas** nebūs pieejama.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Projekta uzdevuma atjaunināšana par apmaksājamu vai neapmaksājamu
 
 Projekta uzdevums var būt apmaksājams vai neapmaksājam noteiktā līguma rindā, kas nodrošina šādas iestatīšanas iespējas.
 
-Ja projekta līguma rindā ir iekļauts lauks **Laiks** un noteikts uzdevums, **T1** ir saistīts ar to kā apmaksājams. Ja ir otra līguma rinda, kurā ir iekļautas lauks **Izmaksas** , varat saistīt T1 uzdevumu līguma rindā kā neapmaksājamu. Rezultāts ir tāds, ka viss šajā uzdevumā reģistrētais laiks ir apmaksājams, un visi izdevumi ir neapmaksājami.
+Ja projekta līguma rindā ir iekļauts lauks **Laiks** un noteikts uzdevums, **T1** ir saistīts ar to kā apmaksājams. Ja ir otra līguma rinda, kurā ir iekļautas lauks **Izmaksas**, varat saistīt T1 uzdevumu līguma rindā kā neapmaksājamu. Rezultāts ir tāds, ka viss šajā uzdevumā reģistrētais laiks ir apmaksājams, un visi izdevumi ir neapmaksājami.
 
-Uzdevuma norēķinu veidu var konfigurēt līguma rindas cilnē **Apmaksājamie uzdevumi** , atjauninot lauku **Norēķinu veids** līguma rindas uzdevumu apakšrežģī. Vai arī varat atjaunināt lauku **Norēķinu veids** tā projekta uzdevumu norēķinu iestatījumu apakšrežģī, kurā redzamas līguma rindas, kas saistītas ar uzdevumu.
+Uzdevuma norēķinu tipu var konfigurēt līguma rindas cilnē **Rēķinā iekļaujamie uzdevumi**, atjauninot lauku **Norēķinu tips** līguma rindu uzdevumu apakšrežģī. Vai arī varat atjaunināt lauku **Norēķinu tips** projekta norēķinu iestatījumu apakšrežģī, kas rāda ar uzdevumu saistītās līguma rindas.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Lomas atjaunināšana par apmaksājamu vai neapmaksājamu
 
 Loma var būt apmaksājama vai neapmaksājama noteiktā līguma rindā.
 
-Lomu norēķina veidu var konfigurēt līguma rindas cilnē **Apmaksājamās lomas**. Lai to paveiktu, atjauniniet lauku **Rēķina veids** apakšrežģī **Apmaksājamās lomas**.
+Lomu norēķina veidu var konfigurēt līguma rindas cilnē **Apmaksājamās lomas**. Lai to paveiktu, ir jāatjaunina lauks **Norēķinu tips**, kas atrodas apakšrežģī **Rēķinā iekļaujamās lomas**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Darījumu kategorijas atjaunināšana par apmaksājamu vai neapmaksājamu
 
 Darījumu kategorija var būt apmaksājama vai neapmaksājama noteiktā līguma rindā.
 
-Darījuma norēķina veidu var konfigurēt projekta līguma rindas cilnē **Apmaksājamās kategorijas**. Lai to paveiktu, atjauniniet lauku **Rēķina veids** apakšrežģī **Apmaksājamās kategorijas**.
+Darījuma norēķina veidu var konfigurēt projekta līguma rindas cilnē **Apmaksājamās kategorijas**. Lai to paveiktu, ir jāatjaunina lauks **Norēķinu tips**, kas atrodas apakšrežģī **Rēķinā iekļaujamās kategorijas**.
 
 ### <a name="resolve-chargeability"></a>Apmaksājamības atrisināšana
 

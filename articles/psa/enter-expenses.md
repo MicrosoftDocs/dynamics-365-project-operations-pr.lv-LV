@@ -3,7 +3,7 @@ title: Izmaksu ievade
 description: Izmaksu ievade programmā Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080648"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132927"
 ---
 # <a name="enter-expenses-project-service"></a>Izmaksu ievade (Project Service)
 
@@ -35,7 +35,7 @@ Ievadiet savus izdevumus vismaz reizi nedēļā — vai tik bieži, cik to piep
   
 1. Dodieties uz **Project Service > Izdevumi**. Tiks parādīts jūsu kalendārs.  
   
-2. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien** , lai atgrieztos pašreizējā nedēļā.  
+2. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien**, lai atgrieztos pašreizējā nedēļā.  
   
 3. Lai ievadītu izdevumus, noklikšķiniet uz **Jauns** vai veiciet dubultklikšķi kalendārā zem dienas, kurā vēlaties ievadīt laiku.  
   
@@ -49,7 +49,7 @@ Ievadiet savus izdevumus vismaz reizi nedēļā — vai tik bieži, cik to piep
   
    Ja izmantojat mobilo programmu, veiciet tālāk minētās darbības.  
   
-8. Izvēlnē doties uz **Izdevumi**.     Varat pārslēgties uz skatu **Diena** , **Nedēļa** vai **Mēnesis** , vai arī pāriet uz iepriekšējo vai nākamo periodu.  
+8. Izvēlnē doties uz **Izdevumi**.     Varat pārslēgties uz skatu **Diena**, **Nedēļa** vai **Mēnesis**, vai arī pāriet uz iepriekšējo vai nākamo periodu.  
   
 9. Pieskarieties vienumam **…** pēc tam pieskarieties vienumam **Jauns**.  
   

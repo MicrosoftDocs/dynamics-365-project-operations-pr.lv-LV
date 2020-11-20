@@ -1,12 +1,12 @@
 ---
-title: Projekta cenrāži
+title: Projekta cenu sarakstu piedāvājumā pārvaldīšana
 description: Šajā tēmā ir sniegta informācija par Projekta cenu saraksta entitīju.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080670"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177205"
 ---
-# <a name="project-price-lists"></a>Projekta cenrāži
+# <a name="manage-project-price-lists-on-a-quote"></a>Projekta cenu sarakstu piedāvājumā pārvaldīšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations paplašina Cenrāža entitīju programmā Dynami
 
 Cenrādis ietver informāciju, ko nodrošina četras dažādas entītijas.
 
-- **Cenrādis** : Šī entītija glabā informāciju par kontekstu, valūtu, spēkā stāšanās datumu un laika izcenojuma laika vienību. Konteksts parāda, vai cenrādis izsaka izmaksu likmes vai pārdošanas likmes. 
-- **Valūta** : Šī entītija glabā cenrādī esošo cenu valūtu. 
-- **Datums** : Šo entītiju izmanto, kad sistēma mēģina ievadīt noklusējuma cenu par transakciju. Tiek atlasīts cenrādis ar spēkā stāšanās datumu, kas ietver transakcijas datumu. Ja tiek atrasts vairāk nekā viens cenrādis, kas ir spēkā transakcijas datumam un kas ir pievienots saistītajam piedāvājumam, līgumam vai organizācijas struktūrvienībai, neviena cena netiek iestatīta uz noklusējumu. 
-- **Laiks** : Šī entītija glabā laika vienību, kurā tiek izteiktas cenas, piemēram, dienas vai stundu likmes. 
+- **Cenrādis**: Šī entītija glabā informāciju par kontekstu, valūtu, spēkā stāšanās datumu un laika izcenojuma laika vienību. Konteksts parāda, vai cenrādis izsaka izmaksu likmes vai pārdošanas likmes. 
+- **Valūta**: Šī entītija glabā cenrādī esošo cenu valūtu. 
+- **Datums**: Šo entītiju izmanto, kad sistēma mēģina ievadīt noklusējuma cenu par transakciju. Tiek atlasīts cenrādis ar spēkā stāšanās datumu, kas ietver transakcijas datumu. Ja tiek atrasts vairāk nekā viens cenrādis, kas ir spēkā transakcijas datumam un kas ir pievienots saistītajam piedāvājumam, līgumam vai organizācijas struktūrvienībai, neviena cena netiek iestatīta uz noklusējumu. 
+- **Laiks**: Šī entītija glabā laika vienību, kurā tiek izteiktas cenas, piemēram, dienas vai stundu likmes. 
 
 Entītijai Cenrādis ir trīs saistītas tabulas, kurās tiek glabātas cenas.
 
-  - **Lomas cena** : Šajā tabulā tiek glabāta lomas un organizācijas struktūrvienības vērtību kombinācijas likme, un tā tiek izmantota, lai iestatītu no lomām atkarīgas cenas cilvēkresursiem.
-  - **Transakciju kategorijas cena** : Šajā tabulā tiek glabātas cenas pēc transakciju kategorijas, un tās tiek izmantotas izmaksu kategoriju cenu iestatīšanai.
-  - **Cenrāža elementi** : Šajā tabulā tiek glabātas kataloga preču cenas.
+  - **Lomas cena**: Šajā tabulā tiek glabāta lomas un organizācijas struktūrvienības vērtību kombinācijas likme, un tā tiek izmantota, lai iestatītu no lomām atkarīgas cenas cilvēkresursiem.
+  - **Transakciju kategorijas cena**: Šajā tabulā tiek glabātas cenas pēc transakciju kategorijas, un tās tiek izmantotas izmaksu kategoriju cenu iestatīšanai.
+  - **Cenrāža elementi**: Šajā tabulā tiek glabātas kataloga preču cenas.
  
 Cenrādis ir likmju kartīte. Likmju kartīte ir kombinācija, ko veido entītija Cenrādis un saistītās rindas tabulās Lomas cena, Transakciju kategorijas cena un Cenrāža elementi.
 
@@ -53,15 +53,15 @@ Termins *resursa loma* attiecas uz prasmju, kompetenču un sertifikāciju kopu, 
 
 Cilvēkresursu laiks tiek norādīts, pamatojoties uz lomu, ko resurss aizpilda noteiktā projektā. Attiecībā uz cilvēkresursu laiku izmaksu novērtēšana un rēķinu izrakstīšana tiek balstīta resursa lomā. Par laiku cena var tikt noteikta jebkurā vienību grupas **Laiks** vienībā.
 
-Vienību grupa **Laiks** tiek izveidota, kad instalējat Project Operations. Tās noklusējuma vienība ir **Stunda**. Vienību grupas **Laiks** un vienības **Stunda** atribūtus nevar dzēst, pārdēvēt vai rediģēt. Taču vienību grupai **Laiks** var pievienot citas vienības. Mēģinot izdzēst vienību grupu **Laiks** vai vienību **Stunda** , biznesa loģikā var rasties kļūmes.
+Vienību grupa **Laiks** tiek izveidota, kad instalējat Project Operations. Tās noklusējuma vienība ir **Stunda**. Vienību grupas **Laiks** un vienības **Stunda** atribūtus nevar dzēst, pārdēvēt vai rediģēt. Taču vienību grupai **Laiks** var pievienot citas vienības. Mēģinot izdzēst vienību grupu **Laiks** vai vienību **Stunda**, biznesa loģikā var rasties kļūmes.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transakciju kategorijas un izdevumu kategorijas
 
 Par komandējumu un citiem izdevumiem, kas rodas projekta konsultantiem, rēķins tiek izrakstīts klientam. Izdevumu kategoriju izcenojums tiek izpildīts, izmantojot cenrāžus. Izmaksu kategoriju piemēri ietver lidmašīnu biļetes, viesnīcu un automašīnas nomu. Katrā izdevumu cenrāža rindā ir noradītas konkrētas izdevumu kategorijas cenas. Cenu izdevumu kategorijām tiek izmantotas šādas trīs metodes:
 
-- **Pašizmaksa** : Klienta rēķinā tiek iekļautas izdevumu izmaksas, un netiek piemērots uzcenojums.
-- **Uzcenojuma procenti** : Klienta rēķinā tiek iekļauti procenti no faktiskajām izmaksām. 
-- **Vienības cena** : Katrai izdevumu kategorijas vienībai tiek iestatīta norēķinu cena. Summa, par kādu tiek izrakstīts rēķins klientam, tiek aprēķināta, pamatojoties uz konsultanta norādīto izdevumu vienību skaitu. Nobraukumam tiek izmantota izcenojuma metode ar vienības cenu. Piemēram, nobraukuma izdevumu kategoriju var konfigurēt uz 30 ASV dolāriem (USD) dienā vai 2 USD par jūdzi. Kad konsultants ziņo par nobraukumu projektā, rēķina summu aprēķina, pamatojoties uz konsultanta norādīto jūdžu skaitu.
+- **Pašizmaksa**: Klienta rēķinā tiek iekļautas izdevumu izmaksas, un netiek piemērots uzcenojums.
+- **Uzcenojuma procenti**: Klienta rēķinā tiek iekļauti procenti no faktiskajām izmaksām. 
+- **Vienības cena**: Katrai izdevumu kategorijas vienībai tiek iestatīta norēķinu cena. Summa, par kādu tiek izrakstīts rēķins klientam, tiek aprēķināta, pamatojoties uz konsultanta norādīto izdevumu vienību skaitu. Nobraukumam tiek izmantota izcenojuma metode ar vienības cenu. Piemēram, nobraukuma izdevumu kategoriju var konfigurēt uz 30 ASV dolāriem (USD) dienā vai 2 USD par jūdzi. Kad konsultants ziņo par nobraukumu projektā, rēķina summu aprēķina, pamatojoties uz konsultanta norādīto jūdžu skaitu.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekta pārdošanas izcenojums un pārlabošana
 

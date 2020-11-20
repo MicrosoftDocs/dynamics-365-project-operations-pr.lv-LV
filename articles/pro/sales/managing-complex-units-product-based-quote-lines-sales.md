@@ -1,21 +1,21 @@
 ---
-title: Sarežģītu vienību, piemēram, vienam lietotājam vienā mēnesī, pārvaldība produktu piedāvājuma rindām
+title: Sarežģītu vienību, piemēram, viena lietotāja, pārvaldība, uz vienu mēnesi produktu piedāvājuma rindām — Lite
 description: Šajā tēmā ir sniegta informācija par sarežģītu vienību pārvaldību produktu piedāvājumu rindām.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080376"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175585"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Sarežģītu vienību, piemēram, vienam lietotājam vienā mēnesī, pārvaldība produktu piedāvājuma rindām
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Sarežģītu vienību, piemēram, viena lietotāja, pārvaldība, uz vienu mēnesi produktu piedāvājuma rindām — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -29,8 +29,8 @@ Project Operations pārliecinās, ka kā daudzuma koeficienti ir atzīmēti tika
 
 Programmatūrā Dynamics 365 Sales varētu būt, piemēram, tālāk norādītie rekvizīti.
 
-- **Lietotāju skaits** : Lietotāju skaits
-- **Mēnešu skaits** : Abonēšanas mēnešu skaits
+- **Lietotāju skaits**: Lietotāju skaits
+- **Mēnešu skaits**: Abonēšanas mēnešu skaits
 - **Produkta SKU**
 
 Rekvizītus **Lietotāju skaits** un **Mēnešu skaits** varat atzīmēt kā daudzuma koeficientus, rediģējot produkta rindas rekvizītus.

@@ -1,21 +1,21 @@
 ---
-title: Projekta cenrāžu pārvaldība projekta piedāvājumos
+title: Pārvaldīt projekta cenu sarakstus projekta piedāvājumos — Lite
 description: Šajā tēmā ir sniegta informācija par darbu ar projekta cenrāžiem piedāvājumos. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080367"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175990"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Projekta cenrāžu pārvaldība projekta piedāvājumos (Pārdošana)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Pārvaldīt projekta cenu sarakstus projekta piedāvājumos — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -30,7 +30,7 @@ Ja projekta piedāvājumam nav projekta cenrāžu, tiek parādīts brīdinājuma
 Lai izveidotu vai atlasītu konkrētu cenrādi, ko izmantot projekta darbu un izdevumu aprēķinam, izpildiet tālāk norādītās darbības.
 
 1. Piedāvājumā atlasiet cilni **Projekta cena** un apakšrežģī atlasiet vienumu **+ Pievienot jaunu projekta cenrādi**.
-2. Ātrās izveides lapā atlasiet cenrādi. Nolaižamajā sarakstā ir parādīti visi cenrāži, kuru konteksts ir iestatīts kā **Pārdošana** , un valūta atbilst piedāvājuma valūtai.
+2. Ātrās izveides lapā atlasiet cenrādi. Nolaižamajā sarakstā ir parādīti visi cenrāži, kuru konteksts ir iestatīts kā **Pārdošana**, un valūta atbilst piedāvājuma valūtai.
 4. Ievadiet projekta cenrāža saistības aprakstu un atlasiet vienumu **Saglabāt un aizvērt**.
 
 Tiek izveidota projekta cenrāža sasaiste.
