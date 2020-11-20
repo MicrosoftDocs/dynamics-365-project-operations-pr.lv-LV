@@ -3,7 +3,7 @@ title: Projekta izmaksas un ieņēmumi
 description: Šajā tēmā ir sniegta informācija par projekta izmaksu un ieņēmumu prognozēšanu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080474"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127977"
 ---
 # <a name="project-costs-and-revenue"></a>Projekta izmaksas un ieņēmumi
 
@@ -47,10 +47,10 @@ Ja lomas, vienības un organizācijas struktūrvienības kombinācija neatgriež
 
 Ja lomas un organizācijas struktūrvienības kombinācija neatgriež izmaksu cenu, sistēma ignorē šo organizācijas struktūrvienību. Tā vietā tiek meklēta kombinācija no lomas un vienības, lai iestatītu noklusējuma cenu (pēc tam, kad ir izmantota jebkāda konvertēšana).
 
-Ja sistēma neatrod cenu šai lomai, izmaksu cena tāmes rindā tiek iestatīta uz noklusējuma vērtību  **0,00**. Visas izmaksu summas projekta izmaksu tāmju rindās tiek ierakstītas līgumslēdzējas struktūrvienības valūtā.
+Ja sistēma neatrod cenu šai lomai, izmaksu cena tāmes rindā tiek iestatīta uz noklusējuma vērtību **0,00**. Visas izmaksu summas projekta izmaksu tāmju rindās tiek ierakstītas līgumslēdzējas struktūrvienības valūtā.
 
 > [!NOTE]
-> Programmatūra Microsoft Dynamics 365 izmaksu summas pēc noklusējuma glabā jūsu pamatvalūtā. Taču izmaksu summas, kas tiek rādītas cilnē **Tāmes** , ir līgumslēdzējas struktūrvienības valūtā.  
+> Programmatūra Microsoft Dynamics 365 izmaksu summas pēc noklusējuma glabā jūsu pamatvalūtā. Taču izmaksu summas, kas tiek rādītas cilnē **Tāmes**, ir līgumslēdzējas struktūrvienības valūtā.  
 
 ### <a name="default-sales-price"></a>Noklusējuma pārdošanas cena 
 
@@ -62,7 +62,7 @@ Ja lomas, vienības un resursu vienības kombinācija neatgriež pārdošanas ce
 
 Ja lomas un resursu vienības kombinācija neatgriež pārdošanas cenu no pārdošanas cenrāža, sistēma ignorē šo resursu vienību. Tā vietā tiek meklēta kombinācija no lomas un vienības, lai iestatītu noklusējuma cenu (pēc tam, kad ir izmantota jebkāda konvertēšana).
 
-Ja sistēma neatrod cenu šai lomai, pārdošanas cena tāmes rindā tiek iestatīta uz noklusējuma vērtību  **0,00**.
+Ja sistēma neatrod cenu šai lomai, pārdošanas cena tāmes rindā tiek iestatīta uz noklusējuma vērtību **0,00**.
 
 Cilnē **Tāmes** ir režģa skats, kurā ir parādītas tāmju rindas. Šajā režģī ir kolonnas vienībai, kopējai izmaksu cenai un kopējai pārdošanas cenai, kā parādīts nākamajā ilustrācijā. 
 
@@ -80,7 +80,7 @@ Skatā ar laika fāzēm visu uzdevumam prognozēto piepūli varat sadalīt, piep
 
 ### <a name="work-hours-based-allocation"></a>Uz darba stundām pamatotais sadalījums
  
-Automātiskās plānošanas uzdevumu režīmā dienas noklusējuma stundu skaits uzdevuma resursiem tiek iestatīts uz pilnu darba stundu koeficientu. Šāda uzvedība ir spēkā, kad piepūle tiek piešķirta, sadalot to visā uzdevuma ilgumā skatā ar laika fāzēm. Piemēram, ja prognozējat, ka uzdevumu pabeigs viens resurss laika skalā **Diena** , tad piepūle, kas tiek piešķirta katrai dienai, nepārsniegs projekta kalendārā definēto dienas darba stundu skaitu. Tādēļ piepūles sadalījums vienmēr nodrošina, lai resursus būtu paredzēts izmantot pilnu dienu.
+Automātiskās plānošanas uzdevumu režīmā dienas noklusējuma stundu skaits uzdevuma resursiem tiek iestatīts uz pilnu darba stundu koeficientu. Šāda uzvedība ir spēkā, kad piepūle tiek piešķirta, sadalot to visā uzdevuma ilgumā skatā ar laika fāzēm. Piemēram, ja prognozējat, ka uzdevumu pabeigs viens resurss laika skalā **Diena**, tad piepūle, kas tiek piešķirta katrai dienai, nepārsniegs projekta kalendārā definēto dienas darba stundu skaitu. Tādēļ piepūles sadalījums vienmēr nodrošina, lai resursus būtu paredzēts izmantot pilnu dienu.
 
 ### <a name="even-allocation"></a>Vienāds sadalījums
 
@@ -88,7 +88,7 @@ Manuālās plānošanas uzdevuma režīmā netiek lietots darba stundu skaits no
 
 ## <a name="grouping-and-time-phasing-options"></a>Grupēšanas opcijas un opcijas sadalīšanai laika fāzēs
 
-Šis skats ar laika fāzēm rāda piepūles, izmaksu un pārdošanas tāmju sadalījumu, pamatojoties uz dienu, nedēļu, mēnesi vai gadu. Pēc noklusējuma tāmju dati tiek rādīti dimensijā **Loma**. Taču varat izmantot opciju **Grupēt pēc** , lai rādīšanai izmantotu divas citas dimensijas: **Kategorija** un **Resurss**.
+Šis skats ar laika fāzēm rāda piepūles, izmaksu un pārdošanas tāmju sadalījumu, pamatojoties uz dienu, nedēļu, mēnesi vai gadu. Pēc noklusējuma tāmju dati tiek rādīti dimensijā **Loma**. Taču varat izmantot opciju **Grupēt pēc**, lai rādīšanai izmantotu divas citas dimensijas: **Kategorija** un **Resurss**.
 
 Gan režģa skatā, gan skatā ar laika fāzēm varat atlasīt, kurus laukus rādīt. Katra laika bloka kopsummas tiek rādītas projekta apakšā. Tajos tiek rādīta kopējā paredzamā piepūle, izmaksas un pārdošana rādītāji par dienu, nedēļu, mēnesi vai gadu. Noklusējuma izmaksu cenai un pārdošanas cenai ir spēkā stāšanās datums. Citiem vārdiem sakot — katram resursam tās mainās, pamatojoties uz jūsu atlasīto skatu ar laika fāzēm.
 

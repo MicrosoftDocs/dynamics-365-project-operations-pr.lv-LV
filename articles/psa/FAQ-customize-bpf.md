@@ -2,7 +2,7 @@
 title: Kā pielāgot projekta posmu biznesa procesa plūsmu?
 description: Pārskats par to, kā pielāgot projekta posmu biznesa procesa plūsmu.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080630"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125052"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kā pielāgot projekta posmu biznesa procesa plūsmu?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Ir zināms ierobežojums iepriekšējās Project Service versijās — posmu nosaukumiem projekta posmu biznesa procesa plūsmā ir precīzi jāatbilst paredzētajiem nosaukumiem angļu valodā ( **Quote** , **Plan** , **Close** ). Pretējā gadījumā biznesa loģika, kuras pamatā ir posmu nosaukumi angļu valodā, nedarbojas, kā paredzēts. Tāpēc projekta formā jūs neredzat pazīstamas darbības kā **Pārslēgt procesu** vai **Rediģēt procesu** , kā arī nav ieteicams pielāgot biznesa procesa plūsmu. 
+Ir zināms ierobežojums iepriekšējās Project Service versijās — posmu nosaukumiem projekta posmu biznesa procesa plūsmā ir precīzi jāatbilst paredzētajiem nosaukumiem angļu valodā (**Quote**, **Plan**, **Close**). Pretējā gadījumā biznesa loģika, kuras pamatā ir posmu nosaukumi angļu valodā, nedarbojas, kā paredzēts. Tāpēc projekta formā jūs neredzat pazīstamas darbības kā **Pārslēgt procesu** vai **Rediģēt procesu**, kā arī nav ieteicams pielāgot biznesa procesa plūsmu. 
 
 Šis ierobežojums ir novērsts versijā 2.4.5.48 un jaunākās versijās. Šajā raksta tiek sniegti ieteicamie risinājumi, ja jums ir nepieciešams pielāgot noklusējuma biznesa procesa plūsmu agrākām versijām.  
 
@@ -48,7 +48,7 @@ Ja Project Service versijā 1.x platformā 8.2 posmu nosaukumi biznesa procesa 
 
 Project Service versijā 2.4.4.30 vai vecākā versijā platformā 9.0 bija nozīmīgas arhitektūras izmaiņas biznesa procesa plūsmās, kuru dēļ bija jāpārraksta biznesa procesa plūsmas biznesa loģika. Ja procesa posmu nosaukumi neatbilst paredzētajiem nosaukumiem angļu valodā, šī iemesla dēļ netiek parādīts kļūdas ziņojums. 
 
-Ja vēlaties pielāgot projekta posmus projekta entītijai biznesa procesa plūsmā, varat tikai pievienot jaunus posmus projekta entītijas noklusējuma biznesa procesa plūsmā, saglabājot posmus **Piedāvājums** , **Plāns** un **Aizvēršana** tādus, kādi tie ir. Šis ierobežojums nodrošina, ka netiek rādītas kļūdas no biznesa loģikas, kas biznesa procesa plūsmā sagaida posmu nosaukumus angļu valodā.
+Ja vēlaties pielāgot projekta posmus projekta entītijai biznesa procesa plūsmā, varat tikai pievienot jaunus posmus projekta entītijas noklusējuma biznesa procesa plūsmā, saglabājot posmus **Piedāvājums**, **Plāns** un **Aizvēršana** tādus, kādi tie ir. Šis ierobežojums nodrošina, ka netiek rādītas kļūdas no biznesa loģikas, kas biznesa procesa plūsmā sagaida posmu nosaukumus angļu valodā.
 
 Versijā 2.4.5.48 un jaunākās versijās biznesa loģika, kas ir aprakstīta šajā rakstā, ir noņemta no projekta entītijas noklusējuma biznesa procesa plūsmas. Jauninot uz šo versiju vai jaunāku versiju, varēsiet pielāgot vai aizstāt noklusējuma biznesa procesa plūsmu ar savu. 
 
@@ -56,18 +56,18 @@ Versijā 2.4.5.48 un jaunākās versijās biznesa loģika, kas ir aprakstīta �
 
 Ja nevarat veikt jaunināšanu, varat pielāgot projekta posmu biznesa procesa plūsmu projekta entītijai vienā no diviem tālāk minētajiem veidiem.
 
-1. Pievienojiet papildu posmus noklusējuma konfigurācijā, saglabājot **Piedāvājums** , **Plāns** un **Aizvēršana** posmu nosaukumus angļu valodā.
+1. Pievienojiet papildu posmus noklusējuma konfigurācijā, saglabājot **Piedāvājums**, **Plāns** un **Aizvēršana** posmu nosaukumus angļu valodā.
 
 
 ![Posmu pievienošanas noklusējuma konfigurācijai ekrānuzņēmums](media/FAQ-Customize-BPF-1.png)
  
-2. Izveidojiet savu biznesa procesa plūsmu un iestatiet to kā galveno biznesa procesa plūsmu projekta entītijai, kas ļauj izmantot jebkādus posma vārdus. Tomēr, ja vēlaties izmantot tādus pašus standarta projekta posmus **Piedāvājums** , **Plāns** un **Aizvēršana** , ir jāveic daži pielāgojumi, kuru pamatā ir pielāgotie posmu nosaukumi. Sarežģītāka loģika ir projekta aizvēršana, ko joprojām varat aktivizēt, deaktivizējot projekta ierakstu.
+2. Izveidojiet savu biznesa procesa plūsmu un iestatiet to kā galveno biznesa procesa plūsmu projekta entītijai, kas ļauj izmantot jebkādus posma vārdus. Tomēr, ja vēlaties izmantot tādus pašus standarta projekta posmus **Piedāvājums**, **Plāns** un **Aizvēršana**, ir jāveic daži pielāgojumi, kuru pamatā ir pielāgotie posmu nosaukumi. Sarežģītāka loģika ir projekta aizvēršana, ko joprojām varat aktivizēt, deaktivizējot projekta ierakstu.
 
 ![BPF pielāgošana](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Papildu apsvērumi Project Service versijai 2.4.4.30 vai vecākai versijai platformā 9.0
 
-Programmā Project Service 2.4.4.30 vai vecākā versijā platformā 9.0 ar pielāgotu biznesa procesa plūsmu projekta entītijas lauku **Posma nosaukums** izmantojot diagrammā **Projekts pēc posma** , projektu saraksta skati netiek atjaunināti, tas notiek tāpēc, ka tas ir saistīts ar noklusējuma projektu posmu biznesa procesa plūsmu. Šo problēmu varat novērst, veicot tālāk norādītās darbības.
+Programmā Project Service 2.4.4.30 vai vecākā versijā platformā 9.0 ar pielāgotu biznesa procesa plūsmu projekta entītijas lauku **Posma nosaukums** izmantojot diagrammā **Projekts pēc posma**, projektu saraksta skati netiek atjaunināti, tas notiek tāpēc, ka tas ir saistīts ar noklusējuma projektu posmu biznesa procesa plūsmu. Šo problēmu varat novērst, veicot tālāk norādītās darbības.
 
 - Pievienojiet pielāgotu lauku, lai tvertu pašreizējo biznesa procesa plūsmas posmu, kas tiek atjaunināts, kad lietotājs no viena pielāgotas biznesa procesa plūsmas posma pāriet uz citu.
 
@@ -81,11 +81,11 @@ Lai projekta entītijai izveidotu savu biznesa procesa plūsmu, rīkojieties š�
 
   ![Procesa izveide](media/FAQ-Customize-BPF-3.png)
 
-2. Izmantojiet procesu noformētāju, lai izveidotu vēlamos posmu nosaukumus. Ja vēlaties tādu pašu funkcionalitāti kā **Piedāvājums** , **Plāns** un **Aizvēršana** noklusējuma posmiem, jums būs tā jāizveido, pamatojoties uz pielāgotās biznesa procesa plūsmas posmu nosaukumiem.
+2. Izmantojiet procesu noformētāju, lai izveidotu vēlamos posmu nosaukumus. Ja vēlaties tādu pašu funkcionalitāti kā **Piedāvājums**, **Plāns** un **Aizvēršana** noklusējuma posmiem, jums būs tā jāizveido, pamatojoties uz pielāgotās biznesa procesa plūsmas posmu nosaukumiem.
 
    ![Ekrānuzņēmums ar procesu noformētāju, kas izmantots BPF pielāgošanai](media/FAQ-Customize-BPF-4.png) 
 
-3. Procesu noformētājā noklikšķiniet uz **Pasūtījumu procesa plūsma** , lai pielāgotu biznesa procesa plūsmu iestatītu kā galveno biznesa procesa plūsmu projekta entītijai, pārvietojot to virs projekta posmu biznesa procesa plūsmas saraksta sākumā.
+3. Procesu noformētājā noklikšķiniet uz **Pasūtījumu procesa plūsma**, lai pielāgotu biznesa procesa plūsmu iestatītu kā galveno biznesa procesa plūsmu projekta entītijai, pārvietojot to virs projekta posmu biznesa procesa plūsmas saraksta sākumā.
 
 
    [Pasūtījumu procesa plūsmas izveides ekrānuzņēmums](media/FAQ-Customize-BPF-5-720.png)
@@ -96,7 +96,7 @@ Lai projekta entītijai izveidotu savu biznesa procesa plūsmu, rīkojieties š�
 
    ![Projekta entītijas pielāgošanas ekrānuzņēmums](media/FAQ-Customize-BPF-6-720.png)
 
-5. Mainiet diagrammu **Projekts pēc posma** , lai posmiem lietotu jūsu jauno pielāgoto lauku.
+5. Mainiet diagrammu **Projekts pēc posma**, lai posmiem lietotu jūsu jauno pielāgoto lauku.
 
    ![Diagrammas Projekts pēc posma izmantošanas ekrānuzņēmums](media/FAQ-Customize-BPF-7-720.png)
 

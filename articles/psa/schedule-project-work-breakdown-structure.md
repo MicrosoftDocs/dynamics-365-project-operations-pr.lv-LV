@@ -3,7 +3,7 @@ title: Projekta plānošana, izmantojot darba sadalījuma struktūru
 description: Projekta plānošana, izmantojot darba sadalījuma struktūru programmā Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080626"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127887"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Projekta plānošana, izmantojot darba sadalījuma struktūru (Project Service)
 
@@ -86,14 +86,14 @@ Veidojot darba sadalījuma struktūru, izmantosit tālāk aprakstīto veidu uzde
   
 ### <a name="schedule-attributes"></a>Grafika atribūti
 
- - Piešķiriet vērtības atribūtam **Ieguldījuma stundas** , **Resursu skaits** , **Sākuma datums** , **Beigu datums** un **Ilgums** , lai noteiktu uzdevuma grafiku. 
+ - Piešķiriet vērtības atribūtam **Ieguldījuma stundas**, **Resursu skaits**, **Sākuma datums**, **Beigu datums** un **Ilgums**, lai noteiktu uzdevuma grafiku. 
  - Atribūts **Ieguldījums** ir aptuvenais laiks stundās, kas nepieciešams uzdevuma izpildei.
  - Atribūts **Resursu skaits** ir aprēķins, ko projekta vadītājs iestata uzdevumam, lai izstrādātu vislabāko iespējamo grafiku. 
  - Atribūts **Ilgums** (dienās) norāda darba dienu skaitu, kas nepieciešams uzdevuma izpildei.  
   
 ### <a name="staffing-attributes"></a>Darbspēka atribūti
 
- - Atribūts **Loma** , **Resursu organizācijas struktūrvienība** , **Resursu skaits** un **Resursi** apraksta darbspēka vajadzības šim uzdevumam. 
+ - Atribūts **Loma**, **Resursu organizācijas struktūrvienība**, **Resursu skaits** un **Resursi** apraksta darbspēka vajadzības šim uzdevumam. 
  - Atribūts **Loma** apraksta, kāda tipa resurss ir vajadzīgs uzdevuma izpildei. 
  - Atribūts **Resursu organizācijas struktūrvienība** norāda organizācijas struktūrvienību, no kuras jānodrošina resursi šī uzdevuma izpildei; tas ietekmē arī uzdevuma izmaksu un pārdošanas budžeta aprēķinus, jo tiek ņemts vērā, nosakot struktūrvienības pārdošanas cenu šim resursam. 
  - Atribūts **Resursi** satur vispārējus resurss vai nosauktos resursus, ja tādi tiek atrasti.  
@@ -136,11 +136,11 @@ Veidojot darba sadalījuma struktūru, izmantosit tālāk aprakstīto veidu uzde
   
 5.  Turpiniet pievienot uzdevumus, līdz darba sadalījuma struktūra ir pabeigta. Veidojot darba sadalījuma struktūru, varat veikt tālāk minētās darbības, lai sakārtotu uzdevumus.  
   
-    -   Atlasiet uzdevumu un noklikšķiniet uz **Izveidot atkāpi** , lai to pārvietotu zem cita uzdevuma, vai noklikšķiniet uz Izveidot pārkaru atkāpi, lai to izņemto no esošā līmeņa.  
+    -   Atlasiet uzdevumu un noklikšķiniet uz **Izveidot atkāpi**, lai to pārvietotu zem cita uzdevuma, vai noklikšķiniet uz Izveidot pārkaru atkāpi, lai to izņemto no esošā līmeņa.  
   
-    -   Atlasiet uzdevumu un noklikšķiniet uz **Pārvietot uz augšu** vai **Pārvietot uz leju** , lai to pārvietotu augšup vai lejup sarakstā.  
+    -   Atlasiet uzdevumu un noklikšķiniet uz **Pārvietot uz augšu** vai **Pārvietot uz leju**, lai to pārvietotu augšup vai lejup sarakstā.  
   
-    -   Noklikšķiniet uz **Paslēpt Ganta diagrammu** , lai paslēptu Ganta diagrammu, un noklikšķiniet uz **Parādīt Ganta diagrammu** , lai to atkal parādītu.  
+    -   Noklikšķiniet uz **Paslēpt Ganta diagrammu**, lai paslēptu Ganta diagrammu, un noklikšķiniet uz **Parādīt Ganta diagrammu**, lai to atkal parādītu.  
   
     -   Atlasiet dažādus laika posmus Ganta diagrammas sadaļā **Laika skala**.  
   

@@ -3,7 +3,7 @@ title: Pārskats faktiski
 description: Šajā tēmā ir sniegta informācija par projekta faktiskajiem datiem.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080642"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129777"
 ---
 # <a name="actuals-overview"></a>Pārskats faktiski
 
@@ -39,7 +39,7 @@ Kad programmā PSA tiek iesniegts laika ieraksts projektam, kas ir kartēts uz l
 
 Noklusējuma cenu ievadīšanas loģika atrodas žurnāla rindā. Visas lauka vērtības no laika ieraksta tiek kopētas uz žurnāla rindu. Šajos laukos ir iekļauts transakcijas datums, līguma rinda, uz kuru projekts ir kartēts, un valūtas rezultāts atbilstošajā cenrādī. 
 
-Lauki, kas ietekmē noklusējuma cenas, piemēram, **Loma** un **Org. vienība** , izraisa atbilstošu cenu, kas pēc noklusējuma ir jāievada žurnāla rindā. Ja laika ierakstā pievienojat pielāgotu lauku un vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku entītijā Faktiskie dati un izmantojiet lauku kartējumus, lai kopētu lauku no laika ieraksta uz faktisko.
+Lauki, kas ietekmē noklusējuma cenas, piemēram, **Loma** un **Org. vienība**, izraisa atbilstošu cenu, kas pēc noklusējuma ir jāievada žurnāla rindā. Ja laika ierakstā pievienojat pielāgotu lauku un vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku entītijā Faktiskie dati un izmantojiet lauku kartējumus, lai kopētu lauku no laika ieraksta uz faktisko.
 
 ## <a name="submitting-an-expense-entry"></a>Izdevumu ieraksta iesniegšana
 

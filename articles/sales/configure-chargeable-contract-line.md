@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080381"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128699"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Projekta līguma rindas apmaksājamo komponentu konfigurēšana
 
@@ -27,21 +27,21 @@ Iekļauto komponentu apakškopu var atzīmēt kā apmaksājamu, atjauninot lauku
 
 Apmaksājamus komponentus var definēt lomās un darījumu kategorijās.
 
-Projekta līguma rindai apmaksas apjoms, kas definēts tikai pēc lomas, attiecas tikai uz darījumu klasi **Laiks**. Ja lauks **Iekļaut laiku** projekta līguma rindā ir iestatīts uz **Nē** , cilne **Apmaksājamās lomas** nav pieejama.
+Projekta līguma rindai apmaksas apjoms, kas definēts tikai pēc lomas, attiecas tikai uz darījumu klasi **Laiks**. Ja lauks **Iekļaut laiku** projekta līguma rindā ir iestatīts uz **Nē**, cilne **Apmaksājamās lomas** nav pieejama.
 
-Apmaksas apjoms, kas definēts pēc darījumu kategorijām projekta līguma rindai, attiecas tikai uz darījumu klasi **Izdevumi**. Ja lauks **Iekļaut izdevumus** projekta līguma rindā ir iestatīts uz **Nē** , cilne **Apmaksājamās kategorijas** nav pieejama.
+Apmaksas apjoms, kas definēts pēc darījumu kategorijām projekta līguma rindai, attiecas tikai uz darījumu klasi **Izdevumi**. Ja lauks **Iekļaut izdevumus** projekta līguma rindā ir iestatīts uz **Nē**, cilne **Apmaksājamās kategorijas** nav pieejama.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Lomas atjaunināšana par apmaksājamu vai neapmaksājamu
 
 Loma var būt apmaksājama vai neapmaksājama noteiktā projekta līguma rindā.
 
-Lomas norēķinu tipu atjauniniet projekta piedāvājuma rindas cilnes **Apmaksājamās lomas** apakšrežģa **Apmaksājamās lomas** laukā **Norēķinu tips**.
+Atjauniniet lomas norēķinu tipu projekta līguma rindas cilnes **Rēķinā iekļaujamās lomas** apakšrežģa **Rēķinā iekļaujamās lomas** laukā **Norēķinu tips**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Darījumu kategorijas atjaunināšana par apmaksājamu vai neapmaksājamu
 
 Darījumu kategorija var būt apmaksājama vai neapmaksājama noteiktā projekta līguma rindā.
 
-Darījuma norēķinu tipu atjauniniet projekta piedāvājuma rindas cilnes **Apmaksājamās kategorijas** apakšrežģa **Apmaksājamās lomas** laukā **Norēķinu tips**.
+Atjauniniet transakcijas norēķinu tipu projekta līguma rindas cilnes **Rēķinā iekļaujamās kategorijas** apakšrežģa **Rēķinā iekļaujamās lomas** laukā **Norēķinu tips**.
 
 ### <a name="resolve-chargeability"></a>Apmaksājamības atrisināšana
 

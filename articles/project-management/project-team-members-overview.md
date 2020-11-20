@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080335"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127437"
 ---
 # <a name="project-team-members"></a>Projekta darba grupas dalībnieki
 
@@ -47,16 +47,16 @@ Tālāk sniegtajā tabulā ir uzskaitīti projekta darba grupas dalībnieka galv
 
 No darba grupas dalībnieku režģa var veikt tālāk minētās darbības.
 
-- **Rezervēt** : organizācijām, kas izmanto hibrīdās rezervācijas metodoloģiju, rezervācijas darbība ļaus lietotājiem rezervēt nosauktu resursu, pamatojoties uz prasībām, kas tiek ģenerētas no vispārēja darba grupas dalībnieka.
-- **Ģenerēt prasību** : šī darbība ģenerē prasību.
-- **Norādīt shēmu** : ļauj projektu vadītājiem pielāgot resursu prasību kontūras granulārā līmenī. Projekta vadītāji var pielāgoties projekta specifiskajām vajadzībām gadījumos, ja noklusējuma sadalījums nav piemērots.
-- **Iesniegt pieprasījumu** : organizācijām, kas izmanto centrālās rezervācijas metodoloģiju.
-- **Rediģēt** : darba grupas dalībnieku atribūtus var rediģēt, iekļaujot organizācijas struktūrvienību, lomu un pozīcijas nosaukumu.
-- **Uzturēt rezervācijas** : kad ir jāatjaunina resursu rezervācijas, rezervāciju uzturēšana ļauj projekta vadītājam pielāgot šādus iestatījumus:
+- **Rezervēt**: organizācijām, kas izmanto hibrīdās rezervācijas metodoloģiju, rezervācijas darbība ļaus lietotājiem rezervēt nosauktu resursu, pamatojoties uz prasībām, kas tiek ģenerētas no vispārēja darba grupas dalībnieka.
+- **Ģenerēt prasību**: šī darbība ģenerē prasību.
+- **Norādīt shēmu**: ļauj projektu vadītājiem pielāgot resursu prasību kontūras granulārā līmenī. Projekta vadītāji var pielāgoties projekta specifiskajām vajadzībām gadījumos, ja noklusējuma sadalījums nav piemērots.
+- **Iesniegt pieprasījumu**: organizācijām, kas izmanto centrālās rezervācijas metodoloģiju.
+- **Rediģēt**: darba grupas dalībnieku atribūtus var rediģēt, iekļaujot organizācijas struktūrvienību, lomu un pozīcijas nosaukumu.
+- **Uzturēt rezervācijas**: kad ir jāatjaunina resursu rezervācijas, rezervāciju uzturēšana ļauj projekta vadītājam pielāgot šādus iestatījumus:
 
     - Sākt
     - Beigt
     - Kopējā ieguldījuma sadalījums
 
-- **Jauns** : papildus resursu pievienošanai tieši no grafika, projektu vadītāji var pievienot jaunus nosauktos vai vispārējos darba grupas dalībniekus no darba grupas dalībnieku režģa.
-- **Dzēst** : atlasot vienu vai vairākus darba grupas dalībniekus, projekta vadītājs var dzēst resursus, kuri vairs nepiedalīsies projektā. Dzēšot darba grupas dalībnieku, tiek dzēsti arī visas saistītās resursu piešķires un atceltas visas esošās rezervācijas.
+- **Jauns**: papildus resursu pievienošanai tieši no grafika, projektu vadītāji var pievienot jaunus nosauktos vai vispārējos darba grupas dalībniekus no darba grupas dalībnieku režģa.
+- **Dzēst**: atlasot vienu vai vairākus darba grupas dalībniekus, projekta vadītājs var dzēst resursus, kuri vairs nepiedalīsies projektā. Dzēšot darba grupas dalībnieku, tiek dzēsti arī visas saistītās resursu piešķires un atceltas visas esošās rezervācijas.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080434"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126318"
 ---
 # <a name="actuals"></a>Pašreizējās 
 
@@ -45,7 +45,7 @@ Kad iesniegts laika ieraksts ir saistīts ar projektu, kas ir kartēts uz fiksē
 
 Noklusējuma cenu izveides loģika atrodas žurnāla rindā. Lauka vērtības no laika ieraksta tiek kopētas uz žurnāla rindu. Šajās vērtībās ir iekļauts darījuma datums, līguma rinda, uz kuru projekts ir kartēts, un valūtas rezultāts atbilstošajā cenrādī.
 
-Laukus, kas ietekmē noklusējuma cenas, piemēram, **Loma** un **Org. vienība** , izmanto atbilstošas cenas noteikšanai žurnāla rindā. Varat pievienot pielāgotu lauku laika ierakstam. Ja vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku entītijā Faktiskie dati un izmantojiet lauku kartējumus, lai kopētu lauku no laika ieraksta uz faktisko.
+Laukus, kas ietekmē noklusējuma cenas, piemēram, **Loma** un **Org. vienība**, izmanto atbilstošas cenas noteikšanai žurnāla rindā. Varat pievienot pielāgotu lauku laika ierakstam. Ja vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku entītijā Faktiskie dati un izmantojiet lauku kartējumus, lai kopētu lauku no laika ieraksta uz faktisko.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Žurnāla rindu un pamata izdevumu iesniegšana
 

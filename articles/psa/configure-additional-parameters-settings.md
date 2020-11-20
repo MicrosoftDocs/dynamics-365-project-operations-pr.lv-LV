@@ -3,7 +3,7 @@ title: Papildu parametru iestatījumu konfigurācija
 description: Papildu parametru iestatījumu konfigurēšana programmā Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080444"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129372"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Papildu parametru iestatījumu konfigurēšana (Project Service)
 
@@ -52,11 +52,11 @@ Lai iestatītu projekta parametrus, rīkojieties šādi.
   
 1. Pārejiet uz sadaļu **Project Service > Parametri**.  
   
-2. Klikšķiniet uz parametru iestatījumu, kuru vēlaties konfigurēt (kuru izveidojāt, kad pirmoreiz instalējāt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), vai noklikšķiniet uz **Jauns** , lai izveidotu jaunu.  
+2. Klikšķiniet uz parametru iestatījumu, kuru vēlaties konfigurēt (kuru izveidojāt, kad pirmoreiz instalējāt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), vai noklikšķiniet uz **Jauns**, lai izveidotu jaunu.  
   
-3. Apgabalā **Vispārīgi** , iestatiet visas opcijas jūsu projekta parametriem.  
+3. Apgabalā **Vispārīgi**, iestatiet visas opcijas jūsu projekta parametriem.  
   
-4. Apgabalā **Cenrādis** noklikšķiniet uz **+** , lai pievienotu cenrādi, izvelieties cenrādi nolaižamajā sarakstā **Projekta parametru cenrādis** un pēc tam noklikšķiniet uz **Saglabāt**.  
+4. Apgabalā **Cenrādis** noklikšķiniet uz **+**, lai pievienotu cenrādi, izvelieties cenrādi nolaižamajā sarakstā **Projekta parametru cenrādis** un pēc tam noklikšķiniet uz **Saglabāt**.  
   
 5. Ekrāna apakšējā labajā stūrī noklikšķiniet uz pogas **Saglabāt**.  
 

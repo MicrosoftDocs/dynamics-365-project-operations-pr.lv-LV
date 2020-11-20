@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080343"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124647"
 ---
 # <a name="extending-time-entries"></a>Laika ierakstu izvēršana
 
@@ -33,7 +33,7 @@ Laika ierakstu izvēršana ir iespējama divos apgabalos:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Pielāgotu laika ierakstu pievienošana savai lietošanai
 
-Laika ieraksti ir pamata entītija, kas tiek izmantota vairākos scenārijos. 2020. gada aprīļa 1. vilnī tika ieviests TESA pamata risinājums. TESA nodrošina entītiju **Iestatījumi** un jaunu drošības lomu **Laika ieraksta lietotājs**. Tika iekļauti arī jaunie lauki **msdyn_start** un **msdyn_end** , kam ir tieša saistība ar **msdyn_duration**. Jaunā entītija, drošības loma un lauki ļauj izveidot vienotāku pieeju laikam vairākos produktos.
+Laika ieraksti ir pamata entītija, kas tiek izmantota vairākos scenārijos. 2020. gada aprīļa 1. vilnī tika ieviests TESA pamata risinājums. TESA nodrošina entītiju **Iestatījumi** un jaunu drošības lomu **Laika ieraksta lietotājs**. Tika iekļauti arī jaunie lauki **msdyn_start** un **msdyn_end**, kam ir tieša saistība ar **msdyn_duration**. Jaunā entītija, drošības loma un lauki ļauj izveidot vienotāku pieeju laikam vairākos produktos.
 
 
 ### <a name="time-source-entity"></a>Laika avota entītija
@@ -58,7 +58,7 @@ Loģika automātiski atjaunina laika ieraksta ierakstu šādos gadījumos:
     - **msdyn_duration**
 
 - Laukos **msdyn_start** un **msdyn_end** ir ņemtas vērā laika joslas.
-- Laika ieraksti, kas izveidoti tikai ar norādītu **msdyn_date** un **msdyn_duration** , tiks sākti pusnaktī. Lauki **msdyn_start** un **msdyn_end** tiks atbilstoši atjaunināti.
+- Laika ieraksti, kas izveidoti tikai ar norādītu **msdyn_date** un **msdyn_duration**, tiks sākti pusnaktī. Lauki **msdyn_start** un **msdyn_end** tiks atbilstoši atjaunināti.
 
 #### <a name="time-entry-types"></a>Laika ierakstu tipi
 
@@ -109,22 +109,22 @@ Pielāgojiet skatu **Mani iknedēļas laika ieraksti** un pievienot tam pielāgo
 2. Konfigurējiet pielāgotu vadīklu šim skatam, lai tā būtu vadīkla **Laika ierakstu režģis**. 
 3. Pievienojiet šo vadīklu skatam un atlasiet to tīmeklim, tālrunim un planšetdatoram. 
 4. Konfigurējiet iknedēļas laika ierakstu režģa parametrus. 
-5. Iestatiet lauku **Sākuma datums** uz **msdyn_date** , iestatiet lauku **Ilgums** uz **msdyn_duration** un iestatiet lauku **Statuss** uz **msdyn_entrystatus**. 
+5. Iestatiet lauku **Sākuma datums** uz **msdyn_date**, iestatiet lauku **Ilgums** uz **msdyn_duration** un iestatiet lauku **Statuss** uz **msdyn_entrystatus**. 
 6. Noklusējuma skatam lauks **Tikai lasāms statusu saraksts** ir iestatīts uz **192350002,192350003,192350004**. Lauks **Rindas rediģēšanas uzdevumu plūsma** ir iestatīts uz **msdyn_timeentryrowedit**. Lauks **Šūnas rediģēšanas uzdevumu plūsma** ir iestatīts uz **msdyn_timeentryedit**. 
 7. Varat pielāgot šos laukus, lai pievienotu vai noņemtu tikai lasāmu statusu vai izmantotu atšķirīgu uz uzdevumu balstītu pieredzi (TBX) rindu vai šūnu rediģēšanai. Šie lauki tagad ir saistīti ar statisku vērtību.
 
 
 > [!NOTE] 
-> Abas opcijas noņems dažus neiekļautus filtrus entītijām **Projekts** un **Projekta uzdevums** , lai būtu redzami visi entītiju uzmeklēšanas skati. Ārpus lodziņa ir redzami tikai atbilstošie uzmeklēšanas skati.
+> Abas opcijas noņems dažus neiekļautus filtrus entītijām **Projekts** un **Projekta uzdevums**, lai būtu redzami visi entītiju uzmeklēšanas skati. Ārpus lodziņa ir redzami tikai atbilstošie uzmeklēšanas skati.
 
-Pielāgotajam laukam nosakiet piemērota uzdevumu plūsma. Ja pievienojāt lauku režģim, tam ir jābūt rindas rediģēšanas uzdevumu plūsmā, kas attiecas uz visu laika ierakstu rindu. Ja pielāgotajam laukam katru dienu ir unikāla vērtība, piemēram, pielāgots lauks **Beigu laiks** , tam ir jābūt šūnu rediģēšanas uzdevumu plūsmā.
+Pielāgotajam laukam nosakiet piemērota uzdevumu plūsma. Ja pievienojāt lauku režģim, tam ir jābūt rindas rediģēšanas uzdevumu plūsmā, kas attiecas uz visu laika ierakstu rindu. Ja pielāgotajam laukam katru dienu ir unikāla vērtība, piemēram, pielāgots lauks **Beigu laiks**, tam ir jābūt šūnu rediģēšanas uzdevumu plūsmā.
 
-Lai uzdevumu plūsmai pievienotu pielāgoto lauku, velciet elementu **Lauks** uz atbilstošo atrašanās vietu lapā un pēc tam iestatiet lauka rekvizītus. Iestatiet rekvizītu **Avots** uz **Laika ieraksts** un iestatiet rekvizītu **Datu lauks** pielāgotajam laukam. Rekvizīts **Lauks** norāda TBX lapā parādāmo nosaukumu. Atlasiet vienumu **Lietot** , lai laukā saglabātu izmaiņas, un pēc tam atlasiet vienumu **Atjaunināt** , lai saglabātu lapā veiktās izmaiņas.
+Lai uzdevumu plūsmai pievienotu pielāgoto lauku, velciet elementu **Lauks** uz atbilstošo atrašanās vietu lapā un pēc tam iestatiet lauka rekvizītus. Iestatiet rekvizītu **Avots** uz **Laika ieraksts** un iestatiet rekvizītu **Datu lauks** pielāgotajam laukam. Rekvizīts **Lauks** norāda TBX lapā parādāmo nosaukumu. Atlasiet vienumu **Lietot**, lai laukā saglabātu izmaiņas, un pēc tam atlasiet vienumu **Atjaunināt**, lai saglabātu lapā veiktās izmaiņas.
 
-Lai tā vietā izmantotu jaunu pielāgotu TBX lapu, izveidojiet jaunu procesu. Iestatiet kategoriju uz **Biznesa procesa plūsma** , iestatiet entītiju uz **Laika ieraksts** un iestatiet biznesa procesa tipu uz **Palaist procesu kā uzdevuma plūsmu**. Sadaļā **Rekvizīti** ir jāiestata **Lapas nosaukums** lapas parādāmajam nosaukumam. Pievienojiet TBX lapai visus atbilstošos laukus. Saglabājiet un aktivizējiet procesu. Procesam atjauniniet pielāgoto kontroles rekvizītu attiecīgajai uzdevumu plūsmai uz vērtību **Nosaukums**.
+Lai tā vietā izmantotu jaunu pielāgotu TBX lapu, izveidojiet jaunu procesu. Iestatiet kategoriju uz **Biznesa procesa plūsma**, iestatiet entītiju uz **Laika ieraksts** un iestatiet biznesa procesa tipu uz **Palaist procesu kā uzdevuma plūsmu**. Sadaļā **Rekvizīti** ir jāiestata **Lapas nosaukums** lapas parādāmajam nosaukumam. Pievienojiet TBX lapai visus atbilstošos laukus. Saglabājiet un aktivizējiet procesu. Procesam atjauniniet pielāgoto kontroles rekvizītu attiecīgajai uzdevumu plūsmai uz vērtību **Nosaukums**.
 
 ### <a name="add-new-option-set-values"></a>Jaunu opciju kopas vērtību pievienošana
-Lai pievienotu opciju kopu vērtības neiekļautajam laukam, atveriet lauka rediģēšanas lapu un pēc tam sadaļā **Tips** atlasiet **Rediģēt** , kas atrodas blakus opciju kopai. Pievienojiet jaunu opciju, kurai ir pielāgota etiķete un krāsa. Ja vēlaties pievienot jaunu laika ieraksta statusu, neiekļautā lauka nosaukums ir **Ieraksta statuss** , nevis **Statuss**.
+Lai pievienotu opciju kopu vērtības neiekļautajam laukam, atveriet lauka rediģēšanas lapu un pēc tam sadaļā **Tips** atlasiet **Rediģēt**, kas atrodas blakus opciju kopai. Pievienojiet jaunu opciju, kurai ir pielāgota etiķete un krāsa. Ja vēlaties pievienot jaunu laika ieraksta statusu, neiekļautā lauka nosaukums ir **Ieraksta statuss**, nevis **Statuss**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Jauna laika ieraksta tikai lasāma statusa norādīšana
 Lai norādītu jaunu laika ieraksta statusu kā tikai lasāmu, pievienojiet jauno laika ieraksta vērtību rekvizītam **Tikai lasāma statusa saraksts**. Laika ieraksta režģa rediģējamā daļa tiks bloķēta rindām ar jaunu statusu.
@@ -143,4 +143,4 @@ Izmantojiet biznesa kārtulas, lai bloķētu un atbloķētu laukus, ievadiet nok
 Izmantojiet spraudņu pārbaudes jebkādām pārbaudēm, kurām nepieciešams vairāk konteksta, nekā pieejams vienā laika ierakstā, vai jebkādām pārbaudēm, ko vēlaties izpildīt, izmantojot režģī iekļautos atjauninājumus. Lai pabeigtu pārbaudi, izveidojiet pielāgotu spraudni entītijā **Laika ieraksts**.
 
 ### <a name="copying-time-entries"></a>Laika ierakstu kopēšana
-Izmantojiet skatu **Kopēt laika ieraksta kolonnas** , lai definētu to lauku sarakstu, kas jākopē, ievadot laiku. **Datums** un **Ilgums** ir obligāti lauki, un tos nevar noņemt no skata.
+Izmantojiet skatu **Kopēt laika ieraksta kolonnas**, lai definētu to lauku sarakstu, kas jākopē, ievadot laiku. **Datums** un **Ilgums** ir obligāti lauki, un tos nevar noņemt no skata.

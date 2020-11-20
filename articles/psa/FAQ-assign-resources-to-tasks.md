@@ -3,7 +3,7 @@ title: Resursa piešķiršana uzdevumam
 description: Šajā tēmā ir sniegta informācija par to, kā piešķirt resursus uzdevumiem.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080633"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125142"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Resursa piešķiršana uzdevumam
 
@@ -35,20 +35,20 @@ Varat pievienot resursu projekta darba grupai un pēc tam piešķirt uzdevumus r
 
 1. Cilnē **Darba grupas dalībnieks** pievienojiet jaunu darba grupas dalībnieku, atlasot vienumu **Jauns**. 
 
-2. Tiek atvērts panelis **Darba grupas dalībnieku ātrā izveide** , kur varat atlasīt rezervējamā resursa vārdu un iestatīt lomu. 
+2. Tiek atvērts panelis **Darba grupas dalībnieku ātrā izveide**, kur varat atlasīt rezervējamā resursa vārdu un iestatīt lomu. 
 
     Atlasiet kādu no šīm piešķiršanas metodēm resursa rezervēšanai:
 
-    - **Pilna noslodze** : izmantojot šo metodi, tiek rezervēta resursa pilna noslodze norādītajā laika posmā (no sākuma līdz beigu datumam).
-    - **Noslodzes procentuāla vērtība** : izmantojot šo metodi, tiek rezervēta resursa noslodzes procentuālā vertība norādītajā laika posmā (no sākuma līdz beigu datumam).
-    - Vienums **Sadalīt vienmērīgi pa stundām** : rezervē resursu noteiktu skaitu stundu, vienmērīgi katru sadalot dienā rezervēto laiku norādītajā laika periodā.
-    - **Pa stundām — sākotnējā slodze** : rezervē resursu noteiktu skaitu stundu, sadalot sākotnējās slodzes stundas dienā norādītajā laika periodā.
+    - **Pilna noslodze**: izmantojot šo metodi, tiek rezervēta resursa pilna noslodze norādītajā laika posmā (no sākuma līdz beigu datumam).
+    - **Noslodzes procentuāla vērtība**: izmantojot šo metodi, tiek rezervēta resursa noslodzes procentuālā vertība norādītajā laika posmā (no sākuma līdz beigu datumam).
+    - Vienums **Sadalīt vienmērīgi pa stundām**: rezervē resursu noteiktu skaitu stundu, vienmērīgi katru sadalot dienā rezervēto laiku norādītajā laika periodā.
+    - **Pa stundām — sākotnējā slodze**: rezervē resursu noteiktu skaitu stundu, sadalot sākotnējās slodzes stundas dienā norādītajā laika periodā.
     - **Nav** pievieno resursu darba grupai, bet netiek izveidotas rezervācijas, kas izmanto resursa noslodzi.
 
 3. Uzdevuma režģa **Plānot** atlasiet ikonu **Resurss** resursa šūnā un pēc tam sadaļā **Darba grupas dalībnieki** atlasiet darba grupas dalībnieku, ko tikko pievienojāt. 
 
 > [!NOTE]
-> Ņemiet vērā, ka resursam gan cilnē **Darba grupas dalībnieks** , gan cilnē **Saskaņošana** tiek rādītas rezervētās stundas un piešķirtās stundas. Stundu skaitam ir jābūt vienādam, tomēr tā var nebūt, jo rezervācijas un piešķīrumi nav cieši saistīti. Cilnē **Saskaņošana** tiek sniegta informācija, ja šie rādītāji atšķiras, piemēram, ja piešķirat resursam vairāk stundu, nekā esat tam rezervējis. Pēc tam varat veikt korekcijas šajā informācija, paplašinot resursa rezervācijas vai mainot piešķīrumu.
+> Ņemiet vērā, ka resursam gan cilnē **Darba grupas dalībnieks**, gan cilnē **Saskaņošana** tiek rādītas rezervētās stundas un piešķirtās stundas. Stundu skaitam ir jābūt vienādam, tomēr tā var nebūt, jo rezervācijas un piešķīrumi nav cieši saistīti. Cilnē **Saskaņošana** tiek sniegta informācija, ja šie rādītāji atšķiras, piemēram, ja piešķirat resursam vairāk stundu, nekā esat tam rezervējis. Pēc tam varat veikt korekcijas šajā informācija, paplašinot resursa rezervācijas vai mainot piešķīrumu.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Vispārēja darba grupas dalībnieka izveide, izmantojot uzdevumu piešķiri
 
@@ -62,7 +62,7 @@ Veidojot vispārēju darba grupas dalībnieku, piešķirot uzdevumu, izveidojat 
 
 4. Varat turpināt piešķirt uzdevumus šim viettura resursam, atlasot vienumu **Resursa atlase** uzdevumam. Tie ir uzskaitīti sadaļā **Darba grupas dalībnieki**.
 
-5. Kad esat pabeidzis vispārējā resursa piešķiršanu, atlasiet vispārējo resursu cilnē **Darba grupa** un atlasiet **Izveidot prasību** , lai izveidotu resursa prasību vispārējam resursam.
+5. Kad esat pabeidzis vispārējā resursa piešķiršanu, atlasiet vispārējo resursu cilnē **Darba grupa** un atlasiet **Izveidot prasību**, lai izveidotu resursa prasību vispārējam resursam.
 
 6. Vispārejam resursam atlasiet **Rezervēt**. Pēc tam varat izmantot plānošanas paneli, lai atrastu un rezervētu reālu resursu. Jūs varat arī iesniegt, ka prasība ir jāizpilda resursu pārvaldniekam.
 
@@ -70,7 +70,7 @@ Veidojot vispārēju darba grupas dalībnieku, piešķirot uzdevumu, izveidojat 
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Nosaukta resursa piešķiršana no visu rezervējamo resursu saraksta
 
-Varat izmantot meklēšanas lodziņu **Resursu atlasītājs** , lai meklētu visus rezervējamos resursus un piešķirtu tos uzdevumam.
+Varat izmantot meklēšanas lodziņu **Resursu atlasītājs**, lai meklētu visus rezervējamos resursus un piešķirtu tos uzdevumam.
 
 Šādā veidā piešķirtie resursi tiek pievienoti darba grupai bez jebkādām rezervācijām. Tas ir līdzīgi kā pievienot darba grupas dalībnieku un atlasot Nav kā piešķiršanas metodi. Šis resurss cilnē **Darba grupa** un cilnē **Saskaņošana** tiek rādīti kā resursi, kuriem ir tikai piešķīrumi un rezervāciju trūkums. Ja vēlaties izmantot to pieejamību, rezervējiet tos.
 

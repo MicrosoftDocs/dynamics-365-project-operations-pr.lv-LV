@@ -3,7 +3,7 @@ title: Projekta tāmes skatīšana un rediģēšana
 description: Projekta tāmju skatīšana un rediģēšana programmā Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080520"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125862"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Projekta tāmju skatīšana un rediģēšana (Project Service)
 
@@ -37,7 +37,7 @@ Izmantojot [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-aut
   
 3.  Ekrāna augšdaļā esošajā joslā atlasiet lejupvērsto bultiņu pie projekta nosaukuma un pēc tam noklikšķiniet uz **Projekta tāmes**.  
   
-4.  Sadaļā **Laika posms pēc** atlasiet vienumu **Piepūle** , **Izmaksas** vai **Pārdošana** , lai mainītu, kuras projekta tāmes attēlot.  
+4.  Sadaļā **Laika posms pēc** atlasiet vienumu **Piepūle**, **Izmaksas** vai **Pārdošana**, lai mainītu, kuras projekta tāmes attēlot.  
   
 5.  Lai pievienotu vai dzēstu izdevumus, noklikšķiniet uz **Rādīt režģa skatu**. Lai izveidotu jaunus izdevumus, noklikšķiniet uz **Jauni izdevumi**. Lai dzēstu izdevumus, atlasiet tos sarakstā un pēc tam noklikšķiniet uz **Dzēst izdevumus**. Kad esat pabeidzis izdevumu pievienošanu vai dzēšanu, noklikšķiniet uz **Saglabāt**.  
   

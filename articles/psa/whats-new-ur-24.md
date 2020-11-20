@@ -3,7 +3,7 @@ title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidum
 description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation atjauninājumu izlaidumā 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080396"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126582"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation atjauninājumu izlaidums 24, V3
 
@@ -60,14 +60,14 @@ Ir novērstas tālāk norādītās problēmas.
 Ir novērstas tālāk norādītās problēmas.
 
 - Mēģinot atjaunināt sekojošu dienu rezervācijas statusu bez prasības, tiek izmests NullRef izņēmums.
-- Ielādējot **Saskaņošanas skatu** , radās kļūda.
+- Ielādējot **Saskaņošanas skatu**, radās kļūda.
 
 
 **Projekta pārvaldība**
 
 Ir novērstas tālāk norādītās problēmas.
 
-- **Projekta grafikā** , mainot no **Manuāli** uz **Automātiski** , netiek veikta automātiska saglabāšana.
+- **Projekta grafikā**, mainot no **Manuāli** uz **Automātiski**, netiek veikta automātiska saglabāšana.
 - Izdevumu izmaksām nevajadzētu tikt aprēķintam novirzes virzienā **Projekta izsekošanas režģī**.
 - Nekonsekventa uzvedība **Novērtējuma tagu** kolonnu ielādes laikā un mainot **Laika sadalījuma** veidu.
 - Faktiskās izmaksas projektā var neatspoguļot kopējās izmaksas no **Faktiskajām vērtībām**.

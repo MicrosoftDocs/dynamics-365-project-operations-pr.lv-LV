@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080295"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127367"
 ---
 # <a name="project-tracking-overview"></a>Projekta izsekošanas pārskats
 
@@ -25,10 +25,10 @@ Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Da�
 
 Skats **Piepūles izsekošana** izseko uzdevumu progresu grafikā, salīdzinot faktiskās ieguldījuma stundas, kas tiek patērētas uzdevumam, ar plānotajām ieguldījuma stundām. Lai aprēķinātu izsekošanas metriku, programmatūrā Dynamics 365 Project Operations tiek izmantotas tālāk norādītās formulas.
 
-- **Progresa procentuālā vērtība** : līdz šim veiktā piepūle + novērtējums beigu stadijā (EAC) 
-- **Novērtējums līdz pabeigšanai (ETC)** : Plānotā piepūle – Līdz šim faktiski patērētā piepūle 
-- **EAC** : Atlikusī piepūle + Līdz šim veiktā piepūle 
-- **Projektētā piepūles novirze** : Plānotā piepūle – EAC
+- **Progresa procentuālā vērtība**: līdz šim veiktā piepūle + novērtējums beigu stadijā (EAC) 
+- **Novērtējums līdz pabeigšanai (ETC)**: Plānotā piepūle – Līdz šim faktiski patērētā piepūle 
+- **EAC**: Atlikusī piepūle + Līdz šim veiktā piepūle 
+- **Projektētā piepūles novirze**: Plānotā piepūle – EAC
 
 Programmatūrā Project Operations uzdevumam tiek rādīta projektētā piepūles novirze. Ja EAC ir lielāks par plānoto intensitāti, tiek prognozēts, ka uzdevums prasīs vairāk laika, nekā sākotnēji plānots, un tas atpaliek no grafika. Ja EAC ir mazāks par plānoto intensitāti, tiek prognozēts, ka uzdevums prasīs mazāk laika, nekā sākotnēji plānots, un tas ir pirms grafika.
 
@@ -60,10 +60,10 @@ Skatā **Izmaksu izsekošana** faktiskās izmaksas, kuras tika iztērētas uz uz
 > [!NOTE]
 > Šajā skatā tiek rādītas tikai darbaspēka izmaksas, un nav iekļautas izmaksas no izdevumu tāmēm. Lai aprēķinātu izsekošanas metriku, programmatūrā Project Operations tiek izmantotas tālāk norādītās formulas.
 
-- **Patērēto izmaksu procentuālais daudzums** : Līdz šim faktiski iztērētās izmaksas ÷ Novērtētās izmaksas beigu stadijā
-- **Izmaksas līdz pabeigšanai (CTC)** : Plānotās izmaksas – Līdz šim faktiski iztērētās izmaksas
-- **EAC** : Atlikušās izmaksas + Līdz šim faktiski iztērētās izmaksas
-- **Projektētā izmaksu novirze** : Plānotās izmaksas – EAC
+- **Patērēto izmaksu procentuālais daudzums**: Līdz šim faktiski iztērētās izmaksas ÷ Novērtētās izmaksas beigu stadijā
+- **Izmaksas līdz pabeigšanai (CTC)**: Plānotās izmaksas – Līdz šim faktiski iztērētās izmaksas
+- **EAC**: Atlikušās izmaksas + Līdz šim faktiski iztērētās izmaksas
+- **Projektētā izmaksu novirze**: Plānotās izmaksas – EAC
 
 Uzdevumam tiek rādīta projektētā izmaksu novirze. Ja EAC ir lielāks par plānotajām izmaksām, tiek projektēts, ka uzdevums izmaksās vairāk, nekā sākotnēji tika plānots. Tādēļ tam ir tendence pārsniegt budžetu. Ja EAC ir mazāks par plānotajām izmaksām, tiek projektēts, ka uzdevums izmaksās mazāk, nekā sākotnēji tika plānots. Tādēļ tam ir tendence iekļauties budžetā.
 

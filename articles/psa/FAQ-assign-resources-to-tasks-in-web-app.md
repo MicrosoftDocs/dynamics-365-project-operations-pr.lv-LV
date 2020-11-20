@@ -3,7 +3,7 @@ title: Kā tīmekļa lietotnē piešķirt rezervējamu resursu uzdevumam
 description: Pārskats par to, kā var piešķirt rezervējamus resursus.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080632"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125187"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kā tīmekļa programmā (Project Service v2.x) piešķirt rezervējamu resursu uzdevumam?
 
@@ -46,12 +46,12 @@ Izmantojot šo metodi, jūs pievienojat resursu projekta darba grupai un pēc ta
     > ![Ekrānuzņēmums: darba grupas dalībnieka pievienošana](media/FAQ-Resources-to-Tasks2-1.png "Ekrānuzņēmums: darba grupas dalībnieka pievienošana")
  
 4.  Atlasiet kādu no šīm sadales metodēm resursa rezervēšanai:
-    - **Pilna noslodze** : izmantojot šo metodi, tiek rezervēta resursa pilna noslodze norādītajā laika posmā (no sākuma līdz beigu datumam).
-    - **Noslodzes procentuāla vērtība** : izmantojot šo metodi, tiek rezervēta resursa noslodzes procentuālā vertība norādītajā laika posmā (no sākuma līdz beigu datumam).
-    - **Sadalīt vienmērīgi pa stundām** : rezervē resursu noteiktu skaitu stundu, vienmērīgi katru sadalot dienā rezervēto laiku norādītajā laika periodā.
-    - **Pa stundām — sākotnējā slodze** : rezervē resursu noteiktu skaitu stundu, sadalot sākotnējās slodzes stundas dienā norādītajā laika periodā.
+    - **Pilna noslodze**: izmantojot šo metodi, tiek rezervēta resursa pilna noslodze norādītajā laika posmā (no sākuma līdz beigu datumam).
+    - **Noslodzes procentuāla vērtība**: izmantojot šo metodi, tiek rezervēta resursa noslodzes procentuālā vertība norādītajā laika posmā (no sākuma līdz beigu datumam).
+    - **Sadalīt vienmērīgi pa stundām**: rezervē resursu noteiktu skaitu stundu, vienmērīgi katru sadalot dienā rezervēto laiku norādītajā laika periodā.
+    - **Pa stundām — sākotnējā slodze**: rezervē resursu noteiktu skaitu stundu, sadalot sākotnējās slodzes stundas dienā norādītajā laika periodā.
 
-    Neatlasiet **Nav** , jo tā pievieno resursu darba grupai, bet netiek izveidotas rezervācijas, kas izmanto resursa noslodzi.
+    Neatlasiet **Nav**, jo tā pievieno resursu darba grupai, bet netiek izveidotas rezervācijas, kas izmanto resursa noslodzi.
 5.  Atlasiet **Saglabāt**.
 
     Ņemiet vērā, ka rezervācijas stundām ir jāpietiek, lai segtu ieguldīto laiku un datumu diapazonu uzdevumiem, kuriem piešķirat šo resursu. Ja tās nav, nevarat piešķirt resursu uzdevumam.

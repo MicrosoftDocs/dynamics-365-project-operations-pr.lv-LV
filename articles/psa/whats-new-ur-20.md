@@ -3,7 +3,7 @@ title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidum
 description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation atjauninājumu izlaidumā 20, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080393"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126762"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation atjauninājumu izlaidums 20, V3
 
@@ -48,7 +48,7 @@ Ir novērstas tālāk norādītās problēmas.
 
 Ir novērstas tālāk norādītās problēmas.
 
-- Veidlapā **Līgums** veicot dubultklikšķi uz **Izveidot rēķinu** , tiek izveidoti divi rēķinus vienam faktiskajam ierakstam.
+- Veidlapā **Līgums** veicot dubultklikšķi uz **Izveidot rēķinu**, tiek izveidoti divi rēķinus vienam faktiskajam ierakstam.
 - Lietotāji nevar izveidot izdevumu ierakstus programmā Internet Explorer 11.
 - Izmaksu apvērse un rēķinā neiekļauto pārdošanas datu apvērse nav saistītas.
 - POga **Atsvaidzināt faktiskos datus** veidlapā **Projekts** neatsvaidzina **Uzdevuma faktisko stundu skaits**.
@@ -58,5 +58,5 @@ Ir novērstas tālāk norādītās problēmas.
 - Laika fāzes ilgums **Rentabilitātes analīzes diagrammā** neatbilst izmaksu ilgumam piedāvājuma fiksētas cenas piedāvājuma rindas detalizētajā informācijā.
 - Vienību un vienību grupu vērtības izmaksu kategorijām veidlapās **Līguma rindu informācija** un **Piedāvājumu rindu informācija** netiek pareizi iestatītas uz noklusējumu.
 - Saraksts **Organizācijas vienību izmaksu cenrādis** ļauj pārklāties spēkā esamības datumiem.
-- Lietotājiem nav atļauts mainīt **OrgUnit** , ja pasūtījuma tips ir neatkarīgs no darba, jo tas izraisa nulles atsauces izņēmumu kļūdu.
-- Mēģinot naviģēt no veidlapas **Piedāvājuma rindu informācija** atpakaļ uz cilni **Piedāvājums** , veidlapa tiek atsvaidzināta un parāda cilni **Kopsavilkums**.
+- Lietotājiem nav atļauts mainīt **OrgUnit**, ja pasūtījuma tips ir neatkarīgs no darba, jo tas izraisa nulles atsauces izņēmumu kļūdu.
+- Mēģinot naviģēt no veidlapas **Piedāvājuma rindu informācija** atpakaļ uz cilni **Piedāvājums**, veidlapa tiek atsvaidzināta un parāda cilni **Kopsavilkums**.

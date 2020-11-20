@@ -3,7 +3,7 @@ title: Klienta uzņēmuma izveide
 description: Klienta uzņēmuma izveide programmā Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dc328d1e0a2deba256dacb1697aee65e89055e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f80d7612563b49765c5d0dc36e0033c9f7c42f9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080450"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129102"
 ---
 # <a name="create-a-customer-account-project-service"></a>Klienta uzņēmuma izveide (Project Service)
 
@@ -37,7 +37,7 @@ Izveidojiet uzņēmumu katram klientam, ar kuru strādājat, neatkarīgi no tā,
   
 3.  Apgabalā **Kopsavilkums** ievadiet jaunā uzņēmuma nosaukumu laukā **Nosaukums** un atbilstoši aizpildiet pārējos laukus.  
   
-4.  Noklikšķiniet uz **Saglabāt** , lai izveidotu ierakstu un pēc tam varētu veikt tā rediģēšanu.  
+4.  Noklikšķiniet uz **Saglabāt**, lai izveidotu ierakstu un pēc tam varētu veikt tā rediģēšanu.  
   
 5.  Apgabalā **Projektu cenrāži** noklikšķiniet uz +, lai pievienotu cenrādi. Šim uzņēmumam var pievienot vairāk nekā vienu cenrādi.  
   

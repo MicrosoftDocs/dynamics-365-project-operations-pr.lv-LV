@@ -3,7 +3,7 @@ title: Resursu lomu konfigurēšana
 description: Resursu lomu konfigurēšana programmā Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080442"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129147"
 ---
 # <a name="configure-resource-roles-project-service"></a>Resursu lomu konfigurēšana (Project Service)
 
@@ -43,11 +43,11 @@ Lomām ir svarīga nozīme projektu plānošanā, nosakot projekta resursu pras�
   
 3.  Apgabalā **Vispārīgi** ievadiet lomas nosaukumu laukā **Nosaukums** un atbilstoši aizpildiet pārējos laukus.  
   
-4.  Noklikšķiniet uz **Saglabāt** , lai izveidotu ierakstu un pēc tam varētu veikt tā rediģēšanu.  
+4.  Noklikšķiniet uz **Saglabāt**, lai izveidotu ierakstu un pēc tam varētu veikt tā rediģēšanu.  
   
 5.  Lai pievienotu prasmi, apgabalā **Prasmes** noklikšķiniet uz **+**.  
   
-6.  Rūtī **Lomas kompetences prasība** noklikšķiniet uz lauka **Prasme** , noklikšķiniet uz pogas **Meklēt** un pēc tam atlasiet prasmi.  
+6.  Rūtī **Lomas kompetences prasība** noklikšķiniet uz lauka **Prasme**, noklikšķiniet uz pogas **Meklēt** un pēc tam atlasiet prasmi.  
   
 7.  Atlasiet kvalifikāciju attiecīgajai prasmei un pēc tam noklikšķiniet uz **Saglabāt**.  
   

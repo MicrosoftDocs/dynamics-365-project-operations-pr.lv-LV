@@ -3,7 +3,7 @@ title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidum
 description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation atjauninājumu izlaidumā 22, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080392"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126627"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation atjauninājumu izlaidums 22, V3
 
@@ -69,4 +69,4 @@ Ir novērstas tālāk norādītās problēmas.
 - Validācijas kļūdas ziņojums netiek parādīts, ja Cenu saraksta uzmeklēšanā formā/entītijā tiek atlasīts Izmaksu cenrādis.
 - Ja piedāvājums tiek slēgts, nepārvietojieties uz izveidoto līgumu, ja piedāvājumam pievienotais BPF ir beigu stadijā.
 - Ja atsaukta **Neiekasētā pārdošana** tiek saistīta ar sākotnējām izmaksām, laika ieraksts tiks atsaukts.
-- Pēc pogas **Apstiprināt** atlases rēķina statuss netiek mainīts uz **Apstiprināts** , ja vien rēķins netiek atsvaidzināts.
+- Pēc pogas **Apstiprināt** atlases rēķina statuss netiek mainīts uz **Apstiprināts**, ja vien rēķins netiek atsvaidzināts.

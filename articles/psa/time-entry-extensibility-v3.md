@@ -3,7 +3,7 @@ title: Nedēļas laika ieraksta pielāgošana
 description: Šajā tēmā ir sniegta informācija par to, kā ieviest pielāgotas biznesa kārtulas, kas atbalsta organizācijas praksi.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080531"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127932"
 ---
 # <a name="customize-weekly-time-entry"></a>Nedēļas laika ieraksta pielāgošana 
 
@@ -51,15 +51,15 @@ Sadaļā **Dimensijas** iekļautā rediģēšana nav atļauta. Šīs sadaļas pa
 Sadaļā Ilgums ir parādītas nedēļas dienas kā kolonnu virsraksti. Šajā sadaļā iekļautā rediģēšana ir atļauta. Pēc tam, kad tiek izveidota laika ieraksta rinda ar atbilstošām dimensijām, lietotāji var ātri ievadīt, iekļaut laika periodu, ko viņi patērējuši uz šīm dimensijām.
 
 ## <a name="create-a-new-time-entry"></a>Jauna laika ieraksta izveide
-Jauna laika ieraksta izveidei atlasiet **Jauns** laika ierakstu režģī. Tiek atvērts dialoglodziņš **Laika ieraksta ātrā izveide**. Šajā dialoglodziņā lietotāji var atlasīt laika ieraksta datumu un pēc tam ievadīt datus dimensijām **Projekts** , **Projekta uzdevums** , **Loma** un **Ilgums** minūtēs, stundās vai dienās, ievadot **s** , **m** vai **d** kopā ar numuru. Lietotāji var ievadīt arī aprakstu un komentārus, ko var ārēji kopīgot laika ierakstam. Kad lietotāji saglabā savas izmaiņas, pretī dimensijām ierakstītās vērtības tiek rādītas sadaļā **Dimensijas**. Informācija par ilgumu, ko viņi ievadījuši laukā **Ilgums** , tiek parādīta laika ieraksta izveidošanas datumā.
+Jauna laika ieraksta izveidei atlasiet **Jauns** laika ierakstu režģī. Tiek atvērts dialoglodziņš **Laika ieraksta ātrā izveide**. Šajā dialoglodziņā lietotāji var atlasīt laika ieraksta datumu un pēc tam ievadīt datus dimensijām **Projekts**, **Projekta uzdevums**, **Loma** un **Ilgums** minūtēs, stundās vai dienās, ievadot **s**, **m** vai **d** kopā ar numuru. Lietotāji var ievadīt arī aprakstu un komentārus, ko var ārēji kopīgot laika ierakstam. Kad lietotāji saglabā savas izmaiņas, pretī dimensijām ierakstītās vērtības tiek rādītas sadaļā **Dimensijas**. Informācija par ilgumu, ko viņi ievadījuši laukā **Ilgums**, tiek parādīta laika ieraksta izveidošanas datumā.
 
 Uzmeklēšanas laukus atbalsta sistēmas skati. Piemēram, pēc tam, kad lietotājs ievada projektu, lauks **Projekta uzdevums** pēc noklusējuma tiek iestatīts uz **Kopēšanas** skatu. Lai izveidotu laika ierakstus uzdevumiem, kas nav piešķirti lietotājam, uzmeklēšanas dialoglodziņā atlasiet **Mainīt skatu** un pēc tam atlasiet skatu **Visi aktīvi projekta uzdevumi**.
 
 ## <a name="edit-a-time-entry"></a>Laika ieraksta rediģēšana
-Detalizēta informācija no dažiem laukiem laika ieraksta lapā, piemēram, **Apraksts** un **Ārējie komentāri** , netiek rādīti iknedēļas laika ierakstu režģī. Tā vietā ilguma šūnās, kurās ir šāda papildinformācija, parādās neliels trīsstūra indikators. Atlasiet šūnu un pēc tam atlasiet **Rediģēt papildinformāciju** , lai skatītu datus rūtī **Ātra rediģēšana**. Lai rediģētu vai atjauninātu papildinformāciju par konkrētu laika ierakstu, kas nav nedēļas laika ierakstu režģa daļa, lietotājiem ir jāatver rūts **Ātra rediģēšana**.
+Detalizēta informācija no dažiem laukiem laika ieraksta lapā, piemēram, **Apraksts** un **Ārējie komentāri**, netiek rādīti iknedēļas laika ierakstu režģī. Tā vietā ilguma šūnās, kurās ir šāda papildinformācija, parādās neliels trīsstūra indikators. Atlasiet šūnu un pēc tam atlasiet **Rediģēt papildinformāciju**, lai skatītu datus rūtī **Ātra rediģēšana**. Lai rediģētu vai atjauninātu papildinformāciju par konkrētu laika ierakstu, kas nav nedēļas laika ierakstu režģa daļa, lietotājiem ir jāatver rūts **Ātra rediģēšana**.
 
 ## <a name="copy-a-time-entry-row"></a>Laika ieraksta rindas kopēšana
-Pēc pirmās laika ieraksta rindas izveides lietotāji var atlasīt **Kopēt rindu** , lai kopētu visu rindu jaunā rindā. Ja rinda tiek kopēta šādā veidā, tiek kopētas arī dimensijas un ilgums. Lietotāji var arī atlasīt opciju **Rediģēt rindu** , lai atjauninātu dimensiju vērtības un ilgumu, kas iekļauti sadaļā **Ilgums**.
+Pēc pirmās laika ieraksta rindas izveides lietotāji var atlasīt **Kopēt rindu**, lai kopētu visu rindu jaunā rindā. Ja rinda tiek kopēta šādā veidā, tiek kopētas arī dimensijas un ilgums. Lietotāji var arī atlasīt opciju **Rediģēt rindu**, lai atjauninātu dimensiju vērtības un ilgumu, kas iekļauti sadaļā **Ilgums**.
 
 ## <a name="open-a-time-entry"></a>Laika ieraksta atvēršana
 Lai nodrošinātu optimālu un ātru ievadi labākajos laukos, iknedēļas laika ieraksta režģī tiek rādīta atlasīto dimensiju un laika ilguma apakškopa. Lai skatītu visu papildinformāciju par vienu laika ierakstu, sadaļā **Rediģēt ierakstu** atlasiet **Atvērt**.
@@ -71,13 +71,13 @@ Lietotāji var iesniegt vienu laika ierakstu vai laika ierakstu grupu, atlasot �
 Iesniegtos laika ierakstus var atsaukt. Varat atsaukt vienu laika ierakstu, laika ierakstu bloku vai veselu laika ierakstu rindu. Resursiem atsaucamie laika ieraksti ir pieejami rediģēšanai.
 
 ## <a name="time-entry-status"></a>Laika ieraksta statuss
-Jauniem laika ierakstiem automātiski tiek piešķirts statuss **Melnraksts**. Iesniedzot laika ierakstu, statuss tiek atjaunināts uz **Iesniegts**. Kad iesniegtais laika ieraksts ir apstiprināts, statuss tiek atjaunināts uz **Apstiprināts**. Ja laika ieraksts ir noraidīts, statuss tiek atjaunināts uz **Atgriezts** , un ieraksts kļūst pieejams labošanai un atkārtotai iesniegšanai. Var dzēst tikai tos laika ierakstus, kuriem ir statuss **Melnraksts**.
+Jauniem laika ierakstiem automātiski tiek piešķirts statuss **Melnraksts**. Iesniedzot laika ierakstu, statuss tiek atjaunināts uz **Iesniegts**. Kad iesniegtais laika ieraksts ir apstiprināts, statuss tiek atjaunināts uz **Apstiprināts**. Ja laika ieraksts ir noraidīts, statuss tiek atjaunināts uz **Atgriezts**, un ieraksts kļūst pieejams labošanai un atkārtotai iesniegšanai. Var dzēst tikai tos laika ierakstus, kuriem ir statuss **Melnraksts**.
 
 ## <a name="view-rejection-comments"></a>Noraidīšanas komentāru skatīšana
 Kad apstiprinātājs noraida laika ierakstu, apstiprinātājs var pievienot noraidīšanas komentārus, lai palīdzētu resursam izprast atteikuma iemeslu. Lai skatītu atteikuma komentārus laika ierakstam, atlasiet **Atvērt ierakstu**. Atteikuma komentāri tiks parādīti laika skalā. Laika skalā resurss var atbildēt uz atteikuma komentāriem, pirms viņš vai viņa atkārtoti iesniedz ierakstu.
 
 ## <a name="copy-week"></a>Nedēļas kopēšana
-Pēc neilga laika pēc laika ierakstu izveides lietotāji var atlasīt **Kopēt nedēļu** , lai masveidā izveidotu papildu laka ierakstus. Tiek atvērts dialoglodziņš **Kopēt**. Sadaļā **No perioda** izmantojiet laukus **Sākuma datums** un **Beigu datums** , lai definētu datumu diapazonu, no kura kopēt laika ierakstus. Sadaļā **Līdz periodam** , laukā **Sākuma datums** norādiet datumu, kuram veidot laika ierakstus. Tad atlasiet **Kopēt**. Noteiktam datumam periodā “līdz” tiek izveidota laika ierakstu kopija atbilstošai nedēļas dienai periodā “no”. Piemēram, pagājušās nedēļas pirmdienas laika ieraksts tiek kopēts uz nedēļas pirmdienu, kura norādīta kā “līdz” periods.
+Pēc neilga laika pēc laika ierakstu izveides lietotāji var atlasīt **Kopēt nedēļu**, lai masveidā izveidotu papildu laka ierakstus. Tiek atvērts dialoglodziņš **Kopēt**. Sadaļā **No perioda** izmantojiet laukus **Sākuma datums** un **Beigu datums**, lai definētu datumu diapazonu, no kura kopēt laika ierakstus. Sadaļā **Līdz periodam**, laukā **Sākuma datums** norādiet datumu, kuram veidot laika ierakstus. Tad atlasiet **Kopēt**. Noteiktam datumam periodā “līdz” tiek izveidota laika ierakstu kopija atbilstošai nedēļas dienai periodā “no”. Piemēram, pagājušās nedēļas pirmdienas laika ieraksts tiek kopēts uz nedēļas pirmdienu, kura norādīta kā “līdz” periods.
 
 ## <a name="import"></a>Importēšana
 To pašu pamata procesu izmanto importēšanai no rezervācijām, uzdevumiem un apmaiņām. Lietotāji var norādīt datu diapazonu, no kura tiek importētas rezervācijas. Pēc tam viņiem ir tieši jāatlasa rezervācijas, kas ir jākopē melnraksta laika ierakstos. Iepriekšējā laidienā ieteiktie laika ieraksti tika parādīti režģī un kalendārā, bet tika zaudēti sesijas atsvaidzināšanas laikā.
@@ -98,22 +98,22 @@ Pielāgotais lauks ir jāpievieno dialoglodziņam Laika ieraksta ātrā izveide.
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurējiet režģi, lai parādītu pielāgoto lauku.
 Ir divi veidi, kā pievienot pielāgotu lauku iknedēļas laika ierakstu režģim. Vispirms ir jāpielāgo skats **Manas iknedēļas laika ieraksti** un jāpievieno tam pielāgotais lauks. Varat izvēlēties pielāgotā lauka novietojumu un izmēru režģī, rediģējot šos rekvizītus skatā.
 
-Otra opcija ir izveidot jaunu pielāgotu laika ierakstu skatu un iestatīt to kā noklusējuma skatu. Šajā skatā ir jābūt iekļautiem laukiem **Apraksts** un **Ārējie komentāri** papildus tām kolonnām, kuras vēlaties redzēt režģī. Varat izvēlēties režģa novietojumu, izmēru un kārtošanas secību, rediģējot šos rekvizītus skatā. Pēc tam konfigurējiet pielāgotu vadīklu šim skatam, lai tā būtu **Laika ierakstu režģa** vadīkla. Pievienojiet šo vadīklu skatam un atlasiet to tīmeklim, tālrunim un planšetdatoram. Pēc tam konfigurējiet iknedēļas laika ierakstu režģa parametrus. Iestatiet lauku **Sākuma datums** uz **msdyn_date** , iestatiet lauku **Ilgums** uz **msdyn_duration** un iestatiet lauku **Statuss** uz **msdyn_entrystatus**. Noklusējuma skatam lauks **Tikai lasāms statusa saraksts** ir iestatīts uz **192350002, 192350003, 192350004** , lauks **Rindas rediģēšanas uzdevuma plūsma** ir iestatīts uz **msdyn_timeentryrowedit** un lauks **Šūnu rediģēšanas uzdevumu plūsma** ir iestatīts uz **msdyn_timeentryedit**. Varat pielāgot šos laukus, lai pievienotu vai noņemtu tikai lasāmu statusu vai izmantotu atšķirīgu uz uzdevumu balstītu pieredzi (TBX) rindu vai šūnu rediģēšanai. Šiem laukiem ir jābūt saistītiem ar statisku vērtību.
+Otra opcija ir izveidot jaunu pielāgotu laika ierakstu skatu un iestatīt to kā noklusējuma skatu. Šajā skatā ir jābūt iekļautiem laukiem **Apraksts** un **Ārējie komentāri** papildus tām kolonnām, kuras vēlaties redzēt režģī. Varat izvēlēties režģa novietojumu, izmēru un kārtošanas secību, rediģējot šos rekvizītus skatā. Pēc tam konfigurējiet pielāgotu vadīklu šim skatam, lai tā būtu **Laika ierakstu režģa** vadīkla. Pievienojiet šo vadīklu skatam un atlasiet to tīmeklim, tālrunim un planšetdatoram. Pēc tam konfigurējiet iknedēļas laika ierakstu režģa parametrus. Iestatiet lauku **Sākuma datums** uz **msdyn_date**, iestatiet lauku **Ilgums** uz **msdyn_duration** un iestatiet lauku **Statuss** uz **msdyn_entrystatus**. Noklusējuma skatam lauks **Tikai lasāms statusa saraksts** ir iestatīts uz **192350002, 192350003, 192350004**, lauks **Rindas rediģēšanas uzdevuma plūsma** ir iestatīts uz **msdyn_timeentryrowedit** un lauks **Šūnu rediģēšanas uzdevumu plūsma** ir iestatīts uz **msdyn_timeentryedit**. Varat pielāgot šos laukus, lai pievienotu vai noņemtu tikai lasāmu statusu vai izmantotu atšķirīgu uz uzdevumu balstītu pieredzi (TBX) rindu vai šūnu rediģēšanai. Šiem laukiem ir jābūt saistītiem ar statisku vērtību.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Pielāgotā lauka pievienošana atbilstošajai rediģēšanas uzdevumu plūsmai
 TBX lapas, kas tiek izmantotas rediģēšanai, var atrast sadaļā **Procesi**. Noklusējuma lapas ir **Project Service – Laika ierakstu rindas rediģēšana** un **Project Service – Laika ierakstu rediģēšana**. Varat vai nu rediģēt šīs noklusējuma lapas, vai izveidot jaunas pielāgotas TBX lapas.
 
 > [!NOTE] 
-> Abas opcijas noņems dažus neiekļautus filtrus entītijām, **Projekts** un **Projekta uzdevums** , lai būtu redzami visi entītiju uzmeklēšanas skati. Ārpus lodziņa ir redzami tikai atbilstošie uzmeklēšanas skati.
+> Abas opcijas noņems dažus neiekļautus filtrus entītijām, **Projekts** un **Projekta uzdevums**, lai būtu redzami visi entītiju uzmeklēšanas skati. Ārpus lodziņa ir redzami tikai atbilstošie uzmeklēšanas skati.
 
-Pielāgotajam laukam ir jānosaka piemērota uzdevumu plūsma. Visticamāk, ja pievienojāt lauku režģim, tam ir jābūt rindas rediģēšanas uzdevumu plūsmā, kas attiecas uz visu laika ierakstu rindu. Ja pielāgotajam laukam katru dienu ir unikāla vērtība, piemēram, pielāgots lauks **Beigu laiks** , tam ir jābūt šūnu rediģēšanas uzdevumu plūsmā.
+Pielāgotajam laukam ir jānosaka piemērota uzdevumu plūsma. Visticamāk, ja pievienojāt lauku režģim, tam ir jābūt rindas rediģēšanas uzdevumu plūsmā, kas attiecas uz visu laika ierakstu rindu. Ja pielāgotajam laukam katru dienu ir unikāla vērtība, piemēram, pielāgots lauks **Beigu laiks**, tam ir jābūt šūnu rediģēšanas uzdevumu plūsmā.
 
 Lai uzdevumu plūsmai pievienotu pielāgoto lauku, velciet elementu **Lauks** uz atbilstošo atrašanās vietu lapā un pēc tam iestatiet tā rekvizītus. Iestatiet rekvizītu **Avots** uz **Laika ieraksts** un iestatiet rekvizītu **Datu lauks** pielāgotajam laukam. Rekvizīts **Lauks** norāda TBX lapā parādāmo nosaukumu. Lai saglabātu izmaiņas laukā, atlasiet **Lietot**. Pēc tam, lai saglabātu izmaiņas lapā, atlasiet **Atjaunināt**.
 
-Lai tā vietā izmantotu jaunu pielāgotu TBX lapu, izveidojiet jaunu procesu. Iestatiet kategoriju uz **Biznesa procesa plūsma** , iestatiet entītiju uz **Laika ieraksts** un iestatiet biznesa procesa tipu uz **Palaist procesu kā uzdevuma plūsmu**. Sadaļā **Rekvizīti** ir jāiestata **Lapas nosaukums** lapas parādāmajam nosaukumam. Pievienojiet TBX lapai visus atbilstošos laukus. Saglabājiet un aktivizējiet procesu, un pēc tam procesam atjauniniet pielāgoto kontroles rekvizītu attiecīgajai uzdevumu plūsmai uz vērtību **Nosaukums**.
+Lai tā vietā izmantotu jaunu pielāgotu TBX lapu, izveidojiet jaunu procesu. Iestatiet kategoriju uz **Biznesa procesa plūsma**, iestatiet entītiju uz **Laika ieraksts** un iestatiet biznesa procesa tipu uz **Palaist procesu kā uzdevuma plūsmu**. Sadaļā **Rekvizīti** ir jāiestata **Lapas nosaukums** lapas parādāmajam nosaukumam. Pievienojiet TBX lapai visus atbilstošos laukus. Saglabājiet un aktivizējiet procesu, un pēc tam procesam atjauniniet pielāgoto kontroles rekvizītu attiecīgajai uzdevumu plūsmai uz vērtību **Nosaukums**.
 
 ### <a name="add-new-option-set-values"></a>Jaunu opciju kopas vērtību pievienošana
-Lai pievienotu opciju kopu vērtības neiekļautajam laukam, atveriet lauka rediģēšanas lapu un pēc tam sadaļā **Tips** atlasiet **Rediģēt** , kas atrodas blakus opciju kopai. Pēc tam pievienojiet jaunu opciju, kurai ir pielāgota etiķete un krāsa. Ja vēlaties pievienot jaunu laika ieraksta statusu, neiekļautā lauka nosaukums ir **Ieraksta statuss** , nevis **Statuss**.
+Lai pievienotu opciju kopu vērtības neiekļautajam laukam, atveriet lauka rediģēšanas lapu un pēc tam sadaļā **Tips** atlasiet **Rediģēt**, kas atrodas blakus opciju kopai. Pēc tam pievienojiet jaunu opciju, kurai ir pielāgota etiķete un krāsa. Ja vēlaties pievienot jaunu laika ieraksta statusu, neiekļautā lauka nosaukums ir **Ieraksta statuss**, nevis **Statuss**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Jauna laika ieraksta tikai lasāma statusa norādīšana
 Lai norādītu jaunu laika ieraksta statusu kā tikai lasāmu, pievienojiet jauno laika ieraksta vērtību (numuru, nevis etiķeti) rekvizītam **Tikai lasāma statusa saraksts**. Laika ieraksta režģa rediģējamā daļa tiks bloķēta rindām ar jaunu statusu.

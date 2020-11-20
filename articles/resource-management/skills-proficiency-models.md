@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080361"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128877"
 ---
 # <a name="skills-and-certifications"></a>Prasmes un sertifikācijas
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
@@ -25,12 +25,12 @@ Raksturīgo pazīmju pievienošana resursa prasībām sniedz iespēju dokumentē
 ## <a name="add-characteristics"></a>Raksturīgo pazīmju pievienošana
 
 1. Galvenajā izvēlnē atveriet **Resursi** un sadaļā **Resursi** atlasiet **Prasmes**.
-2. Atlasiet **Jauna** , lai pievienotu ātro atbildi.
+2. Atlasiet **Jauna**, lai pievienotu ātro atbildi.
 3. Aizpildiet obligātos laukus un atlasiet **Raksturīgās pazīmes tips**.
 
 ## <a name="assign-characteristics-to-resources"></a>Raksturīgo pazīmju piešķiršana resursam
 
-1. Galvenajā izvēlnē atlasiet **Resursi** > **Rezervējamie resursi**. Tiek atvērta lapa **Aktīvie rezervējamie resursi** , kurā var apskatīt visu sistēmā pieejamo resursu sarakstu.
+1. Galvenajā izvēlnē atlasiet **Resursi** > **Rezervējamie resursi**. Tiek atvērta lapa **Aktīvie rezervējamie resursi**, kurā var apskatīt visu sistēmā pieejamo resursu sarakstu.
 2. Sarakstā atlasiet rezervējama resursa nosaukumu.
 3. Sadaļā **Project Service** atlasiet **+Pievienot rezervējama resursa raksturīgo pazīmju ierakstu**.
 4. Atvērtajā uznirstošajā logā atrodiet un atlasiet vajadzīgās raksturīgās pazīmes un pievienojiet resursam **Vērtējuma vērtību**.

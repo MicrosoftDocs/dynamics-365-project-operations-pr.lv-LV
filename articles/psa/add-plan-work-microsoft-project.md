@@ -3,7 +3,7 @@ title: Project Service pievienojumprogrammas izmantošana darba plānošanai pro
 description: Šajā tēmā ir sniegta informācija par to, kā pievienot, konfigurēt un izmantot Microsoft Project pievienojumprogrammu programmai Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080574"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129687"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Izmantojiet pievienojumprogrammu Project Service Automation, lai plānotu savu darbu programmā Microsoft Project
 
@@ -44,7 +44,7 @@ ms.locfileid: "4080574"
 
 2.  Noklikšķiniet uz lejupielādes saites.  
 
-3.  Kad lejupielāde ir pabeigta, noklikšķiniet uz **Jā** , lai instalētu pievienojumprogrammu.  
+3.  Kad lejupielāde ir pabeigta, noklikšķiniet uz **Jā**, lai instalētu pievienojumprogrammu.  
 
 ## <a name="configure-the-add-in"></a>Pievienojumprogrammas konfigurēšana  
 
@@ -99,7 +99,7 @@ Projekts tiks importēts pievienojumprogrammā [!INCLUDE[pn_project_service_auto
 
 2. Dialoglodziņā **Publicēt jaunā Project Service projektā** ievadiet vērtību laukā **Projekta nosaukums** un atlasiet vienumu **Klients**.  
 
-3. Varat arī atzīmēt izvēles rūtiņu **Saistīt projekta plānu ar Project Service Automation** , lai piesaistītu plānotā projekta failu pievienojumprogrammai Project Service Automation.  
+3. Varat arī atzīmēt izvēles rūtiņu **Saistīt projekta plānu ar Project Service Automation**, lai piesaistītu plānotā projekta failu pievienojumprogrammai Project Service Automation.  
 
 4. Noklikšķiniet uz **Publicēt**.  
 
@@ -141,9 +141,9 @@ Projekts tiks importēts pievienojumprogrammā [!INCLUDE[pn_project_service_auto
 
 3. Dialoglodziņā **Iespējot atvēršanu programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** atlasiet **Jā** vai **Nē**.  
 
-   - Noklikšķinot uz **Jā** , jūs varēsit atlasīt pogu **Atvērt programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** Project Service Automation, palaist [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] un ielādēt projekta failu no SharePoint dokumentu bibliotēkas.  
+   - Noklikšķinot uz **Jā**, jūs varēsit atlasīt pogu **Atvērt programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** Project Service Automation, palaist [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] un ielādēt projekta failu no SharePoint dokumentu bibliotēkas.  
 
-   - Ja noklikšķināsit uz **Nē** , pogas **Atvērt programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saite nedarbosies.  
+   - Ja noklikšķināsit uz **Nē**, pogas **Atvērt programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saite nedarbosies.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] failu var atrast līdzeklī [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sadaļā **Dokumenti** konkrētajam [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projektam.  
 
@@ -155,9 +155,9 @@ Projekts tiks importēts pievienojumprogrammā [!INCLUDE[pn_project_service_auto
 
 3. Dialoglodziņā **Iespējot atvēršanu programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** atlasiet **Jā** vai **Nē**.  
 
-   - Noklikšķinot uz **Jā** , varēsit atlasīt pogu **Atvērt programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** Project Service Automation, palaist [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] un ielādēt projekta failu no SharePoint dokumentu bibliotēkas.  
+   - Noklikšķinot uz **Jā**, varēsit atlasīt pogu **Atvērt programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** Project Service Automation, palaist [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] un ielādēt projekta failu no SharePoint dokumentu bibliotēkas.  
 
-   - Ja noklikšķināsit uz **Nē** , pogas **Atvērt programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saite nedarbosies.  
+   - Ja noklikšķināsit uz **Nē**, pogas **Atvērt programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saite nedarbosies.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] failu var atrast līdzeklī [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sadaļā **Dokumenti** konkrētajam [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projektam.  
 
@@ -168,7 +168,7 @@ Projekts tiks importēts pievienojumprogrammā [!INCLUDE[pn_project_service_auto
 
 2. Dialoglodziņā **Publicēt jaunā Project Service projekta veidnē** ievadiet vērtību laukā **Projekta veidnes nosaukums**.  
 
-3. Varat arī atzīmēt izvēles rūtiņu **Saistīt projekta plānu ar Project Service Automation** , lai piesaistītu plānotā projekta failu pievienojumprogrammai [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Varat arī atzīmēt izvēles rūtiņu **Saistīt projekta plānu ar Project Service Automation**, lai piesaistītu plānotā projekta failu pievienojumprogrammai [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Noklikšķiniet uz **Publicēt**.  
 

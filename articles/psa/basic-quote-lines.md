@@ -3,7 +3,7 @@ title: Piedāvājumi un piedāvājumu rindas
 description: Šajā tēmā ir sniegta informācija par piedāvājumiem un piedāvājumu rindām.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080559"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129462"
 ---
 # <a name="quotes-and-quote-lines"></a>Piedāvājumi un piedāvājumu rindas
 
@@ -35,15 +35,15 @@ Programmā Dynamics 365 Project Service Automation ir divu tipu piedāvājumi: p
 - Pārdošanas piedāvājums atbalsta aktivizēšanu un pārskatījumus. Projekta piedāvājums neatbalsta šos procesus.
 - Pārdošanas piedāvājumam var pievienot vairākus pasūtījumus. Projekta piedāvājumam var pievienot tikai vienu projekta līgumu.
 - Varat iegūt pārdošanas piedāvājumu un saglabāt saistīto iespēju atvērtu. Pēc tam, kad projekta piedāvājums ir iegūts, saistītā iespēja tiek slēgta.
-- Pārdošanas piedāvājumā nav iekļauti daži lauki un koncepcijas, kas ir iekļauti projekta piedāvājumā. Šie lauki ir, piemēram, **Līgumslēdzēja struktūrvienība** , **Uzņēmumu pārvaldnieks** un **Rēķina saņēmēja kontaktpersonas vārds**.  
+- Pārdošanas piedāvājumā nav iekļauti daži lauki un koncepcijas, kas ir iekļauti projekta piedāvājumā. Šie lauki ir, piemēram, **Līgumslēdzēja struktūrvienība**, **Uzņēmumu pārvaldnieks** un **Rēķina saņēmēja kontaktpersonas vārds**.  
 - Pārdošanas piedāvājumus un projekta piedāvājumus norāda arī opciju kopas lauks ar nosaukumu **Tips**. Pārdošanas piedāvājumā šim laukam ir vērtība **Balstīts uz elementu**. Projekta piedāvājumā tam ir vērtība **Balstīts uz darbu**.
 
 Šajā tēmā tiks izklāstīta detalizēta informācija par projekta piedāvājumiem.
 
 Projekta piedāvājumam programmā PSA var būt vairāki rindas elementi vai piedāvājuma rindas. Projekta piedāvājumā ir divi režģi rindas elementiem. Viens režģis ir paredzēts uz projektu balstītām rindām, kas nodrošina detalizētus novērtējumus. Otrs režģis ir paredzēts uz preci balstītām rindām, kas izmanto vienkāršu vienības cenas un uz daudzumu balstītu metodi.
 
-- **Balstīts uz projektu**  — summa (piedāvātā vērtība) tiek noteikta pēc tam, kad ir novērtēts, cik daudz darba ir nepieciešams. Varat novērtēt darbu augstā līmenī vai arī var novērtēt to tieši kā rindas detaļas zem katras piedāvājuma rindas. Visbeidzot, varat novērtēt darbu, pamatojoties uz augšupejošiem novērtējumiem, izmantojot projektu un projekta plānu. Uz projektu balstītas piedāvājuma rindas ir atrodamas tikai uz projektu balstītos piedāvājumos, kas izveidoti, izmantojot Project Service Automation. Šī tipa piedāvājuma rinda ir pielāgota programmā Microsoft Dynamics 365 Sales pieejamo ierakstāmo piedāvājuma rindu forma.
-- **Balstīts uz preci**  — summa (piedāvātā vērtība) tiek noteikta, pamatojoties uz pārdoto vienību daudzumu un preces vienības pārdošanas cenu. Prece uz preci balstītā rindā var būt iegūta no Sales preču kataloga vai arī tā var būt jūsu definētā prece. Šī tipa piedāvājuma rinda ir pieejama arī uz projektu balstītos piedāvājumos, kas izveidoti, izmantojot PSA.
+- **Balstīts uz projektu** — summa (piedāvātā vērtība) tiek noteikta pēc tam, kad ir novērtēts, cik daudz darba ir nepieciešams. Varat novērtēt darbu augstā līmenī vai arī var novērtēt to tieši kā rindas detaļas zem katras piedāvājuma rindas. Visbeidzot, varat novērtēt darbu, pamatojoties uz augšupejošiem novērtējumiem, izmantojot projektu un projekta plānu. Uz projektu balstītas piedāvājuma rindas ir atrodamas tikai uz projektu balstītos piedāvājumos, kas izveidoti, izmantojot Project Service Automation. Šī tipa piedāvājuma rinda ir pielāgota programmā Microsoft Dynamics 365 Sales pieejamo ierakstāmo piedāvājuma rindu forma.
+- **Balstīts uz preci** — summa (piedāvātā vērtība) tiek noteikta, pamatojoties uz pārdoto vienību daudzumu un preces vienības pārdošanas cenu. Prece uz preci balstītā rindā var būt iegūta no Sales preču kataloga vai arī tā var būt jūsu definētā prece. Šī tipa piedāvājuma rinda ir pieejama arī uz projektu balstītos piedāvājumos, kas izveidoti, izmantojot PSA.
 
 Piedāvājumā ietvertā summa ir uz preci balstīto rindu un uz projektu balstīto rindu kopsumma.
 
@@ -75,12 +75,12 @@ PSA atbalsta visus trīs rēķinu grafiku tipus fiksētas cenas piedāvājuma ri
 
 Profesionālo pakalpojumu organizācijas parasti sniedz piedāvājumus un izraksta rēķinus saviem klientiem, izmantojot izmaksu klasifikāciju. Programmā PSA izmaksas tiek apzīmētas ar tālāk norādītajām transakciju klasifikācijām.
 
-- **Laiks**  — šī klasifikācija norāda darba vai cilvēkresursu laika izmaksas projektā.
-- **Izdevumi**  — šī klasifikācija norāda visus pārējos izdevumus projektā. Tā kā izdevumus var plaši klasificēt, lielākā daļā organizāciju izveido apakškategorijas, piemēram, ceļojumi, automašīnu īre, viesnīca vai biroja preces.
-- **Maksa**  — šī klasifikācija norāda dažādas pieskaitāmās izmaksas, soda naudas un citas no klienta iekasējamās maksas. 
-- **Nodoklis**  — šī klasifikācija norāda nodokļu summas, ko lietotāji pievieno, ievadot izdevumus.
-- **Materiālu transakcija**  — šī klasifikācija norāda faktiskās vērtības no preču rindām apstiprinātā projekta rēķinā.
-- **Atskaites punkts**  — šo klasifikāciju izmanto fiksētas cenas norēķinu loģika programmā PSA.
+- **Laiks** — šī klasifikācija norāda darba vai cilvēkresursu laika izmaksas projektā.
+- **Izdevumi** — šī klasifikācija norāda visus pārējos izdevumus projektā. Tā kā izdevumus var plaši klasificēt, lielākā daļā organizāciju izveido apakškategorijas, piemēram, ceļojumi, automašīnu īre, viesnīca vai biroja preces.
+- **Maksa** — šī klasifikācija norāda dažādas pieskaitāmās izmaksas, soda naudas un citas no klienta iekasējamās maksas. 
+- **Nodoklis** — šī klasifikācija norāda nodokļu summas, ko lietotāji pievieno, ievadot izdevumus.
+- **Materiālu transakcija** — šī klasifikācija norāda faktiskās vērtības no preču rindām apstiprinātā projekta rēķinā.
+- **Atskaites punkts** — šo klasifikāciju izmanto fiksētas cenas norēķinu loģika programmā PSA.
 
 Vienu vai vairākas no šīm transakciju klasifikācijām var saistīt ar katru piedāvājuma rindu. Pēc tam, kad piedāvājums ir iegūts, kartējums starp transakciju klasifikāciju un piedāvājuma rindu tiek pārsūtīts uz līguma rindu.
  
@@ -91,16 +91,16 @@ Piedāvājumā var būt ietvertas, piemēram, tālāk norādītās divas piedāv
 - Saistītie ceļa izdevumi, kas izmanto fiksētu cenas norēķinu metodi. Piemēram, par visiem projekta parauga **Dynamics AX ieviešana** ceļa izdevumiem rēķins tiek izrakstīts, izmantojot fiksētu naudas vērtību.
 
 > [!NOTE]
-> Projekta un transakciju klasifikāciju **Laiks** , **Izdevumi** un **Maksa** kombinācijai, kas saistīta ar piedāvājuma rindu vai līguma rindu, ir jābūt unikālai. Ja viena un tā pati projekta un transakciju klases kombinācija būs saistīta ar vairāk nekā vienu līguma rindu vai piedāvājuma rindu, PSA nedarbosies pareizi.
+> Projekta un transakciju klasifikāciju **Laiks**, **Izdevumi** un **Maksa** kombinācijai, kas saistīta ar piedāvājuma rindu vai līguma rindu, ir jābūt unikālai. Ja viena un tā pati projekta un transakciju klases kombinācija būs saistīta ar vairāk nekā vienu līguma rindu vai piedāvājuma rindu, PSA nedarbosies pareizi.
 
 ## <a name="billing-types"></a>Norēķinu tipi
 
 Lauks **Norēķinu tips** definē rēķinā iekļaujamības koncepciju programmā PSA. Tas ir opciju kopa ar tālāk norādītajām iespējamajām vērtībām.
 
-- **Rēķinā iekļaujams**  — izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, un klientam ir jāmaksā par šo darbu. Maksājumu var administrēt kā laika un materiālu vai fiksētas cenas apmaksu. Tomēr darbinieks, kas veltīs šo laiku, saņems atbilstošo kredītu par savu apmaksājamo izmantošanu.
-- **Rēķinā iekļaujams**  — izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, lai gan klients šo faktu neatzīst un nevēlas maksāt par šo darbu. Darbinieks, kas veltīs šo laiku, nesaņems atbilstošo kredītu par savu apmaksājamo izmantošanu.
-- **Bezmaksas**  — izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, un klients atzīst šo faktu. Darbinieks, kas veltīs šo laiku, saņems kredītu par savu apmaksājamo izmantošanu. Taču šīs izmaksas netiks iekasētas no klienta.
-- **Nav pieejams**  — izmaksas, kas rodas iekšējos projektos un kam nav nepieciešama ieņēmumu izsekošana, tiek izsekotas, izmantojot šo opciju.
+- **Rēķinā iekļaujams** — izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, un klientam ir jāmaksā par šo darbu. Maksājumu var administrēt kā laika un materiālu vai fiksētas cenas apmaksu. Tomēr darbinieks, kas veltīs šo laiku, saņems atbilstošo kredītu par savu apmaksājamo izmantošanu.
+- **Rēķinā iekļaujams** — izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, lai gan klients šo faktu neatzīst un nevēlas maksāt par šo darbu. Darbinieks, kas veltīs šo laiku, nesaņems atbilstošo kredītu par savu apmaksājamo izmantošanu.
+- **Bezmaksas** — izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, un klients atzīst šo faktu. Darbinieks, kas veltīs šo laiku, saņems kredītu par savu apmaksājamo izmantošanu. Taču šīs izmaksas netiks iekasētas no klienta.
+- **Nav pieejams** — izmaksas, kas rodas iekšējos projektos un kam nav nepieciešama ieņēmumu izsekošana, tiek izsekotas, izmantojot šo opciju.
 
 ## <a name="invoice-schedule"></a>Rēķina izrakstīšanas grafiks
 
@@ -116,16 +116,16 @@ PSA izmanto šīs trīs atribūtu vērtības, lai ģenerētu varbūtēju datumu 
 
 Rēķinu izrakstīšanas biežums ir entītija, kas glabā atribūtu vērtības, kuras palīdz izteikt rēķinu izveides biežumu. Tālāk norādītie atribūti izsaka vai definē rēķinu izrakstīšanas biežuma entītiju.
 
-- **Periods**  — tiek atbalstīti mēneša, divu nedēļu un nedēļas periodi. 
-- **Izpildes katrā periodā**  — nedēļas un divu nedēļas periodiem var definēt tikai vienu izpildi katrā periodā. Mēneša periodiem var definēt no vienas līdz četrām izpildēm katrā periodā. 
-- **Izpildes dienas**  — dienas, kurās jāveic rēķinu izrakstīšana. Šo atribūtu var konfigurēt divos veidos.
-  - **Darbadienas**  — varat, piemēram, norādīt, ka rēķini tiek izrakstīti katru pirmdienu vai katru otro pirmdienu. Klienti, kuriem jāiestata rēķinu izrakstīšana darbadienā, var dod priekšroku šāda veida konfigurācijai. 
-  - **Kalendārās dienas**  — varat, piemēram, norādīt, ka rēķini tiek izrakstīti katra mēneša septītajā un divdesmit pirmajā dienā. Dažas organizācijas var izvēlēties šāda veida konfigurāciju, jo tā palīdz garantēt, ka rēķini tiek izrakstīti, izmantojot fiksētu grafiku katru mēnesi.
+- **Periods** — tiek atbalstīti mēneša, divu nedēļu un nedēļas periodi. 
+- **Izpildes katrā periodā** — nedēļas un divu nedēļas periodiem var definēt tikai vienu izpildi katrā periodā. Mēneša periodiem var definēt no vienas līdz četrām izpildēm katrā periodā. 
+- **Izpildes dienas** — dienas, kurās jāveic rēķinu izrakstīšana. Šo atribūtu var konfigurēt divos veidos.
+  - **Darbadienas** — varat, piemēram, norādīt, ka rēķini tiek izrakstīti katru pirmdienu vai katru otro pirmdienu. Klienti, kuriem jāiestata rēķinu izrakstīšana darbadienā, var dod priekšroku šāda veida konfigurācijai. 
+  - **Kalendārās dienas** — varat, piemēram, norādīt, ka rēķini tiek izrakstīti katra mēneša septītajā un divdesmit pirmajā dienā. Dažas organizācijas var izvēlēties šāda veida konfigurāciju, jo tā palīdz garantēt, ka rēķini tiek izrakstīti, izmantojot fiksētu grafiku katru mēnesi.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Fiksētas cenas piedāvājuma rindas rēķina izrakstīšanas grafiks
 
-Fiksētas cenas piedāvājuma rindai varat izmantot režģi **Rēķina izrakstīšanas grafiks** , lai izveidotu rēķina izrakstīšanas atskaites punktus, kas ir līdzvērtīgi piedāvājuma rindas vērtībai.
+Fiksētas cenas piedāvājuma rindai varat izmantot režģi **Rēķina izrakstīšanas grafiks**, lai izveidotu rēķina izrakstīšanas atskaites punktus, kas ir līdzvērtīgi piedāvājuma rindas vērtībai.
 
-- Lai izveidotu rēķina izrakstīšanas atskaites punktus, kas ir vienādi sadalīti, atlasiet rēķinu izrakstīšanas biežumu, piedāvājuma rindā ievadiet rēķina perioda sākuma datumu un atlasiet piedāvājumam opciju **Pieprasītais pabeigšanas datums** piedāvājuma virsraksta sadaļā **Kopsavilkums**. Pēc tam atlasiet opciju **Izveidot periodiskus atskaites punktus** , lai izveidotu vienādi sadalītus atskaites punktus, pamatojoties uz atlasīto rēķinu izrakstīšanas biežumu. 
+- Lai izveidotu rēķina izrakstīšanas atskaites punktus, kas ir vienādi sadalīti, atlasiet rēķinu izrakstīšanas biežumu, piedāvājuma rindā ievadiet rēķina perioda sākuma datumu un atlasiet piedāvājumam opciju **Pieprasītais pabeigšanas datums** piedāvājuma virsraksta sadaļā **Kopsavilkums**. Pēc tam atlasiet opciju **Izveidot periodiskus atskaites punktus**, lai izveidotu vienādi sadalītus atskaites punktus, pamatojoties uz atlasīto rēķinu izrakstīšanas biežumu. 
 - Lai izveidotu vienreizējās izmaksas rēķina izrakstīšanas atskaites punktu, izveidojiet atskaites punktu un pēc tam ievadiet piedāvājuma rindas vērtību kā atskaites punkta summu.
 - Lai izveidotu rēķinu izrakstīšanas atskaites punktus, kuru pamatā ir noteikti uzdevumi projekta plānā, izveidojiet atskaites punktu un kartējiet to uz projekta grafika elementu rēķina izrakstīšanas atskaites punkta UI.

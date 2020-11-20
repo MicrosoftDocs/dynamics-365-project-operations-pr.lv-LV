@@ -3,7 +3,7 @@ title: Sava grafika skatīšana
 description: Sava grafika skatīšana programmā Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c3f85a8502439322af68a90d8a46bfd0fbe4b65
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35054a46251cbc4a91c7c37405e22287de4a9389
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080515"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125817"
 ---
 # <a name="view-your-schedule-project-service"></a>Sava grafika skatīšana (Project Service)
 
@@ -35,7 +35,7 @@ Ja vēlaties redzēt, kādi darbi šonedēļ ir jāveic, apskatiet savu grafiku.
   
 1.  Pārejiet uz sadaļu **Project Service > Rezervācijas un uzdevumi**. Tiek atvērts jūsu grafika kalendāra skats.  
   
-2.  Lai skatītu iepriekšējās vai nākamās nedēļas grafiku, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien** , lai atgrieztos pašreizējā nedēļā. Ja nepieciešams, noklikšķiniet uz uzdevuma, lai to atjauninātu.  
+2.  Lai skatītu iepriekšējās vai nākamās nedēļas grafiku, noklikšķiniet uz **Iepriekšējais** vai **Nākamais**. Noklikšķiniet uz **Šodien**, lai atgrieztos pašreizējā nedēļā. Ja nepieciešams, noklikšķiniet uz uzdevuma, lai to atjauninātu.  
   
 3.  Ja vēlaties redzēt konkrēto darbu sarakstu, noklikšķiniet uz **Režģis**. Ja nepieciešams, uzdevumus var rediģēt tieši rindā.  
   

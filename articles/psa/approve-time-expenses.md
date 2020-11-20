@@ -3,7 +3,7 @@ title: Laika un izdevumu apstiprināšana
 description: Laika un izdevumu apstiprināšana programmā Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080622"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127122"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Laika un izdevumu apstiprināšana (Project Service)
 
@@ -35,7 +35,7 @@ Pēc tam, kad konsultantu ievadījuši savu laiku un izdevumus projektam, jums n
   
 2.  Noklikšķiniet uz elementa, lai apstiprinātu.  
   
-3.  Cilnēs **Laika ieraksti** , **Izdevumu ieraksti** un **Prombūtne/atvaļinājums** pārskatiet katru vienumu un veiciet izmaiņas pēc vajadzības.  
+3.  Cilnēs **Laika ieraksti**, **Izdevumu ieraksti** un **Prombūtne/atvaļinājums** pārskatiet katru vienumu un veiciet izmaiņas pēc vajadzības.  
   
 4.  Lai apstiprinātu vienumu, atlasiet to un noklikšķiniet uz **Apstiprināt**. Varat atlasīt un apstiprināt vairākus vienumus vienlaikus.  
   

@@ -3,7 +3,7 @@ title: Resursu pieejamības skatīšana
 description: Resursu pieejamības skatīšana programmā Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080518"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124962"
 ---
 # <a name="view-resource-availability-project-service"></a>Resursu pieejamības skatīšana (Project Service)
 
@@ -38,11 +38,11 @@ Jūs varat pārbaudīt resursu pieejamību, lai iegūtu vispārēju priekšstatu
 
 1. Dodieties uz **Project Service > Resursu pieejamība**.  
 
-    Tas parāda visus resursus un to pieejamību kalendāra skatā. Ekrāna augšpusē atlasiet skatu vai kārtošanas secību. Varat arī izvēlēties, vai rādīt pieejamību laika periodam **Diena** , **Nedēļa** vai **Mēnesis** , un izmantojiet bultiņas, lai apskatītu iepriekšējo vai nākamo laika periodu. Izmantojiet meklēšanas lodziņu, lai atrastu noteiktu resursu.  
+    Tas parāda visus resursus un to pieejamību kalendāra skatā. Ekrāna augšpusē atlasiet skatu vai kārtošanas secību. Varat arī izvēlēties, vai rādīt pieejamību laika periodam **Diena**, **Nedēļa** vai **Mēnesis**, un izmantojiet bultiņas, lai apskatītu iepriekšējo vai nākamo laika periodu. Izmantojiet meklēšanas lodziņu, lai atrastu noteiktu resursu.  
 
-2. Noklikšķiniet uz **Opcijas** , lai mainītu, kas tiek parādīts. Piemēram, var attēlot apzīmējumus, kas parāda krāsu shēmu dažāda veida rezervācijai, vai var izvēlēties, lai tiktu parādīta tikai noteikta veida rezervācija (piemēram, stingrā rezervācija vai vieglā rezervācija).  
+2. Noklikšķiniet uz **Opcijas**, lai mainītu, kas tiek parādīts. Piemēram, var attēlot apzīmējumus, kas parāda krāsu shēmu dažāda veida rezervācijai, vai var izvēlēties, lai tiktu parādīta tikai noteikta veida rezervācija (piemēram, stingrā rezervācija vai vieglā rezervācija).  
 
-3. Noklikšķiniet uz **Filtrs** , lai parādītu rūti **Filtrs** , kura ļauj filtrēt rezultātus pēc struktūrvienības, lomas, prasmes vai citiem atribūtiem.  
+3. Noklikšķiniet uz **Filtrs**, lai parādītu rūti **Filtrs**, kura ļauj filtrēt rezultātus pēc struktūrvienības, lomas, prasmes vai citiem atribūtiem.  
 
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)
