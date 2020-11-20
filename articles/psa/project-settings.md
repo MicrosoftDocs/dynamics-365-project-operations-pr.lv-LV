@@ -3,7 +3,7 @@ title: Projekta iestatījumi
 description: Šajā tēmā ir sniegta informācija par projekta pārvaldības iestatījumiem.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080607"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123117"
 ---
 # <a name="project-settings"></a>Projekta iestatījumi
 
@@ -52,7 +52,7 @@ Lai izveidotu projekta grafiku, jums ir jāizveido projekta kalendāra veidne, k
 4. Atlasiet **Jauns nedēļas grafiks** un pēc tam iestatiet opcijas šī resursa grafikam. Varat iestatīt periodisku nedēļas grafiku, dienas stundu parametrus, uzņēmuma slēgšanas gadījumus un citus rādītājus.
 5. Iestatiet datumu diapazonu, atlasiet **Saglabāt** un pēc tam noklikšķiniet uz **Aizvērt**. 
 6. Atgriezieties saraksta lapā **Resursi** un atlasiet resursu, kuram iestatījāt darba stundas. 
-7. Atlasiet **Iestatīt kalendāru kā** , lai iestatītu darba veidni. 
+7. Atlasiet **Iestatīt kalendāru kā**, lai iestatītu darba veidni. 
 8. Dialoglodziņā **Darba veidne** ievadiet nosaukumu šai darba veidnei un pēc tam atlasiet **Lietot**. 
 
 Tagad šo darba veidni varat sasaistīt ar projekta kalendāra veidni.

@@ -3,7 +3,7 @@ title: Kvalifikācijas modeļu iestatīšana
 description: Kvalifikācijas modeļu iestatīšana programmā Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080661"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122983"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Kvalifikācijas modeļu iestatīšana (Project Service)
 
@@ -33,9 +33,9 @@ Pēc prasmju pievienošanas klientu projektiem ir nepieciešams veids, kā novē
   
 1.  Dodieties uz **Project Service > Kvalifikācijas modeļi**.  
   
-2.  Sarakstā noklikšķiniet uz **Noklusējuma vērtēšanas modelis** , lai apskatītu vai rediģētu noklusējuma kvalifikācijas modeli, vai noklikšķiniet uz **Jauns** , lai izveidotu jaunu kvalifikācijas modeli.  
+2.  Sarakstā noklikšķiniet uz **Noklusējuma vērtēšanas modelis**, lai apskatītu vai rediģētu noklusējuma kvalifikācijas modeli, vai noklikšķiniet uz **Jauns**, lai izveidotu jaunu kvalifikācijas modeli.  
   
-3.  Ja veidojat jaunu kvalifikācijas modeli, aizpildiet laukus apgabalā **Vispārīgi** un pēc tam noklikšķiniet uz **Saglabāt** , lai izveidotu ierakstu, lai varētu turpināt tā rediģēšanu. Veidojot savu kvalifikācijas modeli, ņemiet vērā, ka lielākas vērtības ir labākas.  
+3.  Ja veidojat jaunu kvalifikācijas modeli, aizpildiet laukus apgabalā **Vispārīgi** un pēc tam noklikšķiniet uz **Saglabāt**, lai izveidotu ierakstu, lai varētu turpināt tā rediģēšanu. Veidojot savu kvalifikācijas modeli, ņemiet vērā, ka lielākas vērtības ir labākas.  
   
      Piemēram, ja skatāt vai rediģējat noklusējuma vērtēšanas modeli, jūs redzēsiet šādus kvalifikācijas līmeņus sadaļā **Vērtējumu vērtības**.  
   

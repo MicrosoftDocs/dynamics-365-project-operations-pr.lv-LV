@@ -2,7 +2,7 @@
 title: Kas jauns vai mainīts Project Service Automation 3. versijā
 description: Šajā tēmā ir sniegta informācija par to, kas jauns un mainīts Project Service Automation 3. versijā.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080406"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120012"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Kas jauns vai mainīts Project Service Automation 3. versijā
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -40,7 +40,7 @@ Grafikā tagad ir jauna virsma mijiedarbībai, kas ir gan mūsdienīga, gan piee
 - **Ganta diagramma** — vairs nav pieejama Ganta diagramma. Jauna Ganta vizualizācija atgriezīsies turpmākā atjauninājumā.
 - **Kolonnu virsraksti** — kolonnu virsrakstus varat paslēpt režģī, noklikšķinot uz lejupvērstā indikatora blakus kolonnas virsrakstam. 
 - **Kolonnas** — paslēptas kolonnas varat parādīt, noklikšķinot uz **Pievienot kolonnu**. 
-- **Transakcijas kategorija** — plāna režģim pievienota uzmeklēšana **Transakcijas kategorija** , un tā tiek rādīta pēc noklusējuma. 
+- **Transakcijas kategorija** — plāna režģim pievienota uzmeklēšana **Transakcijas kategorija**, un tā tiek rādīta pēc noklusējuma. 
  
 ## <a name="project-templates"></a>Projekta veidnes
 Projekta veidņu funkcionalitātē ir veiktas tālāk minētās izmaiņas.
@@ -94,7 +94,7 @@ Prognozes ir sadalītas divās cilnēs: **Resursu piešķires** un **Prognozes**
 
 ![Resursu piešķires cilnes parāda darba prognozes un resursu piešķires uzdevumiem](media/resource-assignments-tab-02.png)
 
-Cilne **Prognozes** parāda resursu piešķires izmaksas un pārdošanas summas. Summām ir tikai lasāms statuss. Izmaksas un pārdošanas cenas tagad tiek vadītas no darba grupas dalībnieka piešķirēm plānā. Tas nozīmē, ja jums ir uzdevums bez piešķires, uzdevums tiks parādīts pie nepiešķirta intervāla. Tas nozīmē arī to, ka bez **lomas** , kas ir noklusējuma izcenojuma dimensija, nebūs prognozēto izmaksu vai pārdošanas, ja ar šo projektu ir saistīts klients vai līgums / piedāvājums. 
+Cilne **Prognozes** parāda resursu piešķires izmaksas un pārdošanas summas. Summām ir tikai lasāms statuss. Izmaksas un pārdošanas cenas tagad tiek vadītas no darba grupas dalībnieka piešķirēm plānā. Tas nozīmē, ja jums ir uzdevums bez piešķires, uzdevums tiks parādīts pie nepiešķirta intervāla. Tas nozīmē arī to, ka bez **lomas**, kas ir noklusējuma izcenojuma dimensija, nebūs prognozēto izmaksu vai pārdošanas, ja ar šo projektu ir saistīts klients vai līgums / piedāvājums. 
 
 ![Prognožu cilnes parādītas izmaksas un pārdošanas summas](media/estimates-tab-03.png)
   
@@ -105,21 +105,21 @@ Izdevumu prognozes var ievadīt režģī cilnē **Izdevumu prognozes**.
 ![Izdevumu prognožu cilnes parādīts izdevumu prognožu režģis](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Resursu pārvaldība
-Project Service Automation 3. versijā, izmantojot jauno vienotā klienta lietotāja interfeisu un izmaiņas attiecībās starp rezervācijām un piešķirēm, personāla komplektēšana projektam ar vispārējiem vai reāliem resursiem ir būtiski mainījusies, salīdzinot ar 2. un 1. versiju. Tomēr rezervējamo resursu koncepcijas gan **reāliem** , gan **vispārējiem** resursiem paliek tādas pašas, tāpat kā darba grupas dalībnieki, prasības, piešķires un rezervācijas.   
+Project Service Automation 3. versijā, izmantojot jauno vienotā klienta lietotāja interfeisu un izmaiņas attiecībās starp rezervācijām un piešķirēm, personāla komplektēšana projektam ar vispārējiem vai reāliem resursiem ir būtiski mainījusies, salīdzinot ar 2. un 1. versiju. Tomēr rezervējamo resursu koncepcijas gan **reāliem**, gan **vispārējiem** resursiem paliek tādas pašas, tāpat kā darba grupas dalībnieki, prasības, piešķires un rezervācijas.   
 
 ![Resursu atlasītāja izmantošana](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Reāla rezervējama resursa piešķiršana 
 Project Service Automation 3. versijā rezervācijas un uzdevumu piešķires nav tik cieši saistītas kā iepriekšējās Project Service Automation versijās. Darba grupas režģi var izmantot, lai rezervētu **reālu** darba grupas dalībnieku, līdzīgi kā iekšējā tirgū.
 
-Izmantojot resursu atlasītāju plānā, varat atlasīt darba grupas dalībnieku, kas izveidots darba grupas skatā, un pēc tam piešķirt to uzdevumiem. Varat arī turpināt piešķirt tiem uzdevumus pat pēc to rezervācijas. Izmantojiet cilni **Saskaņošana** , lai saskaņotu darba grupas dalībniekus ar atšķirībām rezervācijās un piešķirēs.
+Izmantojot resursu atlasītāju plānā, varat atlasīt darba grupas dalībnieku, kas izveidots darba grupas skatā, un pēc tam piešķirt to uzdevumiem. Varat arī turpināt piešķirt tiem uzdevumus pat pēc to rezervācijas. Izmantojiet cilni **Saskaņošana**, lai saskaņotu darba grupas dalībniekus ar atšķirībām rezervācijās un piešķirēs.
 
 Resursu atlasītājs parādīs darba grupas dalībniekus šim projektam. Varat arī izmantot resursu atlasītāju, lai meklētu un skatītu citus rezervējamos resursus, kas nav projekta darba grupas daļa. Tos varat piešķirt uzdevumam, un tie kļūs par projekta darba grupas daļu. Tos nepieciešams rezervēt, izmantojot cilni **Plānošanas panelis** vai **Saskaņošana**.
 
 ### <a name="assign-a-generic-bookable-resource-on-a-task-and-project-team-and-then-fulfill-with-a-real-resource-via-schedule-board"></a>Vispārēja rezervējama resursa piešķiršana uzdevumam un projekta darba grupai, pēc tam izpildot ar īstu resursu, izmantojot plānošanas paneli 
 Project Service Automation 3. versijā ģenerēšanas darba grupas funkcionalitāte netiek izmantota vispārējiem resursiem. Tā vietā varat izveidot un tieši piešķirt vispārējo resursu no plāna, ierakstot plāna resursa šūnā attiecīgā vispārējā resursa pozīcijas nosaukumu. Vai arī varat atlasīt resursu ikonu šūnā un pēc tam, izmantojot resursu atlasītāju, ierakstīt tā vispārējā resursa nosaukumu, ko vēlaties izveidot. Tiks atvērts ātrās izveides panelis, kas ļauj iestatīt vispārējā resursa darba grupas dalībnieka lomu un organizācijas vienību. Kad resurss ir izveidots, tas tiek piešķirts uzdevumam, un šo vispārējo resursu varat arī turpināt piešķirt citiem uzdevumiem plānā.    
  
-Kad resurss ir piešķirts visiem atbilstošajiem uzdevumiem, varat ģenerēt resursa vajadzību un pēc tam to izpildīt, veicot tiešu rezervāciju, izmantojot **Plānošanas paneli** , vai iesniedzot resursa pieprasījumu. Varat arī pievienot vispārējos resursus tieši darba grupas dalībnieka režģim. 
+Kad resurss ir piešķirts visiem atbilstošajiem uzdevumiem, varat ģenerēt resursa vajadzību un pēc tam to izpildīt, veicot tiešu rezervāciju, izmantojot **Plānošanas paneli**, vai iesniedzot resursa pieprasījumu. Varat arī pievienot vispārējos resursus tieši darba grupas dalībnieka režģim. 
 
 Vispārējie resursi tiek pievienoti projekta darba grupai bez resursu vajadzībām un ar projekta sākuma / beigu datumiem, līdz tiek ģenerēta resursa vajadzība. Lai ģenerētu vajadzību, atlasiet vispārējo resursu un noklikšķiniet uz **Ģenerēt**. Tagad tiek rādīta vajadzības saite, un nepieciešamās stundas tiks aizpildītas ar piešķirtajām stundām. Varat noklikšķināt uz saites, lai atvērtu un atjauninātu šo vajadzību.
   
@@ -146,19 +146,19 @@ Ja resursam ir uzdevuma piešķires bez rezervācijām (rezervācijas deficīts)
 Šajā sadaļā ir sniegta informācija par laika, izdevumu un apstiprinājuma izmaiņām Project Service Automation 3. versijā. Kā daļa no Dynamics 365 Project Service Automation risinājuma, līdzeklis **Laika ieraksts** ir atsvaidzināts, lai gūtu labumu no vienotā interfeisa struktūras. Tas iespējo konsekventa, vienota lietotāja interfeisa nodrošināšanu, kas seko atsaucīgam dizainam optimālai skatīšanai jebkāda izmēra ekrānā vai ierīcē. 
 
 ### <a name="landing-page"></a>Reklāmas mērķlapa
-Nepaplašināmā pielāgotā laika ieraksta pieredze 3. versijā ir novecojusi. Tās vietā tagad ir paplašināma un pieejama vietējā režģa pieredze. Varat piekļūt laika ieraksta funkcionalitātei, izmantojot vietnes karti kreisajā pusē. Ar šo izmaiņu vairs nebūs iespējams katrā reizē ievadīt laiku nedēļai. Tā vietā ir jāizveido laika ieraksts katrai dienai režģī. Pēc dažu laika ierakstu izveidošanas lietotāji var izveidot lielapjoma laika ierakstus, izmantojot funkciju **Kopēt** , kas paskaidrota šīs tēmas turpinājumā. 
+Nepaplašināmā pielāgotā laika ieraksta pieredze 3. versijā ir novecojusi. Tās vietā tagad ir paplašināma un pieejama vietējā režģa pieredze. Varat piekļūt laika ieraksta funkcionalitātei, izmantojot vietnes karti kreisajā pusē. Ar šo izmaiņu vairs nebūs iespējams katrā reizē ievadīt laiku nedēļai. Tā vietā ir jāizveido laika ieraksts katrai dienai režģī. Pēc dažu laika ierakstu izveidošanas lietotāji var izveidot lielapjoma laika ierakstus, izmantojot funkciju **Kopēt**, kas paskaidrota šīs tēmas turpinājumā. 
 
 ![Laika ieraksta reklāmas mērķlapa](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Jaunu laika ierakstu izveide 
-Lentē noklikšķiniet **Jauns** , lai atvērtu ātrās izveides lapu laika ieraksta, kur ievadīt ilgumu minūtēs, stundās vai dienās. Lai to izdarītu, vienkārši sāciet rakstīt s, m vai d kopā ar daudzumu.  
+Lentē noklikšķiniet **Jauns**, lai atvērtu ātrās izveides lapu laika ieraksta, kur ievadīt ilgumu minūtēs, stundās vai dienās. Lai to izdarītu, vienkārši sāciet rakstīt s, m vai d kopā ar daudzumu.  
 
 ![Laika ieraksta ātrā izveide](media/quick-create-time-entry-08.png)
 
 Uzmeklēšanas laukus atbalsta sistēmas skati. Piemēram, pēc projekta informācijas ievadīšanas lauks **Projekta uzdevums** pēc noklusējuma ir iestatīts uz skatu **Mani atvērtie projekta uzdevumi**. Lai izveidotu laika ierakstus uzdevumiem, kas nav piešķirti lietotājam, uzmeklēšanā noklikšķiniet **Mainīt skatu** un pēc tam atlasiet **Visi aktīvie projekta uzdevumi**. Pēc tam, kad laika ieraksts ir izveidots un parādīts režģī, varat rediģēt jebkuras rindas vērtības režģī.  
 
 ### <a name="bulk-createcopy"></a>Lielapjoma izveide / kopēšana 
-Pēc tam, kad izveidoti daži laika ieraksti, varat izmantot kopēšanas funkcionalitāti, lai izveidotu papildu lielapjoma laika ierakstus. Noklikšķiniet **Kopēt** , lai atvērtu dialogu **Kopēt**. **No perioda: sākuma datums** iestatiet datu diapazonu, no kura jākopē laika periodi. **Uz periodu: sākuma datums** norādiet datumu, kuram jāizveido laika ieraksti. Noklikšķiniet **Kopēt** , lai kopētu laika ierakstus uz atbilstošo nedēļas dienu, kas norādīta **Uz periodu**. Piemēram, pirmdienas laika ieraksts no iepriekšējās nedēļas tiks kopēts uz pirmdienu nedēļā, kas norādīta **Uz periodu**. 
+Pēc tam, kad izveidoti daži laika ieraksti, varat izmantot kopēšanas funkcionalitāti, lai izveidotu papildu lielapjoma laika ierakstus. Noklikšķiniet **Kopēt**, lai atvērtu dialogu **Kopēt**. **No perioda: sākuma datums** iestatiet datu diapazonu, no kura jākopē laika periodi. **Uz periodu: sākuma datums** norādiet datumu, kuram jāizveido laika ieraksti. Noklikšķiniet **Kopēt**, lai kopētu laika ierakstus uz atbilstošo nedēļas dienu, kas norādīta **Uz periodu**. Piemēram, pirmdienas laika ieraksts no iepriekšējās nedēļas tiks kopēts uz pirmdienu nedēļā, kas norādīta **Uz periodu**. 
 
 ![Lielapjoma laika ierakstu kopēšana](media/bulk-copy-time-entry-09.png)
  
@@ -189,25 +189,25 @@ Common Data Service platforma neatbalsta viena lietotāja uzdošanos par citu, k
 > Šī informācija ir jāuzskata par ieteiktiem norādījumiem attiecībā uz partnera / klienta veiktu pielāgotu ieviešanu. Produkta darba grupa nesniegs oficiālu atbalstu šai funkcionalitātei, izmantojot jebkuru no mūsu atbalsta kanāliem.
 
 ### <a name="customization-details"></a>Pielāgošanas papildinformācija 
-Pielāgošana ļauj pievienot **Rezervējamais resurss** , lai izveidotu un rediģētu pieredzes, kas lietotājam ļaus darboties kā pārstāvim, mainot lauku **Resursa rezervācija** citam lietotājam, kuram jāieraksta laika un izdevumu ieraksts. Tālāk minētajās darbībās tiek aptverta laika ieraksta deleģēšana. Tāda pati informācija attiecas uz izdevumu ieraksta deleģēšanu. 
+Pielāgošana ļauj pievienot **Rezervējamais resurss**, lai izveidotu un rediģētu pieredzes, kas lietotājam ļaus darboties kā pārstāvim, mainot lauku **Resursa rezervācija** citam lietotājam, kuram jāieraksta laika un izdevumu ieraksts. Tālāk minētajās darbībās tiek aptverta laika ieraksta deleģēšana. Tāda pati informācija attiecas uz izdevumu ieraksta deleģēšanu. 
  
 1.  Pārliecinieties, vai deleģētajam lietotājam ir globālā drošības piekļuve projektiem un projektu uzdevumiem. 
-1.  Tā kā **Rezervējamais resurss** , kas ir lauks entītijā **Laika ieraksts** , netiek parādīts lapā **Ātrā izveide** , tas ir jāpievieno.
+1.  Tā kā **Rezervējamais resurss**, kas ir lauks entītijā **Laika ieraksts**, netiek parādīts lapā **Ātrā izveide**, tas ir jāpievieno.
 
     Vai
 
-    Izveidojiet pielāgotu skatu, kas ietver kolonnu **Rezervējamais resurss** , lai skatītu tikai resursam izveidotos laika ierakstus. Publicējiet pielāgojumus programmas moduļa noformētājā, lai šis skats parādītos zem **Skatīt atlasītāju** lapā **Laika ieraksti**. Pastāv divi spraudņi, kas regulē vadītāja iestatīšanu ar projektu nesaistītos laika ierakstos.
+    Izveidojiet pielāgotu skatu, kas ietver kolonnu **Rezervējamais resurss**, lai skatītu tikai resursam izveidotos laika ierakstus. Publicējiet pielāgojumus programmas moduļa noformētājā, lai šis skats parādītos zem **Skatīt atlasītāju** lapā **Laika ieraksti**. Pastāv divi spraudņi, kas regulē vadītāja iestatīšanu ar projektu nesaistītos laika ierakstos.
 
     - Pirmsvalidācijas laika ieraksta izveide
     - Pirmsvalidācijas laika ieraksta atjaunināšana
  
-1. Izveidojiet jaunu spraudni, lai pārrakstītu lauku **Vadītājs** tā lietotāja vadītājam, kurš ir piešķirts laukā **Rezervējamais resurss**. Lietojiet to pašu **Izpildes posmu** kā ārpusjoslas (OOB) spraudnim (pirmsvalidācijas) un izmantojiet **Izpildes pasūtījumu** , kas ir lielāks nekā OOB spraudņi (lielāks nekā 1). Tas nodrošinās, ka pielāgotais spraudnis tiek izpildīts pēc OOB spraudņiem.  
+1. Izveidojiet jaunu spraudni, lai pārrakstītu lauku **Vadītājs** tā lietotāja vadītājam, kurš ir piešķirts laukā **Rezervējamais resurss**. Lietojiet to pašu **Izpildes posmu** kā ārpusjoslas (OOB) spraudnim (pirmsvalidācijas) un izmantojiet **Izpildes pasūtījumu**, kas ir lielāks nekā OOB spraudņi (lielāks nekā 1). Tas nodrošinās, ka pielāgotais spraudnis tiek izpildīts pēc OOB spraudņiem.  
  
 ### <a name="end-user-experience"></a>Gala lietotāja pieredze
-1.  Kad ātrās izveides lapā izveidojat laika ierakstu, ievadiet projekta un projekta uzdevuma papildinformāciju un pēc tam izvēlieties lietotāju laukā **Rezervējamais resurss** , kuram jāieraksta laika ieraksti. 
+1.  Kad ātrās izveides lapā izveidojat laika ierakstu, ievadiet projekta un projekta uzdevuma papildinformāciju un pēc tam izvēlieties lietotāju laukā **Rezervējamais resurss**, kuram jāieraksta laika ieraksti. 
 2.  Pēc noklusējuma šis lauks tiek noklusēts lietotājam, kurš ir pieteicies, tomēr, ņemot vērā, ka lietotājs pārlabojis šo lauku, laika ieraksts tagad tiek izveidots izvēlētajam **Rezervējamam resursam**.
 3.  Iesniedzot laika ierakstus, kas izveidoti šiem ierakstiem, ieraksti tiks sarindoti projekta apstiprinātājam, kā paredzēts. 
-4.  Atsaucot citam lietotājam izveidotos laika ierakstus, šie laika ieraksti atgriezīsies stāvoklī **Melnraksts** kopā ar lauku **Rezervējamais resurss** , kas iestatīts citam lietotājam. 
+4.  Atsaucot citam lietotājam izveidotos laika ierakstus, šie laika ieraksti atgriezīsies stāvoklī **Melnraksts** kopā ar lauku **Rezervējamais resurss**, kas iestatīts citam lietotājam. 
 5.  Pēc izvēles varat pārslēgties uz pielāgoto skatu, lai filtrētu citam lietotājam izveidotos laika ierakstus. 
  
 ### <a name="limitations"></a>Ierobežojumi
@@ -229,9 +229,9 @@ Project Service Automation klientiem, kas vēlas turpināt izmantot šos iebūv�
 Project Service Automation 3. versijā ir mainījušies iestatījumu un pārvaldības aspekti piedāvājumiem un līgumiem. Nākamajās sadaļās ir sniegta papildinformācija.
 
 ### <a name="set-up-chargeability-options"></a>Maksas iekasēšanas opciju iestatīšana
-1. un 2. versijā maksas iekasēšanas iestatīšana noteiktu piedāvājumu un līgumu lomām un kategorijām tika veikta, izmantojot skatu **Maksas iekasēšana** , kas atradās piedāvājuma vai līguma rindas navigācijas augšpusē. Turpat bija iespējams iestatīt šo lomu cenas un izdevumu kategorijas.
+1. un 2. versijā maksas iekasēšanas iestatīšana noteiktu piedāvājumu un līgumu lomām un kategorijām tika veikta, izmantojot skatu **Maksas iekasēšana**, kas atradās piedāvājuma vai līguma rindas navigācijas augšpusē. Turpat bija iespējams iestatīt šo lomu cenas un izdevumu kategorijas.
 
-Sākot ar 3. versiju, maksas iekasēšanas opciju pēc lomas un izdevumu kategorijas iestatīšana tiks veikta piedāvājuma vai līguma rindas līmenī. Izcenojuma iestatīšana ir atdalīta no maksas iekasēšanas iestatīšanas. Varat atrast **Lomas ar maksas iekasēšanu** un **Kategorijas ar maksas iekasēšanu** kā cilnes lapās **Piedāvājuma rinda** un **Līguma rindu** , neizmantojot navigācijas augšpusi.
+Sākot ar 3. versiju, maksas iekasēšanas opciju pēc lomas un izdevumu kategorijas iestatīšana tiks veikta piedāvājuma vai līguma rindas līmenī. Izcenojuma iestatīšana ir atdalīta no maksas iekasēšanas iestatīšanas. Varat atrast **Lomas ar maksas iekasēšanu** un **Kategorijas ar maksas iekasēšanu** kā cilnes lapās **Piedāvājuma rinda** un **Līguma rindu**, neizmantojot navigācijas augšpusi.
 
 ![Rēķinā iekļaujamās lomas](media/chargeable-12.png)
  

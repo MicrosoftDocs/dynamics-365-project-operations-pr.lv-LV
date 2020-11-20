@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080327"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122758"
 ---
 # <a name="cash-advance"></a>Naudas avanss
 
@@ -25,7 +25,7 @@ Naudas avanss ļauj darbiniekiem aizņemties naudu no uzņēmuma pirms jebkādu 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Naudas avansa pieprasījuma izveide un iesniegšana
 
-1. Sadaļā **Mani izdevumi** atlasiet **Naudas avansi** > **Jauns** , lai izveidotu jaunu naudas avansu. 
+1. Sadaļā **Mani izdevumi** atlasiet **Naudas avansi** > **Jauns**, lai izveidotu jaunu naudas avansu. 
 2. Lapā **Jauns naudas avansa pieprasījums** ievadiet izdevumu mērķi un atlasiet vietu, kurā radīsies izdevumi.
 3. Ievadiet pieprasīto summu un valūtu un pēc tam atlasiet vienumu **Saglabāt**. 
 4. Kad esat gatavs iesniegt naudas avansa pieprasījumu, lapā **Naudas avansa pieprasījums** atlasiet vienumu **Darbplūsma** > **Iesniegt**.

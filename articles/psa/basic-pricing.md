@@ -3,7 +3,7 @@ title: Projekta izcenojums
 description: Šajā tēmā ir sniegta informācija par to, kā programmā Dynamics 365 Project Service Automation darbojas izcenojums.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080641"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120777"
 ---
 # <a name="project-pricing"></a>Projekta izcenojums 
 
@@ -35,16 +35,16 @@ Dynamics 365 Project Service Automation paplašina programmā Dynamics 365 Sale
 
 Cenrādis ietver informāciju, ko nodrošina četras dažādas entītijas.
 
-- **Cenrādis**  — šī entītija glabā informāciju par kontekstu, valūtu, spēkā stāšanās datumu un laika izcenojuma laika vienību. Konteksts parāda, vai cenrādis ir izteikts izmaksu likmēs vai pārdošanas likmēs. 
-- **Valūta**  — šī entītija glabā cenrādī esošo cenu valūtu. 
-- **Datums**  — šo entītiju izmanto, kad sistēma mēģina ievadīt noklusējuma cenu par transakciju. PSA izcenojums atlasa cenrādi ar spēkā stāšanās datumu, kas ietver transakcijas datumu. Ja PSA izcenojums atrod vairāk nekā vienu cenrādi, kas ir spēkā transakcijas datumam, kurš ir pievienots saistītajam piedāvājumam, līgumam vai organizācijas struktūrvienībai, neviena cena netiek iestatīta uz noklusējumu. 
-- **Laiks**  — šī entītija glabā laika vienību, kurā tiek izteiktas cenas, piemēram, dienas vai stundu likmes. 
+- **Cenrādis** — šī entītija glabā informāciju par kontekstu, valūtu, spēkā stāšanās datumu un laika izcenojuma laika vienību. Konteksts parāda, vai cenrādis ir izteikts izmaksu likmēs vai pārdošanas likmēs. 
+- **Valūta** — šī entītija glabā cenrādī esošo cenu valūtu. 
+- **Datums** — šo entītiju izmanto, kad sistēma mēģina ievadīt noklusējuma cenu par transakciju. PSA izcenojums atlasa cenrādi ar spēkā stāšanās datumu, kas ietver transakcijas datumu. Ja PSA izcenojums atrod vairāk nekā vienu cenrādi, kas ir spēkā transakcijas datumam, kurš ir pievienots saistītajam piedāvājumam, līgumam vai organizācijas struktūrvienībai, neviena cena netiek iestatīta uz noklusējumu. 
+- **Laiks** — šī entītija glabā laika vienību, kurā tiek izteiktas cenas, piemēram, dienas vai stundu likmes. 
 
 Entītijai Cenrādis ir trīs saistītas tabulas, kurās tiek glabātas cenas.
 
-  - **Lomas cena**  — šajā tabulā tiek glabāta lomas un organizācijas struktūrvienības vērtību kombinācijas likme, un tā tiek izmantota, lai iestatītu no lomām atkarīgas cenas cilvēkresursiem.
-  - **Transakciju kategorijas cena**  — šajā tabulā tiek glabātas cenas pēc transakciju kategorijas, un tās tiek izmantotas izmaksu kategoriju cenu iestatīšanai.
-  - **Cenrāža elementi**  — šajā tabulā tiek glabātas kataloga preču cenas.
+  - **Lomas cena** — šajā tabulā tiek glabāta lomas un organizācijas struktūrvienības vērtību kombinācijas likme, un tā tiek izmantota, lai iestatītu no lomām atkarīgas cenas cilvēkresursiem.
+  - **Transakciju kategorijas cena** — šajā tabulā tiek glabātas cenas pēc transakciju kategorijas, un tās tiek izmantotas izmaksu kategoriju cenu iestatīšanai.
+  - **Cenrāža elementi** — šajā tabulā tiek glabātas kataloga preču cenas.
 
 > ![Cenu konfigurēšana, izmantojot cenrādi](media/basic-guide-12.png)
  
@@ -56,7 +56,7 @@ Termins *resursa loma* attiecas uz prasmju, kompetenču un sertifikāciju kopu, 
 
 Cilvēkresursu laiks parasti tiek norādīts, pamatojoties uz lomu, ko resurss aizpilda noteiktā projektā. Attiecībā uz cilvēkresursu laiku programmā PSA tiek atbalstīta izmaksu novērtēšana un rēķinu izrakstīšana, pamatojoties uz resursa lomu. Par laiku cena var tikt noteikta jebkurā vienību grupas **Laiks** vienībā.
 
-Vienību grupa **Laiks** tiek izveidota, kad tiek instalēta programma PSA. Tās noklusējuma vienība ir **Stunda**. Vienību grupas **Laiks** un vienības **Stunda** atribūtus nevar dzēst, pārdēvēt vai rediģēt. Taču vienību grupai **Laiks** var pievienot citas vienības. Mēģinot izdzēst vienību grupu **Laiks** vai vienību **Stunda** , PSA biznesa loģikā var rasties kļūmes.
+Vienību grupa **Laiks** tiek izveidota, kad tiek instalēta programma PSA. Tās noklusējuma vienība ir **Stunda**. Vienību grupas **Laiks** un vienības **Stunda** atribūtus nevar dzēst, pārdēvēt vai rediģēt. Taču vienību grupai **Laiks** var pievienot citas vienības. Mēģinot izdzēst vienību grupu **Laiks** vai vienību **Stunda**, PSA biznesa loģikā var rasties kļūmes.
 
 > ![Cenu konfigurēšana pēc lomas](media/basic-guide-13.png)
  
@@ -64,9 +64,9 @@ Vienību grupa **Laiks** tiek izveidota, kad tiek instalēta programma PSA. Tās
 
 Par komandējumu un citiem izdevumiem, kas rodas projekta konsultantiem, parasti rēķins tiek izrakstīts klientam. PSA atbalsta izmaksu kategoriju izcenojumu, izmantojot cenrāžus. Izmaksu kategoriju piemēri ietver lidmašīnu biļetes, viesnīcu un automašīnas nomu. Katrā izdevumu cenrāža rindā ir noradītas konkrētas izdevumu kategorijas cenas. Attiecībā uz izdevumu kategoriju izcenojumu PSA atbalsta tālāk norādītās trīs izcenojuma metodes.
 
-- **Pašizmaksa**  — klienta rēķinā tiek iekļautas izdevumu izmaksas, un netiek piemērots uzcenojums.
-- **Uzcenojuma procenti**  — klienta rēķinā tiek iekļauti procenti no faktiskajām izmaksām. 
-- **Vienības cena**  — katrai izdevumu kategorijas vienībai tiek iestatīta norēķinu cena. Summa, par kādu tiek izrakstīts rēķins klientam, tiek aprēķināta, pamatojoties uz konsultanta norādīto izdevumu vienību skaitu. Nobraukumam tiek izmantota izcenojuma metode ar vienības cenu. Piemēram, nobraukuma izdevumu kategoriju var konfigurēt uz 30 ASV dolāriem (USD) dienā vai 2 USD par jūdzi. Kad konsultants ziņo par nobraukumu projektā, rēķina summu aprēķina, pamatojoties uz konsultanta norādīto jūdžu skaitu.
+- **Pašizmaksa** — klienta rēķinā tiek iekļautas izdevumu izmaksas, un netiek piemērots uzcenojums.
+- **Uzcenojuma procenti** — klienta rēķinā tiek iekļauti procenti no faktiskajām izmaksām. 
+- **Vienības cena** — katrai izdevumu kategorijas vienībai tiek iestatīta norēķinu cena. Summa, par kādu tiek izrakstīts rēķins klientam, tiek aprēķināta, pamatojoties uz konsultanta norādīto izdevumu vienību skaitu. Nobraukumam tiek izmantota izcenojuma metode ar vienības cenu. Piemēram, nobraukuma izdevumu kategoriju var konfigurēt uz 30 ASV dolāriem (USD) dienā vai 2 USD par jūdzi. Kad konsultants ziņo par nobraukumu projektā, rēķina summu aprēķina, pamatojoties uz konsultanta norādīto jūdžu skaitu.
 
 > ![Izmaksu kategoriju izcenojuma konfigurēšana](media/basic-guide-14.png)
  

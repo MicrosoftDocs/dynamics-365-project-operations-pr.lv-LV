@@ -3,7 +3,7 @@ title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidum
 description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation atjauninājumu izlaidumā 18, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080398"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119877"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation atjauninājumu izlaidums 18, V3
 
@@ -36,7 +36,7 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 
 **Laiks un izdevumi**
 
-- Izlabots: plūsmās **Atsaukums** , **Pieprasījums** un **Atcelšanas apstiprinājums** rodas izņēmumi ar neskaidriem kļūdu ziņojumiem.
+- Izlabots: plūsmās **Atsaukums**, **Pieprasījums** un **Atcelšanas apstiprinājums** rodas izņēmumi ar neskaidriem kļūdu ziņojumiem.
 - Izlabots: ja **Atcelšanas apstiprinājums** netiek piemērots izdevumiem, netiek parādīta atbilstoša kļūda.
 - Izlabots: laika ievadnes režģis nepareizi apstrādā brīvdienas Austrālijā pēc ziemas/vasaras laika (DST) maiņas oktobrī.
 - Izlabots: nepareiza noklusējuma loģika neļauj iesniegt izdevumus.
@@ -60,4 +60,4 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 
 **Sales**
 
-- Izlabots: ja laika ieraksti tiek atkārtoti apstiprināti ( **Apstiprināt > Atcelt >** apstiprināt vēlreiz), tiek izveidots rēķinā neiekļaujams dublikāts.
+- Izlabots: ja laika ieraksti tiek atkārtoti apstiprināti (**Apstiprināt > Atcelt >** apstiprināt vēlreiz), tiek izveidots rēķinā neiekļaujams dublikāts.

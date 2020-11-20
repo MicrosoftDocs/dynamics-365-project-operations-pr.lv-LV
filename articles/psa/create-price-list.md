@@ -3,7 +3,7 @@ title: Izveidojiet cenrādi
 description: Cenrāža izveide programmā Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080480"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122037"
 ---
 # <a name="create-a-price-list-project-service"></a>Cenrāža izveide (Project Service)
 
@@ -39,7 +39,7 @@ Cenrāži balstās uz lomām un izdevumu kategorijām, tāpēc, pirms veidojat c
   
 2.  Noklikšķiniet uz **Jauns**.  
   
-3.  Sadaļā **Konteksts** atlasiet, vai šis cenrādis ir vienumam **Izmaksas** , **Iegāde** vai **Pārdošana**.  
+3.  Sadaļā **Konteksts** atlasiet, vai šis cenrādis ir vienumam **Izmaksas**, **Iegāde** vai **Pārdošana**.  
   
 4.  Laukā **Nosaukums** ievadiet cenrāža nosaukumu.  
   
@@ -47,9 +47,9 @@ Cenrāži balstās uz lomām un izdevumu kategorijām, tāpēc, pirms veidojat c
   
 6.  Laukā **Laika vienībā** norādiet laika periodu, uz kuru attiecas cena, piemēram, diena vai stunda.  
   
-7.  Atbilstoši aizpildiet laukus **Sākuma datums** , **Beigu datums** un **Aapraksts**.  
+7.  Atbilstoši aizpildiet laukus **Sākuma datums**, **Beigu datums** un **Aapraksts**.  
   
-8.  Noklikšķiniet uz **Saglabāt** , lai izveidotu ierakstu un pēc tam varētu veikt tā rediģēšanu.  
+8.  Noklikšķiniet uz **Saglabāt**, lai izveidotu ierakstu un pēc tam varētu veikt tā rediģēšanu.  
   
 9. Lai cenrādim pievienotu lomas cenu, noklikšķiniet uz **+** sadaļā **Lomu cenas**.  
   

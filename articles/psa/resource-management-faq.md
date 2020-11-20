@@ -3,7 +3,7 @@ title: Bieži uzdotie jautājumi par resursu pārvaldību
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par resursu pārvaldību.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080655"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120147"
 ---
 # <a name="resource-management-faq"></a>Bieži uzdotie jautājumi par resursu pārvaldību
 
@@ -43,11 +43,11 @@ Vieglās rezervācijas var veikt, rezervējot resursa vajadzību. Resursi, kas i
 
 ## <a name="how-do-i-change-the-required-hours-and-the-start-and-end-dates-for-a-resource-generic-or-named-that-i-booked"></a>Kā mainīt nepieciešamās stundas un sākuma un beigu datumus attiecībā uz resursu (vispārēju vai nosauktu), kuru esmu rezervējis?
 
-Kad resursi ir rezervēti, atlasiet opciju **Uzturēt rezervācijas** , lai veiktu vajadzīgās izmaiņas.
+Kad resursi ir rezervēti, atlasiet opciju **Uzturēt rezervācijas**, lai veiktu vajadzīgās izmaiņas.
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Kādus resursu tipus atbalsta Project Service Automation?
 
-**Lietotājs** un **Kontaktpersona** ir vienīgie resursu tipi, kuri tiek atbalstīti programmā Dynamics 365 Project Service Automation. Lai gan var izveidot citus resursu tipus (piemēram, **Aprīkojums** un **Grupa** ), tiem netiek atbalstīta visaptveroša lietošana.
+**Lietotājs** un **Kontaktpersona** ir vienīgie resursu tipi, kuri tiek atbalstīti programmā Dynamics 365 Project Service Automation. Lai gan var izveidot citus resursu tipus (piemēram, **Aprīkojums** un **Grupa**), tiem netiek atbalstīta visaptveroša lietošana.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Kāda ir atšķirība starp piešķiri un rezervāciju?
 

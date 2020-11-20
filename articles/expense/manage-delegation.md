@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080445"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122712"
 ---
 # <a name="manage-delegation"></a>Deleģēšanas pārvalde
 Izdevumu pārstāvis var izveidot un pārvaldīt izdevumu atskaites citam darbiniekam.
@@ -34,7 +34,7 @@ Lai iestatītu lietotāju kā izdevumu pārstāvi, izpildiet tālāk norādītā
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Pārvaldīt izdevumus cita darbinieka vārdā
 
-Ja ir iespējota līdzekļu pārvaldības atslēga **Iespējot izdevumu pārstāvju saraksta lapu** , būs pieejama arī saraksta lapa **Man deleģētie izdevumi**. Dodieties uz sadaļu **Izdevumu pārvaldība** > **Mani izdevumi** > **Man deleģētie izdevumi**.
+Ja ir iespējota līdzekļu pārvaldības atslēga **Iespējot izdevumu pārstāvju saraksta lapu**, būs pieejama arī saraksta lapa **Man deleģētie izdevumi**. Dodieties uz sadaļu **Izdevumu pārvaldība** > **Mani izdevumi** > **Man deleģētie izdevumi**.
 
 Pārstāvis var ātri filtrēt un meklēt esošās izdevumu atskaites, kas tiem ir deleģētas. Pārstāvis var arī ātri izveidot jaunu izdevumu atskaiti citiem lietotājiem, atlasot vienumu **Jauna izdevumu atskaite**.
 

@@ -3,7 +3,7 @@ title: Projekta rezervāciju izveide plānošanas panelī
 description: Šajā tēmā ir sniegta informācija par to, kā plānošanas panelī izveidot projekta rezervāciju.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080461"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122307"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projekta rezervāciju izveide plānošanas panelī
 
@@ -51,7 +51,7 @@ Varat izveidot vispārēju resursu un piešķirt to vienam projekta uzdevumam va
 
 4. Varat arī vilkt un nomest atlasīto rindu no plānošanas paneļa apakšdaļas uz kāda resursa šūnu augstāk atrodamajā režģī. Kad to nometat, labajā pusē tiek atvērts panelis **Resursa rezervācijas izveide**.
 
-    Atlasot **Rezervēt** , resurss tiek rezervēts projekta darba grupā.
+    Atlasot **Rezervēt**, resurss tiek rezervēts projekta darba grupā.
 
 ![Resursa rezervāciju paneļa izveide](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
@@ -66,7 +66,7 @@ Izveidojot projektu programmā Project Service, tiek automātiski izveidota resu
 
 2. Atlasiet prasību, kuras nosaukumā ir tikai projekta nosaukums un kuras ilgums ir nulle (0).
 
-3. Atlasiet cilni **Atrast pieejamību** , kas tiek parādīta rindā. Šādi plānošanas panelī tiek aktivizēts režīms Plānošanas palīgs un tiek rādīti pieejamie resursi, kurus var rezervēt šim projektam.
+3. Atlasiet cilni **Atrast pieejamību**, kas tiek parādīta rindā. Šādi plānošanas panelī tiek aktivizēts režīms Plānošanas palīgs un tiek rādīti pieejamie resursi, kurus var rezervēt šim projektam.
 
 4. Tā kā lauks **Primārā prasība** ir tukšs prasība ar nulles (0) ilgumu, atlasot un rezervējot resursu, panelī **Resursa rezervācijas izveide** ir jāiestata ilgums.
 
@@ -74,16 +74,16 @@ Izveidojot projektu programmā Project Service, tiek automātiski izveidota resu
  
     Tā kā **Primārā prasība** ir tukša prasība ar nulles (0) ilgumu, atlasot un rezervējot resursu, panelī **Resursa rezervācijas izveide** ir jāiestata ilgums.
  
-    Rezervējot resursu, izmantojot plānošanas paneļa lauku **Primārā prasība** , varat to pievienot projekta darba grupai bez piešķīrumiem.
+    Rezervējot resursu, izmantojot plānošanas paneļa lauku **Primārā prasība**, varat to pievienot projekta darba grupai bez piešķīrumiem.
  
 ## <a name="book-from-a-new-resource-requirement"></a>Rezervēšana no jaunas resursa prasības
 Izpildiet tālāk aprakstītās darbības, lai rezervētu no jauna resursa prasības. 
 
-1. Dodieties uz sadaļu **Resursu prasības** un atlasiet **Jauns** , lai izveidotu jaunu resursa prasību.
+1. Dodieties uz sadaļu **Resursu prasības** un atlasiet **Jauns**, lai izveidotu jaunu resursa prasību.
 
 2. Cilnē **Projekts** atlasiet projektu, lai prasību saistītu ar šo projektu.
  
-    Šī jaunizveidotā prasība plānošanas panelī tiek parādīta kā **Atvērta prasība** , ko varat izpildīt.
+    Šī jaunizveidotā prasība plānošanas panelī tiek parādīta kā **Atvērta prasība**, ko varat izpildīt.
 
 3. Rezervējiet resursu, lai to pievienots projekta darba grupai.
 

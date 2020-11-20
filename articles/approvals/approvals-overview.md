@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080304"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123837"
 ---
 # <a name="approvals-overview"></a>Apstiprinājumu pārskats
 
@@ -27,7 +27,7 @@ Kad izveidojat un iesniedzat laika vai izdevumu ierakstu, tiek izveidots apstipr
 ## <a name="approve-an-entry"></a>Ieraksta apstiprināšana
 Veidlapa **Apstiprinājumi** jums ļauj pārslēgt dažādus skatus, lai jūs varētu skatīt dažādos apstiprinājumu veidus.
   
-1. Dodieties uz veidlapu **Apstiprinājumi** un atlasiet vienumu **Izdevumi** , **Laiks** vai **Atsaukšanas**.
+1. Dodieties uz veidlapu **Apstiprinājumi** un atlasiet vienumu **Izdevumi**, **Laiks** vai **Atsaukšanas**.
 2. Pārskatiet katru apstiprinājumu un atlasiet tos, ko vēlaties apstiprināt.
 3. Lai apstiprinātu atlasītos ierakstus, atlasiet **Apstiprināt**.
 Sistēma apstrādās šos ierakstus un izveidos faktiskos datus vai rezervāciju.
@@ -37,7 +37,7 @@ Jums kā Projekta apstiprinātājam var nākties sūtīt ierakstu atpakaļ lieto
   
 1. Dodieties uz veidlapu **Apstiprinājumi** un atlasiet noraidāmo ierakstu. 
 2. Atlasiet vienumu **Noraidīt**.
-3. Pēc izvēles – pievienojiet komentāru dialogā **Noraidīšanas komentāri** , lai informētu lietotāju par ieraksta noraidīšanas iemesliem.
+3. Pēc izvēles – pievienojiet komentāru dialogā **Noraidīšanas komentāri**, lai informētu lietotāju par ieraksta noraidīšanas iemesliem.
 4. Atlasiet **Labi**. Ieraksts tiks atgriezts lietotājam.
   
 ## <a name="recall-entries"></a>Ierakstu atsaukšana

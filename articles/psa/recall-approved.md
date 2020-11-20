@@ -3,7 +3,7 @@ title: Apstiprinātu laika vai izdevumu ierakstu atsaukšana
 description: Šajā tēmā ir sniegta informācija par to, kā atsaukt iepriekš apstiprinātu laika un izdevumu transakciju.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080491"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120552"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Apstiprinātu laika vai izdevumu ierakstu atsaukšana
 
@@ -50,7 +50,7 @@ Lai pieprasītu apstiprināta laika vai izdevumu ieraksta atsaukšanu, ir jāizp
     Izdevumu ierakstu gadījumā atlasiet rindu tam izdevumu ierakstam, kuru vēlaties atsaukt.
 
 3. Atlasiet **Atsaukt**. Tiek atvērts apstiprinājuma dialoglodziņš. Ja atlasītie laika un izdevumu ieraksti jau bija apstiprināti, tiek parādīta uzvedne ar aicinājumu ievadīt atsaukšanas iemeslu.
-4. Ievadiet atsaukšanas iemeslu un pēc tam atlasiet **Labi** , lai apstiprinātu šo operāciju. Personai, kas apstiprināja šos ierakstus, sistēma nosūta pieprasījumu apstiprināt atsaukšanu.
+4. Ievadiet atsaukšanas iemeslu un pēc tam atlasiet **Labi**, lai apstiprinātu šo operāciju. Personai, kas apstiprināja šos ierakstus, sistēma nosūta pieprasījumu apstiprināt atsaukšanu.
 
 > [!NOTE]
 > Lai gan apstiprinātos laika un izdevumu ierakstus var atsaukt, ja klientam jau ir izrakstīts rēķins par apstiprināto laiku vai izdevumiem, atsaukšanas pieprasījumu nevar izveidot. Lietotājs, kurš mēģina izveidot atsaukšanas pieprasījumu, saņems ziņojumu, kurā teikts, ka šo laiku vai izdevumus nevar atsaukt, jo rēķins par tiem jau ir izrakstīts.
@@ -61,12 +61,12 @@ Lai apstiprinātu vai noraidītu atsaukšanas pieprasījumu, izpildiet tālāk a
 
 1. Atveriet sadaļu **Projekti** \> **Mani darbi** \> **Apstiprinājumi**.
 2. Saraksta lapā **Apstiprinājumi** mainiet skatu uz **Atsaukšanas pieprasījumi apstiprināšanai**. Tiek parādīts iesniegto atsaukšanas pieprasījumu saraksts.
-3. Atlasiet vienu vai vairākus ierakstus un pēc tam atlasiet vai nu **Apstiprināt** , vai **Noraidīt**.
-4. Ja atlasījāt **Apstiprināt** , jūs saņemat brīdinājuma ziņojumu, kurā ir paskaidrota šī apstiprinājuma ietekme. Atlasiet **Labi** , lai apstiprinātu šo operāciju. Atsaukšanas pieprasījums tiek apstiprināts.
+3. Atlasiet vienu vai vairākus ierakstus un pēc tam atlasiet vai nu **Apstiprināt**, vai **Noraidīt**.
+4. Ja atlasījāt **Apstiprināt**, jūs saņemat brīdinājuma ziņojumu, kurā ir paskaidrota šī apstiprinājuma ietekme. Atlasiet **Labi**, lai apstiprinātu šo operāciju. Atsaukšanas pieprasījums tiek apstiprināts.
 
     –vai–
 
-    Ja atlasījāt **Noraidīt** , atsaukšanas pieprasījums tiek noraidīts.
+    Ja atlasījāt **Noraidīt**, atsaukšanas pieprasījums tiek noraidīts.
 
 > [!NOTE]
 > Tāpat kā laikā, kad atsaukšana tiek pieprasīta, arī laikā, kad atsaukšana tiek apstiprināta, sistēma pārbauda visas norēķinu darbības laika vai izdevumu ierakstos. Ja par ierakstu jau ir izrakstīts rēķins vai ja tas atrodas melnraksta rēķinā, apstiprinātājs saņem kļūdas ziņojumu, kurā ir teikts, ka šo laiku vai izdevumus nevar apstiprināt atsaukšanai, jo par tiem jau ir izrakstīts rēķins.
@@ -90,7 +90,7 @@ Ja atsaukšanas pieprasījums tiek apstiprināts, atbilstošās faktiskās vērt
 - Lauks **Korekcijas statuss** tiek atjaunināts uz **Koriģēts**.
 - Lauks **Norēķinu statuss** tiek atjaunināts uz **Atcelts**.
 
-Tālāk tiek izveidotas anulēšanas ievadnes tabulā Esošie. Lai izveidotu atgrieztos ierakstus, sistēma pārkopē lauka vērtības no sākotnējiem esošajiem. Vienīgās vērtības, kas nav pārkopētas, ir daudzuma vērtības. Šīs vērtības tiek atgrieztas. Atgrieztie esošie tiek izveidoti gan sadaļā **Izmaksas** , **gan Nerēķina pārdošana** esošajos izdevumos. Anulētajām faktiskajām vērtībām lauks **Korekcijas statuss** tiek iestatīts uz **Nekoriģējams** un lauks **Norēķinu statuss** tiek iestatīts uz **Atcelts**. Šo izmaiņu dēļ ierakstītie nepabeigtie tēriņi un ieņēmumi projektā vairs neveido summas, kuras šīs faktiskās vērtības pārstāv.
+Tālāk tiek izveidotas anulēšanas ievadnes tabulā Esošie. Lai izveidotu atgrieztos ierakstus, sistēma pārkopē lauka vērtības no sākotnējiem esošajiem. Vienīgās vērtības, kas nav pārkopētas, ir daudzuma vērtības. Šīs vērtības tiek atgrieztas. Atgrieztie esošie tiek izveidoti gan sadaļā **Izmaksas**, **gan Nerēķina pārdošana** esošajos izdevumos. Anulētajām faktiskajām vērtībām lauks **Korekcijas statuss** tiek iestatīts uz **Nekoriģējams** un lauks **Norēķinu statuss** tiek iestatīts uz **Atcelts**. Šo izmaiņu dēļ ierakstītie nepabeigtie tēriņi un ieņēmumi projektā vairs neveido summas, kuras šīs faktiskās vērtības pārstāv.
 
 Ja atsaukšanas pieprasījums tiek noraidīts, uz projektu nav nekādas finansiālas ietekmes.
 

@@ -3,7 +3,7 @@ title: Vairāku valūtu scenāriji (versija 3.x)
 description: Šajā tēmā ir sniegta informācija par vairāku valūtu scenārijiem.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080554"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123387"
 ---
 # <a name="multiple-currency-scenarios"></a>Vairāku valūtu scenāriji
 
@@ -31,8 +31,8 @@ ms.locfileid: "4080554"
 
 Programmā Microsoft Dynamics 365 ir divas valūtu koncepcijas.
 
-- **Transakcijas valūta**  — valūta, kādā tiek veikta transakcija. 
-- **Pamatvalūta**  — Dynamics 365 instances valūta. Šī valūta tiek iestatīta, kad tiek nodrošināta Dynamics 365 instance. To nevar mainīt.
+- **Transakcijas valūta** — valūta, kādā tiek veikta transakcija. 
+- **Pamatvalūta** — Dynamics 365 instances valūta. Šī valūta tiek iestatīta, kad tiek nodrošināta Dynamics 365 instance. To nevar mainīt.
 
 Piemēram, Contoso ASV pārdeva 100 T kreklus klientam Apvienotajā Karalistē par 15 sterliņu mārciņām (GBP) gabalā. Tālāk esošajā tabulā ir parādīts, kā šī transakcija tiek ierakstīta entītijā Pasūtījuma prece.
 
@@ -69,8 +69,8 @@ PSA paplašina transakcijas valūtas koncepciju izmaksām un pārdošanai tālā
 Šajā sadaļā ir aprakstīts projekta piemērs, kurā Contoso UK veic piegādi klientam ar nosaukumu Fabrikam — Japāna. Tālāk norādīti scenārija parametri.
 
 1. Sadaļās **Iestatījumi** \> **Uzņēmuma pārvaldība** \> **Valūtas** tiek iestatītas valūtas GBP un Japānas jēna (JPY). 
-2. Tiek iestatīts klienta uzņēmums ar nosaukumu **Fabrikam — Japāna** , un kā uzņēmuma valūta tiek atlasīta JPY.
-3. Tiek iestatīta organizācijas struktūrvienība ar nosaukumu **Contoso UK** , un kā valūta tiek atlasīta GBP.
+2. Tiek iestatīts klienta uzņēmums ar nosaukumu **Fabrikam — Japāna**, un kā uzņēmuma valūta tiek atlasīta JPY.
+3. Tiek iestatīta organizācijas struktūrvienība ar nosaukumu **Contoso UK**, un kā valūta tiek atlasīta GBP.
 4. Tiek izveidots projekta līgums, kurā **Contoso UK** ir norādīta kā līgumslēdzēja struktūrvienība, bet uzņēmums **Fabrikam — Japāna** ir norādīts kā klients.
 5. Projekta līguma rindas tiek izveidotas, pamatojoties uz dažādo projekta transakciju klašu rēķinu izkārtojumiem, piemēram, rēķina izrakstīšana par laiku un rēķina izrakstīšana par izdevumiem.
 6. Tiek izveidots projekts, kurā **Contoso UK** ir norādīta kā līgumslēdzēja struktūrvienība. Šis projekts tiek izveidots un kartēts uz projekta līguma rindām.

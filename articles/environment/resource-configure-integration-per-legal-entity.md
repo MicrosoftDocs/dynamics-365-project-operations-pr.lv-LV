@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096761"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122892"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations integrācijas konfigurēšana katrā juridiskā entītijā 
 
@@ -32,7 +32,7 @@ Lai iespējotu nepieciešamos līdzekļus, izpildiet tālāk norādītās darbī
     - **Project Operations iespējošana risinājumā Dynamics 365 Customer Engagement**
 
 > [!NOTE]
-> Ja sarakstā nav norādīti **Pamatlīdzekļi** , pārbaudiet, vai jūsu finanšu versija atbilst minimālās versijas prasībai (programmas versija 10.0.13 ar visiem piemērotajiem vai augstākajiem kvalitātes atjauninājumiem). Atlasiet **Pārbaudīt, vai nav atjauninājumu** , lai atsvaidzinātu līdzekļu sarakstu.
+> Ja sarakstā nav norādīti **Pamatlīdzekļi**, pārbaudiet, vai jūsu finanšu versija atbilst minimālās versijas prasībai (programmas versija 10.0.13 ar visiem piemērotajiem vai augstākajiem kvalitātes atjauninājumiem). Atlasiet **Pārbaudīt, vai nav atjauninājumu**, lai atsvaidzinātu līdzekļu sarakstu.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Project Operations izvietošanas scenārija definēšana juridiskai entītijai
 
@@ -48,6 +48,6 @@ Project Operations var iespējot risinājuma Dynamics 365 Customer Engagement ju
 
 Katrai juridiskajai entītijai, kas izmanto Project Operations risinājumā Dynamics 365 Customer Engagement, ir nepieciešamas noklusējuma parametru kopas. Šie parametri ir konfigurēti **Project Operations** cilnes lapā **Projekta pārvaldības un uzskaites parametri**. Ir šādi parametri:
 
-  - **Rēķina tipa noklusējuma iestatījumi** : Project Operations izmanto fiksētu norēķinu tipa noklusējuma kopu, kas ir jākartē uz rindas rekvizītu finansēm. Ierakstu izveide katram norēķinu tipam: **Nav norādīts** , **Rēķinā iekļaujams** , **Rēķinā neiekļaujams** , **Bezmaksas** un **Nav pieejams**.
-  - **Projekta kategorijas noklusējumi** : atlasiet noklusējuma projekta kategorijas, kas jāizmanto katram transakcijas tipam. Šie noklusējuma iestatījumi tiks lietoti **Project Operations integrācijas žurnālā** un aprēķinos, kur projekta faktiskajai transakcijai nav norādīta transakciju kategorija.
-  - **Prognozes** : atlasiet budžeta modeli, kas tiks izmantots laika un izdevumu novērtējumiem.
+  - **Rēķina tipa noklusējuma iestatījumi**: Project Operations izmanto fiksētu norēķinu tipa noklusējuma kopu, kas ir jākartē uz rindas rekvizītu finansēm. Ierakstu izveide katram norēķinu tipam: **Nav norādīts**, **Rēķinā iekļaujams**, **Rēķinā neiekļaujams**, **Bezmaksas** un **Nav pieejams**.
+  - **Projekta kategorijas noklusējumi**: atlasiet noklusējuma projekta kategorijas, kas jāizmanto katram transakcijas tipam. Šie noklusējuma iestatījumi tiks lietoti **Project Operations integrācijas žurnālā** un aprēķinos, kur projekta faktiskajai transakcijai nav norādīta transakciju kategorija.
+  - **Prognozes**: atlasiet budžeta modeli, kas tiks izmantots laika un izdevumu novērtējumiem.

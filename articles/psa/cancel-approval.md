@@ -3,7 +3,7 @@ title: Iepriekš apstiprināto laika un izdevumu ierakstu atcelšana
 description: Šajā tēmā ir sniegta informācija par to, kā atcelt apstiprinātu projekta laiku un izmaksu darbību.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080619"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123342"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Iepriekš apstiprināto laika vai izdevumu ierakstu atcelšana
 
@@ -46,7 +46,7 @@ Kad apstiprinājums tiek atcelts, tam ir gan operacionāla, gan finansiālā iet
 
 ### <a name="operational-impact"></a>Operacionāla ietekme
 
-Kad apstiprinājums ir atcelts, operacionālajā pusē ieraksta statuss tiek atiestatīts uz **Melnraksts** un apstiprinājums vairs netiek rādīts skatā **Mani jaunākie apstiprinājumi**. Tā vietā atceltā apstiprināšana tiek parādīta vai nu skata **Apstiprinājuma laika ieraksti** , vai skata **Apstiprinājuma izdevumu ieraksti** atkarībā no tā, vai tas ir laika ieraksts vai izdevumu ieraksts. Turklāt saistītā laika vai izdevumu ieraksta statuss tiek mainīts uz **Iesniegts** , lai saistītais ieraksts atbilstu apstiprinājumam, kura statuss ir **Melnraksts.**
+Kad apstiprinājums ir atcelts, operacionālajā pusē ieraksta statuss tiek atiestatīts uz **Melnraksts** un apstiprinājums vairs netiek rādīts skatā **Mani jaunākie apstiprinājumi**. Tā vietā atceltā apstiprināšana tiek parādīta vai nu skata **Apstiprinājuma laika ieraksti**, vai skata **Apstiprinājuma izdevumu ieraksti** atkarībā no tā, vai tas ir laika ieraksts vai izdevumu ieraksts. Turklāt saistītā laika vai izdevumu ieraksta statuss tiek mainīts uz **Iesniegts**, lai saistītais ieraksts atbilstu apstiprinājumam, kura statuss ir **Melnraksts.**
 
 Kā apstiprinātājs var rediģēt dažus apstiprinājuma laukus, kam statuss ir **Melnraksts**. Šajos laukos ir iekļauti skati **Norēķinu veids** un **Apmaksas stundas laika ierakstiem**. Pēc izmaiņu veikšanas varat vēlreiz apstiprināt ieraksta apstiprināšanu. Varat arī noraidīt ierakstu. Ja noraidāt laika ieraksta apstiprinājumu, ieraksta statuss tiek mainīts uz **Atgriezts.** Ja noraidāt izdevumu ievadi, ieraksta statuss tiek mainīts uz **Atgriezts**. Funkcionāli gan atgrieztie, gan noraidītie ieraksti izturēsies vienādi ar ierakstu, kura statuss ir **Melnraksts**. Projekta darba grupas dalībnieks var veikt jebkādas nepieciešamās izmaiņas ierakstā un pēc tam to atkārtoti iesniegt apstiprināšanai vai dzēst pavisam.
 
@@ -57,6 +57,6 @@ Projekts tiek ietekmēts arī finansiāli, kad apstiprinājums ir atcelts. Pirmk
 - Pielāgošanas statuss ir iestatīts uz **Pielāgots**.
 - Pielāgošanas statuss ir iestatīts uz **Atcelts**.
 
-Tālāk tiek izveidotas anulēšanas ievadnes tabulā Esošie. Lai izveidotu atgrieztos ierakstus, sistēma pārkopē lauka vērtības no sākotnējiem esošajiem. Vienīgās vērtības, kas nav pārkopētas, ir daudzuma vērtības. Šīs vērtības tiek atgrieztas. Atgrieztie esošie tiek izveidoti gan sadaļā **Izmaksas** , **gan Nerēķina pārdošana** esošajos izdevumos. Atgriezto esošo lauks **Pielāgojuma statuss** ir iestatīts uz **Nav pielāgojams** un norēķinu statuss ir iestatīts uz **Atcelts**.
+Tālāk tiek izveidotas anulēšanas ievadnes tabulā Esošie. Lai izveidotu atgrieztos ierakstus, sistēma pārkopē lauka vērtības no sākotnējiem esošajiem. Vienīgās vērtības, kas nav pārkopētas, ir daudzuma vērtības. Šīs vērtības tiek atgrieztas. Atgrieztie esošie tiek izveidoti gan sadaļā **Izmaksas**, **gan Nerēķina pārdošana** esošajos izdevumos. Atgriezto esošo lauks **Pielāgojuma statuss** ir iestatīts uz **Nav pielāgojams** un norēķinu statuss ir iestatīts uz **Atcelts**.
 
 Pēc šo izmaiņu veikšanas summa, kas tiek ierakstīta kā projektā patērētā summa un projektā gūtie ieņēmumi, kļūs lielāka par to summu, ko veido šie faktiskie.

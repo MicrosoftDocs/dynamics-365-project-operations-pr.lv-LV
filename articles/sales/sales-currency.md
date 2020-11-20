@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1db7e76dbb220954b9f9088b2168eed1a1902abc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080476"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121227"
 ---
 # <a name="currency"></a>Valūta
 
@@ -31,7 +31,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 No valūtas ir atkarīgas preču katalogā ietverto produktu cenas un darījumu, piemēram, pārdošanas pasūtījumu, izmaksas. Ja jūsu klienti atrodas dažādos ģeogrāfiskajos apgabalos, pievienojiet viņu valūtas savu darījumu pārvaldībai. Pievienojiet jūsu pašreizējām un nākotnes biznesa vajadzībām vispiemērotākās valūtas.  
 
 > [!NOTE]
-> Ja vide ir Common Data Service vide, jūs atrodaties Power Platform administrēšanas centrā un atlasāt lapu **Valūtas** ( **Vide** > [atlasīt vidi] > **Iestatījumi** > **Biznesa** > **Valūtas** ), lapa būs tukša. Tas ir tāpēc, ka Common Data Service vidēs netiek atbalstīta valūtas iestatīšana.
+> Ja vide ir Common Data Service vide, jūs atrodaties Power Platform administrēšanas centrā un atlasāt lapu **Valūtas** (**Vide** > [atlasīt vidi] > **Iestatījumi** > **Biznesa** > **Valūtas**), lapa būs tukša. Tas ir tāpēc, ka Common Data Service vidēs netiek atbalstīta valūtas iestatīšana.
 
 ## <a name="add-a-currency"></a>Valūtas pievienošana  
 Pirms uzsākat šo procedūru, pārliecinieties, ka jūsu drošības lomā ir iekļautas sistēmas administratora atļaujas 
@@ -45,9 +45,9 @@ Pirms uzsākat šo procedūru, pārliecinieties, ka jūsu drošības lomā ir ie
 
    |          Lauks          |                                                                                                                                                                                                                                                                                                                                                                            Apraksts                                                                                                                                                                                                                                                                                                                                                                            |
    |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |    **Valūtas veids**    | - **Sistēma** — atlasiet šo iespēju, ja vēlaties izmantot valūtas, kas pieejamas modeļa vadītās programmās risinājumā Dynamics 365. Lai meklētu valūtu, atlasiet **Uzmeklēšana**. Kad atlasāt kādu valūtas kodu, atlasītajai valūtai tiek automātiski pievienots **Valūtas nosaukums** un **Valūtas simbols**.<br />- **Pielāgots** — atlasiet šo iespēju, ja vēlaties pievienot valūtas, kas nav pieejamas modeļa vadītās programmās risinājumā Dynamics 365. Šādā gadījumā jums ir manuāli jāievada vērtības vienumiem **Valūtas kods** , **Valūtas precizitāte** , **Valūtas nosaukums** , **Valūtas simbols** un **Valūtu konvertēšana**. |
+   |    **Valūtas veids**    | - **Sistēma** — atlasiet šo iespēju, ja vēlaties izmantot valūtas, kas pieejamas modeļa vadītās programmās risinājumā Dynamics 365. Lai meklētu valūtu, atlasiet **Uzmeklēšana**. Kad atlasāt kādu valūtas kodu, atlasītajai valūtai tiek automātiski pievienots **Valūtas nosaukums** un **Valūtas simbols**.<br />- **Pielāgots** — atlasiet šo iespēju, ja vēlaties pievienot valūtas, kas nav pieejamas modeļa vadītās programmās risinājumā Dynamics 365. Šādā gadījumā jums ir manuāli jāievada vērtības vienumiem **Valūtas kods**, **Valūtas precizitāte**, **Valūtas nosaukums**, **Valūtas simbols** un **Valūtu konvertēšana**. |
    |    **Valūtas kods**    |                                                                                                                                                                                                                                                                                                                                            Valūtas saīsinājums. Piemēram, **USD** atbilst Amerikas Savienoto Valstu dolāram.                                                                                                                                                                                                                                                                                                                                            |
-   | **Valūtas precizitāte**  |                                                                                                                                                                                  Ierakstiet, kādu decimāldaļas skaitu vēlaties izmantot šai valūtai.  Varat pievienot vērtību no 0 līdz 4. **Piezīme.**  Ja esat iestatījis precizitātes vērtību dialoglodziņā **Sistēmas iestatījumi** , šeit būs redzama iestatītā vērtība.                                                                                                                                                                                  |
+   | **Valūtas precizitāte**  |                                                                                                                                                                                  Ierakstiet, kādu decimāldaļas skaitu vēlaties izmantot šai valūtai.  Varat pievienot vērtību no 0 līdz 4. **Piezīme.**  Ja esat iestatījis precizitātes vērtību dialoglodziņā **Sistēmas iestatījumi**, šeit būs redzama iestatītā vērtība.                                                                                                                                                                                  |
    |    **Valūtas nosaukums**    |                                                                                                                                                                                                                                         Ja atlasījāt valūtas kodu no modeļa vadītās programmās risinājumā Dynamics 365 pieejamo valūtu saraksta, tad šeit tiek rādīts atlasītā koda valūtas nosaukums. Ja atlasījāt **Pielāgots** kā valūtas veidu, ierakstiet valūtas nosaukumu.                                                                                                                                                                                                                                          |
    |   **Valūtas simbols**   |                                                                                                                                                                                                                                                                      Ja atlasījāt valūtas kodu no pieejamo valūtu saraksta, tad šeit tiek rādīts atlasītās valūtas simbols. Ja atlasījāt **Pielāgots** kā valūtas tveidu, ievadiet simbolu jaunajai valūtai.                                                                                                                                                                                                                                                                       |
    | **Valūtu konvertēšana** |                                                                                                                                                                                                                                     Ierakstiet atlasītās valūtas vērtību viena ASV dolāra izteiksmē. Šī ir summa, ar kādu atlasītā valūtā tiek konvertēta uz pamatvalūtu. **Svarīgi!**  Šī vērtība noteikti ir jāatjaunina, cik vien bieži nepieciešams, lai Jūsu darījumos nerastos neprecīzi aprēķini.                                                                                                                                                                                                                                      |

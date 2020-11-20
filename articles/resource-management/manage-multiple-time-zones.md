@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080382"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119832"
 ---
 # <a name="manage-time-zones"></a>Laika joslu pārvaldība
 
@@ -30,7 +30,7 @@ Izveidojot uzdevumu, sākuma laiks, beigu laiks un stundu skaits dienā tiek kon
 
 ## <a name="manage-resources-with-time-zones"></a>Resursu pārvaldība ar laika zonām
 
-Lai iegūtu precīzus un prognozējamus rezultātus, izmantojot opciju **Paplašināt rezervāciju** , ir jāizpilda divi galvenie priekšnosacījumi.  
+Lai iegūtu precīzus un prognozējamus rezultātus, izmantojot opciju **Paplašināt rezervāciju**, ir jāizpilda divi galvenie priekšnosacījumi.  
 
 - Lietotājam ir jākonfigurē savas ierīces laika josla tādējādi, lai tā atbilstu tai laika joslai, kas definēta sistēmas iestatījumos **Personalizēšanas iestatījumi**.
  
@@ -57,7 +57,7 @@ Tālāk sniegtajā tabulā ir norādīts:
 |Resurss C  |  ![Resursa C kalendārs](media/reconcile-assignments-08.png) |
 |Resurss D  | ![Resursa D kalendārs](media/reconcile-assignments-09.png)  |
  
-Pārejot uz skatu **Saskaņošana** , tiek parādītas resursu piešķires un tiem saistītie rezervāciju deficīti.
+Pārejot uz skatu **Saskaņošana**, tiek parādītas resursu piešķires un tiem saistītie rezervāciju deficīti.
 
 ![Saskaņošanas skats pirms paplašinājuma](media/reconcile-assignments-10.png)
 

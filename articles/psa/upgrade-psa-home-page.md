@@ -2,7 +2,7 @@
 title: Jaunināšanas sākumlapa
 description: Šajā tēmā parādīts, kur meklēt svarīgu informāciju par jaunām un izmainītām funkcijām programmā Dynamics 365 Project Service Automation, kā arī par procesu jaunināšanai uz jaunāko versiju.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080525"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121767"
 ---
 # <a name="upgrade-home-page"></a>Jaunināšanas sākumlapa
 
@@ -61,4 +61,4 @@ No 2019. gada 17. maija visas jaunās instancēs UCI būs iekļauts kā noklus�
 Sākot ar 2020. gada 1. martu Dynamics PSA klienti vairs nevarēs izveidot jaunas vides, izmantojot vecākas PSA versijas, piemēram, PSA versiju 2.x vai vecāku. Jebkura jaunā vide būs pieejama tikai ar PSA versiju 3.x.
 
 > [!NOTE]
-> Lai varētu izmantot labākās iespējas, lietojot vecākas Field Service un PSA lietojumprogrammu versijas, pārejiet uz lapu **Sistēmas iestatījumi** un laukam **Izmantot tikai jauno vienoto interfeisu (ieteicams)** atlasiet **Nē** , jo šīs versijas nav paredzētas pareizai ielādēšanai UCI. Pēc UCI izslēgšanas varat atvērt un palaist šīs Field Service un PSA versijas, izmantojot veco tīmekļa klientu. 
+> Lai varētu izmantot labākās iespējas, lietojot vecākas Field Service un PSA lietojumprogrammu versijas, pārejiet uz lapu **Sistēmas iestatījumi** un laukam **Izmantot tikai jauno vienoto interfeisu (ieteicams)** atlasiet **Nē**, jo šīs versijas nav paredzētas pareizai ielādēšanai UCI. Pēc UCI izslēgšanas varat atvērt un palaist šīs Field Service un PSA versijas, izmantojot veco tīmekļa klientu. 

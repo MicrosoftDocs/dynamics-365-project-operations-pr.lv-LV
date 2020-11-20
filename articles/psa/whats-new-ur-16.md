@@ -3,7 +3,7 @@ title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidum
 description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation atjauninājumu izlaidumā 16, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f277d23e3fb0517f072e51f6f80f855479ab8189
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2c93d34b61001b7755d426539ac384641a7bc9da
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080403"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121587"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation atjauninājumu izlaidums 16, V3
 
@@ -56,7 +56,7 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 
     -   Izlabots: ja tiek noņemts līguma rindā kartētais projekts un tiek kartēts jauns projekts, jaunā projekta faktiskie ieraksti netiek atkārtoti novērtēti, pamatojoties uz līguma rindā definētajām rēķina un cenu kārtulām. Šajā izlaidumā tas tika novērsts. Jaunajā kartētajā projektā cenas un faktiskie ieraksti tiks apgriezti un atkārtoti izveidoti, pamatojoties uz līguma rindas cenu un norēķinu kārtulām. Nekartētā projekta faktiskie ieraksti arī tiks atkārtoti novērtēti un atkārtoti izveidoti.
 
-    -   Izlabots: papildu validācija tika pievienota novērtējuma rindas laukam **Summa** , lai nodrošinātu, ka nav iekļautas nulles vērtības.
+    -   Izlabots: papildu validācija tika pievienota novērtējuma rindas laukam **Summa**, lai nodrošinātu, ka nav iekļautas nulles vērtības.
 
     -   Izlabots: ja tika atjaunināti faktiskie projekta vērtības, projekta galvenajā veidlapā tika pievienota poga Atsvaidzināt, lai lietotāji varētu atkārtoti sinhronizēt faktiskās vērtības.
 

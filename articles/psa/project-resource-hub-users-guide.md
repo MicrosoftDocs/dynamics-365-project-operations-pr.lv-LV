@@ -3,7 +3,7 @@ title: Lietotāja rokasgrāmata programmai Project Resource Hub
 description: Project Resource Hub programma Project Service lietotāja rokasgrāmata
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080435"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123162"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Project Resource Hub lietotāja rokasgrāmata
 
@@ -75,7 +75,7 @@ Ievadiet stundas vismaz reizi nedēļā — vai tik bieži, cik to pieprasīja 
 
 1. Pieskarieties izvēlnes pogai ![Izvēlnes poga](media/MenuButton.png "Izvēlnes poga") un pēc tam pieskarieties vienumam **Laika ieraksti**. Tiks parādīts jūsu kalendārs.
 
-2. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, pieskarieties pogai **Iepriekšējā** vai **Nākamā**. Pieskarieties **Šodien** , lai atgrieztos pašreizējā nedēļā.
+2. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, pieskarieties pogai **Iepriekšējā** vai **Nākamā**. Pieskarieties **Šodien**, lai atgrieztos pašreizējā nedēļā.
 
 3. Lai ievadītu savu laiku, pieskarieties **Jauns** komandjoslā. 
 
@@ -88,7 +88,7 @@ Ievadiet savus izdevumus vismaz reizi nedēļā — vai tik bieži, cik to piep
 
 1. Pieskarieties izvēlnes pogai ![Izvēlnes poga](media/MenuButton.png "Izvēlnes poga") un pēc tam pieskarieties vienumam **Izdevumi**. Tiks parādīts jūsu kalendārs.
 
-2. Varat pārslēgties uz skatu **Diena** , **Nedēļa** vai **Mēnesis** , vai arī pāriet uz iepriekšējo vai nākamo periodu. 
+2. Varat pārslēgties uz skatu **Diena**, **Nedēļa** vai **Mēnesis**, vai arī pāriet uz iepriekšējo vai nākamo periodu. 
 
 3. Lai ievadītu savus izdevumus, pieskarieties **Jauns** komandjoslā. 
 

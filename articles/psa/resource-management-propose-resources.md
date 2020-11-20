@@ -3,7 +3,7 @@ title: Projekta resursu piedāvāšana
 description: Šajā tēmā ir sniegta informācija par projekta resursu piedāvāšanu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,19 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080663"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120192"
 ---
 # <a name="propose-project-resources"></a>Projekta resursu piedāvāšana
 
 Resursu vadītāji var piedāvāt resursu projektu vadītājam, izmantojot resursu pieprasījumu.
 
 1. Pieprasījumu režģī vai pašā pieprasījumā atlasiet opciju **Atrast resursus**.
-2. Lapā **Plānošanas palīgs** atlasiet resursu un pēc tam rūtī **Izveidot resursu rezervāciju** , laukā **Rezervācijas statuss** atlasiet **Rezervēt**.
+2. Lapā **Plānošanas palīgs** atlasiet resursu un pēc tam rūtī **Izveidot resursu rezervāciju**, laukā **Rezervācijas statuss** atlasiet **Rezervēt**.
 
     ![Piedāvātais resurss atlasīts](media/Resource-Management-image62.png)
 
@@ -82,7 +82,7 @@ Tā kā skats **Apmaksājamā izmantošana** ir atkarīgs no plānošanas paneļ
 
 Režģim ir jāiestata mērķa lietojums lomai vai atsevišķam resursam. Lai veiktu šo iestatīšanu, atveriet **Resursi** \> **Resursu lomas**.
 
-Turklāt katram rezervējamajam resursam ir jāpiešķir noklusējuma loma. Atveriet sadaļu **Resursi** \> **Resursi.** Cilnē **Project Service** pārbaudiet, vai resursa loma ir definēta un vai laukā **Ir noklusējuma** ir iestatīta vērtība **Jā**. Varat pievienot papildu lomas, kurām iestatīta opcija **Ir noklusējuma = Nē**. Loma, kurai iestatīta opcija **Ir noklusējuma = Jā** , tiek izmantota, lai novērtētu resursa izmantojumu atbilstoši attiecīgās mērķim.
+Turklāt katram rezervējamajam resursam ir jāpiešķir noklusējuma loma. Atveriet sadaļu **Resursi** \> **Resursi.** Cilnē **Project Service** pārbaudiet, vai resursa loma ir definēta un vai laukā **Ir noklusējuma** ir iestatīta vērtība **Jā**. Varat pievienot papildu lomas, kurām iestatīta opcija **Ir noklusējuma = Nē**. Loma, kurai iestatīta opcija **Ir noklusējuma = Jā**, tiek izmantota, lai novērtētu resursa izmantojumu atbilstoši attiecīgās mērķim.
 
 ![Noklusējuma loma iestatīta](media/Resource-Management-image67.png)
 

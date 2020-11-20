@@ -2,7 +2,7 @@
 title: Jaunināšanas apsvērumi — no Microsoft Dynamics 365 Project Service Automation 2.x vai 1.x uz versiju 3
 description: Šajā tēmā ir sniegta informācija par apsvērumiem, veicot jaunināšanu no Project Service Automation versijas 2.x vai 1.x uz 3. versiju.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080524"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121722"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Jaunināšanas apsvērumi – no PSA versijas 2.x vai 1.x uz versiju 3.x
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -68,7 +68,7 @@ Pēc jaunināšanas pabeigšanas varat rediģēt grupas dalībnieka lomu, lai iz
 Tas attiecas arī uz rindas uzdevumiem, kas tika piešķirti norādītajiem resursiem, mainot resursa organizācijas struktūrvienību no noklusējuma uz citu organizācijas struktūrvienību. Pēc 3. versijas jaunināšanas pabeigšanas uzdevums izmantos resursa noklusējuma organizācijas vienību, nevis to, kas iestatīts rindas uzdevumam.
 
 ### <a name="tasks-assigned-to-generic-resources"></a>Vispārējiem resursiem piešķirtie uzdevumi
-2. un 1. versijā uzdevumam varat iestatīt lomu un organizācijas struktūrvienību, un pēc tam izmantot līdzekli **Ģenerēt darba grupu** , lai ģenerētu vispārējus resursus, balstoties uz uzdevumam iestatītajiem atribūtiem. 3. versijā varat izveidot grupas dalībniekus ar lomu un organizācijas struktūrvienību, un pēc tam uzdevumam nozīmēt grupas dalībniekus.
+2. un 1. versijā uzdevumam varat iestatīt lomu un organizācijas struktūrvienību, un pēc tam izmantot līdzekli **Ģenerēt darba grupu**, lai ģenerētu vispārējus resursus, balstoties uz uzdevumam iestatītajiem atribūtiem. 3. versijā varat izveidot grupas dalībniekus ar lomu un organizācijas struktūrvienību, un pēc tam uzdevumam nozīmēt grupas dalībniekus.
 
 2. un 1. versijā projektiem ar vispārējiem resursiem var būt divi stāvokļi, vai arī to kombinācija uzdevuma līmenī. Piemēram, var būt šādi scenāriji:
 
@@ -77,7 +77,7 @@ Tas attiecas arī uz rindas uzdevumiem, kas tika piešķirti norādītajiem resu
 
 Pirms jaunināšanas sākšanas ieteicams atkārtoti ģenerēt darba grupu katram projektam, kur vispārējiem resursiem ir piešķirti uzdevumi vai kuram ir nepieciešams veikt darba grupas ģenerēšanas procesu.
 
-Attiecībā uz uzdevumiem, kas ir piešķirti vispārējiem grupas dalībniekiem, kas izveidoti, izmantojot **Ģenerēt darba grupu** , jauninājums atstās vispārēju resursu darba grupā, bet uzdevumu atstās šim vispārējam grupas dalībniekam. Iesakām jums ģenerēt resursu prasību vispārējam grupas dalībniekam pēc jaunināšanas, taču pirms resursa pieprasījuma rezervācijas vai iesniegšanas. Tas saglabās jebkādus organizācijas vienības uzdevumus vispārējiem grupas dalībniekiem, kas nav projekta līgumslēdzēja organizācijas struktūrvienība.
+Attiecībā uz uzdevumiem, kas ir piešķirti vispārējiem grupas dalībniekiem, kas izveidoti, izmantojot **Ģenerēt darba grupu**, jauninājums atstās vispārēju resursu darba grupā, bet uzdevumu atstās šim vispārējam grupas dalībniekam. Iesakām jums ģenerēt resursu prasību vispārējam grupas dalībniekam pēc jaunināšanas, taču pirms resursa pieprasījuma rezervācijas vai iesniegšanas. Tas saglabās jebkādus organizācijas vienības uzdevumus vispārējiem grupas dalībniekiem, kas nav projekta līgumslēdzēja organizācijas struktūrvienība.
 
 Piemēram, Projektā Z līgumslēdzēja organizācijas struktūrvienība ir Contoso US. Projekta plānā pārbaudes uzdevumi ieviešanas fāzē tika piešķirti lomai Tehniskais konsultants un nozīmētā organizācijas struktūrvienība ir Contoso India.
 

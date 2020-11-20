@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080527"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121857"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Spraudņu atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas
 
@@ -50,7 +50,7 @@ Tālāk aprakstītās darbības izskaidro spraudņu reģistrēšanas procesu.
 
  ![Tiek atjaunināts spraudņa ekrānuzņēmums](media/PRT-2.png)
  
-5. Atjaunināšanas logā noklikšķiniet uz daudzpunktes ( **...** ) filtrēšanas atribūtos.
+5. Atjaunināšanas logā noklikšķiniet uz daudzpunktes (**...**) filtrēšanas atribūtos.
 
  ![Esošās darbības konfigurācijas informācijas atjauninājuma ekrānuzņēmums](media/PRT-3.png)
  
@@ -58,7 +58,7 @@ Tālāk aprakstītās darbības izskaidro spraudņu reģistrēšanas procesu.
 
  ![Ekrānuzņēmums, kas parāda izvēles rūtiņu atlasi cenu noteikšanas atribūtiem](media/PRT-4.png)
 
-7. Noklikšķiniet uz **Labi** , lai aizvērtu lapu, un pēc tam atlasiet **Atjaunināšanas darbība**.
+7. Noklikšķiniet uz **Labi**, lai aizvērtu lapu, un pēc tam atlasiet **Atjaunināšanas darbība**.
 
  ![Ekrānuzņēmums, kurā redzama poga “Atjaunināšanas darbība”](media/PRT-5.png)
  

@@ -3,7 +3,7 @@ title: Projektu grafiki
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot grafiku.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080479"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123251"
 ---
 # <a name="project-schedules"></a>Projektu grafiki 
 
@@ -63,7 +63,7 @@ Uzdevumu hierarhiju varat izveidot, izmantojot tālāk minētās opcijas.
 
 ### <a name="add-task"></a>Pievienot uzdevumu
 
-Izmantojot pogu **Pievienot uzdevumu** , hierarhijā varat izveidot jaunu uzdevumu. Ja neatlasāt nekādu pozīciju, uzdevums tiek pievienots beigās. 
+Izmantojot pogu **Pievienot uzdevumu**, hierarhijā varat izveidot jaunu uzdevumu. Ja neatlasāt nekādu pozīciju, uzdevums tiek pievienots beigās. 
 
 Katram uzdevumam tiek piešķirts grafika ID. Grafika ID norāda uzdevuma dziļumu un pozīciju hierarhijā. Tajā tiek izmantota strukturējuma numerācija. Uzdevumiem, kas atrodas pirmajā līmenī zem projekta saknes mezgla, tiek izmantota numerācijas shēma 1, 2, 3 un tā tālāk. Uzdevumiem, kas atrodas zem pirmā līmeņa, tiek izmantota numerācijas shēma 1.1, 1.2, 1.3 un tā tālāk.
 
@@ -83,12 +83,12 @@ Pogas **Pārvietot uz augšu** un **Pārvietot uz leju** maina uzdevuma pozīcij
 
 Režģis **Grafiks** ir pilnībā pieejams, un to var izmantot ar tādiem ekrāna lasītājiem kā Diktors, JAWS un NVDA. Pa režģa laukumu varat pārvietoties, izmantojot bulttaustiņus (tāpat kā programmā Microsoft Excel), varat izmantot tabulēšanas taustiņu, lai pārvietotos pa interaktīvajiem UI elementiem, kā arī varat izmantot lejupvērsto bultiņu, taustiņu Enter vai atstarpes taustiņu, lai atlasītu un izsauktu nolaižamās izvēlnes. Arī kolonnu virsraksti ir interaktīvi. Varat paslēpt un parādīt kolonnas, izmantot tabulēšanas taustiņu un bulttaustiņus, lai pārvietotos pa kolonnu virsrakstiem, un varat izmantot rīkjoslas darbību pogas. Turklāt varat izmantot tālāk norādītos īsinājumtaustiņus.
 
-- **Atsvaidzināt** : ALT+SHIFT+F5
-- **Pievienot** : ALT+SHIFT+Insert
-- **Dzēst** : ALT+SHIFT+Delete
-- **Pārvietot uz augšu/uz leju** : ALT+SHIFT+bultiņa uz augšu/uz leju
-- **Pielikt atkāpi/pārkaru atkāpi** : ALT_SHIFT+bultiņa pa kreisi/pa labi
-- **Izvērst/Sakļaut hierarhijas** : ALT+SHIFT+taustiņš Plus/Mīnus
+- **Atsvaidzināt**: ALT+SHIFT+F5
+- **Pievienot**: ALT+SHIFT+Insert
+- **Dzēst**: ALT+SHIFT+Delete
+- **Pārvietot uz augšu/uz leju**: ALT+SHIFT+bultiņa uz augšu/uz leju
+- **Pielikt atkāpi/pārkaru atkāpi**: ALT_SHIFT+bultiņa pa kreisi/pa labi
+- **Izvērst/Sakļaut hierarhijas**: ALT+SHIFT+taustiņš Plus/Mīnus
 
 ## <a name="task-attributes"></a>Uzdevuma atribūti
 
@@ -98,19 +98,19 @@ Uzdevuma nosaukums apraksta darbu, kas ir jāizpilda. Programmatūrā PSA ar uzd
  
 ### <a name="schedule-attributes"></a>Grafika atribūti
 
-Atribūti **Piepūle** , **Sākuma datums** , **Beigu datums** un **Ilgums** nosaka grafiku attiecīgajam uzdevumam.
+Atribūti **Piepūle**, **Sākuma datums**, **Beigu datums** un **Ilgums** nosaka grafiku attiecīgajam uzdevumam.
 
 Papildu grafika atribūti tostarp ir tālāk norādītie.
 
-- **Piepūles stundas** : ievadiet tāmi par stundu skaitu, kāds ir nepieciešams uzdevuma izpildīšanai. 
-- **Ilgums** : norādiet darbdienu skaitu, kāds ir nepieciešams šī uzdevuma izpildīšanai.
-- **Grafika ID** : šis automātiski ģenerētais ID tiek izmantots, lai uzdevumus sakārtotu hierarhijā. Atkarības starp uzdevumiem regulē faktisko secību, kādā pie šiem uzdevumiem tiek strādāts.
+- **Piepūles stundas**: ievadiet tāmi par stundu skaitu, kāds ir nepieciešams uzdevuma izpildīšanai. 
+- **Ilgums**: norādiet darbdienu skaitu, kāds ir nepieciešams šī uzdevuma izpildīšanai.
+- **Grafika ID**: šis automātiski ģenerētais ID tiek izmantots, lai uzdevumus sakārtotu hierarhijā. Atkarības starp uzdevumiem regulē faktisko secību, kādā pie šiem uzdevumiem tiek strādāts.
  
 ### <a name="staffing-attributes"></a>Darbspēka atribūti
 
 Personāla komplektēšanas atribūtiem piekļūst, grafikā izmantojot lauku **Resursi**. Varat vai nu meklēt jau esošu resursu, vai rūtī **Ātrā izveide** noklikšķināt uz **Izveidot** un pievienot projekta darba grupas dalībnieku kā jaunu resursu.
 
-Uzdevuma personāla komplektēšanas prasību aprakstīšanai tiek izmantoti lauki **Loma** , **Resursu vienība** un **Amata nosaukums**. Šie personāla komplektēšanas atribūti kopā ar uzdevuma grafiku tiek izmantoti, lai atrastu pieejamos resursus šī uzdevuma veikšanai.
+Uzdevuma personāla komplektēšanas prasību aprakstīšanai tiek izmantoti lauki **Loma**, **Resursu vienība** un **Amata nosaukums**. Šie personāla komplektēšanas atribūti kopā ar uzdevuma grafiku tiek izmantoti, lai atrastu pieejamos resursus šī uzdevuma veikšanai.
 
 **Loma** — norādiet resursa tipu, kāds ir nepieciešams šī uzdevuma veikšanai.
 
@@ -134,7 +134,7 @@ Uzdevuma režīms nosaka lapu mezglu uzdevumu plānošanu. Programmatūrā PSA k
 
 ### <a name="auto-scheduling"></a>Automātiskā plānošana 
  
-Ja uzdevuma režīms kādam uzdevumam ir iestatīts uz **Plānots automātiski** , lai šim uzdevumam noteiktu grafiku, uzdevuma plānošanas programma uzdevuma atribūtiem izmanto plānošanas kārtulas.
+Ja uzdevuma režīms kādam uzdevumam ir iestatīts uz **Plānots automātiski**, lai šim uzdevumam noteiktu grafiku, uzdevuma plānošanas programma uzdevuma atribūtiem izmanto plānošanas kārtulas.
 
 #### <a name="scheduling-rules"></a>Plānošanas kārtulas
 

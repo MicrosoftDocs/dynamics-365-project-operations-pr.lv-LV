@@ -3,7 +3,7 @@ title: Uz produktu balstītas piedāvājuma rindas
 description: Šajā tēmā ir sniegta informācija par piedāvājuma rindām, kuras ir balstītas uz produktu.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080624"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123212"
 ---
 # <a name="product-based-quote-lines"></a>Uz produktu balstītas piedāvājuma rindas
 
@@ -54,9 +54,9 @@ Ja piedāvājuma rinda ir balstīta uz produktu katalogu, pārdošanas cenu vara
 - Pārlabot izcenojumu  
 - Izmantot noklusējumu
 
-Ja šo lauku iestatāt uz **Pārlabot izcenojumu** , Dynamics 365 neiestata noklusējuma cenu. Jums ir jāievada cena šim produktam piedāvājuma rindā. Ja šo lauku iestatāt uz **Izmantot noklusējumu** , Dynamics 365 izmanto noklusējuma pārdošanas cenu un bloķē šo lauku, lai nepieļautu turpmāku rediģēšanu.
+Ja šo lauku iestatāt uz **Pārlabot izcenojumu**, Dynamics 365 neiestata noklusējuma cenu. Jums ir jāievada cena šim produktam piedāvājuma rindā. Ja šo lauku iestatāt uz **Izmantot noklusējumu**, Dynamics 365 izmanto noklusējuma pārdošanas cenu un bloķē šo lauku, lai nepieļautu turpmāku rediģēšanu.
 
-Pēc PSA instalēšanas piedāvājuma uz produktu balstītajās rindās tiek ievadītas noklusējuma pārdošanas cenas. Pēc tam lauks **Cenu noteikšana** tiek iestatīts uz **Pārlabot izcenojumu** , lai jūs varētu rediģēt noteiktā cenu piedāvājuma rindās.
+Pēc PSA instalēšanas piedāvājuma uz produktu balstītajās rindās tiek ievadītas noklusējuma pārdošanas cenas. Pēc tam lauks **Cenu noteikšana** tiek iestatīts uz **Pārlabot izcenojumu**, lai jūs varētu rediģēt noteiktā cenu piedāvājuma rindās.
 
 > ![Cenu pārlabošanas iestatīšana](media/basic-guide-10.png)
  

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080439"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119427"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Pielāgotu lauku kā cenu kategoriju iestatīšana
 
@@ -36,14 +36,14 @@ Pirms darba sākšanas šajā tēmā tiek pieņemts, ka esat pabeidzis tēmās n
 - **msdyn_OrganizationalUnit** (Organizācijas struktūrvienība).
 
 > [!IMPORTANT]
-> Nedzēsiet šīs rindas. Ja tās nav nepieciešamas, varat tās padarīt par neattiecināmām noteiktā kontekstā, pielietojot **Nē** attiecībā uz visiem šiem iestatījumiem: **Attiecināms uz izmaksām** , **Attiecināms uz pārdošanu** un **Attiecināms uz pirkšanu**. Šo atribūtu vērtību iestatīšana uz **Nē** rada tādu pašu efektu, it kā nebūtu tāda lauka kā cenas noteikšanas dimensija.
+> Nedzēsiet šīs rindas. Ja tās nav nepieciešamas, varat tās padarīt par neattiecināmām noteiktā kontekstā, pielietojot **Nē** attiecībā uz visiem šiem iestatījumiem: **Attiecināms uz izmaksām**, **Attiecināms uz pārdošanu** un **Attiecināms uz pirkšanu**. Šo atribūtu vērtību iestatīšana uz **Nē** rada tādu pašu efektu, it kā nebūtu tāda lauka kā cenas noteikšanas dimensija.
 
 Lai lauks kļūtu par cenas noteikšanas dimensiju, tam ir jābūt:
 
 - izveidotam kā lauks entītijās **Lomas cena** un **Lomu cenas uzcenojums**. Lai iegūtu plašāku informācijai par to, kā tas darāms, skatiet [Pielāgotu lauku pievienošana cenas iestatījumam un transakciju entītijām](add-custom-fields-price-setup-transactional-entities.md).
 - izveidotam kā rindai tabulā **Cenu noteikšanas dimensija**. Piemēram, pievienojiet cenu noteikšanas dimensiju rindas, kā parādīts šajā grafikā. 
 
-Resursu darba stundas ( **msdyn_resourceworkhours** ) ir pievienotas kā uz uzcenojuma balstīta dimensija un ir pievienotas režģim cilnē **Uz uzcenojuma balstīta cenas noteikšanas dimensija**.
+Resursu darba stundas (**msdyn_resourceworkhours**) ir pievienotas kā uz uzcenojuma balstīta dimensija un ir pievienotas režģim cilnē **Uz uzcenojuma balstīta cenas noteikšanas dimensija**.
 
 > [!IMPORTANT]
 > Jebkādas izmaiņas cenu noteikšanas dimensiju datos šajā tabulā, esošas vai jaunas, tiek izplatītas cenu noteikšanas biznesa loģikā tikai pēc kešatmiņas atsvaidzināšanas. Kešatmiņas atsvaidzināšanas laiks var aizņemt līdz 10 minūtēm. Atvēliet šo laiku, lai skatītu izmaiņas cenas noklusējuma loģikā, kas izriet no izmaiņām Cenu noteikšanas dimensiju datos.
@@ -53,13 +53,13 @@ Resursu darba stundas ( **msdyn_resourceworkhours** ) ir pievienotas kā uz uzce
 Šajās sadaļās ir sniegta informācija par dažādiem atribūtiem tabulā **Cenu noteikšanas dimensijas**.
 
 ### <a name="pricing-dimension-name"></a>Cenas noteikšanas dimensijas nosaukums
-Šai vērtībai ir jāsakrīt ar tā lauka shēmas nosaukumu, kas ir pievienots tabulai **Lomas cena** pielāgotām cenu dimensijām. Lai iegūtu plašāku informāciju par lauku pievienošanu tabulai **Lomas cena** , skatiet [Pielāgotu lauku pievienošana cenas iestatījumam un transakciju entītijām](add-custom-fields-price-setup-transactional-entities.md).
+Šai vērtībai ir jāsakrīt ar tā lauka shēmas nosaukumu, kas ir pievienots tabulai **Lomas cena** pielāgotām cenu dimensijām. Lai iegūtu plašāku informāciju par lauku pievienošanu tabulai **Lomas cena**, skatiet [Pielāgotu lauku pievienošana cenas iestatījumam un transakciju entītijām](add-custom-fields-price-setup-transactional-entities.md).
 
 ### <a name="type-of-dimension"></a>Dimensijas tips
 Pastāv divi cenu noteikšanas dimensiju tipi:
   
-  - **Uz summu balstītas dimensijas** : dimensiju vērtības no ievades konteksta atbilst dimensiju vērtībām, kas norādītas rindā **Lomas cena** , un cena/izmaksas pēc noklusējuma tiek izmantotas tieši no tabulas **Lomas cena** ;
-  - **Uz uzcenojumu balstītas dimensijas** : tās ir dimensijas, kurās izmanto šādu triju posmu procesu cenas/izmaksu iegūšanai.
+  - **Uz summu balstītas dimensijas**: dimensiju vērtības no ievades konteksta atbilst dimensiju vērtībām, kas norādītas rindā **Lomas cena**, un cena/izmaksas pēc noklusējuma tiek izmantotas tieši no tabulas **Lomas cena**;
+  - **Uz uzcenojumu balstītas dimensijas**: tās ir dimensijas, kurās izmanto šādu triju posmu procesu cenas/izmaksu iegūšanai.
  
     1. Pamatlikmes iegūšanai uz uzcenojumu nebalstītās dimensiju vērtības no ievades konteksta tiek saskaņotas ar Lomas cenas rindu.
     2. Uzcenojuma procentu likmes iegūšanai visas dimensiju vērtības no ievades konteksta tiek saskaņotas ar rindu **Lomas cenas uzcenojums**.
@@ -77,16 +77,16 @@ Pastāv divi cenu noteikšanas dimensiju tipi:
 Ja resurss no “Contoso India”, kura pamatlikme ir 100 USD, strādā uz vietas un laika ierakstā norāda 8 stundas Parasta darbadienas laika un 2 virsstundas, cenu noteikšanas programma izmantos pamatlikmi 100 uz 8 stundām, lai ierakstītu 800 USD. 2 virsstundām tiks lietots 15% uzcenojums pamatlikmei 100, iegūstot vienības cenu 115 USD apmērā un ierakstot kopējās izmaksas 230 USD apmērā.
 
 ### <a name="applicable-to-cost"></a>Piemērojams izmaksām 
-Ja iestatīts uz **Jā** , tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** izmaksu un uzcenojuma likmju izgūšanas laikā.
+Ja iestatīts uz **Jā**, tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** izmaksu un uzcenojuma likmju izgūšanas laikā.
 
 ### <a name="applicable-to-sales"></a>Attiecināms uz pārdošanu
-Ja iestatīts uz **Jā** , tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** norēķinu un uzcenojuma likmju izgūšanas laikā.
+Ja iestatīts uz **Jā**, tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** norēķinu un uzcenojuma likmju izgūšanas laikā.
 
 ### <a name="applicable-to-purchase"></a>Attiecināms uz iegādi
-Ja iestatīts uz **Jā** , tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** pirkšanas cenas izgūšanas laikā. Apakšlīgumu scenāriji netiek atbalstīti, tāpēc šis lauks netiek lietots. 
+Ja iestatīts uz **Jā**, tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** pirkšanas cenas izgūšanas laikā. Apakšlīgumu scenāriji netiek atbalstīti, tāpēc šis lauks netiek lietots. 
 
 ### <a name="priority"></a>Prioritāte
 Dimensijas prioritātes iestatīšana palīdz noteikt cenu pat tad, ja netiek atrasta precīza atbilstība starp ievades dimensiju vērtībām un vērtībām no **Lomas cenas** vai **Lomas cenas uzcenojuma** tabulām. Šādā gadījumā neatbilstošām dimensijas vērtībām tiks izmantotas Null vērtības, novērtējot dimensijas pēc to prioritātes.
 
-- **Izmaksu prioritāte** : dimensijas izmaksu prioritātes vērtība norāda šīs dimensijas nozīmīgumu, salīdzinot ar izmaksu cenu iestatīšanu. **Izmaksu prioritātes** vērtībai ir jābūt unikālai visās dimensijās, kas **Attiecināmas uz izmaksām**.
-- **Pārdošanas prioritāte** : dimensijas pārdošanas prioritātes vērtība norāda šīs dimensijas nozīmīgumu, salīdzinot ar pārdošanas cenu vai norēķinu cenu iestatīšanu. **Pārdošanas prioritātes** vērtībai ir jābūt unikālai visās dimensijās, kuras **Attiecināmas uz pārdošanu**.
+- **Izmaksu prioritāte**: dimensijas izmaksu prioritātes vērtība norāda šīs dimensijas nozīmīgumu, salīdzinot ar izmaksu cenu iestatīšanu. **Izmaksu prioritātes** vērtībai ir jābūt unikālai visās dimensijās, kas **Attiecināmas uz izmaksām**.
+- **Pārdošanas prioritāte**: dimensijas pārdošanas prioritātes vērtība norāda šīs dimensijas nozīmīgumu, salīdzinot ar pārdošanas cenu vai norēķinu cenu iestatīšanu. **Pārdošanas prioritātes** vērtībai ir jābūt unikālai visās dimensijās, kuras **Attiecināmas uz pārdošanu**.

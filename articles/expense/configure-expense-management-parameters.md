@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080326"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121047"
 ---
 # <a name="configure-expense-management-parameters"></a>Izdevumu pārvaldības parametru konfigurēšana
 
@@ -26,7 +26,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 | Lauks                                                    | Apraksts |
 |----------------------------------------------------------|-------------|
 | Nobraukuma standarta likme                                 | Ievadiet atlīdzināšanas likmi par nobraukuma izdevumiem. Šo likmi reizina ar nobraukumu, kas tiek ievadīts par izdevumiem, lai aprēķinātu summu, kas tiek atlīdzināta par ceļa izdevumiem. |
-| Izdevumu mērķa validācija                                 | Ieslēdziet šo opciju, lai ierobežotu lietotājus ar esošu vērtību kopu, kas ir konfigurēta laukā **Izdevumu atskaites mērķis** , kad tie veido izdevumu atskaites. |
+| Izdevumu mērķa validācija                                 | Ieslēdziet šo opciju, lai ierobežotu lietotājus ar esošu vērtību kopu, kas ir konfigurēta laukā **Izdevumu atskaites mērķis**, kad tie veido izdevumu atskaites. |
 | Personiskie izdevumi, ko apmaksā                                | Atlasiet personu, kas atbildīga par visu to kredītkaršu darījumu summu apmaksu, kas klasificēti kā personiski. |
 | Parādīt visu izdevumu atskaiti ar atgriešanu               | Atlasiet šo opciju, lai rādītu visus izdevumus izdevumu atskaitē, kad tiek skatīta sākotnējā dokumenta detalizētā informācija par konkrētu dokumentu, kas tika ģenerēts, grāmatojot izdevumu atskaiti. |
 | Atļauja pirms ceļošanas ir obligāta                 | Atlasiet šo opciju, lai pieprasītu, ka, pirms darbinieks var iesniegt izdevumu atskaiti, tiek iesniegts un apstiprināts ceļojuma pieteikums. |
@@ -36,7 +36,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 | Atļaut rediģēt kredītkaršu izmaksu valūtas kursu | Atlasiet šo opciju, lai ļautu lietotājam rediģēt valūtas kursu importētajiem kredītkaršu izdevumiem. |
 | Rādāmie vairāklīmeņu hierarhijas lauki                  | Atlasiet, kuri apstiprinātāja lauki tiek rādīti, kad darbplūsmas piešķiršanas tips ir iestatīts kā hierarhija, un atlase **Hierarhija** ir iestatīta tādējādi, lai izmantotu apstiprinājuma hierarhiju, izdevumu vairāklīmeņu apstiprināšanu. Ja darbplūsmai tiek izmantota vairāklīmeņu apstiprināšanas hierarhija, atlasītie lauki tiks rādīti izdevumu atskaitē un tos var rediģēt. |
 | Ievadīt darbinieka kredītkartes numuru                        | Atlasiet, vai darbinieka lapā **Kredītkartes** laukā **Kartes ID** var ievadīt un saglabāt 15 rakstzīmju vai 16 rakstzīmju numuru. |
-| Validēt ceļojuma pieteikuma mērķi                      | Ieslēdziet šo opciju, lai ierobežotu lietotājus ar esošu vērtību kopu, kas ir konfigurēta laukā **Izdevumu atskaites mērķis** , kad tie veido ceļojumu pieteikumus. |
+| Validēt ceļojuma pieteikuma mērķi                      | Ieslēdziet šo opciju, lai ierobežotu lietotājus ar esošu vērtību kopu, kas ir konfigurēta laukā **Izdevumu atskaites mērķis**, kad tie veido ceļojumu pieteikumus. |
 
 ## <a name="financial"></a>Izglītība
 

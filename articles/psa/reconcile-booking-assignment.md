@@ -3,7 +3,7 @@ title: Rezervāciju un piešķiru saskaņošana
 description: Šajā tēmā ir sniegta informācija par faktiskajām vērtībām.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080490"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120462"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Rezervāciju un piešķiru saskaņošana
 
@@ -35,7 +35,7 @@ Projektu rezervāciju un uzdevumu piešķiru brīvā savienojuma dēļ projekta 
 
 Katram nosauktajam darba grupas dalībniekam cilnē **Saskaņošana** rezervācijas un piešķires ir parādītas līdz atsevišķā uzdevuma piešķirei. Tur tiek rādītas stundas šūnās, kas var apzīmēt periodus no mēnešiem līdz dienām.
 
-Laukā **Laika skala** varat atlasīt vienumu **Mēnesis** , **Nedēļa** vai **Diena**. Pēc noklusējuma ir atlasīts vienums **Nedēļa**. Taču šo noklusējuma vērtību varat mainīt, atlasot pogu **Iestatījumi**. Kad atverat cilni **Saskaņošana** , tiek rādīts pašreizējais datums, bet varat izmantot kalendāra vadīklu, lai pārietu laikā uz priekšu vai atpakaļ. Ja projekta sākuma datums ir nākotnē, šī cilne pēc atvēršanas rāda šo datumu. Kalendāra vadīklai ir arī opcijas, kas ļauj jums pāriet uz projekta sākuma un beigu datumiem.
+Laukā **Laika skala** varat atlasīt vienumu **Mēnesis**, **Nedēļa** vai **Diena**. Pēc noklusējuma ir atlasīts vienums **Nedēļa**. Taču šo noklusējuma vērtību varat mainīt, atlasot pogu **Iestatījumi**. Kad atverat cilni **Saskaņošana**, tiek rādīts pašreizējais datums, bet varat izmantot kalendāra vadīklu, lai pārietu laikā uz priekšu vai atpakaļ. Ja projekta sākuma datums ir nākotnē, šī cilne pēc atvēršanas rāda šo datumu. Kalendāra vadīklai ir arī opcijas, kas ļauj jums pāriet uz projekta sākuma un beigu datumiem.
 
 Katram resursam varat izmantot izvērsēja vadīklas, lai parādītu detalizētu informāciju par šī resursa rezervācijām. Varat arī izvērst katra resursa piešķires līdz atsevišķā uzdevuma līmenim.
 
@@ -47,9 +47,9 @@ Cilnes **Saskaņošana** apakšā ir redzama attiecīgā projekta vispārējā n
 > [!NOTE]
 > Šo apstākļu apzīmējumi varētu būt slēpti, lai režģim atstātu vairāk vietas. Tādā gadījumā apzīmējumus varat padarīt redzamus, atlasot pogu **Iestatījumi**.
 
-Reizēm, kad lauks **Laika skala** ir iestatīts uz līmeni, kas ir augstāks par **Diena** , atšķirības varētu tikt aprēķinātas kā 0 (nulle). Piemēram, līmenī **Mēnesis** neto starpība resursam varētu būt 0 (nulle), tā norādot, ka rezervācijas ir vienādas ar piešķirēm. Taču, ja skatāties līmenī **Nedēļa** , jūs varētu redzēt, ka mēneša pirmajā nedēļā piešķires ir 0 (nulle) stundu un rezervācijas ir 40 stundas, bet mēneša otrajā nedēļā piešķires ir 40 stundas un rezervācijas ir 0 (nulle) stundu. Lai gan kopējās rezervācijas un piešķires mēnesim ir vienādas, tās atšķiras par nedēļu.
+Reizēm, kad lauks **Laika skala** ir iestatīts uz līmeni, kas ir augstāks par **Diena**, atšķirības varētu tikt aprēķinātas kā 0 (nulle). Piemēram, līmenī **Mēnesis** neto starpība resursam varētu būt 0 (nulle), tā norādot, ka rezervācijas ir vienādas ar piešķirēm. Taču, ja skatāties līmenī **Nedēļa**, jūs varētu redzēt, ka mēneša pirmajā nedēļā piešķires ir 0 (nulle) stundu un rezervācijas ir 40 stundas, bet mēneša otrajā nedēļā piešķires ir 40 stundas un rezervācijas ir 0 (nulle) stundu. Lai gan kopējās rezervācijas un piešķires mēnesim ir vienādas, tās atšķiras par nedēļu.
 
-Kad skatāties augstākos laika līmeņos, cilnē **Saskaņošana** tiek rādīts šūnu indikators, lai jums ziņotu, ka pastāv atšķirības zemākos laika līmeņos. Piemēram, nākamajā ilustrācijā šūnas indikators ir redzams 2018. gada oktobra mēneša šūnā resursam, kura nosaukums ir Everita Liepa. Tādēļ varat redzēt, ka, lai gan resursa rezervācijas un piešķires ir vienādas, kad tās tiek apkopotas līmenī **Mēnesis** , tās nesaskan zemākos līmeņos.
+Kad skatāties augstākos laika līmeņos, cilnē **Saskaņošana** tiek rādīts šūnu indikators, lai jums ziņotu, ka pastāv atšķirības zemākos laika līmeņos. Piemēram, nākamajā ilustrācijā šūnas indikators ir redzams 2018. gada oktobra mēneša šūnā resursam, kura nosaukums ir Everita Liepa. Tādēļ varat redzēt, ka, lai gan resursa rezervācijas un piešķires ir vienādas, kad tās tiek apkopotas līmenī **Mēnesis**, tās nesaskan zemākos līmeņos.
 
 ![Neatbilstošas rezervācijas un piešķīrumi mēneša līmenī](media/reconcile-assignments-01.JPG)
 
@@ -59,9 +59,9 @@ Veiciet dubultklikšķi uz šūnas, lai tuvinātu uz nākamo zemāko līmeni un 
 
 Varat uz šūnas noklikšķināt ar peles labo pogu, lai tālinātu uz nākamo augstāko līmeni. Varat arī izslēgt šūnas indikatoru, atlasot pogu **Iestatījumi**. 
 
-Varat arī izmantot virs režģa esošās pogas **Iepriekšējais** un **Nākamais** , lai pārvietotos pa visām projektā esošajām atšķirībām. Lai izmantotu šīs pogas, jums vispirms ir jāatlasa kāds resurss. Atlasiet **Nākamais** , lai pārietu uz nākamo atšķirību starp rezervācijām un piešķirēm šim resursam. Atlasiet **Iepriekšējais** , lai pārietu uz iepriekšējo atšķirību.
+Varat arī izmantot virs režģa esošās pogas **Iepriekšējais** un **Nākamais**, lai pārvietotos pa visām projektā esošajām atšķirībām. Lai izmantotu šīs pogas, jums vispirms ir jāatlasa kāds resurss. Atlasiet **Nākamais**, lai pārietu uz nākamo atšķirību starp rezervācijām un piešķirēm šim resursam. Atlasiet **Iepriekšējais**, lai pārietu uz iepriekšējo atšķirību.
 
-Gadījumos, kad jums ir uzdevumu piešķires kādam resursam, bet nav rezervāciju, varat atlasīt rezervācijas deficītu un pēc tam atlasīt **Paplašināt rezervāciju**. Pēc tam varat skatīt rezervāciju, kas ir nepieciešama, lai novērstu resursa deficītu. Varat arī apskatīt resursu rezervācijas pašreizējam projektam un citiem projektiem. Atlasiet **Labi** , lai izveidotu rezervāciju resursam, neņemot vērā pašreizējo pieejamību. Pēc tam projektu vadītājs vai resursu pārvaldnieks var izmantot plānošanas paneli, lai pārvaldītu situācijas, kur resursa rezervācija pārsniedz tā noslodzi, jo tā rezervācijas bija paplašinātas.
+Gadījumos, kad jums ir uzdevumu piešķires kādam resursam, bet nav rezervāciju, varat atlasīt rezervācijas deficītu un pēc tam atlasīt **Paplašināt rezervāciju**. Pēc tam varat skatīt rezervāciju, kas ir nepieciešama, lai novērstu resursa deficītu. Varat arī apskatīt resursu rezervācijas pašreizējam projektam un citiem projektiem. Atlasiet **Labi**, lai izveidotu rezervāciju resursam, neņemot vērā pašreizējo pieejamību. Pēc tam projektu vadītājs vai resursu pārvaldnieks var izmantot plānošanas paneli, lai pārvaldītu situācijas, kur resursa rezervācija pārsniedz tā noslodzi, jo tā rezervācijas bija paplašinātas.
 
 ## <a name="managing-with-time-zones"></a>Laika joslu pārvaldība
 Lai nodrošinātu precīzus un prognozējamus rezultātus, izmantojot rezervācijas pagarinājumu, ir jāizpilda divi galvenie priekšnosacījumi.  

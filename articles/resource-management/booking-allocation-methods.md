@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080394"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121497"
 ---
 # <a name="booking-allocation-methods"></a>Atļauto metožu rezervēšana
 
@@ -71,7 +71,7 @@ Sākotnējās slodzes metode ņem vērā esošās rezervācijas un pieejamo nosl
 Tā kā tiek ņemta vērā pieejamā noslodze, var tikt parādīts kļūdas ziņojums, ja resursam ir nav atlikušas noslodzes, ko var izmantot rezervācijā. Izmantojot šo metodi, rezervāciju nevar pārsniegt.
 
 ### <a name="none"></a><a name="none"></a>Nav
-Metode Nav ir pieejama tikai tad, ja rezervācija tiek veikta projekta cilnē **Darba grupa**. Izmantojot šo metodi, resurss tiek pievienots kā darba grupas dalībnieks projektā, bet netiek izveidotas rezervācijas, kas izmanto resursa noslodzi. Šī metode tiek izmantota, ja projekta izveides laikā tiek pievienots projektu vadītāju darba grupas noklusējuma dalībnieks. Projektu vadītāja lietotājs, kas izveidoja projektu pēc noklusējuma tiek pievienots projektam, lai projekta entītijas ierakstam būtu īpašnieks un projektā nebūtu neviena apstiprinātāja. Tā kā šim lietotājam nav rezervāciju, ja vēlaties rezervēt resursu, varat dzēst un atkārtoti pievienot to, izmantojot citu piešķiršanas metodi, vai pievienot resursu uzdevumiem un pēc tam izmantot sadaļu **Paplašinātās rezervācijas** cilnē **Saskaņošana** , lai sadalēm izveidotu rezervācijas.
+Metode Nav ir pieejama tikai tad, ja rezervācija tiek veikta projekta cilnē **Darba grupa**. Izmantojot šo metodi, resurss tiek pievienots kā darba grupas dalībnieks projektā, bet netiek izveidotas rezervācijas, kas izmanto resursa noslodzi. Šī metode tiek izmantota, ja projekta izveides laikā tiek pievienots projektu vadītāju darba grupas noklusējuma dalībnieks. Projektu vadītāja lietotājs, kas izveidoja projektu pēc noklusējuma tiek pievienots projektam, lai projekta entītijas ierakstam būtu īpašnieks un projektā nebūtu neviena apstiprinātāja. Tā kā šim lietotājam nav rezervāciju, ja vēlaties rezervēt resursu, varat dzēst un atkārtoti pievienot to, izmantojot citu piešķiršanas metodi, vai pievienot resursu uzdevumiem un pēc tam izmantot sadaļu **Paplašinātās rezervācijas** cilnē **Saskaņošana**, lai sadalēm izveidotu rezervācijas.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Sadales metodes, kas izraisa rezervācijas pārsniegšanu
 Ja resurss jau ir iesaistīts citos projektos (vai piesaistīts citiem darba pasūtījumiem vai plānojamām entītijām), tālāk norādītas sadales metodes izraisa rezervācijas pārsniegšanu.
