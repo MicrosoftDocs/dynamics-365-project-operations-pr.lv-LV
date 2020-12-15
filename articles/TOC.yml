@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Jaunumi
       items:
+        - name: "2020.\_gada decembris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: "2020.\_gada novembris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projekta pārdošanas process
@@ -87,7 +89,7 @@
                 - name: Vairāku klientu pārvaldība projekta balstīta piedāvājuma rindās
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Maksas komponentu konfigurēšana projekta piedāvājuma rindā
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Aprēķinu izveide piedāvājuma rindā
                   href: sales/create-estimate-quote-line.md
                 - name: Aprēķinu importēšana projekta balstīta piedāvājuma rindā no projekta
@@ -109,7 +111,7 @@
             - name: Projekta cenrāžu pārvaldība projekta līgumos
               href: sales/contracts-manage-project-price-lists.md
             - name: Vairāku klientu pārvaldība projekta līgumos
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Projekta balstīta līguma rindas
               items:
                 - name: Projekta balstīta līguma rindu pārskats
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Projekta līguma kopēšana
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Avansi un honorāri
+              items:
+                - name: "Līgumu balstīti avansi un honorāri\_— Lite"
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: "Honorāru grafika iestatīšana\_— Lite"
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: "Ad\_hoc avansa izveide līgumā\_— Lite"
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Cenu un izmaksu noteikšana
       items:
         - name: Cenrāža iestatīšana
@@ -158,18 +168,28 @@
           items:
             - name: Cenu noteikšanas dimensiju pārskats
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Risinājuma izveide pielāgotām cenu noteikšanas dimensijām
+              href: sales/create-solution-custompd.md
             - name: Esošu lauku lietošana kā cenu noteikšanas dimensijas
               items:
                 - name: "Project\_Operations lauki kā cenu noteikšanas dimensijas"
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Rezervējamu resursu kā cenu noteikšanas dimensiju izmantošana
+                  href: sales/use-br-as-pd.md
+                - name: Darījumu kategoriju kā cenu noteikšanas dimensiju izmantošana
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Rezervējamais resurss, kam projektā ir vairākas lomas'
+                  href: sales/br-playing-multiple-roles.md
             - name: Pielāgoti lauki kā cenu noteikšanas dimensijas
               items:
                 - name: Pielāgotu lauku un entītiju izveide kā cenu noteikšanas dimensijas
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: Pielāgotu lauku pievienošana cenu iestatījumiem un darījumu entītijām
+                - name: Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Pielāgotu lauku kā cenu kategoriju iestatīšana
+                - name: 'Pielāgotu lauku kā cenu kategoriju iestatīšana '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 'Spraudņu atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas'
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Cenu noteikšanas dimensiju izslēgšana
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projekta pārvaldība
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Resursu administrēšana
           items:
+            - name: Resursu izveide
+              href: resource-management/create-resources.md
             - name: Prasmju un kvalifikāciju definēšana
               href: resource-management/define-skills-proficiencies.md
+            - name: Lomu definēšana
+              href: resource-management/define-roles.md
             - name: Resursu kalendāru definēšana
               href: resource-management/define-resource-calendars.md
         - name: Piešķiršanas metožu rezervēšana
           href: resource-management/booking-allocation-methods.md
+        - name: Rezervāciju statusi
+          href: resource-management/booking-status.md
         - name: Prasmju un kvalifikācijas modeļi
           href: resource-management/skills-proficiency-models.md
         - name: Resursu saskaņošana
@@ -354,9 +380,11 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: "Pro\_formas projekta rēķina pārvaldība"
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Honorāra vai avansa rēķina izrakstīšana
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: "Pro\_formas projekta rēķina apstiprināšana"
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Project rēķina automatizācijas konfigurēšana
+        - name: Projekta rēķina automatizācijas konfigurēšana
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projekta uzskaite
       items:
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: "Project\_Operations integrācijas žurnāls"
           href: project-accounting/project-operations-integration-journal.md
+        - name: Starpuzņēmumu rēķinu izrakstīšana
+          items:
+            - name: Starpuzņēmumu rēķinu izrakstīšanas pārskats
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Starpuzņēmumu rēķinu izrakstīšanas konfigurēšana
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Starpuzņēmumu debitoru un kreditoru rēķinu izveide
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Starpuzņēmumu transakciju izveide
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Ieņēmumu atzinība
+      items:
+        - name: Ieņēmumu atpazīšanas pārskats
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Ieņēmumu atzinības iestatīšana
+          items:
+            - name: Periodu tipu iestatīšana
+              href: project-accounting/period-types.md
+            - name: Izmaksu veidņu iestatīšana
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Prognozējamo ieņēmumu pārvaldība
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Fiksētas cenas prognozējamo ieņēmumu projekti
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Pabeigšanas izmaksu metodes
+          href: revenue-recognition/cost-complete-methods.md
 - name: "Lite izvietošana\_— pāreja uz pro\_forma rēķina izrakstīšanu"
   items:
     - name: Darba sākšana
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
+        - name: "Jaunumi 2020.\_gada decembrī\_— Lite izvietošana\_— pāreja uz pro\_forma rēķina izrakstīšanu"
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: "Jaunumi 2020.\_gada novembrī\_— Lite izvietošana\_— pāreja uz pro\_forma rēķina izrakstīšanu"
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projekta pārdošanas process
@@ -538,18 +594,28 @@
           items:
             - name: Cenu noteikšanas dimensiju pārskats
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Risinājuma izveide pielāgotām cenu noteikšanas dimensijām
+              href: sales/create-solution-custompd.md
             - name: Esošu lauku lietošana kā cenu noteikšanas dimensijas
               items:
-                - name: Esoša lauka kā cenu dimensijas lietošana
+                - name: "Project\_Operations lauki kā cenu noteikšanas dimensijas"
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Rezervējamu resursu kā cenu noteikšanas dimensiju izmantošana
+                  href: sales/use-br-as-pd.md
+                - name: Darījumu kategoriju kā cenu noteikšanas dimensiju izmantošana
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Rezervējamais resurss, kam projektā ir vairākas lomas'
+                  href: sales/br-playing-multiple-roles.md
             - name: Pielāgoti lauki kā cenu noteikšanas dimensijas
               items:
                 - name: Pielāgotu lauku un entītiju izveide kā cenu noteikšanas dimensijas
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: Pielāgotu lauku pievienošana cenu iestatījumiem un darījumu entītijām
+                - name: Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Pielāgotu lauku kā cenu kategoriju iestatīšana
+                - name: 'Pielāgotu lauku kā cenu kategoriju iestatīšana '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 'Spraudņu atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas'
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Cenu noteikšanas dimensiju izslēgšana
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projekta pārvaldība
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Resursu administrēšana
           items:
+            - name: Resursu izveide
+              href: resource-management/create-resources.md
             - name: Prasmju un kvalifikāciju definēšana
               href: resource-management/define-skills-proficiencies.md
+            - name: Lomu definēšana
+              href: resource-management/define-roles.md
             - name: Resursu kalendāru definēšana
               href: resource-management/define-resource-calendars.md
         - name: Piešķiršanas metožu rezervēšana
           href: resource-management/booking-allocation-methods.md
+        - name: Rezervāciju statusi
+          href: resource-management/booking-status.md
         - name: Prasmju un kvalifikācijas modeļi
           href: resource-management/skills-proficiency-models.md
         - name: Resursu saskaņošana
@@ -694,7 +766,7 @@
           href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
         - name: Labojošu projekta rēķinu izveide
           href: pro/proforma-invoicing/corrective-invoices-sales.md
-        - name: Project rēķina automatizācijas konfigurēšana
+        - name: Projekta rēķina automatizācijas konfigurēšana
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: "Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
   items:
@@ -834,6 +906,8 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidienu grafiks"
           href: psa/version-history-ps.md
+        - name: "Update\_Release\_26,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-26.md
         - name: "Update\_Release\_25,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-25.md
         - name: "Update\_Release\_24,\_V3 jaunumi vai izmaiņas"
