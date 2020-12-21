@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177160"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513888"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Uz projektiem balstītu līguma rindu maksas komponentu konfigurēšana — Lite
 
@@ -34,7 +34,7 @@ Iekļauto komponentu apakškopu var atzīmēt kā apmaksājamu, izmantojot lauku
 
 Apmaksājamus komponentus var definēt uzdevumos, lomās un darījumu kategorijās.
 
-Iekļaujamība rēķinā tiek definēta par projekta līguma rindas uzdevumiem un tā attiecas uz visām rindā iekļautajām darījumu klasēm. Ja lauks **Iekļaut uzdevumus** līguma rindā ir tukšs vai iestatīts uz **Viss projekts**, cilne **Apmaksājamiem uzdevumi** nebūs pieejama.
+Iekļaujamība rēķinā tiek definēta par projekta līguma rindas uzdevumiem un tā attiecas uz visām rindā iekļautajām darījumu klasēm. Ja lauks **Iekļaut uzdevumus** līguma rindā ir tukšs vai iestatīts uz **Viss projekts**, cilne **Rēķinā iekļaujamie uzdevumi** nebūs pieejama.
 
 Apmaksas apjoms, kas definēts pēc lomām projekta līguma rinai, attiecas tikai uz darījumu klasi **Laiks**. Ja lauks **Iekļaut laiku** līguma rindā ir tukšs vai iestatīts uz **Nē**, cilne **Apmaksājamās lomas** nebūs pieejama.
 

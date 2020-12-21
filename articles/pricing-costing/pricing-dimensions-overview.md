@@ -1,28 +1,20 @@
 ---
 title: Cenu noteikšanas dimensiju pārskats
-description: Šajā tēmā ir sniegta informācija par cenu noteikšanas dimensijām programmā Dynamics 365 Project Operations.
+description: Šajā tēmā ir sniegta informācija par cenu noteikšanas dimensijām risinājumā Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128472"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650209"
 ---
 # <a name="pricing-dimensions-overview"></a>Cenu noteikšanas dimensiju pārskats
 
@@ -40,9 +32,21 @@ Dimensijas, kas tiek izmantotas cilvēkresursos, lai iestatītu cenu un izmaksu 
 
 ## <a name="pricing-dimensions"></a>Cenu noteikšanas dimensijas
 
-Dynamics 365 Project Operations tiek piegādāta ar cenrāžu dimensiju noklusējuma kopu. Šīs cenrāžu dimensijas varat skatīt, dodoties uz **Project Operations** > **Parametri**. Parametra ierakstā, cilnē **Uz summu balstītas cenu noteikšanas dimensijas** pārliecinieties, ka lomai **msdyn_resourcecategory** un resursu organizācijas struktūrvienībai **msdyn_organizationalunit** lauki **Attiecināms uz pārdošanu** un **Attiecināms uz izmaksām** ir iestatīti uz **Jā**. Ja šie lauki ir iespējoti, jūs varat iestatīt maksu un izmaksas katrai lomas un organizācijas vienības kombinācijai.
+Dynamics 365 Project Operations tiek piegādāta ar cenu noteikšanas dimensiju noklusējuma kopu. Šīs cenrāžu dimensijas varat skatīt, dodoties uz **Project Operations** > **Parametri**. Parametra ierakstā, cilnē **Uz summu balstītas cenu noteikšanas dimensijas** pārliecinieties, ka lomai **msdyn_resourcecategory** un resursu organizācijas struktūrvienībai **msdyn_organizationalunit** lauki **Attiecināms uz pārdošanu** un **Attiecināms uz izmaksām** ir iestatīti uz **Jā**. Ja šie lauki ir iespējoti, jūs varat iestatīt maksu un izmaksas katrai lomas un organizācijas vienības kombinācijai.
 
-Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas.
+![Project Service parametru ekrānuzņēmums ar izceltu lauku “Attiecināms uz pārdošanu”](media/PS-OOB-parameters.png)
+
+Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas. Papildinformāciju skatiet nākamajās tēmās. 
+  
+  > [!NOTE]
+  > Procedūras ir jāaizpilda tādā secībā, kādā tās ir norādītas.
+
+1. [Risinājuma izveide pielāgotām cenu noteikšanas dimensijām](../sales/create-solution-custompd.md)
+2. [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities-pricing-dimensions.md)
+3. [Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Pielāgotu lauku kā cenu kategoriju iestatīšana ](set-up-custom-fields-pricing-dimensions.md)
+5. [Spraudņa atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Cilvēkresursu laika cenu noteikšana
 Tas, kā organizācija nosaka cenu cilvēkresursu laikam, bieži vien ir nozīmīgs stratēģisks apsvērums, kas tieši ietekmē organizācijas ienesīgumu. Sadarbojieties ar finanšu darba grupām un prakses līderiem, kad organizācija ir gatava noteikt veidu, kā tā vēlas iestatīt norēķinu un izmaksu likmes cilvēkresursu laikam.

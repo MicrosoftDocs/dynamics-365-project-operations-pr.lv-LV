@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130992"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590910"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Obligāto pielāgoto lauku pievienošana cenu iestatījumiem un transakciju entītijām 
 
@@ -49,6 +49,8 @@ Ja ir noteikta opcija pielāgotā cenu noteikšanas dimensija, pievienojiet to k
 > [!IMPORTANT]
 > Ja pievienojat lauku vairāk nekā vienai entītijai, izmantojiet vienu un to pašu lauka nosaukumu visās entītijās. 
 
+> ![Resursu darba atrašanās vietas pievienošana lomas cenai](media/RWL-Field.png)
+
 Projekta pārdošanas un novērtējuma fāzēs aprēķini par darba intensitāti, kas nepieciešams, lai pabeigtu **Vietēji** un **Uz vietas** darbu, kā arī **Regulārās stundās** un **Virsstundas**, tiek izmantotas, lai novērtētu piedāvājuma/projekta vērtību. Lauku **Resursa darba atrašanās vieta** un **Resursa darba stundas** tiek pievienotas novērtēšanas entītijām, **Piedāvājumu rindu informācija**, **Līgumu rindu informācija**, **Projekta darba grupas dalībnieki** un **Novērtējuma rinda**.
 
 1. Programmā Project Operations atlasiet **Iestatījumi** > **Risinājumi** un pēc tam veiciet dubultklikšķi uz **\<your organization name> cenu noteikšanas dimensijas**. 
@@ -58,6 +60,8 @@ Projekta pārdošanas un novērtējuma fāzēs aprēķini par darba intensitāti
 5. Atlasiet **Izmantot esošu opciju kopu** un **Resursa darba atrašanās vieta** un pēc tam atlasiet **Saglabāt**.
 6. Atkārtojiet 1.–5. darbību, lai pievienotu šo lauku **Projekta līguma rindu informācija**, **Projekta darba grupas dalībnieks** un **Novērtējuma rinda** entītijām.
 7. Atkārtojiet 1.–6. darbību opciju kopai **Resursa darba stundas**. 
+
+> ![Resursu darba atrašanās vietas pievienošana rindai Novērtējums](media/RWL-Default-Value.png)
 
 Piegādei un rēķinu izrakstīšanai pabeigtajam darbam ir precīzi jārēķinās, vai tas ir veikts **Vietēji** vai **Uz vietas**, kā arī to, vai tas ir pabeigts projekta faktiskajās **Regulārās stundas** laikā vai **Virsstundas**. **Resursa darba atrašanās vieta** un **Resursa darba stundas** lauki jāpievieno entītijām **Laika ievade**, **Faktiski**, **Rēķina rindas informācija** un **Žurnāla rinda**.
 
@@ -69,6 +73,8 @@ Piegādei un rēķinu izrakstīšanai pabeigtajam darbam ir precīzi jārēķin�
 6. Atkārtojiet 1.–5. darbību, lai o lauku pievienotu **Faktiski**, **Rēķina rindu informācija** un **Žurnāla rinda** entītijām.
 7. Atkārtojiet 1.–6. darbību opciju kopai **Resursa darba stundas**. 
 
+> ![Resursu darba atrašanās vietas pievienošana laika ievadei](media/RWL-time-entry.png)
+
 Šādi tiek pabeigtas shēmas izmaiņas, kas nepieciešamas opciju kopas pielāgotām dimensijām.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Uz entītijām pamatotas opciju kopas pielāgotas cenu noteikšana
@@ -79,6 +85,8 @@ Ja pielāgotā cenu noteikšanas dimensija ir entītija, jūs pievienosit 1: N a
 2. Risinājuma pārlūkā kreisajā navigācijas rūtī atlasiet **Entītijas > Standarta nosaukums**.
 3. Izvērsiet **Standarta nosaukums** entītiju un atlasiet **1: N attiecības**.
 4. Atlasiet **Jauns**, lai veidotu jaunu 1:N attiecību, ko sauc **Standarta nosaukums rezervējamam resursam**. Ievadiet nepieciešamo informāciju un pēc tam atlasiet **Saglabāt**.
+
+> ![Standarta nosaukuma kā atsauces lauka pievienošana rezervējamam resursam](media/ST-BR.png)
 
 Standarta nosaukums būs jāpievieno arī cenu noteikšanas entītijām **Lomas cena** un **Lomas cenas uzcenojums.** Tas tiek pabeigts arī, izmantojot 1:N attiecības starp **Standarta nosaukums** un **Lomas cena** entītijām, kā arī **Standarta nosaukums** un **Lomas cenas uzcenojums**.
 
@@ -96,9 +104,13 @@ Projekta pārdošanas un novērtēšanas fāzēs cenas piedāvājumam/projektam 
 
 5. Atkārtojiet 1.–5. darbību, lai izveidotu 1: N attiecības no **Standarta nosaukums** uz **Piedāvājuma rindas informācija**, **Projekta līguma rindas informācija**, **Projekta darba grupas dalībnieks** un **Novērtētā rinda**.
 
+> ![Standarta nosaukuma kā atsauces lauka pievienošana novērtētajai rindai](media/ST-Estimate-Line.png)
+
   Piegādes un rēķinu izrakstīšanas fāzēs darbam, kas pabeigts pēc katra standarta nosaukuma, ir precīzi jāatbilst projekta faktiskajām cenām. Tas nozīmē, ka ir jābūt 1: N attiecībām no **Standarta virsraksts** uz **Laika ievade**, **Faktiskie**, **Rēķina rindas informācija** un **Žurnāla rindas entītijas**.
 
 6. Atkārtojiet 1.–6. darbību, lai izveidotu 1: N attiecības no **Standarta virsraksts** uz **Laika ievade**, **Faktiskie**, **Rēķina rindas informācija** un **Žurnāla rindas entītijas**.
+
+> ![Standarta nosaukuma kā atsauces lauka pievienošana laika ievadei](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Dimensiju vērtību noklusējuma iestatīšana, izmantojot platformas kartēšanas līdzekļus
 Laika ievadei būtu noderīgi, ja sistēmas būtu noklusējuma standarta ieraksts laika ievadē no rezervējamā resursa, kas reģistrē laika ierakstu. Veiciet šīs darbības, lai pievienotu lauka kartējumus 1:N attiecībā no **Rezervējams resurss** uz **Laika ievade**.
@@ -107,6 +119,8 @@ Laika ievadei būtu noderīgi, ja sistēmas būtu noklusējuma standarta ierakst
 2. Izvērsiet **Standarta nosaukums** entītiju un atlasiet **1: N attiecības**.
 3. Veiciet dubultklikšķi uz **Rezervējams resurss uz Laika ievade**. Lapā **Attiecības** atlasiet **Izmantot lauku kartējumus.** 
 4. Atlasiet **Jauns**, lai izveidotu jaunu lauka kartēšanu starp lauku **Standarta nosaukums** entītijā **Rezervējams resurss** atsauces laukā **Standarta nosaukums** lauka entītijā **Laika ievade**. 
+
+> ![Iestatīšanas lauka kartēšana, lai standarta nosaukuma noklusējumu no Rezervējams resurss līdz Laika ievade](media/ST-Mapping2.png)
 
 Šādi tiek pabeigtas shēmas izmaiņas, kas nepieciešamas uz entītijām pamatotām pielāgotām dimensijām.
 

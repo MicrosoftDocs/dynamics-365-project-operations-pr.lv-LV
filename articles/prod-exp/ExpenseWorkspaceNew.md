@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ec8737d848ae5ad25219a43c68306d19b1c1fbce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080487"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650148"
 ---
 # <a name="redesigned-expense-reports"></a>Pārstrādātas izdevumu atskaites
 [!include[banner](../includes/banner.md)]
@@ -62,7 +62,7 @@ Videoklips [Izdevumu pieredze risinājumā Dynamics 365 for Finance and Operatio
 | Jauna darbvieta, lai uzlabotu redzamību | Jauna darbvieta apvieno līdzekļus un saites, kas lietotājiem ļauj pāriet uz dažādām zonām. |
 | Esošo izdevumu un kvīšu pievienošana izdevumu izveides laikā | Veidojot izdevumu atskaites, varat pievienot visus vai tikai atlasītos izdevumus un kvītis. |
 | Valūtas kursa kalkulators | Ir pievienots valūtas kursa kalkulators, kas ļauj aprēķināt valūtas kursu tiešajiem daudzvalūtu darījumiem. |
-| Jaunu izdevumu rindu saglabāšana un pievienošana | Ievadot izdevumus, ir pieejamas pogas **Saglabāt** un **Jauns** , lai jums palīdzētu ātri ievadīt izdevumu rindas. |
+| Jaunu izdevumu rindu saglabāšana un pievienošana | Ievadot izdevumus, ir pieejamas pogas **Saglabāt** un **Jauns**, lai jums palīdzētu ātri ievadīt izdevumu rindas. |
 | Labāka sadalīto un detalizēto rindu redzamība | Tieši izmaksu sarakstā tiek pievienotas detalizētas un sadalītas rindas, lai uzlabotu redzamību un palīdzētu ērti noteikt, vai nav politikas vai citu kļūdu. |
 | Kvīšu rādīšana detalizācijas laikā | Detalizācijas laikā var rādīt kvītis. |
 

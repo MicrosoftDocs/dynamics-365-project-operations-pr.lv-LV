@@ -1,6 +1,6 @@
 ---
 title: Drošības modelis
-description: Šajā tēmā ir sniegta informācija par drošības modeli programmā Dynamics 365 Project Operations.
+description: Šajā tēmā ir sniegta informācija par drošības modeli risinājumā Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124377"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642912"
 ---
 # <a name="security-model"></a>Drošības modelis
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Programmā Microsoft Dynamics 365 Project Operations ir iekļauts unikāls drošības modelis, kurš ļauj izmantot uz lomām balstītu biznesa drošības modeli, kas sadarbojas ar Microsoft Office grupām. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations ietver unikālu drošības modeli, ļaujot izveidot uz lomām balstītu biznesa drošības modeli, kas sadarbojas ar Microsoft Office grupām. 
 
 
 ## <a name="security-roles"></a>Drošības lomas

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121182"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642989"
 ---
 # <a name="provision-a-new-environment"></a>Jaunas vides nodrošināšana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā tēmā ir sniegta informācija par to, kā nodrošināt jaunu Dynamics 365 Project Operations vidi scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Šajā tēmā ir sniegta informācija par jaunas Dynamics 365 Project Operations vides nodrošināšanu scenārijiem, kas balstīti uz resursiem/bez krājumiem.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operations automatizētās nodrošināšanas iespējošana LCS projektā
 
@@ -120,7 +122,7 @@ Vide apkalpošana aizņems zināmu laiku. Pēc pabeigšanas vide atgriezīsies i
 
 ![Lietot risinājumu](./media/13ApplySolutions.png)
 
-5. Atlasiet abus risinājumus — **Dynamics 365 Finance and Operations duālās rakstīšanas entītiju kartējumu** un **Dynamics 365 Project Operations duālās rakstīšanas entītiju kartējumu** un pēc tam atlasiet **Lietot**.
+5. Atlasiet abus risinājumus — **Dynamics 365 Finance and Operations divkāršās rakstīšanas entītiju kartējums** un **Dynamics 365 Project Operations divkāršās rakstīšanas entītiju kartējumi** un pēc tam atlasiet **Lietot**.
 
 ![Apstiprināt risinājumus](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Atsvaidzināšana aizņems aptuveni 20 minūtes. Kad tā būs pabeigta, saņems
 | --- | --- | --- | --- | --- | --- |
 | **Projekta resursu lomas visiem uzņēmumiem (bookableresourcecategories)** | No | Jā | Common Data Service | No | N/A |
 | **Juridiskas personas (cdm\_companies)** | No | Jā | Finance and Operations programmas | No | N/A |
+| **Virsgrāmata (msdyn_ledgers)** | No | Jā | Finance and Operations programmas | Jā | Jā, Finance and Operations programmas |
 | **Project Operations integrācijas faktiskie dati (msdyn\_actuals)** | No | No | N/A | Jā | No |
 | **Projekta līguma rindas (salesorderdetails)** | No | No | N/A | No | No |
 | **Integrāciju entitīja projekta transakciju relācijām (msdyn\_transactionconnections)** | No | No | N/A | No | N/A |

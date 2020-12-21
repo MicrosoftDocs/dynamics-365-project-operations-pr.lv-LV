@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130857"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672240"
 ---
 # <a name="override-project-sales-price-lists"></a>Projekta cenrāžu sarakstu ignorēšana
 
@@ -21,13 +22,13 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 ## <a name="customer-specific-project-price-lists"></a>Klientam noteikts projekta cenrādis
 
-Klientam noteiktas cenas var tikt iestatītas kā projekta cenrāži uzņēmuma ierakstā risinājumā Dynamics 365 Project Operations.
+Klientam noteiktas cenas var tikt iestatītas kā projekta cenrāži uzņēmuma ierakstā risinājumā Dynamics 365 Project Operations.
 
 Lai iestatītu klientam noteiktu projekta cenrādi, zonā **Pārdošana** pārejiet uz uzņēmuma ierakstu.
 
 1. Atveriet saraksta lapu **Konts**.
 2. Atrodiet un veiciet dubultklikšķi uz klienta ieraksta, lai atvērtu informācijas lapu **Konts**.
-3. Cilnē **Projekta cenrāži** atlasiet **+ Jauns projekta cenrādis^^.
+3. Cilnē **Projekta cenrāži** atlasiet **+ Jauns projekta cenrādis**.
 4. Lapas **Jauns projekta cenrādis** nolaižamajā sarakstā atlasiet cenrādi. Ir iekļauti tikai tie cenrāži, kuru konteksts ir iestatīts kā **Pārdošana** un kuru valūta atbilst uzņēmuma valūtai.
 5. Ierakstiet saistības nosaukumu un pēc tam atlasiet vienumu **Saglabāt**. Tiek izveidots klientam noteikts projekta cenrādis. Šis cenrādis tiks izmantots, lai ievietotu noklusējuma projekta cenas projekta piedāvājumos vai līgumos, kas izveidoti šim klientam, ja piedāvājuma vai projekta līguma izveidošanas datums atbilst cenrāža darbības laikam.
 

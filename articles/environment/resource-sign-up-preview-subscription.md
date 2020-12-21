@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121137"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642976"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Reģistrēšanās Project Operations priekšskatījuma abonementiem scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā ir izskaidrots, kā abonēt priekšskatījuma/partnera piedāvājumu un izvietot Project Operations vidi scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem.
 
@@ -31,18 +33,18 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Kad jūsu [priekšskatījuma pieprasījums](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) tiks apstiprināts, e-pastā saņemsit trīs piedāvājumus no Microsoft. Šie piedāvājumi jums ļauj izvietot Project Operations priekšskatījumu:
 
-- Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija
+- Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija
 - Office 365 Project Operations — priekšskatījuma izmēģinājumversija
 - Dynamics 365 Finance — priekšskatījuma izmēģinājumversija
 
 > [!IMPORTANT]
 > Šis uzdevums organizācijā ir jāveic tikai vienai personai, t.i., nomnieka administratoram. Ja neesat šī laidiena abonents, nogaidiet, līdz organizācija būs reģistrējusies un būsit saņēmis savus lietotāja akreditācijas datus.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija 
 
 Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lietotāja darba kontu nomniekā, kurā vēlaties veikt Project Operations priekšskatīšanu.
 
-1. Izpērciet pirmo piedāvājuma kodu, **Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija**, ielīmējot to pārlūka URL.
+1. Izmantojiet pirmo piedāvājuma kodu **Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija**, ielīmējot to pārlūkprogrammas URL.
 
 ![Izmantot piedāvājumu](./media/16RedeemFirstOfferNew.png)
 

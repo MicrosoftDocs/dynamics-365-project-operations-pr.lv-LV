@@ -1,5 +1,5 @@
 ---
-title: Avansi un līgumi, kuru pamatā ir saistības — Lite
+title: Avansi un līgumus, kas balstīti uz honorāru
 description: Šajā tēmā ir sniegta informācija par līguma modeļiem un avansiem, kas balstīti uz honorāriem, risinājumā Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180876"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596111"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Avansi un līgumi, kuru pamatā ir saistības — Lite
+# <a name="advances-and-retainer-based-contracts"></a>Avansi un līgumi, kuru pamatā ir saistības
 
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dynamics 365 Project Operations atbalsta uz honorāriem balstītus līgumus. Uz honorāru balstīts līgums ir vienādi sadalītu maksājumu kopums, par ko klientam tiks izrakstīts rēķins par visu projekta laiku. Šāda tipa līgumu parasti izmanto laika un materiālu vai patēriņa norēķinu modeļiem, kuros klientam ir jāpiešķir prognozējams rēķins un maksājumu plāns. Faktiskie ieņēmumi, kas iegūti katrā periodā, tiek salīdzināti ar maksājumiem, kas saņemti no klienta perioda sākumā. Atbilstoši laika un materiālu norēķinu modeļa koncepcijai katrā periodā uzkrātās ieņēmumu vērtības var atšķirties atkarībā no izmaksām. Ja uzkrātie ieņēmumi pārsniedz summu, kas saņemta perioda sākumā, projekta piegādes uzņēmums var:
+Dynamics 365 Project Operations atbalsta līgumus, kuru pamatā ir honorāri. Uz honorāru balstīts līgums ir vienādi sadalītu maksājumu kopums, par ko klientam tiks izrakstīts rēķins par visu projekta laiku. Šāda tipa līgumu parasti izmanto laika un materiālu vai patēriņa norēķinu modeļiem, kuros klientam ir jāpiešķir prognozējams rēķins un maksājumu plāns. Faktiskie ieņēmumi, kas iegūti katrā periodā, tiek salīdzināti ar maksājumiem, kas saņemti no klienta perioda sākumā. Atbilstoši laika un materiālu norēķinu modeļa koncepcijai katrā periodā uzkrātās ieņēmumu vērtības var atšķirties atkarībā no izmaksām. Ja uzkrātie ieņēmumi pārsniedz summu, kas saņemta perioda sākumā, projekta piegādes uzņēmums var:
 
 - Izrakstīt klientam rēķinu par pārpalikumu 
 - Atlikt ieņēmumu saskaņošanu ar nākamo rēķinu izrakstīšanas periodu un veikt vienu galīgo rēķinu projekta beigās attiecībā uz atlikušajiem nesaskaņotajiem ieņēmumiem

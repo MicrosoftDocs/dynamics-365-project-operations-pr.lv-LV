@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131622"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642417"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projektu veidņu izstrāde, izmantojot darbību Projekta kopēšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dynamics 365 Project Operations atbalsta iespēju kopēt projektu un atjaunot visu uzdevumu vispārējos resursus, kas norāda lomu. Klienti var izmantot šo funkcionalitāti, lai veidotu vienkāršas projektu veidnes.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations atbalsta iespēju kopēt projektu un pārveidot visus piešķīrumus atpakaļ par vispārīgajiem resursiem, kas norāda lomu. Klienti var izmantot šo funkcionalitāti, lai veidotu vienkāršas projektu veidnes.
 
 Atlasot **Projekta kopēšana**, tiek atjaunināts mērķa projekta statuss. Izmantojiet **Statusa iemesls**, lai noteiktu, kad kopēšanas darbība ir pabeigta. Atlasot **Projekta kopēšana**, tiek atjaunināts arī projekta sākuma datums uz pašreizējo sākuma datumu, ja mērķa projekta entītijā nav noteikts mērķa datums.
 

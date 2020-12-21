@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129687"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642777"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Izmantojiet pievienojumprogrammu Project Service Automation, lai plānotu savu darbu programmā Microsoft Project
 
@@ -173,6 +173,59 @@ Projekts tiks importēts pievienojumprogrammā [!INCLUDE[pn_project_service_auto
 4. Noklikšķiniet uz **Publicēt**.  
 
 Piesaistot projekta failu pievienojumprogrammai [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], projekta fails tiek iestatīts kā galvenais un darba sadalījuma struktūra pievienojumprogrammas [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]veidnē  tiek iestatīta kā tikai lasāma.  Lai veiktu izmaiņas projekta plānā, tās ir jāveic programmā [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] un jāpublicē kā atjauninājumi pievienojumprogrammā [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Resursa ielādētā grafika lasīšana
+
+Kad tiek lasīts Project Service Automation projekts, resursa kalendārs netiek sinhronizēts ar darbvirsmas klientu. Ja atšķiras uzdevumu ilgums, ieguldījums vai beigas, iespējams, resursu un darbvirsmas klienta projektiem ir lietoti dažādi darba stundu veidnes kalendāri.
+
+
+## <a name="data-synchronization"></a>Datu sinhronizācija
+
+Tālāk sniegtajā tabulā ir aprakstīta datu sinhronizācija starp Project Service Automation un Microsoft Project darbvirsmas pievienojumprogrammu.
+
+| **Entītija** | **Lauks** | **Microsoft Project ar Project Service Automation** | **Project Service Automation ar Microsoft Project** |
+| --- | --- | --- | --- |
+| Projekta uzdevums | Termiņš | ● | - |
+| Projekta uzdevums | Paredzamais ieguldījums | ● | - |
+| Projekta uzdevums | MS Project klienta ID | ● | - |
+| Projekta uzdevums | Pamata uzdevums | ● | - |
+| Projekta uzdevums | Project | ● | - |
+| Projekta uzdevums | Projekta uzdevums | ● | - |
+| Projekta uzdevums | Projekta uzdevuma nosaukums | ● | - |
+| Projekta uzdevums | Resursu vienība (novecojis — v3.0) | ● | - |
+| Projekta uzdevums | Plānotais ilgums | ● | - |
+| Projekta uzdevums | Sākuma datums | ● | - |
+| Projekta uzdevums | WBS ID | ● | - |
+
+| **Entītija** | **Lauks** | **Microsoft Project ar Project Service Automation** | **Project Service Automation ar Microsoft Project** |
+| --- | --- | --- | --- |
+| Grupas dalībnieks | MS Project klienta ID | ● | - |
+| Grupas dalībnieks | Amata nosaukums | ● | - |
+| Grupas dalībnieks | projekts | ● | ● |
+| Grupas dalībnieks | Projekta grupa | ● | ● |
+| Grupas dalībnieks | Resursu vienība | - | ● |
+| Grupas dalībnieks | Loma | - | ● |
+| Grupas dalībnieks | Darba laiks | Netiek sinhronizēts | Netiek sinhronizēts |
+
+| **Entītija** | **Lauks** | **Microsoft Project ar Project Service Automation** | **Project Service Automation ar Microsoft Project** |
+| --- | --- | --- | --- |
+| Resursu piešķiršana | No datuma | ● | - |
+| Resursu piešķiršana | stundas | ● | - |
+| Resursu piešķiršana | MS Project klienta ID | ● | - |
+| Resursu piešķiršana | Plānotais darbs | ● | - |
+| Resursu piešķiršana | Project | ● | - |
+| Resursu piešķiršana | Projekta grupa | ● | - |
+| Resursu piešķiršana | Resursu piešķiršana | ● | - |
+| Resursu piešķiršana | Uzdevums | ● | - |
+| Resursu piešķiršana | Līdz datumam | ● | - |
+
+| **Entītija** | **Lauks** | **Microsoft Project ar Project Service Automation** | **Project Service Automation ar Microsoft Project** |
+| --- | --- | --- | --- |
+| Projekta uzdevuma atkarības | Projekta uzdevuma atkarība | ● | - |
+| Projekta uzdevuma atkarības | Saites veids | ● | - |
+| Projekta uzdevuma atkarības | Pirmstecīgais uzdevums | ● | - |
+| Projekta uzdevuma atkarības | Project | ● | - |
+| Projekta uzdevuma atkarības | Pēctecīgais uzdevums | ● | - |
 
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)

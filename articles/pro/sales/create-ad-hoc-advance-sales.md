@@ -1,5 +1,5 @@
 ---
-title: Ad hoc avansa izveide līgumam — Lite
+title: Ad hoc avansa izveide līgumā
 description: Šajā tēmā ir sniegta informācija par līguma avansa izveidi pēc nepieciešamības.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181371"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596009"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Ad hoc avansa izveide līgumam — Lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Ad hoc avansa izveide līgumā
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Microsoft Dynamics 365 Project Operations atbalsta rēķinu izrakstīšanas scenārijus, kuros ir iesaistīti priekšapmaksas un avansa maksājumi. Process, lai izmantotu **Avansus**, lietojot **Project Operations**, ir līdzīgs **Honorāra** līgumiem. 
+Microsoft Dynamics 365 Project Operations atbalsta rēķinu izrakstīšanas scenārijus, kuros ir iesaistīti priekšapmaksas un avansa maksājumi. Process, lai izmantotu **Avansus**, lietojot **Project Operations**, ir līdzīgs **Honorāra** līgumiem. 
 
 Izpildiet tālāk aprakstītās darbības, lai klientam izrakstītu avansa rēķinu.
 

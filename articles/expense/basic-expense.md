@@ -3,17 +3,17 @@ title: Izdevumu ievade (Lite)
 description: Šajā tēmā sniegta informācija par to, kā strādāt ar izdevumu ierakstu Lite izvietošanā.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121092"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590955"
 ---
 # <a name="expense-entry-lite"></a>Izdevumu ievade (Lite)
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 
 Basic vai Lite izmaksu pārvaldība ir iespēja ierakstīt vienkāršus izdevumus. Varat ierakstīt izmaksas projektam, un pēc tam projekta apstiprinātājs tos pārskatīs un apstiprinās.
 
-Papildinformāciju par izdevumu iespējām risinājumā Dynamics 365 Project Operations, skatiet šeit: [Izdevumu pārskats](expense-overview.md).
+Papildinformāciju par izdevumu iespējām risinājumā Dynamics 365 Project Operations skatiet sadaļā [Izdevumu pārskats](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Pamata izdevuma fiksēšana
 
@@ -36,6 +36,10 @@ Kad esat pabeidzis visu savu izdevumu fiksēšanu un esat gatavs tos virzīt aps
 
 1. Atveriet sadaļu **Izdevumi** un atlasiet kādu izdevumu. Vai arī atlasiet visus izdevumus, izmantojot izvēles rūtiņu galvenē.
 2. Atlasiet **Iesniegt**. Sistēma apstrādā atlasītos ierakstus un pēc tam izveido izmaksu apstiprināšanas pieprasījumus.
+
+## <a name="add-an-attachment"></a>Pievienot pielikumu
+
+Iespējams, jums apstiprinātājam būs jāiesniedz papildu dokumentācija par izdevumiem. Izdevumu ieraksta laika skalā var pievienot kvīti. Atlasiet **Rediģēt** sadaļā **Laika skala** un pēc tam atlasiet saspraudes ikonu, lai pievienotu kvīti.
 
 ## <a name="recall-a-basic-expense"></a>Pamata izdevuma atsaukšana
 

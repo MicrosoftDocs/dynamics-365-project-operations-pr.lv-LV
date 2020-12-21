@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119427"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650228"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Pielāgotu lauku kā cenu kategoriju iestatīšana
 
@@ -41,9 +41,15 @@ Pirms darba sākšanas šajā tēmā tiek pieņemts, ka esat pabeidzis tēmās n
 Lai lauks kļūtu par cenas noteikšanas dimensiju, tam ir jābūt:
 
 - izveidotam kā lauks entītijās **Lomas cena** un **Lomu cenas uzcenojums**. Lai iegūtu plašāku informācijai par to, kā tas darāms, skatiet [Pielāgotu lauku pievienošana cenas iestatījumam un transakciju entītijām](add-custom-fields-price-setup-transactional-entities.md).
+
 - izveidotam kā rindai tabulā **Cenu noteikšanas dimensija**. Piemēram, pievienojiet cenu noteikšanas dimensiju rindas, kā parādīts šajā grafikā. 
 
+![Uz summu balstītas cenu noteikšanas dimensiju rindas](media/Amt-based-PD.png)
+
 Resursu darba stundas (**msdyn_resourceworkhours**) ir pievienotas kā uz uzcenojuma balstīta dimensija un ir pievienotas režģim cilnē **Uz uzcenojuma balstīta cenas noteikšanas dimensija**.
+
+![Uz uzcenojuma balstītas cenu noteikšanas dimensiju rindas](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Jebkādas izmaiņas cenu noteikšanas dimensiju datos šajā tabulā, esošas vai jaunas, tiek izplatītas cenu noteikšanas biznesa loģikā tikai pēc kešatmiņas atsvaidzināšanas. Kešatmiņas atsvaidzināšanas laiks var aizņemt līdz 10 minūtēm. Atvēliet šo laiku, lai skatītu izmaiņas cenas noklusējuma loģikā, kas izriet no izmaiņām Cenu noteikšanas dimensiju datos.

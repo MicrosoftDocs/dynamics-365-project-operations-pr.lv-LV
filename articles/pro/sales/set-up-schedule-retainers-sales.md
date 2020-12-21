@@ -1,5 +1,5 @@
 ---
-title: Honorāra grafika iestatīšana — Lite
+title: Honorāru grafika iestatīšana
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt honorāra grafiku risinājumā Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181281"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596381"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Honorāra grafika iestatīšana — Lite
+# <a name="set-up-a-retainer-schedule"></a>Honorāru grafika iestatīšana
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Honorāra grafiki tiek iestatīti lapā **Projekta līgums** pakalpojumā Dynamics 365 Project Operations.
+Honorāra grafiki tiek iestatīti lapā **Projekta līgums** pakalpojumā Dynamics 365 Project Operations.
 
 1. Lapas **Projekta līgums** cilnē **Avansi un honorāri** atlasiet **Iestatīt honorāra grafiku**.
 2. Atvērtajā dialoga lapā tiek parādīti tālāk redzamajā tabulā uzskaitītie lauki. Tabulā ir sniegts priekšstats par to, kā ievadītās vērtības ietekmē vai iespaidos honorāra grafiku, kas tiks izveidots.

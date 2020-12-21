@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180516"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513798"
 ---
 # <a name="manage-leads---lite"></a>Interesentu pārvaldība — Lite
 
@@ -23,7 +23,7 @@ Project Operations ļauj pārvaldīt un kvalificēt projekta interesentus. Inter
 
 ## <a name="list-of-project-sales-leads"></a>Projekta pārdošanas interesentu saraksts
 
-Sadaļas **Pārdošana** kreisajā navigācijas rūtī atveriet saraksta lapu **Interesenti**, lai skatītu sarakstu ar visiem interesentu ierakstiem sistēmā. Parādītais interesentu saraksts satur darba un cita veida interesentus, ko var izveidot, ja jums ir arī lietojumprogrammas Dynamics 365 Sales vai Dynamics 365 Field Service.
+Sadaļas **Pārdošana** kreisajā navigācijas rūtī atveriet saraksta lapu **Interesenti**, lai skatītu sarakstu ar visiem interesentu ierakstiem sistēmā. Sarakstā iekļautie interesenti ir balstīti uz darbu, un ir iespējams izveidot cita veida interesents, ja jums ir arī Dynamics 365 Sales vai Dynamics 365 Field Service programmas.
 
 Varat izveidot filtrēto skatu, lai skatītu tikai projekta interesentus, izveidojot filtru ar vērtību **Tips**. Piemēram, varat atlasīt, lai parādītu tikai darba interesentus.
 

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177070"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643047"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>Projekta līgumi — pamata koncepti — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā tēmā minēti galvenie jēdzieni, kas jāzina, pirms sākat lietot projekta līgumos risinājumā Dynamics 365 Project Operations.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Šajā tēmā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus programmā Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Līgumslēdzēja vienība
 

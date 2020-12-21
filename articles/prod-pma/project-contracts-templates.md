@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080578"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642642"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projekta līgumu un projektu sinhronizēšana tieši no Project Service Automation uz Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantots projekta līgumu un projektu sinhronizēšanai tieši no Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Nākamajā ilustrācijā parādīts, kā dati tiek sinhronizēti starp Project S
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
 
-Lai piekļūtu pieejamajām veidnēm, Microsoft Power Apps administrēšanas centrā atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet vienumu **Jauns projekts** , lai atlasītu publiskas veidnes.
+Lai piekļūtu pieejamajām veidnēm, Microsoft Power Apps administrēšanas centrā atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet vienumu **Jauns projekts**, lai atlasītu publiskas veidnes.
 
 Lai sinhronizētu projekta līgumus un projektus no Project Service Automation uz Finance, tiek izmantotas šādas veidnes un pamata uzdevumi:
 
@@ -133,9 +135,9 @@ Ja ir jāizmanto Power Query, ievērojiet šīs vadlīnijas:
 ## <a name="template-mapping-in-data-integration"></a>Veidņu kartēšana datu integrācijā
 
 > [!NOTE] 
-> Lauki **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** un **AddressZipCode** nav iekļauti projektu līgumu noklusējuma kartējumā. Varat pievienot kartējumus, ja jums nepieciešams, lai šie dati tiktu sinhronizēti projekta līgumiem.
+> Lauki **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** un **AddressZipCode** nav iekļauti projektu līgumu noklusējuma kartējumā. Varat pievienot kartējumus, ja jums nepieciešams, lai šie dati tiktu sinhronizēti projekta līgumiem.
 >
-> Lauki **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** un **ProjectType** nav iekļauti projektu noklusējuma kartējumā Varat pievienot kartējumus, ja jums nepieciešams, lai šie dati tiktu sinhronizēti projektiem.
+> Lauki **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** un **ProjectType** nav iekļauti projektu noklusējuma kartējumā Varat pievienot kartējumus, ja jums nepieciešams, lai šie dati tiktu sinhronizēti projektiem.
 
 Nākamajās ilustrācijās ir redzami piemēri no veidnes uzdevumu kartējumiem datu integrācijā. Kartējumā tiek parādīta lauka informācija, kas tiks sinhronizēta no Project Service Automation uz Finance.
 

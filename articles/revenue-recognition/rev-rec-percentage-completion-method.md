@@ -1,0 +1,37 @@
+---
+title: Fiksētas cenas ieņēmumu novērtējumu projekti
+description: Šajā tēmā ir sniegta informācija par fiksētas cenas ieņēmumiem projektos.
+author: sigitac
+manager: Annbe
+ms.date: 11/16/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531492"
+---
+# <a name="fixed-price-revenue-estimate-projects"></a>Fiksētas cenas ieņēmumu novērtējumu projekti 
+
+_**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
+
+Izveidojot projekta līguma rindu ar tālāk norādītajiem atribūtiem Dynamics 365 Project Operations risinājumā Microsoft Dataverse, sistēma automātiski izveido fiksētas cenas ieņēmumu novērtējuma projektu. Informācija šajā projektā ir balstīta uz tālāk uzskaitītajām opcijām.
+
+  - Fiksētas cenas norēķinu metode.
+  - Saistīts projekts.
+  - Vismaz viens atskaites punkts, kas definēts cilnē **Rēķina izrakstīšanas grafiks** lapā **Projekta līguma rinda**.
+
+## <a name="review-fixed-price-revenue-estimates-projects"></a>Fiksētas cenas ieņēmumu novērtējumu projektu pārskatīšana
+Lai pārskatītu fiksētas cenas ieņēmumu novērtējumu projektus, izpildiet tālāk norādītās darbības.
+
+1. Dynamics 365 Finance vidē pārejiet uz **Projektu pārvaldība un uzskaite** > **Projekti** > **Fiksētas cenas ieņēmumu novērtējumu projekti**.
+2. Atlasiet projektu, kuru vēlaties skatīt, un veiciet dubultklikšķi uz **Novērtējuma projekta ID**, lai atvērtu ierakstu un pārskatītu detalizētu informāciju par projektu.
+3. Izvērsiet cilni **Projekts**. Režģī **Atlasītie projekti** ir redzams viens projekts. Sistēma to izmanto kā noklusējuma projektu, jo šis projekts, ir saistīts ar projekta līguma rindu. 
+4. Lai mainītu šo piesaisti, atlasiet papildu projektus un pievienojiet tos režģī **Atlasītie projekti**. Ja šajā režģī ir atlasīti vairāki projekti, projekta pabeigšana procentos un ieņēmumu novērtējumi tiek aprēķināti kopā visiem atlasītajiem projektiem.
+
+  Projekta izmaksas, ieņēmumu profils, izmaksu veidne un perioda kods var tikt iestatīts manuāli. Ja šie parametri netiek iestatīti manuāli, pirmā projekta novērtējuma aprēķināšanas laikā tiek iestatītas noklusējuma vērtības, izmantojot projekta izmaksu un ieņēmumu profiliem konfigurētās kārtulas.
+

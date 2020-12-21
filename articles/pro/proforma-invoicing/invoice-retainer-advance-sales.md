@@ -1,5 +1,5 @@
 ---
-title: Honorāra vai avansa aprēķins — Lite
+title: Rēķina izrakstīšana par honorāru vai avansu
 description: Šajā tēmā sniegta informācija par to, kā programmā Project Operations izrakstīt rēķinus par honorāru vai avansu.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180561"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596201"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Honorāra vai avansa aprēķins — Lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Honorāra vai avansa rēķina izrakstīšana
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dynamics 365 Project Operations atbalsta uz honorāriem un vienreizējiem avansiem balstītus līgumus. Projekta līgumam varat ierakstīt honorāru grafiku vai vienreizēju avansu. Tomēr ieraksts projekta līguma līmenī nekavējoties neveido honorāru vai avansu, kas pieejams lietošanai. Lai izmantotu honorāru vai avansu rēķinam, kas faktiski iekasē maksu no klienta, vispirms ir jāizraksta rēķins par honorāru vai avansu.
+Dynamics 365 Project Operations atbalsta līgumus, kuru pamatā ir honorārs, un vienreizējus avansus. Projekta līgumam varat ierakstīt honorāru grafiku vai vienreizēju avansu. Tomēr ieraksts projekta līguma līmenī nekavējoties neveido honorāru vai avansu, kas pieejams lietošanai. Lai izmantotu honorāru vai avansu rēķinam, kas faktiski iekasē maksu no klienta, vispirms ir jāizraksta rēķins par honorāru vai avansu.
 
 Veiciet tālāk norādītās darbības, lai izrakstītu rēķinu par honorāru vai avansu.
 
