@@ -3,6 +3,7 @@ title: Kāpēc cena pēc noklusējuma ir nulle par faktiskajām pārdošanas izm
 description: Trīs tālāk norādītās pārbaudes darbības palīdzēs novērst problēmu, kāpēc faktisko pārdošanas izdevumu cena pēc noklusējuma tiek iestatīta uz 0.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122082"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146312"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Kāpēc cena pēc noklusējuma ir nulle par faktiskajām pārdošanas izmaksām?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ ms.locfileid: "4122082"
 
 Atrodiet projektu, izmantojot faktisko izdevumu projekta lauku, un pārejiet uz projekta lapu. Pēc tam pārejiet uz cilni Pārdošana. Režģī Projekta līguma rindas noklikšķiniet uz saites laukā Projekta līgums. Tiks atvērta lapa Projekta līgums. Lapā Projekta līgums pārejiet uz cilni Projekta cenrāži. Pārbaudiet, vai šeit ir pievienots vismaz viens cenrādis.
 
-Ja projekta līguma režģī Projekta cenrāži nav pievienots cenrādis, veiciet šādas darbības:
+Ja projekta līguma režģī Projekta cenrāži nav pievienots cenrādis:
 
 - Pievienojiet cenrādi režģī Projekta cenrāži. Cenrāžiem, kurus šeit atļauts pievienot, konteksta laukā jābūt iestatītam vienumam Pārdošana, un cenrāža valūtas laukam jāatbilst projekta līguma valūtas laukam. Kad esat veicis nepieciešamos labojumus, vēlreiz izveidojiet izdevumu ierakstu, apstipriniet to un pārbaudiet, vai rēķinā neiekļauto pārdošanu faktiskā summa ir derīga cena.
 - Ja projekta līguma režģī Projekta cenrāži ir pievienots viens vai vairāki cenrāži, pārejiet pie 2. pārbaudes.
@@ -47,7 +50,7 @@ Lai programmā Project Service cenrādis tiktu ņemts vērā noklusējuma cenas 
 - Vispirms pārbaudiet, vai pievienotajiem cenrāžiem ir aizpildīts sākuma un beigu datums cilnē Vispārīgi. Ja iepriekš noteikto cenrāžu sākuma un beigu datums nav norādīts, esat atradis problēmu. 
 - Pierakstiet faktisko pārdošanas izdevumu sākuma datumu un pārbaudiet, vai kāds no cenrāžiem atbilst šim datumam. Piemēram, datumam faktiskajos izdevumos ir jāietilpst cenrāža sākuma vai beigu datumā. 
     - Ja nav cenrāža, kas atbilst faktisko pārdošanas izdevumu datumam, esat atradis problēmu. Mainiet cenrāža sākuma un beigu datumus, lai nodrošinātu, ka cenrādī ir ietverts faktisko izdevumu datums. 
-    - Ja faktisko pārdošanas izdevumu datumam atbilst vairāk nekā viens cenrādis, esat atradis problēmu. To varat labot, rediģējot cenrāžu sākuma un beigu datumus, lai būtu tikai viens cenrādis, kas atbilst faktisko izdevumu datumam. 
+    - Ja faktisko pārdošanas izdevumu datumam atbilst vairāk nekā viens cenrādis, esat atradis problēmu. Rediģējiet cenrāžu sākuma un beigu datumus, lai būtu tikai viens cenrādis, kas atbilst faktisko izdevumu datumam. 
     - Ja ir tikai viens cenrādis, kas atbilst faktisko izdevumu datumam, pārejiet pie 3. pārbaudes.
 Kad esat veicis nepieciešamos labojumus, vēlreiz izveidojiet izdevumu ierakstu, apstipriniet to un pārbaudiet, vai rēķinā neiekļauto pārdošanu faktiskā summa ir derīga cena.
 
@@ -55,7 +58,7 @@ Kad esat veicis nepieciešamos labojumus, vēlreiz izveidojiet izdevumu ierakstu
 
 Ja esat veiksmīgi izpildījis 1. un 2. pārbaudi, jums ir jābūt tikai vienam projekta cenrādim, kas atbilst faktisko pārdošanas izdevumu datumam. Atveriet šo projekta cenrādi un pārejiet uz cilni Kategoriju cenas. Pārliecinieties, ka faktisko izdevumu konkrētajai izdevumu kategorijai režģī ir rinda.
  
-- Ja rindas nav, esat atradis problēmu. Izveidojiet rindu režģī Kategorijas cena jūsu faktisko izdevumu kategorijai. Kad tas ir paveikts, vēlreiz izveidojiet izdevumu ierakstu, apstipriniet to un pārbaudiet, vai faktiskajai rēķinā neiekļautajai pārdošanai ir derīga cena. 
+- Ja rindas nav, esat atradis problēmu. Izveidojiet rindu režģī Kategorijas cena jūsu faktisko izdevumu kategorijai. Pēc tam vēlreiz izveidojiet izdevumu ierakstu, apstipriniet to un pārbaudiet, vai faktiskajai rēķinā neiekļautajai pārdošanai ir derīga cena. 
 - Ja kategoriju cenu režģī ir izdevumu kategorijas rinda, pārbaudiet, vai tajā ir derīga cena.
 
 Lai saprastu, kāda ir derīga cena, izmantojiet šīs metodes:
@@ -66,6 +69,6 @@ Lai saprastu, kāda ir derīga cena, izmantojiet šīs metodes:
 
 Ja izdevumu kategorijas cenas iestatījums nav derīgs, esat atradis problēmu. Risinājums ir rediģēt kategorijas cenu rindu, izmantojot derīgu izdevumu kategorijas cenu saskaņā ar iepriekš paredzētajiem noteikumiem. Kad tas ir paveikts, vēlreiz izveidojiet izdevumu ierakstu, apstipriniet to un pēc tam pārbaudiet, vai faktiskajai rēķinā neiekļautajai pārdošanai ir derīga cena.
 
-Ja pēc trīs iepriekš minēto pārbaužu veikšanas joprojām neredzat derīgu cenu faktiskajiem pārdošanas izdevumiem, lūdzu, reģistrējiet atbalsta biļeti.
+Ja pēc trīs iepriekš minēto pārbaužu veikšanas joprojām neredzat derīgu cenu faktiskajiem pārdošanas izdevumiem, reģistrējiet atbalsta biļeti.
 
 

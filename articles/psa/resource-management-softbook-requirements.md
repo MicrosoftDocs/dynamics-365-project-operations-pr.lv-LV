@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124107"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147392"
 ---
 # <a name="soft-book-requirements"></a>Vajadzību viegla rezervēšana
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Resursu vajadzību var viegli rezervēt. Stingrā rezervēšana izveido piedāvājumu, kas patērē resursa noslodzi. Pēc tam šis piedāvājums tiek nosūtīts atpakaļ prasītājam apstiprināšanai. Vieglā rezervācija veic resursa pagaidu pievienošanu projekta darba grupai, un tai ir cits statuss plānošanas panelī, taču tā nepatērē resursa noslodzi. Lai veiktu vieglu resursa rezervēšanu, izmantojot plānošanas paneli, iestatiet laukam **Rezervācijas statuss** vienumu **Viegla**.
 
