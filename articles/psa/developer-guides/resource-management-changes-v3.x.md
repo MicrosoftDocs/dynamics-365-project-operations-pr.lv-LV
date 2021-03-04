@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080635"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148652"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Resursu pārvaldības izmaiņas (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Šīs tēmas sadaļās ir sniegta informācija par izmaiņām, kas veiktas attiecībā uz resursu pārvaldības apgabalu programmas Dynamics 365 Project Service Automation versijā 3.x.
 
 ## <a name="project-estimates"></a>Projekta tāmes
 
-Projektu tāmes ir balstītas nevis uz entītiju **msdyn\_projecttask** ( **Projekta uzdevums** ), bet uz entītiju **msdynuz\_resourceassignment** ( **Resursu piešķiršana** ). Resursu piešķires ir kļuvušas par “patiesās informācijas avotu” uzdevumu plānošanai un cenu noteikšanai.
+Projektu tāmes ir balstītas nevis uz entītiju **msdyn\_projecttask** (**Projekta uzdevums**), bet uz entītiju **msdynuz\_resourceassignment** (**Resursu piešķiršana**). Resursu piešķires ir kļuvušas par “patiesās informācijas avotu” uzdevumu plānošanai un cenu noteikšanai.
 
 ## <a name="line-tasks"></a>Rindu uzdevumi
 
@@ -65,7 +67,7 @@ Programmā PSA 3.x, nepiešķirta piešķire ir tāda piešķire, kas piešķirt
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Entītijas Projekta uzdevums plānošanas lauki
 
-Entītijas **msdyn\_projecttask** lauki ir novecojuši vai pārvietoti uz entītiju **msdyn\_resourceassignment** , vai arī uz tiem tagad ir atsauce no entītijas **msdyn\_projectteam** ( **Projekta darba grupas dalībnieks** ).
+Entītijas **msdyn\_projecttask** lauki ir novecojuši vai pārvietoti uz entītiju **msdyn\_resourceassignment**, vai arī uz tiem tagad ir atsauce no entītijas **msdyn\_projectteam** (**Projekta darba grupas dalībnieks**).
 
 | Novecojis lauks entītijā msdyn\_projecttask (Projekta uzdevums) | Jauns lauks entītijā msdyn\_resourceassignment (Resursa piešķiršana) | Komentārs |
 |---|---|---|
@@ -77,15 +79,15 @@ Entītijas **msdyn\_projecttask** lauki ir novecojuši vai pārvietoti uz entīt
 
 ## <a name="schedule-contour"></a>Plānošanas kontūra
 
-Plānošanas kontūra tiek glabāta laukā **Plānotais darbs** ( **msdyn\_plannedwork** ) katrai entītijai **Resursa piešķiršana** ( **msdyn\_resourceassignment** ).
+Plānošanas kontūra tiek glabāta laukā **Plānotais darbs** (**msdyn\_plannedwork**) katrai entītijai **Resursa piešķiršana** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktūra
 
 Plānošanas kontūras jaunā struktūra sastāv no elastīgiem laika sektoriem, kas ir definēti katrai grafika dienai. Katram laika sektoram ir šādi rekvizīti:
 
-- **Sākums**  — dienas darba stundu sākums atbilstoši projekta kalendāram.
-- **Beigas**  — dienas darba stundu beigas atbilstoši projekta kalendāram.
-- **Stundas**  — dienā piešķirto stundu skaits.
+- **Sākums** — dienas darba stundu sākums atbilstoši projekta kalendāram.
+- **Beigas** — dienas darba stundu beigas atbilstoši projekta kalendāram.
+- **Stundas** — dienā piešķirto stundu skaits.
 
 **Piemērs**
 
@@ -139,7 +141,7 @@ Piešķires vienība ir novecojusi programmā PSA 3.x. Tagad uzdevuma ieguldīju
 
 ## <a name="pricing-dimensions"></a>Cenu noteikšanas dimensijas
 
-Programmā PSA 3.x dimensijas lauki, kas saistīti ar cenas noteikšanu resursam (piemēram, **Loma** un **Organizācijas vienība** ), ir noņemti no entītijas **msdyn\_projecttask**. Šos laukus tagad var izgūt no resursu piešķiršanas ( **msdyn\_resourceassignment** ) atbilstošā projekta darba grupas dalībnieka ( **msdyn\_projectteam** ), kad tiek ģenerētas projektu tāmes. Entītijai **msdyn\_projectteam** ir pievienots jauns lauks **msdyn\_organizationalunit**.
+Programmā PSA 3.x dimensijas lauki, kas saistīti ar cenas noteikšanu resursam (piemēram, **Loma** un **Organizācijas vienība**), ir noņemti no entītijas **msdyn\_projecttask**. Šos laukus tagad var izgūt no resursu piešķiršanas (**msdyn\_resourceassignment**) atbilstošā projekta darba grupas dalībnieka (**msdyn\_projectteam**), kad tiek ģenerētas projektu tāmes. Entītijai **msdyn\_projectteam** ir pievienots jauns lauks **msdyn\_organizationalunit**.
 
 | Novecojis lauks entītijā msdyn\_projecttask (Projekta uzdevums) | Lauks no msdyn\_projectteam (Projekta darba grupas dalībnieks), kas tiek izmantots tā vietā |
 |---|---|
@@ -155,7 +157,7 @@ Entītijā **msdyn\_projecttask** ir novecojuši cenu noteikšanas un novērtēj
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Šie lauki ir pievienoti entītijai **msdyn\_resourceassignment** :
+Šie lauki ir pievienoti entītijai **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

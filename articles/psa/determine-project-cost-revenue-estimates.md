@@ -3,6 +3,7 @@ title: Projekta izmaksu un ieņēmumu tāmju noteikšana
 description: Projekta izmaksu un ieņēmumu tāmju noteikšana programmā Project Service
 author: ruhercul
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133017"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148832"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Projekta izmaksu un ieņēmumu tāmju noteikšana 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -58,9 +61,9 @@ Tāmju skatam ir režģa skats, kurā tiek rādīts plakans tīkls ar tāmju rin
 Projekta tāmju skatā ar laika fāzēm tāmju dati no režģa skata tiek pārveidoti pēc noklusējuma atkarībā no lomas, un tiek rādīti kā tāmju datu izklājums izvēlētās laika skalas laika līnijā.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Piepūles tāmes sadalījums, pamatojoties uz uzdevumu režīmu  
-Skatā ar laika fāzēm kopējā uzdevumam prognozētā piepūle tiek sadalīta, noteiktu piepūles stundu skaitu piešķirot katram izvēlētās laika skalas vienības laika periodam. Pakalpojumos Project Service uzdevumu režīms nosaka, kā piepūle tiek sadalīta visā uzdevuma ilgumā. Abi sadalījuma veidi ir vienmērīgs sadalījums un uz darba stundām balstīts sadalījums  
+Skatā ar laika fāzēm kopējā uzdevumam prognozētā piepūle tiek sadalīta, noteiktu piepūles stundu skaitu piešķirot katram izvēlētās laika skalas vienības laika periodam. Pakalpojumos Project Service uzdevumu režīms nosaka, kā piepūle tiek sadalīta visā uzdevuma ilgumā. Abi sadalījuma veidi ir vienmērīgs sadalījums un uz darba stundām balstīts sadalījums. 
   
-## <a name="work-hours-based-allocation"></a>Uz darba stundām balstīts sadalījums  
+## <a name="work-hours-based-allocation"></a>Uz darba stundām pamatotais sadalījums  
 Automātiskas plānošanas uzdevumu režīms uzdevumam nosaka, ka uzdevumam prognozēto resursu skaitam tie ir prognozēti izmantošanai uz pilnu dienas darba stundu skaitu. Tas attiecas uz gadījumiem, kad piepūle tiek sadalīta, sadalot to visā uzdevumu ilgumā arī skatā ar laika fāzēm. Piemēram, vienā laika skalā "Diena" uzdevumam, ko ir prognozēts izpildīt ar vienu resursu, vienā dienā piešķirta piepūle nepārsniegs projekta kalendārā dienai definēto darba stundu skaitu. Tādēļ piepūles sadalījums vienmēr nodrošina, ka resursi tiek plānoti izmantošanai uz pilnu dienu.  
   
 ## <a name="even-distribution"></a>Vienmērīgs sadalījums  
@@ -69,12 +72,12 @@ Manuālas plānošanas uzdevumu režīms neņem vērā darba stundas, projekta k
 Šādi uzdevumam definētais uzdevumu režīms nosaka piepūles sadalījumu vai piepūles piešķiršanu uz vienības laika periodu tāmēs ar laika fāzēm.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Grupēšanas opcijas un opcijas sadalīšanai laika fāzēs  
-Šis skats jums palīdz izprast piepūles, izmaksu un pārdošanas tāmju sadalījumu uz dienu, nedēļu, mēnesi vai gadu. Opcija Grupēt pēc jums ļauj tāmes datus attēlot pēc divām citām dimensijām: kategorijas un resursa. Gan režģa skatā, gan skatā ar laika fāzēm varat izvēlēties parādāmos laukus. Katram laika blokam apakšā tiek rādītas kopsummas, norādot kopējo prognozēto piepūli, izmaksas un pārdošanu attiecība uz vienu dienu, nedēļu, mēnesi vai gadu.  
+Šis skats jums palīdz izprast piepūles, izmaksu un pārdošanas tāmju sadalījumu uz dienu, nedēļu, mēnesi vai gadu. Opcija Grupēt pēc jums ļauj tāmes datus attēlot pēc divām citām dimensijām: kategorijas un resursa. Gan režģa skatā, gan skatā ar laika fāzēm varat izvēlēties parādāmos laukus. Katram laika blokam apakšā tiek rādītas kopsummas, norādot kopējo prognozēto piepūli, izmaksas un dienā, nedēļā, mēnesī vai gadā pārdoto.  
   
-Izmaksu un pārdošanas cenu iestatīšana uz noklusējuma vērtībām ir atkarīga no spēkā stāšanās datuma — kad mainās lomām noteiktie koeficienti, tie būs pārredzamāki skatā ar laika fāzēm, kad tāmes dati tiek skatīti pēc entītijas“Resurss” un skatā ar nedēļas laika fāzi.  
+Izmaksu un pārdošanas cenas noklusējuma datums ir spēkā stāšanās datums. Ja mainās lomām noteiktie koeficienti, tie būs pārredzamāki skatā ar laika fāzēm, kad tāmes dati tiek skatīti pēc entītijas“Resurss” un skatā ar nedēļas laika fāzi.  
   
 ## <a name="expense-estimates"></a>Izdevumu tāmes  
-Jebkādus projektā radušos izdevumus, kas nav tieši saistīti ar iztērējamo darbu, var reģistrēt projekta tāmēs režģa skatā. To varat panākt, režģa skatā izmantojot opciju **Pievienot izdevumu tāmi**. Izdevumu tāmes var reģistrēt noteiktam uzdevumam vai visam projektam; šajās rindās varat izvēlēties izdevumu kategorijas un izvēlēties varbūtēju datumu, kad šiem izdevumiem ir paredzēts rasties. Ja saistītajam izmaksu un pārdošanas cenrādim ir noklusējuma cenas vai izdevumu kategorijām ir definēts uzcenojuma procentuālais daudzums, tad pēc saistīšanas šī vērtība pēc noklusējuma tiks iestatīta uz šo tāmes rindu.  
+Jebkādus projekta ietvaros radītos izdevumus, kas nav tieši saistīti ar iztērējamo darbu, var reģistrēt projekta tāmēs režģa skatā. To varat panākt, režģa skatā izmantojot opciju **Pievienot izdevumu tāmi**. Izdevumu tāmes var ierakstīt konkrētam uzdevumam vai visam projektam. Šajās rindās varat izvēlēties izdevumu kategorijas un izvēlēties varbūtēju datumu, kurā paredzami izdevumi. Ja saistītajam izmaksu un pārdošanas cenrādim ir noklusējuma cenas vai izdevumu kategorijām ir definēts uzcenojuma procentuālais daudzums, tad pēc saistīšanas šī vērtība pēc noklusējuma tiks iestatīta uz šo tāmes rindu.  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)

@@ -2,6 +2,7 @@
 title: Jaunināšanas sākumlapa
 description: Šajā tēmā parādīts, kur meklēt svarīgu informāciju par jaunām un izmainītām funkcijām programmā Dynamics 365 Project Service Automation, kā arī par procesu jaunināšanai uz jaunāko versiju.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121767"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150092"
 ---
 # <a name="upgrade-home-page"></a>Jaunināšanas sākumlapa
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ No 2019. gada 17. maija, atlasot Project Service Automation jaunas instances no
 
 ### <a name="existing-instances"></a>Esošās instances
 
-Iepriekš klienti, kam ir PSA versijas 2.x instance un kam tā jājaunina uz versiju 3.x, kas ir Apvienotā uz klienta interfeisa balstītā (UCI) PSA versija, bija jāsazinās ar Microsoft atbalsta dienestu un jāsniedz papildinformācija par savu instanci, lai atbalsts varētu palīdzēt veikt jaunināšanu uz versiju 3.x. Sākot ar 2020. gada 1. martu klienti, kam ir PSA versijas 2.x instance un kam tā jājaunina uz versiju 3.x, varēs jaunināt savas instances tieši no administratora portāla, un viņiem nebūs jāsazinās ar Microsoft atbalsta dienestu.  
+Iepriekš klienti, kam ir PSA versijas 2.x instance un kam tā bija jājaunina uz versiju 3.x, kas ir Apvienotā uz klienta interfeisa balstītā (UCI) PSA versija, bija jāsazinās ar Microsoft atbalsta dienestu un jāsniedz papildinformācija par savu instanci, lai atbalsts varētu palīdzēt veikt jaunināšanu uz versiju 3.x. No 2020. gada 1. marta klienti, kuriem ir instance ar PSA versiju 2.x un ir jājaunina uz versiju 3.x, varēs jaunināt savas instances tieši no administratora portāla bez vajadzības sazināties ar Microsoft atbalsta dienestu.  
 
 > [!NOTE]
 > PSA versija 3.x ietver būtiskas izmaiņas. Tā ir izveidota, izmantojot vienotā interfeisa struktūru, lai palīdzētu nodrošināt uzlabotu lietotāja pieredzi. Pārveidotajā lietojumprogrammā ir nodrošināts konsekvents, vienots lietotāja interfeiss (UI), kā arī reaģējošie noformējuma principi optimālai skatīšanai jebkāda izmēra ekrānā vai ierīcē. Lietojumprogrammā ir veiktas arī citas izmaiņas. Daži no izmainītajiem apgabaliem ietver cenu noteikšanu, rezervāciju un resursu piešķiršanu, laiku, izdevumus un apstiprinājumus.
@@ -58,7 +61,7 @@ Pēc tam, kad būsit pārskatījis jau iepriekš minētās tēmas un esat gatavs
 
 No 2019. gada 17. maija visas jaunās instancēs UCI būs iekļauts kā noklusējuma klients. Attiecībā uz saskaņošanu ar šīm izmaiņām, PSA versija 3.x un Field Service versija 8.x tiks nodrošinātas pēc noklusējuma, jo šīs versijas ir paredzētas darbam ar UCI klientu.
 
-Sākot ar 2020. gada 1. martu Dynamics PSA klienti vairs nevarēs izveidot jaunas vides, izmantojot vecākas PSA versijas, piemēram, PSA versiju 2.x vai vecāku. Jebkura jaunā vide būs pieejama tikai ar PSA versiju 3.x.
+Sākot ar 2020. gada 1. martu Dynamics PSA klienti vairs nevarēs izveidot jaunu vidi ar vecākām PSA versijām, piemēram, PSA versiju 2.x vai jaunāku. Jebkura jaunā vide būs pieejama tikai ar PSA versiju 3.x.
 
 > [!NOTE]
 > Lai varētu izmantot labākās iespējas, lietojot vecākas Field Service un PSA lietojumprogrammu versijas, pārejiet uz lapu **Sistēmas iestatījumi** un laukam **Izmantot tikai jauno vienoto interfeisu (ieteicams)** atlasiet **Nē**, jo šīs versijas nav paredzētas pareizai ielādēšanai UCI. Pēc UCI izslēgšanas varat atvērt un palaist šīs Field Service un PSA versijas, izmantojot veco tīmekļa klientu. 
