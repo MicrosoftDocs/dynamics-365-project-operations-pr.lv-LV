@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080528"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150767"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Transakcijas kategorijas izmantošana kā cenu noteikšanas dimensiju
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Šajā tēmā ir sniegta informācija par transakcijas kategorijas izmantošanu kā cenu noteikšanas dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja savai organizācijai neesat izveidojis jaunu cenas noteikšanas dimensijas risinājumu, izpildiet procedūru tēmā [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Transakcijas kategorijas pievienošana veidlapām un skatiem
@@ -47,6 +50,6 @@ Tālāk sniegtajā tabulā ir pieejams visaptverošs iekļautu veidlapu un skatu
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Transakcijas kategorijas iestatīšana kā cenu noteikšanas dimensiju
 
 1. Tīmekļa interfeisā pārejiet uz **Project Service** > **Iestatījumi** > **Parametri**. 
-2. Lapā **Parametri** , cilnē **Uz summu balstītās cenu noteikšanas dimensijas** ņemiet vērā režģi, kas parāda ierakstus entītijā **Cenu noteikšanas dimensijas**.
+2. Lapā **Parametri**, cilnē **Uz summu balstītās cenu noteikšanas dimensijas** ņemiet vērā režģi, kas parāda ierakstus entītijā **Cenu noteikšanas dimensijas**.
 3. Pievienojiet **Transakcijas kategoriju** šim sarakstam un iestatiet laukus **Piemērojams izmaksām** un **Piemērojams pārdošanai** uz **Jā**.
 4. Laukā **Dimensijas tips** atlasiet **Uz summu balstīts** un pēc tam atlasiet **Transakcijas kategorijas** prioritāti, kas saistīta ar izmaksām un pārdošanu.

@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131374"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151622"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Atļauto metožu rezervēšana pakalpojumā Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Ja pievienojat darba grupas dalībnieku tieši projektam cilnē **Darba grupa** vai rezervējat resursu projektam vai prasībai plānošanas panelī, varat izmantot dažas atšķirīgas rezervāciju piešķiršanas metodes. Šajā rakstā ir paskaidrots, kā darbojas katra no metodēm un kuru metožu izmantošana var izraisīt resursu rezervācijas pārsniegšanu.
 
