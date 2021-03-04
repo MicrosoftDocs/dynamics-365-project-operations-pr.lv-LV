@@ -75,3 +75,6 @@ Pēc tam, kad ir izpildīti iepriekšējie uzdevumi, jūs varat pēc nepiecieša
 - Izpildīt resursu pieprasījumus.
 - Pieprasīt personāla resursu no WBS.
 - Rezervēt resursus projektam bez personāla resursa pieprasīšanas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Turpinoties projekta plānošanai, plānotos resursus var aizstāt ar personāla
 - [Projekta resursu plānošanas veiktspēja](project-scheduling-performance.md)
 - [Lomu iestatīšana darba sadalījuma struktūras veidnēs](set-up-roles-wbs-template.md)
 - [Resursa izpilde plānotiem resursiem](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

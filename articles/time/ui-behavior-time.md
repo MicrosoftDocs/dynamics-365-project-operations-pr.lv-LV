@@ -85,3 +85,6 @@ Kad ir izveidots pāris laika ierakstu, lietotāji vienlaikus var izveidot vair�
 
 ## <a name="import"></a>Importēšana
 To pašu pamata procesu izmanto importēšanai no rezervācijām, uzdevumiem un apmaiņām. Varat norādīt datumu diapazonu, no kura tiek importētas rezervācijas, un pēc tam tieši atlasīt rezervācijas, kas jākopē melnraksta laika ierakstos. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

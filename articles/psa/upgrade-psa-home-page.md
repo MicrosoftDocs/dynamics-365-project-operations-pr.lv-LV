@@ -65,3 +65,6 @@ Sākot ar 2020. gada 1. martu Dynamics PSA klienti vairs nevarēs izveidot jaunu
 
 > [!NOTE]
 > Lai varētu izmantot labākās iespējas, lietojot vecākas Field Service un PSA lietojumprogrammu versijas, pārejiet uz lapu **Sistēmas iestatījumi** un laukam **Izmantot tikai jauno vienoto interfeisu (ieteicams)** atlasiet **Nē**, jo šīs versijas nav paredzētas pareizai ielādēšanai UCI. Pēc UCI izslēgšanas varat atvērt un palaist šīs Field Service un PSA versijas, izmantojot veco tīmekļa klientu. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

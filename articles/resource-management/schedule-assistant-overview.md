@@ -57,3 +57,6 @@ Filtrēšanas rūtī tiek rādītas ar darbu saistītas opcijas, tostarp:
 -   Resursu uzņēmums
 -   Resursu tipi
 -   Vēlamie resursi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

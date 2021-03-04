@@ -43,3 +43,6 @@ Ir novērstas tālāk norādītās problēmas.
 
 - Beigu datumi tiek automātiski aizpildīti, kad tiek izveidots laika ieraksts, ja ilgums ir tukšs.
 - Lietotāji var mainīt uzdevumu apstiprinātā vai iesniegtā laika ierakstā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

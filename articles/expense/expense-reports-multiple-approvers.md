@@ -41,3 +41,6 @@ Ja nolemjat, ka ir nepieciešami vairāki izdevumu atskaišu apstiprinātaji, je
 
     1. Darbinieka vadītajs apstiprina izdevumu atskaiti.
     2. Budžeta īpašnieks apstiprina izdevumu atskaiti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

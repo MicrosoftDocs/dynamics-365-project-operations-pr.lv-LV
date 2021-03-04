@@ -32,3 +32,6 @@ Izdevumu atskaitēm var rakties no transakcijas sākotnējā atskaitē, kas tiek
 Lai raktos uz sākotnējo izdevumu atskaiti, kurā tika parādīta transakcija, atlasiet transakciju un pēc tam atlasiet **Sākotnējais dokuments**.
 
 Skatot atsevišķas transakcijas, var apskatīt arī jebkurus papildu datus, kas ir pievienoti šai transakcijai. Piemēram, attiecībā uz detalizētiem viesnīcu izdevumiem varat apskatīt detalizētu izdevumu sarakstu, piemēram, interneta piekļuvi, tālruņa sarunas un telpu apkopi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

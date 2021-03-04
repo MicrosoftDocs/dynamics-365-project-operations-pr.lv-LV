@@ -36,3 +36,6 @@ Lai izmantot vedni, veiciet tālāk norādītās darbības.
 1. Dodieties uz **Projekta pārvaldība un uzskaite** > **Piedāvājumi** > **Projekta piedāvājumi**.
 2. Atlasiet piedāvājumu, kuru vēlaties pārcelt, un cilnē **Sekot** , grupā **Modificēt** atlasiet **Pārcelt uz projektu**.
 3. Sekojiet vednim **Pārcelt piedāvājumu uz projektu** , lai saistītu un pārceltu piedāvājumu ar projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

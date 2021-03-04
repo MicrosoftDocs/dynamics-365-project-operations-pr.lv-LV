@@ -45,3 +45,6 @@ Tālāk norādītā informācija netiek kopēta no **avota** uz **mērķa līgum
   - Klienta budžeta informācija
 
 Šī informācija katram līgumam ir ļoti specifiska, tādēļ šie lauki un ieraksti netiek kopēti. Līguma rindas projektiem un produktiem, līguma rindu informācijā ietvertie aprēķini un līguma līmeņa nepārsniedzamā vērtības tiek kopētas. Cenu un izmaksu likmju noklusējuma vērtības ir atkarīgas atlases laukā **Kopēt izcenojumu**, kas atrodams dialoga lapā **Parametru kopēšana**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

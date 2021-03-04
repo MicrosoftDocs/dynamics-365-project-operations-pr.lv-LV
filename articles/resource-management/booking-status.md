@@ -20,3 +20,6 @@ ms.locfileid: "4514555"
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 Varat izmantot risinājumā Universal Resource Scheduling programmai Dynamics 365 Field Service nodrošināto funkcionalitāti, lai iestatītu rezervācijas statusus savai organizācijai. Informāciju par to, kā veikt šo iestatīšanu, skatiet sadaļā [Rezervācijas statusu iestatīšana](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

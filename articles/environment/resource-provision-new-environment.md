@@ -209,3 +209,6 @@ Ja esat lietojis demonstrācijas datus finanšu vidē, skatiet sadaļu [Konfigur
 
 
 Jūsu Project Operations vide tagad ir nodrošināta un konfigurēta. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

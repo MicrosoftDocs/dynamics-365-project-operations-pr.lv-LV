@@ -47,3 +47,6 @@ Iestatiet mērķa lietojuma koeficientus katrai lomai. Šie iestatījumi nosaka 
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

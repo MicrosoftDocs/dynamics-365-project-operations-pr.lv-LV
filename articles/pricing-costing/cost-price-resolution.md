@@ -35,3 +35,6 @@ Kad izmaksu cenrādis ir atrisināts, sistēma izmanto laukus **Loma**, **Resurs
 Novērtēšanas rindas izdevumiem attiecas uz piedāvājuma un līguma rindas informāciju izdevumiem, kā arī izdevuma novērtēšanas rindām projektā.
 
 Kad izmaksu cenrādis ir atrisināts, sistēma izmanto lauku **Kategorija** un **Vienība** kombināciju izdevumu novērtēšanas rindā, lai atrastu atbilstību ar **Kategorijas cena** rindām atrisinātajā cenrādī. Ja sistēma atrod kategorijas cenas rindu, kurai ir izmaksu likme lauku kombinācijai **Kategorija** un **Vienība**, tad izmaksu likme ir tiek noklusēta. Ja sistēma nevar saskaņot **Kategorija** un **Vienība** vērtības vai tā var atrast atbilstošu kategorijas cenu rindu, bet cenas noteikšanas metode nav **Cena par vienību**, tiek atjaunota izmaksu likmes noklusējuma vērtība — nulle (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

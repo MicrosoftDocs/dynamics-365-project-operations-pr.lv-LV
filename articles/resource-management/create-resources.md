@@ -20,3 +20,6 @@ ms.locfileid: "4514554"
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 Varat izmantot Dynamics 365 Field Service, lai izveidotu rezervējamos resursus izmantošanai savā Dynamics 365 Project Operations vidē. Lai izveidotu šos resursus, skatiet sadaļu [Rezervējamo resursu iestatīšana](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

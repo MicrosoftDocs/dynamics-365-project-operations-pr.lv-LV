@@ -52,3 +52,6 @@ Varat izmantot katru no šiem cenrāžiem un veikt darba (lomas cena) un izmaksu
 Projekta līgumā projekta cenas vienmēr pēc noklusējuma tiek iestatītas kā pielāgots cenrādis, kura nosaukumam pievienots līguma nosaukums un izveides datuma laikspiedols. Tas attiecas gan uz līgumiem, kas izveidoti uzvarētiem piedāvājumiem, gan arī uz pilnīgi jauniem izveidotiem līgumiem. Ja nepieciešams, varat noņemt šo saistību ar pielāgoto cenrādi un tā vietā projekta līgumam piesaistīt standarta cenrādi.
 
 Kad standarta cenrādis tiek saistīts ar piedāvājuma vai līguma projekta cenrāžiem, jebkuras izmaiņas cenrāža cenās ietekmēs visus piedāvājumus un līgumus, kas izmanto cenrādi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

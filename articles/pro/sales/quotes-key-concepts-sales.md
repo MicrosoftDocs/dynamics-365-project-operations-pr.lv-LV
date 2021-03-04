@@ -89,3 +89,6 @@ Project Operations piedāvājumi ir izveidoti, izmantojot Dynamics 365 Sales pi
 - Project Operations piedāvājumiem ir savas veidlapas un lietotāja interfeisa elementi, biznesa kārtulas, biznesa loģika spraudņi, kā arī klienta puses skripti, kas atšķir tos no Sales piedāvājumiem.
 
 Šo iemeslu dēļ nav ieteicams izmantot Sales piedāvājumu un Project Operations piedāvājumu pamīšus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 - Izlabots: ja transakcijas klase ir **Laiks**, parametrs **UnitGroup** nav rediģējams visām entītijām, tostarp **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** un **ContractLineDetails**. Taču parametrs **Vienība** nav rediģējams tikai entītijai **JournalLine** un **InvoiceLineDetails.**
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

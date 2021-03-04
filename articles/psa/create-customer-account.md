@@ -47,3 +47,6 @@ Izveidojiet uzņēmumu katram klientam, ar kuru strādājat, neatkarīgi no tā,
   
 ### <a name="see-also"></a>Skatiet arī  
  [Uzņēmumu pārvaldnieka rokasgrāmata](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

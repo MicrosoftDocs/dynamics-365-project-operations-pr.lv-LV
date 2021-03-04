@@ -80,3 +80,6 @@ Interesenta–iespējas biznesa process atbalsta tālāk uzskaitītos posmus.
 | Izstrādāt | Iespēja | Izstrādājiet iespēju, lai pievienotu papildinformāciju par attiecīgo darbu, galvenajām iesaistītajām personām un konkurenci. |
 | Piedāvāt | Iespēja | Izstrādājiet priekšlikumu un saņemiet apstiprinājumu no iekšējās pārbaudes darba grupas. |
 | Aizvēršana | Iespēja | Iegūstiet iespēju, lai noslēgtu darījumu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Tālāk minētais process ir izmaksu atskaites izmaksu pārvaldības darbplūsma
 Kad šīs prasības ir pārbaudītas, izmaksu atskaite tiek iegrāmatota.
 
 Pēc tam, kad izmaksu atskaite ir iegrāmatota, maksājums ir atļauts izdevumu atskaitei, un darbiniekam tiek piešķirta atmaksa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Parametri kontrolē vispārējo darbību izdevumu pārvaldībā.
 | <strong>Paziņojums iesniedzējam par korupcijas apkarošanu</strong> |                                                                                             Ievadiet tekstu, kas tiks rādīts darbiniekam, izveidojot jaunu izmaksu atskaiti. Lai ievadītu rādāmo tekstu konkrētā valodā, pamatojoties uz lietotāja valodu, atlasiet pogu <strong>Tulkojumi</strong>.                                                                                             |
 | <strong>Paziņojums apstiprinātājam par korupcijas apkarošanu</strong>  |                                                                                             Ievadiet tekstu, kas tiks rādīts apstiprinātājam, izveidojot jaunu izmaksu atskaiti. Lai ievadītu rādāmo tekstu konkrētā valodā, pamatojoties uz lietotāja valodu, atlasiet pogu <strong>Tulkojumi</strong>.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

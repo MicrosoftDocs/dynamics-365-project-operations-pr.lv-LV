@@ -33,3 +33,6 @@ Režģī **Darba grupas dalībnieks** projekta vadītājs var izcelt konkrētu r
 ## <a name="schedule-board"></a>Grafika panelis
 
 **Plānošanas panelī** resursu vadītājam ir portfolio skats uz visām organizācijas rezervācijām. Šajā skatā resursu vadītājs var izvērst, saīsināt vai pārvietot esošās rezervācijas, kas līdzīgas iespējām, kuras tiek piedāvātas opcijā **Rezervāciju uzturēšana**. Resursu vadītājs var arī aizvietot esošos resursus, kas piešķirti konkrētai rezervācijai, ar labo peles taustiņu noklikšķinot uz rezervācijas un atlasot **Aizstāt resursu**. Resursu vadītāji var arī rediģēt esošo resursu kontūras, ar labo peles taustiņu noklikšķinot uz rezervācijas un atlasot **Rediģēt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

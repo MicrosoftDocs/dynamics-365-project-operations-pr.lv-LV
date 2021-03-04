@@ -57,3 +57,6 @@ Ja faktisko pārdošanas laika izmaksu cenas dimensijām režģī nav rindas, es
 
 Ja pēc trīs iepriekš minēto pārbaužu veikšanas joprojām neredzat derīgu cenu faktiskajām pārdošanas laika izmaksām, lūdzu, reģistrējiet atbalsta biļeti. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

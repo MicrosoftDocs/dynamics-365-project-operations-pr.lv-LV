@@ -67,3 +67,6 @@ Valūta piedāvājuma rindas informācijā attiecībā uz izmaksu noklusējuma v
 Rentabilitātes aprēķinos summas par piedāvājumu rindu informāciju attiecībā uz izmaksām un pārdošanas apjomiem tiek konvertētas attiecīgās vides pamata valūtā, lai sniegtu atskaiti par piedāvājuma prognozēto peļņu.
 
 Tas var izraisīt valūtu noapaļošanas kļūdas un mainīt peļņu, jo nav konkrētajā datumā spēkā esošo valūtas kursu. Izmantojiet šos aprēķinus par Projekta piedāvājumiem tikai kā tuvinājumus, nevis faktiskas obligātas vai cita veida atskaites, kam ir nepieciešama augstāka noapaļošanas precizitāte un konkrētos datumos spēkā esoši valūtas kursi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

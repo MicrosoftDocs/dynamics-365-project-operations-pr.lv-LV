@@ -35,3 +35,6 @@ Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja
 
 
 Varat atrast darbiniekus savam projektam, izmantojot vispārējus vai nosauktus resursus programmā Project Operations. Varat izmantot dažādas metodes, lai pievienotu un piešķirtu darba grupas dalībniekus, kā arī pārvaldītu to rezervācijas un piešķires. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

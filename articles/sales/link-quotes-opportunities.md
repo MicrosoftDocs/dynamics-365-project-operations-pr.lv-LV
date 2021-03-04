@@ -56,3 +56,6 @@ Esošu piedāvājumu var saistīt ar Iespēju. Izpildiet tālāk aprakstītās d
    Pārvirzot iespēju uz šo posmu, šo piedāvājumu var atlasīt no piedāvājumu saraksta, kas saistīts ar šo iespēju. Ja atlasāt šo piedāvājumu, tas nozīmē, ka jūs to turpināt īstenot.
 
    Visi pārējie ar šo Iespēju saistītie piedāvājumi joprojām būs pieejami un aktīvi, līdz viens no tiem būs iegūts. Pārdošanas procesu varat virzīt atpakaļ uz iepriekšējo posmu — **Kvalificēt**, un izvēlēties citu piedāvājumu, ko turpināt īstenot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

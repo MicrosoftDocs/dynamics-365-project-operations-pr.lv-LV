@@ -41,3 +41,6 @@ Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja
 - [Vajadzību viegla rezervēšana](resource-management-softbook-requirements.md)
 - [Prasmes un kvalifikācijas modeļi](resource-management-skills-proficiency.md)
 - [Bieži uzdotie jautājumi par resursu pārvaldību](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

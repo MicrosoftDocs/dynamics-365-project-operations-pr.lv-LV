@@ -24,3 +24,6 @@ Projekta iespējas var slēgt kā iegūtas vai zaudētas. Dialoglodziņā **Slē
 Jums nebūs atļauts slēgt iespēju, ja ar to ir saistīti aktīvi piedāvājumi. Visus aktīvos un melnraksta piedāvājumus, kas saistīti ar iespēju, var aizvērt vienlaikus. Pēc tam būs atļauts slēgt iespēju.
 
 Papildu vispārīgu informāciju par slēgšanas iespējām skatiet šeit: [Iegūtas vai zaudētas iespējas aizvēršana](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

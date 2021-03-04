@@ -90,3 +90,6 @@ Projekta uzdevumus var arī atsaistīt no piedāvājuma rindām no cilnes **Apma
 
 >[!NOTE]
 > Šī procedūra nedzēš uzdevumu no projekta. Tā tikai noņem uzdevuma saistību no projekta piedāvājuma rindas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

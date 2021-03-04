@@ -35,3 +35,6 @@ Lai pārskatītu fiksētas cenas ieņēmumu novērtējumu projektus, izpildiet t
 
   Projekta izmaksas, ieņēmumu profils, izmaksu veidne un perioda kods var tikt iestatīts manuāli. Ja šie parametri netiek iestatīti manuāli, pirmā projekta novērtējuma aprēķināšanas laikā tiek iestatītas noklusējuma vērtības, izmantojot projekta izmaksu un ieņēmumu profiliem konfigurētās kārtulas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

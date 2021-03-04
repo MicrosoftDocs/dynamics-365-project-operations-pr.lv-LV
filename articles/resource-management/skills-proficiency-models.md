@@ -43,3 +43,5 @@ Raksturīgo pazīmju pievienošana resursa prasībām sniedz iespēju dokumentē
 3. Apakšrežģī **Prasmes** atlasiet **+Pievienot jaunu prasības raksturīgo pazīmi.**
 4. Ātrās izveides rūtī atrodiet un atlasiet nepieciešamās raksturīgās pazīmes un pievienojiet **Vērtējuma vērtību**.
 5. Atlasiet vienumu **Saglabāt un aizvērt**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

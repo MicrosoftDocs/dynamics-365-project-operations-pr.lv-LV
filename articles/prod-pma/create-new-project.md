@@ -104,3 +104,6 @@ Resursa rezervācijas laikā projektu pārvaldnieki var filtrēt darbam ar proje
 
 3. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
 4. Cilnē **Kompetences** pievienojiet prasmi **ProjectMgmt** un sertifikātu **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

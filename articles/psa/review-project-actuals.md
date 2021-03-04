@@ -35,3 +35,6 @@ Naviģējiet uz projekta faktiskajiem datiem un pārliecinieties, ka izmaksas un
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projektu vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

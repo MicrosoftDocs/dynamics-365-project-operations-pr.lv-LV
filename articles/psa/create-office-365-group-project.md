@@ -43,3 +43,6 @@ Nodrošiniet vietu, kur projekta darba grupas dalībnieki var sadarboties, strā
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Kad darbs pie projekta ir pabeigts, projektu vadītājs var atjaunināt posmu uz
 ## <a name="close"></a>Aizvērt
 
 Kad visas transakcijas projektam ir ierakstītas, projektu vadītājs var atjaunināt posmu uz **Aizvērt**. Šajā brīdī nekādas transakcijas vairs nevar ierakstīt, un projekts ir iestatīts uz tikai lasāmu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

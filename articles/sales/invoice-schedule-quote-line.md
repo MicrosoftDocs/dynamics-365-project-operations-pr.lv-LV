@@ -68,3 +68,6 @@ Atveriet Fiksētās cenas piedāvājuma rindu, kurai ir nepieciešams izveidot a
 | Rēķina statuss | Ātrā izveide | Kad ir izveidots atskaites punkts, šis statuss vienmēr ir iestatīts uz **Nav gatavs rēķina izrakstīšanai**. | Tas tiek izplatīts arī uz projekta līguma rindas atskaites punktu un rēķinu. |
 | Rindas summa | Ātrā izveide | Atskaites punkta summa vai vērtība, par ko tiks izrakstīts rēķins klientam. | Tas tiek izplatīts arī uz projekta līguma rindas atskaites punktu un rēķinu. |
 | Nodoklis | Ātrā izveide | Nodokļu summa, kas tiks piemērota atskaites punktam. | Tas tiek izplatīts arī uz projekta līguma rindas atskaites punktu un rēķinu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

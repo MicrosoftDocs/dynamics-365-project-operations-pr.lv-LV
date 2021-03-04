@@ -36,3 +36,6 @@ Projektu vadītājs uzdevumiem var pārprojektēt piepūli divos tālāk norād�
 - Pārlabot noklusējuma progresa procentuālo daudzumu ar jaunu uzdevuma patiesā progresa novērtējumu.
 
 Katra no šīm metodēm izraisa uzdevuma ETC, EAC un progresa procentuālā daudzuma pārrēķināšanu, kā arī uzdevumam projektētās piepūles novirzes pārrēķināšanu. Tiek pārrēķināts EAC, ETC un progresa procentuālais daudzums kopsavilkuma uzdevumiem, un tiek izveidota jauna piepūles novirzes projektēšana.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Lai izveidotu jaunu darba sadalījuma struktūru, izmantojot Microsoft Project C
 8.  Atlasiet **Kalendāru** , ko izmantot resursu piešķiršanai.
 
 11. Noklikšķiniet uz **Labi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

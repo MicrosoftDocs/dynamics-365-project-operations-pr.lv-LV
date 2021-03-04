@@ -440,3 +440,6 @@ Pēc tam, kad pārskats ir aprēķināts, dažādajās lapas **Projektu pārskat
 -   **Patēriņš**  — informācija par stundu, preču un izdevumu patēriņu un algu transakcijām.
 -   **Rēķins**  — informācija par rēķiniem un starpkonta rēķiniem.
 -   **Stundas likme**  — stundas likmes stundām, kas ir publicētas ieņēmumu un izmaksu kontos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

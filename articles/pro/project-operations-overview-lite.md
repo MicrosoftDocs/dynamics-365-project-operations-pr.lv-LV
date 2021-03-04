@@ -37,3 +37,6 @@ Izmantojiet šo izvietošanas veidu, ja plānojat izmantot Project Operations pi
 - Integrēta sistēma, kas pārvalda iekšējos un apmaksājamos projektus grafikiem un finansēm no projekta pārdošanas uz rēķinu izrakstīšanu.
 - Trešās puses uzņēmuma resursu plānošana (ERP/finanšu uzskaites sistēma, lai integrētu to ar Project Operations).
 - Trešās puses sistēma darbam ar PVN, valūtas kursiem, izmaksu atmaksām un izdevumiem, kas nav no projektiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

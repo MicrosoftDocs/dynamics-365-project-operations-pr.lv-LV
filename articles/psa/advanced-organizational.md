@@ -167,3 +167,6 @@ Ja uzņēmums darbojas kā viena struktūrvienība ar vienu izmaksu cenrādi, ju
 Kad projekts tiek izveidots patstāvīgi, projekta noklusējuma līgumslēdzēja struktūrvienības pamatā ir lietotājs, kas to izveido. Šis lietotājs ir arī noklusējuma projekta vadītājs. Ja projekts tiek kartēts uz pārdošanas entītiju, piemēram, piedāvājumu vai projekta līgumu, projekta līgumslēdzēja struktūrvienības pamatā ir pārdošanas entītija. Šajā gadījumā var tikt no jauna veikti projekta novērtējumi, jo izmaksu cenrādis tiek lietots, lai aprēķinātu izmaksu novērtējuma izmaiņas tad, ja tiek mainīta līgumslēdzēja struktūrvienība. Pārdošanas cenrādis tiek izmantots, lai veiktu pārdošanas novērtējumus, kas tiks mainīti tā, lai tie būtu sinhronizēti ar piedāvājuma projekta cenrādi.
 
 Projekta lauki **Līgumslēdzēja struktūrvienība** un **Valūta** ir bloķēti rediģēšanai, jo tiem ir jābūt sinhronizētiem ar vērtībām pārdošanas entītijā (piedāvājumā vai projekta līgumā), uz kuru projekts ir kartēts.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

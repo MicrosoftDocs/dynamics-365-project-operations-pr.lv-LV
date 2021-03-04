@@ -80,3 +80,6 @@ Kad piegādātājs pabeidz darbu ar projektu un nosūta jums rēķinu, ir jāpā
 2. Lapas **Piegādātāja rēķins ar apmaksāto summu** meklēšanas laukā ievadiet vērtības, lai atrastu piegādātāja rēķinu, kuru vēlaties pārskatīt, un pēc tam atlasiet **Meklēt**.
 3. Kopsavilkuma cilnē **Piegādātāja rēķina rindas** atlasiet rindas, kuras vēlaties mainīt.
 4. Ja rēķina rindai **Maksāt-kad-apmaksāts** ir izpildīti nosacījumi, atlasiet **Izpildīt piegādātāja maksājumu**. Opcija **Maksāt-kad-apmaksāts** tiek notīrīta, un lauka **Gatavs apmaksai** vērtība tiek mainīta uz **Jā**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

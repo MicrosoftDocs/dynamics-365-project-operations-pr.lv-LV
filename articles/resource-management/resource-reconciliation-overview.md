@@ -48,3 +48,6 @@ Ja jums ir uzdevumu piešķires kādam resursam, bet nav nevienas rezervācijas,
 Rezervācijas, kuras tiek izveidotas, izmantojot darbību **Izvērst rezervāciju**, tiek saistītas ar primāro projekta prasību. Kad paplašināšana tiek sākta, nevar noteikt konkrēto prasību, kura jāpaplašina, jo resurss var būt saistīts ar vairāk nekā vienu projekta prasību.
 
 Pēc tam projekta vadītājs vai resursu pārvaldnieks var izmantot plānošanas paneli, lai pārvaldītu visas situācijas, kur resursa rezervācija pārsniedz tā noslodzi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

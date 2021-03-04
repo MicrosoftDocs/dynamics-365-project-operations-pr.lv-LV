@@ -38,3 +38,6 @@ Katram izdevumu rindas elementam tiek definēti šādi atribūti:
 - **Vienības izmaksu cena**: vienības cena, ko izmanto izmaksu aprēķināšanai.
 - **Vienības pārdošanas cena**: vienības cena, ko izmanto izmaksu pārdošanas cenu aprēķināšanai.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

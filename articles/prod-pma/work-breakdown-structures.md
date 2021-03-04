@@ -316,3 +316,6 @@ Vai arī plānošanas kļūdas var labot atsevišķi, noklikšķinot uz katra uz
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

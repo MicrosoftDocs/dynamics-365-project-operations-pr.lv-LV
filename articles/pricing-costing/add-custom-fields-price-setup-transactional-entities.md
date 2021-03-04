@@ -146,3 +146,6 @@ Tālāk sniegtajā tabulā ir sniegts visaptverošs formātu un skatu saraksts p
 |  Faktiski|• Informācija<br>• Aktīvās faktiskās vērtības|• Faktiskais saistītais skats|
 
 Atkarībā no tā, ko esat definējis, biznesa noteikumiem, iespējams, būs jāpievieno arī pielāgoti lauki. Viens nepieejams piemērs ir biznesa noteikumam **Laika ievades rediģēšana, pamatojoties uz statusu**. Šī kārtula definē, kuri lauki ir jābloķē, ja laika ievade atrodas nerediģējamā statusā, piemēram, **Apstiprināta**. Pievienojiet laukus šai biznesa kārtulai tā, lai lauki tiktu bloķēti rediģēšanai, ja laika ievades statuss nav **Melnraksts** vai **Atgriezts**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

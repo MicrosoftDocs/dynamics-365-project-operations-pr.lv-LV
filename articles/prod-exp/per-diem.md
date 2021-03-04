@@ -28,3 +28,6 @@ ms.locfileid: "4960031"
 *Dienasnauda* ir pabalsts, ko maksā darba ņēmējam, kurš dodas komandējumā. Izdevumu pārvaldībā varat izveidot dienasnaudas kārtulas dažādām ceļošanas situācijām. Dienasnaudas likmes var būt atkarīgas no gada laika, ceļojuma galamērķa vai abiem. Kad izveidojat dienasnaudas kārtulu, varat norādīt, ka noteikta procentuālā dienasnaudas likme tiek ieturēta, ja darbinieks saņem bezmaksas maltītes vai pakalpojumus. Varat iestatīt arī minimālo un maksimālo stundu skaitu, kam var piemērot darba ņēmēja komandējuma dienasnaudas likmi.
 
 Kopējās dienasnaudas summas aprēķina pamatā ir sākuma un beigu datumi, ko varat iestatīt lapā **Dienasnaudas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

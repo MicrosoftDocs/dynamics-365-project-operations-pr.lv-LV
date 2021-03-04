@@ -45,3 +45,6 @@ Lielapjoma izpildes darbs rēķinu izveidošanai ir kārtējais darbs. Ja šis p
 
 > [!NOTE]
 > Lielapjomu rēķinu izveide darbojas vienīgi projekta līguma rindām, kuras ir konfigurējuši rēķinu grafiki. Līguma rindai ar fiksētu cenas aprēķina metodi jābūt konfigurētiem atskaites punktiem. Projekta līguma rindai ar laika un materiālu aprēķinu metodi ir jābūt iestatītam datuma bāzes rēķina grafikam. Tas pats attiecas uz līguma rindu, kuras pamatā ir projekts.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

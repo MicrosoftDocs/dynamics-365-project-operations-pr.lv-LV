@@ -42,3 +42,6 @@ Veicot atlasi, resurss tiek pievienots projekta darba grupai un piešķirts uzde
 Varat izmantot cilnes **Saskaņošana** rezervācijas paplašināšanas iespēju vai vienumu **Plānošanas panelis**, lai rezervētu resursa noslodzi uz projektā.
 
 Pēc tam, kad darba grupas dalībnieks ir rezervēts projektā, varat izmantot opcijas **Uzturēt rezervācijas** vai vienumu **Plānošanas panelis**, lai tiešā veidā pārvaldītu to rezervācijas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

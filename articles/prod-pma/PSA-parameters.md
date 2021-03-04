@@ -47,3 +47,6 @@ Lai atvērtu lapu **Project Service Automation integrācijas parametri** , atver
 | Rēķina tipa noklusējuma iestatījumi  | Norēķinu tips         | Noklikšķiniet uz **Jauns** , lai pievienotu rindu, kur var atlasīt norēķinu tipu, lai iestatītu noklusējuma rindas rekvizītu. Noteiktu norēķinu tipu var atlasīt tikai vienu reizi konfigurācijā. |
 |                        | Rindas rekvizīts        | Atlasiet atlasītā norēķinu tipa noklusējuma rindas rekvizītu. Kad jauni stundu aprēķini, jauni izdevumu novērtējumi vai jauni faktiskie dati tiek sinhronizēti no Project Service Automation, lauks **Rindas rekvizīts** tiek iestatīts uz noklusējuma vērtību norēķinu tipam. |
 | Funkcionalitātes bloķēšana  | Nav piemērojams       | Atlasiet funkcionalitāti, lai atspējotu Finance projektiem un līgumiem, kas cēlušies no Project Service Automation. Piemēram, varat izslēgt iespēju rediģēt līgumus un projektus, izveidot darba sadalījuma struktūras un ievadīt darba laika uzskaites tabulas Finance sistēmā. Ar grāmatvedību saistītie lauki joprojām tiks iespējoti pat tad, ja tie nav pieejami, izmantojot parametru iestatījumu. Pēc noklusējuma ir iespējota visa funkcionalitāte. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Ir novērstas tālāk norādītās problēmas.
 - Poga **Atsvaidzināt faktiskās vērtības** nepareizi aprēķina kopsavilkuma uzdevumus.
 - Microsoft Project pievienojumprogramma: FixNull atsauces kļūda, ja kādam darba grupas dalībniekam ir tukša resursu plānošanas vienība.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Tālāk sniegtajā tabulā ir uzskaitīti Project Operations atjauninājumi Data
 | Laiks un izdevumi | 2034882 | Poga **Jauns** komandjoslā laika ierakstiem tiek parādīta divreiz, instalējot Dynamics 365 Field Service. |
 | Laiks un izdevumi | 2056028 | Atjaunināta lapa **Laika rediģēšana**, lai iekļautu laika rindu. |
 | Laiks un izdevumi | 1983747 | Laika ievades diagrammā tiek parādīti papildu dati. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Mēs iesakām lietot paketi. Opcijas ir pieejamas noslodzes rezervāciju sinhron
     | Beigu datums    | Ievadiet resursa noslodzes apkopojuma sinhronizācijas procesa beigu datumu. |
 
 [![Sinhronizācijas process](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

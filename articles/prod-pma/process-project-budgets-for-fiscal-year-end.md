@@ -98,3 +98,6 @@ Apstrādājot atlikušās budžeta summas, var izveidot darbības virsgrāmatā 
 5. Katram projektam, kuru vēlaties apstrādāt, atlasiet opciju projekta rindas sākumā. 
 6. Atlasiet **Apstrādāt** , lai atlasītajiem projektiem pārceltu atlikušās budžeta summas atlasītajam finanšu gadam.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

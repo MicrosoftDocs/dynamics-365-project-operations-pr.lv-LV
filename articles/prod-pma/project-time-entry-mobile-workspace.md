@@ -113,3 +113,6 @@ Lejupielādējiet un instalējiet Finance and Operations mobilo programmu:
 11. Atlasiet rindas rekvizītu.
 12. Ja vēlaties: ievadiet ārējos un iekšējos komentārus.
 13. Atlasiet **Gatavs**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

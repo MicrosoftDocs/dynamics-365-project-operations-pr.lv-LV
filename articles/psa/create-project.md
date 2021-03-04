@@ -48,3 +48,6 @@ Pēc tam izveidojiet projekta darba sadalījuma struktūru, lai definētu projek
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

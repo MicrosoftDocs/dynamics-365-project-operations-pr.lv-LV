@@ -96,3 +96,6 @@ Veiciet šīs darbības, lai izveidotu pielāgotu veidlapas **Projekta informāc
     ```
 
 6. Saglabājiet un publicējiet pielāgojumus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

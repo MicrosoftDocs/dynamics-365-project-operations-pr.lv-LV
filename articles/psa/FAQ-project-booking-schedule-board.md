@@ -91,3 +91,6 @@ Izpildiet tālāk aprakstītās darbības, lai rezervētu no jauna resursa pras�
 
 4. Tagad, kad resurss ir rezervēts, ir manuāli jāpiešķir uzdevumi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

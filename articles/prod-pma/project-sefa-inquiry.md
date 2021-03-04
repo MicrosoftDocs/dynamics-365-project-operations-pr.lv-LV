@@ -104,3 +104,6 @@ Federālo apbalvojumu izmeklēšanas izmaksu plānā ietver šādas kolonnas:
 - Federālā iekšzemes atbalsta katalogs
 - Apliecinājumi
 - Izdevumi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Uzdevuma režīms neietekmē atjauninājumus, kas tiek veikti pirmstecīgo/atkar
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pieejamība un īsinājumtaustiņi
 
 Režģis **Grafiks** ir pilnībā pieejams, un to var izmantot ar tādiem ekrāna lasītājiem kā Diktors, JAWS un NVDA. Pa režģa laukumu varat pārvietoties, izmantojot bulttaustiņus (tāpat kā programmā Microsoft Excel), varat izmantot tabulēšanas taustiņu, lai pārvietotos pa interaktīvajiem lietotāja interfeisa elementiem, kā arī varat izmantot lejupvērsto bultiņu, taustiņu Enter vai atstarpes taustiņu, lai atlasītu un atvērtu nolaižamās izvēlnes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

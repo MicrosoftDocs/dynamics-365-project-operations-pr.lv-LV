@@ -68,3 +68,6 @@ Varat izmantot cilnes **Saskaņošana** rezervācijas paplašināšanas iespēju
 ![Rezervāciju paplašināšana darba grupas dalībniekam resursu saskaņošanas cilnē](media/RM-how-to-7.png)
 
 Pēc tam, kad darba grupas dalībnieks ir rezervēts projektā, varat izmantot rezervāciju uzturēšanas iespēju vai vienumu Plānošanas panelis, lai tiešā veidā pārvaldītu to rezervācijas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

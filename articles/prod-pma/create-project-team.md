@@ -62,3 +62,6 @@ Projekta vadītājam ir dažādas opcijas resursa rezervēšanai projektam, piem
 ## <a name="monitor-project-teams"></a>Projekta darba grupu uzraudzība
 1. Lapā **Visi projekti** atlasiet projekta **XYZ jaunināšanas fāze 2** saiti **Projekta ID**.
 2. Kopsavilkuma cilnē **Projekta komanda un plānošana** pārbaudiet, vai uzskaitītie projekta resursi ir pareizi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

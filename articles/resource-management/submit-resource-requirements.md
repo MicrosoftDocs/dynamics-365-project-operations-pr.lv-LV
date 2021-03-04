@@ -27,3 +27,6 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 Vispārēja grupas dalībnieka pieprasījuma statuss mainīsies uz **Iesniegts**.
 
 Pēc tam, kad pieprasījums ir izpildīts, vispārējais resurss tiek aizstāts ar nosauktu resursu, ja resursu pārvaldnieks izpilda pieprasījumu, rezervējot nosauktu resursu. Pretējā gadījumā, ja resursu pārvaldnieks piedāvā kādu nosauktu resursu, vispārējais resurss paliek darba grupā un pieprasījuma statuss mainās uz **Jāpārskata**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

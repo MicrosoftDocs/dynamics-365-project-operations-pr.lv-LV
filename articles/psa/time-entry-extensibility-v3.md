@@ -132,3 +132,6 @@ Ir jāizmanto spraudņu pārbaudes jebkādām pārbaudēm, kurām nepieciešams 
 
 > [!IMPORTANT] 
 > Pašlaik zināmā problēma TBX lapās neļauj lietotājiem labot informāciju un atkārtoti atlasīt Gatavs, kad atjauninājumam neizdodas veikt spraudņa pārbaudi. Kā risinājumu iestatiet biznesa kārtulu pārbaudes, lai pēc iespējas labāk novērstu šo situāciju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

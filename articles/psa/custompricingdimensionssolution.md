@@ -68,3 +68,6 @@ Cenas risinājumam ir jāpievieno tālāk norādītās Project Service entītija
 > ![Neiekļaut nepieciešamos komponentus.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Novērtējuma statuss tiek nomainīts uz **Izslēgts**.
 Izmantojiet šo lapu, lai atsauktu visas izslēgšanas ar konkrētu novērtējuma datumu un novērtējuma statusu **Izslēgts**. Transakcijas statuss tiek mainīts pēc atbilstošo lauku atlasīšanas.
 
 Tas arī automātiski maina projekta statusu uz **Procesā**, ja projekta posms ir iestatīts kā pabeigts. Projekta perioda novērtējuma statuss tiek mainīts atpakaļ uz **Publicēts**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Atlasiet ceļojuma pieprasījumu, kuru vēlaties apstiprināt, un pēc tam atlas
 
 > [!NOTE]
 > Kartējot izdevumu atskaiti uz apstiprinātu ceļojuma pieprasījumu, transakcijas summa nevar būt lielāka par atļauto summu. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

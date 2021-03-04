@@ -112,3 +112,6 @@ Kad tiek izsaukta darbība, darbība **Projekta kopēšana** apskatīs projekta 
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

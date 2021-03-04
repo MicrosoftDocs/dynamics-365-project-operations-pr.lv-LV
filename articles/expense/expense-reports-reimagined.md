@@ -78,3 +78,6 @@ Esošajā lapā ir pieejami tālāk aprakstītie līdzekļi, bet jaunajā lapā 
 - Rindas līmeņa darbplūsma
 - Pagaidu apstiprinātāja atbalsts
 - Papildu detalizācija
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Informāciju par Project Service atjauninājumiem skatiet [Dynamics 365 izlaiša
 >[!Note]
 > - Datumi visos reģionos, izņemot Valsts iestāžu kopienas mākoni (GCC), norāda nākamās automātiskās atjaunināšanas hronometrāžu. Datumi GCC norāda versijas pieejamību; pašlaik šiem reģioniem netiek veikta automātiska atjaunināšana.
 > - Visos citos reģionos, lai gan lielākajai daļai atjauninājumu vajadzētu būt pabeigtiem ieplānotajā naktī, atjauninājumus, kuriem nepieciešams ilgāks laiks, var pabeigt nedēļas nogales klusajās stundās, kas norādītas kolonnā **Plānotais datums**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

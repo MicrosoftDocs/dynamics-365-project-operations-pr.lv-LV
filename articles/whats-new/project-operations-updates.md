@@ -77,3 +77,6 @@ Mērķa laidiena datumi var tikt mainīti. Papildinformāciju skatiet sadaļā [
 | --- | --- |
 | 10.0.17 | 2021. gada 19. marts |
 | 10.0.18 | 2021. gada 16. aprīlis |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

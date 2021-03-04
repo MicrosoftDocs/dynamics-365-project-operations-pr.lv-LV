@@ -140,3 +140,6 @@ Nākamajās ilustrācijās ir redzami piemēri no veidnes uzdevumu kartējumiem 
 [![Veidņu kartēšana — faktisko datu atjauninājums](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Veidņu kartēšana — transakciju atjauninājums](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

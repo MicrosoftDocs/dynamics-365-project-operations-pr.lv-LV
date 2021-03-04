@@ -40,3 +40,6 @@ Informācijas panelis **Prakses pārvaldnieks** nodrošina prakses pārvaldnieki
 ## <a name="resource-manager"></a>Resursu pārvaldnieks 
 
 Informācijas panelis **Resursu pārvaldnieks** nodrošina resursu pārvaldniekiem grafiska informācijas paneļa funkcionalitāti, lai pārraudzītu resursu pieprasījumus, pieprasījumu pēc resursiem un to lietojumu. Turklāt tas ļauj resursu pārvaldniekiem dalīt pārraudzīto informāciju pēc dažādām dimensijām.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

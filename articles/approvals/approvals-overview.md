@@ -59,3 +59,6 @@ Katram projektam ir vairāki projekta darba grupas dalībnieki/ Varat norādīt,
 3. Atlasiet vienumu **Saglabāt**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

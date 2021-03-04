@@ -20,3 +20,6 @@ ms.locfileid: "4514556"
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 Varat izmantot programmā Dynamics 365 Field Service nodrošināto funkcionalitāti, lai definētu lomas savā Dynamics 365 Project Operations vidē. Lai veiktu šo iestatīšanu, skatiet sadaļu [Rezervējamu resursu kategoriju iestatīšana](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

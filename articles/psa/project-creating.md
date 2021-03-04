@@ -149,3 +149,6 @@ Ja lapas mezgla uzdevumam nav pirmstecīgu aktivitāšu, tā sākuma datums tiek
 ### <a name="manual-scheduling"></a>Manuāla plānošana
 
 Ja automātiskās plānošanas kārtulas neatbilst jūsu prasībām, uzdevuma režīmu šim uzdevumam varat iestatīt uz **Plānots manuāli**. Šis iestatījums neļauj plānošanas programmai aprēķināt citu plānošanas atribūtu vērtības. Neatkarīgi no uzdevuma režīma, ja uzdevumiem iestatāt pirmstecīgas aktivitātes, tās vienmēr ietekmē atkarīgā uzdevuma sākuma datumu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

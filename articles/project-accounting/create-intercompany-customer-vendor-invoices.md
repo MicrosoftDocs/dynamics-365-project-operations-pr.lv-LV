@@ -61,3 +61,6 @@ Vienlaikus var izveidot vairākus starpuzņēmumu rēķinus visām aizņēmuma j
 ## <a name="post-the-intercompany-vendor-invoice"></a>Starpuzņēmumu piegādātāja rēķina grāmatošana
 
 Projekta grāmatvedis aizņēmuma juridiskajā personā var pārskatīt starpuzņēmumu gaidošos piegādātāja rēķinus, kad ir iegrāmatots atbilstošais starpuzņēmumu klienta rēķins. Programmā Finance aizņēmuma juridiskajā personā dodieties uz **Kreditori** > **Rēķini** > **Gaidošais piegādātāja rēķins**. Gaidošā rēķina numurs atbildīs starpuzņēmumu klienta rēķina numuram. Pārbaudiet, vai rēķins ir pareizs, un pēc tam grāmatojiet rēķinu. Grāmatojot starpuzņēmumu piegādātāja rēķinu, tiek izveidota projekta apakšgrāmatas un virsgrāmatas darbība, kas atspoguļo darbības izmaksas aizņēmuma juridiskajā personā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

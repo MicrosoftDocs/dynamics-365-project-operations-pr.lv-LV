@@ -48,3 +48,6 @@ Resursu prasmes vērtē atbilstoši kvalifikācijas modeļiem. Atsevišķi vērt
 > ![Definētie minimālie un maksimālie vērtējumi](media/Resource-Management-image85.png)
 
 Šīs vērtējuma vērtības tiek rādītas vienumu **Resursu prasības**, **Plānošanas panelis** un **Plānošanas palīgs** filtros.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

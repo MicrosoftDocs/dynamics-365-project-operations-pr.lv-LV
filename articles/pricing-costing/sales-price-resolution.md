@@ -54,3 +54,6 @@ Kad pārdošanas cenrādis ir atrisināts, sistēma pabeidz tālāk norādītās
     | &nbsp; | Uzcenojums augstāks par izmaksu | Piemērojot uzcenojumu, kas definēts kategorijas cenas rindā uz saistītās faktiskās izmaksas likmes vienības izmaksu likmes |
 
 4. Ja sistēma nespēj saskaņot **Kategorija** un **Vienība** lauku vērtības, pārdošanas likme pēc noklusējuma ir nulle (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

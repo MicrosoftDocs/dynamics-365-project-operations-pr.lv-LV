@@ -43,3 +43,6 @@ Katram rezervējamam resursam, kas strādā projektā, ir nepieciešams darba st
 2. Režģa skatā atlasiet līdz 25 **Rezervējamiem resursiem**, ko vēlaties atjaunināt.
 3. Atlasiet vienumu **Iestatīt kalendāru**, un dialoglogā tiks parādīts pieejamo darba stundu veidņu saraksts.
 4. Atlasiet veidni, ko vēlaties izmantot, un pēc tam atlasiet **Lietot**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

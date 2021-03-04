@@ -52,3 +52,6 @@ Iespējams, ka jūsu uzņēmums organizē konsultāciju sniegšanas biznesu pēc
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service Automation konfigurēšana](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

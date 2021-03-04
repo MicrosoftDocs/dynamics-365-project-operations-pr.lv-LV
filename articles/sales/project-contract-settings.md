@@ -58,3 +58,6 @@ Projekta līguma cilnē **Līguma veiktspēja** ir pieejami šādi KPI:
 | Radušās izmaksas | Produktu līnijas | Visu uz produktu balstītajā līguma rindā reģistrēto izmaksu faktisko datu summa. |
 | Bruto peļņa | Projektu līnijas | Samaksātā summa — izmaksas, kas nav saistītas ar datumu/rēķinu summu |
 | Paredzamā peļņa | Produktu līnijas | (Līguma rindas vērtība — līguma rindas prognozējamās izmaksas) / līguma rindas vērtība |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

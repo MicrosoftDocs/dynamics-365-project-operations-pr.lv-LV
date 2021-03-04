@@ -23,3 +23,6 @@ Dynamics 365 Project Operations ir iekļauta validācijas loģika, kas nodrošin
 
   - Visas atbalsta rindas tiek izveidotas saistītajās tabulās, piemēram, žurnālos un faktiskajos datos.
   - Apstiprinātājs projektā tiek atzīmēts kā **Projekta apstiprinātājs** pirms turpināšanas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

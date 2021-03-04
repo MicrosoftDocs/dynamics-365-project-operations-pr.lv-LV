@@ -32,3 +32,6 @@ Ja izdevumi izdevumu atskaitē tiek iekasēti citam uzņēmumam, nevis uzņēmum
 Lai grāmatotu izdevumu atskaiti, lapā **Apstiprinātās izdevumu atskaites** atlasiet izdevumu atskaiti un pēc tam darbību rūtī atlasiet vienumu **Grāmatot**.
 
 Varat arī grāmatot visas sarakstā esošās izdevumu atskaites vienlaicīgi. Atlasiet visas izdevumu atskaites un pēc tam atlasiet vienumu **Grāmatot**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

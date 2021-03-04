@@ -273,3 +273,6 @@ Rēķinā iekļautas pārdošanas faktiskie dati produkta rindai ar daudzumu un 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Android būs saderīga ar platformas atjauninājumu 16, kad tas kļūs pieejams.
 13. Neobligāti: ievadiet papildu laika uzskaites tabulas rindas.
 
 14. Pēc tam, kad laika uzskaites tabulu rindu aizpildīšana ir pabeigta, atlasiet darbību **Darbplūsma** \> **Iesniegt** , lai savu laika uzskaites tabulu iesniegtu darbplūsmas apstiprinājuma procesā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

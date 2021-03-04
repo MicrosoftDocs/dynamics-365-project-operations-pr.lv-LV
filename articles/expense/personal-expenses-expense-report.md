@@ -28,3 +28,6 @@ Lai strādātu ar darbinieka personīgajiem izdevumiem, varat pielietot divas me
   - **Apmaksā uzņēmums**: Jūsu organizācija apmaksā pilno rēķinu par uzņēmuma kredītkarti un pēc tam ietur debetu no darbinieka konta par personīgajiem izdevumiem.
 
 Lapā **Izdevumu pārvaldības parametri** varat atlasīt metodi, ko organizācija izmanto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

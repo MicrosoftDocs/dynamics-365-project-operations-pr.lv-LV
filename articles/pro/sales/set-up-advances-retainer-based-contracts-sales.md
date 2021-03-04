@@ -37,3 +37,6 @@ Project Operations honorārs nav pieejams lietošanai, kamēr par to nav izrakst
 | --- | --- | --- |
 | Pieejamā summa | Summa, kas ir pieejama izmantošanai honorāra vai avansa ierakstam. | Līdz brīdim, kad par avansu vai honorāru ir izrakstīts rēķins, tas nav pieejams izmantošanai, kas nozīmē, ka pieejamā summa būs nulle. |
 | Izmantotā summa | Summa, kas jau tiek izmantota honorāra vai avansa ierakstam. | Avansu vai honorāru var daļēji piesaistīt rēķinam ar faktiskajām izmaksām, kurām būs kāda daļa, kas iezīmēta kā jau izmantota vai patērēta. Pārējā avansa vai honorāru summa ir pieejama, lai nākotnē saskaņotu rēķinu ar faktiskajām izmaksām. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

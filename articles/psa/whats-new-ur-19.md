@@ -66,3 +66,6 @@ Ir novērstas tālāk norādītās problēmas.
 - Klient var pieredzēt pasliktinātu darbību, veidojot projektu, jo **GetBookableResourceIdFromUser** izgūst visas rezervējamo resursu kolonnas, nevis tikai primāro ID.
 - Entītijai **TransactionType** trūkst pirms validācijas atjauninājuma spraudnis, lai neļautu lietotājiem ievadīt **Vienības** un **UnitGroups**, kas transakciju tipiem nav derīgas.
 - Darbība **Noņemt** laika ieraksta importēšanai nedarbojas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

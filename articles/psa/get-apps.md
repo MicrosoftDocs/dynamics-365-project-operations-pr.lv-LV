@@ -36,3 +36,6 @@ Ja vēlaties ievadīt laiku un izdevumus savā mobilajā ierīcē, skatiet sada�
   
 ### <a name="see-also"></a>Skatiet arī  
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

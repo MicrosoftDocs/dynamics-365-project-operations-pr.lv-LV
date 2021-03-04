@@ -44,3 +44,6 @@ Pēc budžeta vai budžeta pārskatījuma piešķiršanas varat pārskatīt pie�
 10. Ja piešķīrums ir tāds, kā vēlaties, noklikšķiniet uz Iesniegt lapā Projekta budžets, lai nosūtītu budžetu vai budžeta pārskatījumus uz apstiprinājuma darbplūsmu.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

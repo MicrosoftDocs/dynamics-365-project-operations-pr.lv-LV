@@ -65,3 +65,6 @@ Lai varētu izveidot projekta grafikus, ir nepieciešams iestatīt projekta kale
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

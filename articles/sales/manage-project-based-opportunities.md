@@ -65,3 +65,6 @@ Iespējas pārdošanas process risinājumā Project Operations ir iespēju pārd
 > Ja jūsu projekta darījums sākās ar iespēju, iespējas pārdošanas process ir prioritārs.
 
 Varat rediģēt produktu biznesa procesa plūsmu vai izveidot savas biznesa procesa plūsmas, lai izsekotu pārdošanas procesam. Papildinformāciju par biznesa procesu plūsmu skatiet rakstā [Biznesa procesu plūsmu pārskats](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

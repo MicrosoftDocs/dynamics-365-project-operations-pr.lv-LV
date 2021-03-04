@@ -67,3 +67,6 @@ Ir novērstas tālāk norādītās problēmas.
 Ir novērstas tālāk norādītās problēmas.
 
 - Veicot dubultklikšķi uz **Visu transakciju kategoriju ienese**, tiek izveidotas vairākas rindas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

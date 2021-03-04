@@ -342,3 +342,6 @@ Project Operations ieraksta finanšu transakcijas, kas notiek projekta laikā. �
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

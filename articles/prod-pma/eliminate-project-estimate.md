@@ -51,3 +51,6 @@ Lai likvidētu novērtējuma projektu, tam ir jābūt pabeigtam. Tālāk aprakst
 5. Pēc tam, kad likvidēšanas process ir pabeigts, likvidētais novērtējuma projekts tiek parādīts ar negatīvu vērtību. 
 
 Ja nevēlējāties likvidēt novērtējumu, varat atlasīt atcelto likvidēto novērtējumu un atlasīt **Atsaukt likvidēšanu**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

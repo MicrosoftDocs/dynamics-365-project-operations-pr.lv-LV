@@ -110,3 +110,6 @@ Uzdevumiem, kas ir piešķirti lomai ar organizācijas struktūrvienību, kas at
  
 Dažādu resursu organizācijas vienību noklusējuma vērtību izmaiņa grupas dalībniekiem, kas nav ģenerēti, ir iemesls, kāpēc pirms jaunināšanas ieteicams ģenerēt vai atkārtoti ģenerēt darba grupu katram projektam, kurā ir iekļauti vispārēji resursi, lai nezaudētu organizācijas vienību piešķires.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

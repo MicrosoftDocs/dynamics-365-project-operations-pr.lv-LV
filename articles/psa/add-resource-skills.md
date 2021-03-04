@@ -47,3 +47,6 @@ Jūsu klientu projektiem neapšaubāmi nepieciešamas dažādas prasmes, lai pab
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

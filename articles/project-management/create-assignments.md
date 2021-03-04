@@ -42,3 +42,6 @@ Varat izmantot meklēšanas lodziņu **Resursu atlasītājs**, lai meklētu visu
 1. Uzdevumu režģī, panelī vai laika skalā pārejiet uz šūnu **Piešķirts**.
 2. Meklēšanas lodziņā sāciet rakstīt vārdu. Sadaļā **Resursu atlasītājs** pie **Citi resursi** tiek rādīti nosaukuma meklēšanas rezultāti.
 3. Atlasiet resursu, kuru vēlaties piešķirt uzdevumam, vai atlasiet resursa nosaukumu sadaļā **Citiem darba grupas resursi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Iespējams, jūsu organizācijai būs nepieciešams, ka ceļojuma pieprasījumu 
 Ceļojumu pieprasījumus un politikas var izmantot, lai palīdzētu kontrolēt budžetu. Piemēram, ja jūsu organizācija strādā ar fiksētas cenas projektu, kurā nepieciešama ceļošana, projekta darba grupas dalībnieku ceļojuma izdevumiem ir jāatbilst projekta budžetam. Pieprasot ceļojuma izdevumus apstiprināt pirms to rašanās, organizācija var palīdzēt nodrošināt, ka projekts nepārsniegs budžetu.
 
 Varat iestatīt politikas ceļojumu pieprasījumiem lapā **Ceļojuma pieprasījums**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

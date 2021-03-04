@@ -240,3 +240,6 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 22. Atlasiet **Iesniegt**.
 23. Ievadiet jebkādus komentārus apstiprinātājam.
 24. Atlasiet **Gatavs**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

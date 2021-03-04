@@ -71,3 +71,6 @@ Ja resurss jau ir iesaistīts citos projektos (vai piesaistīts citiem darba pas
 - Sadalīt stundas vienmērīgi
 
 Izmantojot vienu no šīm trīs sadales metodēm, netiks parādīts paziņojums, ja attiecīgā resursa rezervācija būs pārsniegta. Lai labotu pārsniegto rezervāciju, nepieciešams izmantot plānošanas paneli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

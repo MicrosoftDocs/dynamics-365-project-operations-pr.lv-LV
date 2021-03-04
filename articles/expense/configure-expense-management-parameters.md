@@ -83,3 +83,6 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 | Parādīt apliecinājumu par korupcijas apkarošanu   | Atlasiet šo opciju, lai parādītu tekstu par korupcijas apkarošanu, kad tiek izveidota izdevumu atskaite. Var iespējot konkrētas izdevumu kategorijas, kuru gadījumā izdevumu atskaitē būtu obligātu jāatlasa apliecinājums par korupcijas apkarošanu. Piemēram, dāvanu kategorijai, kas saistīta ar valsts amatpersonu izdevumiem, var pieprasīt, lai darbinieks apstiprinātu, ka izdevumi atbilst uzņēmuma politikai saistībā ar valsts amatpersonām. |
 | Paziņojums iesniedzējam par korupcijas apkarošanu | Ievadiet tekstu, kas jārāda darbiniekam, kurš veido izdevumu atskaiti. Lai ievadītu rādāmo tekstu konkrētā valodā, pamatojoties uz lietotāja valodu, atlasiet vienumu **Tulkojumi**. |
 | Paziņojums apstiprinātājam par korupcijas apkarošanu  | Ievadiet tekstu, kas jārāda apstiprinātājam, kad tiek veidota izdevumu atskaite. Lai ievadītu rādāmo tekstu konkrētā valodā, pamatojoties uz lietotāja valodu, atlasiet vienumu **Tulkojumi**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

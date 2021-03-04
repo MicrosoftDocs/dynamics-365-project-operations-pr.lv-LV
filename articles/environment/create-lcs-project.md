@@ -36,3 +36,6 @@ Izmantojiet Lifecycle Services (LCS), lai pārvaldītu savas Dynamics 365 Projec
 
 Izmantojiet šo LCS projektu, lai izvietotu savu Project Operations vidi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

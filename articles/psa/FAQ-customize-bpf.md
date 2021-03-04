@@ -107,3 +107,6 @@ Lai projekta entītijai izveidotu savu biznesa procesa plūsmu, rīkojieties š�
 
    ![Projekta entītijas skatu maiņas ekrānuzņēmums](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Līga Krūmiņa, GBPM izstrādātāja, reģistrē 10 stundu darbu USPM Adventur
     - Kredīts: projekts — uzkrātie ieņēmumi 120 USD
 
     Tagad sistēma ir sagatavota starpuzņēmumu klienta rēķina izveidei.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

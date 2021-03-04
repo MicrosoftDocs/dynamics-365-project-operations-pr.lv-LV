@@ -107,3 +107,6 @@ Nākamajā ilustrācijā ir parādītas izmaiņas, kas rodas apstiprinātiem lai
 Nākamajā ilustrācijā ir parādītas izmaiņas, kas rodas apstiprinātiem izdevumu ierakstiem, kad tie tiek atsaukti.
 
 ![Izdevumu ierakstu stāvokļa pārejas](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

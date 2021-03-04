@@ -87,3 +87,6 @@ Kad esat gatavs mainīt izvēles viegli rezervēto darba grupas dalībnieka resu
 2. Kad tiek atvērts plānošanas panelis, izvērsiet resursu, lai parādītu tā rezervācijas. Jūs redzēsiet rezervāciju atzīmētu kā Viegla.
 3. Ar peles labo pogu noklikšķiniet uz rezervācijas, sadaļā Mainīt statusu atlasiet vienumu Stingrā rezervācija un pēc tam atlasiet Stingra. Rezervācijas statuss tagad ir Stingra.
 4. Pēc plānošanas paneļa aizvēršanas redzēsit, ka resursa stundas darba grupas dalībnieku režģī ir mainījušās no Viegla uz Stingra. Tagad varat piešķirt resursam uzdevumus (ja piešķiršanai uzdevumam nav līdzinājuma starp stingri rezervētajām stundām un ieguldījuma stundām). Ņemiet vērā: ja veicāt vispārējās resursu izpildes darbības iepriekš minētajā 3. punktā, mainot rezervējamā resursa, kurš ir viegli rezervēts, statusu uz Stingrs, vispārējais grupas dalībnieks tiek noņemts no darba grupas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

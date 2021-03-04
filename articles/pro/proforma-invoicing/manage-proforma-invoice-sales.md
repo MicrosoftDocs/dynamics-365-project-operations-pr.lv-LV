@@ -144,3 +144,6 @@ Ja jums ir faktiskie dati, kas ienāca pēc rēķina izveidošanas, varat tos ie
 Project Operations var izveidot rēķina rindas produktiem, kas neattiecas uz projektu vai visiem projektiem, kā arī uz projekta rēķina rindām. Šīs rēķinu rindas tiek izveidotas kā uz produktu balstītas līguma rindas, un pēc tam, kad tās ir atzīmētas kā gatavas rēķina izrakstīšanai, tās tiek pievienotas kā produktu rēķinu rindas.
 
 Pēc tam, kad esat pievienojis uz produktu balstītas rēķinu rindas, tās vairs nevar mainīt. Tomēr tās var izdzēst no pro forma rēķina melnraksta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

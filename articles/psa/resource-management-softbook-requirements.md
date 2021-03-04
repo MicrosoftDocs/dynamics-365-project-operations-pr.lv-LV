@@ -63,3 +63,6 @@ Varat izmantot to pašu metodi, lai atceltu stingro rezervāciju vai vieglo reze
 Lai pārveidotu resursu, kam veikta viegla rezervācija, uz stingro rezervāciju projekta cilnē **Darba grupa**, atlasiet resursu un pēc tam atlasiet **Apstiprināt**.
 
 ![Komanda Apstiprināt](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

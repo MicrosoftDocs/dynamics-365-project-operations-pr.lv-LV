@@ -55,3 +55,6 @@ Piemēram, izstrādātājs no Fabrikam India, kas strādā pie ASV projekta, izm
     | Izstrādātājiem | Fabrikam US | 150 ASV dolāru |
 
 3. Pievienojiet pārdošanas cenrādi **Fabrikam US rēķinu likmes** projekta līguma cenrādim vai noteiktam kontam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Ja lietojat vecāku versiju, resursu pieejamību skatiet sadaļā [Resursu pieej
   
 ### <a name="additional-resources"></a>Papildu resursi  
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

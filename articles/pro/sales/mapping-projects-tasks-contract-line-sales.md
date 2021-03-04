@@ -82,3 +82,6 @@ Izpildiet tālāk norādītās darbības, lai projekta uzdevumus atsaistītu no 
 4. Atvērtajā dialoga lapā atlasiet līguma rindu no nolaižamā saraksta.
 5. Atzīmējiet izvēles rūtiņu, lai norādītu, vai saistība ir jānoņem arī no atlasīto uzdevumu pakārtotajiem uzdevumiem. Atzīmējot lodziņu, tiek atsaistīti arī atlasīto uzdevumu atvasinātie uzdevumi no līguma rindas.
 6. Atlasiet **Labi**. Brīdinājuma ziņojums norāda, ka šīs saistīšanas noņemšana var izraisīt uzdevumam iepriekš ierakstīto faktisko ierakstu anulēšanu. Brīdinājuma dialoglodziņā atlasiet **Labi**, lai noņemtu saistību starp uzdevumu un projekta līguma rindu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

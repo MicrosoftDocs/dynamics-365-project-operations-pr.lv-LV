@@ -101,3 +101,6 @@ Ja rēķinā iekļaujamais lietojums nav redzams, var pārbaudīt šādus aspekt
   - Projekta pamatojumam izmantotās projekta līguma rindas lomai ir atlasīts iestatījums Nav iekļaujams rēķinā.
   - Projektam nav saistītās līguma rindas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -200,3 +200,6 @@ Kad laiku skatāties augstākos līmeņos, šūnām cilnē **Saskaņošana** ir 
 Ja jums ir uzdevumu piešķires kādam resursam, bet nav nevienas rezervācijas, veidlapā **Projekti**, cilnē **Saskaņošana** atlasiet rezervāciju deficītu un pēc tam atlasiet vienumu **Paplašināt rezervāciju**. Tiek parādīts dialoglodziņš **Paplašināt rezervāciju**, un tajā ir redzama rezervācija, kura ir nepieciešama, lai novērstu šo resursu deficītu. Dialoglodziņā redzamas arī resursu esošās rezervācijas visos projektos vai citos plānojamos elementos. Ja atlasāt **Labi**, lai izveidotu rezervāciju attiecīgajam resursam neatkarīgi no šī resursa pieejamības, varat izraisīt virsrezervāciju.
 
 Pēc tam Projektu vadītājs vai Resursu pārvaldnieks var izmantot plānošanas paneli, lai pārvaldītu visas situācijas, kur resursa rezervācija pārsniedz tā noslodzi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

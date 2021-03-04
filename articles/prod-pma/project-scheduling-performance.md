@@ -69,3 +69,6 @@ Lai iespējotu resursu plānošanas veiktspējas uzlabošanu, veiciet tālāk no
 
 > [!NOTE]
 > Šādi vispārējie dati tiks izplatīti tabulā **ResRollup** visos uzņēmumos jūsu apkārtnē, tāpēc pakešuzdevumam ir jābūt izpildītam tikai vienā juridiskā entītijā. Šis pakešuzdevums ir nepieciešams visiem **Resursa pieejamība** skatiem. Ja šis pakešuzdevums netiek izpildīts, **ResRollup** dati tiek ģenerēti izveides laikā, kas var prasīt laiku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

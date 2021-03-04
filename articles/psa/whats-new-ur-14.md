@@ -64,3 +64,6 @@ Mēs priecājamies paziņot par jaunāko programmas Dynamics 365 Project Service
      - Novērsts: kopējā pārdošanas cena netiek aprēķināta, kamēr lietotājs neievada arī izmaksu cenu projekta izdevumu aplēsēm.
      - Novērsts: piedāvājuma slēgšana kā **Iegūts** nerodas, ja saistītais projekta līgums nav statusā **Melnraksts**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

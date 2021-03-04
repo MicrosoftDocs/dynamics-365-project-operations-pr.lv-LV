@@ -46,3 +46,6 @@ Lai no produkta rekvizītiem izveidotu daudzuma koeficientus, izpildiet tālāk 
 7. Atkārtojiet 2.–6. darbību visiem rekvizītiem, kas kopā veido produkta līguma rindai atbilstošo daudzumu.
 
 Ja ir iestatīti daudzuma koeficienti, tad, kad lietotājs veido līguma rindu šim produktam, līguma rindas daudzums ir slēgts. Pēc tam daudzums tiek aprēķināts kā šīs līguma rindas rekvizītu vērtību produkts.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Kad esat izveidojis piegādātāja saglabāšanas nosacījumus, varat tos lietot
 6. Ja projektā piegādātājam ir iestatīti arī maksāt-kad-apmaksāts (PWP) nosacījumi, ievadiet projekta sliekšņa procentuālo vērtību laukā **PWP sliekšņa procentuālā vērtība**.
 
 Piegādātāja saglabāšanas nosacījumi tiek rādīti arī pirkšanas pasūtījumos, ko izveidojat šim piegādātājam.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

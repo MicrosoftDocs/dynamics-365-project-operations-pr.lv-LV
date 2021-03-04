@@ -72,3 +72,6 @@ Ir novērstas tālāk norādītās problēmas.
 - Ja piedāvājums tiek slēgts, nepārvietojieties uz izveidoto līgumu, ja piedāvājumam pievienotais BPF ir beigu stadijā.
 - Ja atsaukta **Neiekasētā pārdošana** tiek saistīta ar sākotnējām izmaksām, laika ieraksts tiks atsaukts.
 - Pēc pogas **Apstiprināt** atlases rēķina statuss netiek mainīts uz **Apstiprināts**, ja vien rēķins netiek atsvaidzināts.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

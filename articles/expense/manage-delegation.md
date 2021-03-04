@@ -39,3 +39,6 @@ Ja ir iespējota līdzekļu pārvaldības atslēga **Iespējot izdevumu pārstā
 Pārstāvis var ātri filtrēt un meklēt esošās izdevumu atskaites, kas tiem ir deleģētas. Pārstāvis var arī ātri izveidot jaunu izdevumu atskaiti citiem lietotājiem, atlasot vienumu **Jauna izdevumu atskaite**.
 
 Pārstāvji var izveidot un pārvaldīt izdevumu atskaites citiem darbiniekiem, pārejot uz sadaļu **Izmaksu pārvaldība** > **Mani izdevumi** > **Izdevumu atskaites** un atlasot vienumu **Atvērt citu lietotāju izdevumus**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

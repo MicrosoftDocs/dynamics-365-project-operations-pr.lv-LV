@@ -68,3 +68,6 @@ Peļņas aprēķini aprēķina summas par līguma rindu detalizētu informāciju
 
 > [!NOTE]
 > Valūtas noapaļošanas kļūdas un mainīti uzcenojumi var rasties, jo trūkst spēkā stāšanās datuma valūtas kursu. Izmantojiet šos aprēķinus projekta līgumos tikai kā tuvinājumus, nevis kā faktiskos likumā paredzētos vai citus atskaišu veidošanas pasākumus, kam nepieciešama noapaļošanas precizitāte un datums, kurā jāinformē par valūtas maiņas kursiem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

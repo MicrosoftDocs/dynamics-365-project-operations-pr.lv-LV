@@ -45,3 +45,6 @@ Turklāt katram rezervējamajam resursam ir jāpiešķir noklusējuma loma. Atve
 Cilnē **Project Service** resursam var iestatīt arī atsevišķu mērķa lietojumu. Šādā gadījumā lietojuma aprēķinā tiek izmantots mērķa lietojums, lai novērtētu resursa mērķi, nevis resursa noklusējuma lomas mērķi.
 
 Resursa lietojums tiek rādīts tikai tad, ja šis resurss ir apstiprinājis rēķinā iekļaujamu laiku periodā, kas ir norādīts režģī.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

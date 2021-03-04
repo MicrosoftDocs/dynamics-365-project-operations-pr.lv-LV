@@ -33,3 +33,6 @@ Visu projekta līgumu sarakstu var skatīt lapā **Līgumi**.
 2. Atlasiet **Skatu pārslēdzēju** (nolaižamā bultiņa blakus skata nosaukumam), lai atlasītu citus filtrētos skatus. Varat izveidot savus skatus, kuros ir pielāgoti filtrēšanas kritēriji.
 
 Līgumus var izveidot vai izdzēst no šīs saraksta lapas vai detalizētās lapas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

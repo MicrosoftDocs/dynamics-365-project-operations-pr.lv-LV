@@ -44,3 +44,6 @@ Papildinformāciju skatiet šeit: [Izdevumu ievade (Lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Nosakiet savu Izdevumu izvietošanu
 Lai noteiktu, vai darbināt Pamata izmaksu pārvaldības izvietošanu, pārbaudiet, vai adreses URL vietrādis beidzas ar **. crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

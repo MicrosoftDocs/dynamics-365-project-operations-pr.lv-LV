@@ -42,3 +42,6 @@ Ir novērstas tālāk norādītās problēmas.
 
 - Plānošanas palīdzības meklēšanas veiktspējas degradācija
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

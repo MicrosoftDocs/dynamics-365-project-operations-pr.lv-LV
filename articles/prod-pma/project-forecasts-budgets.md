@@ -81,3 +81,6 @@ Ja izmantojat projekta prognozēšanu, modeļus varat identificēt kā apakšmod
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

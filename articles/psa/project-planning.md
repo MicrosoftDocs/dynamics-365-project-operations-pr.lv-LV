@@ -52,3 +52,6 @@ Tālāk norādītajās tēmās ir sniegta informācija, kas palīdzēs projektu 
 - [Projektu veidnes](project-templates.md)
 - [Projekta posmi](project-stages.md)
 - [Projekta iestatījumi](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

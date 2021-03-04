@@ -38,3 +38,6 @@ Rēķinā neiekļautas pārdošanas faktiskos datus, kam **Nepārsniegt** status
 Ja ir vairāku klientu līguma rindas, kuram ir laika un materiālu norēķinu metode, apstiprinot laiku un izdevumus, katram klientam tiek izveidoti rēķinā neiekļautās pārdošanas faktiskie dati līguma rindā atbilstoši katram klientam līguma rindā norādītajam norēķinu procentuālajam sadalījumam. Skatā **Laika un materiālu uzkrātie rēķini** redzēsiet šos atsevišķo klientu rēķinos neiekļautās pārdošanas faktiskos datus. Šajā skatā katru no šiem rēķinā neiekļautās pārdošanas faktisko datu ierakstiem var atsevišķi atzīmēt kā **Gatavs rēķina izrakstīšanai**.
 
 Šajā skatā tiek rādīti rēķinā neiekļautas pārdošanas faktiskie dati ar **norēķinu statusu** **Izveidots klienta rēķins**. Kad ir apstiprināts rēķina melnraksts, šī ieraksta norēķinu statuss tiek atjaunināts uz **Iegrāmatots klienta rēķins**. Nav ieteicams atjaunināt šī statusa vērtību, ja tas ir šādā statusā, izmantojot pielāgotu kodu. Risinājums Project Operations nedarbosies pareizi, ja šīs statusa vērtības tiks atjauninātas ar pielāgotu kodu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

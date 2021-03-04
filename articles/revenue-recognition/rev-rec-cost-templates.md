@@ -79,3 +79,6 @@ Lai izveidotu izmaksu veidnes, izpildiet tālāk aprakstītās darbības.
 7. Cilnē **Kategorijas** atlasiet projekta kategorijas, kas jāiekļauj izmaksu veidnes rindā.
 8. Cilnē **Vispārīgi** norādiet, vai šī rinda tiks iekļauta pabeigšanas procentuālās vērtības aprēķinā.
 9. Atlasiet pabeigšanas vērtības izmaksu metodi, kas jāizmanto, aprēķinot pabeigšanas procentuālo vērtību.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

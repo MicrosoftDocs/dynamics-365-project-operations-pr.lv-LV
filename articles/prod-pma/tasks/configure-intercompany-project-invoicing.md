@@ -64,3 +64,6 @@ ms.locfileid: "4080503"
 32. Laukā **Cenas noteikšana** ievadiet numuru.
 33. Atlasiet vienumu **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

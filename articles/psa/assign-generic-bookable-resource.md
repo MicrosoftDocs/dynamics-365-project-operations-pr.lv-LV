@@ -59,3 +59,6 @@ Varat arī noklikšķināt uz saites **Resursu vajadzība** darba grupas režģ�
 
 ![Resursu prasība](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

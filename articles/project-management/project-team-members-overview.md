@@ -60,3 +60,6 @@ No darba grupas dalībnieku režģa var veikt tālāk minētās darbības.
 
 - **Jauns**: papildus resursu pievienošanai tieši no grafika, projektu vadītāji var pievienot jaunus nosauktos vai vispārējos darba grupas dalībniekus no darba grupas dalībnieku režģa.
 - **Dzēst**: atlasot vienu vai vairākus darba grupas dalībniekus, projekta vadītājs var dzēst resursus, kuri vairs nepiedalīsies projektā. Dzēšot darba grupas dalībnieku, tiek dzēsti arī visas saistītās resursu piešķires un atceltas visas esošās rezervācijas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

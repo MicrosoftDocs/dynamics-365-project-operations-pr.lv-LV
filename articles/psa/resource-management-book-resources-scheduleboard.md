@@ -53,3 +53,6 @@ Lai varētu veikt rezervēšanu, izmantojot plānošanas paneli, ir jāizveido v
 Šī prasība tiek izpildīta, izmantojot atlasīto resursu. Rūtī **Rezervācijas prasības** pievērsiet uzmanību, ka prasība ir atjaunināta un resurss tiek parādīts kā rezervēts attiecīgajā projektā.
 
 ![Attiecīgajam projektam rezervēts resurss](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

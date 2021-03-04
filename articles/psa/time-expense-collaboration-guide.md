@@ -73,3 +73,6 @@ Noklikšķiniet uz tālāk norādītās saites, lai iegūtu sīkāku informācij
  [Uzņēmumu pārvaldnieka rokasgrāmata](../psa/account-manager-guide.md)   
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)   
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

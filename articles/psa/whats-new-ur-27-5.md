@@ -42,3 +42,6 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 Ir novērstas tālāk norādītās problēmas.
 
 - Plānošanas palīdzības meklēšanas veiktspējas degradācija
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

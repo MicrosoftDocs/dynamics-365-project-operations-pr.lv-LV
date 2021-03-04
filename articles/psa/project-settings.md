@@ -68,3 +68,6 @@ Katrai organizācijai šīs lomas ir jāiestata lapā **Aktīvās resursu katego
 ## <a name="price-lists"></a>Cenrāži
 
 Cenrāži ļauj jums iestatīt izmaksas un pārdošanas cenas resursu lomām, izmaksu kategorijām, produktiem un citiem elementiem kādā organizācijā. Pirms iestatāt finanšu tāmes darbam, kurš ir jāizpilda kādam projektam, jums ir jāizveido dublējuma izmaksu un pārdošanas cenrādis. Parametru sadaļā jums ir jāiestata arī noklusējuma izmaksu un pārdošanas cenrādis, kas attiecas uz visiem šajā organizācijā izveidotajiem projektiem. Lapā **Aktīvie projektu parametri** pārliecinieties, ka iestatāt noklusējuma izmaksu un pārdošanas cenrādi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

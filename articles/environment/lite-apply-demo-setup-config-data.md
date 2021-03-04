@@ -74,3 +74,6 @@ Pirms konfigurēšanas sākšanas ir nepieciešama Common Data Service (CDS) vid
     -   Rezervējamā resursa īpašība
 
     ![Pabeigt importēšanu](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

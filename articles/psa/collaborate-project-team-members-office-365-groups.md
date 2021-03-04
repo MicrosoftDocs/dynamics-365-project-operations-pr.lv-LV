@@ -43,3 +43,6 @@ Izmantojot [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], varat sa
   
 ### <a name="see-also"></a>Skatiet arī  
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

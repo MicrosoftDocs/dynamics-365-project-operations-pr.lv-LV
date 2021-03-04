@@ -257,3 +257,6 @@ Sākot ar 3. versiju, pielāgota projekta cenrāža izveide un izmantošana Pro
 
 > [!NOTE]
 > Var rasties īsa aizkave starp noklikšķināšanu uz **Izveidot pielāgotu izcenojumu** un brīdi, kad tiek izveidots pielāgots cenrādis. Iesakām atsvaidzināt režģi, nevis klikšķināt vairākas reizes. Pielāgots cenrādis ir izveidots, ja ar saistītā cenrāža nosaukumam ir pievienots piedāvājuma nosaukums vai projekta līguma nosaukums.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

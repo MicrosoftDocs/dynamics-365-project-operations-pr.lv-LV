@@ -42,3 +42,6 @@ Resursu prasmes vērtē atbilstoši kvalifikācijas modeļiem. Atsevišķi vērt
 
 
 Šīs vērtējuma vērtības tiek rādītas vienumu **Resursu prasības**, **Plānošanas panelis** un **Plānošanas palīgs** filtros.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

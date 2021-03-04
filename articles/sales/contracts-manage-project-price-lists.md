@@ -72,3 +72,6 @@ Varat arī iestatīt klientam noteiktus projekta cenrāžus, kad esat pārrunāj
 ## <a name="custom-pricing-on-a-project-contract"></a>Cenas pielāgošana projekta līgumam
 
 Kad ir izveidoti organizācijas un klientiem noteikti noklusējuma projektu cenrāži, jūsu projekta līgumi tiek automātiski izveidoti ar šīm projekta cenrāžu saistībām. Tomēr projekta līguma cenrāži, kas attiecas uz projekta līgumu, vienmēr tiek kopēti, norādot tiem pievienoto datumu un līguma nosaukumu. Uzņēmums un projektu vadītāji pēc tam šajās kopijās var sākt labot cenas. Šīs mainītās cenas ir piemērojamas tikai šim projekta līgumam.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

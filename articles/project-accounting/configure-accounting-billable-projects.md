@@ -125,3 +125,6 @@ Fiksēta cena — pabeigtības procentuālā vērtība
 Projekta izmaksu un ieņēmumu profila kārtulas nosaka Projekta izmaksu un ieņēmumu profilu, kas jāizmanto, apstrādājot apmaksājamos projekta darījumus. Definējiet kārtulas sadaļā **Projekta pārvaldība un uzskaite** \> **Iestatīšana** \> **Grāmatošana** \> **Projekta izmaksu un ieņēmumu profila kārtulās**.
 
 Kārtulas var definēt pēc projekta līguma, projekta grupas vai konkrētiem projektiem atsevišķi. Sistēma vienmēr vispirms izvēlas visaugstākās detalizācijas kārtulu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Tiklīdz tiek iegūts projekta līgums, nepieciešams piešķirt darbiniekus pro
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Kad tiek kopēta projekta darba grupa no avota projekta, tiek kopēti vispārēj
 Kopējot projektu, gan resursu, gan izmaksu aprēķinu rindas tiek kopētas no avota projekta. 
 
 Informāciju par to, kā programmiski piekļūt projekta kopēšanai, skatiet rakstā [Projekta veidņu izstrāde, izmantojot projekta kopēšanu](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

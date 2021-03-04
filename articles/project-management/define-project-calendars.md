@@ -49,3 +49,6 @@ Lai izveidotu projekta grafiku, jums ir jāizveido projekta kalendāra veidne, k
 8. Dialoglodziņā **Darba veidne** ievadiet nosaukumu šai darba veidnei un pēc tam atlasiet **Lietot**. 
 
 Tagad šo darba veidni varat sasaistīt ar projekta kalendāra veidni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

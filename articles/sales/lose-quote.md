@@ -45,3 +45,6 @@ Ja dialoga lapā atlasāt opciju **Labi**, sistēma izveido projekta piedāvāju
 > - Projekta atsauce projekta piedāvājuma rindās — klienta budžeta informācija
 >
 >Šī informācija katram piedāvājumam ir ļoti specifiska, tādēļ šie lauki un ieraksti netiek kopēti. Piedāvājuma rindas projektiem un produktiem, piedāvājuma rindu informācijā ietvertie aprēķini un piedāvājuma līmeņa nepārsniedzamā vērtības tiek kopētas. Cenu un izmaksu likmju noklusējuma vērtības ir atkarīgas no opcijas **Kopēt izcenojumu** dialoga lapā **Kopijas parametri**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

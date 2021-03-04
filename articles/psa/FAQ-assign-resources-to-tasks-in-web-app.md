@@ -116,3 +116,6 @@ Vispārejam resursam atlasiet **Rezervēt** un pēc tam varat izmantot plānoša
 Kad vispārējais resurss ir aizpildīts ar nosauktu resursu, vispārējais resurss tiek noņemts no darba grupas un vispārējam resursam piešķirtie uzdevumi tiek piešķirti nosauktajam resursu, kas izpildīja vispārējā resursa prasības.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Ja pēc trīs iepriekš minēto pārbaužu veikšanas joprojām neredzat derīgu
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Nepārsniegšanas ierobežojuma statusam var veikt lielapjoma pārvērtēšanu. 
 Lai pārvērtētu nepārsniegšanas statusu, atlasiet vienu vai vairākas faktiskās vērtības no skata **Laika un materiālu rēķinu izrakstīšanas rezerve** vai **Faktiskās vērtības** un pēc tam atlasiet opciju **Nepārsniegšanas statusa pārvērtēšana**.
 
 Visas attiecīgās atlasītās faktiskās vērtības, kurām ir nepārsniegšanas limits, tiks vērtētas attiecībā pret nepārsniedzamā limita iestatījumu. Faktiskās vērtības, kuras ir atbilstošas atkārtotai nepārsniedzamā statusa pārvērtēšanai, ir rēķinos neiekļautie faktiskie pārdošanas dati, par kuriem nav izrakstīti rēķini, kas nav rēķina projektā un ir atzīmēti kā iekasējami. Visi citi pēc izvēles atlasītie faktiskie dati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

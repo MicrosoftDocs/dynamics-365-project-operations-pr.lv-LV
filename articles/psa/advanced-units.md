@@ -112,3 +112,6 @@ Nē. Grafika novērtējums pašlaik ir ierobežots līdz stundām, un to nevar m
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Vai vienības un vienību grupas var rediģēt, dzēst un pievienot?
 Jā. Izņemot vienību grupu **Laiks** un vienību **Stunda**, visas vienības var dzēst un rediģēt, kā arī var pievienot jaunas vienības. Programmā PSA nevar dzēst vienību grupu **Laiks** un **Stunda**. Tomēr tās var atjaunināt, izmantojot tulkotu tekstu laukam **Nosaukums**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

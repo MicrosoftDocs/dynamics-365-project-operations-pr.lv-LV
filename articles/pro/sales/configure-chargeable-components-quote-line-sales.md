@@ -77,3 +77,6 @@ Aprēķins vai faktiski dati, kas izveidoti par izdevumiem, tiks uzskatīti par 
 | No | Jā | Viss projekts | Nevar iestatīt | Nav iekļaujams rēķinā | Nevar iestatīt | Norēķini par laika faktiskajiem datiem: Nav pieejams </br>Norēķinu veids par izdevumu faktiskajiem datiem: Nav apmaksājams |
 | Jā | No | Viss projekts | Izrakstāms rēķins | Nevar iestatīt | Nevar iestatīt | Norēķini par laika faktiskajiem datiem: Apmaksājams</br>Norēķinu veids par izdevumu faktiskajiem datiem: Nav pieejams |
 | Jā | No | Viss projekts | Nav iekļaujams rēķinā | Nevar iestatīt | Nevar iestatīt | Norēķini par laika faktiskajiem datiem: Nav apmaksājams </br>Norēķinu veids par izdevumu faktiskajiem datiem: Nav pieejams |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

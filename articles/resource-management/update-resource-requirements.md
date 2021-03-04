@@ -37,3 +37,5 @@ Lai rediģētu darba grupas dalībnieka resursa prasību, kā projekta vadītāj
 ## <a name="edit-resource-assignment-contours"></a>Resursu piešķiršanas kontūru rediģēšana
 
 Papildus resursa prasību informācijas rediģēšanai projekta vadītājs var atjaunināt atsevišķas resursa prasību kontūras, izmantojot funkcionalitāti **Norādīt shēmu**. Ja ir atlasīta funkcionalitāte **Norādīt shēmu**, tiek atvērta lapa, kurā varat skatīt kontūras dienas, nedēļas vai mēneša laika skalā. Katru kontūru var pielāgot sākuma laikam, beigu laikam un kopējam ieguldījumam noteiktā periodā.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

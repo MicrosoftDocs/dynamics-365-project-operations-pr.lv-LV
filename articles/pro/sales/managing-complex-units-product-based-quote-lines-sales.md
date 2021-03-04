@@ -45,3 +45,6 @@ Lai no produkta rekvizītiem izveidotu daudzuma koeficientus, veiciet tālāk mi
 6. Saglabāt un aizvērt formu. Atkārtojiet šīs darbības visiem rekvizītiem, kas jāizmanto produkta piedāvājuma rindas daudzuma aprēķināšanai.
 
 Kad produktam tiek izveidota produkta piedāvājuma rinda, piedāvājuma rindas daudzums tiek slēgts. Daudzums tiek aprēķināts kā to rekvizītu vērtību reizinājums, kas ievadīts šajā piedāvājuma rindā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

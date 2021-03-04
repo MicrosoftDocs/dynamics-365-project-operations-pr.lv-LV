@@ -125,3 +125,6 @@ Kā daļa no UR5 atjaunināšanas ir nepieciešami šādi entitīju drošības p
  
  ![Virsgrāmatas kartes sinhronizācija](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

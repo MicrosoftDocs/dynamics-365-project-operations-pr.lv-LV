@@ -68,3 +68,6 @@ Tālāk aprakstītās darbības izskaidro spraudņu reģistrēšanas procesu.
 
 9. Aizveriet spraudņa reģistrācijas rīku.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Izmantojiet spraudņu pārbaudes jebkādām pārbaudēm, kurām nepieciešams va
 
 ### <a name="copying-time-entries"></a>Laika ierakstu kopēšana
 Izmantojiet skatu **Kopēt laika ieraksta kolonnas**, lai definētu to lauku sarakstu, kas jākopē, ievadot laiku. **Datums** un **Ilgums** ir obligāti lauki, un tos nevar noņemt no skata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

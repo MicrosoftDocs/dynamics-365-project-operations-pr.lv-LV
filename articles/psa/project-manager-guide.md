@@ -95,3 +95,6 @@ ms.locfileid: "5148292"
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)   
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

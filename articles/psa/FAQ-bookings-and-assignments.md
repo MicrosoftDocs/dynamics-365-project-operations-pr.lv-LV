@@ -68,3 +68,6 @@ Tā kā rezervācijas un piešķīrumi nav cieši saistīti, ir iespējams rezer
 > [!NOTE]
 > Pārvietojot uzdevumu, kura kontūras esat izveidojis pats, kontūras netiek saglabātas. Kontūras atkārtoti tiek veidotas atbilstoši projekta kalendāram, lai ņemtu vērā darba laika un brīvdienu izmaiņas. Tas notiek uz konstrukcijas pamata, jo sistēma nezina sākotnējās kontūras nodomu un nevar noteikt, vai ir jēga šo kontūru saglabāt jaunā laika posmā. Tā kā rezervācijas un piešķīrumi ir atvienoti, rezervācijas saglabā sākotnējās rezervāciju kontūras. Šādā gadījumā būs jāatceļ un atkārtoti jārezervē jaunā piešķīruma kontūra.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

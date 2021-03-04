@@ -69,3 +69,6 @@ Kad kopēšanu veicat starp projekta tāmju rindām, cenrāži tiek atjaunināti
 ### <a name="copying-a-project-team"></a>Projekta darba grupas kopēšana
 
 Kad projekta darba grupa tiek kopēta no projekta veidnes uz projektu, tiek kopēti vispārējie resursi kopā ar veidnē definētajām prasmēm un kvalifikācijām. Arī vispārējo resursu piešķires tiek paturētas tādas, kādas tās bija projekta veidnē. Nosauktie resursi projektu veidnēs netiek atbalstīti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

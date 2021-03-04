@@ -70,3 +70,6 @@ Ir novērstas tālāk norādītās problēmas.
 - Uzlabota kļūdu apstrāde, lai risinātu atsauces Null izņēmumus, kas ģenerēti no **Projekta kopēšana: aprēķina palīga resursu pārvaldību**.
 - **Nav gatavs rēķina izveidei** sadaļā **Laika un materiālu rēķinu izrakstīšanas rezerve** nenotīra norēķinu statusu.
 - Labotas nepareizi nosauktas pogas **Cenas** cilnēs **Lomas cena** un **Kataloga vienumi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

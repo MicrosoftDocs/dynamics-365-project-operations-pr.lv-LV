@@ -53,3 +53,6 @@ Tālāk sniegtajā tabulā ir pieejams visaptverošs iekļautu veidlapu un skatu
 2. Lapā **Parametri**, cilnē **Uz summu balstītās cenu noteikšanas dimensijas** ņemiet vērā režģi, kas parāda ierakstus entītijā **Cenu noteikšanas dimensijas**.
 3. Pievienojiet **Transakcijas kategoriju** šim sarakstam un iestatiet laukus **Piemērojams izmaksām** un **Piemērojams pārdošanai** uz **Jā**.
 4. Laukā **Dimensijas tips** atlasiet **Uz summu balstīts** un pēc tam atlasiet **Transakcijas kategorijas** prioritāti, kas saistīta ar izmaksām un pārdošanu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

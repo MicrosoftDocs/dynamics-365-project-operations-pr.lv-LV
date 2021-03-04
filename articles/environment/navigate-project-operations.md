@@ -38,3 +38,6 @@ Atlasiet **Pieteikties** > **Pieteikties vidē**, lai pārietu uz moduli **Proje
 
 > [!NOTE]
 > Project Operations var piekļūt Common Data Service un tieši modulī **Projektu pārvaldība un uzskaite**, izmantojot atbilstošos vietrāžus URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

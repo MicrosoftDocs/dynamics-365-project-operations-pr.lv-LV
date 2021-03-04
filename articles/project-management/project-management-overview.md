@@ -26,3 +26,6 @@ Projektu pārvaldības rīki programmatūrā Dynamics 365 Project Operations pal
 - Izmantot projektu tāmes pārdošanas procesa laikā.
 - Prognozēt resursu vajadzības projektiem, kuri atrodas uz pārdošanas ceļa.
 - Sekmīgi izpildīt projektus, izsekojot progresu un izmaksu patēriņu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

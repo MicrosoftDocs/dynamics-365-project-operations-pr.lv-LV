@@ -89,3 +89,6 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 ## <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
 
 Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Piedāvājuma izveide ir līdzīga iespējas izveidei. Iespēja ir paredzēta ie
   
 ### <a name="see-also"></a>Skatiet arī  
  [Uzņēmumu pārvaldnieka rokasgrāmata](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Kad Arnis ir gatavs nosūtīt izdevumu atskaites datus trešās puses piegādāt
 Arnim ir jāpārbauda, vai izdevumu atskaites transakcijas ir piemērotas PVN atmaksai un vai atskaitēm ir pievienotas digitālās kvītis. Lai sāktu apstrādāt attaisnotos izdevumus vietējai atmaksai, Arnis atver lapu **Izdevumu nodokļu atmaksa** un atlasa izdevumu atskaiti, kam nepieciešama pārbaude. Viņš pārbauda, vai kvītis ir izsniegtas uz uzņēmumu, nevis darbinieku. (Lai saņemtu PVN atmaksu, kvītīm ir jābūt izsniegtām uz uzņēmumu.) Pēc tam Arnis pārbauda, vai ir ievadīti pareizie PVN grupas un krājumu PVN kodi.
 
 Kad Arnis saņem papīra kvītis, viņš maina izdevumu atskaites statusu uz **Gatava atmaksai**. Tagad viņš var iesniegt deklarāciju atbilstošajai nodokļu iestādei. Šajā gadījumā atbilstošā nodokļu iestāde Amerikas Savienotajās valstīs ir Iekšējais ieņēmumu dienests (IID).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

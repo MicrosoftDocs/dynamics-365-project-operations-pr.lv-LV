@@ -160,3 +160,6 @@ Izveidojot izdevumu atskaišu politikas, varat palīdzēt organizācijai ietaup�
 - Kad beidzas politikas termiņš?
 - Kāda ir politikas kārtula?
 - Kāds ir politikas kārtulas rezultāts?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

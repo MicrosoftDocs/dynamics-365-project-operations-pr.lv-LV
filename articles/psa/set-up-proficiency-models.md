@@ -53,3 +53,6 @@ Pēc prasmju pievienošanas klientu projektiem ir nepieciešams veids, kā novē
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

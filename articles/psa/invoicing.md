@@ -117,3 +117,6 @@ Kad apstiprināsit laboto rēķinu, sākotnējais izmaksātais pārdošanas apjo
 
 - Rēķins par pārdošanu ir fiksētas sešas stundas.
 - Neiekasēts pārdošanas apjoms atlikušajām divām stundām. Šo transakciju var izrakstīt vēlāk vai atzīmēt kā nepiemērojamu atkarībā no vienošanās ar klientu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

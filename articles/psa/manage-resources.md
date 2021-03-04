@@ -344,3 +344,6 @@ Ja jums ir uzdevumu piešķires kādam resursam, bet nav nevienas rezervācijas,
 ![Dialoglodziņš Paplašināt rezervāciju](media/Resource-Management-image58.png)
 
 Pēc tam projektu vadītājs vai resursu pārvaldnieks var izmantot plānošanas paneli, lai pārvaldītu visas situācijas, kur resursa rezervācija pārsniedz tā noslodzi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

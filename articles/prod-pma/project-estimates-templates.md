@@ -170,3 +170,6 @@ Nākamajās ilustrācijās ir redzami piemēri no veidnes uzdevumu kartējumiem 
 [![Izmaksu novērtējuma transakciju veidnes kartēšana](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Izmaksu novērtējuma veidnes kartēšana](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

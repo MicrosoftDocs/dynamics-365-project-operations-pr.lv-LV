@@ -37,3 +37,6 @@ Ja vēlaties projektu piedāvājumos un aprēķinos iekļaut produktus, piemēra
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service konfigurēšana](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

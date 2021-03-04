@@ -52,3 +52,6 @@ Izpildiet tālāk aprakstītās darbības, lai atjauninātu un atkārtoti reģis
 7. Atlasiet **Labi**, lai aizvērtu lapu, un pēc tam atlasiet **Atjaunināšanas darbība**.
 8. Otrajā spraudnī **PreOperationQuoteLineDetail** atkārtojiet 2.–7. darbību. Šim spraudnim ir nepieciešams atjaunināt darbību **Update of msdyn_quotelinetransaction**.
 9. Aizveriet **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

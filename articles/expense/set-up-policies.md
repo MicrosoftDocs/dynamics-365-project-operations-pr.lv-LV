@@ -53,3 +53,6 @@ Tālāk sniegti daži ierosinājumi, kas var jums palīdzēt, veidojot jaunas iz
 ## <a name="when-to-evaluate-policies"></a>Kad novērtēt politikas
 
 Izdevumu pārvaldības parametros varat atlasīt izvērtēt izdevumu pārvaldības politikas, ja tiek saglabāta rinda vai ja tiek iesniegta izdevumu atskaite. Ja izvēlaties izvērtēt, kad rinda tiek saglabāta, lietotajiem būs agrāka redzamība par to, kas viņiem ir jādara, lai vienlaikus aizpildītu visu izdevumu atskaiti. Pretējā gadījumā varat aizkavēt politikas novērtējumu un ietaupīt laiku beigās, iesniedzot darbplūsmā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

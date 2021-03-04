@@ -143,3 +143,6 @@ Lai pirms izlikšanas skatītu rēķinu, notīriet izvēles rūtiņu **Izlikšan
 Līdztekus lapai **Rēķina priekšlikums**, rēķina priekšlikumus var arī izlikt, palaižot periodisku darbu, **Izlikt rēķina priekšlikumus**. Lai atrastu šo darbu, dodieties uz **Projekta pārvaldība un uzskaite** > **Periodiski** > **Projekta rēķini** > **Izlikt rēķina priekšlikumus**.
 
 Šajā lapā tiek rādīti visi rēķina priekšlikumi, kuri ir gatavi izlikšanai. Jūs varat ieplānot rēķina priekšlikumu izlikšanu, atlasot **Pakete**. Iestatiet **Pakešapstrādes parametru** uz **Jā** un iestatiet pakešapstrādes periodiskumu, atlasot opciju **Periodiskums**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

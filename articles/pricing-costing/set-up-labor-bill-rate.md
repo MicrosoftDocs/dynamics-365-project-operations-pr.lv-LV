@@ -55,3 +55,6 @@ Piemēram, izstrādātājs no Fabrikam India Robotics nodaļas, kas strādā pie
     | Izstrādātājiem | Fabrikam US | Fabrikam US - Robotics | 150 ASV dolāru |
 
 3. Pievienojiet pārdošanas cenas sarakstu, ar **Fabrikam US rēķinu likmēm** projekta līguma cenrādim vai noteiktam uzņēmumam.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

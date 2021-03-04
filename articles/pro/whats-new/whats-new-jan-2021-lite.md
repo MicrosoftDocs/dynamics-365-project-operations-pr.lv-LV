@@ -41,3 +41,6 @@ _Attiecas uz: Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu
 | **Iespēju pārvaldība** | 2040713 | Novērsta skripta kļūda, kas rodas, izveidojot rēķinu no līguma un ir instalēts Field Service. |
 | **Projektu plānošana un izsekošana** | 2090202 | Tās biznesa kārtulas, kuras vairs neizmanto, tiek atzīmētas kā **Novecojušas**. |
 | **Laiks un izdevumi** | 2091249 | Pastiprināta kontrole, lai lietotāji nevar mainīt uzdevumu iesniegtā vai apstiprinātā laika ierakstā. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

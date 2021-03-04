@@ -68,3 +68,6 @@ Jūsu resursi var izmantot programmu Project Finder Mobile savā telefonā ar [!
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

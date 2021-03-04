@@ -106,3 +106,6 @@ Ja pievienojāt pielāgotu lauku piedāvājuma rindu informācijai un vēlaties,
 
 8. Otrajā spraudnī atkārtojiet 1.–7. darbību.
 9. Aizveriet PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -198,3 +198,6 @@ Rēķinā iekļautās pārdošanas faktiskie dati atskaites punkta summai sākot
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

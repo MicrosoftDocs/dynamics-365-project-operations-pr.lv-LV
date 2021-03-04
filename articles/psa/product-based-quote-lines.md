@@ -82,3 +82,6 @@ Rekvizītus **Lietotāju skaits** un **Mēnešu skaits** var atzīmēt kā daudz
 
 > ![Lietotāju skaita un mēnešu skaita kā kvalitātes koeficientu atzīmēšana](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

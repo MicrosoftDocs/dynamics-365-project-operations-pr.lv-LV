@@ -43,3 +43,6 @@ Atlasiet šo izvietošanas veidu, lai izmantotu Dynamics 365 Project Operations
 - Uzņēmuma līmeņa PVN un valūtas kursa programma, lai projektiem izveidotu klientiem paredzētus rēķinus.
 - Starptautiskajiem finanšu pārskatu standartiem (SFPS) atbilstoša projektu uzskaites un ieņēmumu atzīšanas sistēma.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

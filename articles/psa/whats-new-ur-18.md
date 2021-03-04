@@ -63,3 +63,6 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 **Sales**
 
 - Izlabots: ja laika ieraksti tiek atkārtoti apstiprināti (**Apstiprināt > Atcelt >** apstiprināt vēlreiz), tiek izveidots rēķinā neiekļaujams dublikāts.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

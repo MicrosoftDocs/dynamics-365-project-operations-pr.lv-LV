@@ -70,3 +70,6 @@ Autorizācija tagad ir pabeigta.
 Esat veiksmīgi pievienojis savu Azure abonementu. Tagad varat izvietot Dynamics 365 Finance mākoņpakalpojumā viesotas vides.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

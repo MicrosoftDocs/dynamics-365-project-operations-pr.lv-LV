@@ -61,3 +61,6 @@ Mēs priecājamies paziņot par jaunāko programmas Dynamics 365 Project Service
     - Novērsts: **līguma galvenajā** veidlapā tiek dublēti atrasto objektu ID.
     - Novērsts: loģika ir atjaunināta, lai būtu redzama cilne **Piedāvājuma analīze**, lai tā parādītu cilnes metadatu iestatījumus.
     - Novērsts: faktiskā ieraksta uzskaites datums tagad ir no laika/izdevumu ieraksta datuma, nevis apstiprinājuma datuma.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

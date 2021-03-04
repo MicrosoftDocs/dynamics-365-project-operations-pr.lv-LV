@@ -297,3 +297,6 @@ Atlasiet lietotāju (piemēram, Spencer Low) un mainiet šī lietotāja darba st
 
 > [!div class="mx-imgBorder"]
 > ![Ekrānuzņēmums: aktīvie rezervējamie resursi](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

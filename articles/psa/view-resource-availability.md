@@ -48,3 +48,6 @@ Jūs varat pārbaudīt resursu pieejamību, lai iegūtu vispārēju priekšstatu
 
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

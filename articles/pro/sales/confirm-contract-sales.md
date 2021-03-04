@@ -35,3 +35,6 @@ Ja projekta līgumā, kas ir slēgts kā zaudēts, ir atsauce uz projektu savās
 
 > [!NOTE]
 > Risinājumā Dynamics 365 Project Operations projekta līguma kā zaudēta līguma slēgšana neietekmēs saistītās iespējas statusu. Iespēja paliks atvērta, un tā būs jāaizver manuāli.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

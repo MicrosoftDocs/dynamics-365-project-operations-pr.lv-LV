@@ -64,3 +64,6 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 
     -   Izlabots: ja lietotājs jauninās no versijas 2.X uz 3.X, tiks atļauti projekti ar vērtību NULL projekta nosaukumā.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

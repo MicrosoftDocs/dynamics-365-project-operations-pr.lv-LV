@@ -40,3 +40,6 @@ Ja projekta piedāvājums, kas ir aizvērts kā Zaudēts attiecas uz projektu je
 
 > [!NOTE]
 > Programmā Project Operations slēdzot piedāvājumu kā iegūtu vai zaudētu, netiks ietekmēts iespējas statuss — tā paliks atvērta, līdz tiks manuāli slēgta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Varat atrast darbiniekus savam projektam, izmantojot vispārēju vai nosauktu re
 - [Nosaukto resursu rezervēšana, izmantojot resursu vajadzības](book-named-resource.md)
 - [Resursa pieprasījuma iesniegšana](submit-resource-request.md)
 - [Piedāvātā projekta resursa pieņemšana vai noraidīšana, izmantojot resursa pieprasījumu](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

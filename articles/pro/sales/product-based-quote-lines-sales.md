@@ -46,3 +46,6 @@ Kad piedāvājuma rinda ir balstīta uz produktu katalogu, pārdošanas cenu var
 Ja atlasāt **Pārlabot izcenojumu**, noklusējuma cena netiek iestatīta. Tā vietā jums ir jāievada cena šim produktam piedāvājuma rindā. Ja atlasāt opciju **Lietot noklusējumu**, tiek izmantota noklusējuma pārdošanas cena, kā arī lauks ir slēgts rediģēšanai.
 
 Piedāvājuma produktu rindās tiek ievadītas noklusējuma pārdošanas cenas. Pēc tam lauks **Cenu noteikšana** tiek iestatīts uz **Pārlabot izcenojumu**, lai jūs varētu rediģēt noteiktā cenu piedāvājuma rindās. Šī ir risinājumam Project Operations specifiska pārlabošana uz produkta rindu uzvedību programmā Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

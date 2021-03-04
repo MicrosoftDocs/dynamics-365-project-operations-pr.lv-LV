@@ -76,3 +76,6 @@ Lai Projekta pārvaldībā un uzskaitē izveidotu pirkuma pasūtījumu, varat iz
 
 Papildinformāciju skatiet tēmā [Preču saņemšana pirkuma pasūtījumā no preču prasības](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

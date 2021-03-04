@@ -75,3 +75,6 @@ Lai izmantotu Project Service Automation uz Finance integrācijas risinājumu, i
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Instalējiet Project Service Automation uz Finance integrācijas risinājumu savā Project Service Automation instancē
 
 Lejupielādējiet Project Service Automation uz Finance integrācijas risinājumu no [Microsoft lejupielādes centra](https://www.microsoft.com/download/details.aspx?id=57016) un izpildiet risinājumā iekļautos norādījumus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Attiecībā uz rezervējamo resursu entītijai **Projekta darba grupas dalībnie
 5. Pievienojiet **msdyn_projectteam** laukam **Entītijas loģiskais nosaukums** un pievienojiet **msdyn_bookableresourceid** laukam **Lauka nosaukums**. Saglabājiet ierakstu.
 
  ![Jauna izcenojuma dimensijas lauka nosaukuma veidlapa](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

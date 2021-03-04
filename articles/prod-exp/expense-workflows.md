@@ -50,3 +50,6 @@ Darbplūsma atspoguļo biznesa procesu. Tas definē, kā dokuments pārvietojas 
 |      <strong>Avansa maksājuma pieprasījums</strong>      |         Izveidojiet apstiprināšanas darbplūsmas avansa maksājumu pieprasījumiem.          |
 |        <strong>PVN atmaksa</strong>        | Izveidojiet apstiprināšanas darbplūsmas pievienotās vērtības nodokļa (PVN) atmaksai.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

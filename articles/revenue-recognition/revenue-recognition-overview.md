@@ -60,3 +60,6 @@ Risinājumā Dynamics 365 Project Operations ieņēmumu atpazīšanas principi a
 [Ieņēmumu novērtējumu pārvaldība](rev-rec-completed-contract-method.md)
 
 [Pabeigšanas izmaksu metodes](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

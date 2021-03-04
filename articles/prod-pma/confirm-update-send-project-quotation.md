@@ -57,3 +57,6 @@ Lai mainītu esošu projekta piedāvājumu, piedāvājuma statusam ir jābūt **
 
 > [!NOTE]
 > Projekta piedāvājumu nevar mainīt pēc tam, kad statuss ir nomainīts uz **Nosūtīts**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

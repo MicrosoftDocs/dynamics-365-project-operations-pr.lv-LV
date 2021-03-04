@@ -152,3 +152,6 @@ Veidojot darba sadalījuma struktūru, izmantosit tālāk aprakstīto veidu uzde
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projektu vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

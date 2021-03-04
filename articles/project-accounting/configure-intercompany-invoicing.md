@@ -101,3 +101,6 @@ Tālāk sniegtajā piemērā Contoso Robotics USA (USPM) ir aizņēmuma juridis
           - **Resursu uzņēmums** = **Contoso Robotics UK**
           - **Norēķinu likme** = **200 USD**
       9. Dodieties uz **Pārdošana** > **Projektu līgumi** un pievienojiet cenrādi **Adventure Works norēķinu likmes** Adventure Works projekta līguma projekta cenrādim.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

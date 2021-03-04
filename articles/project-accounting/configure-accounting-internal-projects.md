@@ -32,3 +32,6 @@ Jebkurš projekts, kas nav saistīts ar līgumu risinājumā Dynamics 365 Projec
 Pēc darbību grāmatošanas projektā, ja projekts ir saistīts ar projekta līgumu, sistēma atceļ visus uzkrātos darījumus un izveido jaunus rēķinā iekļaujamus darījumus. Rēķinā iekļautie darījumi ievēro uzskaites kārtulas, kas definētas atbilstošajā projekta izmaksu un ieņēmumu profilā.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

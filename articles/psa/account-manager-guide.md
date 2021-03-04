@@ -48,3 +48,6 @@ ms.locfileid: "5146088"
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)   
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)   
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

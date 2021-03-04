@@ -39,3 +39,6 @@ ms.locfileid: "4080421"
 10. Noklikšķiniet uz Labi. 
 
 Pēc šīs darbības kredīta nota būs pieejama rēķina priekšlikumam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

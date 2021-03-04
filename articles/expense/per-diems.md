@@ -31,3 +31,6 @@ Dienasnauda ir pabalsts, ko maksā darba ņēmējam, kurš dodas komandējumā. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Izdevumu iesniegšana, izmantojot dienasnaudu
 Lai iesniegtu izdevumus, kas attiecas uz dienasnaudu, izmantojiet izdevumu kategoriju **Dienasnauda**, kad veidojat izdevumu atskaiti. Ievadiet **Dienasnauda no datuma**, **Dienasnauda līdz datumam** un **Dienasnaudas atrašanās vieta**. Summu aprēķina, par pamatu izmantojot dienasnaudas likmes izvēlētajai atrašanās vietai, un atskaitījums par maltītēm tiek aprēķināts, par pamatu izmantojot dienasnaudas likmju līmeņus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

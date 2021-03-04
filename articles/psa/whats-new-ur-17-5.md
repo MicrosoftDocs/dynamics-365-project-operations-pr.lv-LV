@@ -44,3 +44,6 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 - Izlabots: novērsta problēma, kad 24 stundu darba laika veidnes neprecīzi pievienoja papildu dienas uzdevumus.
 - Izlabots: novērsta problēma, kad +13 GMT darba laika veidnes neprecīzi novirzīja uzdevumus vienu dienu uz priekšu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

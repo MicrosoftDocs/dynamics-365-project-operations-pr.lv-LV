@@ -43,3 +43,6 @@ Lai kopētu cenrādi, veiciet tālāk norādītās darbības.
 1. Cenrāža cilnēs **Loma**, **Kategorija** un **Cenrāža elements** var atlasīt vienumu **Atjaunināt cenas**, lai lietotu uzcenojumu visām cenām apakšrežģī. 
 2. Atvērtajā dialoga lapā ievadiet uzcenojumu. Var ievadīt arī negatīvu uzcenojuma procentuālo vērtību, lai samazinātu cenas par noteiktu procentuālo vērtību. 
 3. Dialoga lapā atlasiet **Labi** un pēc tam pārbaudiet, vai cenas apakšrežģī atspoguļo jūsu veiktās izmaiņas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

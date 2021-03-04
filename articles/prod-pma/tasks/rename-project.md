@@ -35,3 +35,6 @@ Projekta posmi var kalpot kā ceļvedis projekta dzīves ciklā. Varat definēt 
 4. Sarakstā atlasiet iepriekš definētu vai lietotāja definētu posmu, kuru vēlaties modificēt. 
 5. Laukā Projekta posms ierakstiet jauno nosaukumu.
 6. Noklikšķiniet uz Saglabāt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

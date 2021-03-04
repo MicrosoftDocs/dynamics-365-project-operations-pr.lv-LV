@@ -54,3 +54,6 @@ Kad resursi ir rezervēti, atlasiet opciju **Uzturēt rezervācijas**, lai veikt
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Kāda ir atšķirība starp piešķiri un rezervāciju?
 
 Piešķires ir resursu piešķiršana projekta uzdevumiem projekta grafikā. Resursi var būt vai reāli vai vispārēji. Rezervācijas ir resursu stingra vai viegla piešķiršana projektam. Stingrās rezervācijas patērē resursu noslodzi. Ideālā gadījumā attiecībā uz reāliem resursiem rezervācijām būtu jāatbilst piešķirēm, jo tās neatšķiras. Tomēr PSA neparedz obligātu šādu atbilstību. Saskaņošanas skats norāda projekta vadītājiem gadījumus, kad resursu rezervācijas neatbilst piešķirēm.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

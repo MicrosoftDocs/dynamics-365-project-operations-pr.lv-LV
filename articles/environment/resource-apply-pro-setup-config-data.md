@@ -134,3 +134,6 @@ Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda
 13. Atlasiet vienumu **Saglabāt**. 
 
 ![Atjaunināti projekta parametri](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

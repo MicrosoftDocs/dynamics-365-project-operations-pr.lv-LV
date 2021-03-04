@@ -81,3 +81,6 @@ Ir novērstas tālāk norādītās problēmas.
 - Ja ir instalēts gan Dynamics 365 Field Service, gan Project Service Automation, opcijas **Bloķēt cenu noteikšanu** un **Izmantot pašreizējo cenu noteikšanu** netiek vienlaikus rādītas lapā **Rēķins**.
 - Japāņu valodā tulkojums nesaskan ar citām kalendāra lapām.
 - **Aktivizēt** un **Deaktivizēt** ir noņemtas no **Cenrāža saistību** entitījas programmā Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

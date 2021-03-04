@@ -26,3 +26,6 @@ Atšķirībā no rezervācijām piešķires ir resursu piešķiršana projekta u
 Parasti resursa rezervācijas summa būs vienāda ar resursa piešķiru summu vienā vai vairākos uzdevumos. Tomēr Project Operations neparedz šādu atbilstību kā obligātu. Skats **Saskaņošana** projektu vadītājiem parāda gadījumus, kad resursu rezervācijas neatbilst piešķirēm.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

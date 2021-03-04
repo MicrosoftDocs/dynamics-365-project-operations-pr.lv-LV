@@ -538,3 +538,6 @@ JaunÄ klienta interfeisa un citu Dynamics 365 Project Service Automation risinÄ
 - msdyn\_\\Izdevumi\\Programma\\Skripti\\Skati\\SubmitDialog.js
 - msdyn\_\\Laiks\\Programma\\Skripti\\Skati\\TimeEntryView.js
 - msdyn\_\\Laiks\\Moca\\Skripti\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

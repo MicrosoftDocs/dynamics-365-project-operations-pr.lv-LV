@@ -74,3 +74,6 @@ Izvēršot šī darba grupas dalībnieka ieraksta rindu, abiem šiem uzdevumiem 
 Naviģējot uz **Novērtējumu** režģi, pamanīsiet, ka viena un tā paša resursa diviem uzdevumiem ir atšķirīgs cenas aprēķins.
 A uzdevuma resursa piešķīrumam cena tiek noteikta, izmantojot **Lomas** atribūta vērtību no **Konsultāciju interesenta**. B uzdevuma tā paša resursa piešķīrumam cena tiek noteikta, izmantojot **Lomas** atribūtu no **Tīkla tehniķa**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Kad lietotājs atlasa kopsavilkumu pēc Darījumu klases, Kategorijas un Lapas m
 | Uzdevums A | Lidojumi | 10/1/2020 | 4 | 400 | 1600 |
 | Uzdevums B | Viesnīca | 10/1/2020 | 4 | Vairāk nekā 200 | 800 |
 | Uzdevums C | Viesnīca | 11/1/2020 | 2 | Vairāk nekā 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

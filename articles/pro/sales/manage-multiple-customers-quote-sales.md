@@ -52,3 +52,6 @@ Piedāvājuma klientu var izveidot, atjaunināt vai dzēst no Cilnes **Piedāvā
 Varat rediģēt norēķinu sadalījuma procentus, izmantojot režģa rediģēšanas pieredzi rindā. Ja norēķinu sadalījuma procentu summa neveido 100%, rodas kļūda. Pēc tam, kad ir atjaunināti norēķinu sadalījuma procenti, atsvaidziniet lapu, lai noņemtu kļūdu.
 
 Varat arī mēģināt piedāvājuma klienta apakšrežģī atlasīt vienumu **Vienmērīgs sadalījums**. Šī darbība sadala norēķinus starp visiem piedāvājuma klientiem. Ja ir noapaļošanas koeficients, tas tiek pievienots noapaļošanas klientam. Viens no piedāvājuma klientiem vienmēr tiek marķēts kā noapaļošanas klients. tas nozīmē, ka piedāvājuma klienta ierakstam ir karodziņš **Noapaļošana** ir iestatīts kā **Jā**. Parasti tas ir piedāvājuma primārais klients, taču to var mainīt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

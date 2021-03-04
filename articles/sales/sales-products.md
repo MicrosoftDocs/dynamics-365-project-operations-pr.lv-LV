@@ -124,3 +124,6 @@ Piemēram, ja ir šādi rekvizīti:
 - **Produkta SKU** 
 
 Rekvizītus **Lietotāju skaits** un **Mēnešu skaits** var atzīmēt kā daudzuma koeficientus, rediģējot produkta rindas rekvizītus. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

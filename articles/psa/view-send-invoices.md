@@ -58,3 +58,6 @@ Kad izveidojat projektu, iestatiet, cik bieži veidot rēķinus. Varat skatīt u
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

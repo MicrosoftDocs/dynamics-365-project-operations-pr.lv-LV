@@ -51,3 +51,6 @@ Kontu pārvaldnieki un projektu vadītāji regulāri pieprasa resursus saviem pr
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

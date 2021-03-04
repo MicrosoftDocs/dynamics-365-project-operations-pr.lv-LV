@@ -149,3 +149,6 @@ Tālāk sniegtajā tabulā ir parādīti iepriekšējās darbplūsmas ieraksti e
 | Melnraksta rēķina labojums       | Rēķina rindas transakcijas GUID | Aizstāšana          | msdyn_invoicelinetransaction | Rēķinā iekļautās pārdošanas GUID            | Sākotnējā           | msdyn_actual       |
 | Rēķina labojuma apstiprināšana     | Rēķinā iekļautās pārdošanas anulēšanas GUID    | Anulēšana          | msdyn_actual                 | Rēķinā iekļautās pārdošanas GUID            | Sākotnējā           | msdyn_actual       |
 | Jaunās, rēķinā neiekļautās pārdošanas faktisko datu GUID | Aizstāšana                     | msdyn_actual       | Rēķinā iekļautās pārdošanas GUID            | Sākotnējā                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Mēs priecājamies paziņot par jaunāko programmas Dynamics 365 Project Service
      - Novērsts: papildu pogas opcijām **Jauna iespēja**, **Piedāvājums**, **Pasūtījuma rinda** un **Pievienot produktu** ir redzamas komandās Iespējām, Piedāvājumiem, Pasūtījuma produktiem un projekta rindu apakšrežģim.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

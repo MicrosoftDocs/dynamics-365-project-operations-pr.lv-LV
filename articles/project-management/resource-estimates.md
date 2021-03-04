@@ -34,3 +34,6 @@ Pārdošanas cenas tiek lietotas vienreiz katram darījumam. Pārdošanas cenrā
 1. Organizācija
 2. Klients
 3. Piedāvājums/līgums
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

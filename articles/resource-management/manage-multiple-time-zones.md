@@ -68,3 +68,6 @@ Pēc tam, kad katram resursam ir izmantota rezervācijas paplašināšanas funkc
 Ievērojiet, ka detalizētākā informācijā par rezervējumiem redzamas rezervāciju sākuma laiku atšķirības. Rezervācijas sākas ne agrāk kā piešķires kontūras sākuma laiks un ne agrāk kā resursam pieejamais sākuma laiks.
 
 ![Jaunas resursa rezervācijas plānošanas panelī](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

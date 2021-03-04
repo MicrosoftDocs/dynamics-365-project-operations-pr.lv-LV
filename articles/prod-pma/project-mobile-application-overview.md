@@ -49,3 +49,6 @@ Manas darba laika uzskaites tabulas (optimizētas mobilām ierīcēm) un Darba l
 - [Projekta laika ievade]( project-time-entry-mobile-workspace.md)
 - [Projekta laika uzskaites tabulas mobilajā ierīcē](Mobile-timesheets.md)
 - [Pielāgoto lauku ieviešana Microsoft Dynamics 365 Project Timesheet mobilajai programmai iOS un Android operētājsistēmās](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

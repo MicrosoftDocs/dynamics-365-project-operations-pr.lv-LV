@@ -106,3 +106,6 @@ Ja darba sadalījuma struktūrai tiek izdarīts viens vai vairāki atjauninājum
   - Project Operations sistēma
   - Projekta sistēma
   - Project Operations duālās rakstīšanas sistēma (Šī loma ir nepieciešama, ja izvietojat Project Operations resursu/nekrājumu scenāriju.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

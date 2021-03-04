@@ -48,3 +48,6 @@ Resursa rezervēšana tieši projektam:
 Resursa rezervēšana no resursa prasības:
 - [Vispārīgu grāmatojamu resursu piešķiršana uzdevumam un resursu vajadzību ģenerēšana](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Rezervēt nosauktos resursus no resursu vajadzībām](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

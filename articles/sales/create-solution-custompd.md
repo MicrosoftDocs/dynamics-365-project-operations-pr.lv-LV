@@ -64,3 +64,6 @@ Pievienojiet tālāk norādītās Project Service entītijas savam cenu noteikš
 5.  Kad tiek piedāvāts iekļaut jebkādas atlasīto entītiju atkarīgās entītijas, atlasiet **Nē, neiekļaut nepieciešamos komponentus.**
 
     ![Atkarīgo entītiju iekļaušana](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

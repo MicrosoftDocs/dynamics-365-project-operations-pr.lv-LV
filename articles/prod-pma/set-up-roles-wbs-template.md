@@ -107,3 +107,6 @@ WBS ir pievienotas papildu opcijas, lai labāk izmantotu resursu plānošanas fu
     > Jūs nesaņemat brīdinājumu, ka norādītais resurss tagad ir 2, jo resursa numurs joprojām ir 1.
 
 14. **Darba sadalījuma struktūras** lapā pārbaudiet resursa piešķiri WBS un pēc tam atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

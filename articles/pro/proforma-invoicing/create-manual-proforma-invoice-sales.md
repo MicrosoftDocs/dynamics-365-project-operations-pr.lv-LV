@@ -35,3 +35,6 @@ Visi izveidotie projekta rēķini ir pieejami apgabala **Pārdošana** lapas **R
 Proformas rēķinu var arī izveidot no **Projekta līguma** informācijas lapas. Sistēma pārbauda, vai projekta līgumam ir rezerve **Gatavs rēķina izrakstīšanai** ar datumu pirms šodienas datuma. No šiem līgumiem sistēma izveido proforma rēķinu melnrakstus, pamatojoties uz klientu skaitu katrā rēķina rindā.
 
 Ja ir izveidots viens proforma rēķins, tiek atvērta lapa **Rēķins**. Ja šim projektam tiek izveidoti vairāki rēķini, tiek atvērta saraksta lapa **Rēķini**, lai rādītu visus izveidotos rēķinus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Ja šī cenu noteikšanas metode ir atlasīta kategorijas cenu rindā, kas ir sa
 
 ### <a name="markup-over-cost"></a>Uzcenojums augstāks par izmaksu
 Ja šī cenu noteikšanas metode ir atlasīta kategorijas cenu rindā, kas ir saistīta ar pārdošanas cenu sarakstu, cenas noklusējumi kategorijas un vienības kombinācijai tiek iestatīti tikai izdevumiem, kas ir faktiskie. Piemēram, bez rēķina pārdošanas faktiskie dati izdevumu darbības klasei. Šī vienības cena tiek iestatīta neizrēķinātajai pārdošanai, kas ir faktiska, līdz aprēķinātai vērtībai no vienības cenas par izdevumiem faktisko izmaksu pēc tam, kad ir piemērots definētais uzcenojuma procents. Izmaksas pamatā esošā cenu neizpilde netiek veikta projekta tāmē izdevumu vai piedāvājuma rindai un līguma rindas detalizētai informācijai par izdevumiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

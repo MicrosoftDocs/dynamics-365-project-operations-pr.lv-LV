@@ -74,3 +74,6 @@ Fiksētas cenas atskaites punktus var ģenerēt manuāli, kad tie netiek periodi
 | Nodoklis | Ātrā izveide | Atskaites punktam lietotā nodokļu summa. | Šis ir iekļauts projekta līguma rindas atskaites laukā un rēķinā. |
 
 4. Atlasiet vienumu **Saglabāt un aizvērt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

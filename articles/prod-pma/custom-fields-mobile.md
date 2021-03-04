@@ -429,3 +429,6 @@ Noklusējuma projekta kategorijas ieraksts laika uzskaites tabulas ierakstos not
 1. Programma mēģina ievietot noklusējuma kategoriju no projekta resursa. Šī noklusējuma kategorija ir iestatīta metodēs **getCurrentUserResource** un **getDelegatedResourcesForCurrentUser** klasē **TSTimesheetSettingsService**.
 2. Ja noklusējuma kategorija netiek nodrošināta projekta resursu līmenī, programma mēģina to izgūt no projekta darbības. Šī noklusējuma kategorija ir iestatīta metodē **getActivitiesForProject** klasē **TSTimesheetProjectService**.
 3. Ja noklusējuma kategorija netiek nodrošināta projekta aktivitātes līmenī, noklusējuma kategorija tiek izgūta no projekta parametriem. Šī noklusējuma kategorija ir iestatīta metodē **getProjectDetailsbyRule** klasē **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

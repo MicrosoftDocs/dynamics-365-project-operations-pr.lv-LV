@@ -45,3 +45,6 @@ Iepriekšējā darbībā jūs jau piesaistījāt dažas prasmes jaunajam resursa
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

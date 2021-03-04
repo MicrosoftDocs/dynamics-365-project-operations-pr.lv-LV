@@ -46,3 +46,6 @@ Tiek atvērts plānošanas palīgs, un tas tiek filtrēts pēc prasībām. Atlas
 > ![Atlasītais resurss](media/Resource-Management-image61.png)
 
 Vispārējais darba grupas dalībnieks tiek aizstāts ar stingri rezervētu nosauktu resursu projekta darba grupā un uzdevuma piešķirēm projekta grafikā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

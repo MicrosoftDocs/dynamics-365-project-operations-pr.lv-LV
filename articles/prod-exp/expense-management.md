@@ -58,3 +58,6 @@ Papildu palīdzība ir pieejama pamācībās. Lai piekļūtu pamācībā, jebkur
 ### <a name="videos"></a>Videoklipi
 
 Skatiet informatīvos videoklipus, kas tagad ir pieejami [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

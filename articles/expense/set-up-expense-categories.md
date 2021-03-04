@@ -61,3 +61,6 @@ Lai varētu sākt iestatīšanas procesu, ir jāpieņem šādi lēmumi attiecīb
 
     - Vai jebkura no apakškategorijām ir izslēgta no nodokļu atmaksas?
     - Kas ir apakškategoriju krājumu PVN grupa?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

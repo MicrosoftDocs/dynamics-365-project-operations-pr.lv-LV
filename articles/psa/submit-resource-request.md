@@ -41,3 +41,6 @@ ms.locfileid: "5149732"
 Vispārēja grupas dalībnieka pieprasījuma statuss mainīsies uz **Iesniegts**.
 
 Pēc tam, kad resursu pārvaldnieks ir izpildījis pieprasījumu, vispārējs resurss tiek aizstāts ar nosauktu resursu, ja resursu pārvaldnieks izpilda pieprasījumu ar nosauktā resursa rezervāciju. Pretējā gadījumā vispārējs resurss paliks komandā, un pieprasījuma statuss mainīsies uz **Jāpārskata**, ja resursu pārvaldnieks ir piedāvājis nosauktu resursu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

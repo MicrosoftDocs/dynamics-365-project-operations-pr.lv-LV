@@ -30,3 +30,6 @@ Kad kataloga produktam tiek izveidota produkta līguma rinda, rindas izmaksu nok
 Vienības izmaksas produkta līguma rindā pieļauj atsevišķas produktu izmaksas katras vienības pārdošanas gadījumam. Lai gan ne vienmēr nepieciešams, ir dažas situācijas, kurās piegādātājs var piešķirt klientam atlaidi par produkta izmaksām. Tālāk ir aprakstīts ieteicamais scenārijs.
 
 Uzņēmums Fabrikam Robotics uzstāda robotu rokas korporācijas Adatum konveijeros. Fabrikam nodrošina instalēšanas pakalpojumus, bet robotu rokas ir no Trey Research. Ja robotu roku uzstādīšana korporācijā Adatum paver jaunu nozares vertikāli uzņēmumam Trey Research, uzņēmums varētu šim darījumam piedāvāt īpašu atlaidi uzņēmumam Fabrikam. Šajā gadījumā Fabrikam izveidot produkta līguma rindu robotu rokām. Šim līgumam tiek ievadīta vienības cena. Šī cena atšķiras no Trey Research robotu roku cenas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

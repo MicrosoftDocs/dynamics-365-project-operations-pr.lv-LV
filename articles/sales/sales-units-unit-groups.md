@@ -46,3 +46,6 @@ Lai izpildītu šīs tēmas darbības, pārliecinieties, ka jums ir piešķirta 
 3. Laukā **Daudzums** ievadiet daudzumu, kuru saturēs vienība. Piemēram, ja logā ir divi gabali, ievadiet "2". 
 4. Laukā **Pamatvienība** atlasiet pamatvienību, lai noteiktu vienības zemāko mērvienību. Piemēram, varat atlasīt "Gabals".
 5. Atlasiet **Saglabāt**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Ievadiet savus izdevumus vismaz reizi nedēļā — vai tik bieži, cik to piep
  [Project Service pārskats](../psa/overview.md)   
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "5145727"
 Tiek ierakstītas visas finanšu transakcijas, kas notiek projekta laikā. Šīs transakcijas tiek ierakstītas kā **faktiskie dati**. Tālāk esošajā tabulā ir parādīti dažādie faktisko datu tipi, kas tiek izveidoti atkarībā no tā, vai projekts ir laika un materiālu, fiksētas cenas vai iekšējais projekts vai arī tas atrodas pirmspārdošanas posmā.
 
 > ![Tabula, kurā parādīts, kā tiek ierakstīti faktiskie dati](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

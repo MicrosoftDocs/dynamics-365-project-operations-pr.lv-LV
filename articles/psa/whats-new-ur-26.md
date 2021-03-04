@@ -74,3 +74,6 @@ Ir novērstas tālāk norādītās problēmas.
 - Atlasot projekta rindu piedāvājumā vai līgumā, pogai **Ieteikums** jābūt redzamai tikai tad, ja tiek atlasīta ar esošu produktu saistīta produkta rinda.
 - Nošķiriet atļauju **Create_Product** no atļaujas **Create_ProjectContract**.
 - Izdzēšot rēķina rindu, tiek izraisīta **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** atsauces Null kļūme.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

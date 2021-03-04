@@ -28,3 +28,6 @@ Produkta rindas var būt kataloga vienumi vai ierakstāmie produkti. Lielākajai
 
 Ja iespējas kopsavilkuma ieņēmumu metode ir **Sistēmas aprēķināti**, klienta budžeta vērtības visās iespējas rindās tiek apkopotas, lai aprēķinātu prognozējamos ieņēmumus. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

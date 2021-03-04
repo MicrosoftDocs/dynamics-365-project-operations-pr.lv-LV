@@ -74,3 +74,6 @@ Jūs varat ģenerēt fiksētas cenas atskaites punktus manuāli, ja tie nav peri
 | Nodoklis | Ātrā izveide | Atskaites punktam lietotā nodokļu summa. | Tas tiek nodots arī projekta līguma rindas atskaites punktam un rēķinam. |
 
 3. Atlasiet vienumu **Saglabāt un aizvērt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

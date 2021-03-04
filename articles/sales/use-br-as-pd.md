@@ -78,3 +78,6 @@ Attiecībā uz rezervējamo resursu entītijai **Projekta darba grupas dalībnie
 5. Pievienojiet **msdyn_bookableresourceid** **Lauka nosaukumam**.
 
  ![Jauna izcenojuma dimensijas lauka nosaukuma veidlapa](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

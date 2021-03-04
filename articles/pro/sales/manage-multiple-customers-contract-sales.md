@@ -52,3 +52,6 @@ Līguma klientu var izveidot, atjaunināt vai dzēst lapas **Projekta līgums** 
 Rēķina sadalījuma procentus var rediģēt, izmantojot rindas režģa rediģēšanu. Ja rēķina sadalījuma procenti kopā neveido 100 procentus, jūs saņemsiet kļūdas paziņojumu. Pēc rēķina sadalījuma procentu rediģēšanas atsvaidziniet lapu, lai atmestu kļūdu.
 
 Apakšrežģī **Līguma klienti** varat arī atlasīt opciju **Vienmērīgi sadalīt**, lai sadalītu norēķinus vienmērīgi visiem līguma klientiem. Ja pastāv noapaļošanas koeficients, tas tiks pievienots noapaļošanas klientam. Viens no līguma klientiem vienmēr ir marķēts kā **noapaļošanas** klients, kas nozīmē, ka līguma klienta ierakstam noapaļošanas karodziņš ir iestatīts uz **Jā**. Parasti tas ir līguma primārais klients, bet to var arī mainīt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

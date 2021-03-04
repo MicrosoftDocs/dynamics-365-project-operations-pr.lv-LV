@@ -70,3 +70,6 @@ Varat importēt datus no projektu rezervācijām un piešķirēm. Importējot da
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Grupēšanas, kārtošanas, meklēšanas un filtrēšanas iespējas
 
 Varat grupēt un filtrēt laika ierakstus pēc dimensijām, kas ir norādītas kolonnās. Laukā **Grupēt pēc** atlasiet izmantojamo dimensiju laika ierakstu filtrēšanai. Laika ierakstus var kārtot augošā vai dilstošā secībā, izmantojot kārtošanas bultiņu kolonnu virsrakstos. Turklāt varat rādīt vai paslēpt ierakstus, atlasot pogu **Filtrēt** kolonnu virsrakstos un pēc tam lodziņā **Meklēšana** ievadīt tekstu, kas jālieto laika ierakstu meklēšanai pēc projekta nosaukuma, projekta uzdevuma, laika ieraksta vai resursa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

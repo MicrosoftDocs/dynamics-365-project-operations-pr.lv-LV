@@ -96,3 +96,6 @@ Lai nodrošinātu veiksmīgu jaunināšanu, pareizi jāsaglabā šādas attiecī
 
 - Visām projekta uzdevuma atkarībām ir jābūt saistītām ar vienu un to pašu projektu.
 - Uzdevumam nevar būt vienas un tās pašas atkarības atsauces vairāk nekā vienu reizi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

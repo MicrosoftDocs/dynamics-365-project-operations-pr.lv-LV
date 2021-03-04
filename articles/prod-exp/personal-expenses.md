@@ -33,3 +33,6 @@ Darba ņēmēja izdevumus var apstrādāt ar divām metodēm.
 - **Apmaksā uzņēmums** — jūsu organizācija apmaksā visu uzņēmuma kredītkartes rēķinu un pēc tam no darba ņēmēja konta debetē personiskos izdevumus.
 
 Lapā **Izdevumu pārvaldības parametri** varat atlasīt metodi, ko organizācija izmanto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

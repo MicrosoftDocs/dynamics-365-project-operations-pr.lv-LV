@@ -59,3 +59,6 @@ Lomām ir svarīga nozīme projektu plānošanā, nosakot projekta resursu pras�
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Dynamics 365 Project Service Automation versijā 3.0 laika un izdevumu skati ir 
 Iepriekš laika un izdevumu kalendāra un režģa skati tika ieviesti kā DHTMLX vadīklas. Artefakti, kas ir saistīti ar kalendāra un režģa skatu izpildi, tagad ir nederīgi (novecojuši).
 
 Pilnu novecojušo resursu sarakstu skatiet sadaļā [Novecojušie tīmekļa resursi programmā Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

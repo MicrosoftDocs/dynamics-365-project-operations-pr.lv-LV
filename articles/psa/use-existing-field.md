@@ -31,3 +31,6 @@ ms.locfileid: "5144175"
 Project Service Automation (PSA) ir daudzi lauki entītijā **Faktiskās vērtības**, ko var izmantot kā cenu noteikšanas dimensijas uz resursiem balstītai cenu noteikšanai projektu organizācijās. Piemēram, viens kopīgs lauks ir **Rezervējamais resurss**. Mazāki uzņēmumi, kuriem ir mazāk par 20-30 apmaksājamo resursu, var secināt, ka ir vienkāršāk, kad katram resursam ir savas norēķinu un izmaksu likmes. Tomēr, tā kā apmaksājamais darbaspēks pieaug, konkrētas likmes var kļūt nereāli uzturēt, jo resursu izmaksas un norēķinu likmes sāk mainīties, kad resursi tiek paaugstināti, iegūst vairāk pieredzes vai iegūst dažādu prasmju kopumu. Tā kā šī pieeja joprojām darbojas noteikta lieluma uzņēmumiem, skatiet tēmu [Rezervējamā resursa izmantošana kā cenas noteikšanas dimensiju](bookable-resource-pricing-dimension.md), lai saprastu, kā esošu Project Service lauku var izmantot kā cenas noteikšanas dimensiju.
 
 Vēl viens piemērs ir darījuma kategorija. Klienti un Īstenotāji ir izmantojuši darījuma kategoriju programmā PSA, lai klasificētu darbu un izmantotu lauku cenai un izmaksām, balstoties uz darba kategoriju. Plašākai informācijai skatiet [Transakcijas kategorijas izmantošana kā cenas noteikšanas dimensiju](transaction-category-pricing-dimension.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

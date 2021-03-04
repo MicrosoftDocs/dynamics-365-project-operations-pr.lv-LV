@@ -30,3 +30,6 @@ Tā kā Rūta, atrodoties Frankfurtē, strādāja pie diviem atsevišķiem proje
 | Vilciena biļete   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Viesnīca        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Maltītes        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

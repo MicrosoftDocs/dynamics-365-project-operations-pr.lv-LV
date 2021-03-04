@@ -42,3 +42,6 @@ Kalendārs neatbalsta darbības ar atsevišķiem kalendāra ierakstiem, un tajā
 ## <a name="extensibility"></a>Paplašināmība
 
 Lapā **Laika ieraksti**, kurā ir laika ieraksta režģis, var pievienot pielāgotus laukus, iestatīt uzmeklēšanas laukus un izveidot pielāgotus skatus. Var iestatīt arī pielāgotu biznesa loģiku, kuras pamatā ir pielāgotajos laukos atlasītās vai ievadītās vērtības.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

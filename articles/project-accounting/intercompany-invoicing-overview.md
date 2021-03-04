@@ -43,3 +43,6 @@ Tālāk sniegtajā diagrammā ir parādīta starpuzņēmumu rēķinu izrakstīš
 - [Starpuzņēmumu rēķinu izrakstīšanas konfigurēšana](configure-intercompany-invoicing.md)
 - [Starpuzņēmumu darbību reģistrēšana](create-intercompany-transactions.md)
 - [Starpuzņēmumu klientu un piegādātāju rēķinu izveide](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

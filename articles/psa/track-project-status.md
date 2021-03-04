@@ -58,3 +58,6 @@ Turpinoties sadarbībai, projekta posmi tiek atjaunināti, atspoguļojot sadarb�
 
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

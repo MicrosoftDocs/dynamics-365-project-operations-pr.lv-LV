@@ -135,3 +135,6 @@ Ja jums ir faktiskie dati, kas ienāca pēc rēķina izveidošanas, varat tos ie
 2. Atveriet pro forma rēķina melnrakstu un lentē **Darbības** noklikšķiniet uz **Atsvaidzināt rēķina rindas transakcijas**.
 
   Šādi tiek izveidota rēķina rindas informācija par visiem faktiskajiem datiem, kas ir iepriekš datēti un atzīmēti kā **Gatavi rēķina izrakstīšanai**, bet rēķinā netiek iekļauti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

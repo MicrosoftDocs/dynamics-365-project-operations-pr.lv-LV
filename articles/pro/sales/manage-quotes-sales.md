@@ -33,3 +33,6 @@ Visu projekta piedāvājumu sarakstu var skatīt lapā **Piedāvājumi**.
 2. Izmantojiet **Skatīt pārslēdzēju**, lai atlasītu citus piedāvājumu filtrētos skatus. Izmantojot pielāgotus filtrēšanas kritērijus, varat konfigurēt savus skatus un navigācijas opcijas.
 
 Piedāvājumus var izveidot vai izdzēst no šīs saraksta lapas vai detalizētās lapas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

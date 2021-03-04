@@ -34,3 +34,6 @@ Lai izveidotu periodu tipus un strādātu ar tiem, izpildiet tālāk norādītā
 4. Atlasiet perioda tipa ierakstu un pēc tam atlasiet **Ģenerēt periodus**, lai izveidotu periodus, izmantojot šo perioda tipu. Pamatojoties uz atlasīto perioda biežumu, var būt pieejama iespēja norādīt sākuma datumu vai ģenerējamo periodu skaitu.
 5. Atlasiet **Periodi**, lai pārskatītu ģenerētos periodus.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

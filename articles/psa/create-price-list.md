@@ -71,3 +71,6 @@ Cenrāži balstās uz lomām un izdevumu kategorijām, tāpēc, pirms veidojat c
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service Automation konfigurēšana](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

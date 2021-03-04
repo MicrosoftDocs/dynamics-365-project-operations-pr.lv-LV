@@ -41,3 +41,6 @@ Tālāk ir norādītas cilnes un KPI, kas ir pieejami projekta piedāvājumā un
 | Ienesīguma analīze | Cilne piedāvājumā | Cilnē ir redzamas šādas metrikas:</br>- Kopējās rēķinā iekļaujamās izmaksas</br></br>- Kopējās rēķinā neiekļaujamās izmaksas</br>- Kopējie ieņēmumi</br>- Kopējie ieņēmumi (pamatvalūtā)</br>- Bruto peļņa</br>- Koriģētā bruto peļņa|
 | Salīdzinājums ar klienta vēlmju robežām | Cilne piedāvājumā | Šajā cilnē ir redzamas šādas metrikas:</br>- Prognozējamā pabeigšana</br>- Pieprasītā pabeigšana</br>- Klienta budžets</br>- Piedāvātā vērtība |
 | Piedāvājuma analīze | Cilne piedāvājumā | Šajā cilnē ir apkopota informācija par projekta piedāvājuma galvenajiem KPI</br>- Salīdzinājumā ar klientu vēlmēm attiecībā uz budžetu un grafiku</br>- Bruto peļņa</br>- Koriģētā bruto peļņa |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

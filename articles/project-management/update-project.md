@@ -48,3 +48,6 @@ Tālāk ir sniegts kopsavilkums par laukiem, ko var atjaunināt projektā pēc t
 - **Vispārējais projekta statuss**: projekta vadītāja nodrošinātā vispārējā projekta veselība.
 - **Komentāri**: projekta vadītāja sniegtais apraksts par projekta pašreizējo veselību.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

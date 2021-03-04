@@ -330,3 +330,6 @@ PSA ieraksta finanšu transakcijas, kas notiek projekta laikā. Šīs transakcij
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

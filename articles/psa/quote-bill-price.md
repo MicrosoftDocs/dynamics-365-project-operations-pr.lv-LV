@@ -44,3 +44,6 @@ Nākamajās tēmās ir sniegta plašāka informācija par piedāvājumu izmanto�
 - [Vienību grupas un vienības](advanced-units.md)
 - [Vairāku vienību valūta](advanced-currency.md)
 - [Faktisko datu ierakstīšana](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

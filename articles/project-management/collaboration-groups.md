@@ -26,3 +26,6 @@ Office grupas ļauj koplietot projektu ar citiem darba grupas dalībniekiem prog
 > [!NOTE] 
 > Lietotāji tiek pievienoti grupai tikai tad, ja nospiežat vienumu **Grupas** un pievienojat tos. Tas atšķiras no Projekta tīmeklim darbībām. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

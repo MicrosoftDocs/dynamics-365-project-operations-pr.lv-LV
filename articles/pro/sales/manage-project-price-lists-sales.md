@@ -67,3 +67,6 @@ Kad ir izveidoti noklusējuma specifiski projekta cenrāži organizācijai un kl
 
 1. Sadaļas **Projekta piedāvājums** cilnes **Projekta cenrādis** apakšrežģī pārliecinieties, ka nav atlasīts neviens konkrēts cenrāža ieraksts.
 2. Atlasiet vienumu **Izveidot pielāgotu izcenojumu**. Ar šo darbību tiks kopēti visi standarta cenrāži, kas pašlaik ir saistīti ar piedāvājumu, un šīs kopijas tiks saistītas ar piedāvājumu. Esošās saistības ar standarta cenrāžiem tiks noņemtas. Pēc tam pārdevējs var sākt veikt cenu rediģējumus šajās kopijās. Šīs mainītās cenas būs attiecināmas tikai uz šo projekta piedāvājumu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

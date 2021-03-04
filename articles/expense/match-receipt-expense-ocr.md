@@ -94,3 +94,6 @@ Pašlaik tiek atbalstītas Amerikas Savienotās Valstis.
 Finance sazinās ar Cognitive Services, lai izvilktu lauka datus. Cognitive Services paturēs jūsu kvīts kopiju 24 stundas, kamēr notiek apstrāde. Pēc apstrādes pabeigšanas Cognitive Services kvīti dzēsīs. Kvītis joprojām tiek glabātas Finance.
 
 Papildinformāciju skatiet rakstā [Kvīšu izpratnes veicināšana ar Form Recognizer jauno iespēju](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

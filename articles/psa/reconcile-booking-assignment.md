@@ -101,3 +101,6 @@ Pēc tam, kad katram resursam ir izpildīta paplašinājuma funkcionalitāte, re
 
 Taču sīkāka informācija par rezervācijām rāda atšķirības rezervācijas sākuma laikā. Rezervācijas tiks sāktas ne agrāk kā piešķiršanas sākuma laiks un ne agrāk kā resursam pieejamais sākuma laiks.
  ![Jaunas resursa rezervācijas plānošanas panelī](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Entītijai **msdyn\_projecttask** nav mainīti šādi lauki attiecībā uz plān
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

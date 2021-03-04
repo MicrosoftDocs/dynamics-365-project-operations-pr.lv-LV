@@ -98,3 +98,6 @@ Lai pabeigtu izvietošanu, izpildiet norādījumus, kas sniegti tēmā [Jaunas v
 
 Instalējiet CDS iestatīšanas un konfigurācijas datus, kā aprakstīts tēmā [Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service](resource-apply-pro-setup-config-data.md).
 Pabeidziet šo darbību tikai pēc tam, kad finanšu demonstrācijas vide ir izvietota un demo dati FO ir gatavi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

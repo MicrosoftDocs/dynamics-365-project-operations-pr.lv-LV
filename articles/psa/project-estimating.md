@@ -97,3 +97,6 @@ Gan režģa skatā, gan skatā ar laika fāzēm varat atlasīt, kurus laukus rā
 ## <a name="expense-estimates"></a>Izdevumu tāmes
 
 Poga **Pievienot jaunu izdevumu tāmi** režģa skatā ļauj jums ierakstīt jebkādus izdevumus, kas šim projektam ir radušies, bet kas nav tieši saistīti ar darbaspēku. Izdevumu tāmes varat ierakstīt konkrētam uzdevumam vai visam projektam. Atlasiet izdevumu kategorijas un varbūtējo datumu, kad prognozējat šo izdevumu rašanos. Ja saistītajam izmaksu cenrādim un pārdošanas cenrādim ir noklusējuma cenas (vai ja izdevumu kategorijām ir definēts uzcenojuma procentuālais daudzums), pēc piesaistīšanas šīs cenas tiek automātiski ievadītas tāmes rindā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

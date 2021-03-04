@@ -103,3 +103,6 @@ Budžeta kategorijas tiek izmantotas, lai automātiski aprēķinātu rēķina su
 8. Neobligāti: piešķiriet norēķinu kārtulu papildu projektiem. Kopsavilkuma cilnes **Projekts** sadaļā **Pieejamie projekti** atlasiet projektu un pēc tam noklikšķiniet uz labās puses bultiņas, lai pievienotu projektu sadaļā **Atlasītie projekti**.
 9. Neobligāti: aprēķiniet procentu summu, ko klients ietur no maksājuma rēķinā. Attiecībā uz kopsavilkuma cilnes **Maksājuma saglabāšanas nosacījumi** atlasiet finansējuma avotu un pēc tam laukā **Ieturējuma procentuālā vērtība** ievadiet saglabāšanas procentus.
 10. Lai projekta līgumam izveidotu papildu norēķinu kārtulas, atkārtojiet šīs darbības.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

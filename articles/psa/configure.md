@@ -58,3 +58,6 @@ Pirms [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)   
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)   
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

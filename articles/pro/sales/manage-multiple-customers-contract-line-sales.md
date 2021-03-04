@@ -43,3 +43,6 @@ Tālāk ir norādīti lauki projekta līguma rindas klienta ieraksta rindā **L�
 Rēķina sadalījuma procentus var rediģēt režģī. Ja rēķina sadalījuma procenti kopā neveido 100 procentus, radīsies kļūda. Pēc rēķina sadalījuma procentu rediģēšanas atsvaidziniet lapu, lai noņemtu kļūdu.
 
 Varat arī līguma rindas klienta apakšrežģī atlasīt vienumu **Vienmērīgs sadalījums**. Šī darbība vienmērīgi piešķir norēķinu sadalījumu visiem līguma rindas klientiem. Ja pastāv noapaļošanas koeficients, tas tiks pievienots noapaļošanas klientam. Viens līguma rindas klients vienmēr tiek marķēts kā **Noapaļošanas** klients, un tam karodziņš **Noapaļošana** ir iestatīts uz **Jā**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

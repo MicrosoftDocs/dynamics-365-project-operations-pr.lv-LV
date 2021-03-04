@@ -55,3 +55,6 @@ Project Operations integrācijas žurnāla rindās var atjaunināt tikai šādus
 Integrācijas žurnāla rindas var dzēst, tomēr visas neiegrāmatotās rindas tiks ievietotas žurnālā vēlreiz pēc tam, kad atkārtoti palaidīsit periodisko procesu **Importēšana no izstādīšanas**.
 
 Kad tiek grāmatots integrācijas žurnāls, tiek izveidotas projekta apakšgrāmatas un virsgrāmatas darbības. Tās izmanto pakārtotā klienta rēķina izrakstīšanai, ieņēmumu atzīšanai un finanšu atskaišu izveidei.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

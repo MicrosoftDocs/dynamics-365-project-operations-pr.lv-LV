@@ -82,3 +82,6 @@ Varat izmantot meklēšanas lodziņu **Resursu atlasītājs**, lai meklētu visu
 
 3. Sarakstā atlasiet resursu, kuru vēlaties piešķirt uzdevumam.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

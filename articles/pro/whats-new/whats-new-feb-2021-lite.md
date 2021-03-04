@@ -38,3 +38,6 @@ ms.locfileid: "5141332"
 | **Projektu plānošana un izsekošana** | 2164035 | Novērstas problēmas ar funkciju **Kopēt projektu**. |
 | **Laika ieraksts** | 2129161 | Ir piemēroti stingrāki ierobežojumi, lai nodrošinātu, ka lietotāji nevar mainīt un atjaunināt laika ierakstu, kas ir iesniegts vai apstiprināts. |
 | **Laika ieraksts** | 2103572 | Laika apstiprināšanai ar projektu nesaistītiem laika ierakstiem nav nepieciešama projekta apstiprinātāja loma. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

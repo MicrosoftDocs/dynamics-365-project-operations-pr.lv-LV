@@ -79,3 +79,6 @@ Dotāciju var izveidot, ievadot visu informāciju jaunā ierakstā, vai arī var
 2. Atlasiet dotāciju modificēšanai.
 3. Darbību rūts cilnes **Dotācija** grupā **Uzturēt** atlasiet opciju **Rediģēt**.
 4. Pārskatiet dotācijas informāciju un veiciet vajadzīgās izmaiņas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Entītijas dimensijām datus var izveidot manuāli vai izmantojot Microsoft Exce
 5. Atkārtojiet 1.–3. darbību, lai izveidotu vēl vienu standarta nosaukumu “Vecākais sistēmas inženieris”.
 
 > ![Standarta nosaukuma entītijas datu paraugs](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

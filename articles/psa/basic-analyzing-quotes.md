@@ -60,3 +60,6 @@ Varat analizēt piedāvājumus un ģenerēt klientu vēlmju diagrammas attiecīb
 Klienta vēlmju analīze par grafiku tiek veikta, salīdzinot piedāvājuma rindu detaļu vēlāko beigu datumu ar pieprasīto piegādes datumu visās piedāvājuma rindās.
 
 Klienta vēlmju analīze par budžetu tiek veikta, salīdzinot klienta kopējā budžeta summu ar piedāvāto summu visās piedāvājuma rindās.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

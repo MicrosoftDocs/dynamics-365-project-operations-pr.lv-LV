@@ -66,3 +66,6 @@ Jums kā Projekta vadītājam, iespējams, jārezervē resurss projektam, bet ju
 
 > [!NOTE]
 > Šī metode neveido nekādas resursa rezervācijas. Tā vietā resurss tiek pievienots darba grupai. Pēc tam, kad darba grupas dalībnieks ir pievienots projektam, projekta vadītājs var izmantot opcijas uzturēt rezervācijas vai pagarināt rezervācijas, lai resursam pievienotu nepieciešamās rezervācijas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

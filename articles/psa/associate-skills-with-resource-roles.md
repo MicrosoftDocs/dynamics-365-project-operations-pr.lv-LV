@@ -47,3 +47,6 @@ Resursa lomas pievienošanas laikā, iespējams, dažas prasmes ar tām jau tika
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

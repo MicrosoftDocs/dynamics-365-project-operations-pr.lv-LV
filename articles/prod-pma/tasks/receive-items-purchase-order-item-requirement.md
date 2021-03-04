@@ -56,3 +56,6 @@ Izmantojot vienuma prasības, nevis vienumu transakciju, var plānot piegādi ti
 21. Laukā **Produkta kvīts** ierakstiet vērtību.
 22. Atlasiet **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

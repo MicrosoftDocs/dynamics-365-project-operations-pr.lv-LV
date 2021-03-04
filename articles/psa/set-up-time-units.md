@@ -47,3 +47,6 @@ Konfigurējiet produktu katalogā laika vienības, kuras tiks izmantotas kā pl�
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service konfigurēšana](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Projektā balstītus pārdošanas pasūtījumus varat izveidot divos veidos:
 - Dodieties uz pašu projektu. Darbību rūtī atlasiet **Pārvaldīt > Elementu uzdevumi > Pārdošanas pasūtījums**. Projekta informācija pēc noklusējuma būs no projekta pārdošanas pasūtījuma. Ja projekta līgumam ir vairāk nekā viens finansējuma avots, būs nepieciešams atlasīt finansējuma avotu, lai iestatītu pārdošanas pasūtījuma klientu. Ja projektam ir tikai viens finansējuma avots, klients tiks iestatīts automātiski.
 - Dodieties uz saraksta lapu **Visi pārdošanas pasūtījumi** un izveidojiet jaunu pārdošanas pasūtījumu. Pārdošanas pasūtījumam vajadzēs atlasīt projektu. Kad projekts ir atlasīts, klients tiks iestatīts no finansējuma avota vai arī vajadzēs atlasīt finansējuma avotu, ja projekta līgumam ir vairāki finansējuma avoti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

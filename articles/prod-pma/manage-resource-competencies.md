@@ -53,3 +53,6 @@ Lai iestatītu kompetences darba ņēmējam, varat izmantot Cilvēkresursu sarak
 5. Laukā **Līmeņa datums** atlasiet **1-/14/2014**.
 6. Laukā **Pieredze gados** ievadiet **10**.
 7. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Rēķinu izrakstīšanas grafiki ir specifiski katrai līguma rindai un ir nepie
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Izmaiņas no Dynamics 365 Sales pasūtījumiem
 
 Project Operations līgumi ir veidoti, izmantojot Dynamics 365 Sales pasūtījumus. Tomēr ir būtiskas novirzes un atšķirības funkcionalitātē. Līgumiem ir savas veidlapas un lietotāja interfeisa elementi, biznesa kārtulas, biznesa loģika spraudņi, kā arī klienta puses skripti, kas atšķir tos no pasūtījumiem. Šo iemeslu dēļ pārdošanas pasūtījumu un Project Operations līgumu nedrīkst izmantot kā savstarpējus aizstājējus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

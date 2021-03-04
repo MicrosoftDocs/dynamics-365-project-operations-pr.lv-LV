@@ -102,3 +102,6 @@ Tālāk ir sniegts īss kopsavilkums par dažādās projekta plānošanas cilnē
 **Pievienot kolonnu**: ļauj lietotājam definēt redzamās kolonnas režģī. Veidlapā **Projekta plānošana** režģos var pievienot tikai iebūvētās kolonnas.
 
 ![Poga Pievienot kolonnu](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

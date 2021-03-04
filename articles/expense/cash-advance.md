@@ -63,3 +63,6 @@ Izveidojot un iesniedzot jau saņemta skaidras naudas avansa atskaiti, izdevumi 
 ### <a name="example"></a>Piemērs
 Jūs plānojat doties no Sietlas uz Ņujorku, lai apmeklētu konferenci. Jūs izveidojat skaidras naudas avansa pieprasījumu par 3000,00 USD, balstoties novērtētajās izmaksās par konferences biļeti, lidojumiem, viesnīcu, maltītēm un taksometru. Jums netiks samaksāts, kamēr vadītājs neapstiprinās šo pieprasījumu. Pēc jūsu vadītāja apstiprinājuma pieprasītais naudas avanss tiek izmaksāts kā 3000,00 USD jūsu bankas kontā. Pēc tam jūs apmeklējat konferenci. Pēc ceļojuma beigām jūs konstatējat, ka kopējie izdevumi ir tikai 2790,00 USD. Laukā **Maksājuma metode** atlasiet **Skaidrā naudā** un iesniedziet savus izdevumus 2790,00 USD apmērā. Jūsu iesniegtā izdevumu summa tiek automātiski salīdzināta ar naudas avansa summu 3000,00 USD, kas jums tika aizdota. Tagad jūs esat parādā bilanci 210,00 USD (3000,00-2790,00) apmērā, kuru varat atgriezt uzņēmumam, izmantojot izdevumu kategoriju **Atgriezt skaidro naudu**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

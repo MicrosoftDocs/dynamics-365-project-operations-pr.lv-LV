@@ -52,3 +52,6 @@ Papildinformāciju par atskaišu izveidi risinājumā PSA skatiet šādās tēm�
 - [Darbs ar Project Service datu modeli](reports-working-project-service-data-model.md)
 - [Informācijas paneļi](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

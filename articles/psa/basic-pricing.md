@@ -131,3 +131,6 @@ Tāpat kā norēķinu likmes, arī cilvēkresursu izmaksu likmes iestata, izmant
     1. Izmaksu cenrādis, kas ir pievienots organizācijas struktūrvienībai.
     2. Izmaksu cenrādis, kas ir pievienots projekta pakalpojumu parametriem. Tā kā projekta pakalpojumu parametriem var pievienot izmaksu cenrāžus daudzās valūtās, PSA veic valūtu saskaņošanu starp projekta, līguma vai piedāvājuma līgumslēdzēja organizācijas struktūrvienību un izmaksu cenrādi.
     3. Attiecībā uz izdevumiem pašizmaksas un izmaksu uzcenojuma izcenojuma metodes neattiecas uz izmaksu cenrāžiem. Pat ja šīs izcenojuma metodes tiek izmantotas izmaksu cenrāža rindās, lai iestatītu transakciju kategoriju izmaksas, sistēma tās ignorē un netiek ievadīta noklusējuma izmaksu cena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

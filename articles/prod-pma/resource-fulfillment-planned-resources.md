@@ -40,3 +40,6 @@ Projekta vadītājs var plānot projektam nepieciešamās resursu lomas. Resursu
 7. Atlasiet darbinieku un pēc tam atlasiet **Piešķirt**.
 8. Pārbaudiet, vai **Programmatūras izstrādātāja 1** rinda ir noņemta projektam **XYZ jaunināšanas projekta fāze 2**.
 9. Cilnē **Projekta darba grupa un plānošana** projektam **XYZ jaunināšanas fāze 2** pārliecinieties, ka iepriekšējā darbībā atlasītais darbinieks ir pievienots kā **Programmatūras izstrādātājs**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

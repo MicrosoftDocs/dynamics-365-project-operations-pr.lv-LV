@@ -52,3 +52,6 @@ PDF saite, kas iepriekš bija šajā tēmā, ir noņemta, un saturs ir pārvieto
 
 > [!NOTE]
 > Šī tēma tiks noņemta turpmākā dokumentācijas atjauninājumā. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

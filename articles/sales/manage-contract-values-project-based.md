@@ -57,3 +57,6 @@ Kārtula: projekts un noteikta transakciju klase var būt iekļauta tikai vienā
 | C1       | CL2           | P1      | No           | Jā             | No          | Derīgs           | Projekta P1 laiks un maksas ir iekļautas CL1. Izdevumi P1 projektā ir ietverti rindā CL2. </br>   Nav pārklāšanās tam, kas tiek iekļauts katrā līguma rindā un tādējādi ir derīgs.  |
 | C1       | CL1           | P1      | Jā          | Jā             | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks, izdevumi un maksas projektam P1 ir iekļautas divu līgumu rindās.                                                                                               |
 | CL2      | CL2           | P1      | Jā          | Jā             | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks, izdevumi un maksas projektam P1 ir iekļautas divu līgumu rindās.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

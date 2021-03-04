@@ -43,3 +43,6 @@ Lai izveidotu piedāvājumus un rēķinus saviem klientiem [!INCLUDE[pn_project_
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service konfigurēšana](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Projektu operāciju līgumi tiek veidoti, izmantojot Dynamics 365 Sales līgumu
 - Projektu operāciju līgumiem ir savas veidlapas un lietotāja interfeisa elementi, biznesa kārtulas, biznesa loģika spraudņi, kā arī klienta puses skripti, kas atšķir tos no pārdošanas līgumiem.
 
 Šo iemeslu dēļ pārdošanas līgumu un projekta līgumu nedrīkst izmantot kā savstarpējus aizstājējus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

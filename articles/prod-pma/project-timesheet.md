@@ -96,3 +96,6 @@ Lai nosūtītu darba laika uzskaites tabulu apstiprināšanas darbplūsmai, nokl
 ## <a name="review-timesheets"></a>Pārskatīt darba laika uzskaites tabulas
 
 Izvēlnē ir pieejams pārskatīšanai izmantojamo darba laika uzskaites tabulu saraksts. Šī opcija ir pieejama tikai tad, ja esat norādīts kā darbplūsmas apstiprinātājs. Tiek atbalstīti gan virsrakstu, gan rindu apstiprinājumi. Rindas līmeņa apstiprinājums piedāvā iespēju atzīmēt vienu vai vairākas rindas apstiprināšanai. Pēc darba laika uzskaites tabulas informācijas pārskatīšanas noklikšķiniet uz **Apstiprināt** , **Deleģēt** vai **Atgriezties** , lai turpinātu darbplūsmu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

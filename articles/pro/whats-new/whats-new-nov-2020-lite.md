@@ -37,3 +37,6 @@ Tālāk sniegtajā tabulā ir uzskaitīti Project Operations atjauninājumi CDS 
 | Laiks un ātra izdevumu ievade | 2047499          | Poga **Jauns** lapā Laika ieraksts atver lapu **Jauns e-pasta paraksts**.                                                                                               |
 | Laiks un ātra izdevumu ievade | 2059859          | Veidojot izdevumu ierakstu, tiek atvērts negaidīts uznirstošais logs.                                                                                                                         |
 | Cita                        | 2044181          | [PO atinstalēšana] — kļūdas ziņojums "Ieraksts nav pieejams" rodas, mēģinot atinstalēt **msdyn_ProjectServiceCore_Patch** un msdyn projekta pakalpojumu pamata risinājumus.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

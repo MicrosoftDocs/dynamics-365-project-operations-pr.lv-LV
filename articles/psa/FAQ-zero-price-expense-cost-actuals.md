@@ -38,3 +38,6 @@ ms.locfileid: "5146357"
 Atveriet saistīto izdevumu ierakstu un pārliecinieties, vai izdevumu ieraksta laukā ir summa. Ja sākotnējo izdevumu ieraksta summas lauks ir tukšs, esat atradis problēmu.
  
 Lai atrisinātu šo problēmu, atkārtoti izveidojiet izdevumu ierakstu ar derīgu summu un apstipriniet to.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

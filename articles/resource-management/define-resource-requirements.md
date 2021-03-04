@@ -26,3 +26,5 @@ Resursu prasības definē Projekta vadītājs, lai noteiktu resursus, kas nepiec
 3.  Cilnē **Darba grupas dalībnieks** atlasiet darba grupas dalībnieku un pēc tam atlasiet **Ģenerēt prasību**.
 
 Informāciju par to, kā modificēt resursa prasības, skatiet šeit: [Resursu prasību informācijas atjaunināšana,](define-resource-requirements.md) lai modificētu resursa prasību.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

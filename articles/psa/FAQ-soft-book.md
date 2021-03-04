@@ -67,3 +67,6 @@ Kad esat gatavs mainīt izvēles viegli rezervēto darba grupas dalībnieka resu
 2. Ar peles labo pogu noklikšķiniet uz rezervācijas, sadaļā **Mainīt statusu** atlasiet vienumu **Stingrā rezervācija** \> **Stingrā** Rezervācijas statuss tagad ir **Stingrā**.
 3. Pēc plānošanas paneļa aizvēršanas un pāriešanas atpakaļ uz projektu,un cilnes **Darba grupa** atvēršanas redzēsiet, ka skatā **Nosauktie darba grupas dalībnieki** resursa stundas cilnē **Darba grupa** ir pārvietotas no kolonnas **Pasīvi rezervētās stundas** uz kolonnu **Stingri rezervētās stundas**. Ja resurss tika piešķirts uzdevumiem, tam vairs netiks rādīts rezervāciju trūkums cilnē **Saskaņošana**, jo tā rezervācijas tagad ir stingras.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Lomām var iestatīt visas izmaksu, pārdošanas un pārsūtīšanas cenas. Izpi
 1. Lapā **Pārdošanas cena (stunda)** atlasiet **Jauna** un ievadiet spēkā stāšanās datumu.
 2. Kolonnā **Loma** atlasiet lomu.
 3. Kolonnā **Cena** ievadiet atlasītās resursu lomas cenu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Izpildiet tālāk aprakstītās darbības, lai labotu vienu vai vairākus izdevu
 8. Cilnes **Faktiskās vērtības** projekta lapā pārskatiet skatu **Faktiskais saistītais skats**. Tiek parādīti sākotnējie ieraksti un labotie ieraksti. Tālāk redzamajā attēlā ir parādītas izdevumu ieraksta sākotnējās summas un atbilstošās koriģētās izmaksu ierakstu summas. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

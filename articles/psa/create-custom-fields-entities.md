@@ -73,3 +73,6 @@ Entītijas dimensijām datus var izveidot manuāli vai izmantojot Microsoft Exce
 > ![Standarta nosaukuma entītijas datu paraugs ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

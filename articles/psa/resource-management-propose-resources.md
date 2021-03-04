@@ -113,3 +113,6 @@ Tā kā Dynamics 365 Project Service Automation izmanto programmu Universal Reso
 Lai skatītu papildinformāciju par atsevišķu resursu, ar peles labo pogu noklikšķiniet uz tā, lai atvērtu resursa karti.
 
 ![Resursa karte](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

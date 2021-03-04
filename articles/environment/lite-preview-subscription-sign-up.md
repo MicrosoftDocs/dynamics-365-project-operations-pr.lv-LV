@@ -91,3 +91,6 @@ Veiciet tās pašas darbības kā ar pirmo piedāvājuma kodu. Pārliecinieties,
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS konfigurācijas un iestatīšanas demonstrācijas instalēšana
 
 Instalējiet CDS konfigurāciju un iestatiet demonstrācijas datus, izpildot norādījumus tēmā [Demonstrācijas iestatīšanu un konfigurācijas datu lietošana](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

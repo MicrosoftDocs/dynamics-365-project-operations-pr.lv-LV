@@ -57,3 +57,6 @@ Izmaksu cenrāži netiek pēc noklusējuma izmantoti nevienā Project Operators 
 5. Pēc tam sistēma apskata to cenrāžu spēkā būšanas datumus, kas atbilst ienākošā novērtējuma vai faktiskajās rindas datumam. 
 6. Ja ir vairāki cenrāži, kas ir spēkā attiecībā uz ienākošo budžetu vai faktiskajiem datumiem, tiek atlasīts cenrādis, kas izveidots visnesenāk.
 7. Ja projekta parametriem nav pievienotu izmaksu cenrāžu ar atbilstošu valūtu un spēkā būšanas datumu, sistēma pēc noklusējuma iestata izmaksu likmi uz nulli (0) ienākošajā tāmē vai faktiskajā rindā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

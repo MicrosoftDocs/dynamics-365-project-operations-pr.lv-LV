@@ -123,3 +123,6 @@ Strādājot ar entītiju **Faktiski**, ir svarīgi saprast, kādas transakcijas 
 Entītija **Transakcijas izcelsme** reģistrē ieraksta **Faktiski** izcelsmi, un entītija **Transakcijas savienojums** reģistrē ieraksta **Faktiski** saistītos ierakstus. Turklāt ieraksts **Faktiski** ietver atsauces uz projektu, projekta līgumu (pasūtījumu), rezervējamo resursu un klientu.
 
 ![Shēma, kurā parādītas transakciju savienojumu, izcelsmes un faktiskās relācijas](media/PS-Reporting-image6.png "Shēma, kurā parādītas transakciju savienojumu, izcelsmes un faktiskās relācijas")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Lai ievadītu noklusējuma produktu cenrāžus, iespējas, piedāvājuma un proj
 Pēc noklusējuma piedāvājuma rindas laukā **Produkts** ir uzskaitīti visi aktīvie produkti, kas atrodas attiecīgā piedāvājuma produktu cenrādī. Ja kāds produkts ir deaktivizēts vai ja tas ir melnraksta produkts, tas nav iekļauts sarakstā pat tad, ja šis produkts ir cenrādī. 
 
 Produktu kataloga rindas tiek pievienotas kā rēķina rindas pirmajā rēķinā, kurš tiek izveidots projekta līgumam. Melnraksta rēķinā šīs rēķina rindas var izdzēst. Tādā gadījumā rindas būs redzamas nākamajā rēķinā, līdz par tām ir izrakstīts rēķins vai līdz rēķins tiek nosūtīts klientam. Produkta rēķina rindā nevar izrakstīt rēķinu par daļēju daudzumu. Kad tiek izrakstīts rēķins par produktu rindām no projekta līguma, tiek izveidotas faktiskās vērtības. Taču šīs faktiskās vērtības nav sasaistītas ar attiecīgo projekta entītiju. Citiem vārdiem sakot, uz produktu balstītās projekta līguma rindas ir neatkarīgas no jebkāda uz projektu balstītā lietojuma. Materiālu patēriņam projektos netiek sekots līdzi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

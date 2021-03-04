@@ -41,3 +41,6 @@ Kad ir iespējota līdzekļu pārvaldības atslēga **Iespējot izdevumu pārst�
 Deleģētais lietotājs var ātri filtrēt un meklēt esošas izdevumu atskaites, kuras ir viņam deleģētas. Viņš var arī izveidot jaunu izdevumu atskaiti citiem lietotājiem, atlasot **Jauna izdevumu atskaite**.
 
 Deleģētie lietotāji var arī izveidot un pārvaldīt citu darbinieku izdevumu atskaites, dodoties uz **Izdevumu pārvaldība**  > **Mani izdevumi** > **Izdevumu atskaites** un atlasot **Atvērt citu lietotāju izdevumus**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Programmā Project Operations nevar izsekot pārskatījumus, kas veikti piedāv�
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Piedāvājumu un projekta līgumu komentāru un apstiprinājumu izsekošana
 Varat pārvaldīt piedāvājumu un projekta līgumu pārskatīšanu un apstiprināšanu, izmantojot Record Wall un ziņas. Jūsu organizācija var izveidot pielāgotas darbplūsmas un spraudņus, lai piešķirtu, pārvirzītu, eskalētu un pārvaldītu paziņojumus par darba vienumu pārskatīšanu un apstiprināšanu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

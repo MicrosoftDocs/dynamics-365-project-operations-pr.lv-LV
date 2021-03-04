@@ -344,3 +344,6 @@ Pirmajā mēnesī projekta konsultanti fiksē kopumā 800 darba stundas. Projekt
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

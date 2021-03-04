@@ -153,3 +153,6 @@ Nākamajās ilustrācijās ir redzami piemēri no veidnes uzdevumu kartējumiem 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Projekta līguma rindu atskaites punktu kartēšana projektos un līgumos (PSA 3.x uz Dynamics) — v2 veidne:
 
 [![Projekta līguma rindu atskaites punkta kartēšana ar versiju, kurā ir divas veidnes](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

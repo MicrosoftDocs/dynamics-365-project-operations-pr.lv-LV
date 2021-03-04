@@ -47,3 +47,6 @@ Kad ir iegūta iespēja iesniegt projekta piedāvājumu, var izveidot līgumu ar
   
 ### <a name="see-also"></a>Skatiet arī  
  [Uzņēmumu pārvaldnieka rokasgrāmata](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

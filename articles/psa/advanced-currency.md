@@ -105,3 +105,6 @@ Dynamics 365 automātiski apstrādā dažādās valūtās esošu summu apkopoju
 | Izdevumi           | Rēķinā neiekļautā pārdošana   | 17. jūn. | Konrāds  | Automašīnu noma           | 1 EA     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Lai projektā aprēķinātu kopējo rēķinā neiekļauto pārdošanas darījumu vērtību, varat izveidot apkopojuma lauku, kas paredzēts laukam **Summas** visiem saistītajiem rēķinā neiekļautās pārdošanas faktiskajiem datiem. Apkopojuma lauks ir Dynamics 365 konstrukcija, kas ļauj izpildīt ātrās formulas saistītajiem ierakstiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

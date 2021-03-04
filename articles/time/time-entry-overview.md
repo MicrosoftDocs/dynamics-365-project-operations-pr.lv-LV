@@ -27,3 +27,6 @@ Projekta darba grupas dalībnieki izveido un iesniedz apstiprināšanai laika ie
 
 Informāciju par to, kā izveidot, iesniegt vai atsaukt ierakstu, kā arī izmantot citus rīkus, kas palīdz izveidot atskaites, skatiet tēmā [Laika ieraksta lietotāja uzvedība](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

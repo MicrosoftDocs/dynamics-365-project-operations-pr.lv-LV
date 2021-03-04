@@ -60,3 +60,6 @@ Rēķinā neiekļautās pārdošanas ar ailes **Nepārsniegt** statusu **Neizdev
 Ja vairāku klientu līguma rindām ir laika un materiālu norēķinu metode, kad tiek apstiprināts laiks un izdevumi, katram klientam līguma rindā tiek izveidots viens neiekasēts pārdošanas apjoms atbilstoši katram klientam definētajai norēķinu procenta sadalījumam. Skatā **Nepabeigtā rēķinu izrakstīšana par laiku un materiālu** būs redzami šie atsevišķie klientam specifiskie neapstrādātie pārdošanas darījumi. Šajā skatā katru no šiem rēķinā neiekļautās pārdošanas faktisko datu ierakstiem var atsevišķi atzīmēt kā **Gatavs rēķina izrakstīšanai**.
 
 Šajā skatā tiek parādīts rēķinā neiekļautais faktiskais pārdošanas apjoms no rēķina melnraksta ar norēķinu statusu **Klienta rēķins izveidots**. Kad ir apstiprināts rēķina melnraksts, šī ieraksta norēķinu statuss tiek atjaunināts uz **Iegrāmatots klienta rēķins**. Neatjauniniet šo statusa vērtību, izmantojot pielāgotu kodu. Project Operations nefunkcionē pareizi, ja šīs statusa vērtības tiek atjauninātas ar pielāgotu kodu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

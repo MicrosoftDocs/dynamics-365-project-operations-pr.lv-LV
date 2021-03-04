@@ -72,3 +72,6 @@ Ja izdevumu kategorijas cenas iestatījums nav derīgs, esat atradis problēmu. 
 Ja pēc trīs iepriekš minēto pārbaužu veikšanas joprojām neredzat derīgu cenu faktiskajiem pārdošanas izdevumiem, reģistrējiet atbalsta biļeti.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Ja aizdodošā juridiskā persona, USSI, iegrāmato starpuzņēmumu klienta rē�
 Papildinformāciju skatiet sadaļā [Starpuzņēmumu projektu rēķinu izrakstīšanas konfigurēšana](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

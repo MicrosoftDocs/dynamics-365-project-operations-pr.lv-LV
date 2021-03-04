@@ -45,3 +45,6 @@ Lai noraidītu priekšlikumu, noklikšķiniet uz **Noraidīt resursu**.
 ![Resursa priekšlikuma pieņemšana](media/RM-how-to-20.png) 
 
 Līdzīgi kā tad, kad vispārējais resursa pieprasījums tiek izpildīts ar nosauktu resursu, vispārējais resurss tiks aizstāts un piešķirtie uzdevumi tiks atjaunināti, izmantojot nosaukto darba grupas dalībnieku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

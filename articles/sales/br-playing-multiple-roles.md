@@ -106,3 +106,6 @@ Izvēršot šī darba grupas dalībnieka ieraksta rindu, abiem uzdevumiem darba 
 ### <a name="estimates-grid"></a>Novērtējumu režģis 
 
 Režģī **Aprēķini** abiem viena resursa piešķīrumiem atšķiras cenas. Vienuma **A uzdevums** resursa piešķīrumam cena tiek noteikta, izmantojot vienuma **Loma** atribūta vērtību laukā **Interesenta konsultēšana**. Vienuma **B uzdevums** tā paša resursa piešķīruma cena tiek noteikta, izmantojot vienuma **Loma** atribūta vērtību laukā **Tīkla tehniķis**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

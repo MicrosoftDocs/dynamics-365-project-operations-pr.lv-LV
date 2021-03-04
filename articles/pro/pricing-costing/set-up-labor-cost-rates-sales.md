@@ -82,3 +82,6 @@ Izmaksu cenrādī, kas paredzēts Fabrikam UK-Robotics, izmaksu likmes var iztei
 | Izstrādātājiem | Fabrikam UK | 115 GBP |
 
 Izmaksu cenrādis var nodrošināt darba likmes vairākās valūtās. Ja projektam tiek ģenerēts izmaksu novērtējums, Project Operations šos izmaksu kursus pārvērtīs projekta valūtā un parādīs to lietotājam. Kad laika ieraksts ir apstiprināts un tiek izveidota faktiskā pašizmaksa, faktiskās izmaksas tiek maksātas šīs atbilstošās lomas cenas rindas valūtā izmaksu cenrādī. Izmaksu faktiskajiem izdevumiem vienā projektā var ierakstīt vairākās valūtās. Tomēr, apkopojot vai summējot faktiskās darba izmaksas projekta līmenī, Project Operations konvertē visas darba izmaksu summas projekta valūtā, kuru lietotājs var skatīt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

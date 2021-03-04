@@ -71,3 +71,6 @@ Pirms uzsākat šo procedūru, pārliecinieties, ka jūsu drošības lomā ir ie
 
 > [!IMPORTANT]
 >  Nevar izdzēst valūtas, kas tiek lietotas citos ierakstos; tās var tikai deaktivizēt. Deaktivizējot valūtas ierakstu, netiek noņemta esošajos ierakstos glabātā informācija par valūtu, piemēram, iespējās vai pasūtījumos. Taču deaktivizētu valūtu Jūs nevarēsiet atlasīt jauniem darījumiem.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

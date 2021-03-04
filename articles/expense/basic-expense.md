@@ -55,3 +55,6 @@ Izdevumus, kas vēl nav iesniegti, var dzēst. Lai dzēstu izdevumu, kas jau ir 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Apstiprinājumu pārskats](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

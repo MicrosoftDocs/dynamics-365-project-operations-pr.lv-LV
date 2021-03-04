@@ -45,3 +45,6 @@ Izmantojot [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-aut
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

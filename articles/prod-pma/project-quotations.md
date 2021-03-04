@@ -41,3 +41,6 @@ Ja klients apstiprina projekta piedāvājumu, varat iekopēt projekta piedāvāj
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

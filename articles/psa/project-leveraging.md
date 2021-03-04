@@ -54,3 +54,6 @@ Darba piepūli un grafika tāmes varat definēt, izmantojot laukus lapas **Proje
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Tāmju importēšana no projekta uz piedāvājumu
 
 Pēc projekta tāmju definēšanas varat tās importēt uz piedāvājuma rindu. Lapas **Piedāvājuma rindas informācija** lentē atlasiet vienumu **Importēt no tāmēm**, lai izveidotu projekta tāmju kopsavilkumu pēc transakcijas tipa, lomas vai uzdevuma līmeņa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Izvietojuma veidam Dynamics 365 Project Operations scenārijiem, kas balstīti u
 - Ir nepieciešams uzņēmuma līmeņa PVN un valūtas kursa programma, lai projektiem izveidotu klientiem paredzētus rēķinus.
 - Starptautiskajiem finanšu pārskatu standartiem (SFPS) atbilstoša projektu uzskaites un ieņēmumu atzīšanas sistēma.
 - Lietojumprogrammas Finance vai Supply Chain Management un uz projektiem balstītu darījumu integrācija.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

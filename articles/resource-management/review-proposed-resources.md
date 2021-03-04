@@ -62,3 +62,6 @@ Tā kā Dynamics 365 Project Operations izmanto programmu Universal Resource Sch
 
 Lai skatītu papildinformāciju par atsevišķu resursu, ar peles labo pogu noklikšķiniet uz tā, lai atvērtu resursa karti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

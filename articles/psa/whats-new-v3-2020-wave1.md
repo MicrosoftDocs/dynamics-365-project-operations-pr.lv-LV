@@ -43,3 +43,6 @@ Turklāt, ja jums ir pielāgoti programmu moduļi, kuros ietvertas visas laika i
 
 ### <a name="currently-extended-time-entry-changes"></a>Pašlaik paplašinātā laika ieraksta izmaiņas
 Lai mazinātu ietekmi uz laika ievadīšanas pašreizējiem lietotājiem, šī lomu maiņa ir vienīgā būtiskā prasība, kas nepieciešama, lai turpinātu izmantot laika ievadni. Ja esat izveidojis pielāgotus skatus vai atdalītas laika ievadīšanas iespējas, lauki **Laika ievadnes iestatījums** ir jāiestata uz pareizo PSA vērtību.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "4080504"
 13. Sarakstā atzīmējiet atlasīto rindu. 
 14. Laukā Izmaksas ievadiet ciparu. 
 15. Noklikšķiniet uz Publicēt. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

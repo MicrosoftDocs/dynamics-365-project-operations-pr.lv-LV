@@ -29,3 +29,6 @@ Lapas **Projekta entītija** sadaļā **Statuss** ir sniegts kopsavilkums par pr
 - Laukā **Komentāri** projektu vadītājs var ievadīt konkrētus komentārus par statusu. 
 - Lauks **Statusa atjaunināšanas laiks** nav rediģējams. Šī lauka vērtība ir laikspiedols, kas norāda, kad pēdējoreiz tika atjaunināts statuss.
 - Lauki **Grafika veiktspēja** un **Izmaksu veiktspēja** tiek iestatīti no izsekošanas režģa. Ja grafika un izmaksu novirze saknes mezglam skatā **Piepūles izsekošana** ir pozitīva, šie lauki tiek atjaunināti uz **Apsteidz**. Ja grafika un izmaksu novirze saknes mezglam ir negatīva, šie lauki tiek iestatīti uz **Atpaliek**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

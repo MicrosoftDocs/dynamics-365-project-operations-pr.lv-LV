@@ -45,3 +45,6 @@ Kad esat izveidojis darba stundu veidni, jums tā jāpiešķir resursiem, lai to
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

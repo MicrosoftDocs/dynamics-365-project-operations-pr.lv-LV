@@ -81,3 +81,6 @@ Jebkādus projekta ietvaros radītos izdevumus, kas nav tieši saistīti ar izt�
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

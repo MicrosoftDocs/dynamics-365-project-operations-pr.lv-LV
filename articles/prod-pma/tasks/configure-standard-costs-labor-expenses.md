@@ -54,3 +54,6 @@ ms.locfileid: "4080501"
 22. Laukā **Cenas noteikšana** ievadiet numuru. Faktiskā pārdošanas cena, kas tiek lietota, kad darbinieks ievada transakcijas izdevumu žurnālā, ir pārdošanas cena ar visaugstāko detalizācijas līmeni. Piemēram, ja ir iestatīta gan vispārējā, gan darbinieka norādītā pārdošanas cena, tiek izmantota darbinieka norādītā pārdošanas cena.  
 23. Atlasiet vienumu **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

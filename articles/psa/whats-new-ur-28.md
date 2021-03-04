@@ -55,3 +55,6 @@ Ir novērstas tālāk norādītās problēmas.
 - Kad tiek izsaukts spraudnis **GetEstimatesForProject**, tiek ģenerēts nulles atsauces izņēmums.
 - **Atzīmēt gatavu rēķinam** atskaites punkta režģī tikai daļēji atjaunina atribūtus, izņemot atribūtu **InvoiceStatus**, kurš tiek atjaunināts.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
