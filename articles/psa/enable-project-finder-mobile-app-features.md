@@ -3,6 +3,7 @@ title: Programmas Project Finder Mobile funkciju iespējošana
 description: Programmas Project Finder Mobile funkciju iespējošana programmā Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132972"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144557"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Programmas Project Finder Mobile funkciju iespējošana (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Jūsu resursi var izmantot programmu Project Finder Mobile savā telefonā ar [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], lai atrastu jaunus darba projektus un atjauninātu savas prasmes.  
+Jūsu resursi var izmantot programmu Project Finder Mobile savā telefonā ar [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], lai atrastu jaunus darba projektus un atjauninātu savas prasmju kopas.  
   
  Programma ir pieejama [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] un [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] tālruņiem.  
-  
- Jums jāiestata pāris opciju parametru iestatījumā jūsu organizācijas vienībai, lai ļautu lietotājiem skatīt projekta resursu prasības un atjauninātu to prasmes.  
+    
+ Lai lietotāji varētu skatīt projekta resursa prasības un atjaunināt prasmes, jūsu organizācijas vienības parametru iestatījumos jābūt atlasītām opcijām.
   
 > [!NOTE]
 >  Project Finder Mobile programma darbojas tikai ar [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (ne ar lokālām instalācijām).  
@@ -57,8 +60,8 @@ Jūsu resursi var izmantot programmu Project Finder Mobile savā telefonā ar [!
   
 |Adresāts|Pasākums|  
 |---------------|-----------|  
-|Projekta vadītājs|-   Kad resurss reģistrējas projektam, izmantojot programmu Project Finder Mobile.|  
-|Resurss|-   Kad cits resurss jau ir izpildījis projekta darbu, kam ir reģistrējies resurss.<br />-   Kad tiek apstiprināts vai noraidīts resursa prasmju apstiprinājuma pieprasījums.<br />-   Kad tiek apstiprināts vai noraidīts resursa reģistrēšanās projektam pieprasījums.|  
+|Projekta vadītājs|- Resurss pierakstās projektā ar Project Finder Mobile programmu.|  
+|Resursa|- Projekta darbu, kam resurss pieteicies, jau ir izpildījis cits resurss.<br />- Prasmju apstiprinājuma pieprasījums ir apstiprināts vai noraidīts.<br />- Pieteikšanās projektam pieprasījums ir apstiprināts vai noraidīts.|  
   
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

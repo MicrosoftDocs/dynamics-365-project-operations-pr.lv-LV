@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080543"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145007"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Rezervējama resursa izmantošana par izcenojuma dimensiju
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Šajā tēmā ir sniegta informācija par rezervējama resursa izmantošanu par izcenojuma dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja savai organizācijai neesat izveidojis jaunu cenas noteikšanas dimensijas risinājumu, izpildiet procedūru tēmā [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Rezervējama resursa pievienošana veidlapām un skatiem
@@ -57,8 +60,8 @@ Atveriet risinājumu pārlūku izcenojumu dimensijas risinājumam un pēc tam no
 ## <a name="set-up-pricing-dimension-field-names"></a>Izcenojumu dimensiju lauku nosaukumu iestatīšana
 
 Ja tabulas **Lomas cena** izcenojuma dimensijas lauka nosaukums ir atšķirīgs no tās lauka nosaukuma jebkurā no citām entītijām, kurā jādarbojas cenai pēc noklusējuma, izcenojuma dimensijas ierakstam ir jābūt informācijai par atšķirīgajiem nosaukumiem.    
-Attiecībā uz rezervējamo resursu entītijai **Projekta darba grupas dalībnieki** lauka nosaukums ( **msdyn_bookableresourceid** ) nedaudz atšķiras no nosaukuma, kas laukam ir entītijā **Lomas cena** ( **msdyn_ bookableresource** ). **Msydn_bookableresource** izcenojuma dimensijas ierakstam ir jābūt par to informācijai. 
-1. Lai to paveiktu, veiciet dubultklikšķi uz rindas režģī **Izcenojumu dimensijas** , lai atvērtu **msdyn_bookableresource** dimensiju lapu.
+Attiecībā uz rezervējamo resursu entītijai **Projekta darba grupas dalībnieki** lauka nosaukums (**msdyn_bookableresourceid**) nedaudz atšķiras no nosaukuma, kas laukam ir entītijā **Lomas cena** (**msdyn_ bookableresource**). **Msydn_bookableresource** izcenojuma dimensijas ierakstam ir jābūt par to informācijai. 
+1. Lai to paveiktu, veiciet dubultklikšķi uz rindas režģī **Izcenojumu dimensijas**, lai atvērtu **msdyn_bookableresource** dimensiju lapu.
 2. Dimensiju lapas cilnē **Saistītie** noklikšķiniet uz **Izcenojumu dimensiju lauku nosaukumi**.
 
  ![Izcenojumu dimensiju lauku nosaukumu cilne](media/PD-fieldname.png)

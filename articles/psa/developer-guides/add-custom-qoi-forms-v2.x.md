@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080638"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144602"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Jaunu pielāgotu entītiju veidlapu pievienošana (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Lauks Tips 
 
-Dynamics 365 Project Service Automation izmanto entītiju Iespēja, Piedāvājums, Pasūtījums un Rēķins lauku **Tips** ( **msdyn\_ordertype** ), lai atšķirtu šo entītiju **darba** versijas no **vienuma** un **servisa** versijām. Šo entītiju darba versijas apstrādā PSA. Liela daļa biznesa loģikas risinājuma klienta pusē un servera pusē ir atkarīga no lauka **Tips**. Tāpēc ir svarīgi, lai lauks tiktu inicializēts ar pareizu vērtību entītiju izveides brīdī. Nepareiza vērtība var izraisīt nepareizu uzvedību, un daļa biznesa loģikas var nedarboties pareizi.
+Dynamics 365 Project Service Automation izmanto entītiju Iespēja, Piedāvājums, Pasūtījums un Rēķins lauku **Tips** (**msdyn\_ordertype**), lai atšķirtu šo entītiju **darba** versijas no **vienuma** un **servisa** versijām. Šo entītiju darba versijas apstrādā PSA. Liela daļa biznesa loģikas risinājuma klienta pusē un servera pusē ir atkarīga no lauka **Tips**. Tāpēc ir svarīgi, lai lauks tiktu inicializēts ar pareizu vērtību entītiju izveides brīdī. Nepareiza vērtība var izraisīt nepareizu uzvedību, un daļa biznesa loģikas var nedarboties pareizi.
 
 ## <a name="automatic-form-switching"></a>Automātiska veidlapu pārslēgšana
 
@@ -47,7 +49,7 @@ Veiciet šīs darbības, lai izveidotu pielāgotu veidlapas **Projekta informāc
     > [!IMPORTANT]
     > Nenoņemiet skriptus. Pretējā gadījumā daļa datu var tikt inicializēti nepareizi.
 
-3. Pārbaudiet, vai veidlapā ir lauks **Tips** ( **msdyn\_ordertype** ). 
+3. Pārbaudiet, vai veidlapā ir lauks **Tips** (**msdyn\_ordertype**). 
 
     > [!IMPORTANT]
     > Nenoņemiet šo lauku. Pretējā gadījumā inicializācijas skripti neizdosies.
@@ -59,7 +61,7 @@ Veiciet šīs darbības, lai izveidotu pielāgotu veidlapas **Projekta informāc
 
     ![Jaunās veidlapas vērtība formId vietrādī URL](media/how-to-add-custom-forms-in-v2.0.png)
 
-5. Izveidojiet **msdyn\_ordertype** kartējumu vērtībai **formId** , rediģējot msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js tīmekļa resursu. Noņemiet no resursa kodu un aizstājiet ar tālāk norādīto kodu.
+5. Izveidojiet **msdyn\_ordertype** kartējumu vērtībai **formId**, rediģējot msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js tīmekļa resursu. Noņemiet no resursa kodu un aizstājiet ar tālāk norādīto kodu.
 
     ```javascript
     define(["require", "exports"], function (require, exports) {

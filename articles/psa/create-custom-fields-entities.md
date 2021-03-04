@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080513"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144872"
 ---
 # <a name="create-custom-fields-and-entities"></a>Pielāgotu lauku un entītiju izveide 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Veiciet tālāk norādītās darbības jebkurā laikā, kad vēlaties izveidot pielāgotu opciju kopu vai entītiju platformā Power Apps.  
 Šajā tēmā aprakstītās procedūras ir jāizpilda, izmantojot Project Service Automation (PSA) tīmekļa saskarni.
@@ -41,18 +43,18 @@ Cenas noteikšanas dimensija var būt opciju kopa vai entītija. Abi ir jāizvei
 
 1. Platformā PSA noklikšķiniet uz **Iestatījumi** > **Risinājumi** un pēc tam veiciet dubultklikšķi uz **\<your organization name> izcenojuma dimensijas**.
 2. Risinājumu pārlūka kreisajā navigācijas rūtī atlasiet vienumu **Entītijas**.
-3. Noklikšķiniet uz **Jauns** , lai izveidotu jaunu entītiju ar nosaukumu **Standarta nosaukums**. Ievadiet pārējo pieprasīto informāciju un pēc tam pieskarieties vienumam **Saglabāt**.
+3. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu entītiju ar nosaukumu **Standarta nosaukums**. Ievadiet pārējo pieprasīto informāciju un pēc tam pieskarieties vienumam **Saglabāt**.
 
 > ![Standarta nosaukuma entītijas definīcija](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Opciju kopas dimensijas 
-Var izveidot divas opciju kopas dimensijas. Izmantojiet sadaļu **Resursa darba vieta** , lai izsekotu cenai opcijās **Mājas** un **Darbā** , kā arī lietotu **Resursa darba stundas** ar vērtībām **Regulārs** un **Virsstundas** , lai pievienotu atzīmi, kad darbs ir pabeigts.
+Var izveidot divas opciju kopas dimensijas. Izmantojiet sadaļu **Resursa darba vieta**, lai izsekotu cenai opcijās **Mājas** un **Darbā**, kā arī lietotu **Resursa darba stundas** ar vērtībām **Regulārs** un **Virsstundas**, lai pievienotu atzīmi, kad darbs ir pabeigts.
 
 
 1. Platformā PSA noklikšķiniet uz **Iestatījumi** > **Risinājumi** un pēc tam veiciet dubultklikšķi uz **\<your organization name> izcenojuma dimensijas**. 
 2. Sadaļas Risinājumu pārlūks kreisajā navigācijas rūtī atlasiet vienumu **Opciju kopas**. 
-3. Noklikšķiniet uz **Jauns** , lai izveidotu jaunu opciju kopu, ievadiet atlikušo nepieciešamo informāciju un pēc tam t uz **Saglabāt**.
+3. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu opciju kopu, ievadiet atlikušo nepieciešamo informāciju un pēc tam t uz **Saglabāt**.
 
 > ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba vietu ](media/Option-set-PD-called-Resource-Work-Location.png)
 
@@ -61,7 +63,7 @@ Var izveidot divas opciju kopas dimensijas. Izmantojiet sadaļu **Resursa darba 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Datu izveide entītijai atbilstošām dimensijām
 
-Entītijas dimensijām datus var izveidot manuāli vai izmantojot Microsoft Excel importēšanas vai pakalpojuma izsaukumus. Izmantojiet šajā procedūrā norādītās darbības, lai izveidotu divu standarta nosaukumus: **Standarta inženieris** un **Vecākais sistēmu inženieris** , izmantojot entītijas dimensiju, kas pamatota sadaļā **Standarta nosaukums**. Ja dati, ko vēlaties izveidot, ir neliela izmēra, kā redzams šajā piemērā, varat izmantot standarta veidlapu.
+Entītijas dimensijām datus var izveidot manuāli vai izmantojot Microsoft Excel importēšanas vai pakalpojuma izsaukumus. Izmantojiet šajā procedūrā norādītās darbības, lai izveidotu divu standarta nosaukumus: **Standarta inženieris** un **Vecākais sistēmu inženieris**, izmantojot entītijas dimensiju, kas pamatota sadaļā **Standarta nosaukums**. Ja dati, ko vēlaties izveidot, ir neliela izmēra, kā redzams šajā piemērā, varat izmantot standarta veidlapu.
 
 1. Noklikšķiniet uz **Detalizētā atrašana**. Atlasiet entītiju **Standarta nosaukums** un pēc tam noklikšķiniet uz **Rezultāti**. Tiks rādītas visas **Standarta nosaukums** entītijas rindas.
 2. Noklikšķiniet uz **Jauns**. Laukā **Nosaukums** ievadiet “Sistēmas inženieris ” un pēc tam noklikšķiniet uz **Saglabāt**.
