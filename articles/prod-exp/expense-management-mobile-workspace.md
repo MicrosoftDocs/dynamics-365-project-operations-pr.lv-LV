@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080603"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960481"
 ---
 # <a name="expense-management-mobile-workspace"></a>Izdevumu pārvaldības mobilā darbvieta
-
-[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par to, kā izmantot **Izdevumu pārvaldības** mobilo darbvietu. Šī darbvieta ļauj lietotājiem tvert un augšupielādēt kvīti, lai to varētu vēlāk pievienot izdevumu atskaitei. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti, un izveidot un pārvaldīt savas izdevumu atskaites. Turklāt apstiprinātāji var izmantot **Izdevumu pārvaldības** mobilo darbvietu, lai skatītu sev piešķirtās izdevumu atskaites un tās vai nu apstiprināt vai noraidīt.
 
@@ -115,12 +113,12 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 3. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlieties fotoattēlu**.
 4. Veiciet vienu no šīm darbībām:
 
-    - Ja atlasījāt **Uzņemt fotoattēlu** , veiciet šīs darbības:
+    - Ja atlasījāt **Uzņemt fotoattēlu**, veiciet šīs darbības:
 
-        1. Jūs pārcels uz kameru jūsu mobilajā ierīcē, lai varat uzņemt kvīts fotoattēlu. Pēc fotoattēla uzņemšanas atlasiet **OK** , lai apstiprinātu fotoattēlu.
+        1. Jūs pārcels uz kameru jūsu mobilajā ierīcē, lai varat uzņemt kvīts fotoattēlu. Pēc fotoattēla uzņemšanas atlasiet **OK**, lai apstiprinātu fotoattēlu.
         2. Pēc izvēles: Ievadiet fotoattēla nosaukumu un ievadiet piezīmes.
 
-    - Ja atlasījāt **Izvēlieties fotoattēlu** , veiciet šīs darbības:
+    - Ja atlasījāt **Izvēlieties fotoattēlu**, veiciet šīs darbības:
 
         1. Atlasiet sarakstā attēlu.
         2. Pēc izvēles: Ievadiet attēla nosaukumu un ievadiet piezīmes.
@@ -130,16 +128,16 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Ātri ievadiet izdevumus, izmantojot Izdevumu pārvaldības mobilo darbvietu
 1. Mobilajā ierīcē atveriet **Izdevumu pārvaldības** darbvietu.
 2. Atlasiet **Ātrā izdevumu ievade**.
-3. Atlasiet izdevuma kategoriju. Redzēsit sarakstu ar izdevumu kategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt** , lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevumu kategorijas vai pārslēdziet uz meklēšanu pēc izdevumu veida.
+3. Atlasiet izdevuma kategoriju. Redzēsit sarakstu ar izdevumu kategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevumu kategorijas vai pārslēdziet uz meklēšanu pēc izdevumu veida.
 4. Ievadiet izdevumu transakcijas datumu.
 5. Pēc izvēles: Ievadiet izdevumu tirgotāju.
 6. Ievadiet izdevuma apmēru.
-7. Atlasiet izdevuma valūtu. Redzēsit valūtu kodu sarakstu, kas tiek ielādēti jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādētas 400 valūtas, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu valūta nav iekļauta sarakstā, atlasiet **Meklēt** , lai veiktu meklēšanu tiešsaistē. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
+7. Atlasiet izdevuma valūtu. Redzēsit valūtu kodu sarakstu, kas tiek ielādēti jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādētas 400 valūtas, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu valūta nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
 8. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlieties fotoattēlu**.
 9. Veiciet vienu no šīm darbībām:
 
-    - Ja atlasāt **Uzņemt fotoattēlu** , jūs pārcels uz mobilās ierīces kameru, lai varat uzņemt kvīts fotoattēlu. Pēc fotoattēla uzņemšanas atlasiet **OK** , lai apstiprinātu fotoattēlu.
-    - Ja atlasāt **Izvēlēties attēlu** , atlasiet sarakstā attēlu.
+    - Ja atlasāt **Uzņemt fotoattēlu**, jūs pārcels uz mobilās ierīces kameru, lai varat uzņemt kvīts fotoattēlu. Pēc fotoattēla uzņemšanas atlasiet **OK**, lai apstiprinātu fotoattēlu.
+    - Ja atlasāt **Izvēlēties attēlu**, atlasiet sarakstā attēlu.
 
 10. Atlasiet **Gatavs**.
 
@@ -165,11 +163,11 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 7. Sarakstā atlasiet vienu vai vairākus izdevumus.
 8. Atlasiet **Gatavs**.
 9. Lai izdevumu atskaitei pievienotu jaunu izdevumu, atlasiet **Jauns izdevums**.
-10. Atlasiet izdevuma kategoriju. Redzēsit sarakstu ar izdevumu kategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt** , lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevumu kategorijas vai pārslēdziet uz meklēšanu pēc izdevumu veida.
+10. Atlasiet izdevuma kategoriju. Redzēsit sarakstu ar izdevumu kategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevumu kategorijas vai pārslēdziet uz meklēšanu pēc izdevumu veida.
 11. Pēc izvēles: Ievadiet izdevumu tirgotāju.
 12. Ievadiet izdevumu transakcijas datumu.
 13. Ievadiet izdevuma apmēru.
-14. Atlasiet izdevuma valūtu. Redzēsit valūtu kodu sarakstu, kas tiek ielādēti jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādētas 400 valūtas, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu valūta nav iekļauta sarakstā, atlasiet **Meklēt** , lai veiktu meklēšanu tiešsaistē. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
+14. Atlasiet izdevuma valūtu. Redzēsit valūtu kodu sarakstu, kas tiek ielādēti jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādētas 400 valūtas, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu valūta nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
 15. Atlasiet **Gatavs**.
 16. Lai izdevumam pievienotu papildinformāciju, atlasiet **Pievienot papildinformāciju**. Pieejamie lauki ir atkarīgi no jūsu uzņēmuma izdevumu pārvaldības konfigurācijas.
 17. Ja saskaņā ar uzņēmuma politiku ir nepieciešama izdevumu kvīts, atlasiet **Kvītis** un pēc tam izpildiet šādas darbības:
@@ -177,67 +175,67 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
     1. Atlasiet **Tvert kvīti** vai **Pievienot kvīti**.
     2. Veiciet vienu no šīm darbībām:
 
-        - Ja atlasījāt **Tvert kvīti** , izpildiet šādas darbības:
+        - Ja atlasījāt **Tvert kvīti**, izpildiet šādas darbības:
 
             1. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlieties fotoattēlu**.
             2. Veiciet vienu no šīm darbībām:
 
-                - Ja atlasījāt **Uzņemt fotoattēlu** , veiciet šīs darbības:
+                - Ja atlasījāt **Uzņemt fotoattēlu**, veiciet šīs darbības:
 
-                    1. Jūs pārcels uz kameru jūsu mobilajā ierīcē, lai varat uzņemt kvīts fotoattēlu. Pēc fotoattēla uzņemšanas atlasiet **OK** , lai apstiprinātu fotoattēlu.
+                    1. Jūs pārcels uz kameru jūsu mobilajā ierīcē, lai varat uzņemt kvīts fotoattēlu. Pēc fotoattēla uzņemšanas atlasiet **OK**, lai apstiprinātu fotoattēlu.
                     2. Pēc izvēles: Ievadiet fotoattēla nosaukumu un ievadiet piezīmes.
 
-                - Ja atlasījāt **Izvēlieties fotoattēlu** , veiciet šīs darbības:
+                - Ja atlasījāt **Izvēlieties fotoattēlu**, veiciet šīs darbības:
 
                     1. Atlasiet sarakstā attēlu.
                     2. Pēc izvēles: Ievadiet attēla nosaukumu un ievadiet piezīmes.
 
             3.  Atlasiet **Gatavs**.
 
-        - Ja atlasījāt **Pievienot kvīti** , izpildiet šādas darbības:
+        - Ja atlasījāt **Pievienot kvīti**, izpildiet šādas darbības:
 
             1.  Atlasiet sarakstā vienu vai vairākus attēlus.
             2.  Atlasiet **Gatavs**.
 
-    3. Atlasiet pogu **Atpakaļ** , lai atgrieztos pie izdevumu informācijas.
+    3. Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu informācijas.
 
 18. Ja saskaņā ar uzņēmuma politiku ir nepieciešami izdevumu viesi, atlasiet **Viesi** un pēc tam izpildiet šādas darbības:
 
-    1. Atlasiet **Viesis** , **Iepriekšējie viesi** vai **Līdzstrādnieki**.
+    1. Atlasiet **Viesis**, **Iepriekšējie viesi** vai **Līdzstrādnieki**.
     2. Veiciet vienu no šīm darbībām:
 
-        - Ja atlasījāt **Viesis** , izpildiet šādas darbības:
+        - Ja atlasījāt **Viesis**, izpildiet šādas darbības:
 
             1. Ievadiet viesa vārdu.
             2. Pēc izvēles: Ievadiet viesa organizāciju un/vai valsti.
             3. Pēc izvēles: Ievadiet viesa amatu.
             4. Atlasiet **Gatavs**.
 
-        - Ja atlasījāt **Iepriekšējie viesi** , izpildiet šādas darbības:
+        - Ja atlasījāt **Iepriekšējie viesi**, izpildiet šādas darbības:
 
-            1. Sarakstā atlasiet vienu vai vairākus iepriekšējos viesus. Jūs redzēsit iepriekšējām izdevumu atskaitēm pievienotu iepriekšējo viesu sarakstu, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu iepriekšējais viesis nav iekļauts sarakstā, atlasiet **Meklēt** , lai veiktu meklēšanu tiešsaistē. Meklējiet pēc vārda vai pārslēdzieties uz meklēšanu pēc organizācijas, valsts vai amata.
+            1. Sarakstā atlasiet vienu vai vairākus iepriekšējos viesus. Jūs redzēsit iepriekšējām izdevumu atskaitēm pievienotu iepriekšējo viesu sarakstu, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu iepriekšējais viesis nav iekļauts sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc vārda vai pārslēdzieties uz meklēšanu pēc organizācijas, valsts vai amata.
             2. Atlasiet **Gatavs**.
 
-        - Ja atlasījāt **Līdzstrādnieki** , izpildiet šādas darbības:
+        - Ja atlasījāt **Līdzstrādnieki**, izpildiet šādas darbības:
 
-            1. Sarakstā atlasiet vienu vai vairākus līdzstrādniekus. Redzēsit sarakstu ar līdzstrādniekiem, kas tiek ielādēts jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu līdzstrādnieks nav iekļauts sarakstā, atlasiet **Meklēt** , lai veiktu meklēšanu tiešsaistē. Meklējiet pēc vārda vai pārslēdzieties uz meklēšanu pēc uzņēmuma vai amata.
+            1. Sarakstā atlasiet vienu vai vairākus līdzstrādniekus. Redzēsit sarakstu ar līdzstrādniekiem, kas tiek ielādēts jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu līdzstrādnieks nav iekļauts sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc vārda vai pārslēdzieties uz meklēšanu pēc uzņēmuma vai amata.
             2. Atlasiet **Gatavs**.
 
-    3. Atlasiet pogu **Atpakaļ** , lai atgrieztos pie izdevumu informācijas.
+    3. Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu informācijas.
 
 19. Ja saskaņā ar uzņēmuma politiku izdevumus nepieciešams uzskaitīt, atlasiet **Uzskaitīt** un pēc tam veiciet šādas darbības:
 
     1. Atlasiet pirmo uzskaitīšanas datumu.
     2. Atlasiet **Pievienot uzskaitījumu**.
-    3. Atlasiet izdevumu uzskaitīšanas apakškategoriju. Redzēsit sarakstu ar izdevumu apakškategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu apakškategorija nav iekļauta sarakstā, atlasiet **Meklēt** , lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevuma apakškategorijas nosaukuma.
+    3. Atlasiet izdevumu uzskaitīšanas apakškategoriju. Redzēsit sarakstu ar izdevumu apakškategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ja jūsu apakškategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevuma apakškategorijas nosaukuma.
     4. Ievadiet uzskaites transakcijas apmēru.
     5. Ja nepieciešams rediģējiet transakcijas datumu.
     6. Atlasiet **Gatavs**.
     7. Atkārtojiet iepriekšējās darbības, līdz esat pabeiguši pievienot visus atlasītā datuma uzskaitījumus.
-    8. Papildu dienām varat atlasīt **Kopēt uz nākamo dienu** , lai kopētu uzskaitījumus uz nākamo dienu. Varat arī atlasīt datumu, kuru uzskaitīt, un pēc tam pievienot uzskaitījumus tāpat, kā to darījāt pirmajam datumam.
-    9. Pēc izdevumu uzskaites pabeigšanas, atlasiet pogu **Atpakaļ** , lai atgrieztos pie izdevumu informācijas.
+    8. Papildu dienām varat atlasīt **Kopēt uz nākamo dienu**, lai kopētu uzskaitījumus uz nākamo dienu. Varat arī atlasīt datumu, kuru uzskaitīt, un pēc tam pievienot uzskaitījumus tāpat, kā to darījāt pirmajam datumam.
+    9. Pēc izdevumu uzskaites pabeigšanas, atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu informācijas.
 
-20. Atlasiet pogu **Atpakaļ** , lai atgrieztos **Izdevumu atskaites** lapā.
+20. Atlasiet pogu **Atpakaļ**, lai atgrieztos **Izdevumu atskaites** lapā.
 21. Atkārtojiet iepriekšējās darbības, līdz ir pievienoti visi izdevumi.
 22. Atlasiet **Iesniegt**.
 23. Ievadiet jebkādus komentārus apstiprinātājam.

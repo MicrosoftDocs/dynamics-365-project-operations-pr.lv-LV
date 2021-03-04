@@ -3,17 +3,18 @@ title: Jaunas vides nodrošināšana
 description: Šajā tēmā ir sniegta informācija par to, kā nodrošināt jaunu Project Operations vidi.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642989"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727799"
 ---
 # <a name="provision-a-new-environment"></a>Jaunas vides nodrošināšana
 
@@ -60,17 +61,15 @@ Veiciet tālāk norādītās darbības, lai iespējotu Project Operations automa
 
 ![Izvietošanas piekrišana](./media/2DeploymentConsent.png)
 
-7. Aizpildiet pārējos obligātos laukus vednī un apstipriniet izvietošanu. Vides nodrošināšanas laiks atškiras atkarībā no vides tipa. Nodrošināšana var ilgt līdz sešām stundām.
+7. Neobligāti — Piemērojiet videi demonstrācijas datus. Dodieties uz **Papildu iestatījumi**, atlasiet **Pielāgot SQL datu bāzes konfigurāciju** un iestatiet **Noteikt datu kopu lietojumprogrammas datu bāzei** uz **Demonstrācija**.
+
+8. Aizpildiet pārējos obligātos laukus vednī un apstipriniet izvietošanu. Laiks vides nodrošināšanai atšķiras atkarībā no vides veida. Nodrošināšana var ilgt līdz sešām stundām.
 
   Pēc veiksmīgas izvietošanas pabeigšanas vide tiks rādīta kā **Izvietota**.
 
-8. Lai apstiprinātu, ka vide ir veiksmīgi izvietota, atlasiet **Pieteikties** un piesakieties vidē, lai apstiprinātu.
+9. Lai apstiprinātu, ka vide ir izvietota sekmīgi, atlasiet **Pieteikties** un piesakieties vidē, lai apstiprinātu.
 
 ![ vides informācija](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Project Operations Finance demonstrācijas datu lietošana (neobligāta darbība)
-
-Lietojiet Project Operations Finance demonstrācijas datus 10.0.13 pakalpojuma laidiena mākoņpakalpojumā viesotajā vidē, kā aprakstīts [šajā rakstā](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Atjauninājumu lietošana Finance vidē
 
@@ -151,6 +150,21 @@ Pēc entītiju lietošanas visi pieejamie kartējumi ir uzskaitīti vidē.
 Atsvaidzināšana aizņems aptuveni 20 minūtes. Kad tā būs pabeigta, saņemsit brīdinājumu.
 
 ![Atsvaidzināšanas apstiprināšana](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Atjauniniet drošības iestatījumus Dataverse Project Operations
+
+1. Dodieties uz Project Operations savā Dataverse vidē. 
+2. Atveriet **Iestatījumi** > **Drošība** > **Drošības lomas**. 
+3. Lapā **Drošības lomas** atlasiet **duālās rakstīšanas programmas lietotājs** un atlasiet cilni **Pielāgotās entitījas**.  
+4. Pārbaudiet, vai lomai ir **Lasīšanas** un **Pievienošanas atļaujas** elementiem:
+      
+      - **Valūtas maiņās kursa veids**
+      - **Uzņēmumu tabula**
+      - **Finanšu kalendārs**
+      - **Virsgrāmata**
+
+5. Pēc drošības lomas atjaunināšanas dodieties uz **Iestatījumi** > **Drošība** > **Darba grupas** un darba grupas skatā **Lokālā uzņēmuma īpašnieks** atlasiet noklusējuma darba grupu.
+6. Atlasiet **Pārvaldīt lomas** un pārbaudiet, vai šai darba grupai tiek lietota drošības privilēģija **duālās rakstīšanas programmas lietotājs**.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Project Operations duālās rakstīšanas kartējumu palaišana
 

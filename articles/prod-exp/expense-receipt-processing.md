@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080602"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960301"
 ---
 # <a name="expense-receipt-processing"></a>Izdevumu kvīšu apstrāde
-
-[!include [banner](../includes/banner.md)]
 
 Izdevumu ievade ir uzlabota, ieviešot rakstzīmju optiskās atpazīšanas (OCR) apstrādi kvītīm. Šis līdzeklis ir paredzēts, lai uzlabotu lietotāju pieredzi, veidojot izdevumu atskaites.
 
@@ -48,12 +46,12 @@ Lai izveidotu izdevumu vai to saskaņotu no kvīts, izpildiet šādas darbības.
   1. Izdevumu atskaites cilnē **Kvītis** pievienojiet kvīti, atlasot **Pievienot kvītis**.
   2. Zem augšupielādētā kvīts attēla ņemiet vērā opcijas **Izveidot** un **Saskaņot**.
 
-      - Atlasiet **Izveidot** , lai izveidotu manuāli ievadīto izdevumu transakciju un aizpildītu no kvīts izvilktās vērtības.
-      - Atlasot **Saskaņot** , sistēma cenšas saskaņot esošu izdevumu ar kvīti.
+      - Atlasiet **Izveidot**, lai izveidotu manuāli ievadīto izdevumu transakciju un aizpildītu no kvīts izvilktās vērtības.
+      - Atlasot **Saskaņot**, sistēma cenšas saskaņot esošu izdevumu ar kvīti.
 
 ## <a name="installation"></a>Instalēšana
 
-Šis līdzeklis darbojas kopā ar līdzekli **Uzlabotas izdevumu atskaites** , lai vienkāršotu izmaksu pieredzi. Šis līdzeklis ir pieejams vismaz 2. līmeņa vidēm, kas ir smilškastes un ražošanas instances.
+Šis līdzeklis darbojas kopā ar līdzekli **Uzlabotas izdevumu atskaites**, lai vienkāršotu izmaksu pieredzi. Šis līdzeklis ir pieejams vismaz 2. līmeņa vidēm, kas ir smilškastes un ražošanas instances.
 
 Lai izmantotu šīs papildu izdevumu iespējas, instalējiet Izdevumu Pārvaldības Pakalpojums pievienojumprogrammu Microsoft programmai Dynamics 365 Finance un ieslēdziet līdzekļus savā instancē. Jūs varat piekļūt pievienojumprogrammai no sava projekta Microsoft Dynamics Lifecycle Services (LCS).
 

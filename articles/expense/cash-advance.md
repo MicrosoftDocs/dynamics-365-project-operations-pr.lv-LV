@@ -3,19 +3,19 @@ title: Naudas avanss
 description: Šajā tēmā ir sniegta informācija par naudas avansiem.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122758"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098893"
 ---
 # <a name="cash-advance"></a>Naudas avanss
 
@@ -24,8 +24,9 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Naudas avanss ļauj darbiniekiem aizņemties naudu no uzņēmuma pirms jebkādu izdevumu rašanās. Kad tiek apstiprināts un izmaksāts pieprasītais naudas avanss, darbinieks var izmantot šo naudu, lai segtu uzņēmuma izdevumus, kas tam varētu rasties. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Naudas avansa pieprasījuma izveide un iesniegšana
+Lai izveidotu jaunu skaidras naudas avansu un skaidras naudas avansa pieprasījumu, veiciet šādas darbības: 
 
-1. Sadaļā **Mani izdevumi** atlasiet **Naudas avansi** > **Jauns**, lai izveidotu jaunu naudas avansu. 
+1. Sadaļā **Mani izdevumi** atlasiet **Skaidras naudas avansi** > **Jauns**. 
 2. Lapā **Jauns naudas avansa pieprasījums** ievadiet izdevumu mērķi un atlasiet vietu, kurā radīsies izdevumi.
 3. Ievadiet pieprasīto summu un valūtu un pēc tam atlasiet vienumu **Saglabāt**. 
 4. Kad esat gatavs iesniegt naudas avansa pieprasījumu, lapā **Naudas avansa pieprasījums** atlasiet vienumu **Darbplūsma** > **Iesniegt**.
@@ -34,7 +35,7 @@ Naudas avanss ļauj darbiniekiem aizņemties naudu no uzņēmuma pirms jebkādu 
 
 Ja naudas avansa pieprasījums nav iesniegts apstiprināšanai, jūs varat to modificēt.
 
-1. Sadaļā **Mani izdevumi: naudas avansi** atrodiet un atlasiet naudas avansu, ko vēlaties rediģēt.
+1. Sadaļā **Mani izdevumi: skaidras naudas avansi** atrodiet un atlasiet to skaidras naudas avansu, kuru vēlaties rediģēt.
 2. Atlasiet **Rediģēt** un veiciet nepieciešamās izmaiņas naudas avansa pieprasījumā. 
 3. Atlasiet **Saglabāt un aizvērt**.
 
@@ -57,7 +58,8 @@ Vadītāji vai lietotāji, kas darbplūsmā konfigurēti kā apstiprinātāji, v
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Izdevumu atskaites iesniegšana par izmaksātu naudas avansu 
 
-Kad izveidojat un iesniedzat izdevumu atskaiti par jau saņemtu naudas avansu, izdevumi tiek automātiski pielāgoti atbilstoši šim avansam. Ja jūsu saņemtais naudas avanss pārsniedz izdevumu summu, jums ir jāatgriež starpība uzņēmumam, izmantojot izmaksu kategoriju **Atgriezt naudu**. Ja uzņēmumam izmaksātais naudas avanss ir mazāks par izdevumu summu, uzņēmumam ir jāatlīdzina jums starpība. 
+Izveidojot un iesniedzot jau saņemta skaidras naudas avansa atskaiti, izdevumi tiks automātiski pielāgoti atbilstoši šim avansam. Ja jūsu saņemtais naudas avanss pārsniedz izdevumu summu, jums ir jāatgriež starpība uzņēmumam, izmantojot izmaksu kategoriju **Atgriezt naudu**. Ja uzņēmuma izmaksātais skaidras naudas avanss ir mazāks par jūsu izdoto summu, uzņēmumam jums ir jāatlīdzina bilance. 
 
 ### <a name="example"></a>Piemērs
-Jūs plānojat doties uz konferenci no Sietlas uz Ņujorku. Jūs izveidojat naudas avansa pieprasījumu par 3000,00 USD, jo esat aprēķinājis, ka konferenču biļetes, lidojumu, viesnīcu, ēdināšanas un taksometru izmaksu kopējā summa būs aptuveni šāda. Jums netiks izmaksāts avanss, ja jūsu vadītājs nebūs apstiprinājis šo pieprasījumu. Pēc jūsu vadītāja apstiprinājuma pieprasītais naudas avanss tiek izmaksāts kā 3000,00 USD jūsu bankas kontā. Pēc tam jūs apmeklējat konferenci. Pēc ceļojuma beigām jūs konstatējat, ka kopējie izdevumi ir tikai 2790,00 USD. Atlasiet vienumu **Nauda** laukā **Maksāšanas metode** un iesniedziet izdevumus par 2790,00 USD. Jūsu iesniegtā izdevumu summa tiek automātiski salīdzināta ar naudas avansa summu 3000,00 USD, kas jums tika aizdota. Tagad jūs esat parādā starpību 210,00 USD (3000,00-2790,00) apmērā uzņēmumam, ko var atgriezt uzņēmumam, izmantojot izdevumu kategoriju **Atgriezt naudu**. 
+Jūs plānojat doties no Sietlas uz Ņujorku, lai apmeklētu konferenci. Jūs izveidojat skaidras naudas avansa pieprasījumu par 3000,00 USD, balstoties novērtētajās izmaksās par konferences biļeti, lidojumiem, viesnīcu, maltītēm un taksometru. Jums netiks samaksāts, kamēr vadītājs neapstiprinās šo pieprasījumu. Pēc jūsu vadītāja apstiprinājuma pieprasītais naudas avanss tiek izmaksāts kā 3000,00 USD jūsu bankas kontā. Pēc tam jūs apmeklējat konferenci. Pēc ceļojuma beigām jūs konstatējat, ka kopējie izdevumi ir tikai 2790,00 USD. Laukā **Maksājuma metode** atlasiet **Skaidrā naudā** un iesniedziet savus izdevumus 2790,00 USD apmērā. Jūsu iesniegtā izdevumu summa tiek automātiski salīdzināta ar naudas avansa summu 3000,00 USD, kas jums tika aizdota. Tagad jūs esat parādā bilanci 210,00 USD (3000,00-2790,00) apmērā, kuru varat atgriezt uzņēmumam, izmantojot izdevumu kategoriju **Atgriezt skaidro naudu**.
+

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700689"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727889"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2020. decembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
@@ -24,6 +24,8 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 - Project Operations Dataverse vides versijā 4.5.0.134
 - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.15
+
+Informāciju par to, kā veikt atjaunināšanu uz šo laidienu, skatiet rakstā [Atjauniniet Project Operations savā Finance vidē](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 Šajā laidienā ir ietverti tālāk minētie līdzekļi.
