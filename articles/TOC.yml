@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada marts\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: "2021.\_gada februāris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: "2021.\_gada janvāris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
@@ -318,52 +320,52 @@
       items:
         - name: Izdevumu pārskats
           href: expense/expense-overview.md
-        - name: Projektu izdevumu pārvaldības pieredze
+        - name: Jauni izdevumi
           items:
-            - name: Konfigurācija un iestatīšana
-              items:
-                - name: Politiku iestatīšana
-                  href: expense/set-up-policies.md
-                - name: Darbplūsmu iestatīšana
-                  href: expense/set-up-workflows.md
-                - name: Deleģēšanas pārvalde
-                  href: expense/manage-delegation.md
-                - name: Izdevumu pārvaldības parametru konfigurēšana
-                  href: expense/configure-expense-management-parameters.md
-                - name: Kredītkaršu iesniegšanas iestatīšana
-                  href: expense/set-up-credit-card-integration.md
-                - name: Izdevumu kategoriju iestatīšana
-                  href: expense/set-up-expense-categories.md
-            - name: Darbs ar personiskajiem izdevumiem izmaksu atskaitē
-              href: expense/personal-expenses-expense-report.md
-            - name: Izdevumu atskaišu iestatīšana
-              items:
-                - name: Sadalījums uz izdevumu atskaitēm
-                  href: expense/distributions-expense-report.md
-            - name: Izdevumu atskaišu pārskati
-              items:
-                - name: Izdevumu atskaites un vairāki apstiprinātāji
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Izdevumu atskaišu publicēšana
-              href: expense/posting-expense-reports.md
-            - name: Ceļojuma pieprasījums
-              href: expense/travel-requisition.md
-            - name: Naudas avanss
-              href: expense/cash-advance.md
-            - name: Dienasnauda
-              href: expense/per-diems.md
-            - name: Finanšu pārvaldība
-              items:
-                - name: PVN atmaksa
-                  href: expense/vat-recovery.md
-            - name: Jauni izdevumi
-              items:
-                - name: Atjaunotas izdevumu atskaites
-                  href: expense/expense-reports-reimagined.md
-                - name: 'Ieņēmumu saskaņošana ar izdevumiem, izmantojot OCR'
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Mobile Expense pārvaldība
-              href: expense/expense-using-mobile.md
+            - name: Atjaunotas izdevumu atskaites
+              href: expense/expense-reports-reimagined.md
+            - name: "Apliecinājuma tveršana, izmantojot\_OCR"
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfigurācija un iestatīšana
+          items:
+            - name: Politiku iestatīšana
+              href: expense/set-up-policies.md
+            - name: Darbplūsmu iestatīšana
+              href: expense/set-up-workflows.md
+            - name: Deleģēšanas pārvalde
+              href: expense/manage-delegation.md
+            - name: Izdevumu pārvaldības parametru konfigurēšana
+              href: expense/configure-expense-management-parameters.md
+            - name: Kredītkaršu iesniegšanas iestatīšana
+              href: expense/set-up-credit-card-integration.md
+            - name: Izdevumu kategoriju iestatīšana
+              href: expense/set-up-expense-categories.md
+        - name: Personiskie izdevumi
+          href: expense/personal-expenses-expense-report.md
+        - name: Starpuzņēmumu izdevumi
+          href: prod-exp/intercompany-expense.md
+        - name: Izdevumu atskaišu iestatīšana
+          items:
+            - name: Sadalījums uz izdevumu atskaitēm
+              href: expense/distributions-expense-report.md
+        - name: Izdevumu atskaišu pārskati
+          items:
+            - name: Izdevumu atskaites un vairāki apstiprinātāji
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Izdevumu atskaišu publicēšana
+          href: expense/posting-expense-reports.md
+        - name: Ceļojuma pieprasījums
+          href: expense/travel-requisition.md
+        - name: Naudas avanss
+          href: expense/cash-advance.md
+        - name: Dienasnauda
+          href: expense/per-diems.md
+        - name: Izdevumu mobilā programma
+          href: expense/expense-using-mobile.md
+        - name: Finanšu pārvaldība
+          items:
+            - name: PVN atmaksa
+              href: expense/vat-recovery.md
     - name: Apstiprinājumi
       items:
         - name: Apstiprinājumu pārskats
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada marta jaunumi\_— Lite izvietošana"
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: 2021. gada februāra jaunumi — Lite izvietošana
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: 2021. gada janvāra jaunumi — Lite izvietošana
@@ -894,44 +898,52 @@
   items:
     - name: Izdevumu pārvaldības pārskats
       href: prod-exp/expense-management.md
-    - name: Atjaunotas izdevumu atskaites
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Izdevumu pārvaldības plānošana
-      href: prod-exp/plan-expense-management.md
-    - name: Izdevumu pārvaldības parametri
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Izdevumu pārvaldības mobilā darbvieta
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Izdevumu pārvaldības darbplūsmu iestatīšana
-      href: prod-exp/expense-workflows.md
-    - name: Izdevumu pārvaldības darbplūsma
-      href: prod-exp/expense-workflow.md
-    - name: Izdevumu deleģēšanas pārvalde
-      href: prod-exp/manage-expense-delegation.md
-    - name: Izdevumu kvīšu apstrāde
-      href: prod-exp/expense-receipt-processing.md
-    - name: Kredītkaršu transakciju importēšana un uzturēšana
-      href: prod-exp/import-credit-card.md
-    - name: Sadalījums uz izdevumu atskaitēm
-      href: prod-exp/expense-report-distributions.md
+    - name: Jauni izdevumi
+      items:
+        - name: Atjaunotas izdevumu atskaites
+          href: expense/expense-reports-reimagined.md
+        - name: "Apliecinājuma tveršana, izmantojot\_OCR"
+          href: expense/match-receipt-expense-ocr.md
+    - name: Konfigurācija un iestatīšana
+      items:
+        - name: Politiku iestatīšana
+          href: expense/set-up-policies.md
+        - name: Darbplūsmu iestatīšana
+          href: expense/set-up-workflows.md
+        - name: Deleģēšanas pārvalde
+          href: expense/manage-delegation.md
+        - name: Izdevumu pārvaldības parametru konfigurēšana
+          href: expense/configure-expense-management-parameters.md
+        - name: Kredītkaršu iesniegšanas iestatīšana
+          href: expense/set-up-credit-card-integration.md
+        - name: Izdevumu kategoriju iestatīšana
+          href: expense/set-up-expense-categories.md
+    - name: Personiskie izdevumi
+      href: expense/personal-expenses-expense-report.md
     - name: Starpuzņēmumu izdevumi
       href: prod-exp/intercompany-expense.md
-    - name: Izdevumu politiku definēšana
-      href: prod-exp/travel-expense-policies.md
-    - name: Izdevumu pārskatu skatīšana
-      href: prod-exp/view-expense-report.md
-    - name: Izdevumu atskaites publicēšana
-      href: prod-exp/post-expense.md
-    - name: Izdevumu atskaites un vairāki apstiprinātāji
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: PVN atmaksa modulī Izdevumu pārvaldība
-      href: prod-exp/VAT-expense-report.md
-    - name: Dienasnaudas noteikumi
-      href: prod-exp/per-diem.md
-    - name: Ceļojuma pieprasījumi
-      href: prod-exp/travel-req.md
-    - name: Personiskie izdevumi izmaksu atskaitē
-      href: prod-exp/personal-expenses.md
+    - name: Izdevumu atskaišu iestatīšana
+      items:
+        - name: Sadalījums uz izdevumu atskaitēm
+          href: expense/distributions-expense-report.md
+    - name: Izdevumu atskaišu pārskati
+      items:
+        - name: Izdevumu atskaites un vairāki apstiprinātāji
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Izdevumu atskaišu publicēšana
+      href: expense/posting-expense-reports.md
+    - name: Ceļojuma pieprasījums
+      href: expense/travel-requisition.md
+    - name: Naudas avanss
+      href: expense/cash-advance.md
+    - name: Dienasnauda
+      href: expense/per-diems.md
+    - name: Izdevumu mobilā programma
+      href: expense/expense-using-mobile.md
+    - name: Finanšu pārvaldība
+      items:
+        - name: PVN atmaksa
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: "Project\_Service\_Automation"
@@ -940,10 +952,16 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidienu grafiks"
           href: psa/version-history-ps.md
+        - name: "Update\_Release\_29,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-29.md
+        - name: '28.6 izlaiduma V3, Hotfix atjauninājuma vai izmaiņu jaunumi'
+          href: psa/whats-new-ur-28-6.md
         - name: '28.5 izlaiduma V3, Hotfix atjauninājuma vai izmaiņu jaunumi'
           href: psa/whats-new-ur-28-5.md
         - name: "Update\_Release\_28,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-28.md
+        - name: '27.6 izlaiduma V3, Hotfix atjauninājuma vai izmaiņu jaunumi'
+          href: psa/whats-new-ur-27-6.md
         - name: '27.5 izlaiduma V3, Hotfix atjauninājuma vai izmaiņu jaunumi'
           href: psa/whats-new-ur-27-5.md
         - name: "Update\_Release\_27,\_V3 jaunumi vai izmaiņas"
