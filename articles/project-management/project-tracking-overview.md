@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286617"
 ---
 # <a name="project-tracking-overview"></a>Projekta izsekošanas pārskats
 
@@ -23,7 +23,7 @@ Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Da�
 
 ## <a name="effort-tracking-view"></a>Piepūles izsekošanas skats
 
-Skats **Piepūles izsekošana** izseko uzdevumu progresu grafikā, salīdzinot faktiskās ieguldījuma stundas, kas tiek patērētas uzdevumam, ar plānotajām ieguldījuma stundām. Lai aprēķinātu izsekošanas metriku, programmatūrā Dynamics 365 Project Operations tiek izmantotas tālāk norādītās formulas.
+Skats **Piepūles izsekošana** izseko uzdevumu progresu grafikā, salīdzinot faktiskās ieguldījuma stundas, kas tiek patērētas uzdevumam, ar plānotajām ieguldījuma stundām. Dynamics 365 Project Operations, lai aprēķinātu izsekošanas metriku, programmatūrā, izmanto tālāk norādītās formulas.
 
 - **Progresa procentuālā vērtība**: līdz šim veiktā piepūle + novērtējums beigu stadijā (EAC) 
 - **Novērtējums līdz pabeigšanai (ETC)**: Plānotā piepūle – Līdz šim faktiski patērētā piepūle 

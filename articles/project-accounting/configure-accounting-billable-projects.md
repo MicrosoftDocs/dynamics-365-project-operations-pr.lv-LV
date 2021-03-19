@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287652"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurēt apmaksājamo projektu uzskaiti
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dynamics 365 Project Operations atbalsta dažādas uzskaites iespējas apmaksājamiem projektiem, kas ietver laika un materiālu un fiksētas cenas darījumus.
+Dynamics 365 Project Operations atbalsta dažādas grāmatvedības opcijas apmaksājamiem projektiem, kas ietver laika un materiālu, un fiksētas cenas transakcijas.
 
 - **Laika un materiālu darījumi**: par šiem darījumiem tiek izrakstīts rēķins kā par darba norisēm, pamatojoties uz stundu patēriņu, izdevumiem, elementiem vai maksām projektā. Šīs darījumu izmaksas var saskaņot ar katra darījuma ieņēmumiem, un par projektu izrakstīts rēķins kā par darba norisēm. Projekta ieņēmumus var arī uzkrāt laikā, kad notiek darījums. Rēķinu izrakstīšanas laikā tiek atzīti ieņēmumi un, ja piemērojams, uzkrātie ieņēmumi tiek atgriezti.
 - **Fiksētas cenas darījumi**: par šiem darījumiem tiek izrakstīts rēķins atbilstoši norēķinu grafikam, kura pamatā ir projekta līgums. Fiksētas cenas darījumu ieņēmumus var atpazīt rēķinu izrakstīšanas vai aprēķināšanas laikā un periodiski grāmatot, izmantojot metodi **Pabeigts līgums** vai **Pabeigtie procenti**.

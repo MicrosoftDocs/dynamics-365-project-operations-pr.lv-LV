@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595513"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287427"
 ---
 # <a name="create-intercompany-transactions"></a>Starpuzņēmumu darbību izveide
 
@@ -69,7 +69,7 @@ Līga Krūmiņa, GBPM izstrādātāja, reģistrē 10 stundu darbu USPM Adventur
     5. Izveidojiet jaunu projektu un saistiet to ar šo līguma rindu.
 4. Pierakstieties kā resurss **Līga Krūmiņa**. Dodieties uz **Projekti** > **Laika ieraksti** un izveidojiet laika ierakstu Adventure Works projektam.
 5. Pierakstieties kā projekta vadītājs. Dodieties uz **Projekti** > **Apstiprinājumi** un apstipriniet Līgas Krūmiņas reģistrēto laika ieraksta darbību.
-6. Pārejiet uz Adventure Works projektu un atlasiet **Saistītie** > **Faktiskie dati**. Tiek izveidotas tālāk norādītās faktiskās darbības.
+6. Pārejiet uz Adventure Works projektu un atlasiet **Saistītie** > **Faktiskie**. Tiek izveidotas tālāk norādītās faktiskās darbības.
 
 | **Transakcijas veids** | **Cenrādis** | **Transakcijas valūta** | **Summa** |
 | --- | --- | --- | --- |

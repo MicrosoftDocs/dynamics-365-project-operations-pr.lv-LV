@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133391"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287247"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrācijas žurnāls risinājumā Project Operations
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Laika un izdevumu ieraksti veido **Faktiskās** transakcijas, kas atspoguļo projekta pabeigto darbu operatīvo skatu. Dynamics 365 Project Operations nodrošina grāmatvežus ar rīku, lai pārskatītu transakcijas un vajadzības gadījumā pielāgotu uzskaites atribūtus. Kad pārskatīšana un pielāgojumi ir pabeigti, darbības tiek grāmatotas Projekta apakšgrāmatā un Virsgrāmatā. Grāmatvedis var veikt šīs darbības, izmantojot žurnālu **Project Operations integrācija** (**Dynamics 365 Finance** > **Projekta pārvaldība un grāmatvedība** > **Žurnāli** > **Project Operations integrācijas** žurnāls).
+Laika un izdevumu ieraksti veido **Faktiskās** transakcijas, kas atspoguļo projekta pabeigto darbu operatīvo skatu. Dynamics 365 Project Operations nodrošina grāmatvežus ar rīku, lai pārskatītu transakcijas un vajadzības gadījumā pielāgotu uzskaites atribūtus. Kad pārskatīšana un pielāgojumi ir pabeigti, darbības tiek grāmatotas Projekta apakšgrāmatā un Virsgrāmatā. Grāmatvedis var veikt šīs darbības, izmantojot žurnālu **Project Operations integrācija** (**Dynamics 365 Finance** > **Projekta pārvaldība un grāmatvedība** > **Žurnāli** > **Project Operations integrācijas** žurnāls).
 
 ![Integrācijas žurnāla plūsma](./media/IntegrationJournal.png)
 
@@ -28,9 +28,9 @@ Laika un izdevumu ieraksti veido **Faktiskās** transakcijas, kas atspoguļo pro
 Ieraksti Project Operations integrācijas žurnālā tiek izveidoti, izmantojot periodisku procesu **Importēšana no Izstādīšanas tabulas**. Šo procesu var izpildīt, dodoties uz **Dynamics 365 Finance** > **Projektu pārvaldība un grāmatvedība** > **Periodiski** > **Project Operations integrācija** > **Importēšana no izstādīšanas tabulas**. Procesu var izpildīt interaktīvi vai pēc nepieciešamības konfigurēt procesu, lai tas tiktu izpildīts fonā.
 
 Veicot periodisku procesu, tiek atrasti visi faktiskie dati, kas vēl nav pievienoti Project Operations integrācijas žurnālam. Tiek izveidota žurnāla rinda katrai faktiskajai darbībai.
-Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērtību, kas ir atlasīta **Project Operations integrācijas žurnāla perioda vienībā** (**Finanses** > **Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Projekta pārvaldība un uzskaite parametri**, **Project Operations cilnē Dynamics 365 Customer Engagement**). Šī lauka iespējamās vērtības ir šādas:
+Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērtību, kas ir atlasīta laukā **Perioda vienība Project Operations integrācijas žurnālā** (**Finanses** > **Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Projekta pārvaldība un uzskaites parametri**, **Project OperationsDynamics 365 Customer Engagement** cilne). Šī lauka iespējamās vērtības ir šādas:
 
-  - _*Dienas**: faktiskie dati ir grupēti pēc darbības datuma. Katrai dienai tiek izveidots atsevišķs žurnāls.
+  - **Dienas**: faktiskie dati ir grupēti pēc darbības datuma. Katrai dienai tiek izveidots atsevišķs žurnāls.
   - **Mēneši**: faktiskie dati ir grupēti pēc kalendāra mēneša. Katram mēnesim tiek izveidots atsevišķs žurnāls.
   - **Gadi**: faktiskie dati ir grupēti pēc kalendāra gada. Katram gadam tiek izveidots atsevišķs žurnāls.
   - **Visi**: vienā integrācijas žurnālā tiek iekļauti visi faktiskie darījumi. Ja pēc periodiskā procesa izpildes žurnāls nav pieejams, piemēram, ja žurnāls ir darījumu grāmatošanas procesā, tiek izveidots jauns žurnāls.

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131712"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287067"
 ---
 # <a name="expense-estimates"></a>Izdevumu tāmes
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Papildus resursu aprēķinu definēšanai risinājums Dynamics 365 Project Operations ļauj Projekta vadītājiem katram projektam definēt projekta izdevumus. Katru izdevumu elementu var saistīt ar konkrētu projekta uzdevumu vai izdevumu kategoriju. Izdevumu kategorijas parasti tiek definētas organizācijas līmenī. Katras izdevumu kategorijas cenu noteikšana parasti tiek definēta šādā hierarhijā:
+Līdz ar resursu aprēķinu definēšanu Dynamics 365 Project Operations projekta vadītājiem ļauj definēt projekta izmaksas katram projektam. Katru izdevumu elementu var saistīt ar konkrētu projekta uzdevumu vai izdevumu kategoriju. Izdevumu kategorijas parasti tiek definētas organizācijas līmenī. Katras izdevumu kategorijas cenu noteikšana parasti tiek definēta šādā hierarhijā:
 
 - Organizācija
 - Klients
