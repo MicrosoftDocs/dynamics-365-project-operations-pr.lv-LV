@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175900"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290053"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Pierakstīšanās priekšskatījuma abonementam — Lite 
 
-Šajā tēmā ir paskaidrots, kā abonēt priekšskatījuma partnera piedāvājumu un izvietot Dynamics 365 Project Operations Lite izvietošanu — pāreju uz proforma rēķinu izrakstīšanu.
+Šajā tēmā izskaidrots, kā abonēt priekšskatījuma partnera piedāvājumu un izvietot Dynamics 365 Project Operations lite izvietošanu — darījumu, lai izrakstītu rēķinu proformai.
 
 > [!NOTE]
 > Šis process tiks mainīts nākamajā Project Operations laidienā.
@@ -32,17 +32,17 @@ ms.locfileid: "4175900"
 
 Kad saņemsit [priekšskatījuma pieprasījuma](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) apstiprinājumu, e-pastā saņemsit divus piedāvājumus no Microsoft. Šie piedāvājumi jums ļauj izvietot Project Operations priekšskatījumu:
 
-- Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija
+- Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija
 - Office 365 Project Operations — priekšskatījuma izmēģinājumversija
 
 > [!IMPORTANT]
 > Šis uzdevums organizācijā ir jāveic tikai vienai personai, t.i., nomnieka administratoram. Ja neesat šī laidiena abonents, nogaidiet, līdz organizācija būs reģistrējusies un būsit saņēmis savus lietotāja akreditācijas datus.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija 
 
 Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lietotāja darba kontu nomniekā, kurā vēlaties veikt Project Operations priekšskatīšanu.
 
-1. Izpērciet pirmo piedāvājuma kodu, **Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija**, ielīmējot to pārlūka URL.
+1. Izmantojiet pirmo piedāvājuma kodu **Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija**, ielīmējot to pārlūkprogrammas URL.
 
 ![Izmantot piedāvājumu](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Veiciet tās pašas darbības kā ar pirmo piedāvājuma kodu. Pārliecinieties,
 
 ![Licenču piešķiršana](./media/15AssignLicenses.png)
 
-3. Pārbaudiet, vai ir atlasītas **Dynamics 365 Project Operations (CRM) priekšskatījums** un **Office 365 Project Operations — priekšskatījums** licences. 
+3. Pārbaudiet, vai ir atlasītas licences **Dynamics 365 Project Operations (CRM) priekšskatījums** un **Office 365 Project Operations — priekšskatījums**. 
 4. Atlasiet **Saglabāt izmaiņas**.
 
 ## <a name="create-a-new-cds-environment"></a>Jaunas CDS vides izveide
@@ -84,7 +84,7 @@ Veiciet tās pašas darbības kā ar pirmo piedāvājuma kodu. Pārliecinieties,
 
 ![Pievienot datu bāzi](./media/20CreateEnvironment1.png)
 
-4. Pēc tam, kad vide ir izveidota, instalējiet risinājumu **Microsoft Dynamics 365 Project Operations**. 
+4. Kad vide ir izveidota, instalējiet **Microsoft Dynamics 365 Project Operations** risinājumu. 
 
 ![Risinājuma instalēšana](./media/21InstallSolution.png)
 

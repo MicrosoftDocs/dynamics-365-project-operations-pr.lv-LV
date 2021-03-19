@@ -1,6 +1,6 @@
 ---
 title: Pašreizējās
-description: Šajā tēmā ir sniegta informācija par to, kā strādāt ar faktiskajiem datiem Microsoft Dynamics 365 Project Operations.
+description: Šajā tēmā ir sniegta informācija par to, kā veikt darbības ar faktiskajiem darbiem programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126318"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291808"
 ---
-# <a name="actuals"></a>Pašreizējās 
+# <a name="actuals"></a>Faktiskie dati 
 
 _**Attiecas uz:** Project Operations scenārijiem, kas kas nav balstīti uz resursiem/krājumiem_
 
@@ -70,7 +70,7 @@ Izdevumu ierakstiem kategorijā valstīta cenas par vienību ievade nav pieejama
 Varat izmantot ierakstu žurnālus, lai ierakstītu izmaksas vai ieņēmumus materiālu, maksu, laika, izdevumu vai nodokļu transakciju klasēs. Žurnālus var izmantot šādiem mērķiem:
 
 - Reģistrēt materiālu un pārdošanas faktiskās izmaksas projektā.
-- Pārvietot darījuma faktiskos datus no citas sistēmas uz Microsoft Dynamics 365 Project Operations.
+- Pārvietojiet transakciju faktiskos datus no citas sistēmas uz Microsoft Dynamics 365 Project Operations.
 - Reģistrēt izmaksas, kas notikušas citā sistēmā. Šīs izmaksas var ietvert iegādes vai apakšuzņēmēju izmaksas.
 
 > [!IMPORTANT]

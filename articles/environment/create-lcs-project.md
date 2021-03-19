@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 463c1e206090b8c85ff67f4fc38a15932749a834
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175630"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290233"
 ---
 # <a name="start-a-new-lcs-project"></a>Jauna LCS projekta sākšana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Izmantojiet Lifecycle Services (LCS), lai pārvaldītu savas Dynamics 365 Project Operations vides. Lai izveidotu jaunu LCS projektu, izpildiet tālāk aprakstītās darbības.
+Izmantojiet Lifecycle Services (LCS), lai pārvaldītu savu Dynamics 365 Project Operations vidi. Lai izveidotu jaunu LCS projektu, izpildiet tālāk aprakstītās darbības.
 
 1. Dodieties uz sadaļu [LCS](https://lcs.dynamics.com/Logon/Index) un atlasiet vienumu **Pieteikties**, izmantojot kontu, ko izmantojāt abonementam.
 2. Ja tiek piedāvāts, piekrītiet juridiskajiem un konfidencialitātes nosacījumiem.
