@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177610"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277392"
 ---
 # <a name="sales-process-overview"></a>Pārdošanas norises pārskats
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Pārdošanas procesi, kas tiek izmantoti uz projektu balstītā organizācijā, atšķiras no pārdošanas procesiem, kas tiek izmantoti uz preci balstītā organizācijā. Tas notiek tāpēc, ka uz projektu balstītu organizāciju pārdošanas cikli ir garāki un tiem ir nepieciešamas pielāgotas novērtēšanas metodes, lai analizētu un izveidotu piedāvājumus katram darījumam. Dynamics 365 Project Operations izmanto daļu no šīs funkcionalitātes, kas tiek izmantota pārdošanas procesā:
+Pārdošanas procesi, kas tiek izmantoti uz projektu balstītā organizācijā, atšķiras no pārdošanas procesiem, kas tiek izmantoti uz preci balstītā organizācijā. Tas notiek tāpēc, ka uz projektu balstītu organizāciju pārdošanas cikli ir garāki un tiem ir nepieciešamas pielāgotas novērtēšanas metodes, lai analizētu un izveidotu piedāvājumus katram darījumam. Dynamics 365 Project Operations izmanto daļu no tālāk norādītās funkcionalitātes, kas tiek izmantota pārdošanas procesā:
 
 - Lai izsekotu pārdošanas procesam, tiek izmantots Interesenta ieraksts.
 - Kvalificētie interesenti tiek izsekoti kā iespējas.

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080580"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271047"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Projekta budžetu prognožu modeļu izveide 
 
@@ -35,20 +35,20 @@ ms.locfileid: "4080580"
 > Prognožu modelim, kas tiek izmantots budžeta kontrolei, nevar būt apakšmodelis, vai tas nevar tikt izmantots kā apakšmodelis.
 
 1. Atlasiet **Projektu vadība un grāmatvedība** > **Iestatījumi** > **Prognozes**  > **Prognožu modeļi**.
-2. Atlasiet **Jauns** , lai izveidotu jaunu prognožu modeli, un pēc tam ievadiet modeļa ID numuru un jaunā modeļa nosaukumu. 
-3. Opciju **Apturēts** iestatiet uz **Jā** , lai neļautu veikt izmaiņas prognožu modeļa prognožu rindās. 
+2. Atlasiet **Jauns**, lai izveidotu jaunu prognožu modeli, un pēc tam ievadiet modeļa ID numuru un jaunā modeļa nosaukumu. 
+3. Opciju **Apturēts** iestatiet uz **Jā**, lai neļautu veikt izmaiņas prognožu modeļa prognožu rindās. 
 4. Ja prognožu rindām, ar kurām ir saistīts modelis, ir jāģenerē naudas plūsmas prognozes virsgrāmatā, vienumu **Iekļaut naudas plūsmas prognozēs** iestatiet uz **Jā**. 
 5. Lai projekta datumu izmantotu kā rēķina datumu, vienumu **Prognozēt rēķina datumu** iestatiet uz **Jā**. 
 6. Laukā **Budžeta tips** atlasiet vienu no šiem modeļu tipiem.
 
-   - **Sākotnējais budžets** : izmantojiet sākotnējās budžeta summas, kas ir iestatītas, izveidojot un aprēķinot sākotnējo budžetu.
-   - **Atlikušais budžets** : atlikušās budžeta summas izmantojiet projekta dzīves laikā. Bilances šajā prognožu modelī samazina faktiskie darījumi un palielina vai samazina budžeta pārskatījumi.
+   - **Sākotnējais budžets**: izmantojiet sākotnējās budžeta summas, kas ir iestatītas, izveidojot un aprēķinot sākotnējo budžetu.
+   - **Atlikušais budžets**: atlikušās budžeta summas izmantojiet projekta dzīves laikā. Bilances šajā prognožu modelī samazina faktiskie darījumi un palielina vai samazina budžeta pārskatījumi.
    - **Pārnesumi** : izmantojiet pārnesumu budžeta summas projektam. Pārnešana ir neobligāts process, ko var palaist, lai pārnestu neizmantotās budžeta summas no viena finanšu gada uz citu.
 
 7. Pēc nepieciešamības iestatiet tālāk minētās opcijas.
 
    - Lai projekta datumu izmantotu kā rēķina datumu, iespējojiet vienumu **Prognozēt rēķina datumu**.
-   - Iespējojiet **Prognozēt ar NP** , lai prognozētu, pamatojoties uz notiekošo darbu (NP), un pēc tam atlasiet NP tipu. 
+   - Iespējojiet **Prognozēt ar NP**, lai prognozētu, pamatojoties uz notiekošo darbu (NP), un pēc tam atlasiet NP tipu. 
    - Noklusējuma **budžeta tipu** var atstāt kā **Nav** vai var ievadīt jaunu tipu. Pēc ieraksta maiņas budžeta tipu nevar mainīt.     
     > [!NOTE]
     > Ja mainīsit noklusējuma budžeta tipu, visas citas opcijas būs nepieejamas atjauninājumiem un šo budžeta modeli nevarēs atkārtoti izmantot. 
