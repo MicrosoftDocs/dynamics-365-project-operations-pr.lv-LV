@@ -17,11 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b14a22ac728e969944e014c9a6399841f1e9fc4a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: daa919593f08a863d47002c223a83899a777830b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132130"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5292123"
 ---
-# <a name="whats-new-in-project-operations"></a><span data-ttu-id="4ec71-103">Jaunumi Projekta darbībās</span><span class="sxs-lookup"><span data-stu-id="4ec71-103">What's new in Project operations</span></span>
+# <a name="whats-new-in-project-operations"></a><span data-ttu-id="d80ca-103">Jaunumi Projekta darbībās</span><span class="sxs-lookup"><span data-stu-id="d80ca-103">What's new in Project operations</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
