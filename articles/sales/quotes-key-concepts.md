@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277527"
 ---
 # <a name="quotes---key-concepts"></a>Piedāvājumi — pamata koncepti
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Programmā Dynamics 365 Project Operations ir divu veidu piedāvājumi — projektu un pārdošanas. Abi piedāvājumu veidi atšķiras šādi:
+Programmā Dynamics 365 Project Operations ir divu tipu piedāvājumi — projekta piedāvājumi un pārdošanas piedāvājumi. Abi piedāvājumu veidi atšķiras šādi:
 
 - **Rindas elementu režģi**: Pārdošanas piedāvājumā rindas elementiem ir tikai viens režģis. Projekta piedāvājumā rindas elementiem ir divi režģi. Viens režģis ir projekta rindām, bet otrs — produktu rindām.
 - **Aktivizēšana un pārskatīšana**: Pārdošanas piedāvājumu atbalsta aktivizēšana un pārskatīšana. Šie procesi netiek atbalstīt projekta piedāvājumā.

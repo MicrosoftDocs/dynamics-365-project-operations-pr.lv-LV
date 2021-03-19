@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277842"
 ---
 # <a name="manage-project-based-opportunities"></a>Projekta iespēju pārvaldība
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 Uzņēmumiem, kas strādā ar projektiem, piegādes operācijas parasti ir izvērstas vairākās valstīs un ģeogrāfiskajās atrašanās vietās. Projekta izpildes un piegādes izmaksas var mainīties atkarībā no tā, kāda ģeogrāfiskā vieta vai nodaļa pārvalda piegādi. Savukārt tas var ietekmēt darījuma uzcenojumu. Projekta pakalpojumu piegāde parasti ietver daudz cilvēkresursu nodaļas laika, ievērojamas izmaksas par ceļojumiem, materiālu izmaksas un citus izdevumus.
 
-Projekta iespējas risinājumā Dynamics 365 Project Operations ir izstrādātas ar paplašinājumiem risinājumā Dynamics 365 Sales. Šajā tēmā ir sniegta detalizēta informācija par dažādiem laukiem un biznesa loģiku, kas ir iekļauta papildu funkcionalitātē un kas ir nepieciešama uzņēmumiem, kas strādā projektiem, lai pārvaldītu projektu iespējas.
+Projekta iespējas programmā ir Dynamics 365 Project Operations izstrādātas ar paplašinājumiem programmai Dynamics 365 Sales. Šajā tēmā ir sniegta detalizēta informācija par dažādiem laukiem un biznesa loģiku, kas ir iekļauta papildu funkcionalitātē un kas ir nepieciešama uzņēmumiem, kas strādā projektiem, lai pārvaldītu projektu iespējas.
 
 ## <a name="view-all-project-based-opportunities"></a>Visu projekta iespēju skatīšana
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279237"
 ---
 # <a name="schedule-assistant-overview"></a>Plānošanas asistenta pārskats
 
@@ -25,7 +25,7 @@ Kad ir identificēti piemēroti resursi, resurss vai projekta vadītājs var rez
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Plānošanas palīgs ir risinājuma Universal Resource Scheduling daļa. Šis risinājums ir iekļauts un instalēts kopā ar Dynamics 365 Project Operations, Dynamics 365 Field Service un Dynamics 365 Customer Service.
+Plānošanas palīgs ir risinājuma Universal Resource Scheduling daļa. Šis risinājums tiek iekļauts un instalēts kopā ar Dynamics 365 Project Operations, Dynamics 365 Field Service un Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Prasības un atbilstošu resursu meklēšana
 

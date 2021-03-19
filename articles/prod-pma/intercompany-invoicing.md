@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080470"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270777"
 ---
 # <a name="intercompany-invoicing"></a>Starpuzņēmumu rēķinu izrakstīšana
 
@@ -31,7 +31,7 @@ ms.locfileid: "4080470"
 
 Šajā rakstā ir sniegta informācija un piemēri saistībā ar starpuzņēmumu rēķinu izrakstīšanu projektiem.
 
-Jūsu organizācijā var būt vairākas nodaļas, meitasuzņēmumi un citas juridiskas personas, kas pārsūta produktus un pakalpojumus cita citai projektu ietvaros. Juridiskā persona, kas nodrošina pakalpojumu vai produktu, tiek saukta par *aizdodošo juridisko personu* , un juridiskā persona, kas saņem pakalpojumu vai produktu, tiek saukta par *aizņemošo juridisko personu*. 
+Jūsu organizācijā var būt vairākas nodaļas, meitasuzņēmumi un citas juridiskas personas, kas pārsūta produktus un pakalpojumus cita citai projektu ietvaros. Juridiskā persona, kas nodrošina pakalpojumu vai produktu, tiek saukta par *aizdodošo juridisko personu*, un juridiskā persona, kas saņem pakalpojumu vai produktu, tiek saukta par *aizņemošo juridisko personu*. 
 
 Šajā ilustrācijā ir parādīts tipisks scenārijs, kurā divas juridiskas personas, SI FR (aizņemošā juridiskā persona) un SI USA (aizdodošā juridiskā persona) koplieto resursus, lai izpildītu klientam A projektu. Šajā scenārijā uzņēmums SI FR ir nolīgts, lai izpildītu darbu klienta A labā. 
 
@@ -44,12 +44,12 @@ Mērķis ir padarīt izmaksu kontroli, ieņēmumu atzīšanu, nodokļu pārvald�
 -   Ieņēmumu atzīšanas atlikšana aizdodošajai juridiskajai personai un ja aizņemošajai juridiskajai personai ir jāatzīst izmaksas.
 -   Uzkrājiet nepabeigtā darba (WIP) ieņēmumus aizdodošajā juridiskajā personā.
 -   Iestatiet pārsūtīšanas cenas, kuru pamatā var būt dažādi cenu noteikšanas modeļi. Lūk, daži piemēri:
-    -   **Daudzums**  — summa, ko ievadāt laukā **Cenas noteikšana** , ir faktiskās izmaksas par daudzumu vai vienību.
-    -   **Izmaksu summa**  — cenas/izmaksas par transakciju un izmaksu summa, ko ievadāt laukā **Cenas noteikšana**.
-    -   **Izmaksu procentuālā daļa**  — pārsūtīšanas cena ir cena/izmaksas par transakciju, kas reizinātas ar izmaksu procentuālo daļu, ko ievadāt laukā **Cenu noteikšana**.
-    -   **Pārdošanas cenas procentuālā daļa**  — tās pārdošanas cenas procentuālā daļa, kas tiek pārsūtīta aizdodošajai juridiskajai personai.
-    -   **Summa zem pārdošanas cenas**  — summa, ko aizņemošā juridiskā persona aiztur no pārdošanas cenas pirms pārskaitīšanas aizdodošajai juridiskajai personai.
-    -   **Seguma summas likme**  — skaitlis, ko ievadāt laukā **Cenas noteikšana** , ir seguma summas likme, kas ir izteikta procentos no pārdošanas cenas.
+    -   **Daudzums** — summa, ko ievadāt laukā **Cenas noteikšana**, ir faktiskās izmaksas par daudzumu vai vienību.
+    -   **Izmaksu summa** — cenas/izmaksas par transakciju un izmaksu summa, ko ievadāt laukā **Cenas noteikšana**.
+    -   **Izmaksu procentuālā daļa** — pārsūtīšanas cena ir cena/izmaksas par transakciju, kas reizinātas ar izmaksu procentuālo daļu, ko ievadāt laukā **Cenu noteikšana**.
+    -   **Pārdošanas cenas procentuālā daļa** — tās pārdošanas cenas procentuālā daļa, kas tiek pārsūtīta aizdodošajai juridiskajai personai.
+    -   **Summa zem pārdošanas cenas** — summa, ko aizņemošā juridiskā persona aiztur no pārdošanas cenas pirms pārskaitīšanas aizdodošajai juridiskajai personai.
+    -   **Seguma summas likme** — skaitlis, ko ievadāt laukā **Cenas noteikšana**, ir seguma summas likme, kas ir izteikta procentos no pārdošanas cenas.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>1. piemērs: parametru iestatīšana starpuzņēmumu rēķinu izrakstīšanai
 Šajā piemērā USSI ir aizdodošā juridiskā persona, un tās resursi ir atskaišu izveides laiks attiecībā pret aizņemošo juridisku personu, FRSI, kam pieder līgums ar gala klientu. Stundas un izdevumi, par ko USSI darbinieku atskaiti var iekļaut projekta rēķinā, ko ģenerē FRSI. Turklāt pastāv arī trešais transakciju avots, kas var nākt no aizdodošās juridiskās personas (USSI šajā piemērā), kad tas nodrošina dalītus piegādātāju pakalpojumus meitasuzņēmumiem (piemēram, FRSI) un pēc tam nodod šīs izmaksas projektiem šajos meitasuzņēmumos. Visus atbilstošos rēķinu dokumentus un nodokļu aprēķinus pabeidz risinājums Finance. 
@@ -87,16 +87,16 @@ USSI, aizdodošajai juridiskajai personai, ir jāizveido un jāpublicē starpuz�
 | Darbība | Ievades punkts                                                                                      | Apraksts                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Kreditori** &gt; **Rēķini** &gt; **Atvērt piegādātāju rēķinus** &gt; **Jauns piegādātāja rēķins** | Izveidojiet jaunu piegādātāja rēķinu un ievadiet pakalpojumus, kas tika iepirkti FRSI projekta vārdā.                                                                                                                                                                                  |
-| T    | Lapa **Piegādātāja rēķins**                                                                      | Ievadiet rindas, kas atspoguļo ārpakalpojumu pakalpojumus FRSI vārdā. FastTab cilnes **Rindas detaļas** rēķina rindas cilnē **Projekts** , laukā **Projekta uzņēmums** ievadiet **FRSI**. Ievadiet projektu un atbilstošo informāciju. Pēc tam publicējiet piegādātāja rēķinu. |
+| T    | Lapa **Piegādātāja rēķins**                                                                      | Ievadiet rindas, kas atspoguļo ārpakalpojumu pakalpojumus FRSI vārdā. FastTab cilnes **Rindas detaļas** rēķina rindas cilnē **Projekts**, laukā **Projekta uzņēmums** ievadiet **FRSI**. Ievadiet projektu un atbilstošo informāciju. Pēc tam publicējiet piegādātāja rēķinu. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>4. piemērs: starpuzņēmumu rēķina izveide un publicēšana
 USSI, aizdodošajai juridiskajai personai ir jāizveido un jāpublicē starpuzņēmumu rēķins. Šim uzdevumam nepieciešamajām darbībām ir divi ievades punkti.
 
 | Darbība | Ievades punkts                                                                                             | Apraksts                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Projektu pārvaldība un grāmatvedība** &gt; **Projekta rēķini** &gt; **Starpuzņēmumu klienta rēķins**  | Noklikšķiniet uz **Jauns** , lai atvērtu lapu **Izveidot starpuzņēmumu rēķinu**.                                                                                  |
+| A    | **Projektu pārvaldība un grāmatvedība** &gt; **Projekta rēķini** &gt; **Starpuzņēmumu klienta rēķins**  | Noklikšķiniet uz **Jauns**, lai atvērtu lapu **Izveidot starpuzņēmumu rēķinu**.                                                                                  |
 | T    | **Projektu pārvaldība un grāmatvedība** &gt; **Projekta rēķini** &gt; **Starpuzņēmumu klientu rēķini** | Lapā **Izveidot starpuzņēmumu rēķinu** ievadiet juridisko personu, norādiet darbību, kas ir jāiekļauj, un pēc tam noklikšķiniet uz **Meklēt**. |
-| C    | **Projektu pārvaldība un grāmatvedība** &gt; **Projekta rēķini** &gt; **Starpuzņēmumu klientu rēķini** | Atlasiet rēķinā iekļaujamās transakcijas vai noklikšķiniet **Atlasīt visu** , lai publicētu visas sarakstā iekļautās transakcijas, un pēc tam noklikšķiniet uz **Labi**.                  |
+| C    | **Projektu pārvaldība un grāmatvedība** &gt; **Projekta rēķini** &gt; **Starpuzņēmumu klientu rēķini** | Atlasiet rēķinā iekļaujamās transakcijas vai noklikšķiniet **Atlasīt visu**, lai publicētu visas sarakstā iekļautās transakcijas, un pēc tam noklikšķiniet uz **Labi**.                  |
 | D    | Lapa **Starpuzņēmumu rēķins**                                                                       | Tiek parādīts starpuzņēmumu klienta rēķina priekšlikums.                                                                                             |
 | E    | Lapa **Starpuzņēmumu rēķins**                                                                       | Noklikšķiniet uz **Publicēt**.                                                                                                                                  |
 
@@ -107,7 +107,7 @@ Ja aizdodošā juridiskā persona, USSI, iegrāmato starpuzņēmumu klienta rē�
 |------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | A    | **Kreditori** &gt; **Rēķini** &gt; **Gaidoši piegādātāju rēķini**                            | Pārskatiet rēķinu, lai pārbaudītu, vai ir ietvertas laika uzskaites tabulas vērtības, un pēc publicējiet piegādātāja rēķinu.                  |
 | T    | **Projektu pārvaldība un grāmatvedība** &gt; **Projekta rēķini** &gt; **Projektu rēķinu priekšlikumi** | Izveidojiet jaunu projekta rēķina projektu un pārbaudiet, vai tiek rādītas publicētās stundu transakcijas.            |
-| C    | Lapa **Projekta rēķins**                                                                       | Atlasiet projekta rēķinu un pēc tam noklikšķiniet uz **Skatīt detalizētu informāciju** , lai pārskatītu izmaksu un pārdošanas summu. Pēc tam publicējiet rēķinu. |
+| C    | Lapa **Projekta rēķins**                                                                       | Atlasiet projekta rēķinu un pēc tam noklikšķiniet uz **Skatīt detalizētu informāciju**, lai pārskatītu izmaksu un pārdošanas summu. Pēc tam publicējiet rēķinu. |
 
 
 Papildinformāciju skatiet sadaļā [Starpuzņēmumu projektu rēķinu izrakstīšanas konfigurēšana](tasks/configure-intercompany-project-invoicing.md).

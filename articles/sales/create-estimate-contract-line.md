@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278517"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>Projekta līguma rindas aprēķini
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_ 
 
-Līdzeklī Dynamics 365 Project Operations projekta līguma rindā ir detalizēta informācija, kas palīdz novērtēt attiecīgā darba izmaksas un iespējamos ieņēmumus, lai izpildītu līguma rindu.
+Līdzeklī Dynamics 365 Project Operations projekta līguma rindā ir detalizēta informācija, kas palīdz novērtēt attiecīgā darba izmaksas un iespējamos ieņēmumus, lai izpildītu līguma rindu.
 
 Lai aprēķinātu projekta līguma rindu, skatiet cilni **Līguma rindas informācija**, kas atrodas projekta **Līguma rindā**.  Ir divi veidi, kā aprēķināt projekta līguma rindu.
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181147"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277617"
 ---
 # <a name="project-contract-settings"></a>Projekta līguma iestatījumi
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Šī tēma sniedz informāciju par laukiem, kas attiecas uz visu projekta līgumu, ieskaitot iestatījumus, kas ietekmē visas līguma rindas. Ir iekļauta arī informācija par līgumu, kas ir apkopota visos projekta līguma apakšpunktos, lai vadītu KPI.
 
-Tālāk sniegtajā tabulā ir uzskaitīti projekta līguma lauki, kas ir unikāli Dynamics 365 projektu darbībām vai kuriem ir dažas svarīgas izmaiņas, veicot pārdošanas pasūtījumus programmā Dynamics 365 Sales.
+Nākamajā tabulā ir uzskaitīti līguma lauki projekta piedāvājumam, kas ir unikāli Dynamics 365 Project Operations vai kam ir dažas svarīgas darbības izmaiņas Dynamics 365 Sales pārdošanas līgumos.
 
 | Lauks | Atrašanās vieta | Apraksts | Lejupstraumes ietekme |
 | --- | --- | --- | --- |

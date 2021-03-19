@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175990"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273027"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Pārvaldīt projekta cenu sarakstus projekta piedāvājumos — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Projekta piedāvājumi ir paredzēti, lai atbalstītu vairākus spēkā esošus pārdošanas cenrāžus. Izmantojot Dynamics 365 Project Operations, tiek pievienota jauna saistītā entītija, kas saucas **Projekta cenrāži**. Šai entītijai ar projekta piedāvājumu ir attiecība viens pret daudziem.
+Projekta piedāvājumi ir paredzēti, lai atbalstītu vairākus spēkā esošus pārdošanas cenrāžus. Izmantojot Dynamics 365 Project Operations šo entītiju, tiek pievienota jauna saistītā entītija **Projekta cenrāži**. Šai entītijai ar projekta piedāvājumu ir attiecība viens pret daudziem.
 
 Projekta cenrāžus izmanto, lai noteiktu projekta laika un izdevumu darījumu cenas. Ja piedāvājumam ir viens vai vairāki projekta cenrāži, šos cenrāžus izmanto, lai noteiktu laika un izdevumu aprēķinātās un faktiskās cenas projektos, kas saistīti ar piedāvājumu caur piedāvājuma rindu.
 

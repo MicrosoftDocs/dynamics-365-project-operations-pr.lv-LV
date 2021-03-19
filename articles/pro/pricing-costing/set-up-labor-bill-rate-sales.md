@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181191"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274422"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Iestatīt darba rēķinu likmes — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Katram cenrādim ir lomu cenu kopa vai darba likmes, kas ir spēkā kontekstam un datumu efektivitātei, kas iekļauta cenrāža galvenē. Rēķinu likmes par laiku risinājumā Dynamics 365 Project Operations var iestatīt tikai vienā valūtā, kas ir valūta cenu saraksta galvenē.
+Katram cenrādim ir lomu cenu kopa vai darba likmes, kas ir spēkā kontekstam un datumu efektivitātei, kas iekļauta cenrāža galvenē. Rēķinu kursus laika intervālam programmā Dynamics 365 Project Operations var iestatīt tikai vienā valūtā, kas ir valūta cenrāža galvenē.
 
 1. Lai pārdošanas cenrādim iestatītu darba laika likmes, izveidojiet cenrādi, pamatojoties uz cenrāža galveni. 
 2. Cilnes **Lomas cenas** apakšrežģī atlasiet **+ Jauna lomas cena**. 

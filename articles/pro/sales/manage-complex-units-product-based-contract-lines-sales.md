@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273342"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Produktu līgumu rindu kompleksu vienību pārvaldīšana — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Lai atbalstītu uz abonēšanu balstītu produktu pārdošanu, Dynamics 365 Project Operations izmanto daudzuma koeficientus. Uz abonēšanu balstītiem produktiem daudzums līgumā vai projekta līguma rindā tiek izteikts kā lietotāju mēnešu skaits.
+Dynamics 365 Project Operations, lai atbalstītu uz abonēšanu balstītu produktu pārdošanu, izmanto daudzuma koeficientus. Uz abonēšanu balstītiem produktiem daudzums līgumā vai projekta līguma rindā tiek izteikts kā lietotāju mēnešu skaits.
 
 Abonējamas programmatūras cena katalogā tiek glabāta kā cena vienam lietotājam vienā mēnesī. Pārdošanas procesa laikā cena līguma rindā parasti ir vienam lietotājam, viena mēneša cena, par kuru notika pārrunas un kuras atlaidi noteica IT pārdošanas aģents. Katram darījumam ir atšķirīgs lietotāju skaits un atšķirīgs abonēšanas mēnešu skaits. Daudzums, kas tiek izmantots līguma rindas summas aprēķināšanai, ir lietotāju skaita un abonēšanas mēnešu skaita reizinājums.
 

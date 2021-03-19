@@ -1,6 +1,6 @@
 ---
 title: Pārstrādātas izdevumu atskaites
-description: Šajā tēmā ir sniegta informācija par izdevumu atskaites ieraksta pārveidoto un uzlaboto pieredzi risinājumā Microsoft Dynamics 365 Finance. Jaunā pieredze vienkāršo izdevumu atskaišu izpildīšanas procesu un samazina nepieciešamo laiku.
+description: Šajā tēmā ir sniegta informācija par izdevumu atskaites ieraksta pārveidoto un uzlaboto pieredzi.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960256"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271992"
 ---
 # <a name="redesigned-expense-reports"></a>Pārstrādātas izdevumu atskaites
 
@@ -40,12 +40,6 @@ Lai ieslēgtu jauno pieredzi, izmantojiet darbvietu **Līdzekļu pārvaldība** 
 - Tiek pievienota jauns izvēlnes vienums izdevumu lauka redzamībai.
 - Netiek noņemts neviens no esošajiem izdevumu atskaišu izvēlnes elementiem (esošā lapa) vai izdevumu atskaites laukiem.
 - Darbplūsmas un visi apstiprinājumi joprojām aizved uz esošo izdevumu atskaišu lapu.
-
-## <a name="getting-started-video-for-new-users"></a>Video par darba uzsākšanu jauniem lietotājiem
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Videoklips [Izdevumu pieredze risinājumā Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (parādīts iepriekš) ir iekļauts [atskaņošanas sarakstā Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas pieejams vietnē YouTube.
 
 ## <a name="new-features"></a>Jaunie līdzekļi
 

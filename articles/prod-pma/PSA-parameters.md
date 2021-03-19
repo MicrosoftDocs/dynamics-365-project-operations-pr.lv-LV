@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080584"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270912"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation integrācijas parametri
 
@@ -30,7 +30,7 @@ ms.locfileid: "4080584"
 
 Lapā **Project Service Automation integrācijas parametri** var konfigurēt, kā tiek ievadīti noklusējuma dati, integrējot Dynamics 365 Project Service Automation programmā Dynamics 365 Finance. Lai projektus veiksmīgi sinhronizētu no Project Service Automation to Finance, ir jāiestata tālāk norādītie lauki.
 
-Lai atvērtu lapu **Project Service Automation integrācijas parametri** , atveriet sadaļu **Projekta pārvaldība un grāmatvedība** \> **Iestatīšana** \> **Dynamics 365 for Project Service Automation integrācijas parametri**. 
+Lai atvērtu lapu **Project Service Automation integrācijas parametri**, atveriet sadaļu **Projekta pārvaldība un grāmatvedība** \> **Iestatīšana** \> **Dynamics 365 for Project Service Automation integrācijas parametri**. 
 
 > [!NOTE]
 > - 8.0 versijā varat izmantot projekta uzdevumu integrāciju, izdevumu darbības kategorijas, stundu aprēķinus, izdevumu aprēķinus un funkcionalitātes bloķēšanu.
@@ -42,9 +42,9 @@ Lai atvērtu lapu **Project Service Automation integrācijas parametri** , atver
 | Vispārīgs                | Noklusējuma projekta tips | Atlasiet noklusējuma projekta tipu. Kad projekti tiek sinhronizēti no Project Service Automation, šī vērtība tiek izmantota, ja integrācijas veidnē nav norādīta noklusējuma vērtība. Sinhronizācijas laikā jaunu projektu lauks **Projekta tips** tiek iestatīts uz šo vērtību. Tomēr šī vērtība var tikt atjaunināta, kad projekta līguma rindas tiek sinhronizētas no Project Service Automation. |
 |                        | Laika kategorija        | Atlasiet laika noklusējuma kategoriju. Šī vērtība tiek izmantota, kad stundu aprēķini tiek sinhronizēti no Project Service Automation. Kad stundu aprēķini un stundu faktiskie dati tiek sinhronizēti no Project Service Automation, **Kategorija** jauno projektu stundu prognožu lauks Finance sistēmā ir iestatīts uz šo vērtību. |
 |                        | Maksas kategorija         | Atlasiet maksas noklusējuma kategoriju. Šī vērtība tiek izmantota, kad maksas dati tiek sinhronizēti no Project Service Automation. Kad maksas dati tiek sinhronizēti no Project Service Automation, **Kategorija** jauno maksas darījumu lauks Finance sistēmā ir iestatīts uz šo vērtību. |
-| Projekta grupas noklusējumi | Projekta veids         | Noklikšķiniet uz **Jauns** , lai pievienotu rindu, kur var atlasīt projekta tipu, lai iestatītu noklusējuma projekta grupu. Noteiktu projekta tipu var atlasīt tikai vienu reizi konfigurācijā. |
+| Projekta grupas noklusējumi | Projekta veids         | Noklikšķiniet uz **Jauns**, lai pievienotu rindu, kur var atlasīt projekta tipu, lai iestatītu noklusējuma projekta grupu. Noteiktu projekta tipu var atlasīt tikai vienu reizi konfigurācijā. |
 |                        | Projekta grupa        | Atlasiet atlasītā projekta tipa noklusējuma projektu grupu. Kad jauni projekti tiek sinhronizēti no Project Service Automation, lauks **Projekta grupa** tiek iestatīts kā projekta tipa noklusējuma vērtība, ja integrācijas veidnē nav norādīta noklusējuma vērtība. |
-| Rēķina tipa noklusējuma iestatījumi  | Norēķinu tips         | Noklikšķiniet uz **Jauns** , lai pievienotu rindu, kur var atlasīt norēķinu tipu, lai iestatītu noklusējuma rindas rekvizītu. Noteiktu norēķinu tipu var atlasīt tikai vienu reizi konfigurācijā. |
+| Rēķina tipa noklusējuma iestatījumi  | Norēķinu tips         | Noklikšķiniet uz **Jauns**, lai pievienotu rindu, kur var atlasīt norēķinu tipu, lai iestatītu noklusējuma rindas rekvizītu. Noteiktu norēķinu tipu var atlasīt tikai vienu reizi konfigurācijā. |
 |                        | Rindas rekvizīts        | Atlasiet atlasītā norēķinu tipa noklusējuma rindas rekvizītu. Kad jauni stundu aprēķini, jauni izdevumu novērtējumi vai jauni faktiskie dati tiek sinhronizēti no Project Service Automation, lauks **Rindas rekvizīts** tiek iestatīts uz noklusējuma vērtību norēķinu tipam. |
 | Funkcionalitātes bloķēšana  | Nav piemērojams       | Atlasiet funkcionalitāti, lai atspējotu Finance projektiem un līgumiem, kas cēlušies no Project Service Automation. Piemēram, varat izslēgt iespēju rediģēt līgumus un projektus, izveidot darba sadalījuma struktūras un ievadīt darba laika uzskaites tabulas Finance sistēmā. Ar grāmatvedību saistītie lauki joprojām tiks iespējoti pat tad, ja tie nav pieejami, izmantojot parametru iestatījumu. Pēc noklusējuma ir iespējota visa funkcionalitāte. |
 

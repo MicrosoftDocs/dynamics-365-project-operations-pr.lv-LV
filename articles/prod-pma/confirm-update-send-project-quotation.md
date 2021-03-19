@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080582"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270822"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Projekta piedāvājuma apstiprināšana, atjaunināšana un nosūtīšana
 
 [!include [banner](../includes/banner.md)]
 
-Pēc projekta piedāvājuma izveidošanas un nosūtīšanas klientam ir jāsaņem klienta apstiprinājums, pirms varat atjaunināt piedāvājuma statusu uz **Nosūtīts**. Visas modifikācijas, ko pieprasa klients, var tikt atjauninātas piedāvājumā. Pēc tam, kad piedāvājuma statuss ir atjaunināts uz **Nosūtīts** , to nevar mainīt. Šajā procedūrā ir aprakstītas iespējas, kā nosūtīt piedāvājumu apstiprināšanai, veikt atjaunināšanu, pamatojoties uz atsauksmēm, un pēc tam nosūtīt piedāvājumu.
+Pēc projekta piedāvājuma izveidošanas un nosūtīšanas klientam ir jāsaņem klienta apstiprinājums, pirms varat atjaunināt piedāvājuma statusu uz **Nosūtīts**. Visas modifikācijas, ko pieprasa klients, var tikt atjauninātas piedāvājumā. Pēc tam, kad piedāvājuma statuss ir atjaunināts uz **Nosūtīts**, to nevar mainīt. Šajā procedūrā ir aprakstītas iespējas, kā nosūtīt piedāvājumu apstiprināšanai, veikt atjaunināšanu, pamatojoties uz atsauksmēm, un pēc tam nosūtīt piedāvājumu.
 
 ## <a name="send-a-project-quotation-confirmation"></a>Projekta piedāvājuma nosūtīšana apstiprināšanai  
 
@@ -39,7 +39,7 @@ Varat nosūtīt esošu projekta piedāvājumu apstiprināšanai, izmantojot e-pa
 2. Lapā **Projekta piedāvājums** atlasiet piedāvājumu, kuru vēlaties nosūtīt apstiprināšanai. 
 3. Cilnes **Sekojums** grupā **Ģenerēt** atlasiet **Apstiprināt**. 
 4. Lapā **Piedāvājuma apstiprināšana** iestatiet nepieciešamos parametrus. Piemēram, lai izdrukātu apstiprinājumu, sadaļā **Drukāšanas opcijas** ieslēdziet iestatījumu **Drukāšanas apstiprinājums** un pēc tam noklikšķiniet uz **Labi**.
-5. Lapā **Nosūtīt piedāvājumu** atlasiet **Opcijas** un lapā **Drukāt mērķa iestatījumus** atlasiet, vai vēlaties, lai piedāvājums tiktu nosūtīts uz **ekrānu** , **e-pasta adresi** , **failu** , **drukāšanas arhīvu** vai **printeri** , un pēc tam veiciet nepieciešamās korekcijas apgabalā **Specifikācija** , lai maršrutētu piedāvājumu.
+5. Lapā **Nosūtīt piedāvājumu** atlasiet **Opcijas** un lapā **Drukāt mērķa iestatījumus** atlasiet, vai vēlaties, lai piedāvājums tiktu nosūtīts uz **ekrānu**, **e-pasta adresi**, **failu**, **drukāšanas arhīvu** vai **printeri**, un pēc tam veiciet nepieciešamās korekcijas apgabalā **Specifikācija**, lai maršrutētu piedāvājumu.
 6. Lapā **Drukāšanas galamērķa iestatījumi** atlasiet **Labi**.  
 
 ## <a name="update-a-project-quotation"></a>Projekta piedāvājuma atjaunināšana

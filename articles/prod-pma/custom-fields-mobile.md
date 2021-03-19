@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080498"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271002"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Pielāgoto lauku ieviešana Microsoft Dynamics 365 Project Timesheet mobilajā programmā operētājsistēmā iOS un Android
 
@@ -44,8 +44,8 @@ ms.locfileid: "4080498"
 
 **TSTimesheetCustomField** klase ir X++ datu līguma klase, kas atspoguļo informāciju par pielāgotu laika uzskaites tabulas funkcionalitātes lauku. Pielāgoto lauku objektu saraksti tiek nodoti gan TSTimesheetDetails datu līgumam, gan TSTimesheetEntry datu līgumam, lai rādītu pielāgotos laukus mobilajā programmā.
 
-- **TSTimesheetDetails**  — laika uzskaites tabulas galvenes līgums.
-- **TSTimesheetEntry**  — laika uzskaites tabulas transakcijas līgums. Šo objektu grupas, kurām ir vienāda projekta informācija un **timesheetLineRecId** vērtība, veido rindu.
+- **TSTimesheetDetails** — laika uzskaites tabulas galvenes līgums.
+- **TSTimesheetEntry** — laika uzskaites tabulas transakcijas līgums. Šo objektu grupas, kurām ir vienāda projekta informācija un **timesheetLineRecId** vērtība, veido rindu.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (Types)
 
@@ -55,17 +55,17 @@ Rekvizīts **FieldBaseType** objektā **TsTimesheetCustom** nosaka tā lauka vei
 |-------------|-------------------|-------|
 | 0           | Virkne (un uzskaitījums) | Lauks tiek parādīts kā teksta lauks. |
 | 1           | Integer           | Šī vērtība tiek parādīta kā skaitlis bez decimāldaļām. |
-| 2           | Real              | Šī vērtība tiek parādīta kā skaitlis ar decimāldaļām.<p>Lai programmā parādītu faktisko vērtību kā valūtu, izmantojiet rekvizītu **fieldExtenededType**. Varat izmantot rekvizītu **numberOfDecimals** , lai iestatītu parādāmo decimāldaļu skaitu.</p> |
-| 3           | Datums              | Datuma formātus nosaka lietotāja iestatījums **Datuma, laika un ciparu formāts** , kas ir norādīts iestatījumos **Valodas un valsts/reģiona reference** sadaļā **Lietotāja opcijas**. |
+| 2           | Real              | Šī vērtība tiek parādīta kā skaitlis ar decimāldaļām.<p>Lai programmā parādītu faktisko vērtību kā valūtu, izmantojiet rekvizītu **fieldExtenededType**. Varat izmantot rekvizītu **numberOfDecimals**, lai iestatītu parādāmo decimāldaļu skaitu.</p> |
+| 3           | Datums              | Datuma formātus nosaka lietotāja iestatījums **Datuma, laika un ciparu formāts**, kas ir norādīts iestatījumos **Valodas un valsts/reģiona reference** sadaļā **Lietotāja opcijas**. |
 | 4           | Boolean           | |
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Ja rekvizīts **stringOptions** nav norādīts objektā **TSTimesheetCustomField** , lietotājam tiek nodrošināts brīva teksta lauks.
+- Ja rekvizīts **stringOptions** nav norādīts objektā **TSTimesheetCustomField**, lietotājam tiek nodrošināts brīva teksta lauks.
 
     Rekvizītu **stringLength** var izmantot, lai iestatītu maksimālo virknes garumu, ko lietotāji var ievadīt.
 
-- Ja rekvizīts **stringOptions** ir norādīts objektā **TSTimesheetCustomField** , šie saraksta elementi ir vienīgās vērtības, ko lietotāji var atlasīt, izmantojot opciju pogas (radiopogas).
+- Ja rekvizīts **stringOptions** ir norādīts objektā **TSTimesheetCustomField**, šie saraksta elementi ir vienīgās vērtības, ko lietotāji var atlasīt, izmantojot opciju pogas (radiopogas).
 
     Šajā gadījumā virknes lauks var darboties kā uzskaitījuma vērtība lietotāja ieraksta vajadzībām. Lai vērtību saglabātu datu bāzē kā uzskaitījumu, manuāli kartējiet virknes vērtību atpakaļ uz uzskaitījuma vērtību, pirms to saglabājat datu bāzē, izmantojot komandu ķēdi (piemēru skatiet sadaļā “Komandu ķēdes izmantošana TSTimesheetEntryService klasē, lai saglabātu laika uzskaites tabulas ierakstu no programmas atpakaļ datu bāzē” tālāk šajā tēmā).
 
@@ -73,8 +73,8 @@ Rekvizīts **FieldBaseType** objektā **TsTimesheetCustom** nosaka tā lauka vei
 
 Šo rekvizītu var izmantot, lai formatētu reālas vērtības kā valūtu. Šī pieeja ir piemērojama tikai tad, ja **fieldBaseType** vērtība ir **Real**.
 
-- **TSCustomFieldExtendedType:None**  — formatējums netiek lietots.
-- **TSCustomFieldExtendedType::Currency**  — vērtības formatēšana valūtā.
+- **TSCustomFieldExtendedType:None** — formatējums netiek lietots.
+- **TSCustomFieldExtendedType::Currency** — vērtības formatēšana valūtā.
 
     Ja valūtas formatēšana ir aktīva, lauku **stringValue** var lietot, lai nodotu valūtas kodu, kas jārāda programmā. Šī vērtība ir tikai lasāma.
 
@@ -84,8 +84,8 @@ Rekvizīts **FieldBaseType** objektā **TsTimesheetCustom** nosaka tā lauka vei
 
 Šo rekvizītu var izmantot, lai norādītu, kur programmā jārāda pielāgotais lauks.
 
-- **TSCustomFieldSection::Header**  — lauks tiks parādīts programmas sadaļā **Skatīt detalizētu informāciju**. Šie vienmēr ir tikai lasāmie lauki.
-- **TSCustomFieldSection::Line**  — lauks tiks parādīts pēc visiem iebūvētajiem rindu laukiem laika uzskaites tabulas ierakstos. Šie lauki var būt rediģējami vai tikai lasāmi.
+- **TSCustomFieldSection::Header** — lauks tiks parādīts programmas sadaļā **Skatīt detalizētu informāciju**. Šie vienmēr ir tikai lasāmie lauki.
+- **TSCustomFieldSection::Line** — lauks tiks parādīts pēc visiem iebūvētajiem rindu laukiem laika uzskaites tabulas ierakstos. Šie lauki var būt rediģējami vai tikai lasāmi.
 
 ### <a name="fieldname-fieldnameshort"></a>fieldName (FieldNameShort)
 
@@ -97,11 +97,11 @@ Rekvizīts **FieldBaseType** objektā **TsTimesheetCustom** nosaka tā lauka vei
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-Iestatiet šo rekvizītu uz **Yes** , lai norādītu, ka lauku laika uzskaites tabulas ierakstu sadaļā lietotāji var rediģēt. Iestatiet rekvizītu uz **No** , lai padarītu lauku tikai lasāmu.
+Iestatiet šo rekvizītu uz **Yes**, lai norādītu, ka lauku laika uzskaites tabulas ierakstu sadaļā lietotāji var rediģēt. Iestatiet rekvizītu uz **No**, lai padarītu lauku tikai lasāmu.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
-Iestatiet šo rekvizītu uz **Yes** , lai norādītu, ka laukam laika uzskaites tabulas ierakstu sadaļā jābūt obligātam.
+Iestatiet šo rekvizītu uz **Yes**, lai norādītu, ka laukam laika uzskaites tabulas ierakstu sadaļā jābūt obligātam.
 
 ### <a name="label-str"></a>label (str)
 
@@ -179,9 +179,9 @@ Zemāk ir Visual Studio ekrānuzņēmums ar programmas objektu koku. Tajā ir re
 
 Šis kods kontrolē lauka rādīšanas iestatījumus programmā. Piemēram, tas kontrolē lauka tipu, etiķeti, to, vai lauks ir obligāts, kā arī to, kurā sadaļā šis lauks tiek rādīts.
 
-Nākamajā piemērā i parādīts virknes lauks laika ierakstos. Šim laukam ir divas opcijas, **Pirmā opcija** un **Otrā opcija** , kas pieejamas, izmantojot opciju pogas (radiopogas). Programmas lauks ir saistīts ar lauku **TestLineString** , kas tiek pievienots tabulai TSTimesheetLine.
+Nākamajā piemērā i parādīts virknes lauks laika ierakstos. Šim laukam ir divas opcijas, **Pirmā opcija** un **Otrā opcija**, kas pieejamas, izmantojot opciju pogas (radiopogas). Programmas lauks ir saistīts ar lauku **TestLineString**, kas tiek pievienots tabulai TSTimesheetLine.
 
-Ņemiet vērā, ka varat izmantot **TSTimesheetCustomField::newFromMetatdata()** metodi, lai vienkāršotu pielāgoto lauku rekvizītu inicializēšanu: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** un **numberOfDecimals**. Šos parametrus var iestatīt arī manuāli.
+Ņemiet vērā, ka varat izmantot **TSTimesheetCustomField::newFromMetatdata()** metodi, lai vienkāršotu pielāgoto lauku rekvizītu inicializēšanu: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** un **numberOfDecimals**. Šos parametrus var iestatīt arī manuāli.
 
 ```xpp
 ...
@@ -406,15 +406,15 @@ final class TSTimesheetDetails_Extension
 
 ### <a name="adding-additional-validation-for-the-app"></a>Papildu validācijas pievienošana programmai
 
-Esošā laika uzskaites tabulas funkcionalitātes loģika datu bāzes līmenī joprojām darbosies kā paredzēts. Lai pārtrauktu saglabāšanas vai iesniegšanas operāciju pabeigšanu un parādītu konkrētu kļūdas ziņojumu, varat pievienot kodam **throw error("message to user")** , izmantojot komandu paplašinājuma ķēdi. Tālāk norādīti trīs noderīgi paplašināmo metožu piemēri.
+Esošā laika uzskaites tabulas funkcionalitātes loģika datu bāzes līmenī joprojām darbosies kā paredzēts. Lai pārtrauktu saglabāšanas vai iesniegšanas operāciju pabeigšanu un parādītu konkrētu kļūdas ziņojumu, varat pievienot kodam **throw error("message to user")**, izmantojot komandu paplašinājuma ķēdi. Tālāk norādīti trīs noderīgi paplašināmo metožu piemēri.
 
 - Ja **validateWrite** tabulā TSTimesheetLine atgriež **false** laika uzskaites rindas saglabāšanas operācijas laikā, mobilajā programmā tiek parādīts kļūdas ziņojums.
 - Ja **validateSubmit** tabulā TSTimesheetTable atgriež **false** laika uzskaites rindas iesniegšanas laikā programmā, lietotājam tiek parādīts kļūdas ziņojums.
-- Loģika, kas aizpilda laukus (piemēram, **Rindas rekvizīts** ), metodes **insert** laikā tabulā TSTimesheetLine joprojām darbosies.
+- Loģika, kas aizpilda laukus (piemēram, **Rindas rekvizīts**), metodes **insert** laikā tabulā TSTimesheetLine joprojām darbosies.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Iebūvēto lauku paslēpšana un atzīmēšana kā tikai lasāmus, izmantojot konfigurēšanu
 
-Izmantojot projekta parametrus, iebūvētos laukus var padarīt tikai lasāmus vai paslēptus mobilajā programmā. Iestatiet opcijas sadaļā **Mobilās laika uzskaites tabulas** cilnē **Laika uzskaites tabula** , kas atrodas lapā **Projekta pārvaldības un grāmatvedības parametri**.
+Izmantojot projekta parametrus, iebūvētos laukus var padarīt tikai lasāmus vai paslēptus mobilajā programmā. Iestatiet opcijas sadaļā **Mobilās laika uzskaites tabulas** cilnē **Laika uzskaites tabula**, kas atrodas lapā **Projekta pārvaldības un grāmatvedības parametri**.
 
 ![Projekta parametri](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 

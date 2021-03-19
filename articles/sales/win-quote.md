@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124692"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277257"
 ---
 # <a name="close-a-quote"></a>Piedāvājuma slēgšana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Projekta piedāvājumu var slēgt kā iegūtu vai zaudētu. Tā kā programmā Microsoft Dynamics 365 Project Operations netiek atbalstītas funkcijas Aktivizēt un Pārskatīt, varat slēgt piedāvājuma melnrakstu.
+Projekta piedāvājumu var slēgt kā iegūtu vai zaudētu. Tā kā Microsoft Dynamics 365 Project Operations piedāvājumu funkcijas Aktivizēt un Pārskatīt netiek atbalstītas, varat aizvērt piedāvājuma melnrakstu.
 
 ## <a name="close-a-quote-as-won"></a>Iegūta piedāvājuma slēgšana
 

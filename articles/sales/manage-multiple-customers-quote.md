@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182001"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277887"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Vairāku klientu pārvaldība projekta piedāvājumā
 
@@ -23,7 +23,7 @@ Projekta piedāvājumi atbalsta scenāriju, kurā priekšlikumā ir iesaistīti 
 
 Visi piedāvājuma klienti projekta piedāvājuma cilnē **Klienti** pēc noklusējuma ir piedāvājuma rindas klienti visām **jaunajām** projekta piedāvājuma rindām, kas izveidotas šim piedāvājumam. Esošas projekta piedāvājuma rindas nepārņem jaunus piedāvājuma klientu ierakstus, kas ir izveidoti pēc tām.
 
-Piedāvājuma klientus un piedāvājuma rindas klientus var pievienot, atjaunināt vai dzēst jebkurā brīdī, pirms piedāvājums ir iegūts. Piedāvājumam ir jāiestata derīgs klients kā klients Atbildīgajā uzņēmumā vai Juridiskajā personā lapā **Klienti**. Juridiskās personas iestata Dynamics 365 Project Operations modulī **Projekta pārvaldība un uzskaite**, un tie tiek padarīti pieejami kā Uzņēmumi Project Operations moduļos **Projekta pārdošana un izpilde**.
+Piedāvājuma klientus un piedāvājuma rindas klientus var pievienot, atjaunināt vai dzēst jebkurā brīdī, pirms piedāvājums ir iegūts. Piedāvājumam ir jāiestata derīgs klients kā klients Atbildīgajā uzņēmumā vai Juridiskajā personā lapā **Klienti**. Juridiskās personas tiek iestatītas Dynamics 365 Project Operations modulī **Projektu pārvaldība un uzskaite** un ir pieejamas kā uzņēmumi Project Operations moduļos **Projekta pārdošana un piegāde**.
 
 ## <a name="concept-of-a-primary-customer"></a>Primārā klienta koncepcija
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180246"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277572"
 ---
 # <a name="project-quote-settings"></a>Projekta piedāvājuma iestatījumi
 
@@ -22,7 +22,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Šajā rakstā izskaidrota informācija, kas attiecas uz projekta piedāvājumu. Tajā ir iekļauti iestatījumi, kas ietekmē visas piedāvājuma rindas, un informācija par piedāvājumu, kas ir apkopota visos rindas vienumos, lai vadītu projekta piedāvājuma KPI.
 
-Tālāk sniegtajā tabulā ir uzskaitīti tie kopsavilkuma informācijas lauki projekta piedāvājumā, kas ir unikāli Dynamics 365 Project Operations vai kuriem ir dažas būtiskas izmaiņas darbībā atšķirībā no Dynamics 365 Sales piedāvājumiem.
+Nākamajā tabulā ir uzskaitīti kopsavilkuma informācijas lauki projekta piedāvājumam, kas ir unikāli vai kam ir dažas svarīgas darbības izmaiņas Dynamics 365 Project Operations Dynamics 365 Sales piedāvājumos.
 
 | **Lauks** | **Atrašanās vieta** | **Apraksts** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180291"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274917"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Izmaksu un pārdošanas likmju iestatīšana izdevumiem
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Darbību kategorijām var iestatīt izmaksu un pārdošanas cenas risinājumā Dynamics 365 Project Operations. Tā kā izmaksu un pārdošanas cenas ir paredzētas izdevumiem, katra darbību kategorija, kurā tās ir iekļautas, arī ir jāiestata kā izdevumu kategorija. Šis iestatījums nodrošina pakārtotās funkcionalitātes precizitāti. Izmaksu un pārdošanas cenas darbību kategorijām var uzskaitīt tikai vienā valūtā, kurai jābūt valūtai cenrāža virsrakstā.
+Transakciju kategorijām programmā Dynamics 365 Project Operations var iestatīt izmaksu un pārdošanas cenas. Tā kā izmaksu un pārdošanas cenas ir paredzētas izdevumiem, katra darbību kategorija, kurā tās ir iekļautas, arī ir jāiestata kā izdevumu kategorija. Šis iestatījums nodrošina pakārtotās funkcionalitātes precizitāti. Izmaksu un pārdošanas cenas darbību kategorijām var uzskaitīt tikai vienā valūtā, kurai jābūt valūtai cenrāža virsrakstā.
 
 Lai iestatītu izmaksu un pārdošanas likmes darbību kategorijām, veiciet tālāk norādītās darbības. 
 

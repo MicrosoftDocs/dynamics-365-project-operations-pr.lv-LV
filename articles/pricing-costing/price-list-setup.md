@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180201"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275502"
 ---
 # <a name="set-up-price-lists"></a>Cenrāžu iestatīšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Cenrāži risinājumā Dynamics 365 Project Operations ir likmju katalogs. Likmes attēlo izmaksu, pārdošanas un rēķina likmes. Atkarībā no tā, vai cenrādis attēlo izmaksu likmes vai pārdošanas un rēķina likmes, cenrāža konteksts ir **Pārdošana** vai **Izmaksas**.
+Cenrāži Dynamics 365 Project Operations preču katalogā ir iekļauti. Likmes attēlo izmaksu, pārdošanas un rēķina likmes. Atkarībā no tā, vai cenrādis attēlo izmaksu likmes vai pārdošanas un rēķina likmes, cenrāža konteksts ir **Pārdošana** vai **Izmaksas**.
 
 Tālāk norādītie paplašinājumi ir specifiski Project Operations un tiek lietoti cenrāžiem no Dynamics 365 Sales.
 

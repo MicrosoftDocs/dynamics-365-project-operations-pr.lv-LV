@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176575"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274332"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Automātiskas rēķina izveides konfigurēšana — Lite
  
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Jūs varat konfigurēt automātisku rēķinu izveidi risinājumā Dynamics 365 Project Operations. Sistēma izveido melnraksta proforma rēķinu, pamatojoties uz rēķina grafiku katram projekta līgumam un līguma rindai. Rēķinu grafiki tiek konfigurēti līguma rindas līmenī. Katrai līguma rindai var noteikt atsevišķu rēķina grafiku vai vienu un to pašu rēķina grafiku var iekļaut ikvienā līguma rindā.
+Varat konfigurēt automātiskas rēķina izveides programmā Dynamics 365 Project Operations. Sistēma izveido melnraksta proforma rēķinu, pamatojoties uz rēķina grafiku katram projekta līgumam un līguma rindai. Rēķinu grafiki tiek konfigurēti līguma rindas līmenī. Katrai līguma rindai var noteikt atsevišķu rēķina grafiku vai vienu un to pašu rēķina grafiku var iekļaut ikvienā līguma rindā.
 
 Kad izveidojat rēķinu, sistēma vienmēr katram projekta līgumam izveido vismaz vienu rēķinu. Dažos gadījumos var būt izveidoti vairāki rēķini.
 

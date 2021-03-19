@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080497"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270687"
 ---
 # <a name="eliminate-a-project-estimate"></a>Projekta tāmes likvidēšana
 
@@ -37,15 +37,15 @@ Lai likvidētu novērtējuma projektu, tam ir jābūt pabeigtam. Tālāk aprakst
 2. Cilnē **Pārvaldīt** atlasiet **Novērtējums** un lapā **Novērtējums** atlasiet **Likvidēt**.
 3. Cilnes **Vispārīgi** lapā **Likvidēt tāmi** iestatiet tālāk norādītās opcijas.
 
-   - **Perioda kods** : atlasiet perioda kodu, lai izvēlētos atbilstošus projektu aprēķinus. 
-   - **Aprēķina datums** : atlasiet likvidēšanai atbilstošo aprēķina datumu.
-   - **Likvidēt ar NP brīdinājumiem** : iespējojiet šo opciju, lai sniegtu paziņojumu, ja ar nepabeigtu darbu (NP) saistītais aprēķins tiks likvidēts. Ja šī opcija nav iespējota, likvidēšanu nevar turpināt, ja pastāv tāmē neiekļauti darījumi. 
+   - **Perioda kods**: atlasiet perioda kodu, lai izvēlētos atbilstošus projektu aprēķinus. 
+   - **Aprēķina datums**: atlasiet likvidēšanai atbilstošo aprēķina datumu.
+   - **Likvidēt ar NP brīdinājumiem**: iespējojiet šo opciju, lai sniegtu paziņojumu, ja ar nepabeigtu darbu (NP) saistītais aprēķins tiks likvidēts. Ja šī opcija nav iespējota, likvidēšanu nevar turpināt, ja pastāv tāmē neiekļauti darījumi. 
    > [!NOTE]
    > Šī opcija ir pieejama tikai tad, ja novērtējuma projektā liek veikta likvidēšana. Tas nav pieejams, ja izmantojat periodiskus grāmatojumus. Šis iestatījums darbojas ar iestatījumiem, kas atrodas cilnes **Novērtējums** lapā **Projekta parametri** esošajā lauku grupā **Atļaut likvidēšanu, ja pastāv darījumi, kas nav iekļauti tāmē**.
-   - **Iestatiet statusu uz Pabeigts** : iespējojiet šo opciju, lai pēc likvidēšanas izpildes iestatītu novērtējuma projekta statusu uz **Pabeigts**.
-   - **Drukāt novērtējumu sarakstu** : atlasiet informāciju, kas jāiekļauj, izdrukājot novērtējumu sarakstu.
-   - **Parādīt informācijas žurnālu** : iespējojiet šo opciju, lai rādītu informācijas žurnālu.
-   - **Grāmatošanas datums** : izvēlieties novērtējuma grāmatošanas datumu.
+   - **Iestatiet statusu uz Pabeigts**: iespējojiet šo opciju, lai pēc likvidēšanas izpildes iestatītu novērtējuma projekta statusu uz **Pabeigts**.
+   - **Drukāt novērtējumu sarakstu**: atlasiet informāciju, kas jāiekļauj, izdrukājot novērtējumu sarakstu.
+   - **Parādīt informācijas žurnālu**: iespējojiet šo opciju, lai rādītu informācijas žurnālu.
+   - **Grāmatošanas datums**: izvēlieties novērtējuma grāmatošanas datumu.
 
 4.  Atlasiet **Labi**.
 5. Pēc tam, kad likvidēšanas process ir pabeigts, likvidētais novērtējuma projekts tiek parādīts ar negatīvu vērtību. 

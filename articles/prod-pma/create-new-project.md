@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270732"
 ---
 # <a name="create-a-new-project"></a>Izveidot jaunu projektu
 
@@ -44,7 +44,7 @@ Lai izveidotu jaunu projektu, izpildiet tālāk aprakstītās darbības.
 
 1. Lapas **Darba ņēmēji** sarakstā **Darba ņēmēji** atlasiet darba ņēmēja ierakstu, kuram iepriekš iestatījāt kompetences, un atveriet darba ņēmēja ierakstu.
 2. Darbību rūts cilnes **Projekts** grupā **Kompetences** atlasiet **Piešķirt projektus**.
-3. Lapas **Resursu validācijas projekta piešķire** cilnē **Projekti** , laukā **Pievienot projektu atlasītajiem projektiem** filtrējiet projektu **XYZ Jaunināšanas fāze 2**.
+3. Lapas **Resursu validācijas projekta piešķire** cilnē **Projekti**, laukā **Pievienot projektu atlasītajiem projektiem** filtrējiet projektu **XYZ Jaunināšanas fāze 2**.
 4. Rūtī **Atlikušie projekti** atlasiet projektu un pēc tam atlasiet bulttaustiņu, lai to pievienotu rūtij **Atlasītie projekti**.
 
 Varat arī pēc nepieciešamības resursam piešķirt kategorijas. Kategorijas veids ir vai nu **Izmaksas** vai **Ieņēmumi**. Kategorijas veidu nosaka jūsu organizācija. Ja resursam netiek piešķirtas kategorijas, Finance uzmeklē noklusējuma kategoriju izmaksu un ieņēmumu stundu cenām.

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147122"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280677"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation atjauninājumu izlaidums 20, V3
 
@@ -42,7 +42,7 @@ Ir novērstas tālāk norādītās problēmas.
 
 - Projekta darba grupas dalībnieku importēšana ar piešķiršanas metodi, kurai ir nepieciešamas stundas, izraisa neskaidru kļūdas ziņojumu, kad noteiktās stundas ir nulle.
 - Lietotāji saņem nepareiza kļūda, ja projekta uzdevuma laukā **Apraksts** ir ievadīti maksimālais rakstzīmju skaits.
-- Kad lietotāja valodas iestatījumos ir iestatīta japāņu valoda, **Microsoft Dynamics 365 Project Service Automation pievienojumprogrammu lejupielādes** lapa novirza uz lejupielādes lapu angļu valodā.
+- **Microsoft Dynamics 365 Project Service Automation pievienojumprogrammas lejupielādes** lapa novirza uz angļu valodas lejupielādes lapu, kad lietotāja valodas iestatījumi ir iestatīti japāņu valodā.
 - Kad rodas servera kļūda, dažreiz paliek sinhronizācijas etiķete, kas atrodas veidlapas **Projekti** cilnē **Grafiks**.
 - Kad uzdevums tiek modificēts, uz serveri tiek nosūtīti lieki uzdevuma atjauninājumi.
 

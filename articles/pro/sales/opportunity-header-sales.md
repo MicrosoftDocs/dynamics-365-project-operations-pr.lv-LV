@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181055"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272712"
 ---
 # <a name="opportunity-header---lite"></a>Iespēju galvene — Lite
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 
 Iespējas galvenē ietverta vispārējā informācija par projekta darījumu, kas attiecas uz visām rindām projekta iespējā.
 
-Projekta iespējas risinājumā Dynamics 365 Project Operations ir iespēju paplašinājumi risinājumā Dynamics 365 Sales. Šie paplašinājumi nodrošina papildu funkcionalitāti, kas ir specifiska un nepieciešama projekta iespējām. Šajos paplašinājumos var būt jauni lauki un lentes darbības, kas pieejamas projekta iespējās. Iespējams, daži lauki, funkcijas un noklusējuma loģika, kas ir pieejama programmā Sales, nav pieejama risinājumā Project Operations.
+Projekta iespējas programmā Dynamics 365 Project Operations ir iespēju paplašinājumi programmai Dynamics 365 Sales. Šie paplašinājumi nodrošina papildu funkcionalitāti, kas ir specifiska un nepieciešama projekta iespējām. Šajos paplašinājumos var būt jauni lauki un lentes darbības, kas pieejamas projekta iespējās. Iespējams, daži lauki, funkcijas un noklusējuma loģika, kas ir pieejama programmā Sales, nav pieejama risinājumā Project Operations.
 
 Tālāk sniegtajā tabulā ir iekļauti projekta iespējas lauki, kas ir unikāli risinājumā Project Operations vai kuriem ir dažas svarīgas darbības izmaiņas, salīdzinot ar iespējām risinājumā Sales.
 

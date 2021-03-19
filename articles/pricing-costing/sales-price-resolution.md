@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119562"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274962"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Pārdošanas cenu atrisināšana novērtējumiem un faktiskajiem datiem
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Ja pārdošanas cenas novērtējumiem un faktiskajiem datiem ir atrisinātas risinājumā Dynamics 365 Project Operations, sistēma vispirms izmanto saistītā projekta piedāvājuma vai līguma datumu un valūtu, lai atrisinātu pārdošanas cenas sarakstu. Pēc tam, kad pārdošanas cenrādis ir atrisināts, sistēma atrisina pārdošanas vai rēķina likmi.
+Kad Dynamics 365 Project Operations tiek atrisinātas aprēķinu un faktisko datu pārdošanas cenas, sistēma vispirms izmanto saistītā projekta piedāvājuma vai līguma datumu un valūtu, lai atrisinātu pārdošanas cenrādi. Pēc tam, kad pārdošanas cenrādis ir atrisināts, sistēma atrisina pārdošanas vai rēķina likmi.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pārdošanas likmju atrisināšana attiecībā uz faktiskajām un novērtējuma rindām par laiku
 

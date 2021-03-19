@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bc97af1ec90e60417c502eb329a85004e769e05b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128832"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279147"
 ---
 # <a name="submit-a-resource-request"></a>Submit a resource request
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 Ģenerētu resursa prasību varat iesniegt kā resursa pieprasījumu. Pēc tam šis pieprasījums tiek nosūtīts izpildei resursu pārvaldniekam.
 
-1. Dynamics 365 Project Operations lapā **Projekti** atlasiet cilni **Darba grupa**, lai skatītu rezervējamo resursu sarakstu. 
+1. Programmas Dynamics 365 Project Operations lapā **Projekti** noklikšķiniet uz cilnes **Grupa**, lai skatītu rezervējamo resursu sarakstu. 
 2. Atlasiet vispārējo resursu, kam sarakstā ir resursa prasība, un pēc tam noklikšķiniet uz **Iesniegt pieprasījumu**.
 
 Vispārēja grupas dalībnieka pieprasījuma statuss mainīsies uz **Iesniegts**.
