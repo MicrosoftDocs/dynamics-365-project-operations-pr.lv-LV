@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401227"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479573"
 ---
 # <a name="determine-your-deployment-type"></a>Nosakiet savu izvietošanas veidu
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 > [!IMPORTANT]
-> Pēc licences iegādes sāciet šeit, lai noteiktu labāko Dynamics 365 Project Operations izvietošanas modeli, izmantojot rīku [Vadītā instalācijas plūsma](https://aka.ms/provisionprojectoperations).
+> Pēc licences iegādes sāciet šeit, lai noteiktu labāko izvietošanas modeli Dynamics 365 Project Operations, izmantojot elementu [Vadītā instalēšanas plūsma](https://aka.ms/provisionprojectoperations).
 > Kad būsiet pabeidzis vadīto instalācijas plūsmu, tiksiet novirzīts uz atbilstošo pārvaldības portālu, lai pabeigtu instalēšanu. Lai pabeigtu instalēšanu, skatiet izvietošanas informāciju.
 
 
@@ -31,6 +31,9 @@ Project Operations ietver iespējas, kas piegādātas kopā ar Project Service A
 
 Esošie finanšu klienti, kas izmanto projekta pārvaldības un grāmatvedības funkcionalitāti, var turpināt to lietot bez izmaiņām. Skatiet [Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem](#pma).
 
+
+## <a name="deployment-regions"></a>Izvietošanas reģions
+Informāciju par to, kuri reģioni atbalsta Project Operations izvietošanu, skatiet sadaļā [Ģeogrāfiskā pieejamība Dynamics 365 un Power Platform atskaiti](https://dynamics.microsoft.com/en-us/geographic-availability/). Atlasiet vienumu **Skatīt atskaiti** un izvērsiet **Dynamics365 > Operations programmas > Dynamics 365 Project Operations**, lai skatītu atbalstītos reģionus.
 
 ## <a name="deployment-types"></a>Izvietojuma tipi
 Project Operations atbalsta vairākas izvietošanas opcijas, lai atbilstu jūsu prasībām. Neatkarīgi no tā, vai esat jauns vai esošs Dynamics 365 klients, Project Operations var atbalstīt jūsu vajadzības.

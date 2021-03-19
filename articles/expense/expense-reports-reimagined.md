@@ -1,9 +1,9 @@
 ---
 title: Atjaunotas izdevumu atskaites
-description: Šajā tēmā ir sniegta informācija par izdevumu atskaites ieraksta pārveidoto un uzlaboto pieredzi.
+description: Šajā tēmā ir izskaidrota izdevumu atskaites ieraksta pārveidotā un atjaunotā pieredze.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122803"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499725"
 ---
 # <a name="expense-reports-reimagined"></a>Atjaunotas izdevumu atskaites
 
@@ -59,25 +59,22 @@ Videoklips [Izdevumu pieredze risinājumā Dynamics 365 for Finance and Operatio
 | Ziņojumu skaita samazināšana ziņojumu joslā| Ir samazināts Informācijas žurnāla ziņojumu skaits, un tika veikti pasākumi, lai daudzos gadījumos novērstu ziņojumu dublikātu parādīšanos. |
 | Sagrupētas biežāk veiktās darbības | Interfeiss tika vienkāršots, pievienojot jaunu darbību pogu vairumam biežāko veikto rindas līmeņa darbību, kā arī daudzpunktes pogu (...) galvenes un citām mazāk bieži veiktām darbībām. |
 | Jauna darbvieta, lai uzlabotu redzamību | Jauna darbvieta apvieno līdzekļus un saites, kas lietotājiem ļauj pāriet uz dažādām zonām. |
-| Esošo izdevumu un kvīšu pievienošana izdevumu izveides laikā | Veidojot izdevumu atskaites, varat pievienot visus vai tikai atlasītos izdevumus un kvītis. |
+| Esošo izdevumu un kvīšu pievienošana izdevumu izveides laikā | Veidojot izmaksu atskaites, varat pievienot visas izmaksas vai atlasīt neapvienotās izmaksas. Nepievienotās izmaksas ir tās izmaksas, kas tika importētas no korporatīvas kredītkartes plūsmas, vai izmaksas, ko lietotājs izveidoja manuāli, bet kuras netika pievienotas izmaksu atskaitei.|
 | Valūtas kursa kalkulators | Ir pievienots valūtas kursa kalkulators, kas ļauj aprēķināt valūtas kursu tiešajiem daudzvalūtu darījumiem. |
 | Jaunu izdevumu rindu saglabāšana un pievienošana | Ievadot izdevumus, ir pieejamas pogas **Saglabāt** un **Jauns**, lai jums palīdzētu ātri ievadīt izdevumu rindas. |
 | Labāka sadalīto un detalizēto rindu redzamība | Tieši izmaksu sarakstā tiek pievienotas detalizētas un sadalītas rindas, lai uzlabotu redzamību un palīdzētu ērti noteikt, vai nav kļūdu. |
 | Kvīšu rādīšana detalizācijas laikā | Detalizācijas laikā var rādīt kvītis. |
+| Skaidras naudas avansa atlase | Atlasiet vienu vai vairākus skaidras naudas avansus, lai izpildītu atsevišķas izmaksu transakcijas. |
+| Skaudras naudas bilance | Veidojot izmaksu ierakstu, salīdzinot to ar apstiprinātajām un samaksātajām skaidras naudas bilancēm, pārskatiet naudas summas iepriekšējas bilances informāciju reāllaikā. |
 
 Sākotnējais laidiens ir koncentrēts uz izdevumu ievades scenārijiem. Jebkurš izdevumu atskaites pārskatīšanas vai apstiprināšanas scenārijs joprojām notiks, izmantojot esošo izdevumu ierakstu lapu.
 
-Esošajā lapā ir pieejami tālāk aprakstītie līdzekļi, bet jaunajā lapā tie vēl nav pieejami. Tālāk norādītie līdzekļi tiks atkārtoti ieviesti nākamajos laidienos.
+Atkāroti atjaunoto izdevumu darbvietā netiek atbalstīti šādi līdzekļi:
 
-- Apstiprinājumi
-- Kreditoru apstiprinājumi un iespēja rediģēt uzskaiti
-- Vairāki ievades punkti
 - Ceļojuma pieteikuma integrācija
-- Datu entītija izdevumu lauku redzamībai
-- Ieraksts par dienasnaudas izdevumiem
-- Rindas līmeņa darbplūsma
+- Dienas izdevumu ieraksts
 - Pagaidu apstiprinātāja atbalsts
-- Papildu detalizācija
+- Spēja skatīt darbplūsmas vēsturi
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

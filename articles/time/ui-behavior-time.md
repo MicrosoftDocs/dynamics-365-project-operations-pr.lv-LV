@@ -3,17 +3,17 @@ title: Laika ieraksta UI uzvedība
 description: Šajā tēmā ir sniegta informācija par laika ieraksta UI uzvedību.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124512"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499623"
 ---
 # <a name="time-entry-ui-behavior"></a>Laika ieraksta UI uzvedība
 
@@ -21,6 +21,19 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 
 Režģis **Nedēļas laika ieraksts** ir pielāgota vadīkla, kurā ir divas galvenās sadaļas: **Dimensijas** un **Ilgums**.
+
+## <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
+| Darbība        | Saīsne                  |
+|------------   |------------------------   |
+| Izveidot:           | Alt + Shift + n           |
+| Kopēt rindu      | Alt + Shift + c           |
+| Ieraksta rediģēšana    | Alt + Shift + e           |
+| Rindas rediģēšana      | Alt + Shift + Ctrl + e    |
+| Ieraksta atvēršana    | Alt + Shift + o           |
+| Iesniegšana        | Alt + Shift + s           |
+| Atsaukt        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Nedēļas kopēšana     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimensijas
 Sadaļā **Dimensijas** tiek rādītas dimensijas, kurām var ievadīt laiku. Sākotnēji atbalstītas tiek šādas dimensijas:
