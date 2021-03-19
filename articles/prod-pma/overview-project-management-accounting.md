@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080587"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289783"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pārskats par projektu pārvaldību un uzskaiti
 
@@ -148,9 +148,9 @@ Ar projektu saistītu ražošanas pasūtījumu var saistīt ar pārdošanas pas�
 
 Pamatojoties uz šo faktoru kombinācijām, izmantojiet vienu no tālāk minētajām metodēm.
 
-- **Pabeigts vienums/saite uz pasūtījumu**  — saistiet projektu ar pārdošanas pasūtījumu vai vienuma prasību. Izmantojot šo metodi, faktiskās projekta izmaksas tiek publicētas, kad pārdošanas pasūtījumam ir izrakstīts rēķins vai kad pavadzīme ir atjaunināta ar vienumu prasībām. Izmaksas tiek publicētas kā pabeigts vienums.
-- **Pabeigts vienums/nav saites uz pasūtījumu**  — faktiskās izmaksas nevar publicēt, kamēr vienuma ražošanas cikla statuss nav **Pabeigts**. Pabeigtā vienuma izmaksas tiek publicētas kā viena transakcija.
-- **Pabeigts vienums/saite uz pasūtījumu**  — saistiet projektu ar vienuma prasību. Izmantojot šo metodi, varat skatīt faktiskās projekta izmaksas, ja ražošanas statuss ir **Sākts** vai tā tiek ziņota kā pabeigta. Izmaksas tiek publicētas kā vairākas projekta vienumu transakcijas izejvielām un ražošanai patērētajām stundām. Ja pavadzīme tiek atjaunināta ar vienumu prasībām, projekta izmaksas netiek publicētas. Varat arī definēt līmeni materiālu komplekta (BOM) hierarhijā, kurā tiek izsekoti ražošanas projekti.
+- **Pabeigts vienums/saite uz pasūtījumu** — saistiet projektu ar pārdošanas pasūtījumu vai vienuma prasību. Izmantojot šo metodi, faktiskās projekta izmaksas tiek publicētas, kad pārdošanas pasūtījumam ir izrakstīts rēķins vai kad pavadzīme ir atjaunināta ar vienumu prasībām. Izmaksas tiek publicētas kā pabeigts vienums.
+- **Pabeigts vienums/nav saites uz pasūtījumu** — faktiskās izmaksas nevar publicēt, kamēr vienuma ražošanas cikla statuss nav **Pabeigts**. Pabeigtā vienuma izmaksas tiek publicētas kā viena transakcija.
+- **Pabeigts vienums/saite uz pasūtījumu** — saistiet projektu ar vienuma prasību. Izmantojot šo metodi, varat skatīt faktiskās projekta izmaksas, ja ražošanas statuss ir **Sākts** vai tā tiek ziņota kā pabeigta. Izmaksas tiek publicētas kā vairākas projekta vienumu transakcijas izejvielām un ražošanai patērētajām stundām. Ja pavadzīme tiek atjaunināta ar vienumu prasībām, projekta izmaksas netiek publicētas. Varat arī definēt līmeni materiālu komplekta (BOM) hierarhijā, kurā tiek izsekoti ražošanas projekti.
 - *<strong><em>Pabeigts vienums/nav saites uz pasūtījumu</em></strong>*  — saistiet projektu ar vienuma prasību. Izmantojot šo metodi, varat skatīt faktiskās projekta izmaksas, ja ražošanas statuss ir <strong>Sākts</strong> vai tā tiek ziņota kā pabeigta. Izmaksas tiek publicētas kā vairākas projekta vienumu transakcijas izejvielām un ražošanai patērētajām stundām. Varat arī definēt līmeni BOM hierarhijā, kurā tiek izsekoti ražošanas projekti.
 
 ### <a name="procure-products-and-services"></a>Produktu un pakalpojumu iepirkšana
@@ -205,13 +205,13 @@ Varat pasūtīt vienumus no uzņēmuma krājuma patēriņam projektā. Vai arī 
 
 Veids, kā pasūtīt vienumus, ir atkarīgs no tā, no kurienes tie tiek pasūtīti.
 
--   Lai pasūtītu vienumus no uzņēmuma krājuma, pasūtījums ir jāievada kā vienuma prasība. Ja izmantojat lapu **Vienumu prasības** , varat iestatīt prasību, lai saņemtu vienumus kā daļējas piegādes.Tāpēc var atlikt vienumu daudzuma patēriņu, līdz šie vienumi ir nepieciešami.
+-   Lai pasūtītu vienumus no uzņēmuma krājuma, pasūtījums ir jāievada kā vienuma prasība. Ja izmantojat lapu **Vienumu prasības**, varat iestatīt prasību, lai saņemtu vienumus kā daļējas piegādes. Tāpēc varat atlikt vienumu daudzuma patēriņu, līdz šie vienumi ir nepieciešami.
 -   Lai pasūtītu vienumus no ārēja piegādātāja, pasūtījums ir jāizveido kā pirkšanas pasūtījums lapā **Pirkšanas pasūtījums**.
 
 > [!NOTE] 
 > Ar projektu saistītā pārdošanas pasūtījuma pavadzīmi nevar atcelt, ja vienumi jau ir atzīmēti iepakošanai. 
 
-Tālāk sniegtajā tabulā ir uzskaitītas vienumu pasūtīšanas metodes un aprakstīts, kā vienumi tiek patērēti.
+Tālāk sniegtajā tabulā ir uzskaitītas vienumu pasūtīšanas metodes un ir aprakstīts, kā vienumi tiek patērēti.
 
 | Metode            | Nolūks                                                                                                                                                        | Vienumu transakciju patēriņš                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Papildinformāciju par to, kā apstrādāt projektu rēķinu, skatiet rakstā [R
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projekta pabeigšanas izmaksu aprēķināšana
 
-Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprēķinātu projekta pabeigšanas izmaksas. Atlasiet metodi laukā **Pabeigšanas izmaksu metode** lapā **Izveidot novērtējumu**. Jūsu izvēlētā metode tiek lietota atsevišķi katrai izmaksu rindai izmaksu novērtējumā. Ja rindai ir statuss **Izveidota** , varat mainīt tai lietoto metodi lapā **Izmaksu novērtējums**. 
+Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprēķinātu projekta pabeigšanas izmaksas. Atlasiet metodi laukā **Pabeigšanas izmaksu metode** lapā **Izveidot novērtējumu**. Jūsu izvēlētā metode tiek lietota atsevišķi katrai izmaksu rindai izmaksu novērtējumā. Ja rindai ir statuss **Izveidota**, jūs varat mainīt tai lietoto metodi lapā **Izmaksu novērtējums**. 
 
 Tālāk sniegtajā tabulā ir aprakstītas metodes projekta pabeigšanas izmaksu aprēķināšanai.
 
@@ -300,12 +300,12 @@ Balstoties uz iestatījumiem, varat prognozēt atlasītā projekta ienākošās 
 -   **Projekta datums:** 2012. gada 5. marts.
 -   **Rēķina datums:** 2012. gada 31. marts. Šo datumu nosaka, pamatojoties uz rēķina biežumu. Šajā piemērā rēķina biežums ir iestatīts uz pašreizējo mēnesi. Tāpēc visas transakcijas, kas ir publicētas marta mēnesī, tiek iekļautas rēķinā pēdējā mēneša dienā.
 -   **Izpildes datums:** 2012. gada 14. aprīlis. Šo datumu nosaka, pamatojoties uz projektam iestatītajiem apmaksas nosacījumiem. Šajā piemērā ir atlasīti 14 dienu apmaksas nosacījumi. Tāpēc rēķina datumam tiek pievienotas 14 dienas, lai izpildes termiņa datums būtu 2012. gada 14. aprīlis.
--   **Paredzamais pārdošanas maksājuma datums:** 2012. gada 27. aprīlis. Šis datums ir aprēķināts, pievienojot dienu skaitu laukā **Vispārīgā bufera dienas** lapā **Projekta pārvaldības un uzskaites parametri** dienu skaitam, kas norādīts laukā **Individuālā bufera dienas** lapā **Projektu līgumi** , un pēc tam šo kopsummu pievienojot dienu skaitam laukā **Izpildes datums**. Šajā piemērā jūs ievadījāt **3** laukā **Vispārīgā bufera dienas** un **10** laukā **Individuālā bufera dienas**. Tāpēc izpildes datumam tiek pievienotas 13 dienas, lai tas pienāktu paredzamajā pārdošanas maksājuma datumā 2012. gada 27. aprīlī.
+-   **Paredzamais pārdošanas maksājuma datums:** 2012. gada 27. aprīlis. Šis datums ir aprēķināts, pievienojot dienu skaitu laukā **Vispārīgā bufera dienas** lapā **Projekta pārvaldības un uzskaites parametri** dienu skaitam, kas norādīts laukā **Individuālā bufera dienas** lapā **Projektu līgumi** un pēc tam šo kopsummu pievienojot dienu skaitam laukā **Izpildes datums**. Šajā piemērā jūs ievadījāt **3** laukā **Vispārīgā bufera dienas** un **10** laukā **Individuālā bufera dienas**. Tāpēc izpildes datumam tiek pievienotas 13 dienas, lai tas pienāktu paredzamajā pārdošanas maksājuma datumā 2012. gada 27. aprīlī.
 
 Vispārīgā bufera dienas var aizstāt individuālā bufera dienas vai tikt tām pieskaitītas:
 
--   Lai izmantotu vispārīgā bufera dienas kā individuālā bufera dienu aizstājēju, ievadiet vidējo dienu skaitu starp izpildes datumu un faktisko maksājuma datumu klientiem.
--   Lai individuālā bufera dienām pievienotu vispārīgā bufera dienas, laukā **Vispārīgā bufera dienas** ievadiet savu dienu skaita novērtējumu starp dienu, kad klients nosūta maksājumu, un dienu, kad jūsu organizācija saņem maksājumu.
+-   Lai izmantotu šīs vispārīgā bufera dienas kā individuālā bufera dienu aizstājēju, ievadiet vidējo dienu skaitu starp izpildes datumu un faktisko maksājuma datumu klientiem.
+-   Lai individuālā bufera dienām pievienotu vispārīgā bufera dienas, laukā **Vispārīgā bufera dienas** ievadiet savu dienu skaita novērtējumu starp dienu, kad klients veic maksājumu, un dienu, kad jūsu organizācija saņem maksājumu.
 
 Projekta līgumā iestatiet individuālā bufera dienas. Dienas tiek aprēķinātas, pamatojoties uz pārdošanas rēķina izpildes termiņu un organizācijas pieredzi ar klienta maksājumu grafiku.
 
@@ -323,9 +323,9 @@ Pamatojoties uz noteiktajām dienām, izmaksu maksājuma datums var atšķirties
 
 Piemēram, transakcijas projekta datums ir 2012. gada 5.marts, un ir iestatīt šādi apmaksas nosacījumi:
 
--   **Stundas:** pašreizējais mēnesis ( **M** )
--   **Izdevumi:** 14 dienas ( **D14** )
--   **Vienumi:** 30 dienas ( **D30** )
+-   **Stundas:** pašreizējais mēnesis (**M**)
+-   **Izdevumi:** 14 dienas (**D14**)
+-   **Vienumi:** 30 dienas (**D30**)
 
 Pamatojoties uz šiem iestatījumiem, tālāk ir norādīts izmaksu maksājuma datums katram transakcijas tipam.
 
@@ -360,66 +360,66 @@ Kad visi pārdošanas un piegādātāju rēķini ir pabeigti, varat skatīt atti
 Varat uzraudzīt izmaksas, kas organizācijai rodas projekta laikā, lapā **Izmaksu kontrole**. Salīdzinot oriģinālās projekta budžetā paredzētās izmaksas ar pašreizējām faktiskajām izmaksām un fiksētajām izmaksām, var noteikt, vai projekts iekļaujas budžetā, pārsniedz to vai nesasniedz to. 
 
 > [!NOTE] 
-> Ja izmantojat lapu **Izmaksu kontrole** , lai skatītu projekta izmaksu pašreizējo statusu, izmantojiet prognožu modeļus, kas tika atlasīti sākotnējam un atlikušajam budžetam. Ja, aprēķinot izmaksas, atlasāt citus prognožu modeļus, aprēķina rezultāti nebūs precīzi.
+> Ja izmantojat lapu **Izmaksu kontrole**, lai skatītu projekta izmaksu pašreizējo statusu, izmantojiet prognožu modeļus, kas tika atlasīti sākotnējam un atlikušajam budžetam. Ja, aprēķinot izmaksas, atlasāt citus prognožu modeļus, aprēķina rezultāti nebūs precīzi.
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Atlikušo budžetā paredzēto summu skatīšana
 
-Ja **Atlikušais budžets** tiek atlasīta kā izmaksu kontroles metode lapā **Projektu pārvaldības un uzskaites parametri** , lapā **Izmaksu kontrole** tiek aprēķinātas izmaksas, kas nav publicētas kā faktiskas vai atzīmētas kā fiksētas. Konkrētāk, summas cilnē **Vispārīgi** lapas **Izmaksu kontrole** apakšējā rūtī tiek aprēķinātas šādos veidos:
+Ja **Atlikušais budžets** tiek atlasīta kā izmaksu kontroles metode lapā **Projektu pārvaldības un uzskaites parametri**, lapā **Izmaksu kontrole** tiek aprēķinātas izmaksas, kas nav publicētas kā faktiskas vai atzīmētas kā fiksētas. Konkrētāk, summas cilnē **Vispārīgi** lapas **Izmaksu kontrole** apakšējā rūtī tiek aprēķinātas šādos veidos:
 
--   **Faktiskās izmaksas**  — kopējā summa, kas iztērēta projektam atlasītajā izmaksu rindā. Faktiskā izmaksu summa tiek aprēķināta lapā **Virsgrāmatas atjauninājumi**.
--   **Fiksētās izmaksas**  — papildu izdevumu summa, ko juridiskā persona ir apņēmusies segt pati. Īpašās fiksēto izmaksu summas tiek aprēķinātas lapā **Fiksētās izmaksas**.
--   **Atlikušais budžets**  — sākotnējā budžetā paredzētā summa, kas joprojām ir pieejama atlasītajai izmaksu rindai. Atlikusī budžeta summa tiek aprēķināta lapā **Virsgrāmatas priekšskatījums**.
--   **Kopējās izmaksas**  — summa, ko veido faktiskās izmaksas, fiksētās izmaksas un atlikušās budžeta summas.
+-   **Faktiskās izmaksas** — kopējā summa, kas iztērēta projektam atlasītajā izmaksu rindā. Faktiskā izmaksu summa tiek aprēķināta lapā **Virsgrāmatas atjauninājumi**.
+-   **Fiksētās izmaksas** — papildu izdevumu summa, ko juridiskā persona ir apņēmusies segt pati. Īpašās fiksēto izmaksu summas tiek aprēķinātas lapā **Fiksētās izmaksas**.
+-   **Atlikušais budžets** — sākotnējā budžetā paredzētā summa, kas joprojām ir pieejama atlasītajai izmaksu rindai. Atlikusī budžeta summa tiek aprēķināta lapā **Virsgrāmatas priekšskatījums**.
+-   **Kopējās izmaksas** — summa, ko veido faktiskās izmaksas, fiksētās izmaksas un atlikušās budžeta summas.
 
-Lapas **Izmaksu kontrole** cilnē **Nobīde** varat skatīt kopējo paredzamo izmaksu salīdzinājumu ar sākotnējo budžetu. Šajā salīdzinājumā tiek rādītas atšķirības starp šīm summām. Tāpēc var redzēt, kur dati nesakrīt. Novirzes summas tiek aprēķinātas šādos veidos:
+Lapas **Izmaksu kontrole** cilnē **Nobīde** varat skatīt kopējo paredzamo izmaksu salīdzinājumu ar sākotnējo budžetu. Šajā salīdzinājumā tiek rādītas atšķirības starp šīm summām. Tāpēc varat redzēt, kur dati nesakrīt. Novirzes summas tiek aprēķinātas šādos veidos:
 
--   **Sākotnējais budžets**  — summa, kas sākotnēji tika plānota atlasītajai izmaksu rindai. Sākotnējā budžeta summa tiek aprēķināta lapā **Virsgrāmatas priekšskatījums**.
--   **Kopējās izmaksas**  — summa, ko veido faktiskās izmaksas, fiksētās izmaksas un atlikušais budžets, kā norādīts cilnē **Vispārīgi**.
--   **Novirze**  — starpība starp kopējām izmaksām un sākotnējo budžetu.
--   **Novirze atkarībā no daudzuma**  — kopējā atšķirība starp sākotnējo prognozi un kopējo prognozi. Šo starpību var izteikt matemātiski kā (Kopējais prognozētais daudzums) × (Sākotnējā vidējā cena — Kopējā vidējā cena). Šis aprēķins attiecas tikai uz projekta stundām.
--   **Novirze atkarībā no cenas**  — kopējā atšķirība starp sākotnējo prognozi un kopējo prognozi. Šo starpību var izteikt matemātiski kā (Sākotnējā prognozētā cena) × (Sākotnējais prognozētais daudzums — Kopējais prognozētais daudzums). Šis aprēķins attiecas tikai uz projekta stundām.
+-   **Sākotnējais budžets** — summa, kas sākotnēji tika plānota atlasītajai izmaksu rindai. Sākotnējā budžeta summa tiek aprēķināta lapā **Virsgrāmatas priekšskatījums**.
+-   **Kopējās izmaksas** — summa, ko veido faktiskās izmaksas, fiksētās izmaksas un atlikušais budžets, kā norādīts cilnē **Vispārīgi**.
+-   **Novirze** — starpība starp kopējām izmaksām un sākotnējo budžetu.
+-   **Novirze atkarībā no daudzuma** — kopējā atšķirība starp sākotnējo prognozi un kopējo prognozi. Šo starpību var izteikt matemātiski kā (Kopējais prognozētais daudzums) × (Sākotnējā vidējā cena — Kopējā vidējā cena). Šis aprēķins attiecas tikai uz projekta stundām.
+-   **Novirze atkarībā no cenas** — kopējā atšķirība starp sākotnējo prognozi un kopējo prognozi. Šo starpību var izteikt matemātiski kā (Sākotnējā prognozētā cena) × (Sākotnējais prognozētais daudzums — Kopējais prognozētais daudzums). Šis aprēķins attiecas tikai uz projekta stundām.
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Kopējo budžetā paredzēto summu skatīšana
 
-Ja **Kopējais budžets** tiek atlasīta kā izmaksu kontroles metode lapā **Projekta pārvaldības un uzskaites parametri** , lapā **Izmaksu kontrole** tiek aprēķinātas projekta faktiskās izmaksas un kopējās izmaksas, lai palīdzētu noteikt atšķirību starp tām. Konkrētāk, lapā **Izmaksu kontrole** summas cilnes **Vispārīgi** kolonnās apakšējā rūtī tiek aprēķinātas šādos veidos:
+Ja **Kopējais budžets** tiek atlasīta kā izmaksu kontroles metode lapā **Projekta pārvaldības un uzskaites parametri**, lapā **Izmaksu kontrole** tiek aprēķinātas projekta faktiskās izmaksas un kopējās izmaksas, lai palīdzētu noteikt atšķirību starp tām. Konkrētāk, lapā **Izmaksu kontrole** summas cilnes **Vispārīgi** kolonnās apakšējā rūtī tiek aprēķinātas tālāk norādītajos veidos:
 
--   **Kopējās budžetā paredzētās izmaksas**  — kopējā budžetā paredzētā summa atlasītajai izmaksu rindai.
--   **Faktiskās izmaksas**  — visjaunākā kopējā izmaksu summa, kas radusies projektam atlasītajā izmaksu rindā.
--   **Fiksētās izmaksas**  — kopējā summa, kas fiksēta atlasītajai izmaksu rindai.
--   **Novirze**  — starpība starp faktiskajām un fiksētajām izmaksām un kopējo izmaksu summu. Novirze rāda, vai kopējam budžetam ir jānorāda papildu izmaksas.
+-   **Kopējās budžetā paredzētās izmaksas** — kopējā budžetā paredzētā summa atlasītajai izmaksu rindai.
+-   **Faktiskās izmaksas** — visjaunākā kopējā izmaksu summa, kas radusies projektam atlasītajā izmaksu rindā.
+-   **Fiksētās izmaksas** — kopējā summa, kas fiksēta atlasītajai izmaksu rindai.
+-   **Novirze** — starpība starp faktiskajām un fiksētajām izmaksām un kopējo izmaksu summu. Novirze rāda, vai kopējam budžetam ir jānorāda papildu izmaksas.
 
 Lapas **Izmaksu kontrole** cilnē **Nobīde** var skatīt atšķirību starp kopējo budžetu un sākotnējo budžetu, aplūkojot šādus laukus:
 
--   **Sākotnējais budžets**  — summa, kas sākotnēji tika plānota izmaksu rindai. Sākotnējais budžets tiek aprēķināts lapā **Virsgrāmatas priekšskatījums**.
--   **Kopējās budžetā paredzētās izmaksas**  — kopējās izmaksas, kas sākotnēji tika plānotas izmaksu rindai. Kopējās budžetā iekļautās izmaksas tiek aprēķinātas lapā **Virsgrāmatas priekšskatījums**.
--   **Nobīde**  — izmaksu rindas nobīde. Šī summa tiek aprēķināta, atņemot kopējās izmaksas no sākotnējā budžeta.
--   **Novirze atkarībā no daudzuma**  — kopējā atšķirība starp sākotnējo budžetu un kopējo budžetu. Šī summa tiek aprēķināta, atņemot kopējās budžeta stundas no sākotnējām budžeta stundām un pēc tam reizinot starpību ar sākotnējām budžetā paredzētajām izmaksām. Šo atšķirību var izteikt matemātiski kā (Sākotnējās budžetā paredzētās izmaksas) × (Sākotnējās budžeta stundas — Kopējās budžeta stundas). Šis aprēķins attiecas tikai uz projekta stundām.
--   **Novirze atkarībā no cenas**  — šī summa tiek aprēķināta, atņemot kopējās budžeta stundas no sākotnējām budžeta stundām un pēc tam reizinot starpību ar kopējo patērēto stundu skaitu. Šo atšķirību var izteikt matemātiski kā (Kopējās patērētās stundas) × (Sākotnējās budžeta stundas — Kopējās budžeta stundas). Šis aprēķins attiecas tikai uz projekta stundām.
+-   **Sākotnējais budžets** — summa, kas sākotnēji tika plānota izmaksu rindai. Sākotnējais budžets tiek aprēķināts lapā **Virsgrāmatas priekšskatījums**.
+-   **Kopējās budžetā paredzētās izmaksas** — kopējās izmaksas, kas sākotnēji tika plānotas izmaksu rindai. Kopējās budžetā iekļautās izmaksas tiek aprēķinātas lapā **Virsgrāmatas priekšskatījums**.
+-   **Nobīde** — izmaksu rindas nobīde. Šī summa tiek aprēķināta, atņemot kopējās izmaksas no sākotnējā budžeta.
+-   **Novirze atkarībā no daudzuma** — kopējā atšķirība starp sākotnējo budžetu un kopējo budžetu. Šī summa tiek aprēķināta, atņemot kopējās budžeta stundas no sākotnējām budžeta stundām un pēc tam reizinot starpību ar sākotnējām budžetā paredzētajām izmaksām. Šo atšķirību var izteikt matemātiski kā (Sākotnējās budžetā paredzētās izmaksas) × (Sākotnējās budžeta stundas — Kopējās budžeta stundas). Šis aprēķins attiecas tikai uz projekta stundām.
+-   **Novirze atkarībā no cenas** — šī summa tiek aprēķināta, atņemot kopējās budžeta stundas no sākotnējām budžeta stundām un pēc tam reizinot starpību ar kopējo patērēto stundu skaitu. Šo atšķirību var izteikt matemātiski kā (Kopējās patērētās stundas) × (Sākotnējās budžeta stundas — Kopējās budžeta stundas). Šis aprēķins attiecas tikai uz projekta stundām.
 
 ### <a name="analyze-utilization"></a>Nodarbinātības analīze
 
-Lietojuma rādītājs ir procentos izteikts laiks, cik ilgi darbinieks ir veicis apmaksājamu vai produktīvu darbu noteiktā darba periodā. Apmaksājamās stundas ir darbinieka stundas, par kurām var iekasēt samaksu no noteikta klienta. 
+Lietojuma rādītājs ir procentos izteikts laiks, cik ilgi darbinieks ir veicis apmaksājamu vai produktīvu darbu noteiktā laika periodā. Apmaksājamās stundas ir darbinieka stundas, par kurām var iekasēt samaksu no noteikta klienta. 
 
 Darbinieka lietojuma rādītājs tiek aprēķināts, dalot apmaksājamo stundu skaitu ar darba stundu skaitu noteiktā laika periodā. Piemēram, ja darbiniekam ir 30 apmaksājamās stundas periodā un darba stundu skaits tajā pašā periodā ir 40, darbinieka lietojuma rādītājs ir 75 procenti. 
 
 Kad tiek aprēķināts darbinieka lietojuma rādītājs, var aprēķināt apmaksājamo likmi vai efektivitātes likmi:
 
--   **Apmaksājamā likme**  — starpība starp apmaksājamām stundām un neapmaksājamām stundām vai normas stundām.
--   **Efektivitātes likme**  — starpība starp produktīvajām stundām un neproduktīvajām stundām vai normas stundām. Produktīvās stundas ir stundas, ko darbinieks pavada, ieguldot darbu noteiktā projektā. Produktīvās stundas parasti apmaksā klients, izņemot iekšējo projektu gadījumā. Klientam nekad nav jāapmaksā neproduktīvās stundas.
+-   **Apmaksājamā likme** — starpība starp apmaksājamām stundām un neapmaksājamām stundām vai normas stundām.
+-   **Efektivitātes likme** — starpība starp produktīvajām stundām un neproduktīvajām stundām vai normas stundām. Produktīvās stundas ir stundas, ko darbinieks pavada, ieguldot darbu noteiktā projektā. Produktīvās stundas parasti apmaksā klients, izņemot iekšējo projektu gadījumā. Klientam nekad nav jāapmaksā neproduktīvās stundas.
 
 Nodarbinātības rādītājus aprēķina lapā **Stundu lietojums**. Aprēķini ir balstīti uz noklusējuma preferencēm. Šīs preferences arī norāda, kā tiek aprēķinātas stundas, piešķirot katram projekta tipam **Lietojums** vai **Papildslodze**. Tas attiecas uz apmaksājamās likmes aprēķiniem un efektivitātes likmes aprēķiniem.
 
--   **Lietojums**  — stundas, kas tiek ziņotas atlasītajam projekta tipam, vienmēr tiek ņemtas vērā apmaksājamajam vai efektivitātes lietojumam.
--   **Papildslodze**  — stundas, kas tiek ziņotas atlasītajam projekta tipam, vienmēr tiek ņemtas vērā neapmaksājamajam vai neefektivitātes lietojumam.
--   **Atbilstoši rindas rekvizītam**  — noteiktas stundu transakcijas rindas rekvizīti nosaka, vai stundas tiek ņemtas vērā apmaksājamajam vai efektivitātes lietojumam.
--   **Nav iekļauts**  — stundas netiek ietvertas apmaksājamā vai efektivitātes lietojuma aprēķinā.
+-   **Lietojums** — stundas, kas tiek ziņotas atlasītajam projekta tipam, vienmēr tiek ņemtas vērā apmaksājamajam vai efektivitātes lietojumam.
+-   **Papildslodze** — stundas, kas tiek ziņotas atlasītajam projekta tipam, vienmēr tiek ņemtas vērā neapmaksājamajam vai neefektivitātes lietojumam.
+-   **Atbilstoši rindas rekvizītam** — noteiktas stundu transakcijas rindas rekvizīti nosaka, vai stundas tiek ņemtas vērā apmaksājamajam vai efektivitātes lietojumam.
+-   **Nav iekļauts** — stundas netiek ietvertas apmaksājamā vai efektivitātes lietojuma aprēķinā.
 
-Lapā **Stundu lietojums** papildus kopējai darbinieka vai projekta lietojuma rādītājam procentos varat skatīt stundu skaitu, kas izmantots lietojuma likmes aprēķiniem katram no šiem stundu tipiem:
+Lapā **Stundu lietojums** papildus darbinieka vai projekta kopējā izmantošanas ātruma procentuālajai vērtībai var apskatīt stundu skaitu, kas tika izmantots, lai aprēķinātu lietojuma rādījumu katram no šiem stundu tipiem:
 
--   **Neiekļautās stundas**  — šīs stundas netiek iekļautas stundu lietojuma rādītājā.
--   **Iekļautās stundas**  — šīs stundas tiek aprēķinātas, pievienojot lietojuma stundas un papildslodzes stundas. Šīs stundas tiek iekļautas lietojuma likmē.
--   **Papildslodzes stundas**  — ja jūs aprēķināt apmaksājamu likmi, šīs stundas ir tādas pašas kā rēķinā neiekļaujamās stundas. Aprēķinot efektivitātes rādītāju, šīs stundas ir tādas pašas kā neproduktīvās stundas.
--   **Lietojuma stundas**  — ja jūs aprēķināt apmaksājamu likmi, šīs stundas ir tādas pašas kā rēķinā iekļaujamās stundas. Aprēķinot efektivitātes rādītāju, šīs stundas ir tādas pašas kā produktīvās stundas.
+-   **Neiekļautās stundas** — šīs stundas netiek iekļautas stundu lietojuma rādītājā.
+-   **Iekļautās stundas** — šīs stundas tiek aprēķinātas, pievienojot lietojuma stundas un papildslodzes stundas. Šīs stundas tiek iekļautas lietojuma likmē.
+-   **Papildslodzes stundas** — ja aprēķināt apmaksājamo likmi, šīs stundas ir tādas pašas kā rēķinā neiekļaujamās stundas. Aprēķinot efektivitātes rādītāju, šīs stundas ir tādas pašas kā neproduktīvās stundas.
+-   **Lietojuma stundas** — ja jūs aprēķināt apmaksājamu likmi, šīs stundas ir tādas pašas kā rēķinā iekļaujamās stundas. Aprēķinot efektivitātes rādītāju, šīs stundas ir tādas pašas kā produktīvās stundas.
 
 Aprēķinot darbinieka lietojuma rādītāju, var izmantot normas stundas vai iekļautās stundas. Ja izmantojat iekļautās stundas, jānodrošina, lai darbinieki reģistrētu visu savu darba laiku laika uzskaites tabulu periodiem, jo aprēķināšana tiek izteikta procentos no ievadītajām stundām. Aprēķinot projekta, projekta līguma, klienta ieraksta vai kategorijas stundu lietojuma rādītāju, aprēķinam jāizmanto iekļautās stundas.
 
@@ -434,12 +434,12 @@ Varat izveidot projekta pārskatu, lai skatītu īsu projekta norises kopsavilku
 
 Pēc tam, kad pārskats ir aprēķināts, dažādajās lapas **Projektu pārskati** cilnēs var apskatīt šādu informāciju:
 
--   **Vispārīgi**  — vispārīga informācija par projekta pamata peļņas un zaudējumu struktūru.
--   **Peļņa un zaudējumi**  — informācija par uzkrātajiem ieņēmumiem.
--   **WIP**  — informācija par WIP kontu bilancēm.
--   **Patēriņš**  — informācija par stundu, preču un izdevumu patēriņu un algu transakcijām.
--   **Rēķins**  — informācija par rēķiniem un starpkonta rēķiniem.
--   **Stundas likme**  — stundas likmes stundām, kas ir publicētas ieņēmumu un izmaksu kontos.
+-   **Vispārīgi** — vispārīga informācija par projekta pamata peļņas un zaudējumu struktūru.
+-   **Peļņa un zaudējumi** — informācija par uzkrātajiem ieņēmumiem.
+-   **WIP** — informācija par WIP kontu bilancēm.
+-   **Patēriņš** — informācija par stundu, preču un izdevumu patēriņu un algu transakcijām.
+-   **Rēķins** — informācija par rēķiniem un starpkonta rēķiniem.
+-   **Stundas likme** — stundas likmes stundām, kas ir publicētas ieņēmumu un izmaksu kontos.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

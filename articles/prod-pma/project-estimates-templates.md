@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080572"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289468"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projekta aprēķinu sinhronizēšana tieši no Project Service Automation uz Finance and Operations
 
@@ -46,7 +46,7 @@ Nākamajā ilustrācijā parādīts, kā dati tiek sinhronizēti starp Project S
 
 ### <a name="template-and-tasks"></a>Veidne un uzdevumi
 
-Lai piekļūtu pieejamajām veidnēm, Microsoft Power Apps administrēšanas centrā atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet vienumu **Jauns projekts** , lai atlasītu publiskas veidnes.
+Lai piekļūtu pieejamajām veidnēm, Microsoft Power Apps administrēšanas centrā atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet vienumu **Jauns projekts**, lai atlasītu publiskas veidnes.
 
 Lai sinhronizētu projekta stundu aprēķinus no Project Service Automation uz Finance, tiek izmantota šāda veidne un pamata uzdevumi:
 
@@ -80,7 +80,7 @@ Projekta stundu aprēķinu veidnē ir jāizmanto Microsoft Power Query for Excel
 
 #### <a name="set-the-default-forecast-model-id"></a>Iestatiet noklusējuma prognozes modeļa ID
 
-Lai veidnē atjauninātu noklusējuma prognozes modeļa ID, noklikšķiniet uz bultiņas **Karte** , lai atvērtu kartējumu. Pēc tam atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti.
+Lai veidnē atjauninātu noklusējuma prognozes modeļa ID, noklikšķiniet uz bultiņas **Karte**, lai atvērtu kartējumu. Pēc tam atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti.
 
 - Ja izmantojat noklusējuma Projekta stundu aprēķinu (PSA uz Fin un Ops) veidni, **Piemērojamo darbību** sarakstā atlasiet **Ievietoto nosacījumu**. **Funkciju** ierakstā aizstājiet **O\_prognozi** ar tā prognozes modeļa ID, kuru vajadzētu izmantot ar integrāciju. Noklusējuma veidnei ir prognozes modeļa ID no demonstrācijas datiem.
 - Ja izveidojat jaunu veidni, šī kolonna ir jāpievieno. Power Query atlasiet **Pievienot nosacījuma kolonnu** un ievadiet jaunās kolonnas nosaukumu, piemēram, **ModelID**. Ievadiet kolonnas nosacījumu, kur, ja projekta uzdevums nav Null, tad \<enter the forecast model ID\>; pretējā gadījumā tas ir Null.
@@ -137,11 +137,11 @@ Projekta izmaksu aprēķinu veidnē ir jāizmanto Power Query, lai izpildītu š
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filtrēt, lai iekļautu vienīgi izmaksu aprēķinu rindas
 
-Projekta izmaksu aprēķinu (PSA uz Fin un Ops) veidnei ir noklusējuma filtrs, kas integrācijā iekļauj vienīgi izmaksu rindas. Ja izveidojat savu veidni, šis filtrs ir jāpievieno. Atlasiet uzdevumu **Transakciju relācijas** un pēc tam noklikšķiniet uz bulttaustiņa **Karte** , lai atvērtu kartējumu. Atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti. Filtrējiet kolonnu **msdyn\_transactiontype1** tā, lai tā ietver vienīgi **msdyn\_estimateline**.
+Projekta izmaksu aprēķinu (PSA uz Fin un Ops) veidnei ir noklusējuma filtrs, kas integrācijā iekļauj vienīgi izmaksu rindas. Ja izveidojat savu veidni, šis filtrs ir jāpievieno. Atlasiet uzdevumu **Transakciju relācijas** un pēc tam noklikšķiniet uz bulttaustiņa **Karte**, lai atvērtu kartējumu. Atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti. Filtrējiet kolonnu **msdyn\_transactiontype1** tā, lai tā ietver vienīgi **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Iestatiet noklusējuma prognozes modeļa ID
 
-Lai veidnē atjauninātu noklusējuma prognozes modeļa ID, atlasiet uzdevumu **Izmaksu aprēķini** un pēc tam noklikšķiniet uz bulttaustiņa **Karte** , lai atvērtu kartējumu. Atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti.
+Lai veidnē atjauninātu noklusējuma prognozes modeļa ID, atlasiet uzdevumu **Izmaksu aprēķini** un pēc tam noklikšķiniet uz bulttaustiņa **Karte**, lai atvērtu kartējumu. Atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti.
 
 - Ja izmantojat noklusējuma Projekta izmaksu aprēķinus (PSA uz Fin un Ops) veidni, Power Query sadaļā **Piemērojamās darbības** atlasiet pirmo **Ievietoto nosacījumu**. **Funkciju** ierakstā aizstājiet **O\_prognozi** ar tā prognozes modeļa ID, kuru vajadzētu izmantot ar integrāciju. Noklusējuma veidnei ir prognozes modeļa ID no demonstrācijas datiem.
 - Ja izveidojat jaunu veidni, šī kolonna ir jāpievieno. Power Query atlasiet **Pievienot nosacījuma kolonnu** un ievadiet jaunās kolonnas nosaukumu, piemēram, **ModelID**. Ievadiet kolonnas nosacījumu, kur, ja novērtējuma rindas ID nav Null, tad \<enter the forecast model ID\>; pretējā gadījumā tas ir Null.

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080427"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289018"
 ---
 # <a name="project-resource-scheduling-performance"></a>Projekta resursu plānošanas veiktspēja
 
@@ -31,10 +31,10 @@ ms.locfileid: "4080427"
 [!include [banner](../includes/preview-banner.md)]
 
 
-Veiktspējas problēmas, kas saistītas ar resursu plānošanu, var rasties, ja projektu skaits sasniedz tūkstošus. Lai uzlabotu resursu plānošanas veiktspēju, ir pieejams līdzeklis, kas ļauj lietotājiem samazināt laiku, kas nepieciešams, lai palaistu resursu pieejamības veidlapu. Precīzāk — tas noņem resursu ietilpības apkopošanas sinhronizācijas procesu un izmanto tabulu **ResProjectResource** , lai paātrinātu resursu pārlūkošanu. Ņemiet vērā, ka tabula **ResRollup** vairs netiks izmantota.
+Veiktspējas problēmas, kas saistītas ar resursu plānošanu, var rasties, ja projektu skaits sasniedz tūkstošus. Lai uzlabotu resursu plānošanas veiktspēju, ir pieejams līdzeklis, kas ļauj lietotājiem samazināt laiku, kas nepieciešams, lai palaistu resursu pieejamības veidlapu. Precīzāk — tas noņem resursu ietilpības apkopošanas sinhronizācijas procesu un izmanto tabulu **ResProjectResource**, lai paātrinātu resursu pārlūkošanu. Ņemiet vērā, ka tabula **ResRollup** vairs netiks izmantota.
 
 > [!IMPORTANT]
-> Ja ir atkarība no resursu noslodzes apkopojuma sinhronizācijas procesa vai tabulas **ResProjectResource** , neizmantojiet šo līdzekli.
+> Ja ir atkarība no resursu noslodzes apkopojuma sinhronizācijas procesa vai tabulas **ResProjectResource**, neizmantojiet šo līdzekli.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Resursu plānošanas veiktspējas uzlabojuma iespējošana
 Lai iespējotu resursu plānošanas veiktspējas uzlabošanu, veiciet tālāk norādītās darbības.
@@ -43,7 +43,7 @@ Lai iespējotu resursu plānošanas veiktspējas uzlabošanu, veiciet tālāk no
 2. Atlasiet **Iespējot tagad**.
 
 > [!NOTE]
-> Ja sarakstā nevarat atrast šo līdzekli, atlasiet **Pārbaudīt, vai nav atjauninājumu** , lai atsvaidzinātu sarakstu.
+> Ja sarakstā nevarat atrast šo līdzekli, atlasiet **Pārbaudīt, vai nav atjauninājumu**, lai atsvaidzinātu sarakstu.
 
 3. Atsvaidziniet pārlūkprogrammu un pēc tam apmeklējiet sadaļu **Projekta pārvaldība un uzskaite** > **Periodisks** > **Projekta resursi** > **Sinhronizēt resursu kalendāru noslodzi visiem uzņēmumiem**.
 4. Lai noņemtu iepriekšējos datus, iestatiet **Esošu noslodzes ierakstu noņemšana** uz **Jā**. Ja vēlaties ģenerēt inkrementālos datus, iestatiet to uz **Nē**.
@@ -54,7 +54,7 @@ Lai iespējotu resursu plānošanas veiktspējas uzlabošanu, veiciet tālāk no
  > [!NOTE]
  > Šādi vispārējie dati tiks izplatīti tabulā **ResCalendarCapacity** visos uzņēmumos jūsu apkārtnē, tāpēc pakešuzdevumam ir jābūt izpildītam tikai vienā juridiskā entītijā. Šī pakešuzdevuma dati ir nepieciešami, lai aprēķinātu resursa noslodzi caur saistīto kalendāru.
 
-8. Atveriet **Projekta pārvaldība un uzskaite** > **Periodisks** > **Projekta resursi** > **Projekta resursu aizpildīšana visos uzņēmumos** un pēc tam atlasiet **Labi**. Šis ir datu jaunināšanas skripts vispārējiem datiem tabulās **ResProjectResource** , **ResCalendarDateTimeRange** un **ResEffectiveDateTimeRange**. Arī lauka **PSAPRojSchedRole.RootActivity** vērtības tiek atjauninātas. Ja tas netiek izpildīts, kad mēģināsit izpildīt resursu plānošanas operācijas, saņemsit brīdinājumu.
+8. Atveriet **Projekta pārvaldība un uzskaite** > **Periodisks** > **Projekta resursi** > **Projekta resursu aizpildīšana visos uzņēmumos** un pēc tam atlasiet **Labi**. Šis ir datu jaunināšanas skripts vispārējiem datiem tabulās **ResProjectResource**, **ResCalendarDateTimeRange** un **ResEffectiveDateTimeRange**. Arī lauka **PSAPRojSchedRole.RootActivity** vērtības tiek atjauninātas. Ja tas netiek izpildīts, kad mēģināsit izpildīt resursu plānošanas operācijas, saņemsit brīdinājumu.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Resursu plānošanas veiktspējas uzlabojuma izslēgšana
 
@@ -62,7 +62,7 @@ Lai iespējotu resursu plānošanas veiktspējas uzlabošanu, veiciet tālāk no
 2. Atlasiet līdzekli un pēc tam noklikšķiniet uz pogas **Atspējot**.
 3. Atsvaidziniet pārlūkprogrammu.
 4. Dodieties uz **Projekta pārvaldība un uzskaite** > **Periodisks** > **Noslodzes sinhronizācija** > **Sinhronizēt resursu noslodzes apkopojumus**.
-5. Lapā **Noslodzes apkopojuma sinhronizācija** iestatiet **Esošo noslodzes ierakstu noņemšana** uz **Jā** , lai noņemtu iepriekšējos datus. Ja vēlaties ģenerēt inkrementālos datus, iestatiet to uz **Nē**.
+5. Lapā **Noslodzes apkopojuma sinhronizācija** iestatiet **Esošo noslodzes ierakstu noņemšana** uz **Jā**, lai noņemtu iepriekšējos datus. Ja vēlaties ģenerēt inkrementālos datus, iestatiet to uz **Nē**.
 6. Laukā **Perioda kods** atlasiet datu ģenerēšanas periodu. Ja atlasāt perioda kodu, ir jādefinē sākuma un beigu datumi.
 7. Ja lauks **Perioda kods** netiek aizpildīts, atlasiet noteiktus sākuma un beigu datumus, lai ģenerētu datus.
 8. Atlasiet **Labi**.

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080423"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288612"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Maksāt-kad-apmaksāts iestatīšana un izmantošana piegādātāja maksājumiem
 
@@ -52,11 +52,11 @@ Iestatot PWP nosacījumus projektam, kā procenti ir jānorāda minimālā summa
 3. Kopsavilkuma cilnē **Piegādātāju līgumi** atlasiet **Pievienot rindu**.
 3. Laukā **Konta kods** atlasiet vienu no tālāk minētajām opcijām.
 
-    - **Tabula**  — PWP nosacījumi attiecas uz vienu piegādātāju.
-    - **Grupa**  — PWP nosacījumi attiecas uz visiem piegādātāju grupas piegādātājiem.
-    - **Visi**  — PWP nosacījumi attiecas uz visiem piegādātājiem.
+    - **Tabula** — PWP nosacījumi attiecas uz vienu piegādātāju.
+    - **Grupa** — PWP nosacījumi attiecas uz visiem piegādātāju grupas piegādātājiem.
+    - **Visi** — PWP nosacījumi attiecas uz visiem piegādātājiem.
 
-4. Ja iepriekšējā darbībā atlasījāt **Tabula** vai **Grupa** , laukā **Piegādātājs/piegādātāju grupa** piegādātāju vai piegādātāju grupu, uz kuru attiecas PWP nosacījumi. Ja iepriekšējā darbībā atlasījāt **Visi** , lauku **Piegādātājs/piegādātāju grupa** nevar rediģēt.
+4. Ja iepriekšējā darbībā atlasījāt **Tabula** vai **Grupa**, laukā **Piegādātājs/piegādātāju grupa** piegādātāju vai piegādātāju grupu, uz kuru attiecas PWP nosacījumi. Ja iepriekšējā darbībā atlasījāt **Visi**, lauku **Piegādātājs/piegādātāju grupa** nevar rediģēt.
 5. Ja piegādātāja ieturējumu nosacījumi piegādātājam ir iestatīti projektā, laukā **Piegādātāja ieturējumu nosacījumi** atlasiet noteikuma ID saglabāšanas nosacījumiem.
 6. Laukā **PWP sliekšņa procentuālā vērtība** ievadiet projekta sliekšņa procentuālo vērtību. Projektam ievadītā procentuālā vērtība nosaka minimālo summu, kas klientam ir jāmaksā pirms samaksas piegādātājam.
 
@@ -69,7 +69,7 @@ Grāmatojot rēķinu no piegādātāja, ja uz piegādātāju attiecas PWP nosac�
 
     Vai arī atveriet esošu PP saraksta lapā **Visi**.
 
-4. Lapas **Pirkšanas pasūtījums** kopsavilkuma cilnē **Pirkšanas pasūtījuma rindas** pārskatiet detalizētu informāciju par piegādātāja PP rindu. Automātiski tiek atlasīta opcija **Maksāt-kad-apmaksāts** , un lauks **PWP sliekšņa procentuālā vērtība** automātiski tiek kopēts no lauka **PWP sliekšņa procentuālā vērtība** lapā **Projekti**.
+4. Lapas **Pirkšanas pasūtījums** kopsavilkuma cilnē **Pirkšanas pasūtījuma rindas** pārskatiet detalizētu informāciju par piegādātāja PP rindu. Automātiski tiek atlasīta opcija **Maksāt-kad-apmaksāts**, un lauks **PWP sliekšņa procentuālā vērtība** automātiski tiek kopēts no lauka **PWP sliekšņa procentuālā vērtība** lapā **Projekti**.
 6. Ja nevēlaties lietot PWP nosacījumus piegādātājam PP rindai, notīriet opciju **Maksāt-kad-apmaksāts**. Šādā gadījumā PP rinda laukā **PWP sliekšņa procentuālā vērtība** tiks atiestatīta uz 0 (nulle).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Klienta maksājumu un piegādātāja apmaksu atjaunināšana

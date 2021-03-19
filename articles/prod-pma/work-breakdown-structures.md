@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287967"
 ---
 # <a name="work-breakdown-structures-overview"></a>Darba sadalījuma struktūras pārskats
 
@@ -50,7 +50,7 @@ Lai izmantotu visas WBS līdzekļu plānošanas iespējas, veiciet tālāk norā
 
 1.  Iestatiet noklusējuma kalendāru un projekta kalendāru:
     1.  Noklikšķiniet uz **Projekta pārvaldība un grāmatvedība** &gt; **Iestatīšana** &gt; **Projekta pārvaldības un grāmatvedības parametru** &gt; **Plānošana**. Laukā **Noklusējuma darba kalendārs** norādiet noklusējuma kalendāru. Tas būs jebkura jauna izveidotā projekta noklusējuma darba kalendārs.
-    2.  Varat mainīt noteikta projekta noklusējuma kalendāru. Noklikšķiniet uz projekta informācijas lapas un pēc tam uz **Projekta darba grupa un plānošana** FastTab, atjauniniet lauku **Plānošanas kalendārs** , atlasot citu kalendāru.
+    2.  Varat mainīt noteikta projekta noklusējuma kalendāru. Noklikšķiniet uz projekta informācijas lapas un pēc tam uz **Projekta darba grupa un plānošana** FastTab, atjauniniet lauku **Plānošanas kalendārs**, atlasot citu kalendāru.
 
 2.  Iestatiet standarta darba dienas un darba stundas. Kalendārs, ko iestatījāt kā sava projekta darba kalendāru, tiks izmantots risinājumā WBS, lai noteiktu šādu informāciju:
 
@@ -69,9 +69,9 @@ Lai izmantotu pilnas izmaksu novērtējuma iespējas WBS, ir jāiestata darbinie
 ## <a name="creating-a-wbs"></a>WBS izveide
 WBS izveide ietver trīs darbības:
 
-1.  **Darba sadalīšana**  — izveidojiet darba sadalījumu starp pārvaldāmiem gabaliņiem vai uzdevumiem.
-2.  **Darba grafiks**  — novērtējiet laiku, kas nepieciešams uzdevuma izpildei, iestatiet uzdevumu savstarpējās atkarības un atlasiet uzdevumu sākuma un beigu datumus.
-3.  **Izmaksu novērtējums**  — novērtējiet izmaksas katram uzdevumam.
+1.  **Darba sadalīšana** — izveidojiet darba sadalījumu starp pārvaldāmiem gabaliņiem vai uzdevumiem.
+2.  **Darba grafiks** — novērtējiet laiku, kas nepieciešams uzdevuma izpildei, iestatiet uzdevumu savstarpējās atkarības un atlasiet uzdevumu sākuma un beigu datumus.
+3.  **Izmaksu novērtējums** — novērtējiet izmaksas katram uzdevumam.
 
 Turpmākajās sadaļās ir aprakstīts, kā WBS iespējas var palīdzēt katrai no šīm darbībām.
 
@@ -98,11 +98,11 @@ Pašlaik WBS numerāciju nevar pielāgot.
 
 **Uzdevuma pārkaru atkāpes izveide** Kad izveidojat uzdevuma pārkaru atkāpes, tas vairs nav tā vecākuzdevums. Šī uzdevuma WBS numurs tiek automātiski pārrēķināts, lai atspoguļotu uzdevuma jauno līmeni hierarhijā. Uzdevuma iepriekšējā vecākuzdevuma intensitāte, izmaksas un datumi tiek pārrēķināti, lai izslēgtu šo uzdevumu. 
 
-**Pārvietot uz augšu un pārvietot uz leju** Noklikšķinot uz **Pārvietot uz augšu** un **Pārvietot uz leju** , varat mainīt uzdevuma atrašanās vietu atbilstoši tā primārajai hierarhijai. Pozīcija neietekmē uzdevuma intensitāti, izmaksas, datumus un ilgumu. Tomēr uzdevuma WBS numurs tiek automātiski pārrēķināts, lai atspoguļotu uzdevuma jauno pozīciju.
+**Pārvietot uz augšu un pārvietot uz leju** Noklikšķinot uz **Pārvietot uz augšu** un **Pārvietot uz leju**, varat mainīt uzdevuma atrašanās vietu atbilstoši tā primārajai hierarhijai. Pozīcija neietekmē uzdevuma intensitāti, izmaksas, datumus un ilgumu. Tomēr uzdevuma WBS numurs tiek automātiski pārrēķināts, lai atspoguļotu uzdevuma jauno pozīciju.
 
 ### <a name="schedule-estimation"></a>Grafika novērtējums
 
-Grafika novērtējums parasti ir otrais solis WBS izveidē. Pēc uzdevumu izveides kā labākā prakse ir jāveic grafika novērtēšana. Sadaļā Finanses lapai **Darba sadalījuma struktūra** ir divas sadaļas. Augšējā rūts ir paredzēta plānotajam novērtējumam, un apakšējā rūtī ir iekļauta cilne **Prognozējamās izmaksas un ieņēmumi** , ko var izmantot izmaksu novērtēšanai. 
+Grafika novērtējums parasti ir otrais solis WBS izveidē. Pēc uzdevumu izveides kā labākā prakse ir jāveic grafika novērtēšana. Sadaļā Finanses lapai **Darba sadalījuma struktūra** ir divas sadaļas. Augšējā rūts ir paredzēta plānotajam novērtējumam, un apakšējā rūtī ir iekļauta cilne **Prognozējamās izmaksas un ieņēmumi**, ko var izmantot izmaksu novērtēšanai. 
 **Uzdevumu atkarības** WBS varat izveidot pirmstecīgas relācijas starp uzdevumiem. Piešķirot uzdevumam pirmstecīgos uzdevumus, šo uzdevumu var sākt tikai pēc tam, kad visi pirmstecīgie uzdevumi ir izpildīti. Plānotā uzdevuma sākuma datums automātiski tiek iestatīts uz visu tā priekšteču pēdējo datumu. 
 
 **Uzdevumu plānošana** Lapas mezglu uzdevumu plānošanai nosaka šādus faktorus:
@@ -122,7 +122,7 @@ Lapas mezgla uzdevuma, kuram nav priekšteču, sākuma datums tiek automātiski 
 
 Personu skaits × Ilgums × Stundu skaits standarta projekta kalendāra darba dienā. 
 
-Dažos gadījumos ieteicams atkāpties no šīm kārtulām. Varat izslēgt automātisko plānošanu, lai neļautu Finance automātisku lapas mezgla uzdevumu rekvizītu iestatīšanu vai labošanu. Ievadot informāciju par uzdevumu, kas izraisa jebkuru plānošanas noteikumu pārkāpumu, uzdevumam tiek parādīta plānošanas kļūdas ikona. Ja nevēlaties rādīt plānošanas kļūdas, noklikšķiniet uz **Tiek rādītas plānošanas kļūdas** , lai izslēgtu šo līdzekli. 
+Dažos gadījumos ieteicams atkāpties no šīm kārtulām. Varat izslēgt automātisko plānošanu, lai neļautu Finance automātisku lapas mezgla uzdevumu rekvizītu iestatīšanu vai labošanu. Ievadot informāciju par uzdevumu, kas izraisa jebkuru plānošanas noteikumu pārkāpumu, uzdevumam tiek parādīta plānošanas kļūdas ikona. Ja nevēlaties rādīt plānošanas kļūdas, noklikšķiniet uz **Tiek rādītas plānošanas kļūdas**, lai izslēgtu šo līdzekli. 
 
 > [!NOTE] 
 > Kopsavilkuma vai konteinera uzdevuma vērtības turpina aprēķināt kā saistīto uzdevumu vērtību summu neatkarīgi no tā, vai automātiskā plānošanas palīdzība ir ieslēgta vai izslēgta. 
@@ -142,7 +142,7 @@ Dažos gadījumos ieteicams atkāpties no šīm kārtulām. Varat izslēgt autom
 
 ### <a name="cost-estimation"></a>Izmaksu aprēķins
 
-Kā minēts iepriekš šajā dokumentā, ir jāievada izmaksu novērtējums katram lapas mezgla uzdevumam, izmantojot cilni **Prognozējamās izmaksas un ieņēmumi** , kas atrodas lapas **Darba sadalīšanas struktūra** apakšējā rūtī. 
+Kā minēts iepriekš šajā dokumentā, ir jāievada izmaksu novērtējums katram lapas mezgla uzdevumam, izmantojot cilni **Prognozējamās izmaksas un ieņēmumi**, kas atrodas lapas **Darba sadalīšanas struktūra** apakšējā rūtī. 
 
 > [!NOTE] 
 > Kopsavilkuma vai konteinera uzdevuma izmaksu novērtējumu nevar modificēt. Kopsavilkuma uzdevuma izmaksu novērtējums ir vienāds ar tās lapu mezgla uzdevumu izmaksu aplēses summu. Katram uzdevumam paredzētās kopējās izmaksas aprēķina kā šādu transakciju tipu prognozējamo izmaksu summu:
@@ -157,7 +157,7 @@ Transakcijas tips **Uzņēmuma** tiek izmantots, lai fiksētas vērtības projek
 
 Novērtējot izmaksas attiecībā uz darbu, materiāliem un izdevumiem katram uzdevumam, ir jāpiešķir projekta kategorija prognozējamām izmaksām. 
 
-**Darba izmaksu novērtēšana** Katram lapas mezgla uzdevumam piešķirat darba intensitāti stundās un noklusējuma kategoriju. Tāpēc, iestatot uzdevuma grafiku, darba izmaksu novērtējums šim uzdevumam tiek automātiski pievienots darba noklusējuma kategorijā. Šis izmaksu novērtējums ir redzams šī uzdevuma režģī **Rindas papildinformācija** , cilnē **Novērtētās izmaksas un ieņēmumi**. Ja ir nepieciešami papildu darba izmaksu novērtējumi, tos var pievienot šajā cilnē. Ja darba izmaksu novērtējumā tiek palielinātas vai samazinātas stundas, uzdevuma grafiks tiek automātiski pārrēķināts. 
+**Darba izmaksu novērtēšana** Katram lapas mezgla uzdevumam piešķirat darba intensitāti stundās un noklusējuma kategoriju. Tāpēc, iestatot uzdevuma grafiku, darba izmaksu novērtējums šim uzdevumam tiek automātiski pievienots darba noklusējuma kategorijā. Šis izmaksu novērtējums ir redzams šī uzdevuma režģī **Rindas papildinformācija**, cilnē **Novērtētās izmaksas un ieņēmumi**. Ja ir nepieciešami papildu darba izmaksu novērtējumi, tos var pievienot šajā cilnē. Ja darba izmaksu novērtējumā tiek palielinātas vai samazinātas stundas, uzdevuma grafiks tiek automātiski pārrēķināts. 
 
 **Izmaksu un materiālu izmaksu novērtējums** Cilnē **Novērtētās izmaksas un ieņēmumi** var novērtēt uzdevuma izmaksas un materiālu izmaksas, ja novērtējumi ir nepieciešami. 
 

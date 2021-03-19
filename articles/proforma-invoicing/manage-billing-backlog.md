@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122352"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287742"
 ---
 # <a name="manage-the-billing-backlog"></a>Rēķinu uzkrāšanās pārvaldība
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Risinājumā Dynamics 365 Project Operations ir divi īpaši skati, kas palīdz strādāt ar uzkrātajiem rēķiniem un tos pārvaldīt. Tie ir **Atskaites punkti ar fiksētu cenu** un **Uzkrātie rēķini par laiku un materiāliem** Lai atlasītu skatu, Project Operations apgabalā **Pārdošana** kreisajā navigācijas lapā atlasiet **Rēķini**. Šeit tiek glabātas uzkrāto rēķinu saites.
+Dynamics 365 Project Operations līdzeklī ir īpaši skati, kas palīdz pārvaldīt apstrādājamo norēķinu neizpildīto darbību žurnālu. Tie ir **Atskaites punkti ar fiksētu cenu** un **Uzkrātie rēķini par laiku un materiāliem** Lai atlasītu skatu, Project Operations apgabalā **Pārdošana** kreisajā navigācijas lapā atlasiet **Rēķini**. Šeit tiek glabātas uzkrāto rēķinu saites.
 
 ## <a name="fixed-price-milestones"></a>Fiksētu cenu atskaites punkti
 

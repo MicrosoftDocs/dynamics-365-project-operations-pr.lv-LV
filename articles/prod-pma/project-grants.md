@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080625"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289378"
 ---
 # <a name="project-grants"></a>Projekta dotācijas
 
@@ -42,7 +42,7 @@ Dotāciju var izveidot, ievadot visu informāciju jaunā ierakstā, vai arī var
 
 1. Dodieties uz **Projekta pārvaldība un uzskaite** \> **Dotācijas** \> **Dotācijas**.
 2. Atlasiet **Jauna** \> **Dotācija**.
-3. Dotāciju informācijas lapas kopsavilkuma cilnē **Vispārēji** , laukā **Dotācijas ID** ievadiet dotācijas burtciparu identifikatoru.
+3. Dotāciju informācijas lapas kopsavilkuma cilnē **Vispārēji**, laukā **Dotācijas ID** ievadiet dotācijas burtciparu identifikatoru.
 4. Laukā **Dotācijas nosaukums** ievadiet unikālu dotācijas nosaukumu.
 5. Laukā **Apraksts** pievienojiet detalizētu informāciju par jauno dotāciju.
 
@@ -50,21 +50,21 @@ Dotāciju var izveidot, ievadot visu informāciju jaunā ierakstā, vai arī var
 
     Tālāk sniegtajā sarakstā ir aprakstīta informācija, kas ir norādīta katrā kopsavilkuma cilnes lapas dotāciju detalizētās informācijas lapā.
 
-    - **Vispārīgi**  — ievadiet dotācijas nosaukumu, statusu, aprakstu, mērķi un summu.
-    - **Kontaktinformācija**  — ievadiet detalizētu informāciju par personāla locekļiem, departamentu, kas pārvalda dotāciju, un dotācijas klientu vai organizācijas avotu. Varat arī norādīt, vai jūsu organizācija ir tranzīta entītija, kas saņem dotāciju, un pēc tam to nodod citam adresātam. Atlasiet **Pievienot** , lai pievienotu kontaktinformāciju, piemēram, tālruņu numurus un e-pasta adreses organizācijai, kas nodrošina dotāciju.
-    - **Datumi un termiņi**  — ievadiet datumus, kas ir saistīti ar dotāciju un dotācijas pieteikumu. Piemēri iekļauj pieteikuma izpildes datumu, iesniegšanas datumu un dotācijas apstiprināšanas vai noraidīšanas datumu.
-    - **Saistītie projekti un projekta līgumi**  — informāciju šajā kopsavilkuma cilnē var ievadīt tikai tad, ja lauks **Dotācijas statuss** kopsavilkuma cilnē **Vispārīgi** ir iestatīts kā **Aktīvs** vai **Piešķirts**. Lai izpildītu saistīto uzdevumu, atlasiet vienu no šīm opcijām:
+    - **Vispārīgi** — ievadiet dotācijas nosaukumu, statusu, aprakstu, mērķi un summu.
+    - **Kontaktinformācija** — ievadiet detalizētu informāciju par personāla locekļiem, departamentu, kas pārvalda dotāciju, un dotācijas klientu vai organizācijas avotu. Varat arī norādīt, vai jūsu organizācija ir tranzīta entītija, kas saņem dotāciju, un pēc tam to nodod citam adresātam. Atlasiet **Pievienot**, lai pievienotu kontaktinformāciju, piemēram, tālruņu numurus un e-pasta adreses organizācijai, kas nodrošina dotāciju.
+    - **Datumi un termiņi** — ievadiet datumus, kas ir saistīti ar dotāciju un dotācijas pieteikumu. Piemēri iekļauj pieteikuma izpildes datumu, iesniegšanas datumu un dotācijas apstiprināšanas vai noraidīšanas datumu.
+    - **Saistītie projekti un projekta līgumi** — informāciju šajā kopsavilkuma cilnē var ievadīt tikai tad, ja lauks **Dotācijas statuss** kopsavilkuma cilnē **Vispārīgi** ir iestatīts kā **Aktīvs** vai **Piešķirts**. Lai izpildītu saistīto uzdevumu, atlasiet vienu no šīm opcijām:
 
-        - **Pievienot finansējuma avotu**  — pievienojiet jaunu finansējuma avotu dotācijai. Tagad var ievadīt visu informāciju vai arī izmantot noklusēto informāciju un pēc tam to vēlāk atjaunināt.
-        - **Pievienot projekta līgumu**  — pievienojiet vai atjauniniet projekta līguma informāciju.
-        - **Pievienot projektu**  — pievienojiet vai atjauniniet detalizētu informāciju par projektu.
+        - **Pievienot finansējuma avotu** — pievienojiet jaunu finansējuma avotu dotācijai. Tagad var ievadīt visu informāciju vai arī izmantot noklusēto informāciju un pēc tam to vēlāk atjaunināt.
+        - **Pievienot projekta līgumu** — pievienojiet vai atjauniniet projekta līguma informāciju.
+        - **Pievienot projektu** — pievienojiet vai atjauniniet detalizētu informāciju par projektu.
 
-    - **Iestatīt**  — ievadiet detalizētu informāciju par atbilstošām dotācijām, ja šī informācija ir vajadzīga. Daudzas organizācijas, kas piešķir dotācijas, pieprasa, lai saņēmēji iztērētu konkrētu savas naudas vai resursu summu, kas atbilst dotācijā piešķirtajai summai. Laukā **Lokālais projekts vai izsekošanas ID** var ievadīt identifikatoru, kas atšķiras no projekta identifikatora.
+    - **Iestatīt** — ievadiet detalizētu informāciju par atbilstošām dotācijām, ja šī informācija ir vajadzīga. Daudzas organizācijas, kas piešķir dotācijas, pieprasa, lai saņēmēji iztērētu konkrētu savas naudas vai resursu summu, kas atbilst dotācijā piešķirtajai summai. Laukā **Lokālais projekts vai izsekošanas ID** var ievadīt identifikatoru, kas atšķiras no projekta identifikatora.
 
         > [!NOTE]
         > Ja daļa no dotācijas tiks piešķirta citai organizācijai, iestatiet opciju **Apakšdotētais** uz **Jā**. Attiecībā uz dotācijām, kas tiek piešķirtas Amerikas Savienotajās Valstīs, varat norādīt, vai dotācija tiks piešķirta saskaņā ar valsts mandātu vai federālo mandātu.
 
-    - **Informācija par izgūšanu**  — pievienojiet vai atjauniniet informāciju par to, cik bieži piešķirt dotāciju līdzekļus var atsaukt, izrakstīt rēķinu par tiem vai tērēt.
+    - **Informācija par izgūšanu** — pievienojiet vai atjauniniet informāciju par to, cik bieži piešķirt dotāciju līdzekļus var atsaukt, izrakstīt rēķinu par tiem vai tērēt.
 
 ## <a name="create-a-new-grant-from-a-copy"></a>Jaunas dotācijas izveide no kopijas
 

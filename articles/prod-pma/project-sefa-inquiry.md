@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080428"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288973"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Federālo apbalvojumu izmeklēšanas izdevumu plāns
 
@@ -62,13 +62,13 @@ Ir jāiestata CFDA numuri, kurus var pievienot dotācijām un iekļaut Federālo
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Dotāciju izveide, lai ziņotu par Federālo apbalvojumu izmeklēšanas izdevumu plānu
 
 1. Dodieties uz **Projekta pārvaldība un uzskaite \> Dotācijas \> Dotācijas** un atlasiet esošu dotāciju.
-2. Kopsavilkuma cilnē **Iestatīšana** , kas atrodas laukā **Federālās iekšzemes palīdzības numuru katalogs** , piešķiriet CFDA numuru. CFDA numurs dotācijā nosaka CFDA klasteri atskaišu izveidei.
+2. Kopsavilkuma cilnē **Iestatīšana**, kas atrodas laukā **Federālās iekšzemes palīdzības numuru katalogs**, piešķiriet CFDA numuru. CFDA numurs dotācijā nosaka CFDA klasteri atskaišu izveidei.
 3. Kopsavilkuma cilnē **Kontaktpersonu informācija** ievadiet dotētāja informāciju, veicot šādas darbības:
 
     1. Laukā **Dotācijas klients** ievadiet klientu, kas ir atbildīgs par dotāciju. Esošas dotācijas gadījumā šī informācija var jau būt ievadīta.
     2. Norādiet, vai dotāciju klients ir finansētājs. Ja dotāciju klients ir finansētājs, atstājiet izvēles rūtiņu **Caurlaide** tukšu. Ja cits klients ir finansētājs un dotāciju klients ir atbildīgs par izmaksām un naudas izsekošanu, atzīmējiet izvēles rūtiņu **Caurlaide**.
 
-4. Ja iepriekšējā darbībā atzīmējāt izvēles rūtiņu **Caurlaide** , laukā **Dotētāja aģentūra** ievadiet klientu, kas nodrošināja šo dotāciju. Dotētāja aģentūra un dotācijas klients nevar būt viens un tas pats klients.
+4. Ja iepriekšējā darbībā atzīmējāt izvēles rūtiņu **Caurlaide**, laukā **Dotētāja aģentūra** ievadiet klientu, kas nodrošināja šo dotāciju. Dotētāja aģentūra un dotācijas klients nevar būt viens un tas pats klients.
 
 Šeit ir caurlaides dotācijas piemērs:
 
@@ -79,8 +79,8 @@ Federālā valdība finansēja infrastruktūras projektu valstij. Federālā val
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Neiekļaut dotācijas no SEFA atskaišu izveides, pamatojoties uz dotāciju tipu
 
-1. Dodieties uz **Projekta pārvaldība un uzskaite \> Iestatījumi \> Dotācijas \> Dotācijas tipi**.
-2. Kopsavilkuma cilnē **Noklusējuma informācija** atzīmējiet izvēles rūtiņu **Neiekļaut federālo apbalvojumu izdevumu plānā**.
+1. Dodieties uz **Projekta pārvaldība un uzskaite \> Iestatījumi \> Dotācijas \> Dotācijas tipi**.
+2. Kopsavilkuma cilnē **Noklusējuma informācija** atzīmējiet izvēles rūtiņu **Neiekļaut federālo apbalvojumu izdevumu plānā**.
 3. Lai saglabātu izmaiņas, atlasiet **Saglabāt**.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Federālo apbalvojumu izmeklēšanas izdevumu plāna palaišana

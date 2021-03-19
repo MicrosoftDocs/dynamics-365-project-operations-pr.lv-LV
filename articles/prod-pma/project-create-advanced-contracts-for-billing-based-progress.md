@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289513"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Rēķinu izveidošanas papildu līgumi, pamatojoties uz norisi
 [!include [banner](../includes/banner.md)]
@@ -66,7 +66,7 @@ Veiciet šīs darbības, lai izveidotu projekta līgumu fiksētas cenas projekta
     - **Nosaukums**
     - **Finansēšanas veids**
     - **Finansējuma avots**
-    - **Pārdošanas valūta**  — pēc noklusējuma šī valūta tiek izmantota klienta rēķiniem, kas saistīti ar šo projekta līgumu. Taču pārdošanas valūtu var mainīt noteiktam klienta rēķinam.
+    - **Pārdošanas valūta** — pēc noklusējuma šī valūta tiek izmantota klienta rēķiniem, kas saistīti ar šo projekta līgumu. Taču pārdošanas valūtu var mainīt noteiktam klienta rēķinam.
 
 4. Atlasiet **Labi**. Šī informācija tiek kopēta lapā **Projekta līgumi**.
 5. Lapā **Projekta līgumi** aizpildiet visu nepieciešamo projekta informāciju.
@@ -88,7 +88,7 @@ Budžeta kategorijas tiek izmantotas, lai automātiski aprēķinātu rēķina su
 
 1. Dodieties uz **Projekta pārvaldība un uzskaite** \> **Projekti** \> **Visi projekti**.
 2. Lapā **Visi projekti** atlasiet vajadzīgo projektu un atveriet to.
-3. Lapas **Projekti** darbību rūts cilnē **Plāns** , grupā **Budžets** atlasiet vienumu **Projekta budžets**.
+3. Lapas **Projekti** darbību rūts cilnē **Plāns**, grupā **Budžets** atlasiet vienumu **Projekta budžets**.
 4. Lapā **Projekta budžets** ievadiet prognozējamās izmaksas katrai projekta kategorijai.
 
 ## <a name="create-billing-rules-for-progress-billings"></a>Norēķinu kārtulu izveide progresa aprēķinam

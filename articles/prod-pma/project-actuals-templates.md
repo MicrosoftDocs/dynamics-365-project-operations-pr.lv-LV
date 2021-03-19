@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080576"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289693"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekta faktisko datu sinhronizēšana tieši no Project Service Automation uz projekta integrācijas žurnālu publicēšanai Finance and Operations
 
@@ -50,7 +50,7 @@ Nākamajā ilustrācijā parādīts, kā dati tiek sinhronizēti starp Project S
 
 ### <a name="template-and-tasks"></a>Veidne un uzdevumi
 
-Lai piekļūtu pieejamajām veidnēm, Microsoft Power Apps administrēšanas centrā atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet vienumu **Jauns projekts** , lai atlasītu publiskas veidnes.
+Lai piekļūtu pieejamajām veidnēm, Microsoft Power Apps administrēšanas centrā atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet vienumu **Jauns projekts**, lai atlasītu publiskas veidnes.
 
 Šajā tēmā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantoti projekta faktisko datu sinhronizēšanai tieši no Project Service Automation uz Finance:
 
@@ -86,7 +86,7 @@ Projekta faktisko datu veidnē ir jāizmanto Microsoft Power Query for Excel, la
 - Ja starpuzņēmumu laika vai starpuzņēmumu izmaksu faktiskie dati netiks sinhronizēti ar Finance, no veidnes ir jāizdzēš pēdējā ievietotā nosacījuma kolonna. Pretējā gadījumā var rasties integrācijas kļūda, vai arī uz Finance var tikt importētas nepareizas faktiskās transakcijas.
 
 #### <a name="contract-organizational-unit"></a>Līguma uzņēmuma vienība
-Lai veidnē atjauninātu ievietoto nosacījuma kolonnu, noklikšķiniet uz bultiņas **Karte** , lai atvērtu kartējumu. Atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti, lai atvērtu Power Query.
+Lai veidnē atjauninātu ievietoto nosacījuma kolonnu, noklikšķiniet uz bultiņas **Karte**, lai atvērtu kartējumu. Atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti, lai atvērtu Power Query.
 
 - Ja izmantojat noklusējuma Projekta faktisko datu (PSA uz Fin un Ops) veidni, Power Query sadaļā **Piemērojamās darbības** atlasiet pēdējo **Ievietoto nosacījumu**. Ierakstā **Funkcija** aizstājiet **USSI** ar tās juridiskās personas nosaukumu, kuru vajadzētu izmantot ar integrāciju. Pievienojiet ierakstam **Funkcija** papildu nosacījumus, kad tas ir nepieciešams, un atjauniniet **USMF** nosacījumu **cits** uz pareizo juridisko personu.
 - Ja izveidojat jaunu veidni, šī kolonna ir jāpievieno, lai atbalstītu starpuzņēmumu laiku un izdevumus. Atlasiet **Pievienot nosacījuma kolonnu** un ievadiet kolonnas nosaukumu, piemēram, **JuridiskaPersona**. Ievadiet kolonnas nosacījumu, kur, ja **msdyn\_contractorganizationalunitid.msdyn\_nosaukums** ir \<organizational unit\>, tad \<enter the legal entity\>; pretējā gadījumā tas ir Null.

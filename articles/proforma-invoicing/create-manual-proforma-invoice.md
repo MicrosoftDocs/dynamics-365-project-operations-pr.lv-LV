@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128067"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287787"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Izveidot manuālu pro formas rēķinu
 
@@ -30,7 +30,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Rēķinu izveide ir noderīga, jo tie projektu vadītājiem sniedz otro apstiprinājuma līmeni pirms rēķinu izveides klientiem. Pirmais apstiprināšanas līmenis tiek pabeigts, kad tiek apstiprināti projekta darba grupas dalībnieku iesniegtie laika un izdevumu ieraksti.
 
-Dynamics 365 Project Operations nav izveidota, lai ģenerētu uz klientiem vērstus rēķinus tālāk norādīto iemeslu dēļ.
+Dynamics 365 Project Operations nav izveidots, lai ģenerētu uz klientiem vērstus rēķinus tālāk norādīto iemeslu dēļ.
 
 - Tajā nav iekļauta informācija par nodokļiem.
 - Tā nevar pārvērst citas valūtas uz rēķina valūtu, izmantojot pareizi konfigurētus valūtas kursus.

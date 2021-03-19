@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288838"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekta darba laika uzskaites tabulas mobilā programma
 
@@ -60,9 +60,9 @@ Ja pašreizējam datumam ir darba laika uzskaites tabula, tā tiks parādīta. J
 
 Projekta informāciju var ievadīt, noklikšķinot uz darbības **Pievienot laiku** vai **Kopēt laiku no**. **Kopēt laiku no** darbība kopēs projekta rindas informāciju, bet ne stundas. Izvēlnē **Kopēt laiku no** ir šādas opcijas:
 
-- **Kopēt no esošas darba laika uzskaites tabulas**  — kopēt darba laika uzskaites tabulas rindas no esošas darba laika uzskaites tabulas.
+- **Kopēt no esošas darba laika uzskaites tabulas** — kopēt darba laika uzskaites tabulas rindas no esošas darba laika uzskaites tabulas.
 
-- **Kopēt no izlases**  — izveidot jaunas darba laika uzskaites tabulas rindas, izmantojot darba laika uzskaites tabulas iestatījumus, ko izvēlējāties kā izlasi.
+- **Kopēt no izlases** — izveidot jaunas darba laika uzskaites tabulas rindas, izmantojot darba laika uzskaites tabulas iestatījumus, ko izvēlējāties kā izlasi.
 
 - **Kopēt no piešķires** — izveidojiet jaunas darba laika uzskaites tabulas rindas no piešķirtajiem projektiem.
 
@@ -76,7 +76,7 @@ Laukā **Projekts** atlasiet projektu, kuram ievadāt laiku. Lauks **Klients** t
 
 Klientu un projektu uzmeklējumos tiek iespējota meklēšana, izmantojot gan klientus, gan projektus.
 
-Pēc nepieciešamības atlasiet informāciju laukos **Kategorija** , **Darbība** , **Rindas rekvizīts** , **PVN grupa** un **Krājumu PVN grupa**. Šos laukus var ignorēt.
+Pēc nepieciešamības atlasiet informāciju laukos **Kategorija**, **Darbība**, **Rindas rekvizīts**, **PVN grupa** un **Krājumu PVN grupa**. Šos laukus var ignorēt.
 
 Lauks **Rindas rekvizīts** tiks iestatīts kā noklusējuma vērtība, pamatojoties uz projekta pārvaldības un grāmatvedības parametriem. Ja ir iespējoti projekta/kategorijas un kategorijas/resursa parametri, vērtība **Rindas statuss** tiek iestatīta uz šīs validācijas definēto noklusējuma vērtību. Ja nav iespējoti projekta/kategorijas un resursu kategorijas parametri, vērtība **Rindas statuss** tiks iestatīta kā noklusējuma rinda, kas atrodas laukā **Iespējot noklusējuma rindas rekvizītu** sadaļā **Projekta pārvaldības un grāmatvedības parametri**. Vērtību **Rindas rekvizīts** var ignorēt.
 
@@ -95,7 +95,7 @@ Lai nosūtītu darba laika uzskaites tabulu apstiprināšanas darbplūsmai, nokl
 
 ## <a name="review-timesheets"></a>Pārskatīt darba laika uzskaites tabulas
 
-Izvēlnē ir pieejams pārskatīšanai izmantojamo darba laika uzskaites tabulu saraksts. Šī opcija ir pieejama tikai tad, ja esat norādīts kā darbplūsmas apstiprinātājs. Tiek atbalstīti gan virsrakstu, gan rindu apstiprinājumi. Rindas līmeņa apstiprinājums piedāvā iespēju atzīmēt vienu vai vairākas rindas apstiprināšanai. Pēc darba laika uzskaites tabulas informācijas pārskatīšanas noklikšķiniet uz **Apstiprināt** , **Deleģēt** vai **Atgriezties** , lai turpinātu darbplūsmu.
+Izvēlnē ir pieejams pārskatīšanai izmantojamo darba laika uzskaites tabulu saraksts. Šī opcija ir pieejama tikai tad, ja esat norādīts kā darbplūsmas apstiprinātājs. Tiek atbalstīti gan virsrakstu, gan rindu apstiprinājumi. Rindas līmeņa apstiprinājums piedāvā iespēju atzīmēt vienu vai vairākas rindas apstiprināšanai. Pēc darba laika uzskaites tabulas informācijas pārskatīšanas noklikšķiniet uz **Apstiprināt**, **Deleģēt** vai **Atgriezties**, lai turpinātu darbplūsmu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

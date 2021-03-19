@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181461"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287697"
 ---
 # <a name="manage-a-proforma-invoice"></a>Pārvaldīt pro formas rēķinu
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Risinājumā Dynamics 365 Project Operations pro forma rēķini tiek veidoti kā Dynamics 365 Sales rēķinu paplašinājums. Tomēr rēķinu izrakstīšanas procesā ir daudz atšķirību starp risinājumiem Sales un Project Operations, runājot par rēķinu izrakstīšanu. Piemēram, risinājumā Project Operations nav iespējams izveidot jaunu rēķinu no lapas **Rēķinu saraksts**, bet to var izdarīt risinājumā Sales. Šīs atšķirības un paplašinājumi ir ieviesti, lai atbalstītu rēķinu izrakstīšanas procesus projektiem, kas atšķiras no parasta pārdošanas pasūtījuma rēķina.
+Risinājumā Dynamics 365 Project Operations pro forma rēķini tiek veidoti kā Dynamics 365 Sales rēķinu paplašinājums. Tomēr rēķinu izrakstīšanas procesā ir daudz atšķirību starp risinājumiem Sales un Project Operations, runājot par rēķinu izrakstīšanu. Piemēram, risinājumā Project Operations nav iespējams izveidot jaunu rēķinu no lapas **Rēķinu saraksts**, bet to var izdarīt risinājumā Sales. Šīs atšķirības un paplašinājumi ir ieviesti, lai atbalstītu rēķinu izrakstīšanas procesus projektiem, kas atšķiras no parasta pārdošanas pasūtījuma rēķina.
 
 > [!IMPORTANT]
 > Šo atšķirību dēļ neaizstājiet savā starpā rēķinus risinājumos Sales un Project Operations.

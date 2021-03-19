@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289738"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projekta budžeta pārcelšana finanšu gada beigās
 
@@ -41,7 +41,7 @@ Izpildiet tālāk aprakstītās darbības, lai pārskatītu gada beigu budžeta 
 4. Laukā **Aktuālais finanšu gads** atlasiet finanšu gadu, kuram vēlaties skatīt atlikušo budžeta summu. 
 5. Laukā **No prognozes modeļa** atlasiet **Atlikušais budžets**. 
 6. Lai iekļautu projektus, kas atbilst atlasītajiem kritērijiem, bet kuriem nav atlikušā budžeta, atlasiet **Rādīt nulli atlikušo**.  
-7. Cilnē **Atlasīt budžetus** atlasiet **Izgūt visus budžetus** , lai ielādētu visus budžetus, kas atbilst atlasītajiem kritērijiem, un pēc tam atlasiet **Apstrādāt**. 
+7. Cilnē **Atlasīt budžetus** atlasiet **Izgūt visus budžetus**, lai ielādētu visus budžetus, kas atbilst atlasītajiem kritērijiem, un pēc tam atlasiet **Apstrādāt**. 
 8. Lai noformētu datu bāzes vaicājumu, kas ielādē noteiktu budžetu kopu rūtī, atlasiet **Izgūt atlasītos budžetus**.
 
 Lai iegūtu papildinformāciju par noteiktu rindu rūtī, atlasiet rindu un pēc tam atlasiet opciju **Skatīt budžeta detaļas** vai **Skatīt kontus**.
@@ -59,10 +59,10 @@ Apstrādājot atlikušās budžeta summas, var izveidot darbības virsgrāmatā 
 2. Lapā **Projekta budžeta pārcelšanas process** atlasiet **Gada beigas** un pēc tam iespējojiet **Pārcelt atlikušās projekta budžeta summas** un **Izveidot budžeta reģistra ierakstus virsgrāmatā**. 
 3. Cilnes **Parametri** lauku grupā **Projekta parametri** atlasiet tālāk norādītās darbības.
 
-   - **Projekta budžeta gads** : atlasiet tā finanšu gada sākumu, kuram vēlaties skatīt atlikušās budžeta summas. 
-   - **Peļņa un zaudējumi** : izveidojiet peļņas un zaudējumu transakciju virsgrāmatā. 
-   -  **NP** : izveidojiet Nepabeigtie projekti (NP) transakcijas virsgrāmatā.
-   -  **Alga** : izveidojiet algu sadalījuma transakcijas virsgrāmatā. 
+   - **Projekta budžeta gads**: atlasiet tā finanšu gada sākumu, kuram vēlaties skatīt atlikušās budžeta summas. 
+   - **Peļņa un zaudējumi**: izveidojiet peļņas un zaudējumu transakciju virsgrāmatā. 
+   -  **NP**: izveidojiet Nepabeigtie projekti (NP) transakcijas virsgrāmatā.
+   -  **Alga**: izveidojiet algu sadalījuma transakcijas virsgrāmatā. 
 
 5. Lauku grupā **Virsgrāmata** norādiet šādu informāciju: 
 
@@ -73,10 +73,10 @@ Apstrādājot atlikušās budžeta summas, var izveidot darbības virsgrāmatā 
 
    - Laukā **No prognozes modeļa** atlasiet projekta budžeta prognožu modeli, kas saistīts ar atlikušajām budžeta summām, kuras vēlaties pārsūtīt projektiem. 
    - Laukā **Uz virsgrāmatas budžeta modeli** atlasiet virsgrāmatas budžeta modeli, kas saistīts ar budžeta summām, kuras vēlaties pārcelt uz virsgrāmatu. 
-   -  Atlasiet **Pārsūtīt pārdošanas valūtu** , lai izmantotu projekta pārdošanas valūtu virsgrāmatas transakcijām, kas tiek izveidotas, pārsūtot projektu budžeta summas. Ja opcija nav atlasīta, darbības izmanto uzskaites valūtu. 
-   -  Atlasiet **Rādīt nulli atlikušo** , lai iekļautu projektus, kuriem nav atlikušo budžeta summu, bet kuri atbilst citiem kritērijiem, kas atlasīti apakšējā rūtī redzamajos projektos.
+   -  Atlasiet **Pārsūtīt pārdošanas valūtu**, lai izmantotu projekta pārdošanas valūtu virsgrāmatas transakcijām, kas tiek izveidotas, pārsūtot projektu budžeta summas. Ja opcija nav atlasīta, darbības izmanto uzskaites valūtu. 
+   -  Atlasiet **Rādīt nulli atlikušo**, lai iekļautu projektus, kuriem nav atlikušo budžeta summu, bet kuri atbilst citiem kritērijiem, kas atlasīti apakšējā rūtī redzamajos projektos.
 
-7. Cilnē **Atlasīt budžetus** atlasiet **Izgūt visus budžetus** , lai ielādētu visus budžetus, kas atbilst atlasītajiem kritērijiem. Ja vēlaties izveidot datu bāzes vaicājumu, kas ielādē noteiktu projektu budžetu kopu rūtī, atlasiet **Izgūt atlasītos budžetus**.
+7. Cilnē **Atlasīt budžetus** atlasiet **Izgūt visus budžetus**, lai ielādētu visus budžetus, kas atbilst atlasītajiem kritērijiem. Ja vēlaties izveidot datu bāzes vaicājumu, kas ielādē noteiktu projektu budžetu kopu rūtī, atlasiet **Izgūt atlasītos budžetus**.
 8. Katram projektam, kuru vēlaties apstrādāt, atlasiet opciju projekta rindas sākumā.
 
     > [!TIP]
@@ -92,11 +92,11 @@ Apstrādājot atlikušās budžeta summas, var izveidot darbības virsgrāmatā 
 4. Grupā **Kopēt no/uz** norādiet šādu informāciju:
 
    - Laukā **No prognozes modeļa** atlasiet projekta budžeta prognožu modeli, kas ir saistīts ar atlikušajām budžeta summām, kuras vēlaties pārcelt projektiem. 
-   - Atlasiet **Rādīt nulli atlikušo** ,lai iekļautu projektus, kuriem nav atlikušo budžeta summu, bet kuri atbilst citiem atlasītajiem kritērijiem.
-   - Grupā **Atlasīt budžetus** atlasiet **Izgūt visus budžetus** , lai ielādētu visus budžetus, kas atbilst atlasītajiem kritērijiem. Lai noformētu datu bāzes vaicājumu, kas ielādē noteiktu projektu budžetu kopu rūtī, atlasiet **Izgūt atlasītos budžetus**.
+   - Atlasiet **Rādīt nulli atlikušo**,lai iekļautu projektus, kuriem nav atlikušo budžeta summu, bet kuri atbilst citiem atlasītajiem kritērijiem.
+   - Grupā **Atlasīt budžetus** atlasiet **Izgūt visus budžetus**, lai ielādētu visus budžetus, kas atbilst atlasītajiem kritērijiem. Lai noformētu datu bāzes vaicājumu, kas ielādē noteiktu projektu budžetu kopu rūtī, atlasiet **Izgūt atlasītos budžetus**.
 
 5. Katram projektam, kuru vēlaties apstrādāt, atlasiet opciju projekta rindas sākumā. 
-6. Atlasiet **Apstrādāt** , lai atlasītajiem projektiem pārceltu atlikušās budžeta summas atlasītajam finanšu gadam.
+6. Atlasiet **Apstrādāt**, lai atlasītajiem projektiem pārceltu atlikušās budžeta summas atlasītajam finanšu gadam.
 
 
 
