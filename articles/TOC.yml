@@ -32,11 +32,13 @@
               href: environment/resource-provision-new-environment.md
             - name: Drošības modelis
               href: environment/security-model.md
-            - name: "Project\_Operations integrācijas konfigurēšana katrā juridiskā entītijā"
+            - name: "Project\_Operations integrācijas konfigurēšana katrai juridiskajai personai"
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Jaunumi
       items:
-        - name: "2021.\_gada marts\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+        - name: "2021.\_gada aprīlis\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
+          href: whats-new/whats-new-apr-2021-resource-based.md
+        - name: "2021.\_gada marts\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: "2021.\_gada februāris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
           href: whats-new/whats-new-feb-2021-resource-based.md
@@ -64,9 +66,9 @@
           items:
             - name: Projekta iespēju pārskata pārvaldība
               href: sales/manage-project-based-opportunities.md
-            - name: Projekta balstītas iespējas iestatīšana
+            - name: Projektā balstītu iespēju galvenes informācija
               href: sales/opportunity-header.md
-            - name: Projekta balstītas iespējas rindas
+            - name: Projektā balstītas iespējas rindas
               href: sales/project-based-lines.md
             - name: Projekta piedāvājumu izveide no iespējām
               href: sales/link-quotes-opportunities.md
@@ -78,25 +80,29 @@
           items:
             - name: Projekta piedāvājumu pārskata pārvaldība
               href: pro/sales/manage-quotes-sales.md
-            - name: Projekta piedāvājumu koncepcijas
+            - name: Projektā balstītu piedāvājumu unikālās koncepcijas
               href: sales/quotes-key-concepts.md
-            - name: Projekta piedāvājumu iestatījumi
+            - name: Projektā balstītu piedāvājumu galvenes informācija
               href: sales/quote-values-budget-limits-contract.md
             - name: Vairāku klientu pārvaldība projekta piedāvājumā
               href: sales/manage-multiple-customers-quote.md
             - name: Projekta cenrāžu pārvaldība piedāvājumā
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Projekta balstīta piedāvājuma rindas
               items:
                 - name: Projekta balstīta piedāvājuma rindu pārskats
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
-                - name: Vairāku klientu pārvaldība projekta balstīta piedāvājuma rindās
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Vairāku klientu pārvaldība projektā balstīta piedāvājuma rindās
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Projektu un uzdevumu kartēšana par projektā balstītu piedāvājumu rindām
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Maksas komponentu konfigurēšana projektā balstītu piedāvājumu rindām
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Maksas komponentu konfigurēšana projekta piedāvājuma rindā
                   href: sales/configure-chargeable-quoteline.md
-                - name: Aprēķinu izveide piedāvājuma rindā
+                - name: Projekta piedāvājuma rindas aprēķins
                   href: sales/create-estimate-quote-line.md
-                - name: Aprēķinu importēšana projekta balstīta piedāvājuma rindā no projekta
+                - name: Aprēķinu importēšana projektā balstīta piedāvājuma rindā no projekta
                   href: sales/import-estimate-quote-line.md
                 - name: Rēķinu grafiki projekta balstīta piedāvājuma rindās
                   href: sales/invoice-schedule-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Projekta līgumu pārskata pārvaldība
               href: pro/sales/manage-contracts-sales.md
-            - name: Projekta līgumu koncepcijas
+            - name: Projektā balstītu līgumu unikālās koncepcijas
               href: sales/contracts-key-concepts.md
-            - name: Projekta līguma iestatījumi
+            - name: Projektā balstītu līgumu galvenes informācija
               href: sales/project-contract-settings.md
             - name: Projekta cenrāžu pārvaldība projekta līgumos
               href: sales/contracts-manage-project-price-lists.md
@@ -119,55 +125,57 @@
             - name: Projekta balstīta līguma rindas
               items:
                 - name: Projekta balstīta līguma rindu pārskats
-                  href: sales/manage-contract-values-project-based.md
-                - name: Vairāku klientu pārvaldība projekta balstīta līguma rindās
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: Vairāku klientu pārvaldība projektā balstīta līguma rindās
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Maksas komponentu konfigurēšana projekta balstīta līguma rindā
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Projekta balstīta līguma rindas aprēķins
+                - name: Projektu un uzdevumu kartēšana projekta līguma rindā
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Maksas komponentu konfigurēšana projekta līguma rindai
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Projekta līguma rindas aprēķins
                   href: sales/create-estimate-contract-line.md
-                - name: Aprēķina importēšana projekta balstīta līguma rindā no projekta
+                - name: Aprēķina importēšana projektā balstīta līguma rindā no projekta
                   href: sales/import-estimate-project-contract-line.md
-                - name: Rēķinu grafiku izveide projekta balstīta līguma rindās
+                - name: Rēķinu grafiku izveide projektā balstīta līguma rindās
                   href: sales/invoice-schedules-contract-line.md
             - name: Projekta līguma apstiprināšana
               href: pro/sales/confirm-contract-sales.md
-            - name: Projekta līguma kopēšana
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Avansi un honorāri
               items:
-                - name: 'Avansi un līgumi, kuru pamatā ir saistības'
+                - name: 'Avansi un līgumi, kuru pamatā ir līgumi'
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Honorāru grafiku iestatīšana
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: "Ad\_hoc avansa izveide līgumā"
                   href: pro/sales/create-ad-hoc-advance-sales.md
-    - name: Cenu un izmaksu noteikšana
+    - name: Cenas un izmaksas
       items:
         - name: Cenrāža iestatīšana
           items:
-            - name: Cenrāžu iestatīšana
+            - name: Cenrāža definīcija
               href: pricing-costing/price-list-setup.md
-            - name: Produktu cenrāži
-              href: pricing-costing/product-price-list.md
-            - name: Darba rēķinu likmju iestatīšana
+            - name: Darbu rēķinu likmju iestatīšana
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Darba izmaksu likmju iestatīšana
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Izdevumu izmaksu un pārdošanas likmju iestatīšana
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Materiālu izmaksu un pārdošanas likmju iestatīšana
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Noklusējumi un pārlabojumi
           items:
             - name: Noklusējuma cenrāži
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekta pārdošanas cenrāžu pārlabošana
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Izmaksu atrisināšana aprēķinos un faktiskajos datos
+            - name: Izmaksu atrisināšana aprēķinos un spēlētāja statistikā
               href: pricing-costing/cost-price-resolution.md
-            - name: Pārdošanas cenu atrisināšana aprēķinos un faktiskajos datos
+            - name: Pārdošanas cenu atrisināšana aprēķiniem un spēlētāju statistikai
               href: pricing-costing/sales-price-resolution.md
             - name: Cenrāžu kopēšana
               href: pricing-costing/copy-price-lists.md
+            - name: Cenrāžu deaktivēšana
+              href: pricing-costing/deactivatepricelists.md
         - name: Cenu noteikšanas dimensijas
           items:
             - name: Cenu noteikšanas dimensiju pārskats
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Piešķīrumu izveide
               href: project-management/create-assignments.md
-        - name: Projektu aprēķini
+        - name: Projektu finanšu aprēķini
           items:
-            - name: Projekta izdevumu pārskats
+            - name: Finanšu aprēķinu koncepcijas
               href: project-management/estimating-projects-overview.md
-            - name: Resursu aprēķini
+            - name: Resursu laika finanšu aprēķini projektiem
               href: project-management/resource-estimates.md
-            - name: Izveidot izdevumu aprēķinu
+            - name: Izdevumu finanšu aprēķini projektiem
               href: project-management/create-expense-estimates.md
+            - name: Materiālu finanšu aprēķini projektiem
+              href: project-management/create-material-estimate.md
         - name: Projekta izsekošana
           items:
-            - name: Projekta izsekošanas pārskats
+            - name: Projekta pasākumu izsekošana
               href: project-management/project-tracking-overview.md
+            - name: Projektu darba izmaksu izsekošana
+              href: project-management/project-cost-tracking.md
+            - name: Projektu darba ieņēmumu izsekošana
+              href: project-management/project-sales-tracking.md
             - name: Galīgo izmaksu novērtējuma atjaunināšana
               href: project-management/update-completed-estimate.md
         - name: Projekta darba grupas dalībnieki
@@ -246,8 +260,10 @@
               href: project-management/collaboration-groups.md
         - name: Izstrādātāja piezīmes
           items:
-            - name: 'Projekta veidņu izstrāde, kopējot projektu'
+            - name: 'Projekta veidņu izstrāde, izmantojot projekta kopēšanu'
               href: project-management/dev-copy-project.md
+            - name: Plānošanas API izmantošana (publiskais priekšskatījums)
+              href: project-management/schedule-api-preview.md
     - name: Resursu pārvaldība
       items:
         - name: Pamata koncepcijas
@@ -366,6 +382,10 @@
           items:
             - name: PVN atmaksa
               href: expense/vat-recovery.md
+    - name: Materiālu lietojums
+      items:
+        - name: Materiālu lietojuma ieraksts projektos un projekta uzdevumos
+          href: material/material-usage-log.md
     - name: Apstiprinājumi
       items:
         - name: Apstiprinājumu pārskats
@@ -374,13 +394,15 @@
           items:
             - name: Izstrādātāja piezīmes apstiprinājumiem
               href: approvals/dev-notes-approvals.md
-    - name: Faktiskie dati
+    - name: Spēlētāju statistika
       items:
-        - name: Faktisko datu pārskats
+        - name: Spēlētāju statistikas pārskats
           href: actuals/actuals-overview.md
+        - name: Spēlētāju statistikas saistīšana ar sākotnējiem ierakstiem
+          href: actuals/linkingactuals.md
         - name: Labojumu žurnāli
           items:
-            - name: Korekciju žurnālu izveide un apstiprināšana
+            - name: Labojumu žurnālu izveide un apstiprināšana
               href: actuals/create-confirm-correction-journals.md
     - name: Rēķini
       items:
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: "Pro\_forma rēķinu izrakstīšana"
           items:
-            - name: Projekta norēķinu neizpildīto darbību žurnālu pārvaldība
+            - name: Projektā balstītu rēķinu neizpildīto darbību žurnālu pārvaldība
               href: proforma-invoicing/manage-billing-backlog.md
-            - name: Nepārsniedzamā statusa un pārbaužu pārvaldība
+            - name: Nepārsniedzamā statusa un validāciju pārvaldība
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: "Pro\_formas projekta rēķina manuālā izveide"
+            - name: "Pro\_forma projektā balstītu rēķini"
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: "Pro\_formas projekta rēķina pārvaldība"
+            - name: "Pro\_forma projektā balstīta rēķina pārvaldība"
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Honorāra vai avansa rēķina izrakstīšana
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: "Pro\_formas projekta rēķina apstiprināšana"
+            - name: "Pro\_forma projektā balstīta rēķina apstiprināšana"
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Projekta rēķina automatizācijas konfigurēšana
+            - name: Labojošu projektā balstītu rēķinu izveide
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Projektā balstīta rēķina automatizācijas konfigurēšana
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projekta uzskaite
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada aprīļa jaunumi\_— Lite izvietošana"
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "2021.\_gada marta jaunumi\_— Lite izvietošana"
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: 2021. gada februāra jaunumi — Lite izvietošana
@@ -486,7 +512,7 @@
           items:
             - name: Projekta iespēju pārskats
               href: sales/manage-project-based-opportunities.md
-            - name: Projekta iespējas iestatīšana
+            - name: Projekta iespēju galvenes informācija
               href: pro/sales/opportunity-header-sales.md
             - name: Produkta balstītas iespējas rindu pārvaldība
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Projektu balstītu piedāvājumu pārskats
               href: pro/sales/manage-quotes-sales.md
-            - name: Projekta piedāvājuma koncepcijas
+            - name: Projekta piedāvājumu unikālās koncepcijas
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Projekta piedāvājuma iestatījumi
+            - name: Projekta piedāvājumu galvenes informācija
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Vairāki klienti projekta piedāvājumos
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -538,13 +564,13 @@
               href: sales/lose-quote.md
             - name: Projekta balstītu piedāvājumu slēgšana
               href: pro/sales/win-quote-sales.md
-        - name: Projekta balstītu līgumu pārvaldība
+        - name: Projektā balstītu līgumu pārvaldība
           items:
-            - name: Projekta balstītu līgumu pārskats
+            - name: Projektā balstītu līgumu pārskats
               href: pro/sales/manage-contracts-sales.md
-            - name: Projekta līguma koncepcijas
+            - name: Projekta līgumu unikālās koncepcijas
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Projekta līguma iestatījumi
+            - name: Projekta līgumu galvenes informācija
               href: pro/sales/project-contract-settings-sales.md
             - name: Vairāki klienti projekta līgumos
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -586,34 +612,36 @@
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: "Ad\_hoc avansa izveide līgumā\_— Lite"
                   href: pro/sales/create-ad-hoc-advance-sales.md
-    - name: Cenu un izmaksu noteikšana
+    - name: Cenas un izmaksas
       items:
         - name: Cenrāža iestatīšana
           items:
-            - name: Cenrāžu iestatīšana
+            - name: Cenrāža definīcija
               href: pricing-costing/price-list-setup.md
-            - name: Pārdošanas cenrāžu iestatīšana
-              href: pricing-costing/sales-price-list-setup.md
-            - name: "Darba rēķinu likmju iestatīšana\_— Lite"
+            - name: Produkta cenrāžu iestatīšana
+              href: pricing-costing/product-price-list.md
+            - name: Darba rēķinu likmju iestatīšana
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: "Darba izmaksu likmju iestatīšana\_— Lite"
+            - name: Darba izmaksu likmju iestatīšana
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: "Izmaksu un pārdošanas likmju iestatīšana kataloga produktiem\_— Lite"
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Izdevumu izmaksu un pārdošanas likmju iestatīšana
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Materiālu izmaksu un pārdošanas likmju iestatīšana
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Noklusējumi un pārlabojumi
           items:
             - name: Noklusējuma cenrāži
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekta pārdošanas cenrāžu pārlabošana
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: "Izmaksu atrisināšana aprēķinos un faktiskajos datos\_— Lite"
+            - name: Izmaksu atrisināšana projekta aprēķinos un spēlētāju statistikā
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: "Pārdošanas cenu atrisināšana aprēķinos un faktiskajos datos\_— Lite"
+            - name: Pārdošanas cenu atrisināšana projekta aprēķinos un spēlētāju statistikā
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Cenrāžu kopēšana
               href: pricing-costing/copy-price-lists.md
+            - name: Projekta cenrāžu deaktivēšana
+              href: pricing-costing/deactivatepricelists.md
         - name: Cenu noteikšanas dimensijas
           items:
             - name: Cenu noteikšanas dimensiju pārskats
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Piešķīrumu izveide
               href: project-management/create-assignments.md
-        - name: Projektu aprēķini
+        - name: Projektu finanšu aprēķini
           items:
-            - name: Projekta izdevumu pārskats
+            - name: Finanšu aprēķinu koncepcijas
               href: project-management/estimating-projects-overview.md
-            - name: Resursu aprēķini
+            - name: Resursu laika finanšu aprēķini projektiem
               href: project-management/resource-estimates.md
-            - name: Izveidot izdevumu aprēķinu
+            - name: Izdevumu finanšu aprēķini projektiem
               href: project-management/create-expense-estimates.md
+            - name: Materiālu finanšu aprēķini projektiem
+              href: project-management/create-material-estimate.md
         - name: Projekta izsekošana
           items:
-            - name: Projekta izsekošanas pārskats
+            - name: Projekta pasākumu izsekošana
               href: project-management/project-tracking-overview.md
+            - name: Projektu darba izmaksu izsekošana
+              href: project-management/project-cost-tracking.md
+            - name: Projektu darba ieņēmumu izsekošana
+              href: project-management/project-sales-tracking.md
             - name: Galīgo izmaksu novērtējuma atjaunināšana
               href: project-management/update-completed-estimate.md
         - name: Projekta darba grupas dalībnieki
@@ -692,8 +726,10 @@
               href: project-management/collaboration-groups.md
         - name: Izstrādātāja piezīmes
           items:
-            - name: 'Projekta veidņu izstrāde, kopējot projektu'
+            - name: 'Projekta veidņu izstrāde, izmantojot projekta kopēšanu'
               href: project-management/dev-copy-project.md
+            - name: Plānošanas API izmantošana (publiskais priekšskatījums)
+              href: project-management/schedule-api-preview.md
     - name: Resursu pārvaldība
       items:
         - name: Pamata koncepcijas
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Izdevumu ieraksts (Lite)
           href: expense/basic-expense.md
+    - name: Materiālu lietojums
+      items:
+        - name: Materiālu lietojuma ieraksts projektos un projekta uzdevumos
+          href: material/material-usage-log.md
     - name: Apstiprinājumi
       items:
         - name: Apstiprinājumu pārskats
@@ -776,23 +816,25 @@
           items:
             - name: Izstrādātāja piezīmes apstiprinājumiem
               href: approvals/dev-notes-approvals.md
-    - name: Faktiskie dati
+    - name: Spēlētāju statistika
       items:
-        - name: Faktisko datu pārskats
+        - name: Spēlētāju statistikas pārskats
           href: actuals/actuals-overview.md
+        - name: Spēlētāju statistikas saistīšana ar sākotnējiem ierakstiem
+          href: actuals/linkingactuals.md
         - name: Labojumu žurnāli
           items:
-            - name: Korekciju žurnālu izveide un apstiprināšana
+            - name: Labojumu žurnālu izveide un apstiprināšana
               href: actuals/create-confirm-correction-journals.md
     - name: "Pro\_forma rēķinu izrakstīšana"
       items:
         - name: Projekta norēķinu neizpildīto darbību žurnālu pārvaldība
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
-        - name: Nepārsniedzamā statusa un pārbaužu pārvaldība
+        - name: Nepārsniedzamā statusa un validāciju pārvaldība
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: "Pro\_formas projekta rēķina manuālā izveide"
+        - name: "Pro\_forma projekta rēķini"
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-        - name: "Pro\_formas projekta rēķina pārvaldība"
+        - name: "Pro\_forma projekta rēķina pārvaldība"
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
         - name: Honorāra vai avansa rēķina izrakstīšana
           href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
@@ -802,11 +844,13 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Projekta rēķina automatizācijas konfigurēšana
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-- name: "Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
+- name: "Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
   items:
     - name: Jaunumi
       items:
-        - name: "Jaunumi 2021.\_gada janvārī\_— Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
+        - name: "Jaunumi 2021.\_gada martā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+        - name: "Jaunumi 2021.\_gada janvārī\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: "Jaunumi 2020.\_gada decembrī\_— Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
           href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
@@ -830,9 +874,11 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Projekta rēķina izrakstīšana
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
-    - name: Projektu līgumi
+    - name: Projekta rēķina priekšlikuma izpilde
+      href: prod-pma/project-invoice-proposal-performance.md
+    - name: Projekta līgumi
       href: prod-pma/project-contracts.md
-    - name: 'Papildu līgumu norēķiniem, pamatojoties uz progresu, izveide'
+    - name: 'Papildu līgumu izveide norēķiniem, balstoties uz progresu'
       href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
     - name: Projekta prognozes un budžeti
       href: prod-pma/project-forecasts-budgets.md
@@ -952,9 +998,13 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidienu grafiks"
           href: psa/version-history-ps.md
-        - name: "Update\_Release\_29,\_V3 jaunumi vai izmaiņas"
+        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā 30,\_V3"
+          href: psa/whats-new-ur-30.md
+        - name: 'Jaunumi vai izmaiņas atjauninājumu laidiena 29.5 labojumfailā, V3'
+          href: psa/whats-new-ur-29-5.md
+        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā 29,\_V3"
           href: psa/whats-new-ur-29.md
-        - name: '28.6 izlaiduma V3, Hotfix atjauninājuma vai izmaiņu jaunumi'
+        - name: 'Jaunumi un izmaiņas atjauninājumu laidiena 28.6 labojumfailā, V3'
           href: psa/whats-new-ur-28-6.md
         - name: '28.5 izlaiduma V3, Hotfix atjauninājuma vai izmaiņu jaunumi'
           href: psa/whats-new-ur-28-5.md
