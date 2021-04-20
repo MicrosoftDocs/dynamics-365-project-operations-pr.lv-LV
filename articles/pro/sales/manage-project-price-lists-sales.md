@@ -1,27 +1,27 @@
 ---
-title: Pārvaldīt projekta cenu sarakstus projekta piedāvājumos — Lite
-description: Šajā tēmā ir sniegta informācija par darbu ar projekta cenrāžiem piedāvājumos. (Sales)
+title: Projekta cenrāžu pārvaldība projekta piedāvājumos
+description: Šajā tēmā ir sniegta informācija par darbu ar projekta cenrāžiem piedāvājumos.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273027"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858617"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Pārvaldīt projekta cenu sarakstus projekta piedāvājumos — Lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Pārvaldīt projekta cenu sarakstus projekta piedāvājumos 
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
 Projekta piedāvājumi ir paredzēti, lai atbalstītu vairākus spēkā esošus pārdošanas cenrāžus. Izmantojot Dynamics 365 Project Operations šo entītiju, tiek pievienota jauna saistītā entītija **Projekta cenrāži**. Šai entītijai ar projekta piedāvājumu ir attiecība viens pret daudziem.
 
-Projekta cenrāžus izmanto, lai noteiktu projekta laika un izdevumu darījumu cenas. Ja piedāvājumam ir viens vai vairāki projekta cenrāži, šos cenrāžus izmanto, lai noteiktu laika un izdevumu aprēķinātās un faktiskās cenas projektos, kas saistīti ar piedāvājumu caur piedāvājuma rindu.
+Projekta cenrāži tiek izmantoti, lai projekta ietvaros izveidotu cenas, materiālu un izmaksu transakcijas. Ja piedāvājumam ir viens vai vairāki projekta cenrāži, šie cenrāži tiek izmantoti, lai noteiktu cenas laiku, materiālus, izmaksu aprēķinus un faktiskos rezultātus projektos, kas ar piedāvājumu saistīti, izmantojot piedāvājuma rindu.
 
 Ja projekta piedāvājumam nav projekta cenrāžu, tiek parādīts brīdinājuma ziņojums. Ziņojumā ir norādīts: nav projekta cenrāžu, tādēļ jūsu aprēķinātajiem un faktiskajiem darbiem un izdevumiem šajā projektā netiks noteiktas cenas. Tā vietā to pārdošanas vērtībām būs nulle (0) cenas.
 

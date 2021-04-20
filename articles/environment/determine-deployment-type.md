@@ -3,17 +3,17 @@ title: Nosakiet savu izvietošanas veidu
 description: Šajā tēmā ir sniegta informācija, kas jums palīdzēs noteikt pareizo Project Operations izvietošanas tipu savam uzņēmumam.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479573"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663603"
 ---
 # <a name="determine-your-deployment-type"></a>Nosakiet savu izvietošanas veidu
 
@@ -44,9 +44,9 @@ Mūsu [Izvietošanas anketa](https://aka.ms/provisionprojectoperations) palīdz�
 - [Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem](#integrated)
 - [Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem](#pma)
 
-Project Operations vienā un tajā pašā vidē atbalsta scenārijus, kas balstīti uz krājumiem un ražošanas pasūtījumiem, un scenārijus, kas ir balstīti uz resursiem/nav balstīti uz krājumiem, izmantojot juridiskās personas līmeņa konfigurācijas. Piemēram, Contoso var izmantot krājumu/ražošanas pasūtījumu iespējas savā ASV ražošanas objektā (juridiskā persona = Contoso Manufacturing United States). Contoso var izmantot iespējas, kas ir balstītas uz resursiem/nav balstītas uz krājumiem, savā Contoso Robotics Arms apkalpošanas objektā Lielbritānijā (juridiskā persona = Contoso Robotics United Kingdom).
+Project Operations vienā un tajā pašā vidē atbalsta scenārijus, kas balstīti uz krājumiem un ražošanas pasūtījumiem, un scenārijus, kas ir balstīti uz resursiem/nav balstīti uz krājumiem, izmantojot juridiskās personas līmeņa konfigurācijas. Piemēram, Contoso var lietot krājumu/ražošanas pasūtījumu iespējas savā ražotnē ASV (juridiska persona = Contoso Manufacturing United States). Contoso var izmantot ar krājumiem nesaistītas/uz resursiem balstītas iespējas Contoso Robotics Arms apkalpošanas vietā Apvienotajā Karalistē (juridiska persona = Contoso Robotics United Kingdom).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu
 
 Lite izvietošana ietver tālāk norādītās iespējas.
 
@@ -56,7 +56,7 @@ Lite izvietošana ietver tālāk norādītās iespējas.
 - Vienota resursu pārvaldība
 - Laika izsekošana
 - Pamata izdevumi
-- Proforma un uz klientiem vērsti rēķini 
+- Proforma rēķinu izrakstīšana projekta vadītāja pārskatīšanai un rediģēšanai 
 
 #### <a name="deployment-steps"></a>Izvietošanas darbības
 Nosakiet labāko Project Operations izvietošanas modeli, izmantojot rīku [Izvietošanas anketa](https://aka.ms/provisionprojectoperations).
@@ -89,12 +89,12 @@ Lai īstenotu šo izvietošanu skatiet informāciju šeit: [Pierakstīšanās pr
 - Projektu plānošana, izmantojot WBS
 - Resursu pārvaldība
 - Laika izsekošana
-- Pilni izdevumi
+- Pilnas izdevumi
 - OCR apliecinājums
 - Pilna rēķinu izrakstīšana
 - Ieņēmumu atzinība
 - Ražošanas pasūtījumi
-- Materiālu atbalsts
+- Noliktavā esošo materiālu atbalsts ar krājumu
 
 #### <a name="deployment-steps"></a>Izvietošanas darbības
 Nosakiet labāko Project Operations izvietošanas modeli, izmantojot rīku [Izvietošanas anketa](https://aka.ms/provisionprojectoperations).

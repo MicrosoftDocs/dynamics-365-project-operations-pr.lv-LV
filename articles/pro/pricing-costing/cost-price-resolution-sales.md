@@ -1,22 +1,22 @@
 ---
-title: Izmaksu cenu atrisināšana aprēķiniem un faktiskajiem datiem — Lite
-description: Šajā tēmā ir sniegta informācija par to, kā tiek atrisinātas novērtējumu un faktiskās izmaksas.
+title: Izmaksu atrisināšana projekta aprēķinos un faktiskajās vērtībās
+description: Šajā tēmā ir sniegta informācija par to, kā tiek atrisinātas projekta aprēķinu un faktisko datu izmaksas.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274558"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877274"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Izmaksu cenu atrisināšana aprēķiniem un faktiskajiem datiem — Lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Izmaksu atrisināšana projekta aprēķinos un faktiskajās vērtībās 
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -36,6 +36,12 @@ Kad ir atrisināts izmaksu cenrādis, laika novērtējuma rindas lauki **Loma** 
 Novērtēšanas rindas izdevumiem attiecas uz piedāvājuma un līguma rindas informāciju izdevumiem, kā arī izdevuma novērtēšanas rindām projektā.
 
 Pēc tam, kad ir atrisināts cenrāža saraksts, sistēma izmanto lauku **Kategorija** un **Vienība** kombināciju izmaksu novērtējuma rindā, lai saskaņotu ar **Kategoriju cenas** rindām atrisinātajā cenrādī. Ja sistēma atrod kategorijas cenas rindu, kurai ir izmaksu likme lauku kombinācijai **Kategorija** un **Vienība**, tad izmaksu likme ir tiek noklusēta. Ja sistēma nevar saskaņot vērtības **Kategorija** un **Vienība** vai ja tā nevar atrast atbilstošu kategorijas cenas rindu, bet cenu noteikšanas metode nav **Cena par vienību**, izmaksu likme pēc noklusējuma ir nulle (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Izmaksu likmju atrisināšana faktiskajām un aprēķinātajām materiālu rindām
+
+Materiālu aprēķinu rindas attiecas uz piedāvājuma un līguma rindu informāciju par materiāliem un materiālu aprēķina rindām projektā.
+
+Kad ir atrisināts izmaksu cenrādis, sistēma izmanto lauku **Produkts** un **Vienība** kombināciju materiālu aprēķina rindai, lai nodrošinātu tās atbilstību atrisinātā cenrāža rindām **Cenrāža elementi**. Ja sistēma atrod produkta cenas rindu, kuras izmaksu likmei ir lauku **Produkts** un **Vienība** kombinācija, izmaksu likmei ir noklusējuma vērtība. Ja sistēma neatrod atbilstību lauku **Produkts** un **Vienība** vērtībām vai atrod atbilstību cenrāža elementa rindai, bet cenu noteikšanas metodes pamatā ir standarta izmaksas vai pašreizējās izmaksas un neviena no tām nav definēta produktam, vienības izmaksām noklusējuma vērtība ir nulle.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

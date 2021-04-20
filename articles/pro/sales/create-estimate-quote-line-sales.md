@@ -3,54 +3,58 @@ title: Projekta piedāvājuma rindas aprēķināšana
 description: Šajā tēmā sniegta informācija par to, kā izveidot aprēķinu par projekta piedāvājuma rindu.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dbd3876e555ee6bc70308ef11a3528a5dd8b6a32
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273561"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858217"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projekta piedāvājuma rindas aprēķināšana
 
-_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
+_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
 Projekta piedāvājuma rindā ir informācija, kas palīdz aprēķināt attiecīgā darba izmaksas un iespējamos ieņēmumus, lai izpildītu piedāvājuma rindu.
 
 Lai aprēķinātu projekta piedāvājuma rindu, projekta piedāvājuma rindā atlasiet cilni **Piedāvājuma rindas informācija**. Projekta piedāvājuma rindas piedāvājumu var aprēķināt divējādi.
 
-- Aprēķinu manuāla izveide tieši piedāvājuma rindā, izmantojot piedāvājuma rindas informāciju 
+- Novērtējuma manuāla izveide tieši piedāvājuma rindā, izmantojot piedāvājuma rindas informāciju. 
 - Izveidojiet projektu un projekta plānu un pēc tam saistiet projektu un projekta uzdevumus ar piedāvājuma rindu. Tiek iespējots process, kurā projekta plānā ietvertie aprēķini tiek importēti piedāvājuma rindā, pamatojoties uz jūsu sniegto informāciju.
 
 ## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Aprēķinu izveide tieši projekta piedāvājuma rindā
 
 Lai izveidotu aprēķinu projekta piedāvājuma rindā, atlasiet cilni **Piedāvājuma rindas informācija** . Rindas elements, ko izveidojat šajā cilnē, apkopo šīs piedāvājuma rindas aprēķināto vērtību. 
 
-Lai izveidotu piedāvājuma rindas informāciju, atlasiet **+ Jauna piedāvājuma rindas informācija** apakšrežģī **Piedāvājuma rindas informācija**. Tiks atvērts ātrās izveides slīdnis. Veidlapā **Piedāvājuma rinda** ir šādi lauki:
+Lai izveidotu piedāvājuma rindas informāciju, atlasiet **Jauna piedāvājuma rindas informācija** apakšrežģī **Piedāvājuma rindas informācija**. Tiks atvērts ātrās izveides slīdnis. Tabulā ir sniegta detalizēta informācija par laukiem lapā **Piedāvājuma rindas informācija** un to, kā vērtības ietekmē funkcionalitāti.
 
 | **Lauks** | **Atrašanās vieta** | **Apraksts** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |
-| Apraksts | Ātrā izveide | Konkrētā aprēķina apraksts. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Darījuma klase | Ātrā izveide | Šis nolaižamais saraksts nodrošina darījumu klases, kas ir ietvertas projekta piedāvājuma rindas cilnē **Vispārīgi**.  | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Loma | Ātrā izveide | Persona, kas veiks šo darbu vai apmaksās šos izdevumus. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Kategorija | Ātrā izveide | Darba vai izdevumu kategorija. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Sākuma datums | Ātrā izveide | Darba sākuma datums. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Beigu datums | Ātrā izveide | Darba beigu datums. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Resursu vienība | Ātrā izveide | Resursu vienība, kas apmaksās šīs izmaksas un nodrošinās resursu darbam ar to. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. Šo lauku izmanto arī izmaksu izgūšanai. |
-| Vienības grafiks | Ātrā izveide | Darba vai izdevumu vienību grupa. Vienības pieder vienību grafikam vai vienību grupai. Piemēram, jūdzes un km ir vienības, kas pieder vienību grupai, ar ko apraksta attālumu. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Vienība | Ātrā izveide | Darba vai izdevumu vienība. | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Daudzums | Ātrā izveide | Darba vai izdevumu daudzums | Šis lauks pēc noklusējuma ir saistīts ar automātiski izveidoto piedāvājuma rindas informāciju. |
-| Vienības cena | Ātrā izveide | Tās lomas rēķina likme, kas veic darbu, vai izdevumu kategorijas pārdošanas cena. Šis lauks ir noklusējuma Laiks, pamatojoties uz lomu un resursu plānošanas vienību kombināciju projekta cenrādi, kas ir spēkā sākuma datumā. Attiecībā uz izdevumiem šis lauks pēc noklusējuma ir cenas iestatījums darījuma kategorijai projekta cenrādī, kas ir spēkā sākuma datumā. Ja darījumu kategorijas cenu noteikšanas metode nav cena par vienību, noklusējuma vērtības nav un šis lauks tiek atstāts tukšs. | Tās lomas izmaksu likme, kas veic darbu, vai izdevumu kategorijas vienības izmaksas. Šis lauks ir noklusējuma Laiks, pamatojoties uz lomu un resursu plānošanas vienību kombināciju Līgumslēdzēja vienības cenā Piedāvājuma cenrādī, kas ir spēkā sākuma datumā. Attiecībā uz izdevumiem šis lauks pēc noklusējuma ir cenas iestatījums darījuma kategorijai Līgumslēdzēja vienības izmaksu cenrādī, kas ir spēkā sākuma datumā. Ja darījumu kategorijas cenu noteikšanas metode nav cena par vienību, noklusējuma vērtības nav un šis lauks tiek atstāts tukšs. |
+| Apraksts | Ātrā izveide | Konkrētā aprēķina apraksts. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Darījuma klase | Ātrā izveide | Šajā nolaižamajā sarakstā ir ietvertas projekta piedāvājuma rindas cilnē **Vispārīgi** iekļautās transakciju klases.  | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Atlasīt produktu | Ātrā izveide | Attiecas, ja transakcijas klase ir **Materiāls**. Varat norādīt, vai šī novērtējuma rinda ir **esošam** (kataloga) produktam vai **ierakstāmam** produktam. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Produkts | Ātrā izveide | Produkta ID no produktu kataloga. Šis lauks tiek iespējots tikai tad, ja laukā **Atlasīt produktu** tiek atlasīts **Esošs produkts**. ID tiek izmantots, lai izgūtu pārdošanas cenu no projekta cenrāža piedāvājumā. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Ierakstāmais produkts | Ātrā izveide | Tekstlodziņš, ko rakstīt produkta nosaukumā. Šis lauks tiek iespējots tikai tad, ja laukā **Atlasīt produktu** tiek atlasīts **Ierakstāms produkts**.| Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Loma | Ātrā izveide | Tās personas loma, kas veiks šo darbu vai radīs šīs izmaksas. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Kategorija | Ātrā izveide | Darba vai izdevumu kategorija. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Sākuma datums | Ātrā izveide | Darba sākuma datums. | Šis lauks pēc noklusējuma tiek aizpildīts ar izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Beigu datums | Ātrā izveide | Darba beigu datums. | Šis lauks pēc noklusējuma tiek aizpildīts ar izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Resursu vienība | Ātrā izveide | Atkārtota vienība, kas radīs šīs izmaksas un nodrošinās resursu, ar kuru strādāt. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski un lietota izmaksu izgūšanai. |
+| Vienības grafiks | Ātrā izveide | Darba, produkta vai izdevumu vienību grupa. Vienības pieder vienību grafikam vai vienību grupai. Piemēram, jūdzes un kilometri pieder vienību grupai, kas norāda attālumu. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Vienība | Ātrā izveide | Darba, produkta vai izdevumu vienība. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Daudzums | Ātrā izveide | Darba, produkta vai izdevumu apjoms. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu piedāvajuma rindu, kas tiek izveidota automātiski. |
+| Vienības cena | Ātrā izveide |Tās lomas rēķina likme, kas veic darbu, produkta vienības cena vai produkta vai izdevumu kategorijas pārdošanas cena. Šis lauks pēc noklusējuma tiek iestatīts kā **Laiks**, pamatojoties uz cenu dimensiju vērtībām projekta cenu saraksta lomu cenu rindā, kas ir spēkā sākuma datumā. Attiecībā uz **izdevumiem** noklusējuma vērtība ir ņemta no cenas, kas ir iestatīta darījuma kategorijai projekta cenrādī, kas ir spēkā sākuma datumam. Ja transakciju kategorijas cenu noteikšanas metode nav cena par vienību, netiek izmantota noklusējuma vērtība un šis lauks tiek atstāts tukšs. Produktiem noklusējuma vērtības pamatā ir rinda **Cenrāža elements** projekta cenrādī, kas ir spēkā sākuma datumā.| Darba veiceja lomas izmaksu likme vai izmaksas par vienību izdevumu kategorijā, vai produkta vienības izmaksas. Šis lauks pēc noklusējuma tiek iestatīts kā **Laiks**, pamatojoties uz cenu dimensiju vērtībām projekta cenu saraksta lomu cenu rindā, kas ir spēkā sākuma datumā. Attiecībā uz **izdevumiem** noklusējuma vērtība ir ņemta no cenas, kas ir iestatīta darījuma kategorijai projekta cenrādī, kas ir spēkā sākuma datumam. Ja transakciju kategorijas cenu noteikšanas metode nav cena par vienību, netiek izmantota noklusējuma vērtība un šis lauks tiek atstāts tukšs. Produktiem noklusējuma vērtības pamatā ir rinda **Cenrāža elements** projekta cenrādī, kas ir spēkā sākuma datumā.|
 | Aprēķinātais nodoklis | Ātrā izveide | Varat manuāli ievadīt šī darba vai izdevumu aprēķināto nodokli. | Šim laukam nav lejupstraumes ietekmes. |
-| Apjoms/summa | Ātrā izveide | Ja lauki **Daudzums** un **Cena** ir atstāti tukši, šajā laukā varat ievadīt informāciju manuāli. Ja šie lauki nav tukši, šis lauks kļūst tikai lasāms un tiek aprēķināts kā (Daudzums \* Vienības cena) + Nodoklis. | Šim laukam nav lejupstraumes ietekmes. |
+| Apjoms | Ātrā izveide | Ja lauki **Daudzums** un **Cena** ir atstāti tukši, šajā laukā varat ievadīt informāciju manuāli. Ja šie lauki nav tukši, šis lauks kļūst tikai lasāms un tiek aprēķināts kā (Daudzums \* Vienības cena) + Nodoklis. | Šim laukam nav lejupstraumes ietekmes. |
+
 
 ## <a name="update-prices-on-quote-line-details"></a>Cenas atjaunināšana piedāvājuma rindas informācijā
 
-Ja esat mainījis cenas projekta cenrādī, kas ir pievienots piedāvājumam, vai līgumslēdzēja vienības izmaksu cenrādī, varat atlasīt vienumu **Pārrēķināt** lapā **Piedāvājums**, lai atsvaidzinātu atsevišķas piedāvājuma rindas informācijas cenas un atspoguļotu veiktās izmaiņas. Kad atlasāt opciju **Pārrēķināt**, jūs ar brīdinājumu tiekat informēts, ka cenas piedāvājuma rindas informācijā par visām šī piedāvājuma rindām tiks atiestatītas. Atlasiet **Jā**, lai atsvaidzinātu cenas gan pārdošanas, gan izmaksu piedāvājuma rindas informācijā.
+Ja piedāvājumam pievienotajā projekta cenrādis vai līguma slēgšanas vienības izmaksu cenrādis ir mainījis cenas, lapā **Piedāvājums** varat atlasīt **Pārrēķināt**, lai atsvaidzinātu atsevišķas piedāvājuma rindas detalizēto informāciju, lai atspoguļotu šīs izmaiņas. Atlasot  **Pārrēķināt**, tiek parādīts brīdinājums, ka tiks atiestatītas piedāvājumu rindu detalizētas cenas visām šī piedāvājuma rindām. Atlasiet **Jā**, lai atsvaidzinātu cenas gan pārdošanas, gan izmaksu piedāvājuma rindas informācijā.
 
 ## <a name="access-quote-line-details-for-cost"></a>Piekļuve piedāvājuma rindas informācijai attiecībā uz izmaksām
 
@@ -66,7 +70,8 @@ Valūta piedāvājuma rindas informācijā attiecībā uz izmaksu noklusējuma v
 
 Rentabilitātes aprēķinos summas par piedāvājumu rindu informāciju attiecībā uz izmaksām un pārdošanas apjomiem tiek konvertētas attiecīgās vides pamata valūtā, lai sniegtu atskaiti par piedāvājuma prognozēto peļņu.
 
-Tas var izraisīt valūtu noapaļošanas kļūdas un mainīt peļņu, jo nav konkrētajā datumā spēkā esošo valūtas kursu. Izmantojiet šos aprēķinus par Projekta piedāvājumiem tikai kā tuvinājumus, nevis faktiskas obligātas vai cita veida atskaites, kam ir nepieciešama augstāka noapaļošanas precizitāte un konkrētos datumos spēkā esoši valūtas kursi.
+> [PIEZĪME
+> > Valūtas noapaļošanas kļūdas un mainīti uzcenojumi var rasties, jo trūkst spēkā stāšanās datuma valūtas kursu. Izmantojiet šos aprēķinus tikai projekta līgumos, jo tie ir aptuveni un nav paredzēti faktiskiem statūtu vai citu veidu pārskatiem, kuriem nepieciešama augstāka noapaļošanas precizitāte un datuma precizitāte valūtas maiņas kursiem.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

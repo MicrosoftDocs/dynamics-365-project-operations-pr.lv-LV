@@ -3,17 +3,17 @@ title: Pārvaldīt nepārsniedzošu statusu un pārbaudes
 description: Šajā tēmā ir sniegta informācija par risinājumā Project Operations veiktajām nepārsniedzamā ierobežojuma pārbaudēm.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274035"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866736"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Pārvaldīt nepārsniedzošu statusu un pārbaudes 
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 ## <a name="not-to-exceed-on-approvals"></a>Nepārsniedzamie ierobežojumi apstiprinājumos
 
-Kad tiek iesniegts laika vai izdevumu ieraksts, tiek izveidots apstiprinājuma ieraksts. Ja apstiprinājums ir iekasējams un kartēts uz laika un materiālu līguma rindu, sistēma pabeidz nepārsniegšanas validācijas pārbaudi šādos līmeņos:
+Kad tiek iesniegts laiks, izmaksas vai materiālu lietojuma ieraksts, tiek izveidots apstiprinājuma ieraksts. Ja apstiprinājums ir iekasējams un kartēts uz laika un materiālu līguma rindu, sistēma pabeidz nepārsniegšanas validācijas pārbaudi šādos līmeņos:
 
   - Pārbauda, ņemot vērā šajā projekta līguma rindā iestatīto ierobežojumu klientam
   - Pārbauda, ņemot vērā ierobežojumu, kas noteikts līguma rindai
@@ -34,11 +34,11 @@ Ja pārbaude ir veiksmīga, apstiprinājumam tiek piešķirts validācijas statu
 
 Ja pārbaude ir neveiksmīga, apstiprinājumam tiek piešķirts validācijas statuss **Neizdevās**. Nepārsniedzamā līmeņa validācijas informācijā būs skaidrojums lietotājam par to, kurā līmenī validācija neizdevās.
 
-Kad iesniegtais laiks vai izdevumu ieraksts tiek uzskatīts par neiekļaujamu rēķinā, nepārsniedzamās vērtības validācijas statuss ir iestatīts kā **Nav piemērojams** un validācijas informācijas laukā ir rakstīts **Nav piemērojams**.
+Ja iesniegtais laiks, izdevumi vai materiālu lietojuma ieraksts tiek uzskatīts par neiekļaujamu rēķinā, nepārsniegšanas validācijas statuss tiek iestatīts uz **Nav piemērojams** un validācijas informācija ir **Nav piemērojams**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Nepārsniedzamās vērtības rēķinos neiekļautajos faktiskajos pārdošanas datos
 
-Kad ir apstiprināts laiks vai izdevumu ieraksts, tiek izveidotas izmaksu un rēķinā neiekļauto faktisko pārdošanas datu ieraksti. Ja izveidotie rēķinos neiekļautie faktiskie pārdošanas dati ir iekasējams un kartēti uz laika un materiālu līguma rindu, lietojumprogramma veic nepārsniegšanas validācijas pārbaudi šādos līmeņos:
+Kad tiek apstiprināts laika, izmaksu vai materiālu lietojuma ieraksts, tiek izveidoti izmaksu un rēķinā neiekļauto faktisko pārdošanas datu ieraksti. Ja izveidotie rēķinos neiekļautie faktiskie pārdošanas dati ir iekasējams un kartēti uz laika un materiālu līguma rindu, lietojumprogramma veic nepārsniegšanas validācijas pārbaudi šādos līmeņos:
 
   - Pārbauda, ņemot vērā šajā projekta līguma rindā iestatīto ierobežojumu klientam
   - Pārbauda, ņemot vērā ierobežojumu, kas noteikts līguma rindai
@@ -55,9 +55,9 @@ Ja neiekasēts pārdošanas apjoms tiek uzskatīts par neiekļaujamu rēķinā v
 
 ## <a name="reset-the-not-to-exceed-status"></a>Nepārsniegšanas statusa atiestatīšana
 
-Nepārsniegšanas ierobežojuma statusam var veikt lielapjoma atiestatīšanu. Šādi projekta vadītāji var pielāgot nepārsniegšanas ierobežojuma validāciju, lai par prioritāti izvirzītu rēķinu izrakstīšanu par vienu konkrētu darbu, laiku vai izdevumiem, salīdzinot ar citiem, kuri jau ir iesniegti no pieejamās nepārsniedzamās summas.
+Nepārsniegšanas ierobežojuma statusam var veikt lielapjoma atiestatīšanu. Projekta vadītāji var pielāgot nepārsniegšanas validāciju, lai noteiktu prioritāti rēķinu izrakstīšanai par vienu noteiktu darbu, laiku, izdevumiem vai materiālu izlietojumu, nevis par to, kas jau ir iesniegts no pieejamās nepārsniedzamās summas.
 
-Pēc tam kad rēķinā neiekļauto faktisko pārdošanas datu nepārsniegšanas statuss ir atiestatīts, saistību summa tiek samazināta. Projekta vadītājs var izvēlēties citu darba, laika vai izdevumu kopumu, kas iepriekš nav ticis veiksmīgi validēts attiecībā pret nepārsniedzamo vērtību, un tos pārvērtēt. Līdz ar iesniegtās summas samazināšanu šie faktiskie apjomi varēs tikt veiksmīgi validēti. Tas palīdz projekta vadītājam saņemt lielāku ietekmi un kontroli pār rēķinā iekļautajām transakcijām šajā periodā.
+Pēc tam kad rēķinā neiekļauto faktisko pārdošanas datu nepārsniegšanas statuss ir atiestatīts, saistību summa tiek samazināta. Projekta vadītājs var atlasīt citu darba, laika, izdevumu vai materiālu izlietojuma ierakstu, kas iepriekš neizturēja nepārsniegšanas validāciju un atkārtotu izvērtēšanu. Samazinot piešķirto summu, šie faktiskie dati tagad iztur validāciju, kas palīdz projekta vadītājam vairāk ietekmēt un kontrolēt rēķinos iekļaujamās transakcijas šajā periodā.
 
 Lai atiestatītu nepārsniegšanas statusu, atlasiet vienu vai vairākas faktiskās vērtības no skata **Laika un materiālu rēķinu izrakstīšanas rezerve** vai **Faktiskās vērtības** un pēc tam atlasiet opciju **Atiestatīt nepārsniegšanas statusu**.
 

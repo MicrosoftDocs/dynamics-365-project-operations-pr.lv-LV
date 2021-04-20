@@ -1,21 +1,21 @@
 ---
-title: Aprēķinu un faktisko pārdošanas cenu atrisināšana — Lite
-description: Šajā tēmā ir sniegta informācija par pārdošanas cenu atrisināšanu novērtējumos un faktiskajos datos.
+title: Pārdošanas cenu atrisināšana projekta aprēķiniem un faktiskajām vērtībām
+description: Šajā tēmā ir sniegta informācija par to, kā tiek atrisināti projekta pārdošanas aprēķini un faktiskās vērtības.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274512"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877365"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Aprēķinu un faktisko pārdošanas cenu atrisināšana — Lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Pārdošanas cenu atrisināšana projekta aprēķiniem un faktiskajām vērtībām
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -55,5 +55,14 @@ Kad pārdošanas cenrādis ir atrisināts, sistēma pabeidz tālāk norādītās
 
 4. Ja sistēma nespēj saskaņot **Kategorija** un **Vienība** lauku vērtības, pārdošanas likme pēc noklusējuma ir nulle (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Pārdošanas likmju atrisināšana faktiskajām un novērtētajām materiāla rindām
+
+Programmā Project Operations materiālu aprēķinu rindas tiek izmantotas, lai piedāvājuma un līguma rindu informāciju attiecinātu uz materiāliem un materiālu aprēķina rindām projektā.
+
+Kad pārdošanas cenrādis ir atrisināts, sistēma pabeidz tālāk norādītās darbības, lai noklusētu vienības pārdošanas cenu.
+
+1. Sistēma izmanto lauku **Produkts** un **Vienība** kombināciju materiālu aprēķinu rindai, lai atrastu atbilstību cenrāža elementam atrisinātajā cenrādī.
+2. Ja sistēma atrod cenrāža elementa rindu, kuras pārdošanas likme lauku **Produkts** un **Vienība** kombinācijai un cenu noteikšanas metodei ir **Valūtas summa**, tiek izmantota cenrāža rindā norādītā pārdošanas cena.
+3. Ja lauku **Produkts** un **Vienība** vērtības neatbilst, pārdošanas likmes noklusējuma vērtība ir nulle.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

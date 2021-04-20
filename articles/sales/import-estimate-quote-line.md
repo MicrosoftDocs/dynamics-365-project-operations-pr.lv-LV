@@ -1,6 +1,6 @@
 ---
-title: Projekta aprēķinu importēšana projekta piedāvājuma rindā
-description: Šajā tēmā sniegta informācija par to, kā importēt aprēķinus no projekta piedāvājuma rindā.
+title: Projekta aprēķinu importēšana uz projekta piedāvājuma rindu
+description: Šajā tēmā ir sniegta informācija par aprēķinu importēšanu no projekta projekta piedāvājuma rindā.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278337"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858752"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekta aprēķinu importēšana projekta piedāvājuma rindā
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Projekta aprēķinu importēšana uz projekta piedāvājuma rindu
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 

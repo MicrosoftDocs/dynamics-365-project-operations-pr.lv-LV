@@ -1,26 +1,26 @@
 ---
-title: Pro formas rēķinu apstiprināšana — Lite
-description: Šajā tēmā ir sniegta informācija par proforma rēķinu apstiprināšanu risinājumā Project Operations.
+title: Pro formas projekta rēķina apstiprināšana
+description: Šajā tēmā ir sniegta informācija par proformas projekta rēķinu apstiprinājumu programmā Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274287"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867095"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Pro formas rēķinu apstiprināšana — Lite
+# <a name="confirm-a-proforma-project-invoice"></a>Pro formas projekta rēķina apstiprināšana 
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
 
-Pēc tam, kad ir apstiprināts proforma rēķins, projekta rēķina statuss tiek atjaunināts uz **Apstiprināts**. Kad rēķins ir apstiprināts, tas kļūst tikai lasāms. Turpmāk rēķinu varēs labot tikai tad, ja pastāvēs klienta iniciēti labojumi vai kredīti vai arī rēķins būs atzīmēts kā apmaksāts.
+Pēc tam, kad ir apstiprināts proforma rēķins, projekta rēķina statuss tiek atjaunināts uz **Apstiprināts**. Kad rēķins ir apstiprināts, tas kļūst tikai lasāms. Turpmāk rēķinu var labot tikai tad, ja ir veiktas klientam ierosinātas korekcijas vai kredīti.
 
 Tālāk sniegtajā tabulā ir uzskaitīti sistēmā izveidotie faktiskie dati. Šie faktiskie dati tiek izveidoti, kad projekta rēķina melnrakstā pirms apstiprināšanas tiek veiktas noteiktas darbības.
 
@@ -225,6 +225,70 @@ Rēķinā neiekļautās pārdošanas atsaukšana daudzumam un summai sākotnēj�
             <td width="408" valign="top">
                 <p>
 Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama par daudzumu un summu rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Materiāla transakcijas bez labojumiem ietveršana melnraksta rēķinā.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā neiekļautās pārdošanas atsaukšana par sākotnējā materiālu lietojuma apstiprināšanā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Rēķinā iekļautā pārdošanas vērtība par sākotnējā materiālu lietojuma apstiprināšanā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Tādas materiālu transakcijas ietveršana rēķinā, kas tika rediģēta, lai samazinātu daudzumu.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā neiekļautās pārdošanas atsaukšana par sākotnējā laika apstiprināšanā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama par daudzumu un summu rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas nav iekasējami par atlikušo daudzumu un summu pēc laboto ciparu atvilkšanas rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajiem datiem.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Tādas materiālu transakcijas ietveršana rēķinā, kas tika rediģēta, lai palielinātu daudzumu.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā neiekļautās pārdošanas atsaukšana par sākotnējā materiālu lietojuma apstiprināšanā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama par daudzumu un summu rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos.
                 </p>
             </td>
         </tr>

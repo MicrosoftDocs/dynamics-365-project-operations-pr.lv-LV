@@ -3,7 +3,7 @@ title: Pašreizējās
 description: Šajā tēmā ir sniegta informācija par to, kā veikt darbības ar faktiskajiem darbiem programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291808"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852553"
 ---
 # <a name="actuals"></a>Faktiskie dati 
 
-_**Attiecas uz:** Project Operations scenārijiem, kas kas nav balstīti uz resursiem/krājumiem_
+_**Attiecas uz:** Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem, Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu_
 
-Faktiskie dati ir darba apjoms, kas ir pabeigts projektā. Tos izveido laika un izdevumu ierakstu, kā arī žurnāla ierakstu un rēķinu rezultātā.
+Faktiskie dati attiecas uz pārskatīto un apstiprināto finanšu un plānošanas norisi projektā. Tās tiek izveidotas laika, izmaksu, materiālu lietojuma ierakstu, kā arī ierakstu un rēķinu apstiprinājuma rezultātā.
 
 ## <a name="journal-lines-and-time-submission"></a>Žurnāla rindu un laika iesniegšana
 
@@ -45,7 +45,7 @@ Kad iesniegts laika ieraksts ir saistīts ar projektu, kas ir kartēts uz fiksē
 
 Noklusējuma cenu izveides loģika atrodas žurnāla rindā. Lauka vērtības no laika ieraksta tiek kopētas uz žurnāla rindu. Šajās vērtībās ir iekļauts darījuma datums, līguma rinda, uz kuru projekts ir kartēts, un valūtas rezultāts atbilstošajā cenrādī.
 
-Laukus, kas ietekmē noklusējuma cenas, piemēram, **Loma** un **Org. vienība**, izmanto atbilstošas cenas noteikšanai žurnāla rindā. Varat pievienot pielāgotu lauku laika ierakstam. Ja vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku entītijā Faktiskie dati un izmantojiet lauku kartējumus, lai kopētu lauku no laika ieraksta uz faktisko.
+Lauki, kas ietekmē noklusējuma cenas, piemēram, **Loma** un **Resursu vienība**, tiek izmantoti, lai noteiktu atbilstošu cenu žurnāla rindā. Varat pievienot pielāgotu lauku laika ierakstam. Ja vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku tabulās **Faktiskie dati** un **Žurnāla rinda**. Lietojiet pielāgotu kodu, lai izplatītu atlasīto lauka vērtību no laika ievades uz faktiskiem līdz žurnāla rindai, izmantojot transakcijas izcelsmes. Papildinformāciju par transakciju izcelsmi un savienojumiem skatiet rakstā [Faktisko datu saistīšana ar sākotnējiem ierakstiem](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Žurnāla rindu un pamata izdevumu iesniegšana
 
@@ -57,24 +57,42 @@ Kad iesniegts pamata izdevumu ieraksts ir saistīts ar projektu, kas ir kartēts
 
 ### <a name="fixed-price"></a>Fiksētas cenas
 
-Kad iesniegts pamata izdevumu ieraksts ir saistīts ar projektu, kas ir kartēts uz fiksētas cenas līguma rindu, sistēma izveido vienu žurnāla rindu – par izmaksām.
+Kad iesniegtais pamata izdevumu ieraksts tiek saistīts ar projektu, kas ir kartēts fiksētas cenas līguma rindā, sistēma izveido vienu žurnāla rindu cenai.
 
 ### <a name="default-pricing"></a>Noklusējuma cenu noteikšana
 
-Izdevumu noklusējuma cenu ievadīšanas loģikas pamatā ir izdevumu kategorija. Lai noteiktu atbilstošo cenrādi, tiek izmantots gan transakcijas datums, gan līguma rinda, uz kuru ir kartēts projekts, gan arī valūta. Tomēr pēc noklusējuma summa, kas ievadīta pašai cenai, tiek iestatīta tieši saistītajās izdevumu žurnāla rindās izmaksām un pārdošanai.
+Izdevumu noklusējuma cenu ievadīšanas loģikas pamatā ir izdevumu kategorija. Lai noteiktu atbilstošo cenrādi, tiek izmantots gan transakcijas datums, gan līguma rinda, uz kuru ir kartēts projekts, gan arī valūta. Lauki, kas ietekmē noklusējuma cenas, piemēram, **Transakcijas kategorija** un **Vienība**, tiek izmantoti, lai noteiktu atbilstošu cenu žurnāla rindā. Tomēr tas darbojas tikai tad, ja cenrāža cenu noteikšanas metode ir **Cena par vienību**. Ja cenu noteikšanas metode ir **Pašizmaksa** vai **Uzcenojums augstāks par izmaksu**, izmaksu ieraksta izveides laikā ievadītā cena tiek izmantota izmaksām, un cena pārdošanas piedāvājuma rindā tiek aprēķināta, pamatojoties uz cenu noteikšanas metodi. 
 
-Izdevumu ierakstiem kategorijā valstīta cenas par vienību ievade nav pieejama.
+Izmaksu ierakstam var pievienot pielāgotu lauku. Ja vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku tabulās **Faktiskie dati** un **Žurnāla rinda**. Lietojiet pielāgotu kodu, lai izplatītu atlasīto lauka vērtību no laika ievades uz faktiskiem līdz žurnāla rindai, izmantojot transakcijas izcelsmes. Papildinformāciju par transakciju izcelsmi un savienojumiem skatiet rakstā [Faktisko datu saistīšana ar sākotnējiem ierakstiem](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Žurnāla rindu un materiālu lietojuma žurnāla iesniegšana
+
+Papildinformāciju par izdevumu ierakstu skatiet šeit: [Materiālu lietojuma žurnāls](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Laika un materiālu
+
+Kad iesniegts materiālu lietojuma žurnāls ieraksts tiek saistīts ar projektu, kas tiek kartēts ar laika un materiālu līguma rindu, sistēma izveido divas rindu rindas (vienu par izmaksām un vienu par rēķinā neietverto pārdošanu).
+
+### <a name="fixed-price"></a>Fiksētas cenas
+
+Kad iesniegtais materiālu lietojuma ieraksts tiek saistīts ar projektu, kas ir kartēts fiksētas cenas līguma rindā, sistēma izveido vienu žurnāla rindu cenai.
+
+### <a name="default-pricing"></a>Noklusējuma cenu noteikšana
+
+Materiālu noklusējuma cenu ievadīšanas loģika tiek pamatota uz produktu un vienību kombināciju. Lai noteiktu atbilstošo cenrādi, tiek izmantots gan transakcijas datums, gan līguma rinda, uz kuru ir kartēts projekts, gan arī valūta. Lauki, kas ietekmē noklusējuma cenas, piemēram, **Produkta ID** un **Vienība**, tiek izmantoti, lai noteiktu atbilstošu cenu žurnāla rindā. Tomēr tas darbojas tikai kataloga produktiem. Ierakstāmiem produktiem cena, kas ievadīta, izveidojot materiālu lietojuma žurnāla ierakstu, tiek izmantota izmaksu un pārdošanas cenai raksta rindās. 
+
+Ierakstam **Materiālu lietojuma žurnāls** var pievienot pielāgotu lauku. Ja vēlaties, lai lauka vērtība tiktu izplatīta uz faktiskajiem datiem, izveidojiet lauku tabulās **Faktiskie dati** un **Žurnāla rinda**. Lietojiet pielāgotu kodu, lai izplatītu atlasīto lauka vērtību no laika ievades uz faktiskiem līdz žurnāla rindai, izmantojot transakcijas izcelsmes. Papildinformāciju par transakciju izcelsmi un savienojumiem skatiet rakstā [Faktisko datu saistīšana ar sākotnējiem ierakstiem](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Ierakstu žurnālu izmantošana izmaksu reģistrēšanai
 
 Varat izmantot ierakstu žurnālus, lai ierakstītu izmaksas vai ieņēmumus materiālu, maksu, laika, izdevumu vai nodokļu transakciju klasēs. Žurnālus var izmantot šādiem mērķiem:
 
-- Reģistrēt materiālu un pārdošanas faktiskās izmaksas projektā.
 - Pārvietojiet transakciju faktiskos datus no citas sistēmas uz Microsoft Dynamics 365 Project Operations.
 - Reģistrēt izmaksas, kas notikušas citā sistēmā. Šīs izmaksas var ietvert iegādes vai apakšuzņēmēju izmaksas.
 
 > [!IMPORTANT]
 > Programma nevalidē žurnāla rindas tipu vai saistīto cenu, kas ievadīta žurnāla rindā. Tādējādi ierakstu žurnālus izmantot faktisko datu izveidei drīkst tikai lietotājs, kas pilnībā apzinās faktisko datu ietekmi uz projekta uzskaiti. Šī žurnāla veida ietekmes dēļ jums rūpīgi jāizvēlas personas, kurām ir piekļuve ierakstu žurnālu izveidei.
+
 ## <a name="record-actuals-based-on-project-events"></a>Faktisko datu ierakstīšana, pamatojoties uz projekta notikumiem
 
 Project Operations ieraksta finanšu transakcijas, kas notiek projekta laikā. Šīs transakcijas tiek ierakstītas kā faktiskie dati. Tālāk esošajās tabulās ir parādīti dažādie faktisko datu tipi, kas tiek izveidoti atkarībā no tā, vai projekts ir laika un materiālu vai fiksētas cenas projekts, atrodas pirmspārdošanas posmā vai arī ir iekšējais projekts.

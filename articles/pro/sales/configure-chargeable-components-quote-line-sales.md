@@ -1,23 +1,23 @@
 ---
-title: Piedāvājuma rindas maksas komponentu konfigurēšana — Lite
+title: Piedāvājuma rindas apmaksājamo komponentu konfigurēšana
 description: Šajā tēmā ir sniegta informācija par apmaksājamu un neapmaksājamu komponentu iestatīšanu projekta piedāvājuma rindā.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273882"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858302"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Piedāvājuma rindas maksas komponentu konfigurēšana — Lite
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Piedāvājuma rindas maksas komponentu konfigurēšana 
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu, Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem_
 
 Projekta piedāvājuma rindā ir *iekļauti* komponenti un *apmaksājami* komponenti.
 
@@ -61,22 +61,575 @@ Darījumu kategorija var būt apmaksājama vai neapmaksājama noteiktā piedāv�
 Transakcijas norēķinu tipu var konfigurēt piedāvājuma rindas cilnē **Rēķinā iekļaujamās kategorijas**, atjauninot lauku **Norēķinu tips** apakšrežģī **Rēķinā iekļaujamās kategorijas**.
 
 ### <a name="resolve-chargeability"></a>Apmaksājamības atrisināšana
-Aprēķins vai faktiski dati, kas izveidoti par laiku, tiks uzskatīti par apmaksājamiem tikai tad, ja piedāvājuma rindā būs iekļauts lauks **Laiks** un lauki **Uzdevums** un **Loma** piedāvājuma rindā būs konfigurēta kā apmaksājama.
+Laika novērtētā vai faktiskā vērtība tiks uzskatīta par apmaksājamu tikai tālāk norādītajos gadījumos.
 
-Aprēķins vai faktiski dati, kas izveidoti par izdevumiem, tiks uzskatīti par apmaksājamiem tikai tad, ja piedāvājuma rindā būs iekļauta kategorija **Izdevumi** un lauki **Uzdevums** un **Darījuma kategorija** piedāvājuma rindā būs konfigurēta kā apmaksājama.
+   - **Laiks** ir iekļauts piedāvājuma rindā.
+   - **Loma** piedāvājuma rindā ir konfigurēta kā apmaksājama.
+   - **Iekļautie uzdevumi** piedāvājuma rindā ir iestatīti uz **Atlasītie uzdevumi**. 
 
-| Iekļauts laiks | Iekļauti izdevumi | Iekļautie uzdevumi | Loma | Kategorija | Uzdevums | Norēķini |
-| --- | --- | --- | --- | --- | --- | --- |
-| Jā | Jā | Viss projekts | Izrakstāms rēķins | Izrakstāms rēķins | Nevar iestatīt | Norēķini par laika faktiskajiem datiem: Apmaksājams </br>Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams |
-| Jā | Jā | Tikai atlasītie uzdevumi | Izrakstāms rēķins | Izrakstāms rēķins | Izrakstāms rēķins | Norēķini par laika faktiskajiem datiem: Apmaksājams</br>Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams |
-| Jā | Jā | Tikai atlasītie uzdevumi | Nav iekļaujams rēķinā | Izrakstāms rēķins | Izrakstāms rēķins | Norēķini par laika faktiskajiem datiem: Nav apmaksājams</br>Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams |
-| Jā | Jā | Tikai atlasītie uzdevumi | Izrakstāms rēķins | Izrakstāms rēķins | Nav apmaksājams | Norēķini par laika faktiskajiem datiem: Nav apmaksājams</br> Norēķinu veids par izdevumu faktiskajiem datiem: Nav apmaksājams |
-| Jā | Jā | Tikai atlasītie uzdevumi | Nav apmaksājams | Izrakstāms rēķins | Nav apmaksājams | Norēķini par laika faktiskajiem datiem: Nav apmaksājams</br> Norēķinu veids par izdevumu faktiskajiem datiem: Nav apmaksājams |
-| Jā | Jā | Tikai atlasītie uzdevumi | Nav apmaksājams | Nav apmaksājams | Izrakstāms rēķins | Norēķini par laika faktiskajiem datiem: Nav apmaksājams</br> Norēķinu veids par izdevumu faktiskajiem datiem: Nav apmaksājams |
-| No | Jā | Viss projekts | Nevar iestatīt | Izrakstāms rēķins | Nevar iestatīt | Norēķini par laika faktiskajiem datiem: Nav pieejams </br>Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams |
-| No | Jā | Viss projekts | Nevar iestatīt | Nav iekļaujams rēķinā | Nevar iestatīt | Norēķini par laika faktiskajiem datiem: Nav pieejams </br>Norēķinu veids par izdevumu faktiskajiem datiem: Nav apmaksājams |
-| Jā | No | Viss projekts | Izrakstāms rēķins | Nevar iestatīt | Nevar iestatīt | Norēķini par laika faktiskajiem datiem: Apmaksājams</br>Norēķinu veids par izdevumu faktiskajiem datiem: Nav pieejams |
-| Jā | No | Viss projekts | Nav iekļaujams rēķinā | Nevar iestatīt | Nevar iestatīt | Norēķini par laika faktiskajiem datiem: Nav apmaksājams </br>Norēķinu veids par izdevumu faktiskajiem datiem: Nav pieejams |
+Ja šie trīs nosacījumi ir izpildīti, **Uzdevums** arī tiek konfigurēts kā tāds, par kuru var iekasēt maksu. 
+
+Izdevumu novērtētā vai faktiskā vērtība tiks uzskatīta par apmaksājamu tikai tālāk norādītajos gadījumos. 
+
+   - **Izdevumi** ir iekļauti piedāvājuma rindā.
+   - **Transakcijas kategorija** piedāvājuma rindā ir konfigurēta kā apmaksājama.
+   - **Iekļautie uzdevumi** piedāvājuma rindā ir iestatīti uz **Atlasītie uzdevumi**.
+
+Ja šie trīs nosacījumi ir izpildīti, **Uzdevums** arī tiek konfigurēts kā tāds, par kuru var iekasēt maksu. 
+
+Materiālu novērtētā vai faktiskā vērtība tiks uzskatīta par apmaksājamu tikai tālāk norādītajos gadījumos.
+
+   - **Materiāli** ir iekļauti piedāvājuma rindā.
+   - **Iekļautie uzdevumi** piedāvājuma rindā ir iestatīti uz **Atlasītie uzdevumi**.
+
+Ja šie divi nosacījumi ir izpildīti, **Uzdevums** tiek konfigurēts kā tāds, par kuru var iekasēt maksu. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Iekļauts laiks</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Iekļauti izdevumi</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Iekļauti materiāli</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Iekļautie uzdevumi</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Loma</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategorija</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Uzdevums</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Iekasēšanas ietekme</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Viss projekts </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Norēķini par laika faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Rēķina tips faktiskajām materiālu vērtībām: iekasējams </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tikai atlasītie uzdevumi </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Norēķini par laika faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Rēķina tips faktiskajām materiālu vērtībām: iekasējams </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tikai atlasītie uzdevumi </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Rēķins par laika faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Rēķina tips faktiskajām materiālu vērtībām: iekasējams </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tikai atlasītie uzdevumi </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Rēķins par laika faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips izdevumu faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips materiālu faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tikai atlasītie uzdevumi </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Rēķins par laika faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips izdevumu faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips materiālu faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tikai atlasītie uzdevumi </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Rēķins par laika faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips izdevumu faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips faktiskajām materiālu vērtībām: iekasējams </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Viss projekts </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Izrakstāms rēķins</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Rēķins ar laika faktiskajām vērtībām: <strong>Nav pieejams</strong>
+                </p>
+                <p>
+Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Rēķina tips faktiskajām materiālu vērtībām: iekasējams </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Viss projekts </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Rēķins ar laika faktiskajām vērtībām: <strong>Nav pieejams</strong>
+                </p>
+                <p>
+Rēķina tips izdevumu faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips faktiskajām materiālu vērtībām: iekasējams </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Viss projekts </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Norēķini par laika faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Rēķina tips izdevumu faktiskajām vērtībām:<strong> Nav pieejams</strong>
+                </p>
+                <p>
+Rēķina tips faktiskajām materiālu vērtībām: iekasējams </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Viss projekts </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Rēķins par laika faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips izdevumu faktiskajām vērtībām:<strong> Nav pieejams</strong>
+                </p>
+                <p>
+Rēķina tips faktiskajām materiālu vērtībām: iekasējams </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Viss projekts </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Izrakstāms rēķins </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Norēķini par laika faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Norēķinu veids par izdevumu faktiskajiem datiem: Apmaksājams </p>
+                <p>
+Rēķina tips materiālu faktiskajām vērtībām:<strong> Nav pieejams</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jā </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Viss projekts </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nav iekasējams</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nav iekļaujams rēķinā</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nevar iestatīt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Rēķins par laika faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips izdevumu faktiskajām vērtībam: <strong>Nav iekasējams</strong>
+                </p>
+                <p>
+Rēķina tips materiālu faktiskajām vērtībām:<strong> Nav pieejams</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

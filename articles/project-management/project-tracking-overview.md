@@ -1,21 +1,21 @@
 ---
-title: Projekta izsekošanas pārskats
-description: Šajā tēmā ir sniegta informācija par to, kā sekot līdzi projekta progresam un izmaksu patēriņam.
+title: Projekta ieguldījuma izsekošana
+description: Šajā tēmā ir sniegta informācija par to, kā sekot līdzi projekta ieguldījumam un darba norisei.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286617"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710949"
 ---
-# <a name="project-tracking-overview"></a>Projekta izsekošanas pārskats
+# <a name="project-effort-tracking"></a>Projekta ieguldījuma izsekošana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
@@ -26,50 +26,28 @@ Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Da�
 Skats **Piepūles izsekošana** izseko uzdevumu progresu grafikā, salīdzinot faktiskās ieguldījuma stundas, kas tiek patērētas uzdevumam, ar plānotajām ieguldījuma stundām. Dynamics 365 Project Operations, lai aprēķinātu izsekošanas metriku, programmatūrā, izmanto tālāk norādītās formulas.
 
 - **Progresa procentuālā vērtība**: līdz šim veiktā piepūle + novērtējums beigu stadijā (EAC) 
-- **Novērtējums līdz pabeigšanai (ETC)**: Plānotā piepūle – Līdz šim faktiski patērētā piepūle 
+- **Atlikušais ieguldījums**: galīgā ieguldījuma novērtējums – faktiskais ieguldījums līdz konkrētajam datumam 
 - **EAC**: Atlikusī piepūle + Līdz šim veiktā piepūle 
 - **Projektētā piepūles novirze**: Plānotā piepūle – EAC
 
 Programmatūrā Project Operations uzdevumam tiek rādīta projektētā piepūles novirze. Ja EAC ir lielāks par plānoto intensitāti, tiek prognozēts, ka uzdevums prasīs vairāk laika, nekā sākotnēji plānots, un tas atpaliek no grafika. Ja EAC ir mazāks par plānoto intensitāti, tiek prognozēts, ka uzdevums prasīs mazāk laika, nekā sākotnēji plānots, un tas ir pirms grafika.
 
-## <a name="reprojecting-effort"></a>Piepūles pārprojektēšana
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Ieguldījuma pārplānošana lapas mezgla uzdevumos
 
-Projektu vadītāji bieži pārskata sākotnējās uzdevumu aplēses. Projekta pārprojektēšana ir projektu vadītāja reaģēšana uz prognozēm, ņemot vērā projekta pašreizējo statusu. Taču projektu vadītājiem nav ieteicams mainīt bāzlīnijas skaitļus. Iemesls ir tāds, ka projekta bāzlīnija pārstāv noteikto patiesās informācijas avotu projekta grafikam un izmaksu tāmei, un visas projektā ieinteresētās puses par to ir vienojušās.
+Projektu vadītāji bieži pārskata sākotnējās uzdevumu aplēses. Projekta pārprojektēšana ir projektu vadītāja reaģēšana uz prognozēm, ņemot vērā projekta pašreizējo statusu. Tomēr projekta vadītājiem nav ieteicams mainīt plānotā ieguldījuma datus. Tas ir tāpēc, ka projekta plānotais ieguldījums ir projekta grafika un izmaksu aprēķina patiesās informācijas avots, kā arī visi projekta dalībnieki ir tam piekrituši.
 
-Projektu vadītājs uzdevumiem var pārprojektēt piepūli divos tālāk norādītajos veidos:
-
-- Pārlabot noklusējuma ETC ar jaunu uzdevumam faktiski atlikušās piepūles novērtējumu. 
-- Pārlabot noklusējuma progresa procentuālo daudzumu ar jaunu uzdevuma patiesā progresa novērtējumu.
-
-Katra no šīm metodēm izraisa uzdevuma ETC, EAC, progresa procentuālā daudzuma pārrēķināšanu un uzdevumam projektētās piepūles novirzes pārrēķināšanu. Tiek pārrēķināts arī EAC, ETC un progresa procentuālais daudzums kopsavilkuma uzdevumiem, un tiek izveidota jauna piepūles novirzes projektēšana.
+Projekta vadītājs var pārplānot ieguldījumu kopsavilkuma uzdevumos, atjauninot **atlikušā ieguldījuma** noklusējuma vērtību ar jaunu aprēķinu. Šādas atjaunināšanas rezultātā tiek pārrēķināts uzdevuma galīgais ieguldījuma novērtējums, norises procentuālā daļa un paredzamā ieguldījuma novirze. Tiek pārrēķināts arī EAC, ETC un progresa procentuālais daudzums kopsavilkuma uzdevumiem, un tiek izveidota jauna piepūles novirzes projektēšana.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Piepūles pārprojektēšana kopsavilkuma uzdevumiem
 
-Piepūli kopsavilkuma uzdevumiem vai konteinera uzdevumiem var pārprojektēt. Neatkarīgi no tā, vai lietotājs pārprojektēšanu veic, kopsavilkuma uzdevumiem izmantojot atlikušo piepūli vai progresa procentuālo daudzumu, sākas tālāk norādīto aprēķinu kopa.
+Piepūli kopsavilkuma uzdevumiem vai konteinera uzdevumiem var pārprojektēt. Projektu vadītāji var atjaunināt kopsavilkuma uzdevumu atlikušo ieguldījumu. Atjauninot atlikušo ieguldījumu, lietojumprogrammā tiek aktivizēta šāda aprēķinu kopa:
 
-- Uzdevumam tiek aprēķināts EAC, ETC un progresa procentuālais daudzums.
+- Uzdevumam tiek aprēķināts EAC un progresa procentuālais daudzums.
 - Jaunais EAC tiek sadalīts uz pakārtotajiem uzdevumiem tādās pašās daļās, kā sākotnējais EAC tika sadalīts uz uzdevumu.
 - Tiek aprēķināts jaunais EAC katram atsevišķajam uzdevumam līdz pat lapas mezgla uzdevumiem. 
-- Ietekmētajiem pakārtotajiem uzdevumiem lejup pa lapas mezgliem tiek pārrēķināts to ETC un progresa procentuālais daudzums, pamatojoties uz EAC vērtību. Šādi uzdevumam tiek iegūta jauna piepūles novirzes projektēšana. 
+- Ietekmētajiem pakārtotajiem uzdevumiem lejup pa lapas mezgliem tiek pārrēķināts to atlikušais ieguldījums un progresa procentuālais daudzums, pamatojoties uz EAC vērtību. Šādi uzdevumam tiek iegūta jauna piepūles novirzes projektēšana. 
 - Tiek pārrēķināti kopsavilkuma uzdevumu EAC visiem uzdevumiem līdz saknes mezglam.
 
-### <a name="cost-tracking-view"></a>Izmaksu izsekošanas skats 
-
-Skatā **Izmaksu izsekošana** faktiskās izmaksas, kuras tika iztērētas uz uzdevumu, tiek salīdzinātas ar plānotajām uzdevuma izmaksām. 
-
-> [!NOTE]
-> Šajā skatā tiek rādītas tikai darbaspēka izmaksas, un nav iekļautas izmaksas no izdevumu tāmēm. Lai aprēķinātu izsekošanas metriku, programmatūrā Project Operations tiek izmantotas tālāk norādītās formulas.
-
-- **Patērēto izmaksu procentuālais daudzums**: Līdz šim faktiski iztērētās izmaksas ÷ Novērtētās izmaksas beigu stadijā
-- **Izmaksas līdz pabeigšanai (CTC)**: Plānotās izmaksas – Līdz šim faktiski iztērētās izmaksas
-- **EAC**: Atlikušās izmaksas + Līdz šim faktiski iztērētās izmaksas
-- **Projektētā izmaksu novirze**: Plānotās izmaksas – EAC
-
-Uzdevumam tiek rādīta projektētā izmaksu novirze. Ja EAC ir lielāks par plānotajām izmaksām, tiek projektēts, ka uzdevums izmaksās vairāk, nekā sākotnēji tika plānots. Tādēļ tam ir tendence pārsniegt budžetu. Ja EAC ir mazāks par plānotajām izmaksām, tiek projektēts, ka uzdevums izmaksās mazāk, nekā sākotnēji tika plānots. Tādēļ tam ir tendence iekļauties budžetā.
-
-## <a name="project-managers-reprojection-of-cost"></a>Projektu vadītāja veiktā izmaksu pārprojektēšana
-
-Kad notiek piepūles pārprojektēšana, skatā **Izmaksu izsekošana** tiek pārrēķināts CTC, EAC, patērēto izmaksu procentuālais daudzums un projektētā izmaksu nobīde.
 
 ## <a name="project-status-summary"></a>Projekta noteikta kopsavilkums
 

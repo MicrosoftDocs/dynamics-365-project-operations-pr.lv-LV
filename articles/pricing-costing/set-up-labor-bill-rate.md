@@ -3,17 +3,17 @@ title: Darba norēķinu likmju iestatīšana
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt darba norēķinu likmes risinājumā Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274827"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877409"
 ---
 # <a name="set-up-labor-bill-rates"></a>Iestatīt darba rēķinu likmes
 
@@ -21,8 +21,8 @@ _ **Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursi
 
 Katram cenrādim ir lomu cenu kopa vai darba likmes, kas ir spēkā kontekstam un datumu efektivitātei, kas iekļauta cenrāža galvenē. Rēķinu kursus laika intervālam programmā Dynamics 365 Project Operations var iestatīt tikai vienā valūtā, kas ir valūta cenrāža galvenē.
 
-1. Lai pārdošanas cenrādim iestatītu darba laika likmes, izveidojiet cenrādi, pamatojoties uz cenrāža galveni. 
-2. Cilnes **Lomas cenas** apakšrežģī atlasiet **+ Jauna lomas cena**. 
+1. Lai pārdošanas cenrādim iestatītu darbaspēka rēķinu cenas, atveriet **Pārdošana** > **Klienti** > **Cenrāži** un atlasiet  **Jauns**, lai izveidotu jaunu cenrādi. 
+2. Cilnes **Lomas cenas** apakšrežģī atlasiet **Jauna lomas cena**. 
 3. Rūtī **Ātrā izveide** ievadiet lomu un organizācijas vienību kombināciju, kurai ir jāiestata rēķina likme.
 
    Tālāk sniegtajā tabulā ir iekļauti lauki cilnē **Vispārīgi** un **Ātrā izveide** rūts ar lomu cenu rindu, kas ir jāpatur prātā, veidojot pārdošanas cenas sarakstā norādītās lomas.

@@ -3,17 +3,17 @@ title: Projekta līgumu projekta cenu sarakstu pārvaldīšana
 description: Šajā tēmā ir sniegta informācija par projekta cenu sarakstu pārvaldību projekta līgumos.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278607"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858572"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projekta līgumu projekta cenu sarakstu pārvaldīšana
 
@@ -21,13 +21,13 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 Projekta līgumi ar Dynamics 365 Project Operations ir paredzēti, lai atbalstītu vairākus aktuālus pārdošanas cenrāžus līgumā. Project Operations ir jauna saistīta entītija, ko sauc par **projekta cenrāžiem**. Šai entītijai ir relācija viens pret daudziem ar projekta līgumu.
 
-Projekta cenrāžus izmanto, lai noteiktu projekta laika un izdevumu darījumu cenas. Ja līgumam ir viens vai vairāki projekta cenrāži, šie cenrāži tiek lietoti, lai noteiktu laika un izdevumu aplēses un faktiskās vērtības projektiem, kas saistīti ar šo līgumu, izmantojot līguma rindu.
+Projekta cenrāži tiek izmantoti, lai projekta ietvaros izveidotu cenas, materiālu un izmaksu transakcijas. Ja līgumam ir viens vai vairāki projekta cenrāži, šie cenrāži tiek izmantoti, lai noteiktu cenas laiku, materiālus, izmaksu aprēķinus un faktiskos rezultātus projektos, kas ar līgumu saistīti, izmantojot līguma rindu.
 
-Ja projekta līgumam nav projekta cenrāža, tiek parādīts brīdinājuma ziņojums par to, ka nav projekta cenrāžu, un jūsu aprēķiniem, faktiskajam projekta darbam un izdevumiem netiks noteiktas cenas. Pārdošanas vērtībām netiks noteikta cena.
+Ja projekta līgumā nav projekta cenrāžu, tiks parādīts brīdinājuma ziņojums, ka projekta cenrāži nav pieejami un jūsu aprēķini, projekta faktiskais darbs, materiāli un reģistrēto izmaksu cena netiks veikta. Pārdošanas vērtībām netiks noteikta cena.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Projekta līgumā paredzētā projekta cenu saraksta saistīšana vai atsaistīšana
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Izveidojiet vai saistiet noteiktu cenrādi, lai noteiktu uz projektiem balstītu darbu un izdevumus
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Izveidojiet vai saistiet noteiktu cenrādi, lai novērtētu projekta darbu, materiālus un izmaksas
 
 1. Projekta līgumā atlasiet cilni **Projekta cenrāži**.
 2. Apakšrežģī atlasiet **+ Pievienot jaunu projekta cenrādi**.
@@ -52,7 +52,7 @@ Ja projekta līgumam nav projekta cenrāža, tiek parādīts brīdinājuma ziņo
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Projekta cenrāža automātiskā noklusējuma iestatīšana līgumā
 
-Projekta cenrādi var iestatīt kā projekta līguma noklusējuma sarakstu. Šis iestatījums var palīdzēt nodrošināt, ka visi jūsu organizācijas līgumi vienmēr tiek sākti ar attiecīgā cenu perioda standarta cenrādi.
+Projekta cenrādi var iestatīt kā noklusējuma projekta cenrādi. Šī iestatīšana nodrošina, ka visi līgumi jūsu organizācijā vienmēr sākas ar standarta projekta cenrādi attiecīgajā cenrāža periodā.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Organizācijas noklusējuma projektu cenrāžu iestatīšana
 

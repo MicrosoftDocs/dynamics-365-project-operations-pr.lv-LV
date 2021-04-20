@@ -3,17 +3,17 @@ title: Projekta līguma rindas aprēķini — Lite
 description: Šajā tēmā ir sniegta informācija par aprēķiniem, pamatojoties uz projekta līguma rindu.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273546"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858101"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Projekta līguma rindas aprēķini — Lite
 
@@ -28,28 +28,33 @@ Lai aprēķinātu projekta līguma rindu, skatiet cilni **Līguma rindas inform�
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Aprēķinu izveide tieši projekta līguma rindā
 
+Lai novērtējumu izveidotu tieši projekta līguma rindā, veiciet šīs darbības:
+
 1. Atveriet līguma rindu un atlasiet cilni **Līguma rindas informācija**. Šajā cilnē izveidotās rindas tiek summētas un rādītas kā šīs **Līguma rindas** **Līguma vērtība**. 
-2. **Līguma rindas informācijas** apakšrežģī atlasiet **+ Jauna līguma rindas informācija**. Tiek atvērts ātrās izveidošanas slīdnis. **Līguma rindas informācijas** veidlapā ir pieejami tālāk norādītie lauki.
+2. Apakšrežģī **Līguma rindas informācija** atlasiet **Jauna līguma rindas informācija**. Tiek atvērts ātrās izveidošanas slīdnis. Lapā **Līguma rindas informācija** ir pieejami tālāk norādītie lauki.
 
 | Lauks | Atrašanās vieta | Apraksts | Lejupstraumes ietekme |
 | --- | --- | --- | --- |
-| **Apraksts** | **Ātrā izveide** | Konkrētā aprēķina apraksts. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. |
-| **Darījuma klase** | **Ātrā izveide** | Šis nolaižamais saraksts ir to darījumu klašu saraksts, kas iekļautas projekta līguma rindas cilnē **Vispārīgi**. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. |
-| **Loma** | **Ātrā izveide** | Tās personas loma, kas veic šo darbu vai sedz šos izdevumus. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. |
-| **Kategorija** | **Ātrā izveide** | Darba vai izdevumu kategorija. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. |
-| **Sākuma datums** | **Ātrā izveide** | Darba sākuma datums. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. |
-| **Beigu datums** | **Ātrā izveide** | Darba beigu datums. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidoto izmaksu. |
-| **Resursu vienība** | **Ātrā izveide** | Resursu plānošanas vienība, kas rodas, izmaksājot un sniedzot resursu, lai strādātu ar to. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. Šo lauku izmanto arī izmaksu izgūšanai. |
-| **Vienības grafiks** | **Ātrā izveide** | Darba vai izdevumu vienību grupa. Vienības pieder vienību grafikam vai vienību grupai. Piemēram, *jūdzes* un *kilometri (km)* pieder vienību grupai, kas norāda attālumu. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. |
-| **Vienība** | **Ātrā izveide** | Darba vai izdevumu vienība. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. |
-| **Daudzums** | **Ātrā izveide** | Darba vai izdevumu daudzums. | Šis lauks pēc noklusējuma ir izveidots ar to saistīto līguma rindu informāciju, kas attiecas uz automātiski izveidotajām izmaksām. |
-| **Vienības cena** | **Ātrā izveide** | Tās lomas rēķina likme, kas veic darbu, vai izdevumu kategorijas pārdošanas cena. Šis lauks ir noklusējuma **Laiks**, pamatojoties uz lomu un resursu plānošanas vienību kombināciju projekta cenrādī, kas ir spēkā sākuma datumā. Attiecībā uz izdevumiem šī lauka noklusējuma vērtība ir ņemta no cenas, kas ir iestatīta darījuma kategorijai projekta cenrādī, kas ir spēkā sākuma datumam. Ja darījumu kategorijas cenu noteikšanas metode nav **cena par vienību**, noklusējuma vērtības nav un šis lauks tiek atstāts tukšs. | Tās lomas izmaksu likme, kas veic darbu, vai izdevumu kategorijas izmaksas par vienību. Šis lauks pēc noklusējuma ir **Laiks, pamatojoties uz lomu** un resursu vienības kombināciju lomu cenu rindā izmaksu cenrādī, kas pievienots līgumslēdzējai vienībai, kas ir spēkā sākuma datumā. Attiecībā uz izdevumiem šī lauka noklusējuma vērtība ir balstīta uz kategorijas cenu rindu, kas pievienota darījuma kategorijai projekta cenrādī, kas ir spēkā sākuma datumam. Ja darījumu kategorijas cenu noteikšanas metode nav cena par vienību, noklusējuma vērtības nav un šis lauks tiek atstāts tukšs. |
-| **Aprēķinātais nodoklis** | **Ātrā izveide** | Paredzamais nodoklis par šo darbu vai izdevumiem, ko lietotājs ievada. | Paredzamais nodoklis par šo darbu vai izdevumiem, ko lietotājs ievada. |
-| **Summa** | **Ātrā izveide** | Šī lauka vērtību var pievienot lietotājs, ja lauki **Daudzums** un **Cena** tiek atstāti tukši. Ja lauki **Daudzums** un **Cena** ir aizpildīti, lauks **Summa** ir tikai lasāms un tiek aprēķināts kā **(daudzums \*vienības cena) + nodoklis**. | &nbsp; |
+| **Apraksts** | **Ātrā izveide** | Konkrētā aprēķina apraksts. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Transakcijas klase** | **Ātrā izveide** | Šis ir projekta līguma rindas cilnē **Vispārīgi** ietverts transakciju klašu saraksts. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Atlasīt produktu** | **Ātrā izveide** | Attiecas, ja transakcijas klase ir **Materiāls**. Varat norādīt, vai šī novērtējuma rinda ir **esošam** (kataloga) produktam vai **ierakstāmam** produktam. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Produkts** | **Ātrā izveide** | Produkta ID no produktu kataloga. Šis lauks tiek iespējots tikai tad, ja laukā **Atlasīt produktu** tiek atlasīts **Esošs produkts**. ID tiek izmantots, lai izgūtu pārdošanas cenu no projekta cenrāža līgumā. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Ierakstāmais produkts** | **Ātrā izveide** | Teksta lauks, ko rakstīt produkta nosaukumā. Šis lauks tiek iespējots tikai tad, ja laukā **Atlasīt produktu** tiek atlasīts **Ierakstāms produkts**.| Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Loma** | **Ātrā izveide** | Tās personas loma, kas veic šo darbu vai sedz šos izdevumus. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski.|
+| **Kategorija** | **Ātrā izveide** | Darba vai izdevumu kategorija. |Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski.|
+| **Sākuma datums** | **Ātrā izveide** | Darba sākuma datums. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Beigu datums** | **Ātrā izveide** | Darba beigu datums. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Resursu vienība** | **Ātrā izveide** | Atkārtota vienība, kas rodas no izmaksām un nodrošina resursu, ar kuru strādāt. |Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski un lietota izmaksu izgūšanai. |
+| **Vienības grafiks** | **Ātrā izveide** | Darba, produkta vai izdevumu vienību grupa. Vienības pieder vienību grafikam vai vienību grupai. Piemēram, *jūdzes* un *kilometri (km)* pieder vienību grupai, kas norāda attālumu. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Vienība** | **Ātrā izveide** | Darba, produkta vai izdevumu vienība. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Daudzums** | **Ātrā izveide** | Darba, produkta vai izdevumu apjoms. | Šī vērtība pēc noklusējuma tiek mainīta uz saistīto izmaksu līguma rindu, kas tiek izveidota automātiski. |
+| **Vienības cena** | **Ātrā izveide** | Tās lomas rēķina likme, kas veic darbu, produkta vienības cena vai produkta vai izdevumu kategorijas pārdošanas cena. Šis lauks pēc noklusējuma tiek iestatīts kā **Laiks**, pamatojoties uz cenu dimensiju vērtībām projekta cenu saraksta lomu cenu rindā, kas ir spēkā sākuma datumā. Attiecībā uz **izdevumiem** šī lauka noklusējuma vērtība ir ņemta no cenas, kas ir iestatīta darījuma kategorijai projekta cenrādī, kas ir spēkā sākuma datumam. Ja darījumu kategorijas cenu noteikšanas metode nav **cena par vienību**, noklusējuma vērtības nav un šis lauks tiek atstāts tukšs. Produktiem šī lauka noklusējuma vērtības pamatā ir rinda **Cenrāža elements** projekta cenrādī, kas ir spēkā sākuma datumā.| Darba veiceja lomas izmaksu likme vai izmaksas par vienību izdevumu kategorijā, vai produkta vienības izmaksas. Šis lauks pēc noklusējuma tiek iestatīts kā **Laiks**, pamatojoties uz cenu dimensiju vērtībām lomas cenrāža rindā, kas ir pievienota līguma vienībai, kas ir spēkā sākuma datumā. Attiecībā uz izdevumiem šī lauka noklusējuma vērtība ir balstīta uz kategorijas cenu rindu, kas pievienota darījuma kategorijai projekta cenrādī, kas ir spēkā sākuma datumam. Ja darījumu kategorijas cenu noteikšanas metode nav cena par vienību, noklusējuma vērtības nav un šis lauks tiek atstāts tukšs. Produktiem šī lauka noklusējuma vērtības pamatā ir rinda **Cenrāža elements** projekta cenrādī, kas ir pievienots līguma vienībai, kas ir spēkā sākuma datumā.|
+| **Aprēķinātais nodoklis** | **Ātrā izveide** | Šī darba vai izmaksu prognozētais nodokļu aprēķins. | Šī darba vai izmaksu prognozētais nodokļu aprēķins. |
+| **Apjoms** | **Ātrā izveide** | Varat pievienot vērtību šajā laukā, ja lauki **Daudzums** un **Cena** ir tukši. Ja lauki **Daudzums** un **Cena** ir aizpildīti, lauks **Summa** ir tikai lasāms un tiek aprēķināts kā **(daudzums \*vienības cena) + nodoklis**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Cenas atjaunināšana līguma rindas informācijā
 
-Ja tiek mainītas cenas projekta cenrādi, kas ir pievienots līgumam vai līgumslēdzējas vienības izmaksu cenrādim, var atsvaidzināt atsevišķas līguma rindas informācijas cenas, lai atspoguļotu izmaiņas. Lapā **Līgums** atlasiet **Pārrēķināt**. Tiek atvērts brīdinājums, lai informētu, ka visām līguma rindām šajā līgumā tiek atiestatītas cenas. Atlasiet **Jā**, lai atsvaidzinātu cenas gan pārdošanas, gan izmaksu līgumu rindu informācijā.
+Ja tiek mainītas cenas projekta cenrādi, kas ir pievienots līgumam vai līgumslēdzējas vienības izmaksu cenrādim, var atsvaidzināt atsevišķas līguma rindas informācijas cenas, lai atspoguļotu izmaiņas. Lapā **Līgums** atlasiet **Pārrēķināt**. Tiek parādīts brīdinājums, ka visu šī līguma rindu cenas tiek atiestatītas. Atlasiet **Jā**, lai atsvaidzinātu cenas gan pārdošanas, gan izmaksu līgumu rindu informācijā.
 
 ## <a name="access-contract-line-details-for-cost"></a>Piekļuve līgumu rindu informācijai par izmaksām
 
@@ -67,7 +72,7 @@ Līguma rindu informācija **Izmaksām** iestata noklusējuma valūtu no līgums
 Peļņas aprēķini aprēķina summas par līguma rindu detalizētu informāciju **Izmaksām** un **Pārdošanai** vides bāzes valūtā, lai ziņotu par līguma kopējiem faktiskajiem un prognozējamajiem uzcenojumiem.
 
 > [!NOTE]
-> Valūtas noapaļošanas kļūdas un mainīti uzcenojumi var rasties, jo trūkst spēkā stāšanās datuma valūtas kursu. Izmantojiet šos aprēķinus projekta līgumos tikai kā tuvinājumus, nevis kā faktiskos likumā paredzētos vai citus atskaišu veidošanas pasākumus, kam nepieciešama noapaļošanas precizitāte un datums, kurā jāinformē par valūtas maiņas kursiem.
+> Valūtas noapaļošanas kļūdas un mainīti uzcenojumi var rasties, jo trūkst spēkā stāšanās datuma valūtas kursu. Izmantojiet šos aprēķinus tikai projekta līgumos, jo tie ir aptuveni un nav paredzēti faktiskiem statūtu vai citu veidu pārskatiem, kuriem nepieciešama augstāka noapaļošanas precizitāte un datuma precizitāte valūtas maiņas kursiem.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

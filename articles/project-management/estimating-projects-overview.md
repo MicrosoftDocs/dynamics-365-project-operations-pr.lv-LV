@@ -1,31 +1,41 @@
 ---
-title: Projekta izdevumu pārskats
-description: Šajā tēmā ir sniegta informācija par novērtējumiem risinājumā Dynamics 365 Project Operations.
-author: ruhercul
+title: Finanšu aprēķinu koncepcijas
+description: Šajā tēmā ir sniegta informācija par finanšu aprēķiniem projektiem programmā Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286887"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701745"
 ---
-# <a name="estimate-projects-overview"></a>Projekta izdevumu pārskats
+# <a name="financial-estimation-concepts"></a>Finanšu aprēķinu koncepcijas
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
+Platformā Dynamics 365 Project Operations varat veidot projektu finanšu aprēķinus divos posmos. 
+1. Pirms pārdošanas posmā pirms darījuma iegūšanas. 
+2. Izpildes posmā pēc projekta līguma izveides. 
+
+Varat izveidot projekta darba finanšu aprēķinu, izmantojot jebkuru no šīm trīs lapām.
+- Lapa **Piedāvājuma rinda**, izmantojot piedāvajuma rindas informāciju.  
+- Lapa **Projekta līguma rinda**, izmantojot piedāvājuma rindas informāciju. 
+- Lapa **Projekts**, izmantojot ciļņu lapu **Uzdevumi** vai **Izdevumu aprēķini**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Projekta piedāvājuma izmantošana aprēķina izveidei
 Projekta piedāvājumā var izmantot **Piedāvājuma rindas informācijas** entītiju, lai novērtētu darbu, kas nepieciešams projekta nodrošināšanai. Pēc tam šo novērtējumu var koplietot ar klientu.
 
 Projekta piedāvājuma rindām var būt neviena vai daudzas piedāvājuma rindas detaļas. Piedāvājuma rindu detalizētā informācija tiek izmantota, lai novērtētu laiku, izdevumus vai maksas. Microsoft Dynamics 365 Project Operations nenodrošina materiālu aprēķinus piedāvājuma rindas informācijā. Tos sauc par transakciju klasēm. Novērtētās nodokļu summas var ievadīt arī transakciju klasē.
 
 Papildus transakciju klasēm piedāvājuma rindu informācijā ir iekļauts transakcijas tips. Piedāvājuma rindas informācijai tiek atbalstīti divi transakciju veidi: **Izmaksas** un **Projekta līgums**.
 
-## <a name="estimate-by-using-a-contract"></a>Novērtējums, izmantojot līgumu
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Projekta līguma izmantošana aprēķina izveidei
 
 Ja izmantojāt piedāvājumu, kad izveidojāt ar projektiem pamatotu līgumu, tad novērtējums, ko veicāt katrai piedāvājuma rindai, tiek kopēts projekta līgumā. Projekta līguma uzbūve ir tāda pati kā projekta piedāvājuma struktūra, kurā ir rindas, rindu dati un rēķinu grafiki.
 
@@ -35,25 +45,19 @@ Līguma rindu detalizētā informācija tiek izmantota, lai novērtētu laiku, i
 
 Līguma rindas informācijā nav atļauti materiālu aprēķini.
 
-Ar projekta līgumu atbalstītie procesi ir rēķinu izveide un apstiprināšana. Rēķina izveide veido projekta rēķina melnrakstu, kurā ir iekļauti visi nepārdotie pārdošanas darījumi, līdz pašreizējam datumam.
+## <a name="use-a-project-to-create-an-estimate"></a>Projekta izmantošana aprēķina izveidei 
 
-Apstiprināšana padara līgumu par tikai lasāmu un maina tā statusu no **Melnraksts** uz **Apstiprināts**. Pēc šīs darbības veikšanas to nevar atsaukt. Tā kā šī darbība ir neatgriezeniska, ieteicams līgumu uzturēt statusā **Melnraksts**.
-
-Vienīgā atšķirība starp līgumu projektiem un apstiprinātajiem līgumiem ir to statuss un tas, ka līgumu melnrakstus var rediģēt, taču apstiprinātos līgumus nevar. Rēķinu izveidi un izsekošanu faktiski var veikt gan līgumu projektiem, gan apstiprinātajiem līgumiem.
-
-Project Operations neatbalsta līgumu vai projektu pasūtījumu maiņu.
-
-## <a name="estimating-projects"></a>Projektu novērtēšana
-
-Projektiem var novērtēt laiku un izdevumus. Project Operations neļauj aprēķināt projektu materiālus vai maksas.
+Projektiem var novērtēt laiku un izdevumus. Project Operations neatbalsta materiālu aprēķinus vai projekta maksas.
 
 Laika novērtējumi tiek ģenerēti, kad izveidojat uzdevumu un identificējat vispārēja resursa atribūtus, kas nepieciešami, lai izpildītu šo uzdevumu. Laika aprēķini tiek ģenerēti, izmantojot grafika uzdevumus. Laika aprēķini netiek izveidoti, ja veidojat vispārējus darba grupas dalībniekus ārpus grafika konteksta.
 
-Izmaksu novērtējumi tiek ievadīti lapas **Novērtējumi** režģī.
+Izdevumu aprēķini tiek ievadīti lapas **Izdevumu aprēķini** režģī.
 
-## <a name="understanding-estimation"></a>Izpratne par novērtējumu
+Projekta aprēķina izveide tiek uzskatīta par labāko praksi, jo varat veidot detalizētus darba vai laika aprēķinus un izdevumus par katru projekta plāna uzdevumu. Pēc tam šo detalizēto aprēķinu var izmantot, lai izveidotu aprēķinus katrai piedāvājuma rindai un izveidotu klientam vēl lielāku uzkrāšanās vērtējumu. Importējot vai izveidojot detalizētu aprēķinu piedāvājuma rindā, izmantojot projekta plānu, Project Operations importē šo aprēķinu pārdošanas vērtības un izmaksu vērtības. Pēc importēšanas projekta piedāvājumā varat apskatīt peļņas, peļņas, starpības un iespējamības rādītājus.
 
-Izmantojiet šo tabulu kā ceļvedi, lai izprastu biznesa loģiku novērtēšanas fāzē.
+## <a name="understanding-estimates"></a>Izpratne par novērtējumu
+
+Izmantojiet šo tabulu kā ceļvedi, lai izprastu biznesa loģiku aprēķinu fāzē.
 
 | Scenārijs                                                                                                                                                                                                                                                                                                                                          | Entītijas ieraksts                                                                                                                                                                                                       | Transakcijas tips | Transakcijas klase | Papildinformācija                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|

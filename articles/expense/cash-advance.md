@@ -3,19 +3,19 @@ title: Naudas avanss
 description: Šajā tēmā ir sniegta informācija par naudas avansiem.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276717"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715569"
 ---
 # <a name="cash-advance"></a>Naudas avanss
 
@@ -60,7 +60,22 @@ Vadītāji vai lietotāji, kas darbplūsmā konfigurēti kā apstiprinātāji, v
 
 Izveidojot un iesniedzot jau saņemta skaidras naudas avansa atskaiti, izdevumi tiks automātiski pielāgoti atbilstoši šim avansam. Ja jūsu saņemtais naudas avanss pārsniedz izdevumu summu, jums ir jāatgriež starpība uzņēmumam, izmantojot izmaksu kategoriju **Atgriezt naudu**. Ja uzņēmuma izmaksātais skaidras naudas avanss ir mazāks par jūsu izdoto summu, uzņēmumam jums ir jāatlīdzina bilance. 
 
-### <a name="example"></a>Piemērs
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Atlasiet saviem izdevumiem piemērotu naudas avansu
+Pirms izdevumu atskaites iesniegšanas varat atlasīt naudas avansu, kas atbilst atskaitē iekļautajiem izmaksu darījumiem. Lai izmantotu šo funkcionalitāti, darbvietā **Līdzekļu pārvaldība** ir jāiespējo divi līdzekļi:
+
+  - Atjaunotas izdevumu atskaites
+  - Spēja kartēt naudas avansu izdevumu rindām
+ 
+ Ja ir iespējoti šie līdzekļi:
+ 
+  - Katrai izdevumu rindai varat pievienot vienu vai vairākus naudas avansus.
+  - Pieejamā naudas avansa bilance ir redzama reāllaikā, kad tiek saglabāta izdevumu atskaite. Tas ļauj vienlaikus apstrādāt izdevumu transakcijas un atgriezt naudas transakciju.
+  - Vienai izdevumu transakcijai varat atlasīt vairākus naudas avansus.
+  - Izmantojot vaicājumu, ir pieejami naudas avansa saskaņošanas dati. 
+ 
+Ja neizmantojat šos līdzekļus, funkcionalitāte nemainīsies, esošos naudas avansus automātiski samazinot pēc izdevumu atskaites iesniegšanas.
+
+### <a name="example"></a>Piemērs 
 Jūs plānojat doties no Sietlas uz Ņujorku, lai apmeklētu konferenci. Jūs izveidojat skaidras naudas avansa pieprasījumu par 3000,00 USD, balstoties novērtētajās izmaksās par konferences biļeti, lidojumiem, viesnīcu, maltītēm un taksometru. Jums netiks samaksāts, kamēr vadītājs neapstiprinās šo pieprasījumu. Pēc jūsu vadītāja apstiprinājuma pieprasītais naudas avanss tiek izmaksāts kā 3000,00 USD jūsu bankas kontā. Pēc tam jūs apmeklējat konferenci. Pēc ceļojuma beigām jūs konstatējat, ka kopējie izdevumi ir tikai 2790,00 USD. Laukā **Maksājuma metode** atlasiet **Skaidrā naudā** un iesniedziet savus izdevumus 2790,00 USD apmērā. Jūsu iesniegtā izdevumu summa tiek automātiski salīdzināta ar naudas avansa summu 3000,00 USD, kas jums tika aizdota. Tagad jūs esat parādā bilanci 210,00 USD (3000,00-2790,00) apmērā, kuru varat atgriezt uzņēmumam, izmantojot izdevumu kategoriju **Atgriezt skaidro naudu**.
 
 

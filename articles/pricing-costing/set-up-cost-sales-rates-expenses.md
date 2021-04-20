@@ -3,17 +3,17 @@ title: Izmaksu un pārdošanas likmju iestatīšana izdevumiem
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt izmaksu un pārdošanas likmes darbību un izdevumu kategorijām.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274917"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877229"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Izmaksu un pārdošanas likmju iestatīšana izdevumiem
 
@@ -23,9 +23,10 @@ Transakciju kategorijām programmā Dynamics 365 Project Operations var iestatī
 
 Lai iestatītu izmaksu un pārdošanas likmes darbību kategorijām, veiciet tālāk norādītās darbības. 
 
-1. Izveidojiet cenrāža sarakstu, pamatojoties uz cenrāža galveni. 
-2. Apakšrežģa izvēlnē **Kategoriju cenas** atlasiet **+ Jauna kategorijas cena**. 
-3. Lapā **Ātrā izveide** ievadiet to transakciju kategoriju un vienību, kurai veidojat jauno cenu.
+1. Atveriet **Pārdošana** > **Klienti** > **Cenrāži**.
+2. Lai izveidotu jaunu cenrādi, atlasiet **Jauns**. 
+3. Lapas **Kategoriju cenas** apakšrežģī atlasiet **Jauna kategorijas cena**. 
+4. Lapā **Ātrā izveide** ievadiet to transakciju kategoriju un vienību, kurai veidojat jauno cenu.
 
 Šajā tabulā ir uzskaitīti lauki cilnē **Vispārīgi** un **Ātrā izveide** kategorijas cenas rindā, kas jāņem vērā, veidojot kategoriju cenas pārdošanas vai izmaksu cenrādī.
 

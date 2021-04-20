@@ -3,17 +3,17 @@ title: Konfigurēt apmaksājamo projektu uzskaiti
 description: Šajā tēmā ir sniegta informācija par apmaksājamu projektu uzskaites iespējām.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287652"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858662"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurēt apmaksājamo projektu uzskaiti
 
@@ -58,13 +58,25 @@ Lai izveidotu jaunu projekta izmaksu un ieņēmumu profilu, izpildiet tālāk no
 
          - **Bilance**: grāmatojot Project Operations integrācijas žurnālu, izdevumu darījumu izmaksas tiek ierakstītas Virsgrāmatas konta tipā *WIP – izmaksu vērtībā*, kā definēts cilnē **Izmaksas** lapā **Virsgrāmatas grāmatošanas iestatīšana** un piešķirts ieskaita konta žurnāla rindā. Noklusējuma ieskaita konti izdevumiem ir definēti sadaļā **Projekta pārvaldība un uzskaite** > **Iestatīšana** \> **Grāmatošana** \> **Noklusējuma ieskaita konti izdevumiem**. Grāmatvedis izmantos funkciju **Grāmatot izmaksas**, lai šīs izmaksas no bilances konta periodiski pārvietotu uz peļņas un zaudējumu kontu.
         - **Peļņa un zaudējumi**: grāmatojot Project Operations integrācijas žurnālu, izdevumu darījumu izmaksas tiek ierakstītas Virsgrāmatas konta tipā *Izmaksas*, kā definēts cilnē **Izmaksas** lapā **Virsgrāmatas grāmatošanas iestatīšana** un piešķirts ieskaita konta žurnāla rindā. Noklusējuma ieskaita konti izdevumiem ir definēti sadaļā **Projekta pārvaldība un uzskaite** \> **Iestatīšana** \> **Grāmatošana** \> **Noklusējuma ieskaita konti izdevumiem**.
+      
+    - **Izmaksu publicēšana — vienums**:
+
+         - **Bilance**: iegrāmatojot Project Operations integrācijas žurnālu, vienuma transakciju izmaksas tiks ierakstītas debetā virsgrāmatas konta veidā *WIP - Izmaksu vērtība - vienums*, kā definēts cilnē **Izmaksas** lapā **Virsgrāmatas iegrāmatošanas iestatījumi**, un kreditētas šādi:
+    
+              - Dokumentu tipu lietojumam: konts **Izmaksas par vienību** lapā **Virsgrāmatas iegrāmatošanas iestatījumi**.  
+              - Dokumentu tipu iegādei: **Sagādes integrācijas konts** lapā **Projekta pārvaldības un uzskaites parametri**.
+           Grāmatvedis izmantos funkciju **Grāmatot izmaksas**, lai šīs izmaksas no bilances konta periodiski pārvietotu uz peļņas un zaudējumu kontu.
+        - **Peļņa un zaudējumi**: iegrāmatojot Project Operations integrācijas žurnālu, vienuma transakciju izmaksas tiks ierakstītas debetā virsgrāmatas konta veidā *Izmaksas*, kā definēts cilnē **Izmaksas** lapā **Virsgrāmatas iegrāmatošanas iestatījumi**, un kreditētas šādi:
+         
+             - Dokumentu tipu lietojumam: konts **Izmaksas par vienību** lapā **Virsgrāmatas iegrāmatošanas iestatījumi**.  
+             - Dokumentu tipu iegādei: **Sagādes integrācijas konts** lapā **Projekta pārvaldības un uzskaites parametri**.
        
     - **Par kontu rēķinu izrakstīšanu**:
 
         - **Bilance**: grāmatojot Projekta rēķina priekšlikumu, starpkonta darījums (rēķina izrakstīšanas atskaites punkts) tiks piešķirtas Virsgrāmatas konta tipam *WIP rēķins izrakstīts — kontā*, kas definēts cilnē **Ieņēmumi** lapā **Virsgrāmatas grāmatošanas iestatīšana**, un ierakstīts Klienta bilances kontā.
          - **Peļņa un zaudējumi**: grāmatojot Projekta rēķina priekšlikumu, starpkonta darījums (rēķina izrakstīšanas atskaites punkts) tiks piešķirtas Virsgrāmatas konta tipam *Ieņēmumu rēķins izrakstīts — kontā*, kas definēts cilnē **Ieņēmumi** lapā **Virsgrāmatas grāmatošanas iestatīšana**, un ierakstīts Klienta bilances kontā. Klienta bilances konti tiek definēti sadaļā **Debitori** \> **Iestatīšana** \> **Klientu grāmatošanas profili**.
 
-   Definējot grāmatošanas metodes Laika un materiālu norēķinu metodēm, var gūt ieņēmumus pēc darījuma veida (stunda, izdevumi un maksa). Ja opcija **Uzkrāt ieņēmumus** ir iestatīta uz **Jā**, tad pārdošanas darījumi, par kuriem nav izrakstīts rēķins, Project Operations integrācijas žurnālā tiks ierakstītas vispārējā virsgrāmatā. Pārdošanas vērtība tiek ierakstīta kontā **WIP — pārdošanas vērtības konts** un piešķirta kontam **Uzkrātie ieņēmumi — pārdošanas vērtība**, kas tika iestatīts lapā **Virsgrāmatas grāmatošanas iestatīšana**, cilnē **Ieņēmumi**. 
+   Definējot grāmatošanas profilus laika un materiālu norēķinu metodēm, varat uzkrāt ieņemumus pēc transakcijas tipa (stundas, izdevumi, vienums, maksa). Ja opcija **Uzkrāt ieņēmumus** ir iestatīta uz **Jā**, tad pārdošanas darījumi, par kuriem nav izrakstīts rēķins, Project Operations integrācijas žurnālā tiks ierakstītas vispārējā virsgrāmatā. Pārdošanas vērtība tiek ierakstīta kontā **WIP — pārdošanas vērtības konts** un piešķirta kontam **Uzkrātie ieņēmumi — pārdošanas vērtība**, kas tika iestatīts lapā **Virsgrāmatas grāmatošanas iestatīšana**, cilnē **Ieņēmumi**. 
   
   > [!NOTE]
   > Opcija **Uzkrāt ieņēmumus** ir pieejama tikai tad, ja attiecīgā darījuma tipa **Izmaksas** ir grāmatotas peļņas un zaudējumu kontos.

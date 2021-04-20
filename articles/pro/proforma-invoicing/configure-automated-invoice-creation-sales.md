@@ -1,29 +1,27 @@
 ---
-title: Automātiskas rēķina izveides konfigurēšana — Lite
-description: Šajā tēmā ir sniegta informācija par proforma rēķinu automātiskas izveides konfigurēšanu.
+title: Automātiskas rēķina izveides iestatīšana
+description: Šajā tēmā ir sniegta informācija par proformas rēķinu automātiskās izveides iestatīšanu un konfigurēšanu.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274332"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866826"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Automātiskas rēķina izveides konfigurēšana — Lite
+# <a name="set-up-automatic-invoice-creation"></a>Automātiskas rēķina izveides iestatīšana 
  
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu, Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem_
 
 Varat konfigurēt automātiskas rēķina izveides programmā Dynamics 365 Project Operations. Sistēma izveido melnraksta proforma rēķinu, pamatojoties uz rēķina grafiku katram projekta līgumam un līguma rindai. Rēķinu grafiki tiek konfigurēti līguma rindas līmenī. Katrai līguma rindai var noteikt atsevišķu rēķina grafiku vai vienu un to pašu rēķina grafiku var iekļaut ikvienā līguma rindā.
 
-Kad izveidojat rēķinu, sistēma vienmēr katram projekta līgumam izveido vismaz vienu rēķinu. Dažos gadījumos var būt izveidoti vairāki rēķini.
-
-Piemēram, ja līgumam ir vairāki klienti, tiek izveidots tāds pats rēķinu skaits kā to klientu skaits, kuriem attiecīgajā projekta līgumā ir rēķinā iekļaujami darījumi.
+Kad izveidojat rēķinu, sistēma vienmēr katram projekta līgumam izveido vismaz vienu rēķinu. Dažos gadījumos var būt izveidoti vairāki rēķini. Piemēram, ja līgumam ir vairāki klienti, tiek izveidots tāds pats rēķinu skaits kā to klientu skaits, kuriem attiecīgajā projekta līgumā ir rēķinā iekļaujami darījumi.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Informācija par to, kā darījumi tiek iekļauti rēķinā 
 

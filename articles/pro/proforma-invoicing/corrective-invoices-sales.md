@@ -1,21 +1,21 @@
 ---
-title: Labotie rēķini — Lite
-description: Šajā tēmā ir sniegta informācija par labotiem rēķiniem projekta operācijās.
+title: Laboti projekta rēķini
+description: Šajā tēmā ir sniegta informācija par labotu rēķinu izveidi un apstiprināšanu programmā Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274242"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866600"
 ---
-# <a name="corrected-invoices---lite"></a>Labotie rēķini — Lite
+# <a name="corrective-project-invoices"></a>Laboti projekta rēķini
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
@@ -37,9 +37,9 @@ No apstiprinātā rēķina tiek izveidots jauns rēķina melnraksts. Visa rēķi
 > [!IMPORTANT]
 > Rēķina rindas informācija, kas ir korekcija citām jau rēķinā izrakstītām izmaksām, kam lauks **Korekcija** ir iestatīts uz **Jā**. Rēķiniem, kam ir labotas rēķina rindas detaļas, ir lauks **Ir labojumi**, kas arī ir iestatīts uz **Jā**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiskie dati, kas izveidoti, apstiprinot labotu rēķinu:
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Faktiskie dati, kas izveidoti, apstiprinot labotu rēķinu
 
-Tālāk ir sniegti faktiskie dati, ko izveidoja lietojumprogramma pēc labojuma apstiprināšanas, balstoties uz operācijām, kas veiktas labotā rēķina melnrakstā pirms apstiprināšanas.
+Tālāk sniegtajā tabulā ir uzskaitīti faktiskie dati, kas tiek izveidoti, apstiprinot labojošo rēķinu.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Jaunas rēķinā neiekļautas pārdošanas faktiskie dati, kas ir iekasējama pa
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Rēķina izrakstīšana par pilnu kredītu iepriekš rēķinā ietvertai materiālu transakcijai.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā ietvertas pārdošanas atsaukšana par sākotnējā rēķina materiāla rindas informācijā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jauna rēķinā neietverta pārdošanas vērtība par sākotnējā rēķina materiāla rindas informācijā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Rēķina izrakstīšana par daļēju kredītu materiālu transakcijai.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā ietvertas pārdošanas atsaukšana par sākotnējā rēķina materiāla rindas informācijā norādīto iekasēto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jauna rēķinā neietverta pārdošanas faktiskā vērtība, par ko var iekasēt maksu par daudzumu un summu rediģētās rēķina rindas detalizētajai informācijai, kā arī par faktisko pārdošanas apjomu, par kuru izrakstīts rēķins.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jaunas rēķinā neiekļautas pārdošanas faktiskie dati, kas ir iekasējama par atlikušo daudzumu un summu pēc laboto summu atvilkšanas rēķina rindu informācijā.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Pilna iepriekš rēķinā izrakstīta maksas darījuma kredīta iekļaušana rēķinā.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Pilna iepriekš rēķinā izrakstīta atskaites punkta kredīta iekļaušana rē
 Rēķinā iekļautās pārdošanas atsaukšana summai sākotnējā rēķina rindā atskaites punktam.
                 </p>
                 <p>
-Projekta līguma rindā ietvertā atskaites punkta rēķins vai norēķinu statuss tiek atjaunināts uz **Gatavs rēķina izrakstīšanai**.
+Rēķina statuss atskaites punktā tiek atjaunināts no <b>Klienta rēķins iegrāmatots</b> uz <b>Gatavs rēķina izrakstīšanai</b>.
                 </p>
             </td>
         </tr>

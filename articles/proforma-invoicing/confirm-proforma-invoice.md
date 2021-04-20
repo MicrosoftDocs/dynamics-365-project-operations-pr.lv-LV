@@ -1,39 +1,102 @@
 ---
-title: Apstiprināt pro formas rēķinu
-description: Šajā tēmā ir sniegta informācija par pro formas rēķina apstiprināšanu.
+title: Pro forma projektā balstīta rēķina apstiprināšana
+description: Šajā tēmā ir sniegta informācija par projektu pro forma rēķinu apstiprināšanu.
 author: rumant
 manager: AnnBe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2ed241509d2643d841ce55777e6e316612f70b8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 53c647dca506822312053fb5c9b086a2947974c2
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287877"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867140"
 ---
-# <a name="confirm-a-proforma-invoice"></a>Apstiprināt pro formas rēķinu
+# <a name="confirm-a-proforma-project-based-invoice"></a>Pro forma projektā balstīta rēķina apstiprināšana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Pēc tam, kad ir apstiprināts proforma rēķins, projekta rēķina statuss tiek atjaunināts uz **Apstiprināts**. Kad rēķins ir apstiprināts, tas kļūst tikai lasāms. Turpmāk rēķinu varēs labot tikai tad, ja pastāvēs klienta iniciēti labojumi vai kredīti vai arī rēķins būs atzīmēts kā apmaksāts.
+Pēc tam, kad ir apstiprināts proforma rēķins, projekta rēķina statuss tiek atjaunināts uz **Apstiprināts**. Kad rēķins ir apstiprināts, tas kļūst tikai lasāms. Turpmāk rēķinu var labot tikai tad, ja ir veiktas klientam ierosinātas korekcijas vai kredīti.
 
 Tālāk sniegtajā tabulā ir uzskaitīti sistēmā izveidotie faktiskie dati. Šie faktiskie dati tiek izveidoti, kad projekta rēķina melnrakstā pirms apstiprināšanas tiek veiktas noteiktas darbības.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="416" valign="top">
+            <td width="216" valign="top">
                 <p>
                     <strong>Scenārijs</strong>
                 </p>
             </td>
-            <td width="608" valign="top">
+            <td width="808" valign="top">
                 <p>
                     <strong>Pēc apstiprināšanas izveidotie faktiskie dati</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Rēķina izrakstīšana par honorāru vai avansu </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā iekļautas pārdošanas faktiskie dati ar tipu <strong>Honorārs</strong> tiek izveidoti par avansa vai honorāra summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Saskaņošanai tiks izmantotas rēķinā neietvertas pārdošanas faktiskās vērtības ar negatīvu honorāra vai avansa summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Pēc honorāra vai avansa pilnīgas saskaņošanas rēķinā.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā neiekļautās pārdošanas atsaukšana honorāram vai avansam, kas tika izveidots saskaņošanai. Šī summa ir pozitīva, jo tā ir paredzēta, lai atceltu negatīvo summu, kas tika izveidota tad, kad tika izrakstīts rēķins par honorāru vai avansu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Rēķinā iekļautās pārdošanas faktiskie dati par summu šajā rēķinā.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Pēc honorāra vai avansa daļējas saskaņošanas rēķinā.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā neiekļautās pārdošanas atsaukšana honorāram vai avansam, kas tika izveidots saskaņošanai. Šī summa ir pozitīva, jo tā ir paredzēta, lai atceltu negatīvo summu, kas tika izveidota tad, kad tika izrakstīts rēķins par honorāru vai avansu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Rēķinā iekļautās pārdošanas faktiskie dati par summu šajā rēķinā.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Negatīva rēķinā neiekļautas pārdošanas faktiskā summa no atlikušā honorāra vai avansa summas, kas tiks izmantota saskaņošanai turpmākos rēķinos.
                 </p>
             </td>
         </tr>
@@ -71,14 +134,14 @@ Rēķinā neiekļautās pārdošanas atsaukšana stundām un summai sākotnējā
         <tr>
             <td width="408" valign="top">
                 <p>
-Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama pa stundām un summu rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos.
+Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama pa stundām un summu rediģētā rēķina rindu informācijā, pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas nav iekasējami par atlikušajām stundām un summu pēc laboto ciparu atvilkšanas rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos.
+Jauna rēķinā neietverta un neiekasējama faktiskā pārdošanas summa par atlikušajām stundām un summa pēc labotās summas atņemšanas labotajā rēķina rindu informācijā, faktiskās pārdošanas vērtības atsaukšana, līdzvērtīga faktiskā pārdošanas vērtība.
                 </p>
             </td>
         </tr>
@@ -135,7 +198,7 @@ Rēķinā neiekļautās pārdošanas atsaukšana daudzumam un summai sākotnēj�
         <tr>
             <td width="408" valign="top">
                 <p>
-Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama par daudzumu un summu rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos. 
+Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama par daudzumu un summu rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos.
                 </p>
             </td>
         </tr>
@@ -155,6 +218,70 @@ Rēķina izveide izdevumu darījumam, kas tika rediģēts, lai palielinātu daud
             <td width="408" valign="top">
                 <p>
 Rēķinā neiekļautās pārdošanas atsaukšana daudzumam un summai sākotnējā izdevumu apstiprinājumā.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama par daudzumu un summu rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Materiāla transakcijas bez labojumiem ietveršana melnraksta rēķinā.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā neiekļautās pārdošanas atsaukšana par sākotnējā materiālu lietojuma apstiprināšanā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Rēķinā iekļautā pārdošanas vērtība par sākotnējā materiālu lietojuma apstiprināšanā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Tādas materiālu transakcijas ietveršana rēķinā, kas tika rediģēta, lai samazinātu daudzumu.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā neiekļautās pārdošanas atsaukšana par sākotnējā laika apstiprināšanā norādīto daudzumu un summu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas iekasējama par daudzumu un summu rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajos datos.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Jauni rēķinā neiekļautas pārdošanas faktiskie dati, kas nav iekasējami par atlikušo daudzumu un summu pēc laboto ciparu atvilkšanas rediģētā rēķina rindu informācijā, rēķinā neiekļautās pārdošanas faktisko datu atgriešana un ekvivalents rēķinā iekļautās pārdošanas faktiskajiem datiem.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Tādas materiālu transakcijas ietveršana rēķinā, kas tika rediģēta, lai palielinātu daudzumu.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Rēķinā neiekļautās pārdošanas atsaukšana par sākotnējā materiālu lietojuma apstiprināšanā norādīto daudzumu un summu.
                 </p>
             </td>
         </tr>
@@ -196,8 +323,8 @@ Rēķinā iekļautās pārdošanas faktiskie dati atskaites punkta summai sākot
                 </p>
             </td>
         </tr>
+       
     </tbody>
 </table>
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
