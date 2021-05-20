@@ -1,6 +1,6 @@
 ---
-title: Darba stundu veidnes izveidošana
-description: Darba stundu veidnes izveide programmā Project Service
+title: Darba stundu veidnes izveide
+description: Šajā tēmā ir aprakstīts, kā izveidot darba stundu veidni programmā Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285042"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981264"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="c9b07-103">Darba stundu veidnes izveide (Project Service)</span><span class="sxs-lookup"><span data-stu-id="c9b07-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="714fc-103">Darba stundu veidnes izveide (Project Service)</span><span class="sxs-lookup"><span data-stu-id="714fc-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="c9b07-104">Lai varētu izveidot projekta grafikus, ir nepieciešams iestatīt projekta kalendāru, kas nosaka darba stundu skaitu, ko dienā izkārtot grafikā, ka arī visus uzņēmuma slēgšanas gadījumus.</span><span class="sxs-lookup"><span data-stu-id="c9b07-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="c9b07-105">Tas ir jāizdara ar darba stundu veidni, kurā ir iekļauta informācija par darba stundu skaitu dienā, brīvdienām un citiem uzņēmuma slēgšanas gadījumiem.</span><span class="sxs-lookup"><span data-stu-id="c9b07-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="c9b07-106">Kad veidojat projektu, darba veidni jūs saistāt ar projekta kalendāru, lai šim projektam lietotu šo grafiku.</span><span class="sxs-lookup"><span data-stu-id="c9b07-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="c9b07-107">Darba stundu veidni varat izveidot divējādi:</span><span class="sxs-lookup"><span data-stu-id="c9b07-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="c9b07-108">Izveidot darba stundu veidni, kuras pamatā ir resursu kalendārs.</span><span class="sxs-lookup"><span data-stu-id="c9b07-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="c9b07-109">Izveidot jaunu darba stundu veidni.</span><span class="sxs-lookup"><span data-stu-id="c9b07-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="c9b07-110">Lai izveidotu darba stundu veidni, kuras pamatā ir resursu kalendārs</span><span class="sxs-lookup"><span data-stu-id="c9b07-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="c9b07-111">Dodieties uz **Project Service > Resursi**.</span><span class="sxs-lookup"><span data-stu-id="c9b07-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="c9b07-112">Atlasiet resursu, uz kuru jūs vēlētos balstīt savas darba stundas.</span><span class="sxs-lookup"><span data-stu-id="c9b07-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="c9b07-113">Noklikšķiniet uz **Saglabāt kalendāru kā**, ievadiet darba stundu veidnes nosaukumu un pēc tam noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="c9b07-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="c9b07-114">Kad opciju mainīšana ir pabeigta, noklikšķiniet uz **Saglabāt un aizvērt**.</span><span class="sxs-lookup"><span data-stu-id="c9b07-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="c9b07-115">Ekrāna apakšējā labajā stūrī noklikšķiniet uz pogas **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="c9b07-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="c9b07-116">Lai izveidotu jaunu darba stundu veidni</span><span class="sxs-lookup"><span data-stu-id="c9b07-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="c9b07-117">Dodieties uz **Project Service > Darba stundu veidnes**.</span><span class="sxs-lookup"><span data-stu-id="c9b07-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="c9b07-118">Noklikšķiniet uz **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="c9b07-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="c9b07-119">Ievadiet darba stundu veidnes nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="c9b07-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="c9b07-120">Atlasiet resursu, kuru izmantot darba stundu pamatam, un pēc tam noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="c9b07-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="c9b07-121">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="c9b07-121">See Also</span></span>  
- [<span data-ttu-id="c9b07-122">Resursu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="c9b07-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="714fc-104">Lai izveidotu un pārvaldītu projektu, projektam jālieto kalendāra veidne.</span><span class="sxs-lookup"><span data-stu-id="714fc-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="714fc-105">Kalendāra veidne definē šādus projekta atribūtus:</span><span class="sxs-lookup"><span data-stu-id="714fc-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="714fc-106">darba stundas, ieskaitot sākuma un beigu laiku;</span><span class="sxs-lookup"><span data-stu-id="714fc-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="714fc-107">darba dienas;</span><span class="sxs-lookup"><span data-stu-id="714fc-107">Working days</span></span>
+- <span data-ttu-id="714fc-108">kalendāra izņēmumi, piemēram, brīvdienas.</span><span class="sxs-lookup"><span data-stu-id="714fc-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="714fc-109">Projektam lietotā kalendāra veidne ir organizācijas iestatījumos definētās kalendāra veidnes kopija.</span><span class="sxs-lookup"><span data-stu-id="714fc-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="714fc-110">Ja maināt kalendāra veidni, šīs izmaiņas netiek attiecinātas uz projekta darba laiku.</span><span class="sxs-lookup"><span data-stu-id="714fc-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="714fc-111">Lai mainītu projekta darba laiku, jālieto jauna veidne.</span><span class="sxs-lookup"><span data-stu-id="714fc-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="714fc-112">Lai organizācijai izveidotu kalendāra veidni, ir divas galvenās prasības:</span><span class="sxs-lookup"><span data-stu-id="714fc-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="714fc-113">definējiet veidnes vēlamo darba laiku, izmantojot jaunu vai esošu rezervējamu resursu;</span><span class="sxs-lookup"><span data-stu-id="714fc-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="714fc-114">izveidojiet jaunu kalendāra veidni un saistiet to ar rezervējamo resursu.</span><span class="sxs-lookup"><span data-stu-id="714fc-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="714fc-115">**Veidnes darba laiku definēšana**</span><span class="sxs-lookup"><span data-stu-id="714fc-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="714fc-116">Atveriet sadaļu **Resursi** \> **Resursi.**</span><span class="sxs-lookup"><span data-stu-id="714fc-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="714fc-117">Izveidojiet jaunu resursu atsaucei kalendāra veidnē vai atlasiet esošu resursu.</span><span class="sxs-lookup"><span data-stu-id="714fc-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="714fc-118">Atlasiet resursa cilni **Darba stundas** un izpildiet sadaļā [Resursa darba stundu iestatīšana](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) sniegtos norādījumus, lai konfigurētu kalendāra kārtulas.</span><span class="sxs-lookup"><span data-stu-id="714fc-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="714fc-119">**Jaunas kalendāra veidnes izveide**</span><span class="sxs-lookup"><span data-stu-id="714fc-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="714fc-120">Pārejiet uz **Iestatījumi** \> **Kalendāra veidne**.</span><span class="sxs-lookup"><span data-stu-id="714fc-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="714fc-121">Atlasiet **Jauns** un ievadiet nosaukumu, aprakstu un veidnes resursu.</span><span class="sxs-lookup"><span data-stu-id="714fc-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="714fc-122">Ja kalendārā ir atsauce uz resursu, ar šo kalendāra veidni tiek saistīta resursa kalendāra kopija.</span><span class="sxs-lookup"><span data-stu-id="714fc-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="714fc-123">Ja tiek mainītas kopētās veidnes darba stundas, šīs izmaiņas netiek attiecinātas uz kalendāra veidni.</span><span class="sxs-lookup"><span data-stu-id="714fc-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="714fc-124">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="714fc-124">See Also</span></span>  
+ [<span data-ttu-id="714fc-125">Resursu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="714fc-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
