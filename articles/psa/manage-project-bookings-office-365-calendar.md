@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275052"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950318"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Projektu un rezervāciju pārvaldība jūsu kalendārā (Project Service)
 
@@ -52,7 +52,7 @@ Skatiet personiskās tikšanās, projekta darbu rezervācijas un field service d
   
 - Jums jābūt [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] globālā administratora vai sistēmas administratora akreditācijas datiem.  
   
-- Jūsu administratoram vajadzēs konfigurēt e-pasta servera profilu, un katram lietotājam būs nepieciešams konfigurēt savu pastkasti. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Iestatīt e-pasta apstrādi, izmantojot servera puses sinhronizāciju](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Jūsu administratoram vajadzēs konfigurēt e-pasta servera profilu, un katram lietotājam būs nepieciešams konfigurēt savu pastkasti. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Iestatīt e-pasta apstrādi, izmantojot servera puses sinhronizāciju](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Ieslēgt sinhronizāciju savai organizācijai (administrēšanas uzdevums)  
   

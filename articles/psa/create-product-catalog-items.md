@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2351d87d2953f0e661d8f5281a4fdd071edb9c05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292033"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950363"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Preču kataloga vienumu izveide (Project Service)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5292033"
 
 Ja vēlaties projektu piedāvājumos un aprēķinos iekļaut produktus, piemēram, programmatūras licences, visi produkti jāpievieno preču katalogā.  
   
- Papildinformāciju par produktu pievienošanu preču katalogā skatiet sadaļā [Produkta izveidošana (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
+ Papildinformāciju par produktu pievienošanu preču katalogā skatiet sadaļā [Produkta izveidošana (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service konfigurēšana](../psa/configure.md)

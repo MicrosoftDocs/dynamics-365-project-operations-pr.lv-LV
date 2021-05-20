@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284187"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949643"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Kas ir Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Papildus palīdzībai pārraudzīt un kontrolēt projektu darba izmaksas individ
 ## <a name="whats-new-in-psa"></a>Jaunumi programmā PSA
 Darba grupa ar prieku izziņo mūsu jaunākos atjauninājumus. Lietotāja interfeisa uzlabojumi, kļūdu labojumi un svarīgu jaunu līdzekļu un iespēju pievienošana. Jūs lūdzāt; mēs ieklausījāmies.
 
-Lai redzētu mūsu jaunākos uzlabojumus un papildinājumus, apskatiet [2019. gada oktobra piezīmes par laidienu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index).
+Lai redzētu mūsu jaunākos uzlabojumus un papildinājumus, apskatiet [2019. gada oktobra piezīmes par laidienu](/dynamics365-release-plan/2019wave2/index).
 
 ### <a name="in-development"></a>Izstrādes fāzē
-Lai uzzinātu, ko mēs plānojam ieviest drīzumā, dodieties uz rakstu [Dynamics 365: 2020. gada 1. laidienu kopuma plāns](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Lai uzzinātu, ko mēs plānojam ieviest drīzumā, dodieties uz rakstu [Dynamics 365: 2020. gada 1. laidienu kopuma plāns](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Palīdzības saņemšana saistībā ar PSA versiju 3.x
 Vai jums ir vajadzīgi resursi, kas palīdz plānot ieviešanu? Skatiet tālāk norādītās lejupielādējamās rokasgrāmatas.

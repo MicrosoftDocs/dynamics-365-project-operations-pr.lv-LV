@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275097"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950588"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Lietojumprogrammas Project Service datu parauga instalēšana
 
@@ -136,7 +136,7 @@ Demonstr. datu pak. vajag 6 lietotājus. Lai pakotni instalētu pareizi, veiciet
     - User Fullname=“Molly Clark” kā uzņēm. pārv.   
     - User Fullname=“Spencer Low” kā darbību un projektu pārv.  
     - User Fullname=“Veronica Quek” kā gr. dalībn.   
-    - User Fullname=“William Contoso”
+    - User Fullname="William Contoso"
   
 2. Demonstr. datu import. ietvaros piešķiriet minētajiem 6 lietot. admin. lomu, lai ierakstu paraugi tiktu pareizi importēti. 
 
@@ -149,7 +149,7 @@ Demonstr. datu pak. vajag 6 lietotājus. Lai pakotni instalētu pareizi, veiciet
 
 5. Pirmā lietot. kalendāru (tagā **userstocreateandconfigure**) izmanto, lai aizpildītu darba st. visiem rezervējamiem resurs., importējot demonstr. datus. Atv. **Iestatījumi** > **Drošība** > **Lietotāji**, atrodiet lietot. “Spencer Low” un atv. opciju “Darba stundas”. Rediģējiet esošās darba st., atlasot opciju **Viss periodiskais iknedēļas grafiks no sākuma līdz beigām**. **Darba st. jābūt iestat. 8.00–17.00 (9 st.), no pirmd. līdz piektd., un laika joslai jābūt iest. Klusā ok. laiks (ASV un Kanāda)**. Tas jādara, lai pareizi parādītu projektu un plānošanas paneli.
 
-**Ieteikums.** Apsveriet iespēju tagad izveidot savas organizācijas dublējumu, ko izmantot gadījumā, ja datu parauga instalēšana neizdodas un ir jāatjauno sākotnējais stāvoklis. Papildinformāciju skatiet rakstā [Instanču dublēšana un atjaunošana](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Ieteikums.** Apsveriet iespēju tagad izveidot savas organizācijas dublējumu, ko izmantot gadījumā, ja datu parauga instalēšana neizdodas un ir jāatjauno sākotnējais stāvoklis. Papildinformāciju skatiet rakstā [Instanču dublēšana un atjaunošana](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Palaist Package Deployer
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279462"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949958"
 ---
 # <a name="resource-management-modes-overview"></a>Resursu pārvaldības režīmu pārskats
 
@@ -29,11 +29,11 @@ Organizācijām, kas centralizē resursu piešķiršanu projektiem, centrālais 
 
 Lai pārvaldītu resursus, izmantojot centrālo režīmu, skatiet:
 
-- [Vispārīgu grāmatojamu resursu piešķiršana uzdevumam un resursu vajadzību ģenerēšana](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervēt nosauktos resursus no resursu vajadzībām](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Submit a resource request](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Resursa pieprasījuma izpilde](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Piedāvātā projekta resursa pieņemšana vai noraidīšana, izmantojot resursa pieprasījumu](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Vispārīgu grāmatojamu resursu piešķiršana uzdevumam un resursu vajadzību ģenerēšana](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervēt nosauktos resursus no resursu vajadzībām](/dynamics365/project-service/book-named-resource)
+- [Resursa pieprasījuma iesniegšana](/dynamics365/project-service/submit-resource-request)
+- [Resursa pieprasījuma izpilde](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Piedāvātā projekta resursa pieņemšana vai noraidīšana, izmantojot resursa pieprasījumu](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hibrīda režīms
 Organizācijām, kurām ir nepieciešama elastība attiecībā uz resursu piešķiršanu, hibrīda režīms sniedz iespēju gan projekta vadītājiem, gan resursu pārvaldniekiem rezervēt resursus.
@@ -43,11 +43,11 @@ Organizācijām, kurām ir nepieciešama elastība attiecībā uz resursu pieš�
 Papildus atbalstītajam centrālā režīma procesam skatiet šīs tēmas, lai pārvaldītu visas citas atbalstītās rezervācijas plūsmas hibrīda režīmā:
 
 Resursa rezervēšana tieši projektam:
-- [Nosaukto rezervējamo resursu rezervēšana projekta darba grupai un uzdevumu piešķiršana](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Nosaukto rezervējamo resursu rezervēšana projekta darba grupai un uzdevumu piešķiršana](/dynamics365/project-service/assign-named-bookable-resource)
 
 Resursa rezervēšana no resursa prasības:
-- [Vispārīgu grāmatojamu resursu piešķiršana uzdevumam un resursu vajadzību ģenerēšana](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervēt nosauktos resursus no resursu vajadzībām](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Vispārīgu grāmatojamu resursu piešķiršana uzdevumam un resursu vajadzību ģenerēšana](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervēt nosauktos resursus no resursu vajadzībām](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

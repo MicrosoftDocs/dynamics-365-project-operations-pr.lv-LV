@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278787"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949913"
 ---
 # <a name="close-an-opportunity"></a>Iespējas slēgšana
 
@@ -23,7 +23,7 @@ Projekta iespējas var slēgt kā iegūtas vai zaudētas. Dialoglodziņā **Slē
 
 Jums nebūs atļauts slēgt iespēju, ja ar to ir saistīti aktīvi piedāvājumi. Visus aktīvos un melnraksta piedāvājumus, kas saistīti ar iespēju, var aizvērt vienlaikus. Pēc tam būs atļauts slēgt iespēju.
 
-Papildu vispārīgu informāciju par slēgšanas iespējām skatiet šeit: [Iegūtas vai zaudētas iespējas aizvēršana](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Papildu vispārīgu informāciju par slēgšanas iespējām skatiet šeit: [Iegūtas vai zaudētas iespējas aizvēršana](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

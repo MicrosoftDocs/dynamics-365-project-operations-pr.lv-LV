@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288883"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950183"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Projekta laika ieraksta mobilā darbvieta
 
@@ -48,7 +48,7 @@ Konkrēti **Projekta laika ieraksts** mobilajā darbvietā lietotāji var veikt 
 Priekšnosacījumi atšķiras atkarībā no tā, kāda versija ir Microsoft Dynamics 365, kas ir izvietota jūsu organizācijā.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Priekšnosacījumi, ja izmantojat Dynamics 365 Finance
-Ja jūsu organizācijai ir izvietots Finance, sistēmas administratoram ir jāpublicē **Projekta laika ieraksts** mobilajai darbvietai. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Ja jūsu organizācijai ir izvietots Finance, sistēmas administratoram ir jāpublicē **Projekta laika ieraksts** mobilajai darbvietai. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat versiju 1611 ar platformas atjauninājumu 3 vai jaunāku versiju
 Ja jūsu organizācijai ir izvietota versija 1611 ar platformas atjauninājumu 3 vai jaunāku versiju, sistēmas administratoram ir jāizpilda tālāk minētie priekšnosacījumi. 
@@ -68,17 +68,17 @@ Ja jūsu organizācijai ir izvietota versija 1611 ar platformas atjauninājumu�
 <td>Sistēmas administrators</td>
 <td>KB 4018050 ir X + + atjaunināšanas vai metadatu labojumfails, kurā ir iekļauts <strong>Projekta laika ieraksts</strong> mobilajām darbvietā. Lai ieviestu KB 4018050, jūsu sistēmas administratoram ir jāizpilda šīs darbības.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādējiet metadatu labojumfailu no Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni</a>, kurā ir <strong>ApplicationSuite</strong> un <strong>ProjectMobile</strong> modeļi, un pēc tam augšupielādējiet izvēršamo paku uz LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Izmantojiet izvēršamo pakotni</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādējiet metadatu labojumfailu no Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni</a>, kurā ir <strong>ApplicationSuite</strong> un <strong>ProjectMobile</strong> modeļi, un pēc tam augšupielādējiet izvēršamo paku uz LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Izmantojiet izvēršamo pakotni</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publicējiet <strong>Projekta laika ierakstu</strong> mobilajai darbvietai.</td>
 <td>Sistēmas administrators</td>
-<td>Skatiet <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicēt mobilo darbvietu</a>.</td>
+<td>Skatiet <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicēt mobilo darbvietu</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Lejupielādējiet un instalējiet Finance and Operations mobilo programmu:
 2.  Atlasiet vienumu **Laika ieraksts**. Tiek parādīti pašreizējās nedēļas kalendāra datumi.
 3.  Izvēlētajam datumam atlasiet vienumu **Darbības** &gt; **Jauns ieraksts**.
 4.  Ievadiet stundu skaitu, kas jāieraksta.
-5.  Atlasiet projektu laika ierakstam. Sarakstā redzami projekti, kas ielādēti jūsu programmā izmantošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju skatiet sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Atlasiet projektu laika ierakstam. Sarakstā redzami projekti, kas ielādēti jūsu programmā izmantošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju skatiet sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Ja jūsu projekts nav iekļauts sarakstā, atlasiet **Meklēt**. Meklējiet pēc nosaukuma vai pārslēdzieties uz meklēšanu pēc projekta nosaukuma vai klienta.
-7.  Atlasiet kategoriju. Sarakstā redzamas kategorijas, kas ielādētas jūsu programmā izmantošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju skatiet sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Atlasiet kategoriju. Sarakstā redzamas kategorijas, kas ielādētas jūsu programmā izmantošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju skatiet sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt**. Meklējiet pēc kategorijas vai pārslēdzieties uz meklēšanu pēc kategorijas nosaukuma.
-9.  Atlasiet darbību. Sarakstā redzamas darbības, kas ielādētas jūsu programmā izmantošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju skatiet sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Atlasiet darbību. Sarakstā redzamas darbības, kas ielādētas jūsu programmā izmantošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju skatiet sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Ja jūsu darbība nav iekļauta sarakstā, atlasiet **Meklēt**. Meklējiet pēc darbības numura vai pārslēdzieties uz meklēšanu pēc mērķa.
 
 11. Atlasiet rindas rekvizītu.

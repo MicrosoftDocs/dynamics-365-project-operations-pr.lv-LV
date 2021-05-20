@@ -3,17 +3,17 @@ title: Projekta rēķinu priekšlikumu pārvaldība
 description: Šajā tēmā sniegta detaizēta informācija par klientam sniegto rēķinu apstrādi ar Project Operations resursu/nekrājumu scenārijos.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275862"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950723"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekta rēķinu priekšlikumu pārvaldība
 
@@ -80,7 +80,8 @@ Programmā Dataverse izveidojot jaunu norēķinu atskaites punktu, **Pārdošana
     - **Klients**: vienmēr noteiks norēķinu pārdošanas nodokļu grupas noklusējuma vērtību no klienta.
     - **Meklēt**: meklēs augstākminētajās entitījās šajā sarakstā un atlasīs pirmo pieejamo vērtību. Meklēšana sākas ar entitīju **Projekts**, pēc tam — entitīju **Projekta līgums** un pēc tam — entitīju **Klients**.
 
-- **Fiksētās cenas atskaites punkta preču pārdošanas nodokļu grupu** izmanto, lai noteiktu noklusējuma vērtību laukam **Preču pārdošanas nodokļu grupa**.
+- **Fiksētas cenas atskaites punkta vienumu pārdošanas nodokļu grupa** tiek izmantota kā norēķinu atskaites punkta noklusējuma vērtība laukā **Vienumu pārdošanas nodokļu grupa**. Grāmatvedis var pārskatīt un modificēt šo vērtību lapā **Starpkonta darbības**. Sistēma izmanto vērtību no starpkonta darbības, veidojot projekta rēķina priekšlikuma rindu.
+ 
 
 ### <a name="financial-dimensions"></a>Finanšu dimensijas
 
@@ -132,7 +133,7 @@ Lapa **Rēķina priekšlikumu formatēšana** ļauj pielāgoti grupēt transakci
 
 Drukāšanas pārvaldībā izmanto atšķirīgus atskaišu failus, lai drukātu, norādītu galamērķus un pielāgotu rēķina kājenes tekstu. Drukāšanas pārvaldību var iestatīt moduļa līmenī, taču šie iestatījumi var tikt ignorēti noteiktam klientam, līgumam vai rēķina priekšlikumam. Lai piekļūtu šai funkcijai, lapā **Projekta rēķina priekšlikums** atlasiet **Drukāt** > **Drukāšanas pārvaldība**.
 
-Drukāšanas pārvaldības iestatījums tiek rādīts kā koka skats, kurā katrs mezgla līmenis rāda pielāgošanai pieejamos dokumentus. Jūs varat piešķirt pielāgotās izdrukas moduļa, klienta, līguma vai rēķina priekšlikuma dokumenta līmenī. Lai modificētu sākotnējo dokumenta izdruku, izvērsiet vēlamo mezglu un atlasiet **Sākotnējais vienums**. Laukā **Atskaites formāts** atlasiet atskaites formātu, kuru izmantot drukāšanai. Jūs varat izmantot pielāgotos atskaišu formātus, izmantojot [Biznesa dokumentu pārvaldības struktūru](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Drukāšanas pārvaldības iestatījums tiek rādīts kā koka skats, kurā katrs mezgla līmenis rāda pielāgošanai pieejamos dokumentus. Jūs varat piešķirt pielāgotās izdrukas moduļa, klienta, līguma vai rēķina priekšlikuma dokumenta līmenī. Lai modificētu sākotnējo dokumenta izdruku, izvērsiet vēlamo mezglu un atlasiet **Sākotnējais vienums**. Laukā **Atskaites formāts** atlasiet atskaites formātu, kuru izmantot drukāšanai. Jūs varat izmantot pielāgotos atskaišu formātus, izmantojot [Biznesa dokumentu pārvaldības struktūru](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Rēķina priekšlikumu izlikšana
 
