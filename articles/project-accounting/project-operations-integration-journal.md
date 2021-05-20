@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287247"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948339"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrācijas žurnāls risinājumā Project Operations
 
@@ -38,7 +38,7 @@ Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērt�
 Žurnāla rindas tiek veidotas, pamatojoties uz projekta faktiskajiem ierakstiem. Tālāk sniegtajā sarakstā ir iekļautas dažas svarīgākās noklusējuma un transformācijas kārtulas:
 
   - Katram projekta faktiskajam darījumam ir rinda Project Operations integrācijas žurnālā. Izmaksas un rēķinos neiekļautie pārdošanas darījumi attiecībā uz laika un materiālu norēķinu tipu tiek rādīti atsevišķās rindās.
-  - Lauks **Datums** norāda darījuma datumu. Lauks **Uzskaites datums** norāda datumu, kurā darbība tika ierakstīta Virsgrāmatā. Ja uzskaites datums ir [slēgtā finanšu periodā](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) un parametrs **Automātiski iestatīt grāmatvedības datumu uz atvērtās virsgrāmatas periodu** tiek iestatīts lapas **Projekta pārvaldības un uzskaites parametri** cilnē **Finanses**, sistēma darījuma uzskaites datumu pielāgos pirmajam datumam nākamajā atvērtā Virsgrāmatas periodā.
+  - Lauks **Datums** norāda darījuma datumu. Lauks **Uzskaites datums** norāda datumu, kurā darbība tika ierakstīta Virsgrāmatā. Ja uzskaites datums ir [slēgtā finanšu periodā](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) un parametrs **Automātiski iestatīt grāmatvedības datumu uz atvērtās virsgrāmatas periodu** tiek iestatīts lapas **Projekta pārvaldības un uzskaites parametri** cilnē **Finanses**, sistēma darījuma uzskaites datumu pielāgos pirmajam datumam nākamajā atvērtā Virsgrāmatas periodā.
   - Lauks **Dokuments** rāda dokumenta numuru visām faktiskajām transakcijām. Dokumentu numuru sērija ir definēta cilnē **Numuru sērijas**, kas atrodas lapā **Projektu pārvaldības un uzskaites parametri**. Katrai rindai tiek piešķirts jauns numurs. Pēc tam kad dokuments ir iegrāmatots, varat skatīt, kā izmaksas un rēķinos neiekļautie pārdošanas darījumi ir saistīti, atlasot **Saistītos dokumentus** lapā **Dokumentu darbības**.
   - Lauks **Kategorija** atspoguļo projekta transakciju un noklusējuma vērtības, pamatojoties uz saistīto projekta faktisko datu kategoriju.
     - Ja **Darbību kategorija** ir iestatīta projekta faktiskajos datos un dotajā juridiskajā entītijā pastāv saistītā **Projekta kategorija**, kategorijas noklusējums ir šī projekta kategorija.

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284322"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947933"
 ---
 # <a name="install-and-customize-project-service"></a>Instalēšana un pielāgošana (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284322"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Project Service instalēšana  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ir vēlamais risinājums. Ir vairāki veidi, kā iegādāties risinājumu. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pievienot jūsu organizāciju un lietotājus](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ir vēlamais risinājums. Ir vairāki veidi, kā iegādāties risinājumu. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pievienot jūsu organizāciju un lietotājus](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]veidlapu un pārskatu pielāgošana  
  Ja vēlaties pielāgot kādu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] veidlapu, informācijas paneli vai pārskatu, apmeklējiet tālāk norādītās saites, lai iegūtu vairāk informācijas:  
   
-- [Darba sākšana ar programmu veidošanu un pielāgošanu](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Darba sākšana ar programmu veidošanu un pielāgošanu](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Veidlapu izveide un noformēšana](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Veidlapu izveide un noformēšana](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Informācijas paneļu izveide un rediģēšana](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Informācijas paneļu izveide un rediģēšana](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Procesu izveide un rediģēšana](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Procesu izveide un rediģēšana](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Iepazīšanās ar atskaišu veidošanu un analīzi](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Iepazīšanās ar atskaišu veidošanu un analīzi](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Administratora rokasgrāmata](../psa/admin-guide.md)   

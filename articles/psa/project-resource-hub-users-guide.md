@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283782"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948157"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Project Resource Hub lietotāja rokasgrāmata
 
@@ -48,7 +48,7 @@ Ir divi [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-projec
 ## <a name="install-the-mobile-app"></a>Mobilās programmas instalēšana
 Pirms sākat lietot programmu Project Resource Hub, jums savā ierīcē ir jāinstalē mobilā programma. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Programmas Dynamics 365 for phones and tablets instalēšana](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Programmas Dynamics 365 for phones and tablets instalēšana](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Pamata navigācija
 1.  Kad pierakstāties mobilajā programmā, tiek parādīta MyApps lapa ar pieejamo programmu sarakstu. 
@@ -99,7 +99,7 @@ Ievadiet savus izdevumus vismaz reizi nedēļā — vai tik bieži, cik to piep
 5. Turpiniet ievadīt savus izdevumus attiecīgajai nedēļai. Kad esat pabeidzis un ievadītie dati šķiet pareizi, pieskarieties **Iesniegt**. Vadītājs pārbaudīs un apstiprinās jūsu izdevumus.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Vispārīga informācija par mobilās programmas lietošanu 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobilās programmas pamata rokasgrāmata](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobilās programmas pamata rokasgrāmata](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service pārskats](../psa/overview.md)   

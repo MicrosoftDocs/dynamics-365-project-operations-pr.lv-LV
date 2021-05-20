@@ -3,17 +3,17 @@ title: Starpuzņēmumu klientu un piegādātāju rēķinu izveide
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot starpuzņēmumu klientu un piegādātāju rēķinus.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287472"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948404"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Starpuzņēmumu klientu un piegādātāju rēķinu izveide
 
@@ -25,7 +25,9 @@ Aizdevuma juridiskās personas projekta grāmatvedis var iestatīt pakešveida a
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Manuāla starpuzņēmumu klienta rēķina izveide par projekta darbībām 
 
-Izmantojiet šo procedūru, lai manuāli izveidotu starpuzņēmumu klienta rēķinu par projekta darbībām. Meklējiet stundas, kuras grāmatoja projektu darbinieki aizņēmuma juridiskajās personās, un izdevumus, kas radās jūsu juridiskajai personai aizņēmuma juridisko personu vārdā. Varat meklēt pēc juridiskās personas nosaukuma, projekta līguma numura, projekta numura, datumu diapazona vai jebkuras šo opciju kombinācijas. Meklēšanas rezultātos atlasiet darbības, kas jāpievieno starpuzņēmumu rēķinam.
+Izmantojiet šo procedūru, lai manuāli izveidotu starpuzņēmumu klienta rēķinu par projekta darbībām. Meklējiet stundas, kuras grāmatoja projektu darbinieki aizņēmuma juridiskajās personās, un izdevumus, kas radās jūsu juridiskajai personai aizņēmuma juridisko personu vārdā. Varat meklēt pēc juridiskās personas nosaukuma, projekta līguma numura, projekta numura, datumu diapazona vai jebkuras šo opciju kombinācijas. Meklēšanas rezultātos atlasiet darbības, kas jāpievieno starpuzņēmumu rēķinam. 
+
+Tālāk uzskaitītās darbības ir jāveic aizdodošajā juridiskajā entītijā. 
 
 1. Programmā Dynamics 365 Finance dodieties uz **Projektu pārvaldība un uzskaite** > **Projektu rēķini** > **Starpuzņēmumu klientu rēķini**. Saraksta lapas **Starpuzņēmumu klientu rēķini** darbību rūtī atlasiet **Jauns.**
 2. Lapas **Izveidot starpuzņēmumu rēķinu** laukā **Juridiskā persona** atlasiet aizņēmuma juridisko personu.
@@ -35,9 +37,9 @@ Izmantojiet šo procedūru, lai manuāli izveidotu starpuzņēmumu klienta rēķ
 6. Meklēšanas rezultātos atlasiet darbības, ko iekļaut starpuzņēmumu rēķina priekšlikumā, un pēc tam atlasiet **Labi**.
 7. Lapā **Starpuzņēmumu klienta rēķins** tiek rādītas meklēšanas rezultātos atlasītās starpuzņēmumu projekta darbības. Lai pirms rēķina nosūtīšanas aizņēmuma juridiskajai personai mainītu darbības, veiciet tālāk norādītās darbības.
   
-    1. Atveriet lapu **Rēķina priekšlikuma izveide**. Atlasiet pašreizējam rēķinam papildu starpuzņēmumu darbības, pēc tam atlasiet **Pievienot rindu**.
+    1. Lapā **Starpuzņēmumu klienta rēķins** atveriet detalizēto rēķina informāciju un pēc tam atlasiet **Pievienot rindu**.
     2. Lai noņemtu rindu, atlasiet to un pēc tam atlasiet **Noņemt**.
-    3. Komentārus, iemeslus, finanšu dimensijas un citu informāciju par atlasīto rindu skatiet kopsavilkuma cilnē **Rēķina rindas**.
+    3. Skatiet komentārus, iemeslus, finanšu aspektus un citu informāciju par atlasīto rindu rēķina rindas informācijā.
     
 8. Lai grāmatotu starpuzņēmumu klienta rēķinu, darbību rūtī atlasiet **Grāmatot**.
 
@@ -52,7 +54,7 @@ Vienlaikus var izveidot vairākus starpuzņēmumu rēķinus visām aizņēmuma j
 2. Lapas **Izveidot starpuzņēmumu klientu rēķinus** laukā **Uzņēmums** atlasiet juridisko personu, kam jāizraksta rēķins. Ja neatlasīsit uzņēmumu, tiks parādītas visas meklēšanas kritērijiem atbilstošās darbības visām aizņēmuma juridiskajām personām.
 3. Sadaļā **Izveidot vienu rēķinu katrā:** atlasiet, vai rēķinu par starpuzņēmumu darbībām izveidot, pamatojoties uz projektu vai aizņēmuma juridisko personu.
 4. Neobligāti: lai atlasītu konkrētu projektu un projekta līgumu, kam jāizveido starpuzņēmumu rēķini, noklikšķiniet uz **Atlasīt**. Lapas **Pieprasījums** laukā **Kritēriji** atlasiet projekta līgumu, projekta numuru vai abus un pēc tam noklikšķiniet uz **Labi**.
-5. Cilnē **Pakešveida apstrāde** iestatiet pakešveida apstrādi, lai periodiski izveidotu starpuzņēmumu rēķinus. Papildinformāciju skatiet sadaļā [Pakešapstrādes uzdevuma iesniegšana no veidlapas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Cilnē **Pakešveida apstrāde** iestatiet pakešveida apstrādi, lai periodiski izveidotu starpuzņēmumu rēķinus. Papildinformāciju skatiet sadaļā [Pakešapstrādes uzdevuma iesniegšana no veidlapas](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Lai grāmatotu starpuzņēmumu rēķinus, darbību rūtī atlasiet **Grāmatot**.
 
 > [!NOTE]

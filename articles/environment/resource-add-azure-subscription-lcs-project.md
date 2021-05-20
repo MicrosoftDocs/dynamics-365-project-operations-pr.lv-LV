@@ -3,17 +3,17 @@ title: Azure abonementa pievienošana LCS projektam
 description: Šajā tēmā ir sniegta informācija par to, kā pievienot Azure abonementu LCS projektam.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289918"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880547"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure abonementa pievienošana LCS projektam
 
@@ -62,7 +62,7 @@ Autorizācija tagad ir pabeigta.
 3. Laukā **Konfigurēt Azure Resource Manager izmantošanu** atlasiet **Jā**.
 4. Pārliecinieties, vai Azure abonementa AAD nomnieka domēns atbilst jūsu izmantotajam Azure abonementam, kam pieder domēns, un atlasiet **Tālāk**.
 5. Ekrānā **Microsoft Azure iestatīšana** atlasiet **Tālāk**, lai apstiprinātu. Ja šajā ekrānā tiek parādīts kļūdas ziņojums, atgriezieties šīs tēmas sadaļā [Piekļuves sniegšana pakalpojumam Dynamics Deployment Services jūsu Azure abonementam](#provide) un pārliecinieties, vai esat izpildījis visas darbības.
-6. Lejupielādējiet Azure pārvaldības sertifikātu lokālā mapē savā datorā un pēc tam augšupielādējiet to Azure pārvaldības portālā, atverot **Iestatījumi** > **Pārvaldības sertifikāti**. Šis sertifikāts ļaus LCS sazināties ar Azure jūsu vārdā. Ja lietotājam ir piekļuve abonementam, varat izlaist šo darbību.
+6. Lejupielādējiet Azure pārvaldības sertifikātu lokālā mapē savā datorā. Lūdziet, lai jūsu Azure abonementa administrators augšupielādētu šo sertifikātu Azure pārvaldības portālā, atlasot abonementu un pārejot uz **Iestatījumi** > **Pārvaldības sertifikāti**. Šis sertifikāts ļauj LCS sazināties ar Azure jūsu vārdā. Ja lietotājam ir piekļuve abonementam, varat izlaist šo darbību.
 7. Atlasiet **Tālāk**.
 8. Atlasiet Azure reģionu, kurā veikt izvietošanu, un atlasiet datu centru, kas atrodas tuvu vietai, kurā plānojat lietot šo sistēmu.
 9.  Atlasiet **Pievienot**.

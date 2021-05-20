@@ -3,17 +3,17 @@ title: Starpuzņēmumu darbību izveide
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot starpuzņēmumu darbības.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287427"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880457"
 ---
 # <a name="create-intercompany-transactions"></a>Starpuzņēmumu darbību izveide
 
@@ -62,7 +62,7 @@ Līga Krūmiņa, GBPM izstrādātāja, reģistrē 10 stundu darbu USPM Adventur
     4. Iestatiet valūtu uz **USD**.
     5. Saglabājiet ierakstu.
 3. Dodieties uz **Pārdošana** > **Projektu līgumi** un izveidojiet jaunu projekta līgumu uzņēmumam Adventure Works.
-    1. Iestatiet atbildīgo uzņēmumu uz **USPM**, bet līgumslēdzēja vienību uz **Contoso Robotics US**.
+    1. Iestatiet atbildīgo uzņēmumu kā **USPM** un līgumslēdzēju vienību kā **Contoso Robotics US**.
     2. Atlasiet Adventure Works kā klientu.
     3. Atlasiet produkta cenrādi un saglabājiet ierakstu.
     4. Cilnē **Līguma rindas** izveidojiet jaunu līguma rindu. Iestatiet jebkādu nosaukumu un atlasiet **Laiks un materiāli** kā norēķinu metodi.
@@ -94,7 +94,7 @@ Līga Krūmiņa, GBPM izstrādātāja, reģistrē 10 stundu darbu USPM Adventur
     Šī rēķinā neiekļautā pārdošana tagad ir gatava rēķina izrakstīšanai. Klienta Adventure Works rēķinu var finansiāli grāmatot, kad nepieciešams.
 
 10. Pierakstieties kā **GBPM** grāmatvedis. Atveriet Project Operations Finance instanci un atveriet uzņēmumu **GBPM**. 
-11. Dodieties uz **Projektu pārvaldība un uzskaite** > **Periodiski** > **Project Operations programmā Customer Engagement** > **Importēt no sagatavošanas tabulas** un palaidiet periodisko procesu, lai aizpildītu Project Operations integrācijas žurnālu.
+11. Dodieties uz **Projekta pārvaldības un uzskaites pārskats** > **Periodiski** > **Project Operations integrācija** > **Importēt no izstādīšanas tabulas** un izpildiet periodisko procesu, lai aizpildītu Project Operations integrācijas žurnālu.
 12. Dodieties uz **Projektu pārvaldība un uzskaite** > **Žurnāli** > **Project Operations integrācijas žurnāls** un pārskatiet rindas. Sistēma izveido tālāk norādītās žurnāla rindas.
 
     | **Transakcijas veids** | **Cenrādis** | **Transakcijas valūta** | **Summa** |

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877544"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948248"
 ---
 # <a name="project-operations-updates"></a>Project Operations atjauninājumi
 
@@ -49,23 +49,23 @@ Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī.
 | Stacija   | Reģions        | Pašreizējā versija | Nākamā versija | Parasti pieejams |
 |-----------|---------------|-----------------|--------------|---------------------|
 | 1. stacija |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Pirmais laidiens |  4.9.0.221       | TBD     | 2021. gada 23. aprīlis           |
+|   &nbsp;  | Pirmais laidiens |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
 | 2. stacija |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Dienvidamerika |  4.9.0.221       | TBD     | 2021. gada 23. aprīlis           |
-|    &nbsp; | Kanāda        |  4.9.0.221       | TBD     | 2021. gada 23. aprīlis           |
-|   &nbsp;  | Indija         |  4.9.0.221       | TBD     | 2021. gada 23. aprīlis           |
-|   &nbsp;  | Francija         |  4.9.0.221       | TBD     | 2021. gada 23. aprīlis           |
-|   &nbsp;  | Apvienotie Arābu Emirāti         |  4.9.0.221       | TBD     | 2021. gada 23. aprīlis           |
-|   &nbsp;  | Dienvidāfrika         |  4.9.0.221       | TBD     | 2021. gada 23. aprīlis           |
+|   &nbsp;  | Dienvidamerika |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
+|    &nbsp; | Kanāda        |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
+|   &nbsp;  | Indija         |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
+|   &nbsp;  | Francija         |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
+|   &nbsp;  | Apvienotie Arābu Emirāti         |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
+|   &nbsp;  | Dienvidāfrika         |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
 | 3. stacija  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japāna         |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
-|   &nbsp;  | Āzija un Klusais okeāns  |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
-|   &nbsp;  | Lielbritānija |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
-|   &nbsp;  | Okeānija       |  4.9.0.221       | TBD     | 2021. gada 30. aprīlis           |
+|   &nbsp;  | Japāna         |  4.9.0.221       | TBD     | 2021. gada 7. maijs           |
+|   &nbsp;  | Āzija un Klusais okeāns  |  4.9.0.221       | TBD     | 2021. gada 7. maijs           |
+|   &nbsp;  | Lielbritānija |  4.9.0.221       | TBD     | 2021. gada 7. maijs           |
+|   &nbsp;  | Okeānija       |  4.9.0.221       | TBD     | 2021. gada 7. maijs           |
 | 4. stacija |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Eiropa        |  4.8.0.92       | 4.9.0.221     | 2021. gada 16. aprīlis           |
+|   &nbsp;  | Eiropa        |  4.9.0.221       | TBD     | 2021. gada 14. maijs           |
 | 5. stacija |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Ziemeļamerika |  4.8.0.92       | 4.9.0.221     | 2021. gada 23. aprīlis           |
+|   &nbsp;  | Ziemeļamerika |  4.9.0.221       | TBD     | 2021. gada 21. maijs           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Izlaišanas grafiks projektu pārvaldībai un uzskaitei programmu Finance and Operations vidē
 
@@ -73,15 +73,15 @@ Projekta pārvaldības un uzskaites atjauninājumi tiek izlaisti astoņas reizes
 
 | Atbalsta laidiens | Parasti pieejams (pašatjaunināšana) |
 | --- | --- |
+| 10.0.18 | 2021. gada 16. aprīlis |
 | 10.0.17 | 2021. gada 19. marts |
 | 10.0.16 | 2021. gada 22. janvāris |
 
 
-Mērķa laidiena datumi var tikt mainīti. Papildinformāciju skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Mērķa laidiena datumi var tikt mainīti. Papildinformāciju skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Mērķa izlaišanas datums | Parasti pieejams (pašatjaunināšana) |
 | --- | --- |
-| 10.0.18 | 2021. gada 16. aprīlis |
 | 10.0.19 | 2021. gada 18. jūnijs |
 | 10.0.20 | 2021. gada 16. jūlijs |
 

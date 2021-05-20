@@ -3,18 +3,18 @@ title: Jaunumi 2021. gada aprīlī — Project Operations scenārijiem, kas i
 description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada aprīļa Project Operations laidienam, kas paredzēts scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868002"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935483"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada aprīlī — Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 
@@ -33,8 +33,26 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
   - Krājumos neesošu materiālu novērtēšanu un cenu noteikšanu projekta pārdošanas ciklā. Plašāka informācija: [Izmaksu un pārdošanas cenu iestatīšana kataloga produktiem (Lite)](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Krājumos neesošu materiālu izmantošanas izsekošana projekta piegādes laikā. Papildinformāciju skatiet rakstā [Materiālu lietojuma reģistrēšana projektos un projektu uzdevumos](../material/material-usage-log.md).
   - Krājumos neesošu materiālu izmaksu izmantošana rēķinos. Papildinformāciju skatiet šeit: [Neizrakstīto rēķinu pārvaldība](../proforma-invoicing/manage-billing-backlog.md).
+  - Informāciju par šī līdzekļa konfigurēšanu skatiet sadaļā [Krājumos neesošu materiālu un neapstiprinātu piegādātāju rēķinu konfigurēšana](../procurement/configure-materials-nonstocked.md).
 - Uz uzdevumu balstīti rēķini: ir pievienota iespēja projekta uzdevumus saistīt ar projekta līguma rindām, šādi paātrinot tos pašus norēķinu veidus, rēķinu biežumu un klientus, kuri atrodas līguma rindā. Šī saistība nodrošina pareizu rēķinu izrakstīšanu, uzskaiti, ieņēmumu novērtēšanu un atpazīšanu, lai darbotos atbilstoši šim projekta uzdevumu iestatījumam.
 - Jaunie API programmā Dynamics 365 Dataverse ļauj izveidot, atjaunināt un dzēst operācijas ar **plānošanas entītijām**. Papildinformāciju skatiet šeit: [Plānošanas API izmantošana operāciju veikšanai ar plānošanas entītijām](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations duālās rakstīšanas karšu atjauninājumi
+
+Tālāk redzamajā sarakstā ir parādītas duālās rakstīšanas kartes, kas ir modificētas vai pievienotas Project Operations 2021. gada aprīļa laidienā.
+
+| **Entītiju karte** | **Atjauninātā versija** | **Komentāri** |
+| --- | --- | --- |
+| Project Operations integrācijas faktiskie dati (msdyn\_actuals) | 1.0.0.14 | Karte ir modificēta, lai sinhronizētu materiālu projekta faktiskās vērtības. |
+| Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimateslines) | 1.0.0.2 | Pievienota projekta līguma rindu sinhronizācija ar Finance and Operations programmām ar uzdevumiem saistītu norēķinu atbalstam. |
+| Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments) | 1.0.0.5 | Pievienota projekta līguma rindu sinhronizācija ar Finance and Operations programmām ar uzdevumiem saistītu norēķinu atbalstam. |
+| Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu materiālu aprēķinus no Dataverse ar Finance and Operations programmām. |
+| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn\_projectvendorinvoices) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu piegādātāju rēķinu galvenes no Finance and Operations programmām ar Dataverse. |
+| Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu piegādātāju rēķinu rindas no Finance and Operations programmām ar Dataverse. |
+
+Kad atjaunināt Project Operations Dataverse risinājuma un Finance and Operations risinājuma versiju, vidē vienmēr ir jābūt jaunākajai kartes versijai un jābūt iespējotām visām saistītajām tabulu kartēm. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas **Versija** lapā **Duālā rakstīšana**. Varat aktivizēt jaunu kartes versiju, atlasot **Tabulas kartes versijas**, atlasot jaunāko versiju un pēc tam saglabājot atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Ja rodas problēma ar kartes startēšanu, izpildiet instrukcijas, kas sniegtas duālās rakstīšanas problēmu novēršanas ceļveža sadaļā [Problēma ar trūkstošām tabulu kolonnām kartēs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
@@ -67,7 +85,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 | **Līdzekļu apgabals** | **Atsauces numurs** | **Kvalitātes atjauninājums** |
 | --- | --- | --- |
-| Projektu pārvaldība un uzskaite | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Atgriezeniskais aptuvenais ierobežojums nedarbojas lapā **Periodisks**.  |
+| Projektu pārvaldība un uzskaite | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Apgriezto aprēķinu korekcijas nedarbojas sadaļā **Periodisks**.  |
 | Projektu pārvaldība un uzskaite | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Līdzeklis **Uzskaites pielāgošana** rada problēmu ar virsgrāmatas kontiem, kuriem ir atlasīta opcija **Neatļaut manuālu ievadi**. |
 | Projektu pārvaldība un uzskaite | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Pievienota biznesa loģika, lai apstrādātu korekcijas rēķinus, iekļaujot honorāra summu vai lietoto honorāra summu. |
 | Projektu pārvaldība un uzskaite | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | NP — pārdošanas vērtību grāmatošanas funkcija, izrakstot starpuzņēmumu projektā rēķinu, atlasa neparedzētu uzņēmumu. |
