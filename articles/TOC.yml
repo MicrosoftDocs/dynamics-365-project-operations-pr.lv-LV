@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada maijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: "2021.\_gada aprīlis\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: "2021.\_gada marts\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Izdevumu kategoriju iestatīšana
               href: expense/set-up-expense-categories.md
+            - name: 'Nobraukuma iestatīšana, izmantojot nobraukuma normas pakāpes'
+              href: expense/set-up-mileage.md
         - name: Personiskie izdevumi
           href: expense/personal-expenses-expense-report.md
         - name: Starpuzņēmumu izdevumi
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada maija jaunumi\_— Lite izvietošana"
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "2021.\_gada aprīļa jaunumi\_— Lite izvietošana"
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "2021.\_gada marta jaunumi\_— Lite izvietošana"
@@ -1026,11 +1032,13 @@
       href: psa/overview.md
     - name: Jaunumi
       items:
-        - name: "Project\_Service\_3.x atjauninājumu laidienu grafiks"
+        - name: "Project\_Service\_3.x atjauninājumu laidiena grafiks"
           href: psa/version-history-ps.md
-        - name: "Update\_Release\_31,\_V3 jaunumi vai izmaiņas"
+        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā\_32,\_V3"
+          href: psa/whats-new-ur-32.md
+        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā\_31,\_V3"
           href: psa/whats-new-ur-31.md
-        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā 30,\_V3"
+        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā\_30,\_V3"
           href: psa/whats-new-ur-30.md
         - name: 'Jaunumi vai izmaiņas atjauninājumu laidiena 29.5 labojumfailā, V3'
           href: psa/whats-new-ur-29-5.md
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Nedēļas laika ieraksta pielāgošana
               href: psa/time-entry-extensibility-v3.md
+            - name: Apstiprināšanas kopas
+              href: psa/approval-set.md
     - name: "BUJ un problēmu novēršana\_(3.x)"
       items:
         - name: Kāpēc izdevumu izmaksu faktiskajos datos šī cena pēc noklusējuma ir nulle?
