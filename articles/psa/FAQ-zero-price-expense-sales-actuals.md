@@ -2,9 +2,7 @@
 title: Kāpēc cena pēc noklusējuma ir nulle par faktiskajām pārdošanas izmaksām?
 description: Trīs tālāk norādītās pārbaudes darbības palīdzēs novērst problēmu, kāpēc faktisko pārdošanas izdevumu cena pēc noklusējuma tiek iestatīta uz 0.
 author: rumant
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bd474d7c0cd64262fdb21d6269efa781b6dc31f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92b507d8e5605c01f1a9235233b3cd2885070749
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285896"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993020"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Kāpēc cena pēc noklusējuma ir nulle par faktiskajām pārdošanas izmaksām?
 

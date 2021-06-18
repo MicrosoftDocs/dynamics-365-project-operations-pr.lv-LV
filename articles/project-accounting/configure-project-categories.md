@@ -2,18 +2,16 @@
 title: Projekta kategoriju iestatīšana
 description: Šajā tēmā ir sniegta informācija par projekta kategoriju iestatīšanu.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287517"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995180"
 ---
 # <a name="configure-project-categories"></a>Projekta kategoriju iestatīšana
 
@@ -29,7 +27,7 @@ Darījumu kategorijas ir projekta darījumu pamata grupas. Šajās grupās ir ko
 
 ## <a name="transaction-categories"></a>Transakcijas kategorijas
 
-Darījumu kategorijas ataino projekta darījumu pamatgrupas, un tās neattiecas uz konkrētu uzņēmuma vai darījumu veidu. Piemēram, uzņēmums Contoso Robotics" izmanto darījumu kategorijas Projektēšana, Ceļojumi, Uzstādīšana un Apkope, kurās grupē Projekta darījumus.
+Darījumu kategorijas ataino projekta darījumu pamatgrupas, un tās neattiecas uz konkrētu uzņēmuma vai darījumu veidu. Piemēram, lai grupētu projekta darījumus, Contoso Robotics izmanto darījumu kategorijas Dizains, Transportēšana, Uzstādīšana un Apkope.
 
 Darījumu kategorijas tiek definētas Project Operations modulī. 
 1. Lai atvērtu veidlapu, dodieties uz **Iestatījumi** \> **Darījumu kategorijas**. 
