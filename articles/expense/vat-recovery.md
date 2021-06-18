@@ -2,18 +2,16 @@
 title: PVN atmaksa modulī Izdevumu pārvaldība
 description: Šajā tēmā ir izskaidrots, kā saņemt atmaksas par piemērotām pievienotās vērtības nodokļa (PVN) transakcijām.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1c7bd2cb3b200ef3be735484d4e831a7a5793d58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a840c808a76c96dd5f9dfb863c230801718c203c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275952"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001705"
 ---
 # <a name="vat-recovery-in-expense-management"></a>PVN atmaksa modulī Izdevumu pārvaldība
 
@@ -35,25 +33,25 @@ Pēc priekšnosacījumu izpildes ir jāveic tālāk norādītās darbības, lai 
 4. Nosūtiet PVN atmaksas datus trešās puses piegādātājam, lai iesniegtu starptautiskās atmaksas deklarācijas.
 5. Apstrādājiet izdevumus vietējai PVN atmaksai.
 
-Tālāk esošajās sadaļās ir sniegti piemēri, kas parāda, kā Contoso darbinieki izpilda katru darbību.
+Nākamajās sadaļās ir sniegti piemēri, kas parāda, kā Contoso darbinieki izpilda katru darbību.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Nodokļu informācijas ievadīšana par kredītkaršu transakcijām, lai norādītu piemērotas PVN atmaksas
 
-Rūta, Contoso pārdošanas pārstāve Amerikas Savienotajās valstīs, nesen atgriezās no pārdošanas ceļojuma uz Apvienoto Karalisti. Ceļojuma laikā Rūtai radās daži personīgie kredītkartes izdevumi par maltītēm. Rūtai tagad ir jāizveido izdevumu atskaite, lai saskaņotu izdevumus.
+Rūta, Contoso tirdzniecības pārstāve, kura darbojas ASV, nesen atgriezās no tirdzniecības brauciena uz Apvienoto Karalisti. Ceļojuma laikā Rūtai radās daži personīgie kredītkartes izdevumi par maltītēm. Rūtai tagad ir jāizveido izdevumu atskaite, lai saskaņotu izdevumus.
 
 Kad Rūta ievada informāciju izdevumu atskaitē, viņa lapas **Rediģēt izdevumu atskaiti** laukā **Valsts/reģions** atlasa **Apvienotā Karaliste**. Pēc tam PVN grupu saraksts tiek filtrēts tā, lai tajā tiktu rādītas tikai grupas, kas attiecas uz Apvienoto Karalisti. Rūta atlasa PVN grupu **Apvienotā Karaliste 001** un pēc tam atlasa krājumu PVN grupu **Maltītes**. Pēc tam Rūta pievieno jaunu transakciju par naktsmītni. Tā kā naktsmītnēm Apvienotajā Karalistē ir tikai viena PVN grupa un viena krājumu PVN grupa, šī informācija tiek automātiski aizpildīta Rūtas izdevumu atskaitē.
 
-Saskaņā ar Contoso politiku visiem izdevumiem ir jābūt atbilstošai kvītij. Tāpēc, kad Rūta saglabā izdevumu atskaiti, viņa saņem ziņojumu par to, ka viņai ir jāpievieno kvīts par katru viņas izdevumu atskaitē uzskaitīto transakciju. Rūta pārbauda, vai viņa izdevumu atskaitē ir pievienojusi katras transakcijas kvīts digitālo attēlu, un pēc tam iesniedz atskaiti apstiprināšanai. Pēc tam viņa nosūta papīra kvītis vadības apstrādes darba grupai. Šī darba grupa nosūtīs PVN atmaksas datus trešās puses piegādātājam, kas iesniedz Contoso starptautiskās PVN atmaksas deklarācijas.
+Saskaņā ar Contoso politiku visiem izdevumiem ir jābūt atbilstošai kvītij. Tāpēc, kad Rūta saglabā izdevumu atskaiti, viņa saņem ziņojumu par to, ka viņai ir jāpievieno kvīts par katru viņas izdevumu atskaitē uzskaitīto transakciju. Rūta pārbauda, vai viņa izdevumu atskaitē ir pievienojusi katras transakcijas kvīts digitālo attēlu, un pēc tam iesniedz atskaiti apstiprināšanai. Pēc tam viņa nosūta papīra kvītis vadības apstrādes darba grupai. Šī darba grupa nosūta PVN atmaksas datus trešās puses piegādātājam, kas iesniedz starptautiskās PVN atmaksas deklarācijas Contoso vārdā.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Nodokļu informācijas pārbaude un izdevumu atskaites grāmatošana
 
-Pirms Ieva, Contoso kreditoru koordinatore, var grāmatot izdevumu atskaiti, viņai ir jāievada tajā trūkstošā nodokļu informācija. Viņa atver lapu **Izdevumu atskaites informācija** un redz Rūtas apstiprināto izdevumu atskaiti. Pēc tam Ieva atver izdevumu atskaiti, lai skatītu informāciju par transakcijām. Viņa redz, ka Rūta nav ievadījusi krājumu PVN grupu vienai no transakcijām. Tā kā šī informācija nav sniegta, Ievas nevar grāmatot izdevumu atskaiti. Tāpēc viņa modulī Izdevumu pārvaldība apskata lapu **Nodokļu konfigurācijas** un atrod atbilstošo krājumu PVN grupu valstij/reģionam un transakcijas tipam. Tagad Ieva var grāmatot izdevumu atskaiti virsgrāmatā.
+Pirms Ieva, Contoso kreditoru koordinatore, var grāmatot izdevumu atskaiti, viņai ir jāievada visa tajā trūkstošā nodokļu informācija. Viņa atver lapu **Izdevumu atskaites informācija** un redz Rūtas apstiprināto izdevumu atskaiti. Pēc tam Ieva atver izdevumu atskaiti, lai skatītu informāciju par transakcijām. Viņa redz, ka Rūta nav ievadījusi krājumu PVN grupu vienai no transakcijām. Tā kā šī informācija nav sniegta, Ievas nevar grāmatot izdevumu atskaiti. Tāpēc viņa modulī Izdevumu pārvaldība apskata lapu **Nodokļu konfigurācijas** un atrod atbilstošo krājumu PVN grupu valstij/reģionam un transakcijas tipam. Tagad Ieva var grāmatot izdevumu atskaiti virsgrāmatā.
 
 Kad Ieva iegrāmato izdevumu atskaiti, tiek izveidots PVN atmaksas darba elements. Šis darba elements tiek piešķirts vadības apstrādes darba grupas dalībniekam. Ieva saņem ziņojumu, kas apstiprina, ka grāmatošana ir veiksmīga. Šajā ziņojumā ir norādīts arī to PVN transakciju skaits, kas tika identificētas atmaksai.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>To izdevumu apstrāde, kas ir piemēroti starptautiskajai PVN atmaksai
 
-Arnis, Contoso vadības apstrādes darba grupas dalībnieks, ir atbildīgs par to, lai pārbaudītu, vai izdevumu atskaitēs ir sniegta visa nepieciešamā informācija PVN atmaksai. Viņš atver lapu **Izdevumu nodokļu atmaksa** un atlasa Rūtas iesniegto izdevumu atskaiti. Pēc tam Arnis pārbauda, vai ir pievienotas visas nepieciešamās kvītis vai ir ievadīti pareizie PVN grupas un krājumu PVN kodi.
+Arnis, Contoso atbalsta nodaļas apstrādes darba grupas dalībnieks, atbild par to, lai tiktu verificēta visas PVN atgūšanai nepieciešamās informācijas esamība izdevumu atskaitēs. Viņš atver lapu **Izdevumu nodokļu atmaksa** un atlasa Rūtas iesniegto izdevumu atskaiti. Pēc tam Arnis pārbauda, vai ir pievienotas visas nepieciešamās kvītis vai ir ievadīti pareizie PVN grupas un krājumu PVN kodi.
 
 Kad Arnis saņem papīra kvītis no Rūtas, viņš tās salīdzina ar digitālajām kvītīm un pēc tam maina izdevumu atskaites statusu uz **Gatava atmaksai**.
 

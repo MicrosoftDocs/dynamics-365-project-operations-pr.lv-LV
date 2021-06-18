@@ -2,18 +2,16 @@
 title: Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service
 description: Šajā tēmā ir sniegta informācija par konfigurācijas datu iestatīšanu un lietošanu programmā Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289828"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001300"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service 
 
@@ -23,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda šādi priekšnosacījumi:
+Pirms varat sākt datu konfigurēšanu Common Data Service (CDS), ir jāizpilda tālāk norādītie priekšnosacījumi.
 
 1.  Nodrošināt CDS vidi un Dynamics 365 Finance vidi risinājumam Project Operations.
 2.  Informācija par juridiskajām entītijām no Dynamics 365 Finance tiek kopīgota ar CDS vidi. Tas nozīmē, ka entītijai **Uzņēmums** pakalpojumā CDS ir šādi uzņēmumu ieraksti:
@@ -33,7 +31,7 @@ Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda
 
 ## <a name="install-setup-and-configuration-data"></a>Iestatīšanas un konfigurācijas datu instalēšana
 
-1. Lejupielādējiet, atbloķējiet un izgūstiet no ZIP arhīva [iestatīšanas un konfigurācijas datu pakotni](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Lejupielādējiet, atbloķējiet un izgūstiet no ZIP arhīva [iestatīšanas un konfigurācijas datu pakotni](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Pārejiet uz mapi, kas izgūta no ZIP arhīva, un palaidiet izpildāmo failu *DataMigrationUtility*.
 3. Common Data Service Konfigurēšanas migrācijas (CMT) vedņa 1. lapā atlasiet vienumu **Importēt datus** un pēc tam vienumu **Turpināt**.
 
@@ -57,13 +55,20 @@ Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda
 ![Importēt datus](./media/5ImportData.png)
 
 10. Atkarībā no tīkla ātruma importēšanas darbība notiek apmēram divas līdz desmit minūtes. Pēc importēšanas pabeigšanas izejiet no CMT vedņa. 
-11. Pārbaudiet savas organizācijas datus šajās 19 entītijās:
+11. Pārbaudiet savas organizācijas datus šajās 26 entītijās:
 
   - Valūta
+  - Uzņēmumu tabula
+  - Finanšu kalendārs
+  - Valūtas maiņas kursu tipi
+  - Maksājuma diena
+  - Maksājumu grafiks
+  - Maksājuma termiņš
   - Organizācijas vienība
-  - Kontaktinformācija
+  - Kontaktpersona
   - Nodokļu grupa
   - Klientu grupa
+  - Piegādātāju grupa
   - Vienība
   - Vienību grupa
   - Cenrādis

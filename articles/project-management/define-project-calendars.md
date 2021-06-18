@@ -2,11 +2,9 @@
 title: Projekta kalendāru definēšana
 description: Šajā tēmā ir sniegta informācija par to, kā projektam lietot kalendāra veidni, lai sekotu līdzi projekta grafikam.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981309"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999005"
 ---
 # <a name="define-project-calendars"></a>Projekta kalendāru definēšana
 
@@ -48,7 +46,7 @@ Lai organizācijai izveidotu kalendāra veidni, ir divas galvenās prasības:
 
 1. Atveriet sadaļu **Resursi** \> **Resursi.**
 2. Izveidojiet jaunu resursu atsaucei kalendāra veidnē vai atlasiet esošu resursu.
-3. Atlasiet resursa cilni **Darba stundas** un izpildiet sadaļā [Resursa darba stundu iestatīšana](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) sniegtos norādījumus, lai konfigurētu kalendāra kārtulas.
+3. Atlasiet resursa cilni **Darba stundas** un izpildiet sadaļā [Resursa darba stundu iestatīšana](/dynamics365/field-service/set-work-hours-resource.md) sniegtos norādījumus, lai konfigurētu kalendāra kārtulas.
 
 **Jaunas kalendāra veidnes izveide**
 
