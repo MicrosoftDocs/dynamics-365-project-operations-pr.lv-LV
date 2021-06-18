@@ -2,18 +2,16 @@
 title: Demonstrācijas iestatīšanas un konfigurācijas datu lietošana — Lite
 description: Šajā tēmā ir sniegta informācija par demonstrācijas iestatīšanas un konfigurācijas datu lietošanu programmai Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290143"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997160"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demonstrācijas iestatīšanas un konfigurācijas datu lietošana lietojumprogrammā Project Operations — Lite 
 
@@ -28,8 +26,8 @@ Pirms konfigurēšanas sākšanas ir nepieciešama Common Data Service (CDS) vid
 
 ## <a name="instructions"></a>Norādījumi
 
-1. Lejupielādējiet [Galveno datu pakotni](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Pārejiet uz mapi *ProjOpsDemoDataSetupAndMaster - Integrated CMT* un palaidiet izpildāmo failu *DataMigrationUtility*.
+1. Lejupielādējiet [Galveno datu pakotni](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Pārejiet uz mapi *ProjOpsSampleSetupData - CE only CMT* un palaidiet izpildāmo failu *DataMigrationUtility*.
 3. Common Data Service Konfigurēšanas migrācijas (CMT) vedņa 1. lapā atlasiet vienumu **Importēt datus** un pēc tam vienumu **Turpināt**.
 
     ![Konfigurāciju migrēšana](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ Pirms konfigurēšanas sākšanas ir nepieciešama Common Data Service (CDS) vid
    ![Konfigurācijas pierakstīšanās](./media/2ConfigurationSignin.png)
 
 7. 3. lappusē Nomnieka Organizāciju sarakstā atlasiet, kurā organizācijā vēlaties importēt demonstrācijas datus, un pēc tam atlasiet **Pieteikties**.
-8. 4. lappusē no izpakotās mapes *ProjOpsDemoDataSetupAndMaster - Integrated CMT* atlasiet zip failu *MasterAndSetupData*.
+8. 4. lapā atlasiet zip failu *SampleSetupAndConfigData* no neizpakotās mapes *ProjOpsSampleSetupData - CE only CMT*.
 
    ![Tilpsaspiestais fails](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ Pirms konfigurēšanas sākšanas ir nepieciešama Common Data Service (CDS) vid
    ![Importēt datus](./media/5ImportData.png)
 
 10. Atkarībā no tīkla ātruma importēšanas darbība notiek apmēram divas līdz desmit minūtes. Pēc pabeigšanas izejiet no CMT vedņa. 
-11. Pārbaudiet savas organizācijas datus šajās 20 entītijās:
+11. Pārbaudiet savas organizācijas datus šajās 18 entītijās:
 
     -   Valūta
     -   Konts

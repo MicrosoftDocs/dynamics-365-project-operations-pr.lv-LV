@@ -2,8 +2,6 @@
 title: Darba stundu veidnes izveide
 description: Šajā tēmā ir aprakstīts, kā izveidot darba stundu veidni programmā Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981264"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997205"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Darba stundu veidnes izveide (Project Service)
 
@@ -51,7 +49,7 @@ Lai organizācijai izveidotu kalendāra veidni, ir divas galvenās prasības:
 
 1. Atveriet sadaļu **Resursi** \> **Resursi.**
 2. Izveidojiet jaunu resursu atsaucei kalendāra veidnē vai atlasiet esošu resursu.
-3. Atlasiet resursa cilni **Darba stundas** un izpildiet sadaļā [Resursa darba stundu iestatīšana](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) sniegtos norādījumus, lai konfigurētu kalendāra kārtulas.
+3. Atlasiet resursa cilni **Darba stundas** un izpildiet sadaļā [Resursa darba stundu iestatīšana](/dynamics365/field-service/set-work-hours-resource.md) sniegtos norādījumus, lai konfigurētu kalendāra kārtulas.
 
 **Jaunas kalendāra veidnes izveide**
 
