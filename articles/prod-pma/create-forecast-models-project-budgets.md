@@ -2,11 +2,9 @@
 title: Projekta budžetu prognožu modeļu izveide
 description: Šajā tēmā aprakstīts, kā izveidot prognožu modeli atlikušajiem budžetiem.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3549b41fce72b44230ab27de081dade15a912266
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271047"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006297"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Projekta budžetu prognožu modeļu izveide 
 

@@ -2,19 +2,17 @@
 title: Cenu noteikšanas dimensiju pārskats
 description: Šajā tēmā ir sniegta informācija par cenu noteikšanas dimensijām risinājumā Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275412"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004990"
 ---
 # <a name="pricing-dimensions-overview"></a>Cenu noteikšanas dimensiju pārskats
 
@@ -59,18 +57,18 @@ Nākamajā piemērā ir parādītas norēķinu likmes, kas ir iestatītas, pamat
 
 **Piemēra norēķinu likmes**
 
-| Loma        | Org. struktūrvienība    |Vienība      |Cena      |Valūta  |
+| Loma        | Org. struktūrvienība    |Vienība      |Cenrādis      |Valūta  |
 | ------------|-------------|----------|----------:|----------|
-| Izstrādātājiem   | Contoso ASV  |Hour | 200|USD     |
-| Izstrādātājiem   | Contoso India |Hour|   112|USD     |
+| Izstrādātājiem   | Contoso US  |stunda | 200|USD     |
+| Izstrādātājiem   | Contoso India |stunda|   112|USD     |
 
 
 **Piemēra izmaksu likmes**
 
-| Algu grupa     | Org. struktūrvienība    |Vienība      |Cena      |Valūta  |
+| Algu grupa     | Org. struktūrvienība    |Vienība      |Cenrādis      |Valūta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mana company_Band1 | Contoso ASV  |Hour | 145|USD     |
-| Mana company_Band2 | Contoso India |Hour|   67|USD     |
+| Mana company_Band1 | Contoso US  |stunda | 145|USD     |
+| Mana company_Band2 | Contoso India |stunda|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
