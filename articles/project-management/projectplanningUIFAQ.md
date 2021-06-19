@@ -2,110 +2,108 @@
 title: Problēmu novēršana, strādājot ar uzdevuma režģi
 description: Šajā tēmā sniegta informācija par problēmu novēršanu, kura ir nepieciešama, strādājot uzdevumu režģī.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286572"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213409"
 ---
-# <a name="troubleshoot-working-in-the-task-grid"></a><span data-ttu-id="69a5f-103">Problēmu novēršana, strādājot ar uzdevuma režģi</span><span class="sxs-lookup"><span data-stu-id="69a5f-103">Troubleshoot working in the Task grid</span></span> 
+# <a name="troubleshoot-working-in-the-task-grid"></a><span data-ttu-id="2e1bd-103">Problēmu novēršana, strādājot ar uzdevuma režģi</span><span class="sxs-lookup"><span data-stu-id="2e1bd-103">Troubleshoot working in the Task grid</span></span> 
 
-<span data-ttu-id="69a5f-104">_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_</span><span class="sxs-lookup"><span data-stu-id="69a5f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="2e1bd-104">_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_</span><span class="sxs-lookup"><span data-stu-id="2e1bd-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="69a5f-105">Šajā tēmā aprakstīts, kā novērst problēmas, ar kurām, iespējams, saskarsities, strādājot ar izmaksu pārvaldību.</span><span class="sxs-lookup"><span data-stu-id="69a5f-105">This topic describes how to fix issues that you might encounter while working with cost management.</span></span>
+<span data-ttu-id="2e1bd-105">Šajā tēmā aprakstīts, kā novērst problēmas, ar kurām, iespējams, saskarsities, strādājot ar izmaksu pārvaldību.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-105">This topic describes how to fix issues that you might encounter while working with cost management.</span></span>
 
-## <a name="enable-cookies"></a><span data-ttu-id="69a5f-106">Sīkfaili iespējoti</span><span class="sxs-lookup"><span data-stu-id="69a5f-106">Enable cookies</span></span>
+## <a name="enable-cookies"></a><span data-ttu-id="2e1bd-106">Sīkfaili iespējoti</span><span class="sxs-lookup"><span data-stu-id="2e1bd-106">Enable cookies</span></span>
 
-<span data-ttu-id="69a5f-107">Project Operations ir nepieciešams, lai būtu iespējoti trešo pušu sīkfaili, lai atveidotu darba sadalījuma struktūru.</span><span class="sxs-lookup"><span data-stu-id="69a5f-107">Project Operations requires that third-party cookies be enabled in order to render the work breakdown structure.</span></span> <span data-ttu-id="69a5f-108">Ja nav iespējoti trešo pušu sīkfaili, jūs redzēsit nevis uzdevumus, bet gan tukšu lapu, ja lapā **Projekts** atlasīsit cilni **Uzdevumi**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-108">When third-party cookies aren't enabled, instead of seeing tasks, you will see a blank page when you select the **Tasks** tab on the **Project** page.</span></span>
+<span data-ttu-id="2e1bd-107">Project Operations ir nepieciešams, lai būtu iespējoti trešo pušu sīkfaili, lai atveidotu darba sadalījuma struktūru.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-107">Project Operations requires that third-party cookies be enabled in order to render the work breakdown structure.</span></span> <span data-ttu-id="2e1bd-108">Ja nav iespējoti trešo pušu sīkfaili, jūs redzēsit nevis uzdevumus, bet gan tukšu lapu, ja lapā **Projekts** atlasīsit cilni **Uzdevumi**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-108">When third-party cookies aren't enabled, instead of seeing tasks, you will see a blank page when you select the **Tasks** tab on the **Project** page.</span></span>
 
 ![Tukša cilne, ja nav iespējoti trešo pušu sīkfaili](media/blankschedule.png)
 
 
-### <a name="workaround"></a><span data-ttu-id="69a5f-110">Risinājums</span><span class="sxs-lookup"><span data-stu-id="69a5f-110">Workaround</span></span>
-<span data-ttu-id="69a5f-111">Microsoft Edge vai Google Chrome pārlūkiem šīs procedūras izklāsta, kā atjaunināt pārlūka iestatījumu, lai iespējotu trešo pušu sīkfailus.</span><span class="sxs-lookup"><span data-stu-id="69a5f-111">For Microsoft Edge or Google Chrome browsers, the following procedures outline how to update your browser setting to enable third-party cookies.</span></span>
+### <a name="workaround"></a><span data-ttu-id="2e1bd-110">Risinājums</span><span class="sxs-lookup"><span data-stu-id="2e1bd-110">Workaround</span></span>
+<span data-ttu-id="2e1bd-111">Microsoft Edge vai Google Chrome pārlūkiem šīs procedūras izklāsta, kā atjaunināt pārlūka iestatījumu, lai iespējotu trešo pušu sīkfailus.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-111">For Microsoft Edge or Google Chrome browsers, the following procedures outline how to update your browser setting to enable third-party cookies.</span></span>
 
-#### <a name="microsoft-edge"></a><span data-ttu-id="69a5f-112">Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="69a5f-112">Microsoft Edge</span></span>
+#### <a name="microsoft-edge"></a><span data-ttu-id="2e1bd-112">Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="2e1bd-112">Microsoft Edge</span></span>
 
-1. <span data-ttu-id="69a5f-113">Atveriet pārlūkprogrammu Edge.</span><span class="sxs-lookup"><span data-stu-id="69a5f-113">Open your Edge browser.</span></span>
-2. <span data-ttu-id="69a5f-114">Augšējā labajā stūrī atlasiet **daudzpunkti** (...) un pēc tam atlasiet **Iestatījumi**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-114">In the upper-right corner, select the **ellipsis** (...), and then select **Settings**.</span></span>
-3. <span data-ttu-id="69a5f-115">Sadaļā **Sīkfaili un vietnes atļaujas** atlasiet **Sīkfaili un vietnes dati**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-115">Under **Cookies and site permissions**, select **Cookies and site data**.</span></span>
-4. <span data-ttu-id="69a5f-116">Izslēdziet opciju **Bloķēt trešās puses sīkfailus**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-116">Turn off **Block third-party cookies**.</span></span>
+1. <span data-ttu-id="2e1bd-113">Atveriet pārlūkprogrammu Edge.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-113">Open your Edge browser.</span></span>
+2. <span data-ttu-id="2e1bd-114">Augšējā labajā stūrī atlasiet **daudzpunkti** (...) un pēc tam atlasiet **Iestatījumi**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-114">In the upper-right corner, select the **ellipsis** (...), and then select **Settings**.</span></span>
+3. <span data-ttu-id="2e1bd-115">Sadaļā **Sīkfaili un vietnes atļaujas** atlasiet **Sīkfaili un vietnes dati**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-115">Under **Cookies and site permissions**, select **Cookies and site data**.</span></span>
+4. <span data-ttu-id="2e1bd-116">Izslēdziet opciju **Bloķēt trešās puses sīkfailus**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-116">Turn off **Block third-party cookies**.</span></span>
 
-#### <a name="google-chrome"></a><span data-ttu-id="69a5f-117">Google Chrome</span><span class="sxs-lookup"><span data-stu-id="69a5f-117">Google Chrome</span></span>
+#### <a name="google-chrome"></a><span data-ttu-id="2e1bd-117">Google Chrome</span><span class="sxs-lookup"><span data-stu-id="2e1bd-117">Google Chrome</span></span>
 
-1. <span data-ttu-id="69a5f-118">Atveriet pārlūkprogrammu Chrome.</span><span class="sxs-lookup"><span data-stu-id="69a5f-118">Open your Chrome browser.</span></span>
-2. <span data-ttu-id="69a5f-119">Augšējā labajā stūrī atlasiet trīs vertikālus punktus un pēc tam atlasiet **Iestatījumi**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-119">In the upper-right corner, select the three vertical dots, and then select **Settings**.</span></span>
-3. <span data-ttu-id="69a5f-120">Sadaļā **Privātums un drošība** atlasiet **Sīkfaili un citi vietnes dati**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-120">Under **Privacy and security**, select **Cookies and other site data**.</span></span>
-4. <span data-ttu-id="69a5f-121">Atlasiet **Atļaut visus sīkfailus**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-121">Select **Allow all cookies**.</span></span>
+1. <span data-ttu-id="2e1bd-118">Atveriet pārlūkprogrammu Chrome.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-118">Open your Chrome browser.</span></span>
+2. <span data-ttu-id="2e1bd-119">Augšējā labajā stūrī atlasiet trīs vertikālus punktus un pēc tam atlasiet **Iestatījumi**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-119">In the upper-right corner, select the three vertical dots, and then select **Settings**.</span></span>
+3. <span data-ttu-id="2e1bd-120">Sadaļā **Privātums un drošība** atlasiet **Sīkfaili un citi vietnes dati**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-120">Under **Privacy and security**, select **Cookies and other site data**.</span></span>
+4. <span data-ttu-id="2e1bd-121">Atlasiet **Atļaut visus sīkfailus**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-121">Select **Allow all cookies**.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="69a5f-122">Ja bloķējat trešo pušu sīkfailus, tiks bloķēti visi sīkfaili un vietnes dati no citām vietnēm pat, ja vietne ir atļauta jūsu izņēmumu sarakstā.</span><span class="sxs-lookup"><span data-stu-id="69a5f-122">If you block third-party cookies, all cookies and site data from other sites will be blocked, even if the site is allowed on your exceptions list.</span></span>
+> <span data-ttu-id="2e1bd-122">Ja bloķējat trešo pušu sīkfailus, tiks bloķēti visi sīkfaili un vietnes dati no citām vietnēm pat, ja vietne ir atļauta jūsu izņēmumu sarakstā.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-122">If you block third-party cookies, all cookies and site data from other sites will be blocked, even if the site is allowed on your exceptions list.</span></span>
 
-## <a name="pex-endpoint"></a><span data-ttu-id="69a5f-123">PEX galapunkts</span><span class="sxs-lookup"><span data-stu-id="69a5f-123">PEX Endpoint</span></span>
+## <a name="pex-endpoint"></a><span data-ttu-id="2e1bd-123">PEX galapunkts</span><span class="sxs-lookup"><span data-stu-id="2e1bd-123">PEX Endpoint</span></span>
 
-<span data-ttu-id="69a5f-124">Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu.</span><span class="sxs-lookup"><span data-stu-id="69a5f-124">Project Operations requires that a project parameter reference the PEX Endpoint.</span></span> <span data-ttu-id="69a5f-125">Šis galapunkts ir nepieciešams, lai sazinātos ar servisu, kas tiek izmantots darba sadalījuma struktūras atveidošanas nolūkam.</span><span class="sxs-lookup"><span data-stu-id="69a5f-125">This endpoint is required to communicate with the service used to render the work breakdown structure.</span></span> <span data-ttu-id="69a5f-126">Ja parametrs nav iespējots, saņemsit kļūdu "Projekta parametrs nav derīgs".</span><span class="sxs-lookup"><span data-stu-id="69a5f-126">If the parameter isn't enabled, you will receive the error, "The project parameter is not valid".</span></span> 
+<span data-ttu-id="2e1bd-124">Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-124">Project Operations requires that a project parameter reference the PEX Endpoint.</span></span> <span data-ttu-id="2e1bd-125">Šis galapunkts ir nepieciešams, lai sazinātos ar servisu, kas tiek izmantots darba sadalījuma struktūras atveidošanas nolūkam.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-125">This endpoint is required to communicate with the service used to render the work breakdown structure.</span></span> <span data-ttu-id="2e1bd-126">Ja parametrs nav iespējots, saņemsit kļūdu "Projekta parametrs nav derīgs".</span><span class="sxs-lookup"><span data-stu-id="2e1bd-126">If the parameter isn't enabled, you will receive the error, "The project parameter is not valid".</span></span> 
 
-### <a name="workaround"></a><span data-ttu-id="69a5f-127">Risinājums</span><span class="sxs-lookup"><span data-stu-id="69a5f-127">Workaround</span></span>
+### <a name="workaround"></a><span data-ttu-id="2e1bd-127">Risinājums</span><span class="sxs-lookup"><span data-stu-id="2e1bd-127">Workaround</span></span>
  ![Projekta parametra lauks PEX galapunkts](media/projectparameter.png)
 
-1. <span data-ttu-id="69a5f-129">Pievienojiet **PEX galapunkta** lauku **Projekta parametru** lapai.</span><span class="sxs-lookup"><span data-stu-id="69a5f-129">Add the **PEX Endpoint** field to the **Project Parameters** page.</span></span>
-2. <span data-ttu-id="69a5f-130">Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`</span><span class="sxs-lookup"><span data-stu-id="69a5f-130">Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`</span></span>
-3. <span data-ttu-id="69a5f-131">Noņemiet lauku no **Projekta parametru** lapas.</span><span class="sxs-lookup"><span data-stu-id="69a5f-131">Remove the field from the **Project Parameters** page.</span></span>
+1. <span data-ttu-id="2e1bd-129">Pievienojiet **PEX galapunkta** lauku **Projekta parametru** lapai.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-129">Add the **PEX Endpoint** field to the **Project Parameters** page.</span></span>
+2. <span data-ttu-id="2e1bd-130">Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`</span><span class="sxs-lookup"><span data-stu-id="2e1bd-130">Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`</span></span>
+3. <span data-ttu-id="2e1bd-131">Noņemiet lauku no **Projekta parametru** lapas.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-131">Remove the field from the **Project Parameters** page.</span></span>
 
-## <a name="privileges-for-project-for-the-web"></a><span data-ttu-id="69a5f-132">Projekta atļaujas tīmeklī</span><span class="sxs-lookup"><span data-stu-id="69a5f-132">Privileges for Project for the Web</span></span>
+## <a name="privileges-for-project-for-the-web"></a><span data-ttu-id="2e1bd-132">Projekta atļaujas tīmeklī</span><span class="sxs-lookup"><span data-stu-id="2e1bd-132">Privileges for Project for the Web</span></span>
 
-<span data-ttu-id="69a5f-133">Project Operations ir atkarīgs no ārēja plānošanas servisa.</span><span class="sxs-lookup"><span data-stu-id="69a5f-133">Project Operations relies on an external scheduling service.</span></span> <span data-ttu-id="69a5f-134">Šim servisam ir nepieciešams, ka lietotājam ir piešķiras vairākas lomas lasīt un rakstīt entitījās, kas saistītas ar darba sadalījuma struktūru.</span><span class="sxs-lookup"><span data-stu-id="69a5f-134">The service requires that a user have several roles assigned to read and write to entities related to the work breakdown structure.</span></span> <span data-ttu-id="69a5f-135">Šīs entitījas ietver projekta uzdevumus, resursu piešķiri un uzdevumu atkarības.</span><span class="sxs-lookup"><span data-stu-id="69a5f-135">These entities include project tasks, resource assignments, and task dependencies.</span></span> <span data-ttu-id="69a5f-136">Ja lietotājs nevar atveidot darba sadalījuma struktūru, dodoties uz cilni **Uzdevumi**, tas visdrīzāk ir tāpēc, ka nav iespējots Project Operations projekts.</span><span class="sxs-lookup"><span data-stu-id="69a5f-136">If a user can't render the work breakdown structure when they go to the **Tasks** tab, it's probably because Project for Project Operations hasn't been enabled.</span></span> <span data-ttu-id="69a5f-137">Lietotājs var saņemt vai nu drošības lomas kļūdu vai kļūdu, kas saistīta ar piekļuves liegumu.</span><span class="sxs-lookup"><span data-stu-id="69a5f-137">A user might receive either a security role error, or an error related to a denial of access.</span></span>
+<span data-ttu-id="2e1bd-133">Project Operations ir atkarīgs no ārēja plānošanas servisa.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-133">Project Operations relies on an external scheduling service.</span></span> <span data-ttu-id="2e1bd-134">Šim servisam ir nepieciešams, ka lietotājam ir piešķiras vairākas lomas lasīt un rakstīt entitījās, kas saistītas ar darba sadalījuma struktūru.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-134">The service requires that a user have several roles assigned to read and write to entities related to the work breakdown structure.</span></span> <span data-ttu-id="2e1bd-135">Šīs entitījas ietver projekta uzdevumus, resursu piešķiri un uzdevumu atkarības.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-135">These entities include project tasks, resource assignments, and task dependencies.</span></span> <span data-ttu-id="2e1bd-136">Ja lietotājs nevar atveidot darba sadalījuma struktūru, dodoties uz cilni **Uzdevumi**, tas visdrīzāk ir tāpēc, ka nav iespējots Project Operations projekts.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-136">If a user can't render the work breakdown structure when they go to the **Tasks** tab, it's probably because Project for Project Operations hasn't been enabled.</span></span> <span data-ttu-id="2e1bd-137">Lietotājs var saņemt vai nu drošības lomas kļūdu vai kļūdu, kas saistīta ar piekļuves liegumu.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-137">A user might receive either a security role error, or an error related to a denial of access.</span></span>
 
 
-## <a name="workaround"></a><span data-ttu-id="69a5f-138">Risinājums</span><span class="sxs-lookup"><span data-stu-id="69a5f-138">Workaround</span></span>
+## <a name="workaround"></a><span data-ttu-id="2e1bd-138">Risinājums</span><span class="sxs-lookup"><span data-stu-id="2e1bd-138">Workaround</span></span>
 
-1. <span data-ttu-id="69a5f-139">Dodieties uz **Iestatījumi > Drošība > Lietotāji > Programmas lietotāji**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-139">Go to **Setting > Security > Users > Application Users**.</span></span>  
+1. <span data-ttu-id="2e1bd-139">Dodieties uz **Iestatījumi > Drošība > Lietotāji > Programmas lietotāji**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-139">Go to **Setting > Security > Users > Application Users**.</span></span>  
 
    ![Lietojumprogrammas lasītājs](media/applicationuser.jpg)
    
-2. <span data-ttu-id="69a5f-141">Veiciet dubultklikšķi uz lietojumprogrammas lietotāja ieraksta, lai pārbaudītu tālāk norādīto.</span><span class="sxs-lookup"><span data-stu-id="69a5f-141">Double-click the application user record to verify the following:</span></span>
+2. <span data-ttu-id="2e1bd-141">Veiciet dubultklikšķi uz lietojumprogrammas lietotāja ieraksta, lai pārbaudītu tālāk norādīto.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-141">Double-click the application user record to verify the following:</span></span>
 
- - <span data-ttu-id="69a5f-142">Lietotājam ir piekļuve projektam.</span><span class="sxs-lookup"><span data-stu-id="69a5f-142">The user has access to the project.</span></span> <span data-ttu-id="69a5f-143">Šo pārbaudi parasti veic, nodrošinot, ka lietotājam ir drošības loma **Projekta vadītājs**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-143">This verification is typically done by ensuring that the user has **Project Manager** security role.</span></span>
- - <span data-ttu-id="69a5f-144">Microsoft Project lietojumprogrammas lietotājs pastāv un ir pareizi konfigurēts.</span><span class="sxs-lookup"><span data-stu-id="69a5f-144">The Microsoft Project application user exists and is configured correctly.</span></span>
+ - <span data-ttu-id="2e1bd-142">Lietotājam ir piekļuve projektam.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-142">The user has access to the project.</span></span> <span data-ttu-id="2e1bd-143">Šo pārbaudi parasti veic, nodrošinot, ka lietotājam ir drošības loma **Projekta vadītājs**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-143">This verification is typically done by ensuring that the user has **Project Manager** security role.</span></span>
+ - <span data-ttu-id="2e1bd-144">Microsoft Project lietojumprogrammas lietotājs pastāv un ir pareizi konfigurēts.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-144">The Microsoft Project application user exists and is configured correctly.</span></span>
  
-3. <span data-ttu-id="69a5f-145">Ja šis lietotājs nepastāv, varat izveidot jauna lietotāja ierakstu.</span><span class="sxs-lookup"><span data-stu-id="69a5f-145">If this user doesn't exist, you can create a new user record.</span></span> <span data-ttu-id="69a5f-146">Atlasiet **Jauni lietotāji**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-146">Select **New Users**.</span></span> <span data-ttu-id="69a5f-147">Mainiet ievades veidlapu uz **Lietojumprogrammas lietotājs** un pēc tam pievienojiet **Lietojumprogrammas ID**.</span><span class="sxs-lookup"><span data-stu-id="69a5f-147">Change the entry form to **Application User**, and then add the **Application ID**.</span></span>
+3. <span data-ttu-id="2e1bd-145">Ja šis lietotājs nepastāv, varat izveidot jauna lietotāja ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-145">If this user doesn't exist, you can create a new user record.</span></span> <span data-ttu-id="2e1bd-146">Atlasiet **Jauni lietotāji**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-146">Select **New Users**.</span></span> <span data-ttu-id="2e1bd-147">Mainiet ievades veidlapu uz **Lietojumprogrammas lietotājs** un pēc tam pievienojiet **Lietojumprogrammas ID**.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-147">Change the entry form to **Application User**, and then add the **Application ID**.</span></span>
 
    ![Lietojumprogrammas lietotāja informācija](media/applicationuserdetails.jpg)
 
-4. <span data-ttu-id="69a5f-149">Pārbaudiet, vai lietotājam ir piešķirta pareizā licence un vai serviss ir iespējots licences servisa plānu informācijā.</span><span class="sxs-lookup"><span data-stu-id="69a5f-149">Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.</span></span>
-5. <span data-ttu-id="69a5f-150">Pārbaudiet, vai lietotājs var atvērt project.microsoft.com.</span><span class="sxs-lookup"><span data-stu-id="69a5f-150">Verify that the user can open project.microsoft.com.</span></span>
-6. <span data-ttu-id="69a5f-151">Ar projekta parametriem pārbaudiet, vai sistēma norāda uz pareizo projekta galapunktu.</span><span class="sxs-lookup"><span data-stu-id="69a5f-151">Verify through the project parameters that the system is pointing to the correct project endpoint.</span></span>
-7. <span data-ttu-id="69a5f-152">Pārbaudiet, vai ir izveidots projekta lietojumprogrammas lietotājs.</span><span class="sxs-lookup"><span data-stu-id="69a5f-152">Verify that the project application user is created.</span></span>
-8. <span data-ttu-id="69a5f-153">Piemērojiet lietotājam šādas drošības lomas:</span><span class="sxs-lookup"><span data-stu-id="69a5f-153">Apply the following security roles to the user:</span></span>
+4. <span data-ttu-id="2e1bd-149">Pārbaudiet, vai lietotājam ir piešķirta pareizā licence un vai serviss ir iespējots licences servisa plānu informācijā.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-149">Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.</span></span>
+5. <span data-ttu-id="2e1bd-150">Pārbaudiet, vai lietotājs var atvērt project.microsoft.com.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-150">Verify that the user can open project.microsoft.com.</span></span>
+6. <span data-ttu-id="2e1bd-151">Ar projekta parametriem pārbaudiet, vai sistēma norāda uz pareizo projekta galapunktu.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-151">Verify through the project parameters that the system is pointing to the correct project endpoint.</span></span>
+7. <span data-ttu-id="2e1bd-152">Pārbaudiet, vai ir izveidots projekta lietojumprogrammas lietotājs.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-152">Verify that the project application user is created.</span></span>
+8. <span data-ttu-id="2e1bd-153">Piemērojiet lietotājam šādas drošības lomas:</span><span class="sxs-lookup"><span data-stu-id="2e1bd-153">Apply the following security roles to the user:</span></span>
 
-  - <span data-ttu-id="69a5f-154">Dataverse lietotājs</span><span class="sxs-lookup"><span data-stu-id="69a5f-154">Dataverse User</span></span>
-  - <span data-ttu-id="69a5f-155">Project Operations sistēma</span><span class="sxs-lookup"><span data-stu-id="69a5f-155">Project Operations System</span></span>
-  - <span data-ttu-id="69a5f-156">Projekta sistēma</span><span class="sxs-lookup"><span data-stu-id="69a5f-156">Project System</span></span>
+  - <span data-ttu-id="2e1bd-154">Dataverse lietotājs</span><span class="sxs-lookup"><span data-stu-id="2e1bd-154">Dataverse User</span></span>
+  - <span data-ttu-id="2e1bd-155">Project Operations sistēma</span><span class="sxs-lookup"><span data-stu-id="2e1bd-155">Project Operations System</span></span>
+  - <span data-ttu-id="2e1bd-156">Projekta sistēma</span><span class="sxs-lookup"><span data-stu-id="2e1bd-156">Project System</span></span>
 
-## <a name="error-when-updating-the-work-breakdown-structure"></a><span data-ttu-id="69a5f-157">Kļūda, atjauninot darba sadalījuma struktūru</span><span class="sxs-lookup"><span data-stu-id="69a5f-157">Error when updating the work breakdown structure</span></span>
+## <a name="error-when-updating-the-work-breakdown-structure"></a><span data-ttu-id="2e1bd-157">Kļūda, atjauninot darba sadalījuma struktūru</span><span class="sxs-lookup"><span data-stu-id="2e1bd-157">Error when updating the work breakdown structure</span></span>
 
-<span data-ttu-id="69a5f-158">Ja darba sadalījuma struktūrai tiek izdarīts viens vai vairāki atjauninājumi, izmaiņas beigās neizdodas un netiek saglabātas.</span><span class="sxs-lookup"><span data-stu-id="69a5f-158">When one or more updates are made to the work breakdown structure, the changes eventually fail and aren't saved.</span></span> <span data-ttu-id="69a5f-159">Grafika režģī rodas kļūda, ziņojot ka "Jūsu veiktās pēdējās izmaiņas nevarēja saglabāt."</span><span class="sxs-lookup"><span data-stu-id="69a5f-159">An error occurs in the schedule grid noting that “Recent change you’ve made couldn’t be saved.”</span></span>
+<span data-ttu-id="2e1bd-158">Ja darba sadalījuma struktūrai tiek izdarīts viens vai vairāki atjauninājumi, izmaiņas beigās neizdodas un netiek saglabātas.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-158">When one or more updates are made to the work breakdown structure, the changes eventually fail and aren't saved.</span></span> <span data-ttu-id="2e1bd-159">Grafika režģī rodas kļūda, ziņojot ka "Jūsu veiktās pēdējās izmaiņas nevarēja saglabāt."</span><span class="sxs-lookup"><span data-stu-id="2e1bd-159">An error occurs in the schedule grid noting that “Recent change you’ve made couldn’t be saved.”</span></span>
 
-### <a name="workaround"></a><span data-ttu-id="69a5f-160">Risinājums</span><span class="sxs-lookup"><span data-stu-id="69a5f-160">Workaround</span></span>
+### <a name="workaround"></a><span data-ttu-id="2e1bd-160">Risinājums</span><span class="sxs-lookup"><span data-stu-id="2e1bd-160">Workaround</span></span>
 
-1. <span data-ttu-id="69a5f-161">Pārbaudiet, vai lietotājam ir piešķirta pareizā licence un vai serviss ir iespējots licences servisa plānu informācijā.</span><span class="sxs-lookup"><span data-stu-id="69a5f-161">Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.</span></span>
-2. <span data-ttu-id="69a5f-162">Pārbaudiet, vai lietotājs var atvērt project.microsoft.com.</span><span class="sxs-lookup"><span data-stu-id="69a5f-162">Verify that the user can open project.microsoft.com.</span></span>
-3. <span data-ttu-id="69a5f-163">Pārbaudiet, vai sistēma norāda uz pareizo projekta galapunktu.</span><span class="sxs-lookup"><span data-stu-id="69a5f-163">Verify that the system is pointing to the correct project endpoint,.</span></span>
-4. <span data-ttu-id="69a5f-164">Pārbaudiet, vai ir izveidots projekta lietojumprogrammas lietotājs.</span><span class="sxs-lookup"><span data-stu-id="69a5f-164">Verify that the Project Application user has been created.</span></span>
-5. <span data-ttu-id="69a5f-165">Piemērojiet lietotājam šādas drošības lomas:</span><span class="sxs-lookup"><span data-stu-id="69a5f-165">Apply the following security roles to the user:</span></span>
+1. <span data-ttu-id="2e1bd-161">Pārbaudiet, vai lietotājam ir piešķirta pareizā licence un vai serviss ir iespējots licences servisa plānu informācijā.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-161">Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.</span></span>
+2. <span data-ttu-id="2e1bd-162">Pārbaudiet, vai lietotājs var atvērt project.microsoft.com.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-162">Verify that the user can open project.microsoft.com.</span></span>
+3. <span data-ttu-id="2e1bd-163">Pārbaudiet, vai sistēma norāda uz pareizo projekta galapunktu.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-163">Verify that the system is pointing to the correct project endpoint,.</span></span>
+4. <span data-ttu-id="2e1bd-164">Pārbaudiet, vai ir izveidots projekta lietojumprogrammas lietotājs.</span><span class="sxs-lookup"><span data-stu-id="2e1bd-164">Verify that the Project Application user has been created.</span></span>
+5. <span data-ttu-id="2e1bd-165">Piemērojiet lietotājam šādas drošības lomas:</span><span class="sxs-lookup"><span data-stu-id="2e1bd-165">Apply the following security roles to the user:</span></span>
   
-  - <span data-ttu-id="69a5f-166">Dataverse lietotājs vai Base lietotājs</span><span class="sxs-lookup"><span data-stu-id="69a5f-166">Dataverse user or Base user</span></span>
-  - <span data-ttu-id="69a5f-167">Project Operations sistēma</span><span class="sxs-lookup"><span data-stu-id="69a5f-167">Project Operations System</span></span>
-  - <span data-ttu-id="69a5f-168">Projekta sistēma</span><span class="sxs-lookup"><span data-stu-id="69a5f-168">Project System</span></span>
-  - <span data-ttu-id="69a5f-169">Project Operations duālās rakstīšanas sistēma (Šī loma ir nepieciešama, ja izvietojat Project Operations resursu/nekrājumu scenāriju.)</span><span class="sxs-lookup"><span data-stu-id="69a5f-169">Project Operations Dual Write System (This role is required if you are deploying the resource/non-stocked based scenario of Project Operations.)</span></span>
+  - <span data-ttu-id="2e1bd-166">Dataverse lietotājs vai Base lietotājs</span><span class="sxs-lookup"><span data-stu-id="2e1bd-166">Dataverse user or Base user</span></span>
+  - <span data-ttu-id="2e1bd-167">Project Operations sistēma</span><span class="sxs-lookup"><span data-stu-id="2e1bd-167">Project Operations System</span></span>
+  - <span data-ttu-id="2e1bd-168">Projekta sistēma</span><span class="sxs-lookup"><span data-stu-id="2e1bd-168">Project System</span></span>
+  - <span data-ttu-id="2e1bd-169">Project Operations duālās rakstīšanas sistēma (Šī loma ir nepieciešama, ja izvietojat Project Operations resursu/nekrājumu scenāriju.)</span><span class="sxs-lookup"><span data-stu-id="2e1bd-169">Project Operations Dual Write System (This role is required if you are deploying the resource/non-stocked based scenario of Project Operations.)</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
