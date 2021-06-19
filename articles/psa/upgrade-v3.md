@@ -1,9 +1,7 @@
 ---
 title: Apsvērumi par jaunināšanu — Microsoft Dynamics 365 Project Service Automation 2.x vai versija 1.x uz 3. versiju
 description: Šajā tēmā ir sniegta informācija par apsvērumiem, veicot jaunināšanu no Project Service Automation versijas 2.x vai 1.x uz 3. versiju.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281667"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014892"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Jaunināšanas apsvērumi – no PSA versijas 2.x vai 1.x uz versiju 3.x
 
@@ -91,7 +89,7 @@ Pēc ieviešanas fāzes integrācijas pārbaudes uzdevums ir piešķirts Tehnisk
 
 ![Integrācijas pārbaudes uzdevuma organizācijas piešķire](media/org-unit-generate-team-10.png)
 
-Ģenerējot projekta darba grupu, tiek izveidoti divi vispārēji darba grupas dalībnieki, jo uzdevumiem ir dažādas organizācijas struktūrvienības. 1. Tehniskajam konsultantam tiks piešķirti Contoso India uzdevumi, bet 2. Tehniskajam konsultantam – Contoso US uzdevumi.  
+Ģenerējot projekta darba grupu, tiek izveidoti divi vispārēji darba grupas dalībnieki, jo uzdevumiem ir dažādas organizācijas struktūrvienības. 1. tehniskajam konsultantam tiks piešķirti Contoso India uzdevumi, bet 2. tehniskajam konsultantam — Contoso US uzdevumi.  
 
 ![Ģenerētie vispārēji grupas dalībnieki](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -106,7 +104,7 @@ Organizācijas struktūrvienību var skatīt aprēķinu skatā.
  
 Kad jaunināšana ir pabeigta, organizācijas struktūrvienība rindas uzdevumā, kas atbilst vispārējam grupas dalībniekam, tiek pievienota vispārējam grupas dalībniekam, un šis rindas uzdevums tiek noņemts. Tāpēc pirms jaunināšanas ieteicams ģenerēt vai atkārtoti ģenerēt darba grupu katram projektam, kurā ir iekļauti vispārēji resursi.
 
-Uzdevumiem, kas ir piešķirti lomai ar organizācijas struktūrvienību, kas atšķiras no līgumslēdzēja projekta organizācijas struktūrvienības, un darba grupa nav ģenerēta, jaunināšana šai lomai izveidos vispārēju grupas dalībnieku, bet izmantos projekta līgumslēdzēja vienību grupas dalībnieka organizācijas vienībai. Atsaucoties uz piemēru ar Projektu Z, līgumslēdzēja organizācija Contoso US un projekta plāna pārbaudes uzdevumi Ieviešanas fāzē ir piešķirti lomai Tehniskais konsultants, bet par organizācijas struktūrvienību ir nozīmēts Contoso India. Integrācijas pārbaudes uzdevums, kas ir pabeigts pēc Ieviešanas fāzes, ir piešķirts lomai Tehniskais konsultants. Organizācijas vienība ir Contoso US, un darba grupa nav ģenerēta. Veicot jaunināšanu, būs izveidots viens vispārējs grupas dalībnieks, Tehnisks konsultants, kuram ir piešķirtas stundas visiem trim uzdevumiem, un organizācijas struktūrvienība Contoso US, kas ir projekta līgumslēdzēja organizācijas vstruktūrienība.   
+Uzdevumiem, kas ir piešķirti lomai ar organizācijas struktūrvienību, kas atšķiras no līgumslēdzēja projekta organizācijas struktūrvienības, un darba grupa nav ģenerēta, jaunināšana šai lomai izveidos vispārēju grupas dalībnieku, bet izmantos projekta līgumslēdzēja vienību grupas dalībnieka organizācijas vienībai. Atsaucoties uz piemēru ar Projektu Z, līgumslēdzēja organizācija Contoso US un projekta plāna pārbaudes uzdevumi Ieviešanas fāzē ir piešķirti lomai Tehniskais konsultants, bet par organizācijas struktūrvienību ir nozīmēts Contoso India. Integrācijas pārbaudes uzdevums, kas ir pabeigts pēc Ieviešanas fāzes, ir piešķirts lomai Tehniskais konsultants. Organizācijas vienība ir Contoso US, un darba grupa nav ģenerēta. Veicot jaunināšanu, būs izveidots viens vispārējs grupas dalībnieks, Tehnisks konsultants, kuram ir piešķirtas stundas visiem trim uzdevumiem, un organizācijas struktūrvienība Contoso US, kas ir projekta līgumslēdzēja organizācijas struktūrvienība.   
  
 Dažādu resursu organizācijas vienību noklusējuma vērtību izmaiņa grupas dalībniekiem, kas nav ģenerēti, ir iemesls, kāpēc pirms jaunināšanas ieteicams ģenerēt vai atkārtoti ģenerēt darba grupu katram projektam, kurā ir iekļauti vispārēji resursi, lai nezaudētu organizācijas vienību piešķires.
 

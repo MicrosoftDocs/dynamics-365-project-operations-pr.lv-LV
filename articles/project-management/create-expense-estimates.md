@@ -2,18 +2,16 @@
 title: Izdevumu finanšu aprēķini projektiem
 description: Šajā tēmā ir sniegta informācija par to, kā definēt vai aprēķināt projekta izdevumus.
 author: rumant
-manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: 18d8568fae35fc251d9cf48d900b8a436e2e4500
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701791"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014170"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Izdevumu finanšu aprēķini projektiem
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
