@@ -2,19 +2,17 @@
 title: Jaunumi 2021. februārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada februāra laidienā Project Operations resursu/bez krājumu scenārijiem.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8270214d47f712cdb0942991b0ffb5baff64cbfb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 73be15d4d58531e6e181df92eaee2b4d7b924382
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948023"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012640"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. februārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
