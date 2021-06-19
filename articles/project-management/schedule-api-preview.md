@@ -2,18 +2,16 @@
 title: Plānošanas API izmantošana operāciju veikšanai ar plānošanas entītijām
 description: Šajā tēmā ir sniegta informācija un piemēri plānošanas API izmantošanai.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950813"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116806"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Plānošanas API izmantošana operāciju veikšanai ar plānošanas entītijām
 
@@ -268,7 +266,6 @@ Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 - Katram lietotājam var būt ne vairāk par 10 atvērtām **OperationSets**.
 - Project Operations pašlaik atbalsta ne vairāk kā 500 uzdevumu vienā projektā.
 - **OperationSet** kļūmes statusa un kļūmju žurnāli pašlaik nav pieejami.
-- Plānošanas API ir publiskā priekšskatījumā. Korporācija Microsoft neatbalsta šo API izmantošana ražošanas vidē.
 - [Projektu un uzdevumu ierobežojumi un robežas](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Kļūdu apstrāde

@@ -2,10 +2,9 @@
 title: Atjauninājumu izlaiduma grafiks Project Service 3.x
 description: Šajā tēmā ir sniegta informācija par pieejamajiem un nākamajiem Dynamics 365 Project Service Automation laidieniem.
 ms.custom: dyn365-projectservice
-ms.date: 12/07/2020
+ms.date: 06/07/2021
 ms.reviewer: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -15,7 +14,6 @@ author: kfend
 ms.assetid: ''
 caps.latest.revision: 42
 ms.author: rumant
-manager: annbe
 search.audienceType:
 - admin
 - customizer
@@ -24,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 73208b06fbd16b354e845855fc2454b167f4c70c
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981392"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213364"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Atjauninājumu izlaiduma grafiks Project Service 3.x
 
@@ -39,7 +37,7 @@ ms.locfileid: "5981392"
 
 | Risinājums  | Jaunākā versija |
 |-------|----|
-| Project Service Automation    | 3.10.52.77 |
+| Project Service Automation    | 3.10.53.108 |
 | Project Service Automation darbvirsmas pievienojumprogramma                | 3.15          |
 
 Informāciju par Project Service atjauninājumiem skatiet [Dynamics 365 izlaišanas plānos](/dynamics365/release-plans/). 
@@ -47,28 +45,28 @@ Informāciju par Project Service atjauninājumiem skatiet [Dynamics 365 izlaiša
 | Stacija  | Reģions | Pašreizējā versija | Nākamā versija |  Plānotais datums
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. stacija</strong> | |  |  | |
-| | <i>Pirmais laidiens</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 28. maijs
+| | <i>Pirmais laidiens</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 02. jūlijs
 |<strong>2. stacija</strong> | |  |  | |
-| | <i>Dienvidamerika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 4. jūnijs
-| | <i>Kanāda</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 4. jūnijs
-| | <i>Indija</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 4. jūnijs
-| | <i>Francija</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 4. jūnijs
-| | <i>Apvienotie Arābu Emirāti</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 4. jūnijs
-| | <i>Dienvidāfrika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 4. jūnijs
-| | <i>Vācija</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 4. jūnijs
-| | <i>Šveice</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021. gada 4. jūnijs
+| | <i>Dienvidamerika</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 09. jūlijs
+| | <i>Kanāda</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 09. jūlijs
+| | <i>Indija</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 09. jūlijs
+| | <i>Francija</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 09. jūlijs
+| | <i>Apvienotie Arābu Emirāti</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 09. jūlijs
+| | <i>Dienvidāfrika</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 09. jūlijs
+| | <i>Vācija</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 09. jūlijs
+| | <i>Šveice</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | 2021. gada 09. jūlijs
 |<strong>3. stacija</strong> | |  |  | |
-| | <i>Japāna</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021. gada 07. maijs
-| | <i>Āzijas / Klusā okeāna reģions</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021. gada 07. maijs
-| | <i>Lielbritānija</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021. gada 07. maijs
-| | <i>Okeānija</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021. gada 07. maijs
+| | <i>Japāna</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 2021. gada 11. jūnijs
+| | <i>Āzijas / Klusā okeāna reģions</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 2021. gada 11. jūnijs
+| | <i>Lielbritānija</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 2021. gada 11. jūnijs
+| | <i>Okeānija</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 2021. gada 11. jūnijs
 |<strong>4. stacija</strong> | |  |  | |
-| | <i>Eiropa</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021. gada 14. maijs
+| | <i>Eiropa</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 2021. gada 18. jūnijs
 |<strong>5. stacija</strong> | |  |  | |
-| | <i>Ziemeļamerika</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021. gada 21. maijs
+| | <i>Ziemeļamerika</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 2021. gada 25. jūnijs
 |<strong>6. stacija</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021. gada 21. maijs
-| | <i>Īpašas skalu grupas</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021. gada 28. maijs
+| | <i>Government Community Cloud</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 2021. gada 25. jūnijs
+| | <i>Īpašas skalu grupas</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | 2021. gada 02. jūlijs
 
 >[!Note]
 > - Datumi visos reģionos, izņemot Valsts iestāžu kopienas mākoni (GCC), norāda nākamās automātiskās atjaunināšanas hronometrāžu. Datumi GCC norāda versijas pieejamību; pašlaik šiem reģioniem netiek veikta automātiska atjaunināšana.
