@@ -2,12 +2,10 @@
 title: Cenu un izmaksu noteikšanas dimensiju sākumlapa
 description: Šajā tēmā ir sniegts pārskats par cenu noteikšanas dimensijām.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284142"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009265"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Cenu un izmaksu noteikšanas dimensiju sākumlapa
 
@@ -65,18 +63,18 @@ Nākamajā piemērā ir parādītas norēķinu likmes, kas ir iestatītas, pamat
 
 **Piemēra norēķinu likmes**
 
-| Loma        | Org. struktūrvienība    |Vienība      |Cena      |Valūta  |
+| Loma        | Org. struktūrvienība    |Vienība      |Cenrādis      |Valūta  |
 | ------------|-------------|----------|----------:|----------|
-| Izstrādātājiem   | Contoso ASV  |Hour | 200|USD     |
-| Izstrādātājiem   | Contoso India |Hour|   112|USD     |
+| Izstrādātājiem   | Contoso US  |stunda | 200|USD     |
+| Izstrādātājiem   | Contoso India |stunda|   112|USD     |
 
 
 **Piemēra izmaksu likmes**
 
-| Algu grupa     | Org. struktūrvienība    |Vienība      |Cena      |Valūta  |
+| Algu grupa     | Org. struktūrvienība    |Vienība      |Cenrādis      |Valūta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mana company_Band1 | Contoso ASV  |Hour | 145|USD     |
-| Mana company_Band2 | Contoso India |Hour|   67|USD     |
+| Mana company_Band1 | Contoso US  |stunda | 145|USD     |
+| Mana company_Band2 | Contoso India |stunda|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

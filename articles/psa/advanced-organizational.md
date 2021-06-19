@@ -2,8 +2,6 @@
 title: Organizācijas struktūrvienības
 description: Šajā tēmā ir sniegta informācija par organizācijas struktūrvienībām programmā Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291673"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009625"
 ---
 # <a name="organizational-units"></a>Organizācijas struktūrvienības 
 
@@ -79,14 +77,14 @@ Ieviešot Dynamics 365, optimizējiet drošības autorizāciju uzņēmuma struk
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Organizācijas struktūrvienību un uzņēmuma struktūrvienību piemērs
 
-Uzņēmumā Contoso Ltd. ir attīstīta Microsoft tehnoloģiju darbības joma. Konrāds un Antra ir C\# izstrādātāji, taču Antra atrodas Amerikas Savienotajās Valstīs, turpretim Konrāds — Indijā. Lielākajai daļai projektu ir nepieciešami resursi no Contoso Indija un Contoso ASV, turklāt Konrādam un Antrai ir nepieciešams vienāds drošības līmenis projektiem šajā darbības jomā. Tomēr Contoso Indija izstrādātāju izmaksas ievērojami atšķiras no to izstrādātāju izmaksām uzņēmumā Contoso ASV.
+Uzņēmumā Contoso Ltd. ir attīstīta Microsoft tehnoloģiju darbības joma. Konrāds un Antra ir C\# izstrādātāji, taču Antra atrodas Amerikas Savienotajās Valstīs, turpretim Konrāds — Indijā. Lielākajai daļai projektu ir nepieciešami resursi no Contoso India un Contoso US, turklāt Konrādam un Antrai ir nepieciešams vienāds drošības līmenis projektiem šajā darbības jomā. Tomēr Contoso India izstrādātāju izmaksas ievērojami atšķiras no to izstrādātāju izmaksām uzņēmumā Contoso US.
 
 Tālāk parādīts optimāls veids, kā izstrādāt šo scenāriju, izmantojot Dynamics 365 un PSA.
 
 1. Izveidojiet Microsoft tehnoloģiju darbības jomu kā uzņēmuma struktūrvienību un piesaistiet tai Konrādu un Antru. Šādi tiek nodrošināts, ka abiem darbiniekiem ir vienāds drošības līmenis piekļuvei visiem projektiem šajā darbības jomā. Viņi abi varēs pārbaudīt norisi un iekļaut atskaitē laiku, izdevumus un uzdevumu atjauninājumus. 
 2. Izveidojiet divas organizācijas struktūrvienības, lai palīdzētu nodrošināt, ka projekta izmaksas tiks pareizi atspoguļotas. 
-3. Saistiet Antru ar Contoso ASV, bet Konrādu — ar Contoso Indija.
-4. Piešķiriet abām organizācijas struktūrvienībām atbilstošos izmaksu cenrāžus. Šādi palīdzēsit nodrošināt, ka Konrāda un Antras projektā ierakstītās izmaksas pareizi atspoguļos izmaksu atšķirību starp Contoso ASV un Contoso Indija.
+3. Saistiet Antru ar Contoso US, bet Konrādu — ar Contoso India.
+4. Piešķiriet abām organizācijas struktūrvienībām atbilstošos izmaksu cenrāžus. Šādi palīdzēsit nodrošināt, ka Konrāda un Antras projektā ierakstītās izmaksas pareizi atspoguļos izmaksu atšķirību starp Contoso US un Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Vai organizācijas struktūrvienības ir saistītas ar pārdošanas teritorijām programmā Dynamics 365?
 
@@ -96,11 +94,11 @@ Organizācijas struktūrvienība ir iekšēja grupa vai nodaļa uzņēmumā, kas
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Organizācijas struktūrvienību un pārdošanas teritoriju piemērs
 
-Uzņēmumam Contoso Ltd ir divi izstrādes centri: Contoso ASV un Contoso Indija. Resursu izmaksas starp šiem diviem izstrādes centriem ievērojami atšķiras.
+Uzņēmumam Contoso Ltd ir divi izstrādes centri: Contoso US un Contoso India. Resursu izmaksas starp šiem diviem izstrādes centriem ievērojami atšķiras.
 
 Contoso savus IT pakalpojumus pārdod daudzos starptautiskajos tirgos, piemēram, Latīņamerikā, Ziemeļamerikā, Āzijas Klusā okeāna daļā, Rietumeiropā un Tuvajos Austrumos. Viena projekta lomu norēķinu likmes var ievērojami atšķirties šajos tirgos.
 
-Contoso ASV un Contoso Indija ir jāiestata kā organizācijas struktūrvienības, un katrai organizācijas struktūrvienībai ir nepieciešams savs izmaksu cenrādis. Āzijas Klusā okeāna daļa, Latīņamerika, Ziemeļamerika, Rietumeiropa un Tuvie Austrumi ir jāiestata kā pārdošanas teritorijas, un katrai pārdošanas teritorijai ir nepieciešams savs pārdošanas cenrādis.
+Contoso US un Contoso India ir jāiestata kā organizācijas struktūrvienības, un katrai organizācijas struktūrvienībai ir nepieciešams savs izmaksu cenrādis. Āzijas Klusā okeāna daļa, Latīņamerika, Ziemeļamerika, Rietumeiropa un Tuvie Austrumi ir jāiestata kā pārdošanas teritorijas, un katrai pārdošanas teritorijai ir nepieciešams savs pārdošanas cenrādis.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Kāpēc pastāv ierobežojums attiecībā uz cenrāžu saistīšanu ar organizācijas struktūrvienībām? 
 
@@ -124,7 +122,7 @@ Nē. Pašreizējā PSA laidienā organizācijas struktūrvienības nav hierarhis
 Ja jums ir sarežģīta izmaksu centru, nodaļu, norēķinu biroju u.c. hierarhija, iestatiet šīs hierarhijas lapu mezglus kā atsevišķas organizācijas struktūrvienības.
 Tālāk esošajā piemērā ir parādīta tipiska hierarhija.
 
-**Contoso Indija**
+**ContosoIndija**
 
   - SAP darbības joma 
 
@@ -136,7 +134,7 @@ Tālāk esošajā piemērā ir parādīta tipiska hierarhija.
     - Tehniskie konsultanti
     - Funkcionālie konsultanti 
     
-**Contoso ASV**
+**Contoso US**
 
  - SAP darbības joma 
 
@@ -149,14 +147,14 @@ Tālāk esošajā piemērā ir parādīta tipiska hierarhija.
     - Funkcionālie konsultanti 
  
 Ja jūsu hierarhija ir līdzīga, tā ir jāiestata kā nekārtots saraksts, kā parādīts tālāk.
-- Contoso Indija — SAP darbības joma — tehniskie konsultanti 
-- Contoso Indija — SAP darbības joma — funkcionālie konsultanti       
-- Contoso Indija — Microsoft tehnoloģiju darbības joma — funkcionālie konsultanti 
-- Contoso Indija — Microsoft tehnoloģiju darbības joma — funkcionālie konsultanti 
-- Contoso ASV — SAP darbības joma — tehniskie konsultanti  
-- Contoso ASV — SAP darbības joma — funkcionālie konsultanti  
-- Contoso ASV — Microsoft tehnoloģiju darbības joma — tehniskie konsultanti 
-- Contoso ASV — Microsoft tehnoloģiju darbības joma — funkcionālie konsultanti
+- Contoso India — SAP darbības joma — tehniskie konsultanti 
+- Contoso India — SAP darbības joma — funkcionālie konsultanti       
+- Contoso India — Microsoft tehnoloģiju darbības joma — funkcionālie konsultanti 
+- Contoso India — Microsoft tehnoloģiju darbības joma — funkcionālie konsultanti 
+- Contoso US — SAP darbības joma — tehniskie konsultanti  
+- Contoso US — SAP darbības joma — funkcionālie konsultanti  
+- Contoso US — Microsoft tehnoloģiju darbības joma — tehniskie konsultanti 
+- Contoso US — Microsoft tehnoloģiju darbības joma — funkcionālie konsultanti
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Mēs esam neliels profesionālo pakalpojumu uzņēmums, kurā ir tikai viena nodaļa. Kā mēs varam vislabāk izmantot organizācijas struktūrvienības koncepciju pašreizējā PSA versijā?
 

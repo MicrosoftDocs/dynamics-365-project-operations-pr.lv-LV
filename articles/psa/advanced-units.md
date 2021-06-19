@@ -2,8 +2,6 @@
 title: Vienību grupas un vienības
 description: Šajā tēmā ir sniegta informācija par vienību grupām un vienībām.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291628"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009580"
 ---
 # <a name="unit-groups-and-units"></a>Vienību grupas un vienības
 
@@ -86,9 +84,9 @@ Lauka **Laiks piedāvājumā** novērtējuma rindas var izteikt jebkurā laika v
     - **Noklusējuma laika vienība**: diena 
     - **Valūta**: GBP
 
-| Loma      | Vienību grupa | Vienība | Organizācijas vienība | Cena   |
+| Loma      | Vienību grupa | Vienība | Organizācijas vienība | Cenrādis   |
 |-----------|------------|------|---------------------|---------|
-| Izstrādātājiem | Time       | Day  | Contoso UK          | 800 GBP |
+| Izstrādātājiem | Laiks       | diena  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Laika ieraksts
 
