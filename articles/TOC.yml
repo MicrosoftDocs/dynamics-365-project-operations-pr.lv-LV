@@ -28,11 +28,13 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Vides izvietošana
           items:
+            - name: Manuāla programmas Project Operations Dataverse ar duālās rakstīšanas atbalstu izvietošana
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Jaunas vides nodrošināšana
               href: environment/resource-provision-new-environment.md
             - name: Drošības modelis
               href: environment/security-model.md
-            - name: "Project\_Operations integrācijas konfigurēšana katrai juridiskajai personai"
+            - name: Project Operations integrācijas konfigurēšana katrai juridiskajai personai
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Duālās rakstīšanas integrācijas konfigurēšana
           items:
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada jūlijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: "2021.\_gada jūnijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: "2021.\_gada maijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: "2021.\_gada aprīlis\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
@@ -282,7 +288,7 @@
           items:
             - name: 'Projekta veidņu izstrāde, izmantojot projekta kopēšanu'
               href: project-management/dev-copy-project.md
-            - name: Plānošanas API izmantošana (publiskais priekšskatījums)
+            - name: Projekta plānošanas API izmantošana (publiskais priekšskatījums)
               href: project-management/schedule-api-preview.md
     - name: Resursu pārvaldība
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Rēķinu norises pārskats
           href: invoicing/post-project-invoices.md
-        - name: Projekta rēķina priekšlikumu pārvaldība
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: "Pro\_forma rēķinu izrakstīšana"
           items:
             - name: Projektā balstītu rēķinu neizpildīto darbību žurnālu pārvaldība
@@ -456,20 +460,12 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektā balstīta rēķina automatizācijas konfigurēšana
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projekta rēķina priekšlikumu pārvaldība
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: Projekta uzskaite
-      items:
-        - name: Finanšu dimensiju noklusējumi
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Projekta kategoriju konfigurēšana
-          href: project-accounting/configure-project-categories.md
-        - name: Iekšējo projektu uzskaites konfigurēšana
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Apmaksājamo projektu uzskaites konfigurēšana
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: "Project\_Operations integrācijas žurnāls"
-          href: project-accounting/project-operations-integration-journal.md
+        - name: Klienta rēķina izrakstīšana
+          items:
+            - name: Projekta rēķina priekšlikumu pārvaldība
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Melnraksta projekta rēķina priekšlikumu pareiza uzskaite
+              href: invoicing/correct-project-invoice-proposals.md
         - name: Starpuzņēmumu rēķinu izrakstīšana
           items:
             - name: Starpuzņēmumu rēķinu izrakstīšanas pārskats
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Starpuzņēmumu klientu un kreditoru rēķinu izveide
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Projekta uzskaite
+      items:
+        - name: Finanšu dimensiju noklusējumi
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Projekta kategoriju iestatīšana
+          href: project-accounting/configure-project-categories.md
+        - name: Iekšējo projektu uzskaites konfigurēšana
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Apmaksājamo projektu uzskaites konfigurēšana
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: "Project\_Operations integrācijas žurnāls"
+          href: project-accounting/project-operations-integration-journal.md
     - name: Ieņēmumu atzinība
       items:
         - name: Ieņēmumu atpazīšanas pārskats
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada jūlija jaunumi\_— Lite izvietošana"
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: "2021.\_gada jūnija jaunumi\_— Lite izvietošana"
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: "2021.\_gada maija jaunumi\_— Lite izvietošana"
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "2021.\_gada aprīļa jaunumi\_— Lite izvietošana"
@@ -762,7 +774,7 @@
           items:
             - name: 'Projekta veidņu izstrāde, izmantojot projekta kopēšanu'
               href: project-management/dev-copy-project.md
-            - name: Plānošanas API izmantošana (publiskais priekšskatījums)
+            - name: Projekta plānošanas API izmantošana (publiskais priekšskatījums)
               href: project-management/schedule-api-preview.md
     - name: Resursu pārvaldība
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Jaunumi
       items:
+        - name: "Jaunumi 2021.\_gada jūlijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: "Jaunumi 2021.\_gada maijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: "Jaunumi 2021.\_gada aprīlī\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Jaunumi 2021.\_gada martā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
@@ -1034,9 +1050,13 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidiena grafiks"
           href: psa/version-history-ps.md
-        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā\_32,\_V3"
+        - name: "Update\_Release\_33,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-33.md
+        - name: "Update\_Release\_32.5,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-32-5.md
+        - name: "Update Release 32,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-32.md
-        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā\_31,\_V3"
+        - name: "Update Release 31,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-31.md
         - name: "Jaunumi vai izmaiņas atjauninājumu laidienā\_30,\_V3"
           href: psa/whats-new-ur-30.md
