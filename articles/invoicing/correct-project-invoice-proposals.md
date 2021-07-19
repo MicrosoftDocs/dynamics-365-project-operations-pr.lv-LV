@@ -1,0 +1,42 @@
+---
+title: Projekta rēķina melnraksta priekšlikumu uzskaites labošana
+description: Šajā tēmā izskaidrots, kā pielāgot ar uzskaiti saistītu informāciju rēķina melnraksta priekšlikumā.
+author: sigitac
+ms.date: 06/07/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 387dc9a81db9c22f170b664152cbafeddf72d149
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251243"
+---
+# <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a><span data-ttu-id="5e4dd-103">Projekta rēķina melnraksta priekšlikumu uzskaites labošana</span><span class="sxs-lookup"><span data-stu-id="5e4dd-103">Correct the accounting on draft project invoice proposals</span></span>
+
+<span data-ttu-id="5e4dd-104">_**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_</span><span class="sxs-lookup"><span data-stu-id="5e4dd-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="5e4dd-105">Projekta rēķinu *Operāciju informāciju* uztur projekta vadītājs pro forma rēķinā.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-105">*Operational details* for project invoices are maintained by the project manager on a pro forma invoice.</span></span> <span data-ttu-id="5e4dd-106">Šī detalizētā informācija ietver lēmumu par stundām, izmaksām, materiāliem vai atskaites punktiem, par kuriem jāizraksta rēķins, likmes, kā arī avansa maksājumu un honorāru summu lietojumu.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-106">These details include the decision about the hours, expenses, materials, or milestones that must be invoiced, the rates, and the application of advance and retainer amounts.</span></span> <span data-ttu-id="5e4dd-107">Pēc sākotnējā pro forma rēķina apstiprināšanas varat pielāgot operāciju informāciju, izveidojot un apstiprinot [labojošo pro forma rēķinu](../proforma-invoicing/corrective-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="5e4dd-107">After you confirm the original pro forma invoice, you can adjust the operational details by creating and confirming a [corrective pro forma invoice](../proforma-invoicing/corrective-invoices.md).</span></span>
+
+<span data-ttu-id="5e4dd-108">*Uzskaites informācija* projekta rēķiniem tiek uzturēta pret debitoru vērstā rēķina dokumentā.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-108">*Accounting details* for project invoices are maintained in a customer-facing invoice document.</span></span> <span data-ttu-id="5e4dd-109">Šī informācija ietver PVN aprēķinu un rēķinā lietotās finanšu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-109">These details include the sales tax calculation and the financial dimensions that are applied to the invoice.</span></span> <span data-ttu-id="5e4dd-110">Šajā tēmā ir sniegta detalizēta informācija par to, kā šo uzskaites informāciju var pielāgot projekta rēķina melnrakstā.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-110">This topic provides details about how these accounting details can be adjusted on a draft project invoice proposal.</span></span>
+
+## <a name="adjust-sales-tax"></a><span data-ttu-id="5e4dd-111">PVN pielāgošana</span><span class="sxs-lookup"><span data-stu-id="5e4dd-111">Adjust sales tax</span></span>
+
+<span data-ttu-id="5e4dd-112">Noklusējuma norēķinu PVN grupas un krājumu PVN grupas var pielāgot tieši rēķina priekšlikuma dokumentā.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-112">Default billing sales tax groups and item sales tax groups can be adjusted directly on the invoice proposal document.</span></span> <span data-ttu-id="5e4dd-113">Lai pielāgotu šīs grupas, atlasiet **Rediģēt** un pēc tam katrā projekta rēķina priekšlikuma rindā ievadiet jaunu vērtību laukā **PVN grupa** vai **Krājumu PVN grupa**.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-113">To adjust these groups, select **Edit**, and then, on each project invoice proposal line, enter a new value in the **Sales tax group** or **Item sales tax group** field.</span></span>
+
+## <a name="adjust-financial-dimensions"></a><span data-ttu-id="5e4dd-114">Finanšu dimensiju pielāgošana</span><span class="sxs-lookup"><span data-stu-id="5e4dd-114">Adjust financial dimensions</span></span>
+
+<span data-ttu-id="5e4dd-115">Finanšu dimensijas nevar rediģēt tieši projekta rēķina priekšlikuma rindā.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-115">Financial dimensions can't be edited directly on a project invoice proposal line.</span></span> <span data-ttu-id="5e4dd-116">Tā vietā veiciet tālāk aprakstītās darbības, lai pielāgotu finanšu dimensijas projekta rēķina priekšlikumā.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-116">Instead, follow these steps to adjust financial dimensions on a project invoice proposal.</span></span>
+
+1. <span data-ttu-id="5e4dd-117">Lai noņemtu projekta rēķina priekšlikuma rindas, projekta rēķina priekšlikumā atlasiet **Dzēst visu**.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-117">On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="5e4dd-118">Poga **Dzēst visu** ir pieejama tikai pēc tam, kad sistēmas administrators iespējo līdzekli **Dzēst rēķina priekšlikuma rindas, izmantojot Project Operations uz resursiem bāzētos / neuzkrātos scenārijos** darbvietā **Līdzekļu pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-118">The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.</span></span>
+
+2. <span data-ttu-id="5e4dd-119">Finanšu dimensiju pielāgošana.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-119">Adjust the financial dimensions:</span></span>
+
+    - <span data-ttu-id="5e4dd-120">Sadaļā **Starpkonta darbības (rēķina izrakstīšanas atskaites punkti):** dodieties uz **Visi projekti** \>  **Pārvaldīt** \> **Starpkonta darbības** un atlasiet atskaites punktu, kuru nepieciešams pielāgot.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-120">**On-account transactions (billing milestones):** Go to **All projects** \> **Manage** \> **On-account transactions**, and select the milestone that requires adjustment.</span></span> <span data-ttu-id="5e4dd-121">Pēc tam cilnē **Finanšu kategorijas** pēc nepieciešamības atjauniniet vērtības.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-121">Then, on the **Financial dimensions** tab, update the values as required.</span></span>
+    - <span data-ttu-id="5e4dd-122">**Laiks, izmaksas un materiālu transakcijas:** lapā **Publicētās projekta darbības** atlasiet **Pielāgot uzskaiti**, lai atjauninātu finanšu dimensijas.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-122">**Time, expense, and material transactions:** On the **Posted project transactions** page, select **Adjust accounting** to update the financial dimensions.</span></span>
+
+3. <span data-ttu-id="5e4dd-123">Kad finanšu dimensiju vērtību pielāgošana ir pabeigta, dodieties uz **Projektu pārvaldība un uzskaite** \> **Periodiski** \> **Project Operations integrācija** un atlasiet **Importēt no sagatavošanas tabulas**, lai palaistu periodisko procesu.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-123">After you've finished adjusting the financial dimension values, go to **Project management and accounting** \> **Periodic** \> **Project Operations integration**, and select **Import from staging table** to run the periodic process.</span></span> <span data-ttu-id="5e4dd-124">Šajā procesā tiek izmantotas atjauninātās finanšu dimensiju vērtības, lai atkārtoti izveidotu projekta rēķina priekšlikuma rindas.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-124">That process uses the updated financial dimension values to re-create the project invoice proposal lines.</span></span> <span data-ttu-id="5e4dd-125">Pēc projekta rēķina publicēšanas atjauninātās vērtības tiek lietotas projekta apakšgrāmatā un virsgrāmatā.</span><span class="sxs-lookup"><span data-stu-id="5e4dd-125">The updated values are then used in the project subledger and general ledger when the project invoice is posted.</span></span>
