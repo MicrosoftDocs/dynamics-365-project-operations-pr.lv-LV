@@ -1,19 +1,19 @@
 ---
-title: Plānošanas API izmantošana operāciju veikšanai ar plānošanas entītijām
-description: Šajā tēmā ir sniegta informācija un piemēri plānošanas API izmantošanai.
+title: Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
+description: Šajā tēmā ir sniegta informācija un paraugi projekta plānošanas API izmantošanai.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116806"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293236"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Plānošanas API izmantošana operāciju veikšanai ar plānošanas entītijām
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
@@ -22,9 +22,9 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 ## <a name="scheduling-entities"></a>Plānošanas entītijas
 
-Plānošanas API nodrošina iespēju veikt izveides, atjaunināšanas un dzēšanas operācijas ar **plānošanas entītijām**. Šīs entītijas tiek pārvaldītas, izmantojot projekta tīmekļa plānošanas programmu. Iepriekšējos Dynamics 365 Project Operations laidienos tika ierobežotas izveides, atjaunināšanas un dzēšanas operācijas ar **plānošanas entītijām**.
+Projekta plānošanas API nodrošina iespēju veikt izveides, atjaunināšanas un dzēšanas operācijas ar **plānošanas entītijām**. Šīs entītijas tiek pārvaldītas, izmantojot projekta tīmekļa plānošanas programmu. Iepriekšējos Dynamics 365 Project Operations laidienos tika ierobežotas izveides, atjaunināšanas un dzēšanas operācijas ar **plānošanas entītijām**.
 
-Tālāk sniegtajā tabulā ir sniegts pilnīgs **plānošanas entītiju** saraksts.
+Tālāk sniegtajā tabulā ir sniegts projekta plānošanas entītiju pilns saraksts.
 
 | Entītijas nosaukums  | Entītijas loģiskais nosaukums |
 | --- | --- |
@@ -39,19 +39,19 @@ Tālāk sniegtajā tabulā ir sniegts pilnīgs **plānošanas entītiju** saraks
 
 OperationSet ir darba vienības shēma, ko var izmantot, kad transakcijā ir jāapstrādā vairāki plānošanas ietekmēšanas pieprasījumi.
 
-## <a name="schedule-apis"></a>Plānošanas API
+## <a name="project-schedule-apis"></a>Projekta plānošanas API
 
-Tālāk ir saraksts ar pašreizējiem plānošanas API.
+Tālāk ir parādīts pašreizējo projekta plānošanas API saraksts.
 
 - **msdyn_CreateProjectV1**: šo API var izmantot, lai izveidotu projektu. Nekavējoties tiek izveidots projekts un noklusējuma projekta bloks.
 - **msdyn_CreateTeamMemberV1**: šo API var izmantot, lai izveidotu projekta darba grupas dalībnieku. Darba grupas dalībnieka ieraksts tiek izveidots nekavējoties.
 - **msdyn_CreateOperationSetV1**: šo API var izmantot, lai ieplānotu vairākus pieprasījumus, kas jāveic transakcijā.
-- **msdyn_PSSCreateV1**: šo API var izmantot, lai izveidotu entītiju. Entītija var būt jebkura no plānošanas entītijām, kas atbalsta izveides operāciju.
-- **msdyn_PSSUpdateV1**: šo API var izmantot, lai atjauninātu entītiju. Entītija var būt jebkura no plānošanas entītijām, kas atbalsta atjaunināšanas operāciju.
-- **msdyn_PSSDeleteV1**: šo API var izmantot, lai dzēstu entītiju. Entītija var būt jebkura no plānošanas entītijām, kas atbalsta dzēšanas operāciju.
+- **msdyn_PSSCreateV1**: šo API var izmantot, lai izveidotu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta izveides operāciju.
+- **msdyn_PSSUpdateV1**: šo API var izmantot, lai atjauninātu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta atjaunināšanas operāciju.
+- **msdyn_PSSDeleteV1**: šo API var izmantot, lai dzēstu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta dzēšanas operāciju.
 - **msdyn_ExecuteOperationSetV1**: šis API tiek izmantots, lai izpildītu visas operācijas attiecīgajā operāciju kopā.
 
-## <a name="using-schedule-apis-with-operationset"></a>Plānošanas API izmantošana ar OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Projekta plānošanas API izmantošana ar OperationSet
 
 Tā kā ieraksti, kuriem ir gan **CreateProjectV1**, gan **CreateTeamMemberV1**, tiek izveidoti nekavējoties, šos API nevar izmantot tieši kopā **OperationSet**. Tomēr API var lietot, lai izveidotu nepieciešamos ierakstus, izveidotu **OperationSet** un pēc tam izmantotu šos iepriekš izveidotos ierakstus kopā **OperationSet**.
 
@@ -257,7 +257,7 @@ Tālāk redzamajās tabulās ir definēti lauki, kuriem ir **Izveidot** un **Red
 ## <a name="limitations-and-known-issues"></a>Zināmās problēmas un ierobežojumi
 Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 
-- Plānošanas API var izmantot tikai **lietotāji ar Microsoft Project License.** Tos nevar izmantot tālāk minētie lietotāji.
+- Projekta plānošanas API var izmantot tikai **lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
     - Programmas lietotāji
     - Sistēmas lietotāji
     - Integrācijas lietotāji
@@ -271,7 +271,7 @@ Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 ## <a name="error-handling"></a>Kļūdu apstrāde
 
    - Lai pārskatītu operāciju kopās ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānot integrāciju** \> **Operāciju kopas**.
-   - Lai pārskatītu Project Scheduling Service ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānot integrāciju** \> **PSS kļūdu žurnāli**.
+   - Lai pārskatītu projekta plānošanas pakalpojuma ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānošanas integrācija** \> **PSS kļūdu žurnāli**.
 
 ## <a name="sample-scenario"></a>Scenārija paraugs
 
