@@ -832,6 +832,16 @@
           items:
             - name: Resursu lietojuma pārskats
               href: resource-management/resource-utilization-overview.md
+    - name: Apakšsadarbību pārvaldība projekta operācijās
+      items:
+        - name: Apakšlīgumu pārskata pārvaldība
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Galvenie jēdzieni apakšlīgumu slēgšanā
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Pārdevēju un projekta cenrāža pārvaldība
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Apakšuzņēmēji kā rezervējami resursi
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Laiks
       items:
         - name: Laika pārskats
@@ -1048,8 +1058,10 @@
       href: psa/overview.md
     - name: Jaunumi
       items:
-        - name: "Project\_Service\_3.x atjauninājumu laidiena grafiks"
+        - name: "Project\_Service\_3.x atjauninājumu laidiena plāns"
           href: psa/version-history-ps.md
+        - name: "Update\_Release\_34,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-34.md
         - name: "Update\_Release\_33,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-33.md
         - name: "Update\_Release\_32.5,\_V3 jaunumi vai izmaiņas"
