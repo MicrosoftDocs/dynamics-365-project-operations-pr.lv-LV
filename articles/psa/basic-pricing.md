@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014980"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000585"
 ---
 # <a name="project-pricing"></a>Projekta izcenojums 
 
@@ -46,7 +46,7 @@ Entītijai Cenrādis ir trīs saistītas tabulas, kurās tiek glabātas cenas.
   - **Transakciju kategorijas cena** — šajā tabulā tiek glabātas cenas pēc transakciju kategorijas, un tās tiek izmantotas izmaksu kategoriju cenu iestatīšanai.
   - **Cenrāža elementi** — šajā tabulā tiek glabātas kataloga preču cenas.
 
-> ![Cenu konfigurēšana, izmantojot cenrādi](media/basic-guide-12.png)
+> ![Cenu konfigurēšana, izmantojot cenrādi.](media/basic-guide-12.png)
  
 Cenrādis ir likmju kartīte. Likmju kartīte ir kombinācija, ko veido entītija Cenrādis un saistītās rindas tabulās Lomas cena, Transakciju kategorijas cena un Cenrāža elementi.
 
@@ -58,7 +58,7 @@ Cilvēkresursu laiks parasti tiek norādīts, pamatojoties uz lomu, ko resurss a
 
 Vienību grupa **Laiks** tiek izveidota, kad tiek instalēta programma PSA. Tās noklusējuma vienība ir **Stunda**. Vienību grupas **Laiks** un vienības **Stunda** atribūtus nevar dzēst, pārdēvēt vai rediģēt. Taču vienību grupai **Laiks** var pievienot citas vienības. Mēģinot izdzēst vienību grupu **Laiks** vai vienību **Stunda**, PSA biznesa loģikā var rasties kļūmes.
 
-> ![Cenu konfigurēšana pēc lomas](media/basic-guide-13.png)
+> ![Cenu konfigurēšana pēc lomas.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transakciju kategorijas un izdevumu kategorijas
 
@@ -68,7 +68,7 @@ Par komandējumu un citiem izdevumiem, kas rodas projekta konsultantiem, parasti
 - **Uzcenojuma procenti** — klienta rēķinā tiek iekļauti procenti no faktiskajām izmaksām. 
 - **Vienības cena** — katrai izdevumu kategorijas vienībai tiek iestatīta norēķinu cena. Summa, par kādu tiek izrakstīts rēķins klientam, tiek aprēķināta, pamatojoties uz konsultanta norādīto izdevumu vienību skaitu. Nobraukumam tiek izmantota izcenojuma metode ar vienības cenu. Piemēram, nobraukuma izdevumu kategoriju var konfigurēt uz 30 ASV dolāriem (USD) dienā vai 2 USD par jūdzi. Kad konsultants ziņo par nobraukumu projektā, rēķina summu aprēķina, pamatojoties uz konsultanta norādīto jūdžu skaitu.
 
-> ![Izmaksu kategoriju izcenojuma konfigurēšana](media/basic-guide-14.png)
+> ![Izmaksu kategoriju izcenojuma konfigurēšana.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekta pārdošanas izcenojums un pārlabošana
 
@@ -114,7 +114,7 @@ Taču piedāvājumā varat izmantot arī pamata cenrādi. Vai arī varat kopēt 
 
 Kad veidojat pielāgotu projekta cenrādi, tiek kopēti tikai cenrāža projekta komponenti. Citiem vārdiem sakot, jauns cenrādis tiek izveidots kā kopija esošam projekta cenrādim, kas ir pievienots piedāvājumam, un šim jaunajam cenrādim ir tikai saistītās lomu cenas un transakciju kategoriju cenas.
 
-> ![Pielāgota projekta līguma izcenojuma skatīšana un konfigurēšana](media/basic-guide-15.png)
+> ![Pielāgota projekta līguma izcenojuma skatīšana un konfigurēšana.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Izmaksu izsekošana
 

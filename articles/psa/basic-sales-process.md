@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014215"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000540"
 ---
 # <a name="sales-processes"></a>Pārdošanas procesi
 
@@ -39,7 +39,7 @@ Pārdošanas procesi, kas tiek izmantoti uz projektu balstītā organizācijā, 
 
 Tālāk esošajā attēlā ir parādīts tipisks pārdošanas process uz projektu balstītā organizācijā.
 
-> ![Pārdošanas process uz projektu balstītā organizācijā](media/basic-guide-1.png)
+> ![Pārdošanas process uz projektu balstītā organizācijā.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Pārdošanas novērtēšana
 Pārdošanas vērtību var novērtēt, pamatojoties uz iepriekš piegādātajiem projektiem un projektu sarežģītības. Projektiem, kas ietver iepriekšējo projektu pagarinājumus, vai projektiem, kuros kreditora zināšanu līmenis ir augsts un tiek izmantotas labi pazīstamas darba veidnes, varat izmantot vienkāršāku novērtēšanas procesu. Sarežģītākiem projektiem parasti ir ilgāks pirkšanas process. Tāpēc pārdošanas novērtēšanas procesā ir vairāk posmu. Procesa sākumā pārdošanas darba grupa izmanto uzņēmumu vadītāju un jomas speciālistu (SME) ieguldījumu, lai sāktu veidot augsta līmeņa novērtējumu attiecībā uz katru atsevišķo piedāvājumā iekļauto darba komponentu. Šie darba komponenti ir norādīti piedāvājuma rindās. 
@@ -50,7 +50,7 @@ Varat izveidot projektam vairākus piedāvājumus un grupēt tos, izmantojot vie
 
 Varat arī izveidot alternatīvus piedāvājumus ar vienu iespējas entītijas tipu vai iestatīt sistēmu tā, lai projekta līgums tiktu izveidots pēc piedāvājuma iegūšanas. Šajā gadījumā varat pievienot Word dokumentu, kas norāda SOW projekta līguma ierakstam.
 
-![Piedāvājuma slēgšana, lai izveidotu projekta līgumu](media/basic-guide-2.png)
+![Piedāvājuma slēgšana, lai izveidotu projekta līgumu.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Pārdošanas procesa konfigurēšana
 Varat izmantot biznesa procesa plūsmas (BPF) programmā Microsoft Dynamics 365, lai konfigurētu pārdošanas procesu. BPF piešķiriet pārdošanas personālam vadītu vizuālo interfeisu, ko tas var izmantot, lai virzītu darījumus cauri posmiem, kas ir tipiski jūsu uzņēmumā.
@@ -66,7 +66,7 @@ Jūsu uzņēmumā var būt, piemēram, tālāk norādītie seši pārdošanas pr
 
 Šos sešus posmus apzīmē skujiņas (\>), ko atlasāt, lai izvērstu katru jūsu izveidoto iespējas entītijas tipu.
 
-![Biznesa procesu konfigurācija programmā Dynamics 365](media/basic-guide-3.png)
+![Biznesa procesu konfigurācija programmā Dynamics 365.](media/basic-guide-3.png)
  
 Jūsu organizācija var izmantot dažādas entītijas, lai apzīmētu to pašu darījumu dažādās tā attīstības fāzēs. Pārdošanas procesa sākumā darījumu apzīmē entītija Iespēja. Laika gaitā, kad parādās papildinformācija, varat izmantot augsta līmeņa novērtējumus, lai izveidotu vienu vai vairākus piedāvājumus. Ja kādu no šiem piedāvājumiem pārskata iekšējās un klienta ieinteresētās puses, darījumu apzīmē entītija Piedāvājums. Pēc tam, kad klients ir akceptējis piedāvājumu, darījumu apzīmē projekta līgums vai SOW. Lai atbalstītu šo uzvedību, BPF ir strukturēts tā, lai katrs procesa posms tiktu saistīts ar citu datu bāzes tabulu.
 
@@ -77,7 +77,7 @@ Virzot darījumus cauri posmiem, saņemsit aicinājumu izveidot atbilstošo ent�
 > [!NOTE]
 > Programmā PSA ir entītijām Iespēja, Piedāvājums, Pasūtījums un Rēķins paredzētas lapas. Jums ir jāizveido projekta pakalpojumu iespējas, piedāvājumi, pasūtījumi un rēķini, izmantojot šo entītiju projekta informācijas lapas. Ja ieraksta izveidei izmantosit citu lapu, nevarēsit atvērt šo ierakstu lapā **Projekta informācija**. Ja vēlaties ierakstu atvērt lapā **Projekta informācija**, jums ir jādzēš ieraksts un tas atkārtoti jāizveido, izmantojot lapu **Projekta informācija**. Lapā **Projekta informācija** katra šo entītiju tipu biznesa loģika nodrošina, ka ieraksta lauks **Tips** ir iestatīts pareizi un visas obligātās koncepcijas ir pareizi inicializētas.
 
-> ![Jauna pasūtījuma projekta informācija](media/basic-guide-4.png)
+> ![Jauna pasūtījuma projekta informācija.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Atšķirības starp Project Service Automation un Sales
 Lai gan pārdošanas process programmā PSA izmanto programmā Sales pieejamās pārdošanas procesa pamata iespējas, tam ir dažas būtiskas atšķirības, jo uz projektu balstītās organizācijās pastāv dažādas biznesa prakses. Lūk, daži piemēri:

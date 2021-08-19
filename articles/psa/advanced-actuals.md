@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014845"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000765"
 ---
 # <a name="recording-actuals"></a>Faktisko datu ierakstīšana 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014845"
 
 Tiek ierakstītas visas finanšu transakcijas, kas notiek projekta laikā. Šīs transakcijas tiek ierakstītas kā **faktiskie dati**. Tālāk esošajā tabulā ir parādīti dažādie faktisko datu tipi, kas tiek izveidoti atkarībā no tā, vai projekts ir laika un materiālu, fiksētas cenas vai iekšējais projekts vai arī tas atrodas pirmspārdošanas posmā.
 
-> ![Tabula, kurā parādīts, kā tiek ierakstīti faktiskie dati](media/advanced-table2.png)
+> ![Tabula, kurā parādīts, kā tiek ierakstīti faktiskie dati.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

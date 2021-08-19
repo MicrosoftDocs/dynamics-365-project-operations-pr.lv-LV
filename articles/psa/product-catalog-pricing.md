@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009220"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000180"
 ---
 # <a name="product-catalog-pricing"></a>Produktu kataloga cenu noteikšana 
 
@@ -44,7 +44,7 @@ Produktus no produktu kataloga varat pievienot dažādiem cenrāžiem. Cenrāža
 
 PSA atbalsta dažādas noapaļošanas opcijas, kad cenas tiek konfigurētas kā saraksta cenas, standarta izmaksu vai pašreizējo izmaksu funkcija. Papildus vairāku cenu noteikšanas metožu un noapaļošanas opciju izmantošanai ir iespējams arī sasaistīt atlaižu sarakstus un cenrāža elementus. 
 
-> ![Produktu no produktu kataloga pievienošana dažādiem cenrāžiem](media/basic-guide-16.png)
+> ![Produktu no produktu kataloga pievienošana dažādiem cenrāžiem.](media/basic-guide-16.png)
 
 Kad kādam piedāvājumam izveidojat jaunu pielāgotu cenrādi, lapā **Projekta piedāvājums** atlasot **Izveidot pielāgotu izcenojumu**, PSA izveido cenrāža kopiju un lauks **Entītija** jaunā cenrāža virsrakstā tiek iestatīts uz **Pārdošanas entītija**. Jaunā cenrāža nosaukumam tiek pievienots piedāvājuma nosaukums un laikspiedols. Jaunā cenrāža nosaukumu un piedāvājuma nosaukumu varat arī izmantot pielāgotās darbplūsmās, lai aktivizētu papildu pārskatīšanu un apstiprināšanu piedāvājumiem, kuros tiek izmantots pielāgots izcenojums.
 

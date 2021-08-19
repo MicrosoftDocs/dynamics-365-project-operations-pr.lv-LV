@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014892"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000090"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Jaunināšanas apsvērumi – no PSA versijas 2.x vai 1.x uz versiju 3.x
 
@@ -35,7 +35,7 @@ Gan Dynamics 365 Project Service Automation, gan Dynamics 365 Field Service izma
 ## <a name="resource-assignments"></a>Resursu piešķīrumi
 Project Service Automation 2. un 1. versijā uzdevumu piešķires tika glabātas kā pakārtotie uzdevumi (saukti arī par rindas uzdevumiem) **Uzdevuma entītijā** un netieši bija saistīti ar **Resursa piešķires** entītiju. Rindas uzdevums bija redzams piešķires uznirstošajā logā darba sadalījuma struktūrā (WBS).
 
-![Rindas uzdevumi risinājumā WBS Project Service Automation 2. versijā un 1. versijā](media/upgrade-line-task-01.png)
+![Rindas uzdevumi risinājumā WBS Project Service Automation 2. versijā un 1. versijā.](media/upgrade-line-task-01.png)
 
 Project Service Automation 3. versijā ir mainījusies pamatshēma rezervējamo resursu piešķiršanai uzdevumiem. Rindas uzdevums ir novecojis un pastāv tieša 1:1 attiecība starp uzdevumu **Uzdevuma entītijā** un darba grupas dalībnieku **Resursu piešķiršanas** entītijā. Projekta darba grupas dalībniekam piešķirtie uzdevumi tagad tiek glabāti tieši Resursu piešķiršanas entītijā.  
 
@@ -46,26 +46,26 @@ Izmantojot pamatā esošo uzdevuma entītiju, uzdevumi 2. un 1. versijā ļāva 
 
 Ja esat nozīmējis resursu uzdevumam, kas neietilpst viņu noklusējuma lomā 2. un 1. versijā, tad veicot jaunināšanu, norādītajam resursam tiks piešķirta noklusējuma loma visām uzdevuma piešķirēm neatkarīgi no piešķirtās lomas 2. versijā. Šīs piešķires rezultātā radīsies atšķirības novērtējumos, kas aprēķināti no 2. vai 1. versijas līdz 3. versijai, jo novērtējumi tiek aprēķināti, pamatojoties uz resursa lomu, nevis uz rindas uzdevuma piešķiršanu. Piemēram, 2. versijā Alisei Kaņepei tika piešķirti divi uzdevumi. Loma rindas uzdevumā 1. uzdevumam ir Izstrādātājs un 2. uzdevumam – Programmu pārvaldnieks. Pēc noklusējuma Alisei Kaņepei ir Programmu pārvaldnieka loma.
 
-![Vienam resursam piešķirtas vairākas lomas](media/upgrade-multiple-roles-02.png)
+![Vienam resursam piešķirtas vairākas lomas.](media/upgrade-multiple-roles-02.png)
 
 Tā kā Izstrādātāja un Programmu pārvaldnieka lomas atšķiras, izmaksu un pārdošanas aprēķini ir šādi:
 
-![Izmaksu aprēķini resursu lomām](media/upggrade-cost-estimates-03.png)
+![Izmaksu aprēķini resursu lomām.](media/upggrade-cost-estimates-03.png)
 
-![Pārdošanas aprēķini resursu lomām](media/upgrade-sales-estimates-04.png)
+![Pārdošanas aprēķini resursu lomām.](media/upgrade-sales-estimates-04.png)
 
 Jauninot uz 3. versiju, rindu uzdevumi tiek aizstāti ar resursu piešķirēm attiecībā uz rezervējamā resursa grupas dalībnieka uzdevumiem. Uzdevumam tiks izmantota rezervējamā resursa noklusējuma loma. Šajā attēlā Alise Kaņepe, kam ir Programmu pārvaldnieka loma, ir resurss.
 
-![Resursu piešķires](media/resource-assignment-v2-05.png)
+![Resursu piešķīrumi.](media/resource-assignment-v2-05.png)
 
 Tā kā aprēķini ir balstīti uz resursa noklusējuma lomu, pārdošanas un izmaksu aplēses var mainītas. Nākamajā attēlā vairs netiek rādīta **Izstrādātāja** loma, jo loma tagad ir ņemta no rezervējamā resursa noklusējuma lomas.
 
-![Izmaksu aprēķini noklusējuma lomām](media/resource-assignment-cost-estimate-06.png)
-![Pārdošanas aprēķini noklusējuma lomām](media/resource-assignment-sales-estimate-07.png)
+![Izmaksu aprēķini noklusējuma lomām.](media/resource-assignment-cost-estimate-06.png)
+![Pārdošanas aprēķini noklusējuma lomām.](media/resource-assignment-sales-estimate-07.png)
 
 Pēc jaunināšanas pabeigšanas varat rediģēt grupas dalībnieka lomu, lai izmainītu pēc noklusējuma piešķirto lomu. Tomēr, ja mainīsit grupas dalībnieku lomu, tā tiks mainīta visos viņiem piešķirtajos uzdevumos, jo 3. versijā grupas dalībniekiem vairs nevar piešķirt vairākas lomas.
 
-![Resursa lomas atjaunināšana](media/resource-role-assignment-08.png)
+![Resursa lomas atjaunināšana.](media/resource-role-assignment-08.png)
 
 Tas attiecas arī uz rindas uzdevumiem, kas tika piešķirti norādītajiem resursiem, mainot resursa organizācijas struktūrvienību no noklusējuma uz citu organizācijas struktūrvienību. Pēc 3. versijas jaunināšanas pabeigšanas uzdevums izmantos resursa noklusējuma organizācijas vienību, nevis to, kas iestatīts rindas uzdevumam.
 
@@ -83,24 +83,24 @@ Attiecībā uz uzdevumiem, kas ir piešķirti vispārējiem grupas dalībniekiem
 
 Piemēram, Projektā Z līgumslēdzēja organizācijas struktūrvienība ir Contoso US. Projekta plānā pārbaudes uzdevumi ieviešanas fāzē tika piešķirti lomai Tehniskais konsultants un nozīmētā organizācijas struktūrvienība ir Contoso India.
 
-![Ieviešanas posma organizācijas piešķire](media/org-unit-assignment-09.png)
+![Ieviešanas posma organizācijas piešķire.](media/org-unit-assignment-09.png)
 
 Pēc ieviešanas fāzes integrācijas pārbaudes uzdevums ir piešķirts Tehniskajam konsultantam, bet kā organizācija ir iestatīta Contoso US.  
 
-![Integrācijas pārbaudes uzdevuma organizācijas piešķire](media/org-unit-generate-team-10.png)
+![Integrācijas pārbaudes uzdevuma organizācijas piešķire.](media/org-unit-generate-team-10.png)
 
 Ģenerējot projekta darba grupu, tiek izveidoti divi vispārēji darba grupas dalībnieki, jo uzdevumiem ir dažādas organizācijas struktūrvienības. 1. tehniskajam konsultantam tiks piešķirti Contoso India uzdevumi, bet 2. tehniskajam konsultantam — Contoso US uzdevumi.  
 
-![Ģenerētie vispārēji grupas dalībnieki](media/org-unit-assignments-multiple-resources-11.png)
+![Ģenerētie vispārēji grupas dalībnieki.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > Project Service Automation 2. un 1. versijā darba grupas dalībnieks neieņem organizācijas struktūrvienību, kas tiek uzturēta rindas uzdevumā.
 
-![Rindas uzdevumi Project Service Automation 2. versijā un 1. versijā](media/line-tasks-12.png)
+![Rindas uzdevumi Project Service Automation 2. versijā un 1. versijā.](media/line-tasks-12.png)
 
 Organizācijas struktūrvienību var skatīt aprēķinu skatā. 
 
-![Organizācijas struktūrvienību aprēķini](media/org-unit-estimates-view-13.png)
+![Organizācijas struktūrvienību aprēķini.](media/org-unit-estimates-view-13.png)
  
 Kad jaunināšana ir pabeigta, organizācijas struktūrvienība rindas uzdevumā, kas atbilst vispārējam grupas dalībniekam, tiek pievienota vispārējam grupas dalībniekam, un šis rindas uzdevums tiek noņemts. Tāpēc pirms jaunināšanas ieteicams ģenerēt vai atkārtoti ģenerēt darba grupu katram projektam, kurā ir iekļauti vispārēji resursi.
 

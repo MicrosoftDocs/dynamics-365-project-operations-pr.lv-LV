@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013405"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000495"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Resursu prasības ir redzamas resursiem.
 
@@ -35,29 +35,29 @@ Varat rezervēt nosauktu resursu, lai aizstātu vispārējo resursu, kam ir nepi
 2. Atlasiet vispārējo resursu, kam sarakstā ir resursu prasības, un pēc tam noklikšķiniet uz **Rezervēt**. Vai arī atveriet resursu prasības pēc tam noklikšķiniet uz **Rezervēt**.
 
 
-![Vispārēja darba grupas dalībnieka rezervēšana](media/RM-how-to-14.png)
+![Vispārēja darba grupas dalībnieka rezervēšana.](media/RM-how-to-14.png)
 
 
 3. Lapā **Plānošanas palīgs** atlasiet nosauktu resursu, lai grāmatotu savu projekta darba grupu, un pēc tam noklikšķiniet uz **Rezervēt**.
 
-![Vispārēja darba grupas locekļa rezervēšana, izmantojot plānošanas palīgu](media/RM-how-to-15.png)
+![Vispārēja darba grupas locekļa rezervēšana, izmantojot plānošanas palīgu.](media/RM-how-to-15.png)
 
 Kad rezervēšana ir pabeigta un izpildīta ar nosauktu resursu, vispārējais resurss tiek aizstāts ar nosaukto resursu.
 
-![Nosauktais darba grupas dalībnieks, kas aizstāj vispārējo darba grupas dalībnieku](media/RM-how-to-16.png)
+![Nosauktais darba grupas dalībnieks, kas aizstāj vispārējo darba grupas dalībnieku.](media/RM-how-to-16.png)
 
 Plāna piešķires tiek atjauninātas, izmantojot arī nosaukto resursu.
 
-![Projekta uzdevumiem piešķirtais nosauktais darba grupas dalībnieks](media/RM-how-to-17.png)
+![Projekta uzdevumiem piešķirtais nosauktais darba grupas dalībnieks.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Vispārēja resursa izpilde ar vairākiem nosauktiem resursiem
 Prasības attiecībā uz vispārējo resursu ar vairākiem nosauktiem resursiem izpilde ir līdzīga viena nosaukta resursa piešķiršanai. Piemēram, ir uzdevums, kura ilgums ir piecas dienas un 120 stundu ilga darba intensitāte. Šo uzdevumu nevar izpildīt viens resurss, kas darbojas tipiskā astoņu stundu dienā vairāk nekā piecu dienu nedēļā. 
 
-![Uzdevums, kam nepieciešamas 120 stundu ilgs darbs piecu dienu laikā](media/RM-how-to-21.png)
+![Uzdevums, kam nepieciešamas 120 stundu ilgs darbs piecu dienu laikā.](media/RM-how-to-21.png)
 
 Šī prasība attiecas uz 120 stundām robotikas inženierijā piecu dienu laikā, kas ir 24 stundas diennaktī.
 
-![Dienas prasības](media/RM-how-to-22.png)
+![Dienas prasības.](media/RM-how-to-22.png)
 
 Tas ir piemērs, kad ir nepieciešami vairāki resursi, lai izpildītu vispārējo resursu pieprasījumu. Lai izpildītu prasību, jums jārezervē vairāki resursi.
 
