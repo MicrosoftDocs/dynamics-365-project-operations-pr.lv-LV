@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008005"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995230"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Jaunu pielāgotu entītiju veidlapu pievienošana (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Veiciet šīs darbības, lai izveidotu pielāgotu veidlapas **Projekta informāc
     - Eksportējiet veidlapu **Mana projekta informācija** kā nepārvaldīta risinājuma daļu un pēc tam uzmeklējiet vērtību **formId** eksportētā risinājuma failā customization.xml.
     - Atveriet veidlapu **Mana projekta informācija** veidlapu redaktorā un pēc tam meklējiet vispārēji unikālo identifikatoru (GUID) blakus parametram **fromId** vietrādī URL, kā parādīts tālāk redzamajā attēlā.
 
-    ![Jaunās veidlapas vērtība formId vietrādī URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Jaunās veidlapas vērtība formId vietrādī URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Izveidojiet **msdyn\_ordertype** kartējumu vērtībai **formId**, rediģējot msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js tīmekļa resursu. Noņemiet no resursa kodu un aizstājiet ar tālāk norādīto kodu.
 

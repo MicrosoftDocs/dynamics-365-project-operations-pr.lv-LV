@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014934"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995455"
 ---
 # <a name="quotes-and-quote-lines"></a>Piedāvājumi un piedāvājumu rindas
 
@@ -84,7 +84,7 @@ Profesionālo pakalpojumu organizācijas parasti sniedz piedāvājumus un izraks
 
 Vienu vai vairākas no šīm transakciju klasifikācijām var saistīt ar katru piedāvājuma rindu. Pēc tam, kad piedāvājums ir iegūts, kartējums starp transakciju klasifikāciju un piedāvājuma rindu tiek pārsūtīts uz līguma rindu.
  
-> ![Ekrānuzņēmums ar transakciju tipu kartēšanu uz piedāvājuma un līguma rindām](media/basic-guide-5.png)
+> ![Ekrānuzņēmums ar transakciju tipu kartēšanu uz piedāvājuma un līguma rindām.](media/basic-guide-5.png)
   
 Piedāvājumā var būt ietvertas, piemēram, tālāk norādītās divas piedāvājuma rindas. 
 - Konsultāciju darbs, kas izmanto laika un materiālu norēķinu metodi, kurā ir piemērojamas laika un maksu transakciju klasifikācijas. Piemēram, par visām projekta parauga **Dynamics AX ieviešana** laika un maksu transakcijām rēķins klientam tiek izrakstīts, pamatojoties uz patērēto laiku un materiāliem. 

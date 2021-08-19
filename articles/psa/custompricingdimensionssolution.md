@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012325"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995275"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Pielāgotu risinājumu izveide cenu noteikšanas dimensijām
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012325"
 1. Izvēlieties **Iestatījumi** > **Risinājumi** un pēc tam atlasiet **Jauns**. 
 2. Nosauciet risinājumu **\<your organization name>cenu noteikšanas dimensijas**, ievadiet atlikušo nepieciešamo informāciju un pēc tam atlasiet **Saglabāt**.
 
-> ![Pielāgota risinājuma izveide cenu noteikšanas dimensijām](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Pielāgota risinājuma izveide cenu noteikšanas dimensijām.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Pievienojiet visas prasītās entītijas un ar tām saistītos komponentus cenu noteikšanas dimensijas risinājumam
 Cenas risinājumam ir jāpievieno tālāk norādītās Project Service entītijas. Izpildiet šajā procedūrā norādītās darbības, lai veiktu dažas svarīgas shēmas izmaiņas cenas noteikšanas risinājumā un lai entītijas apzinātos jaunās cenu noteikšanas dimensijas.
@@ -54,9 +54,9 @@ Cenas risinājumam ir jāpievieno tālāk norādītās Project Service entītija
 - Lomas cena 
 - Laika ieraksts 
 
-> ![Esošu entītiju pievienošana cenu dimensiju risinājumam](media/Existing-entities-to-PD-solution.png)
+> ![Esošu entītiju pievienošana cenu dimensiju risinājumam.](media/Existing-entities-to-PD-solution.png)
 
-> ![Atlasiet risinājuma komponentus](media/Dimension-Components.png)
+> ![Atlasiet risinājuma komponentus.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Pārliecinieties, vai visām atlasītajām entītijām ir atlasītas visas formas un skati.
