@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995495"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988570"
 ---
 # <a name="provision-a-new-environment"></a>Jaunas vides nodrošināšana
 
@@ -52,12 +52,12 @@ Veiciet tālāk norādītās darbības, lai iespējotu Project Operations automa
 
 6. Atlasiet vides tipu savam izvietojumam. Abonementam atbilstošs izmēģinājums ļaus jums izvietot CDS vidi 30 dienas. 
 
-![Izvietošanas iestatījumi](./media/1DeploymentSettings.png)
+![Izvietošanas iestatījumi.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Atlasiet **Piekrist**, lai apstiprinātu pakalpojuma noteikumus, un pēc tam atlasiet **Gatavs**, lai atgrieztos izvietošanas iestatījumos.
 
-![Izvietošanas piekrišana](./media/2DeploymentConsent.png)
+![Izvietošanas piekrišana.](./media/2DeploymentConsent.png)
 
 7. Neobligāti — Piemērojiet videi demonstrācijas datus. Dodieties uz **Papildu iestatījumi**, atlasiet **Pielāgot SQL datu bāzes konfigurāciju** un iestatiet **Noteikt datu kopu lietojumprogrammas datu bāzei** uz **Demonstrācija**.
 
@@ -67,7 +67,7 @@ Veiciet tālāk norādītās darbības, lai iespējotu Project Operations automa
 
 9. Lai apstiprinātu, ka vide ir izvietota sekmīgi, atlasiet **Pieteikties** un piesakieties vidē, lai apstiprinātu.
 
-![ vides informācija](./media/3EnvironmentDetails.png)
+![Vides informācija.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Atjauninājumu lietošana Finance vidē
 
@@ -77,19 +77,19 @@ Lai saņemtu šo versiju, iespējams, jūsu Finance videi būs jālieto kvalitā
 
 1. LCS lapas **Vides informācija** sadaļā **Pieejamie atjauninājumi** atlasiet **Skatīt atjauninājumu**.
 
-![Skatīt atjauninājumus](./media/5ViewUpdates.png)
+![Atjauninājumu skatīšana.](./media/5ViewUpdates.png)
 
 2. Lapā **Binārie atjauninājumi** atlasiet **Saglabāt pakotni.**
 
-![Saglabāt pakotni](./media/6SavePackage.png)
+![Pakotnes saglabāšana.](./media/6SavePackage.png)
 
 3. Noklikšķiniet uz **Atlasīt visu** un pēc tam atlasiet **Saglabāt pakotni**.
 
-![Atjauninājumu pārskatīšana un saglabāšana](./media/7ReviewAndSaveUpdates.png)
+![Atjauninājumu pārskatīšana un saglabāšana.](./media/7ReviewAndSaveUpdates.png)
 
 4. Ievadiet pakotnes nosaukumu un aprakstu un pēc tam atlasiet **Saglabāt**. Atkarībā no interneta savienojuma šis process var ilgt zināmu laiku.
 
-![Pakotnes augšupielāde līdzekļu bibliotēkā](./media/8UploadPackageToAssetsLibrary.png)
+![Pakotnes augšupielāde līdzekļu bibliotēkā.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Pēc tam, kad pakotne ir saglabāta, atlasiet **Gatavs** un saglabājiet šo pakotni sava LCS projekta līdzekļu bibliotēkā.
 
@@ -97,15 +97,15 @@ Pakotnes saglabāšana un validēšana var aizņemt aptuveni 15 minūtes.
 
 6. Lai lietotu atjauninājumu, pārejiet uz LCS lapu **Vides informācija** un atlasiet **Uzturēt** > **Lietot atjauninājumus**.
 
-![Uzturēt vides](./media/9MaintainEnvironment.png)
+![Vižu uzturēšana.](./media/9MaintainEnvironment.png)
 
 7. Atjauninājumu sarakstā atlasiet izveidoto pakotni un atlasiet **Lietot**.
 
-![Lietot atjauninājumus](./media/10ApplyUpdates.png)
+![Atjauninājumu lietošana.](./media/10ApplyUpdates.png)
 
 Vide apkalpošana aizņems zināmu laiku. Pēc pabeigšanas vide atgriezīsies izvietotā stāvoklī.
 
-![Izvietota vide](./media/11EnvironmentDeployed.png)
+![Izvietota vide.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Duālās rakstīšanas savienojuma izveide 
 
@@ -113,41 +113,41 @@ Vide apkalpošana aizņems zināmu laiku. Pēc pabeigšanas vide atgriezīsies i
 2. Sadaļā **Common Data Service vides informācija** atlasiet **Saite uz CDS programmām**.
 3. Pēc tam, kad saite ir izveidota, vēlreiz atlasiet **Saite uz CDS programmām**. Jūs tiksit novirzīts uz duālo rakstīšanu risinājumā Finance.
 
-![Saite uz CDS](./media/12LinktoCDS.png)
+![Saite uz CDS.](./media/12LinktoCDS.png)
 
 4. Atlasiet **Lietot risinājumu**, lai piekļūtu entītijām, kas tiks kartētas integrācijā.
 
-![Lietot risinājumu](./media/13ApplySolutions.png)
+![Risinājumu lietošana.](./media/13ApplySolutions.png)
 
 5. Atlasiet abus risinājumus — **Dynamics 365 Finance and Operations divkāršās rakstīšanas entītiju kartējums** un **Dynamics 365 Project Operations divkāršās rakstīšanas entītiju kartējumi** un pēc tam atlasiet **Lietot**.
 
-![Apstiprināt risinājumus](./media/14ConfirmSolutions.png)
+![Risinājumu apstiprināšana.](./media/14ConfirmSolutions.png)
 
 Pēc risinājumu lietošanas duālās rakstīšanas entītijas tiek lietotas videi.
 
-![Risinājumu lietošana](./media/15ApplyingSolutions.png)
+![Risinājumu lietošana.](./media/15ApplyingSolutions.png)
 
 Pēc entītiju lietošanas visi pieejamie kartējumi ir uzskaitīti vidē.
 
-![Duālās rakstīšanas kartējumi](./media/15DWMappings.png)
+![Duālās rakstīšanas kartējumi.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Pēc atjaunināšanas atsvaidziniet datu entītijas
 
 1. Risinājumā Finance dodieties uz darbvietu **Datu pārvaldība**.
 
-![Datu pārvaldības darbvieta](./media/16DataManagement.png)
+![Datu pārvaldības darbvieta.](./media/16DataManagement.png)
 
 2. Atlasiet elementu **Struktūras parametri**.
 
-![Struktūras parametri](./media/17FrameworkParameters.png)
+![Struktūras parametri.](./media/17FrameworkParameters.png)
 
 3. Lapā **Entītiju iestatījumi** atlasiet **Atsvaidzināt entītiju sarakstu**.
 
-![Atsvaidzināt entītiju sarakstu](./media/18RefreshEntityList.png)
+![Entītiju saraksta atsvaidzināšana.](./media/18RefreshEntityList.png)
 
 Atsvaidzināšana aizņems aptuveni 20 minūtes. Kad tā būs pabeigta, saņemsit brīdinājumu.
 
-![Atsvaidzināšanas apstiprināšana](./media/19RefreshConfirmation.png)
+![Apstiprināšanas atsvaidzināšana.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Atjauniniet drošības iestatījumus Dataverse Project Operations
 
@@ -172,33 +172,33 @@ Atsvaidzināšana aizņems aptuveni 20 minūtes. Kad tā būs pabeigta, saņems
 
 | **Entītiju kartējums** | **Atsvaidzināt entītiju** | **Sākotnējā sinhronizācija** | **Sākotnējās sinhronizācijas šablons** | **Palaist priekšnosacījumus** | **Priekšnosacījumu sākotnējā sinhronizācija** |
 | --- | --- | --- | --- | --- | --- |
-| **Projekta resursu lomas visiem uzņēmumiem (bookableresourcecategories)** | No | Jā | Common Data Service | No | N/A |
-| **Juridiskas personas (cdm\_companies)** | No | Jā | Finance and Operations programmas | No | N/A |
-| **Virsgrāmata (msdyn_ledgers)** | No | Jā | Finance and Operations programmas | Jā | Jā, Finance and Operations programmas |
-| **Project Operations integrācijas faktiskie dati (msdyn\_actuals)** | No | No | N/A | Jā | No |
-| **Projekta līguma rindas (salesorderdetails)** | No | No | N/A | No | No |
-| **Integrāciju entitīja projekta transakciju relācijām (msdyn\_transactionconnections)** | No | No | N/A | No | N/A |
-| **Project Operations integrācijas līguma rindu atskaites punkti (msdyn\_contractlinesscheduleofvalues)** | No | No | N/A | No | N/A |
-| **Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimateslines)** | No | No | N/A | No | N/A |
-| **Project Operations integrācijas projekta izdevumu kategorijas eksporta entītija (msdyn\_expensecategories)** | No | No | N/A | No | N/A |
-| **Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn\_expenses)** | Jā | No | N/A | No | N/A |
-| **Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments)** | Jā | No | N/A | No | N/A |
+| **Projekta resursu lomas visiem uzņēmumiem (bookableresourcecategories)** | Nr. | Jā | Common Data Service | Nr. | N/A |
+| **Juridiskas personas (cdm\_companies)** | Nr. | Jā | Finance and Operations programmas | Nr. | N/A |
+| **Virsgrāmata (msdyn_ledgers)** | Nr. | Jā | Finance and Operations programmas | Jā | Jā, Finance and Operations programmas |
+| **Project Operations integrācijas faktiskie dati (msdyn\_actuals)** | Nr. | Nr. | N/A | Jā | Nr. |
+| **Projekta līguma rindas (salesorderdetails)** | Nr. | Nr. | N/A | Nr. | Nr. |
+| **Integrāciju entitīja projekta transakciju relācijām (msdyn\_transactionconnections)** | Nr. | Nr. | N/A | Nr. | N/A |
+| **Project Operations integrācijas līguma rindu atskaites punkti (msdyn\_contractlinesscheduleofvalues)** | Nr. | Nr. | N/A | Nr. | N/A |
+| **Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimateslines)** | Nr. | Nr. | N/A | Nr. | N/A |
+| **Project Operations integrācijas projekta izdevumu kategorijas eksporta entītija (msdyn\_expensecategories)** | Nr. | Nr. | N/A | Nr. | N/A |
+| **Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn\_expenses)** | Jā | Nr. | N/A | Nr. | N/A |
+| **Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments)** | Jā | Nr. | N/A | Nr. | N/A |
 
 
 4. Lai atsvaidzinātu entītiju, atlasiet kartējuma nosaukumu un pēc tam atlasiet **Atsvaidzināt entītijas**. 
 
 
-![Atsvaidzināt kartējumu](./media/20RefreshMapping.png)
+![Kartējuma atsvaidzināšana.](./media/20RefreshMapping.png)
 
 5. Kad atsvaidzināšana ir pabeigta, palaidiet karti. Pirms nākamā kartējuma iespējošanas pārliecinieties, vai kartējumam tabulā ir statuss **Darbojas**. Kartējumu ar lielāku priekšnosacījumu skaitu palaišana var aizņemt zināmu laiku.
 
 Lai palaistu kartējumu ar priekšnosacījumiem, iespējojiet pārslēgšanas pogu **Rādīt saistītos entītiju kartējumus**. Ja tabulā redzams, ka vienumam **Priekšnosacījumu sākotnējā sinhronizācija** ir vērtība **Nē**, pirms palaišanas pārbaudiet, vai **Sākotnējās sinhronizācijas** karodziņš ir **Izslēgts** visos priekšnosacījumu kartējumos.
 
-![Palaist kartējumu](./media/21RunMap.png)
+![Kartējuma palaišana.](./media/21RunMap.png)
 
 6. Pārbaudiet, vai visiem ar projektu saistītajiem kartējumiem ir statuss Darbojas.
 
-![Visi kartējumi darbojas](./media/22AllMapsRunning.png)
+![Visi kartējumi darbībā.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Konfigurācijas datu lietošana pakalpojumā CDS lietojumprogrammai Project Operations (izvēles)

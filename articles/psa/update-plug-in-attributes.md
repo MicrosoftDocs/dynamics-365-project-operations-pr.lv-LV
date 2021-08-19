@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012820"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988795"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Spraudņu atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas
 
@@ -42,25 +42,25 @@ Tālāk aprakstītās darbības izskaidro spraudņu reģistrēšanas procesu.
 1. Atveriet **PluginRegistrationTool** un izveidojiet savienojumu ar tiešsaistes instanci.
 2. Noklikšķiniet uz **Meklēšana** un meklējiet spraudni atjaunināšanai.
 
- ![Meklēšanas koka ekrānuzņēmums](media/PRT-1.png)
+ ![Meklēšanas koka ekrānuzņēmums.](media/PRT-1.png)
 
 3. Kad spraudnis ir atrasts, atlasiet to un pēc tam noklikšķiniet uz **Atlasīt galvenajā veidlapā**.
 
 4. Atlasiet atjaunināmā spraudņa darbību, noklikšķiniet ar peles labo pogu un pēc tam atlasiet **Atjaunināt**.
 
- ![Tiek atjaunināts spraudņa ekrānuzņēmums](media/PRT-2.png)
+ ![Atjaunināmā spraudņa ekrānuzņēmums.](media/PRT-2.png)
  
 5. Atjaunināšanas logā noklikšķiniet uz daudzpunktes (**...**) filtrēšanas atribūtos.
 
- ![Esošās darbības konfigurācijas informācijas atjauninājuma ekrānuzņēmums](media/PRT-3.png)
+ ![Esošās darbības konfigurācijas informācijas atjauninājuma ekrānuzņēmums.](media/PRT-3.png)
  
 6. Atzīmējiet cenu noteikšanas atribūtu izvēles rūtiņas.
 
- ![Ekrānuzņēmums, kas parāda izvēles rūtiņu atlasi cenu noteikšanas atribūtiem](media/PRT-4.png)
+ ![Ekrānuzņēmums, kas parāda izvēles rūtiņu atlasi cenu noteikšanas atribūtiem.](media/PRT-4.png)
 
 7. Noklikšķiniet uz **Labi**, lai aizvērtu lapu, un pēc tam atlasiet **Atjaunināšanas darbība**.
 
- ![Ekrānuzņēmums, kurā redzama poga “Atjaunināšanas darbība”](media/PRT-5.png)
+ ![Ekrānuzņēmums, kurā redzama poga “Atjaunināšanas darbība”.](media/PRT-5.png)
  
 8. Atkārtojiet šo procesu otrajam spraudnim, **PreOperationQuoteLineDetail msdyn_quotelinetransaction**.
 

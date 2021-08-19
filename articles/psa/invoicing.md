@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015070"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985510"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Rēķinu izveide pakalpojumā Project Service Automation
 
@@ -50,7 +50,7 @@ Veiciet šīs darbības, lai izveidotu rēķinu konkrētam projekta līgumam.
 
 - Saraksta lapā **Projekta līgumi** atveriet projekta līgumu un pēc tam atlasiet **Izveidot rēķinu**.
 
-    ![Projekta rēķinu izveide konkrētam projekta līgumam](media/CreateProjectInvoicesOneByOne.png)
+    ![Projekta rēķinu izveide konkrētam projekta līgumam.](media/CreateProjectInvoicesOneByOne.png)
 
     Rēķins tiek ģenerēts visām atlasītā projekta līguma transakcijām, kuru statuss ir **Gatavs rēķinam**. Šīs transakcijas ietver laiku, izdevumus, atskaites punktus un produktu līguma rindas.
 
@@ -58,7 +58,7 @@ Lai izveidotu lielapjoma rēķinus, veiciet tālāk norādītās darbības.
 
 1. Sarakstu lapā **Projekta līgumi** atlasiet vienu vai vairākus projekta līgumus, kuriem jāizveido rēķins, un pēc tam atlasiet **Izveidot projekta rēķinus**.
 
-    ![Projekta rēķinu izveide](media/CreateProjectInvoicesBulk.png)
+    ![Projekta rēķinu lielapjoma izveide.](media/CreateProjectInvoicesBulk.png)
 
     Brīdinājuma ziņojums informē par to, ka pirms rēķinu izveidošanas var būt aizkave. Tiek parādīts arī process.
 

@@ -2,17 +2,17 @@
 title: Problēmu novēršana, strādājot ar uzdevuma režģi
 description: Šajā tēmā sniegta informācija par problēmu novēršanu, kura ir nepieciešama, strādājot uzdevumu režģī.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213409"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989110"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problēmu novēršana, strādājot ar uzdevuma režģi 
 
@@ -24,7 +24,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 Project Operations ir nepieciešams, lai būtu iespējoti trešo pušu sīkfaili, lai atveidotu darba sadalījuma struktūru. Ja nav iespējoti trešo pušu sīkfaili, jūs redzēsit nevis uzdevumus, bet gan tukšu lapu, ja lapā **Projekts** atlasīsit cilni **Uzdevumi**.
 
-![Tukša cilne, ja nav iespējoti trešo pušu sīkfaili](media/blankschedule.png)
+![Tukša cilne, ja nav iespējoti trešo pušu sīkfaili.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Risinājums
@@ -52,11 +52,22 @@ Microsoft Edge vai Google Chrome pārlūkiem šīs procedūras izklāsta, kā at
 Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu. Šis galapunkts ir nepieciešams, lai sazinātos ar servisu, kas tiek izmantots darba sadalījuma struktūras atveidošanas nolūkam. Ja parametrs nav iespējots, saņemsit kļūdu "Projekta parametrs nav derīgs". 
 
 ### <a name="workaround"></a>Risinājums
- ![Projekta parametra lauks PEX galapunkts](media/projectparameter.png)
 
 1. Pievienojiet **PEX galapunkta** lauku **Projekta parametru** lapai.
-2. Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Noņemiet lauku no **Projekta parametru** lapas.
+2. Nosakiet izmantotā produkta tipu. Šī vērtība tiek izmantota, iestatot PEX galapunktu. Izguves brīdī produkta tips jau ir definēts PEX galapunktā. Paturiet šo vērtību. 
+   
+    ![Projekta parametra lauks PEX galapunkts.](media/pex-endpoint.png)
+
+3. Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Produkta tips                         | Parametra tips |
+   |--------------------------------------|----------------|
+   | Project for the Web noklusējuma organizācijā   | tips=0         |
+   | Project for the Web CDS nosauktā organizācijā | tips=1         |
+   | Project Operations                   | tips=2         |
+   
+4. Noņemiet lauku no **Projekta parametru** lapas.
 
 ## <a name="privileges-for-project-for-the-web"></a>Projekta atļaujas tīmeklī
 
@@ -67,7 +78,7 @@ Project Operations ir atkarīgs no ārēja plānošanas servisa. Šim servisam i
 
 1. Dodieties uz **Iestatījumi > Drošība > Lietotāji > Programmas lietotāji**.  
 
-   ![Lietojumprogrammas lasītājs](media/applicationuser.jpg)
+   ![Lietojumprogrammas lasītājs.](media/applicationuser.jpg)
    
 2. Veiciet dubultklikšķi uz lietojumprogrammas lietotāja ieraksta, lai pārbaudītu tālāk norādīto.
 
@@ -76,7 +87,7 @@ Project Operations ir atkarīgs no ārēja plānošanas servisa. Šim servisam i
  
 3. Ja šis lietotājs nepastāv, varat izveidot jauna lietotāja ierakstu. Atlasiet **Jauni lietotāji**. Mainiet ievades veidlapu uz **Lietojumprogrammas lietotājs** un pēc tam pievienojiet **Lietojumprogrammas ID**.
 
-   ![Lietojumprogrammas lietotāja informācija](media/applicationuserdetails.jpg)
+   ![Lietojumprogrammas lietotāja informācija.](media/applicationuserdetails.jpg)
 
 4. Pārbaudiet, vai lietotājam ir piešķirta pareizā licence un vai serviss ir iespējots licences servisa plānu informācijā.
 5. Pārbaudiet, vai lietotājs var atvērt project.microsoft.com.

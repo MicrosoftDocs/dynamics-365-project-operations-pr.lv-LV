@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011065"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986770"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operations atjaunināšana Finance vidē
 
@@ -33,7 +33,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 4. Pārbaudiet, vai vide darbojas. Ja tā nav sāknēta, sāknējiet vidi.
 5. Sadaļas **Pieejami atjauninājumi** sadaļā **Jauns laidiens** atlasiet **Skatīt atjauninājumu** 10.0.15.
 
-![Skatīt atjaunināšanas pogu](media/view-update.png)
+![Skatīt atjaunināšanas pogu.](media/view-update.png)
 
 6. Lapā **Binārie atjauninājumi** atlasiet **Saglabāt pakotni**.
 7. Lapā **Pārskatīt un saglabāt atjauninājumus** atlasiet **Saglabāt pakotni**.
@@ -47,11 +47,11 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 2. Sarakstā atlasiet pakotni, kuru saglabājāt iepriekš un pēc tam atlasiet **Lietot**.
 3. Atlasiet **Jā**, lai apstiprinātu, ka vēlaties izvietot pakotni.
 
-![Apstipriniet pakotnes izvietošanas dialoglodziņu](media/confirm-package-deployment.png)
+![Apstipriniet pakotnes izvietošanas dialoglodziņu.](media/confirm-package-deployment.png)
 
 4. Atlasiet **Jā**, lai apstiprinātu, ka vēlaties atjaunināt lietojumprogrammu.
 
-![Apstipriniet lietojumprogrammas atjaunināšanas dialoglodziņu](media/confirm-application-update.png)
+![Apstipriniet lietojumprogrammas atjaunināšanas dialoglodziņu.](media/confirm-application-update.png)
 
 Tiks sākta izvietošana un lietojumprogrammas atjaunināšana. 
 
@@ -84,7 +84,7 @@ Kā daļa no UR5 atjaunināšanas ir nepieciešami šādi entitīju drošības p
 
 1. Savā Dataverse vidē dodieties uz **Iestatījumi** un grupā **Sistēma** atlasiet **Drošība**.
 
-![Dataverse vides iestatījumi](media/Picture21.png)
+![Dataverse vides iestatījumi.](media/Picture21.png)
 
 2. Atlasiet **Drošības lomas**.
 3. Lomu sarakstā atlasiet **duālās rakstīšanas programmas lietotājs** un atlasiet cilni **Pielāgotās entitījas**. 
@@ -121,7 +121,7 @@ Kā daļa no UR5 atjaunināšanas ir nepieciešami šādi entitīju drošības p
 6. Karšu sarakstā atlasiet karti **Virsgrāmata (msdyn_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. 
 7. Laukā **Sākotnējās sinhronizācijas šablons** atlasiet **Finance and Operations lietojumprogrammas** un pēc tam atlasiet **Palaist**.
  
- ![Virsgrāmatas kartes sinhronizācija](media/DW6.png)
+ ![Virsgrāmatas kartes sinhronizācija.](media/DW6.png)
  
 
 

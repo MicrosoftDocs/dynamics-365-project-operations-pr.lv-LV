@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000625"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986680"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure abonementa pievienošana LCS projektam
 
@@ -23,35 +23,35 @@ Mākoņpakalpojumā viesotas vides ir jāizvieto, izmantojot esošu Azure abonem
 
 1. Sava LCS projekta sadaļā **Vides** atlasiet **Microsoft Azure iestatījumi**.
 
-![Microsoft Azure iestatījumi](./media/1MicrosoftAzureSettings.png)
+![Microsoft Azure iestatījumi.](./media/1MicrosoftAzureSettings.png)
 
 2. Lapas **Projekta iestatījumi** cilnē **Azure savienotāji** atlasiet **Autorizēt**. Tas ļauj izvietot vides šajā projektā.
 
-![Azure savienotāji](./media/2AzureConnectors.png)
+![Azure savienotāji.](./media/2AzureConnectors.png)
 
 3. Vēlreiz atlasiet **Autorizēt**, lai sniegtu administratora piekrišanu.
 
-![Administratora piekrišanas piešķiršana](./media/3GrantAdminConsent.png)
+![Piešķirt administratora piekrišanu.](./media/3GrantAdminConsent.png)
 
 4. Piekrītiet atļauju pieprasījumam.
 
-![Piekrist atļaujas pieprasījumam](./media/4AcceptPermissionRequest.png)
+![Piekrist atļaujas pieprasījumam.](./media/4AcceptPermissionRequest.png)
 
 Autorizācija tagad ir pabeigta. 
 
-![Autorizācija ir veiksmīga](./media/5AuthorizationComplete.png)
+![Autorizācija ir veiksmīga.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Piekļuves sniegšana pakalpojumam Dynamics Deployment Services jūsu Azure abonementam
 
 1. Dodieties uz [Microsoft Azure norēķini](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) un atlasiet savu abonementu. Pakalpojumam Dynamics Deployment Services ir nepieciešama piekļuve šim abonementam, lai varētu izvietot vides.
 
-![Azure abonementa informācija](./media/6AzureSubscription.png)
+![Detalizēta informācija par Azure abonementu.](./media/6AzureSubscription.png)
 
 2. Navigācijas rūtī atlasiet **Piekļuves kontrole (IAM)** un pēc tam atlasiet **Pievienot lomas piešķiri**.
 3. Labajā pusē esošajā slīdnī atlasiet **Līdzstrādnieka loma** un piedāvātajā sarakstā atrodiet un atlasiet **Dynamics Deployment Services**. 
 4. Atlasiet vienumu **Saglabāt**.
 
-![Piekļuve abonementam](./media/7SubscriptionAccess.png)
+![Piekļuve abonementam.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Abonementa savienotāja pievienošana LCS projektam
 

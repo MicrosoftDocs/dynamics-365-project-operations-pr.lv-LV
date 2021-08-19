@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993311"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987715"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kā tīmekļa programmā (Project Service v2.x) piešķirt rezervējamu resursu uzdevumam?
 
@@ -43,7 +43,7 @@ Izmantojot šo metodi, jūs pievienojat resursu projekta darba grupai un pēc ta
 3.  Atlasiet **sākuma** un **beigu** datumus.
 
     > [!div class="mx-imgBorder"] 
-    > ![Ekrānuzņēmums: darba grupas dalībnieka pievienošana](media/FAQ-Resources-to-Tasks2-1.png "Ekrānuzņēmums: darba grupas dalībnieka pievienošana")
+    > ![Ekrānuzņēmums: darba grupas dalībnieka pievienošana.](media/FAQ-Resources-to-Tasks2-1.png "Ekrānuzņēmums: darba grupas dalībnieka pievienošana")
  
 4.  Atlasiet kādu no šīm sadales metodēm resursa rezervēšanai:
     - **Pilna noslodze**: izmantojot šo metodi, tiek rezervēta resursa pilna noslodze norādītajā laika posmā (no sākuma līdz beigu datumam).
@@ -63,12 +63,12 @@ Izmantojot šo metodi, jūs pievienojat resursu projekta darba grupai un pēc ta
     3. Atlasiet **Labi**. Grupas dalībnieks tagad ir piešķirts uzdevumam.
 
     > [!div class="mx-imgBorder"] 
-    > ![Ekrānuzņēmums: resursu pievienošana ar WBS](media/FAQ-Resources-to-Tasks2-2.png "Ekrānuzņēmums: resursu pievienošana ar WBS")
+    > ![Ekrānuzņēmums: resursu pievienošana ar WBS.](media/FAQ-Resources-to-Tasks2-2.png "Ekrānuzņēmums: resursu pievienošana ar WBS")
  
 Darba grupas dalībnieku režģa sadaļā Piešķirtās stundas jūs redzēsit resursam piešķirto stundu apkopojumu. Tas būs mazāks par vai vienāds ar resursam rezervēto stundu skaitu. 
 
 > [!div class="mx-imgBorder"] 
-> ![Ekrānuzņēmums: resursam piešķirtās stundas](media/FAQ-Resources-to-Tasks2-3.png "Ekrānuzņēmums: resursam piešķirtās stundas")
+> ![Ekrānuzņēmums: resursam piešķirtās stundas.](media/FAQ-Resources-to-Tasks2-3.png "Ekrānuzņēmums: resursam piešķirtās stundas")
  
 Ja uzdevums, ko mēģināt piešķirt resursam, sākas pēc resursa rezervāciju beigu datuma, resurss vairs netiek rādīts nolaižamajā izvēlnē.
 
@@ -92,22 +92,22 @@ Ja vēlaties piešķirt šo resursu, jums ir nepieciešams noņemt to no darba g
 4. Atlasiet **Labi**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Ekrānuzņēmums: WBS izmantošana resursa piešķiršanai](media/FAQ-Resources-to-Tasks2-4.png "Ekrānuzņēmums: WBS izmantošana resursa piešķiršanai")
+    > ![Ekrānuzņēmums: WBS izmantošana resursa piešķiršanai.](media/FAQ-Resources-to-Tasks2-4.png "Ekrānuzņēmums: WBS izmantošana resursa piešķiršanai")
  
 Kad WBS esat pabeidzis piešķirt lomas uzdevumiem, atlasiet **Izveidot darba grupu**. Project Service izveido vispārējās darba grupas dalībnieku minimālo skaitu atbilstoši lomām, resursu organizācijas vienībām un projekta kalendāram, apkopojot uzdevumu piešķiri.
 
 > [!div class="mx-imgBorder"] 
-> ![Ekrānuzņēmums: projekta komandas ģenerēšana](media/FAQ-Resources-to-Tasks2-5.png "Ekrānuzņēmums: projekta komandas ģenerēšana")
+> ![Ekrānuzņēmums: projekta darba grupas ģenerēšana.](media/FAQ-Resources-to-Tasks2-5.png "Ekrānuzņēmums: projekta komandas ģenerēšana")
  
 Darba grupas dalībnieku režģī jūs redzēsiet resursus ar vispārējā resursa tipu un to lomas un pozīciju nosaukumus. Ja darba veikšanai vienai lomai ir nepieciešami divi resursi, līdzeklis Izveidot darba grupu izveido divus darba grupas dalībniekus un izmanto pozīcijas nosaukumu, lai tos atšķirtu.
 
 > [!div class="mx-imgBorder"] 
-> ![Ekrānuzņēmums: divu vispārējo resursu pievienošana](media/FAQ-Resources-to-Tasks2-6.png "Ekrānuzņēmums: divu vispārējo resursu pievienošana")
+> ![Ekrānuzņēmums: divu vispārējo resursu pievienošana.](media/FAQ-Resources-to-Tasks2-6.png "Ekrānuzņēmums: divu vispārējo resursu pievienošana")
  
 Varat atvērt vispārēja darba grupas dalībnieka resursa dublējuma prasību, atlasot saiti sadaļā Resursa prasības.
 
 > [!div class="mx-imgBorder"] 
-> ![Ekrānuzņēmums: dublēta resursa pieprasījuma atvēršana](media/FAQ-Resources-to-Tasks2-7.png "Ekrānuzņēmums: dublēta resursa pieprasījuma atvēršana")
+> ![Ekrānuzņēmums: dublēta resursa pieprasījuma atvēršana.](media/FAQ-Resources-to-Tasks2-7.png "Ekrānuzņēmums: dublēta resursa pieprasījuma atvēršana")
 
 Vispārejam resursam atlasiet **Rezervēt** un pēc tam varat izmantot plānošanas paneli, lai atrastu un rezervētu reālu resursu. Jūs varat arī iesniegt, ka prasība ir jāizpilda resursu pārvaldniekam, atlasot **Iesniegt pieprasījumu**.
 

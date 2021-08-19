@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999995"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986590"
 ---
 # <a name="expense-management-integration"></a>Izdevumu pārvaldības integrācija
 
@@ -28,7 +28,7 @@ Pilno izdevumu izvietojumā izdevumu kategorijas tiek izveidotas un uzturētas F
 2. Risinājumā Finance dodieties uz **Izdevumu pārvaldība** > **Iestatīšana** > **Kopīgotās kategorijas** un atlasiet kategoriju ar transakcijas klasi **Izdevumi**. Parametru **Var izmantot izdevumos** iestatiet kā **Patiess** un definējiet izmantojamo izdevumu tipu.
 3. Izmantojot šo kopīgotās kategorijas ierakstu, izveidojiet jaunu izdevumu kategoriju, dodoties uz **Izdevumu pārvaldība** > **Iestatīšana** > **Izdevumu kategorijas** un atlasiet vienumu **Jauns**. Kad ieraksts ir saglabāts, duālā rakstīšana izmanto tabulas karti **Project Operations integrācijas projekta izdevumu kategorijas eksporta entītija (msdyn\_expensecategories)**, lai sinhronizētu šo ierakstu ar Dataverse.
 
-  ![Izdevumu kategoriju integrācija](./media/DW6ExpenseCategories.png)
+  ![Izdevumu kategoriju integrācija.](./media/DW6ExpenseCategories.png)
 
 Izdevumu kategorijas Finance and Operations programmās ir konkrētas uzņēmumam vai juridiskajai personai. Programmā Dataverse ir atsevišķi, atbilstošajai juridiskajai personai specifiski ieraksti. Aprēķinot izdevumus, projektu vadītājs nevar atlasīt izdevumu kategorijas, kas tika izveidotas projektam, kura īpašnieks ir cits uzņēmums, nevis tas uzņēmums, kuram pieder projekts, pie kura tiek strādāts. 
 
@@ -40,7 +40,7 @@ Izdevumu atskaites tiek izveidotas un apstiprinātas Finance and Operations prog
   - Duālā rakstīšana veic sinhronizāciju ar Dataverse, izmantojot tabulas karti **Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn\_expenses)**.
   - Izdevumu atskaites grāmatošanas laikā nodokļu apakšgrāmata, piegādātāju apakšgrāmata un citi finanšu reģistri tiek ierakstīti atbilstoši piemērojamībai.
 
-  ![Izdevumu atskaišu integrācija](./media/DW6ExpenseReports.png)
+  ![Izdevumu atskaišu integrācija.](./media/DW6ExpenseReports.png)
 
 Kad Dataverse entītijā **Izdevumi** tiek ierakstīts ieraksts, sistēma aktivizē automatizētu ieraksta apstiprināšanas procesu. Ja nepieciešams, automatizēto apstiprināšanas statusu var pārskatīt risinājumā Dataverse, dodoties uz **Papildu iestatījumi** > **Sistēma** > **Sistēmas uzdevumi**. Pēc apstiprinājuma pabeigšanas entītijā **Faktiskie dati** tiek izveidoti izdevumu transakcijas klases ieraksti.
 

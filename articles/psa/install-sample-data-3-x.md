@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007285"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985555"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Lietojumprogrammas Project Service datu parauga instalēšana
 
@@ -86,7 +86,7 @@ Instalēšanas programma ir jāpalaiž datorā, kurā tiek darbināta nesen izla
 Datorā ir jābūt izslēgtai ekrānsaudzētāja funkcijai. Pretējā gadījumā ekrānsaudzētāja aktivizēšanas brīdī var tikt zaudēti instalēšanas sesijas akreditācijas dati (ja vien sesija nav aktīva visa procesa laikā).
 
 > [!div class="mx-imgBorder"]
-> ![Ekrānuzņ.: ekrānsaudz. iestatījumi, kurā ir izslēgts ekrānsaudz.](media/sample-data-1.png)
+> ![Ekrānuzņēmums: ekrānsaudzētāja iestatījumi, kurā ir izslēgts ekrānsaudzētājs.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Lejupielāde un pakotnes atvēršana
 
@@ -142,7 +142,7 @@ Demonstr. datu pak. vajag 6 lietotājus. Lai pakotni instalētu pareizi, veiciet
 3. Atv. **PkgFolder**, tad atrodiet un atv. **ImportUserMapFile.xml**. Atjauniniet laukus **New=** ar attiecīgo lietotāju e-pasta adresēm jūsu sistēmā.
 
    > [!div class="mx-imgBorder"]
-   > ![UserMapFile ekrānuzņēmums](media/sample-data-7.png)
+   > ![UserMapFile ekrānuzņēmums.](media/sample-data-7.png)
 
 4. Ja lietotājam ar pilno vārdu “Spencer Low” ir cits lietotāja ID, nevis **“spencerl”**, tad ir jāatjaunina papildu fails. Atv. **DemoDataPreImportConfig.xml** un atrod. tagu **userstocreateandconfigure**. Atjauniniet tagu **\<login\>** ar loginId (reģistrjutīgs). 
 
@@ -172,7 +172,7 @@ Demonstr. datu pak. vajag 6 lietotājus. Lai pakotni instalētu pareizi, veiciet
 5. Atlasiet vienumu **Tālāk**, līdz tiek parādīts dialoglodziņš **Demonstrācijas datu iestatīšana**.
 
    > [!div class="mx-imgBorder"]
-   > ![Ekrānuzņēmums: demonstrācijas datu instalēšanas programmas statusa logs](media/sample-data-3.png)
+   > ![Ekrānuzņēmums: demonstrācijas datu instalēšanas programmas statusa logs.](media/sample-data-3.png)
 
 6. Pirms turpināšanas ņemiet vērā, ka datu parauga instalēšana var ilgt līdz vienai stundai (parasti ~10 minūtes). Jums ir jānodrošina, lai dators būtu ieslēgts un savienots ar tīklu visa instalēšanas procesa laikā un netiktu deaktivizēta jūsu sesija.   
 
@@ -191,10 +191,10 @@ Kad datu paraugs ir pilnībā ielādēts, pierakstieties kā lietotājs Spencer 
 - Ja ir instalēta lietojumprogramma Field Service, pārejiet uz sadaļu **Project Service** > **Iestatījumi** > **Cenrāži**. Pārliecinieties, vai pastāv rēķinu likmes un izmaksu likmes. Pārejiet uz sadaļu **Field Service** > **Iestatījumi** > **Cenrāži** un pārbaudiet, vai pastāv rēķinu likmes un izmaksu likmes katrai datu kopā ietvertajai valstij/reģionam atbilstošajā valūtā.
 
   > [!div class="mx-imgBorder"]
-  > ![Ekrānuzņēmums: aktīvie cenrāži](media/sample-data-4.png)
+  > ![Ekrānuzņēmums: aktīvie cenrāži.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Ekrānuzņēmums: aktīvās organizācijas struktūrvienības](media/sample-data-5.png)
+  > ![Ekrānuzņēmums: aktīvās organizācijas struktūrvienības.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tehniskās piezīmes
 
@@ -295,7 +295,7 @@ Ja ir jāmaina rezervējamo resursu paraugu darba stundas, dodieties uz **Univer
 Atlasiet lietotāju (piemēram, Spencer Low) un mainiet šī lietotāja darba stundas, izmantojot iestatījumu, ko vēlaties lietot vairākiem lietotājiem. Dodieties uz **Universal Resource Scheduling** > **Iestatījumi** > **Darba stundu veidnes** un rediģējiet ierakstu **Noklusējuma darba veidne**. Laukā **Veidnes resurss** atlasiet lietotāju, kura darba stundu iestatījumu vēlaties lietot citiem resursiem. Dodieties uz **Universal Resource Scheduling** > **Plānošana** > **Resursi** > **Aktīvie rezervējamie resursi**. Atlasiet resursus, kurus vēlaties mainīt, un pēc tam atlasiet vienumu **Iestatīt kalendāru**. Nolaižamajā sarakstā **Darba veidne** atlasiet veidni **Noklusējuma darba stundas** vai citu veidni, kurā ir ietvers vajadzīgais veidnes resurss. Tagad plānošanas panelī resursiem tiek rādītas atjauninātās darba stundu vērtības.
 
 > [!div class="mx-imgBorder"]
-> ![Ekrānuzņēmums: aktīvie rezervējamie resursi](media/sample-data-6.png)
+> ![Ekrānuzņēmums: aktīvie rezervējamie resursi.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
