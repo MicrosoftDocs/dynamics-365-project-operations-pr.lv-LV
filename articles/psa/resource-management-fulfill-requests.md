@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998015"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996850"
 ---
 # <a name="fulfilling-resource-requests"></a>Resursu pieprasījumu izpilde
 
@@ -33,15 +33,15 @@ Resursu vajadzības var nosūtīt kā resursu pieprasījumus resursu vadītājam
 
 Resursu pieprasījumi tiek parādīti saraksta veidā skatā **Aktīvie resursu pieprasījumi**.
 
-> ![Resursu pieprasījumu saraksts](media/Resource-Management-image59.png)
+> ![Resursu pieprasījumu saraksts.](media/Resource-Management-image59.png)
 
 Lai izpildītu pieprasījumu, atlasiet to sarakstā un pēc tam atlasiet **Atrast resursus**. Vai arī veiciet dubultklikšķi uz rindas, lai atvērtu pieprasījumu. Pēc tam varat atlasīt cilni **Resursa vajadzība**, lai skatītu attiecīgā pieprasījuma prasības. Lai sāktu pieprasījuma izpildi, atlasiet opciju **Atrast resursus**.
 
-> ![Resursa pieprasījuma informācija](media/Resource-Management-image60.png)
+> ![Resursa pieprasījuma informācija.](media/Resource-Management-image60.png)
 
 Tiek atvērts plānošanas palīgs, un tas tiek filtrēts pēc prasībām. Atlasiet resursu un pēc tam atlasiet **Rezervēt**.
 
-> ![Atlasītais resurss](media/Resource-Management-image61.png)
+> ![Atlasītais resurss.](media/Resource-Management-image61.png)
 
 Vispārējais darba grupas dalībnieks tiek aizstāts ar stingri rezervētu nosauktu resursu projekta darba grupā un uzdevuma piešķirēm projekta grafikā.
 

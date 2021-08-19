@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368890"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998470"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Cenu un izmaksu noteikšanas dimensiju sākumlapa
 
@@ -41,7 +41,7 @@ Dimensijas, ko izmanto, lai iestatītu darbaspēka izcenojumu un izmaksu aprēķ
 
 Programma PSA tiek piegādāta ar cenu noteikšanas dimensiju noklusējuma kopu. Šo sarakstu varat apskatīt, dodoties uz **Project Service** > **Parametri**. Parametra ierakstā, cilnē **Uz summu balstītas cenu noteikšanas dimensijas** pārliecinieties, ka lomai **msdyn_resourcecategory** un resursu organizācijas struktūrvienībai **msdyn_organizationalunit** lauki **Attiecināms uz pārdošanu** un **Attiecināms uz izmaksām** ir iestatīti uz **Jā**. Tas ļaus jums iestatīt cenas un izmaksas katrai lomas un organizācijas struktūrvienības kombinācijai.
 
-![Project Service parametru ekrānuzņēmums ar izceltu lauku “Attiecināms uz pārdošanu”](media/PS-OOB-parameters.png)
+![Project Service parametru ekrānuzņēmums ar izceltu lauku “Attiecināms uz pārdošanu”.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ja pirms PSA versijas 3 kā cenu noteikšanas dimensijas lietojāt lomas un organizācijas struktūrvienības standarta laukus, nekādas izmaiņas nebūs manāmas. Varat turpināt lietot programmu Project Service kā parasti. 

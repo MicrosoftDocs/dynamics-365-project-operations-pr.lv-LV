@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dd8e916b06d4d8ee77c800f601fb517d797b5c6d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998465"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998425"
 ---
 # <a name="project-schedules"></a>Projektu grafiki 
 
@@ -94,7 +94,7 @@ Režģis **Grafiks** ir pilnībā pieejams, un to var izmantot ar tādiem ekrān
 
 Uzdevuma nosaukums apraksta darbu, kas ir jāizpilda. Programmatūrā PSA ar uzdevumu saistītie atribūti apraksta šī uzdevuma grafiku un tā personāla komplektēšanas prasības.
 
-> ![Uzdevuma atribūti](media/project-2.png)
+> ![Uzdevuma atribūti.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Grafika atribūti
 
