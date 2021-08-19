@@ -2,17 +2,17 @@
 title: Project Operations atjauninājumi
 description: Šajā tēmā ir sniegta informācija par Dynamics 365 Project Operations izlaistajām versijām.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433572"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024792"
 ---
 # <a name="project-operations-updates"></a>Project Operations atjauninājumi
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sastāv no diviem komponentiem.
 
 | Project Operations Dataverse vidē | Projektu pārvaldība un uzskaite programmu Finance and Operations vidē | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 Ja izmantojat Project Operations resursu/uz krājumiem nebalstītu scenāriju, mēs iesakām lietot Dual Write Orchestration versiju 2.2.2.83 vai jaunākas versijas.
 
@@ -45,27 +45,29 @@ Ja izmantojat Project Operations resursu/uz krājumiem nebalstītu scenāriju, m
 Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī. 
 
 | Stacija | Reģions | Pašreizējās versijas numurs | Lite izvietošanas automātiskie atjauninājumi | Resursu/krājumos nebalstītas izvietošanas automātiskie atjauninājumi | Nākamās versijas numurs | Vispārēji pieejamā nākamā versija |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| 1. stacija |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmais laidiens         |  4.12.0.148     | Pabeigta     | 2021. gada 9. jūlijs          | TBD                 | 21. gada 06. augusts        |
-| 2. stacija |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dienvidamerika         |  4.12.0.148     | 2021. gada 9. jūlijs   | 2021. gada 16. jūlijs          | TBD                 | 21. gada 06. augusts        |
-|    &nbsp; | Kanāda                |  4.12.0.148     | 2021. gada 9. jūlijs   | 2021. gada 16. jūlijs          | TBD                 | 21. gada 06. augusts        |
-|   &nbsp;  | Indija                 |  4.12.0.148     | 2021. gada 9. jūlijs   | 2021. gada 16. jūlijs          | TBD                 | 21. gada 06. augusts        |
-|   &nbsp;  | Francija                |  4.12.0.148     | 2021. gada 9. jūlijs   | 2021. gada 16. jūlijs          | TBD                 | 21. gada 06. augusts        |
-|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.12.0.148     | 2021. gada 9. jūlijs   | 2021. gada 16. jūlijs          | TBD                 | 21. gada 06. augusts        |
-|   &nbsp;  | Dienvidāfrika          |  4.12.0.148     | 2021. gada 9. jūlijs   | 2021. gada 16. jūlijs          | TBD                 | 21. gada 06. augusts        |
-| 3. stacija |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japāna                 |  4.11.0.164     | Pabeigta     | Pabeigta            | 4.12.0.148          | 2021. gada 9. jūlijs          |
-|   &nbsp;  | Āzija un Klusais okeāns          |  4.11.0.164     | Pabeigta     | Pabeigta            | 4.12.0.148          | 2021. gada 9. jūlijs          |
-|   &nbsp;  | Lielbritānija         |  4.11.0.164     | Pabeigta     | Pabeigta            | 4.12.0.148          | 2021. gada 9. jūlijs          |
-|   &nbsp;  | Okeānija               |  4.11.0.164     | Pabeigta     | Pabeigta            | 4.12.0.148          | 2021. gada 9. jūlijs          |
-| 4. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eiropa                |  4.11.0.164     | Pabeigta     | Pabeigta            | 4.12.0.148          | 2021. gada 16. jūlijs          |
-| 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ziemeļamerika         |  4.11.0.164     | Pabeigta     | 2021. gada 9. jūlijs          | 4.12.0.148          | 2021. gada 23. jūlijs          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| 1. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Pirmais laidiens         |  4.13.0.152     | Pabeigta           | 2021. gada 13. augusts     | TBD                 | 2021. gada 27. augusts     |
+| 2. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Dienvidamerika         |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
+|    &nbsp; | Kanāda                |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
+|   &nbsp;  | Indija                 |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
+|   &nbsp;  | Francija                |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
+|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
+|   &nbsp;  | Dienvidāfrika          |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
+| 3. stacija |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japāna                 |  4.12.0.152     | Pabeigta*          | Pabeigta            | 4.13.0.152          | 2021. gada 13. augusts     |
+|   &nbsp;  | Āzija un Klusais okeāns          |  4.12.0.152     | Pabeigta*          | Pabeigta            | 4.13.0.152          | 2021. gada 13. augusts     |
+|   &nbsp;  | Lielbritānija         |  4.12.0.152     | Pabeigta*          | Pabeigta            | 4.13.0.152          | 2021. gada 13. augusts     |
+|   &nbsp;  | Okeānija               |  4.12.0.152     | Pabeigta*          | Pabeigta            | 4.13.0.152          | 2021. gada 13. augusts     |
+| 4. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Eiropa                |  4.12.0.152     | Pabeigta           | Pabeigta            | 4.13.0.152          | 2021. gada 20. augusts     |
+| 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Ziemeļamerika         |  4.12.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | 4.13.0.152          | 2021. gada 27. augusts     |
 
 
+> [!NOTE]
+> Automātiskā izvietošana ir pabeigta versijai 4.12.0.148. 2021. gada jūlija laidienā atjauninātajai versijai nav plānota automātiskā izvietošana.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Izlaišanas grafiks projektu pārvaldībai un uzskaitei programmu Finance and Operations vidē
 
@@ -73,16 +75,16 @@ Projekta pārvaldības un uzskaites atjauninājumi tiek izlaisti astoņas reizes
 
 |          Atbalstītā versija          | Priekšskatījuma pieejamība (PEAP) | Parasti pieejams (pašatjaunināšana) | Automātiskās atjaunināšanas grafika (izmantojot LCS atjaunināšanas iestatījumus) ražošanas sākuma datums |   Pakalpojumu izbeigšana   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         2021. gada 28. maijs        |           2021. gada 16. jūlijs           |                             2021. gada 30. jūlijs                             |  2021. gada 22. oktobris  |
 |          10.0.19          |        2021. gada 23. aprīlis       |            2021. gada 18. jūnijs           |                             2021. gada 2. jūlijs                             | 2021. gada 17. septembris |
-|          10.0.18          |        2021. gada 5. marts        |           2021. gada 16. aprīlis          |                            2021. gada 30. aprīlis                            |    2021. gada 16. jūlijs   |
+
 
 
 Mērķa laidiena datumi var tikt mainīti. Papildinformāciju skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Mērķa versija          | Priekšskatījuma pieejamība (PEAP) | Parasti pieejams (pašatjaunināšana) | Automātiskās atjaunināšanas grafika (izmantojot LCS atjaunināšanas iestatījumus) ražošanas sākuma datums |   Pakalpojumu izbeigšana   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         2021. gada 28. maijs        |           2021. gada 16. jūlijs           |                             2021. gada 30. jūlijs                             |  2021. gada 22. oktobris  |
 |          10.0.21          |         2021. gada 02. augusts     |           2021. gada 17. septembris      |                             2021. gada 1. oktobris                           |  2021. gada 10. decembris  |
-
+|          10.0.22          |      2021. gada 3. septembris      |          2021. gada 22. oktobris         |                           2021. gada 5. novembris                           |  2022. gada 14. janvāris  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
