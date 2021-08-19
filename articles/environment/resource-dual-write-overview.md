@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368440"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007920"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations duālās rakstīšanas integrācijas pārskats
 
@@ -23,7 +23,7 @@ Project Operations izmanto [duālās rakstīšanas iespējas](/dynamics365/fin-o
 
 Tālāk redzamajā attēlā ir parādīts, kā dati tiek sinhronizēti kā daļa no šīs integrācijas starp Dataverse un Finance.
 
-![Project Operations datu plūsmu pārskats](./media/ProjectOperationsFlows.jpg)
+![Project Operations datu plūsmu pārskats.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations risinājumā Dataverse nodrošina modernu lietotāja interfeisu (UI) un ērtu paplašināmību bez kodēšanas/ar minimālu kodēšanu, izmantojot Power Platform iespējas. Projektu vadītāji, resursu vadītāji, projektu darba grupas dalībnieki un citi biroja darbinieki veic savas darbības Project Operations risinājumā Dataverse.
 

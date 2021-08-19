@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 95f064e0f83d2052ac4ae9673b4fcdcd16a2574246d3320e1ed3798cd6ff062b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997925"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007020"
 ---
 # <a name="soft-book-requirements"></a>Vajadzību viegla rezervēšana
 
@@ -29,30 +29,30 @@ ms.locfileid: "5997925"
 
 Resursu vajadzību var viegli rezervēt. Stingrā rezervēšana izveido piedāvājumu, kas patērē resursa noslodzi. Pēc tam šis piedāvājums tiek nosūtīts atpakaļ prasītājam apstiprināšanai. Vieglā rezervācija veic resursa pagaidu pievienošanu projekta darba grupai, un tai ir cits statuss plānošanas panelī, taču tā nepatērē resursa noslodzi. Lai veiktu vieglu resursa rezervēšanu, izmantojot plānošanas paneli, iestatiet laukam **Rezervācijas statuss** vienumu **Viegla**.
 
-![Rezervācijas statusam iestatīta opcija Viegla](media/Resource-Management-image77.png)
+![Rezervācijas statusam iestatīta opcija Viegla.](media/Resource-Management-image77.png)
 
 Kad cilnē **Darba grupa** ir atvērts skats **Nosaukti darba grupas dalībnieki**, šis resurss tiek parādīts tur. Viegli rezervētās stundas ir norādītas kolonnā **Viegli rezervētās stundas**.
 
-![Viegli rezervētās stundas skatā Nosaukti darba grupas dalībnieki](media/Resource-Management-image78.png)
+![Viegli rezervētās stundas skatā Nosaukti darba grupas dalībnieki.](media/Resource-Management-image78.png)
 
 Viegli rezervētos darba grupas dalībniekus var nozīmēt uzdevumiem.
 
-![Viegli rezervētie darba grupas dalībnieki nozīmēti uzdevumam](media/Resource-Management-image79.png)
+![Viegli rezervētie darba grupas dalībnieki nozīmēti uzdevumam.](media/Resource-Management-image79.png)
 
 Cilnē **Saskaņošana** netiek rādītas viegli rezervēto resursu rezervācijas, jo cilnē **Saskaņošana** tiek ņemtas vērā tikai stingrās rezervācijas.
 
-![Viegli rezervēts resurss bez rezervācijām cilnē Saskaņošana](media/Resource-Management-image80.png)
+![Viegli rezervēts resurss bez rezervācijām cilnē Saskaņošana.](media/Resource-Management-image80.png)
 
 > [!NOTE]
 > Nevar veikt vieglu resursa rezervēšanu no vajadzības, kas ģenerēta no vispārēja darba grupas dalībnieka.
 
 Plānošanas panelī resursa vieglai rezervācijai tiek izmantotas citas krāsas.
 
-![Vieglā rezervēšana plānošanas panelī](media/Resource-Management-image81.png)
+![Vieglā rezervēšana plānošanas panelī.](media/Resource-Management-image81.png)
 
 Lai vieglo rezervāciju pārveidotu par stingro rezervāciju, plānošanas panelī ar peles labo pogu noklikšķiniet uz vieglās rezervācijas un pēc tam atlasiet vienumu **Mainīt statusu** \> **Stingrā rezervācija** \> **Stingrā**.
 
-![Rezervācijas statusa mainīšana uz iestatījumu Stingrā](media/Resource-Management-image82.png)
+![Rezervācijas statusa mainīšana uz iestatījumu Stingrā.](media/Resource-Management-image82.png)
 
 Rezervācija ir mainīta, un tās statuss ir mainīts plānošanas panelī. Tā kā rezervācijas statuss tagad ir **Stingrā**, resurss tiek parādīts kā rezervēts un tā noslodze un pieejamība tiek pielāgota.
 
@@ -60,7 +60,7 @@ Varat izmantot to pašu metodi, lai atceltu stingro rezervāciju vai vieglo reze
 
 Lai pārveidotu resursu, kam veikta viegla rezervācija, uz stingro rezervāciju projekta cilnē **Darba grupa**, atlasiet resursu un pēc tam atlasiet **Apstiprināt**.
 
-![Komanda Apstiprināt](media/Resource-Management-image83.png)
+![Komanda Apstiprināt.](media/Resource-Management-image83.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

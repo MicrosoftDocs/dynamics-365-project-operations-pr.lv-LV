@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000040"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006300"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projekta aprēķinu un faktisko datu integrācija
 
@@ -30,7 +30,7 @@ Lai izveidotu aprēķinus, projektam ir nepieciešama derīga grāmatvedības ko
 
 Darba aprēķinus izveido projekta vadītājs vai resursu vadītājs, kurš projekta uzdevumam piešķir arī vispārēju vai nosauktu resursu. Resursu piešķiršanas ierakstus var pārskatīt cilnē **Resursu norīkojumi** Dataverse lapā **Detalizēta informācija par projektu**. Dataverse resursu piešķiršanas ieraksti izveido stundu prognožu ierakstus Finance and Operations programmās, izmantojot **Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments)**.
 
-   ![Darba aprēķinu integrācija](./Media/DW4LaborEstimates.png)
+   ![Darba aprēķinu integrācija.](./Media/DW4LaborEstimates.png)
 
 Duālā rakstīšana sinhronizē resursu piešķiršanas ierakstus ar izstādīšanas tabulu (**ProjCDSEstimateHoursImport**) un pēc tam izmanto biznesa loģiku, lai izveidotu un atjauninātu stundu prognožu ierakstus (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Projekta grāmatvedis pārskata stundu prognožu ierakstus, kas izveidoti Financ
 
 Izmaksu aprēķinus izveido projekta vadītājs cilnē **Izdevumu aprēķini** Dataverse lapā **Detalizēta informācija par projektu**. Izmaksu aprēķinu ieraksti tiek glabāti Dataverse entītijā **Novērtēšanas rinda**. Šiem novērtēšanas ierakstiem ir transakciju klase **Izdevumi**, un tie tiek sinhronizēti ar izdevumu prognožu ierakstiem Finance and Operations programmās, izmantojot **Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimatelines)**.
 
-   ![Izdevumu aprēķinu integrācija](./Media/DW4ExpenseEstimates.png)
+   ![Izdevumu aprēķinu integrācija.](./Media/DW4ExpenseEstimates.png)
 
 Duālā rakstīšana sinhronizē izdevumu aprēķinu ierakstus ar izstādīšanas tabulu (**ProjCDSEstimateExpenseImport**) un pēc tam izmanto biznesa loģiku, lai izveidotu un atjauninātu izdevumu prognožu ierakstus (**ProjForecastCost**). Aprēķinu rindās pārdošanas aprēķinu un izmaksu aprēķinu ieraksti tiek glabāti atsevišķi. Biznesa loģika Finance and Operations programmās aizpilda vienu izdevumu prognožu ierakstu, izmantojot šo informāciju izstādīšanas tabulā.
 
@@ -50,7 +50,7 @@ Projekta grāmatvedis var pārskatīt izdevumu prognožu ierakstus, kas izveidot
 
 Materiālu aprēķinus izveido projekta vadītājs cilnē **Materiālu aprēķini** Dataverse lapā **Detalizēta informācija par projektu**. Materiālu aprēķinu ieraksti tiek glabāti Dataverse entītijā **Novērtēšanas rinda**. Šiem novērtēšanas ierakstiem ir transakciju klase **Materiāli**, un tie tiek sinhronizēti ar vienumu prognožu ierakstiem Finance and Operations programmās, izmantojot **Projektu integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines)**.
 
-   ![Materiālu aprēķinu integrācija](./Media/DW4MaterialEstimates.png)
+   ![Materiālu aprēķinu integrācija.](./Media/DW4MaterialEstimates.png)
 
 Duālā rakstīšana sinhronizē materiālu aprēķinu ierakstus ar izstādīšanas tabulu **ProjForecastSalesImpor** un pēc tam izmanto biznesa loģiku, lai izveidotu un atjauninātu vienumu prognožu ierakstus (**ForecastSales**). Aprēķinu rindās pārdošanas aprēķinu un izmaksu aprēķinu ieraksti tiek glabāti atsevišķi. Biznesa loģika Finance and Operations programmās aizpilda vienu vienumu prognožu ierakstu, izmantojot šo informāciju izstādīšanas tabulā.
 
@@ -60,7 +60,7 @@ Projekta grāmatvedis var pārskatīt vienumu prognožu ierakstus, kas izveidoti
 
 Projekta faktiskie dati tiek izveidoti risinājumā Dataverse, pamatojoties uz laiku, izdevumiem, materiāliem un norēķinu darbībām. Šajā Dataverse entītijā ir tverti visi šo transakciju darbības atribūti, tostarp daudzums, izmaksas, pārdošanas cena un projekts. Papildinformāciju skatiet sadaļā [Faktiskie dati](../actuals/actuals-overview.md). Faktiskie ieraksti tiek sinhronizēti ar Finance and Operations programmām, izmantojot duālās rakstīšanas tabulas karti **Project Operations integrācijas faktiskie dati (msdyn\_actuals)** lejupstraumes grāmatvedībai.
 
-   ![Faktisko datu integrācija](./Media/DW4Actuals.png)
+   ![Faktisko datu integrācija.](./Media/DW4Actuals.png)
 
 Tabulas karte **Project Operations integrācijas faktiskie dati** sinhronizē visus ierakstus no entītijas **Faktiski dati** programmā Dataverse, kamēr atribūts **Izlaist sinhronizāciju (tikai iekšējai lietošanai)** ir iestatīts uz **Aplams**. Šī atribūta vērtība tiek iestatīta risinājumā Dataverse automātiski ieraksta izveides laikā. Piemēri, kuros šim atribūtam ir iestatīta vērtība **Patiess**:
 

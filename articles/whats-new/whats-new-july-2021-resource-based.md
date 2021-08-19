@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433527"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008055"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada jūlijā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433527"
 
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
-   - Project Operations Microsoft Dataverse vides versijā 4.12.0.148.
+   - Project Operations programmas Microsoft Dataverse vides versijā 4.12.0.148 or 4.12.0.152.
    - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
@@ -79,7 +79,7 @@ Ja, sākot karti, rodas problēma, izpildiet instrukcijas dubultās rakstīšana
 | VispārīgI                       | 2296857              | Norises izsekošana ilgas darbības uzdevumiem.                                                                                                                                                                        |
 | VispārīgI                       | 2253682              | Project Operations duālās rakstīšanas risinājums nav jāinstalē, ja duālās rakstīšanas kodols ir instalēts vidē bez duālās rakstīšanas saskaņošanas risinājuma.                                                |
 | VispārīgI                       | 2316420              | Project Service pamata nodrošināšana neizdodas, ja tiek mainīta programmas lietotāja struktūrvienība.                                                                                                                     |
-
+| VispārīgI                       | 2376405              | Novērsta izstrādātāja vadīta atjauninājuma problēma (kvalitātes atjauninājums ir pieejams versijā 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projekta pārvaldība un uzskaite pakalpojumā Dynamics 365 Finance
 
 | Līdzekļu apgabals                      | Atsauces numurs | Kvalitātes atjauninājums                                                                                                                                                                                                                                                                                                                |

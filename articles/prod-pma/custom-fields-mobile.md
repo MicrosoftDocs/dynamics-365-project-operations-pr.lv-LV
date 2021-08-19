@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003050"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005760"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Pielāgoto lauku ieviešana Microsoft Dynamics 365 Project Timesheet mobilajā programmā operētājsistēmā iOS un Android
 
@@ -153,13 +153,13 @@ Iestatiet šo rekvizītu uz **Yes**, lai norādītu, ka laukam laika uzskaites t
 
 Tālāk ir redzams izveidotās laika uzskaites tabulas ieraksta ekrānuzņēmums mobilajā programmā. Tajā ir redzami iebūvētie lauki un pielāgots lauks sadaļā “Laika ieraksts”, kura nosaukums ir “Testa virkne”, un uzskaitījuma vērtība “Otrā opcija” jau ir iestatīta.
 
-![Testa virknes pielāgotais lauks programmā](media/timesheet-entry.jpg)
+![Testa virknes pielāgotais lauks programmā.](media/timesheet-entry.jpg)
 
 
 
 Tālāk ir redzams mobilās programmas ekrānuzņēmums, kur lietotājs atlasa vienu no uzskaitījuma opcijām, kas pieejamas pielāgotajam laukam “Testa virkne”.  Šīs divas opcijas ir “Pirmais variants” un “Otrā opcija”, kas tiek rādītas kā radiopogas. Pašlaik ir atlasīta otrā opcija.
 
-![Opciju pogas (radiopogas), kas paredzētas testa virknes pielāgotajam laukam](media/enum-option.jpg)
+![Opciju pogas (radiopogas) testa virknes pielāgotajam laukam.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Tipiskos scenārijos ir iespējams, ka dati, kas paredzēti pielāgotajam laukam
 
 Zemāk ir Visual Studio ekrānuzņēmums ar programmas objektu koku. Tajā ir redzams TSTimesheetLine tabulas paplašinājums ar TestLineString lauku, kas pievienots kā pielāgots lauks.
 
-![Rindas virkne](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Rindas virkne.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Komandu ķēdes izmantošana buildCustomFieldList metodei TSTimesheetSettings klasē, lai parādītu lauku laika uzskaites tabulas ierakstu sadaļā
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Tālāk ir redzams ekrānuzņēmums, kurā mobilās programmas lietotājs skata laika uzskaites tabulu. Augšējā labējā stūrī ir atlasīta poga “Papildinformācija”, lai parādītu opciju “Skatīt papildinformāciju”.  
 
-![Detalizētas informācijas skatīšanas komanda](media/show-more.png)
+![Detalizētas informācijas skatīšanas komanda.](media/show-more.png)
 
 Tālāk ir redzams ekrānuzņēmums, kurā mobilajā programmā redzama laika uzskaites tabulas sadaļa “Vairāk”. Pielāgots lauks, ko dēvē par “Šīs laika uzskaites tabulas izmantošanas biežums (aprēķinātais pielāgotais lauks), ir pievienots laika uzskaites tabulas galvenes sadaļai. Pielāgotajā laukā ir iestatīta tikai lasāma vērtība “0,667”.
 
-![Papildu sadaļa](media/more-section.jpg)
+![Papildu sadaļa.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>TSTimesheetTable tabulas paplašināšana, lai tai būtu pielāgotais lauks
 
@@ -414,7 +414,7 @@ Esošā laika uzskaites tabulas funkcionalitātes loģika datu bāzes līmenī j
 
 Izmantojot projekta parametrus, iebūvētos laukus var padarīt tikai lasāmus vai paslēptus mobilajā programmā. Iestatiet opcijas sadaļā **Mobilās laika uzskaites tabulas** cilnē **Laika uzskaites tabula**, kas atrodas lapā **Projekta pārvaldības un grāmatvedības parametri**.
 
-![Projekta parametri](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projekta parametri.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>To darbību mainīšana, kas pieejamas atlasei, izmantojot paplašinājumus
 

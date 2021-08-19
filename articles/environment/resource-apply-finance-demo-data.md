@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000175"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009675"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
 
@@ -22,40 +22,40 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 1. Savā LCS projektā atveriet lapu **Vides informācija**. Ņemiet vērā, ka tajā ir iekļauta informācija, kas nepieciešama, lai izveidotu savienojumu ar vidi, izmantojot attālās darbvirsmas protokolu (RDP).
 
-![ vides informācija](./media/1EnvironmentDetails.png)
+![Vides informācija.](./media/1EnvironmentDetails.png)
 
 Pirmā iezīmēto akreditācijas datu kopa ir lokālā konta akreditācijas dati, un tajā ir ietverta hipersaite uz attālās darbvirsmas savienojumu. Akreditācijas dati ietver vides administratora lietotājvārdu un paroli. Otrā akreditācijas datu kopa tiek izmantota, lai šajā vidē pieteiktos programmā SQL Server.
 
 2. Izveidojiet attālo savienojumu ar vidi, izmantojot sadaļā **Lokālie konti** esošo hipersaiti, un izmantojiet **Lokālā konta akreditācijas datus**, lai veiktu autentifikāciju.
 3. Dodieties uz **Interneta informācijas pakalpojumi** > **Lietojumprogrammas kopas** > **AOSService** un apturiet pakalpojumu. Jūs pašlaik apturat pakalpojuma darbību, lai varētu turpināt aizstāt SQL datu bāzi.
 
-![Apturēt AOS](./media/2StopAOS.png)
+![AOS apturēšana.](./media/2StopAOS.png)
 
 4. Dodieties uz **Pakalpojumi** un apturiet šādus divus elementus:
 
 - Microsoft Dynamics 365 Unified Operations: lielapjoma pārvaldības pakalpojums
 - Microsoft Dynamics 365 Unified Operations: datu importēšanas un eksportēšanas struktūra
 
-![Apturēt pakalpojumus](./media/3StopServices.png)
+![Pakalpojumu apturēšana.](./media/3StopServices.png)
 
 5. Atveriet Microsoft SQL Server Management Studio. Piesakieties, izmantojot SQL Server akreditācijas datus, un izmantojiet LCS lapā **Vides informācija** norādīto axdbadmin lietotājvārdu un paroli.
 
-![SQL Server Management Studio](./media/4SSMS.png)
+![SQL Server Management Studio.](./media/4SSMS.png)
 
 6. Objektu pārlūka sadaļā **Datu bāzes** atrodiet **AXDB**. Datu bāze tiks aizstāta ar jaunu datu bāzi, kas atrodas [lejupielādes centrā](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Nokopējiet .zip failu virtuālajā mašīnā, ar ko ir izveidots attālais savienotjums, un izgūstiet .zip saturu.
 8. Programmā SQL Server Management Studio ar peles labo pogu noklikšķiniet uz **AxDB** un pēc tam atlasiet **Uzdevumi** > **Atjaunot** > **Datu bāze**.
 
-![Atjaunot datu bāzi](./media/5RestoreDatabase.png)
+![Datu bāzies atjaunošana.](./media/5RestoreDatabase.png)
 
 9. Atlasiet **Avota ierīce** un pārejiet uz failu, kas tika izvilkts no jūsu kopētā .zip faila.
 
-![Avota ierīces](./media/6SourceDevice.png)
+![Avota ierīces.](./media/6SourceDevice.png)
 
 10. Atlasiet **Opcijas** un pēc tam atlasiet **Pārrakstīt esošo datu bāzi** un **Aizvērt esošos savienojumus ar mērķa datu bāzi**. 
 11. Atlasiet **Labi**.
 
-![Atjaunot iestatījumus](./media/7RestoreSetting.png)
+![Iestatījumu atjaunošana.](./media/7RestoreSetting.png)
 
 Jūs saņemsit apstiprinājumu par to, ka AXDB atjaunošana izdevās. Pēc šī apstiprinājuma saņemšanas varat aizvērt SQL Services Management Studio.
 
@@ -66,17 +66,17 @@ Jūs saņemsit apstiprinājumu par to, ka AXDB atjaunošana izdevās. Pēc šī 
 15. Palaidiet .ext failu, izmantojot savu lietotāja adresi laukā **E-pasta adrese**. 
 16. Atlasiet **Iesniegt**.
 
-![Lietotāja ar administratora atļaujām nodrošināšana](./media/8AdminUserProvisioning.png)
+![Lietotāja ar administratora atļaujām nodrošināšana.](./media/8AdminUserProvisioning.png)
 
 Procesa pabeigšanai nepieciešamas dažas minūtes. Jūs saņemsit apstiprinājuma ziņojumu par to, ka lietotājs ar administratora atļaujām tika veiksmīgi atjaunināts.
 
 17. Visbeidzot, palaidiet komandu uzvedni kā administrators un veiciet IIS atiestatīšanu
 
-![IIS atiestatīšana](./media/9IISReset.png)
+![IIS atiestatīšana.](./media/9IISReset.png)
 
 18. Aizveriet attālās darbvirsmas sesiju un izmantojiet LCS lapu **Vides informācija**, lai pieteiktos vidē un pārliecinātos, vai tā darbojas, kā paredzēts.
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![Finance and Operations.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

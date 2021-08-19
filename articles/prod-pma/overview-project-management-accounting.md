@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369700"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007515"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pārskats par projektu pārvaldību un uzskaiti
 
@@ -34,14 +34,14 @@ Projekts ir darbību grupa, kas ir izstrādāta, lai nodrošinātu pakalpojumu, 
 ## <a name="projects-across-industries"></a>Projekti dažādās nozarēs
 Projektu pārvaldības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, kā parādīts tālāk redzamajā ilustrācijā.
 
-[![Projekti dažādās nozarēs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekti dažādās nozarēs.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Zvanu centrā var izmantot biļeti, lai apzīmētu darbību kopu, kas nepieciešama, lai atrisinātu zvanu. Konsultāciju uzņēmumi, piemēram, pārvaldības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras dēvē savas darbības par projektiem. Tirgvedībā kampaņa atspoguļo darba uzdevumu kopu, kas jāizpilda. Uz projektiem balstītā ražošanā ražošanas uzdevums ir saistīts ar dažādiem darba uzdevumiem, kas ir jādara, lai saražotu gatavas preces. Neatkarīgi no nosaukuma šie projekti ir saistīti ar resursiem, grafikiem un izmaksām, un projekta pārvaldības un uzskaites funkcionalitāte var palīdzēt ar šo projektu plānošanu, izpildi un analīzi.
 
 ## <a name="project-phases"></a>Projekta posmi
 Lai gan tālāk aprakstītā procesa plūsma ir vērsta uz ārējiem projektiem vai projektiem, kas tiek pabeigti vienam vai vairākiem klientiem, šī funkcionalitāte attiecas arī uz iekšējiem izmaksu projektiem. 
 
-![3 projekta posmi](./media/3-stages-of-a-project.png) 
+![3 projekta posmi.](./media/3-stages-of-a-project.png) 
 
 Kā parādīts iepriekšējā ilustrācijā, projekta pārvaldību un uzskaiti var iedalīt trīs fāzēs.
 
@@ -50,7 +50,7 @@ Kā parādīts iepriekšējā ilustrācijā, projekta pārvaldību un uzskaiti v
 3.  Analizēt
 
 ## <a name="initiate-the-project"></a>Projekta uzsākšana
-Projekta uzsākšanas laikā tiek izpildīti vairāki būtiski procesi. Varat izmantot projekta piedāvājumu, lai informētu klientu par paredzamo darbu, izdevumiem un materiāliem. Projekta līgumā var ierakstīt norēķinu nosacījumus, ierobežojumus un vienošanās. Lai plānotu un prognozētu darbu, varat izmantot darba sadalījuma struktūru (WBS). Varat iestatīt prognozes un budžetus, lai vadītu projekta izpildi. Nākamajā ilustrācijā redzama projekta struktūra.[![projekta struktūra](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Projekta uzsākšanas laikā tiek izpildīti vairāki būtiski procesi. Varat izmantot projekta piedāvājumu, lai informētu klientu par paredzamo darbu, izdevumiem un materiāliem. Projekta līgumā var ierakstīt norēķinu nosacījumus, ierobežojumus un vienošanās. Lai plānotu un prognozētu darbu, varat izmantot darba sadalījuma struktūru (WBS). Varat iestatīt prognozes un budžetus, lai vadītu projekta izpildi. Nākamajā ilustrācijā redzama projekta struktūra.[![projekta struktūra.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Projekta piedāvājumu izveide
 
