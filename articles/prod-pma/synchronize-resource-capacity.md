@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997520"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005625"
 ---
 # <a name="synchronize-resource-capacity"></a>Resursu noslodzes sinhronizēšana
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997520"
 
 Resursa sinhronizēšanas procesi palīdz nodrošināt, ka kalendāra un bāzes kalendāra informācija nonāk projekta resursa plānošanā. Ja kalendārs ir mainīts, procesi veic nepieciešamos projekta resursu plānošanas atjauninājumus. Šie procesi arī palīdz uzlabot veiktspēju, jo kalendāra resursa informācija tiek iepriekš sinhronizēta. Tāpēc resursa plānošanas informācijas atjauninājumi tiek veikti ātrāk. Mēs jums iesakām plānot procesus kā paketi, nevis pa vienam. Pretējā gadījumā pastāv risks, ka kāds aizmirsīs iekļaujošos datumus, kuros informācija pēdējo reizi tika sinhronizēta. Ja iekļaujošie datumi netiek lietoti, datumu sinhronizācijas laikā var rasties atstarpes.
 
-![Kalendāra sinhronizācija](./media/projectresourcing04-1024x471.jpg)
+![Kalendāra sinhronizācija.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinhronizējiet resursa noslodzes apkopojumus
 
@@ -46,7 +46,7 @@ Mēs iesakām lietot paketi. Opcijas ir pieejamas noslodzes rezervāciju sinhron
     | Sākuma datums  | Ievadiet resursa noslodzes apkopojuma sinhronizācijas procesa sākuma datumu. |
     | Beigu datums    | Ievadiet resursa noslodzes apkopojuma sinhronizācijas procesa beigu datumu. |
 
-[![Sinhronizācijas process](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Sinhronizācijas process.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

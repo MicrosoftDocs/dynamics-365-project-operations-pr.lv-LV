@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008320"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002340"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pielāgotu lauku kā cenu noteikšanas dimensiju iestatīšana 
 
@@ -41,11 +41,11 @@ Lai lauks kļūtu par cenas noteikšanas dimensiju, tam ir jābūt:
 - izveidotam kā lauks entītijās **Lomas cena** un **Lomu cenas uzcenojums**. Lai iegūtu plašāku informācijai par to, kā tas darāms, skatiet [Pielāgotu lauku pievienošana cenas iestatījumam un transakciju entītijām](field-references.md).
 - izveidotam kā rindai tabulā **Cenu noteikšanas dimensija**. Piemēram, pievienojiet cenu noteikšanas dimensiju rindas, kā parādīts šajā grafikā. 
 
-![Uz summu balstītas cenu noteikšanas dimensiju rindas](media/Amt-based-PD.png)
+![Uz summu balstītas cenu noteikšanas dimensiju rindas.](media/Amt-based-PD.png)
 
 Ņemiet vērā, ka Resursu darba stundas (**msdyn_resourceworkhours**) ir pievienotas kā uz uzcenojuma balstīta dimensija un ir pievienotas režģim cilnē **Uz uzcenojuma balstīta cenas noteikšanas dimensija**.
 
-![Uz uzcenojuma balstītas cenu noteikšanas dimensiju rindas](media/Markup-based-PD.png)
+![Uz uzcenojuma balstītas cenu noteikšanas dimensiju rindas.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Jebkādas izmaiņas cenu noteikšanas dimensiju datos šajā tabulā, esošas vai jaunas, tiek izplatītas Project Service cenu noteikšanas biznesa loģikā tikai pēc kešatmiņas atsvaidzināšanas. Kešatmiņas atsvaidzināšanas laiks var aizņemt līdz 10 minūtēm. Atvēliet šo laiku, lai skatītu izmaiņas cenas noklusējuma loģikā, kas izriet no izmaiņām Cenu noteikšanas dimensiju datos.

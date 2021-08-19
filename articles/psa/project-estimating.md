@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009175"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002565"
 ---
 # <a name="project-costs-and-revenue"></a>Projekta izmaksas un ieņēmumi
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009175"
 
 Projekta tāmes sniedz finansiālu ieskatu par darbu, kāds ir prognozēts un plānots attiecīgajā projekta grafikā. Lapas **Projekti** cilnē **Tāmes** ir parādīta izmaksu un ieņēmumu ietekme uz jūsu plānoto darbu. Tā sniedz arī informāciju par daudzām iepriekš definētām dimensijām. 
 
-> ![Cilne Tāmes](media/project-5.png)
+> ![Cilne Tāmes.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Projekta izmaksu un pārdošanas vērtības
 
@@ -66,13 +66,13 @@ Ja sistēma neatrod cenu šai lomai, pārdošanas cena tāmes rindā tiek iestat
 
 Cilnē **Tāmes** ir režģa skats, kurā ir parādītas tāmju rindas. Šajā režģī ir kolonnas vienībai, kopējai izmaksu cenai un kopējai pārdošanas cenai, kā parādīts nākamajā ilustrācijā. 
 
-> ![Režģa skats cilnē Tāmes](media/project-6.png)
+> ![Režģa skats cilnē Tāmes.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Projekta tāmju skats ar laika fāzēm
 
 Projekta tāmju skats ar laika fāzēm rāda tāmju datus no režģa skata visā laika grafikā tajā laika skalā, ko atlasījāt. Pēc noklusējuma tāmju dati tiek rādīti dimensijā **Loma**.
 
-> ![Skats ar laika fāzēm projekta tāmēm](media/project-7.png)
+> ![Skats ar laika fāzēm projekta tāmēm.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Prognozētās piepūles sadalījums, pamatojoties uz uzdevuma režīmu
 

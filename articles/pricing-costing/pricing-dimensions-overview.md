@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368485"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001980"
 ---
 # <a name="pricing-dimensions-overview"></a>Cenu noteikšanas dimensiju pārskats
 
@@ -33,7 +33,7 @@ Dimensijas, kas tiek izmantotas cilvēkresursos, lai iestatītu cenu un izmaksu 
 
 Dynamics 365 Project Operations tiek piegādāta ar cenu noteikšanas dimensiju noklusējuma kopu. Šīs cenrāžu dimensijas varat skatīt, dodoties uz **Project Operations** > **Parametri**. Parametra ierakstā, cilnē **Uz summu balstītas cenu noteikšanas dimensijas** pārliecinieties, ka lomai **msdyn_resourcecategory** un resursu organizācijas struktūrvienībai **msdyn_organizationalunit** lauki **Attiecināms uz pārdošanu** un **Attiecināms uz izmaksām** ir iestatīti uz **Jā**. Ja šie lauki ir iespējoti, jūs varat iestatīt maksu un izmaksas katrai lomas un organizācijas vienības kombinācijai.
 
-![Project Service parametru ekrānuzņēmums ar izceltu lauku “Attiecināms uz pārdošanu”](media/PS-OOB-parameters.png)
+![Project Service parametru ekrānuzņēmums ar izceltu lauku “Attiecināms uz pārdošanu”.](media/PS-OOB-parameters.png)
 
 Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas. Papildinformāciju skatiet nākamajās tēmās. 
   

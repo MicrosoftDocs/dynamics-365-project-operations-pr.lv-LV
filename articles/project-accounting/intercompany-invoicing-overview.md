@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369385"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005400"
 ---
 # <a name="intercompany-invoicing-overview"></a>Starpuzņēmumu rēķinu izrakstīšanas pārskats
 
@@ -22,7 +22,7 @@ Jūsu organizācijā var būt vairākas nodaļas, meitasuzņēmumi un citas juri
 
 Nākamajā attēlā parādīts tipisks scenārijs, kad divas juridiskās personas, Contoso Robotics USA (aizņemošā juridiskā persona) un Contoso Robotics UK (aizdodošā juridiskā persona), koplieto resursus klienta Adventure Works projekta izpildei. Šajā scenārijā Ir noslēgts līgums ar Contoso Robotics USA, lai izpildītu darbu Adventure Works.
 
-![Starpuzņēmumu rēķinu izrakstīšana](./media/IntercompanyScenario.png) 
+![Starpuzņēmumu rēķinu izrakstīšana.](./media/IntercompanyScenario.png) 
 
 Programmā Dynamics 365 Project Operations tiek izmantota tālāk aprakstītā starpuzņēmumu darbību apstrādes plūsma.
 
@@ -35,7 +35,7 @@ Programmā Dynamics 365 Project Operations tiek izmantota tālāk aprakstītā s
 
 Tālāk sniegtajā diagrammā ir parādīta starpuzņēmumu rēķinu izrakstīšana saistībā ar uzskaites notikumiem un paredzētajiem grāmatojumiem virsgrāmatā.
 
-![Starpuzņēmumu plūsma](./media/IntercompanyFlow.png)
+![Starpuzņēmumu plūsma.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
