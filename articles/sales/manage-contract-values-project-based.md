@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2072692296308a08756ec3e0f381c792745dd3e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011515"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990055"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Darbs ar projekta līguma rindām
 
@@ -49,10 +49,10 @@ Kārtula: projekts un noteikta transakciju klase var būt iekļauta tikai vienā
 |----------|---------------|---------|--------------|-----------------|-------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | C1       | CL1           | P1      | Jā          | Jā             | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks, izdevumi un maksas projektam P1 ir iekļautas abās līguma rindās, CL1 un CL2.                                                                                       |
 | C1       | CL2           | P1      | Jā          | Jā             | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks, izdevumi un maksas projektam P1 ir iekļautas abās līguma rindās, CL1 un CL2.                                                                                       |
-| C1       | CL1           | P1      | Jā          | No              | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks un maksas projektam P1 ir iekļautas abās līguma rindās, CL1 un CL2.                                                                                                   |
+| C1       | CL1           | P1      | Jā          | Nr.              | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks un maksas projektam P1 ir iekļautas abās līguma rindās, CL1 un CL2.                                                                                                   |
 | C1       | CL2           | P1      | Jā          | Jā             | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks un maksas projektam P1 ir iekļautas abās līguma rindās, CL1 un CL2.                                                                                                   |
-| C1       | CL1           | P1      | Jā          | No              | Jā         | Derīgs           | Projekta P1 laiks un maksas ir iekļautas CL1. Izdevumi P1 projektā ir ietverti rindā CL2. </br>   Nav pārklāšanās tam, kas tiek iekļauts katrā līguma rindā un tādējādi ir derīgs.  |
-| C1       | CL2           | P1      | No           | Jā             | No          | Derīgs           | Projekta P1 laiks un maksas ir iekļautas CL1. Izdevumi P1 projektā ir ietverti rindā CL2. </br>   Nav pārklāšanās tam, kas tiek iekļauts katrā līguma rindā un tādējādi ir derīgs.  |
+| C1       | CL1           | P1      | Jā          | Nr.              | Jā         | Derīgs           | Projekta P1 laiks un maksas ir iekļautas CL1. Izdevumi P1 projektā ir ietverti rindā CL2. </br>   Nav pārklāšanās tam, kas tiek iekļauts katrā līguma rindā un tādējādi ir derīgs.  |
+| C1       | CL2           | P1      | Nr.           | Jā             | Nr.          | Derīgs           | Projekta P1 laiks un maksas ir iekļautas CL1. Izdevumi P1 projektā ir ietverti rindā CL2. </br>   Nav pārklāšanās tam, kas tiek iekļauts katrā līguma rindā un tādējādi ir derīgs.  |
 | C1       | CL1           | P1      | Jā          | Jā             | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks, izdevumi un maksas projektam P1 ir iekļautas divu līgumu rindās.                                                                                               |
 | CL2      | CL2           | P1      | Jā          | Jā             | Jā         | Nav derīgs       | Pārkāpj kārtulu. Laiks, izdevumi un maksas projektam P1 ir iekļautas divu līgumu rindās.                                                                                               |
 

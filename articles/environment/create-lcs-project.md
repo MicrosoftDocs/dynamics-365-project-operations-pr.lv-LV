@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d348515f8bd64df8aaab3a8a6dbee09237973f11
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995585"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989965"
 ---
 # <a name="start-a-new-lcs-project"></a>Jauna LCS projekta sākšana
 
@@ -24,13 +24,13 @@ Izmantojiet Lifecycle Services (LCS), lai pārvaldītu savu Dynamics 365 Project
 3. Atlasiet plusa zīmi ( **+** ), lai izveidotu jaunu projektu.
 4. Priekšskatīšanas nolūkiem atlasiet projekta tipu **Migrēt, izveidot risinājumus un uzzināt**.
 
-  ![LCS projekta tipa izvēle](./media/create-lcs-1.png)
+  ![LCS projekta tipa izvēle.](./media/create-lcs-1.png)
 
 5. Nodēvējiet projektu. 
 6. Atlasiet **Finance and Operations** kā produkta nosaukumu un atlasiet nozari un metodoloģiju. 
 7. Atlasiet **Izveidot**.
 
-![LCS projekta izveide](./media/create-lcs-2.png)
+![LCS projekta izveide.](./media/create-lcs-2.png)
 
 Izmantojiet šo LCS projektu, lai izvietotu savu Project Operations vidi.
 

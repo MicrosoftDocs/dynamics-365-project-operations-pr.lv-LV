@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007600"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992395"
 ---
 # <a name="estimates"></a>Novērtējumi
 
@@ -83,24 +83,24 @@ Ja pievienojāt pielāgotu lauku piedāvājuma rindu informācijai un vēlaties,
 1. Atveriet PluginRegistrationTool un izveidojiet savienojumu ar tiešsaistes instanci.
 2. Atlasiet vienumu **Meklēt** un meklējiet spraudni, lai veiktu atjaunināšanu.
 
-    ![Dialoglodziņš Meklēšanas koks](media/basic-guide-19.png)
+    ![Dialoglodziņš Meklēšanas koks.](media/basic-guide-19.png)
 
 3. Atlasiet spraudni un pēc tam galvenajā lapā atlasiet vienumu **Atlasīt.**
 4. Atlasiet spraudņa darbību, lai atjauninātu, ar peles labo pogu noklikšķiniet un pēc tam atlasiet vienumu **Atjaunināt**.
 
-    ![Darbību atlase spraudnī](media/basic-guide-20.png)
+    ![Darbību atlase spraudnī.](media/basic-guide-20.png)
 
 5. Dialoglodziņa **Esošas darbības atjaunināšana** laukā **Filtrēšanas atribūti** atlasiet vienumu atlasiet daudzpunktes pogu (**...**):
  
-    ![Dialoglodziņš Esošās darbības atjaunināšana](media/basic-guide-21.png)
+    ![Dialoglodziņš Esošās darbības atjaunināšana.](media/basic-guide-21.png)
 
 6. Dialoglodziņā **Atribūtu atlase** atzīmējiet pielāgotu atribūtu izvēles rūtiņas.
 
-    ![Dialoglodziņš Atribūtu atlase](media/basic-guide-22.png)
+    ![Dialoglodziņš Atribūtu atlase.](media/basic-guide-22.png)
 
 7. Noklikšķiniet uz vienuma **Labi**, lai aizvērtu dialoglodziņu, un pēc tam uz **Atjaunināt darbību**.
  
-    ![Darbības atjaunināšanas poga](media/basic-guide-23.png)
+    ![Darbības atjaunināšanas poga.](media/basic-guide-23.png)
 
 8. Otrajā spraudnī atkārtojiet 1.–7. darbību.
 9. Aizveriet PluginRegistrationTool.

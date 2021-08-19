@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009985"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992800"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projekta uzdevumu sinhronizēšana tieši no Project Service Automation uz Finance and Operations
 
@@ -39,7 +39,7 @@ Project Service Automation uz Finance integrācijas risinājumam tiek izmantots 
 
 Nākamajā ilustrācijā parādīts, kā dati tiek sinhronizēti starp Project Service Automation un Finance.
 
-[![Datu plūsma Project Service Automation integrācijai ar Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Datu plūsma Project Service Automation integrācijai ar Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Veidne un uzdevums
 
@@ -80,7 +80,7 @@ Ja ir jāizmanto Power Query, ievērojiet šo vadlīniju:
 
 Nākamajā ilustrācijā ir redzams piemērs no veidnes uzdevumu kartējumiem datu integrācijā. Kartējumā tiek parādīta lauka informācija, kas tiks sinhronizēta no Project Service Automation uz Finance.
 
-[![Veidņu kartēšana](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Veidņu kartēšana.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

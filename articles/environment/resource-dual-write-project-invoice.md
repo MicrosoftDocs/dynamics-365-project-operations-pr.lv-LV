@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996575"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993250"
 ---
 # <a name="project-invoice-integration"></a>Projekta rēķina integrācija
 
@@ -20,7 +20,7 @@ ms.locfileid: "5996575"
 
 Programmā Project Operations projekta vadītājs pārvalda projekta norēķinu rezerves un izveido pro formas rēķinu klientam programmā Microsoft Dataverse. Pamatojoties uz šo pro forma rēķinu, debitoru ierēdnis vai projekta grāmatvedis izveido uz klientu vērstu rēķinu. Duālās rakstīšanas integrācija garantē, ka pro formas rēķina informācija tiek sinhronizēta ar Finance and Operations programmām. Pēc tam, kad uz klientu vērstais rēķins ir grāmatots, sistēma atjaunina attiecīgos projekta faktiskos datus programmā Dataverse ar grāmatvedības informāciju. Tālāk redzamajā diagrammā ir parādīts augsta līmeņa konceptuālais šīs integrācijas pārskats.
 
-   ![Projekta rēķina integrācija](./media/DW5Invoicing.png)
+   ![Projekta rēķina integrācija.](./media/DW5Invoicing.png)
 
 Kad projekta vadītājs apstiprina pro forma rēķinu programmā Dataverse, pro formas rēķina galvenes informācija tiek sinhronizēta ar Finance and Operations programmām, izmantojot duālās rakstīšanas tabulas karti **Projekta rēķina priekšlikuma izpilde V2 (rēķini)**. Tā ir vienvirziena integrācija no Dataverse uz Finance and Operations programmām. Projektu rēķinu priekšlikumu izveide vai dzēšana tieši Finance and Operations programmās netiek atbalstīta.
 

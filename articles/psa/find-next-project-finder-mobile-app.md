@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007510"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990792"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Nākamā projekta atrašana, izmantojot programmu Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Ar programmu Project Finder Mobile savā [!INCLUDE[tn_iphone](../includes/tn-iph
   
  Pieskarieties bultiņai, kas atrodas pa labi no jūs interesējošā projekta, lai aplūkotu sīkāku informāciju un pieteiktos projektam.  
   
- ![Projektam atbilstošu prasmju saraksts programmā Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Projektam atbilstošu prasmju saraksts programmā Project Finder Mobile")  
+ ![Projektam atbilstošu prasmju saraksts programmā Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Projektam atbilstošu prasmju saraksts programmā Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Prasmju atjaunināšana  
  Pieskarieties profila pogai ekrāna apakšējā labajā stūrī, lai atjauninātu savu prasmju un kvalifikācijas līmeni.  
   
- ![Poga Profils programmā Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Poga Profils programmā Project Finder Mobile")  
+ ![Poga Profils programmā Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Poga Profils programmā Project Finder Mobile")  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)
