@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: 7abb9e851c99c66677dd45e20f5b8bd179e9464d
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024837"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474544"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Atjauninājumu izlaiduma grafiks Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7024837"
 
 | Risinājums  | Jaunākā versija |
 |-------|----|
-| Project Service Automation    | 3.10.55.38 |
+| Project Service Automation    | 3.10.56.110 |
 | Project Service Automation darbvirsmas pievienojumprogramma                | 3.15          |
 
 Informāciju par Project Service atjauninājumiem skatiet [Dynamics 365 izlaišanas plānos](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Informāciju par Project Service atjauninājumiem skatiet [Dynamics 365 izlaiša
 | Stacija  | Reģions | Pašreizējā versija | Nākamā versija |  Plānotais datums
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. stacija</strong> | |  |  | |
-| | <i>Pirmais laidiens</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 27. augusts
+| | <i>Pirmais laidiens</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
 |<strong>2. stacija</strong> | |  |  | |
-| | <i>Dienvidamerika</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 03. septembris
-| | <i>Kanāda</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 03. septembris
-| | <i>Indija</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 03. septembris
-| | <i>Francija</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 03. septembris
-| | <i>Apvienotie Arābu Emirāti</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 03. septembris
-| | <i>Dienvidāfrika</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 03. septembris
-| | <i>Vācija</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 03. septembris
-| | <i>Šveice</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021. gada 03. septembris
+| | <i>Dienvidamerika</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
+| | <i>Kanāda</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
+| | <i>Indija</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
+| | <i>Francija</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
+| | <i>Apvienotie Arābu Emirāti</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
+| | <i>Dienvidāfrika</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
+| | <i>Vācija</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
+| | <i>Šveice</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 2021. gada 01. oktobris
 |<strong>3. stacija</strong> | |  |  | |
-| | <i>Japāna</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. gada 13. augusts
-| | <i>Āzijas / Klusā okeāna reģions</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. gada 13. augusts
-| | <i>Lielbritānija</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. gada 13. augusts
-| | <i>Okeānija</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. gada 13. augusts
+| | <i>Japāna</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. gada 10. septembris
+| | <i>Āzijas / Klusā okeāna reģions</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. gada 10. septembris
+| | <i>Lielbritānija</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. gada 10. septembris
+| | <i>Okeānija</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. gada 10. septembris
 |<strong>4. stacija</strong> | |  |  | |
-| | <i>Eiropa</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. gada 20. augusts
+| | <i>Eiropa</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. gada 17. septembris
 |<strong>5. stacija</strong> | |  |  | |
-| | <i>Ziemeļamerika</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. gada 27. augusts
+| | <i>Ziemeļamerika</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. gada 24. septembris
 |<strong>6. stacija</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. gada 27. augusts
-| | <i>Īpašas skalu grupas</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021. gada 03. septembris
+| | <i>Government Community Cloud</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. gada 24. septembris
+| | <i>Īpašas skalu grupas</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 2021. gada 01. oktobris
 
 >[!Note]
 > - Datumi visos reģionos, izņemot Valsts iestāžu kopienas mākoni (GCC), norāda nākamās automātiskās atjaunināšanas hronometrāžu. Datumi GCC norāda versijas pieejamību; pašlaik šiem reģioniem netiek veikta automātiska atjaunināšana.

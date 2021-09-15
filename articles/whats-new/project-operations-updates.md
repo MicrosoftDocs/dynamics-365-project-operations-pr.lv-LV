@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024792"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474502"
 ---
 # <a name="project-operations-updates"></a>Project Operations atjauninājumi
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations sastāv no diviem komponentiem.
 - Projektu pārvaldība un uzskaite vidē Dynamics 365 Finance aptver izdevumu pārvaldības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. Programma Finance and Operations, kas izmantota risinājumā Project Operations scenārijiem, kas balstīti uz resursiem/bez krājumiem, un Project Operations scenārijiem, kas balstīti uz krājumiem/ražošanu.
 
 ## <a name="project-operations-release-notes"></a>Project Operations informācija par laidienu
-- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Resursi/bez krājumiem](whats-new-july-2021-resource-based.md).
-- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Lite izvietošana](../pro/whats-new/whats-new-july-2021-lite.md).
+- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Resursi/bez krājumiem](whats-new-august-2021-resource-based.md).
+- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Lite izvietošana](../pro/whats-new/whats-new-august-2021-lite.md).
 - Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [krājumu/ražošanas balstīti](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Project Operations jaunākā versija
 
 | Project Operations Dataverse vidē | Projektu pārvaldība un uzskaite programmu Finance and Operations vidē | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Ja izmantojat Project Operations resursu/uz krājumiem nebalstītu scenāriju, mēs iesakām lietot Dual Write Orchestration versiju 2.2.2.83 vai jaunākas versijas.
 
@@ -47,27 +47,24 @@ Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī.
 | Stacija | Reģions | Pašreizējās versijas numurs | Lite izvietošanas automātiskie atjauninājumi | Resursu/krājumos nebalstītas izvietošanas automātiskie atjauninājumi | Nākamās versijas numurs | Vispārēji pieejamā nākamā versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmais laidiens         |  4.13.0.152     | Pabeigta           | 2021. gada 13. augusts     | TBD                 | 2021. gada 27. augusts     |
+|   &nbsp;  | Pirmais laidiens         |  4.14.0.99      | Pabeigta           | 2021. gada 10. septembris  | TBD                 | 2021. gada 01. oktobris    |
 | 2. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dienvidamerika         |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
-|    &nbsp; | Kanāda                |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
-|   &nbsp;  | Indija                 |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
-|   &nbsp;  | Francija                |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
-|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
-|   &nbsp;  | Dienvidāfrika          |  4.13.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | TBD                 | 2021. gada 27. augusts     |
+|   &nbsp;  | Dienvidamerika         |  4.14.0.152     | 2021. gada 10. septembris | 2021. gada 17. septembris  | TBD                 | 2021. gada 01. oktobris    |
+|    &nbsp; | Kanāda                |  4.14.0.152     | 2021. gada 10. septembris | 2021. gada 17. septembris  | TBD                 | 2021. gada 01. oktobris    |
+|   &nbsp;  | Indija                 |  4.14.0.152     | 2021. gada 10. septembris | 2021. gada 17. septembris  | TBD                 | 2021. gada 01. oktobris    |
+|   &nbsp;  | Francija                |  4.14.0.152     | 2021. gada 10. septembris | 2021. gada 17. septembris  | TBD                 | 2021. gada 01. oktobris    |
+|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.14.0.152     | 2021. gada 10. septembris | 2021. gada 17. septembris  | TBD                 | 2021. gada 01. oktobris    |
+|   &nbsp;  | Dienvidāfrika          |  4.14.0.152     | 2021. gada 10. septembris | 2021. gada 17. septembris  | TBD                 | 2021. gada 01. oktobris    |
 | 3. stacija |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japāna                 |  4.12.0.152     | Pabeigta*          | Pabeigta            | 4.13.0.152          | 2021. gada 13. augusts     |
-|   &nbsp;  | Āzija un Klusais okeāns          |  4.12.0.152     | Pabeigta*          | Pabeigta            | 4.13.0.152          | 2021. gada 13. augusts     |
-|   &nbsp;  | Lielbritānija         |  4.12.0.152     | Pabeigta*          | Pabeigta            | 4.13.0.152          | 2021. gada 13. augusts     |
-|   &nbsp;  | Okeānija               |  4.12.0.152     | Pabeigta*          | Pabeigta            | 4.13.0.152          | 2021. gada 13. augusts     |
+|   &nbsp;  | Japāna                 |  4.13.0.152     | Pabeigta           | Pabeigta            | 4.14.0.152          | 2021. gada 10. septembris  |
+|   &nbsp;  | Āzija un Klusais okeāns          |  4.13.0.152     | Pabeigta           | Pabeigta            | 4.14.0.152          | 2021. gada 10. septembris  |
+|   &nbsp;  | Lielbritānija         |  4.13.0.152     | Pabeigta           | Pabeigta            | 4.14.0.152          | 2021. gada 10. septembris  |
+|   &nbsp;  | Okeānija               |  4.13.0.152     | Pabeigta           | Pabeigta            | 4.14.0.152          | 2021. gada 10. septembris  |
 | 4. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eiropa                |  4.12.0.152     | Pabeigta           | Pabeigta            | 4.13.0.152          | 2021. gada 20. augusts     |
+|   &nbsp;  | Eiropa                |  4.13.0.152     | Pabeigta           | 2021. gada 03. septembris  | 4.14.0.152          | 2021. gada 17. septembris  |
 | 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ziemeļamerika         |  4.12.0.152     | 2021. gada 13. augusts    | 2021. gada 20. augusts     | 4.13.0.152          | 2021. gada 27. augusts     |
+|   &nbsp;  | Ziemeļamerika         |  4.13.0.152     | 2021. gada 03. septembris | 2021. gada 10. septembris  | 4.14.0.152          | 2021. gada 24. septembris  |
 
-
-> [!NOTE]
-> Automātiskā izvietošana ir pabeigta versijai 4.12.0.148. 2021. gada jūlija laidienā atjauninātajai versijai nav plānota automātiskā izvietošana.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Izlaišanas grafiks projektu pārvaldībai un uzskaitei programmu Finance and Operations vidē
 
