@@ -4,9 +4,11 @@
   items:
     - name: Izvietošanas veida noteikšana
       href: environment/determine-deployment-type.md
+    - name: "Reģistrēšanās Project\_Operations izmēģinājumversijai"
+      href: environment/admin-trials.md
     - name: "Project\_Operations atjauninājumi"
       href: whats-new/project-operations-updates.md
-- name: "Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+- name: "Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
   items:
     - name: Darba sākšana
       items:
@@ -50,11 +52,13 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Izdevumu pārvaldības integrācija
               href: environment/resource-dual-write-expense.md
-            - name: Piegādātāja rēķina integrācija
+            - name: Piegādātāju rēķinu integrācija
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Jaunumi
       items:
-        - name: "2021.\_gada jūlijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
+        - name: "2021.\_gada augusts\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: "2021.\_gada jūlijs\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: "2021.\_gada jūnijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
           href: whats-new/whats-new-june-2021-resource-based.md
@@ -412,19 +416,21 @@
               href: expense/vat-recovery.md
     - name: Materiālu lietojums
       items:
-        - name: Materiālu lietojuma ieraksts projektos un projekta uzdevumos
+        - name: Materiālu lietojuma reģistrēšana projektos un projekta uzdevumos
           href: material/material-usage-log.md
     - name: Apstiprinājumi
       items:
         - name: Apstiprinājumu pārskats
           href: approvals/approvals-overview.md
+        - name: Apstiprinājumu kopas
+          href: approvals/approval-sets.md
         - name: Izstrādātāja piezīmes
           items:
-            - name: Izstrādātāja piezīmes apstiprinājumiem
+            - name: Izstrādātāja piezīmes par apstiprinājumiem
               href: approvals/dev-notes-approvals.md
-    - name: Spēlētāju statistika
+    - name: Faktiskie dati
       items:
-        - name: Spēlētāju statistikas pārskats
+        - name: Faktisko datu pārskats
           href: actuals/actuals-overview.md
         - name: Spēlētāju statistikas saistīšana ar sākotnējiem ierakstiem
           href: actuals/linkingactuals.md
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada jaunumi\_— 2.\_kopuma agrīna piekļuve\_— Lite izvietošana"
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "2021.\_gada augusta jaunumi\_— Lite izvietošana"
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "2021.\_gada jūlija jaunumi\_— Lite izvietošana"
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: "2021.\_gada jūnija jaunumi\_— Lite izvietošana"
@@ -832,16 +842,30 @@
           items:
             - name: Resursu lietojuma pārskats
               href: resource-management/resource-utilization-overview.md
-    - name: Apakšsadarbību pārvaldība projekta operācijās
+    - name: Apakšsadarbību pārvaldība programmā Project Operations
       items:
-        - name: Apakšlīgumu pārskata pārvaldība
+        - name: Apakšsadarbību pārvaldība programmā Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: "Apakšlīgumu slēgšana 2021.\_gada oktobrī\_— agrīna piekļuve"
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Galvenie jēdzieni apakšlīgumu slēgšanā
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Pārdevēju un projekta cenrāža pārvaldība
+        - name: Piegādātāju un projektu cenrāžu pārvaldība
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Apakšuzņēmēji kā rezervējami resursi
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Apakšlīguma galvenes detalizētā informācija
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Apakšlīguma rindas par laiku
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Apakšlīguma rindas par izdevumiem
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Apakšlīguma rindas par produktiem
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Apakšuzņēmēja rinda par resursiem
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Apakšlīguma rinda par atskaites punktiem
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Laiks
       items:
         - name: Laika pārskats
@@ -862,19 +886,21 @@
           href: expense/basic-expense.md
     - name: Materiālu lietojums
       items:
-        - name: Materiālu lietojuma ieraksts projektos un projekta uzdevumos
+        - name: Materiālu lietojuma reģistrēšana projektos un projekta uzdevumos
           href: material/material-usage-log.md
     - name: Apstiprinājumi
       items:
         - name: Apstiprinājumu pārskats
           href: approvals/approvals-overview.md
+        - name: Apstiprinājumu kopas
+          href: approvals/approval-sets.md
         - name: Izstrādātāja piezīmes
           items:
-            - name: Izstrādātāja piezīmes apstiprinājumiem
+            - name: Izstrādātāja piezīmes par apstiprinājumiem
               href: approvals/dev-notes-approvals.md
-    - name: Spēlētāju statistika
+    - name: Faktiskie dati
       items:
-        - name: Spēlētāju statistikas pārskats
+        - name: Faktisko datu pārskats
           href: actuals/actuals-overview.md
         - name: Spēlētāju statistikas saistīšana ar sākotnējiem ierakstiem
           href: actuals/linkingactuals.md
@@ -1060,6 +1086,8 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidiena plāns"
           href: psa/version-history-ps.md
+        - name: "Update\_Release\_35,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-35.md
         - name: "Update\_Release\_34,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-34.md
         - name: "Update\_Release\_33,\_V3 jaunumi vai izmaiņas"
@@ -1306,9 +1334,9 @@
               href: psa/time-entry-calendar.md
             - name: Nedēļas laika ieraksta pielāgošana
               href: psa/time-entry-extensibility-v3.md
-            - name: Apstiprināšanas kopas
+            - name: Project Service Automation apstiprinājumu kopas
               href: psa/approval-set.md
-    - name: "BUJ un problēmu novēršana\_(3.x)"
+    - name: "Bieži uzdotie jautājumi un problēmu novēršana\_(3.x)"
       items:
         - name: Kāpēc izdevumu izmaksu faktiskajos datos šī cena pēc noklusējuma ir nulle?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
