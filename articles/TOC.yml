@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada oktobris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: "2021.\_gada septembris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: "2021.\_gada augusts\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: "2021.\_gada jūlijs\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
@@ -292,7 +296,7 @@
           items:
             - name: 'Projekta veidņu izstrāde, izmantojot projekta kopēšanu'
               href: project-management/dev-copy-project.md
-            - name: Projekta plānošanas API izmantošana (publiskais priekšskatījums)
+            - name: Projekta grafika API izmantošana
               href: project-management/schedule-api-preview.md
     - name: Resursu pārvaldība
       items:
@@ -444,7 +448,15 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 'Krājumos nebalstītu materiālu sagāde projektiem, izmantojot neapstiprinātu piegādātāju rēķinus'
           href: procurement/pending-vendor-invoices.md
-    - name: Rēķinu izrakstīšana
+        - name: 'Krājumos neesošu materiālu pasūtīšana projektiem, izmantojot projekta pirkuma pasūtījumus'
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Piegādātāja saglabāšana
+          items:
+            - name: Piegādātāja saglabāšanas pārskats
+              href: procurement/vendor-retention-overview.md
+            - name: Kreditoru saglabāšanas iestatīšana
+              href: procurement/set-up-vendor-retention.md
+    - name: Rēķini
       items:
         - name: Rēķinu norises pārskats
           href: invoicing/post-project-invoices.md
@@ -528,6 +540,10 @@
       items:
         - name: "2021.\_gada jaunumi\_— 2.\_kopuma agrīna piekļuve\_— Lite izvietošana"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021. gada oktobra jaunumi — Lite izvietošana
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 2021. gada septembra jaunumi — Lite izvietošana
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: "2021.\_gada augusta jaunumi\_— Lite izvietošana"
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "2021.\_gada jūlija jaunumi\_— Lite izvietošana"
@@ -784,7 +800,7 @@
           items:
             - name: 'Projekta veidņu izstrāde, izmantojot projekta kopēšanu'
               href: project-management/dev-copy-project.md
-            - name: Projekta plānošanas API izmantošana (publiskais priekšskatījums)
+            - name: Projekta grafika API izmantošana
               href: project-management/schedule-api-preview.md
     - name: Resursu pārvaldība
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Apakšlīguma rindas par laiku
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Apakšlīguma rindas par izdevumiem
+        - name: Apakšlīguma rindas par izdevumu kategorijām
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Apakšlīguma rindas par produktiem
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidiena plāns"
           href: psa/version-history-ps.md
+        - name: "Update\_Release\_36,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-36.md
         - name: "Update\_Release\_35,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-35.md
         - name: "Update\_Release\_34,\_V3 jaunumi vai izmaiņas"
