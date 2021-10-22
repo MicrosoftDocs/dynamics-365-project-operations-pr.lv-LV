@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323875"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547253"
 ---
 # <a name="subcontract-lines-for-time"></a>Apakšlīguma laika rindas
 
@@ -30,23 +30,22 @@ Lai programmā Project Operations izveidotu apakšlīguma laika rindu, izpildiet
 
   Tālāk redzamajā tabulā ir sniegta informācija par laukiem lapā **Apakšlīgumu rinda** un lapā **Ātrā izveide**.
 
-| **Lauks** | **Apraksts** |
-| --- | --- |
-| Nosaukums/vārds, uzvārds | Apakšlīguma rindas nosaukums. |
-| Apraksts | Apakšlīguma rindā iegādāto pakalpojumu īss apraksts. | 
-| Rindas tips | Šis lauks noklusējuma vērtība.  |
-| Rēķinu izrakstīšanas metode | Atlasiet norēķinu metodi. Pamatojoties uz atsauces apakšlīguma rindas norēķinu metodi, norēķinu metodei ar fiksēto cenu ir pieejams uz atskaites punktu balstīts rēķinu grafiks. |
-| Transakcijas klase | Šis lauks ir noklusējuma vērtība, kas norāda, vai apakšlīguma rinda tiek izmantota, lai reģistrētu apakšuzņēmēja laika pirkumu. |
-| Loma | To apakšuzņēmēju resursu loma, kuru laiks tiek iegādāts. Apakšuzņēmēja resursiem piešķirtā loma nosaka iegādes izmaksas. |
-| Pieprasītais sākuma datums | Datums, kad apakšuzņēmēja resursiem ir jāsāk darbs. Pieprasīto sākuma datumu izmanto arī, lai izvēlētos projekta cenrādi no apakšlīgumam pievienotajiem projekta cenrāžiem. Lomas izmaksas apakšlīguma rindā pēc tam pēc noklusējuma tiek izgūtas no cenrāža. |
-| Pieprasītais beigu datums | Datums, kad apakšuzņēmēja resursu piešķire beidzas. Šis datums tiek lietots, lai rādītu brīdinājumus, kad projekta vadītājs izmanto šo noslodzi resursu prasībām, kas ir pēc šī datuma. |
-| Pasūtītais daudzums | No piegādātāja iegādāto lomu stundu skaits. Šī vērtība tiek lietota, lai parādītu brīdinājumus, kad projekta vadītājs pārāk daudz izmanto šo noslodzi resursu prasībām. |
-| Vienību grupa | Šī lauka noklusējuma vērtība ir laika vienību grupa, un to nevar mainīt.  |
-| Vienība | Šī lauka noklusējuma vērtība ir stundu pamatvienība no laika vienību grupas. Šo vērtību var mainīt, lai iegādātos jebkuru laika vienību grupas vienību, piemēram, dienu vai nedēļu. Lomas un vienības kombinācija tiek izmantota, lai aprēķinātu apakšlīguma rindas vienības cenu. |
-| Vienības cena | Vienības cenas noklusējuma vērtība ir lomas un vienības kombinācija no projekta cenrāža, kas ir piemērojams pieprasītajam apakšlīguma rindas sākuma datumam. Ja piemērojamā projekta cenrāža cena ir iestatīta citā vienībā, nevis apakšlīguma rindas vienībā, sistēma izmanto vienības konversiju, lai aprēķinātu vienas vienības cenu. |
-| Starpsumma | Šis ir tikai lasāmais lauks, kas tiek automātiski aprēķināts kā **Daudzums x vienības cena**, ja ir ievadītas gan daudzuma, gan vienības cenas vērtības. Ja daudzuma, vienības cenas vai abi lauki ir tukši, laukā var ievadīt vērtību. |
-| PVN |  Ievadiet pārdošanas nodokļa summu. |
-| Kopsumma | Apakšlīguma rindu kopsumma pēc nodokļu iekļaušanas. |
-
+| **Lauks** | **Apraksts** | **Funkcionālā ietekme** |
+| --- | --- | --- |
+| Nosaukums/vārds, uzvārds | Apakšuzņēmēja līguma rindas nosaukums palīdzēs veikt identificēšanu. | Tas tiks parādīts, kā pirmā kolonna visos uzmeklēšanas rezultātos, pamatojoties apakšuzņēmēja līguma rindām. |
+| Apraksts | Apakšlīguma rindā iegādāto pakalpojumu īss apraksts. |Nevienu |
+| Rindas tips |   Šim laukam ir noklusējuma vērtība **Uz daudzumu balstīts**.| Nevienu |
+| Rēķinu izrakstīšanas metode | Šī ir opciju kopa, kas ir divi galvenie Project Operations atbalstītie līgumu slēgšanas modeļi: **Fiksēta cena** un **Laiks un materiāli**. | Uz rēķinu izrakstīšanas metodi balstīts uz atskaites punktu balstīts rēķinu grafiks ir pieejams apakšuzņēmēja līguma rindām, ja ir atlasīta fiksētas cenas norēķinu metode. |
+| Transakcijas klase | Noklusējuma vērtība ir **"Laiks"**. | Tas norāda, ka apakšuzņēmēja līguma rinda tiek izmantota, lai ierakstītu apakšuzņēmēja līguma laika iegādi. |
+| Loma | Atlasiet to apakšuzņēmēja līguma resursu lomu, kuru laiks tiks iegādāts. | Loma, ko veic apakšuzņēmēja līguma resursi, nosaka iegādes izmaksas. |
+| Pieprasītais sākuma datums | Ievadiet datumu, kad darba uzsākšanai ir nepieciešami apakšuzņēmēja līguma resursi. | Šis tiek izmantots projekta cenrāža izvēlei no projekta cenrāžiem, kas ir pievienoti apakšuzņēmēja līgumam. Apakšuzņēmēja līgumu rindas lomu kategoriju izmaksas tiek ņemtas no šī cenrāža. |
+| Pieprasītais beigu datums | Ievadiet datumu, kad beidzas apakšuzņēmēja resursu piešķiršana. | Tas tiks izmantots, lai parādītu brīdinājumus, kad projekta vadītājs izmanto noslodzi resursu prasībām, kas rodas pēc šī datuma. |
+| Pasūtītais daudzums | Ievadiet no pārdevēja iegādāto lomu stundu skaitu. | Tas tiks izmantots, lai parādītu brīdinājumus, kad projekta vadītājs pārāk daudz izmanto noslodzi resursu prasībām. |
+| Vienību grupa | Noklusējuma vērtība ir **Laika vienību grupa**, ko nevar mainīt. | Nevienu|
+| Vienība | Šī lauka noklusējuma vērtība ir **Laika vienību grupas** stundu pamatvienība. Šo vērtību var mainīt, lai iegādātos jebkuru **Laika vienību grupas** vienību, piemēram, dienu vai nedēļu. | **Lomas** un **Vienības** kombinācija tiks izmantota, kā noklusējuma vērtība vai tiks aprēķināta apakšuzņēmēja līguma rindas vienības cena. |
+| Vienības cena | Noklusējuma vienības cena izmanto kombināciju no **Lomas** un **Vienības**, kas ir saistītas ar projekta cenrādi un kas ir piemērojamas **Pieprasītajam sākuma** datumam apakšuzņēmēja līguma rindā. | Ja piemērojamā projekta cenrāža cena ir iestatīta citā vienībā, nevis apakšlīguma rindas vienībā, sistēma izmanto vienības konversiju, lai aprēķinātu vienas vienības cenu. |
+| Starpsumma |    Šis ir tikai lasāms lauks, kas tiek aprēķināts kā daudzums x vienības cena, ja ir ievadītas gan daudzuma, gan vienības cenas vērtības. Ja daudzuma, vienības cenas vai abi lauki ir tukši, laukā var ievadīt vērtību. | Nevienu|
+| PVN |   Ievadiet pārdošanas nodokļa summu. |Nevienu |
+| Kopsumma | Apakšlīguma rindu kopsumma, ieskaitot nodokļus. Šis lauks tiek aprēķināts, kā starpsumma + pārdošanas nodoklis.|Nevienu |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

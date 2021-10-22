@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323785"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558511"
 ---
 # <a name="subcontract-line-milestones"></a>Apakšlīguma rindas atskaites punkti
 
@@ -50,15 +50,15 @@ Fiksētas cenas atskaites punktus apakšlīguma rindā var ģenerēt manuāli, j
 3. Cilnes **Apakšlīguma rindas atskaites punkti** apakšrežģī atlasiet **+ Jauns apakšlīguma rindas atskaites punkts**.
 4. Lapā **Jauns apakšlīguma rindas atskaites punkts** ievadiet nepieciešamo informāciju, balstoties uz tālāk redzamo tabulu.
 
-    | Lauks | Apraksts |
-    | --- | --- |
-    | Atskaites punkta nosaukums | Atskaites punkta nosaukums. |
-    | Apraksts | Atskaites punkta apraksts.  |
-    | Atskaites punkta datums | Datums, kurā automātiskās rēķinu izveides procesa datumam jāmeklē šī atskaites punkta statuss, lai izskatītu tā izrakstīšanu. Šī vērtība tiek iekļauta piegādātāja rēķina rindā, izrakstot rēķinus šim apakšlīgumam. |
-    | Apjoms | To atskaites punktu summa vai vērtība, par ko tiks izrakstīts rēķins klientam. Šī vērtība tiek iekļauta piegādātāja rēķina rindā, izrakstot rēķinus šim apakšlīgumam. |
-    | Nodoklis | Atskaites punktam lietotā nodokļu summa. Šī vērtība tiek iekļauta piegādātāja rēķina rindā, izrakstot rēķinus šim apakšlīgumam. |
-    | Summa pēc nodokļiem | Šis tikai lasāmais lauks tiek aprēķināts kā summa + nodokļi. Šī vērtība tiek iekļauta piegādātāja rēķina rindā, izrakstot rēķinus šim apakšlīgumam. |
-    | Rēķina statuss | Izveidojot atskaites punktu, vienmēr tiek iestatīts statuss **Nav gatavs rēķina izrakstīšanai**.  Kad statuss ir **Gatavs rēķina izrakstīšanai**, pārdevēja rēķina izveides laikā šis atskaites punkts tiek iekļauts pārdevēja rēķinā. |
+    | Lauks | Apraksts |Funkcionālā ietekme|
+    | --- | --- |----------------------|
+    | Atskaites punkta nosaukums | Atskaites punkta nosaukums. |Tas tiks parādīts kā pirmā kolonna visos uzmeklēšanas rezultātos, pamatojoties apakšuzņēmēja līguma rindas atskaites punktiem. Šī kreditora rēķina rinda, kas tika izveidota balstoties uz šo atskaites punktu, tiks saukta arī par apakšuzņēmēja līguma rindas atskaites punkts, kā noklusējuma nosaukums kreditora rēķina rindai.|
+    | Apraksts | Atskaites punkta apraksts. |Šī kreditora rēķina rinda, kas tika izveidota balstoties uz šo atskaites punktu, tiks aprakstīta, kā apakšuzņēmēja līguma rindas atskaites punkts, kā noklusējuma apraksts kreditora rēķina rindai.|
+    | Atskaites punkta datums | Datums, kurā automātiskās rēķinu izveides procesa datumam jāmeklē šī atskaites punkta statuss, lai izskatītu tā izrakstīšanu.| Šī vērtība tiks izmantota kā kreditora rēķina rindas noklusējuma datums, kad tiks izrakstīts rēķins šai apakšuzņēmēja līguma rindai. |
+    | Apjoms | To atskaites punktu summa vai vērtība, par ko tiks izrakstīts rēķins klientam. |Šī vērtība ir izmantota kā kreditora rēķina rindas noklusējuma daudzums, kad tiek izrakstīts rēķins šai apakšuzņēmēja līguma rindai. |
+    | Nodoklis | Atskaites punktam lietotā nodokļu summa.| Šī vērtība tiek izmantota, kā kreditora rēķina rindas noklusējuma nodoklis, kad tiek izrakstīts rēķins šai apakšuzņēmēja līguma rindai. |
+    | Summa pēc nodokļiem | Šis tikai lasāmais lauks tiek aprēķināts kā summa + nodokļi.|Šī vērtība tiek izmantota, kā kreditora rēķina rindas noklusējums, kad tiek izrakstīts rēķins šai apakšuzņēmēja līguma rindai. |
+    | Rēķina statuss | Izveidojot atskaites punktu, vienmēr tiek iestatīts statuss **Nav gatavs rēķina izrakstīšanai**.|  Kad statuss ir **Gatavs rēķina izrakstīšanai**, pārdevēja rēķina izveides laikā šis atskaites punkts tiek iekļauts pārdevēja rēķinā. |
 
 5. Atlasiet vienumu **Saglabāt un aizvērt**.
 

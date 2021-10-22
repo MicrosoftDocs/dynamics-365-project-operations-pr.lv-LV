@@ -2,23 +2,22 @@
 title: Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
 description: Šajā tēmā ir sniegta informācija un paraugi projekta plānošanas API izmantošanai.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008775"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487694"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-> [!IMPORTANT] 
-> Daļa vai visa šajā tēmā norādītā funkcionalitāte ir pieejama lietotājiem kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var mainīties. 
+
 
 ## <a name="scheduling-entities"></a>Plānošanas entītijas
 

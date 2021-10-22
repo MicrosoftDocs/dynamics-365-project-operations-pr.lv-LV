@@ -2,17 +2,17 @@
 title: Krājumos neesošu materiālu iegāde, izmantojot neapstiprinātu piegādātāju rēķinu
 description: Šajā tēmā ir izskaidrots, kā ierakstīt neapstiprinātus piegādātāju rēķinus.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009045"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547298"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Krājumos neesošu materiālu iegāde, izmantojot neapstiprinātu piegādātāju rēķinu
 
@@ -20,7 +20,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Kad uzņēmums projekta vajadzībām veic krājumos neesošu materiālu iepirkumu, izmaksas var nekavējoties reģistrēt saistībā ar šo projektu. 
 
-Piemēram, Contoso Robotics US īsteno aprīkojuma atjaunošanas projektu, un tam ir nepieciešamas programmatūras licences. Šīs licences tiek iegādātas no trešās puses piegādātāja.  Izmantojot Dynamics 365 Finance, kreditoru ierēdnis ieraksta neapstiprinātu piegādātāja rēķina dokumentu un pieskaita licences izmaksas tieši aprīkojuma atjaunošanas projektam. 
+Piemēram, Contoso Robotics ASV veic aprīkojuma atjaunošanas projektu, un tam ir nepieciešamas programmatūras licences. Šīs licences tiek iegādātas no trešās puses piegādātāja.  Izmantojot Dynamics 365 Finance, kreditoru ierēdnis ieraksta neapstiprinātu piegādātāja rēķina dokumentu un pieskaita licences izmaksas tieši aprīkojuma atjaunošanas projektam. 
 
 > [!IMPORTANT]
 > Pirms šajā tēmā aprakstītās funkcionalitātes izmantošanas pārskatiet un lietojiet nepieciešamās konfigurācijas. Papildinformāciju skatiet sadaļā [Krājumos neesošu materiālu un neapstiprinātu piegādātāju rēķinu iespējošana](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Neapstiprinātos piegādātāju rēķinus var ierakstīt lapā **Neapstiprināti
     - piegādātāja bilances summu;
     - PVN summu.
     - Projekta izmaksas tiek ierakstītas sagādes integrācijas kontā.
-    - Projekta faktiskā transakcija programmā Dataverse. Šī transakcija tiek apstrādāta tālāk, izmantojot [Project Operations integrācijas žurnālu](../project-accounting/project-operations-integration-journal.md). Grāmatojot šo žurnālu, summa tiek pārvietota no sagādes integrācijas konta uz projekta izmaksu kontu.
+    - Projekta faktisko izmaksu transakcija programmā Dataverse.  Šī transakcija tiek apstrādāta tālāk, izmantojot [Project Operations integrācijas žurnālu](../project-accounting/project-operations-integration-journal.md). Grāmatojot šo žurnālu, summa tiek pārvietota no sagādes integrācijas konta uz projekta izmaksu kontu. 
+    - Pirkumi, par kuriem projekta klientam tiek izrakstīti rēķini, izmantojot laika un materiālu norēķinu metodi. Turklāt rēķinā neiekļautajām pārdošanas transakcijām tiek izveidoti pirkumi programmā Dataverse. Preču cenrādis programmā Dataverse tiek izmantots pārdošanas cenām un daudzumiem rēķinā neiekļautajām pārdošanas transakcijām.

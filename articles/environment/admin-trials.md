@@ -2,16 +2,16 @@
 title: Reģistrēšanās Project Operations izmēģinājumversijām
 description: Šajā tēmā ir sniegta informācija par to, kā izvietot Dynamics 365 Project Operations izmēģinājumversiju.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418466"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599222"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Reģistrēšanās Project Operations izmēģinājumversijām 
 
@@ -85,15 +85,9 @@ Pirms darba sākšanas piesakieties pārlūkprogrammā ar lietotāja darba kontu
 
    Pēc nodrošināšanas sākšanas jūs tiekat novirzīts uz vižu sarakstu Power Platform administrēšanas centrā. Nodrošināšanas laikā vides stāvoklis ir **PreparingInstance**.
  
-  Pēc nodrošināšanas pabeigšanas vides stāvoklis ir **Gatavs**.
+  Kad nodrošināšana ir pabeigta, vides statuss ir **Gatavs**. Vides nodrošināšana iekļauj demonstrācijas datu izvietošanu.
  
-4.  Kad nodrošināšana ir pabeigta, atlasiet attiecīgo Microsoft Dataverse URL un Finance and Operations lietojumprogrammu URL, lai validētu izvietošanu.
-
-## <a name="demo-data-installation"></a>Demonstrācijas datu instalācija
-
-Izmantojiet tālāk norādītās saites, lai piekļūtu gan uz krājumiem nebalstītu materiālu, gan Lite izvietošanas scenāriju demonstrācijas datu pakotnēm. 
-- [Uz krājumiem nebalstītu materiālu demonstrācijas dati](resource-apply-pro-setup-config-data.md)
-- [Lite demonstrācijas dati](lite-apply-demo-setup-config-data.md)
+4.  Atlasiet attiecīgo Microsoft Dataverse URL un Finance and Operations programmas URL, lai validētu izvietošanu.
 
 ## <a name="configuring-dual-write"></a>Duālās rakstīšanas konfigurēšana
 Ja izvietošanā nav izmantoti tikai uz krājumiem balstīti materiāli, konfigurējiet duālās rakstīšanas kartējumus. Papildinformāciju skatiet sadaļā [Project Operations duālās rakstīšanas karšu versijas](resource-dual-write-maps.md).
