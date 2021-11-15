@@ -2,16 +2,16 @@
 title: Darba sadalījuma struktūras izveide
 description: Šajā tēmā izskaidrots, kā jaunajā interfeisā izveidot darba sadalījuma struktūru (WBS), kas iekļauj pamata vadīklas.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998740"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655426"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Darba sadalījuma struktūras (WBS) izveide
 
@@ -117,5 +117,26 @@ Uzdevuma režīms neietekmē atjauninājumus, kas tiek veikti pirmstecīgo/atkar
 
 Režģis **Grafiks** ir pilnībā pieejams, un to var izmantot ar tādiem ekrāna lasītājiem kā Diktors, JAWS un NVDA. Pa režģa laukumu varat pārvietoties, izmantojot bulttaustiņus (tāpat kā programmā Microsoft Excel), varat izmantot tabulēšanas taustiņu, lai pārvietotos pa interaktīvajiem lietotāja interfeisa elementiem, kā arī varat izmantot lejupvērsto bultiņu, taustiņu Enter vai atstarpes taustiņu, lai atlasītu un atvērtu nolaižamās izvēlnes.
 
+## <a name="project-limitations"></a>Projekta ierobežojumi 
+Ja izmantojat Project Operations darba sadalījuma struktūru, ņemiet vērā tālāk sniegtos ierobežojumus. Šie ierobežojumi attiecas uz projektiem un uzdevumiem. Papildinformāciju skatiet sadaļā [Projekta tīmekļa ierobežojumi un robežas](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Lauks**                                          |  **Ierobežojums**           |
+|----------------------------------------------------|----------------------|
+| Projekta maksimālais uzdevumu skaits                  | 500                  |
+| Projekta maksimālais ilgums               | 3650 dienas (10 gadi) |
+| Projekta maksimālais resursu skaits              | 150                  |
+| Projekta maksimālais saišu skaits (tikai pēctecis) | 600                  |
+| Projekta maksimālais pielāgoto lauku skaits          | 10                   |
+
+**Uzdevumu ierobežojumi**
+
+| **Lauks**                               |   **Ierobežojums**           |
+|-----------------------------------------|-----------------------|
+| Maksimālais hierarhijas līmenis                 | 10 līmeņi             |
+| Maksimālais saišu skaits (pēctecis + priekštecis) | 20                    |
+| Maksimālais atbildes uzdevuma ilgums           | 1250 dienas             |
+| Maksimālais kopsavilkuma uzdevuma ilgums      | 3650 dienas (10 gadi)  |
+| Maksimālais uzdevumam piešķirto resursu skaits    | 20 resursi          |
+| Atbalstītais uzdevuma datumu diapazons         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

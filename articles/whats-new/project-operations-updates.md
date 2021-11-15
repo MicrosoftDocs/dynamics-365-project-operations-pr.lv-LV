@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623352"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783432"
 ---
 # <a name="project-operations-updates"></a>Project Operations atjauninājumi
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sastāv no diviem komponentiem.
 
 | Project Operations Dataverse vidē | Projektu pārvaldība un uzskaite programmu Finance and Operations vidē | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Ja izmantojat Project Operations resursu/uz krājumiem nebalstītu scenāriju, mēs iesakām lietot Dual Write Orchestration versiju 2.2.2.83 vai jaunākas versijas.
 
@@ -47,23 +47,23 @@ Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī.
 | Stacija | Reģions | Pašreizējās versijas numurs | Lite izvietošanas automātiskie atjauninājumi | Resursu/krājumos nebalstītas izvietošanas automātiskie atjauninājumi | Nākamās versijas numurs | Vispārēji pieejamā nākamā versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmais laidiens         |  4.25.0.91      | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 29. oktobris    |
+|   &nbsp;  | Pirmais laidiens         |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
 | 2. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dienvidamerika         |  4.25.0.91      | Pabeigta           | 2021. gada 15. oktobris    | TBD                 | 2021. gada 29. oktobris    |
-|   &nbsp;  | Kanāda                |  4.25.0.91      | Pabeigta           | 2021. gada 15. oktobris    | TBD                 | 2021. gada 29. oktobris    |
-|   &nbsp;  | Indija                 |  4.25.0.91      | Pabeigta           | 2021. gada 15. oktobris    | TBD                 | 2021. gada 29. oktobris    |
-|   &nbsp;  | Francija                |  4.25.0.91      | Pabeigta           | 2021. gada 15. oktobris    | TBD                 | 2021. gada 29. oktobris    |
-|   &nbsp;  | Dienvidāfrika          |  4.25.0.91      | Pabeigta           | 2021. gada 15. oktobris    | TBD                 | 2021. gada 29. oktobris    |
+|   &nbsp;  | Dienvidamerika         |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
+|   &nbsp;  | Kanāda                |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
+|   &nbsp;  | Indija                 |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
+|   &nbsp;  | Francija                |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
+|   &nbsp;  | Dienvidāfrika          |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
 | 3. stacija |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japāna                 |  4.25.0.91      | 2021. gada 15. oktobris   | 2021. gada 22. oktobris    | TBD                 | 2021. gada 05. novembris   |
-|   &nbsp;  | Āzija un Klusais okeāns          |  4.25.0.91      | 2021. gada 15. oktobris   | 2021. gada 22. oktobris    | TBD                 | 2021. gada 05. novembris   |
-|   &nbsp;  | Lielbritānija         |  4.25.0.91      | 2021. gada 15. oktobris   | 2021. gada 22. oktobris    | TBD                 | 2021. gada 05. novembris   |
-|   &nbsp;  | Okeānija               |  4.25.0.91      | 2021. gada 15. oktobris   | 2021. gada 22. oktobris    | TBD                 | 2021. gada 05. novembris   |
-|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.25.0.91      | 2021. gada 15. oktobris   | 2021. gada 22. oktobris    | TBD                 | 2021. gada 05. novembris   |
+|   &nbsp;  | Japāna                 |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Āzija un Klusais okeāns          |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Lielbritānija         |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Okeānija               |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
 | 4. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eiropa                |  4.14.0.99      | Pabeigta           | Pabeigta            | 4.25.0.91           | 2021. gada 15. oktobris    |
+|   &nbsp;  | Eiropa                |  4.25.0.91      | Pabeigta           | Pabeigta            | 4.26.0.145          | 2021. gada 12. novembris   |
 | 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ziemeļamerika         |  4.14.0.99      | Pabeigta           | 2021. gada 08. oktobris    | 4.25.0.91           | 2021. gada 22. oktobris    |
+|   &nbsp;  | Ziemeļamerika         |  4.25.0.91      | Pabeigta           | Pabeigta            | 4.26.0.145          | 2021. gada 19. novembris   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Izlaišanas grafiks projektu pārvaldībai un uzskaitei programmu Finance and Operations vidē
@@ -72,14 +72,15 @@ Projekta pārvaldības un uzskaites atjauninājumi tiek izlaisti astoņas reizes
 
 |Atbalstītā versija| Priekšskatījuma pieejamība (PEAP) | Parasti pieejams (pašatjaunināšana) | Automātiskās atjaunināšanas grafika (izmantojot LCS atjaunināšanas iestatījumus) ražošanas sākuma datums |   Pakalpojumu izbeigšana   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      2021. gada 3. septembris      |        2021. gada 22. oktobris           |                          2021. gada 5. novembris                            | 2022. gada 14. janvāris   |
 |    10.0.21      |         2021. gada 02. augusts     |           2021. gada 17. septembris      |                             2021. gada 1. oktobris                          |  2021. gada 10. decembris |
-|    10.0.20      |         2021. gada 28. maijs        |           2021. gada 16. jūlijs           |                             2021. gada 30. jūlijs                            |  2021. gada 22. oktobris  |
+
 
 Mērķa laidiena datumi var tikt mainīti. Papildinformāciju skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Mērķa versija | Priekšskatījuma pieejamība (PEAP) | Parasti pieejams (pašatjaunināšana) | Automātiskās atjaunināšanas grafika (izmantojot LCS atjaunināšanas iestatījumus) ražošanas sākuma datums |   Pakalpojumu izbeigšana   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      2021. gada 3. septembris      |          2021. gada 22. oktobris         |                           2021. gada 5. novembris                           |  2022. gada 14. janvāris  |
 |     10.0.23     |      2021. gada 15. oktobris       |        2021. gada 10. decembris          |                          2021. gada 31. decembris                           | 2022. gada 18. marts     |
+|     10.0.24     |      2021. gada 3. decembris       |        2022. gada 14. janvāris           |                          2022. gada 4. februāris                            | 2022. gada 15. aprīlis     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

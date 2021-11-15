@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Piegādātāju rēķinu integrācija
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Atinstalēt Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Jaunumi
       items:
         - name: "2021.\_gada oktobris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Projekta grafika API izmantošana
               href: project-management/schedule-api-preview.md
+            - name: Projekta grafika API veiktspēja
+              href: project-management/project-schedule-api-performance.md
     - name: Resursu pārvaldība
       items:
         - name: Pamata koncepcijas
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Projekta grafika API izmantošana
               href: project-management/schedule-api-preview.md
+            - name: Projekta grafika API veiktspēja
+              href: project-management/project-schedule-api-performance.md
     - name: Resursu pārvaldība
       items:
         - name: Pamata koncepcijas
@@ -1102,6 +1108,8 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidiena plāns"
           href: psa/version-history-ps.md
+        - name: "Update\_Release\_37,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-37.md
         - name: "Update\_Release\_36,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-36.md
         - name: "Update\_Release\_35,\_V3 jaunumi vai izmaiņas"
