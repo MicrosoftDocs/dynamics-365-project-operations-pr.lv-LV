@@ -2,7 +2,7 @@
 title: Apliecinājuma tveršana, izmantojot OCR
 description: Šajā tēmā ir sniegta informācija par rakstzīmju optiskās atpazīšanas (OCR) apstrādi kvītīm.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007740"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798049"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Apliecinājuma tveršana, izmantojot OCR
 
@@ -52,7 +52,7 @@ Lai izveidotu izdevumu vai to saskaņotu no kvīts, izpildiet šādas darbības:
 
 ## <a name="installation"></a>Instalēšana
 
-Lai izmantotu šīs papildu izdevumu iespējas, instalējiet Izdevumu Pārvaldības Pakalpojums pievienojumprogrammu Microsoft programmai Dynamics 365 Finance un ieslēdziet līdzekļus savā instancē. Jūs varat piekļūt pievienojumprogrammai no sava projekta Microsoft Dynamics Lifecycle Services (LCS).
+Lai izmantotu šīs uzlabotās izdevumu iespējas, instalējiet izdevumu pārvaldības pakalpojuma pievienojumprogrammu Microsoft Dynamics 365 Finance un ieslēdziet līdzekļus savā gadījumā. Pievienojumprogrammai no sava projekta varat piekļūt Microsoft Dynamics dzīves cikla pakalpojumos (LCS).
 
 1. Pierakstieties LCS un atveriet vēlamo vidi.
 2. Pārejiet uz **Pilna informācija**.
@@ -73,7 +73,7 @@ Ieslēdzot šos līdzekļus, notiek šādas darbības:
 - Tiek pievienota jauns izvēlnes vienums izdevumu lauka redzamībai.
 - Joprojām varat atvērt kādreizējo **Izdevumu atskaišu** lapu, dodoties uz **Izdevumu pārvaldība > Mani izdevumi > Izdevumu atskaites**.
 - Darbplūsmas un visi apstiprinājumi joprojām aizved uz esošo izdevumu atskaišu lapu.
-- Kvītis apstrādās ar Microsoft Azure Cognitive Services, bet metadati tiks izvilkti un pievienoti.
+- Kvītis tiks apstrādātas, izmantojot Microsoft Azure kognitīvos pakalpojumus, un metadati tiks iegūti un pievienoti.
 - Tiek pievienota opcija, kas ļauj izveidot izdevumu atskaiti, kas ietver saskaņotas nepievienotās kvītis.
 - Opcija, kas tiek pievienota izdevumu atskaitēm, ļauj izveidot izdevumu rindu no kvīts vai mēģina saskaņot esošu kvīti ar esošu izdevumu rindu.
 
@@ -85,7 +85,18 @@ Nē, Microsoft ir iebūvēts vispārīgās algoritmiskās mācīšanās modelis,
 
 **Kur šis līdzeklis ir pieejams un kur to apstrādā?**
 
-Pašlaik tiek atbalstītas Amerikas Savienotās Valstis.
+Šī līdzekļa pieejamība dažādos reģionos ir norādīta nākamajā tabulā. Ja jūsu reģions pašlaik netiek atbalstīts, iesniedziet pieprasījumu par OCR pakalpojuma pieejamības prioritāti jūsu reģionā. 
+
+| Reģions | Atbalstīts                         |
+|--------|-----------------------------------|
+| ASV    | Jā                               |
+| CAN    | Jā                               |
+| Apvienotā Karaliste     | Jā                               |
+| AUS    | Jā                               |
+| ES     | Daļēji. Tikai angļu valodas kvītis. |
+| Āzija   | Nē.                                |
+| Japāna  | Nē.                                |
+| Āfrika | Nē.                                |
 
 **Kur nonāk manas kvītis?**
 

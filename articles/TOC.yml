@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Jaunumi
       items:
+        - name: "2021.\_gada novembris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "2021.\_gada oktobris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: "2021.\_gada septembris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Projekta grafika API veiktspēja
               href: project-management/project-schedule-api-performance.md
+            - name: Projekta grafika žurnāli
+              href: project-management/schedule-api-logs.md
     - name: Resursu pārvaldība
       items:
         - name: Pamata koncepcijas
@@ -544,6 +548,8 @@
       items:
         - name: "2021.\_gada jaunumi\_— 2.\_kopuma agrīna piekļuve\_— Lite izvietošana"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021. gada novembra jaunumi — Lite izvietošana
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021. gada oktobra jaunumi — Lite izvietošana
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 2021. gada septembra jaunumi — Lite izvietošana
@@ -952,6 +958,10 @@
   items:
     - name: Jaunumi
       items:
+        - name: "Jaunumi 2021.\_gada oktobrī\_— Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: "Jaunumi 2021.\_gada septembrī\_— Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: "Jaunumi 2021.\_gada jūlijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: "Jaunumi 2021.\_gada maijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
@@ -1108,6 +1118,8 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidiena plāns"
           href: psa/version-history-ps.md
+        - name: "Update\_Release\_37.5,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-37-5.md
         - name: "Update\_Release\_37,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-37.md
         - name: "Update\_Release\_36,\_V3 jaunumi vai izmaiņas"

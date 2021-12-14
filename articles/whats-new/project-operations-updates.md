@@ -1,20 +1,20 @@
 ---
 title: Project Operations atjauninājumi
-description: Šajā tēmā ir sniegta informācija par Dynamics 365 Project Operations izlaistajām versijām.
+description: Šajā tēmā ir sniegta informācija par Dynamics 365 Project Operations izlaistajām versijām.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783432"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892203"
 ---
-# <a name="project-operations-updates"></a>Project Operations atjauninājumi
+# <a name="project-operations-updates"></a>Project Operations atjauninājumi
 
 _**Attiecas uz:** Project Operations scenārijiem, kas balstīti uz resursiem/bez krājumiem, Lite izvietošana — darbs ar pro forma rēķiniem un Project Operations scenārijiem, kas balstīti uz krājumiem/ražošanu_
 
@@ -22,51 +22,51 @@ _**Attiecas uz:** Project Operations scenārijiem, kas balstīti uz resursiem/be
 
 ## <a name="project-operations-components"></a>Project Operations komponenti
 
-Dynamics 365 Project Operations sastāv no diviem komponentiem.
+Dynamics 365 Project Operations sastāv no diviem komponentiem:
 
-- Project Operations pakalpojuma Dataverse vidē aptver iespējas, sākot no iespējas līdz pro forma rēķiniem. Dataverse tiek izmantots Lite izvietošanā un Project Operations resursu/bez krājumu scenāriju izvietošanā.
-- Projektu pārvaldība un uzskaite vidē Dynamics 365 Finance aptver izdevumu pārvaldības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. Programma Finance and Operations, kas izmantota risinājumā Project Operations scenārijiem, kas balstīti uz resursiem/bez krājumiem, un Project Operations scenārijiem, kas balstīti uz krājumiem/ražošanu.
+- Projekta operācijas Dataverse vidē aptver iespējas no iespējas līdz proforma rēķinu izrakstīšanai. Dataverse tiek izmantots projekta operāciju izvēršanas un resursu/neuzglabāšanas scenāriju ieviešanā.
+- Projektu vadība un uzskaite Dynamics 365 Finance vidē aptver izdevumu vadības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. Programmas Finance and Operations vide tiek izmantota projekta operācijās uz resursiem/nekrājumiem balstītiem scenārijiem un projekta operācijām uz krājumiem/ražošanas scenārijiem.
 
 ## <a name="project-operations-release-notes"></a>Project Operations informācija par laidienu
-- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Resursi/bez krājumiem](whats-new-oct-2021-resource-based.md).
-- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Lite izvietošana](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [krājumu/ražošanas balstīti](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Resursi/bez krājumiem](whats-new-nov-2021-resource-based.md).
+- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Lite izvietošana](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [krājumu/ražošanas balstīti](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Project Operations jaunākā versija
 
-| Project Operations Dataverse vidē | Projektu pārvaldība un uzskaite programmu Finance and Operations vidē | 
+| Projekta darbības Dataverse vidē | Projektu vadība un grāmatvedība Finanšu un operāciju programmu vidēs | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Ja izmantojat Project Operations resursu/uz krājumiem nebalstītu scenāriju, mēs iesakām lietot Dual Write Orchestration versiju 2.2.2.83 vai jaunākas versijas.
+Projekta operāciju resursa/nekrāta scenārija gadījumā ieteicams izmantot divu rakstu Orchestration versiju 2.3.1.15 vai augstāku.
 
-## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Project Operations izlaišanas grafiks Dataverse vidē
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Dataverse vides projekta operāciju izlaišanas grafiks
 
-Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī. 
+Projekta operāciju atjauninājumi Dataverse vidē ir pieejami katru mēnesi. 
 
 | Stacija | Reģions | Pašreizējās versijas numurs | Lite izvietošanas automātiskie atjauninājumi | Resursu/krājumos nebalstītas izvietošanas automātiskie atjauninājumi | Nākamās versijas numurs | Vispārēji pieejamā nākamā versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmais laidiens         |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
+|   &nbsp;  | Pirmais laidiens         |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 06. decembris   |
 | 2. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dienvidamerika         |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
-|   &nbsp;  | Kanāda                |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
-|   &nbsp;  | Indija                 |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
-|   &nbsp;  | Francija                |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
-|   &nbsp;  | Dienvidāfrika          |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 03. decembris   |
+|   &nbsp;  | Dienvidamerika         |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 06. decembris   |
+|   &nbsp;  | Kanāda                |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 06. decembris   |
+|   &nbsp;  | Indija                 |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 06. decembris   |
+|   &nbsp;  | Francija                |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 06. decembris   |
+|   &nbsp;  | Dienvidāfrika          |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 06. decembris   |
 | 3. stacija |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japāna                 |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
-|   &nbsp;  | Āzija un Klusais okeāns          |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
-|   &nbsp;  | Lielbritānija         |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
-|   &nbsp;  | Okeānija               |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
-|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.26.0.145     | 2021. gada 12. novembris  | 2021. gada 19. novembris   | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Japāna                 |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Āzija un Klusais okeāns          |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Lielbritānija         |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Okeānija               |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 10. decembris   |
+|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.26.0.150     | Pabeigta           | Pabeigta            | TBD                 | 2021. gada 10. decembris   |
 | 4. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eiropa                |  4.25.0.91      | Pabeigta           | Pabeigta            | 4.26.0.145          | 2021. gada 12. novembris   |
+|   &nbsp;  | Eiropa                |  4.26.0.150     | Pabeigta           | 2021. gada 10. decembris   | TBD                 | 2021. gada 17. decembris   |
 | 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ziemeļamerika         |  4.25.0.91      | Pabeigta           | Pabeigta            | 4.26.0.145          | 2021. gada 19. novembris   |
+|   &nbsp;  | Ziemeļamerika         |  4.26.0.150     | 2021. gada 10. decembris  | 2021. gada 17. decembris   | TBD                 | 2022. gada 07. janvāris    |
 
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Izlaišanas grafiks projektu pārvaldībai un uzskaitei programmu Finance and Operations vidē
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektu vadības un uzskaites izlaišanas grafiks Finanšu un operāciju programmu vidē
 
 Projekta pārvaldības un uzskaites atjauninājumi tiek izlaisti astoņas reizes gadā.
 

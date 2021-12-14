@@ -2,7 +2,7 @@
 title: Izdevumu mobilā programma
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot izdevumu pārvaldības mobilo darbvietu.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993205"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818192"
 ---
 # <a name="mobile-expense-app"></a>Izdevumu mobilā programma
 
@@ -47,42 +47,9 @@ Varat arī izmantot šos līdzekļus:
 - Iesniegt izdevumu atskaiti apstiprināšanai un atlīdzināšanai.
 - Apstiprināt vai noraidīt izdevumu atskaites, kurām esat piešķirts kā apstiprinātājs.
 
-## <a name="prerequisites"></a>Priekšnosacījumi
-Priekšnosacījumi atšķiras atkarībā no tā, kāda versija ir izvietota jūsu organizācijā.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Priekšnosacījumi, ja izmantojat Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Priekšnosacījumi, ja izmantojat Dynamics 365 Finance 
 Ja jūsu organizācijai ir izvietots Finance, sistēmas administratoram ir jāpublicē **Izdevumu pārvaldības** mobilajai darbvietai. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat versiju 1611 ar platformas atjauninājumu 3 vai jaunāku versiju
-Ja jūsu organizācijai ir izvietota versija 1611 ar platformas atjauninājumu 3 vai jaunāku versiju, sistēmas administratoram ir jāizpilda tālāk minētie priekšnosacījumi. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Priekšnosacījums</th>
-<th>Loma</th>
-<th>Apraksts</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>KB 4019015 ieviešana.</td>
-<td>Sistēmas administrators</td>
-<td>KB 4019015 ir X + + atjaunināšanas vai metadatu labojumfails, kurā ir iekļauts <strong>Izmaksu pārvaldības</strong> mobilajā darbvietā. Lai ieviestu KB 4019015, jūsu sistēmas administratoram ir jāizpilda šīs darbības.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādēt atjauninājumus Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni</a>, kurā ir <strong>ApplicationSuite</strong> un <strong>ExpenseMobile</strong> modeļi, un pēc tam augšupielādējiet izvēršamo paku uz LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Izmantojiet izvēršamo pakotni</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publicēt <strong>Izmaksu pārvaldības</strong> mobilo darbvietu.</td>
-<td>Sistēmas administrators</td>
-<td>Skatiet <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicēt mobilo darbvietu</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana
 Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
@@ -103,11 +70,11 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 3. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlieties fotoattēlu**.
 4. Veiciet vienu no šīm darbībām:
 
-   - Ja atlasījāt **Uzņemt fotoattēlu**, veiciet šīs darbības:
+    - Ja atlasījāt **Uzņemt fotoattēlu**, veiciet šīs darbības:
 
-      1. Jūs pārcels uz kameru jūsu mobilajā ierīcē, lai varat uzņemt kvīts fotoattēlu. 
-      2. Pēc fotoattēla uzņemšanas atlasiet **OK**, lai apstiprinātu fotoattēlu.
-      3. Pēc izvēles: Ievadiet fotoattēla nosaukumu un ievadiet piezīmes.
+        1. Jūs pārcels uz kameru jūsu mobilajā ierīcē, lai varat uzņemt kvīts fotoattēlu. 
+        2. Pēc fotoattēla uzņemšanas atlasiet **OK**, lai apstiprinātu fotoattēlu.
+        3. Pēc izvēles: Ievadiet fotoattēla nosaukumu un ievadiet piezīmes.
 
     - Ja atlasījāt **Izvēlieties fotoattēlu**, veiciet šīs darbības:
 
@@ -133,20 +100,20 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 
 10. Atlasiet **Gatavs**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Apstipriniet izdevumu atskaiti, izmantojot Izdevumu pārvaldības mobilo darbvietu (ja lietojat 2017. gada jūlija atjauninājumu)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Apstiprināt izdevumu pārskatu, izmantojot izdevumu pārvaldības mobilo darbvietu
 
 1. Mobilajā ierīcē atveriet **Izdevumu pārvaldības** darbvietu.
 2. **Izmaksu apstiprinājumos** tiek parādīts jūsu apstiprināšanai piešķirto izdevumu atskaišu skaits. Šis skaitlis tiek atjaunināts aptuveni ik pēc 30 minūtēm. Atlasiet **Izdevumu apstiprinājumi**.
 
     Tiek rādīts jūsu apstiprināšanai piešķirto izdevumu atskaišu saraksts.
-    
+
 3. Atlasiet izdevumu atskaiti, lai skatītu tās izdevumu informāciju.
 4. Atlasiet izdevumu, lai skatītu tā informāciju. Informācija, kas tiek rādīta attiecībā uz izdevumu, ietver informāciju par kvīti, viesi un specifikāciju.
 5. Atgriežoties **Izdevumu atskaites** lapā atlasiet apstiprināt vai noraidīt izdevumu atskaiti.
 6. Ievadiet jebkādus apstiprinājuma darbības komentārus.
 7. Atlasiet **Gatavs**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Izveidojiet jaunu izdevumu atskaiti un iesniedziet to apstiprināšanai, izmantojot Izdevumu pārvaldības mobilo darbvietu (ja izmantojat 2017. gada jūlija atjauninājumu)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Izveidot jaunu izdevumu pārskatu un iesniegt to apstiprināšanai, izmantojot izdevumu pārvaldības mobilo darbvietu
 
 1. Mobilajā ierīcē atveriet **Izdevumu pārvaldības** darbvietu.
 2. Atlasiet **Izdevumu ievade**.
@@ -184,12 +151,12 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
                     1. Atlasiet sarakstā attēlu.
                     2. Pēc izvēles: Ievadiet attēla nosaukumu un ievadiet piezīmes.
 
-            3.  Atlasiet **Gatavs**.
+            3. Atlasiet **Gatavs**.
 
         - Ja atlasījāt **Pievienot kvīti**, izpildiet šādas darbības:
 
-            1.  Atlasiet sarakstā vienu vai vairākus attēlus.
-            2.  Atlasiet **Gatavs**.
+            1. Atlasiet sarakstā vienu vai vairākus attēlus.
+            2. Atlasiet **Gatavs**.
 
     3. Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu informācijas.
 
@@ -235,5 +202,30 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 23. Ievadiet jebkādus komentārus apstiprinātājam.
 24. Atlasiet **Gatavs**.
 
+## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Kāpēc izdevumu mobilā lietotne pēc noklusējuma neieslēdz maksājuma veidu?
+
+Organizācijas var pielāgot **noklusējuma maksājuma metodes iestatījumu katrai izdevumu** kategorijai, kad tā ir izveidota. Turklāt, uzstādot maksāšanas metodes, lauku Noklusējuma maksājuma metode var iestatīt **tikai** uz **Importēt**.
+
+Ja **maksājuma** metodei ir iespējota tikai importēšana, maksājuma metode pēc noklusējuma netiek ievadīta. Tas būs tukšs izdevumu kategorijās, kurās ir iestatīts šis maksājuma veids. Šī darbība ir konsekventa gan tīmekļa pieredzē, gan mobilajā pieredzē.
+    
+Ja **maksājuma** metodei nav iespējota tikai importēšana, iestatītā vērtība pēc noklusējuma tiek ievadīta izdevumu kategorijām, kurās ir iestatīta šī maksājuma metode. Tomēr ir zināma problēma, kad noklusējuma vērtība nav ievadīta izdevumu mobilajā lietotnē. Lai novērstu šo problēmu, pirms izdevumu pārskata saglabāšanas manuāli atlasiet maksājuma veidu. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Kāpēc es nevaru pievienot vai rediģēt finanšu dimensijas izdevumu mobilajā lietotnē?
+
+Dimensiju un sadales ievadīšana netiek atbalstīta. Lai apietu šo ierobežojumu, šos laukus mobilajā programmā var iestatīt pēc noklusējuma, iestatot noklusējuma finanšu dimensijas katram projektam vai darbiniekam.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Kāpēc dažreiz mobilajā programmā Izdevumi tiek rādīta sinhronizācijas kļūda?
+
+Ja izdevumu rindas neatbilst politikas prasībām un lietotājs iesniedz izdevumu pārskatu, nevēršoties pret politikas brīdinājumu, mobilie dati netiek sinhronizēti ar serveri un rodas sinhronizācijas kļūme. Visi izdevumu pārskati, kas tiek iesniegti pēc sinhronizācijas kļūmes rašanās, paliks neizdevušos stāvoklī un izraisīs vairāk sinhronizācijas kļūmju. Vienīgais veids, kā novērst šo situāciju, ir manuāli dzēst sinhronizācijas paziņojumus. Šī problēma ir novērsta, pārtraucot izdevumu pārskatu iesniegšanu, ja politikas brīdinājumi nav novērsti, lai izvairītos no sinhronizācijas kļūdām.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Kāpēc projekta un kategorijas apstiprināšana netiek pareizi atspoguļota izdevumu mobilajā lietotnē?
+
+Šī validācija pašlaik netiek atbalstīta. Tomēr nākotnē atbalsts varētu tikt pievienots. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Kādi dokumentu tipi tiek atbalstīti mobilajā programmā Izdevumi?
+
+Izdevumu mobilā lietotne atbalsta tikai attēlus. Tas pašlaik neatbalsta PDF failus vai citus dokumentus.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
