@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: "Project\_Operations atjauninājumi"
       href: whats-new/project-operations-updates.md
+    - name: Noņemtie vai novecojušie līdzekļi
+      items:
+        - name: Noņemtie vai novecojuši līdzekļi programmā Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: "Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
   items:
     - name: Darba sākšana
@@ -58,7 +62,9 @@
           href: environment/uninstall-project-operations.md
     - name: Jaunumi
       items:
-        - name: "2021.\_gada novembris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+        - name: "2021.\_gada decembris\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: "2021.\_gada novembris\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "2021.\_gada oktobris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
           href: whats-new/whats-new-oct-2021-resource-based.md
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: 'Nobraukuma iestatīšana, izmantojot nobraukuma normas pakāpes'
               href: expense/set-up-mileage.md
+        - name: Izmaksu specifikācija
+          href: prod-exp/expense-itemization.md
         - name: Personiskie izdevumi
           href: expense/personal-expenses-expense-report.md
         - name: Starpuzņēmumu izdevumi
@@ -530,9 +538,15 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Prognozējamo ieņēmumu pārvaldība
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Problēmu novēršana
+      items:
+        - name: Projekta pārdošanas process
+          items:
+            - name: 'Valūtas nesaderības kļūda projekta, līguma, piedāvājuma vai rezervējama resursa izveides laikā'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: "Lite izvietošana\_— pāreja uz pro\_forma rēķina izrakstīšanu"
   items:
-    - name: Sākt darbu
+    - name: Darba sākšana
       items:
         - name: Lite izvietošanas pārskats
           href: pro/project-operations-overview-lite.md
@@ -548,6 +562,8 @@
       items:
         - name: "2021.\_gada jaunumi\_— 2.\_kopuma agrīna piekļuve\_— Lite izvietošana"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021. gada decembra jaunumi — Lite izvietošana
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021. gada novembra jaunumi — Lite izvietošana
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021. gada oktobra jaunumi — Lite izvietošana
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Apakšlīguma rinda par atskaites punktiem
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Apakšlīguma projekta grupas dalībnieki
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Apakšlīguma iespējas projekta grupas dalībniekiem
+          href: pro/subcontracting/subcon-options.md
+        - name: Apakšlīgumu resursu piešķīrumu izmaksu novērtējums
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 'Plānošanas paneļa konfigurēšana, lai parādītu līguma darbiniekus un apakšlīguma noslodzi'
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projekta personāla veidošana ar līguma darbiniekiem un apakšlīguma noslodzi
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Laika, izmaksu un materiālu izlietojuma reģistrēšana apakšlīguma komponentiem'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Apakšlīguma stāvokļa pārejas
+          href: pro/subcontracting/subcon-states.md
     - name: Laiks
       items:
         - name: Laika pārskats
@@ -1118,6 +1148,8 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidiena plāns"
           href: psa/version-history-ps.md
+        - name: "Update\_Release\_38,\_V3 jaunumi vai izmaiņas"
+          href: psa/whats-new-ur-38.md
         - name: "Update\_Release\_37.5,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-37-5.md
         - name: "Update\_Release\_37,\_V3 jaunumi vai izmaiņas"
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Atskaišu veidošanas rokasgrāmata
           href: psa/implementation-guides/reporting-guide.md
+    - name: "Project Service Automation jaunināšana uz Project Operations\_— Lite"
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: "Project\_Service\_Automation jauninājums (programmas versija\_3.x)"
       items:
         - name: "Project\_Service\_Automation jauninājums"
@@ -1422,7 +1456,7 @@
                   href: psa/set-up-invoice-frequencies.md
                 - name: Darījumu kategoriju iestatīšana
                   href: psa/configure-transaction-categories.md
-                - name: Izdevumu kategoriju iestatīšana
+                - name: Izdevumu kategoriju konfigurēšana
                   href: psa/configure-expense-categories.md
                 - name: Preču kataloga vienību izveide
                   href: psa/create-product-catalog-items.md
