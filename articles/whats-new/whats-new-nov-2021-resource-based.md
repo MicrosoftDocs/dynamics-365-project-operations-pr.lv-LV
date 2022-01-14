@@ -7,21 +7,21 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827335"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942894"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. novembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
 *Attiecas uz: Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem*
 
-Šī tēma attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
+Šī tēma attiecas uz šādiem Microsoft komponentiem un versijām Dynamics 365 Project Operations:
 
-- Projekta operācijas Dataverse vides versijā 4.26.0.145, 4.26.0.148, vai 4.26.0.150
-- Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.22
+- Projekta operācijas Dataverse vides versijā 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Projektu vadība un grāmatvedība Dynamics 365 Finance vides versijā 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -33,13 +33,13 @@ ms.locfileid: "7827335"
 
 Šajā laidienā Project Operations duālās rakstīšanas kartēm nav atjauninājumu. Pašreizējo Project Operations duālās rakstīšanas karšu sarakstu un versijas skatiet sadaļā [Project Operations duālās rakstīšanas karšu versijas](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Vienmēr palaidiet jaunāko kartes versiju savā vidē un iespējojiet visas saistītās tabulu kartes, atjauninot projekta operāciju Dataverse risinājumu un Finanšu risinājuma versiju. Daži līdzekļi un iespējas var nedarboties pareizi, ja nav aktivizēta jaunākā kartes versija. Kartes aktīvā versija ir skatāma kolonnas **Versija** lapā **Duālā rakstīšana**. Lai aktivizētu jaunu kartes versiju, atlasiet **Tabulas kartes versijas**, atlasiet jaunāko versiju un pēc tam saglabājiet atlasīto versiju. Ja esat pielāgojis gatavu tabulas karti, atkārtoti pieteikties uz izmaiņām. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vienmēr palaidiet jaunāko kartes versiju savā vidē un iespējojiet visas saistītās tabulu kartes, atjauninot projekta operāciju Dataverse risinājumu un Finance risinājuma versiju. Daži līdzekļi un iespējas var nedarboties pareizi, ja nav aktivizēta jaunākā kartes versija. Kartes aktīvā versija ir skatāma kolonnas **Versija** lapā **Duālā rakstīšana**. Lai aktivizētu jaunu kartes versiju, atlasiet **Tabulas kartes versijas**, atlasiet jaunāko versiju un pēc tam saglabājiet atlasīto versiju. Ja esat pielāgojis gatavu tabulas karti, atkārtoti pieteikties uz izmaiņām. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ja, startējot karti, rodas problēma, izpildiet divējādas [rakstīšanas problēmu novēršanas rokasgrāmatas sadaļā Trūkstošo tabulu kolonnu problēmas sadaļā Trūkstošās tabulas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) kolonnas.
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
-### <a name="project-operations-in-dataverse"></a>Projekta operācijas Dataverse
+### <a name="project-operations-in-dataverse"></a>Projekta operācijas programmā Dataverse
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Ja, startējot karti, rodas problēma, izpildiet divējādas [rakstīšanas prob
 | Projektu pārvaldība un uzskaite | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Kad kreditora ieturējums ir nodots izpildei, dokumentu grāmatošanai ir papildu rindas, kas nav pareizas. |
 | Projektu pārvaldība un uzskaite | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Grāmatojot projekta operāciju integrācijas žurnālu, tas neizdodas, jo kontam, kas netiek grāmatots, trūkst dimensiju. |
 | Projektu pārvaldība un uzskaite | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | **Cilne Projekts nav** rediģējama gaidošā kreditora rēķinā, kad precei ir piešķirta sagādes kategorija. |
-| Projektu pārvaldība un uzskaite | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Ja neesat pieteicies projekta operācijās Dataverse, trūkst navigācijas rūts. |
+| Projektu pārvaldība un uzskaite | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Ja neesat pieteicies projekta operācijās, trūkst navigācijas Dataverse rūts. |
 | Projektu pārvaldība un uzskaite | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Grāmatojot ieņēmumus no projekta rēķina attiecinātā aizturētāja gadījumā, rodas problēma, jo dokumenta darbības nav līdzsvarā. |
 | Projektu pārvaldība un uzskaite | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Budžeta izveide pēc rēķina priekšlikuma grāmatošanas bloķē korekcijas rindas no importēšanas. |
 | Projektu pārvaldība un uzskaite | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Pilnībā izrakstīta starpposma ieraksta modificēšanai nevajadzētu būt iespējamai. |

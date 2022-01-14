@@ -1,6 +1,6 @@
 ---
 title: Atjauninājumu izlaiduma grafiks Project Service 3.x
-description: Šajā tēmā ir sniegta informācija par pieejamajiem un gaidāmajiem Dynamics 365 Project Service Automation laidieniem.
+description: Šajā tēmā ir sniegta informācija par pieejamajiem un nākamajiem Dynamics 365 Project Service Automation laidieniem.
 ms.custom: dyn365-projectservice
 ms.date: 10/04/2021
 ms.reviewer: kfend
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
-ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892198"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940943"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Atjauninājumu izlaiduma grafiks Project Service 3.x
 
@@ -37,36 +37,36 @@ ms.locfileid: "7892198"
 
 | Risinājums  | Jaunākā versija |
 |-------|----|
-| Project Service Automation    | 3.10.58.130 |
-| Project Service Automation darbvirsmas pievienojumprogramma                | 3.15          |
+| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation darbvirsmas pievienojumprogramma                | 3.60          |
 
 Informāciju par Project Service atjauninājumiem skatiet [Dynamics 365 izlaišanas plānos](/dynamics365/release-plans/). 
 
 | Stacija  | Reģions | Pašreizējā versija | Nākamā versija |  Plānotais datums
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. stacija</strong> | |  |  | |
-| | <i>Pirmais laidiens</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021. gada 03. decembris
+| | <i>Pirmais laidiens</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 14. janvāris
 |<strong>2. stacija</strong> | |  |  | |
-| | <i>Dienvidamerika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021. gada 10. decembris
-| | <i>Kanāda</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021. gada 10. decembris
-| | <i>Indija</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021. gada 10. decembris
-| | <i>Francija</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021. gada 10. decembris
-| | <i>Dienvidāfrika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021. gada 10. decembris
-| | <i>Vācija</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021. gada 10. decembris
-| | <i>Šveice</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021. gada 10. decembris
+| | <i>Dienvidamerika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 21. janvāris
+| | <i>Kanāda</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 21. janvāris
+| | <i>Indija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 21. janvāris
+| | <i>Francija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 21. janvāris
+| | <i>Dienvidāfrika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 21. janvāris
+| | <i>Vācija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 21. janvāris
+| | <i>Šveice</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 21. janvāris
 |<strong>3. stacija</strong> | |  |  | |
-| | <i>Japāna</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021. gada 17. decembris
-| | <i>Āzijas / Klusā okeāna reģions</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021. gada 17. decembris
-| | <i>Lielbritānija</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021. gada 17. decembris
-| | <i>Okeānija</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021. gada 17. decembris
-| | <i>Apvienotie Arābu Emirāti</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021. gada 17. decembris
+| | <i>Japāna</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 28. janvāris
+| | <i>Āzijas / Klusā okeāna reģions</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 28. janvāris
+| | <i>Lielbritānija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 28. janvāris
+| | <i>Okeānija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 28. janvāris
+| | <i>Apvienotie Arābu Emirāti</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022. gada 28. janvāris
 |<strong>4. stacija</strong> | |  |  | |
-| | <i>Eiropa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022. gada 07. janvāris
+| | <i>Eiropa</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 2022. gada 07. janvāris
 |<strong>5. stacija</strong> | |  |  | |
-| | <i>Ziemeļamerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022. gada 14. janvāris
+| | <i>Ziemeļamerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 2022. gada 14. janvāris
 |<strong>6. stacija</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022. gada 14. janvāris
-| | <i>Īpašas skalu grupas</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 2021. gada 10. decembris
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 2022. gada 14. janvāris
+| | <i>Īpašas skalu grupas</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 2022. gada 21. janvāris
 
 
 

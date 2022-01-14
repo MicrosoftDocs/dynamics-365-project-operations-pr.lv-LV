@@ -1,8 +1,8 @@
 ---
-title: Atjaunotas izdevumu atskaites
+title: Izdevumu pārskati, kas ir no jauna radīti (satur video)
 description: Šajā tēmā ir izskaidrota izdevumu atskaites ieraksta pārveidotā un atjaunotā pieredze.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997840"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941054"
 ---
 # <a name="expense-reports-reimagined"></a>Atjaunotas izdevumu atskaites
 
@@ -58,6 +58,7 @@ Lai ieslēgtu jaunās iespējas, izmantojiet darbvietu **Līdzekļu pārvaldība
 | Jaunu izdevumu rindu saglabāšana un pievienošana | Ievadot izdevumus, ir pieejamas pogas **Saglabāt** un **Jauns**, lai jums palīdzētu ātri ievadīt izdevumu rindas. |
 | Labāka sadalīto un detalizēto rindu redzamība | Tieši izmaksu sarakstā tiek pievienotas detalizētas un sadalītas rindas, lai uzlabotu redzamību un palīdzētu ērti noteikt, vai nav kļūdu. |
 | Apakškategoriju detalizētas informācijas skatīšana detalizētās rindās | Pamatelementa izdevumu detalizētās rindās ir redzamas izdevumu atskaites apakškategoriju etiķetes. Detalizācija ļauj ātri pārskatīt detalizētu informāciju.|
+|Ātri uzskaitīt periodiskos izdevumus | Atkārtoti izveidotā izdevumu darbvieta nodrošina iespēju ātri uzskaitīt periodiskos izdevumus, pievienojot apakškategoriju, sākuma datumu un daudzumu. Daudzums attiecas uz to, cik reižu maksa tiek atkārtota nepārtrauktā periodā. |
 | Kvīšu rādīšana detalizācijas laikā | Detalizācijas laikā var rādīt kvītis. |
 | Skaidras naudas avansa atlase | Atlasiet vienu vai vairākus skaidras naudas avansus, lai izpildītu atsevišķas izmaksu transakcijas. |
 | Skaudras naudas bilance | Veidojot izmaksu ierakstu, salīdzinot to ar apstiprinātajām un samaksātajām skaidras naudas bilancēm, pārskatiet naudas summas iepriekšējas bilances informāciju reāllaikā. |

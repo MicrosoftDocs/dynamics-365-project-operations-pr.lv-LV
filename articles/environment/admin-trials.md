@@ -2,16 +2,16 @@
 title: Reģistrēšanās Project Operations izmēģinājumversijām
 description: Šajā tēmā ir sniegta informācija par to, kā izvietot Dynamics 365 Project Operations izmēģinājumversiju.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599222"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901626"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Reģistrēšanās Project Operations izmēģinājumversijām 
 
@@ -90,7 +90,8 @@ Pirms darba sākšanas piesakieties pārlūkprogrammā ar lietotāja darba kontu
 4.  Atlasiet attiecīgo Microsoft Dataverse URL un Finance and Operations programmas URL, lai validētu izvietošanu.
 
 ## <a name="configuring-dual-write"></a>Duālās rakstīšanas konfigurēšana
-Ja izvietošanā nav izmantoti tikai uz krājumiem balstīti materiāli, konfigurējiet duālās rakstīšanas kartējumus. Papildinformāciju skatiet sadaļā [Project Operations duālās rakstīšanas karšu versijas](resource-dual-write-maps.md).
+- Lai konfigurētu drošības lomas divrakstīšana, skatiet [rakstu Drošības iestatījumu atjaunināšana projekta operācijās programmā Dataverse](resource-provision-new-environment.md).
+- Lai konfigurētu divrakstīšu kartes, skatiet rakstu [Projekta operāciju divrakstīšu karšu palaišana](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Licenču piešķiršana
 
