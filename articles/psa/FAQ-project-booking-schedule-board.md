@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987625"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992975"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projekta rezervāciju izveide plānošanas panelī
 
@@ -43,7 +43,7 @@ Varat izveidot vispārēju resursu un piešķirt to vienam projekta uzdevumam va
 
 1.  Plānošanas panelī šis resurss tiks rādīts cilnē **Atvērtās prasības**. Ja jums ir daudz atvērtu prasību, iespējams, būs jāizmanto režģa kolonnu filtri. 
 
-    ![Pieprasījuma cilnes atvēršana plānošanas panelim.](media/FAQ-Project-Booking-Schedule-Board-1.png "Rezervāciju un uzdevumu tabulas ekrānuzņēmums")
+    ![Pieprasījuma cilnes atvēršana plānošanas panelim](media/FAQ-Project-Booking-Schedule-Board-1.png "Rezervāciju un uzdevumu tabulas ekrānuzņēmums")
 
 2. Atlasiet prasību. Atlasītās rindas augšdaļā tiek parādīta cilne **Atrast pieejamību**.
  
@@ -53,7 +53,7 @@ Varat izveidot vispārēju resursu un piešķirt to vienam projekta uzdevumam va
 
     Atlasot **Rezervēt**, resurss tiek rezervēts projekta darba grupā.
 
-![Resursa rezervāciju paneļa izveide.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Resursa rezervāciju paneļa izveide](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervēšana no galvenās prasības
@@ -62,7 +62,7 @@ Izveidojot projektu programmā Project Service, tiek automātiski izveidota resu
 
 1. Lai rezervētu resursu ar galveno prasību, plānošanas panelī atlasiet cilni **Projekts**. Ja jums ir daudz projektu, iespējams, kolonnā **Projekts** būs jāizmanto filtrs.
 
-   ![Kolonnu filtri plānošanas panelī.](media/FAQ-Project-Booking-Schedule-Board-2.png "Rezervāciju un uzdevumu tabulas ekrānuzņēmums")
+   ![Kolonnu filtri plānošanas panelī](media/FAQ-Project-Booking-Schedule-Board-2.png "Rezervāciju un uzdevumu tabulas ekrānuzņēmums")
 
 2. Atlasiet prasību, kuras nosaukumā ir tikai projekta nosaukums un kuras ilgums ir nulle (0).
 

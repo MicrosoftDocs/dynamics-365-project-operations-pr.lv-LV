@@ -2,16 +2,18 @@
 title: Vairāku klientu pārvaldība projekta līgumos
 description: Šajā tēmā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumā.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992080"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643181"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Vairāku klientu pārvaldība projekta līgumos
 
@@ -45,6 +47,3 @@ Varat izveidot, atjaunināt vai dzēst līguma klientu no lapas **Līgums** ciln
 Rēķina sadalījuma procentuālo daudzumu var rediģēt, rediģējot režģi. Ja rēķina sadalījuma procentuālais daudzums kopā neveido 100 procentus, rodas kļūda. Pēc rēķina sadalījuma procentuālā daudzuma rediģēšanas atsvaidziniet lapu **Projekta līgums**, lai noņemtu kļūdu.
 
 Varat arī projekta līguma klientu apakšrežģī atlasīt vienumu **Vienmērīgs sadalījums**. Rēķina sadalījums tiek vienmērīgi piešķirts visiem klientiem projekta līgumā. Ja pastāv noapaļošanas koeficients, tas tiks pievienots noapaļošanas klientam. Vienam no līguma klientiem vienmēr ir iestatīta karodziņa **Noapaļošana** opcija **Jā**. Šis klients ir noapaļošanas klients. Parasti noapaļošanas klients ir arī līguma primārais klients, bet tas nav obligāti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

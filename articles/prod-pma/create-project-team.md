@@ -2,9 +2,11 @@
 title: Projekta darba grupas izveide
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot un pārvaldīt projekta darba grupas.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005805"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270867"
 ---
 # <a name="create-a-project-team"></a>Projekta komandas izveide
 
@@ -33,7 +35,7 @@ Lai nodrošinātu labāku skatu uz resursu pieejamību, var arī pielāgot skat�
 
 Projekta vadītājs var lapā atlasīt lomu un pēc tam, ja ir pieejams resurss, kas atbilst prasībai, atlasīt rezervēt resursu lomas izpildei. Ņemiet vērā, ka šajā plānošanas posma brīdī resursi jārezervē. Izveidojot WBS, varat aizstāt lomas ar projekta personāla resursiem. Ja lomas WBS aizstāj ar personāla resursiem, resursa iestatījums automātiski atjaunina projekta darba grupu sarakstu un plānu.
 
-[![Projekta darba grupu uzskaitījums, kas ietver gan lomas, gan faktiskos resursus.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projekta darba grupu uzskaitījums, kas ietver gan lomas, gan faktiskos resursus](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projekta vadītājam ir dažādas opcijas resursa rezervēšanai projektam, piemēram, **Atlikusī noslodze**, **Pilna noslodze**, **Noslodzes daļa** un **Konkretizēt laiku**. Šīs rezervācijas opcijas var atcelt jebkurā laikā, ja resursu piešķires mainās. Tiek atbalstītas divu veidu rezervācijas:
 

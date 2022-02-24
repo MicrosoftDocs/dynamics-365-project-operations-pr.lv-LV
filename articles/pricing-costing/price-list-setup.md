@@ -2,22 +2,24 @@
 title: Cenrāžu iestatīšana
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt izmaksu un pārdošanas cenrāžus.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009495"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180201"
 ---
 # <a name="set-up-price-lists"></a>Cenrāžu iestatīšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Cenrāži Dynamics 365 Project Operations preču katalogā ir iekļauti. Likmes attēlo izmaksu, pārdošanas un rēķina likmes. Atkarībā no tā, vai cenrādis attēlo izmaksu likmes vai pārdošanas un rēķina likmes, cenrāža konteksts ir **Pārdošana** vai **Izmaksas**.
+Cenrāži risinājumā Dynamics 365 Project Operations ir likmju katalogs. Likmes attēlo izmaksu, pārdošanas un rēķina likmes. Atkarībā no tā, vai cenrādis attēlo izmaksu likmes vai pārdošanas un rēķina likmes, cenrāža konteksts ir **Pārdošana** vai **Izmaksas**.
 
 Tālāk norādītie paplašinājumi ir specifiski Project Operations un tiek lietoti cenrāžiem no Dynamics 365 Sales.
 
@@ -38,6 +40,3 @@ Tālāk sniegtajā tabulā ir iekļauti lauki cenrāža cilnē **Vispārīgi**, 
 | Valūta | Cilne **Vispārīgi** un veidnes **Ātrā izveide** | Šis lauks tiek izmantots, lai noklusētu valūtu katrai lomai, kategorijai vai cenrāža krājumu rindai, kas saistīta ar šo cenrādi. | **Pārdošana** cenrāži, lomu, kategoriju vai cenrāža elementu rindas nevar izveidot nevienā valūtā, kas nav šī valūta. **Izmaksas** cenrāžos var izveidot lomu cenas rindu jebkurā valūtā. Šeit definētā valūta tiek izmantota kā noklusējuma vērtība. Lietotāja iestatījumi, kas ir saistītās lomu cenas, var ignorēt šo vērtību, lai iespējotu darba izmaksu likmes iestatījumus jebkurā valūtā. Kategoriju izmaksu likmes un cenrāža elementu izmaksas var iestatīt tikai šeit definētajā valūtā. |
 | Laika vienība | Cilne **Vispārīgi** un veidnes **Ātrā izveide** | Šis lauks tiek izmantots, lai noklusētu laika vienību katrā ar šo cenrādi saistītā lomas rindā. | Šī lauka vērtība tiek izmantota tikai saistītās lomas cenas iestatījumā. Cenrāžos **Izmaksas** un **Pārdošana** lomas cenas rindu var izveidot jebkurā laika vienībā. Šeit definētā laika vienība tiek izmantota kā noklusējuma vērtība. Ar lietotāja iestatīšanu saistītās lomu cenas var ignorēt šo vērtību, lai iespējotu darba izmaksu un rēķina likmes iestatījumus jebkurā laika vienībā. |
 | Apraksts | Cilne **Vispārīgi** un veidnes **Ātrā izveide** | Šis teksta lauks ļauj nodrošināt cenrādi ar vairākrindu aprakstu. | Šis lauks tiek parādīts cenrāža skatos **Saistīts** dažādās entītijās, kurām ir saistīti cenrāži. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

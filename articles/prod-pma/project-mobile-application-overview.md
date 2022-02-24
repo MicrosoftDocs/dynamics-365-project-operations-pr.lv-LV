@@ -2,26 +2,28 @@
 title: Projekta mobilo programmu pārskats
 description: Šajā tēmā sniegta vispārīga informācija par ar projekta laiku saistītajām programmām risinājumam Microsoft Dynamics 365 Project Timesheet, Projekta laika ievadei un Manām darba laika uzskaites tabulām / Darba laika uzskaites tabulām, kas pieejamas mobilā ierīcē.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005670"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080433"
 ---
 # <a name="project-mobile-applications-overview"></a>Projekta mobilo programmu pārskats
 
@@ -47,6 +49,3 @@ Manas darba laika uzskaites tabulas (optimizētas mobilām ierīcēm) un Darba l
 - [Projekta laika ievade]( project-time-entry-mobile-workspace.md)
 - [Projekta laika uzskaites tabulas mobilajā ierīcē](Mobile-timesheets.md)
 - [Pielāgoto lauku ieviešana Microsoft Dynamics 365 Project Timesheet mobilajai programmai iOS un Android operētājsistēmās](custom-fields-mobile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

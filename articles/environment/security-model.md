@@ -2,16 +2,18 @@
 title: Drošības modelis
 description: Šajā tēmā ir sniegta informācija par drošības modeli risinājumā Dynamics 365 Project Operations.
 author: stsporen
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991495"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642912"
 ---
 # <a name="security-model"></a>Drošības modelis
 
@@ -56,9 +58,9 @@ Grupas ļauj kopīgi strādāt ar projekta atļaujām un atbalsta sadarbības ar
 
 Project Operations neveido grupu, veicot netiešu darbību. Programma grupu veido, veicot skaidru grupu saspiešanas darbību.
 
-Grupas dalībnieku meklēšana dialogā **Grupas pārvaldība** ir ierobežota tiem, kas ir iestatīti kā daļa no vides drošības grupas. Papildinformāciju skatiet tēmā [Lietotāju piekļuves vidēm kontrolēšana: drošības grupas un licences](/power-platform/admin/control-user-access).
+Grupas dalībnieku meklēšana dialogā **Grupas pārvaldība** ir ierobežota tiem, kas ir iestatīti kā daļa no vides drošības grupas. Papildinformāciju skatiet tēmā [Lietotāju piekļuves vidēm kontrolēšana: drošības grupas un licences](https://docs.microsoft.com/power-platform/admin/control-user-access).
 
-![Grupas režīms.](./media/groupsmode.png)
+![Grupas režīms](./media/groupsmode.png)
 
 1. Izveidotais projekts pieder lietotājam, kas to izveidoja.
 2. Projekta īpašnieks tiek atjaunināts darba grupā.
@@ -68,7 +70,7 @@ Grupas dalībnieku meklēšana dialogā **Grupas pārvaldība** ir ierobežota t
 ## <a name="deployment-recommendation"></a>Izvietošanas ieteikums
 Attīstoties Office grupas sadarbības modelim, tiks pievienotas funkcijas, lai laika gaitā nodrošinātu detalizētāku kontroli. Klienti, kas pašlaik izvieto Project Operations, tiek mudināti koncentrēties uz tradicionālu Microsoft Dynamics 365 drošības modeli.
 
-Papildinformāciju skatiet tēmā [Drošība pakalpojumā Common Data Service](/power-platform/admin/wp-security).
+Papildinformāciju skatiet tēmā [Drošība pakalpojumā Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations un Microsoft Dynamics 365 Finance drošība
 Programmā Project Operations ir šādas lomas:
@@ -76,9 +78,6 @@ Programmā Project Operations ir šādas lomas:
 - Projekta vadītājs
 - Projekta grāmatvedis
 
-Papildinformāciju par drošību risinājumā Finance skatiet tēmā [Uz lomām balstīta drošība](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Papildinformāciju par drošību risinājumā Finance skatiet tēmā [Uz lomām balstīta drošība](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

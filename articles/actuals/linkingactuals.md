@@ -2,17 +2,19 @@
 title: Spēlētāju statistikas saistīšana ar sākotnējiem ierakstiem
 description: Šajā tēmā izskaidrots, kā faktiskos datus saistīt ar sākotnējiem ierakstiem, piemēram, laika ierakstu, izdevumu ierakstu vai materiālu lietojuma žurnāliem.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991765"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852598"
 ---
 # <a name="link-actuals-to-original-records"></a>Spēlētāju statistikas saistīšana ar sākotnējiem ierakstiem
 
@@ -77,7 +79,7 @@ Kopā entītijas **Transakcijas izcelsme** un **Transakcijas savienojums** palī
 
 Tālāk sniegtajā piemērā ir redzama tipiska laika ierakstu apstrāde Project Operations projekta dzīves ciklā.
 
-> ![Laika ierakstu apstrāde Project Service dzīves ciklā.](media/basic-guide-17.png)
+> ![Laika ierakstu apstrāde Project Service dzīves ciklā](media/basic-guide-17.png)
  
 1. Iesniedzot laika ierakstu, tiek izveidotas divas žurnāla rindas: viena ir paredzēta izmaksām, bet otra ir paredzēta rēķinā neiekļautajai pārdošanai.
 2. Veicot laika ieraksta galīgo apstiprināšanu, tiek izveidoti divu veidu faktiskie dati: vieni ir paredzēti izmaksām, bet otri ir paredzēti rēķinā neiekļautajai pārdošanai.

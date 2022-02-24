@@ -2,6 +2,8 @@
 title: Biznesa transakcijas
 description: Šajā tēmā ir sniegta informācija par biznesa transakcijām.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987535"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149912"
 ---
 # <a name="business-transactions"></a>Biznesa transakcijas
 
@@ -88,7 +90,7 @@ Kopā entītijas Transakcijas izcelsme un Transakcijas savienojums palīdz jums 
 
 Tālāk sniegtajā piemērā ir redzama tipiska laika ierakstu apstrāde PSA projekta dzīves ciklā.
 
-> ![Laika ierakstu apstrāde Project Service dzīves ciklā.](media/basic-guide-17.png)
+> ![Laika ierakstu apstrāde Project Service dzīves ciklā](media/basic-guide-17.png)
  
 1. Iesniedzot laika ierakstu, tiek izveidotas divas žurnāla rindas: viena ir paredzēta izmaksām, bet otra ir paredzēta rēķinā neiekļautajai pārdošanai.
 2. Veicot laika ieraksta galīgo apstiprināšanu, tiek izveidoti divu veidu faktiskie dati: vieni ir paredzēti izmaksām, bet otri ir paredzēti rēķinā neiekļautajai pārdošanai.
@@ -147,6 +149,3 @@ Tālāk sniegtajā tabulā ir parādīti iepriekšējās darbplūsmas ieraksti e
 | Melnraksta rēķina labojums       | Rēķina rindas transakcijas GUID | Aizstāšana          | msdyn_invoicelinetransaction | Rēķinā iekļautās pārdošanas GUID            | Sākotnējā           | msdyn_actual       |
 | Rēķina labojuma apstiprināšana     | Rēķinā iekļautās pārdošanas anulēšanas GUID    | Anulēšana          | msdyn_actual                 | Rēķinā iekļautās pārdošanas GUID            | Sākotnējā           | msdyn_actual       |
 | Jaunās, rēķinā neiekļautās pārdošanas faktisko datu GUID | Aizstāšana                     | msdyn_actual       | Rēķinā iekļautās pārdošanas GUID            | Sākotnējā                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

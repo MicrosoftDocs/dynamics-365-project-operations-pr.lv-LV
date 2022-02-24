@@ -2,9 +2,11 @@
 title: Rēķinu izveidošanas papildu līgumi, pamatojoties uz norisi
 description: Šajā tēmā izskaidrots, kā izveidot projekta līgumus, lai varētu ģenerēt klientiem rēķinus, par pamatu izmantojot pabeigtā darba procentus.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000990"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080573"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Rēķinu izveidošanas papildu līgumi, pamatojoties uz norisi
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ Budžeta kategorijas tiek izmantotas, lai automātiski aprēķinātu rēķina su
 8. Neobligāti: piešķiriet norēķinu kārtulu papildu projektiem. Kopsavilkuma cilnes **Projekts** sadaļā **Pieejamie projekti** atlasiet projektu un pēc tam noklikšķiniet uz labās puses bultiņas, lai pievienotu projektu sadaļā **Atlasītie projekti**.
 9. Neobligāti: aprēķiniet procentu summu, ko klients ietur no maksājuma rēķinā. Attiecībā uz kopsavilkuma cilnes **Maksājuma saglabāšanas nosacījumi** atlasiet finansējuma avotu un pēc tam laukā **Ieturējuma procentuālā vērtība** ievadiet saglabāšanas procentus.
 10. Lai projekta līgumam izveidotu papildu norēķinu kārtulas, atkārtojiet šīs darbības.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

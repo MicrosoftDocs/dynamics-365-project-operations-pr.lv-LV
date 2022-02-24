@@ -2,6 +2,8 @@
 title: Lietotāja rokasgrāmata programmai Project Resource Hub
 description: Project Resource Hub programma Project Service lietotāja rokasgrāmata
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987265"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948157"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Project Resource Hub lietotāja rokasgrāmata
 
@@ -52,28 +54,28 @@ Pirms sākat lietot programmu Project Resource Hub, jums savā ierīcē ir jāin
 1.  Kad pierakstāties mobilajā programmā, tiek parādīta MyApps lapa ar pieejamo programmu sarakstu. 
 2.  Atlasiet **Project Resource Hub**.
 
-![Izvēlieties kādu programmu.](media/chooseApp_1.png "Izvēlēties programmu")
+![Izvēlēties programmu](media/chooseApp_1.png "Izvēlēties programmu")
 
 **Navigācijas josla**
 
-Izmantojiet navigācijas joslu, lai pārvietotos uz savu darba apgabalu, izveidotu jaunu ierakstu, meklētu vai veiktu citus uzdevumus. Lai piekļūtu citām komandām, pieskarieties vienumam ![Poga Vairāk.](media/MoreButton.png "Poga Vairāk")
+Izmantojiet navigācijas joslu, lai pārvietotos uz savu darba apgabalu, izveidotu jaunu ierakstu, meklētu vai veiktu citus uzdevumus. Lai piekļūtu citām komandām, pieskarieties ![Poga Vairāk](media/MoreButton.png "Poga Vairāk").
 
-![Navigācijas josla.](media/NavBar_2.png "Navigācijas josla")
+![Navigācijas josla](media/NavBar_2.png "Navigācijas josla")
 
 **Izlase un nesen lietotie ieraksti**
 
 Sadaļas Izlase un Nesen lietotie sniedz ātru piekļuvi jūsu ierakstiem, skatiem un informācijas paneļiem. 
 
-- Lai piekļūtu šīm sadaļām, pieskarieties vienumam **Izvēlne** ![Izvēlnes poga.](media/MenuButton.png "Izvēlnes poga") pogai navigācijas joslā un pēc tam pieskarieties pogai **Izlase un jaunākais** ![Poga Fav](media/FavButton.png "Izlases poga").
+- Lai piekļūtu šīm sadaļām, navigācijas joslā pieskarieties pogai **Izvēlne** ![Izvēlnes poga](media/MenuButton.png "Izvēlnes poga") un pēc tam pieskarieties pogai **Izlase un jaunākais** ![Izlases poga](media/FavButton.png "Izlases poga").
 
 - Lai piespraustu vienumu izlasei, vienumu sarakstā **Nesen izmantots** pieskarieties piespraudei. Tas piespraudīs vienumu un pārvietos to uz sarakstu Izlase.
 
-  ![Izlase un jaunākie vienumi.](media/Favs_3.png "Izlase un jaunākie vienumi")
+  ![Izlase un jaunākie vienumi](media/Favs_3.png "Izlase un jaunākie vienumi")
  
 ## <a name="enter-time"></a>Laika ievade
 Ievadiet stundas vismaz reizi nedēļā — vai tik bieži, cik to pieprasīja jūsu vadītāji, — lai nodrošinātu, ka jūsu klientiem tiek izrakstīti rēķini un jums tiek pareizi apmaksati izdevumi.
 
-1. Pieskarieties izvēlnes ![pogai Izvēlne.](media/MenuButton.png "Izvēlnes poga") pogai un pēc tam pieskarieties vienumam **Laika ieraksti**. Tiks parādīts jūsu kalendārs.
+1. Pieskarieties izvēlnes pogai ![Izvēlnes poga](media/MenuButton.png "Izvēlnes poga") un pēc tam pieskarieties vienumam **Laika ieraksti**. Tiks parādīts jūsu kalendārs.
 
 2. Lai apskatītu kalendārā iepriekšējo vai nākamo nedēļu, pieskarieties pogai **Iepriekšējā** vai **Nākamā**. Pieskarieties **Šodien**, lai atgrieztos pašreizējā nedēļā.
 

@@ -2,9 +2,11 @@
 title: Projekta rēķina priekšlikuma izpilde
 description: Šajā tēmā ir sniegta informācija par veiktspējas uzlabojumiem projekta rēķinu priekšlikumiem.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005715"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920311"
 ---
 # <a name="project-invoice-proposal-performance"></a>Projekta rēķina priekšlikuma izpilde
 
@@ -44,6 +46,4 @@ Lai izslēgtu projekta rēķinu priekšlikumu uzlabošanas līdzekli, veiciet š
 3.  Atsvaidziniet pārlūkprogrammu.
 
 > [!NOTE]
-> Ja ir iespējotas norēķinu kārtulas, rēķina priekšlikuma veiktspēju nevar lietot.
-> 
-> Pakešveida apstrādes laikā, lai izveidotu rēķina priekšlikumus, apakšuzdevumu skaits sadalīs uzdevumus maksimālā skaitā, pamatojoties uz to līgumu skaitu, kuriem ir transakcijas ar izrakstāmu rēķinu, neatkarīgi no tā, ko ievadījāt. Piemēram, ja ievadāt **3** kā apakšuzdevumu skaitu rēķina priekšlikuma izveidei partijās un ir tikai divi līgumi ar transakcijām ar izrakstāmu rēķinu, tiek izveidoti tikai divi apakšuzdevumi.
+> Rēķinu priekšlikumu veiktspēju nevar lietot, ja ir iespējotas norēķinu kārtulas vai tiek palaisti pakešu procesi.

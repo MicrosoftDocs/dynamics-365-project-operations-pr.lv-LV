@@ -2,26 +2,28 @@
 title: Pārskats par projektu pārvaldību un uzskaiti
 description: Projektu pārvaldības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai nodrošinātu pakalpojumus, ražotu produktus vai sasniegtu rezultātu.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007515"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080587"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pārskats par projektu pārvaldību un uzskaiti
 
@@ -34,14 +36,14 @@ Projekts ir darbību grupa, kas ir izstrādāta, lai nodrošinātu pakalpojumu, 
 ## <a name="projects-across-industries"></a>Projekti dažādās nozarēs
 Projektu pārvaldības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, kā parādīts tālāk redzamajā ilustrācijā.
 
-[![Projekti dažādās nozarēs.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekti dažādās nozarēs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Zvanu centrā var izmantot biļeti, lai apzīmētu darbību kopu, kas nepieciešama, lai atrisinātu zvanu. Konsultāciju uzņēmumi, piemēram, pārvaldības vai tehnisko konsultāciju organizācijas vai reklāmas aģentūras dēvē savas darbības par projektiem. Tirgvedībā kampaņa atspoguļo darba uzdevumu kopu, kas jāizpilda. Uz projektiem balstītā ražošanā ražošanas uzdevums ir saistīts ar dažādiem darba uzdevumiem, kas ir jādara, lai saražotu gatavas preces. Neatkarīgi no nosaukuma šie projekti ir saistīti ar resursiem, grafikiem un izmaksām, un projekta pārvaldības un uzskaites funkcionalitāte var palīdzēt ar šo projektu plānošanu, izpildi un analīzi.
 
 ## <a name="project-phases"></a>Projekta posmi
 Lai gan tālāk aprakstītā procesa plūsma ir vērsta uz ārējiem projektiem vai projektiem, kas tiek pabeigti vienam vai vairākiem klientiem, šī funkcionalitāte attiecas arī uz iekšējiem izmaksu projektiem. 
 
-![3 projekta posmi.](./media/3-stages-of-a-project.png) 
+![3 projekta posmi](./media/3-stages-of-a-project.png) 
 
 Kā parādīts iepriekšējā ilustrācijā, projekta pārvaldību un uzskaiti var iedalīt trīs fāzēs.
 
@@ -50,7 +52,7 @@ Kā parādīts iepriekšējā ilustrācijā, projekta pārvaldību un uzskaiti v
 3.  Analizēt
 
 ## <a name="initiate-the-project"></a>Projekta uzsākšana
-Projekta uzsākšanas laikā tiek izpildīti vairāki būtiski procesi. Varat izmantot projekta piedāvājumu, lai informētu klientu par paredzamo darbu, izdevumiem un materiāliem. Projekta līgumā var ierakstīt norēķinu nosacījumus, ierobežojumus un vienošanās. Lai plānotu un prognozētu darbu, varat izmantot darba sadalījuma struktūru (WBS). Varat iestatīt prognozes un budžetus, lai vadītu projekta izpildi. Nākamajā ilustrācijā redzama projekta struktūra.[![projekta struktūra.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Projekta uzsākšanas laikā tiek izpildīti vairāki būtiski procesi. Varat izmantot projekta piedāvājumu, lai informētu klientu par paredzamo darbu, izdevumiem un materiāliem. Projekta līgumā var ierakstīt norēķinu nosacījumus, ierobežojumus un vienošanās. Lai plānotu un prognozētu darbu, varat izmantot darba sadalījuma struktūru (WBS). Varat iestatīt prognozes un budžetus, lai vadītu projekta izpildi. Nākamajā ilustrācijā redzama projekta struktūra.[![projekta struktūra](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Projekta piedāvājumu izveide
 
@@ -203,13 +205,13 @@ Varat pasūtīt vienumus no uzņēmuma krājuma patēriņam projektā. Vai arī 
 
 Veids, kā pasūtīt vienumus, ir atkarīgs no tā, no kurienes tie tiek pasūtīti.
 
--   Lai pasūtītu vienumus no uzņēmuma krājuma, pasūtījums ir jāievada kā vienuma prasība. Ja izmantojat lapu **Vienumu prasības**, varat iestatīt prasību, lai saņemtu vienumus kā daļējas piegādes. Tāpēc varat atlikt vienumu daudzuma patēriņu, līdz šie vienumi ir nepieciešami.
+-   Lai pasūtītu vienumus no uzņēmuma krājuma, pasūtījums ir jāievada kā vienuma prasība. Ja izmantojat lapu **Vienumu prasības**, varat iestatīt prasību, lai saņemtu vienumus kā daļējas piegādes.Tāpēc var atlikt vienumu daudzuma patēriņu, līdz šie vienumi ir nepieciešami.
 -   Lai pasūtītu vienumus no ārēja piegādātāja, pasūtījums ir jāizveido kā pirkšanas pasūtījums lapā **Pirkšanas pasūtījums**.
 
 > [!NOTE] 
 > Ar projektu saistītā pārdošanas pasūtījuma pavadzīmi nevar atcelt, ja vienumi jau ir atzīmēti iepakošanai. 
 
-Tālāk sniegtajā tabulā ir uzskaitītas vienumu pasūtīšanas metodes un ir aprakstīts, kā vienumi tiek patērēti.
+Tālāk sniegtajā tabulā ir uzskaitītas vienumu pasūtīšanas metodes un aprakstīts, kā vienumi tiek patērēti.
 
 | Metode            | Nolūks                                                                                                                                                        | Vienumu transakciju patēriņš                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -225,12 +227,12 @@ Projekta tips nosaka, kura rēķinu izrakstīšanas procedūra ir jālieto. Rē�
 Pirms klienta rēķina izveides projektam varat izveidot pagaidu rēķinu vai rēķina priekšlikumu. Rēķina priekšlikumā var atlasīt projekta transakcijas, ko iekļaut projekta rēķinā. Pēc tam varat pārskatīt rēķina detaļas pirms projekta rēķina publicēšanas un nosūtīšanas klientam vai citam finansējuma avotam. 
 
 
-Papildinformāciju par to, kā apstrādāt projektu rēķinu, skatiet rakstā [Rēķinu izrakstīšana](/dynamics365/finance/accounts-payable/project-invoicing).
+Papildinformāciju par to, kā apstrādāt projektu rēķinu, skatiet rakstā [Rēķinu izrakstīšana](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projekta pabeigšanas izmaksu aprēķināšana
 
-Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprēķinātu projekta pabeigšanas izmaksas. Atlasiet metodi laukā **Pabeigšanas izmaksu metode** lapā **Izveidot novērtējumu**. Jūsu izvēlētā metode tiek lietota atsevišķi katrai izmaksu rindai izmaksu novērtējumā. Ja rindai ir statuss **Izveidota**, jūs varat mainīt tai lietoto metodi lapā **Izmaksu novērtējums**. 
+Veidojot novērtējumu, varat izvēlēties metodi, kas tiek izmantota, lai aprēķinātu projekta pabeigšanas izmaksas. Atlasiet metodi laukā **Pabeigšanas izmaksu metode** lapā **Izveidot novērtējumu**. Jūsu izvēlētā metode tiek lietota atsevišķi katrai izmaksu rindai izmaksu novērtējumā. Ja rindai ir statuss **Izveidota**, varat mainīt tai lietoto metodi lapā **Izmaksu novērtējums**. 
 
 Tālāk sniegtajā tabulā ir aprakstītas metodes projekta pabeigšanas izmaksu aprēķināšanai.
 
@@ -298,12 +300,12 @@ Balstoties uz iestatījumiem, varat prognozēt atlasītā projekta ienākošās 
 -   **Projekta datums:** 2012. gada 5. marts.
 -   **Rēķina datums:** 2012. gada 31. marts. Šo datumu nosaka, pamatojoties uz rēķina biežumu. Šajā piemērā rēķina biežums ir iestatīts uz pašreizējo mēnesi. Tāpēc visas transakcijas, kas ir publicētas marta mēnesī, tiek iekļautas rēķinā pēdējā mēneša dienā.
 -   **Izpildes datums:** 2012. gada 14. aprīlis. Šo datumu nosaka, pamatojoties uz projektam iestatītajiem apmaksas nosacījumiem. Šajā piemērā ir atlasīti 14 dienu apmaksas nosacījumi. Tāpēc rēķina datumam tiek pievienotas 14 dienas, lai izpildes termiņa datums būtu 2012. gada 14. aprīlis.
--   **Paredzamais pārdošanas maksājuma datums:** 2012. gada 27. aprīlis. Šis datums ir aprēķināts, pievienojot dienu skaitu laukā **Vispārīgā bufera dienas** lapā **Projekta pārvaldības un uzskaites parametri** dienu skaitam, kas norādīts laukā **Individuālā bufera dienas** lapā **Projektu līgumi** un pēc tam šo kopsummu pievienojot dienu skaitam laukā **Izpildes datums**. Šajā piemērā jūs ievadījāt **3** laukā **Vispārīgā bufera dienas** un **10** laukā **Individuālā bufera dienas**. Tāpēc izpildes datumam tiek pievienotas 13 dienas, lai tas pienāktu paredzamajā pārdošanas maksājuma datumā 2012. gada 27. aprīlī.
+-   **Paredzamais pārdošanas maksājuma datums:** 2012. gada 27. aprīlis. Šis datums ir aprēķināts, pievienojot dienu skaitu laukā **Vispārīgā bufera dienas** lapā **Projekta pārvaldības un uzskaites parametri** dienu skaitam, kas norādīts laukā **Individuālā bufera dienas** lapā **Projektu līgumi**, un pēc tam šo kopsummu pievienojot dienu skaitam laukā **Izpildes datums**. Šajā piemērā jūs ievadījāt **3** laukā **Vispārīgā bufera dienas** un **10** laukā **Individuālā bufera dienas**. Tāpēc izpildes datumam tiek pievienotas 13 dienas, lai tas pienāktu paredzamajā pārdošanas maksājuma datumā 2012. gada 27. aprīlī.
 
 Vispārīgā bufera dienas var aizstāt individuālā bufera dienas vai tikt tām pieskaitītas:
 
--   Lai izmantotu šīs vispārīgā bufera dienas kā individuālā bufera dienu aizstājēju, ievadiet vidējo dienu skaitu starp izpildes datumu un faktisko maksājuma datumu klientiem.
--   Lai individuālā bufera dienām pievienotu vispārīgā bufera dienas, laukā **Vispārīgā bufera dienas** ievadiet savu dienu skaita novērtējumu starp dienu, kad klients veic maksājumu, un dienu, kad jūsu organizācija saņem maksājumu.
+-   Lai izmantotu vispārīgā bufera dienas kā individuālā bufera dienu aizstājēju, ievadiet vidējo dienu skaitu starp izpildes datumu un faktisko maksājuma datumu klientiem.
+-   Lai individuālā bufera dienām pievienotu vispārīgā bufera dienas, laukā **Vispārīgā bufera dienas** ievadiet savu dienu skaita novērtējumu starp dienu, kad klients nosūta maksājumu, un dienu, kad jūsu organizācija saņem maksājumu.
 
 Projekta līgumā iestatiet individuālā bufera dienas. Dienas tiek aprēķinātas, pamatojoties uz pārdošanas rēķina izpildes termiņu un organizācijas pieredzi ar klienta maksājumu grafiku.
 
@@ -369,7 +371,7 @@ Ja **Atlikušais budžets** tiek atlasīta kā izmaksu kontroles metode lapā **
 -   **Atlikušais budžets** — sākotnējā budžetā paredzētā summa, kas joprojām ir pieejama atlasītajai izmaksu rindai. Atlikusī budžeta summa tiek aprēķināta lapā **Virsgrāmatas priekšskatījums**.
 -   **Kopējās izmaksas** — summa, ko veido faktiskās izmaksas, fiksētās izmaksas un atlikušās budžeta summas.
 
-Lapas **Izmaksu kontrole** cilnē **Nobīde** varat skatīt kopējo paredzamo izmaksu salīdzinājumu ar sākotnējo budžetu. Šajā salīdzinājumā tiek rādītas atšķirības starp šīm summām. Tāpēc varat redzēt, kur dati nesakrīt. Novirzes summas tiek aprēķinātas šādos veidos:
+Lapas **Izmaksu kontrole** cilnē **Nobīde** varat skatīt kopējo paredzamo izmaksu salīdzinājumu ar sākotnējo budžetu. Šajā salīdzinājumā tiek rādītas atšķirības starp šīm summām. Tāpēc var redzēt, kur dati nesakrīt. Novirzes summas tiek aprēķinātas šādos veidos:
 
 -   **Sākotnējais budžets** — summa, kas sākotnēji tika plānota atlasītajai izmaksu rindai. Sākotnējā budžeta summa tiek aprēķināta lapā **Virsgrāmatas priekšskatījums**.
 -   **Kopējās izmaksas** — summa, ko veido faktiskās izmaksas, fiksētās izmaksas un atlikušais budžets, kā norādīts cilnē **Vispārīgi**.
@@ -379,7 +381,7 @@ Lapas **Izmaksu kontrole** cilnē **Nobīde** varat skatīt kopējo paredzamo iz
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Kopējo budžetā paredzēto summu skatīšana
 
-Ja **Kopējais budžets** tiek atlasīta kā izmaksu kontroles metode lapā **Projekta pārvaldības un uzskaites parametri**, lapā **Izmaksu kontrole** tiek aprēķinātas projekta faktiskās izmaksas un kopējās izmaksas, lai palīdzētu noteikt atšķirību starp tām. Konkrētāk, lapā **Izmaksu kontrole** summas cilnes **Vispārīgi** kolonnās apakšējā rūtī tiek aprēķinātas tālāk norādītajos veidos:
+Ja **Kopējais budžets** tiek atlasīta kā izmaksu kontroles metode lapā **Projekta pārvaldības un uzskaites parametri**, lapā **Izmaksu kontrole** tiek aprēķinātas projekta faktiskās izmaksas un kopējās izmaksas, lai palīdzētu noteikt atšķirību starp tām. Konkrētāk, lapā **Izmaksu kontrole** summas cilnes **Vispārīgi** kolonnās apakšējā rūtī tiek aprēķinātas šādos veidos:
 
 -   **Kopējās budžetā paredzētās izmaksas** — kopējā budžetā paredzētā summa atlasītajai izmaksu rindai.
 -   **Faktiskās izmaksas** — visjaunākā kopējā izmaksu summa, kas radusies projektam atlasītajā izmaksu rindā.
@@ -396,7 +398,7 @@ Lapas **Izmaksu kontrole** cilnē **Nobīde** var skatīt atšķirību starp kop
 
 ### <a name="analyze-utilization"></a>Nodarbinātības analīze
 
-Lietojuma rādītājs ir procentos izteikts laiks, cik ilgi darbinieks ir veicis apmaksājamu vai produktīvu darbu noteiktā laika periodā. Apmaksājamās stundas ir darbinieka stundas, par kurām var iekasēt samaksu no noteikta klienta. 
+Lietojuma rādītājs ir procentos izteikts laiks, cik ilgi darbinieks ir veicis apmaksājamu vai produktīvu darbu noteiktā darba periodā. Apmaksājamās stundas ir darbinieka stundas, par kurām var iekasēt samaksu no noteikta klienta. 
 
 Darbinieka lietojuma rādītājs tiek aprēķināts, dalot apmaksājamo stundu skaitu ar darba stundu skaitu noteiktā laika periodā. Piemēram, ja darbiniekam ir 30 apmaksājamās stundas periodā un darba stundu skaits tajā pašā periodā ir 40, darbinieka lietojuma rādītājs ir 75 procenti. 
 
@@ -412,11 +414,11 @@ Nodarbinātības rādītājus aprēķina lapā **Stundu lietojums**. Aprēķini 
 -   **Atbilstoši rindas rekvizītam** — noteiktas stundu transakcijas rindas rekvizīti nosaka, vai stundas tiek ņemtas vērā apmaksājamajam vai efektivitātes lietojumam.
 -   **Nav iekļauts** — stundas netiek ietvertas apmaksājamā vai efektivitātes lietojuma aprēķinā.
 
-Lapā **Stundu lietojums** papildus darbinieka vai projekta kopējā izmantošanas ātruma procentuālajai vērtībai var apskatīt stundu skaitu, kas tika izmantots, lai aprēķinātu lietojuma rādījumu katram no šiem stundu tipiem:
+Lapā **Stundu lietojums** papildus kopējai darbinieka vai projekta lietojuma rādītājam procentos varat skatīt stundu skaitu, kas izmantots lietojuma likmes aprēķiniem katram no šiem stundu tipiem:
 
 -   **Neiekļautās stundas** — šīs stundas netiek iekļautas stundu lietojuma rādītājā.
 -   **Iekļautās stundas** — šīs stundas tiek aprēķinātas, pievienojot lietojuma stundas un papildslodzes stundas. Šīs stundas tiek iekļautas lietojuma likmē.
--   **Papildslodzes stundas** — ja aprēķināt apmaksājamo likmi, šīs stundas ir tādas pašas kā rēķinā neiekļaujamās stundas. Aprēķinot efektivitātes rādītāju, šīs stundas ir tādas pašas kā neproduktīvās stundas.
+-   **Papildslodzes stundas** — ja jūs aprēķināt apmaksājamu likmi, šīs stundas ir tādas pašas kā rēķinā neiekļaujamās stundas. Aprēķinot efektivitātes rādītāju, šīs stundas ir tādas pašas kā neproduktīvās stundas.
 -   **Lietojuma stundas** — ja jūs aprēķināt apmaksājamu likmi, šīs stundas ir tādas pašas kā rēķinā iekļaujamās stundas. Aprēķinot efektivitātes rādītāju, šīs stundas ir tādas pašas kā produktīvās stundas.
 
 Aprēķinot darbinieka lietojuma rādītāju, var izmantot normas stundas vai iekļautās stundas. Ja izmantojat iekļautās stundas, jānodrošina, lai darbinieki reģistrētu visu savu darba laiku laika uzskaites tabulu periodiem, jo aprēķināšana tiek izteikta procentos no ievadītajām stundām. Aprēķinot projekta, projekta līguma, klienta ieraksta vai kategorijas stundu lietojuma rādītāju, aprēķinam jāizmanto iekļautās stundas.
@@ -438,6 +440,3 @@ Pēc tam, kad pārskats ir aprēķināts, dažādajās lapas **Projektu pārskat
 -   **Patēriņš** — informācija par stundu, preču un izdevumu patēriņu un algu transakcijām.
 -   **Rēķins** — informācija par rēķiniem un starpkonta rēķiniem.
 -   **Stundas likme** — stundas likmes stundām, kas ir publicētas ieņēmumu un izmaksu kontos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

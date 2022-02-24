@@ -2,22 +2,24 @@
 title: Projekta līguma apstiprināšana
 description: Šajā tēmā ir sniegta informācija par līguma apstiprināšanu risinājumā Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989830"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128292"
 ---
 # <a name="confirm-a-project-contract"></a>Projekta līguma apstiprināšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Projekta līgums Dynamics 365 Project Operations var būt aktīvs ar iemeslu **Apstiprināts** vai slēgts ar iemeslu **Zaudēts**. Kad apstiprināsit projekta līgumu, statuss tiks atjaunināts no **Melnraksts** uz **Aktīvs** un statusa iemesls tiks iestatīts kā **Apstiprināts**. Aktīvu vai slēgtu līgumu nevar rediģēt vai atkārtoti atvērt. 
+Projekta līgums risinājumā Dynamics 365 Project Operations var būt aktīvs, ja tā iemesls ir **Apstiprināts** vai tas ir slēgts ar iemeslu **Zaudēts**. Kad apstiprināsit projekta līgumu, statuss tiks atjaunināts no **Melnraksts** uz **Aktīvs** un statusa iemesls tiks iestatīts kā **Apstiprināts**. Aktīvu vai slēgtu līgumu nevar rediģēt vai atkārtoti atvērt. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Projekta līguma apstiprināšanas finansiālā ietekme
 
@@ -32,7 +34,4 @@ Slēdzot projekta līgumu kā zaudētu, līguma statuss tiek atjaunināts uz **S
 Ja projekta līgumā, kas ir slēgts kā zaudēts, ir atsauce uz projektu savās rindās, šis projekts arī tiek atzīmēts kā slēgts. Visas resursu rezervācijas no šīs dienas uz priekšu tiek atceltas. Visi rēķinā neiekļautās pārdošanas faktiskie dati projekta līgumā, kas nav iekļauti rēķinā, tiks atcelti.
 
 > [!NOTE]
-> Programmā Dynamics 365 Project Operations, slēdzot projekta līgumu kā zaudētu, netiek ietekmēts šīs saistītās iespējas statuss. Iespēja paliks atvērta, un tā būs jāaizver manuāli.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> Risinājumā Dynamics 365 Project Operations projekta līguma kā zaudēta līguma slēgšana neietekmēs saistītās iespējas statusu. Iespēja paliks atvērta, un tā būs jāaizver manuāli.

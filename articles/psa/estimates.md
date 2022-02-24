@@ -2,6 +2,8 @@
 title: Novērtējumi
 description: Šajā tēmā ir sniegta informācija par novērtējumiem risinājumā Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992395"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151442"
 ---
 # <a name="estimates"></a>Novērtējumi
 
@@ -83,27 +85,24 @@ Ja pievienojāt pielāgotu lauku piedāvājuma rindu informācijai un vēlaties,
 1. Atveriet PluginRegistrationTool un izveidojiet savienojumu ar tiešsaistes instanci.
 2. Atlasiet vienumu **Meklēt** un meklējiet spraudni, lai veiktu atjaunināšanu.
 
-    ![Dialoglodziņš Meklēšanas koks.](media/basic-guide-19.png)
+    ![Dialoglodziņš Meklēšanas koks](media/basic-guide-19.png)
 
 3. Atlasiet spraudni un pēc tam galvenajā lapā atlasiet vienumu **Atlasīt.**
 4. Atlasiet spraudņa darbību, lai atjauninātu, ar peles labo pogu noklikšķiniet un pēc tam atlasiet vienumu **Atjaunināt**.
 
-    ![Darbību atlase spraudnī.](media/basic-guide-20.png)
+    ![Darbību atlase spraudnī](media/basic-guide-20.png)
 
 5. Dialoglodziņa **Esošas darbības atjaunināšana** laukā **Filtrēšanas atribūti** atlasiet vienumu atlasiet daudzpunktes pogu (**...**):
  
-    ![Dialoglodziņš Esošās darbības atjaunināšana.](media/basic-guide-21.png)
+    ![Dialoglodziņš Esošās darbības atjaunināšana](media/basic-guide-21.png)
 
 6. Dialoglodziņā **Atribūtu atlase** atzīmējiet pielāgotu atribūtu izvēles rūtiņas.
 
-    ![Dialoglodziņš Atribūtu atlase.](media/basic-guide-22.png)
+    ![Dialoglodziņš Atribūtu atlase](media/basic-guide-22.png)
 
 7. Noklikšķiniet uz vienuma **Labi**, lai aizvērtu dialoglodziņu, un pēc tam uz **Atjaunināt darbību**.
  
-    ![Darbības atjaunināšanas poga.](media/basic-guide-23.png)
+    ![Darbības atjaunināšanas poga](media/basic-guide-23.png)
 
 8. Otrajā spraudnī atkārtojiet 1.–7. darbību.
 9. Aizveriet PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

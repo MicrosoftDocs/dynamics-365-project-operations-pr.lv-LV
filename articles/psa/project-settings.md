@@ -2,6 +2,8 @@
 title: Projekta iestatījumi
 description: Šajā tēmā ir sniegta informācija par projekta pārvaldības iestatījumiem.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996940"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148157"
 ---
 # <a name="project-settings"></a>Projekta iestatījumi
 
@@ -43,11 +45,11 @@ Lai izveidotu projekta grafiku, jums ir jāizveido projekta kalendāra veidne, k
   
 3. Cilnē **Mēneša skats** noklikšķiniet uz **Iestatīt**. Tiek parādīts saraksts ar trīs opcijām: 
 
-  - Jauns iknedēļas grafiks
+  - Jauns nedēļas grafiks
   - Darba grafiks vienai dienai
   - Brīvais laiks
 
-> ![Iestatīšanas opcijas.](media/project-13.png)
+> ![Iestatīšanas opcijas](media/project-13.png)
 
 4. Atlasiet **Jauns nedēļas grafiks** un pēc tam iestatiet opcijas šī resursa grafikam. Varat iestatīt periodisku nedēļas grafiku, dienas stundu parametrus, uzņēmuma slēgšanas gadījumus un citus rādītājus.
 5. Iestatiet datumu diapazonu, atlasiet **Saglabāt** un pēc tam noklikšķiniet uz **Aizvērt**. 
@@ -66,6 +68,3 @@ Katrai organizācijai šīs lomas ir jāiestata lapā **Aktīvās resursu katego
 ## <a name="price-lists"></a>Cenrāži
 
 Cenrāži ļauj jums iestatīt izmaksas un pārdošanas cenas resursu lomām, izmaksu kategorijām, produktiem un citiem elementiem kādā organizācijā. Pirms iestatāt finanšu tāmes darbam, kurš ir jāizpilda kādam projektam, jums ir jāizveido dublējuma izmaksu un pārdošanas cenrādis. Parametru sadaļā jums ir jāiestata arī noklusējuma izmaksu un pārdošanas cenrādis, kas attiecas uz visiem šajā organizācijā izveidotajiem projektiem. Lapā **Aktīvie projektu parametri** pārliecinieties, ka iestatāt noklusējuma izmaksu un pārdošanas cenrādi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

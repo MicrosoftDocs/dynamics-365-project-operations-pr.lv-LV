@@ -2,16 +2,18 @@
 title: Izvietot projekta operācijas — Lite
 description: Šajā tēmā ir sniegta informācija par to, kā instalēt Project Operations Lite izvietošanu — pāreju uz proforma rēķinu izrakstīšanu.
 author: stsporen
+manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991585"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642192"
 ---
 # <a name="deploy-project-operations---lite"></a>Izvietot projekta operācijas — Lite
 
@@ -32,16 +34,13 @@ Project Operations atbalsta vairākus izvietošanas modeļus. Lai noteiktu labā
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Project Operations instalēšana jaunā CDS vidē
 
-1. Kā [Globāls vai Power Platform administrators](/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci izveidojiet jaunu CDS vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com). Pārliecinieties, ka ir iespējotas opcijas **CDS datu bāze** un **Dynamics 365 programmas**. Papildinformāciju skatiet šeit: [Vides izveide un pārvaldība, izmantojot Power Platform administrēšanas centru](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Kā [Globāls vai Power Platform administrators](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci izveidojiet jaunu CDS vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com). Pārliecinieties, ka ir iespējotas opcijas **CDS datu bāze** un **Dynamics 365 programmas**. Papildinformāciju skatiet šeit: [Vides izveide un pārvaldība, izmantojot Power Platform administrēšanas centru](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Dynamics 365 programmu izvietošanas sarakstā atlasiet **Microsoft Dynamics 365 Project Operations**.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Project Operations instalēšana esošā CDS vidē
 
-1. Kā [Globāls vai Power Platform administrators](/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci atrodiet vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com), kur vēlaties instalēt Project Operations.
-2. Instalējiet **Microsoft Dynamics 365 Project Operations** no Dynamics 365 programmu izvietošanas saraksta. Papildinformāciju skatiet šeit: [Dynamics Dynamics 365 programmu pārvaldība](/power-platform/admin/manage-apps).
+1. Kā [Globāls vai Power Platform administrators](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci atrodiet vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com), kur vēlaties instalēt Project Operations.
+2. Instalējiet **Microsoft Dynamics 365 Project Operations** no Dynamics 365 programmu izvietošanas saraksta. Papildinformāciju skatiet šeit: [Dynamics Dynamics 365 programmu pārvaldība](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

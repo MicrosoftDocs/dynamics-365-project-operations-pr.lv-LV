@@ -2,6 +2,8 @@
 title: Projekta plānošana, izmantojot darba sadalījuma struktūru
 description: Projekta plānošana, izmantojot darba sadalījuma struktūru programmā Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf12cc3bcf061e1daffafb248cfd76809c6444ec
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996805"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149822"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Projekta plānošana, izmantojot darba sadalījuma struktūru (Project Service)
 
@@ -150,6 +152,3 @@ Veidojot darba sadalījuma struktūru, izmantosit tālāk aprakstīto veidu uzde
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projektu vadītāja rokasgrāmata](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Projekta resursu piedāvāšana
 description: Šajā tēmā ir sniegta informācija par projekta resursu piedāvāšanu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995050"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147527"
 ---
 # <a name="propose-project-resources"></a>Projekta resursu piedāvāšana
 
@@ -32,21 +34,21 @@ Resursu vadītāji var piedāvāt resursu projektu vadītājam, izmantojot resur
 1. Pieprasījumu režģī vai pašā pieprasījumā atlasiet opciju **Atrast resursus**.
 2. Lapā **Plānošanas palīgs** atlasiet resursu un pēc tam rūtī **Izveidot resursu rezervāciju**, laukā **Rezervācijas statuss** atlasiet **Rezervēt**.
 
-    ![Piedāvātais resurss atlasīts.](media/Resource-Management-image62.png)
+    ![Piedāvātais resurss atlasīts](media/Resource-Management-image62.png)
 
 Tiek veikti šādi statusa atjauninājumi:
 
 - Lapā **Plānošanas palīgs** statusa indikatori tiek atjaunināti, lai norādītu, ka rezervācija ir piedāvāta, nevis stingri rezervēta.
 
-    ![Piedāvātās rezervācijas statusa indikatori lapā Plānošanas palīgs.](media/Resource-Management-image63.png)
+    ![Piedāvātās rezervācijas statusa indikatori lapā Plānošanas palīgs](media/Resource-Management-image63.png)
 
 - Resursa pieprasījumā statuss tiek mainīts uz **Nepieciešama pārskatīšana**.
 
-    ![Resursu pieprasījumā statuss mainīts uz Nepieciešama pārskatīšana.](media/Resource-Management-image64.png)
+    ![Resursu pieprasījumā statuss mainīts uz Nepieciešama pārskatīšana](media/Resource-Management-image64.png)
 
 - Projekta cilnē **Darba grupa** vērtība vispārējā darba grupas dalībnieka vienumam **Pieprasījuma statuss** ir mainīta uz **Nepieciešama pārskatīšana**.
 
-    ![Vispārējā darba grupas dalībnieka pieprasījuma statusa vērtība mainīta uz Nepieciešama pārskatīšana cilnē Darba grupa.](media/Resource-Management-image48.png)
+    ![Vispārējā darba grupas dalībnieka pieprasījuma statusa vērtība mainīta uz Nepieciešama pārskatīšana cilnē Darba grupa](media/Resource-Management-image48.png)
 
 Projekta vadītājs var pieņemt vai noraidīt piedāvājumu.
 
@@ -70,7 +72,7 @@ Izmantošanas aprēķināšanai lieto šādas formulas:
 
 Skatu **Resursa izmantojums** var atrast rūtī **Resursi**.
 
-![Resursu lietojuma skats.](media/Resource-Management-image65.png)
+![Skats Resursa izmantojums](media/Resource-Management-image65.png)
 
 Katra režģa šūna norāda resursa apmaksājamās izmantošanas procentuālo vērtību periodā, piemēram, dienā, nedēļā vai mēnesī. Šūnu iekrāsošanai lieto šādas formulas:
 
@@ -84,7 +86,7 @@ Režģim ir jāiestata mērķa lietojums lomai vai atsevišķam resursam. Lai ve
 
 Turklāt katram rezervējamajam resursam ir jāpiešķir noklusējuma loma. Atveriet sadaļu **Resursi** \> **Resursi.** Cilnē **Project Service** pārbaudiet, vai resursa loma ir definēta un vai laukā **Ir noklusējuma** ir iestatīta vērtība **Jā**. Varat pievienot papildu lomas, kurām iestatīta opcija **Ir noklusējuma = Nē**. Loma, kurai iestatīta opcija **Ir noklusējuma = Jā**, tiek izmantota, lai novērtētu resursa izmantojumu atbilstoši attiecīgās mērķim.
 
-![Noklusējuma loma iestatīta.](media/Resource-Management-image67.png)
+![Noklusējuma loma iestatīta](media/Resource-Management-image67.png)
 
 Cilnē **Project Service** resursam var iestatīt arī atsevišķu mērķa lietojumu. Šādā gadījumā lietojuma aprēķinā tiek izmantots mērķa lietojums, lai novērtētu resursa mērķi, nevis resursa noklusējuma lomas mērķi.
 
@@ -96,21 +98,18 @@ Ir ļoti svarīgi, lai resursu vadītāji varētu apskatīt resursu pieejamību 
 
 Resursa darba stundas tiek izmantotas par pamatu resursa pieejamības aprēķināšanai. Resursu rezervēšana patērē resursu noslodzi.
 
-![Plānošanas panelis.](media/Resource-Management-image68.png)
+![Plānošanas panelis](media/Resource-Management-image68.png)
 
 Plānošanas panelī tiek izmantotas krāsas un ēnojums, lai norādītu rezervācijas, pieejamību un rezervēšanas pārsniegšanu, kā arī rezervāciju statusu. Iestatījums plānošanas paneļa iestatījumos ļauj rādīt apzīmējumus.
 
 Ja blakus atsevišķiem rezervējamiem resursiem plānošanas panelī tiek parādīta pa labi vērsta bultiņa, resursu var izvērst, lai skatītu detalizētu informāciju par darbu, kuram attiecīgais resurss ir rezervēts.
 
-![Rezervējamais resurss izvērsts plānošanas panelī.](media/Resource-Management-image69.png)
+![Rezervējamais resurss izvērsts plānošanas panelī](media/Resource-Management-image69.png)
 
 Tā kā Dynamics 365 Project Service Automation izmanto programmu Universal Resource Scheduling, ja ir instalēts arī risinājums Dynamics 365 Field Service, varat skatīt detalizētu informāciju par resursu rezervācijām projektiem, darba pasūtījumiem un citām entītijām, uz kurām esat paplašinājis plānošanu.
 
-![Detalizēta informācija par resursu rezervēšanu projektiem un darba pasūtījumiem.](media/Resource-Management-image70.png)
+![Detalizēta informācija par resursu rezervēšanu projektiem un darba pasūtījumiem](media/Resource-Management-image70.png)
 
 Lai skatītu papildinformāciju par atsevišķu resursu, ar peles labo pogu noklikšķiniet uz tā, lai atvērtu resursa karti.
 
-![Resursa karte.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Resursa karte](media/Resource-Management-image71.png)

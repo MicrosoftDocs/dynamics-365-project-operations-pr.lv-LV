@@ -2,9 +2,11 @@
 title: Korekciju žurnālu izveide un apstiprināšana
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot un apstiprināt labojumu žurnālu.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986725"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127769"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Korekciju žurnālu izveide un apstiprināšana
 
@@ -87,6 +89,3 @@ Izpildiet tālāk aprakstītās darbības, lai labotu vienu vai vairākus izdevu
 8. Cilnes **Faktiskās vērtības** projekta lapā pārskatiet skatu **Faktiskais saistītais skats**. Tiek parādīti sākotnējie ieraksti un labotie ieraksti. Tālāk redzamajā attēlā ir parādītas izdevumu ieraksta sākotnējās summas un atbilstošās koriģētās izmaksu ierakstu summas. 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

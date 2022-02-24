@@ -2,16 +2,18 @@
 title: Noklusējuma cenrāži
 description: Šajā tēmā ir sniegta informācija par noklusējuma pārdošanas un izmaksu cenrāžiem programmā Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989875"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130947"
 ---
 # <a name="default-price-lists"></a>Noklusējuma cenrāži
 
@@ -19,7 +21,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 ## <a name="sales-price-lists"></a>Pārdošanas cenrāži
 
-Katrā projekta piedāvājumā un līgumā Dynamics 365 Project Operations ir noklusējuma pārdošanas cenrādis. 
+Katram projekta piedāvājumam un līgumam programmā Dynamics 365 Project Operations ir iekļauts noklusējuma pārdošanas cenrādis. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Cenrāža noklusējums projekta piedāvājumos
 Sistēma pabeidz tālāk norādīto procesu, lai noteiktu, kurš cenrādis projekta piedāvājumam tiks izmantots pēc noklusējuma.
@@ -55,6 +57,3 @@ Izmaksu cenrāži netiek pēc noklusējuma izmantoti nevienā Project Operators 
 5. Pēc tam sistēma apskata to cenrāžu spēkā būšanas datumus, kas atbilst ienākošā novērtējuma vai faktiskajās rindas datumam. 
 6. Ja ir vairāki cenrāži, kas ir spēkā attiecībā uz ienākošo budžetu vai faktiskajiem datumiem, tiek atlasīts cenrādis, kas izveidots visnesenāk.
 7. Ja projekta parametriem nav pievienotu izmaksu cenrāžu ar atbilstošu valūtu un spēkā būšanas datumu, sistēma pēc noklusējuma iestata izmaksu likmi uz nulli (0) ienākošajā tāmē vai faktiskajā rindā.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

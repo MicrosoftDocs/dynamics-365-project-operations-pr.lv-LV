@@ -2,16 +2,18 @@
 title: Reģistrēšanās Project Operations priekšskatījuma abonementiem scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 description: Šajā tēmā ir sniegta informācija par to, kā abonēt un izvietot Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323425"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948473"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Reģistrēšanās Project Operations priekšskatījuma abonementiem scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 
@@ -19,30 +21,48 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šajā tēmā izskaidrots, kā pierakstīties izmēģinājumversijas piedāvājumam un izvietot Project Operations vidi resursos /noliktavā neesošos krājumos balstītiem scenārijiem.
+Šajā tēmā ir izskaidrots, kā abonēt priekšskatījuma/partnera piedāvājumu un izvietot Project Operations vidi scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-- Lietotājam, kurš izvieto priekšskatījumu, ir jābūt Azure nomnieka globālā administratora tiesībām. Pirmā piedāvājuma izmantošanas laikā var izveidot nomnieku. 
-- Finance vides izvietošanai ir nepieciešams derīgs Azure abonements, kam rēķins tiks izrakstīts par katru vidi. Lai sāktu darbu, varat izmantot esošu organizācijas abonementu vai izmantot [Azure izmēģinājumversiju](https://azure.microsoft.com/free/). CDS vide tiks nodrošināta bez maksas ierobežotā 30 dienu periodā.
+
+- Jūs saņemsit e-pasta ziņojumu, kurā jūs uzaicinās piedalīties priekšskatījumā. Varat pieprasīt priekšskatījumu [Project Operations vietnē](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- Lietotājam, kurš izvieto priekšskatījumu, ir jābūt Azure nomnieka globālā administratora tiesībām.
+- Finance vides izvietošanai ir nepieciešams derīgs Azure abonements, kam rēķins tiks izrakstīts par katru vidi. Lai sāktu darbu, varat izmantot esošu organizācijas abonementu vai izmantot [Azure izmēģinājumversiju](https://azure.microsoft.com/en-us/free/). CDS vide tiks nodrošināta bez maksas ierobežotā 30 dienu periodā.
+
+## <a name="subscribe"></a>Abonēt
+
+Kad jūsu [priekšskatījuma pieprasījums](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) tiks apstiprināts, e-pastā saņemsit trīs piedāvājumus no Microsoft. Šie piedāvājumi jums ļauj izvietot Project Operations priekšskatījumu:
+
+- Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija
+- Office 365 Project Operations — priekšskatījuma izmēģinājumversija
+- Dynamics 365 Finance — priekšskatījuma izmēģinājumversija
 
 > [!IMPORTANT]
 > Šis uzdevums organizācijā ir jāveic tikai vienai personai, t.i., nomnieka administratoram. Ja neesat šī laidiena abonents, nogaidiet, līdz organizācija būs reģistrējusies un būsit saņēmis savus lietotāja akreditācijas datus.
-> 
-> Izmēģinājumversijas nomnieka statusā ir vienreizējai lietošanai. Izmēģinājumversiju var palaist tikai vienu reizi. Izmēģinājumversijas nolūkiem ieteicams izveidot jaunu nomnieku.
 
-
-### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) — izmēģinājumversijas priekšskatīšana 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija 
 
 Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lietotāja darba kontu nomniekā, kurā vēlaties veikt Project Operations priekšskatīšanu.
 
-1. Izmantojiet pirmo piedāvājuma kodu **Dynamics 365 Project Operations** šeit [Project Operations izmēģinājumversija](https://aka.ms/try-po).
+1. Izmantojiet pirmo piedāvājuma kodu **Dynamics 365 Project Operations (CRM) — priekšskatījuma izmēģinājumversija**, ielīmējot to pārlūkprogrammas URL.
+
+![Izmantot piedāvājumu](./media/16RedeemFirstOfferNew.png)
+
 2. Apstipriniet pasūtījumu.
 
-  Jūs redzēsit, ka apstiprinājuma piedāvājums ir veiksmīgi izpirkts.
+![Pasūtījuma apstiprināšana](./media/17ConfirmOrderNew.png)
+
+Jūs redzēsit, ka apstiprinājuma piedāvājums ir veiksmīgi izpirkts.
+
+![Apstiprinājums](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations — priekšskatījuma izmēģinājumversija
+
+Veiciet tās pašas darbības kā ar pirmo piedāvājuma kodu. Pārliecinieties, vai pievienojat otro piedāvājuma kodu, izmantojot to pašu lietotāja kontu, kas tika izmantots ar pirmo piedāvājuma kodu.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance priekšskatījuma izmēģinājumversija
 
-Dodieties uz sadaļu [Dynamics 365 for Finance izmēģinājumversijas priekšskatījums](https://aka.ms/trypoche) un atkārtojiet iepriekšējā sadaļā norādītās darbības piedāvājumam Reģistrēšanās mākonī viesotai videi.  
+Atkārtojiet tās pašas darbības pēdējam iepazīšanās e-pasta ziņojumā ietvertajam piedāvājumam.
 
 ## <a name="assign-licenses"></a>Licenču piešķiršana
 
@@ -51,9 +71,13 @@ Dodieties uz sadaļu [Dynamics 365 for Finance izmēģinājumversijas priekšska
 
 1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai piešķirtu licences saviem lietotājiem.
 
+![Administrēšanas centra sākumlapa](./media/14AdminPortal.png)
+
 2. Lapā **Aktīvie lietotāji** atlasiet lietotājus, kuriem vēlaties piešķirt licenci.
 
-3. Pārbaudiet, vai ir atlasīta **Dynamics 365 Project Operations** licence un atlasiet **Saglabāt izmaiņas**.
+![Licenču piešķiršana](./media/15AssignLicenses.png)
+
+3. Pārbaudiet, vai ir atlasīta **Dynamics 365 Project Operations (CRM) priekšskatījums** un **Office 365 Project Operations — priekšskatījums** licence, un atlasiet **Saglabāt izmaiņas**.
 
 > [!NOTE]
 > Finance izmēģinājumversijas piedāvājums nav jāpiešķir lietotājam.
@@ -73,7 +97,7 @@ Lai pabeigtu izvietošanu, izpildiet norādījumus, kas sniegti tēmā [Jaunas v
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS iestatīšanas un konfigurācijas datu instalēšana
 
 Instalējiet CDS iestatīšanas un konfigurācijas datus, kā aprakstīts tēmā [Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service](resource-apply-pro-setup-config-data.md).
-Pabeidziet šo darbību tikai pēc tam, kad Ir Finance demonstrācijas vide ir izvietota un demonstrācijas dati ir gatavi.
+Pabeidziet šo darbību tikai pēc tam, kad finanšu demonstrācijas vide ir izvietota un demo dati FO ir gatavi.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

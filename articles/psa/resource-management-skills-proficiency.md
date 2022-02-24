@@ -2,6 +2,8 @@
 title: Prasmes un kvalifikācijas modeļi
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot prasmes un kvalifikācijas modeļus.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990505"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147482"
 ---
 # <a name="skills-and-proficiency-models"></a>Prasmes un kvalifikācijas modeļi
 
@@ -33,7 +35,7 @@ Prasmes ir resursu īpašības, kas tiek kopīgotas programmā Dynamics 365 Proj
 
 Lai uzturētu prasmju krātuvi programmā Project Service Automation, atveriet sadaļu **Resursi** \> **Resursu prasmes**. 
 
-> ![Resursu prasmes.](media/Resource-Management-image84.png)
+> ![Resursu prasmes](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Kvalifikācijas modeļu izmantošana, lai vērtētu resursus
 
@@ -43,9 +45,6 @@ Resursu prasmes vērtē atbilstoši kvalifikācijas modeļiem. Atsevišķi vērt
 2. Jaunajā vērtējuma modelī norādiet minimālo vērtējuma vērtību, maksimālo novērtējuma vērtību un novērtēto entītiju.
 3. Apakšrežģī **Vērtējuma vērtības** var definēt dažādas vērtējuma vērtības no minimālās līdz maksimālajai.
 
-> ![Definētie minimālie un maksimālie vērtējumi.](media/Resource-Management-image85.png)
+> ![Definētie minimālie un maksimālie vērtējumi](media/Resource-Management-image85.png)
 
 Šīs vērtējuma vērtības tiek rādītas vienumu **Resursu prasības**, **Plānošanas panelis** un **Plānošanas palīgs** filtros.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

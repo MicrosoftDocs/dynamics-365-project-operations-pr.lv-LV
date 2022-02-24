@@ -2,6 +2,8 @@
 title: Produktu kataloga cenu noteikšana
 description: Šajā tēmā ir sniegta informācija par to, kā programmatūrā Dynamics 365 Project Service Automation (PSA) darbojas produktu kataloga cenu noteikšana.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000180"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151217"
 ---
 # <a name="product-catalog-pricing"></a>Produktu kataloga cenu noteikšana 
 
@@ -44,7 +46,7 @@ Produktus no produktu kataloga varat pievienot dažādiem cenrāžiem. Cenrāža
 
 PSA atbalsta dažādas noapaļošanas opcijas, kad cenas tiek konfigurētas kā saraksta cenas, standarta izmaksu vai pašreizējo izmaksu funkcija. Papildus vairāku cenu noteikšanas metožu un noapaļošanas opciju izmantošanai ir iespējams arī sasaistīt atlaižu sarakstus un cenrāža elementus. 
 
-> ![Produktu no produktu kataloga pievienošana dažādiem cenrāžiem.](media/basic-guide-16.png)
+> ![Produktu no produktu kataloga pievienošana dažādiem cenrāžiem](media/basic-guide-16.png)
 
 Kad kādam piedāvājumam izveidojat jaunu pielāgotu cenrādi, lapā **Projekta piedāvājums** atlasot **Izveidot pielāgotu izcenojumu**, PSA izveido cenrāža kopiju un lauks **Entītija** jaunā cenrāža virsrakstā tiek iestatīts uz **Pārdošanas entītija**. Jaunā cenrāža nosaukumam tiek pievienots piedāvājuma nosaukums un laikspiedols. Jaunā cenrāža nosaukumu un piedāvājuma nosaukumu varat arī izmantot pielāgotās darbplūsmās, lai aktivizētu papildu pārskatīšanu un apstiprināšanu piedāvājumiem, kuros tiek izmantots pielāgots izcenojums.
 
@@ -62,6 +64,3 @@ Lai ievadītu noklusējuma produktu cenrāžus, iespējas, piedāvājuma un proj
 Pēc noklusējuma piedāvājuma rindas laukā **Produkts** ir uzskaitīti visi aktīvie produkti, kas atrodas attiecīgā piedāvājuma produktu cenrādī. Ja kāds produkts ir deaktivizēts vai ja tas ir melnraksta produkts, tas nav iekļauts sarakstā pat tad, ja šis produkts ir cenrādī. 
 
 Produktu kataloga rindas tiek pievienotas kā rēķina rindas pirmajā rēķinā, kurš tiek izveidots projekta līgumam. Melnraksta rēķinā šīs rēķina rindas var izdzēst. Tādā gadījumā rindas būs redzamas nākamajā rēķinā, līdz par tām ir izrakstīts rēķins vai līdz rēķins tiek nosūtīts klientam. Programmatūrā PSA produkta rēķina rindā nevar izrakstīt rēķinu par daļēju daudzumu. Kad tiek izrakstīts rēķins par produktu rindām no projekta līguma, tiek izveidotas faktiskās vērtības. Taču šīs faktiskās vērtības nav sasaistītas ar attiecīgo projekta entītiju. Citiem vārdiem sakot, uz produktu balstītās projekta līguma rindas ir neatkarīgas no jebkāda uz projektu balstītā lietojuma. PSA neseko līdzi materiālu patēriņam projektos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

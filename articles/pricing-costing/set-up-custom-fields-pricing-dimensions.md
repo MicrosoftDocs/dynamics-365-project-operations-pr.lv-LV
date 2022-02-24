@@ -2,9 +2,11 @@
 title: Pielāgotu lauku kā cenu kategoriju iestatīšana
 description: Šajā tēmā sniegta informācija par to, kā iestatīt cenu noteikšanas dimensijas, izmantojot pielāgotus laukus.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003600"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650228"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Pielāgotu lauku kā cenu kategoriju iestatīšana
 
@@ -42,11 +44,11 @@ Lai lauks kļūtu par cenas noteikšanas dimensiju, tam ir jābūt:
 
 - izveidotam kā rindai tabulā **Cenu noteikšanas dimensija**. Piemēram, pievienojiet cenu noteikšanas dimensiju rindas, kā parādīts šajā grafikā. 
 
-![Uz summu balstītas cenu noteikšanas dimensiju rindas.](media/Amt-based-PD.png)
+![Uz summu balstītas cenu noteikšanas dimensiju rindas](media/Amt-based-PD.png)
 
 Resursu darba stundas (**msdyn_resourceworkhours**) ir pievienotas kā uz uzcenojuma balstīta dimensija un ir pievienotas režģim cilnē **Uz uzcenojuma balstīta cenas noteikšanas dimensija**.
 
-![Uz uzcenojuma balstītas cenu noteikšanas dimensiju rindas.](media/Markup-based-PD.png)
+![Uz uzcenojuma balstītas cenu noteikšanas dimensiju rindas](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -73,12 +75,12 @@ Pastāv divi cenu noteikšanas dimensiju tipi:
   
 | Loma        | Org. struktūrvienība    |Darba atrašanās vieta      |Standarta nosaukums      |Resursu darba stundas      |  Atzīmēt|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|Uz vietas            |                    |Virsstundas                 |15     |
-|             | Contoso India|Lokāls             |                    |Virsstundas                 |10     |
-|             | Contoso US   |Lokāls             |                    |Virsstundas                 |20     |
+|             | “Contoso India”|Uz vietas            |                    |Virsstundas                 |15     |
+|             | “Contoso India”|Lokāls             |                    |Virsstundas                 |10     |
+|             | Contoso ASV   |Lokāls             |                    |Virsstundas                 |20     |
 
 
-Ja resurss no Contoso India, kura pamatlikme ir 100 USD, strādā uz vietas un laika ierakstā norāda 8 stundas Parasta darbadienas laika un 2 virsstundas, cenu noteikšanas programma izmantos pamatlikmi 100 uz 8 stundām, lai ierakstītu 800 USD. 2 virsstundām tiks lietots 15% uzcenojums pamatlikmei 100, iegūstot vienības cenu 115 USD apmērā un ierakstot kopējās izmaksas 230 USD apmērā.
+Ja resurss no “Contoso India”, kura pamatlikme ir 100 USD, strādā uz vietas un laika ierakstā norāda 8 stundas Parasta darbadienas laika un 2 virsstundas, cenu noteikšanas programma izmantos pamatlikmi 100 uz 8 stundām, lai ierakstītu 800 USD. 2 virsstundām tiks lietots 15% uzcenojums pamatlikmei 100, iegūstot vienības cenu 115 USD apmērā un ierakstot kopējās izmaksas 230 USD apmērā.
 
 ### <a name="applicable-to-cost"></a>Piemērojams izmaksām 
 Ja iestatīts uz **Jā**, tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** izmaksu un uzcenojuma likmju izgūšanas laikā.
@@ -94,6 +96,3 @@ Dimensijas prioritātes iestatīšana palīdz noteikt cenu pat tad, ja netiek at
 
 - **Izmaksu prioritāte**: dimensijas izmaksu prioritātes vērtība norāda šīs dimensijas nozīmīgumu, salīdzinot ar izmaksu cenu iestatīšanu. **Izmaksu prioritātes** vērtībai ir jābūt unikālai visās dimensijās, kas **Attiecināmas uz izmaksām**.
 - **Pārdošanas prioritāte**: dimensijas pārdošanas prioritātes vērtība norāda šīs dimensijas nozīmīgumu, salīdzinot ar pārdošanas cenu vai norēķinu cenu iestatīšanu. **Pārdošanas prioritātes** vērtībai ir jābūt unikālai visās dimensijās, kuras **Attiecināmas uz pārdošanu**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

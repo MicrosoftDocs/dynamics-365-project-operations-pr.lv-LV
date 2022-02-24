@@ -2,16 +2,18 @@
 title: Izmaksu atrisināšana novērtējumiem un faktiskajiem datiem
 description: Šajā tēmā ir sniegta informācija par to, kā tiek atrisinātas novērtējumu un faktiskās izmaksas.
 author: rumant
+manager: Annbe
 ms.date: 04/09/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f9a6c3236c1d523a967155d3f1fdbe05aa00001bcc36b38afd86270c4cd1d7cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 13903acc22e765ddc5bc1b87428ef3565f2b0a44
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003690"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877321"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Izmaksu atrisināšana novērtējumiem un faktiskajiem datiem
 

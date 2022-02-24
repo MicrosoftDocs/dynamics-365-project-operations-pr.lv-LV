@@ -2,17 +2,18 @@
 title: Project Operations scenāriju, kas balstīti uz resursiem/produktiem, izvietošanas pārskats
 description: Šajā tēmā ir sniegta informācija par izvietošanas veidu Project Operations scenārijiem, kas balstīti uz resursiem/produktiem.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009090"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365548"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations scenāriju, kas balstīti uz resursiem/produktiem, izvietošanas pārskats
 
@@ -34,7 +35,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 
 Šis izvietošanas tips arī sniedz paplašinājumu funkcionalitātei, ko nodrošina lietojumprogrammas Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 
-Atlasiet šo izvietošanas veidu, lai izmantotu Dynamics 365 Project Operations pilnu projekta dzīves ciklu, ietverot šādas galvenās prasības:
+Atlasiet šo izvietošanas veidu, lai izmantotu Dynamics 365 Project Operations pilnu projekta dzīves ciklu, ietverot šādas galvenās prasības:
 
 - Plaša projektu vadības sistēma, kas pārvalda neuzskaitītos krājumus un darba/ražošanas pasūtījumu, kas izmaksu ziņā veido iekšējos un apmaksājamos projektus grafikiem un finansēm.
 - Organizācijai jau ir Dynamics 365 Finance vai Dynamics 365 lietojumprogrammas Supply Chain un Manufacturing, un, integrējot ar projektiem saistītas transakcijas tiks vienkāršota piekļuve datiem un atskaišu veidošana.
@@ -42,6 +43,3 @@ Atlasiet šo izvietošanas veidu, lai izmantotu Dynamics 365 Project Operations 
 - Uzņēmuma līmeņa PVN un valūtas kursa programma, lai projektiem izveidotu klientiem paredzētus rēķinus.
 - Starptautiskajiem finanšu pārskatu standartiem (SFPS) atbilstoša projektu uzskaites un ieņēmumu atzīšanas sistēma.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

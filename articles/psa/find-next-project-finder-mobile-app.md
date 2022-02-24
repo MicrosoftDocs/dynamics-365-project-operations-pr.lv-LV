@@ -2,6 +2,8 @@
 title: Atrodiet savu nākamo projektu, izmantojot mobilo programmu Project Finder Mobile
 description: Nākamā projekta atrašana, izmantojot programmu Project Finder Mobile programmai Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990792"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149282"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Nākamā projekta atrašana, izmantojot programmu Project Finder Mobile (Project Service)
 
@@ -38,15 +40,12 @@ Ar programmu Project Finder Mobile savā [!INCLUDE[tn_iphone](../includes/tn-iph
   
  Pieskarieties bultiņai, kas atrodas pa labi no jūs interesējošā projekta, lai aplūkotu sīkāku informāciju un pieteiktos projektam.  
   
- ![Projektam atbilstošu prasmju saraksts programmā Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Projektam atbilstošu prasmju saraksts programmā Project Finder Mobile")  
+ ![Projektam atbilstošu prasmju saraksts programmā Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Projektam atbilstošu prasmju saraksts programmā Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Prasmju atjaunināšana  
  Pieskarieties profila pogai ekrāna apakšējā labajā stūrī, lai atjauninātu savu prasmju un kvalifikācijas līmeni.  
   
- ![Poga Profils programmā Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Poga Profils programmā Project Finder Mobile")  
+ ![Poga Profils programmā Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Poga Profils programmā Project Finder Mobile")  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

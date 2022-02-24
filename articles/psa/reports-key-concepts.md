@@ -2,6 +2,8 @@
 title: Galvenie jēdzieni
 description: Šajā tēmā ir sniegta informācija par galvenajiem resursu pārvaldības jēdzieniem programmā Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995095"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147752"
 ---
 # <a name="key-concepts"></a>Galvenie jēdzieni
 
@@ -46,6 +48,3 @@ Nākamajā tabulā ir definēti galvenie jēdzieni, kas tiek izmantoti Dynamics 
 | Kontūra                    | Uzdevuma, vajadzības vai piešķires stundas, tās iedalot dienas sadalē. Piemēram, piecu dienu, 40 stundu uzdevumu var konturēt uz astoņām stundām dienā piecu dienu ilgumā. |
 | Skats Saskaņošana        | Skats, kurā tiek rādītas rezervācijas un piešķires katram projekta darba grupas dalībniekam. Šis skats ļauj projektu vadītājam meklēt jebkādas neatbilstības starp rezervācijām un piešķirēm, un veikt korekcijas, ja rodas kāda neatbilstība. |
 | darba stundas                 | Entītija, kas tiek izmantota, lai identificētu resursu noslodzi, kā arī darba stundas un brīvās stundas. Šī entītija tiek saukta arī par resursu kalendāru. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

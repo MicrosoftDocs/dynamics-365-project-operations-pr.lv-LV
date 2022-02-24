@@ -2,16 +2,18 @@
 title: Starpuzņēmumu rēķinu izrakstīšanas konfigurēšana
 description: Šajā tēmā ir sniegta informācija un piemēri par starpuzņēmumu rēķinu izrakstīšanas konfigurēšanu projektiem.
 author: sigitac
-ms.date: 04/12/2021
+manager: tfehr
+ms.date: 11/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994060"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595514"
 ---
 # <a name="configure-intercompany-invoicing"></a>Starpuzņēmumu rēķinu izrakstīšanas konfigurēšana
 
@@ -21,9 +23,9 @@ Izpildiet tālāk aprakstītās darbības, lai iestatītu starpuzņēmumu rēķi
 
 ## <a name="example-configure-intercompany-invoicing"></a>Piemērs: starpuzņēmumu rēķinu izrakstīšanas konfigurēšana
 
-Tālāk sniegtajā piemērā Contoso Robotics USA (USPM) ir aizņemošā juridiskā persona, bet Contoso Robotics UK (GBPM) ir aizdodošā juridiskā persona. 
+Tālāk sniegtajā piemērā Contoso Robotics USA (USPM) ir aizņēmuma juridiskā persona, bet Contoso Robotics UK (GBPM) — aizdevuma juridiskā persona. 
 
-1. **Konfigurējiet starpuzņēmumu uzskaiti starp juridiskajām personām**. Katram aizņēmuma un aizdevuma juridisko personu pārim ir jābūt konfigurētam virsgrāmatas lapā [Starpuzņēmumu uzskaite](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
+1. **Konfigurējiet starpuzņēmumu uzskaiti starp juridiskajām personām**. Katram aizņēmuma un aizdevuma juridisko personu pārim ir jābūt konfigurētam virsgrāmatas lapā [Starpuzņēmumu uzskaite](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
     1. Programmā Dynamics 365 Finance dodieties uz **Virsgrāmata** > **Grāmatošanas iestatīšana** > **Starpuzņēmumu uzskaite**. Izveidojiet ierakstu, ievadot tajā tālāk norādīto informāciju.
 
@@ -35,17 +37,17 @@ Tālāk sniegtajā piemērā Contoso Robotics USA (USPM) ir aizņemošā juridis
      1. Programmā Finance atlasiet juridisko personu **GBPM**.
      2. Dodieties uz **Debitori** > **Klients** > **Visi klienti**. Izveidojiet jaunu juridiskās personas ierakstu: **USPM**.
      3. Izvērsiet sadaļu **Nosaukums**, filtrējiet ierakstus pēc kategorijas **Tips** un atlasiet **Juridiskās personas**. 
-     4. Atrodiet un atlasiet **Contoso Robotics USA (USPM)** klientu ierakstu.
+     4. Atrodiet un atlasiet **Contoso Robotics USA (USPM)** klienta ierakstu.
      5. Atlasiet **Lietot atbilstību**. 
-     6. Atlasiet klientu grupu **50 — starpuzņēmumu klienti** un pēc tam saglabājiet ierakstu.
+     6. Atlasiet klientu grupu un pēc tam saglabājiet ierakstu.
      7. Atlasiet juridisko personu **USPM**.
      8. Dodieties uz **Kreditori** > **Piegādātāji** > **Visi piegādātāji**. Izveidojiet jaunu juridiskās personas ierakstu: **GBPM**.
      9. Izvērsiet sadaļu **Nosaukums**, filtrējiet ierakstus pēc kategorijas **Tips** un atlasiet **Juridiskās personas**. 
-     10. Atrodiet un atlasiet **Contoso Robotics UK (GBPM)** klientu ierakstu.
+     10. Atrodiet un atlasiet **Contoso Robotics UK (GBPM)** klienta ierakstu.
      11. Atlasiet **Lietot atbilstību**, atlasiet piegādātāju grupu un pēc tam saglabājiet ierakstu.
      12. Piegādātāja ierakstā atlasiet **Vispārīgi** > **Iestatīt** > **Starpuzņēmumu**.
      13. Cilnē **Tirdzniecības attiecības** iestatiet **Aktīvas** uz **Jā**.
-     14. Lauku **Klienta uzņēmums** iestatiet vērtību **GBPM** un ierakstā **Mana uzņēmuma ieraksts** atlasiet iepriekš procedūrā izveidoto klientu ierakstu.
+     14. Atlasiet piegādātāja uzņēmumu **GBPM** un sadaļā **Mans uzņēmuma ieraksts** atlasiet klienta ierakstu, kuru iepriekš izveidojāt procedūrā.
 
 3. **Konfigurējiet starpuzņēmumu iestatījumus lapā Projektu pārvaldības un uzskaites parametri**. 
 
@@ -57,7 +59,7 @@ Tālāk sniegtajā piemērā Contoso Robotics USA (USPM) ir aizņemošā juridis
     6. Grupā **Resursu aizdošana** atlasiet **...** > **Jauns**. 
     7. Režģī atlasiet tālāk norādīto informāciju.
 
-          - **Aizņēmuma juridiskā persona** = **USPM**
+          - **Aizņēmuma juridiskā persona** = **GBPM**
           - **Uzkrāt ieņēmumus** = **Jā**
           - **Noklusējuma darba laika uzskaites tabulas kategorija** = **Noklusējums — stunda**
           - **Noklusējuma izdevumu kategorija** = **Noklusējums — izdevumi**
@@ -69,20 +71,20 @@ Tālāk sniegtajā piemērā Contoso Robotics USA (USPM) ir aizņemošā juridis
      3. Cilnes **Izmaksu konti** sadaļā **Virsgrāmatas konta tips** atlasiet **Starpuzņēmumu izmaksas**. Izveidojiet jaunu ierakstu, ievadot tajā tālāk norādīto informāciju.
       
         - **Aizdevuma juridiskā persona** = **GBPM**
-        - **Galvenais konts** = Atlasiet starpuzņēmumu izmaksu galveno kontu. Šis iestatījums ir obligāts. Šis iestatījums tiek izmantots starpuzņēmumu plūsmām programmā Finance, bet ne ar projektiem saistītās starpuzņēmumu plūsmās. Šai atlasei nav lejupstraumes ietekmes. 
+        - **Galvenais konts** = Atlasiet starpuzņēmumu izmaksu galveno kontu
         
      4. Atlasiet aizdevuma juridisko personu **GBPM**. 
      5. Dodieties uz **Projektu pārvaldība un uzskaite** > **Iestatīšana** > **Grāmatošana** > **Virsgrāmatas grāmatošanas iestatīšana**. 
      6. Cilnes **Ieņēmumu konti** sadaļā **Virsgrāmatas konta tips** atlasiet **Starpuzņēmumu ieņēmumi**. Izveidojiet jaunu ierakstu, ievadot tajā tālāk norādīto informāciju.
 
         - **Aizņēmuma juridiskā persona** = **USPM**
-        - **Galvenais konts** = Atlasiet starpuzņēmumu ieņēmumu galveno kontu. Šis iestatījums ir obligāts. Šis iestatījums tiek izmantots starpuzņēmumu plūsmām programmā Finance, bet ne ar projektiem saistītās starpuzņēmumu plūsmās. Šai atlasei nav lejupstraumes ietekmes. 
+        - **Galvenais konts** = Atlasiet starpuzņēmumu ieņēmumu galveno kontu 
 
 5. **Iestatiet nodošanas cenu noteikšanu par darbu**. Starpuzņēmumu nodošanas cenas tiek konfigurētas risinājumā Project Operations programmā Dataverse. Konfigurējiet [darba izmaksu likmes](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) un [darba norēķinu likmes](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) starpuzņēmumu rēķinu izrakstīšanai. Nodošanas cenas netiek atbalstītas starpuzņēmumu izmaksu darbībām. Starporganizāciju vienības pārdošanas cena vienmēr būs iestatīta uz to pašu vērtību, uz kuru iestatīta resursa vienības izmaksu cena.
 
-      Izstrādātāju resursu izmaksas uzņēmumā Contoso Robotics UK ir 88 GBP stundā. Contoso Robotics UK izrakstīs uzņēmumam Contoso Robotics USA rēķinu 120 USD apmērā par katru stundu, ko šis resurss ir veltījis ASV projektiem. Contoso Robotics USA izrakstīs klientam Adventure Works rēķinu 200 USD apmērā par darbu, ko paveica Contoso Robotics UK izstrādātāju resurss.
+      Izstrādātāja resursa izmaksas uzņēmumā Contoso Robotics UK ir 88 GBP stundā. Contoso Robotics UK izrakstīs rēķinu uzņēmumam Contoso Robotics USA 120 USD apmērā par katru stundu, ko šis resurss ir veltījis USA projektiem. Contoso Robotics USA izrakstīs rēķinu klientam Adventure Works 200 USD par Contoso Robotics UK izstrādātāja resursa paveikto darbu.
 
-      1. Risinājumā Project Operations programmā Dataverse dodieties uz **Pārdošana** > **Cenrāži**. Izveidojiet jaunu izmaksu cenrādi ar nosaukumu **Contoso Robotics UK izmaksu likmes**. 
+      1. Risinājumā Project Operations programmā Dataverse dodieties uz **Pārdošana** > **Cenrāži**. Izveidojiet jaunu izmaksu cenrādi ar nosaukumu **Contoso Robotics UK izmaksu likmes.** 
       2. Izmaksu cenrādī izveidojiet ierakstu ar tālāk norādīto informāciju.
          - **Loma** = **Izstrādātājs**
          - **Izmaksas** = **88 GBP**
@@ -90,15 +92,12 @@ Tālāk sniegtajā piemērā Contoso Robotics USA (USPM) ir aizņemošā juridis
       4. Dodieties uz **Pārdošana** > **Cenrāži**. Izveidojiet izmaksu cenrādi ar nosaukumu **Contoso Robotics USA izmaksu likmes**. 
       5. Izmaksu cenrādī izveidojiet ierakstu ar tālāk norādīto informāciju.
           - **Loma** = **Izstrādātājs**
-          - **Resursu uzņēmums** = **Contoso Robotics UK**
+          - **Resursu uzņēmums** = **Contoso Robotics UK**
           - **Izmaksas** = **120 USD**
-      6. Dodieties uz **Iestatījumi** > **Organizācijas vienības** un pievienojiet izmaksu cenrādi **Contoso Robotics USA izmaksu likmes** organizācijas vienībai **Contoso Robotics USA**.
+      6. Dodieties uz **Iestatījumi** > **Organizācijas vienības** un pievienojiet izmaksu cenrādi **Contoso Robotics USA izmaksu likmes** organizācijas vienībai **Contoso Robotics USA**.
       7. Dodieties uz **Pārdošana** > **Cenrāži**. Izveidojiet pārdošanas cenrādi ar nosaukumu **Adventure Works norēķinu likmes**. 
       8. Pārdošanas cenrādī izveidojiet ierakstu ar tālāk norādīto informāciju.
           - **Loma** = **Izstrādātājs**
-          - **Resursu uzņēmums** = **Contoso Robotics UK**
+          - **Resursu uzņēmums** = **Contoso Robotics UK**
           - **Norēķinu likme** = **200 USD**
       9. Dodieties uz **Pārdošana** > **Projektu līgumi** un pievienojiet cenrādi **Adventure Works norēķinu likmes** Adventure Works projekta līguma projekta cenrādim.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

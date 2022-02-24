@@ -2,9 +2,11 @@
 title: Projekta darba laika uzskaites tabulas mobilā programma
 description: Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 Project Timesheet mobilo programmu. Projekta darba laika uzskaites tabulas mobilā programma ļauj lietotājiem iesniegt un apstiprināt darba laika uzskaites tabulas par projektiem savā mobilajā ierīcē.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080617"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekta darba laika uzskaites tabulas mobilā programma
 
@@ -94,6 +96,3 @@ Lai nosūtītu darba laika uzskaites tabulu apstiprināšanas darbplūsmai, nokl
 ## <a name="review-timesheets"></a>Pārskatīt darba laika uzskaites tabulas
 
 Izvēlnē ir pieejams pārskatīšanai izmantojamo darba laika uzskaites tabulu saraksts. Šī opcija ir pieejama tikai tad, ja esat norādīts kā darbplūsmas apstiprinātājs. Tiek atbalstīti gan virsrakstu, gan rindu apstiprinājumi. Rindas līmeņa apstiprinājums piedāvā iespēju atzīmēt vienu vai vairākas rindas apstiprināšanai. Pēc darba laika uzskaites tabulas informācijas pārskatīšanas noklikšķiniet uz **Apstiprināt**, **Deleģēt** vai **Atgriezties**, lai turpinātu darbplūsmu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

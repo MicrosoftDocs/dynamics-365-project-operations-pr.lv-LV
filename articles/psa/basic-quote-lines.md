@@ -2,6 +2,8 @@
 title: Piedāvājumi un piedāvājumu rindas
 description: Šajā tēmā ir sniegta informācija par piedāvājumiem un piedāvājumu rindām.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995455"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145141"
 ---
 # <a name="quotes-and-quote-lines"></a>Piedāvājumi un piedāvājumu rindas
 
@@ -84,7 +86,7 @@ Profesionālo pakalpojumu organizācijas parasti sniedz piedāvājumus un izraks
 
 Vienu vai vairākas no šīm transakciju klasifikācijām var saistīt ar katru piedāvājuma rindu. Pēc tam, kad piedāvājums ir iegūts, kartējums starp transakciju klasifikāciju un piedāvājuma rindu tiek pārsūtīts uz līguma rindu.
  
-> ![Ekrānuzņēmums ar transakciju tipu kartēšanu uz piedāvājuma un līguma rindām.](media/basic-guide-5.png)
+> ![Ekrānuzņēmums ar transakciju tipu kartēšanu uz piedāvājuma un līguma rindām](media/basic-guide-5.png)
   
 Piedāvājumā var būt ietvertas, piemēram, tālāk norādītās divas piedāvājuma rindas. 
 - Konsultāciju darbs, kas izmanto laika un materiālu norēķinu metodi, kurā ir piemērojamas laika un maksu transakciju klasifikācijas. Piemēram, par visām projekta parauga **Dynamics AX ieviešana** laika un maksu transakcijām rēķins klientam tiek izrakstīts, pamatojoties uz patērēto laiku un materiāliem. 
@@ -129,6 +131,3 @@ Fiksētas cenas piedāvājuma rindai varat izmantot režģi **Rēķina izrakstī
 - Lai izveidotu rēķina izrakstīšanas atskaites punktus, kas ir vienādi sadalīti, atlasiet rēķinu izrakstīšanas biežumu, piedāvājuma rindā ievadiet rēķina perioda sākuma datumu un atlasiet piedāvājumam opciju **Pieprasītais pabeigšanas datums** piedāvājuma virsraksta sadaļā **Kopsavilkums**. Pēc tam atlasiet opciju **Izveidot periodiskus atskaites punktus**, lai izveidotu vienādi sadalītus atskaites punktus, pamatojoties uz atlasīto rēķinu izrakstīšanas biežumu. 
 - Lai izveidotu vienreizējās izmaksas rēķina izrakstīšanas atskaites punktu, izveidojiet atskaites punktu un pēc tam ievadiet piedāvājuma rindas vērtību kā atskaites punkta summu.
 - Lai izveidotu rēķinu izrakstīšanas atskaites punktus, kuru pamatā ir noteikti uzdevumi projekta plānā, izveidojiet atskaites punktu un kartējiet to uz projekta grafika elementu rēķina izrakstīšanas atskaites punkta UI.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

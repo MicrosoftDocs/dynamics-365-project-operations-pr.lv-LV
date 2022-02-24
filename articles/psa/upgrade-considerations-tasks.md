@@ -1,6 +1,8 @@
 ---
 title: Jaunināšanas apsvērumi darba sadalījuma struktūrai
 description: Šajā tēmā ir sniegta informācija par darba sadalījuma struktūras jaunināšanu no programmas Project Service Automation 2.x uz 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992350"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149552"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Jaunināšanas apsvērumi darba sadalījuma struktūrai
 
@@ -32,20 +34,20 @@ ms.locfileid: "6992350"
 ## <a name="key-entities"></a>Galvenās entītijas
 Lai iegūtu precīzu darba sadalījuma struktūru, kas jau ir ielādēta ar resursiem, ir nepieciešamas šādas entītijas:
 
-- [Projekts](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projekta darba grupa](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projekta uzdevums](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Resursu piešķires](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Projekta uzdevuma atkarība](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Rezervējamie resursi](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekts](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projekta darba grupa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projekta uzdevums](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Resursu piešķires](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Projekta uzdevuma atkarība](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Rezervējamie resursi](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Lai definētu resursu ielādētu darba sadalījuma struktūru, ir jāveic šādas darbības:
 
-1. Izveidojiet jaunu projektu. Papildinformāciju par to, kā izveidot jaunu projektu, skatiet [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Izveidojiet vienu vai vairākus uzdevumus. Papildinformāciju par to, kā izveidot uzdevumu, skatiet [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definējiet uzdevumu atkarības. Papildinformāciju skatiet tēmā [Projekta uzdevuma atkarība](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Projektam nozīmējiet projekta grupas dalībniekus. Papildinformāciju skatiet [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Uzdevumiem nozīmējiet projekta darba grupas dalībniekus. Papildinformāciju skatiet [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Izveidojiet jaunu projektu. Papildinformāciju par to, kā izveidot jaunu projektu, skatiet [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Izveidojiet vienu vai vairākus uzdevumus. Papildinformāciju par to, kā izveidot uzdevumu, skatiet [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definējiet uzdevumu atkarības. Papildinformāciju skatiet tēmā [Projekta uzdevuma atkarība](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Projektam nozīmējiet projekta grupas dalībniekus. Papildinformāciju skatiet [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Uzdevumiem nozīmējiet projekta darba grupas dalībniekus. Papildinformāciju skatiet [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Projekta darba grupas attiecības
 
@@ -94,6 +96,3 @@ Lai nodrošinātu veiksmīgu jaunināšanu, pareizi jāsaglabā šādas attiecī
 
 - Visām projekta uzdevuma atkarībām ir jābūt saistītām ar vienu un to pašu projektu.
 - Uzdevumam nevar būt vienas un tās pašas atkarības atsauces vairāk nekā vienu reizi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

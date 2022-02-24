@@ -2,22 +2,24 @@
 title: Budžeta uz projekta līguma rindu importēšana — Lite
 description: Šajā tēmā sniegta informācija par to, kā importēt finanšu aprēķinus no projekta līguma rindā.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997255"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177475"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Budžeta uz projekta līguma rindu importēšana — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Risinājumā Dynamics 365 Project Operations varat importēt aprēķinu projekta balstīta līguma rindā no projekta.
+Risinājumā Dynamics 365 Project Operations var importēt aprēķinus no projekta uz projekta līguma rindā.
 
 1. Pārbaudiet, vai projekta līguma rindas lauks **Projekts** ir aizpildīts.
 2. Cilnes **Līguma rindas informācija** atlasiet vienumu **Importēt no projekta aprēķina**. Tiek atvērta dialoga lapa ar kopsavilkuma opcijām. Pieejamās kopsavilkuma opcijas ir **Darījumu klase**, **Kategorija**, **Loma** un **Projekta uzdevums**.
@@ -58,6 +60,3 @@ Kad lietotājs atlasa kopsavilkumu pēc **Darījumu klases**, **Kategorijas** un
 | Uzdevums A | Lidojumi | 10/1/2020 | 4 | 400 | 1600 |
 | Uzdevums B | Viesnīca | 10/1/2020 | 4 | Vairāk nekā 200 | 800 |
 | Uzdevums C | Viesnīca | 11/1/2020 | 2 | Vairāk nekā 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

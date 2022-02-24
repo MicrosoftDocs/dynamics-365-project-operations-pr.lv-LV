@@ -2,17 +2,18 @@
 title: Rēķinu izrakstīšanas procesa pārskats
 description: Šajā tēmā sniegts rēķinu izrakstīšanas procesa pārskats programmā Project Operations resursu/nekrājumu scenārijos.
 author: sigitac
+manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003780"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089271"
 ---
 # <a name="invoicing-process-overview"></a>Rēķinu izrakstīšanas procesa pārskats
 
@@ -20,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Project Operations resursu/nekrājumu scenārijos piedāvā plašas iespējas, kas pielāgotas gan projektu vadītāja, gan debitora/projekta grāmatveža vajadzībām. Rēķina izrakstīšanas procesam projekta vadītājs pārvalda nepabeigto projekta norēķinu un debitors/projekta grāmatvedis izveido atbilstošu un precīzu klientam paredzētu rēķina dokumentu.
 
-![Rēķinu izrakstīšanas plūsmas shēma.](./media/invoicing-flow.png)
+![Rēķinu izrakstīšanas plūsmas shēma](./media/invoicing-flow.png)
 
 Projekta līguma rinda nosaka norēķinu metodi saistītajām projekta transakcijām. Kad projekta vadītājs apstiprina laika un izdevumu transakcijas, sistēma fiksē transakcijas entitījā **Projekta faktiskās vērtības** un nosūta informāciju Dynamics 365 Finance modulim **Projekta pārvaldība un uzskaite**. Pēc tam projekta grāmatvedis pārskata un izliek ierakstus, izmantojot [Project Operations integrācijas žurnālu](../project-accounting/project-operations-integration-journal.md). Šajā žurnālā ir iekļauta svarīga uzskaites informācija par projekta faktiskajiem datiem, piemēram, norēķiniem, pārdošanas nodokļu grupu, norēķinu preču pārdošanas nodokļu grupu un finanšu dimensijām.
 
@@ -29,6 +30,3 @@ Projekta vadītājs var pārskatīt rēķinā neiekļautās pārdošanas transak
 Jūs varat [manuāli izveidot proformas rēķinu](../proforma-invoicing/create-manual-proforma-invoice.md) vai izmantot [periodisko apstrādi](../proforma-invoicing/configure-automated-invoice-creation.md). Projekta vadītājs var pēc nepieciešamības [pielāgot proformas rēķina melnrakstu](../proforma-invoicing/manage-proforma-invoice.md) un pēc tam to apstiprināt.
 
 Apstiprināto proformas rēķinu nosūta uz Finance moduli **Projekta pārvaldība un uzskaite**. Projekta grāmatvedis formatē un atjaunina projekta rēķina priekšlikumu un pēc tam izliek un drukā šo dokumentu. Izliktos projekta rēķinus ieraksta Virsgrāmatā, kā arī Klienta un Projekta apakšgrāmatās.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

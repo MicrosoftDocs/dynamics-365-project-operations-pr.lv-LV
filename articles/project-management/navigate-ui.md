@@ -2,16 +2,18 @@
 title: Navigācija lietotāja interfeisā
 description: Šajā tēmā sniegta informācija par Projekta pārvaldību Dynamics 365 Projekta darbībās.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 97483a53163edbbe6dfe383d6a6a60183a17e6e9df9ec3c47c9f33aef88aea3e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989155"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127527"
 ---
 # <a name="navigating-the-user-interface"></a>Navigācija lietotāja interfeisā
 
@@ -23,37 +25,37 @@ Galvenā projekta veidlapa ir sadalīta vairākās cilnēs. Katra cilne atspogu�
 
 - **Kopsavilkums**: sniedz projekta aprakstu un apkopo informāciju gan par plānoto, gan faktisko projekta veiktspēju.
 
-    ![Kopsavilkuma cilne un lauki.](media/navigation7.png)
+    ![Kopsavilkuma cilne un lauki](media/navigation7.png)
 
 - **Uzdevumi**: sniedz detalizētu informāciju par darba sadalījuma struktūru, kas tiek rādīta režģa skatā, paneļa skatā un Ganta diagrammā.
 
-    ![Uzdevumu cilne un lauki.](media/navigation8.png)
+    ![Uzdevumu cilne un lauki](media/navigation8.png)
 
 - **Darba grupa**: sniedz detalizētu informāciju par projekta dalībniekiem. Šajā skatā ir apkopoti arī katram darba grupas dalībniekam piešķirtais darbs.
 
-    ![Darba grupu cilne un lauki.](media/navigation9.png)
+    ![Darba grupu cilne un lauki](media/navigation9.png)
 
 - **Resursu piešķīrumi**: nodrošina darba skatu ar laika fāzēm katram resursam projektā.
 
-    ![Resursu piešķires cilne un lauki.](media/navigation10.png)
+    ![Resursu piešķires cilne un lauki](media/navigation10.png)
 
 - **Resursu saskaņošana**: nodrošina skatu ar laika fāzēm, kurā attēlotas atšķirības starp katra nosauktā resursa piešķirēm un to rezervācijām.
 
-    ![Resursu saskaņošanas cilne un lauki.](media/navigation11.png)
+    ![Resursu saskaņošanas cilne un lauki](media/navigation11.png)
 
 - **Aprēķini**: nodrošina skatu ar laika fāzēm, kurā attēlotas projekta izmaksu un pārdošanas tāmes.
 
-    ![Aprēķinu cilne un lauki.](media/navigation12.png)
+    ![Aprēķinu cilne un lauki](media/navigation12.png)
 
 - **Sekošana**: nodrošina skatu, kas rāda uzdevumu norisi darba sadalījuma struktūrā attiecībā uz pūlēm, izmaksām un pārdošanu.
 
-    ![Izsekošanas cilne un lauki.](media/navigation13.png)
+    ![Izsekošanas cilne un lauki](media/navigation13.png)
 
 - **Pārdošana**: nodrošina dziļas saites uz piedāvājumiem un līgumiem, kas saistīti ar projektu.
 
 - **Izdevumu tāmes**: nodrošina režģi, kas definē projekta izdevumus, pamatojoties uz organizācijas izdevumu kategorijām.
 
-    ![Izdevumu tāmju cilne un lauki.](media/navigation14.png)
+    ![Izdevumu tāmju cilne un lauki](media/navigation14.png)
 
 ## <a name="grid-controls"></a>Režģa vadīklas
 
@@ -63,43 +65,40 @@ Tālāk ir sniegts īss kopsavilkums par dažādās projekta plānošanas cilnē
 
 **Atsvaidzināt**: izgūst jaunākos datus no servera, ja pēc režģa ielādes radušās jebkādas izmaiņas.
 
-![Poga Atsvaidzināt.](media/navigation7.png)
+![Poga Atsvaidzināt](media/navigation7.png)
 
 ### <a name="group-by"></a>Grupēt pēc
 
 **Grupēt pēc**: atjaunina režģa rindu grupēšanu, lai atspoguļotu resursus, lomas vai kategorijas, pamatojoties uz lietotāja vajadzībām.
 
-![Poga Grupēt pēc.](media/navigation6.png)
+![Poga Grupēt pēc](media/navigation6.png)
 
 ### <a name="previousnext"></a>Atpakaļ/tālāk
 
 **Atpakaļ**/**Tālāk**: atjaunina redzamos laika periodus režģos ar laika fāzēm.
 
-![Pogas Atpakaļ un Tālāk.](media/navigation2.png)
+![Pogas Atpakaļ un Tālāk](media/navigation2.png)
 
 ### <a name="timescale"></a>Laika skala
 
 **Laika skala**: maina laika fāžu datu apkopojumu starp dienām, nedēļām, mēnešiem un gadiem.
 
-![Poga Laika skala.](media/navigation3.png)
+![Poga Laika skala](media/navigation3.png)
 
-### <a name="expand"></a>Izvērsts
+### <a name="expand"></a>Izvērst
 
 **Izvērst**: pārslēdz redzamo režģi pilnekrāna režīmā, nodrošinot iespēju redzēt papildu lomas.
 
-![Poga Izvērst.](media/navigation4.png)
+![Poga Izvērst](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>Veikt laika sadalījumu pēc
 
 **Veikt laika sadalījumu pēc**: atjaunina rindu grupēšanu režģī, lai parādītu pārdošanas aplēšu izmaksu aprēķinus. Šī vadīkla attiecas arī uz novērtējuma skriptu un izsekošanas režģi.
 
-![Poga Veikt laika sadalījumu pēc.](media/navigation0.png)
+![Poga Veikt laika sadalījumu pēc](media/navigation0.png)
 
-### <a name="add-column"></a>Kolonnas pievienošana
+### <a name="add-column"></a>Pievienot kolonnu
 
 **Pievienot kolonnu**: ļauj lietotājam definēt redzamās kolonnas režģī. Veidlapā **Projekta plānošana** režģos var pievienot tikai iebūvētās kolonnas.
 
-![Poga Pievienot kolonnu.](media/navigation5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Poga Pievienot kolonnu](media/navigation5.png)

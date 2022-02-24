@@ -2,22 +2,24 @@
 title: Iestatīt darba rēķinu likmes — Lite
 description: Šajā tēmā ir sniegta informācija par darba norēķinu likmju iestatīšanu risinājumā Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007605"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181191"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Iestatīt darba rēķinu likmes — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Katram cenrādim ir lomu cenu kopa vai darba likmes, kas ir spēkā kontekstam un datumu efektivitātei, kas iekļauta cenrāža galvenē. Rēķinu kursus laika intervālam programmā Dynamics 365 Project Operations var iestatīt tikai vienā valūtā, kas ir valūta cenrāža galvenē.
+Katram cenrādim ir lomu cenu kopa vai darba likmes, kas ir spēkā kontekstam un datumu efektivitātei, kas iekļauta cenrāža galvenē. Rēķinu likmes par laiku risinājumā Dynamics 365 Project Operations var iestatīt tikai vienā valūtā, kas ir valūta cenu saraksta galvenē.
 
 1. Lai pārdošanas cenrādim iestatītu darba laika likmes, izveidojiet cenrādi, pamatojoties uz cenrāža galveni. 
 2. Cilnes **Lomas cenas** apakšrežģī atlasiet **+ Jauna lomas cena**. 
@@ -53,6 +55,3 @@ Piemēram, izstrādātājs no Fabrikam India, kas strādā pie ASV projekta, izm
     | Izstrādātājiem | Fabrikam US | 150 ASV dolāru |
 
 3. Pievienojiet pārdošanas cenrādi **Fabrikam US rēķinu likmes** projekta līguma cenrādim vai noteiktam kontam.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

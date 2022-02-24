@@ -2,9 +2,11 @@
 title: Sinhronizējiet projekta līgumus un projektus tieši no Project Service Automation uz Finance
 description: Šajā tēmā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantots projekta līgumu un projektu sinhronizēšanai tieši no Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001080"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764828"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinhronizējiet projekta līgumus un projektus tieši no Project Service Automation uz Finance 
 
@@ -42,7 +44,7 @@ Project Service Automation uz Finance integrācijas risinājumam tiek izmantots 
 
 Nākamajā ilustrācijā parādīts, kā dati tiek sinhronizēti starp Project Service Automation un Finance.
 
-[![Datu plūsma Project Service Automation integrācijai ar Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Datu plūsma Project Service Automation integrācijai ar Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
 
@@ -107,8 +109,8 @@ Kad tiek lietots Project Service Automation uz Finance integrācijas risinājums
 ## <a name="prerequisites-and-mapping-setup"></a>Priekšnosacījumi un kartēšanas iestatīšana
 
 - Pirms projekta līgumu un projektu sinhronizēšanas ir jāsinhronizē uzņēmumi.
-- Savienojuma kopā pievienojiet integrācijas atslēgas lauka kartējumu **msdyn\_organizationalunits** uz **msdyn\_name \[Name\]**. Iespējams, ka savienojuma kopai vispirms ir jāpievieno projekts. Papildinformāciju skatiet rakstā [Datu integrācija pakalpojumā Common Data Service programmām](/powerapps/administrator/data-integrator).
-- Savienojuma kopā pievienojiet integrācijas atslēgas lauka kartējumu **msdyn\_projects** to **msdynce\_projectnumber \[Project Number\]**. Iespējams, ka savienojuma kopai vispirms ir jāpievieno projekts. Papildinformāciju skatiet rakstā [Datu integrācija pakalpojumā Common Data Service programmām](/powerapps/administrator/data-integrator).
+- Savienojuma kopā pievienojiet integrācijas atslēgas lauka kartējumu **msdyn\_organizationalunits** uz **msdyn\_name \[Name\]**. Iespējams, ka savienojuma kopai vispirms ir jāpievieno projekts. Papildinformāciju skatiet rakstā [Datu integrācija pakalpojumā Common Data Service programmām](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Savienojuma kopā pievienojiet integrācijas atslēgas lauka kartējumu **msdyn\_projects** to **msdynce\_projectnumber \[Project Number\]**. Iespējams, ka savienojuma kopai vispirms ir jāpievieno projekts. Papildinformāciju skatiet rakstā [Datu integrācija pakalpojumā Common Data Service programmām](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** projektu līgumiem un projektiem var atjaunināt uz citu vērtību vai noņemt no kartējuma. Noklusējuma veidnes vērtība ir **Project Service Automation**.
 - **PaymentTerms** kartējums ir jāatjaunina, lai tas atspoguļotu derīgus maksājuma nosacījumus risinājumā Finance. Varat arī noņemt kartējumu no projekta uzdevuma. Noklusējuma vērtību kartē ir demonstrācijas datu noklusējuma vērtības. Nākamajā tabulā ir parādītas Project Service Automation vērtības.
 
@@ -129,7 +131,7 @@ Lietojiet Microsoft Power Query programmai Excel, lai filtrētu datus, ja tiek i
 Ja ir jāizmanto Power Query, ievērojiet šīs vadlīnijas:
 
 - Projektu un līgumu (PSA uz Fin un Ops) veidnei ir noklusējuma filtrs, kas ietver tikai pārdošanas pasūtījumus ar tipu **Darba vienums (msdyn\_ordertype = 192350001)**. Šis filtrs palīdz nodrošināt, lai projekta līgumi netiktu izveidoti pārdošanas pasūtījumiem risinājumā Finance. Ja izveidojat savu veidni, šis filtrs ir jāpievieno.
-- Izveidojiet Power Query filtru, kas ietver tikai tās līguma organizācijas, kuras vajadzētu sinhronizēt ar iestatītās integrācijas savienojuma juridisko entitīju. Piemēram, projekta līgumi, kas jums ir ar Contoso US līgumu organizācijas vienību, ir jāsinhronizē ar USSI juridisko entītiju, savukārt projekta līgumi, kas jums ir ar Contoso Global līgumu organizācijas vienību, ir jāsinhronizē ar USMF juridisko entītiju. Ja nepievienosit šo filtru jūsu uzdevumu kartējumam, visi projekta līgumi tiks sinhronizēti ar juridisko personu, kas ir definēta savienojuma kopai, neatkarīgi no līguma organizācijas struktūrvienības.
+- Izveidojiet Power Query filtru, kas ietver tikai tās līguma organizācijas, kuras vajadzētu sinhronizēt ar iestatītās integrācijas savienojuma juridisko entitīju. Piemēram, projekta līgumi, kas jums ir ar līguma organizācijas struktūrvienību Contoso US, ir jāsinhronizē ar USSI juridisko personu, bet projekta līgumi, kas jums ir ar organizācijas struktūrvienību Contoso Global, ir jāsinhronizē ar USMF juridisko personu. Ja nepievienosit šo filtru jūsu uzdevumu kartējumam, visi projekta līgumi tiks sinhronizēti ar juridisko personu, kas ir definēta savienojuma kopai, neatkarīgi no līguma organizācijas struktūrvienības.
 
 ## <a name="template-mapping-in-data-integration"></a>Veidņu kartēšana datu integrācijā
 
@@ -140,17 +142,14 @@ Ja ir jāizmanto Power Query, ievērojiet šīs vadlīnijas:
 
 Nākamajās ilustrācijās ir redzami piemēri no veidnes uzdevumu kartējumiem datu integrācijā. Kartējumā tiek parādīta lauka informācija, kas tiks sinhronizēta no Project Service Automation uz Finance.
 
-[![Projekta līguma veidnes kartēšana.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Projekta līguma veidnes kartēšana](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Projekta veidnes kartēšana.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Projekta veidnes kartēšana](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Projekta līguma rindu veidnes kartēšana.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Projekta līguma rindu veidnes kartēšana](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Projekta līguma rindu atskaites punkta veidnes kartēšana.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Projekta līguma rindu atskaites punkta veidnes kartēšana](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Projekta līguma rindu atskaites punktu kartēšana projektos un līgumos (PSA 3.x uz Dynamics) — v2 veidne:
 
-[![Projekta līguma rindu atskaites punkta kartēšana ar versiju, kurā ir divas veidnes.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Projekta līguma rindu atskaites punkta kartēšana ar versiju, kurā ir divas veidnes](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

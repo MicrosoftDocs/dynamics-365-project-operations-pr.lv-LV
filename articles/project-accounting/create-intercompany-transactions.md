@@ -2,16 +2,18 @@
 title: Starpuzņēmumu darbību izveide
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot starpuzņēmumu darbības.
 author: sigitac
+manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005490"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880457"
 ---
 # <a name="create-intercompany-transactions"></a>Starpuzņēmumu darbību izveide
 
@@ -45,8 +47,8 @@ Projekta faktisko datu uzskaite tiek reģistrēta Project Operations integrācij
 | --- | --- | --- | --- | --- |
 | izdevumi | Netiek pievienoti integrācijas žurnālam | N/A | N/A | N/A |
 | Rēķinā neiekļautā pārdošana | Aizņēmuma juridiskās personas integrācijas žurnāls | Jā | Project | **Norēķinu PVN grupa**: pamatā ir **līguma klients** <br/> **Norēķinu vienuma PVN grupa**: pamatā ir pašreizējā juridiskās personas projekta kategorija žurnāla rindā. |
-| Resursu struktūrvienības izmaksas | Aizdevuma juridiskās personas integrācijas žurnāls | Nr. | Starpuzņēmumu klients | **Norēķinu PVN grupa**: pamatā ir **starpuzņēmumu klients** <br/> **Norēķinu vienuma PVN grupa**: pamatā ir pašreizējā juridiskās personas projekta kategorija žurnāla rindā. |
-| Starporganizāciju pārdošana | Aizdevuma juridiskās personas integrācijas žurnāls | Nr. | Starpuzņēmumu klients | **Norēķinu PVN grupa**: pamatā ir **starpuzņēmumu klients** <br/> **Norēķinu vienuma PVN grupa**: pamatā ir pašreizējā juridiskās personas projekta kategorija žurnāla rindā. |
+| Resursu struktūrvienības izmaksas | Aizdevuma juridiskās personas integrācijas žurnāls | No | Starpuzņēmumu klients | **Norēķinu PVN grupa**: pamatā ir **starpuzņēmumu klients** <br/> **Norēķinu vienuma PVN grupa**: pamatā ir pašreizējā juridiskās personas projekta kategorija žurnāla rindā. |
+| Starporganizāciju pārdošana | Aizdevuma juridiskās personas integrācijas žurnāls | No | Starpuzņēmumu klients | **Norēķinu PVN grupa**: pamatā ir **starpuzņēmumu klients** <br/> **Norēķinu vienuma PVN grupa**: pamatā ir pašreizējā juridiskās personas projekta kategorija žurnāla rindā. |
 
 ### <a name="example-intercompany-transactions"></a>Piemērs: starpuzņēmumu darbības
 

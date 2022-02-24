@@ -2,22 +2,24 @@
 title: Piedāvājuma slēgšana
 description: Šajā tēmā ir sniegta informācija par piedāvājumu slēgšanu programmā Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993430"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124692"
 ---
 # <a name="close-a-quote"></a>Piedāvājuma slēgšana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Projekta piedāvājumu var slēgt kā iegūtu vai zaudētu. Tā kā Microsoft Dynamics 365 Project Operations piedāvājumu funkcijas Aktivizēt un Pārskatīt netiek atbalstītas, varat aizvērt piedāvājuma melnrakstu.
+Projekta piedāvājumu var slēgt kā iegūtu vai zaudētu. Tā kā programmā Microsoft Dynamics 365 Project Operations netiek atbalstītas funkcijas Aktivizēt un Pārskatīt, varat slēgt piedāvājuma melnrakstu.
 
 ## <a name="close-a-quote-as-won"></a>Iegūta piedāvājuma slēgšana
 
@@ -41,6 +43,3 @@ Ja projekta piedāvājuma, kas ir slēgts kā zaudēts, jebkurā rindā ir atsau
 
 > [!NOTE]
 > Programmā Project Operations slēdzot piedāvājumu kā iegūtu vai zaudētu, netiks ietekmēts iespējas statuss — tā paliks atvērta, līdz tiks manuāli slēgta.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

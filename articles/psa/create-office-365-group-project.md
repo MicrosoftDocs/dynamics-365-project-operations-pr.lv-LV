@@ -2,6 +2,8 @@
 title: Office 365 grupas izveide projektam
 description: Office 365 grupas izveide programmā Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 88ae5eb298e802fdcff24bae378e406d1bc478a63ea37e5bc5d477d137826877
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004995"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144782"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>Office 365 grupas izveide projektam (Project Service)
 
@@ -41,6 +43,3 @@ Nodrošiniet vietu, kur projekta darba grupas dalībnieki var sadarboties, strā
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

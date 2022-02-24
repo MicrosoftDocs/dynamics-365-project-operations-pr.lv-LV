@@ -2,16 +2,18 @@
 title: Darba grupas dalībnieku uzturēšana
 description: Šajā tēmā ir sniegta informācija par nosaukto resursu rezervēšanu projekta darba grupām un to piešķiršanu uzdevumiem.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997075"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131532"
 ---
 # <a name="maintain-team-members"></a>Darba grupas dalībnieku uzturēšana
 
@@ -40,6 +42,3 @@ Veicot atlasi, resurss tiek pievienots projekta darba grupai un piešķirts uzde
 Varat izmantot cilnes **Saskaņošana** rezervācijas paplašināšanas iespēju vai vienumu **Plānošanas panelis**, lai rezervētu resursa noslodzi uz projektā.
 
 Pēc tam, kad darba grupas dalībnieks ir rezervēts projektā, varat izmantot opcijas **Uzturēt rezervācijas** vai vienumu **Plānošanas panelis**, lai tiešā veidā pārvaldītu to rezervācijas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Izdevumu pārvaldības parametru konfigurēšana
 description: Šajā tēmā ir aprakstīti parametri, kas kontrolē Izmaksu pārvaldības vispārējo darbību.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007785"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121047"
 ---
 # <a name="configure-expense-management-parameters"></a>Izdevumu pārvaldības parametru konfigurēšana
 
@@ -81,6 +83,3 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 | Parādīt apliecinājumu par korupcijas apkarošanu   | Atlasiet šo opciju, lai parādītu tekstu par korupcijas apkarošanu, kad tiek izveidota izdevumu atskaite. Var iespējot konkrētas izdevumu kategorijas, kuru gadījumā izdevumu atskaitē būtu obligātu jāatlasa apliecinājums par korupcijas apkarošanu. Piemēram, dāvanu kategorijai, kas saistīta ar valsts amatpersonu izdevumiem, var pieprasīt, lai darbinieks apstiprinātu, ka izdevumi atbilst uzņēmuma politikai saistībā ar valsts amatpersonām. |
 | Paziņojums iesniedzējam par korupcijas apkarošanu | Ievadiet tekstu, kas jārāda darbiniekam, kurš veido izdevumu atskaiti. Lai ievadītu rādāmo tekstu konkrētā valodā, pamatojoties uz lietotāja valodu, atlasiet vienumu **Tulkojumi**. |
 | Paziņojums apstiprinātājam par korupcijas apkarošanu  | Ievadiet tekstu, kas jārāda apstiprinātājam, kad tiek veidota izdevumu atskaite. Lai ievadītu rādāmo tekstu konkrētā valodā, pamatojoties uz lietotāja valodu, atlasiet vienumu **Tulkojumi**. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

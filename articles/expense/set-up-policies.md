@@ -2,9 +2,11 @@
 title: Izdevumu politiku definēšana
 description: Varat definēt izdevumu politikas, kuras jūsu darbiniekiem ir jāievēro, ievadot un iesniedzot izdevumu atskaites un komandējumu pieprasījumus.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986365"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128427"
 ---
 # <a name="define-expense-policies"></a>Izdevumu politiku definēšana
 
@@ -51,6 +53,3 @@ Tālāk sniegti daži ierosinājumi, kas var jums palīdzēt, veidojot jaunas iz
 ## <a name="when-to-evaluate-policies"></a>Kad novērtēt politikas
 
 Izdevumu pārvaldības parametros varat atlasīt izvērtēt izdevumu pārvaldības politikas, ja tiek saglabāta rinda vai ja tiek iesniegta izdevumu atskaite. Ja izvēlaties izvērtēt, kad rinda tiek saglabāta, lietotajiem būs agrāka redzamība par to, kas viņiem ir jādara, lai vienlaikus aizpildītu visu izdevumu atskaiti. Pretējā gadījumā varat aizkavēt politikas novērtējumu un ietaupīt laiku beigās, iesniedzot darbplūsmā.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Projektu grafiki
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot grafiku.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998425"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148427"
 ---
 # <a name="project-schedules"></a>Projektu grafiki 
 
@@ -94,7 +96,7 @@ Režģis **Grafiks** ir pilnībā pieejams, un to var izmantot ar tādiem ekrān
 
 Uzdevuma nosaukums apraksta darbu, kas ir jāizpilda. Programmatūrā PSA ar uzdevumu saistītie atribūti apraksta šī uzdevuma grafiku un tā personāla komplektēšanas prasības.
 
-> ![Uzdevuma atribūti.](media/project-2.png)
+> ![Uzdevuma atribūti](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Grafika atribūti
 
@@ -147,6 +149,3 @@ Ja lapas mezgla uzdevumam nav pirmstecīgu aktivitāšu, tā sākuma datums tiek
 ### <a name="manual-scheduling"></a>Manuāla plānošana
 
 Ja automātiskās plānošanas kārtulas neatbilst jūsu prasībām, uzdevuma režīmu šim uzdevumam varat iestatīt uz **Plānots manuāli**. Šis iestatījums neļauj plānošanas programmai aprēķināt citu plānošanas atribūtu vērtības. Neatkarīgi no uzdevuma režīma, ja uzdevumiem iestatāt pirmstecīgas aktivitātes, tās vienmēr ietekmē atkarīgā uzdevuma sākuma datumu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Resursu pārvaldības galvenie jēdzieni
 description: Šajā tēmā ir sniegta informācija par resursu pārvaldības iespējām programmā Microsoft Dynamics Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994825"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123882"
 ---
 # <a name="resource-management-key-concepts"></a>Resursu pārvaldības galvenie jēdzieni
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja atrast pareizos resursus īstajā laikā, rezervēt šos resursus projektiem, kā arī uzturēt to izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. Dynamics 365 Project Operations projekta resursu funkcionalitāti var izmantot, lai veiktu tālāk norādītos uzdevumus.
+Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja atrast pareizos resursus īstajā laikā, rezervēt šos resursus projektiem, kā arī uzturēt to izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. Programmā Dynamics 365 Project Operations varat izmantot projekta resursu funkcionalitāti, lai veiktu šādus uzdevumus:
 
 - Veidot projektu darba grupas, rezervējot pieejamos un kvalificētos resursus.
 - Izveidot vispārēju darba grupu dalībnieku ierakstus un definēt to lomas un resursa organizācijas struktūrvienību.
@@ -33,6 +35,3 @@ Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja
 
 
 Varat atrast darbiniekus savam projektam, izmantojot vispārējus vai nosauktus resursus programmā Project Operations. Varat izmantot dažādas metodes, lai pievienotu un piešķirtu darba grupas dalībniekus, kā arī pārvaldītu to rezervācijas un piešķires. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

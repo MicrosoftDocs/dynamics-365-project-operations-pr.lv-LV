@@ -2,16 +2,18 @@
 title: Projekta rēķinu priekšlikumu pārvaldība
 description: Šajā tēmā sniegta detaizēta informācija par klientam sniegto rēķinu apstrādi ar Project Operations resursu/nekrājumu scenārijos.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989920"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089272"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekta rēķinu priekšlikumu pārvaldība
 
@@ -78,8 +80,7 @@ Programmā Dataverse izveidojot jaunu norēķinu atskaites punktu, **Pārdošana
     - **Klients**: vienmēr noteiks norēķinu pārdošanas nodokļu grupas noklusējuma vērtību no klienta.
     - **Meklēt**: meklēs augstākminētajās entitījās šajā sarakstā un atlasīs pirmo pieejamo vērtību. Meklēšana sākas ar entitīju **Projekts**, pēc tam — entitīju **Projekta līgums** un pēc tam — entitīju **Klients**.
 
-- **Fiksētas cenas atskaites punkta vienumu pārdošanas nodokļu grupa** tiek izmantota kā norēķinu atskaites punkta noklusējuma vērtība laukā **Vienumu pārdošanas nodokļu grupa**. Grāmatvedis var pārskatīt un modificēt šo vērtību lapā **Starpkonta darbības**. Sistēma izmanto vērtību no starpkonta darbības, veidojot projekta rēķina priekšlikuma rindu.
- 
+- **Fiksētās cenas atskaites punkta preču pārdošanas nodokļu grupu** izmanto, lai noteiktu noklusējuma vērtību laukam **Preču pārdošanas nodokļu grupa**.
 
 ### <a name="financial-dimensions"></a>Finanšu dimensijas
 
@@ -131,7 +132,7 @@ Lapa **Rēķina priekšlikumu formatēšana** ļauj pielāgoti grupēt transakci
 
 Drukāšanas pārvaldībā izmanto atšķirīgus atskaišu failus, lai drukātu, norādītu galamērķus un pielāgotu rēķina kājenes tekstu. Drukāšanas pārvaldību var iestatīt moduļa līmenī, taču šie iestatījumi var tikt ignorēti noteiktam klientam, līgumam vai rēķina priekšlikumam. Lai piekļūtu šai funkcijai, lapā **Projekta rēķina priekšlikums** atlasiet **Drukāt** > **Drukāšanas pārvaldība**.
 
-Drukāšanas pārvaldības iestatījums tiek rādīts kā koka skats, kurā katrs mezgla līmenis rāda pielāgošanai pieejamos dokumentus. Jūs varat piešķirt pielāgotās izdrukas moduļa, klienta, līguma vai rēķina priekšlikuma dokumenta līmenī. Lai modificētu sākotnējo dokumenta izdruku, izvērsiet vēlamo mezglu un atlasiet **Sākotnējais vienums**. Laukā **Atskaites formāts** atlasiet atskaites formātu, kuru izmantot drukāšanai. Jūs varat izmantot pielāgotos atskaišu formātus, izmantojot [Biznesa dokumentu pārvaldības struktūru](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Drukāšanas pārvaldības iestatījums tiek rādīts kā koka skats, kurā katrs mezgla līmenis rāda pielāgošanai pieejamos dokumentus. Jūs varat piešķirt pielāgotās izdrukas moduļa, klienta, līguma vai rēķina priekšlikuma dokumenta līmenī. Lai modificētu sākotnējo dokumenta izdruku, izvērsiet vēlamo mezglu un atlasiet **Sākotnējais vienums**. Laukā **Atskaites formāts** atlasiet atskaites formātu, kuru izmantot drukāšanai. Jūs varat izmantot pielāgotos atskaišu formātus, izmantojot [Biznesa dokumentu pārvaldības struktūru](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Rēķina priekšlikumu izlikšana
 
@@ -142,6 +143,3 @@ Lai pirms izlikšanas skatītu rēķinu, notīriet izvēles rūtiņu **Izlikšan
 Līdztekus lapai **Rēķina priekšlikums**, rēķina priekšlikumus var arī izlikt, palaižot periodisku darbu, **Izlikt rēķina priekšlikumus**. Lai atrastu šo darbu, dodieties uz **Projekta pārvaldība un uzskaite** > **Periodiski** > **Projekta rēķini** > **Izlikt rēķina priekšlikumus**.
 
 Šajā lapā tiek rādīti visi rēķina priekšlikumi, kuri ir gatavi izlikšanai. Jūs varat ieplānot rēķina priekšlikumu izlikšanu, atlasot **Pakete**. Iestatiet **Pakešapstrādes parametru** uz **Jā** un iestatiet pakešapstrādes periodiskumu, atlasot opciju **Periodiskums**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

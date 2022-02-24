@@ -2,16 +2,18 @@
 title: Darba izmaksu likmju iestatīšana — Lite
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt likmes darbam risinājuma Project Operations izmaksām.
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006120"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180732"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Darba izmaksu likmju iestatīšana — Lite
 
@@ -36,7 +38,7 @@ Katram cenrādim ir darba likmju (lomu cenu) kopa, kas atbilst cenrāža saturam
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Iekšējo cenu noteikšana un izmaksas par resursiem ārpus jūsu nodaļas vai juridiskās personas
 
-Projektu uzņēmumos parasti izmanto dažādu juridisku personu vai nodaļu darbiniekus projektos. Projektu var veikt viena juridiska persona, bet darbinieki vai konsultanti, kas strādā pie projekta, var būt no tās pašas juridiskas personas vai no citas, vai var būt abu kombinācija. Programmā Dynamics 365 Project Operations juridiska persona, kuras rīcībā ir projekta piegāde, ir **Atbildīgais uzņēmums** un nodaļa, kas nodrošina piegādi, ir **Līgumslēdzēja vienība**. Citas juridiskas personas, kas nodrošina resursus, ir resursu **Resursu uzņēmumi**, un nodaļas, kas nodrošina resursus, ir **Resursu struktūrvienības**. Lielākajā daļā valstu uzņēmumiem ir jānodrošina, ka juridiskās personas vai nodaļas, kas nodrošina resursus, maksā uzņēmējsabiedrībai un līgumslēdzējai vienībai par resursu izmantošanu.
+Projektu uzņēmumos parasti izmanto dažādu juridisku personu vai nodaļu darbiniekus projektos. Projektu var veikt viena juridiska persona, bet darbinieki vai konsultanti, kas strādā pie projekta, var būt no tās pašas juridiskas personas vai no citas, vai var būt abu kombinācija. Risinājumā Dynamics 365 Project Operations juridiskā persona, kurai pieder projekta piegāde, ir **Uzņēmuma īpašnieks**, un struktūrvienība, kurai pieder piegāde, ir **Līgumslēdzēja vienība**. Citas juridiskas personas, kas nodrošina resursus, ir resursu **Resursu uzņēmumi**, un nodaļas, kas nodrošina resursus, ir **Resursu struktūrvienības**. Lielākajā daļā valstu uzņēmumiem ir jānodrošina, ka juridiskās personas vai nodaļas, kas nodrošina resursus, maksā uzņēmējsabiedrībai un līgumslēdzējai vienībai par resursu izmantošanu.
 
 Piemēram, Fabrikam uzņēmumam ir jānodrošina, lai Fabrikam India-Robotics būtu panākta vienošanās par izmaksu likmes karti ar Fabrikam US-Robotics vai Fabrikam UK-Robotics.
 
@@ -80,6 +82,3 @@ Izmaksu cenrādī, kas paredzēts Fabrikam UK-Robotics, izmaksu likmes var iztei
 | Izstrādātājiem | Fabrikam UK | 115 GBP |
 
 Izmaksu cenrādis var nodrošināt darba likmes vairākās valūtās. Ja projektam tiek ģenerēts izmaksu novērtējums, Project Operations šos izmaksu kursus pārvērtīs projekta valūtā un parādīs to lietotājam. Kad laika ieraksts ir apstiprināts un tiek izveidota faktiskā pašizmaksa, faktiskās izmaksas tiek maksātas šīs atbilstošās lomas cenas rindas valūtā izmaksu cenrādī. Izmaksu faktiskajiem izdevumiem vienā projektā var ierakstīt vairākās valūtās. Tomēr, apkopojot vai summējot faktiskās darba izmaksas projekta līmenī, Project Operations konvertē visas darba izmaksu summas projekta valūtā, kuru lietotājs var skatīt.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,10 @@
 title: Kas ir Dynamics 365 Project Service Automation?
 description: Ievadinformācija un pārskats par Project Service
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000270"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150542"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Kas ir Dynamics 365 Project Service Automation?
 
@@ -46,10 +47,10 @@ Papildus palīdzībai pārraudzīt un kontrolēt projektu darba izmaksas individ
 ## <a name="whats-new-in-psa"></a>Jaunumi programmā PSA
 Darba grupa ar prieku izziņo mūsu jaunākos atjauninājumus. Lietotāja interfeisa uzlabojumi, kļūdu labojumi un svarīgu jaunu līdzekļu un iespēju pievienošana. Jūs lūdzāt; mēs ieklausījāmies.
 
-Lai redzētu mūsu jaunākos uzlabojumus un papildinājumus, apskatiet [2019. gada oktobra piezīmes par laidienu](/dynamics365-release-plan/2019wave2/index).
+Lai redzētu mūsu jaunākos uzlabojumus un papildinājumus, apskatiet [2019. gada oktobra piezīmes par laidienu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index).
 
 ### <a name="in-development"></a>Izstrādes fāzē
-Lai uzzinātu, ko mēs plānojam ieviest drīzumā, dodieties uz rakstu [Dynamics 365: 2020. gada 1. laidienu kopuma plāns](/dynamics365-release-plan/2020wave1/index).
+Lai uzzinātu, ko mēs plānojam ieviest drīzumā, dodieties uz rakstu [Dynamics 365: 2020. gada 1. laidienu kopuma plāns](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Palīdzības saņemšana saistībā ar PSA versiju 3.x
 Vai jums ir vajadzīgi resursi, kas palīdz plānot ieviešanu? Skatiet tālāk norādītās lejupielādējamās rokasgrāmatas.
@@ -82,9 +83,6 @@ Vai jums ir vajadzīgi resursi, kas palīdz plānot ieviešanu? Skatiet tālāk 
  [Piezīmes izstrādātājiem (programmas versija 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>2 minūtes gara pārskata videoieraksta skatīšanās
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

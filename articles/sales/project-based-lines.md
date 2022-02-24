@@ -2,16 +2,18 @@
 title: Uz projektiem balstītas iespēju rindas
 description: Šajā tēmā ir sniegta informācija par darbu ar iespēju rindām, kuras ir balstītas uz projektu.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996355"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181956"
 ---
 # <a name="project-based-opportunity-lines"></a>Uz projektiem balstītas iespēju rindas
 
@@ -31,6 +33,3 @@ Tālāk ir uzskaitīti lauki projekta iespējas rindā.
 | Nosaukums/vārds, uzvārds | Cilne Vispārīgi | Šis ir rediģējams teksta lauks, ko var izmantot, lai šim rindas vienumam piešķirtu īsu identitāti | Šī vērtība tiek pārnesta uz piedāvājuma rindu, veidojot piedāvājumu no šīs iespējas |
 | Klienta budžets | Cilne Vispārīgi | Šo rediģējamo valūtas lauku var izmantot, lai izsekotu summu, ko klients ir gatavs tērēt šim rindas vienumam. | Šī vērtība tiek pārnesta uz atbilstošo lauku piedāvājuma rindā, veidojot piedāvājumu no šīs iespējas |
 | Rēķinu izrakstīšanas metode | Cilne Vispārīgi | Šim rediģējamajam laukam ir šādas vērtības:</br>- laiks un materiāli;</br>- fiksēta cena. | Šī vērtība tiek pārnesta uz atbilstošo lauku piedāvājuma rindā, veidojot piedāvājumu no šīs iespējas. Pēc tam, kad ir izveidota piedāvājuma rinda, lauks tiek bloķēts, un to nevar mainīt. Piešķiriet šī lauka vērtību, cik precīzi vien iespējams. Ja šī lauka vērtība ir jāmaina piedāvājuma rindā, dzēsiet piedāvājuma rindu un izveidojiet to atkārtoti. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

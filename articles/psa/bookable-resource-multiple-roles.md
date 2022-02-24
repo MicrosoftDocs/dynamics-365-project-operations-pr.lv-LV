@@ -2,10 +2,12 @@
 title: Projekta pārdošanas un izmaksu aprēķini, kad rezervējamam resursam projektā ir vairākas lomas
 description: Šajā tēmā sniegta informācija par to, kā var izmantot cenu noteikšanas dimensijas, lai atbalstītu cenu un izmaksu aprēķinus resursam, kam projektā ir vairākas lomas.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987490"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145052"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Projekta pārdošanas un izmaksu aprēķini, kad rezervējamam resursam projektā ir vairākas lomas 
 
@@ -72,6 +74,3 @@ Izvēršot šī darba grupas dalībnieka ieraksta rindu, abiem šiem uzdevumiem 
 Naviģējot uz **Novērtējumu** režģi, pamanīsiet, ka viena un tā paša resursa diviem uzdevumiem ir atšķirīgs cenas aprēķins.
 A uzdevuma resursa piešķīrumam cena tiek noteikta, izmantojot **Lomas** atribūta vērtību no **Konsultāciju interesenta**. B uzdevuma tā paša resursa piešķīrumam cena tiek noteikta, izmantojot **Lomas** atribūtu no **Tīkla tehniķa**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

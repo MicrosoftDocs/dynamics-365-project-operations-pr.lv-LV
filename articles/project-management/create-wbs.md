@@ -2,16 +2,18 @@
 title: Darba sadalījuma struktūras izveide
 description: Šajā tēmā izskaidrots, kā jaunajā interfeisā izveidot darba sadalījuma struktūru (WBS), kas iekļauj pamata vadīklas.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: MT
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928624"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841370"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Darba sadalījuma struktūras (WBS) izveide
 
@@ -91,15 +93,13 @@ Atribūti **Piepūle**, **Sākuma datums**, **Beigu datums** un **Ilgums** nosak
 | Nosaukums/vārds, uzvārds | Uzdevuma nosaukums. |
 | ID | Darba sadalījuma struktūras uzdevuma ID. |
 
-Kā administrators uzdevuma entītijai var definēt pielāgotus laukus. Tomēr laukus nevar parādīt plānošanas režģī. Lai skatītu pielāgotos laukus, pievienojiet tos vienuma **Projekta uzdevums** informācijas lapai.
-
 ## <a name="staffing-attributes"></a>Darbspēka atribūti
 
-Personāla komplektēšanas atribūtiem piekļūst, grafikā izmantojot lauku **Resursi**. Varat vai nu meklēt jau esošu resursu, vai rūtī **Ātrā izveide** atlasīt **Izveidot** un pievienot projekta darba grupas dalībnieku kā jaunu resursu.  Meklējot resursu, izmantojot resursu atlasītāju uzdevumu režģī, dēļa skatā vai gantē, meklēšana atgriež esošos projekta grupas dalībniekus vai aktīvos rezervējamos resursus.
+Personāla komplektēšanas atribūtiem piekļūst, grafikā izmantojot lauku **Resursi**. Varat vai nu meklēt jau esošu resursu, vai rūtī **Ātrā izveide** atlasīt **Izveidot** un pievienot projekta darba grupas dalībnieku kā jaunu resursu.
 
 Uzdevuma personāla komplektēšanas prasību aprakstīšanai tiek izmantoti lauki **Loma**, **Resursu vienība** un **Amata nosaukums**. Šie personāla komplektēšanas atribūti kopā ar uzdevuma grafiku tiek izmantoti, lai atrastu pieejamos resursus šī uzdevuma veikšanai.
 
-   - **Loma** : norādiet resursa tipu, kas nepieciešams uzdevuma veikšanai.,
+   - **Loma**: Norādiet resursa tipu, kāds ir nepieciešams šī uzdevuma veikšanai.
    - **Resursu vienība**: Norādiet struktūrvienību, no kuras ir jāpiešķir resursi šim uzdevumam. Ja resursa izmaksu un norēķinu likmes ir iestatītas, pamatojoties uz resursu vienībām, šis atribūts uzdevumam ietekmē izmaksu un pārdošanas tāmi.
    - **Amata nosaukums**: Ievadiet draudzīgu nosaukumu vispārējam resursam, kas tiek izmantots kā vietturis resursam, kurš galu galā darīs šo darbu.
 
@@ -116,28 +116,3 @@ Uzdevuma režīms neietekmē atjauninājumus, kas tiek veikti pirmstecīgo/atkar
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pieejamība un īsinājumtaustiņi
 
 Režģis **Grafiks** ir pilnībā pieejams, un to var izmantot ar tādiem ekrāna lasītājiem kā Diktors, JAWS un NVDA. Pa režģa laukumu varat pārvietoties, izmantojot bulttaustiņus (tāpat kā programmā Microsoft Excel), varat izmantot tabulēšanas taustiņu, lai pārvietotos pa interaktīvajiem lietotāja interfeisa elementiem, kā arī varat izmantot lejupvērsto bultiņu, taustiņu Enter vai atstarpes taustiņu, lai atlasītu un atvērtu nolaižamās izvēlnes.
-
-## <a name="project-limitations"></a>Projekta ierobežojumi 
-Ja izmantojat Project Operations darba sadalījuma struktūru, ņemiet vērā tālāk sniegtos ierobežojumus. Šie ierobežojumi attiecas uz projektiem un uzdevumiem. Papildinformāciju skatiet sadaļā [Projekta tīmekļa ierobežojumi un robežas](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Lauks**                                          |  **Ierobežojums**           |
-|----------------------------------------------------|----------------------|
-| Projekta maksimālais uzdevumu skaits                  | 500                  |
-| Projekta maksimālais ilgums               | 3650 dienas (10 gadi) |
-| Projekta maksimālais resursu skaits              | 150                  |
-| Projekta maksimālais saišu skaits (tikai pēctecis) | 600                  |
-| Projekta maksimālais pielāgoto lauku skaits          | 10                   |
-| Maksimālais kontrolsaraksta vienumu skaits vienam uzdevumam                   | 20                   |
-
-**Uzdevumu ierobežojumi**
-
-| **Lauks**                               |   **Ierobežojums**           |
-|-----------------------------------------|-----------------------|
-| Maksimālais hierarhijas līmenis                 | 10 līmeņi             |
-| Maksimālais saišu skaits (pēctecis + priekštecis) | 20                    |
-| Maksimālais atbildes uzdevuma ilgums           | 1250 dienas             |
-| Maksimālais kopsavilkuma uzdevuma ilgums      | 3650 dienas (10 gadi)  |
-| Maksimālais uzdevumam piešķirto resursu skaits    | 20 resursi          |
-| Atbalstītais uzdevuma datumu diapazons         | 1/1/2000 - 12/31/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

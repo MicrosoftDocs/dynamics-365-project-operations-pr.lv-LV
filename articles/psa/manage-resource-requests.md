@@ -2,6 +2,8 @@
 title: Resursu pieprasījumu pārvaldība
 description: Resursu pieprasījumu pārvaldība programmā Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985150"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149867"
 ---
 # <a name="manage-resource-requests-project-service"></a>Resursu pieprasījumu pārvaldība (Project Service)
 
@@ -43,12 +45,9 @@ Kontu pārvaldnieki un projektu vadītāji regulāri pieprasa resursus saviem pr
   
    -   Noklikšķiniet uz **Filtrs**, lai parādītu rūti **Filtrs**, kura ļauj filtrēt rezultātus pēc struktūrvienības, lomas, prasmes vai citiem atribūtiem.  
   
-       ![Project Service resursu pieprasījumu ekrāns.](../psa/media/project-service-resource-request-screen.png "Project Service resursu pieprasījumu ekrāns")  
+       ![Project Service resursu pieprasījumu ekrāns](../psa/media/project-service-resource-request-screen.png "Project Service resursu pieprasījumu ekrāns")  
   
 3. Rezervējamā resursa kalendārā atlasiet laika periodu, kādam šo resursu rezervēt, un pēc tam noklikšķiniet uz **Rezervēt**, lai šo resursu rezervētu, vai uz **Piedāvāt rezervēšanu**, lai piedāvātu rezervēšanu un pieprasītājs to apstiprinātu. Rezervējot resursu, varat veikt varat veikt vieglo vai stingro rezervāciju.  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

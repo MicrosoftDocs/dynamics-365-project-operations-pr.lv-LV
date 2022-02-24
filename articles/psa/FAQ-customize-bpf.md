@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002970"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993155"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kā pielāgot projekta posmu biznesa procesa plūsmu?
 
@@ -60,11 +60,11 @@ Ja nevarat veikt jaunināšanu, varat pielāgot projekta posmu biznesa procesa p
 1. Pievienojiet papildu posmus noklusējuma konfigurācijā, saglabājot **Piedāvājums**, **Plāns** un **Aizvēršana** posmu nosaukumus angļu valodā.
 
 
-![Ekrānuzņēmums: posmu pievienošana noklusējuma konfigurācijai.](media/FAQ-Customize-BPF-1.png)
+![Posmu pievienošanas noklusējuma konfigurācijai ekrānuzņēmums](media/FAQ-Customize-BPF-1.png)
  
 2. Izveidojiet savu biznesa procesa plūsmu un iestatiet to kā galveno biznesa procesa plūsmu projekta entītijai, kas ļauj izmantot jebkādus posma vārdus. Tomēr, ja vēlaties izmantot tādus pašus standarta projekta posmus **Piedāvājums**, **Plāns** un **Aizvēršana**, ir jāveic daži pielāgojumi, kuru pamatā ir pielāgotie posmu nosaukumi. Sarežģītāka loģika ir projekta aizvēršana, ko joprojām varat aktivizēt, deaktivizējot projekta ierakstu.
 
-![BPF pielāgošana.](media/FAQ-Customize-BPF-2.png)
+![BPF pielāgošana](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Papildu apsvērumi Project Service versijai 2.4.4.30 vai vecākai versijai platformā 9.0
 
@@ -80,11 +80,11 @@ Lai projekta entītijai izveidotu savu biznesa procesa plūsmu, rīkojieties š�
 
 1. Pārejiet uz **Iestatījumi** > **Procesu centrs**. Nekopējiet projekta posmu biznesa procesa plūsmu, jo tādējādi tiek kopēta arī Project Service biznesa loģika.
 
-  ![Procesa izveide.](media/FAQ-Customize-BPF-3.png)
+  ![Procesa izveide](media/FAQ-Customize-BPF-3.png)
 
 2. Izmantojiet procesu noformētāju, lai izveidotu vēlamos posmu nosaukumus. Ja vēlaties tādu pašu funkcionalitāti kā **Piedāvājums**, **Plāns** un **Aizvēršana** noklusējuma posmiem, jums būs tā jāizveido, pamatojoties uz pielāgotās biznesa procesa plūsmas posmu nosaukumiem.
 
-   ![Ekrānuzņēmums ar procesu noformētāju, kas izmantots BPF pielāgošanai.](media/FAQ-Customize-BPF-4.png) 
+   ![Ekrānuzņēmums ar procesu noformētāju, kas izmantots BPF pielāgošanai](media/FAQ-Customize-BPF-4.png) 
 
 3. Procesu noformētājā noklikšķiniet uz **Pasūtījumu procesa plūsma**, lai pielāgotu biznesa procesa plūsmu iestatītu kā galveno biznesa procesa plūsmu projekta entītijai, pārvietojot to virs projekta posmu biznesa procesa plūsmas saraksta sākumā.
 
@@ -95,15 +95,15 @@ Lai projekta entītijai izveidotu savu biznesa procesa plūsmu, rīkojieties š�
 
 4. Pievienojiet jaunu pielāgotu lauku projekta entītijai, lai iestatītu pielāgotus posmus pielāgotajā biznesa procesa plūsmā. Lai atjauninātu šo lauku, kad tiks atjaunināts pielāgotas biznesa procesa plūsmas posms, būs jāpievieno biznesa loģika (posms/darbplūsma).
 
-   ![Projekta entītijas pielāgošanas ekrānuzņēmums.](media/FAQ-Customize-BPF-6-720.png)
+   ![Projekta entītijas pielāgošanas ekrānuzņēmums](media/FAQ-Customize-BPF-6-720.png)
 
 5. Mainiet diagrammu **Projekts pēc posma**, lai posmiem lietotu jūsu jauno pielāgoto lauku.
 
-   ![Ekrānuzņēmums: diagrammas Projekts pēc posma izmantošana.](media/FAQ-Customize-BPF-7-720.png)
+   ![Diagrammas Projekts pēc posma izmantošanas ekrānuzņēmums](media/FAQ-Customize-BPF-7-720.png)
 
 6. Mainiet jebkurus projekta entītijas laukus, lai posmiem ietvertu jauno pielāgoto lauku.
 
-   ![Projekta entītijas skatu maiņas ekrānuzņēmums.](media/FAQ-Customize-BPF-8-720.png)
+   ![Projekta entītijas skatu maiņas ekrānuzņēmums](media/FAQ-Customize-BPF-8-720.png)
 
 
 

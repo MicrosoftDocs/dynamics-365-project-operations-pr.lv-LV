@@ -2,6 +2,8 @@
 title: Izveidojiet cenrādi
 description: Cenrāža izveide programmā Project Service
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 049b36beed34ada5758d47a40a1126e0599e23e50afac83eb7ef0e37daaaaa65
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 18f6e7a7a96f374acc85ee1027c5252cbf7ab5f0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990910"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149462"
 ---
 # <a name="create-a-price-list-project-service"></a>Cenrāža izveide (Project Service)
 
@@ -69,6 +71,3 @@ Cenrāži balstās uz lomām un izdevumu kategorijām, tāpēc, pirms veidojat c
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service Automation konfigurēšana](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

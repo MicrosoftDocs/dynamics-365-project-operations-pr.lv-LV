@@ -2,9 +2,11 @@
 title: Lomu iestatīšana darba sadalījuma struktūras veidnēs
 description: Šajā tēmā ir sniegta informācija par lomas informācijas iestatīšanu darba sadalījuma struktūras veidnēs.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080424"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Lomu iestatīšana darba sadalījuma struktūras veidnēs
 
@@ -89,7 +91,7 @@ WBS ir pievienotas papildu opcijas, lai labāk izmantotu resursu plānošanas fu
 
 4. Iestatiet datumus un darbu (stundās), kā parādīts šajā ilustrācijā.
 
-    [![Datumu un darba iestatīšana.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Datumu un darba iestatīšana](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Atlasiet **Uzsākšanas** uzdevuma rindu un pēc tam laukā **Loma** atlasiet **Vecākais projekta vadītājs**.
 6. Atlasiet **Publicēt**.
@@ -105,6 +107,3 @@ WBS ir pievienotas papildu opcijas, lai labāk izmantotu resursu plānošanas fu
     > Jūs nesaņemat brīdinājumu, ka norādītais resurss tagad ir 2, jo resursa numurs joprojām ir 1.
 
 14. **Darba sadalījuma struktūras** lapā pārbaudiet resursa piešķiri WBS un pēc tam atlasiet **Saglabāt**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

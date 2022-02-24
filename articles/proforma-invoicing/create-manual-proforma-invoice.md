@@ -1,25 +1,42 @@
 ---
-title: Pro forma rēķini
-description: Šajā tēmā ir sniegta informācija par pro forma rēķiniem programmā Project Operations.
+title: Izveidot manuālu pro formas rēķinu
+description: Šajā tēmā ir sniegta informācija par pro formas rēķina izveidi.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995635"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128067"
 ---
-# <a name="proforma-invoices"></a>Pro forma rēķini
+# <a name="create-a-manual-proforma-invoice"></a>Izveidot manuālu pro formas rēķinu
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Pro forma rēķinu izveide projektu vadītājiem sniedz otro apstiprinājuma līmeni pirms rēķinu izveides klientiem. Pirmais apstiprināšanas līmenis tiek pabeigts, kad tiek apstiprināti projekta darba grupas dalībnieku iesniegtie laika, izdevumu un materiālu ieraksti. Apstiprināti pro forma rēķini ir pieejami Project Operations projekta grāmatvedības modulī. Projekta grāmatveži var veikt papildu atjauninājumus, piemēram, pārdošanas nodokļu, grāmatvedības un rēķina izkārtojumu.
+Rēķinu izveide ir noderīga, jo tie projektu vadītājiem sniedz otro apstiprinājuma līmeni pirms rēķinu izveides klientiem. Pirmais apstiprināšanas līmenis tiek pabeigts, kad tiek apstiprināti projekta darba grupas dalībnieku iesniegtie laika un izdevumu ieraksti.
 
+Dynamics 365 Project Operations nav izveidota, lai ģenerētu uz klientiem vērstus rēķinus tālāk norādīto iemeslu dēļ.
+
+- Tajā nav iekļauta informācija par nodokļiem.
+- Tā nevar pārvērst citas valūtas uz rēķina valūtu, izmantojot pareizi konfigurētus valūtas kursus.
+- Nevar pareizi formatēt rēķinus, lai tos varētu izdrukāt.
+
+Tā vietā varat izmantot finanšu vai grāmatvedības sistēmu, lai izveidotu uz klientiem vērstus rēķinus, kuri izmanto informāciju no ģenerētajiem rēķina priekšlikumiem.
 
 ## <a name="creating-project-invoices"></a>Projektu rēķinu izveide
 
@@ -33,7 +50,7 @@ Veiciet šīs darbības, lai izveidotu rēķinu konkrētam projekta līgumam.
 
 - Saraksta lapā **Projekta līgumi** atveriet projekta līgumu un pēc tam atlasiet **Izveidot rēķinu**.
 
-    Rēķins tiek ģenerēts visām atlasītā projekta līguma transakcijām, kuru statuss ir **Gatavs rēķinam**. Šīs transakcijas iekļauj laiku, izmaksas, materiālus, atskaites punktus un citas rēķinos neietvertas pārdošanas žurnālus rindas.
+    Rēķins tiek ģenerēts visām atlasītā projekta līguma transakcijām, kuru statuss ir **Gatavs rēķinam**. Šīs transakcijas ietver laiku, izdevumus, atskaites punktus un produktu līguma rindas.
 
 Lai izveidotu lielapjoma rēķinus, veiciet tālāk norādītās darbības.
 
@@ -43,7 +60,7 @@ Lai izveidotu lielapjoma rēķinus, veiciet tālāk norādītās darbības.
 
 2. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
 
-    Rēķins tiek ģenerēts visām līguma rindas transakcijām, kuru statuss ir **Gatavs rēķinam**. Šīs transakcijas iekļauj laiku, izmaksas, materiālus, atskaites punktus un citas rēķinos neietvertas pārdošanas žurnālus rindas.
+    Rēķins tiek ģenerēts visām līguma rindas transakcijām, kuru statuss ir **Gatavs rēķinam**. Šīs transakcijas ietver laiku, izdevumus, atskaites punktus un produktu līguma rindas.
 
 3. Lai skatītu ģenerētos rēķinus, dodieties uz **Pārdošana** \> **Maksas noteikšana** \> **Rēķini**. Katram projekta līgumam tiks parādīts viens rēķins.
 
@@ -76,10 +93,11 @@ Lielapjoma izpildes darbs rēķinu izveidošanai ir kārtējais darbs. Ja šis p
  
 ### <a name="edit-a-draft-invoice"></a>Melnraksta rēķina rediģēšana
 
-Izveidojot projekta rēķina melnrakstu, visi nepārdoto pārdošanas transakciju ieraksti, kas tika izveidoti, kad tika apstiprināti laika, izdevumu un materiālu lietojuma ieraksti, tiek iekļauti rēķinā. Varat veikt tālāk norādītos pielāgojumus, kamēr rēķins vēl nav iekļauts melnraksta stadijā.
+Izveidojot projekta rēķina melnrakstu, visi nepārdoto pārdošanas transakciju ieraksti, kas tika izveidoti, kad tika apstiprināti laika un izdevumu ieraksti, tiek iekļauti rēķinā. Varat veikt tālāk norādītos pielāgojumus, kamēr rēķins vēl nav iekļauts melnraksta stadijā.
 
 - Dzēsiet vai rediģējiet informāciju par rēķina rindu.
 - Rediģējiet un pielāgojiet daudzuma un norēķinu tipu.
+- Precīzi pievienojiet laiku, izdevumus un maksas kā rēķina transakcijas. Šo līdzekli var izmantot, ja rēķina rinda ir kartēta uz līguma rindu, kas ļauj veikt šīs transakciju klases.
 
 Atlasiet vienumu **Apstiprināt**, lai apstiprinātu rēķinu. Apstiprinājuma darbība ir vienvirziena darbība. Kad atlasāt **Apstiprināt**, sistēma padara rēķinu par tikai lasāmu un izveido izrakstīto pārdošanas darījumu no katras rēķina rindas detalizētās vērtības katrā rēķina rindā. Ja rēķina rindas informācija attiecas uz nepārdotu pārdošanas apjomu faktisko, sistēma arī apvērš nepārdoto pārdošanas darījumu faktisko. (Jebkura rēķina rindas informācija, kas izveidota no laika vai izdevumu ieraksta, atsaucas uz nepārdotu pārdošanas darījumu.) Galvenās virsgrāmatas ieviešanas sistēmas var izmantot šo apvērsi, lai nepabeigtu projekta darbu (NP) grāmatvedības vajadzībām.
 
@@ -93,6 +111,3 @@ Kad apstiprināsit laboto rēķinu, sākotnējais izmaksātais pārdošanas apjo
 
 - Rēķins par pārdošanu ir fiksētas sešas stundas.
 - Neiekasēts pārdošanas apjoms atlikušajām divām stundām. Šo transakciju var izrakstīt vēlāk vai atzīmēt kā nepiemērojamu atkarībā no vienošanās ar klientu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

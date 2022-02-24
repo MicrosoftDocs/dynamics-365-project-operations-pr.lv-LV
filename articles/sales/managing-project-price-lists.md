@@ -2,9 +2,11 @@
 title: Projekta cenu sarakstu piedāvājumā pārvaldīšana
 description: Šajā tēmā ir sniegta informācija par Projekta cenu saraksta entitīju.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003915"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177205"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Projekta cenu sarakstu piedāvājumā pārvaldīšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dynamics 365 Project Operations paplašina programmā Dynamics 365 Sales esošo entītiju Cenrādis. 
+Dynamics 365 Project Operations paplašina Cenrāža entitīju programmā Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Galvenās entītijas
 
@@ -118,6 +120,3 @@ Tāpat kā norēķinu likmes, arī cilvēkresursu izmaksu likmes iestata, izmant
     1. Izmaksu cenrādis, kas ir pievienots organizācijas struktūrvienībai.
     2. Izmaksu cenrādis, kas ir pievienots Project Operations parametriem. Tā kā projekta pakalpojumu parametriem var pievienot izmaksu cenrāžus daudzās valūtās, tiek veikta valūtu saskaņošana starp projekta, līguma vai piedāvājuma līgumslēdzēja organizācijas struktūrvienību un izmaksu cenrādi.
     3. Attiecībā uz izdevumiem pašizmaksas un izmaksu uzcenojuma izcenojuma metodes neattiecas uz izmaksu cenrāžiem. Pat ja šīs izcenojuma metodes tiek izmantotas izmaksu cenrāža rindās, lai iestatītu transakciju kategoriju izmaksas, sistēma tās ignorē un netiek ievadīta noklusējuma izmaksu cena.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

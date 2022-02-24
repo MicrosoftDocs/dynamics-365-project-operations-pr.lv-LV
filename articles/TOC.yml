@@ -4,15 +4,9 @@
   items:
     - name: Izvietošanas veida noteikšana
       href: environment/determine-deployment-type.md
-    - name: "Reģistrēšanās Project\_Operations izmēģinājumversijai"
-      href: environment/admin-trials.md
     - name: "Project\_Operations atjauninājumi"
       href: whats-new/project-operations-updates.md
-    - name: Noņemtie vai novecojušie līdzekļi
-      items:
-        - name: Noņemtie vai novecojuši līdzekļi programmā Project Operations
-          href: whats-new/removed-depreciated-features-project.md
-- name: "Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
+- name: "Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
   items:
     - name: Darba sākšana
       items:
@@ -34,13 +28,11 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Vides izvietošana
           items:
-            - name: Manuāla programmas Project Operations Dataverse ar duālās rakstīšanas atbalstu izvietošana
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Jaunas vides nodrošināšana
               href: environment/resource-provision-new-environment.md
             - name: Drošības modelis
               href: environment/security-model.md
-            - name: Project Operations integrācijas konfigurēšana katrai juridiskajai personai
+            - name: "Project\_Operations integrācijas konfigurēšana katrai juridiskajai personai"
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Duālās rakstīšanas integrācijas konfigurēšana
           items:
@@ -56,28 +48,10 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Izdevumu pārvaldības integrācija
               href: environment/resource-dual-write-expense.md
-            - name: Piegādātāju rēķinu integrācija
+            - name: Piegādātāja rēķina integrācija
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Atinstalēt Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
     - name: Jaunumi
       items:
-        - name: "2021.\_gada decembris\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: "2021.\_gada novembris\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: "2021.\_gada oktobris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: "2021.\_gada septembris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: "2021.\_gada augusts\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: "2021.\_gada jūlijs\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: "2021.\_gada jūnijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: "2021.\_gada maijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: "2021.\_gada aprīlis\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: "2021.\_gada marts\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
@@ -306,12 +280,8 @@
           items:
             - name: 'Projekta veidņu izstrāde, izmantojot projekta kopēšanu'
               href: project-management/dev-copy-project.md
-            - name: Projekta grafika API izmantošana
+            - name: Plānošanas API izmantošana (publiskais priekšskatījums)
               href: project-management/schedule-api-preview.md
-            - name: Projekta grafika API veiktspēja
-              href: project-management/project-schedule-api-performance.md
-            - name: Projekta grafika žurnāli
-              href: project-management/schedule-api-logs.md
     - name: Resursu pārvaldība
       items:
         - name: Pamata koncepcijas
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Izdevumu kategoriju iestatīšana
               href: expense/set-up-expense-categories.md
-            - name: 'Nobraukuma iestatīšana, izmantojot nobraukuma normas pakāpes'
-              href: expense/set-up-mileage.md
-        - name: Izmaksu specifikācija
-          href: prod-exp/expense-itemization.md
         - name: Personiskie izdevumi
           href: expense/personal-expenses-expense-report.md
         - name: Starpuzņēmumu izdevumi
@@ -436,21 +402,19 @@
               href: expense/vat-recovery.md
     - name: Materiālu lietojums
       items:
-        - name: Materiālu lietojuma reģistrēšana projektos un projekta uzdevumos
+        - name: Materiālu lietojuma ieraksts projektos un projekta uzdevumos
           href: material/material-usage-log.md
     - name: Apstiprinājumi
       items:
         - name: Apstiprinājumu pārskats
           href: approvals/approvals-overview.md
-        - name: Apstiprinājumu kopas
-          href: approvals/approval-sets.md
         - name: Izstrādātāja piezīmes
           items:
-            - name: Izstrādātāja piezīmes par apstiprinājumiem
+            - name: Izstrādātāja piezīmes apstiprinājumiem
               href: approvals/dev-notes-approvals.md
-    - name: Faktiskie dati
+    - name: Spēlētāju statistika
       items:
-        - name: Faktisko datu pārskats
+        - name: Spēlētāju statistikas pārskats
           href: actuals/actuals-overview.md
         - name: Spēlētāju statistikas saistīšana ar sākotnējiem ierakstiem
           href: actuals/linkingactuals.md
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 'Krājumos nebalstītu materiālu sagāde projektiem, izmantojot neapstiprinātu piegādātāju rēķinus'
           href: procurement/pending-vendor-invoices.md
-        - name: 'Krājumos neesošu materiālu pasūtīšana projektiem, izmantojot projekta pirkuma pasūtījumus'
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Piegādātāja saglabāšana
-          items:
-            - name: Piegādātāja saglabāšanas pārskats
-              href: procurement/vendor-retention-overview.md
-            - name: Kreditoru saglabāšanas iestatīšana
-              href: procurement/set-up-vendor-retention.md
-    - name: Rēķini
+    - name: Rēķinu izrakstīšana
       items:
         - name: Rēķinu norises pārskats
           href: invoicing/post-project-invoices.md
+        - name: Projekta rēķina priekšlikumu pārvaldība
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: "Pro\_forma rēķinu izrakstīšana"
           items:
             - name: Projektā balstītu rēķinu neizpildīto darbību žurnālu pārvaldība
@@ -494,12 +452,20 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektā balstīta rēķina automatizācijas konfigurēšana
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Klienta rēķina izrakstīšana
-          items:
-            - name: Projekta rēķina priekšlikumu pārvaldība
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Melnraksta projekta rēķina priekšlikumu pareiza uzskaite
-              href: invoicing/correct-project-invoice-proposals.md
+        - name: Projekta rēķina priekšlikumu pārvaldība
+          href: invoicing/format-update-project-invoice-proposals.md
+    - name: Projekta uzskaite
+      items:
+        - name: Finanšu dimensiju noklusējumi
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Projekta kategoriju konfigurēšana
+          href: project-accounting/configure-project-categories.md
+        - name: Iekšējo projektu uzskaites konfigurēšana
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Apmaksājamo projektu uzskaites konfigurēšana
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: "Project\_Operations integrācijas žurnāls"
+          href: project-accounting/project-operations-integration-journal.md
         - name: Starpuzņēmumu rēķinu izrakstīšana
           items:
             - name: Starpuzņēmumu rēķinu izrakstīšanas pārskats
@@ -510,18 +476,6 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Starpuzņēmumu klientu un kreditoru rēķinu izveide
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
-    - name: Projekta uzskaite
-      items:
-        - name: Finanšu dimensiju noklusējumi
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Projekta kategoriju iestatīšana
-          href: project-accounting/configure-project-categories.md
-        - name: Iekšējo projektu uzskaites konfigurēšana
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Apmaksājamo projektu uzskaites konfigurēšana
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: "Project\_Operations integrācijas žurnāls"
-          href: project-accounting/project-operations-integration-journal.md
     - name: Ieņēmumu atzinība
       items:
         - name: Ieņēmumu atpazīšanas pārskats
@@ -538,15 +492,9 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Prognozējamo ieņēmumu pārvaldība
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Problēmu novēršana
-      items:
-        - name: Projekta pārdošanas process
-          items:
-            - name: 'Valūtas nesaderības kļūda projekta, līguma, piedāvājuma vai rezervējama resursa izveides laikā'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: "Lite izvietošana\_— pāreja uz pro\_forma rēķina izrakstīšanu"
   items:
-    - name: Darba sākšana
+    - name: Sākt darbu
       items:
         - name: Lite izvietošanas pārskats
           href: pro/project-operations-overview-lite.md
@@ -560,24 +508,6 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
-        - name: "2021.\_gada jaunumi\_— 2.\_kopuma agrīna piekļuve\_— Lite izvietošana"
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: 2021. gada decembra jaunumi — Lite izvietošana
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: 2021. gada novembra jaunumi — Lite izvietošana
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: 2021. gada oktobra jaunumi — Lite izvietošana
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: 2021. gada septembra jaunumi — Lite izvietošana
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: "2021.\_gada augusta jaunumi\_— Lite izvietošana"
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: "2021.\_gada jūlija jaunumi\_— Lite izvietošana"
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: "2021.\_gada jūnija jaunumi\_— Lite izvietošana"
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: "2021.\_gada maija jaunumi\_— Lite izvietošana"
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "2021.\_gada aprīļa jaunumi\_— Lite izvietošana"
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "2021.\_gada marta jaunumi\_— Lite izvietošana"
@@ -826,10 +756,8 @@
           items:
             - name: 'Projekta veidņu izstrāde, izmantojot projekta kopēšanu'
               href: project-management/dev-copy-project.md
-            - name: Projekta grafika API izmantošana
+            - name: Plānošanas API izmantošana (publiskais priekšskatījums)
               href: project-management/schedule-api-preview.md
-            - name: Projekta grafika API veiktspēja
-              href: project-management/project-schedule-api-performance.md
     - name: Resursu pārvaldība
       items:
         - name: Pamata koncepcijas
@@ -886,44 +814,6 @@
           items:
             - name: Resursu lietojuma pārskats
               href: resource-management/resource-utilization-overview.md
-    - name: Apakšsadarbību pārvaldība programmā Project Operations
-      items:
-        - name: Apakšsadarbību pārvaldība programmā Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: "Apakšlīgumu slēgšana 2021.\_gada oktobrī\_— agrīna piekļuve"
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Galvenie jēdzieni apakšlīgumu slēgšanā
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Piegādātāju un projektu cenrāžu pārvaldība
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Apakšuzņēmēji kā rezervējami resursi
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Apakšlīguma galvenes detalizētā informācija
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Apakšlīguma rindas par laiku
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Apakšlīguma rindas par izdevumu kategorijām
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Apakšlīguma rindas par produktiem
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Apakšuzņēmēja rinda par resursiem
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Apakšlīguma rinda par atskaites punktiem
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Apakšlīguma projekta grupas dalībnieki
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Apakšlīguma iespējas projekta grupas dalībniekiem
-          href: pro/subcontracting/subcon-options.md
-        - name: Apakšlīgumu resursu piešķīrumu izmaksu novērtējums
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: 'Plānošanas paneļa konfigurēšana, lai parādītu līguma darbiniekus un apakšlīguma noslodzi'
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Projekta personāla veidošana ar līguma darbiniekiem un apakšlīguma noslodzi
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Laika, izmaksu un materiālu izlietojuma reģistrēšana apakšlīguma komponentiem'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Apakšlīguma stāvokļa pārejas
-          href: pro/subcontracting/subcon-states.md
     - name: Laiks
       items:
         - name: Laika pārskats
@@ -944,21 +834,19 @@
           href: expense/basic-expense.md
     - name: Materiālu lietojums
       items:
-        - name: Materiālu lietojuma reģistrēšana projektos un projekta uzdevumos
+        - name: Materiālu lietojuma ieraksts projektos un projekta uzdevumos
           href: material/material-usage-log.md
     - name: Apstiprinājumi
       items:
         - name: Apstiprinājumu pārskats
           href: approvals/approvals-overview.md
-        - name: Apstiprinājumu kopas
-          href: approvals/approval-sets.md
         - name: Izstrādātāja piezīmes
           items:
-            - name: Izstrādātāja piezīmes par apstiprinājumiem
+            - name: Izstrādātāja piezīmes apstiprinājumiem
               href: approvals/dev-notes-approvals.md
-    - name: Faktiskie dati
+    - name: Spēlētāju statistika
       items:
-        - name: Faktisko datu pārskats
+        - name: Spēlētāju statistikas pārskats
           href: actuals/actuals-overview.md
         - name: Spēlētāju statistikas saistīšana ar sākotnējiem ierakstiem
           href: actuals/linkingactuals.md
@@ -988,14 +876,6 @@
   items:
     - name: Jaunumi
       items:
-        - name: "Jaunumi 2021.\_gada oktobrī\_— Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: "Jaunumi 2021.\_gada septembrī\_— Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: "Jaunumi 2021.\_gada jūlijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: "Jaunumi 2021.\_gada maijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: "Jaunumi 2021.\_gada aprīlī\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Jaunumi 2021.\_gada martā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
@@ -1146,29 +1026,11 @@
       href: psa/overview.md
     - name: Jaunumi
       items:
-        - name: "Project\_Service\_3.x atjauninājumu laidiena plāns"
+        - name: "Project\_Service\_3.x atjauninājumu laidienu grafiks"
           href: psa/version-history-ps.md
-        - name: "Update\_Release\_38,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-38.md
-        - name: "Update\_Release\_37.5,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-37-5.md
-        - name: "Update\_Release\_37,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-37.md
-        - name: "Update\_Release\_36,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-36.md
-        - name: "Update\_Release\_35,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-35.md
-        - name: "Update\_Release\_34,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-34.md
-        - name: "Update\_Release\_33,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-33.md
-        - name: "Update\_Release\_32.5,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-32-5.md
-        - name: "Update Release 32,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-32.md
-        - name: "Update Release 31,\_V3 jaunumi vai izmaiņas"
+        - name: "Update\_Release\_31,\_V3 jaunumi vai izmaiņas"
           href: psa/whats-new-ur-31.md
-        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā\_30,\_V3"
+        - name: "Jaunumi vai izmaiņas atjauninājumu laidienā 30,\_V3"
           href: psa/whats-new-ur-30.md
         - name: 'Jaunumi vai izmaiņas atjauninājumu laidiena 29.5 labojumfailā, V3'
           href: psa/whats-new-ur-29-5.md
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Atskaišu veidošanas rokasgrāmata
           href: psa/implementation-guides/reporting-guide.md
-    - name: "Project Service Automation jaunināšana uz Project Operations\_— Lite"
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: "Project\_Service\_Automation jauninājums (programmas versija\_3.x)"
       items:
         - name: "Project\_Service\_Automation jauninājums"
@@ -1406,9 +1266,7 @@
               href: psa/time-entry-calendar.md
             - name: Nedēļas laika ieraksta pielāgošana
               href: psa/time-entry-extensibility-v3.md
-            - name: Project Service Automation apstiprinājumu kopas
-              href: psa/approval-set.md
-    - name: "Bieži uzdotie jautājumi un problēmu novēršana\_(3.x)"
+    - name: "BUJ un problēmu novēršana\_(3.x)"
       items:
         - name: Kāpēc izdevumu izmaksu faktiskajos datos šī cena pēc noklusējuma ir nulle?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -1456,7 +1314,7 @@
                   href: psa/set-up-invoice-frequencies.md
                 - name: Darījumu kategoriju iestatīšana
                   href: psa/configure-transaction-categories.md
-                - name: Izdevumu kategoriju konfigurēšana
+                - name: Izdevumu kategoriju iestatīšana
                   href: psa/configure-expense-categories.md
                 - name: Preču kataloga vienību izveide
                   href: psa/create-product-catalog-items.md

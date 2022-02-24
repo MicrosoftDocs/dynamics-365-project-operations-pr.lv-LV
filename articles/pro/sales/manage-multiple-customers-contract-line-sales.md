@@ -2,16 +2,18 @@
 title: Pārvaldīt vairākus klientus projekta līguma rindās — Lite
 description: Šajā tēmā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līguma rindās.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001800"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181641"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Pārvaldīt vairākus klientus projekta līguma rindās — Lite
 
@@ -41,6 +43,3 @@ Tālāk ir norādīti lauki projekta līguma rindas klienta ieraksta rindā **L�
 Rēķina sadalījuma procentus var rediģēt režģī. Ja rēķina sadalījuma procenti kopā neveido 100 procentus, radīsies kļūda. Pēc rēķina sadalījuma procentu rediģēšanas atsvaidziniet lapu, lai noņemtu kļūdu.
 
 Varat arī līguma rindas klienta apakšrežģī atlasīt vienumu **Vienmērīgs sadalījums**. Šī darbība vienmērīgi piešķir norēķinu sadalījumu visiem līguma rindas klientiem. Ja pastāv noapaļošanas koeficients, tas tiks pievienots noapaļošanas klientam. Viens līguma rindas klients vienmēr tiek marķēts kā **Noapaļošanas** klients, un tam karodziņš **Noapaļošana** ir iestatīts uz **Jā**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

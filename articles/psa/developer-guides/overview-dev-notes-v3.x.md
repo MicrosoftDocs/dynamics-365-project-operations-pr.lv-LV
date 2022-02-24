@@ -2,11 +2,12 @@
 title: Izstrādes sākumlapa (Project Service Automation 3.x)
 description: Šajā tēmā ir saites uz tēmām, kurās ir izstrādes informācija Dynamics 365 Project Service Automation (PSA) versijai 3.x.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/26/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -15,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c76faeecf252f0ae70594e7dfbb28c1aac2423a37f6cd12b53103dd7a493306e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a7548f588b492cd4c8cf19c0c88ce5ea1b34cc76
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987310"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148697"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Izstrādes sākumlapa (Project Service Automation 3.x)
 
@@ -32,6 +33,3 @@ Dynamics 365 Project Service Automation 3.x piedāvā jaunus līdzekļus, jaunu
 - [Laika un izdevumu izmaiņas (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Resursu pārvaldības izmaiņas (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Novecojušie tīmekļa resursi Project Service Automation versijā 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,38 +2,34 @@
 title: Problēmu novēršana, strādājot ar uzdevuma režģi
 description: Šajā tēmā sniegta informācija par problēmu novēršanu, kura ir nepieciešama, strādājot uzdevumu režģī.
 author: ruhercul
-ms.date: 09/22/2021
+manager: tfehr
+ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
+ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547208"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5031546"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problēmu novēršana, strādājot ar uzdevuma režģi 
 
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-_**Attiecas uz:** Project Operations resursu balstītiem / krājumu nebalstītiem scenārijiem, Lite izvietošana — darījums ar proformas rēķinu izrakstīšanu Project for the web_
+Šajā tēmā aprakstīts, kā novērst problēmas, ar kurām, iespējams, saskarsities, strādājot ar izmaksu pārvaldību.
 
-Izmantotais uzdevumu režģis Dynamics 365 Project Operations ir viesots iFrame programmā Microsoft Dataverse. Šīs lietošanas rezultātā ir jāizpilda noteiktas prasības, lai nodrošinātu autentifikācijas un autorizācijas pareizu darbību. Šajā tēmā apskatītas visbiežāk izplatītās problēmas, kas var ietekmēt iespēju atveidot režģi vai pārvaldīt uzdevumus darba sarežģījumu struktūrā (WBS).
+## <a name="enable-cookies"></a>Sīkfaili iespējoti
 
-Bieži sastopamās problēmas ir:
+Project Operations ir nepieciešams, lai būtu iespējoti trešo pušu sīkfaili, lai atveidotu darba sadalījuma struktūru. Ja nav iespējoti trešo pušu sīkfaili, jūs redzēsit nevis uzdevumus, bet gan tukšu lapu, ja lapā **Projekts** atlasīsit cilni **Uzdevumi**.
 
-- **Uzdevumu** cilne Uzdevuma režģī ir tukša.
-- Atverot projektu, netiek ielādēts projekts, un lietotāja interfeiss (UI) ir iestrēdzis skaitītājā.
-- **Project for the Web** administrēšanas atļauja.
-- Izmaiņas netiek saglabātas uzdevuma izveides, atjaunināšanas vai dzēšanas laikā.
+![Tukša cilne, ja nav iespējoti trešo pušu sīkfaili](media/blankschedule.png)
 
-## <a name="issue-the-task-tab-is-empty"></a>Problēma: Uzdevuma cilne ir tukša
 
-### <a name="mitigation-1-enable-cookies"></a>Mazināšana 1: Iespējot sīkfailus
-
-Project Operations pieprasa, lai trešās puses sīkfaili tiktu iespējoti, lai atveidotu darba sadalījumu struktūru. Ja nav iespējoti trešo pušu sīkfaili, jūs redzēsit nevis uzdevumus, bet gan tukšu lapu, ja lapā **Projekts** atlasīsit cilni **Uzdevumi**.
-
+### <a name="workaround"></a>Risinājums
 Microsoft Edge vai Google Chrome pārlūkiem šīs procedūras izklāsta, kā atjaunināt pārlūka iestatījumu, lai iespējotu trešo pušu sīkfailus.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -42,7 +38,6 @@ Microsoft Edge vai Google Chrome pārlūkiem šīs procedūras izklāsta, kā at
 2. Augšējā labajā stūrī atlasiet **daudzpunkti** (...) un pēc tam atlasiet **Iestatījumi**.
 3. Sadaļā **Sīkfaili un vietnes atļaujas** atlasiet **Sīkfaili un vietnes dati**.
 4. Izslēdziet opciju **Bloķēt trešās puses sīkfailus**.
-5. Atsvaidziniet pārlūkprogrammu. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -50,101 +45,64 @@ Microsoft Edge vai Google Chrome pārlūkiem šīs procedūras izklāsta, kā at
 2. Augšējā labajā stūrī atlasiet trīs vertikālus punktus un pēc tam atlasiet **Iestatījumi**.
 3. Sadaļā **Privātums un drošība** atlasiet **Sīkfaili un citi vietnes dati**.
 4. Atlasiet **Atļaut visus sīkfailus**.
-5. Atsvaidziniet pārlūkprogrammu. 
 
-> [!NOTE]
+> [!IMPORTANT]
 > Ja bloķējat trešo pušu sīkfailus, tiks bloķēti visi sīkfaili un vietnes dati no citām vietnēm pat, ja vietne ir atļauta jūsu izņēmumu sarakstā.
 
-### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Mazināšana 2: validēt PEX galapunktu, kas ir pareizi konfigurēts
+## <a name="pex-endpoint"></a>PEX galapunkts
 
-Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu. Šis galapunkts ir nepieciešams, lai sazinātos ar servisu, kas tiek izmantots, lai atveidotu darba sadalījumu struktūru. Ja parametrs nav iespējots, saņemsit kļūdu "Projekta parametrs nav derīgs". Lai atjauninātu PEX galapunktu, veiciet tālāk norādītās darbības.
+Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu. Šis galapunkts ir nepieciešams, lai sazinātos ar servisu, kas tiek izmantots darba sadalījuma struktūras atveidošanas nolūkam. Ja parametrs nav iespējots, saņemsit kļūdu "Projekta parametrs nav derīgs". 
+
+### <a name="workaround"></a>Risinājums
+ ![Projekta parametra lauks PEX galapunkts](media/projectparameter.png)
 
 1. Pievienojiet **PEX galapunkta** lauku **Projekta parametru** lapai.
-2. Nosakiet izmantotā produkta tipu. Šī vērtība tiek izmantota, iestatot PEX galapunktu. Izguves brīdī produkta tips jau ir definēts PEX galapunktā. Paturiet šo vērtību.
-3. Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Šajā tabulā ir norādīts tipa parametrs, kas ir jāizmanto, pamatojoties uz produkta tipu.
+2. Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+3. Noņemiet lauku no **Projekta parametru** lapas.
 
-      | **Produkta tips**                     | **Parametra tips** |
-      |--------------------------------------|--------------------|
-      | Project for the Web noklusējuma organizācijā   | tips=0             |
-      | Project for the Web CDS nosauktā organizācijā | tips=1             |
-      | Project Operations                   | tips=2             |
+## <a name="privileges-for-project-for-the-web"></a>Projekta atļaujas tīmeklī
 
-4. Noņemiet lauku no **Projekta parametru** lapas.
+Project Operations ir atkarīgs no ārēja plānošanas servisa. Šim servisam ir nepieciešams, ka lietotājam ir piešķiras vairākas lomas lasīt un rakstīt entitījās, kas saistītas ar darba sadalījuma struktūru. Šīs entitījas ietver projekta uzdevumus, resursu piešķiri un uzdevumu atkarības. Ja lietotājs nevar atveidot darba sadalījuma struktūru, dodoties uz cilni **Uzdevumi**, tas visdrīzāk ir tāpēc, ka nav iespējots Project Operations projekts. Lietotājs var saņemt vai nu drošības lomas kļūdu vai kļūdu, kas saistīta ar piekļuves liegumu.
 
-## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problēma: projekts netiek ielādēts, un lietotāja interfeiss ir iestrēdzis skaitītājā
 
-Autentifikācijas vajadzībām ir jāiespējo uznirstošie logi, lai uzdevumu režģis tiktu ielādēts. Ja uznirstošie logi nav iespējoti, ekrāns iestrēgs ielādēšanas skaitītājā. Šajā grafikā ir redzams URL ar bloķētu uznirstošu etiķeti adreses joslā, kā rezultātā skaitītājs iestrēgst, mēģinot ielādēt lapu. 
+## <a name="workaround"></a>Risinājums
 
-   ![Iestrēdzis skaitītājs un uznirstošo logu bloķētājs.](media/popupsblocked.png)
+1. Dodieties uz **Iestatījumi > Drošība > Lietotāji > Programmas lietotāji**.  
 
-### <a name="mitigation-1-enable-pop-ups"></a>Mazināšana 1: Iespējot uznirstošos logus
-
-Kad jūsu projekts ir iestrēdzis skaitītājā, tad, iespējams, uznirstošie logi netiks iespējoti.
-
-#### <a name="microsoft-edge"></a>Microsoft Edge
-
-Ir divi veidi, kā pārlūkprogrammā Edge iespējot uznirstošos logus.
-
-1. Pārlūkprogrammā Edge atlasiet paziņojumus pārlūkprogrammas augšējā labajā stūrī.
-2. Atlasiet **Vienmēr atļaut uznirstošos logus un pārvirzīšanu no** konkrētas Dataverse vides.
- 
-     ![Uznirstošie logi bloķēja logu.](media/enablepopups.png)
-
-Varat arī veikt vienu no tālāk minētajām darbībām.
-
-1. Atveriet pārlūkprogrammu Edge.
-2. Augšējā labajā stūrī atlasiet **Daudzpunkti** (...), un pēc tam atlasiet **Iestatījumi** > **Vietnes atļaujas** > **Uznirstošie logi un pārvirzīšana**.
-3. Pārslēdziet **Uznirstošos logus un pārvirzīšanu** uz izslēgts, lai bloķētu uznirstošos logus vai pārslēgtu uz atļauts, lai atļautu uznirstošos logus jūsu ierīcē. 
-4. Pēc uznirstošo logu iespējošanas atsvaidziniet jūsu pārlūkprogrammu. 
-
-#### <a name="google-chrome"></a>Google Chrome
-1. Atveriet pārlūkprogrammu Chrome.
-2. Pārejiet uz lapu, kurā tiek bloķēti uznirstošie logi.
-3. Adreses joslā atlasiet **Uznirstošais logs bloķēts**.
-4. Atlasiet to uznirstošo logu saiti, kuru vēlaties skatīt.
-5. Pēc uznirstošo logu iespējošanas atsvaidziniet jūsu pārlūkprogrammu. 
-
-> [!NOTE]
-> Lai vienmēr skatītu šīs vietnes uznirstošos logus, atzīmējiet opciju **Vienmēr atļaut uznirstošos logus un pārvirzīšanu no [vietnes]** un pēc tam atlasiet **Gatavs**.
-
-## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problēma 3: Project for the Web administrēšanas atļaujas
-
-Project Operations ir atkarīgs no ārēja plānošanas servisa. Servisa veikšanai nepieciešams, lai lietotājam būtu piešķirtas vairākas lomas, kas atļauj lasīt un rakstīt ar WBS saistītajām entītijām. Šīs entitījas ietver projekta uzdevumus, resursu piešķiri un uzdevumu atkarības. Ja lietotājs nevar atveidot WBS, pārejot uz cilni **Uzdevumi**, tad tas, iespējams, ir tāpēc, ka **Projekts** sadaļā **Project Operations** nav iespējots. Lietotājs var saņemt vai nu drošības lomas kļūdu vai kļūdu, kas saistīta ar piekļuves liegumu.
-
-### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Mazināšana 1: validēt lietojumprogrammas lietotāja un lietotāja drošības lomas
-
-1. Dodieties uz **Iestatījumi** > **Drošība** > **Lietotāji** > **Lietojumprogrammas lietotāji**.  
-
-   ![Lietojumprogrammas lasītājs.](media/applicationuser.jpg)
+   ![Lietojumprogrammas lasītājs](media/applicationuser.jpg)
    
-2. Veiciet dubultklikšķi uz lietojumprogrammas lietotāja ieraksta, lai pārbaudītu:
+2. Veiciet dubultklikšķi uz lietojumprogrammas lietotāja ieraksta, lai pārbaudītu tālāk norādīto.
 
-     - Lietotājam ir piekļuve projektam. To var izdarīt, pārbaudot, vai lietotājam ir **Projekta vadītāja** drošības loma.
-     - Microsoft Project lietojumprogrammas lietotājs pastāv un ir pareizi konfigurēts.
+ - Lietotājam ir piekļuve projektam. Šo pārbaudi parasti veic, nodrošinot, ka lietotājam ir drošības loma **Projekta vadītājs**.
+ - Microsoft Project lietojumprogrammas lietotājs pastāv un ir pareizi konfigurēts.
  
-3. Ja šis lietotājs neeksistē, tad izveidojiet jaunu lietotāja ierakstu. 
-4. Atlasiet **Jauni lietotāji**, mainiet ievades formu uz **Lietojumprogrammas lietotājs** un pēc tam pievienojiet **Lietojumprogrammas ID**.
+3. Ja šis lietotājs nepastāv, varat izveidot jauna lietotāja ierakstu. Atlasiet **Jauni lietotāji**. Mainiet ievades veidlapu uz **Lietojumprogrammas lietotājs** un pēc tam pievienojiet **Lietojumprogrammas ID**.
 
-   ![Lietojumprogrammas lietotāja informācija.](media/applicationuserdetails.jpg)
+   ![Lietojumprogrammas lietotāja informācija](media/applicationuserdetails.jpg)
 
+4. Pārbaudiet, vai lietotājam ir piešķirta pareizā licence un vai serviss ir iespējots licences servisa plānu informācijā.
+5. Pārbaudiet, vai lietotājs var atvērt project.microsoft.com.
+6. Ar projekta parametriem pārbaudiet, vai sistēma norāda uz pareizo projekta galapunktu.
+7. Pārbaudiet, vai ir izveidots projekta lietojumprogrammas lietotājs.
+8. Piemērojiet lietotājam šādas drošības lomas:
 
-## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Problēma 4: Izmaiņas netiek saglabātas uzdevuma izveides, atjaunināšanas vai dzēšanas laikā
-
-Veicot vienu vai vairākus WBS atjauninājumus, izmaiņas neizdodas un netiek saglabātas. Plānošanas režģī rodas kļūda, un tiek parādīts ziņojums "Pēdējās veiktās izmaiņas nevarēja saglabāt".
-
-### <a name="mitigation-1-validate-the-license-assignment"></a>Mazināšana 1: validēt licences piešķiršanu
-
-1. Pārbaudiet, vai lietotājam ir piešķirta pareizā licence un vai serviss ir iespējots licences servisa plānu informācijā.  
-2. Pārbaudiet, vai lietotājs var atvērt **project.microsoft.com**.
-    
-### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Mazināšana 2: projekta lietojumprogrammas lietotāja validācijas konfigurācija
-1. Pārbaudiet, vai ir izveidots projekta lietojumprogrammas lietotājs.
-2. Piemērojiet lietotājam šādas drošības lomas:
-  
-  - Dataverse lietotājs vai pamatlietotājs
+  - Dataverse lietotājs
   - Project Operations sistēma
   - Projekta sistēma
-  - Project Operations dubultā rakstīšanas sistēma. Šī loma ir nepieciešama Project Operations resursu balstītu/krājumu nebalstītu scenāriju izvietošanai.
 
+## <a name="error-when-updating-the-work-breakdown-structure"></a>Kļūda, atjauninot darba sadalījuma struktūru
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Ja darba sadalījuma struktūrai tiek izdarīts viens vai vairāki atjauninājumi, izmaiņas beigās neizdodas un netiek saglabātas. Grafika režģī rodas kļūda, ziņojot ka "Jūsu veiktās pēdējās izmaiņas nevarēja saglabāt."
+
+### <a name="workaround"></a>Risinājums
+
+1. Pārbaudiet, vai lietotājam ir piešķirta pareizā licence un vai serviss ir iespējots licences servisa plānu informācijā.
+2. Pārbaudiet, vai lietotājs var atvērt project.microsoft.com.
+3. Pārbaudiet, vai sistēma norāda uz pareizo projekta galapunktu.
+4. Pārbaudiet, vai ir izveidots projekta lietojumprogrammas lietotājs.
+5. Piemērojiet lietotājam šādas drošības lomas:
+  
+  - Dataverse lietotājs vai Base lietotājs
+  - Project Operations sistēma
+  - Projekta sistēma
+  - Project Operations duālās rakstīšanas sistēma (Šī loma ir nepieciešama, ja izvietojat Project Operations resursu/nekrājumu scenāriju.)

@@ -2,6 +2,8 @@
 title: Pārdošanas tāmes un projekti
 description: Šajā tēmā ir sniegta informācija par to, kā pārdošanas procesā izdevīgi izmantot plānošanu un tāmes.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995185"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148382"
 ---
 # <a name="sales-estimates-and-projects"></a>Pārdošanas tāmes un projekti
 
@@ -35,11 +37,11 @@ Pārdošanas procesa laikā varat izveidot pārdošanas tāmes, sasaistot projek
 
 Kad izveidojat uz projektu balstītu piedāvājuma rindu, varat izveidot jaunu projektu vai saistīt jau esošu projektu lapā **Piedāvājuma rinda**. 
 
-> ![Piedāvājuma rindas veidlapa.](media/project-8.png)
+> ![Piedāvājuma rindas veidlapa](media/project-8.png)
  
 Kad no piedāvājuma rindas informācijas veidojat jaunu projektu, varat izdevīgi izmantot projektu veidnes. Projektu veidnes ir modeļa projekti, kas pārstāv standarta projektu plānus un finanšu tāmes, kādas organizācijai ir tipiskas. Tās var pārstāvēt arī projektu plānu kopijas un tāmes no iepriekšējiem projektiem.
 
-> ![Piedāvājuma rindas informācija.](media/project-9.png)
+> ![Piedāvājuma rindas detaļas](media/project-9.png)
   
 Kad projektu veidojat no piedāvājuma, šis projekts automātiski tiek saistīts ar piedāvājuma rindu.
 
@@ -52,6 +54,3 @@ Darba piepūli un grafika tāmes varat definēt, izmantojot laukus lapas **Proje
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Tāmju importēšana no projekta uz piedāvājumu
 
 Pēc projekta tāmju definēšanas varat tās importēt uz piedāvājuma rindu. Lapas **Piedāvājuma rindas informācija** lentē atlasiet vienumu **Importēt no tāmēm**, lai izveidotu projekta tāmju kopsavilkumu pēc transakcijas tipa, lomas vai uzdevuma līmeņa.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

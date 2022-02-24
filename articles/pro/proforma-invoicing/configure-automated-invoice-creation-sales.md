@@ -1,25 +1,29 @@
 ---
-title: Automātiskas rēķina izveides iestatīšana
-description: Šajā tēmā ir sniegta informācija par proformas rēķinu automātiskās izveides iestatīšanu un konfigurēšanu.
+title: Automātiskas rēķina izveides konfigurēšana — Lite
+description: Šajā tēmā ir sniegta informācija par proforma rēķinu automātiskas izveides konfigurēšanu.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997525"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176575"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Automātiskas rēķina izveides iestatīšana 
+# <a name="configure-automatic-invoice-creation---lite"></a>Automātiskas rēķina izveides konfigurēšana — Lite
  
-_**Attiecas uz:** Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu, Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem_
+_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Varat konfigurēt automātiskas rēķina izveides programmā Dynamics 365 Project Operations. Sistēma izveido melnraksta proforma rēķinu, pamatojoties uz rēķina grafiku katram projekta līgumam un līguma rindai. Rēķinu grafiki tiek konfigurēti līguma rindas līmenī. Katrai līguma rindai var noteikt atsevišķu rēķina grafiku vai vienu un to pašu rēķina grafiku var iekļaut ikvienā līguma rindā.
+Jūs varat konfigurēt automātisku rēķinu izveidi risinājumā Dynamics 365 Project Operations. Sistēma izveido melnraksta proforma rēķinu, pamatojoties uz rēķina grafiku katram projekta līgumam un līguma rindai. Rēķinu grafiki tiek konfigurēti līguma rindas līmenī. Katrai līguma rindai var noteikt atsevišķu rēķina grafiku vai vienu un to pašu rēķina grafiku var iekļaut ikvienā līguma rindā.
 
-Kad izveidojat rēķinu, sistēma vienmēr katram projekta līgumam izveido vismaz vienu rēķinu. Dažos gadījumos var būt izveidoti vairāki rēķini. Piemēram, ja līgumam ir vairāki klienti, tiek izveidots tāds pats rēķinu skaits kā to klientu skaits, kuriem attiecīgajā projekta līgumā ir rēķinā iekļaujami darījumi.
+Kad izveidojat rēķinu, sistēma vienmēr katram projekta līgumam izveido vismaz vienu rēķinu. Dažos gadījumos var būt izveidoti vairāki rēķini.
+
+Piemēram, ja līgumam ir vairāki klienti, tiek izveidots tāds pats rēķinu skaits kā to klientu skaits, kuriem attiecīgajā projekta līgumā ir rēķinā iekļaujami darījumi.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Informācija par to, kā darījumi tiek iekļauti rēķinā 
 
@@ -87,6 +91,3 @@ Lielapjoma izpildes darbs rēķinu izveidošanai ir kārtējais darbs. Ja šis p
 
 > [!NOTE]
 > Project Operations lielapjomu rēķinu izveide darbojas vienīgi projekta līguma rindām, kuras ir konfigurējuši rēķinu grafiki. Līguma rindai ar fiksētu cenas aprēķina metodi jābūt konfigurētiem atskaites punktiem. Projekta līguma rindai ar laika un materiālu aprēķinu metodi ir jābūt iestatītam datuma bāzes rēķina grafikam.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

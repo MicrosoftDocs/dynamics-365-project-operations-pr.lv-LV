@@ -1,23 +1,25 @@
 ---
-title: Projekta norēķinu neizpildīto darbību žurnālu pārvaldība
-description: Šajā tēmā ir sniegta informācija par dažādiem skatiem, kas pieejami, pārvaldot projektu neizrakstītos rēķinus.
+title: Izrakstīšanas rezervju pārvaldība — Lite
+description: Šajā tēmā ir sniegta informācija par dažādajiem skatiem, kas pieejami, lai pārvaldītu norēķinu neizpildīto darbību žurnālu.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988300"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176980"
 ---
-# <a name="manage-project-billing-backlog"></a>Projekta norēķinu neizpildīto darbību žurnālu pārvaldība 
+# <a name="manage-the-billing-backlog---lite"></a>Izrakstīšanas rezervju pārvaldība — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Dynamics 365 Project Operations līdzeklī ir īpaši skati, kas palīdz pārvaldīt norēķinu neizpildīto darbību žurnālu. Lai pārvaldītu norēķinu neizpildīto darbību žurnālu, atlasiet saites apgabalā **Pārdošana**, kas atrodas sadaļā **Norēķini**. 
+Līdzeklī Dynamics 365 Project Operations ir īpaši skati, kas palīdz pārvaldīt norēķinu neizpildīto darbību žurnālu. Lai pārvaldītu norēķinu neizpildīto darbību žurnālu, atlasiet saites apgabalā **Pārdošana**, kas atrodas sadaļā **Norēķini**. 
 
 Ir pieejami šādi skatu režīmi:
 
@@ -58,6 +60,3 @@ Rēķinā neiekļautās pārdošanas ar ailes **Nepārsniegt** statusu **Neizdev
 Ja vairāku klientu līguma rindām ir laika un materiālu norēķinu metode, kad tiek apstiprināts laiks un izdevumi, katram klientam līguma rindā tiek izveidots viens neiekasēts pārdošanas apjoms atbilstoši katram klientam definētajai norēķinu procenta sadalījumam. Skatā **Nepabeigtā rēķinu izrakstīšana par laiku un materiālu** būs redzami šie atsevišķie klientam specifiskie neapstrādātie pārdošanas darījumi. Šajā skatā katru no šiem rēķinā neiekļautās pārdošanas faktisko datu ierakstiem var atsevišķi atzīmēt kā **Gatavs rēķina izrakstīšanai**.
 
 Šajā skatā tiek parādīts rēķinā neiekļautais faktiskais pārdošanas apjoms no rēķina melnraksta ar norēķinu statusu **Klienta rēķins izveidots**. Kad ir apstiprināts rēķina melnraksts, šī ieraksta norēķinu statuss tiek atjaunināts uz **Iegrāmatots klienta rēķins**. Neatjauniniet šo statusa vērtību, izmantojot pielāgotu kodu. Project Operations nefunkcionē pareizi, ja šīs statusa vērtības tiek atjauninātas ar pielāgotu kodu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

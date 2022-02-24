@@ -2,16 +2,18 @@
 title: Honorāru grafika iestatīšana
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt honorāra grafiku risinājumā Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a1cfd83837a91a8d1b3db6df688da6e216a90ada4735e5909a7e8cb26b87247d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d90781407f11c93b9fb9e0cd2446e102e216b8db
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994375"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272285"
 ---
 # <a name="set-up-a-retainer-schedule"></a>Honorāru grafika iestatīšana
 

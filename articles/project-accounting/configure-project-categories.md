@@ -2,16 +2,18 @@
 title: Projekta kategoriju iestatīšana
 description: Šajā tēmā ir sniegta informācija par projekta kategoriju iestatīšanu.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997120"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131937"
 ---
 # <a name="configure-project-categories"></a>Projekta kategoriju iestatīšana
 
@@ -23,11 +25,11 @@ Tālāk sniegtajā shēmā parādīta korelācija starp darījumu kategorijām, 
 
 Darījumu kategorijas ir projekta darījumu pamata grupas. Šajās grupās ir koplietojamu kategoriju kopums, ko var kopīgot programmās un moduļos. Konkrētāk — projekta kategorijas ir detalizētākais kategoriju līmenis. Projekta kategorijas ir noteiktas konkrētai juridiskai personai, modulim un programmai.
 
-![Korelācija starp darījumu kategorijām, koplietojamām kategorijām un projekta kategorijām.](media/project-categories.png)
+![Korelācija starp darījumu kategorijām, koplietojamām kategorijām un projekta kategorijām](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Transakcijas kategorijas
 
-Darījumu kategorijas ataino projekta darījumu pamatgrupas, un tās neattiecas uz konkrētu uzņēmuma vai darījumu veidu. Piemēram, lai grupētu projekta darījumus, Contoso Robotics izmanto darījumu kategorijas Dizains, Transportēšana, Uzstādīšana un Apkope.
+Darījumu kategorijas ataino projekta darījumu pamatgrupas, un tās neattiecas uz konkrētu uzņēmuma vai darījumu veidu. Piemēram, uzņēmums Contoso Robotics" izmanto darījumu kategorijas Projektēšana, Ceļojumi, Uzstādīšana un Apkope, kurās grupē Projekta darījumus.
 
 Darījumu kategorijas tiek definētas Project Operations modulī. 
 1. Lai atvērtu veidlapu, dodieties uz **Iestatījumi** \> **Darījumu kategorijas**. 
@@ -35,7 +37,7 @@ Darījumu kategorijas tiek definētas Project Operations modulī.
 
 ## <a name="shared-categories"></a>Koplietotās kategorijas
 
-Dynamics 365 izmanto konceptu Shared categories, lai kategorizētu izmaksas dažādās lietojumprogrammās, piemēram, Dynamics 365 Finance, Dynamics 365 Supply Chain un Dynamics 365 Project Operations. Katrai izveidotajai Darījumu kategorijai Project Operations automātiski izveido četras saistītas Koplietotās kategorijas: Stundas, Izdevumi, Maksas un Vienums. Varat pārskatīt un pielāgot koplietotās kategorijas, atverot **Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Kategorijas** \> **Koplietotās kategorijas**.
+Dynamics 365 izmanto Koplietoto kategoriju koncepciju, lai kategorizētu izdevumus dažādās programmās, piemēram, Dynamics 365 Finance, Dynamics 365 Supply Chain un Dynamics 365 Project Operations. Katrai izveidotajai Darījumu kategorijai Project Operations automātiski izveido četras saistītas Koplietotās kategorijas: Stundas, Izdevumi, Maksas un Vienums. Varat pārskatīt un pielāgot koplietotās kategorijas, atverot **Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Kategorijas** \> **Koplietotās kategorijas**.
 
 ## <a name="project-categories"></a>Projektu kategorijas
 
@@ -51,6 +53,3 @@ Projekta kategorijas ir detalizētākais kategoriju konfigurācijas līmenis, un
 Kategoriju grupas izmanto, lai kopīgotu rekvizītus, galvenokārt grāmatošanas profilus, starp saistītām Projekta kategorijām. Katram darījuma veidam ir jābūt vismaz vienai kategoriju grupai, un katrai projekta kategorijai ir piešķirta grupa.
 
 Grāmatojumu specifikācijas risinājumā Project Operations tiek definētas, izmantojot projekta izmaksu un ieņēmumu profila kārtulas, projekta kategorijas +un kategoriju grupas. Kategoriju grupas varat iestatīt, dodoties uz sadaļu **Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Kategorijas** \> **Kategoriju grupas**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

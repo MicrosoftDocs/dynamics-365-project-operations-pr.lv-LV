@@ -2,16 +2,18 @@
 title: Projekta iespēju kopēšana
 description: Šajā tēmā ir sniegta informācija par projekta iespēju kopēšanu risinājumā Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999730"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181674"
 ---
 # <a name="copy-project-based-opportunities"></a>Projekta iespēju kopēšana
 
@@ -32,6 +34,3 @@ Projekta iespējas var vienkārši kopēt, lai izveidotu jaunas projekta iespēj
     | Kopēt izcenojumu | Vērtība Jā/Nē, kas norāda, vai iespējas cenas ir jākopē no avota iespējas. | Ja ir atlasīta vērtība **Jā**, cenrāži tiek kopēti no avota uz mērķa iespēju. Ja ir atlasīta vērtība **Nē**, cenrāžu noklusējuma vērtības tiek noteiktas, pamatojoties uz jaunākajiem cenrāžiem, kas tika iestatīti. |
 
 3. Atlasiet **Labi**. Sistēma izveido projekta iespējas kopiju, kuras pamatā ir atlasītie parametri, un tiek atvērta jaunā projekta iespēja.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Pārvaldīt vairākus klientus projekta līgumus — lite
 description: Šajā tēmā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumos.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001755"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181326"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Pārvaldīt vairākus klientus projekta līgumus — lite
 
@@ -50,6 +52,3 @@ Līguma klientu var izveidot, atjaunināt vai dzēst lapas **Projekta līgums** 
 Rēķina sadalījuma procentus var rediģēt, izmantojot rindas režģa rediģēšanu. Ja rēķina sadalījuma procenti kopā neveido 100 procentus, jūs saņemsiet kļūdas paziņojumu. Pēc rēķina sadalījuma procentu rediģēšanas atsvaidziniet lapu, lai atmestu kļūdu.
 
 Apakšrežģī **Līguma klienti** varat arī atlasīt opciju **Vienmērīgi sadalīt**, lai sadalītu norēķinus vienmērīgi visiem līguma klientiem. Ja pastāv noapaļošanas koeficients, tas tiks pievienots noapaļošanas klientam. Viens no līguma klientiem vienmēr ir marķēts kā **noapaļošanas** klients, kas nozīmē, ka līguma klienta ierakstam noapaļošanas karodziņš ir iestatīts uz **Jā**. Parasti tas ir līguma primārais klients, bet to var arī mainīt.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

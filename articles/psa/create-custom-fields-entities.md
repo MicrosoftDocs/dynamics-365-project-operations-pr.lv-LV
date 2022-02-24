@@ -2,10 +2,12 @@
 title: Pielāgotu lauku un entītiju izveide
 description: Šajā tēmā ir paskaidrots, kā izveidot opciju kopas un entītijas jūsu risinājumā Power Apps platformā.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992440"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144872"
 ---
 # <a name="create-custom-fields-and-entities"></a>Pielāgotu lauku un entītiju izveide 
 
@@ -43,7 +45,7 @@ Cenas noteikšanas dimensija var būt opciju kopa vai entītija. Abi ir jāizvei
 2. Risinājumu pārlūka kreisajā navigācijas rūtī atlasiet vienumu **Entītijas**.
 3. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu entītiju ar nosaukumu **Standarta nosaukums**. Ievadiet pārējo pieprasīto informāciju un pēc tam pieskarieties vienumam **Saglabāt**.
 
-> ![Standarta nosaukuma entītijas definīcija.](media/Standard-Title-entity-definition.png)
+> ![Standarta nosaukuma entītijas definīcija](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Opciju kopas dimensijas 
@@ -54,9 +56,9 @@ Var izveidot divas opciju kopas dimensijas. Izmantojiet sadaļu **Resursa darba 
 2. Sadaļas Risinājumu pārlūks kreisajā navigācijas rūtī atlasiet vienumu **Opciju kopas**. 
 3. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu opciju kopu, ievadiet atlikušo nepieciešamo informāciju un pēc tam t uz **Saglabāt**.
 
-> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba vietu.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba vietu ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba stundām.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba stundām ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Datu izveide entītijai atbilstošām dimensijām
@@ -68,9 +70,6 @@ Entītijas dimensijām datus var izveidot manuāli vai izmantojot Microsoft Exce
 3. Aizveriet veidlapu. 
 4. Atkārtojiet 1.–3. darbību, lai izveidotu vēl vienu standarta nosaukumu “Vecākais sistēmas inženieris”.
 
-> ![Standarta nosaukuma entītijas datu paraugs.](media/ST-data.png)
+> ![Standarta nosaukuma entītijas datu paraugs ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
