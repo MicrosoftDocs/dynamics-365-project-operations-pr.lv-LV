@@ -2,19 +2,17 @@
 title: Jaunumi 2021. janvārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada janvāra laidienā Project Operations resursu/bez krājumu scenārijiem.
 author: sigitac
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: c600c30acd5e07e6370459928e33033a6ba418d6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958931"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995765"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. janvārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
@@ -88,4 +86,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 ## <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
 
-Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

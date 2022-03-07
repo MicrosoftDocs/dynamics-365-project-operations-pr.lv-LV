@@ -2,18 +2,16 @@
 title: Plānošanas režīmi
 description: Šajā tēmā ir sniegta informācija par plānošanas režīmiem.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
-ms.translationtype: HT
+ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981444"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987760"
 ---
 # <a name="scheduling-modes"></a>Plānošanas režīmi
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations sniedz organizācijām iespēju definēt, kā p�
 Programmā Project Operations ir pieejami trīs plānošanas režīmi.
 
   - Fiksēts ilgums (šis ir noklusējuma režīms)
-  - Fiksēts darbs
+  - Fiksēts ieguldījums (*Darbs*)
   - Fiksētas vienības
 
 Vērtības, ko ietekmē noteikta plānošanas režīma definēšana, nosaka šāda formula:
 
-  Ieguldījums (*Darbs*) = Ilgums x vienības
+  Ieguldījums = Ilgums x vienības
 
 Definējot projekta plānošanas režīmu, tiek iestatīta viena no šīm vērtībām, ko pēc tam nevar mainīt. Paturot šo vērtību kā nemainīgu, tā tiek iestatīta kā prioritāte, kas nozīmē, ka sistēma to nemaina, kad tiek mainītas abas pārējās vērtības. Tālāk redzamajā tabulā ir sniegta informācija par katra konkrētā režīma atlases ietekmi.
 

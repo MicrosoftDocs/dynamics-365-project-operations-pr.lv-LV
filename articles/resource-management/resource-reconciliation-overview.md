@@ -2,27 +2,25 @@
 title: Resursu saskaņošanas pārskats
 description: Šajā tēmā ir sniegta informācija, kas palīdzēs nodrošināt, ka projektu resursu rezervācijas un projektu piešķire ir saskaņoti.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849633"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994780"
 ---
 # <a name="resource-reconciliation-overview"></a>Resursu saskaņošanas pārskats
 
@@ -48,3 +46,6 @@ Ja jums ir uzdevumu piešķires kādam resursam, bet nav nevienas rezervācijas,
 Rezervācijas, kuras tiek izveidotas, izmantojot darbību **Izvērst rezervāciju**, tiek saistītas ar primāro projekta prasību. Kad paplašināšana tiek sākta, nevar noteikt konkrēto prasību, kura jāpaplašina, jo resurss var būt saistīts ar vairāk nekā vienu projekta prasību.
 
 Pēc tam projekta vadītājs vai resursu pārvaldnieks var izmantot plānošanas paneli, lai pārvaldītu visas situācijas, kur resursa rezervācija pārsniedz tā noslodzi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

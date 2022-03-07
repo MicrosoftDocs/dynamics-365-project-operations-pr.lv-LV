@@ -2,11 +2,9 @@
 title: Projekta pirkšanas pasūtījumi
 description: Šajā rakstā ir aprakstītas dažādas metodes, ko varat izmantot, lai izveidotu projekta pirkšanas pasūtījumus. Jūsu izmantotā metode ir atkarīga no pirkšanas pasūtījuma nolūka, iegādāto preču patēriņa laika un pievienošanas projekta izmaksām.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 5de28f3844b802a980c811411cae75549c697538f89e8c3d2495ea171a188524
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080432"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009000"
 ---
 # <a name="purchase-orders-for-a-project"></a>Projekta pirkšanas pasūtījumi
 
@@ -76,3 +74,6 @@ Lai Projekta pārvaldībā un uzskaitē izveidotu pirkuma pasūtījumu, varat iz
 
 Papildinformāciju skatiet tēmā [Preču saņemšana pirkuma pasūtījumā no preču prasības](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

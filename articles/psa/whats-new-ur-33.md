@@ -17,7 +17,7 @@ search.app:
 - ProjectOperations
 ms.openlocfilehash: a72202905fc0464577bb126aa5890a8f952dc3a8aff505416e535b42b53df7db
 ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/06/2021
 ms.locfileid: "7006525"

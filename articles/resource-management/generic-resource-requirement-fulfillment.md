@@ -2,18 +2,16 @@
 title: Vispārējo resursu prasību izpilde
 description: Šajā tēmā ir sniegta informācija par to, kā rezervēt nosaukumu resursus attiecībā uz vispārējo resursu prasībām.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130317"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008280"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Vispārējo resursu prasību izpilde
 
@@ -39,3 +37,6 @@ Tas ir piemērs, kad ir nepieciešami vairāki resursi, lai izpildītu vispārē
 Galvenā atšķirība šajā scenārijā ir tāda, ka vispārējais resurss paliek uzdevumam piešķirtajā darba grupā un rezervētie resursa darba grupas dalībnieki netiek piešķirti kā šīs pozīcijas daļa. Projekta vadītājs var piešķirt darbu atbilstoši nosauktajiem resursiem. Skats **Saskaņošana** var palīdzēt projekta vadītājam sadalīt rezervācijas vairākos resursos uz uzdevumu piešķirēm. Tas netiek darīts automātiski, jo jebkurš scenārijs, kas ir sarežģītāks par iepriekš minēto vienkāršo piemēru, piemēram, ja jums ir vairāku uzdevumu kopums, kas veido šo prasību, vai aktivitāte ir jāuzņemas sistēmai, lai jūs to varētu izmantot kā projekta vadītājs. Tā kā sistēma nevar saprast nolūku, pieņēmumi, iespējams, būs citādi, nekā paredzēts, un radīsies nepareizs vai neparedzams rezultāts. Prognozējamais rezultāts ir tāds, ka vispārējais resurss paliek piešķirts, kamēr projekta vadītājs apzināti neveido uzdevumus ar skata **Saskaņošana** palīdzību.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

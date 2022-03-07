@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fbe1c93c5359a6be493e3c4e1b27b06dbb48002
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271722"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960616"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Vairāki apstiprinātāji izdevumu atskaitē
 
@@ -40,6 +40,3 @@ Ja nolemjat, ka ir nepieciešami vairāki izdevumu atskaišu apstiprinātaji, je
 
     1. Darbinieka vadītajs apstiprina izdevumu atskaiti.
     2. Budžeta īpašnieks apstiprina izdevumu atskaiti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

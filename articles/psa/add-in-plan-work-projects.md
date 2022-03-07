@@ -2,8 +2,6 @@
 title: Plānojiet savu darbu programmā Microsoft Project ar Project Service pievienojumprogrammu
 description: Šajā tēmā ir sniegta informācija par to, kā lietot Microsoft Project pievienojumprogrammu programmai Microsoft Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 01/07/2021
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0c0ea75d34047f7145466ab427d213c5df27fbed
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145952"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014575"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Plānojiet savu darbu programmā Microsoft Project ar Project Service pievienojumprogrammu
 
@@ -242,3 +240,6 @@ Tālāk sniegtajā tabulā ir aprakstīta projekta uzdevumu atkarības entitīja
 
 ### <a name="additional-resources"></a>Papildu resursi
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

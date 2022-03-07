@@ -2,8 +2,6 @@
 title: Resursu pieprasījumu pārvaldība
 description: Resursu pieprasījumu pārvaldība programmā Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149867"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015025"
 ---
 # <a name="manage-resource-requests-project-service"></a>Resursu pieprasījumu pārvaldība (Project Service)
 
@@ -51,3 +49,6 @@ Kontu pārvaldnieki un projektu vadītāji regulāri pieprasa resursus saviem pr
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu pārvaldnieka rokasgrāmata](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,6 @@
 ---
 title: Resursa pieprasījuma iesniegšana
 description: Šajā tēmā ir sniegta informācija par pieprasījuma iesniegšanu par projekta resursu.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985015"
 ---
 # <a name="submitting-a-resource-request"></a>Resursa pieprasījuma iesniegšana
 
@@ -36,8 +34,11 @@ ms.locfileid: "5149732"
 1. Programmas Project Service Automation (PSA) lapā **Projekti** noklikšķiniet uz cilnes **Grupa**, lai skatītu rezervējamo resursu sarakstu. 
 2. Atlasiet vispārējo resursu, kam sarakstā ir resursa prasība, un pēc tam noklikšķiniet uz **Iesniegt pieprasījumu**.
 
-![Resursa pieprasījuma iesniegšana](media/RM-how-to-18.png)
+![Resursa pieprasījuma iesniegšana.](media/RM-how-to-18.png)
 
 Vispārēja grupas dalībnieka pieprasījuma statuss mainīsies uz **Iesniegts**.
 
 Pēc tam, kad resursu pārvaldnieks ir izpildījis pieprasījumu, vispārējs resurss tiek aizstāts ar nosauktu resursu, ja resursu pārvaldnieks izpilda pieprasījumu ar nosauktā resursa rezervāciju. Pretējā gadījumā vispārējs resurss paliks komandā, un pieprasījuma statuss mainīsies uz **Jāpārskata**, ja resursu pārvaldnieks ir piedāvājis nosauktu resursu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

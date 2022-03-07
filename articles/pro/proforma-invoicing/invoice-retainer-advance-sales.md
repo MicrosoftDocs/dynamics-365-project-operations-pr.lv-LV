@@ -2,18 +2,16 @@
 title: Rēķina izrakstīšana par honorāru vai avansu
 description: Šajā tēmā sniegta informācija par to, kā programmā Project Operations izrakstīt rēķinus par honorāru vai avansu.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596201"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997480"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Honorāra vai avansa rēķina izrakstīšana
 
@@ -51,3 +49,6 @@ To var redzēt lapas **Rēķins** režģī **Lietotie honorāri un avansi**. Tā
 | Izmantotā summa | Režģis **Lietotie honorāri un avansi** lapā **Projekta rēķins**  | Šis tikai lasāmais lauks nodrošina aprēķināto vērtību, kas apkopo, kāds daudzums honorāra vai avansa ir izmantots. | Šo lauku var parādīt klientam drukātajā rēķinā, lai norādītu šī honorāra vai avansa summu, kas jau tika izmantots. |
 | Kopējā summa | Režģis **Lietotie honorāri un avansi** lapā **Projekta rēķins**  | Šis rediģējamais lauks nodrošina tā avansa vai honorāra summu, kas tiek izmantots šajā projekta rēķinā. Šī summa nevar būt lielāka par avansā pieejamo summu. Sistēma automātiski aprēķina to kā atšķirību starp režģa laukiem **Summa** un **Izmantotā summa**. Jūs varat samazināt summu, lai izmantotu mazāk nekā pieejams, tomēr nevarat palielināt summu, lai izmantotu vairāk nekā pieejams. | Šo lauku var parādīt klientam drukātajā rēķinā, lai norādītu šī honorāra vai avansa summu, kas tiek izmantots rēķinā. |
 | Honorāra bilances summa. | Režģis **Lietotie honorāri un avansi** lapā **Projekta rēķins**  | Šis tikai lasāmais lauks nodrošina vērtību, cik daudz honorāra vai avansa atliks pēc rēķina apstiprināšanas. | Šo lauku var parādīt klientam drukātajā rēķinā, lai norādītu šī honorāra vai avansa summu, kas paliks no šī honorāra vai avansa pēc rēķina apstiprināšanas un apmaksāšanas. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

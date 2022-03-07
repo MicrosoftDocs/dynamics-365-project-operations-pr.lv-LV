@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992843"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007155"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Skatīt rēķinā iekļaujamo resursu lietojumu
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992843"
  
 **Lietojuma skats** lapā **Project Service resursu lietojums** rāda katram rezervējamam resursam piemērojamu lietojumu. Skata pamatā ir plānošanas panelis, tādēļ tajā ir atrodamas daudzas tās pašas funkcijas.
 
-> ![Lietojuma skata ekrānuzņēmums](media/FAQ-utilization-1.png)
+> ![Lietojuma skata ekrānuzņēmums.](media/FAQ-utilization-1.png)
  
 
 Rēķinā iekļaujamā lietojuma aprēķinu veic šādi:
@@ -48,7 +48,7 @@ Mērķa lietojumu var iestatīt resursa noklusējuma lomai vai atsevišķam resu
 2. Atlasiet resursu, lai atvērtu ierakstu. 
 3. Cilnē **Project Service** var iestatīt resursa mērķa izmantojumu.
 
-> ![Ekrānuzņēmums, kurā redzama cilnes Project Service izmantošana, lai iestatītu mērķa lietojumu](media/FAQ-utilization-2.png)
+> ![Ekrānuzņēmums, kurā redzama cilnes Project Service izmantošana, lai iestatītu mērķa lietojumu.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Mērķa lietojuma iestatīšana lomai
 
@@ -56,7 +56,7 @@ Mērķa lietojumu var iestatīt resursa noklusējuma lomai vai atsevišķam resu
 2. Atlasiet lomu un pēc tam atveriet ierakstu. 
 3. Iestatiet lomai mērķa lietojumu.
 
-> ![Ekrānuzņēmums, kurā redzama resursu lomu izmantošana, lai iestatītu mērķa lietojumu](media/FAQ-utilization-3.png)
+> ![Ekrānuzņēmums, kurā redzama resursu lomu izmantošana, lai iestatītu mērķa lietojumu.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Rēķinā iekļaujamo resursu lietojumu aprēķins
 

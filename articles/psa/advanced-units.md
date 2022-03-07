@@ -2,8 +2,6 @@
 title: Vienību grupas un vienības
 description: Šajā tēmā ir sniegta informācija par vienību grupām un vienībām.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987580"
 ---
 # <a name="unit-groups-and-units"></a>Vienību grupas un vienības
 
@@ -46,7 +44,7 @@ Piemēram, ja vienību grupā **Laiks** kā pirmo vienību iestatāt vienību **
 
 Tālāk esošajā attēlā parādīts iestatīšanas piemērs vienībai **Diena**, kur laukā **Daudzums** ir parādīts stundu skaits vienā dienā, un vienībai **Nedēļa**, kur laukā **Daudzums** ir parādīts dienu skaits vienā nedēļā.
 
-> ![Vienību grupa: informācijas lapa](media/advanced-2.png)
+> ![Vienību grupa: informācijas lapa.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Vienību un vienību grupu izmantošana
 
@@ -86,9 +84,9 @@ Lauka **Laiks piedāvājumā** novērtējuma rindas var izteikt jebkurā laika v
     - **Noklusējuma laika vienība**: diena 
     - **Valūta**: GBP
 
-| Loma      | Vienību grupa | Vienība | Organizācijas vienība | Cena   |
+| Loma      | Vienību grupa | Vienība | Organizācijas vienība | Cenrādis   |
 |-----------|------------|------|---------------------|---------|
-| Izstrādātājiem | Time       | Day  | Contoso UK          | 800 GBP |
+| Izstrādātājiem | Laiks       | diena  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Laika ieraksts
 
@@ -112,3 +110,6 @@ Nē. Grafika novērtējums pašlaik ir ierobežots līdz stundām, un to nevar m
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Vai vienības un vienību grupas var rediģēt, dzēst un pievienot?
 Jā. Izņemot vienību grupu **Laiks** un vienību **Stunda**, visas vienības var dzēst un rediģēt, kā arī var pievienot jaunas vienības. Programmā PSA nevar dzēst vienību grupu **Laiks** un **Stunda**. Tomēr tās var atjaunināt, izmantojot tulkotu tekstu laukam **Nosaukums**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

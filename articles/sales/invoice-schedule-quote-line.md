@@ -2,18 +2,16 @@
 title: Rēķinu grafiki projekta piedāvājuma rindās
 description: Šajā tēmā ir sniegta informācija par rēķinu grafiku un atskaites punktu izveidi piedāvājuma rindām.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180831"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988615"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Rēķinu grafiki projekta piedāvājuma rindās
 
@@ -68,3 +66,6 @@ Atveriet Fiksētās cenas piedāvājuma rindu, kurai ir nepieciešams izveidot a
 | Rēķina statuss | Ātrā izveide | Kad ir izveidots atskaites punkts, šis statuss vienmēr ir iestatīts uz **Nav gatavs rēķina izrakstīšanai**. | Tas tiek izplatīts arī uz projekta līguma rindas atskaites punktu un rēķinu. |
 | Rindas summa | Ātrā izveide | Atskaites punkta summa vai vērtība, par ko tiks izrakstīts rēķins klientam. | Tas tiek izplatīts arī uz projekta līguma rindas atskaites punktu un rēķinu. |
 | Nodoklis | Ātrā izveide | Nodokļu summa, kas tiks piemērota atskaites punktam. | Tas tiek izplatīts arī uz projekta līguma rindas atskaites punktu un rēķinu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

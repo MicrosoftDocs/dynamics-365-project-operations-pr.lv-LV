@@ -2,11 +2,9 @@
 title: Projekta pārdošanas pasūtījumi laika un materiālu projektiem
 description: Šajā tēmā izskaidrots, kā izveidot projektā balstītus pārdošanas pasūtījumus laika un materiālu projektiem.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080429"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992845"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projekta pārdošanas pasūtījumi laika un materiālu projektiem
 
@@ -41,3 +39,6 @@ Projektā balstītus pārdošanas pasūtījumus varat izveidot divos veidos:
 - Dodieties uz pašu projektu. Darbību rūtī atlasiet **Pārvaldīt > Elementu uzdevumi > Pārdošanas pasūtījums**. Projekta informācija pēc noklusējuma būs no projekta pārdošanas pasūtījuma. Ja projekta līgumam ir vairāk nekā viens finansējuma avots, būs nepieciešams atlasīt finansējuma avotu, lai iestatītu pārdošanas pasūtījuma klientu. Ja projektam ir tikai viens finansējuma avots, klients tiks iestatīts automātiski.
 - Dodieties uz saraksta lapu **Visi pārdošanas pasūtījumi** un izveidojiet jaunu pārdošanas pasūtījumu. Pārdošanas pasūtījumam vajadzēs atlasīt projektu. Kad projekts ir atlasīts, klients tiks iestatīts no finansējuma avota vai arī vajadzēs atlasīt finansējuma avotu, ja projekta līgumam ir vairāki finansējuma avoti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

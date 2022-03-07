@@ -2,8 +2,6 @@
 title: Rezervāciju un piešķiru saskaņošana
 description: Šajā tēmā ir sniegta informācija par faktiskajām vērtībām.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147932"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995140"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Rezervāciju un piešķiru saskaņošana
 
@@ -53,11 +51,11 @@ Reizēm, kad lauks **Laika skala** ir iestatīts uz līmeni, kas ir augstāks pa
 
 Kad skatāties augstākos laika līmeņos, cilnē **Saskaņošana** tiek rādīts šūnu indikators, lai jums ziņotu, ka pastāv atšķirības zemākos laika līmeņos. Piemēram, nākamajā ilustrācijā šūnas indikators ir redzams 2018. gada oktobra mēneša šūnā resursam, kura nosaukums ir Everita Liepa. Tādēļ varat redzēt, ka, lai gan resursa rezervācijas un piešķires ir vienādas, kad tās tiek apkopotas līmenī **Mēnesis**, tās nesaskan zemākos līmeņos.
 
-![Neatbilstošas rezervācijas un piešķīrumi mēneša līmenī](media/reconcile-assignments-01.JPG)
+![Neatbilstošas rezervācijas un piešķīrumi mēneša līmenī.](media/reconcile-assignments-01.JPG)
 
 Veiciet dubultklikšķi uz šūnas, lai tuvinātu uz nākamo zemāko līmeni un apskatītu atšķirību. Piemēram, ja veicat dubultklikšķi uz 2018. gada oktobra atšķirību Everitai Liepai, tiek detalizēti parādīts līmenis **Nedēļa**. Tad varat redzēt, ka pirmajās divās oktobra nedēļās šim resursam ir rezervācijas 16 stundām, bet nav nevienas piešķires, un trešajā oktobra nedēļā ir 16 stundu piešķires, bet nav nevienas rezervācijas.
 
-![Neatbilstošas rezervācijas un piešķīrumi nedēļas līmenī](media/reconcile-assignments-02.JPG)
+![Neatbilstošas rezervācijas un piešķīrumi nedēļas līmenī.](media/reconcile-assignments-02.JPG)
 
 Varat uz šūnas noklikšķināt ar peles labo pogu, lai tālinātu uz nākamo augstāko līmeni. Varat arī izslēgt šūnas indikatoru, atlasot pogu **Iestatījumi**. 
 
@@ -70,13 +68,13 @@ Lai nodrošinātu precīzus un prognozējamus rezultātus, izmantojot rezervāci
 
 - Lietotājam ir jākonfigurē savas ierīces laika josla, lai tā atbilstu sistēmas personalizēšanas iestatījumos definētajai laika joslai.
  
-  ![Laika joslu iestatījumi operētājsistēmā Windows 10](media/reconcile-assignments-03.png)
+  ![Laika joslu iestatījumi operētājsistēmā Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Laika joslu iestatījumi personalizēšanas iestatījumos](media/reconcile-assignments-04.png)
+  ![Laika joslu iestatījumi personalizēšanas iestatījumos.](media/reconcile-assignments-04.png)
  
 - Rezervējamam resursam ir jābūt vismaz vienai minūtei no darba laika, kas pārklājas ar kontūrām, kas tiek izmantotas pieprasītā paplašinājuma definēšanai. Piemēram, šajā piemērā parādīts, kā pārskatīt resursus, kas atbilst darba stundām, kas ir no 9:00 līdz 19:00. 
 
-  ![Resursu kontūru salīdzinājums](media/reconcile-assignments-05.png)
+  ![Resursu kontūru salīdzinājums.](media/reconcile-assignments-05.png)
 
 Tālāk sniegtajā tabulā ir norādīts:
 
@@ -85,19 +83,22 @@ Tālāk sniegtajā tabulā ir norādīts:
 - Resursi B: šis resurss atrodas citā laika joslā, nevis tajā, kurā projekts; tāpēc sākas ar 7:00 resursa laika joslā. Tomēr rezervācijas tiks sāktas ar 9:00, jo tas ir visagrākais piešķiršanas kontūras sākuma laiks.
 - Resursi C un D: resursi ir atrodami arī dažādās laika joslās, un tie atšķiras cits no cita un projekta, un to rezervācijas tiek sāktas ne agrāk kā to attiecīgie pieejamie sākuma laiki.
 
-|Entītija  |Kalendārs  |
+|Elements  |Kalendārs  |
 |-|-|
-|Projekta kalendāra veidne   | ![projekta kalendārs](media/reconcile-assignments-06.png) |
-|Resurss A  | ![Resursa A kalendārs](media/reconcile-assignments-06.png) |
-|Resurss B  |  ![Resursa B kalendārs](media/reconcile-assignments-07.png) |
-|Resurss C  |  ![Resursa C kalendārs](media/reconcile-assignments-08.png) |
-|Resurss D  | ![Resursa D kalendārs](media/reconcile-assignments-09.png)  |
+|Projekta kalendāra veidne   | ![projekta kalendārs.](media/reconcile-assignments-06.png) |
+|Resurss A  | ![Resursa A kalendārs.](media/reconcile-assignments-06.png) |
+|Resurss B  |  ![Resursa B kalendārs.](media/reconcile-assignments-07.png) |
+|Resurss C  |  ![Resursa C kalendārs.](media/reconcile-assignments-08.png) |
+|Resurss D  | ![Resursa D kalendārs.](media/reconcile-assignments-09.png)  |
  
 Pārejot uz saskaņošanas skatu, tiks parādīti resursa piešķīrumi un ar to saistītie rezervācijas trūkumi.
- ![Saskaņošanas skats pirms paplašinājuma](media/reconcile-assignments-10.png)
+ ![Saskaņošanas skats pirms paplašinājuma.](media/reconcile-assignments-10.png)
 
 Pēc tam, kad katram resursam ir izpildīta paplašinājuma funkcionalitāte, rezervācijas tiek veiksmīgi paplašinātas attiecībā uz katru resursu. Tas ir tāpēc, ka katra resursa darba stundas pārklājas ar deficīta kontūrām.
- ![Saskaņošanas skats pēc rezervācijas paplašinājuma](media/reconcile-assignments-11.png) 
+ ![Saskaņošanas skats pēc rezervācijas paplašinājuma.](media/reconcile-assignments-11.png) 
 
 Taču sīkāka informācija par rezervācijām rāda atšķirības rezervācijas sākuma laikā. Rezervācijas tiks sāktas ne agrāk kā piešķiršanas sākuma laiks un ne agrāk kā resursam pieejamais sākuma laiks.
- ![Jaunas resursa rezervācijas plānošanas panelī](media/reconcile-assignments-12.png)
+ ![Jaunas resursa rezervācijas plānošanas panelī.](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367275"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950948"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
@@ -67,4 +67,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 | Projekta uzskaite  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Iespējojot līdzekli, vairākas līguma rindas nav iespējamas bez CDS integrācijas.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

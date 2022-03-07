@@ -2,19 +2,17 @@
 title: Problēmu novēršana, strādājot ar uzdevuma režģi
 description: Šajā tēmā sniegta informācija par problēmu novēršanu, kura ir nepieciešama, strādājot uzdevumu režģī.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031546"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213409"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problēmu novēršana, strādājot ar uzdevuma režģi 
 
@@ -57,7 +55,7 @@ Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu. Š
  ![Projekta parametra lauks PEX galapunkts](media/projectparameter.png)
 
 1. Pievienojiet **PEX galapunkta** lauku **Projekta parametru** lapai.
-2. Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Noņemiet lauku no **Projekta parametru** lapas.
 
 ## <a name="privileges-for-project-for-the-web"></a>Projekta atļaujas tīmeklī
@@ -106,3 +104,6 @@ Ja darba sadalījuma struktūrai tiek izdarīts viens vai vairāki atjauninājum
   - Project Operations sistēma
   - Projekta sistēma
   - Project Operations duālās rakstīšanas sistēma (Šī loma ir nepieciešama, ja izvietojat Project Operations resursu/nekrājumu scenāriju.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

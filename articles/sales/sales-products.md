@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121272"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080541"
 ---
 # <a name="products"></a>Produkti
 

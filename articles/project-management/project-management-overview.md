@@ -1,19 +1,18 @@
 ---
 title: Projekta pārvaldības pārskats
-description: Šajā tēmā sniegta informācija par Projekta pārvaldību Dynamics 365 Project Operations.
+description: Šajā tēmā ir sniegta informācija par projekta pārvaldības iestatījumiem programmā Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991000"
 ---
 # <a name="project-management-overview"></a>Projekta pārvaldības pārskats
 
@@ -26,3 +25,6 @@ Projektu pārvaldības rīki programmatūrā Dynamics 365 Project Operations pal
 - Izmantot projektu tāmes pārdošanas procesa laikā.
 - Prognozēt resursu vajadzības projektiem, kuri atrodas uz pārdošanas ceļa.
 - Sekmīgi izpildīt projektus, izsekojot progresu un izmaksu patēriņu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

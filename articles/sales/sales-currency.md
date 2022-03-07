@@ -2,11 +2,9 @@
 title: Valūta
 description: Šajā tēmā sniegta informācija par to, kā pievienot un noņemt valūtu veidus programmā Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 9c2c6f98e48c5ee251d44131d0c05c705faf1459
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642282"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011290"
 ---
 # <a name="currency"></a>Valūta
 
@@ -71,3 +69,6 @@ Pirms uzsākat šo procedūru, pārliecinieties, ka jūsu drošības lomā ir ie
 
 > [!IMPORTANT]
 >  Nevar izdzēst valūtas, kas tiek lietotas citos ierakstos; tās var tikai deaktivizēt. Deaktivizējot valūtas ierakstu, netiek noņemta esošajos ierakstos glabātā informācija par valūtu, piemēram, iespējās vai pasūtījumos. Taču deaktivizētu valūtu Jūs nevarēsiet atlasīt jauniem darījumiem.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

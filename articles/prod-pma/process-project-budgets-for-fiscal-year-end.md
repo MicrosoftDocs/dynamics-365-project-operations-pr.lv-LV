@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289738"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projekta budžeta pārcelšana finanšu gada beigās
 
@@ -98,3 +98,6 @@ Apstrādājot atlikušās budžeta summas, var izveidot darbības virsgrāmatā 
 5. Katram projektam, kuru vēlaties apstrādāt, atlasiet opciju projekta rindas sākumā. 
 6. Atlasiet **Apstrādāt**, lai atlasītajiem projektiem pārceltu atlikušās budžeta summas atlasītajam finanšu gadam.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

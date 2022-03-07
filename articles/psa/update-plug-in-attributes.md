@@ -2,11 +2,9 @@
 title: Spraudņu atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas
 description: Šajā tēmā ir sniegta informācija par to, kā atjaunināt spraudņu atribūtus cenu noteikšanas dimensijām.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147077"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988795"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Spraudņu atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas
 
@@ -44,27 +42,30 @@ Tālāk aprakstītās darbības izskaidro spraudņu reģistrēšanas procesu.
 1. Atveriet **PluginRegistrationTool** un izveidojiet savienojumu ar tiešsaistes instanci.
 2. Noklikšķiniet uz **Meklēšana** un meklējiet spraudni atjaunināšanai.
 
- ![Meklēšanas koka ekrānuzņēmums](media/PRT-1.png)
+ ![Meklēšanas koka ekrānuzņēmums.](media/PRT-1.png)
 
 3. Kad spraudnis ir atrasts, atlasiet to un pēc tam noklikšķiniet uz **Atlasīt galvenajā veidlapā**.
 
 4. Atlasiet atjaunināmā spraudņa darbību, noklikšķiniet ar peles labo pogu un pēc tam atlasiet **Atjaunināt**.
 
- ![Tiek atjaunināts spraudņa ekrānuzņēmums](media/PRT-2.png)
+ ![Atjaunināmā spraudņa ekrānuzņēmums.](media/PRT-2.png)
  
 5. Atjaunināšanas logā noklikšķiniet uz daudzpunktes (**...**) filtrēšanas atribūtos.
 
- ![Esošās darbības konfigurācijas informācijas atjauninājuma ekrānuzņēmums](media/PRT-3.png)
+ ![Esošās darbības konfigurācijas informācijas atjauninājuma ekrānuzņēmums.](media/PRT-3.png)
  
 6. Atzīmējiet cenu noteikšanas atribūtu izvēles rūtiņas.
 
- ![Ekrānuzņēmums, kas parāda izvēles rūtiņu atlasi cenu noteikšanas atribūtiem](media/PRT-4.png)
+ ![Ekrānuzņēmums, kas parāda izvēles rūtiņu atlasi cenu noteikšanas atribūtiem.](media/PRT-4.png)
 
 7. Noklikšķiniet uz **Labi**, lai aizvērtu lapu, un pēc tam atlasiet **Atjaunināšanas darbība**.
 
- ![Ekrānuzņēmums, kurā redzama poga “Atjaunināšanas darbība”](media/PRT-5.png)
+ ![Ekrānuzņēmums, kurā redzama poga “Atjaunināšanas darbība”.](media/PRT-5.png)
  
 8. Atkārtojiet šo procesu otrajam spraudnim, **PreOperationQuoteLineDetail msdyn_quotelinetransaction**.
 
 9. Aizveriet spraudņa reģistrācijas rīku.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

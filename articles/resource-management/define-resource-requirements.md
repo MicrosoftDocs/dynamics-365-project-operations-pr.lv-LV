@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: da803300f0e416be2544420d2b7e6e633923f65b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080339"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279777"
 ---
 # <a name="define-resource-requirements"></a>Resursu prasību definēšana
 
@@ -26,3 +26,5 @@ Resursu prasības definē Projekta vadītājs, lai noteiktu resursus, kas nepiec
 3.  Cilnē **Darba grupas dalībnieks** atlasiet darba grupas dalībnieku un pēc tam atlasiet **Ģenerēt prasību**.
 
 Informāciju par to, kā modificēt resursa prasības, skatiet šeit: [Resursu prasību informācijas atjaunināšana,](define-resource-requirements.md) lai modificētu resursa prasību.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

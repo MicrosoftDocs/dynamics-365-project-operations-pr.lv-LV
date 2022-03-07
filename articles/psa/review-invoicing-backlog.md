@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bdeeb100614cda78d0ba536310bb6b411c863b71
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150497"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282792"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Nepabeigtās rēķinu izrakstīšanas pārskatīšana projektiem un projektu līgumiem
 
@@ -59,3 +59,6 @@ Katrai projekta līguma rindai, kurai ir fiksētas cenas rēķina izrakstīšana
 Lai pārskatītu rēķinu izrakstīšanas atskaites punktus, atveriet sadaļu **Pārdošana** \> **Rēķinu izrakstīšana** \> **Fiksētas cenas atskaites punkti**. Atlasiet atskaites punktus, kas ir gatavi rēķina izrakstīšanai, un pēc tam atlasiet **Gatavs rēķina izrakstīšanai**. Šo atskaites punktu norēķinu statuss tiek mainīts uz **Gatavs rēķina izrakstīšanai**.
 
 ![Fiksētas cenas atskaites punkti](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

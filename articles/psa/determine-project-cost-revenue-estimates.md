@@ -2,9 +2,7 @@
 title: Projekta izmaksu un ieņēmumu tāmju noteikšana
 description: Projekta izmaksu un ieņēmumu tāmju noteikšana programmā Project Service
 author: ruhercul
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 38de99680f4ba67b8eb593ec575c2a796fcfb59436fea5323dd1d86d7cf3d797
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148832"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002610"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Projekta izmaksu un ieņēmumu tāmju noteikšana 
 
@@ -81,3 +79,6 @@ Jebkādus projekta ietvaros radītos izdevumus, kas nav tieši saistīti ar izt�
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

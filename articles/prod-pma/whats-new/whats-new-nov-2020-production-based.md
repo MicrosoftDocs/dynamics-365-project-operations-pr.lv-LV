@@ -2,18 +2,16 @@
 title: Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem
 description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada novembra laidienā Project Operations krājumu un ražošanas scenārijiem.
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
-ms.translationtype: HT
+ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365547"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003195"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem
 
@@ -25,4 +23,7 @@ Lai iegūtu informāciju par šajā atjauninājumā iekļautajiem labojumiem, pi
 
 ## <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
 
-Informāciju par reglamentējošajiem atjauninājumiem programmās Dynamics 365 Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošajiem atjauninājumiem programmās Dynamics 365 Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

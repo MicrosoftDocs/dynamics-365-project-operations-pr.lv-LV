@@ -2,19 +2,17 @@
 title: Jaunumi 2020. decembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada decembra laidienā Project Operations resursu/bez krājumu scenārijiem.
 author: sigitac
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: e6ff32fff4cce0e848ad6edae827a62e6f33a5aa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727889"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995810"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2020. decembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
@@ -108,4 +106,7 @@ Informāciju par to, kā veikt atjaunināšanu uz šo laidienu, skatiet rakstā 
 | Komandējumi un izdevumi                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Izdevumu atskaites automātiskās grāmatošanas darbplūsma ir pabeigta, bet rēķins nav iegrāmatots                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

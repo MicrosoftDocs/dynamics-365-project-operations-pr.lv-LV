@@ -2,12 +2,10 @@
 title: Jaunu pielāgotu entītiju veidlapu pievienošana (Project Service Automation 2.x)
 description: Šajā tēmā ir sniegta informācija par to, kā programmā Dynamics 365 Project Service Automation 2.x pievienot pielāgotas entītiju veidlapas iespējām, piedāvājumiem, pasūtījumiem vai rēķiniem.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144602"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995230"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Jaunu pielāgotu entītiju veidlapu pievienošana (Project Service Automation 2.x)
 
@@ -59,7 +57,7 @@ Veiciet šīs darbības, lai izveidotu pielāgotu veidlapas **Projekta informāc
     - Eksportējiet veidlapu **Mana projekta informācija** kā nepārvaldīta risinājuma daļu un pēc tam uzmeklējiet vērtību **formId** eksportētā risinājuma failā customization.xml.
     - Atveriet veidlapu **Mana projekta informācija** veidlapu redaktorā un pēc tam meklējiet vispārēji unikālo identifikatoru (GUID) blakus parametram **fromId** vietrādī URL, kā parādīts tālāk redzamajā attēlā.
 
-    ![Jaunās veidlapas vērtība formId vietrādī URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Jaunās veidlapas vērtība formId vietrādī URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Izveidojiet **msdyn\_ordertype** kartējumu vērtībai **formId**, rediģējot msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js tīmekļa resursu. Noņemiet no resursa kodu un aizstājiet ar tālāk norādīto kodu.
 
@@ -96,3 +94,6 @@ Veiciet šīs darbības, lai izveidotu pielāgotu veidlapas **Projekta informāc
     ```
 
 6. Saglabājiet un publicējiet pielāgojumus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

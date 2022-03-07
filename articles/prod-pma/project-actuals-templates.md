@@ -2,11 +2,9 @@
 title: Projekta faktisko datu sinhronizēšana tieši no Project Service Automation uz projekta integrācijas žurnālu publicēšanai Finance and Operations
 description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta faktisko datu sinhronizēšanai tieši no Microsoft Dynamics 365 Project Service Automation uz Finance and Operations.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080576"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988120"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekta faktisko datu sinhronizēšana tieši no Project Service Automation uz projekta integrācijas žurnālu publicēšanai Finance and Operations
 
@@ -44,7 +42,7 @@ Project Service Automation uz Finance integrācijas risinājumam tiek izmantots 
 
 Nākamajā ilustrācijā parādīts, kā dati tiek sinhronizēti starp Project Service Automation un Finance.
 
-[![Datu plūsma Project Service Automation integrācijai ar Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Datu plūsma Project Service Automation integrācijai ar Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projekta faktiskie dati no Project Service Automation
 
@@ -95,9 +93,9 @@ Lai veidnē atjauninātu ievietoto nosacījuma kolonnu, noklikšķiniet uz bulti
 
 Nākamajās ilustrācijās ir redzams piemērs no veidnes uzdevumu kartējuma datu integrācijā. Kartējumā tiek parādīta lauka informācija, kas tiks sinhronizēta no Project Service Automation uz Finance.
 
-[![Veidņu kartēšana — faktiskie dati](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Veidņu kartēšana — faktiskie dati.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Veidņu kartēšana — transakciju savienojumi](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Veidņu kartēšana — transakciju savienojumi.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importēšana no izstādīšanas tabulas pēc integrēšanas no Project Service Automation
 
@@ -137,6 +135,9 @@ Projekta faktisko datu atjaunināšanas veidnē ir jāizmanto Power Query, lai i
 
 Nākamajās ilustrācijās ir redzami piemēri no veidnes uzdevumu kartējumiem datu integrācijā. Kartējumā tiek parādīta lauka informācija, kas tiks sinhronizēta no Finance uz Project Service Automation.
 
-[![Veidņu kartēšana — faktisko datu atjauninājums](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Veidņu kartēšana — faktisko datu atjauninājums.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Veidņu kartēšana — transakciju atjauninājums](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Veidņu kartēšana — transakciju atjauninājums.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

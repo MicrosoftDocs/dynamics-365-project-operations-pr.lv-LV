@@ -2,18 +2,16 @@
 title: Rezervējamu resursu kā cenu noteikšanas dimensiju izmantošana
 description: Šajā tēmā ir sniegta informācija par rezervējama resursa izmantošanu kā izcenojuma dimensiju.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643092"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996265"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Rezervējamu resursu kā cenu noteikšanas dimensiju izmantošana
 
@@ -66,15 +64,18 @@ Attiecībā uz rezervējamo resursu entītijai **Projekta darba grupas dalībnie
 1. Veiciet dubultklikšķi uz rindas režģī **Izcenojumu dimensijas**, lai atvērtu **msdyn_bookableresource** dimensiju lapu.
 2. Dimensiju lapas cilnē **Saistītie** atlasiet **Izcenojumu dimensiju lauku nosaukumi**.
 
-  ![Izcenojumu dimensiju lauku nosaukumu cilne](media/PD-fieldname.png)
+  ![Izcenojumu dimensiju lauku nosaukumu cilne.](media/PD-fieldname.png)
 
 3. Atvērtajā saistītajā skatā atlasiet **Pievienot jaunu izcenojuma dimensijas lauka nosaukumu**.
 
-  ![Jaunu izcenojumu dimensiju lauku nosaukumu pievienošana](media/Add-NewPD-fieldname.png)
+  ![Jaunu izcenojumu dimensiju lauku nosaukumu pievienošana.](media/Add-NewPD-fieldname.png)
 
   Šādi tiek atvērta **msdyn_bookableresource** lapa **Jauns izcenojuma dimensijas lauka nosaukums**. 
 
 4. Lapā **Pievienot jaunu izcenojuma dimensijas lauka nosaukumu** pievienojiet **msdyn_projectteam** **Entītijas loģiskajam nosaukumam**.
 5. Pievienojiet **msdyn_bookableresourceid** **Lauka nosaukumam**.
 
- ![Jauna izcenojuma dimensijas lauka nosaukuma veidlapa](media/PD-fieldname-Added.png)
+ ![Jauna izcenojuma dimensijas lauka nosaukuma veidlapa.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Vairāku klientu pārvaldība projekta piedāvājumā
 description: Šajā tēmā ir sniegta informācija par darbu ar piedāvājumiem, kas ietver vairākus klientus, kuri finansēs šo projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991990"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Vairāku klientu pārvaldība projekta piedāvājumā
 
@@ -23,7 +21,7 @@ Projekta piedāvājumi atbalsta scenāriju, kurā priekšlikumā ir iesaistīti 
 
 Visi piedāvājuma klienti projekta piedāvājuma cilnē **Klienti** pēc noklusējuma ir piedāvājuma rindas klienti visām **jaunajām** projekta piedāvājuma rindām, kas izveidotas šim piedāvājumam. Esošas projekta piedāvājuma rindas nepārņem jaunus piedāvājuma klientu ierakstus, kas ir izveidoti pēc tām.
 
-Piedāvājuma klientus un piedāvājuma rindas klientus var pievienot, atjaunināt vai dzēst jebkurā brīdī, pirms piedāvājums ir iegūts. Piedāvājumam ir jāiestata derīgs klients kā klients Atbildīgajā uzņēmumā vai Juridiskajā personā lapā **Klienti**. Juridiskās personas iestata Dynamics 365 Project Operations modulī **Projekta pārvaldība un uzskaite**, un tie tiek padarīti pieejami kā Uzņēmumi Project Operations moduļos **Projekta pārdošana un izpilde**.
+Piedāvājuma klientus un piedāvājuma rindas klientus var pievienot, atjaunināt vai dzēst jebkurā brīdī, pirms piedāvājums ir iegūts. Piedāvājumam ir jāiestata derīgs klients kā klients Atbildīgajā uzņēmumā vai Juridiskajā personā lapā **Klienti**. Juridiskās personas tiek iestatītas Dynamics 365 Project Operations modulī **Projektu pārvaldība un uzskaite** un ir pieejamas kā uzņēmumi Project Operations moduļos **Projekta pārdošana un piegāde**.
 
 ## <a name="concept-of-a-primary-customer"></a>Primārā klienta koncepcija
 
@@ -51,3 +49,6 @@ Piedāvājuma klientu var izveidot, atjaunināt vai dzēst no Cilnes **Piedāvā
 Varat rediģēt norēķinu sadalījuma procentus, izmantojot režģa rediģēšanas pieredzi rindā. Ja norēķinu sadalījuma procentu summa neveido 100%, rodas kļūda. Pēc tam, kad ir atjaunināti norēķinu sadalījuma procenti, atsvaidziniet lapu, lai noņemtu kļūdu.
 
 Varat arī mēģināt piedāvājuma klienta apakšrežģī atlasīt vienumu **Vienmērīgs sadalījums**. Šī darbība sadala norēķinus starp visiem piedāvājuma klientiem. Ja ir noapaļošanas koeficients, tas tiek pievienots noapaļošanas klientam. Viens no piedāvājuma klientiem vienmēr tiek marķēts kā noapaļošanas klients. tas nozīmē, ka piedāvājuma klienta ierakstam ir karodziņš **Noapaļošana** ir iestatīts kā **Jā**. Parasti tas ir piedāvājuma primārais klients, taču to var mainīt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f38f847b6097c5b43b4ee6da97c00fb1a00c1506
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6c7272c12e29c0b28ce397312ddf2ed3def129cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151082"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280362"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-275-v3"></a>Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 27.5, V3
 
@@ -42,3 +42,6 @@ Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Servi
 Ir novērstas tālāk norādītās problēmas.
 
 - Plānošanas palīdzības meklēšanas veiktspējas degradācija
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

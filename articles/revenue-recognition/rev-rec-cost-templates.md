@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 4d9dcc54e62682a02ea6cf8caca90586b4217908
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642732"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278967"
 ---
 # <a name="set-up-cost-templates"></a>Izmaksu veidņu iestatīšana
 
@@ -79,3 +79,6 @@ Lai izveidotu izmaksu veidnes, izpildiet tālāk aprakstītās darbības.
 7. Cilnē **Kategorijas** atlasiet projekta kategorijas, kas jāiekļauj izmaksu veidnes rindā.
 8. Cilnē **Vispārīgi** norādiet, vai šī rinda tiks iekļauta pabeigšanas procentuālās vērtības aprēķinā.
 9. Atlasiet pabeigšanas vērtības izmaksu metodi, kas jāizmanto, aprēķinot pabeigšanas procentuālo vērtību.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Izdevumu kategoriju iestatīšana
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt izdevumu kategorijas un kopīgotās kategorijas izdevumu atskaitēm.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123792"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993115"
 ---
 # <a name="set-up-expense-categories"></a>Izdevumu kategoriju iestatīšana
 
@@ -61,3 +59,6 @@ Lai varētu sākt iestatīšanas procesu, ir jāpieņem šādi lēmumi attiecīb
 
     - Vai jebkura no apakškategorijām ir izslēgta no nodokļu atmaksas?
     - Kas ir apakškategoriju krājumu PVN grupa?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

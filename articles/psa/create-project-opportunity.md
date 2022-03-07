@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 57f85549154455f538cbdf3cde11989064968334
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948203"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146897"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Projekta iespējas izveide (Project Service)
 
@@ -39,7 +39,7 @@ Iespējas ir potenciāli ieinteresētie klienti, kas vēlas iegūt informāciju 
   
 3.  Zonā **Kopsavilkums** ievadiet informāciju par iespējas uzņēmumu un citus datus.  
   
-4.  Pievienojiet ar šo interesentu saistītas piezīmes vai darbības (piemēram, tālruņa sarunas vai e-pasta ziņojumus). Sīkāku informāciju par piezīmju pievienošanu un darbībām skatiet sadaļā [Piezīmju, uzdevumu, zvanu vai e-pasta ziņojumu izsekošana ar darbībām](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Pievienojiet ar šo interesentu saistītas piezīmes vai darbības (piemēram, tālruņa sarunas vai e-pasta ziņojumus). Sīkāku informāciju par piezīmju pievienošanu un darbībām skatiet sadaļā [Piezīmju, uzdevumu, zvanu vai e-pasta ziņojumu izsekošana ar darbībām](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Lai zonā **Ieinteresētās puses** pievienotu informāciju par ieinteresētajām pusēm, noklikšķiniet uz **+**.  
   
@@ -55,6 +55,3 @@ Iespējas ir potenciāli ieinteresētie klienti, kas vēlas iegūt informāciju 
   
 ### <a name="see-also"></a>Skatiet arī  
  [Uzņēmumu pārvaldnieka rokasgrāmata](../psa/account-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

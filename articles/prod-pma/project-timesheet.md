@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288838"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekta darba laika uzskaites tabulas mobilā programma
 
@@ -96,3 +96,6 @@ Lai nosūtītu darba laika uzskaites tabulu apstiprināšanas darbplūsmai, nokl
 ## <a name="review-timesheets"></a>Pārskatīt darba laika uzskaites tabulas
 
 Izvēlnē ir pieejams pārskatīšanai izmantojamo darba laika uzskaites tabulu saraksts. Šī opcija ir pieejama tikai tad, ja esat norādīts kā darbplūsmas apstiprinātājs. Tiek atbalstīti gan virsrakstu, gan rindu apstiprinājumi. Rindas līmeņa apstiprinājums piedāvā iespēju atzīmēt vienu vai vairākas rindas apstiprināšanai. Pēc darba laika uzskaites tabulas informācijas pārskatīšanas noklikšķiniet uz **Apstiprināt**, **Deleģēt** vai **Atgriezties**, lai turpinātu darbplūsmu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

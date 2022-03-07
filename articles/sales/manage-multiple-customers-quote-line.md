@@ -2,18 +2,16 @@
 title: Vairāku klientu pārvaldība projekta piedāvājumu rindās
 description: Šajā tēmā sniegta informācija par to, kā pārvaldīt vairākus klientus projekta piedāvājuma rindās.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992035"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Vairāku klientu pārvaldība projekta piedāvājumu rindās
 
@@ -44,3 +42,6 @@ Tālāk sniegtajā tabulā parādīti lauki piedāvājuma rindas klienta ierakst
 Norēķinu sadalījuma procentus varat rediģēt rindā. Ja norēķinu sadalījuma procentu summa neveido 100%, rodas kļūda. Pēc tam, kad ir rediģēti norēķinu sadalījuma procenti, atsvaidziniet piedāvājuma rindu lapu, lai noņemtu kļūdu.
 
 Izmantojiet vienmērīga sadalījuma darbību piedāvājuma rindu klientu apakšrežģī, lai piešķirtu norēķinu sadalīšanu starp visiem piedāvājuma rindas klientiem. Ja ir noapaļošanas koeficients, tas tiek pievienots noapaļošanas klientam. Viens no piedāvājuma rindas klientiem vienmēr ir marķēts kā noapaļošanas klients, kas nozīmē, ka piedāvājuma rindas klienta ierakstam karodziņš ir iestatīts kā **Jā**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Microsoft Project klienta integrācija
 description: Projekta grafika plānošana un uzturēšana var būt sarežģīta, tāpēc projektu vadītājiem ir jāizmanto rīki, kas viņiem palīdz pārvaldīt šo uzdevumu. Integrācija ar Microsoft Project Client sniedz atbalstu, lai atvērtu un pārvaldītu projekta darba sadalījuma struktūru.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080505"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988030"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project klienta integrācija
 
@@ -126,4 +124,14 @@ Lai izveidotu jaunu darba sadalījuma struktūru, izmantojot Microsoft Project C
 
 8.  Atlasiet **Kalendāru**, ko izmantot resursu piešķiršanai.
 
-11. Noklikšķiniet uz **Labi**.
+11. Noklikšķiniet uz **OK**.
+
+> [!NOTE]
+> Projekta klienta pievienojumprogramma projekta ID formātā neatbalsta šādas rakstzīmes:
+> 
+>   - Pasvītrojums
+>   - Punkts
+>   - Atstarpe
+>   - Slīpsvītra
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

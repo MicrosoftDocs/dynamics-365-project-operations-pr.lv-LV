@@ -2,8 +2,6 @@
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 24, V3
 description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation atjauninājumu izlaidumā 24, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15fe1c3482de66331dd543ee73391638919b2595
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 51d08dd147b7804cb5c9255159aeab2ecd94f4597d6e99c5fa92efe1246c44d0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146717"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998065"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation atjauninājumu izlaidums 24, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Šis laidiens ir saderīgs ar Dynamics 365 9. x. Lai atjauninātu šo laidienu, apmeklējiet administrēšanas centru Dynamics 365 tiešsaistē un dodieties uz risinājumu lapu, lai instalētu atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Šis laidiens ir saderīgs ar Dynamics 365 9. x. Lai atjauninātu šo laidienu, apmeklējiet administrēšanas centru Dynamics 365 tiešsaistē un dodieties uz risinājumu lapu, lai instalētu atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
 Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation V3, atjauninājuma izlaidumā 24. Šīs versijas būvējuma numurs ir V 3.10.42.43, un tas parasti ir pieejams, izmantojot 2020. gada oktobra pašatjauninājumu.
 
@@ -81,3 +79,6 @@ Ir novērstas tālāk norādītās problēmas.
 - Poga **Atsvaidzināt faktiskās vērtības** nepareizi aprēķina kopsavilkuma uzdevumus.
 - Microsoft Project pievienojumprogramma: FixNull atsauces kļūda, ja kādam darba grupas dalībniekam ir tukša resursu plānošanas vienība.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

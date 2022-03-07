@@ -2,24 +2,22 @@
 title: Cenrāžu kopēšana
 description: Šajā tēmā ir sniegta informācija par cenrāžu kopēšanu risinājumā Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181506"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003735"
 ---
 # <a name="copy-price-lists"></a>Cenrāžu kopēšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Varat izveidot cenrāžu kopijas risinājumā Dynamics 365 Project Operations. Piemēram, varat izveidot cenrāžus nākamajam gadam, izmantojot pašreizējā gada cenrādi.  Vai arī jūs varat kopēt cenrādi norēķinu likmēm un pārdošanas cenām no izmaksu cenrāžiem. 
+Programmā Dynamics 365 Project Operations var izveidot cenrāža kopijas. Piemēram, varat izveidot cenrāžus nākamajam gadam, izmantojot pašreizējā gada cenrādi.  Vai arī jūs varat kopēt cenrādi norēķinu likmēm un pārdošanas cenām no izmaksu cenrāžiem. 
 
 Lai kopētu cenrādi, veiciet tālāk norādītās darbības.
 
@@ -43,3 +41,6 @@ Lai kopētu cenrādi, veiciet tālāk norādītās darbības.
 1. Cenrāža cilnēs **Loma**, **Kategorija** un **Cenrāža elements** var atlasīt vienumu **Atjaunināt cenas**, lai lietotu uzcenojumu visām cenām apakšrežģī. 
 2. Atvērtajā dialoga lapā ievadiet uzcenojumu. Var ievadīt arī negatīvu uzcenojuma procentuālo vērtību, lai samazinātu cenas par noteiktu procentuālo vērtību. 
 3. Dialoga lapā atlasiet **Labi** un pēc tam pārbaudiet, vai cenas apakšrežģī atspoguļo jūsu veiktās izmaiņas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

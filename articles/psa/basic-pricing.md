@@ -2,8 +2,6 @@
 title: Projekta izcenojums
 description: Šajā tēmā ir sniegta informācija par to, kā programmā Dynamics 365 Project Service Automation darbojas izcenojums.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148922"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000585"
 ---
 # <a name="project-pricing"></a>Projekta izcenojums 
 
@@ -48,7 +46,7 @@ Entītijai Cenrādis ir trīs saistītas tabulas, kurās tiek glabātas cenas.
   - **Transakciju kategorijas cena** — šajā tabulā tiek glabātas cenas pēc transakciju kategorijas, un tās tiek izmantotas izmaksu kategoriju cenu iestatīšanai.
   - **Cenrāža elementi** — šajā tabulā tiek glabātas kataloga preču cenas.
 
-> ![Cenu konfigurēšana, izmantojot cenrādi](media/basic-guide-12.png)
+> ![Cenu konfigurēšana, izmantojot cenrādi.](media/basic-guide-12.png)
  
 Cenrādis ir likmju kartīte. Likmju kartīte ir kombinācija, ko veido entītija Cenrādis un saistītās rindas tabulās Lomas cena, Transakciju kategorijas cena un Cenrāža elementi.
 
@@ -60,7 +58,7 @@ Cilvēkresursu laiks parasti tiek norādīts, pamatojoties uz lomu, ko resurss a
 
 Vienību grupa **Laiks** tiek izveidota, kad tiek instalēta programma PSA. Tās noklusējuma vienība ir **Stunda**. Vienību grupas **Laiks** un vienības **Stunda** atribūtus nevar dzēst, pārdēvēt vai rediģēt. Taču vienību grupai **Laiks** var pievienot citas vienības. Mēģinot izdzēst vienību grupu **Laiks** vai vienību **Stunda**, PSA biznesa loģikā var rasties kļūmes.
 
-> ![Cenu konfigurēšana pēc lomas](media/basic-guide-13.png)
+> ![Cenu konfigurēšana pēc lomas.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transakciju kategorijas un izdevumu kategorijas
 
@@ -70,7 +68,7 @@ Par komandējumu un citiem izdevumiem, kas rodas projekta konsultantiem, parasti
 - **Uzcenojuma procenti** — klienta rēķinā tiek iekļauti procenti no faktiskajām izmaksām. 
 - **Vienības cena** — katrai izdevumu kategorijas vienībai tiek iestatīta norēķinu cena. Summa, par kādu tiek izrakstīts rēķins klientam, tiek aprēķināta, pamatojoties uz konsultanta norādīto izdevumu vienību skaitu. Nobraukumam tiek izmantota izcenojuma metode ar vienības cenu. Piemēram, nobraukuma izdevumu kategoriju var konfigurēt uz 30 ASV dolāriem (USD) dienā vai 2 USD par jūdzi. Kad konsultants ziņo par nobraukumu projektā, rēķina summu aprēķina, pamatojoties uz konsultanta norādīto jūdžu skaitu.
 
-> ![Izmaksu kategoriju izcenojuma konfigurēšana](media/basic-guide-14.png)
+> ![Izmaksu kategoriju izcenojuma konfigurēšana.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekta pārdošanas izcenojums un pārlabošana
 
@@ -116,7 +114,7 @@ Taču piedāvājumā varat izmantot arī pamata cenrādi. Vai arī varat kopēt 
 
 Kad veidojat pielāgotu projekta cenrādi, tiek kopēti tikai cenrāža projekta komponenti. Citiem vārdiem sakot, jauns cenrādis tiek izveidots kā kopija esošam projekta cenrādim, kas ir pievienots piedāvājumam, un šim jaunajam cenrādim ir tikai saistītās lomu cenas un transakciju kategoriju cenas.
 
-> ![Pielāgota projekta līguma izcenojuma skatīšana un konfigurēšana](media/basic-guide-15.png)
+> ![Pielāgota projekta līguma izcenojuma skatīšana un konfigurēšana.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Izmaksu izsekošana
 
@@ -131,3 +129,6 @@ Tāpat kā norēķinu likmes, arī cilvēkresursu izmaksu likmes iestata, izmant
     1. Izmaksu cenrādis, kas ir pievienots organizācijas struktūrvienībai.
     2. Izmaksu cenrādis, kas ir pievienots projekta pakalpojumu parametriem. Tā kā projekta pakalpojumu parametriem var pievienot izmaksu cenrāžus daudzās valūtās, PSA veic valūtu saskaņošanu starp projekta, līguma vai piedāvājuma līgumslēdzēja organizācijas struktūrvienību un izmaksu cenrādi.
     3. Attiecībā uz izdevumiem pašizmaksas un izmaksu uzcenojuma izcenojuma metodes neattiecas uz izmaksu cenrāžiem. Pat ja šīs izcenojuma metodes tiek izmantotas izmaksu cenrāža rindās, lai iestatītu transakciju kategoriju izmaksas, sistēma tās ignorē un netiek ievadīta noklusējuma izmaksu cena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

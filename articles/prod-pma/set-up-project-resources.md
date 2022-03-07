@@ -2,11 +2,9 @@
 title: Projekta resursu iestatīšana
 description: Šajā tēmā sniegta informācija par projekta resursu iestatīšanu vai pieprasīšanu.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49e0ca6254518079d2e01d92ac2e31d119468c4b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080616"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997700"
 ---
 # <a name="set-up-project-resources"></a>Projekta resursu iestatīšana
 
@@ -75,3 +73,6 @@ Pēc tam, kad ir izpildīti iepriekšējie uzdevumi, jūs varat pēc nepiecieša
 - Izpildīt resursu pieprasījumus.
 - Pieprasīt personāla resursu no WBS.
 - Rezervēt resursus projektam bez personāla resursa pieprasīšanas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

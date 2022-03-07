@@ -2,18 +2,16 @@
 title: Projekta izmaksu uzskaite
 description: Šajā tēmā ir sniegta informācija par to, kā Project Operations tiek izsekota norise attiecībā pret darba izmaksām un projekta vajadzībām.
 author: rumant
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28cb692c61ae4137a28973dc1bd70ffd989dd535
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
-ms.translationtype: HT
+ms.openlocfilehash: d37df64db1808722b7851c952c20be731aa2d670fe066c02ef90386712487407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5711066"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987805"
 ---
 # <a name="labor-cost-tracking-on-projects"></a>Projektu darbaspēka izmaksu uzskaite
 

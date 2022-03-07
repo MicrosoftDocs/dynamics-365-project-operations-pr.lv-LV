@@ -2,11 +2,9 @@
 title: Projektu līgumi
 description: Šajā tēmā ir sniegti projektu līgumu piemēri, ko var izveidot dažādu veidu projektiem un finansējuma avotiem, kā arī to, kā pārvaldīt līgumus un izrakstīt rēķinus projektu klientiem.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080575"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001035"
 ---
 # <a name="project-contracts"></a>Projektu līgumi
 
@@ -344,3 +342,6 @@ Pirmajā mēnesī projekta konsultanti fiksē kopumā 800 darba stundas. Projekt
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

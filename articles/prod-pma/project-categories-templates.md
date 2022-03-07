@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080583"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289648"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekta izdevumu kategoriju sinhronizēšana starp Finance and Operations un Project Service Automation
 
@@ -124,3 +124,6 @@ Nākamajā ilustrācijā ir redzams piemērs no veidnes uzdevumu kartējuma datu
 > Kartējumā tiek parādīta lauka informācija, kas tiks sinhronizēta no Project Service Automation uz Finance.
 
 [![Project Service Automation Finance veidnes kartēšanai](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

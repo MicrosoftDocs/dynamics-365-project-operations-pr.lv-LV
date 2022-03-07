@@ -3,7 +3,7 @@ title: Projektu veidnes
 description: Šajā tēmā ir sniegta informācija par to, kā ātrai projekta iestatīšanai var izmantot projektu veidnes.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1bb82a312114e9814f5ce65a1698455582fd252e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148067"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080606"
 ---
 # <a name="project-templates"></a>Projektu veidnes 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

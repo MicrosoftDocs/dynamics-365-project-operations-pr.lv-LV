@@ -1,25 +1,23 @@
 ---
-title: Pārvaldīt pro formas rēķinu — Lite
-description: Šajā tēmā ir sniegta informācija par darbu ar pro formas rēķiniem.
+title: Pro formas projekta rēķina pārvaldība
+description: Šajā tēmā ir sniegta informācija par pro forma rēķiniem.
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181551"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997435"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Pārvaldīt pro formas rēķinu — Lite
+# <a name="manage-a-proforma-project-invoice"></a>Pro formas projekta rēķina pārvaldība 
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Risinājumā Dynamics 365 Project Operations pro forma rēķini tiek veidoti kā Dynamics 365 Sales rēķinu paplašinājums. Tomēr rēķinu izrakstīšanas procesā ir daudz atšķirību starp risinājumiem Sales un Project Operations, runājot par rēķinu izrakstīšanu. Piemēram, risinājumā Project Operations nav iespējams izveidot jaunu rēķinu no lapas **Rēķinu saraksts**, bet to var izdarīt risinājumā Sales. Šīs atšķirības un paplašinājumi ir ieviesti, lai atbalstītu rēķinu izrakstīšanas procesus projektiem, kas atšķiras no parasta pārdošanas pasūtījuma rēķina.
+Risinājumā Dynamics 365 Project Operations pro forma rēķini tiek veidoti kā Dynamics 365 Sales rēķinu paplašinājums. Tomēr rēķinu izrakstīšanas procesā ir daudz atšķirību starp risinājumiem Sales un Project Operations, runājot par rēķinu izrakstīšanu. Piemēram, risinājumā Project Operations nav iespējams izveidot jaunu rēķinu no lapas **Rēķinu saraksts**, bet to var izdarīt risinājumā Sales. Šīs atšķirības un paplašinājumi ir ieviesti, lai atbalstītu rēķinu izrakstīšanas procesus projektiem, kas atšķiras no parasta pārdošanas pasūtījuma rēķina.
 
 > [!IMPORTANT]
 > Šo atšķirību dēļ neaizstājiet savā starpā rēķinus risinājumos Sales un Project Operations.
@@ -69,9 +67,9 @@ Project Operations vienmēr ir viena rēķina rinda katrai projekta līguma rind
 
 Projekta rēķinā katra rēķina rinda ietver rēķina rindas informāciju. Šī rindas informācija ir saistīta ar rēķinos neiekļautajiem faktiskajiem pārdošanas datiem un atskaites punktiem, kas attiecas uz rēķina rindā ietverto līguma rindu. Visi šie darījumi ir atzīmēti kā **Gatavs rēķina izrakstīšanai**.
 
-Attiecībā uz **Laika un materiālu rēķina** rindu rēķina rindas informācija lapā **Rēķina rinda** ir sagrupēta sadaļās **Rēķinā iekļaujams**, **Rēķinā neiekļaujams** un **Bezmaksas**. **Rēķinā iekļaujamas rēķina rindas** informācija tiek pievienota rēķina rindas kopsummai. **Bezmaksas** un **Rēķinā neiekļaujamie faktiskie apjomi** netiek pievienoti rēķina rindas kopsummai.
+Rindā **Laika un materiālu rēķins** rēķina rindas informācija ir grupēta **Iekasējams**, **Neiekasējams** un **Bezmaksas** lapā **Rēķina rinda**. **Rēķinā iekļaujamas rēķina rindas** informācija tiek pievienota rēķina rindas kopsummai. **Bezmaksas** un **Neiekasējamās faktiskās vērtības** netiek pieskaitīti rēķina rindas kopsummai.
 
-Rindai **Fiksētas cenas rēķins** rēķina rindas informācija tiek izveidota no atskaites punktiem, kas ir atzīmēti kā **Gatavi rēķina izrakstīšanai** saistītajā līguma rindā. Pēc tam kad rēķina rindas informācija ir izveidota no atskaites punkta, atskaites punkta norēķinu statuss tiek atjaunināts uz **Klienta rēķins izveidots**.
+Rindai **Fiksētas cenas rēķins** rēķina rindas informācija tiek izveidota no atskaites punktiem, kas ir atzīmēti kā **Gatavs rēķina izrakstīšanai** saistītajā līguma rindā. Pēc tam kad rēķina rindas informācija ir izveidota no atskaites punkta, atskaites punkta norēķinu statuss tiek atjaunināts uz **Klienta rēķins izveidots**.
 
 ### <a name="edit-invoice-line-details"></a>Rēķina rindas informācijas rediģēšana
 
@@ -98,8 +96,12 @@ Tālāk norādītie lauki ir pieejami rēķina rindas informācijā, kas ir bals
 | **Nodoklis** | Pēc noklusējuma iestatīts no avota faktiskajām vērtībām. Lauku var rediģēt lietotājs | Lauku var rediģēt lietotājs, izveidojot jaunu rēķina rindas informāciju bez faktisko vērtību dublēšanas. |
 | **Kopējā summa** | Aprēķināts lauks, kas aprēķināts kā **Summa + nodoklis**. Tikai lasāms lauks, kura rediģēšana ir bloķēta. | &nbsp; |
 | **Norēķinu tips** | Pēc noklusējuma iestatīts no avota faktiskajām vērtībām. Lauku var rediģēt lietotājs. | Ja tiek atlasīts **Rēķinā iekļaujams**, tiek pievienota rinda rēķina rindas kopsummai. **Bezmaksas** un **Rēķinā neiekļaujams** to izslēgs no rēķina rindas kopsummas. |
+| **Atlasīt produktu** | Pēc noklusējuma šī lauka vērtība ir tikai lasāma. | Ja izveidojat jaunu rēķina rindas informāciju bez faktisko vērtību dublēšanas, šo lauku var rediģēt. |
+| **Produkts** | Pēc noklusējuma šī lauka vērtība ir tikai lasāma. | Ja izveidojat jaunu rēķina rindas detalizēto informāciju, neveicot faktisko dublējšanu, šo lauku var rediģēt, ja laukā **Atlasīt produktu** ir iestatīta vērtība **Esošs produkts**. |
+| **Preces nosaukums** | Pēc noklusējuma šī lauka vērtība ir tikai lasāma. | Ja no kataloga ir atlasīts produkta ID, jaunajā rēķina rindas informācijā šajā laukā tiek iestatīts produkta nosaukums. Ierakstāmam produktam šis lauks ir iestatīts uz ierakstāmu nosaukumu. |
+| **Ierakstāmā produkta apraksts** | Pēc noklusējuma šis lauks ir tikai lasāms. | Izveidojot jaunu rēķina rindas detalizēto informāciju, neveicot faktisko dublējšanu, varat pievienot produkta aprakstu. |
 | **Transakcijas tips** | Pēc noklusējuma iestatīts no avota faktiskajām vērtībām. Tikai lasāms lauks, kura rediģēšana ir bloķēta. | Pēc noklusējuma iestatīts kā **Rēķinā iekļautā pārdošana** un bloķēts, izveidojot jaunu **Rēķina rindas informāciju** bez faktisko datu kopēšanas.  |
-| **Darījuma klase** | Pēc noklusējuma iestatīts no avota faktiskajām vērtībām. Tikai lasāms lauks, kura rediģēšana ir bloķēta. | Iestatīts pēc noklusējuma, pamatojoties uz to, vai lietotājs vēlas izveidot **Laika**, **Izdevumu** vai **Maksas** rēķina rindu, vienlaikus izveidojot jaunu **Rēķina rindas informāciju** bez faktisko datu kopēšanas. Bloķēts rediģēšanai. |
+| **Darījuma klase** | Pēc noklusējuma iestatīts no avota faktiskajām vērtībām. Tikai lasāms lauks, kura rediģēšana ir bloķēta. | Iestatīts noklusējums atkarībā no tā, vai lietotājs izvēlas izveidot **laika**, **izdevumu**, **materiālu** vai **maksu** rēķina rindu, vienlaikus izveidojot jaunu **rēķina rindas informāciju** be dublēšanas. Bloķēts rediģēšanai. |
 
 Tālāk norādītie lauki ir pieejami rēķina rindas informācijā, kas ir balstīta uz atskaites punktu.
 
@@ -144,3 +146,6 @@ Ja jums ir faktiskie dati, kas ienāca pēc rēķina izveidošanas, varat tos ie
 Project Operations var izveidot rēķina rindas produktiem, kas neattiecas uz projektu vai visiem projektiem, kā arī uz projekta rēķina rindām. Šīs rēķinu rindas tiek izveidotas kā uz produktu balstītas līguma rindas, un pēc tam, kad tās ir atzīmētas kā gatavas rēķina izrakstīšanai, tās tiek pievienotas kā produktu rēķinu rindas.
 
 Pēc tam, kad esat pievienojis uz produktu balstītas rēķinu rindas, tās vairs nevar mainīt. Tomēr tās var izdzēst no pro forma rēķina melnraksta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

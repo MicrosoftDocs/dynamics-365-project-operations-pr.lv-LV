@@ -2,24 +2,22 @@
 title: Project Operations integrācijas konfigurēšana katrā juridiskā entītijā
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt juridisku entītiju integrāciju programmā Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122892"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999415"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations integrācijas konfigurēšana katrā juridiskā entītijā 
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā tēmā ir aprakstītas darbības, kas jāveic, lai konfigurētu risinājumu Dynamics 365 Project Operations uz vienu juridisku entītiju.
+Šajā tēmā ir soļi, kas nepieciešami, lai konfigurētu Dynamics 365 Project Operations katru juridisko personu.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Pamatlīdzekļu iespējošana risinājumā Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Katrai juridiskajai entītijai, kas izmanto Project Operations risinājumā Dyna
   - **Rēķina tipa noklusējuma iestatījumi**: Project Operations izmanto fiksētu norēķinu tipa noklusējuma kopu, kas ir jākartē uz rindas rekvizītu finansēm. Ierakstu izveide katram norēķinu tipam: **Nav norādīts**, **Rēķinā iekļaujams**, **Rēķinā neiekļaujams**, **Bezmaksas** un **Nav pieejams**.
   - **Projekta kategorijas noklusējumi**: atlasiet noklusējuma projekta kategorijas, kas jāizmanto katram transakcijas tipam. Šie noklusējuma iestatījumi tiks lietoti **Project Operations integrācijas žurnālā** un aprēķinos, kur projekta faktiskajai transakcijai nav norādīta transakciju kategorija.
   - **Prognozes**: atlasiet budžeta modeli, kas tiks izmantots laika un izdevumu novērtējumiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

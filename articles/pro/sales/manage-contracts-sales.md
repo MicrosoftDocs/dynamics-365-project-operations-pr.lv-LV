@@ -2,18 +2,16 @@
 title: Projekta līgumu pārvaldīšana
 description: Šajā tēmā ir sniegta informācija par projekta līgumu skatīšanu.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177340"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001845"
 ---
 # <a name="manage-project-contracts"></a>Projekta līgumu pārvaldīšana
 
@@ -33,3 +31,6 @@ Visu projekta līgumu sarakstu var skatīt lapā **Līgumi**.
 2. Atlasiet **Skatu pārslēdzēju** (nolaižamā bultiņa blakus skata nosaukumam), lai atlasītu citus filtrētos skatus. Varat izveidot savus skatus, kuros ir pielāgoti filtrēšanas kritēriji.
 
 Līgumus var izveidot vai izdzēst no šīs saraksta lapas vai detalizētās lapas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

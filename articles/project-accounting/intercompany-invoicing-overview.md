@@ -2,18 +2,16 @@
 title: Starpuzņēmumu rēķinu izrakstīšanas pārskats
 description: Šajā tēmā ir sniegta informācija un piemēri par starpuzņēmumu rēķinu izrakstīšanu projektiem.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595511"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002650"
 ---
 # <a name="intercompany-invoicing-overview"></a>Starpuzņēmumu rēķinu izrakstīšanas pārskats
 
@@ -21,7 +19,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Jūsu organizācijā var būt vairākas nodaļas, meitasuzņēmumi un citas juridiskas personas, kas pārsūta produktus un pakalpojumus cita citai projektu ietvaros. Juridiskā persona, kas nodrošina pakalpojumu vai produktu, tiek saukta par *aizdevuma juridisko personu*. Juridiskā persona, kas saņem pakalpojumu vai produktu, tiek saukta par *aizņēmuma juridisko personu*.
 
-Tālāk sniegtajā ilustrācijā ir parādīts tipisks scenārijs, kurā divas juridiskās personas, Contoso Robotics USA (aizņēmuma juridiskā persona) un Contoso Robotics UK (aizdevuma juridiskā persona) koplieto resursus, lai nodrošinātu projektu klientam Adventure Works. Šajā scenārijā uzņēmums Contoso Robotics USA ir noslēdzis līgumu, lai izpildītu klientam Adventure Works piegādājamo darbu.
+Nākamajā attēlā parādīts tipisks scenārijs, kad divas juridiskās personas, Contoso Robotics USA (aizņemošā juridiskā persona) un Contoso Robotics UK (aizdodošā juridiskā persona), koplieto resursus klienta Adventure Works projekta izpildei. Šajā scenārijā Ir noslēgts līgums ar Contoso Robotics USA, lai izpildītu darbu Adventure Works.
 
 ![Starpuzņēmumu rēķinu izrakstīšana](./media/IntercompanyScenario.png) 
 
@@ -43,3 +41,6 @@ Tālāk sniegtajā diagrammā ir parādīta starpuzņēmumu rēķinu izrakstīš
 - [Starpuzņēmumu rēķinu izrakstīšanas konfigurēšana](configure-intercompany-invoicing.md)
 - [Starpuzņēmumu darbību reģistrēšana](create-intercompany-transactions.md)
 - [Starpuzņēmumu klientu un piegādātāju rēķinu izveide](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

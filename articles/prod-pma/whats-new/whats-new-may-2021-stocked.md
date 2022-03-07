@@ -9,7 +9,7 @@ ms.reviewer: kfend
 ms.author: andchoi
 ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
 ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/06/2021
 ms.locfileid: "6991135"

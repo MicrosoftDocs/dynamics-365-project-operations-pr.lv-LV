@@ -2,18 +2,16 @@
 title: Rezervēšana/piešķires
 description: Šajā tēmā ir sniegta informācija par atšķirībām starp resursu rezervācijām un resursu piešķirēm.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
-ms.translationtype: HT
+ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841181"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008460"
 ---
 # <a name="bookings-vs-assignments"></a>Rezervēšana/piešķires
 
@@ -26,3 +24,6 @@ Atšķirībā no rezervācijām piešķires ir resursu piešķiršana projekta u
 Parasti resursa rezervācijas summa būs vienāda ar resursa piešķiru summu vienā vai vairākos uzdevumos. Tomēr Project Operations neparedz šādu atbilstību kā obligātu. Skats **Saskaņošana** projektu vadītājiem parāda gadījumus, kad resursu rezervācijas neatbilst piešķirēm.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

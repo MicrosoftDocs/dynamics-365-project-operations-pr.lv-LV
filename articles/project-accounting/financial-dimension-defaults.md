@@ -2,18 +2,16 @@
 title: Finanšu dimensiju noklusējumi
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt finanšu dimensiju noklusējumus.
 author: sigitac
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642372"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013315"
 ---
 # <a name="financial-dimension-defaults"></a>Finanšu dimensiju noklusējumi
 
@@ -21,7 +19,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations izmanto [Finanšu dimensiju](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) struktūru programmā Dynamics 365 Finance, lai sniegtu papildu ieskatus projekta apakšgrāmatas un virsgrāmatas darbībās.
+Dynamics 365 Project Operations izmanto [Finanšu dimensiju](/dynamics365/finance/general-ledger/financial-dimensions) struktūru programmā Dynamics 365 Finance, lai sniegtu papildu ieskatus projekta apakšgrāmatas un virsgrāmatas darbībās.
 
 Noklusējuma finanšu dimensijas var iestatīt klientam, projekta finansējuma avotam, atskaites punktam, projekta līguma rindai vai projektam.
 
@@ -62,3 +60,6 @@ Projekti tiek izveidoti un uzturēti pakalpojumā CDS. Projektu uzskaites atrib�
 4. Iestatiet finanšu dimensijas noklusējumus. Ņemiet vērā, ka finanšu dimensiju noklusējuma vērtība ir no klienta uzņēmuma. Ja projekts ir saistīts ar līguma rindu ar vairākiem projekta līguma klientiem, primārais klients tiek izmantots noklusējuma finanšu dimensijās.
 
 Projektu noklusējuma finanšu dimensijas izmanto, lai iestatītu žurnāla rindas noklusējuma vērtības laika, izdevumu un maksu darbībām **Project Operations integrācijas žurnālā** un ar to saistītajās projekta rēķina rindās.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

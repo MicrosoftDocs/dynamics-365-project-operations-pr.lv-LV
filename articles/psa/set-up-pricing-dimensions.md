@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150362"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282477"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pielāgotu lauku kā cenu noteikšanas dimensiju iestatīšana 
 
@@ -94,3 +94,6 @@ Dimensijas prioritātes iestatīšana palīdz programmai Project Service noteikt
 
 - **Izmaksu prioritāte**: dimensijas izmaksu prioritātes vērtība norāda šīs dimensijas nozīmīgumu, salīdzinot ar izmaksu cenu iestatīšanu. **Izmaksu prioritātes** vērtībai ir jābūt unikālai visās dimensijās, kas **Attiecināmas uz izmaksām**.
 - **Pārdošanas prioritāte**: dimensijas pārdošanas prioritātes vērtība norāda šīs dimensijas nozīmīgumu, salīdzinot ar pārdošanas cenu vai norēķinu cenu iestatīšanu. **Pārdošanas prioritātes** vērtībai ir jābūt unikālai visās dimensijās, kuras **Attiecināmas uz pārdošanu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

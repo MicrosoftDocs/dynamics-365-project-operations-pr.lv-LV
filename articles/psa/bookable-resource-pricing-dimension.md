@@ -2,12 +2,10 @@
 title: Rezervējama resursa izmantošana par izcenojuma dimensiju
 description: Šajā tēmā ir sniegta informācija par rezervējama resursa izmantošanu par izcenojuma dimensiju.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145007"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988975"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Rezervējama resursa izmantošana par izcenojuma dimensiju
 
@@ -64,15 +62,18 @@ Attiecībā uz rezervējamo resursu entītijai **Projekta darba grupas dalībnie
 1. Lai to paveiktu, veiciet dubultklikšķi uz rindas režģī **Izcenojumu dimensijas**, lai atvērtu **msdyn_bookableresource** dimensiju lapu.
 2. Dimensiju lapas cilnē **Saistītie** noklikšķiniet uz **Izcenojumu dimensiju lauku nosaukumi**.
 
- ![Izcenojumu dimensiju lauku nosaukumu cilne](media/PD-fieldname.png)
+ ![Izcenojumu dimensiju lauku nosaukumu cilne.](media/PD-fieldname.png)
 
 4. Atvērtajā saistītajā skatā noklikšķiniet uz **Pievienot jaunu izcenojuma dimensijas lauka nosaukumu**.
 
- ![Jaunu izcenojumu dimensiju lauku nosaukumu pievienošana](media/Add-NewPD-fieldname.png)
+ ![Jaunu izcenojumu dimensiju lauku nosaukumu pievienošana.](media/Add-NewPD-fieldname.png)
 
 
 Šādi tiek atvērta **msdyn_bookableresource** lapa **Jauns izcenojuma dimensijas lauka nosaukums**. 
 
 5. Pievienojiet **msdyn_projectteam** laukam **Entītijas loģiskais nosaukums** un pievienojiet **msdyn_bookableresourceid** laukam **Lauka nosaukums**. Saglabājiet ierakstu.
 
- ![Jauna izcenojuma dimensijas lauka nosaukuma veidlapa](media/PD-fieldname-Added.png)
+ ![Jauna izcenojuma dimensijas lauka nosaukuma veidlapa.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

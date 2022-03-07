@@ -3,7 +3,7 @@ title: Izmaksu ievade
 description: Izmaksu ievade programmā Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a32bc6b8687dfac941dde9944c6e6b4fd8f723f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148517"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080648"
 ---
 # <a name="enter-expenses-project-service"></a>Izmaksu ievade (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

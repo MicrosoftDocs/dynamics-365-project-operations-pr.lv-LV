@@ -2,11 +2,9 @@
 title: Resursu noslodzes sinhronizēšana
 description: Šajā tēmā ir sniegta informācija par to, kā sinhronizēt resursa noslodzi kalendāros un projektos.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080422"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005625"
 ---
 # <a name="synchronize-resource-capacity"></a>Resursu noslodzes sinhronizēšana
 
@@ -31,7 +29,7 @@ ms.locfileid: "4080422"
 
 Resursa sinhronizēšanas procesi palīdz nodrošināt, ka kalendāra un bāzes kalendāra informācija nonāk projekta resursa plānošanā. Ja kalendārs ir mainīts, procesi veic nepieciešamos projekta resursu plānošanas atjauninājumus. Šie procesi arī palīdz uzlabot veiktspēju, jo kalendāra resursa informācija tiek iepriekš sinhronizēta. Tāpēc resursa plānošanas informācijas atjauninājumi tiek veikti ātrāk. Mēs jums iesakām plānot procesus kā paketi, nevis pa vienam. Pretējā gadījumā pastāv risks, ka kāds aizmirsīs iekļaujošos datumus, kuros informācija pēdējo reizi tika sinhronizēta. Ja iekļaujošie datumi netiek lietoti, datumu sinhronizācijas laikā var rasties atstarpes.
 
-![Kalendāra sinhronizācija](./media/projectresourcing04-1024x471.jpg)
+![Kalendāra sinhronizācija.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinhronizējiet resursa noslodzes apkopojumus
 
@@ -48,4 +46,7 @@ Mēs iesakām lietot paketi. Opcijas ir pieejamas noslodzes rezervāciju sinhron
     | Sākuma datums  | Ievadiet resursa noslodzes apkopojuma sinhronizācijas procesa sākuma datumu. |
     | Beigu datums    | Ievadiet resursa noslodzes apkopojuma sinhronizācijas procesa beigu datumu. |
 
-[![Sinhronizācijas process](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Sinhronizācijas process.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

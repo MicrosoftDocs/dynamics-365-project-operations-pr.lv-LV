@@ -2,18 +2,16 @@
 title: Risinājuma izveide pielāgotām cenu noteikšanas dimensijām
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot risinājumus pielāgotām cenu noteikšanas dimensijām.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514003"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010345"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Risinājuma izveide pielāgotām cenu noteikšanas dimensijām
 
@@ -64,3 +62,6 @@ Pievienojiet tālāk norādītās Project Service entītijas savam cenu noteikš
 5.  Kad tiek piedāvāts iekļaut jebkādas atlasīto entītiju atkarīgās entītijas, atlasiet **Nē, neiekļaut nepieciešamos komponentus.**
 
     ![Atkarīgo entītiju iekļaušana](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

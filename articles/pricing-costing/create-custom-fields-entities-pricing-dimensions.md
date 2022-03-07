@@ -2,11 +2,9 @@
 title: Pielāgotu lauku un entītiju kā cenu noteikšanas kategoriju izveide
 description: Šajā tēmā sniegta informācija par to, kā izveidot pielāgotas opciju kopas vai entitījas.
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642822"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003645"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Pielāgotu lauku un entītiju kā cenu noteikšanas kategoriju izveide
 
@@ -46,7 +44,7 @@ Lai izveidotu entītiju dimensijas, veiciet tālāk norādītās darbības.
 3. Atlasiet **Jauns**, lai izveidotu jaunu entītiju ar nosaukumu **Standarta nosaukums**. 
 4. Ievadiet pārējo pieprasīto informāciju un pēc tam atlasiet **Saglabāt**.
 
-> ![Standarta nosaukuma entītijas definīcija](media/Standard-Title-entity-definition.png)
+> ![Standarta nosaukuma entītijas definīcija.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Opciju kopas dimensijas 
 Var izveidot divas opciju kopas dimensijas. 
@@ -56,11 +54,11 @@ Var izveidot divas opciju kopas dimensijas.
 
 Tālāk esošajā grafikā ir sniegts dimensijas **Resursa darba atrašanās vieta** skats. 
 
-> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba vietu](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba vietu.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Tālāk esošajā grafikā ir sniegts dimensijas **Resursa darba stundas** skats. 
 
-> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba stundām](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba stundām.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Dodieties uz **Iestatījumi** > **Risinājumi** un pēc tam veiciet dubultklikšķi uz **\<your organization name> cenu noteikšanas dimensijas**. 
 2. Risinājumu pārlūka kreisajā navigācijas rūtī atlasiet **Opciju kopas**. 
@@ -76,4 +74,7 @@ Entītijas dimensijām datus var izveidot manuāli vai izmantojot Microsoft Exce
 4. Aizveriet lapu. 
 5. Atkārtojiet 1.–3. darbību, lai izveidotu vēl vienu standarta nosaukumu “Vecākais sistēmas inženieris”.
 
-> ![Standarta nosaukuma entītijas datu paraugs](media/ST-data.png)
+> ![Standarta nosaukuma entītijas datu paraugs.](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

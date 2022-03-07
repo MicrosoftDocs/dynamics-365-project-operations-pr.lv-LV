@@ -2,18 +2,16 @@
 title: Projektu un uzdevumu kartēšana uz projekta līguma rindu — Lite
 description: Šajā tēmā ir sniegta informācija par projektu un uzdevumu pievienošanu un noņemšanu līguma rindai.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
-ms.translationtype: HT
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858104"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989740"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projektu un uzdevumu kartēšana par projekta piedāvājuma rindu 
 

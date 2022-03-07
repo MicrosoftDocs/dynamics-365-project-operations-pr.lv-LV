@@ -2,18 +2,16 @@
 title: Ad hoc avansa izveide līgumā
 description: Šajā tēmā ir sniegta informācija par līguma avansa izveidi pēc nepieciešamības.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999145"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Ad hoc avansa izveide līgumā
 
@@ -39,3 +37,6 @@ Izpildiet tālāk aprakstītās darbības, lai klientam izrakstītu avansa rēķ
     | **Rēķina statuss** | Tas ir opciju iestatījums, kas norāda, vai šis avanss ir pievienots šī klienta rēķina melnrakstam. Iespējamās vērtības.</br>- **Nav gatavs rēķina izrakstīšanai**</br>- **Gatavs rēķina izrakstīšanai** | Kad avansa maksājums vai priekšapmaksa ir atzīmēta kā **Gatava rēķina izrakstīšanai**, tas tiek pievienots kā rindas laiks rēķina melnrakstā. Tikai pilnīgi izrakstīts avanss var tikt izmantots, lai sasaistītu projekta izmaksas nākamajam rēķina periodam. |
 
 4. Ātrās izveides dialoglodziņā atlasiet **Saglabāt un aizvērt**, lai ierakstītu avansu vai priekšapmaksu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

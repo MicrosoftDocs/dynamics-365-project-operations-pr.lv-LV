@@ -2,8 +2,6 @@
 title: Laika ierakstu kalendārs
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot laika ierakstu kalendāru.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3efa30f017643cbcf7baa72f8ab964091c9e4f28
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150182"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013090"
 ---
 # <a name="time-entry-calendar"></a>Laika ierakstu kalendārs
 
@@ -42,3 +40,6 @@ Kalendārs neatbalsta darbības ar atsevišķiem kalendāra ierakstiem, un tajā
 ## <a name="extensibility"></a>Paplašināmība
 
 Lapā **Laika ieraksti**, kurā ir laika ieraksta režģis, var pievienot pielāgotus laukus, iestatīt uzmeklēšanas laukus un izveidot pielāgotus skatus. Var iestatīt arī pielāgotu biznesa loģiku, kuras pamatā ir pielāgotajos laukos atlasītās vai ievadītās vērtības.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

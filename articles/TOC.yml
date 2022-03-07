@@ -34,22 +34,6 @@
               href: environment/security-model.md
             - name: "Project\_Operations integrācijas konfigurēšana katrai juridiskajai personai"
               href: environment/resource-configure-integration-per-legal-entity.md
-        - name: Duālās rakstīšanas integrācijas konfigurēšana
-          items:
-            - name: Duālās rakstīšanas integrācijas pārskats
-              href: environment/resource-dual-write-overview.md
-            - name: Project Operations duālās rakstīšanas kartes versijas
-              href: environment/resource-dual-write-maps.md
-            - name: Project Operations iestatīšanas un konfigurēšanas datu integrācija
-              href: environment/resource-dual-write-setup-integration.md
-            - name: Projekta aprēķinu un faktisko datu integrācija
-              href: environment/resource-dual-write-estimates-actuals.md
-            - name: Projekta rēķina integrācija
-              href: environment/resource-dual-write-project-invoice.md
-            - name: Izdevumu pārvaldības integrācija
-              href: environment/resource-dual-write-expense.md
-            - name: Piegādātāja rēķina integrācija
-              href: environment/resource-dual-write-vendor-invoice.md
     - name: Jaunumi
       items:
         - name: "2021.\_gada aprīlis\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
@@ -232,8 +216,6 @@
           href: project-management/understand-project-status.md
         - name: Projekta kalendāru definēšana
           href: project-management/define-project-calendars.md
-        - name: Plānošanas režīmi
-          href: project-management/scheduling-modes.md
         - name: Projekta atjaunināšana
           href: project-management/update-project.md
         - name: Projekta kopēšana
@@ -422,17 +404,11 @@
           items:
             - name: Labojumu žurnālu izveide un apstiprināšana
               href: actuals/create-confirm-correction-journals.md
-    - name: Sagāde
-      items:
-        - name: Krājumos nebalstītu materiālu un neapstiprinātu piegādātāju rēķinu konfigurēšana
-          href: procurement/configure-materials-nonstocked.md
-        - name: 'Krājumos nebalstītu materiālu sagāde projektiem, izmantojot neapstiprinātu piegādātāju rēķinus'
-          href: procurement/pending-vendor-invoices.md
-    - name: Rēķinu izrakstīšana
+    - name: Rēķini
       items:
         - name: Rēķinu norises pārskats
           href: invoicing/post-project-invoices.md
-        - name: Projekta rēķina priekšlikumu pārvaldība
+        - name: Projekta rēķina piedāvājumu pārvaldība
           href: invoicing/format-update-project-invoice-proposals.md
         - name: "Pro\_forma rēķinu izrakstīšana"
           items:
@@ -452,8 +428,6 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektā balstīta rēķina automatizācijas konfigurēšana
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projekta rēķina priekšlikumu pārvaldība
-          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projekta uzskaite
       items:
         - name: Finanšu dimensiju noklusējumi
@@ -708,8 +682,6 @@
           href: project-management/understand-project-status.md
         - name: Projekta kalendāru definēšana
           href: project-management/define-project-calendars.md
-        - name: Plānošanas režīmi
-          hreF: project-management/scheduling-modes.md
         - name: Projekta atjaunināšana
           href: project-management/update-project.md
         - name: Projekta kopēšana
@@ -876,8 +848,6 @@
   items:
     - name: Jaunumi
       items:
-        - name: "Jaunumi 2021.\_gada aprīlī\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Jaunumi 2021.\_gada martā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: "Jaunumi 2021.\_gada janvārī\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
@@ -901,9 +871,9 @@
     - name: Apmaksātu kreditoru maksājumu iestatīšana un lietošana
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Projekta izmaksu uzkrāšana pirkšanas kvītīs
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Projekta rēķina izrakstīšana
-      href: /dynamics365/finance/accounts-payable/project-invoicing
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
     - name: Projekta rēķina priekšlikuma izpilde
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Projekta līgumi
@@ -1028,8 +998,6 @@
       items:
         - name: "Project\_Service\_3.x atjauninājumu laidienu grafiks"
           href: psa/version-history-ps.md
-        - name: "Update\_Release\_31,\_V3 jaunumi vai izmaiņas"
-          href: psa/whats-new-ur-31.md
         - name: "Jaunumi vai izmaiņas atjauninājumu laidienā 30,\_V3"
           href: psa/whats-new-ur-30.md
         - name: 'Jaunumi vai izmaiņas atjauninājumu laidiena 29.5 labojumfailā, V3'
@@ -1359,7 +1327,7 @@
             - name: Resursu lietojuma skats
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
+              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
         - name: Projektu pārvaldnieka rokasgrāmata
           items:
             - name: "Projektu pārvaldnieka rokasgrāmata (Project\_Service)"

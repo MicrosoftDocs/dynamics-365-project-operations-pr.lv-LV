@@ -2,18 +2,16 @@
 title: Projekta piedāvājumu kopēšana
 description: Šajā tēmā ir sniegta informācija par projekta piedāvājumu kopēšanu Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181821"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992170"
 ---
 # <a name="copy-project-based-quotes"></a>Projekta piedāvājumu kopēšana
 
@@ -45,3 +43,6 @@ Ja dialoga lapā atlasāt opciju **Labi**, sistēma izveido projekta piedāvāju
 > - Projekta atsauce projekta piedāvājuma rindās — klienta budžeta informācija
 >
 >Šī informācija katram piedāvājumam ir ļoti specifiska, tādēļ šie lauki un ieraksti netiek kopēti. Piedāvājuma rindas projektiem un produktiem, piedāvājuma rindu informācijā ietvertie aprēķini un piedāvājuma līmeņa nepārsniedzamā vērtības tiek kopētas. Cenu un izmaksu likmju noklusējuma vērtības ir atkarīgas no opcijas **Kopēt izcenojumu** dialoga lapā **Kopijas parametri**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

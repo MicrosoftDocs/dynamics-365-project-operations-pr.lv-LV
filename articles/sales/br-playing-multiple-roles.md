@@ -2,18 +2,16 @@
 title: Projekta pārdošanas un izmaksu aprēķini, kad rezervējamam resursam projektā ir vairākas lomas
 description: Šajā tēmā ir paskaidrots, kā izmantot cenu noteikšanas dimensijas, lai atbalstītu cenu un izmaksu aprēķinus resursam, kam projektā ir vairākas lomas.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531493"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990145"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Projekta pārdošanas un izmaksu aprēķini, kad rezervējamam resursam projektā ir vairākas lomas 
 
@@ -106,3 +104,6 @@ Izvēršot šī darba grupas dalībnieka ieraksta rindu, abiem uzdevumiem darba 
 ### <a name="estimates-grid"></a>Novērtējumu režģis 
 
 Režģī **Aprēķini** abiem viena resursa piešķīrumiem atšķiras cenas. Vienuma **A uzdevums** resursa piešķīrumam cena tiek noteikta, izmantojot vienuma **Loma** atribūta vērtību laukā **Interesenta konsultēšana**. Vienuma **B uzdevums** tā paša resursa piešķīruma cena tiek noteikta, izmantojot vienuma **Loma** atribūta vērtību laukā **Tīkla tehniķis**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Izdevumu mobilā programma
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot izdevumu pārvaldības mobilo darbvietu.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499905"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993205"
 ---
 # <a name="mobile-expense-app"></a>Izdevumu mobilā programma
 
@@ -72,16 +70,16 @@ Ja jūsu organizācijai ir izvietota versija 1611 ar platformas atjauninājumu�
 <td>Sistēmas administrators</td>
 <td>KB 4019015 ir X + + atjaunināšanas vai metadatu labojumfails, kurā ir iekļauts <strong>Izmaksu pārvaldības</strong> mobilajā darbvietā. Lai ieviestu KB 4019015, jūsu sistēmas administratoram ir jāizpilda šīs darbības.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādēt atjauninājumus Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni</a>, kurā ir <strong>ApplicationSuite</strong> un <strong>ExpenseMobile</strong> modeļi, un pēc tam augšupielādējiet izvēršamo paku uz LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Izmantojiet izvēršamo pakotni</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādēt atjauninājumus Lifecycle Services</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni</a>, kurā ir <strong>ApplicationSuite</strong> un <strong>ExpenseMobile</strong> modeļi, un pēc tam augšupielādējiet izvēršamo paku uz LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Izmantojiet izvēršamo pakotni</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publicēt <strong>Izmaksu pārvaldības</strong> mobilo darbvietu.</td>
 <td>Sistēmas administrators</td>
-<td>Skatiet <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicēt mobilo darbvietu</a>.</td>
+<td>Skatiet <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicēt mobilo darbvietu</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +120,11 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 
 1. Mobilajā ierīcē atveriet **Izdevumu pārvaldības** darbvietu.
 2. Atlasiet **Ātrā izdevumu ievade**.
-3. Atlasiet izdevumu kategoriju. Redzēsit sarakstu ar izdevumu kategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevumu kategorijas vai pārslēdziet uz meklēšanu pēc izdevumu veida.
+3. Atlasiet izdevumu kategoriju. Redzēsit sarakstu ar izdevumu kategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevumu kategorijas vai pārslēdziet uz meklēšanu pēc izdevumu veida.
 4. Ievadiet izdevumu transakcijas datumu.
 5. Pēc izvēles: Ievadiet izdevumu tirgotāju.
 6. Ievadiet izdevuma apmēru.
-7. Atlasiet izdevuma valūtu. Redzēsit valūtu kodu sarakstu, kas tiek ielādēti jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādētas 400 valūtas, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu valūta nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
+7. Atlasiet izdevuma valūtu. Redzēsit valūtu kodu sarakstu, kas tiek ielādēti jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādētas 400 valūtas, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu valūta nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
 8. Atlasiet **Uzņemt fotoattēlu** vai **Izvēlieties fotoattēlu**.
 9. Veiciet vienu no šīm darbībām:
 
@@ -159,11 +157,11 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 7. Sarakstā atlasiet vienu vai vairākus izdevumus.
 8. Atlasiet **Gatavs**.
 9. Lai izdevumu atskaitei pievienotu jaunu izdevumu, atlasiet **Jauns izdevums**.
-10. Atlasiet izdevuma kategoriju. Redzēsit sarakstu ar izdevumu kategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevumu kategorijas vai pārslēdziet uz meklēšanu pēc izdevumu veida.
+10. Atlasiet izdevuma kategoriju. Redzēsit sarakstu ar izdevumu kategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu kategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevumu kategorijas vai pārslēdziet uz meklēšanu pēc izdevumu veida.
 11. Pēc izvēles: Ievadiet izdevumu tirgotāju.
 12. Ievadiet izdevumu transakcijas datumu.
 13. Ievadiet izdevuma apmēru.
-14. Atlasiet izdevuma valūtu. Redzēsit valūtu kodu sarakstu, kas tiek ielādēti jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādētas 400 valūtas, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu valūta nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
+14. Atlasiet izdevuma valūtu. Redzēsit valūtu kodu sarakstu, kas tiek ielādēti jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādētas 400 valūtas, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu valūta nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc valūtas vai pārslēdzieties uz meklēšanu pēc nosaukuma.
 15. Atlasiet **Gatavs**.
 16. Lai izdevumam pievienotu papildinformāciju, atlasiet **Pievienot papildinformāciju**. Pieejamie lauki ir atkarīgi no jūsu uzņēmuma izdevumu pārvaldības konfigurācijas.
 17. Ja saskaņā ar uzņēmuma politiku ir nepieciešama izdevumu kvīts, atlasiet **Kvītis** un pēc tam izpildiet šādas darbības:
@@ -209,12 +207,12 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 
         - Ja atlasījāt **Iepriekšējie viesi**, izpildiet šādas darbības:
 
-            1. Sarakstā atlasiet vienu vai vairākus iepriekšējos viesus. Jūs redzēsit iepriekšējām izdevumu atskaitēm pievienotu iepriekšējo viesu sarakstu, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu iepriekšējais viesis nav iekļauts sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc vārda vai pārslēdzieties uz meklēšanu pēc organizācijas, valsts vai amata.
+            1. Sarakstā atlasiet vienu vai vairākus iepriekšējos viesus. Jūs redzēsit iepriekšējām izdevumu atskaitēm pievienotu iepriekšējo viesu sarakstu, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu iepriekšējais viesis nav iekļauts sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc vārda vai pārslēdzieties uz meklēšanu pēc organizācijas, valsts vai amata.
             2. Atlasiet **Gatavs**.
 
         - Ja atlasījāt **Līdzstrādnieki**, izpildiet šādas darbības:
 
-            1. Sarakstā atlasiet vienu vai vairākus līdzstrādniekus. Redzēsit sarakstu ar līdzstrādniekiem, kas tiek ielādēts jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu līdzstrādnieks nav iekļauts sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc vārda vai pārslēdzieties uz meklēšanu pēc uzņēmuma vai amata.
+            1. Sarakstā atlasiet vienu vai vairākus līdzstrādniekus. Redzēsit sarakstu ar līdzstrādniekiem, kas tiek ielādēts jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu līdzstrādnieks nav iekļauts sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc vārda vai pārslēdzieties uz meklēšanu pēc uzņēmuma vai amata.
             2. Atlasiet **Gatavs**.
 
     3. Atlasiet pogu **Atpakaļ**, lai atgrieztos pie izdevumu informācijas.
@@ -223,7 +221,7 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 
     1. Atlasiet pirmo uzskaitīšanas datumu.
     2. Atlasiet **Pievienot uzskaitījumu**.
-    3. Atlasiet izdevumu uzskaitīšanas apakškategoriju. Redzēsit sarakstu ar izdevumu apakškategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu apakškategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevuma apakškategorijas nosaukuma.
+    3. Atlasiet izdevumu uzskaitīšanas apakškategoriju. Redzēsit sarakstu ar izdevumu apakškategorijām, kas tiek ielādētas jūsu programmā lietošanai bezsaistē. Pēc noklusējuma tiek ielādēti 50 elementi, taču izstrādātājs šo skaitu var mainīt. Papildinformāciju izstrādātāji var skatīt sadaļā [Mobilā platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ja jūsu apakškategorija nav iekļauta sarakstā, atlasiet **Meklēt**, lai veiktu meklēšanu tiešsaistē. Meklējiet pēc izdevuma apakškategorijas nosaukuma.
     4. Ievadiet uzskaites transakcijas apmēru.
     5. Ja nepieciešams rediģējiet transakcijas datumu.
     6. Atlasiet **Gatavs**.

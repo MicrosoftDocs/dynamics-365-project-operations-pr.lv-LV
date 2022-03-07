@@ -1,11 +1,10 @@
 ---
 title: Jaunināšanas sākumlapa
 description: Šajā tēmā parādīts, kur meklēt svarīgu informāciju par jaunām un izmainītām funkcijām programmā Dynamics 365 Project Service Automation, kā arī par procesu jaunināšanai uz jaunāko versiju.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -19,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8fc820d8fa0e421cdc963f391133e7311de96982
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150092"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368530"
 ---
 # <a name="upgrade-home-page"></a>Jaunināšanas sākumlapa
 
@@ -65,3 +64,6 @@ Sākot ar 2020. gada 1. martu Dynamics PSA klienti vairs nevarēs izveidot jaunu
 
 > [!NOTE]
 > Lai varētu izmantot labākās iespējas, lietojot vecākas Field Service un PSA lietojumprogrammu versijas, pārejiet uz lapu **Sistēmas iestatījumi** un laukam **Izmantot tikai jauno vienoto interfeisu (ieteicams)** atlasiet **Nē**, jo šīs versijas nav paredzētas pareizai ielādēšanai UCI. Pēc UCI izslēgšanas varat atvērt un palaist šīs Field Service un PSA versijas, izmantojot veco tīmekļa klientu. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2388aedec25915b3d364001fed11ca537b0f5507
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150677"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281127"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Kas jauns vai mainīts Project Service Automation 3. versijā
 
@@ -257,3 +257,6 @@ Sākot ar 3. versiju, pielāgota projekta cenrāža izveide un izmantošana Pro
 
 > [!NOTE]
 > Var rasties īsa aizkave starp noklikšķināšanu uz **Izveidot pielāgotu izcenojumu** un brīdi, kad tiek izveidots pielāgots cenrādis. Iesakām atsvaidzināt režģi, nevis klikšķināt vairākas reizes. Pielāgots cenrādis ir izveidots, ja ar saistītā cenrāža nosaukumam ir pievienots piedāvājuma nosaukums vai projekta līguma nosaukums.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
