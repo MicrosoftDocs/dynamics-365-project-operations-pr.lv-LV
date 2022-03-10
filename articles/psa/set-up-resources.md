@@ -2,8 +2,6 @@
 title: Resursu iestatīšana
 description: Resursu iestatīšana programmā Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9e0c8d2b425c210c3737d35dca8b8867bd57461f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 62fc0ad741940c2d3046bb1b89f99cd490cbd6e1aa6015f1df3b92afb2f107ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080658"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006840"
 ---
 # <a name="set-up-resources-project-service"></a>Resursu iestatīšana (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -53,3 +53,6 @@ Pirms resursu pieprasīšanas vai piešķiršanas pakalpojumā [!INCLUDE[pn_proj
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service konfigurēšana](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

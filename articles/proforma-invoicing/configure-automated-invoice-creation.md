@@ -2,18 +2,16 @@
 title: Automātiskas rēķina izveides konfigurēšana
 description: Šajā tēmā sniegta informācija par to, kā konfigurēt sistēmu, lai automātiski izveidotu rēķinus.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122442"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992665"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Automātiskas rēķina izveides konfigurēšana
 
@@ -45,3 +43,6 @@ Lielapjoma izpildes darbs rēķinu izveidošanai ir kārtējais darbs. Ja šis p
 
 > [!NOTE]
 > Lielapjomu rēķinu izveide darbojas vienīgi projekta līguma rindām, kuras ir konfigurējuši rēķinu grafiki. Līguma rindai ar fiksētu cenas aprēķina metodi jābūt konfigurētiem atskaites punktiem. Projekta līguma rindai ar laika un materiālu aprēķinu metodi ir jābūt iestatītam datuma bāzes rēķina grafikam. Tas pats attiecas uz līguma rindu, kuras pamatā ir projekts.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

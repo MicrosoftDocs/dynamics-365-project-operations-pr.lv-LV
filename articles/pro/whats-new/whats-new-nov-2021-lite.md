@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
-ms.translationtype: HT
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827290"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942940"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Jaunumi 2021. gada novembrī - projekta operāciju lite izvietošana
 
 _Attiecas uz: Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šī tēma attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
+Šī tēma attiecas uz šādiem Microsoft komponentiem un versijām Dynamics 365 Project Operations:
 
-- Projekta operācijas Dataverse vides versijā 4.26.0.145, 4.26.0.148, vai 4.26.0.150
+- Projekta operācijas Dataverse vides versijā 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -30,7 +30,7 @@ _Attiecas uz: Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
-### <a name="project-operations-in-dataverse"></a>Projekta operācijas Dataverse
+### <a name="project-operations-in-dataverse"></a>Projekta operācijas programmā Dataverse
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |

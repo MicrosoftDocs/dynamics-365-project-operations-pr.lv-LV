@@ -2,24 +2,22 @@
 title: Laika ierakstu izvēršana
 description: Šajā tēmā ir sniegta informācija par to, kā izstrādātāji var izvērst laika ieraksta vadīklu.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124647"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993340"
 ---
 # <a name="extending-time-entries"></a>Laika ierakstu izvēršana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dynamics 365 Project Operations ir ietverta izvēršama laika ierakstu pielāgotā vadīkla. Šī vadīkla ietver tālāk uzskaitītos līdzekļus.
+Dynamics 365 Project Operations ietver paplašināmu laika ievades pielāgotu vadīklu. Šī vadīkla ietver tālāk uzskaitītos līdzekļus.
 
 - Laika ievadīšana horizontāli nedēļas tvērumā
 - Kopsummas pa dienām, rindām vai nedēļām
@@ -144,3 +142,6 @@ Izmantojiet spraudņu pārbaudes jebkādām pārbaudēm, kurām nepieciešams va
 
 ### <a name="copying-time-entries"></a>Laika ierakstu kopēšana
 Izmantojiet skatu **Kopēt laika ieraksta kolonnas**, lai definētu to lauku sarakstu, kas jākopē, ievadot laiku. **Datums** un **Ilgums** ir obligāti lauki, un tos nevar noņemt no skata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

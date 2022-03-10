@@ -2,8 +2,6 @@
 title: Izmaksu ievade
 description: Izmaksu ievade programmā Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b13aafffc2f418915ee7da7e3c9ec49230ec92d896cf8465557347c269df57f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080648"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988855"
 ---
 # <a name="enter-expenses-project-service"></a>Izmaksu ievade (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -57,3 +57,6 @@ Ievadiet savus izdevumus vismaz reizi nedēļā — vai tik bieži, cik to piep
   
 ### <a name="see-also"></a>Skatiet arī  
  [Laika, izmaksu un sadarbības ceļvedis](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

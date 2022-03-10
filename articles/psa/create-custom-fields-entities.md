@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998960"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992440"
 ---
 # <a name="create-custom-fields-and-entities"></a>Pielāgotu lauku un entītiju izveide 
 
@@ -43,7 +43,7 @@ Cenas noteikšanas dimensija var būt opciju kopa vai entītija. Abi ir jāizvei
 2. Risinājumu pārlūka kreisajā navigācijas rūtī atlasiet vienumu **Entītijas**.
 3. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu entītiju ar nosaukumu **Standarta nosaukums**. Ievadiet pārējo pieprasīto informāciju un pēc tam pieskarieties vienumam **Saglabāt**.
 
-> ![Standarta nosaukuma entītijas definīcija](media/Standard-Title-entity-definition.png)
+> ![Standarta nosaukuma entītijas definīcija.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Opciju kopas dimensijas 
@@ -54,9 +54,9 @@ Var izveidot divas opciju kopas dimensijas. Izmantojiet sadaļu **Resursa darba 
 2. Sadaļas Risinājumu pārlūks kreisajā navigācijas rūtī atlasiet vienumu **Opciju kopas**. 
 3. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu opciju kopu, ievadiet atlikušo nepieciešamo informāciju un pēc tam t uz **Saglabāt**.
 
-> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba vietu ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba vietu.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba stundām ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Opciju kopa atkarībā no cenas, ko sauc par Resursu darba stundām.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Datu izveide entītijai atbilstošām dimensijām
@@ -68,7 +68,7 @@ Entītijas dimensijām datus var izveidot manuāli vai izmantojot Microsoft Exce
 3. Aizveriet veidlapu. 
 4. Atkārtojiet 1.–3. darbību, lai izveidotu vēl vienu standarta nosaukumu “Vecākais sistēmas inženieris”.
 
-> ![Standarta nosaukuma entītijas datu paraugs ](media/ST-data.png)
+> ![Standarta nosaukuma entītijas datu paraugs.](media/ST-data.png)
 
 
 

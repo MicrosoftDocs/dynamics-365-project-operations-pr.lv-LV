@@ -2,18 +2,16 @@
 title: Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service
 description: Šajā tēmā ir sniegta informācija par konfigurācijas datu iestatīšanu un lietošanu programmā Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289828"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986635"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service 
 
@@ -23,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda šādi priekšnosacījumi:
+Pirms varat sākt datu konfigurēšanu Common Data Service (CDS), ir jāizpilda tālāk norādītie priekšnosacījumi.
 
 1.  Nodrošināt CDS vidi un Dynamics 365 Finance vidi risinājumam Project Operations.
 2.  Informācija par juridiskajām entītijām no Dynamics 365 Finance tiek kopīgota ar CDS vidi. Tas nozīmē, ka entītijai **Uzņēmums** pakalpojumā CDS ir šādi uzņēmumu ieraksti:
@@ -33,37 +31,44 @@ Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda
 
 ## <a name="install-setup-and-configuration-data"></a>Iestatīšanas un konfigurācijas datu instalēšana
 
-1. Lejupielādējiet, atbloķējiet un izgūstiet no ZIP arhīva [iestatīšanas un konfigurācijas datu pakotni](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Lejupielādējiet, atbloķējiet un izgūstiet no ZIP arhīva [iestatīšanas un konfigurācijas datu pakotni](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Pārejiet uz mapi, kas izgūta no ZIP arhīva, un palaidiet izpildāmo failu *DataMigrationUtility*.
 3. Common Data Service Konfigurēšanas migrācijas (CMT) vedņa 1. lapā atlasiet vienumu **Importēt datus** un pēc tam vienumu **Turpināt**.
 
-![Konfigurāciju migrēšana](./media/1ConfigurationMigration.png)
+![Konfigurāciju migrēšana.](./media/1ConfigurationMigration.png)
 
 4. CMT Wizard 2. lapā atlasiet **Microsoft 365** kā **Izvietošanas tips** vērtību.
 5. Atlasiet izvēles rūtiņas **Parādīt pieejamo organizāciju sarakstu** un **Rādīt opciju Papildus**.
 6. Atlasiet sava nomnieka reģionu, ievadiet akreditācijas datus un atlasiet **Pieteikties**.
 
-![Konfigurācijas pierakstīšanās](./media/2ConfigurationSignin.png)
+![Konfigurācijas pierakstīšanās.](./media/2ConfigurationSignin.png)
 
 7. 3. lappusē nomnieka organizāciju sarakstā atlasiet organizāciju, kurā vēlaties importēt demonstrācijas datus, un atlasiet **Pieteikties**.
 8. 4. lappusē no izpakotās mapes atlasiet .zip failu *SampleSetupAndConfigData*.
 
-![.zip faila atlase](./media/3ZipFile.png)
+![.zip faila atlase.](./media/3ZipFile.png)
 
-![Atlasīt failu](./media/4SelectAFile.png)
+![Atlasīt failu.](./media/4SelectAFile.png)
 
 9. Pēc tam, kad ir atlasīts zip fails, atlasiet vienumu **Importēt datus**.
 
-![Importēt datus](./media/5ImportData.png)
+![Datu importēšana.](./media/5ImportData.png)
 
 10. Atkarībā no tīkla ātruma importēšanas darbība notiek apmēram divas līdz desmit minūtes. Pēc importēšanas pabeigšanas izejiet no CMT vedņa. 
-11. Pārbaudiet savas organizācijas datus šajās 19 entītijās:
+11. Pārbaudiet savas organizācijas datus šajās 26 entītijās:
 
   - Valūta
+  - Uzņēmumu tabula
+  - Finanšu kalendārs
+  - Valūtas maiņas kursu tipi
+  - Maksājuma diena
+  - Maksājumu grafiks
+  - Maksājuma termiņš
   - Organizācijas vienība
-  - Kontaktinformācija
+  - Kontaktpersona
   - Nodokļu grupa
   - Klientu grupa
+  - Piegādātāju grupa
   - Vienība
   - Vienību grupa
   - Cenrādis
@@ -79,50 +84,50 @@ Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda
   - Rezervējamo resursu kategorijas saistība
   - Rezervējamā resursa īpašība
 
-![Pabeigt importēšanu](./media/6CompleteImport.png)
+![Importēšanas pabeigšana.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Project Operations konfigurāciju atjaunināšana
 
 1. Pārejiet uz CE vidi. To var atrast, atverot [Power Platform administrēšanas centru](https://admin.powerplatform.microsoft.com/environments), atlasot vidi un pēc tam atlasot **Atvērt vidi**. 
 
-![Atvērt vidi](./media/7OpenEnvironment.png)
+![Vides atvēršana.](./media/7OpenEnvironment.png)
 
 2. Atveriet sadaļas **Projekti** > **Resursi** un pēc tam atlasiet **Jauns**, lai savam lietotājam izveidotu rezervējamu resursu.
 
-![Rezervējamie resursi](./media/8BookableResources.png)
+![Rezervējamie resursi.](./media/8BookableResources.png)
 
 3. Cilnē **Vispārīgi** atlasiet savu lietotāju ar administratora atļaujām. Pārbaudiet, vai laika josla atbilst tai, kurā atrodaties. 
 
-![Jauns rezervējamais resurss](./media/9NewBookableResource.png)
+![Jauns rezervējamais resurss.](./media/9NewBookableResource.png)
 
 4. Cilnes **Plānošana** laukā **Uzņēmums** izvēlieties **USPM** uzņēmumu un pēc tam atlasiet **Saglabāt**. 
 
-![Cilne Plānošana](./media/10SchedulingTab.png)
+![Cilne Plānošana.](./media/10SchedulingTab.png)
 
 5. Atlasiet cilni **Darba stundas**.  
 
-![Darba stundas](./media/11WorkHours.png)
+![Darba stundas.](./media/11WorkHours.png)
 
 6. Veiciet dubultklikšķi uz jebkuras kalendārā ievadītās vērtības un atlasiet **Rediģēt** > **Visi sērijas notikumi**. 
 
-![Darba kalendārs](./media/12WorkCalendar.png)
+![Darba kalendārs.](./media/12WorkCalendar.png)
 
 7. Mainiet darba stundas uz astoņu (8) stundu darba dienu, atzīmējiet nedēļas nogales kā nestrādājamās dienas un pārliecinieties, vai laika josla atbilst jūsu laika joslai. 
 8. Atlasiet **Saglabāt un aizvērt**.
 
-![Atjaunināt kalendāru](./media/13UpdateCalendar.png)
+![Kalendāra atjaunināšana.](./media/13UpdateCalendar.png)
 
 9. Dodieties uz **Iestatījumi** > **Kalendāra veidnes** un atlasiet **Jauna**.
  
- ![Kalendāra veidnes](./media/14CalendarTemplates.png)
+ ![Kalendāra veidnes.](./media/14CalendarTemplates.png)
  
  10. Ievadiet nosaukumu, atlasiet izveidoto veidnes resursu un pēc tam atlasiet **Saglabāt**. 
  
- ![Saglabāt kalendāra veidni](./media/15SaveCalendarTemplate.png)
+ ![Kalendāra veidnes saglabāšana.](./media/15SaveCalendarTemplate.png)
  
  11. Dodieties uz **Parametri** un veiciet dubultklikšķi uz ieraksta. 
  
- ![Projekta parametri](./media/16ProjectParameters.png)
+ ![Projekta parametri.](./media/16ProjectParameters.png)
  
 12. Atjauniniet šos laukus:
 
@@ -133,7 +138,7 @@ Pirms datu konfigurēšanas pakalpojumā Common Data Service (CDS) ir jāizpilda
 
 13. Atlasiet vienumu **Saglabāt**. 
 
-![Atjaunināti projekta parametri](./media/17UpdatedProjectParameters.png)
+![Atjaunināti projekta parametri.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

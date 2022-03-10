@@ -2,8 +2,6 @@
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 12, V3
 description: Šajā tēmā ir sniegta informācija par to, kas jauns Project Service Automation atjauninājuma izlaidumā 12, 3. versijā
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58a12ded135712d8194499ce4a9ba9e4e2aa99bd
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 5f05488a652f7a699aaa5d8e644eae38d7083f404d3c461cdaabd1915b1a710a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949508"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004500"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation atjauninājumu izlaidums 12, V3
 

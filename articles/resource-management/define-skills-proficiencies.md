@@ -2,11 +2,9 @@
 title: Prasmju un metodiku definēšana
 description: Šajā tēmā sniegta informācija par to, kā iestatīt kvalifikācijas modeļus, lai novērtētu resursus.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e120f8c5a3d2dfaeb577652afcc1feac4cdc9e22f2f274e94bb674ea3fa52fed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080388"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988750"
 ---
 # <a name="define-skills-and-proficiencies"></a>Prasmju un metodiku definēšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Prasmes ir resursu īpašības, kas tiek kopīgotas programmā Dynamics 365 Project Operations un attiecīgajos gadījumos — programmā Dynamics 365 Field Service. 
+Prasmes ir resursu īpašības, kas tiek kopīgotas programmā Dynamics 365 Project Operations un attiecīgajos gadījumos programmā Dynamics 365 Field Service. 
 
 - Lai uzturētu prasmju krātuvi programmā Project Operations, atveriet sadaļu **Resursi** \> **Resursu prasmes**. 
 
@@ -42,3 +40,6 @@ Resursu prasmes vērtē atbilstoši kvalifikācijas modeļiem. Atsevišķi vērt
 
 
 Šīs vērtējuma vērtības tiek rādītas vienumu **Resursu prasības**, **Plānošanas panelis** un **Plānošanas palīgs** filtros.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

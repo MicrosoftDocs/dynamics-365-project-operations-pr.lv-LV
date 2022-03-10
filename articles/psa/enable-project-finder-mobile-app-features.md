@@ -2,8 +2,7 @@
 title: Programmas Project Finder Mobile funkciju iespējošana
 description: Programmas Project Finder Mobile funkciju iespējošana programmā Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,22 +17,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 749c5682dc2e639843a0a8a085fe8af65502d433
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080451"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004905"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Programmas Project Finder Mobile funkciju iespējošana (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Jūsu resursi var izmantot programmu Project Finder Mobile savā telefonā ar [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], lai atrastu jaunus darba projektus un atjauninātu savas prasmes.  
+Jūsu resursi var izmantot programmu Project Finder Mobile savā telefonā ar [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], lai atrastu jaunus darba projektus un atjauninātu savas prasmju kopas.  
   
  Programma ir pieejama [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] un [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] tālruņiem.  
-  
- Jums jāiestata pāris opciju parametru iestatījumā jūsu organizācijas vienībai, lai ļautu lietotājiem skatīt projekta resursu prasības un atjauninātu to prasmes.  
+    
+ Lai lietotāji varētu skatīt projekta resursa prasības un atjaunināt prasmes, jūsu organizācijas vienības parametru iestatījumos jābūt atlasītām opcijām.
   
 > [!NOTE]
 >  Project Finder Mobile programma darbojas tikai ar [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (ne ar lokālām instalācijām).  
@@ -46,22 +47,25 @@ Jūsu resursi var izmantot programmu Project Finder Mobile savā telefonā ar [!
   
 4. Iestatiet **Atļaut resursam prasmju atjaunināšanu** kā **Jā**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Šis ir globāls iestatījums. Projektu vadītāji var iestatīt, vai atsevišķs projektu būs redzamas tā projekta lapā **Projekta darba grupa**.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>E-pasta paziņojumi  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sūta e-pasta vēstules attiecībā uz resursu pieprasījumiem šādiem adresātiem šādos laikos.  
   
 |Adresāts|Pasākums|  
 |---------------|-----------|  
-|Projekta vadītājs|-   Kad resurss reģistrējas projektam, izmantojot programmu Project Finder Mobile.|  
-|Resurss|-   Kad cits resurss jau ir izpildījis projekta darbu, kam ir reģistrējies resurss.<br />-   Kad tiek apstiprināts vai noraidīts resursa prasmju apstiprinājuma pieprasījums.<br />-   Kad tiek apstiprināts vai noraidīts resursa reģistrēšanās projektam pieprasījums.|  
+|Projekta vadītājs|- Resurss pierakstās projektā ar Project Finder Mobile programmu.|  
+|Resursa|- Projekta darbu, kam resurss pieteicies, jau ir izpildījis cits resurss.<br />- Prasmju apstiprinājuma pieprasījums ir apstiprināts vai noraidīts.<br />- Pieteikšanās projektam pieprasījums ir apstiprināts vai noraidīts.|  
   
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

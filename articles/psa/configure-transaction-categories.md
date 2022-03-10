@@ -2,8 +2,6 @@
 title: Transakciju kategoriju konfigurēšana
 description: Transakciju kategoriju iestatīšana programmā Project Service
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d6261d375c91ec4ee0e1f0417fd611652817b38
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: a6f88f3f2a883a663c3594fa4a08cc9e170330ae30318c1b8f322cca6349bf3f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080477"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008685"
 ---
 # <a name="configure-transaction-categories-project-service"></a>Transakciju kategoriju konfigurēšana (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -41,3 +41,6 @@ Iestatiet transakciju kategorijas, lai noteiktu izmaksu kategoriju virskopu.
   
 ### <a name="see-also"></a>Skatiet arī  
  [Project Service konfigurēšana](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

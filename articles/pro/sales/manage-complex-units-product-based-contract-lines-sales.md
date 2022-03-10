@@ -2,24 +2,22 @@
 title: Produktu līgumu rindu kompleksu vienību pārvaldīšana — Lite
 description: Šajā tēmā ir sniegta informācija par to, kā atbalstīt uz abonementu balstītu produktu pārdošanu.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177385"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003375"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Produktu līgumu rindu kompleksu vienību pārvaldīšana — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Lai atbalstītu uz abonēšanu balstītu produktu pārdošanu, Dynamics 365 Project Operations izmanto daudzuma koeficientus. Uz abonēšanu balstītiem produktiem daudzums līgumā vai projekta līguma rindā tiek izteikts kā lietotāju mēnešu skaits.
+Dynamics 365 Project Operations, lai atbalstītu uz abonēšanu balstītu produktu pārdošanu, izmanto daudzuma koeficientus. Uz abonēšanu balstītiem produktiem daudzums līgumā vai projekta līguma rindā tiek izteikts kā lietotāju mēnešu skaits.
 
 Abonējamas programmatūras cena katalogā tiek glabāta kā cena vienam lietotājam vienā mēnesī. Pārdošanas procesa laikā cena līguma rindā parasti ir vienam lietotājam, viena mēneša cena, par kuru notika pārrunas un kuras atlaidi noteica IT pārdošanas aģents. Katram darījumam ir atšķirīgs lietotāju skaits un atšķirīgs abonēšanas mēnešu skaits. Daudzums, kas tiek izmantots līguma rindas summas aprēķināšanai, ir lietotāju skaita un abonēšanas mēnešu skaita reizinājums.
 
@@ -46,3 +44,6 @@ Lai no produkta rekvizītiem izveidotu daudzuma koeficientus, izpildiet tālāk 
 7. Atkārtojiet 2.–6. darbību visiem rekvizītiem, kas kopā veido produkta līguma rindai atbilstošo daudzumu.
 
 Ja ir iestatīti daudzuma koeficienti, tad, kad lietotājs veido līguma rindu šim produktam, līguma rindas daudzums ir slēgts. Pēc tam daudzums tiek aprēķināts kā šīs līguma rindas rekvizītu vērtību produkts.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

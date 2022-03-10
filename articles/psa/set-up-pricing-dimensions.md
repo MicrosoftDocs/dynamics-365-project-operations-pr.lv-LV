@@ -2,12 +2,10 @@
 title: Pielāgotu lauku kā cenu noteikšanas dimensiju iestatīšana
 description: Šajā tēmā ir sniegta informācija par pielāgotu cenu noteikšanas dimensiju iestatīšanu.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282477"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002340"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pielāgotu lauku kā cenu noteikšanas dimensiju iestatīšana 
 
@@ -43,11 +41,11 @@ Lai lauks kļūtu par cenas noteikšanas dimensiju, tam ir jābūt:
 - izveidotam kā lauks entītijās **Lomas cena** un **Lomu cenas uzcenojums**. Lai iegūtu plašāku informācijai par to, kā tas darāms, skatiet [Pielāgotu lauku pievienošana cenas iestatījumam un transakciju entītijām](field-references.md).
 - izveidotam kā rindai tabulā **Cenu noteikšanas dimensija**. Piemēram, pievienojiet cenu noteikšanas dimensiju rindas, kā parādīts šajā grafikā. 
 
-![Uz summu balstītas cenu noteikšanas dimensiju rindas](media/Amt-based-PD.png)
+![Uz summu balstītas cenu noteikšanas dimensiju rindas.](media/Amt-based-PD.png)
 
 Ņemiet vērā, ka Resursu darba stundas (**msdyn_resourceworkhours**) ir pievienotas kā uz uzcenojuma balstīta dimensija un ir pievienotas režģim cilnē **Uz uzcenojuma balstīta cenas noteikšanas dimensija**.
 
-![Uz uzcenojuma balstītas cenu noteikšanas dimensiju rindas](media/Markup-based-PD.png)
+![Uz uzcenojuma balstītas cenu noteikšanas dimensiju rindas.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Jebkādas izmaiņas cenu noteikšanas dimensiju datos šajā tabulā, esošas vai jaunas, tiek izplatītas Project Service cenu noteikšanas biznesa loģikā tikai pēc kešatmiņas atsvaidzināšanas. Kešatmiņas atsvaidzināšanas laiks var aizņemt līdz 10 minūtēm. Atvēliet šo laiku, lai skatītu izmaiņas cenas noklusējuma loģikā, kas izriet no izmaiņām Cenu noteikšanas dimensiju datos.
@@ -73,12 +71,12 @@ Pastāv divi cenu noteikšanas dimensiju tipi:
   
 | Loma        | Org. struktūrvienība    |Darba atrašanās vieta      |Standarta nosaukums      |Resursu darba stundas      |  Atzīmēt|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | “Contoso India”|Uz vietas            |                    |Virsstundas                 |15     |
-|             | “Contoso India”|Lokāls             |                    |Virsstundas                 |10     |
-|             | Contoso ASV   |Lokāls             |                    |Virsstundas                 |20     |
+|             | Contoso India|Uz vietas            |                    |Virsstundas                 |15     |
+|             | Contoso India|Lokāls             |                    |Virsstundas                 |10     |
+|             | Contoso US   |Lokāls             |                    |Virsstundas                 |20     |
 
 
-Ja resurss no “Contoso India”, kura pamatlikme ir 100 USD, strādā uz vietas un laika ierakstā norāda 8 stundas Parasta darbadienas laika un 2 virsstundas, Project Service cenu noteikšanas programma izmantos pamatlikmi 100 uz 8 stundām, lai ierakstītu 800 USD. 2 virsstundām tiks lietots 15% uzcenojums pamatlikmei 100, iegūstot vienības cenu 115 USD apmērā un ierakstot kopējās izmaksas 230 USD apmērā.
+Ja resurss no Contoso India, kura pamatlikme ir 100 USD, strādā uz vietas un laika ierakstā norāda 8 stundas Parasta darbadienas laika un 2 virsstundas, Project Service cenu noteikšanas programma izmantos pamatlikmi 100 uz 8 stundām, lai ierakstītu 800 USD. 2 virsstundām tiks lietots 15% uzcenojums pamatlikmei 100, iegūstot vienības cenu 115 USD apmērā un ierakstot kopējās izmaksas 230 USD apmērā.
 
 ### <a name="applicable-to-cost"></a>Piemērojams izmaksām 
 Ja iestatīts uz **Jā**, tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** izmaksu un uzcenojuma likmju izgūšanas laikā.

@@ -2,18 +2,17 @@
 title: Plānošanas asistenta pārskats
 description: Šajā tēmā ir sniegta informācija par darbu ar plānošanas palīgu resursu rezervēšanai.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125637"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990235"
 ---
 # <a name="schedule-assistant-overview"></a>Plānošanas asistenta pārskats
 
@@ -25,7 +24,7 @@ Kad ir identificēti piemēroti resursi, resurss vai projekta vadītājs var rez
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Plānošanas palīgs ir risinājuma Universal Resource Scheduling daļa. Šis risinājums ir iekļauts un instalēts kopā ar Dynamics 365 Project Operations, Dynamics 365 Field Service un Dynamics 365 Customer Service.
+Plānošanas palīgs ir risinājuma Universal Resource Scheduling daļa. Šis risinājums tiek iekļauts un instalēts kopā ar Dynamics 365 Project Operations, Dynamics 365 Field Service un Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Prasības un atbilstošu resursu meklēšana
 
@@ -57,3 +56,6 @@ Filtrēšanas rūtī tiek rādītas ar darbu saistītas opcijas, tostarp:
 -   Resursu uzņēmums
 -   Resursu tipi
 -   Vēlamie resursi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

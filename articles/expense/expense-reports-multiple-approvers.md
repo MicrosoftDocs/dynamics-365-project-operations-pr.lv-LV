@@ -2,11 +2,9 @@
 title: Izdevumu atskaites un vairāki apstiprinātāji
 description: Šajā tēmā sniegta informācija par izdevumu atskaitēm, kurām ir nepieciešams vairāk nekā vienas personas apstiprinājums.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9826c89e9deb870adb053f82bd049906f56052
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 2acae2d518a02539f01d5498450236999fe609d1e8f26b5f90e18b986b83cab1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276537"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988435"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Izdevumu atskaites un vairāki apstiprinātāji
 

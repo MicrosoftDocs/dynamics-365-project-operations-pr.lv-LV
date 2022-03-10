@@ -2,18 +2,17 @@
 title: Project Operations scenāriju, kas balstīti uz resursiem/produktiem, izvietošanas pārskats
 description: Šajā tēmā ir sniegta informācija par izvietošanas veidu Project Operations scenārijiem, kas balstīti uz resursiem/produktiem.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8ffbcb326e5cd86c49b3b3b27ce7d68404a6842b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289243"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009090"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations scenāriju, kas balstīti uz resursiem/produktiem, izvietošanas pārskats
 

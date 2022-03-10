@@ -2,8 +2,6 @@
 title: Laika un izdevumu apstiprināšana
 description: Laika un izdevumu apstiprināšana programmā Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 0c4ea0393b961d444a65c3ea50287b922ff95a322645844927ce9379fdb7e6b1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127122"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005040"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Laika un izdevumu apstiprināšana (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,3 +45,6 @@ Pēc tam, kad konsultantu ievadījuši savu laiku un izdevumus projektam, jums n
   
 ### <a name="see-also"></a>Skatiet arī  
  [Projekta vadītāja rokasgrāmata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

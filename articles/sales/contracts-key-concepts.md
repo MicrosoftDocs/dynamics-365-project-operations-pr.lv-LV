@@ -1,25 +1,25 @@
 ---
-title: Pamata koncepti — projekta līgumi
+title: Projektu līgumi — pamata koncepti
 description: Šajā tēmā sniegta informācija par projekta līgumu pamata konceptiem risinājumā Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080380"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986950"
 ---
-# <a name="key-concepts---project-contracts"></a>Pamata koncepti — projekta līgumi
+# <a name="concepts-unique-to-project-based-contracts"></a>Projektu līgumiem raksturīgie koncepti
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā tēmā minēti galvenie jēdzieni, kas jāzina, pirms sākat lietot projekta līgumos risinājumā Dynamics 365 Project Operations.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Šajā tēmā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus programmā Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Atbildīgais uzņēmums
 
@@ -86,3 +86,6 @@ Rēķinu izrakstīšanas grafiki ir specifiski katrai līguma rindai un ir nepie
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Izmaiņas no Dynamics 365 Sales pasūtījumiem
 
 Project Operations līgumi ir veidoti, izmantojot Dynamics 365 Sales pasūtījumus. Tomēr ir būtiskas novirzes un atšķirības funkcionalitātē. Līgumiem ir savas veidlapas un lietotāja interfeisa elementi, biznesa kārtulas, biznesa loģika spraudņi, kā arī klienta puses skripti, kas atšķir tos no pasūtījumiem. Šo iemeslu dēļ pārdošanas pasūtījumu un Project Operations līgumu nedrīkst izmantot kā savstarpējus aizstājējus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

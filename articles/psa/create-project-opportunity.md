@@ -2,8 +2,6 @@
 title: Izveidot projekta iespēju
 description: Projekta iespējas izveide programmā Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57f85549154455f538cbdf3cde11989064968334
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fc24b0f3f6091f1a81b83d5bea61dfd2fd5a4ff6e4fdc6ec206f15460f364db1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002700"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Projekta iespējas izveide (Project Service)
 
@@ -39,7 +37,7 @@ Iespējas ir potenciāli ieinteresētie klienti, kas vēlas iegūt informāciju 
   
 3.  Zonā **Kopsavilkums** ievadiet informāciju par iespējas uzņēmumu un citus datus.  
   
-4.  Pievienojiet ar šo interesentu saistītas piezīmes vai darbības (piemēram, tālruņa sarunas vai e-pasta ziņojumus). Sīkāku informāciju par piezīmju pievienošanu un darbībām skatiet sadaļā [Piezīmju, uzdevumu, zvanu vai e-pasta ziņojumu izsekošana ar darbībām](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Pievienojiet ar šo interesentu saistītas piezīmes vai darbības (piemēram, tālruņa sarunas vai e-pasta ziņojumus). Sīkāku informāciju par piezīmju pievienošanu un darbībām skatiet sadaļā [Piezīmju, uzdevumu, zvanu vai e-pasta ziņojumu izsekošana ar darbībām](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Lai zonā **Ieinteresētās puses** pievienotu informāciju par ieinteresētajām pusēm, noklikšķiniet uz **+**.  
   
@@ -55,3 +53,6 @@ Iespējas ir potenciāli ieinteresētie klienti, kas vēlas iegūt informāciju 
   
 ### <a name="see-also"></a>Skatiet arī  
  [Uzņēmumu pārvaldnieka rokasgrāmata](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

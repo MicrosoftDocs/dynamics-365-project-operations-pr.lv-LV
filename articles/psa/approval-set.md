@@ -1,5 +1,5 @@
 ---
-title: Apstiprināšanas kopas
+title: Project Service Automation apstiprināšanas kopas
 description: Šajā tēmā ir sniegta informācija par apstiprināšanas kopu, pieprasījumiem un šo darbību apakškopām.
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ac73313420029ece740d0bdb9c21c7abaa9defc6
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116880"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323560"
 ---
-# <a name="approval-sets"></a>Apstiprināšanas kopas
+# <a name="approval-sets-in-project-service-automation"></a>Project Service Automation apstiprināšanas kopas
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

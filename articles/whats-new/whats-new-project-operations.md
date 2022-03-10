@@ -2,11 +2,9 @@
 title: Jaunumi Projekta darbībās
 description: Šajā tēmā ir sniegta informācija par jaunajiem līdzekļiem un funkcionalitāti risinājumā Microsoft Dynamics 365 Projekta darbības.
 author: ruhercul
-manager: AnnBe
 ms.date: 06/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,11 +15,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 15cacd6956196e6c9b0e3434acb75580ff66a292
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 5e0ecbe425495c33bdd8a67cc44f65afc5aec31508a380c67e0a698effc22e9b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080410"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008010"
 ---
 # <a name="whats-new-in-project-operations"></a>Jaunumi Projekta darbībās
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Darbs ar programmas Project Service Automation datu modeli
 description: Šajā tēmā ir sniegta informācija par to, kā strādāt ar datu modeli.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9bceb96153f0e9f5c0d40478baf691220de95f27
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642687"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002430"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Darbs ar programmas Project Service Automation datu modeli
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
@@ -53,7 +53,7 @@ PSA arī pievieno jaunas ar piedāvājumu saistītas entītijas Dynamics 365 da
 
 Citas entītijas, ko PSA pievieno piedāvājumiem, ir **Piedāvājuma rindas projekta cenrādis**, **Piedāvājuma rindas resursu kategorija** un **Piedāvājuma rindas transakcijas kategorija**.
 
-![Shēma, kurā redzamas piedāvājuma, piedāvājuma rindas un projekta relācijas](media/PS-Reporting-image2.png "Shēma, kurā redzamas piedāvājuma, piedāvājuma rindas un projekta relācijas")
+![Shēma, kurā redzamas piedāvājuma, piedāvājuma rindas un projekta relācijas.](media/PS-Reporting-image2.png "Shēma, kurā redzamas piedāvājuma, piedāvājuma rindas un projekta relācijas")
 
 ## <a name="reporting-on-project-contracts"></a>Atskaišu izveide par projekta līgumiem
 
@@ -69,7 +69,7 @@ PSA pievieno arī jaunas entītijas, kas ir paredzētas projekta līgumiem. Lūk
 
 Citas entītijas, ko PSA pievieno līgumiem, ir **Projekta līguma rindas projekta cenrādis**, **Projekta līguma rindas resursu kategorija** un **Projekta līguma rindas transakcijas kategorija**.
 
-![Shēma, kurā redzamas pasūtījuma, pasūtījuma rindas un projekta relācijas](media/PS-Reporting-image3.png "Shēma, kurā redzamas pasūtījuma, pasūtījuma rindas un projekta relācijas")
+![Shēma, kurā redzamas pasūtījuma, pasūtījuma rindas un projekta relācijas.](media/PS-Reporting-image3.png "Shēma, kurā redzamas pasūtījuma, pasūtījuma rindas un projekta relācijas")
 
 ## <a name="reporting-on-projects"></a>Atskaišu izveide par projektiem
 
@@ -81,7 +81,7 @@ Entītija **Projekts** un tās saistītās entītijas tiek izmantotas tikai prog
 - **Resursu vajadzība** — šī entītija ietver prasības attiecībā uz vispārējās resursu grupas dalībniekiem.
 - **Novērtējums** un **Novērtējuma rinda** — šīm entītijām ir virsraksta/rindas attiecības, un tās ietver projekta izdevumu novērtējumus. Uzdevuma novērtējumi tiek glabāti entītijā **Resursu prognoze**.
 
-![Shēma, kurā redzamas resursa prasību un projekta relācijas](media/PS-Reporting-image4.png "Shēma, kurā redzamas resursa prasību un projekta relācijas")
+![Shēma, kurā redzamas resursa prasību un projekta relācijas.](media/PS-Reporting-image4.png "Shēma, kurā redzamas resursa prasību un projekta relācijas")
 
 ## <a name="reporting-on-resources"></a>Atskaišu izveide par resursiem
 
@@ -92,7 +92,7 @@ Projekta resursi izmanto entītijas **Rezervējamais resurss** no Universal Reso
 - **Rezervējamo resursu kategorija** — šī entītija norāda rezervējamā resursa lomu.
 - **Rezervējamo resursu rezervācijas** — šī entītija norāda laiku, kas attiecīgajam resursam ir rezervēts projektiem. Katrai rezervācijai ir gan virsraksta entītija, gan rindas entītijas, un katrai rindai ir statuss, kas norāda rezervācijas statusu.
 
-![Shēma, kurā parādītas rezervējamo resursu raksturlielumu relācijas](media/PS-Reporting-image5.png "Shēma, kurā parādītas rezervējamo resursu raksturlielumu relācijas")
+![Shēma, kurā parādītas rezervējamo resursu raksturlielumu relācijas.](media/PS-Reporting-image5.png "Shēma, kurā parādītas rezervējamo resursu raksturlielumu relācijas")
 
 ## <a name="reporting-on-actual-transactions"></a>Atskaišu izveide par faktiskajām transakcijām
 
@@ -120,4 +120,7 @@ Strādājot ar entītiju **Faktiski**, ir svarīgi saprast, kādas transakcijas 
 
 Entītija **Transakcijas izcelsme** reģistrē ieraksta **Faktiski** izcelsmi, un entītija **Transakcijas savienojums** reģistrē ieraksta **Faktiski** saistītos ierakstus. Turklāt ieraksts **Faktiski** ietver atsauces uz projektu, projekta līgumu (pasūtījumu), rezervējamo resursu un klientu.
 
-![Shēma, kurā parādītas transakciju savienojumu, izcelsmes un faktiskās relācijas](media/PS-Reporting-image6.png "Shēma, kurā parādītas transakciju savienojumu, izcelsmes un faktiskās relācijas")
+![Shēma, kurā parādītas transakciju savienojumu, izcelsmes un faktiskās relācijas.](media/PS-Reporting-image6.png "Shēma, kurā parādītas transakciju savienojumu, izcelsmes un faktiskās relācijas")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

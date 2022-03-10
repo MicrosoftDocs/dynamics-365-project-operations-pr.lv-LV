@@ -2,8 +2,6 @@
 title: Projektu veidnes
 description: Šajā tēmā ir sniegta informācija par to, kā ātrai projekta iestatīšanai var izmantot projektu veidnes.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bb82a312114e9814f5ce65a1698455582fd252e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080606"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002520"
 ---
 # <a name="project-templates"></a>Projektu veidnes 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -47,7 +47,7 @@ Projektu var izveidot no projekta veidnes vairākos tālāk norādītajos veidos
 
 - Kad veidojat projektu no piedāvājuma, varat atlasīt projekta veidni dialoglodziņā **Ātrā izveide: Projekts**.
 
-> ![Dialoglodziņš Ātrā izveide: Projekts](media/project-11.png)
+> ![Dialoglodziņš Ātrā izveide: Projekts.](media/project-11.png)
 
 - Kad projektu veidojat, atlasot vienumu **Jauns projekts**, pirms ieraksta saglabāšanas tiek parādīta lapa **Projekts**. Laukā **Izvēlēties veidni** atlasiet vienu no organizācijā esošajām iepriekš definētajām veidnēm.
 - Izmantojiet vienumu **Izveidot projektu no veidnes** lapā **Veidnes entītija**.
@@ -67,3 +67,6 @@ Kad kopēšanu veicat starp projekta tāmju rindām, cenrāži tiek atjaunināti
 ### <a name="copying-a-project-team"></a>Projekta darba grupas kopēšana
 
 Kad projekta darba grupa tiek kopēta no projekta veidnes uz projektu, tiek kopēti vispārējie resursi kopā ar veidnē definētajām prasmēm un kvalifikācijām. Arī vispārējo resursu piešķires tiek paturētas tādas, kādas tās bija projekta veidnē. Nosauktie resursi projektu veidnēs netiek atbalstīti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

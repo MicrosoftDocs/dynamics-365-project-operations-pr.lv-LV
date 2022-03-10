@@ -2,27 +2,25 @@
 title: Projekta piedāvājuma iestatījumi
 description: Šajā tēmā ir sniegta informācija par iestatījumiem un informāciju, kas attiecas uz projekta piedāvājumiem un ietekmē tos.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 3f11188a47c6f0c7de9fb591fd3be3e22f8f7d842fb6d075c1f43d9baea4d225
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180246"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993475"
 ---
-# <a name="project-quote-settings"></a>Projekta piedāvājuma iestatījumi
+# <a name="header-details-for-project-based-quotes"></a>Projektu piedāvājumu virsraksta informācija
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 
 Šajā rakstā izskaidrota informācija, kas attiecas uz projekta piedāvājumu. Tajā ir iekļauti iestatījumi, kas ietekmē visas piedāvājuma rindas, un informācija par piedāvājumu, kas ir apkopota visos rindas vienumos, lai vadītu projekta piedāvājuma KPI.
 
-Tālāk sniegtajā tabulā ir uzskaitīti tie kopsavilkuma informācijas lauki projekta piedāvājumā, kas ir unikāli Dynamics 365 Project Operations vai kuriem ir dažas būtiskas izmaiņas darbībā atšķirībā no Dynamics 365 Sales piedāvājumiem.
+Nākamajā tabulā ir uzskaitīti kopsavilkuma informācijas lauki projekta piedāvājumam, kas ir unikāli vai kam ir dažas svarīgas darbības izmaiņas Dynamics 365 Project Operations Dynamics 365 Sales piedāvājumos.
 
 | **Lauks** | **Atrašanās vieta** | **Apraksts** | **Lejupstraumes ietekme** |
 | --- | --- | --- | --- |
@@ -43,3 +41,6 @@ Tālāk ir norādītas cilnes un KPI, kas ir pieejami projekta piedāvājumā un
 | Ienesīguma analīze | Cilne piedāvājumā | Cilnē ir redzamas šādas metrikas:</br>- Kopējās rēķinā iekļaujamās izmaksas</br></br>- Kopējās rēķinā neiekļaujamās izmaksas</br>- Kopējie ieņēmumi</br>- Kopējie ieņēmumi (pamatvalūtā)</br>- Bruto peļņa</br>- Koriģētā bruto peļņa|
 | Salīdzinājums ar klienta vēlmju robežām | Cilne piedāvājumā | Šajā cilnē ir redzamas šādas metrikas:</br>- Prognozējamā pabeigšana</br>- Pieprasītā pabeigšana</br>- Klienta budžets</br>- Piedāvātā vērtība |
 | Piedāvājuma analīze | Cilne piedāvājumā | Šajā cilnē ir apkopota informācija par projekta piedāvājuma galvenajiem KPI</br>- Salīdzinājumā ar klientu vēlmēm attiecībā uz budžetu un grafiku</br>- Bruto peļņa</br>- Koriģētā bruto peļņa |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

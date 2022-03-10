@@ -2,18 +2,16 @@
 title: Darba grupas dalībnieku pievienošana no darba grupas dalībnieku režģa
 description: Šajā tēmā ir sniegta informācija par to, kā varat pārvaldīt grupas dalībnieku resursus.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080322"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008415"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Darba grupas dalībnieku pievienošana no darba grupas dalībnieku režģa
 
@@ -200,3 +198,6 @@ Kad laiku skatāties augstākos līmeņos, šūnām cilnē **Saskaņošana** ir 
 Ja jums ir uzdevumu piešķires kādam resursam, bet nav nevienas rezervācijas, veidlapā **Projekti**, cilnē **Saskaņošana** atlasiet rezervāciju deficītu un pēc tam atlasiet vienumu **Paplašināt rezervāciju**. Tiek parādīts dialoglodziņš **Paplašināt rezervāciju**, un tajā ir redzama rezervācija, kura ir nepieciešama, lai novērstu šo resursu deficītu. Dialoglodziņā redzamas arī resursu esošās rezervācijas visos projektos vai citos plānojamos elementos. Ja atlasāt **Labi**, lai izveidotu rezervāciju attiecīgajam resursam neatkarīgi no šī resursa pieejamības, varat izraisīt virsrezervāciju.
 
 Pēc tam Projektu vadītājs vai Resursu pārvaldnieks var izmantot plānošanas paneli, lai pārvaldītu visas situācijas, kur resursa rezervācija pārsniedz tā noslodzi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

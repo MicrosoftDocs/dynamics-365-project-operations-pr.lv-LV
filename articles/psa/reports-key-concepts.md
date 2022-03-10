@@ -2,8 +2,6 @@
 title: Galvenie jēdzieni
 description: Šajā tēmā ir sniegta informācija par galvenajiem resursu pārvaldības jēdzieniem programmā Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 704aadab3dd1b8b3e22ecdb15cf97cc7cbba1a23
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283332"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995095"
 ---
 # <a name="key-concepts"></a>Galvenie jēdzieni
 

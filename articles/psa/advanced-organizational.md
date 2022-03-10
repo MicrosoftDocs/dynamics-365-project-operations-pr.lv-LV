@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009625"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005085"
 ---
 # <a name="organizational-units"></a>Organizācijas struktūrvienības 
 
@@ -53,7 +53,7 @@ Programmā PSA organizācijas struktūrvienībai ir divas lomas.
 - **Līgumslēdzēja struktūrvienība** — organizācijas struktūrvienība, kas pārstāv uzņēmuma grupu vai nodaļu, kas ir primāri atbildīga par pārdošanas darījuma iegūšanu, kā arī darba un pakalpojumu sniegšanas klientam pārvaldību. Līgumslēdzēja struktūrvienību norāda lauks **Līgumslēdzēja struktūrvienība** lapu **Iespēja**, **Piedāvājums**, **Projekta līgums** un **Projekts** virsraksta sadaļā.
 - **Resursu struktūrvienība** — organizācijas struktūrvienība, kam pieder vai ir piešķirts resurss. Šī organizācijas struktūrvienība tās resursiem var nodrošināt atsevišķas lomas darba paziņojumos (SOW) un projektos, kas pieder līgumslēdzējai struktūrvienībai.
 
-> ![Līgumslēdzēja struktūrvienības un resursu struktūrvienības](media/advanced-1.png)
+> ![Līgumslēdzēja struktūrvienības un resursu struktūrvienības.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Bieži uzdotie jautājumi par organizācijas struktūrvienību
 

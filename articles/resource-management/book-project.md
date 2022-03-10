@@ -2,18 +2,16 @@
 title: Rezervēt projektam
 description: Šajā tēmā ir sniegta informācija par to, kā rezervēt resursu projektā.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131082"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994915"
 ---
 # <a name="book-to-a-project"></a>Rezervēt projektam
 
@@ -66,3 +64,6 @@ Jums kā Projekta vadītājam, iespējams, jārezervē resurss projektam, bet ju
 
 > [!NOTE]
 > Šī metode neveido nekādas resursa rezervācijas. Tā vietā resurss tiek pievienots darba grupai. Pēc tam, kad darba grupas dalībnieks ir pievienots projektam, projekta vadītājs var izmantot opcijas uzturēt rezervācijas vai pagarināt rezervācijas, lai resursam pievienotu nepieciešamās rezervācijas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

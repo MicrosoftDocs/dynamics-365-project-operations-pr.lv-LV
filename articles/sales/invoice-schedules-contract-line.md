@@ -2,18 +2,16 @@
 title: Rēķina grafika izveidošana projekta līguma rindā
 description: Šajā tēmā ir sniegta informācija par rēķinu grafiku un atskaites punktu izveidi līguma rindās.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180786"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999685"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Rēķina grafika izveidošana projekta līguma rindā 
 
@@ -49,7 +47,7 @@ Izpildiet tālāk aprakstītās darbības, lai izveidotu atskaites punktu rēķi
 3. Atveriet līguma rindu **Fiksēta cena**, kurai izveidojat atskaites punktu grafiku. Cilnē **Norēķinu atskaites punkti** atlasiet norēķinu sākuma datumu un rēķinu biežumu. 
 4. Apakšrežģī atlasiet vienumu **Izveidot periodiskos atskaites punktus**. Rēķinu grafiks tiek ģenerēts ar šādi iestatītiem laukiem **Atskaites punkta nosaukums**, **Atskaites punkta datums** un **Atskaites punkta summa**.
 
-    - **Atskaites punkta nosaukums**: šis ir datums, ko nosaka, pamatojoties uz rēķinu biežumu.
+    - **Atskaites punkta nosaukums**: šo nosaukumu nosaka rēķinu izrakstīšanas biežums.
     - **Atskaites punkta datums**: šis ir datums, ko nosaka, pamatojoties uz rēķinu biežumu.
     - **Atskaites punkta summa**: šī summa tiek aprēķināta, dalot līguma summu līguma rindā ar atskaites punktu skaitu, kas noteikts pēc biežuma, un norēķinu sākuma datuma un pieprasītajiem izpildes datumiem.
 
@@ -74,3 +72,6 @@ Jūs varat ģenerēt fiksētas cenas atskaites punktus manuāli, ja tie nav peri
 | Nodoklis | Ātrā izveide | Atskaites punktam lietotā nodokļu summa. | Tas tiek nodots arī projekta līguma rindas atskaites punktam un rēķinam. |
 
 3. Atlasiet vienumu **Saglabāt un aizvērt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025783"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547118"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations duālās rakstīšanas kartes versijas
 
@@ -32,7 +32,7 @@ Risinājumā Project Operations nepieciešamie priekšnosacījumi ir tālāk uzs
 
 1. Karšu sarakstā atlasiet karti Virsgrāmata **(msdyn\_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. Laukā **Sākotnējās sinhronizācijas šablons** atlasiet **Finance and Operations programmas** gan virsgrāmatas kartei, gan visām priekšnosacījuma kartēm. Atlasiet **Izpildīt**.
 
-![Virsgrāmatas kartes sinhronizācija](media/DW6.png)
+![Virsgrāmatas kartes sinhronizācija.](media/DW6.png)
 
 2. Veiciet tās pašas darbības visām pārējām tabulā iekļautajām tabulu kartēm, kas uzskaitītas iepriekš. Neatzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**, palaižot šīs kartes.
 
@@ -49,8 +49,8 @@ Risinājumā Project Operations nepieciešamas tālāk uzskaitītās kartes. Ar 
 | Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. |
 | Projekta rēķinu priekšlikumi V2 (invoices) | 1.0.0.3 | Nav nepieciešama nodrošināšanai. |
 | Project Operations integrācijas faktiskie dati (msdyn_actuals) | 1.0.0.14 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas līguma rindu atskaites punkti (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn_estimateslines) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. |
+| Project Operations integrācija līguma rindas atskaites punktos (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. |
+| Project Operations integrācijas entītija izmaksu aprēķiniem (msdyn_estimatelines) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. |
 | Project Operations integrācijas entītija stundu aprēķiniem (msdyn_resourceassignments) | 1.0.0.5 | Nav nepieciešama nodrošināšanai. |
 | Project Operations integrācijas projekta izdevumu kategorijas eksporta entītija (msdyn_expensecategories) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. |
 | Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn_expenses) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. |
@@ -65,7 +65,7 @@ Izpildiet tālāk norādītās darbības, lai palaistu sarakstā norādītās ka
 
 1. Iespējojiet projekta resursu lomas tabulas kartei **visi uzņēmumi (bookableresourcecategories)**, jo šai kartei ir nepieciešama sākotnējā sinhronizācija. Laukā **Sākotnējās sinhronizācijas šablons** atlasiet **Common data service**. 
 
- ![Resursu lomu tabulu karšu sinhronizācija](media/6ResourceInitialSync.jpg)
+ ![Resursu lomu tabulu karšu sinhronizācija.](media/6ResourceInitialSync.jpg)
 
  Pirms pāriešanas uz nākamo darbību nogaidiet, līdz kartes statuss ir **Darbojas**.
 

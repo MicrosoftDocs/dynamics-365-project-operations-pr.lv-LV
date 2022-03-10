@@ -2,11 +2,9 @@
 title: Projekta izdevumu kategoriju sinhronizēšana starp Finance and Operations un Project Service Automation
 description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta izdevumu kategoriju sinhronizēšanai starp Microsoft Dynamics 365 Finance un Dynamics 365 Project Service Automation.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289648"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001125"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekta izdevumu kategoriju sinhronizēšana starp Finance and Operations un Project Service Automation
 
@@ -58,7 +56,7 @@ Ja projekta izmaksu kategorijas ir apstrādātas risinājumā Project Service Au
 
 Nākamajā ilustrācijā parādīts, kā dati tiek sinhronizēti starp Project Service Automation un Finance.
 
-[![Datu plūsma Project Service Automation integrācijai ar Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Datu plūsma Project Service Automation integrācijai ar Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Projekta izdevumu kategoriju sinhronizēšana no Finance uz Project Service Automation
 
@@ -95,7 +93,7 @@ Kad veicat sinhronizēšanu uz Project Service Automation, ir jāizmanto Microso
 
 Nākamajā ilustrācijā ir redzams piemērs no veidnes uzdevumu kartējuma datu integrācijā. Kartējumā tiek parādīta lauka informācija, kas tiks sinhronizēta no Finance uz Project Service Automation.
 
-[![Projekta izdevumu kategorija Project Service Automation veidnes kartēšanai](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Projekta izdevumu kategorija Project Service Automation veidnes kartēšanai.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Projekta izdevumu kategoriju sinhronizēšana no Project Service Automation uz Finance
 
@@ -123,7 +121,7 @@ Nākamajā ilustrācijā ir redzams piemērs no veidnes uzdevumu kartējuma datu
 > [!NOTE]
 > Kartējumā tiek parādīta lauka informācija, kas tiks sinhronizēta no Project Service Automation uz Finance.
 
-[![Project Service Automation Finance veidnes kartēšanai](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Project Service Automation Finance veidnes kartēšanai.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

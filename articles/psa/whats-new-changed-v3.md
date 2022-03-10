@@ -1,8 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation 3. versijā
 description: Šajā tēmā ir sniegta informācija par to, kas jauns un mainīts Project Service Automation 3. versijā.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2388aedec25915b3d364001fed11ca537b0f5507
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281127"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987085"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Kas jauns vai mainīts Project Service Automation 3. versijā
 
@@ -38,7 +36,7 @@ ms.locfileid: "5281127"
 ## <a name="project-scheduling"></a>Projekta plānošana
 Projekta plāns, kas iepriekšējās versijās tika dēvēts par darba sadalījuma struktūru (WBS), ir pārdēvēts par plānu un ir pieejams, noklikšķinot uz cilnes **Plāns**. 
 
-![Projekta plāns](media/psa-schedule-01.png)
+![Projekta plāns.](media/psa-schedule-01.png)
 
 Grafikā tagad ir jauna virsma mijiedarbībai, kas ir gan mūsdienīga, gan pieejama. Tomēr pamata Project Service Automation plānošanas programma nav mainījusies. Vadības pogas grafika režģa lentē ļauj mijiedarboties ar grafiku līdzīgi kā iepriekšējā Project Service Automation versijā. Plānā ir šādas papildu izmaiņas.
 
@@ -97,22 +95,22 @@ Ja pārvietojot uz priekšu esoša projekta plānu, notiek tālāk minētās dar
 ## <a name="estimates"></a>Prognozes
 Prognozes ir sadalītas divās cilnēs: **Resursu piešķires** un **Prognozes**. Cilne **Resursu piešķires** satur darba prognozes un parāda uzdevumu resursu piešķires uzdevumiem laika periodu skatā. Prognozes var rediģēt, pamatojoties uz to, ko ģenerējusi plānošanas programma.
 
-![Resursu piešķires cilnes parāda darba prognozes un resursu piešķires uzdevumiem](media/resource-assignments-tab-02.png)
+![Resursu piešķires cilnes parāda darba prognozes un resursu piešķires uzdevumiem.](media/resource-assignments-tab-02.png)
 
 Cilne **Prognozes** parāda resursu piešķires izmaksas un pārdošanas summas. Summām ir tikai lasāms statuss. Izmaksas un pārdošanas cenas tagad tiek vadītas no darba grupas dalībnieka piešķirēm plānā. Tas nozīmē, ja jums ir uzdevums bez piešķires, uzdevums tiks parādīts pie nepiešķirta intervāla. Tas nozīmē arī to, ka bez **lomas**, kas ir noklusējuma izcenojuma dimensija, nebūs prognozēto izmaksu vai pārdošanas, ja ar šo projektu ir saistīts klients vai līgums / piedāvājums. 
 
-![Prognožu cilnes parādītas izmaksas un pārdošanas summas](media/estimates-tab-03.png)
+![Prognožu cilnes parādītas izmaksas un pārdošanas summas.](media/estimates-tab-03.png)
   
 Kategorija tiek atbalstīta arī uzdevumiem plānošanas skatā. Grupējot pēc kategorijas prognožu laika periodu skatā, tiek nodrošināta labāka pieredze, īpaši, ja projektā ir arī izdevumu prognozes. Izdevumu prognozes tiek ievadītas, izmantojot režģi atsevišķā cilnē. 
 
 Izdevumu prognozes var ievadīt režģī cilnē **Izdevumu prognozes**. 
 
-![Izdevumu prognožu cilnes parādīts izdevumu prognožu režģis](media/expense-estimates-tab-04.png)
+![Izdevumu prognožu cilnes parādīts izdevumu prognožu režģis.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Resursu pārvaldība
 Project Service Automation 3. versijā, izmantojot jauno vienotā klienta lietotāja interfeisu un izmaiņas attiecībās starp rezervācijām un piešķirēm, personāla komplektēšana projektam ar vispārējiem vai reāliem resursiem ir būtiski mainījusies, salīdzinot ar 2. un 1. versiju. Tomēr rezervējamo resursu koncepcijas gan **reāliem**, gan **vispārējiem** resursiem paliek tādas pašas, tāpat kā darba grupas dalībnieki, prasības, piešķires un rezervācijas.   
 
-![Resursu atlasītāja izmantošana](media/resource-management-05.png)
+![Resursu atlasītāja izmantošana.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Reāla rezervējama resursa piešķiršana 
 Project Service Automation 3. versijā rezervācijas un uzdevumu piešķires nav tik cieši saistītas kā iepriekšējās Project Service Automation versijās. Darba grupas režģi var izmantot, lai rezervētu **reālu** darba grupas dalībnieku, līdzīgi kā iekšējā tirgū.
@@ -138,7 +136,7 @@ Ja vajadzība ir izpildīta ar vairākiem resursiem, vispārējais resurss palie
 ### <a name="reconciliation"></a>Saskaņošana
 Cilnē **Saskaņošana** tiek parādītas rezervācijas un visas piešķires katram projekta darba grupas dalībniekam. Skatā šūnās redzamas stundas, kas var attēlot laika punktus no mēnešiem līdz dienām. Šis skats ļauj projektu vadītājiem saskaņot darba grupas dalībnieku rezervācijas un to piešķires attiecībā uz savu projekta darba grupu. Tas ir noderīgi, jo rezervācijas un uzdevumu piešķires nav cieši savienotas, kas pieļauj elastīgāku projekta plānošanu. 
 
-![Saskaņošanas cilnē parādītās rezervācijas un piešķires projekta darba grupas dalībniekiem](media/resource-reconciliation-tab-06.png)
+![Saskaņošanas cilnē parādītās rezervācijas un piešķires projekta darba grupas dalībniekiem.](media/resource-reconciliation-tab-06.png)
 
 Katrā resursā skats izmanto atšķirību starp darba grupas dalībnieka rezervācijām un viņa uzdevumu piešķiru apkopojumu, un parāda tālāk minētās divas atšķirības, kas var rasties ar rezervācijām un piešķirēm projektā. 
 
@@ -153,21 +151,21 @@ Ja resursam ir uzdevuma piešķires bez rezervācijām (rezervācijas deficīts)
 ### <a name="landing-page"></a>Reklāmas mērķlapa
 Nepaplašināmā pielāgotā laika ieraksta pieredze 3. versijā ir novecojusi. Tās vietā tagad ir paplašināma un pieejama vietējā režģa pieredze. Varat piekļūt laika ieraksta funkcionalitātei, izmantojot vietnes karti kreisajā pusē. Ar šo izmaiņu vairs nebūs iespējams katrā reizē ievadīt laiku nedēļai. Tā vietā ir jāizveido laika ieraksts katrai dienai režģī. Pēc dažu laika ierakstu izveidošanas lietotāji var izveidot lielapjoma laika ierakstus, izmantojot funkciju **Kopēt**, kas paskaidrota šīs tēmas turpinājumā. 
 
-![Laika ieraksta reklāmas mērķlapa](media/time-entry-landing-page-07.png)
+![Laika ieraksta reklāmas mērķlapa.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Jaunu laika ierakstu izveide 
 Lentē noklikšķiniet **Jauns**, lai atvērtu ātrās izveides lapu laika ieraksta, kur ievadīt ilgumu minūtēs, stundās vai dienās. Lai to izdarītu, vienkārši sāciet rakstīt s, m vai d kopā ar daudzumu.  
 
-![Laika ieraksta ātrā izveide](media/quick-create-time-entry-08.png)
+![Laika ieraksta ātrā izveide.](media/quick-create-time-entry-08.png)
 
 Uzmeklēšanas laukus atbalsta sistēmas skati. Piemēram, pēc projekta informācijas ievadīšanas lauks **Projekta uzdevums** pēc noklusējuma ir iestatīts uz skatu **Mani atvērtie projekta uzdevumi**. Lai izveidotu laika ierakstus uzdevumiem, kas nav piešķirti lietotājam, uzmeklēšanā noklikšķiniet **Mainīt skatu** un pēc tam atlasiet **Visi aktīvie projekta uzdevumi**. Pēc tam, kad laika ieraksts ir izveidots un parādīts režģī, varat rediģēt jebkuras rindas vērtības režģī.  
 
 ### <a name="bulk-createcopy"></a>Lielapjoma izveide / kopēšana 
 Pēc tam, kad izveidoti daži laika ieraksti, varat izmantot kopēšanas funkcionalitāti, lai izveidotu papildu lielapjoma laika ierakstus. Noklikšķiniet **Kopēt**, lai atvērtu dialogu **Kopēt**. **No perioda: sākuma datums** iestatiet datu diapazonu, no kura jākopē laika periodi. **Uz periodu: sākuma datums** norādiet datumu, kuram jāizveido laika ieraksti. Noklikšķiniet **Kopēt**, lai kopētu laika ierakstus uz atbilstošo nedēļas dienu, kas norādīta **Uz periodu**. Piemēram, pirmdienas laika ieraksts no iepriekšējās nedēļas tiks kopēts uz pirmdienu nedēļā, kas norādīta **Uz periodu**. 
 
-![Lielapjoma laika ierakstu kopēšana](media/bulk-copy-time-entry-09.png)
+![Lielapjoma laika ierakstu kopēšana.](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Datu importēšana 
+### <a name="import-data"></a>Importēt datus 
 Piešķires un maiņa seko tam pašam lietotāja interfeisa modelim, kas lietotājam ļauj norādīt datumu diapazonu, kad ir jāimportē rezervācijas. Pēc tam ir tieši jāizvēlas rezervācijas, kas ir jākopē laika ierakstos **Melnraksts**. 3. versijā vairs nevar redzēt laika ierakstu **Ieteikts** modeli režģī un kalendārā.  
 
 ### <a name="change-in-calendar-control"></a>Kalendāra vadīklas maiņa
@@ -181,7 +179,7 @@ Piešķires un maiņa seko tam pašam lietotāja interfeisa modelim, kas lietot�
 
 **Datu apkopošana par pielāgotiem laukiem laika un izdevumu ierakstā un šo izmaiņu ieviešana, izmantojot entītijas, kas atbalsta iesniegšanas un apstiprināšanas plūsmu** — tipiska laika ierakstu apstrāde parādīta tālāk redzamajā shēmā.
 
-![Laika ievades plūsmas apstrāde](media/process-time-entries-10.png)
+![Laika ievades plūsmas apstrāde.](media/process-time-entries-10.png)
 
 Ja biznesa prasības nosaka, ka laika un izdevumu entītijām ir jātver pielāgotas izcenojuma dimensijas un jāievieš vērtības, kuras iestata laika un ierakstu resurss pielāgotā izcenojuma dimensijā, izmantojot visas iepriekšējā grafikā iekļautās entītijas, skatiet [Pielāgotu lauku iestatīšana kā izcenojuma dimensijas](set-up-pricing-dimensions.md)
 
@@ -238,7 +236,7 @@ Project Service Automation 3. versijā ir mainījušies iestatījumu un pārval
 
 Sākot ar 3. versiju, maksas iekasēšanas opciju pēc lomas un izdevumu kategorijas iestatīšana tiks veikta piedāvājuma vai līguma rindas līmenī. Izcenojuma iestatīšana ir atdalīta no maksas iekasēšanas iestatīšanas. Varat atrast **Lomas ar maksas iekasēšanu** un **Kategorijas ar maksas iekasēšanu** kā cilnes lapās **Piedāvājuma rinda** un **Līguma rindu**, neizmantojot navigācijas augšpusi.
 
-![Rēķinā iekļaujamās lomas](media/chargeable-12.png)
+![Rēķinā iekļaujamās lomas.](media/chargeable-12.png)
  
 Lomu ar maksas iekasēšanu un kategoriju ar maksas iekasēšanu iestatīšana arī gūst labumu no iekļautās rediģējamās režģa vadīklas. Katrai lomai un kategorijai atbalstītās norēķinu tipa opcijas piedāvājuma un līguma slēgšanas fāzes laikā paliek nemainīgas no iepriekšējām versijām kā **Ar maksas iekasēšanu** un **Bez maksas iekasēšanas**. **Papildu** tips netiek atbalstīts piedāvājuma vai līguma slēgšanas fāzē. **Papildu** tiek atbalstīts tikai laika vai izdevumu apstiprināšanas laikā.  
  
@@ -249,11 +247,11 @@ Sākot ar 3. versiju, pielāgota projekta cenrāža izveide un izmantošana Pro
   
 Šis attēls uzņemts pirms ir izveidoti pielāgoti cenrāži.
 
-![Pirms pielāgotiem cenrāžiem](media/before-custom-price-lists-13.png)
+![Pirms pielāgotiem cenrāžiem.](media/before-custom-price-lists-13.png)
 
 Šis attēls parāda izskatu pēc pielāgotu cenrāžu izveides.
 
-![Pēc pielāgotiem cenrāžiem](media/after-custom-price-lists-14.png)
+![Pēc pielāgotiem cenrāžiem.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Var rasties īsa aizkave starp noklikšķināšanu uz **Izveidot pielāgotu izcenojumu** un brīdi, kad tiek izveidots pielāgots cenrādis. Iesakām atsvaidzināt režģi, nevis klikšķināt vairākas reizes. Pielāgots cenrādis ir izveidots, ja ar saistītā cenrāža nosaukumam ir pievienots piedāvājuma nosaukums vai projekta līguma nosaukums.

@@ -2,11 +2,9 @@
 title: Izdevumu politiku definēšana
 description: Varat definēt izdevumu politikas, kuras jūsu darbiniekiem ir jāievēro, ievadot un iesniedzot izdevumu atskaites un komandējumu pieprasījumus.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080514"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986365"
 ---
 # <a name="define-expense-policies"></a>Izdevumu politiku definēšana
 
@@ -53,3 +51,6 @@ Tālāk sniegti daži ierosinājumi, kas var jums palīdzēt, veidojot jaunas iz
 ## <a name="when-to-evaluate-policies"></a>Kad novērtēt politikas
 
 Izdevumu pārvaldības parametros varat atlasīt izvērtēt izdevumu pārvaldības politikas, ja tiek saglabāta rinda vai ja tiek iesniegta izdevumu atskaite. Ja izvēlaties izvērtēt, kad rinda tiek saglabāta, lietotajiem būs agrāka redzamība par to, kas viņiem ir jādara, lai vienlaikus aizpildītu visu izdevumu atskaiti. Pretējā gadījumā varat aizkavēt politikas novērtējumu un ietaupīt laiku beigās, iesniedzot darbplūsmā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada novembra laidienā Project Operations resursu/bez krājumu scenārijiem.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950948"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007965"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 

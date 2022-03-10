@@ -2,18 +2,16 @@
 title: Jaunumi 2020. gada novembrī — Project Operations Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu
 description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada novembra Project Operations Lite izvietošanas laidienā — darbs ar pro forma rēķiniem.
 author: sigitac
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa95406a27e6d32d2be75303904547b59f24c8b2
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
-ms.translationtype: HT
+ms.openlocfilehash: 4a65ab00c7f729b72cc32b4786055feba4aaee452ac4cf413047f81651c92290
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003285"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Jaunumi 2020. gada novembrī — Project Operations Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu
 
@@ -37,3 +35,6 @@ Tālāk sniegtajā tabulā ir uzskaitīti Project Operations atjauninājumi CDS 
 | Laiks un ātra izdevumu ievade | 2047499          | Poga **Jauns** lapā Laika ieraksts atver lapu **Jauns e-pasta paraksts**.                                                                                               |
 | Laiks un ātra izdevumu ievade | 2059859          | Veidojot izdevumu ierakstu, tiek atvērts negaidīts uznirstošais logs.                                                                                                                         |
 | Cita                        | 2044181          | [PO atinstalēšana] — kļūdas ziņojums "Ieraksts nav pieejams" rodas, mēģinot atinstalēt **msdyn_ProjectServiceCore_Patch** un msdyn projekta pakalpojumu pamata risinājumus.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

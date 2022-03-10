@@ -2,16 +2,16 @@
 title: Finanšu dimensiju noklusējumi
 description: Šajā tēmā ir sniegta informācija par to, kā iestatīt finanšu dimensiju noklusējumus.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013315"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922947"
 ---
 # <a name="financial-dimension-defaults"></a>Finanšu dimensiju noklusējumi
 
@@ -60,6 +60,15 @@ Projekti tiek izveidoti un uzturēti pakalpojumā CDS. Projektu uzskaites atrib�
 4. Iestatiet finanšu dimensijas noklusējumus. Ņemiet vērā, ka finanšu dimensiju noklusējuma vērtība ir no klienta uzņēmuma. Ja projekts ir saistīts ar līguma rindu ar vairākiem projekta līguma klientiem, primārais klients tiek izmantots noklusējuma finanšu dimensijās.
 
 Projektu noklusējuma finanšu dimensijas izmanto, lai iestatītu žurnāla rindas noklusējuma vērtības laika, izdevumu un maksu darbībām **Project Operations integrācijas žurnālā** un ar to saistītajās projekta rēķina rindās.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Attiecināt projekta laika ierakstu finanšu dimensijas
+Lai attiecinātu projekta laika ierakstiem finanšu dimensijas, ņemiet vērā, ka noklusējuma dimensijas vērtība ir balstīta uz šādu secību:
+
+1. Resursa
+2. Project
+3. Finansējuma avots
+
+Piemēram, ja resursam ir norādīta noklusējuma dimensija, tā tiks lietota projektā norādītajā noklusējumā. Tāpat noklusējuma projekta dimensija tiks lietota noklusējuma, kas norādīta finansējuma avotā.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

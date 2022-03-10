@@ -2,18 +2,16 @@
 title: Integrācijas žurnāls risinājumā Project Operations
 description: Šajā tēmā ir sniegta informācija par darbu ar integrācijas žurnālu risinājumā Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948339"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987940"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrācijas žurnāls risinājumā Project Operations
 
@@ -21,14 +19,14 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Laika un izdevumu ieraksti veido **Faktiskās** transakcijas, kas atspoguļo projekta pabeigto darbu operatīvo skatu. Dynamics 365 Project Operations nodrošina grāmatvežus ar rīku, lai pārskatītu transakcijas un vajadzības gadījumā pielāgotu uzskaites atribūtus. Kad pārskatīšana un pielāgojumi ir pabeigti, darbības tiek grāmatotas Projekta apakšgrāmatā un Virsgrāmatā. Grāmatvedis var veikt šīs darbības, izmantojot žurnālu **Project Operations integrācija** (**Dynamics 365 Finance** > **Projekta pārvaldība un grāmatvedība** > **Žurnāli** > **Project Operations integrācijas** žurnāls).
 
-![Integrācijas žurnāla plūsma](./media/IntegrationJournal.png)
+![Integrācijas žurnāla plūsma.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Ierakstu izveide Project Operations integrācijas žurnālā
 
 Ieraksti Project Operations integrācijas žurnālā tiek izveidoti, izmantojot periodisku procesu **Importēšana no Izstādīšanas tabulas**. Šo procesu var izpildīt, dodoties uz **Dynamics 365 Finance** > **Projektu pārvaldība un grāmatvedība** > **Periodiski** > **Project Operations integrācija** > **Importēšana no izstādīšanas tabulas**. Procesu var izpildīt interaktīvi vai pēc nepieciešamības konfigurēt procesu, lai tas tiktu izpildīts fonā.
 
 Veicot periodisku procesu, tiek atrasti visi faktiskie dati, kas vēl nav pievienoti Project Operations integrācijas žurnālam. Tiek izveidota žurnāla rinda katrai faktiskajai darbībai.
-Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērtību, kas ir atlasīta laukā **Perioda vienība Project Operations integrācijas žurnālā** (**Finanses** > **Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Projekta pārvaldība un uzskaites parametri**, **Project OperationsDynamics 365 Customer Engagement** cilne). Šī lauka iespējamās vērtības ir šādas:
+Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērtību, kas ir atlasīta laukā **Perioda vienība Project Operations integrācijas žurnālā** (**Finance** > **Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Projekta pārvaldība un uzskaites parametri**, **Project Operations Dynamics 365 Customer Engagement** cilne). Šī lauka iespējamās vērtības ir šādas:
 
   - **Dienas**: faktiskie dati ir grupēti pēc darbības datuma. Katrai dienai tiek izveidots atsevišķs žurnāls.
   - **Mēneši**: faktiskie dati ir grupēti pēc kalendāra mēneša. Katram mēnesim tiek izveidots atsevišķs žurnāls.

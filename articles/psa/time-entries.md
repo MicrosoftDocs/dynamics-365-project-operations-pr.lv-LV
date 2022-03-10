@@ -2,8 +2,6 @@
 title: Laika ierakstu izveide
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot laika ierakstus.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149687"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990415"
 ---
 # <a name="create-time-entries"></a>Laika ierakstu izveide
 
@@ -70,3 +68,6 @@ Varat importēt datus no projektu rezervācijām un piešķirēm. Importējot da
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Grupēšanas, kārtošanas, meklēšanas un filtrēšanas iespējas
 
 Varat grupēt un filtrēt laika ierakstus pēc dimensijām, kas ir norādītas kolonnās. Laukā **Grupēt pēc** atlasiet izmantojamo dimensiju laika ierakstu filtrēšanai. Laika ierakstus var kārtot augošā vai dilstošā secībā, izmantojot kārtošanas bultiņu kolonnu virsrakstos. Turklāt varat rādīt vai paslēpt ierakstus, atlasot pogu **Filtrēt** kolonnu virsrakstos un pēc tam lodziņā **Meklēšana** ievadīt tekstu, kas jālieto laika ierakstu meklēšanai pēc projekta nosaukuma, projekta uzdevuma, laika ieraksta vai resursa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

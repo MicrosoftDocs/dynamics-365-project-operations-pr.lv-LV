@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012595"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991044"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurēt apmaksājamo projektu uzskaiti
 
@@ -101,23 +101,23 @@ Lai izveidotu jaunu projekta izmaksu un ieņēmumu profilu, izpildiet tālāk no
 
 Laiks un materiāli — bez WIP
 
-![Izmaksu un ieņēmumu profils: laiks un materiāli — bez WIP](media/time-material-no-wip.png)
+![Izmaksu un ieņēmumu profils: laiks un materiāli — bez WIP.](media/time-material-no-wip.png)
 
 Laiks un materiāli — WIP (ieņēmumi)
 
-![Izmaksu un ieņēmumu profils: laiks un materiāli — WIP](media/time-material-with-wip.png)
+![Izmaksu un ieņēmumu profils: laiks un materiāli — WIP.](media/time-material-with-wip.png)
 
 Fiksēta cena — bez WIP
 
-![Izmaksu un ieņēmumu profils: fiksēta cena — bez WIP](media/fixed-price-no-wip.png)
+![Izmaksu un ieņēmumu profils: fiksēta cena — bez WIP.](media/fixed-price-no-wip.png)
 
 Fiksēta cena — pabeigts līgums
 
-![Izmaksu un ieņēmumu profils: fiksēta cena — pabeigts līgums](media/fixed-price-completed-contract.png)
+![Izmaksu un ieņēmumu profils: fiksēta cena — pabeigts līgums.](media/fixed-price-completed-contract.png)
 
 Fiksēta cena — pabeigtības procentuālā vērtība
 
-![Izmaksu un ieņēmumu profils: fiksēta cena — pabeigtības procentuālā vērtība](media/fixed-price-completed-percentage.png)
+![Izmaksu un ieņēmumu profils: fiksēta cena — pabeigtības procentuālā vērtība.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Projekta izmaksu un ieņēmumu profilu uzskaites notikumu paraugi.

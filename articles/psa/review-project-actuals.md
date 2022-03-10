@@ -2,8 +2,6 @@
 title: Projekta faktisko datu pārskatīšana
 description: Projekta faktisko datu pārskatīšana programmā Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68d940790a33b22bf7dd8bc663dcea61264b082e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 3fe2bf52aeef0214ef3f54f7cfcce4032ba79114a6c36e453e7412a85af52a49
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282747"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006930"
 ---
 # <a name="review-project-actuals-project-service"></a>Projekta faktisko datu pārskatīšana (Project Service)
 

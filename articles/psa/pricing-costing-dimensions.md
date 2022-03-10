@@ -2,12 +2,11 @@
 title: Cenu un izmaksu noteikšanas dimensiju sākumlapa
 description: Šajā tēmā ir sniegts pārskats par cenu noteikšanas dimensijām.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080485"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998470"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Cenu un izmaksu noteikšanas dimensiju sākumlapa
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Dimensijas, ko izmanto, lai iestatītu darbaspēka izcenojumu un izmaksu aprēķināšanu uz projektiem bāzētās organizācijās, ietekmē tālāk uzskaitītie atribūti.
 
@@ -40,7 +41,7 @@ Dimensijas, ko izmanto, lai iestatītu darbaspēka izcenojumu un izmaksu aprēķ
 
 Programma PSA tiek piegādāta ar cenu noteikšanas dimensiju noklusējuma kopu. Šo sarakstu varat apskatīt, dodoties uz **Project Service** > **Parametri**. Parametra ierakstā, cilnē **Uz summu balstītas cenu noteikšanas dimensijas** pārliecinieties, ka lomai **msdyn_resourcecategory** un resursu organizācijas struktūrvienībai **msdyn_organizationalunit** lauki **Attiecināms uz pārdošanu** un **Attiecināms uz izmaksām** ir iestatīti uz **Jā**. Tas ļaus jums iestatīt cenas un izmaksas katrai lomas un organizācijas struktūrvienības kombinācijai.
 
-![Project Service parametru ekrānuzņēmums ar izceltu lauku “Attiecināms uz pārdošanu”](media/PS-OOB-parameters.png)
+![Project Service parametru ekrānuzņēmums ar izceltu lauku “Attiecināms uz pārdošanu”.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ja pirms PSA versijas 3 kā cenu noteikšanas dimensijas lietojāt lomas un organizācijas struktūrvienības standarta laukus, nekādas izmaiņas nebūs manāmas. Varat turpināt lietot programmu Project Service kā parasti. 
@@ -63,15 +64,18 @@ Nākamajā piemērā ir parādītas norēķinu likmes, kas ir iestatītas, pamat
 
 **Piemēra norēķinu likmes**
 
-| Loma        | Org. struktūrvienība    |Vienība      |Cena      |Valūta  |
+| Loma        | Org. struktūrvienība    |Vienība      |Cenrādis      |Valūta  |
 | ------------|-------------|----------|----------:|----------|
-| Izstrādātājiem   | Contoso ASV  |Hour | 200|USD     |
-| Izstrādātājiem   | Contoso India |Hour|   112|USD     |
+| Izstrādātājiem   | Contoso US  |stunda | 200|USD     |
+| Izstrādātājiem   | Contoso India |stunda|   112|USD     |
 
 
 **Piemēra izmaksu likmes**
 
-| Algu grupa     | Org. struktūrvienība    |Vienība      |Cena      |Valūta  |
+| Algu grupa     | Org. struktūrvienība    |Vienība      |Cenrādis      |Valūta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mana company_Band1 | Contoso ASV  |Hour | 145|USD     |
-| Mana company_Band2 | Contoso India |Hour|   67|USD     |
+| Mana company_Band1 | Contoso US  |stunda | 145|USD     |
+| Mana company_Band2 | Contoso India |stunda|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,7 @@
 ---
-title: Darba stundu veidnes izveidošana
-description: Darba stundu veidnes izveide programmā Project Service
+title: Darba stundu veidnes izveide
+description: Šajā tēmā ir aprakstīts, kā izveidot darba stundu veidni programmā Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,48 +16,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133062"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987400"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Darba stundu veidnes izveide (Project Service)
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-Lai varētu izveidot projekta grafikus, ir nepieciešams iestatīt projekta kalendāru, kas nosaka darba stundu skaitu, ko dienā izkārtot grafikā, ka arī visus uzņēmuma slēgšanas gadījumus. Tas ir jāizdara ar darba stundu veidni, kurā ir iekļauta informācija par darba stundu skaitu dienā, brīvdienām un citiem uzņēmuma slēgšanas gadījumiem.  
-  
- Kad veidojat projektu, darba veidni jūs saistāt ar projekta kalendāru, lai šim projektam lietotu šo grafiku.  
-  
- Darba stundu veidni varat izveidot divējādi:  
-  
--   Izveidot darba stundu veidni, kuras pamatā ir resursu kalendārs.  
-  
--   Izveidot jaunu darba stundu veidni.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Lai izveidotu darba stundu veidni, kuras pamatā ir resursu kalendārs  
-  
-1.  Dodieties uz **Project Service > Resursi**.  
-  
-2.  Atlasiet resursu, uz kuru jūs vēlētos balstīt savas darba stundas.  
-  
-3.  Noklikšķiniet uz **Saglabāt kalendāru kā**, ievadiet darba stundu veidnes nosaukumu un pēc tam noklikšķiniet uz **Saglabāt**.  
-  
-4.  Kad opciju mainīšana ir pabeigta, noklikšķiniet uz **Saglabāt un aizvērt**.  
-  
-5.  Ekrāna apakšējā labajā stūrī noklikšķiniet uz pogas **Saglabāt**.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Lai izveidotu jaunu darba stundu veidni  
-  
-1.  Dodieties uz **Project Service > Darba stundu veidnes**.  
-  
-2.  Noklikšķiniet uz **Jauns**.  
-  
-3.  Ievadiet darba stundu veidnes nosaukumu.  
-  
-4.  Atlasiet resursu, kuru izmantot darba stundu pamatam, un pēc tam noklikšķiniet uz **Saglabāt**.  
-  
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
+
+Lai izveidotu un pārvaldītu projektu, projektam jālieto kalendāra veidne. Kalendāra veidne definē šādus projekta atribūtus:
+
+- darba stundas, ieskaitot sākuma un beigu laiku;
+- darba dienas;
+- kalendāra izņēmumi, piemēram, brīvdienas.
+
+Projektam lietotā kalendāra veidne ir organizācijas iestatījumos definētās kalendāra veidnes kopija.
+
+> [!NOTE]
+> Ja maināt kalendāra veidni, šīs izmaiņas netiek attiecinātas uz projekta darba laiku. Lai mainītu projekta darba laiku, jālieto jauna veidne.
+
+Lai organizācijai izveidotu kalendāra veidni, ir divas galvenās prasības:
+
+- definējiet veidnes vēlamo darba laiku, izmantojot jaunu vai esošu rezervējamu resursu;
+- izveidojiet jaunu kalendāra veidni un saistiet to ar rezervējamo resursu.
+
+**Veidnes darba laiku definēšana**
+
+1. Atveriet sadaļu **Resursi** \> **Resursi.**
+2. Izveidojiet jaunu resursu atsaucei kalendāra veidnē vai atlasiet esošu resursu.
+3. Atlasiet resursa cilni **Darba stundas** un izpildiet sadaļā [Resursa darba stundu iestatīšana](/dynamics365/field-service/set-work-hours-resource.md) sniegtos norādījumus, lai konfigurētu kalendāra kārtulas.
+
+**Jaunas kalendāra veidnes izveide**
+
+1. Pārejiet uz **Iestatījumi** \> **Kalendāra veidne**.
+2. Atlasiet **Jauns** un ievadiet nosaukumu, aprakstu un veidnes resursu.
+
+
+> [!NOTE]
+> Ja kalendārā ir atsauce uz resursu, ar šo kalendāra veidni tiek saistīta resursa kalendāra kopija. Ja tiek mainītas kopētās veidnes darba stundas, šīs izmaiņas netiek attiecinātas uz kalendāra veidni.
+
+
 ### <a name="see-also"></a>Skatiet arī  
  [Resursu iestatīšana](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

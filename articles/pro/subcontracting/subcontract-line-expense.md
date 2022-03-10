@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323830"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506108"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Apakšlīguma rindas izdevumu kategorijām
 
@@ -29,23 +29,23 @@ Lai programmā Project Operations izveidotu apakšlīguma izdevumu kategoriju ri
 
 Tālāk redzamajā tabulā ir sniegta informācija par laukiem detalizētās informācijas lapā **Apakšlīgumu rinda** un lapā **Ātrā izveide**.
 
-| **Lauks** |  **Apraksts** |
-| ----------| ---------------- |
-| Nosaukums/vārds, uzvārds | Apakšlīguma rindas nosaukums. |
-| Apraksts | Apakšlīguma rindā iegādāto pakalpojumu vai produktu kategoriju īss apraksts. |
-| Rindas tips | Šim laukam ir noklusējuma vērtība **Uz daudzumu balstīts**.  |
-| Rēķinu izrakstīšanas metode | Apakšlīguma rindas norēķinu metode. Pamatojoties uz rindas norēķinu metodi, norēķinu metodei ar fiksēto cenu ir pieejams uz atskaites punktu balstīts rēķinu grafiks.  |
-| Transakcijas klase | Šim laukam ir noklusējuma vērtība **Laiks**. Lai izveidotu apakšlīguma rindas produktu iegādei, iestatiet lauku **Transakcijas klase** kā **Izdevumi**. Šī lauka vērtība norāda, ka apakšlīguma rinda tiek izmantota, lai ierakstītu projektos izmantojamu produktu vai pakalpojumu kategorijas iegādi. |
-| Darbības kategorija | Atlasiet transakcijas kategoriju. |
-| Pieprasītais sākuma datums | Datums, kurā pirkumu kategorijām ir jābūt pieejamām no pārdevēja. Pieprasīto sākuma datumu izmanto arī, lai izvēlētos projekta cenrādi no apakšlīgumam pievienotajiem projekta cenrāžiem. Apakšlīguma rindas kategorijas izmaksas pēc noklusējuma tiek izgūtas no cenrāža. |
-| Pieprasītais beigu datums | Datums, kad vairs nav nepieciešamas pirkumu kategorijas. Šis datums ierosina brīdinājumu, kad projekta vadītājs šo apakšlīguma rindu saista ar noteiktiem izdevumu aprēķiniem projektos, kuru iestatītais datums ir pēc šī datuma. |
-| Pasūtītais daudzums | No pārdevēja iegādātās kategorijas daudzums. Kad projekta vadītājs pārsniedz iegādāto daudzumu, tiek parādīts brīdinājums.  |
-| Vienību grupa | Šī lauka vērtība tiek iestatīta pēc noklusējuma, balstoties uz atlasītajai kategorijai iestatīto noklusējuma vienību grupu. |
-| Vienība | Šī lauka vērtība tiek iestatīta pēc noklusējuma, balstoties uz atlasītajai kategorijai iestatīto noklusējuma vienību. Kategorijas un vienības kombinācija tiek izmantota, lai iestatītu pēc noklusējuma vienības cenu apakšlīguma rindā. |
-| Vienības cena | Vienības cenas lauka vērtība tiek izgūta pēc noklusējuma no kategorijas un vienības kombinācijas no kategorijas cenām, kas saistītas ar pieprasītajam apakšlīguma rindas sākuma datumam piemērojamo projekta cenrādi.  |
-| Starpsumma | Šis tikai lasāmais lauks tiek automātiski aprēķināts kā daudzuma vienības cena, ja ir ievadītas gan daudzuma, gan vienības cenas vērtības. Ja viens vai abi lauki ir tukši, šajā laukā vērtību var ievadīt manuāli.  |
-| PVN | Ievadiet pārdošanas nodokļa summu.  |
-| Kopsumma | Apakšlīguma rindu kopsumma, ieskaitot nodokļus. Šis lauks tiek aprēķināts kā starpsumma + pārdošanas nodoklis.  |
+| **Lauks** | **Apraksts** | **Funkcionālā ietekme** |
+| --- | --- | --- |
+| Nosaukums/vārds, uzvārds | Apakšuzņēmēja līguma rindas nosaukums palīdzēs veikt identificēšanu. | Tas tiks parādīts, kā pirmā kolonna visos uzmeklēšanas rezultātos, pamatojoties apakšuzņēmēja līguma rindām. |
+| Apraksts | Īss izmaksu kategoriju apraksts, kas tiek iegādāts saskaņā ar apakšuzņēmēja līguma rindu. | Nevienu |
+|Rindas tips | Šim laukam ir noklusējuma vērtība **Uz daudzumu balstīts**. |Nevienu |
+| Rēķinu izrakstīšanas metode | Šī ir opciju kopa, kas ir divi galvenie Project Operations atbalstītie līgumu slēgšanas modeļi: **Fiksēta cena** un **Laiks un materiāli**. | Uz atskaites punktu balstīts rēķinu grafiks ir padarīts pieejams apakšuzņēmēja līguma rindām, ja ir atlasīta fiksētas cenas norēķinu metode. |
+| Transakcijas klase | Šim laukam ir noklusējuma vērtība **Laiks**. Lai izveidotu apakšuzņēmēja līguma rindas produktu iegādei, iestatiet lauku **Transakcijas klase** kā **Izdevumi**.  | Tas norāda, ka apakšuzņēmēja līguma rinda tiek izmantota, lai reģistrētu projektos izmantojamu izdevumu kategoriju iegādi. |
+| Darbības kategorija | Parāda sistēmā aktīvo transakciju kategoriju sarakstu. |Nevienu |
+| Pieprasītais sākuma datums | Ievadiet datumu, kad pārdošanas kategorijām ir jābūt pieejamām no pārdevēja. | Pieprasītais sākums tiek izmantots projekta cenrāža izvēlei no projekta cenrāžiem, kas ir pievienoti apakšuzņēmēja līgumam. Apakšuzņēmēja līgumu rindas kategorijas izmaksas tiek ņemtas no šī cenrāža. |
+| Pieprasītais beigu datums | Ievadiet datumu, no kura vairs nebūs nepieciešamas pirkumu kategorijas. | Šis tiks izmantots, lai parādītu brīdinājumus, kad projekta vadītājs saista šo apakšuzņēmēja līguma rindu ar noteiktiem projekta izmaksu aprēķiniem, kas nepieciešami pēc šī datuma. |
+| Pasūtītais daudzums | No pārdevēja iepērkamās kategorijas daudzums. | Šis tiks izmantots, lai parādītu brīdinājumus, kad projekta vadītājs izmanto pārāk daudz šī daudzuma.|
+| Vienību grupa | Noklusējuma vērtība tiek pamatota uz noklusējuma vienību grupu, kas ir iestatīta atlasītajai kategorijai. |Nevienu |
+| Vienība | Noklusējuma vērtība tiek pamatota uz noklusējuma vienību grupu atlasītajai kategorijai.  | **Produkta** un **Vienības** kombinācija tiks izmantota, kā noklusējuma vērtība vai tiks aprēķināta apakšuzņēmēja līguma rindas vienības cena.  |
+| Vienības cena | Noklusējuma vērtība izmanto kategoriju un vienību kombināciju no **Kategorijas** un **Vienības** cenām, kas ir saistītas ar projekta cenrādi un kas ir piemērojama pieprasītajam apakšuzņēmēja līguma rindas sākumam. |Nevienu |
+| Starpsumma | Šis ir tikai lasāms lauks, kas tiek aprēķināts kā daudzums X vienības cena, ja ir ievadītas gan daudzuma, gan vienības cenas vērtības. Ja viens vai abi lauki ir tukši, tad tajos var ievadīt vērtību. |Nevienu |
+| PVN | Ievadiet pārdošanas nodokļa summu. |Nevienu |
+| Kopsumma | Apakšlīguma rindu kopsumma, ieskaitot nodokļus. Šis lauks tiek aprēķināts, kā starpsumma + pārdošanas nodoklis. |Nevienu |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
