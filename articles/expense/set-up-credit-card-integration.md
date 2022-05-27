@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826265"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577062"
 ---
 # <a name="set-up-credit-card-integration"></a>Kredītkaršu iesniegšanas iestatīšana
 
@@ -30,7 +30,7 @@ Ar izdevumiem saistītas kredītkaršu transakcijas var iestatīt tā, lai tās 
 
 Lai importētu kredītkartes transakcijas, veiciet šīs darbības:
 
-1. Lapā **Kredītkaršu transakcijas** atlasiet **Importēt transakcijas**. Ja datu pārvaldību atverat pirmo reizi, lai varētu turpināt, sistēmai ir jāatjaunina datu entītiju saraksts.
+1. Lapā **Kredītkaršu transakcijas** atlasiet **Importēt transakcijas**. Ja datu pārvaldību atverat pirmo reizi, pirms turpināt, sistēmai ir jāatjaunina datu entītiju saraksts.
 2. Laukā **Nosaukums** ievadiet unikālu importēšanas uzdevuma aprakstu.
 3. Laukā **Avotdatu formāts** atlasiet formātu failam, kas satur importējamās kredītkaršu transakcijas.
 4. Atlasiet **Augšupielādēt** un pēc tam atrodiet un atlasiet importējamo failu.
@@ -58,10 +58,10 @@ Dažkārt pēc kredītkartes transakciju importēšanas var būt nepieciešams d
 
 ## <a name="storing-credit-card-numbers"></a>Kredītkaršu numuru glabāšana
 
-Kredītkaršu numuru glabāšanai ir pieejamas trīs iespējas. Kredītkaršu numuri tiek glabāti **lapā Izdevumu pārvaldības** parametri.
+Kredītkaršu numuru glabāšanai ir pieejamas trīs iespējas. Kredītkaršu numuri tiek glabāti **lapā Izdevumu pārvaldības parametri**.
 
-- **Novērst kartes numura ievadīšanu** – kredītkaršu numuri netiek saglabāti.
-- **Jauc karšu numuri (saglabā pēdējos četrus ciparus)** – kredītkaršu numuru pēdējie četri cipari tiek glabāti šifrētā formātā.
-- **Veikala karšu numuri** – Kredītkaršu numuri tiek glabāti nešifrētā formātā. Šī opcija neatbilst maksājumu karšu nozares (PCI) datu drošības standartam (DSS). Tāpēc, lai saglabātu savu organizāciju atbilstošu PCI DSS noteikumiem, organizācijas administratoriem ir jāizvēlas vai nu neglabāt kredītkaršu numurus, vai saglabāt jauc.k. karšu numurus.
+- **Novērst kartes numura ievadīšanu** — kredītkartes numuri netiek saglabāti.
+- **Jaukšanas karšu numuri (saglabājiet pēdējos četrus ciparus)** - Pēdējie četri kredītkaršu numuru cipari tiek glabāti šifrētā formātā.
+- **Veikala karšu numuri** – Kredītkaršu numuri tiek glabāti nešifrētā formātā. Šī opcija neatbilst maksājumu karšu nozares (PCI) datu drošības standartam (DSS). Tāpēc, lai saglabātu savas organizācijas atbilstību PCI DSS noteikumiem, organizāciju administratoriem jāizvēlas vai nu neuzglabāt kredītkaršu numurus, vai saglabāt jaucējkaršu numurus.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Apstiprināšanas kopas
 description: Šajā tēmā ir izskaidrots, kā strādāt ar apstiprināšanas kopām, pieprasījumiem un šo operāciju apakškopām.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323245"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576233"
 ---
 # <a name="approval-sets"></a>Apstiprināšanas kopas
 
@@ -27,6 +25,18 @@ Apstiprināšanas kopas parāda saistīto ierakstu kopējo apstrādes stāvokli.
 Apstiprinājumi, kas ir ievietoti rindā apstrādei, ir redzami skatā **Apstiprinājumu apstrāde**. Sistēma visus ierakstus apstrādā vairākas reizes asinhroni, ieskaitot apstiprināšanas atkārtošanu, ja iepriekšējie mēģinājumi nav sekmīgi.
 
 Laukā **Apstiprināšanas kopas darbmūžs** tiek reģistrēts atlikušais kopas apstrādes mēģinājumu skaits, pirms tā tiek atzīmēta kā nesekmīga.
+
+Apstiprinājumu kopas tiek apstrādātas, izmantojot periodisko aktivizēšanu, **pamatojoties uz mākoņa plūsmas** projektu pakalpojumu ar nosaukumu **Project Service - Atkārtoti plānot projektu apstiprināšanas kopas**. Tas ir atrodams risinājumā **ar** nosaukumu **Project Operations**. 
+
+Pārliecinieties, vai plūsma ir aktivizēta, veicot tālāk norādītās darbības.
+
+1. Kā administrators piesakieties [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Augšējā labajā stūrī pārslēdzieties uz vidi, kurai izmantojat Dynamics 365 Project Operations.
+3. Atlasiet **Risinājumi**, lai uzskaitītu vidē instalētos risinājumus.
+4. Risinājumu sarakstā atlasiet **Projekta operācijas**.
+5. Mainiet filtru no **Visas** uz **Mākoņa plūsmas**.
+6. Pārbaudiet, **vai projekta pakalpojuma atkārtota grafika projektu apstiprināšanas kopu** plūsma ir iestatīta uz **Ieslēgta**. Ja tā nav, atlasiet plūsmu un pēc tam atlasiet **Ieslēgt**.
+7. Pārbaudiet, vai apstrāde notiek ik pēc piecām minūtēm, pārskatot **sistēmas uzdevumu** sarakstu projektu operāciju **vides apgabalā** Iestatījumi Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Nesekmīgi apstiprinājumi un apstiprināšanas kopas
 Skatā **Nesekmīgie apstiprinājumi** ir uzskaitīti visi apstiprinājumi, kam nepieciešama lietotāja iejaukšanās. Atveriet saistītos apstiprināšanas kopu žurnālus, lai noteiktu kļūmes iemeslu.

@@ -2,16 +2,16 @@
 title: Projekta rēķina melnraksta priekšlikumu uzskaites labošana
 description: Šajā tēmā izskaidrots, kā pielāgot ar uzskaiti saistītu informāciju rēķina melnraksta priekšlikumā.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999325"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575083"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Projekta rēķina melnraksta priekšlikumu uzskaites labošana
 
@@ -27,12 +27,21 @@ Noklusējuma norēķinu PVN grupas un krājumu PVN grupas var pielāgot tieši r
 
 ## <a name="adjust-financial-dimensions"></a>Finanšu dimensiju pielāgošana
 
+### <a name="header-dimensions"></a>Galvenes dimensijas
+
+Pēc noklusējuma rēķinu finanšu dimensijas tiek atvasinātas no nelīdzenajiem projekta darbību ierakstiem, par kuriem tiek izrakstīts rēķins. Tomēr sistēmas iestatījumi ļauj izmantot finanšu dimensijas projekta rēķinu priekšlikumu virsrakstā, lai grāmatotu debitoru bilances. Lai iespējotu šo funkcionalitāti, lapas Projektu vadība un grāmatvedības parametri **cilnē** Finanses **atlasiet** Atļaut atjaunināt **debitoru** projektu dimensijas.
+
+Finanšu dimensijas rēķinu virsrakstos var labot pirms rēķina iegrāmatošanas. **Lapā Projekta rēķina priekšlikums** pārslēdzieties uz **skatu Virsraksts** un pēc tam rediģējiet vērtības **cilnē Finanšu dimensijas**.
+
+**Skats Virsraksts** ir pieejams tikai pēc tam, kad sistēmas administrators līdzekļu pārvaldības **darbvietā iespējo** projekta rēķina priekšlikuma un rēķinu žurnāla formu izmantošanu ar skatu **Virsraksts** un rindas. Šim līdzeklim ir nepieciešams finanšu atjauninājums 10.0.25 vai jaunāka versija.
+
+### <a name="line-dimensions"></a>Rindu dimensijas
+
 Finanšu dimensijas nevar rediģēt tieši projekta rēķina priekšlikuma rindā. Tā vietā veiciet tālāk aprakstītās darbības, lai pielāgotu finanšu dimensijas projekta rēķina priekšlikumā.
 
 1. Lai noņemtu projekta rēķina priekšlikuma rindas, projekta rēķina priekšlikumā atlasiet **Dzēst visu**.
 
-    > [!NOTE]
-    > Poga **Dzēst visu** ir pieejama tikai pēc tam, kad sistēmas administrators iespējo līdzekli **Dzēst rēķina priekšlikuma rindas, izmantojot Project Operations uz resursiem bāzētos / neuzkrātos scenārijos** darbvietā **Līdzekļu pārvaldība**.
+    Poga **Dzēst visu** ir pieejama tikai pēc tam, kad sistēmas administrators iespējo līdzekli **Dzēst rēķina priekšlikuma rindas, izmantojot Project Operations uz resursiem bāzētos / neuzkrātos scenārijos** darbvietā **Līdzekļu pārvaldība**.
 
 2. Finanšu dimensiju pielāgošana.
 

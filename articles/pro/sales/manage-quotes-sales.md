@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par projekta piedāvājumiem.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001530"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579591"
 ---
 # <a name="manage-project-quotes"></a>Projekta piedāvājumu pārvaldīšana
 
@@ -31,6 +31,9 @@ Visu projekta piedāvājumu sarakstu var skatīt lapā **Piedāvājumi**.
 2. Izmantojiet **Skatīt pārslēdzēju**, lai atlasītu citus piedāvājumu filtrētos skatus. Izmantojot pielāgotus filtrēšanas kritērijus, varat konfigurēt savus skatus un navigācijas opcijas.
 
 Piedāvājumus var izveidot vai izdzēst no šīs saraksta lapas vai detalizētās lapas.
+
+ > [!NOTE]
+ > Piedāvājumus, kuriem ir piesaistīti projekti, uzdevumi, novērtējumi, žurnāli un/vai faktiskie piedāvājumi, nevar dzēst. Turklāt, ja piedāvājums ir aizvērts kā Uzvarēts vai Pazaudēts, to vairs nevar izdzēst vai modificēt. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

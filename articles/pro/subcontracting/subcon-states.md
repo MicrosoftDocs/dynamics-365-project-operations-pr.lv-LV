@@ -1,36 +1,36 @@
 ---
-title: Valsts pārejas uz apakšuzņēmuma līgumu
-description: Šajā tēmā ir izskaidrotas valsts pārejas uz apakšuzņēmuma līgumu programmā Dynamics 365 Project Operations Microsoft, jo apakšuzņēmuma līgums ir izveidots, izpildīts un slēgts.
+title: Apakšlīguma stāvokļa pārejas
+description: Šajā tēmā ir izskaidrotas stāvokļa pārejas uz apakšuzņēmuma līgumu programmā Microsoft Dynamics 365 Project Operations, jo apakšuzņēmuma līgums ir izveidots, izpildīts un slēgts.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d67f4a3cd834c25462304c2d75c824427fcbd034
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903712"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579177"
 ---
-# <a name="state-transitions-on-a-subcontract"></a>Valsts pārejas uz apakšuzņēmuma līgumu 
+# <a name="state-transitions-on-a-subcontract"></a>Apakšlīguma stāvokļa pārejas 
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā tēmā ir izskaidrotas stāvokļa pārejas uz apakšuzņēmuma līgumu programmā Microsoft Dynamics 365 Project Operations. Katra valsts tiek attēlota kā melnraksts, apstiprināts, slēgts vai atcelts. Šajā attēlā ir attēlotas stāvokļa pārejas.
+Šajā tēmā ir izskaidrotas stāvokļa pārejas uz apakšuzņēmuma līgumu programmā Microsoft Dynamics 365 Project Operations. Katrs štats tiek attēlots kā melnraksts, apstiprināts, slēgts vai atcelts. Šis attēls attēlo stāvokļa pārejas.
 
 ![Apakšuzņēmuma stāvokļa modelis](../media/SubconStates.png)  
 
-Šajā tabulā ir sniegts apraksts par to, ko katrs štats pārstāv projekta operāciju apakšuzņēmuma līguma dzīves ciklā.
+Šajā tabulā sniegts apraksts par to, ko katrs statuss pārstāv apakšuzņēmuma dzīves ciklā projekta darbībās.
 
 | Novads | Apraksts | Atļautās pārejas |
 | --- | --- | --- |
-| Melnraksts | Tas atspoguļo apakšuzņēmuma līguma sākotnējo stāvokli. Notiek sarunas ar pārdevēju. Līnijas un cenas var tikt pārveidotas. Apakšuzņēmuma līgumu šajā stāvoklī var izmantot, lai novērtētu un personāla projekta prasības resursiem un materiāliem. Uz to var atsaukties arī laikā, izdevumos un materiālu izmantošanā projektā. Apakšuzņēmuma līgumu šajā stāvoklī var rediģēt un dzēst. | Apstiprināts |
-| Apstiprināts | Tas ir apakšuzņēmuma līguma posms pēc tam, kad sarunas ar piegādātāju par cenu noteikšanu un rindu krājumiem, kas tiek iegādātas, ir pabeigtas. Tomēr materiālu un/vai darbu faktiskā piegāde ar apakšuzņēmēju resursiem joprojām turpinās. Apakšuzņēmuma līgumu šajā stāvoklī var izmantot, lai novērtētu un personāla projekta prasības resursiem un materiāliem. Uz to var atsaukties arī laikā, izdevumos un materiālu izmantošanā projektā. Apakšuzņēmuma līgumu šajā stāvoklī nevar rediģēt vai dzēst. **Poga Atcelt ļauj atcelt apstiprinātu** apakšuzņēmuma līgumu. **Poga Atkārtota atvēršana ļauj atkārtoti atvērt** apakšuzņēmuma līgumu, lai to atkal iemestu **melnraksta** statusā. Izmantojiet **pogu** Aizvērt, lai aizvērtu apstiprinātu apakšuzņēmuma līgumu. | Aizvērta <br> Atcelta <br> Melnraksts |
-| Aizvērta | Tas ir apakšuzņēmuma līguma posms, kad ir pabeigta materiālu faktiskā piegāde un/vai darbs ar apakšuzņēmēju resursiem. Apakšuzņēmuma līgumu šajā valstī vairs nevar izmantot, lai novērtētu un personāla projektu prasības attiecībā uz resursiem un materiāliem. Arī uz to vairs nevar atsaukties laikā, izdevumos un materiālu izmantošanā projektā. Apakšuzņēmuma līgumu šajā stāvoklī nevar rediģēt vai dzēst. | Nevienu |
-| Atcelta | Tas ir apakšuzņēmuma līguma posms, kad materiālu un/vai darba faktiska piegāde ar apakšuzņēmēju resursiem vairs nav nepieciešama. Apakšlīgumu šajā stāvoklī nevar izmantot, lai novērtētu un personāla projekta prasības resursiem un materiāliem, kā arī nevar atsaukties uz projekta laiku, izdevumiem un materiālu izmantošanu. Apakšuzņēmuma līgumu šajā stāvoklī nevar rediģēt vai dzēst. | Nevienu |
+| Melnraksts | Tas atspoguļo apakšuzņēmuma sākotnējo stāvokli. Notiek sarunas ar kreditoru. Rindas un cenas tiek mainītas. Apakšlīgumu šajā stāvoklī var izmantot, lai novērtētu un personāla projekta prasības attiecībā uz resursiem un materiāliem. Uz to var atsaukties arī uz projekta laiku, izdevumiem un materiālu lietojumu. Apakšuzņēmuma līgumu šajā stāvoklī var rediģēt un dzēst. | Apstiprināts |
+| Apstiprināts | Tas atspoguļo apakšlīguma stadiju pēc tam, kad sarunas ar kreditoru par cenām un iegādājamajiem rindas krājumiem ir pabeigtas. Tomēr materiālu un/vai darba faktiskā piegāde, izmantojot apakšuzņēmēju resursus, joprojām turpinās. Apakšlīgumu šajā stāvoklī var izmantot, lai novērtētu un personāla projekta prasības attiecībā uz resursiem un materiāliem. Uz to var atsaukties arī uz projekta laiku, izdevumiem un materiālu lietojumu. Apakšuzņēmuma līgumu šādā stāvoklī nevar rediģēt vai dzēst. Poga **Atcelt** ļauj atcelt apstiprinātu apakšuzņēmuma līgumu. **Poga Atkārtoti atvērt** ļauj atkārtoti atvērt apakšuzņēmuma līgumu, lai tas atgrieztos melnraksta **statusā**. **Izmantojiet pogu Aizvērt**, lai aizvērtu apstiprinātu apakšuzņēmuma līgumu. | Aizvērta <br> Atcelta <br> Melnraksts |
+| Aizvērta | Tas ir apakšlīguma posms, kad ir pabeigta materiālu un/vai darba faktiskā piegāde ar apakšuzņēmēju resursiem. Apakšuzņēmuma līgumu šajā stāvoklī vairs nevar izmantot, lai novērtētu un pieprasītu personāla projektus resursiem un materiāliem. Tāpat uz to vairs nevar atsaukties uz projekta laiku, izdevumiem un materiālu lietojumu. Apakšuzņēmuma līgumu šādā stāvoklī nevar rediģēt vai dzēst. | Nevienu |
+| Atcelta | Tas ir apakšlīguma posms, kad vairs nav nepieciešama faktiska materiālu piegāde un/vai darbs ar apakšuzņēmēju resursiem. Apakšlīgumu šajā stāvoklī nevar izmantot, lai novērtētu un personāla projekta prasības resursiem un materiāliem, kā arī nevar atsaukties uz projekta laiku, izdevumiem un materiālu izmantošanu. Apakšuzņēmuma līgumu šādā stāvoklī nevar rediģēt vai dzēst. | Nevienu |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
