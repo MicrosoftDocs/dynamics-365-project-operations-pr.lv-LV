@@ -4,20 +4,20 @@ description: Šajā tēmā ir sniegta informācija par drošības modeli risinā
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991495"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585755"
 ---
 # <a name="security-model"></a>Drošības modelis
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations ietver unikālu drošības modeli, ļaujot izveidot uz lomām balstītu biznesa drošības modeli, kas sadarbojas ar Microsoft Office grupām. 
 
@@ -70,7 +70,7 @@ Attīstoties Office grupas sadarbības modelim, tiks pievienotas funkcijas, lai 
 
 Papildinformāciju skatiet tēmā [Drošība pakalpojumā Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations un Microsoft Dynamics 365 Finance drošība
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projekta operācijas un Microsoft Dynamics 365 Finanšu drošība
 Programmā Project Operations ir šādas lomas:
 
 - Projekta vadītājs

@@ -4,26 +4,26 @@ description: Šajā tēmā sniegta informācija par projekta līgumu pamata konc
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986950"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582949"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Projektu līgumiem raksturīgie koncepti
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šajā tēmā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus programmā Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Atbildīgais uzņēmums
 
-Atbildīgais uzņēmums ir juridiskās persona Dynamics 365 Finance Project Operations modulī **Projekta pārvaldība un uzskaite**. Atbildīgais uzņēmums pārstāv juridisko personu, kas būs atbildīga par izmaksām un ieņēmumiem, kas uzkrājas no darījuma.
+Īpašnieks uzņēmums ir juridiska persona no **projektu vadības un uzskaites** moduļa projektu operācijām no Dynamics 365 Finance. Atbildīgais uzņēmums pārstāv juridisko personu, kas būs atbildīga par izmaksām un ieņēmumiem, kas uzkrājas no darījuma.
 
 ## <a name="contracting-unit"></a>Līgumslēdzēja vienība
 

@@ -4,29 +4,29 @@ description: Šajā tēmā ir sniegta informācija par darbu ar integrācijas ž
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987940"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582443"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrācijas žurnāls risinājumā Project Operations
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Laika un izdevumu ieraksti veido **Faktiskās** transakcijas, kas atspoguļo projekta pabeigto darbu operatīvo skatu. Dynamics 365 Project Operations nodrošina grāmatvežus ar rīku, lai pārskatītu transakcijas un vajadzības gadījumā pielāgotu uzskaites atribūtus. Kad pārskatīšana un pielāgojumi ir pabeigti, darbības tiek grāmatotas Projekta apakšgrāmatā un Virsgrāmatā. Grāmatvedis var veikt šīs darbības, izmantojot žurnālu **Project Operations integrācija** (**Dynamics 365 Finance** > **Projekta pārvaldība un grāmatvedība** > **Žurnāli** > **Project Operations integrācijas** žurnāls).
+Laika un izdevumu ieraksti veido **Faktiskās** transakcijas, kas atspoguļo projekta pabeigto darbu operatīvo skatu. Dynamics 365 Project Operations nodrošina grāmatvežus ar rīku, lai pārskatītu transakcijas un vajadzības gadījumā pielāgotu uzskaites atribūtus. Kad pārskatīšana un pielāgojumi ir pabeigti, darbības tiek grāmatotas Projekta apakšgrāmatā un Virsgrāmatā. Grāmatvedis var veikt šīs darbības, **izmantojot projektu operāciju integrācijas** žurnālu(**Dynamics 365 Finance** > **Projektu vadības un grāmatvedības** > **žurnālu** > **projektu operāciju integrācijas** žurnālu.
 
 ![Integrācijas žurnāla plūsma.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Ierakstu izveide Project Operations integrācijas žurnālā
 
-Ieraksti Project Operations integrācijas žurnālā tiek izveidoti, izmantojot periodisku procesu **Importēšana no Izstādīšanas tabulas**. Šo procesu var izpildīt, dodoties uz **Dynamics 365 Finance** > **Projektu pārvaldība un grāmatvedība** > **Periodiski** > **Project Operations integrācija** > **Importēšana no izstādīšanas tabulas**. Procesu var izpildīt interaktīvi vai pēc nepieciešamības konfigurēt procesu, lai tas tiktu izpildīts fonā.
+Ieraksti Project Operations integrācijas žurnālā tiek izveidoti, izmantojot periodisku procesu **Importēšana no Izstādīšanas tabulas**. Šo procesu var palaist, dodoties uz **Dynamics 365 Finance** > **Projektu vadība un grāmatvedība** > **Periodisko** > **projektu operāciju integrācijas** > **importēšana no sagatavošanas tabulas**. Procesu var izpildīt interaktīvi vai pēc nepieciešamības konfigurēt procesu, lai tas tiktu izpildīts fonā.
 
 Veicot periodisku procesu, tiek atrasti visi faktiskie dati, kas vēl nav pievienoti Project Operations integrācijas žurnālam. Tiek izveidota žurnāla rinda katrai faktiskajai darbībai.
-Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērtību, kas ir atlasīta laukā **Perioda vienība Project Operations integrācijas žurnālā** (**Finance** > **Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Projekta pārvaldība un uzskaites parametri**, **Project Operations Dynamics 365 Customer Engagement** cilne). Šī lauka iespējamās vērtības ir šādas:
+Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērtību, kas atlasīta **žurnāla** laukā Projektu operāciju integrācija atlasītā perioda vienība (**Finance** > **Project management and accounting** > **Setup** > **Project management and accounting parameters**, **Project Operations on Dynamics 365 Customer Engagement** tab). Šī lauka iespējamās vērtības ir šādas:
 
   - **Dienas**: faktiskie dati ir grupēti pēc darbības datuma. Katrai dienai tiek izveidots atsevišķs žurnāls.
   - **Mēneši**: faktiskie dati ir grupēti pēc kalendāra mēneša. Katram mēnesim tiek izveidots atsevišķs žurnāls.
@@ -40,10 +40,10 @@ Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērt�
   - Lauks **Dokuments** rāda dokumenta numuru visām faktiskajām transakcijām. Dokumentu numuru sērija ir definēta cilnē **Numuru sērijas**, kas atrodas lapā **Projektu pārvaldības un uzskaites parametri**. Katrai rindai tiek piešķirts jauns numurs. Pēc tam kad dokuments ir iegrāmatots, varat skatīt, kā izmaksas un rēķinos neiekļautie pārdošanas darījumi ir saistīti, atlasot **Saistītos dokumentus** lapā **Dokumentu darbības**.
   - Lauks **Kategorija** atspoguļo projekta transakciju un noklusējuma vērtības, pamatojoties uz saistīto projekta faktisko datu kategoriju.
     - Ja **Darbību kategorija** ir iestatīta projekta faktiskajos datos un dotajā juridiskajā entītijā pastāv saistītā **Projekta kategorija**, kategorijas noklusējums ir šī projekta kategorija.
-    - Ja **Darbības kategorija** nav iestatīta projekta faktiskajos datos, sistēma izmanto vērtību no lauka **Projekta kategoriju noklusējumi** cilnē **Project Operations pakalpojumā Dynamics 365 Customer Engagement**, kas atrodas lapā **Projekta pārvaldības un uzskaites parametri**.
+    - Ja **darbību kategorija** nav iestatīta projektā faktiskais, sistēma izmanto vērtību **laukā** Projekta kategorijas noklusējumi **lapas Projekta vadība un uzskaites parametri** cilnē **Projekta operācijas Dynamics 365 Customer Engagement**.
   - Lauks **Resursi** norāda ar šo transakciju saistīto projekta resursu. Resurss tiek izmantots kā atsauce projekta rēķina priekšlikumos klientiem.
-  - Lauks **Valūtas kurss** pēc noklusējuma tiek ņemts no **Valūtas maiņas kursa**, kas iestatīts programmā Dynamics 365 Finance. Ja nav maiņas kursa iestatījuma, periodiskais process **Importēšana no izstādīšanas** nepievienos šo ieraksta žurnālā, un darba izpildes žurnālā tiks pievienots kļūdas ziņojums.
-  - Lauks **Rindas rekvizīts** apzīmē norēķinu tipu projekta faktiskajos datos. Rindas statuss un norēķinu tipu kartēšana tiek definēta cilnē **Project Operations pakalpojumā Dynamics 365 Customer Engagement**, kas atrodas lapā **Projekta pārvaldības un grāmatvedības parametri**.
+  - Lauks **Valūtas kurss** noklusē **no valūtas kursa**, kas iestatīts Dynamics 365 Finance. Ja nav maiņas kursa iestatījuma, periodiskais process **Importēšana no izstādīšanas** nepievienos šo ieraksta žurnālā, un darba izpildes žurnālā tiks pievienots kļūdas ziņojums.
+  - Lauks **Rindas rekvizīts** apzīmē norēķinu tipu projekta faktiskajos datos. Rindas rekvizīts un norēķinu tipa kartējums ir definēti **lapas Projekta vadības un uzskaites parametri** cilnē **Projekta operācijas Dynamics 365 Customer Engagement**.
 
 Project Operations integrācijas žurnāla rindās var atjaunināt tikai šādus uzskaites atribūtus:
 

@@ -2,44 +2,44 @@
 title: Izvietot projekta operācijas — Lite
 description: Šajā tēmā ir sniegta informācija par to, kā instalēt Project Operations Lite izvietošanu — pāreju uz proforma rēķinu izrakstīšanu.
 author: stsporen
-ms.date: 10/02/2020
+ms.date: 02/28/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991585"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580741"
 ---
 # <a name="deploy-project-operations---lite"></a>Izvietot projekta operācijas — Lite
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Project Operations atbalsta vairākus izvietošanas modeļus. Lai noteiktu labāko izvietošanas modeli, skatiet sadaļu [Izvietošanas tipi](determine-deployment-type.md).
 
 
 > [!IMPORTANT]
-> Šī izvietošana jeb Lite izvietošana — pāreja uz proforma rēķinu izrakstīšanu, izraisa **Project Operations izvietošanu tikai Common Data Service**.
+> Šī izvietošana jeb Lite izvietošana — pāreja uz proforma rēķinu izrakstīšanu, izraisa **Project Operations izvietošanu tikai Dataverse**.
 
-- [Project Operations instalēšana jaunā CDS vidē](#new)
-- [Instalēšana esošā CD vidē](#existing)
+- [Projekta operāciju instalēšana jaunā Dataverse vidē](#new)
+- [Instalēšana esošā Dataverse vidē](#existing)
 
 
 
-## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Project Operations instalēšana jaunā CDS vidē
+## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a> Projekta operāciju instalēšana jaunā Dataverse vidē
 
-1. Kā [Globāls vai Power Platform administrators](/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci izveidojiet jaunu CDS vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com). Pārliecinieties, ka ir iespējotas opcijas **CDS datu bāze** un **Dynamics 365 programmas**. Papildinformāciju skatiet šeit: [Vides izveide un pārvaldība, izmantojot Power Platform administrēšanas centru](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. [Kā globālais vai Power Platform administrators](/power-platform/admin/global-service-administrators-can-administer-without-license) ar projekta operāciju licenci izveidojiet jaunu Dataverse vidi PowerPlatform administrēšanas [centrā](https://admin.powerplatform.com). Pārliecinieties, **vai ir iespējota šīs vides** datu bāzes izveide un **Dynamics 365 Programmas**. Papildinformāciju skatiet šeit: [Vides izveide un pārvaldība, izmantojot Power Platform administrēšanas centru](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Dynamics 365 programmu izvietošanas sarakstā atlasiet **Microsoft Dynamics 365 Project Operations**.
 
 
-## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Project Operations instalēšana esošā CDS vidē
-
-1. Kā [Globāls vai Power Platform administrators](/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci atrodiet vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com), kur vēlaties instalēt Project Operations.
-2. Instalējiet **Microsoft Dynamics 365 Project Operations** no Dynamics 365 programmu izvietošanas saraksta. Papildinformāciju skatiet šeit: [Dynamics Dynamics 365 programmu pārvaldība](/power-platform/admin/manage-apps).
+## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a> Projekta operāciju instalēšana esošā Dataverse vidē
+1. Pārliecinieties, vai vide nav konfigurēta ar [dubultu rakstīšanu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), jo instalēšana pēc tam instalēs [projekta operācijas resursu/neuzkrātu scenāriju](project-operations-integrated-deployment-overview.md) iespējām.
+2. Kā [Globāls vai Power Platform administrators](/power-platform/admin/global-service-administrators-can-administer-without-license) ar Project Operations licenci atrodiet vidi [PowerPlatform administrēšanas centrā](https://admin.powerplatform.com), kur vēlaties instalēt Project Operations.
+3. Instalējiet **Microsoft Dynamics 365 Project Operations** no Dynamics 365 programmu izvietošanas saraksta. Papildinformāciju skatiet šeit: [Dynamics Dynamics 365 programmu pārvaldība](/power-platform/admin/manage-apps).
 
 
 

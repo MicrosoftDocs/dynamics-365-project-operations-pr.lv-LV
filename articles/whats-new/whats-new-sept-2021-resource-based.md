@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547163"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582903"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021. gada septembra jaunumi — Project Operations resursu balstītiem/krājumu nebalstītiem scenārijiem
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547163"
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Microsoft Dataverse vides versijā 4.14.0.99.
-   - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.20.
+   - Projektu vadība un grāmatvedība Dynamics 365 Finance vides versijā 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations duālās rakstīšanas karšu atjauninājumi
 
@@ -45,7 +45,7 @@ Ja startējot karti rodas problēma, tad sekojiet instrukcijām [Trūkstošo tab
 | Cenu noteikšana un norēķini | 2385802 | Novērsta kļūda, kas rodas ar negatīvām faktiskajām stundām, kad tiek atsvaidzinātas projekta kopsummas. |
 | Cenu noteikšana un norēķini | 2389675 | Uzlabota proformas rēķina apstiprinājuma uzvedība. Ilgtermiņa uzdevuma entītijai ir jāņem vērā darbība, kas ir nepieciešama, lai ierakstītu grāmatvedības apstiprinājuma rezultātus. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pārskats par projektu pārvaldību un uzskaiti pakalpojumā Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektu vadība un grāmatvedība Dynamics 365 Finance
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |

@@ -3,16 +3,15 @@ title: Rēķinu izrakstīšanas procesa pārskats
 description: Šajā tēmā sniegts rēķinu izrakstīšanas procesa pārskats programmā Project Operations resursu/nekrājumu scenārijos.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003780"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582719"
 ---
 # <a name="invoicing-process-overview"></a>Rēķinu izrakstīšanas procesa pārskats
 
@@ -22,7 +21,7 @@ Project Operations resursu/nekrājumu scenārijos piedāvā plašas iespējas, k
 
 ![Rēķinu izrakstīšanas plūsmas shēma.](./media/invoicing-flow.png)
 
-Projekta līguma rinda nosaka norēķinu metodi saistītajām projekta transakcijām. Kad projekta vadītājs apstiprina laika un izdevumu transakcijas, sistēma fiksē transakcijas entitījā **Projekta faktiskās vērtības** un nosūta informāciju Dynamics 365 Finance modulim **Projekta pārvaldība un uzskaite**. Pēc tam projekta grāmatvedis pārskata un izliek ierakstus, izmantojot [Project Operations integrācijas žurnālu](../project-accounting/project-operations-integration-journal.md). Šajā žurnālā ir iekļauta svarīga uzskaites informācija par projekta faktiskajiem datiem, piemēram, norēķiniem, pārdošanas nodokļu grupu, norēķinu preču pārdošanas nodokļu grupu un finanšu dimensijām.
+Projekta līguma rinda nosaka norēķinu metodi saistītajām projekta transakcijām. Kad projektu vadītājs apstiprina laika un izdevumu darbības, sistēma reģistrē darbības entītijā **Projekta faktiskais** un nosūta informāciju uz **projektu vadības un uzskaites** moduli Dynamics 365 Finance. Pēc tam projekta grāmatvedis pārskata un izliek ierakstus, izmantojot [Project Operations integrācijas žurnālu](../project-accounting/project-operations-integration-journal.md). Šajā žurnālā ir iekļauta svarīga uzskaites informācija par projekta faktiskajiem datiem, piemēram, norēķiniem, pārdošanas nodokļu grupu, norēķinu preču pārdošanas nodokļu grupu un finanšu dimensijām.
 
 Projekta vadītājs var pārskatīt rēķinā neiekļautās pārdošanas transakcijas, izmantojot laika un materiālu norēķinu metodi [Nepabeigtajos laika un materiālu norēķinos](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) un fiksētās cenas norēķinus [Fiksētās cenas atskaites punktos](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Šie skati ļauj filtrēt un atlasīt transakcijas, kuras jāiekļauj nākamajā norēķinu ciklā, un pēc tam atzīmēt tās kā **Gatavas iekļaušanai rēķinā**.
 

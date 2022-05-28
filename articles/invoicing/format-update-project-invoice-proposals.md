@@ -4,14 +4,14 @@ description: Šajā tēmā sniegta detaizēta informācija par klientam sniegto 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989920"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585617"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekta rēķinu priekšlikumu pārvaldība
 
@@ -22,7 +22,7 @@ Projekta rēķinu priekšlikumus var apstrādāt jūsu norēķinu departaments, 
   - Projekta vadītājs apstiprina proformas rēķinu pakalpojumā Microsoft Dataverse.
   - Visas laika un materiālu pārdošanas transakcijas, par kurām nav izrakstīts rēķins un kuras tiek ietvertas proformas rēķinā, tiek uzskaitītas, izmantojot Dynamics 365 **Project Operations integrācijas** žurnālu.
 
-Lai aizpildītu projekta rēķina priekšlikumu pakalpojumā Dynamics 365 Finance, izpildiet šādas darbības.
+Veiciet tālāk norādītās darbības, lai pabeigtu projekta rēķina priekšlikumu programmā Dynamics 365 Finance.
 
 1. Pārskatiet norēķinu informāciju laika un materiālu transakcijām un uzskaitiet **Project Operations integrācijas** žurnālā.
 2. Pārskatiet norēķinu informāciju fiksētu cenu norēķinu atskaites punktiem.

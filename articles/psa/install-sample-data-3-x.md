@@ -3,19 +3,19 @@ title: Parauga datu instalācija
 description: Šajā tēmā ir sniegta informācija par datu parauga instalēšanu pakalpojumā Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985555"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581845"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Lietojumprogrammas Project Service datu parauga instalēšana
 
@@ -135,7 +135,7 @@ Demonstr. datu pak. vajag 6 lietotājus. Lai pakotni instalētu pareizi, veiciet
     - User Fullname=“Molly Clark” kā uzņēm. pārv.   
     - User Fullname=“Spencer Low” kā darbību un projektu pārv.  
     - User Fullname=“Veronica Quek” kā gr. dalībn.   
-    - User Fullname="William Contoso"
+    - User Fullname=“William Contoso”
   
 2. Demonstr. datu import. ietvaros piešķiriet minētajiem 6 lietot. admin. lomu, lai ierakstu paraugi tiktu pareizi importēti. 
 

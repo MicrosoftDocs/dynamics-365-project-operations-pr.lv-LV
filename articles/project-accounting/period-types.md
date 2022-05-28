@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par to, kā iestatīt periodu
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998785"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580465"
 ---
 # <a name="period-types"></a>Periodu tipi
 
@@ -22,7 +22,7 @@ Perioda tips nosaka, cik bieži projekta ieņēmumi tiek novērtēti. Šajā tē
 ## <a name="create-and-work-with-period-types"></a>Periodu tipu izveide un darbs ar tiem
 Lai izveidotu periodu tipus un strādātu ar tiem, izpildiet tālāk norādītās darbības.
 
-1. Dynamics 365 Finance vidē pārejiet uz **Projektu pārvaldība un uzskaite** > **Iestatīšana** > **Novērtējumi** > **Periodu tipi**.
+1. Dynamics 365 Finance vidē dodieties uz **Projektu vadība un grāmatvedība** > **Uzstādījumi** > **Estimates** > **Period tipi**.
 2. Lai izveidotu jaunu perioda tipu, atlasiet **Jauns**. Ievadiet nosaukumu un aprakstu.
 3. Laukā **Biežums** ievadiet vērtību.
 

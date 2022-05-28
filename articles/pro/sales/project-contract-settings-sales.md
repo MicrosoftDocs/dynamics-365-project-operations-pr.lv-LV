@@ -2,16 +2,16 @@
 title: Projekta līguma iestatījumi — Lite
 description: Šajā tēmā ir informācija par laukiem, kas ietekmē līguma rindas, un informācija par līgumu, kas tiek apkopota visiem rindas vienumiem.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995950"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586399"
 ---
 # <a name="header-details-for-project-contracts"></a>Projektu līgumu virsraksta informācija
 
@@ -32,12 +32,15 @@ Nākamajā tabulā ir uzskaitīti līguma lauki projekta piedāvājumam, kas ir 
 | Nepārsniedzamais ierobežojums | Cilne **Kopsavilkums** | Šis lauks norāda norunāto gala vērtības maksimālo robežvērtību, kam klients ir piekritis šī darījuma ietvaros. | Maksimālā robežvērtība tiek aplēsta izpildes laikā un ir piemērojama visiem rindu vienumiem un projektiem, kas saistīti ar šo darījumu. |
 | Pieprasītais piegādes datums | Cilne **Kopsavilkums** | Veidojot līgumu no projekta piedāvājuma, šis lauks tiek kopēts no projekta piedāvājuma atbilstošā lauka. | Šis datums tiek lietots kā rēķinu ģenerēšanas grafiku beigu datums. |
 
-Projekta līguma cilnē **Līguma veiktspēja** ir pieejami šādi KPI:
+Projekta līguma cilnē **Līguma veiktspēja** ir pieejami šādi KPI: 
 
-| Lauks | Atrašanās vieta | Apraksts |
+>[!NOTE]
+>Visas summas cilnē **Līguma izpilde** ir izteiktas vides noklusējuma valūtā.
+
+| Kolonna | Atrašanās vieta | Apraksts |
 | --- | --- | --- |
-| Līguma vērtība | Kopējais līgums | Projekta līguma kopējā vērtība. |
-| Rēķinā norādītā summa | Kopējais līgums | Visu to rēķinu vērtību summa, kas ir atbilstoši šim līgumam. |
+| Līguma vērtība | Kopējais līgums | Projekta līguma kopējā vērtība.|
+| Rēķinā norādītā summa | Kopējais līgums | Visu to rēķinu vērtību summa, kas ir atbilstoši šim līgumam.|
 | Radušās izmaksas | Kopējais līgums | Visu to izmaksu faktisko datu summa, kas pieteiktas visos projektos, kuri ir kartēti uz līgumu. |
 | Bruto peļņa | Kopējais līgums | Samaksātā summa — izmaksas, kas nav saistītas ar datumu/rēķinu summu |
 | Paredzamā peļņa | Kopējais līgums | (Līguma vērtība — prognozētās izmaksas)/līguma valueEstimated izmaksas = visu paredzamo izmaksu summa, kas ir kartētas uz šo līgumu.|

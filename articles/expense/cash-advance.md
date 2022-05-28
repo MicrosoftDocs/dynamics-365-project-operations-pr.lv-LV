@@ -4,16 +4,16 @@ description: Šajā tēmā ir sniegta informācija par naudas avansiem.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988525"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585709"
 ---
 # <a name="cash-advance"></a>Naudas avanss
 
@@ -66,7 +66,7 @@ Pirms izdevumu atskaites iesniegšanas varat atlasīt naudas avansu, kas atbilst
  
  Ja ir iespējoti šie līdzekļi:
  
-  - Katrai izdevumu rindai varat pievienot vienu vai vairākus naudas avansus.
+  - Katrai izdevumu rindai var pievienot vienu vai vairākus naudas avansus.
   - Pieejamā naudas avansa bilance ir redzama reāllaikā, kad tiek saglabāta izdevumu atskaite. Tas ļauj vienlaikus apstrādāt izdevumu transakcijas un atgriezt naudas transakciju.
   - Vienai izdevumu transakcijai varat atlasīt vairākus naudas avansus.
   - Izmantojot vaicājumu, ir pieejami naudas avansa saskaņošanas dati. 
