@@ -4,14 +4,14 @@ description: Šajā tēmā ir ietverts saraksts ar duālās rakstīšanas kartē
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
-ms.translationtype: HT
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547118"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612763"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations duālās rakstīšanas kartes versijas
 
@@ -30,7 +30,7 @@ Risinājumā Project Operations nepieciešamie priekšnosacījumi ir tālāk uzs
 | Klienti V3 (accounts) | Nav nepieciešama nodrošināšanai. |
 | Piegādātāji V2 (msdyn_vendors) | Nav nepieciešama nodrošināšanai. |
 
-1. Karšu sarakstā atlasiet karti Virsgrāmata **(msdyn\_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. Laukā **Sākotnējās sinhronizācijas šablons** atlasiet **Finance and Operations programmas** gan virsgrāmatas kartei, gan visām priekšnosacījuma kartēm. Atlasiet **Izpildīt**.
+1. Karšu sarakstā atlasiet karti Virsgrāmata **(msdyn\_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. Laukā Šablons **sākotnējai sinhronizācijai** atlasiet **Finance and Operations programmas** gan Virsgrāmatas kartei, gan visām priekšnosacījumu kartēm. Atlasiet **Izpildīt**.
 
 ![Virsgrāmatas kartes sinhronizācija.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Risinājumā Project Operations nepieciešamie priekšnosacījumi ir tālāk uzs
 
 Risinājumā Project Operations nepieciešamas tālāk uzskaitītās kartes. Ar 2021. gada maija atjauninājumu Project Operations versiju 4.10.0.186 ir uzskaitītas duālās rakstīšanas kartes.
 
-| **Entītiju karte** | **Jaunākā versija** | **Sākotnējā sinhronizācija** |
-| --- | --- | --- |
-| Integrāciju entītija projekta transakciju relācijām (msdyn\_transactionconnections) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. |
-| Projektu līgumu galvenes (sales orders) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. |
-| Projekta līguma rindas (salesorderdetails) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. |
-| Projekta līdzekļu avots (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. |
-| Projekta rēķinu priekšlikumi V2 (invoices) | 1.0.0.3 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas faktiskie dati (msdyn_actuals) | 1.0.0.14 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācija līguma rindas atskaites punktos (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas entītija izmaksu aprēķiniem (msdyn_estimatelines) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas entītija stundu aprēķiniem (msdyn_resourceassignments) | 1.0.0.5 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas projekta izdevumu kategorijas eksporta entītija (msdyn_expensecategories) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn_expenses) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn_projectvendorinvoices) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. |
-| Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. |
-| Projekta resursu lomas visiem uzņēmumiem (bookableresourcecategories) | 1.0.0.1 | Lai sinhronizētu projektu vadītāja un darba grupas dalībnieka resursu lomas, kas aizpildītas Dynamics 365 Dataverse vidē nodrošināšanas laikā, tabulas kartei ir nepieciešama sākotnējā sinhronizācija. Dataverse ir sākotnējās sinhronizācijas galvenais avots. |
-| Projekta uzdevumi (msdyn_projecttasks) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. |
-| Projekta transakcijas kategorijas (msdyn_transactioncategories) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. |
-| Projekti V2 (msdyn_projects) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. |
+| Entītiju karte | Jaunākā versija | Sākotnējā sinhronizācija | Nepieciešamā Dynamics 365 Finance versija |
+| --- | --- | --- | --- |
+| Integrāciju entītija projekta transakciju relācijām (msdyn\_transactionconnections) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
+| Projektu līgumu galvenes (sales orders) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. ||
+| Projekta līguma rindas (salesorderdetails) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
+| Projekta līdzekļu avots (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
+| Projekta rēķinu priekšlikumi V2 (invoices) | 1.0.0.3 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas faktiskie dati (msdyn_actuals) | 1.0.0.14 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācija līguma rindas atskaites punktos (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas entītija izmaksu aprēķiniem (msdyn_estimatelines) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas entītija stundu aprēķiniem (msdyn_resourceassignments) | 1.0.0.5 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas projekta izdevumu kategorijas eksporta entītija (msdyn_expensecategories) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn_expenses) | 1.0.0.3 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn_projectvendorinvoices) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. | 10.0.26 vai jaunāka versija |
+| Projekta resursu lomas visiem uzņēmumiem (bookableresourcecategories) | 1.0.0.1 | Lai sinhronizētu projektu vadītāja un darba grupas dalībnieka resursu lomas, kas aizpildītas Dynamics 365 Dataverse vidē nodrošināšanas laikā, tabulas kartei ir nepieciešama sākotnējā sinhronizācija. Dataverse ir sākotnējās sinhronizācijas galvenais avots. ||
+| Projekta uzdevumi (msdyn_projecttasks) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. ||
+| Projekta transakcijas kategorijas (msdyn_transactioncategories) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
+| Projekti V2 (msdyn_projects) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. ||
 
 Izpildiet tālāk norādītās darbības, lai palaistu sarakstā norādītās kartes.
 

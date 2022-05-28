@@ -7,25 +7,24 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 62229d8565a594a75970a8e769443541c2b4cb19
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998920"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683869"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Projekta posma pārdēvēšana vai mainīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Projekta posmi var kalpot kā ceļvedis projekta dzīves ciklā. Varat definēt projekta posmus, kurus vēlaties iekļaut projektos projekta posma apgabalā projekta pārvaldības un grāmatvedības parametru lapā. Dynamics 365 Finance nodrošina piecus iepriekš definētus projekta posmus un trīs lietotāja definētus posmus. Varat atjaunināt projekta posma nosaukumu, ko izmantojat, lai sekotu projektu norisei. Varat arī norādīt nosaukumus lietotāja definētiem statusa nosaukumiem. Šajā uzdevumā ir parādīts, kā pārdēvēt vai mainīt projekta posmu un kā lietot USSI datu kopu.
+Projekta posmi var kalpot kā ceļvedis projekta dzīves ciklā. Varat definēt projekta posmus, kurus vēlaties iekļaut projektos projekta posma apgabalā projekta pārvaldības un grāmatvedības parametru lapā. Dynamics 365 Finance nodrošina piecus iepriekš noteiktus projekta posmus un trīs lietotāja noteiktus posmus. Varat atjaunināt projekta posma nosaukumu, ko izmantojat, lai sekotu projektu norisei. Varat arī norādīt nosaukumus lietotāja definētiem statusa nosaukumiem. Šajā uzdevumā ir parādīts, kā pārdēvēt vai mainīt projekta posmu un kā lietot USSI datu kopu.
 
 1. Dodieties uz Projekta pārvaldība un grāmatvedība > Iestatīšana > Projekta pārvaldības un grāmatvedības parametri.
 2. Noklikšķiniet uz cilnes Projekta posms.

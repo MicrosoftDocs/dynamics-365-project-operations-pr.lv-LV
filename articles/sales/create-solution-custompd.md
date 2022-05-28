@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par to, kā izveidot risināj
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992215"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601119"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Risinājuma izveide pielāgotām cenu noteikšanas dimensijām
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992215"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Risinājuma izveide pielāgotām cenu noteikšanas dimensijām
 
 1.  Izvēlieties **Iestatījumi** > **Risinājumi** un pēc tam atlasiet **Jauns**.
-2.  Piešķiriet risinājumam nosaukumu *<your organization name> cenu noteikšanas dimensijas*.
+2.  Piešķiriet risinājumam nosaukumu *\<your organization name\> cenu noteikšanas dimensijas*.
 3. Ievadiet pārējo pieprasīto informāciju un pēc tam atlasiet **Saglabāt**.
 
   ![Pielāgotas cenu noteikšanas dimensijas risinājuma izveide.](./media/Creation-of-custom-pricing-dimension-solution.png)

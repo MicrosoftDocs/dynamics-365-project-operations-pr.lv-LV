@@ -1,32 +1,31 @@
 ---
-title: Projekta uzdevumu sinhronizēšana tieši no Project Service Automation uz Finance and Operations
-description: Šajā tēmā ir aprakstīta veidne un pamata uzdevums, kas tiek izmantots projekta uzdevumu sinhronizēšanai tieši no Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
+title: Sinhronizēt projekta uzdevumus tieši no projektu pakalpojumu automatizācijas uz finansēm un operācijām
+description: Šajā tēmā aprakstīta veidne un pamatuzdevums, kas tiek izmantots, lai sinhronizētu projekta uzdevumus tieši no Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance līdz Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992800"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683319"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projekta uzdevumu sinhronizēšana tieši no Project Service Automation uz Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizēt projekta uzdevumus tieši no projektu pakalpojumu automatizācijas uz finansēm un operācijām
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta veidne un pamata uzdevums, kas tiek izmantots projekta uzdevumu sinhronizēšanai tieši no Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
+Šajā tēmā aprakstīta veidne un pamatuzdevums, kas tiek izmantots, lai sinhronizētu projekta uzdevumus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance līdz Dynamics 365 Finance.
 
 > [!NOTE]
 > - 8.0 versijā varat izmantot projekta uzdevumu integrāciju, izdevumu darbības kategorijas, stundu aprēķinus, izdevumu aprēķinus un funkcionalitātes bloķēšanu.
@@ -68,11 +67,11 @@ Pirms projekta uzdevumu sinhronizēšanas, ir jāsinhronizē projekta līgumi un
 
 ## <a name="power-query"></a>Power Query
 
-Ja ir izpildīts šis nosacījums, ir jāizmanto Microsoft Power Query programmai Excel, lai filtrētu datus:
+Datu filtrēšanai jāizmanto programma Microsoft Power Query darbam ar Excel, ja šis nosacījums ir izpildīts:
 
 - Projekta uzdevumā ir resursam specifiski ieraksti.
 
-Ja ir jāizmanto Power Query, ievērojiet šo vadlīniju:
+Ja jums ir nepieciešams izmantot Power Query, ievērojiet šo pamatnostādni:
 
 - Projekta uzdevumu (PSA uz Fin un Ops) veidnei ir noklusējuma filtrs, kas projekta uzdevumam neietver resursu specifiskos ierakstus, iestatot filtru sadaļā **IsLineTask** uz **Aplams**. Ja izveidojat savu veidni, šis filtrs ir jāpievieno.
 

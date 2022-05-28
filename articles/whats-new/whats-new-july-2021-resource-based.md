@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008055"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600889"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada jūlijā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008055"
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations programmas Microsoft Dataverse vides versijā 4.12.0.148 or 4.12.0.152.
-   - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.20.
+   - Projektu vadība un grāmatvedība Dynamics 365 Finance vides versijā 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -80,7 +80,7 @@ Ja, sākot karti, rodas problēma, izpildiet instrukcijas dubultās rakstīšana
 | VispārīgI                       | 2253682              | Project Operations duālās rakstīšanas risinājums nav jāinstalē, ja duālās rakstīšanas kodols ir instalēts vidē bez duālās rakstīšanas saskaņošanas risinājuma.                                                |
 | VispārīgI                       | 2316420              | Project Service pamata nodrošināšana neizdodas, ja tiek mainīta programmas lietotāja struktūrvienība.                                                                                                                     |
 | VispārīgI                       | 2376405              | Novērsta izstrādātāja vadīta atjauninājuma problēma (kvalitātes atjauninājums ir pieejams versijā 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projekta pārvaldība un uzskaite pakalpojumā Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu vadība un uzskaite Dynamics 365 Finance
 
 | Līdzekļu apgabals                      | Atsauces numurs | Kvalitātes atjauninājums                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

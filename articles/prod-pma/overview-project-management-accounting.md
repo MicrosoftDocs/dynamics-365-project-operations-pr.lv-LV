@@ -3,25 +3,23 @@ title: Pārskats par projektu pārvaldību un uzskaiti
 description: Projektu pārvaldības un uzskaites funkcionalitāti var izmantot vairākās nozarēs, lai nodrošinātu pakalpojumus, ražotu produktus vai sasniegtu rezultātu.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007515"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683593"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pārskats par projektu pārvaldību un uzskaiti
 
@@ -248,7 +246,7 @@ Tālāk sniegtajā tabulā ir aprakstītas metodes projekta pabeigšanas izmaksu
 <tbody>
 <tr class="odd">
 <td>Kopējās izmaksas — faktiski</td>
-<td>Prognozējamās izmaksas ir jāievada manuāli. Pēc tam, kad kolonna <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> lapā <strong>Izmaksu novērtējums</strong> ir aizpildīta, faktiskās izmaksas tiek atņemtas no lietotāja ievadītajām kopsummām. Rezultāts ir projekta pabeigšanas izmaksas. Parasti izmaksu progresija netiek izsekota, balstoties, piemēram, uz viesnīcas rezervāciju un maltīšu skaitu, kas reģistrēts katrā periodā. Tā vietā ieteicams rīkoties citādi. Izsekošana parasti tiek balstīta uz salīdzinājumu starp aplēsto stundu kopējo skaitu. Šai pieejai nav nepieciešams prognozes modelis, un kopējās izmaksas vai kopējo daudzumu var mainīt manuāli. Kad kolonnā <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> tiek ievadīta vērtība, Finance salīdzina šo vērtību ar faktiskajām transakcijām, kas ir publicētas attiecīgajā periodā, un pēc tam samazina daudzuma vērtību kolonnā <strong>Pabeigšanai nepieciešamais daudzums</strong> vai <strong>Pabeigšanai nepieciešamās izmaksas</strong>.</td>
+<td>Prognozējamās izmaksas ir jāievada manuāli. Pēc tam, kad kolonna <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> lapā <strong>Izmaksu novērtējums</strong> ir aizpildīta, faktiskās izmaksas tiek atņemtas no lietotāja ievadītajām kopsummām. Rezultāts ir projekta pabeigšanas izmaksas. Parasti izmaksu progress netiek&#39; izsekots, pamatojoties, piemēram, uz katrā periodā reģistrēto viesnīcu uzturēšanās un maltīšu skaitu. Tā vietā ieteicams rīkoties citādi. Izsekošana parasti tiek balstīta uz salīdzinājumu starp aplēsto stundu kopējo skaitu. Šai pieejai nav&#39; nepieciešams budžeta modelis, un kopējās izmaksas vai kopējo daudzumu var mainīt manuāli. Kad kolonnā <strong>Kopējās izmaksas</strong> vai <strong>Kopējais daudzums</strong> tiek ievadīta vērtība, Finance salīdzina šo vērtību ar faktiskajām transakcijām, kas ir publicētas attiecīgajā periodā, un pēc tam samazina daudzuma vērtību kolonnā <strong>Pabeigšanai nepieciešamais daudzums</strong> vai <strong>Pabeigšanai nepieciešamās izmaksas</strong>.</td>
 </tr>
 <tr class="even">
 <td>Kopējais budžets — faktiski</td>

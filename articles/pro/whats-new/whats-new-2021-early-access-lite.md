@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323920"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723685"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Jaunumi — 2021. gada 2. viļņa agrīnā piekļuve — Project Operations Lite izvietošana
 
@@ -26,7 +26,7 @@ _Attiecas uz: Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
-[Apakšlīguma pārvaldība](../subcontracting/subcontracting_EA_scope.md) — šis līdzeklis nodrošina labāku pārredzamību un kontroli pār visiem projekta darba aspektiem. Apakšlīguma pārvaldības priekšskatījumā ir ietvertas tālāk norādītās iespējas.
+[Apakšlīguma pārvaldība](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) — šis līdzeklis nodrošina labāku pārredzamību un kontroli pār visiem projekta darba aspektiem. Apakšlīguma pārvaldības priekšskatījumā ir ietvertas tālāk norādītās iespējas.
 
   - Projekta vadītājs var izveidot apakšlīgumu ar pārdevēju. Pēc noklusējuma apakšlīgumam tiek izmantoti pārdevēja ierakstam pievienotie cenrāži. Pārdevēja uzņēmuma attiecību tips ir **Pārdevējs** vai **Piegādātājs**.
   - Projekta vadītājs var norādīt visus pirkumus kā apakšlīguma rindas elementus. Apakšlīguma rindas var būt laiks, izmaksas vai produkti. Apakšlīguma rindas transakciju klase nosaka, kam šī rinda ir paredzēta.

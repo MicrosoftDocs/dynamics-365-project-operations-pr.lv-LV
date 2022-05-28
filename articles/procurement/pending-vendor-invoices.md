@@ -1,46 +1,42 @@
 ---
-title: Krājumos neesošu materiālu iegāde, izmantojot neapstiprinātu piegādātāju rēķinu
+title: Neuzkrātu materiālu vai sagādes kategoriju pirkšana, izmantojot neizlemtu kreditora rēķinu
 description: Šajā tēmā ir izskaidrots, kā ierakstīt neapstiprinātus piegādātāju rēķinus.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547298"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612666"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Krājumos neesošu materiālu iegāde, izmantojot neapstiprinātu piegādātāju rēķinu
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Neuzkrātu materiālu vai sagādes kategoriju pirkšana, izmantojot neizlemtu kreditora rēķinu
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Kad uzņēmums projekta vajadzībām veic krājumos neesošu materiālu iepirkumu, izmaksas var nekavējoties reģistrēt saistībā ar šo projektu. 
+Tā kā uzņēmums projektam iepērk neuzkrātus materiālus vai iepirkuma kategorijas, izmaksas var nekavējoties reģistrēt, salīdzinot ar projektu. 
 
-Piemēram, Contoso Robotics ASV veic aprīkojuma atjaunošanas projektu, un tam ir nepieciešamas programmatūras licences. Šīs licences tiek iegādātas no trešās puses piegādātāja.  Izmantojot Dynamics 365 Finance, kreditoru ierēdnis ieraksta neapstiprinātu piegādātāja rēķina dokumentu un pieskaita licences izmaksas tieši aprīkojuma atjaunošanas projektam. 
+Piemēram, Contoso Robotics ASV veic aprīkojuma atjaunošanas projektu, un tam ir nepieciešamas programmatūras licences. Šīs licences tiek iegādātas no trešās puses piegādātāja.  Izmantojot Dynamics 365 Finance, kreditoru darbinieks reģistrē gaidošo piegādātāja rēķina dokumentu un saista licences izmaksas tieši ar aprīkojuma atjaunošanas projektu. 
 
 > [!IMPORTANT]
-> Pirms šajā tēmā aprakstītās funkcionalitātes izmantošanas pārskatiet un lietojiet nepieciešamās konfigurācijas. Papildinformāciju skatiet sadaļā [Krājumos neesošu materiālu un neapstiprinātu piegādātāju rēķinu iespējošana](configure-materials-nonstocked.md). 
+> Pirms šajā tēmā aprakstītās funkcionalitātes izmantošanas pārskatiet un lietojiet nepieciešamās konfigurācijas. Plašāku informāciju skatiet Enabling [non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md) and [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Ar projektu saistīta neapstiprināta piegādātāja rēķina grāmatošana 
 
 Neapstiprinātos piegādātāju rēķinus var ierakstīt lapā **Neapstiprinātie piegādātāju rēķini** (**Kreditori** > **Rēķini** > **Neapstiprinātie piegādātāju rēķini**). Lai grāmatotu ar projektu saistītu neapstiprinātu piegādātāja rēķinu, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Kreditori** > **Rēķini** un atlasiet **Jauns**. 
-2. Laukā **Rēķina konts** atlasiet piegādātāju un laukā **Numurs** ievadiet piegādātāja rēķina identifikatoru.
-3. Pievienojiet piegādātāja rēķinam rindu un laukā **Vienuma numurs** atlasiet no piegādātāja iegādāto krājumos neesošo preci. 
-
-    > [!NOTE]
-    > Piegādātāja rēķina rindas, kas ir balstītas uz sagādes kategoriju, nevar ierakstīt attiecībā uz projektu. 
-    
-5. Pievienojiet iegādāto daudzumu. Sistēma aizpilda cenu par vienību, pamatojoties uz krājumos neesošo preču cenas konfigurāciju. 
-6. Pārbaudiet kopējo summu un citu rindā nepieciešamo informāciju.
-7. Rindas detalizētās informācijas cilnē **Projekts** atlasiet tā projekta ID, kurā šis vienums tiks ierakstīts.
-8. Ja vēlaties, atlasiet darbības numuru un atjauniniet projekta kategoriju un rindas rekvizītu.
-9. Grāmatojiet neapstiprināto piegādātāja rēķinu. Kad rēķins ir grāmatots, sistēma ieraksta:
+1. Dodieties uz **Kreditoru** > **rēķini** un atlasiet **Jauns**. 
+1. Laukā **Rēķina konts** atlasiet piegādātāju un pēc tam **laukā Numurs** ievadiet kreditora rēķina identifikāciju.
+1. Pievienojiet rindu kreditora rēķinam un pēc tam **laukā Preces numurs** atlasiet neuzkrāto preci, kas iegādāta no piegādātāja. **Vai arī laukā Iepirkuma kategorija** atlasiet sagādes kategoriju, kas iegādāta no kreditora.   
+1. Pievienojiet iepirkto daudzumu. Sistēma aizpilda vienības cenu, pamatojoties uz neuzkrāto krājumu cenu konfigurāciju. 
+1. Pārbaudiet kopējo summu un citu rindā nepieciešamo informāciju.
+1. Rindas detaļās **cilnē Projekts** atlasiet tā projekta ID, kurā šis vienums tiks ierakstīts.
+1. Neobligāti: atlasiet aktivitātes numuru un atjauniniet projekta kategoriju un rindas rekvizītu.
+1. Grāmatojiet gaidošo kreditora rēķinu. Grāmatojot rēķinu, sistēma reģistrē šādu informāciju:
     
     - piegādātāja bilances summu;
     - PVN summu.

@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997210"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683196"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekta darba laika uzskaites tabulas mobilā programma
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997210"
 
 ## <a name="overview"></a>Pārskats
 
-Microsoft Dynamics 365 Project Timesheet mobilā programma ļauj lietotājiem iesniegt un apstiprināt darba laika uzskaites tabulas par projektiem savā mobilajā ierīcē (iPhone vai Android). Šajā mobilajā lietojumprogrammā tiek rādīta darba laika uzskaites tabulu funkcionalitāte, kas atrodas projekta pārvaldības un grāmatvedības apgabalā Dynamics 365 Finance, uzlabojot lietotāju produktivitāti un efektivitāti, kā arī iespējojot savlaicīgu projekta darba laika uzskaites tabulu ievadīšanu un apstiprināšanu.
+Microsoft Dynamics 365 Project Timesheet mobilā programma ļauj lietotājiem iesniegt un apstiprināt darba laika uzskaites tabulas par projektiem savā mobilajā ierīcē (iPhone vai Android). Šī mobilā lietotne atspoguļo darba laika uzskaites tabulas funkcionalitāti, kas atrodas Dynamics 365 Finance projektu vadības un uzskaites jomā, uzlabojot lietotāju produktivitāti un efektivitāti, kā arī ļaujot savlaicīgi ievadīt un apstiprināt projekta darba laika uzskaites tabulas.
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 

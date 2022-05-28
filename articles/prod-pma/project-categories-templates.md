@@ -1,32 +1,31 @@
 ---
-title: Projekta izdevumu kategoriju sinhronizēšana starp Finance and Operations un Project Service Automation
-description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta izdevumu kategoriju sinhronizēšanai starp Microsoft Dynamics 365 Finance un Dynamics 365 Project Service Automation.
+title: Sinhronizēt projekta izdevumu kategorijas starp finansēm un operācijām un projektu pakalpojumu automatizāciju
+description: Šajā tēmā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta izdevumu kategorijas no Microsoft Dynamics 365 Finance līdz Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001125"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685479"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekta izdevumu kategoriju sinhronizēšana starp Finance and Operations un Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizēt projekta izdevumu kategorijas starp finansēm un operācijām un projektu pakalpojumu automatizāciju
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta izdevumu kategoriju sinhronizēšanai starp Dynamics 365 Finance un Dynamics 365 Project Service Automation.
+Šajā tēmā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta izdevumu kategorijas starp Dynamics 365 Finance un Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - 8.0 versijā varat izmantot projekta uzdevumu integrāciju, izdevumu darbības kategorijas, stundu aprēķinus, izdevumu aprēķinus un funkcionalitātes bloķēšanu.
@@ -81,10 +80,10 @@ Projekta izdevumu kategorijas tiek pārvaldītas pakalpojumā Finance, un tās t
 
 ### <a name="power-query"></a>Power Query
 
-Kad veicat sinhronizēšanu uz Project Service Automation, ir jāizmanto Microsoft Power Query programmai Excel, lai transakciju kategorijā iestatītu norēķinu tipu. Projekta izdevumu transakciju kategoriju (Fin un Ops uz PSA) veidne nodrošina noklusējuma kolonnu un kartēšanu. Ja izveidojat savu veidni, ir jāpievieno nosacījuma kolonna, izmantojot Power Query. Veiciet tālāk norādītās darbības.
+Sinhronizējot ar Project Service Automation, jāizmanto programma Microsoft Power Query for Excel, lai iestatītu norēķinu tipu darbību kategorijai. Projekta izdevumu transakciju kategoriju (Fin un Ops uz PSA) veidne nodrošina noklusējuma kolonnu un kartēšanu. Ja izveidojat savu veidni, programmā ir jāpievieno nosacījuma kolonna Power Query. Veiciet tālāk norādītās darbības.
 
 1. Noklikšķiniet uz bultiņas, lai atvērtu projekta izdevumu kategoriju uzdevuma kartējumu projekta izdevumu transakciju kategoriju (Fin un Ops uz PSA) veidnē.
-2. Noklikšķiniet uz **Detalizēto vaicājumu un filtrēšanas** saites, lai atvērtu Power Query.
+2. Noklikšķiniet uz **saites Iepriekšējais vaicājums un filtrēšana**, lai atvērtu Power Query.
 2. Atlasiet **Pievienot nosacījuma kolonnu**.
 3. Ievadiet jaunās kolonnas nosaukumu, piemēram, **NorēķinuTips**.
 4. Ievadiet šādu nosacījumu:Ievadiet šādu nosacījumu: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

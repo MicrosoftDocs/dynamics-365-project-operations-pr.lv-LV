@@ -1,32 +1,31 @@
 ---
-title: Projekta faktisko datu sinhronizēšana tieši no Project Service Automation uz projekta integrācijas žurnālu publicēšanai Finance and Operations
-description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta faktisko datu sinhronizēšanai tieši no Microsoft Dynamics 365 Project Service Automation uz Finance and Operations.
+title: Sinhronizēt projekta faktiskos datus tieši no project service automation uz projekta integrācijas žurnālu grāmatošanai sadaļā Finanses un operācijas
+description: Šajā tēmā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta faktiskos datus tieši no Microsoft Dynamics 365 Project Service Automation uz Finanses un Operācijas.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988120"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683547"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekta faktisko datu sinhronizēšana tieši no Project Service Automation uz projekta integrācijas žurnālu publicēšanai Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinhronizēt projekta faktiskos datus tieši no project service automation uz projekta integrācijas žurnālu grāmatošanai sadaļā Finanses un operācijas
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta faktisko datu sinhronizēšanai tieši no Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
+Šajā tēmā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta faktiskos datus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 Veidne sinhronizē transakcijas no Project Service Automation uz izstādīšanas tabulu risinājumā Finance. Kad sinhronizācija ir pabeigta, jums **jāimportē** dati no izstādīšanas tabulas integrācijas žurnālā.
 
@@ -42,7 +41,7 @@ Project Service Automation uz Finance integrācijas risinājumam tiek izmantots 
 
 Nākamajā ilustrācijā parādīts, kā dati tiek sinhronizēti starp Project Service Automation un Finance.
 
-[![Datu plūsma Project Service Automation integrācijai ar Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Datu plūsma projektu pakalpojumu automatizācijas integrācijai ar finansēm un operācijām.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projekta faktiskie dati no Project Service Automation
 
@@ -75,7 +74,7 @@ Lai varētu sinhronizēt faktiskos datus, ir jākonfigurē Project Service Autom
 
 ### <a name="power-query"></a>Power Query
 
-Projekta faktisko datu veidnē ir jāizmanto Microsoft Power Query for Excel, lai izpildītu šos uzdevumus:
+Projekta faktiskās veidnes veidnē ir jāizmanto programma Microsoft Power Query darbam ar Excel, lai veiktu šos uzdevumus:
 
 - Pārvērtiet transakcijas tipu risinājumā Project Service Automation  uz pareizo transakcijas tipu Finance. Šī transformācija jau ir definēta projekta faktisko datu atjaunināšanas (PSA uz Fin un Ops) veidnē.
 - Pārvērtiet norēķinu tipu risinājumā Project Service Automation uz pareizo norēķinu tipu Finance. Šī transformācija jau ir definēta projekta faktisko datu atjaunināšanas (PSA uz Fin un Ops) veidnē. Norēķinu tips pēc tam tiek kartēts uz rindas rekvizītu, pamatojoties uz lapas **Project Service Automation integrācijas parametri** konfigurāciju.
@@ -84,9 +83,9 @@ Projekta faktisko datu veidnē ir jāizmanto Microsoft Power Query for Excel, la
 - Ja starpuzņēmumu laika vai starpuzņēmumu izmaksu faktiskie dati netiks sinhronizēti ar Finance, no veidnes ir jāizdzēš pēdējā ievietotā nosacījuma kolonna. Pretējā gadījumā var rasties integrācijas kļūda, vai arī uz Finance var tikt importētas nepareizas faktiskās transakcijas.
 
 #### <a name="contract-organizational-unit"></a>Līguma uzņēmuma vienība
-Lai veidnē atjauninātu ievietoto nosacījuma kolonnu, noklikšķiniet uz bultiņas **Karte**, lai atvērtu kartējumu. Atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti, lai atvērtu Power Query.
+Lai veidnē atjauninātu ievietoto nosacījuma kolonnu, noklikšķiniet uz bultiņas **Karte**, lai atvērtu kartējumu. Atlasiet atvērto **saiti Papildu vaicājums** un filtrēšana Power Query.
 
-- Ja izmantojat noklusējuma Projekta faktisko datu (PSA uz Fin un Ops) veidni, Power Query sadaļā **Piemērojamās darbības** atlasiet pēdējo **Ievietoto nosacījumu**. Ierakstā **Funkcija** aizstājiet **USSI** ar tās juridiskās personas nosaukumu, kuru vajadzētu izmantot ar integrāciju. Pievienojiet ierakstam **Funkcija** papildu nosacījumus, kad tas ir nepieciešams, un atjauniniet **USMF** nosacījumu **cits** uz pareizo juridisko personu.
+- Ja izmantojat noklusējuma veidni Project actuals (PSA to Fin un Ops), sadaļā Power Query sadaļā Lietotās darbības **atlasiet pēdējo** ievietoto **nosacījumu**. Ierakstā **Funkcija** aizstājiet **USSI** ar tās juridiskās personas nosaukumu, kuru vajadzētu izmantot ar integrāciju. Pievienojiet ierakstam **Funkcija** papildu nosacījumus, kad tas ir nepieciešams, un atjauniniet **USMF** nosacījumu **cits** uz pareizo juridisko personu.
 - Ja izveidojat jaunu veidni, šī kolonna ir jāpievieno, lai atbalstītu starpuzņēmumu laiku un izdevumus. Atlasiet **Pievienot nosacījuma kolonnu** un ievadiet kolonnas nosaukumu, piemēram, **JuridiskaPersona**. Ievadiet kolonnas nosacījumu, kur, ja **msdyn\_contractorganizationalunitid.msdyn\_nosaukums** ir \<organizational unit\>, tad \<enter the legal entity\>; pretējā gadījumā tas ir Null.
 
 ### <a name="template-mapping-in-data-integration"></a>Veidņu kartēšana datu integrācijā
@@ -126,7 +125,7 @@ Projekta faktiskie dati tiek pārvaldīti pakalpojumā Project Service Automatio
 
 ### <a name="power-query"></a>Power Query
 
-Projekta faktisko datu atjaunināšanas veidnē ir jāizmanto Power Query, lai izpildītu šos uzdevumus:
+Projekta faktiskās atjaunināšanas veidnē ir jāizmanto Power Query, lai izpildītu šos uzdevumus:
 
 - Pārvērtiet transakcijas tipu risinājumā Finance uz pareizo transakcijas tipu Project Service Automation. Šī transformācija jau ir definēta projekta faktisko datu atjaunināšanas (Fin Ops uz PSA) veidnē.
 - Pārvērtiet norēķinu tipu risinājumā Finance uz pareizo norēķinu tipu Project Service Automation. Šī transformācija jau ir definēta projekta faktisko datu atjaunināšanas (Fin Ops uz PSA) veidnē.

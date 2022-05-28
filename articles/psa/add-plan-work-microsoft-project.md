@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005310"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727967"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Izmantojiet pievienojumprogrammu Project Service Automation, lai plānotu savu darbu programmā Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005310"
 ## <a name="download-and-install-the-add-in"></a>Pievienojumprogrammas lejupielāde un instalēšana  
  Sagatavojiet [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pierakstīšanās informāciju. Šī informācija būs nepieciešama, lai pārietu no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] uz pievienojumprogrammu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Lejupielādes centrā varat lejupielādēt pievienojumprogrammu, kas paredzēta jūsu atbalstītajai Project Service versijai: [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) vai [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Lejupielādes centrā varat lejupielādēt pievienojumprogrammu, kas paredzēta jūsu atbalstītajai Project Service versijai: [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) vai [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Noklikšķiniet uz lejupielādes saites.  
 
@@ -87,9 +88,8 @@ Kad projekta plānošana ir pabeigta, importējiet un publicēt to pievienojumpr
 
 Projekts tiks importēts pievienojumprogrammā [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Tiek lietots cenu noteikšanas un komandas veidošanas process. Atveriet projektu pievienojumprogrammā [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], lai redzētu ģenerēto darba grupu, projekta aprēķinus un darba sadalījuma struktūru. Tālāk sniegtajā tabulā ir redzams, kur var atrast rezultātus:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Detalizēta informācija |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ganta diagramma**   | Importē ekrānā [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Darba sadalījuma struktūra**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resursa lapa** |   Importē ekrānā [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projekta darba grupas dalībnieki**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Lietojums**    |    Importē ekrānā [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projekta aprēķini**.     |

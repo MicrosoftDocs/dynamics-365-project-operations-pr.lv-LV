@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679218"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600797"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada jūnijā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Project Operations programmas Dynamics 365 Dataverse vides versijā 4.11.0.156 vai 4.11.0.164.
-- Projektu pārvaldība un uzskaite Finance and Operations programmu vides versijā 10.0.19.
+- Projektu vadība un uzskaite Finanšu un operāciju lietotņu vidē versija 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -38,7 +38,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Pašreizējo Project Operations duālās rakstīšanas karšu sarakstu un versijas skatiet sadaļā [Project Operations duālās rakstīšanas karšu versijas](../environment/resource-dual-write-maps.md).
 
-Kad atjaunināt Project Operations Dataverse risinājuma un Finance and Operations programmu risinājuma versiju, vidē vienmēr ir jābūt jaunākajai kartes versijai un jābūt iespējotām visām saistītajām tabulu kartēm. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas **Versija** lapā **Duālā rakstīšana**. Aktivizējiet jaunu kartes versiju, atlasot **Tabulas karšu versijas**, atlasot jaunāko versiju un pēc tam saglabājot atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Atjauninot projektu operāciju Dataverse risinājumu un Finance and Operations programmu risinājuma versiju, vienmēr palaidiet vidē jaunāko kartes versiju un iespējojiet visas saistītās tabulu kartes. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas **Versija** lapā **Duālā rakstīšana**. Aktivizējiet jaunu kartes versiju, atlasot **Tabulas karšu versijas**, atlasot jaunāko versiju un pēc tam saglabājot atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ja rodas problēma, sākot karti, izpildiet instrukcijas dubultās rakstīšanas problēmu novēršanas ceļveža sadaļā [Kartes trūkstošu tabulas kolonnu problēma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -62,7 +62,7 @@ Ja rodas problēma, sākot karti, izpildiet instrukcijas dubultās rakstīšanas
 | Laiks un izdevumi | 2194431 | Režģī **Laika ievade** nedēļas sākumam jābūt, kā tas ir iestatīts **Sistēmas iestatījumos**. |
 | Laiks un izdevumi | 2277311 | Pēc vērtības dzēšanas **Laika ievades** režģa šūnā kursors paliek režģī. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projekta pārvaldība un uzskaite pakalpojumā Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu vadība un uzskaite Dynamics 365 Finance
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |

@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par projekta cenu sarakstu p�
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 824026d0620de809c0366c86c2d4d13fe83d4d1ddd4c0dc1cc2645ff712705d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2ad0e260fde65cf3eb32539fbcdb7101796cb53b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996490"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600521"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projekta līgumu projekta cenu sarakstu pārvaldīšana
 
