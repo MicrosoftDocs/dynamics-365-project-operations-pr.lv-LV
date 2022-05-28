@@ -1,59 +1,59 @@
 ---
-title: Apakšuzņēmuma līgumu slēgšana projekta grupas dalībniekiem
-description: Šajā tēmā ir paskaidrots, kā slēgt apakšlīgumus par projekta grupas dalībniekiem programmā Microsoft Dynamics 365 Project Operations.
+title: Apakšlīguma projekta grupas dalībnieki
+description: Šajā tēmā paskaidrots, kā apakšuzņēmuma līgumi par projekta grupas dalībniekiem programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903709"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587855"
 ---
-# <a name="subcontracting-project-team-members"></a>Apakšuzņēmuma līgumu slēgšana projekta grupas dalībniekiem
+# <a name="subcontracting-project-team-members"></a>Apakšlīguma projekta grupas dalībnieki
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Programmā Microsoft Dynamics 365 Project Operations varat izvēlēties slēgt apakšlīgumus par projekta grupas dalībniekiem bez personāla vai ar personālu.
+Programmā Microsoft Dynamics 365 Project Operations varat izvēlēties slēgt apakšlīgumus par projekta grupas dalībniekiem bez personāla vai darbiniekiem.
 
-- Projekta grupas dalībniekiem bez personāla ir piešķirts vispārējs resurss.
-- Komandas dalībniekiem, kuriem ir piešķirts nosaukts resurss.
+- Projekta grupas dalībniekiem, kuriem nav darbinieku, ir piešķirts vispārējs resurss.
+- Komandas dalībniekiem ar personālu ir piešķirts nosaukts resurss.
 
-Saistot projekta grupas dalībnieku ar apakšuzņēmuma rindu, visi uzdevumi uzdevumiem, kas ir grupas dalībniekam, tiks atkārtoti atlasīti, pamatojoties uz apakšuzņēmuma līgumam pievienoto iepirkuma cenrādi.  Lapas **Detalizēta informācija par projektu cilnē Novērtējumi** **atlasiet** **pogu Atjaunināt cenas,** lai skatītu atjauninātās cenas un/vai izmaksu sārņus, kas izriet no lēmuma par apakšuzņēmuma līgumu slēdzu. 
+Saistot projekta grupas dalībnieku ar apakšuzņēmuma rindu, visas piešķires uzdevumiem, kas ir grupas dalībniekam, tiks atkārtoti ģenerētas, pamatojoties uz iepirkuma cenrādi, kas pievienots apakšlīgumam.  **Lapas Detalizēta informācija** par **projektu cilnē Novērtējumi** atlasiet **pogu Atjaunināt cenas**, lai skatītu atjauninātās cenas un/vai izmaksas, kas izriet no lēmuma slēgt apakšuzņēmuma līgumus rezultātā. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Apakšuzņēmuma līgumu slēgšana projekta grupas dalībniekam bez darbinieku saimirgots
-**Lapā Grupas dalībniekam ir** apakšuzņēmuma līgumu un apakšuzņēmuma rindu lauki, kas ļauj projekta vadītājam izteikt, kā viņš vēlas izmantot nepieciešamo jaudu no apakšuzņēmuma līguma. Lai slēgtu apakšlīgumus par projekta grupas dalībnieku kā vispārīgu resursu, rīkojieties šādi:
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Apakšlīgumu slēgšana ar projekta grupas dalībnieku bez personāla
+Lapā **Grupas dalībnieks detalizēta informācija** ir apakšuzņēmuma un apakšuzņēmuma rindu lauki, kas ļauj projekta vadītājam izteikt, kā viņš vēlas iegūt no apakšuzņēmuma nepieciešamo jaudu. Lai apakšuzņēmuma līgumu par projekta grupas dalībnieku noslēgtu apakšuzņēmuma līgumu kā vispārīgu resursu, rīkojieties šādi:
 
-1.  Grupas dalībnieka detalizētas informācijas lapā izvēlieties apakšuzņēmuma **līgumu**.
+1.  Izvēlieties apakšuzņēmuma līgumu grupas dalībnieka detalizētās **informācijas** lapā.
 
-2.  Varat atlasīt tikai apakšuzņēmuma līgumus ar **statusu Melnraksts** vai **Apstiprināts**. **Slēgtos** vai **Atceltos** apakšuzņēmuma līgumus nevar atlasīt. 
+2.  Varat atlasīt tikai apakšlīgumus ar **statusu Melnraksts** vai **Apstiprināts**. **Nevar atlasīt slēgtus** vai **atceltus** apakšlīgumus. 
 
-3.  **Pēc** apakšuzņēmuma līguma atlasīšanas tiek redzams lauks Apakšuzņēmuma rinda.
+3.  **Zemlīguma rindas** lauks kļūst redzams pēc apakšuzņēmuma atlasīšanas.
 
-4.  Laukā **Apakšuzņēmuma rinda** var atlasīt tikai laika apakšuzņēmēja rindas. Nevar atlasīt izdevumu vai materiālu apakšuzņēmēju rindas.
+4.  Laukā **Apakšlīguma rinda** var atlasīt tikai uz laiku esošas apakšuzņēmuma rindas. Izdevumu vai materiālu apakšuzņēmuma rindas nevar atlasīt.
 
-5.  Projekta grupas dalībnieka ieraksta lomai jāatbilst lomai apakšuzņēmuma rindā. Tas nodrošina, ka projektā novērtētās lomas laiks ir tā pati loma, kas tiek iegādāta apakšuzņēmuma rindā. 
+5.  Projekta grupas dalībnieka ieraksta lomai jāatbilst lomai apakšuzņēmuma rindā. Tas nodrošina, ka projektā novērtētās lomas laiks ir tā pati loma, kas tiek iegādāta apakšuzņēmuma līnijā. 
 
-Ja vispārīgais grupas dalībnieks ir saistīts ar apakšuzņēmuma līgumu un apakšuzņēmuma rindu, **lauks Darbinieka tips** vispārīgās grupas dalībnieka rindā tiks atjaunināts uz **Līguma darbinieks un** **Apakšuzņēmuma līguma derīgums** tiks iestatīts uz **Derīgs**.
+Ja vispārējs grupas dalībnieks ir saistīts ar apakšuzņēmuma un apakšuzņēmuma rindu, **lauks Darbinieka tips** vispārējā grupas dalībnieku rindā tiks atjaunināts uz **Līgumdarbinieks**, un **apakšuzņēmuma derīgums** tiks iestatīts uz **Derīgs**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Apakšuzņēmuma līgumu slēgšana ar personāla projekta grupas dalībnieku
-Tāpat kā vispārīgi vai darbinieki, arī komandas locekļi, kuriem ir personāla grupas dalībnieka statuss un kas nepieciešama projektam, var būt saistīts arī ar apakšuzņēmuma līgumu. Lai slēgtu apakšuzņēmuma līgumus par nosauktu projekta grupas dalībnieku, rīkojieties šādi:
+## <a name="subcontracting-a-staffed-project-team-member"></a>Apakšlīgumu slēgšana ar projekta grupas dalībnieku ar personālu
+Tāpat kā vispārīgi vai bez personāla grupas locekļi, arī projektā nepieciešamās komandas locekļu personāla spējas var saistīt ar apakšuzņēmuma līgumu. Lai noslēgtu apakšlīgumu par nosauktu projekta grupas dalībnieku, rīkojieties šādi:
 
-1.  Pārliecinieties, vai nosauktais resurss ir iestatīts kā līguma darbinieka tips rezervējamam resursam. Pārliecinieties arī, vai **rezervējamā** resursa lauks Piegādātājs atbilst piegādātājam, kas atrodas jūsu atlasāmajā apakšuzņēmuma līguma laukā. 
+1.  Pārliecinieties, vai nosauktais resurss ir iestatīts kā līgumdarbinieka rezervējamā resursa tips. Pārliecinieties arī, vai **rezervējamā resursa lauks Piegādātājs** atbilst piegādātājam atlasītajā apakšuzņēmuma līgumā. 
 
-2.  Apakšuzņēmuma līgumus var atlasīt tikai **melnraksta** vai **apstiprinātajā** statusā. **Slēgtos** vai **Atceltos** apakšuzņēmuma līgumus nevar atlasīt. 
+2.  Apakšuzņēmuma līgumus var atlasīt tikai statusā Melnraksts **vai** **Apstiprināts**. **Nevar atlasīt slēgtus** vai **atceltus** apakšlīgumus. 
 
-3.  **Pēc** apakšuzņēmuma līguma atlasīšanas tiek redzams lauks Apakšuzņēmuma rinda.
+3.  **Zemlīguma rindas** lauks kļūst redzams pēc apakšuzņēmuma atlasīšanas.
 
-4.  Laukā **Apakšuzņēmuma rinda** var atlasīt tikai laika apakšuzņēmēja rindas. Nevar atlasīt izdevumu vai materiālu apakšuzņēmēju rindas.
+4.  Laukā **Apakšlīguma rinda** var atlasīt tikai uz laiku esošas apakšuzņēmuma rindas. Izdevumu vai materiālu apakšuzņēmuma rindas nevar atlasīt.
 
-5.  Projekta grupas dalībnieka ieraksta lomai jāatbilst lomai apakšuzņēmuma rindā. Tas nodrošina, ka projektā novērtētās lomas laiks ir tā pati loma, kas tiek iegādāta apakšuzņēmuma rindā. 
+5.  Projekta grupas dalībnieka ieraksta lomai jāatbilst lomai apakšuzņēmuma rindā. Tas nodrošina, ka projektā novērtētās lomas laiks ir tā pati loma, kas tiek iegādāta apakšuzņēmuma līnijā. 
 
-Nosauktie projekta grupas dalībnieki, kas iestatīti kā rezervējamā resursa līgumdarbinieka **tips**, tiks rādīti ar apakšuzņēmuma līguma derīguma statusu **Nav** derīgs, ja tie nav saistīti ar apakšuzņēmuma līgumu. Ja nosaukts projekta grupas dalībnieks ir saistīts ar apakšuzņēmuma līgumu un apakšuzņēmuma rindu, **lauks Darbinieka tips grupas dalībnieka rindā tiks** atjaunināts uz Līguma darbinieks **un** **Apakšuzņēmuma līguma derīgums** tiks iestatīts uz **Derīgs**.
+Nosauktie projekta grupas dalībnieki, kas ir iestatīti kā līgumdarbinieka tips **rezervējamais resurss**, tiks parādīti ar apakšuzņēmuma derīguma statusu Nederīgs, **ja** tie nav saistīti ar apakšuzņēmuma līgumu. Ja nosaukts projekta grupas dalībnieks ir saistīts ar apakšuzņēmuma un apakšuzņēmuma rindu, **grupas dalībnieku rindas lauks Darbinieka tips** tiks atjaunināts uz **Līgumstrādnieks**, un **apakšuzņēmuma derīgums** tiks iestatīts uz **Derīgs**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

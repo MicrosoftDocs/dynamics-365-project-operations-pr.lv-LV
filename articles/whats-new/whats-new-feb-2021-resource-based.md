@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986815"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589021"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. februārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Project Operations Dataverse vidē 4.7.0.95
-- Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.16 
+- Projektu vadība un grāmatvedība Dynamics 365 Finance vidē versija 10.0.16 
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
@@ -44,14 +44,14 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 | **Laika ieraksts** | 2129161 | Ir piemēroti stingrāki ierobežojumi, lai nodrošinātu, ka lietotāji nevar mainīt un atjaunināt laika ierakstu, kas ir iesniegts vai apstiprināts. |
 | **Laika ieraksts** | 2103572 | Laika apstiprināšanai ar projektu nesaistītiem laika ierakstiem nav nepieciešama projekta apstiprinātāja loma. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pārskats par projektu pārvaldību un uzskaiti pakalpojumā Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektu vadība un grāmatvedība Dynamics 365 Finance 
 
-Papildinformāciju par projektu pārvaldību un grāmatvedību programmā Dynamics 365 Finance skatiet tēmā [Jaunumi 2021. gada februārī — Project Operations resursu/nekrājumu scenārijiem](whats-new-jan-2021-resource-based.md).
+Papildinformāciju par projektu vadību un grāmatvedību Dynamics 365 Finance skatiet rakstā [Jaunumi 2021. gada janvārī — projekta operācijas resursu/neuzkrātiem scenārijiem](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
 
-Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Vēl viens veids, kā uzzināt par regulatīviem atjauninājumiem, ir pieteikties pakalpojumā Lifecycle Services (LCS) un apskatīt plānotos regulatīvos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par finanšu un operāciju lietotņu regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Vēl viens veids, kā uzzināt par regulatīviem atjauninājumiem, ir pieteikties pakalpojumā Lifecycle Services (LCS) un apskatīt plānotos regulatīvos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

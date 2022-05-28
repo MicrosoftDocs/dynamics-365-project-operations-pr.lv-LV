@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986545"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586905"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations iestatīšanas un konfigurēšanas datu integrācija
 
@@ -22,34 +22,34 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projekta līgumi, līguma rindas un projekti
 
-Projekta līgumi, līguma rindas un projekti tiek izveidoti risinājumā Dataverse un sinhronizēti ar Finance and Operations programmām, lai veiktu papildu grāmatvedību. Šo entītiju ierakstus var izveidot un dzēst tikai programmā Dataverse. Taču šiem ierakstiem Finance and Operations programmās var pievienot tādus grāmatvedības atribūtus kā pārdošanas nodokļu grupas noklusējuma vērtības un finanšu dimensijas.
+Projekta līgumi, līgumu rindas un projekti tiek izveidoti Dataverse finanšu un operāciju programmās un sinhronizēti ar tām papildu grāmatvedībai. Šo entītiju ierakstus var izveidot un dzēst tikai programmā Dataverse. Tomēr grāmatvedības atribūtus, piemēram, PVN grupas noklusējumus un finanšu dimensijas, var pievienot šiem ierakstiem programmās Finanses un operācijas.
 
   ![Projekta līguma integrācijas koncepcijas.](./media/1ProjectContract.jpg)
 
-Pārdošanas darbību interesenti, iespējas un piedāvājumi tiek izsekoti risinājumā Dataverse un netiek sinhronizēti ar Finance and Operations programmām, jo ar šo darbību nav saistīta lejupstraumes grāmatvedība.
+Pārdošanas darbību interesenti, iespējas un piedāvājumi tiek izsekoti Dataverse un netiek sinhronizēti ar finanšu un operāciju programmām, jo ar šo darbību nav saistīta pakārtota grāmatvedība.
 
-Projektu līgumu funkcionalitāte programmā Dataverse izveido projekta līguma ierakstu Finance and Operations programmās, izmantojot tabulas karti **Projektu līgumu galvenes (salesorders)**. Saglabājot projekta līgumu risinājumā Dataverse, tiek sākta arī projekta līguma klienta entītijas ieraksta izveide. Šis ieraksts tiek sinhronizēts ar Finance and Operations programmām, izmantojot tabulas karti **Projekta līdzekļu avots (msdyn\_projectcontractssplitbillingrules)**. Ar šo kartējumu tiek sinhronizēti arī projektu līgumu klientu papildinājumus, atjauninājumi un dzēšana. Norēķinu procentu sadali starp projektu līgumu klientiem var veikt tikai Dataverse, un tā netiek sinhronizēta ar Finance and Operations programmām.
+Projekta līguma funkcionalitāte programmā Dataverse izveido projekta līguma ierakstu finanšu un operāciju programmās, **izmantojot tabulas karti Projekta līguma virsraksti (pārdevēji).** Saglabājot projekta līgumu risinājumā Dataverse, tiek sākta arī projekta līguma klienta entītijas ieraksta izveide. Šis ieraksts tiek sinhronizēts ar finance and operations programmām, **izmantojot tabulas karti Project Funding Source (msdyn\_ projectcontractssplitbillingrules).** Ar šo kartējumu tiek sinhronizēti arī projektu līgumu klientu papildinājumus, atjauninājumi un dzēšana. Sadalīt norēķinu procentus starp projekta līgumu debitoriem tiek apgūti tikai Dataverse finanšu un operāciju programmās, nevis sinhronizēti ar tām.
 
-Kad projekta līgums ir izveidots programmā Dataverse, projekta grāmatvedis var atjaunināt šī projekta līguma grāmatvedības atribūtus Finance and Operations programmās, dodoties uz **Projektu pārvaldība un uzskaite** > **Projekta līgumi** > **Iestatīšana** > **Rādīt noklusējuma grāmatvedību**. Grāmatvedis var pārskatīt darba projekta līguma atribūtus, piemēram, pieprasīto piegādes datumu un līguma summu, atlasot projekta līguma ID Finance and Operations programmās, tādējādi atverot saistīto projekta līguma ierakstu Dataverse.
+Pēc projekta līguma izveides Dataverse projekta grāmatvedis var atjaunināt šī projekta līguma uzskaites atribūtus programmās Finanses un operācijas, dodoties uz **Projektu vadība un grāmatvedība** > **Projekta līgumi** > **Iestatīt** > **Rādīt noklusējuma grāmatvedību**. Grāmatvedis var pārskatīt darbības projekta līguma atribūtus, piemēram, pieprasīto piegādes datumu un līguma summu, atlasot projekta līguma ID finanšu un operāciju programmās, kas atver saistīto projekta līguma ierakstu programmā Dataverse.
 
-Projekta entītija tiek sinhronizēta ar Finance and Operations programmām, izmantojot tabulas karti **Projects V2 (msdyn\_projects)**. Projekta grāmatvedis var:
+Projekta entītija tiek sinhronizēta ar Finance and Operations programmām, **izmantojot tabulas Projektu V2 (msdyn\_ projects)** karti. Projekta grāmatvedis var:
 
-  - pārskatīt projektus Finance and Operations programmās, dodoties uz **Projektu pārvaldība un uzskaite** > **Visi projekti**; 
-  - atjaunināt projekta grāmatvedības atribūtus Finance and Operations programmās, dodoties uz **Projektu pārvaldība un uzskaite** > **Visi projekti** > **Iestatīšana** > **Rādīt noklusējuma grāmatvedību**;  
-  - pārskatīt darbības projekta atribūtus, piemēram, prognozētos sākuma un beigu datumus, atlasot projekta ID Finance and Operations programmās, tādejādi atverot saistīto projekta ierakstu Dataverse.
+  - Pārskatiet projektus finanšu un operāciju lietotnēs, dodoties uz **Projektu pārvaldība un uzskaite** > **Visi projekti**. 
+  - Atjauniniet projekta uzskaites atribūtus finanšu un operāciju programmās, dodoties uz **Projektu pārvaldība un grāmatvedība** > **Visi projekti** > **Iestatiet** > **Rādīt noklusējuma grāmatvedību**.  
+  - Pārskatiet darbības projekta atribūtus, piemēram, paredzamos sākuma un beigu datumus, atlasot projekta ID finanšu un operāciju programmās, kas atver saistīto projekta ierakstu programmā Dataverse.
 
 Projekts tiek saistīts ar projekta līgumu, izmantojot entītiju **Projekta līguma rinda**.
 
-Projekta līgumu rindas programmā Dataverse izveido projekta līguma norēķinu kārtulu Finance and Operations programmās, izmantojot tabulas karti **Projektu līgumu rindas (salesorderdetails)**. Norēķinu metode definē projekta līguma norēķinu kārtulas tipu Finance and Operations programmās:
+Projekta līguma rindas programmā Dataverse izveido projekta līguma norēķinu kārtulu finanšu un operāciju programmās, **izmantojot tabulas karti Project contract lines (salesorderdetails).** Norēķinu metode definē projekta līguma norēķinu kārtulas tipu finanšu un operāciju programmās:
 
   - projekta līguma rindas ar laika un materiālu norēķinu metodi izveido laika un materiālu tipa norēķinu kārtulu;
   - fiksētas cenas norēķinu metodes līguma rindās izveido atskaites punkta norēķinu kārtulu.
 
-Projekta līguma rindas var pārskatīt projekta grāmatvedis Finance and Operations programmās, dodoties uz **Projektu pārvaldība un uzskaite** > **Projektu līgumi** > **Iestatīšana** > **Rādīt noklusējuma grāmatvedību** un pārskatot detalizēto informāciju cilnē **Līguma rindas**. Šajā cilnē grāmatvedis var iestatīt arī noklusējuma finanšu dimensijas fiksētas cenas norēķinu metodes līguma rindām.
+Projekta līguma rindas projekta grāmatvedis var pārskatīt programmās Finanses un operācijas, dodoties uz **Projektu vadības un uzskaites** > **projektu līgumi** > **Iestatīt Rādīt** > **noklusējuma grāmatvedību** un pārskatot detalizētu informāciju cilnē **Līguma rindas** . Grāmatvedis šajā cilnē var iestatīt arī noklusējuma finanšu dimensijas fiksētas cenas norēķinu metodes līguma rindām.
 
 ## <a name="billing-milestones"></a>Norēķinu atskaites punkti
 
-Par projekta līguma rindām, kurās tiek izmantota fiksētas cenas norēķinu metode, rēķins tiek izrakstīts, izmantojot norēķinu atskaites punktus. Norēķinu atskaites punkti tiek sinhronizēti ar projekta starpkontu transakcijām Finance and Operations programmās, izmantojot tabulas karti **Project Operations integrācijas līguma rindu atskaites punkti (msdyn\_contractlinescheduleofvalues)**.
+Par projekta līguma rindām, kurās tiek izmantota fiksētas cenas norēķinu metode, rēķins tiek izrakstīts, izmantojot norēķinu atskaites punktus. Norēķinu atskaites punkti tiek sinhronizēti ar projekta starpkontu darbībām finanšu un operāciju programmās, izmantojot **tabulas karti Project Operations integration contract line milestones (msdyn\_ contractlinescheduleofvalues).**
 
   ![Norēķinu atskaites punktu integrācija.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Pirmoreiz izveidojot norēķinu atskaites punktu noteiktai projekta līguma rind
 
 ### <a name="project-tasks"></a>Projekta uzdevumi
 
-Projekta uzdevumi tiek sinhronizēti ar Finance and Operations programmām tikai atsauces nolūkos, izmantojot tabulas karti **Projekta uzdevumi (msdyn\_projecttasks)**. Izveides, atjaunināšanas un dzēšanas darbības Finance and Operations programmās netiek atbalstītas.
+Projekta uzdevumi tiek sinhronizēti ar finanšu un operāciju programmām, **izmantojot tabulas Project tasks (msdyn\_ projecttasks)** karti tikai atsauces nolūkiem. Darbību izveide, atjaunināšana un dzēšana netiek atbalstīta, izmantojot finanšu un operāciju programmas.
 
   ![Projekta uzdevumu integrācija.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projekta resursi
 
-Entītija **Projekta resursu lomas** tiek sinhronizēta ar Finance and Operations programmām tikai atsauces nolūkos, izmantojot tabulas karti **Projekta resursu lomas visiem uzņēmumiem (bookableresourcecategories)**. Tā kā Dataverse resursu lomas nav konkrētas uzņēmumam, sistēma automātiski izveido attiecīgo uzņēmumam konkrēto resursu lomu ierakstus Finance and Operations programmās automātiski visām juridiskajām entītijām, kas ir ietvertas duālās rakstīšanas integrācijas tvērumā.
+Entītija **Project resource roles** tiek sinhronizēta ar Finance and Operations programmām, izmantojot **projekta resursu lomas visiem uzņēmumiem (bookableresourcecategories)** tabulas karti tikai atsauces nolūkiem. Tā kā resursu lomas programmā Dataverse nav specifiskas uzņēmumam, sistēma automātiski automātiski izveido atbilstošus uzņēmumam raksturīgus resursu lomu ierakstus finanšu un operāciju programmās visām juridiskajām personām, kas iekļautas duālās rakstīšanas integrācijas tvērumā.
 
 ![Resursu lomu integrācija.](./media/5Resources.jpg)
 
-Projekta resursi programmā Project Operations tiek uzturēti risinājumā Dataverse un netiek sinhronizēti ar Finance and Operations programmām.
+Projekta resursi projekta operācijās tiek uzturēti Dataverse un netiek sinhronizēti ar finanšu un operāciju programmām.
 
 ### <a name="transaction-categories"></a>Transakcijas kategorijas
 
-Transakcijas kategorijas tiek uzturētas Dataverse un tiek sinhronizētas ar Finance and Operations programmām, izmantojot tabulas karti **Projekta transakcijas kategorijas (msdyn\_transactioncategories)**. Pēc transakcijas kategorijas ieraksta sinhronizēšanas sistēma automātiski izveido četrus kopīgotus kategoriju ierakstus. Katrs ieraksts atbilst transakcijas tipam Finance and Operations programmās un saista tos ar transakcijas kategorijas ierakstu.
+Darbību kategorijas tiek uzturētas Dataverse finanšu un operāciju programmās un sinhronizētas ar tām, **izmantojot tabulas projektu darbību kategoriju (msdyn\_ transactioncategories)** karti. Pēc transakcijas kategorijas ieraksta sinhronizēšanas sistēma automātiski izveido četrus kopīgotus kategoriju ierakstus. Katrs ieraksts atbilst darbības tipam finanšu un operāciju programmās un saista tos ar darbību kategorijas ierakstu.
 
 ![Transakcijas kategoriju integrācija.](./media/4TransactionCategories.jpg)
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008145"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589113"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada aprīlī — Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Project Operations Dataverse vides versijā 4.9.0.221
-- Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.17
+- Projektu vadība un uzskaite Dynamics 365 Finance vidē versija 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -42,13 +42,13 @@ Tālāk redzamajā sarakstā ir parādītas duālās rakstīšanas kartes, kas i
 | **Entītiju karte** | **Atjauninātā versija** | **Komentāri** |
 | --- | --- | --- |
 | Project Operations integrācijas faktiskie dati (msdyn\_actuals) | 1.0.0.14 | Karte ir modificēta, lai sinhronizētu materiālu projekta faktiskās vērtības. |
-| Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimateslines) | 1.0.0.2 | Pievienota projekta līguma rindu sinhronizācija ar Finance and Operations programmām ar uzdevumiem saistītu norēķinu atbalstam. |
-| Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments) | 1.0.0.5 | Pievienota projekta līguma rindu sinhronizācija ar Finance and Operations programmām ar uzdevumiem saistītu norēķinu atbalstam. |
-| Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu materiālu aprēķinus no Dataverse ar Finance and Operations programmām. |
-| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn\_projectvendorinvoices) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu piegādātāju rēķinu galvenes no Finance and Operations programmām ar Dataverse. |
-| Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu piegādātāju rēķinu rindas no Finance and Operations programmām ar Dataverse. |
+| Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimateslines) | 1.0.0.2 | Pievienota projekta līguma rindas sinhronizācija finanšu un operāciju programmām, lai saņemtu uz uzdevumiem balstītu norēķinu atbalstu. |
+| Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments) | 1.0.0.5 | Pievienota projekta līguma rindas sinhronizācija finanšu un operāciju programmām, lai saņemtu uz uzdevumiem balstītu norēķinu atbalstu. |
+| Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Jauna tabulas karte materiālu novērtējumu sinhronizēšanai no Dataverse finanšu un operāciju programmām. |
+| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn\_projectvendorinvoices) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu kreditoru rēķinu virsrakstus no finanšu un operāciju programmām uz Dataverse. |
+| Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Jauna tabulas karte kreditoru rēķinu rindu sinhronizēšanai no finanšu un operāciju programmām uz Dataverse. |
 
-Kad atjaunināt Project Operations Dataverse risinājuma un Finance and Operations risinājuma versiju, vidē vienmēr ir jābūt jaunākajai kartes versijai un jābūt iespējotām visām saistītajām tabulu kartēm. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas **Versija** lapā **Duālā rakstīšana**. Varat aktivizēt jaunu kartes versiju, atlasot **Tabulas kartes versijas**, atlasot jaunāko versiju un pēc tam saglabājot atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Atjauninot projektu operāciju Dataverse risinājumu un Finance and Operations risinājuma versiju, vienmēr jāpalaiž apkārtējā vidē jaunākā kartes versija un jāiespējo visas saistītās tabulu kartes. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas **Versija** lapā **Duālā rakstīšana**. Varat aktivizēt jaunu kartes versiju, atlasot **Tabulas kartes versijas**, atlasot jaunāko versiju un pēc tam saglabājot atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ja rodas problēma ar kartes startēšanu, izpildiet instrukcijas, kas sniegtas duālās rakstīšanas problēmu novēršanas ceļveža sadaļā [Problēma ar trūkstošām tabulu kolonnām kartēs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -79,7 +79,7 @@ Ja rodas problēma ar kartes startēšanu, izpildiet instrukcijas, kas sniegtas 
 | Laiks un izdevumi | 2204377 | Kopētajiem laika intervāliem ir automātiski jāparādās, kad atlasāt **Kopēt nedēļu**, ievadot laiku. |
 | Laiks un izdevumi | 2209059 | Lauku **Statuss** var rediģēt Dynamics 365 Field Service laika ierakstiem. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pārskats par projektu pārvaldību un uzskaiti pakalpojumā Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektu vadība un grāmatvedība Dynamics 365 Finance
 
 | **Līdzekļu apgabals** | **Atsauces numurs** | **Kvalitātes atjauninājums** |
 | --- | --- | --- |

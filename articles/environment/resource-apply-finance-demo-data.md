@@ -1,24 +1,24 @@
 ---
 title: Demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
-description: Šajā tēmā ir izskaidrots, kā lietot Project Operations demonstrācijas datus Dynamics 365 Finance mākoņpakalpojumā viesotā vidē.
+description: Šajā tēmā ir izskaidrots, kā project operations demonstrācijas datus lietot Dynamics 365 Finance mākonī mitinātai videi.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009675"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588975"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 > [!IMPORTANT]
-> Šī tēma attiecas tikai uz Microsoft Dynamics 365 Finance versiju 10.0.13, un tajā sniegtos norādījumus var izpildīt tikai mākoņpakalpojumā viesotā vidē. Izpildiet šajā tēmā aprakstītās darbības, **PIRMS** lietojat kvalitātes atjauninājumus videi.
+> Šī tēma ir piemērojama tikai Microsoft Dynamics 365 Finance versijai 10.0.13, un to var veikt tikai mākonī mitinātā vidē. Izpildiet šajā tēmā aprakstītās darbības, **PIRMS** lietojat kvalitātes atjauninājumus videi.
 
 1. Savā LCS projektā atveriet lapu **Vides informācija**. Ņemiet vērā, ka tajā ir iekļauta informācija, kas nepieciešama, lai izveidotu savienojumu ar vidi, izmantojot attālās darbvirsmas protokolu (RDP).
 
@@ -76,7 +76,7 @@ Procesa pabeigšanai nepieciešamas dažas minūtes. Jūs saņemsit apstiprināj
 
 18. Aizveriet attālās darbvirsmas sesiju un izmantojiet LCS lapu **Vides informācija**, lai pieteiktos vidē un pārliecinātos, vai tā darbojas, kā paredzēts.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finanses un operācijas.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

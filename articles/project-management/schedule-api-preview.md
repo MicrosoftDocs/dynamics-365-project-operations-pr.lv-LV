@@ -2,16 +2,16 @@
 title: Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
 description: Šajā tēmā ir sniegta informācija un paraugi projekta plānošanas API izmantošanai.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
-ms.translationtype: HT
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487694"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592057"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
 
@@ -42,7 +42,7 @@ OperationSet ir darba vienības shēma, ko var izmantot, kad transakcijā ir jā
 
 Tālāk ir parādīts pašreizējo projekta plānošanas API saraksts.
 
-- **msdyn_CreateProjectV1**: šo API var izmantot, lai izveidotu projektu. Nekavējoties tiek izveidots projekts un noklusējuma projekta bloks.
+- **msdyn_CreateProjectV1**: šo API var izmantot, lai izveidotu projektu. Projekts un noklusējuma projekta grupa tiek izveidoti nekavējoties.
 - **msdyn_CreateTeamMemberV1**: šo API var izmantot, lai izveidotu projekta darba grupas dalībnieku. Darba grupas dalībnieka ieraksts tiek izveidots nekavējoties.
 - **msdyn_CreateOperationSetV1**: šo API var izmantot, lai ieplānotu vairākus pieprasījumus, kas jāveic transakcijā.
 - **msdyn_PSSCreateV1**: šo API var izmantot, lai izveidotu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta izveides operāciju.
@@ -56,14 +56,14 @@ Tā kā ieraksti, kuriem ir gan **CreateProjectV1**, gan **CreateTeamMemberV1**,
 
 ## <a name="supported-operations"></a>Atbalstītās operācijas
 
-| Plānošanas entītija | Izveide | Atjaunināšana | Delete | Svarīgi ieteikumi |
+| Plānošanas entītija | Izveide | Atjauninājums | Delete | Svarīgi ieteikumi |
 | --- | --- | --- | --- | --- |
-Projekta uzdevums | Jā | Jā | Jā | Nevienu |
-| Projekta uzdevuma atkarība | Jā | Jā | | Projekta uzdevumu atkarības ieraksti netiek atjaunināti. Tā vietā var izdzēst veco ierakstu un izveidot jaunu ierakstu. |
-| Resursu piešķiršana | Jā | Jā | | Netiek atbalstītas operācijas ar šādiem laukiem: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** un **PlannedWork**. Resursu piešķiršanas ieraksti netiek atjaunināti. Tā vietā var izdzēst veco ierakstu un izveidot jaunu ierakstu. |
-| Projekta bloks | Nav attiecināms | Nav attiecināms | Nav attiecināms | Noklusējuma bloks tiek izveidots, izmantojot **CreateProjectV1** API. |
+Projekta uzdevums | Jā | Jā | Jā | Laukus **Progress**, **EffortCompleted** un **EffortRemaining** var rediģēt programmā Project for the Web, bet tos nevar rediģēt programmā Project Operations.  |
+| Projekta uzdevuma atkarība | Jā |  | Jā | Projekta uzdevumu atkarības ieraksti netiek atjaunināti. Tā vietā var izdzēst vecu ierakstu un izveidot jaunu ierakstu. |
+| Resursu piešķiršana | Jā | Jā | | Netiek atbalstītas operācijas ar šādiem laukiem: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** un **PlannedWork**. Resursu piešķiršanas ieraksti netiek atjaunināti. Tā vietā veco ierakstu var izdzēst un izveidot jaunu ierakstu. |
+| Projekta bloks | Jā | Jā | Jā | Noklusējuma spainis tiek izveidots, izmantojot **API CreateProjectV1**. Atbalsts projektu kausu izveidei un dzēšanai tika pievienots atjauninājuma laidienā Nr. 16. |
 | Projekta darba grupas dalībnieks | Jā | Jā | Jā | Izveides operācijai izmantojiet **CreateTeamMemberV1** API. |
-| Project | Jā | Jā | Nav attiecināms | Netiek atbalstītas operācijas ar šādiem laukiem: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** un **Duration**. |
+| Project | Jā | Jā |  | Netiek atbalstītas operācijas ar šādiem laukiem: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** un **Duration**. |
 
 Šos API var izsaukt ar entītijas objektiem, kuros ir pielāgoti lauki.
 
@@ -71,196 +71,207 @@ Rekvizīts ID nav obligāts. Ja tas ir nodrošināts, sistēma mēģina to izman
 
 ## <a name="restricted-fields"></a>Ierobežotie lauki
 
-Tālāk redzamajās tabulās ir definēti lauki, kuriem ir **Izveidot** un **Rediģēt** ierobežojums.
+Šajās tabulās ir definēti lauki, kas ir ierobežoti no **izveides** un **rediģēšanas**.
 
 ### <a name="project-task"></a>Projekta uzdevums
 
-| **Loģiskais nosaukums**                       | **Var izveidot** | **Var rediģēt**     |
+| Loģiskais nosaukums                           | Var izveidot     | Var rediģēt         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | nē             | nē               |
-| msdyn_actualcost_base                  | nē             | nē               |
-| msdyn_actualend                        | nē             | nē               |
-| msdyn_actualsales                      | nē             | nē               |
-| msdyn_actualsales_base                 | nē             | nē               |
-| msdyn_actualstart                      | nē             | nē               |
-| msdyn_costatcompleteestimate           | nē             | nē               |
-| msdyn_costatcompleteestimate_base      | nē             | nē               |
-| msdyn_costconsumptionpercentage        | nē             | nē               |
-| msdyn_effortcompleted                  | nē             | nē               |
-| msdyn_effortestimateatcomplete         | nē             | nē               |
-| msdyn_iscritical                       | nē             | nē               |
-| msdyn_iscriticalname                   | nē             | nē               |
-| msdyn_ismanual                         | nē             | nē               |
-| msdyn_ismanualname                     | nē             | nē               |
-| msdyn_ismilestone                      | nē             | nē               |
-| msdyn_ismilestonename                  | nē             | nē               |
-| msdyn_LinkStatus                       | nē             | nē               |
-| msdyn_linkstatusname                   | nē             | nē               |
-| msdyn_msprojectclientid                | nē             | nē               |
-| msdyn_plannedcost                      | nē             | nē               |
-| msdyn_plannedcost_base                 | nē             | nē               |
-| msdyn_plannedsales                     | nē             | nē               |
-| msdyn_plannedsales_base                | nē             | nē               |
-| msdyn_pluginprocessingdata             | nē             | nē               |
-| msdyn_progress                         | nē             | nē (jā P4W) |
-| msdyn_remainingcost                    | nē             | nē               |
-| msdyn_remainingcost_base               | nē             | nē               |
-| msdyn_remainingsales                   | nē             | nē               |
-| msdyn_remainingsales_base              | nē             | nē               |
-| msdyn_requestedhours                   | nē             | nē               |
-| msdyn_resourcecategory                 | nē             | nē               |
-| msdyn_resourcecategoryname             | nē             | nē               |
-| msdyn_resourceorganizationalunitid     | nē             | nē               |
-| msdyn_resourceorganizationalunitidname | nē             | nē               |
-| msdyn_salesconsumptionpercentage       | nē             | nē               |
-| msdyn_salesestimateatcomplete          | nē             | nē               |
-| msdyn_salesestimateatcomplete_base     | nē             | nē               |
-| msdyn_salesvariance                    | nē             | nē               |
-| msdyn_salesvariance_base               | nē             | nē               |
-| msdyn_scheduleddurationminutes         | nē             | nē               |
-| msdyn_scheduledend                     | nē             | nē               |
-| msdyn_scheduledstart                   | nē             | nē               |
-| msdyn_schedulevariance                 | nē             | nē               |
-| msdyn_skipupdateestimateline           | nē             | nē               |
-| msdyn_skipupdateestimatelinename       | nē             | nē               |
-| msdyn_summary                          | nē             | nē               |
-| msdyn_varianceofcost                   | nē             | nē               |
-| msdyn_varianceofcost_base              | nē             | nē               |
+| msdyn_actualcost                       | Nē.             | Nē.               |
+| msdyn_actualcost_base                  | Nē.             | Nē.               |
+| msdyn_actualend                        | Nē.             | Nē.               |
+| msdyn_actualsales                      | Nē.             | Nē.               |
+| msdyn_actualsales_base                 | Nē.             | Nē.               |
+| msdyn_actualstart                      | Nē.             | Nē.               |
+| msdyn_costatcompleteestimate           | Nē.             | Nē.               |
+| msdyn_costatcompleteestimate_base      | Nē.             | Nē.               |
+| msdyn_costconsumptionpercentage        | Nē.             | Nē.               |
+| msdyn_effortcompleted                  | Nē (jā projektam)             | Nē (jā projektam)               |
+| msdyn_effortremaining                  | Nē (jā projektam)              | Nē (jā projektam)                |
+| msdyn_effortestimateatcomplete         | Nē.             | Nē.               |
+| msdyn_iscritical                       | Nē.             | Nē.               |
+| msdyn_iscriticalname                   | Nē.             | Nē.               |
+| msdyn_ismanual                         | Nē.             | Nē.               |
+| msdyn_ismanualname                     | Nē.             | Nē.               |
+| msdyn_ismilestone                      | Nē.             | Nē.               |
+| msdyn_ismilestonename                  | Nē.             | Nē.               |
+| msdyn_LinkStatus                       | Nē.             | Nē.               |
+| msdyn_linkstatusname                   | Nē.             | Nē.               |
+| msdyn_msprojectclientid                | Nē.             | Nē.               |
+| msdyn_plannedcost                      | Nē.             | Nē.               |
+| msdyn_plannedcost_base                 | Nē.             | Nē.               |
+| msdyn_plannedsales                     | Nē.             | Nē.               |
+| msdyn_plannedsales_base                | Nē.             | Nē.               |
+| msdyn_pluginprocessingdata             | Nē.             | Nē.               |
+| msdyn_progress                         | Nē (jā projektam)             | Nē (jā projektam) |
+| msdyn_remainingcost                    | Nē.             | Nē.               |
+| msdyn_remainingcost_base               | Nē.             | Nē.               |
+| msdyn_remainingsales                   | Nē.             | Nē.               |
+| msdyn_remainingsales_base              | Nē.             | Nē.               |
+| msdyn_requestedhours                   | Nē.             | Nē.               |
+| msdyn_resourcecategory                 | Nē.             | Nē.               |
+| msdyn_resourcecategoryname             | Nē.             | Nē.               |
+| msdyn_resourceorganizationalunitid     | Nē.             | Nē.               |
+| msdyn_resourceorganizationalunitidname | Nē.             | Nē.               |
+| msdyn_salesconsumptionpercentage       | Nē.             | Nē.               |
+| msdyn_salesestimateatcomplete          | Nē.             | Nē.               |
+| msdyn_salesestimateatcomplete_base     | Nē.             | Nē.               |
+| msdyn_salesvariance                    | Nē.             | Nē.               |
+| msdyn_salesvariance_base               | Nē.             | Nē.               |
+| msdyn_scheduleddurationminutes         | Nē.             | Nē.               |
+| msdyn_scheduledend                     | Nē.             | Nē.               |
+| msdyn_scheduledstart                   | Nē.             | Nē.               |
+| msdyn_schedulevariance                 | Nē.             | Nē.               |
+| msdyn_skipupdateestimateline           | Nē.             | Nē.               |
+| msdyn_skipupdateestimatelinename       | Nē.             | Nē.               |
+| msdyn_summary                          | Nē.             | Nē.               |
+| msdyn_varianceofcost                   | Nē.             | Nē.               |
+| msdyn_varianceofcost_base              | Nē.             | Nē.               |
 
 ### <a name="project-task-dependency"></a>Projekta uzdevuma atkarība
 
-| **Loģiskais nosaukums**              | **Var izveidot** | **Var rediģēt** |
+| Loģiskais nosaukums                  | Var izveidot     | Var rediģēt     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | nē             | nē           |
-| msdyn_linktypename            | nē             | nē           |
-| msdyn_predecessortask         | jā            | nē           |
-| msdyn_predecessortaskname     | jā            | nē           |
-| msdyn_project                 | jā            | nē           |
-| msdyn_projectname             | jā            | nē           |
-| msdyn_projecttaskdependencyid | jā            | nē           |
-| msdyn_successortask           | jā            | nē           |
-| msdyn_successortaskname       | jā            | nē           |
+| msdyn_linktype                | Nē.             | Nē.           |
+| msdyn_linktypename            | Nē.             | Nē.           |
+| msdyn_predecessortask         | Jā            | Nē.           |
+| msdyn_predecessortaskname     | Jā            | Nē.           |
+| msdyn_project                 | Jā            | Nē.           |
+| msdyn_projectname             | Jā            | Nē.           |
+| msdyn_projecttaskdependencyid | Jā            | Nē.           |
+| msdyn_successortask           | Jā            | Nē.           |
+| msdyn_successortaskname       | Jā            | Nē.           |
 
 ### <a name="resource-assignment"></a>Resursu piešķiršana
 
-| **Loģiskais nosaukums**             | **Var izveidot** | **Var rediģēt** |
+| Loģiskais nosaukums                 | Var izveidot     | Var rediģēt     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | jā            | nē           |
-| msdyn_bookableresourceidname | jā            | nē           |
-| msdyn_bookingstatusid        | nē             | nē           |
-| msdyn_bookingstatusidname    | nē             | nē           |
-| msdyn_committype             | nē             | nē           |
-| msdyn_committypename         | nē             | nē           |
-| msdyn_effort                 | nē             | nē           |
-| msdyn_effortcompleted        | nē             | nē           |
-| msdyn_effortremaining        | nē             | nē           |
-| msdyn_finish                 | nē             | nē           |
-| msdyn_plannedcost            | nē             | nē           |
-| msdyn_plannedcost_base       | nē             | nē           |
-| msdyn_plannedcostcontour     | nē             | nē           |
-| msdyn_plannedsales           | nē             | nē           |
-| msdyn_plannedsales_base      | nē             | nē           |
-| msdyn_plannedsalescontour    | nē             | nē           |
-| msdyn_plannedwork            | nē             | nē           |
-| msdyn_projectid              | jā            | nē           |
-| msdyn_projectidname          | nē             | nē           |
-| msdyn_projectteamid          | nē             | nē           |
-| msdyn_projectteamidname      | nē             | nē           |
-| msdyn_start                  | nē             | nē           |
-| msdyn_taskid                 | nē             | nē           |
-| msdyn_taskidname             | nē             | nē           |
-| msdyn_userresourceid         | nē             | nē           |
+| msdyn_bookableresourceid     | Jā            | Nē.           |
+| msdyn_bookableresourceidname | Jā            | Nē.           |
+| msdyn_bookingstatusid        | Nē.             | Nē.           |
+| msdyn_bookingstatusidname    | Nē.             | Nē.           |
+| msdyn_committype             | Nē.             | Nē.           |
+| msdyn_committypename         | Nē.             | Nē.           |
+| msdyn_effort                 | Nē.             | Nē.           |
+| msdyn_effortcompleted        | Nē.             | Nē.           |
+| msdyn_effortremaining        | Nē.             | Nē.           |
+| msdyn_finish                 | Nē.             | Nē.           |
+| msdyn_plannedcost            | Nē.             | Nē.           |
+| msdyn_plannedcost_base       | Nē.             | Nē.           |
+| msdyn_plannedcostcontour     | Nē.             | Nē.           |
+| msdyn_plannedsales           | Nē.             | Nē.           |
+| msdyn_plannedsales_base      | Nē.             | Nē.           |
+| msdyn_plannedsalescontour    | Nē.             | Nē.           |
+| msdyn_plannedwork            | Nē.             | Nē.           |
+| msdyn_projectid              | Jā            | Nē.           |
+| msdyn_projectidname          | Nē.             | Nē.           |
+| msdyn_projectteamid          | Nē.             | Nē.           |
+| msdyn_projectteamidname      | Nē.             | Nē.           |
+| msdyn_start                  | Nē.             | Nē.           |
+| msdyn_taskid                 | Nē.             | Nē.           |
+| msdyn_taskidname             | Nē.             | Nē.           |
+| msdyn_userresourceid         | Nē.             | Nē.           |
 
 ### <a name="project-team-member"></a>Projekta darba grupas dalībnieks
 
-| **Loģiskais nosaukums**                                 | **Var izveidot** | **Var rediģēt** |
+| Loģiskais nosaukums                                     | Var izveidot     | Var rediģēt     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | nē             | nē           |
-| msdyn_creategenericteammemberwithrequirementname | nē             | nē           |
-| msdyn_deletestatus                               | nē             | nē           |
-| msdyn_deletestatusname                           | nē             | nē           |
-| msdyn_effort                                     | nē             | nē           |
-| msdyn_effortcompleted                            | nē             | nē           |
-| msdyn_effortremaining                            | nē             | nē           |
-| msdyn_finish                                     | nē             | nē           |
-| msdyn_hardbookedhours                            | nē             | nē           |
-| msdyn_hours                                      | nē             | nē           |
-| msdyn_markedfordeletiontimer                     | nē             | nē           |
-| msdyn_markedfordeletiontimestamp                 | nē             | nē           |
-| msdyn_msprojectclientid                          | nē             | nē           |
-| msdyn_percentage                                 | nē             | nē           |
-| msdyn_requiredhours                              | nē             | nē           |
-| msdyn_softbookedhours                            | nē             | nē           |
-| msdyn_start                                      | nē             | nē           |
+| msdyn_calendarid                                 | Nē.             | Nē.           |
+| msdyn_creategenericteammemberwithrequirementname | Nē.             | Nē.           |
+| msdyn_deletestatus                               | Nē.             | Nē.           |
+| msdyn_deletestatusname                           | Nē.             | Nē.           |
+| msdyn_effort                                     | Nē.             | Nē.           |
+| msdyn_effortcompleted                            | Nē.             | Nē.           |
+| msdyn_effortremaining                            | Nē.             | Nē.           |
+| msdyn_finish                                     | Nē.             | Nē.           |
+| msdyn_hardbookedhours                            | Nē.             | Nē.           |
+| msdyn_hours                                      | Nē.             | Nē.           |
+| msdyn_markedfordeletiontimer                     | Nē.             | Nē.           |
+| msdyn_markedfordeletiontimestamp                 | Nē.             | Nē.           |
+| msdyn_msprojectclientid                          | Nē.             | Nē.           |
+| msdyn_percentage                                 | Nē.             | Nē.           |
+| msdyn_requiredhours                              | Nē.             | Nē.           |
+| msdyn_softbookedhours                            | Nē.             | Nē.           |
+| msdyn_start                                      | Nē.             | Nē.           |
 
 ### <a name="project"></a>Project
 
-| **Loģiskais nosaukums**                       | **Var izveidot** | **Var rediģēt** |
+| Loģiskais nosaukums                           | Var izveidot     | Var rediģēt     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | nē             | nē           |
-| msdyn_actualexpensecost_base           | nē             | nē           |
-| msdyn_actuallaborcost                  | nē             | nē           |
-| msdyn_actuallaborcost_base             | nē             | nē           |
-| msdyn_actualsales                      | nē             | nē           |
-| msdyn_actualsales_base                 | nē             | nē           |
-| msdyn_contractlineproject              | jā            | nē           |
-| msdyn_contractorganizationalunitid     | jā            | nē           |
-| msdyn_contractorganizationalunitidname | jā            | nē           |
-| msdyn_costconsumption                  | nē             | nē           |
-| msdyn_costestimateatcomplete           | nē             | nē           |
-| msdyn_costestimateatcomplete_base      | nē             | nē           |
-| msdyn_costvariance                     | nē             | nē           |
-| msdyn_costvariance_base                | nē             | nē           |
-| msdyn_duration                         | nē             | nē           |
-| msdyn_effort                           | nē             | nē           |
-| msdyn_effortcompleted                  | nē             | nē           |
-| msdyn_effortestimateatcompleteeac      | nē             | nē           |
-| msdyn_effortremaining                  | nē             | nē           |
-| msdyn_finish                           | jā            | jā          |
-| msdyn_globalrevisiontoken              | nē             | nē           |
-| msdyn_islinkedtomsprojectclient        | nē             | nē           |
-| msdyn_islinkedtomsprojectclientname    | nē             | nē           |
-| msdyn_linkeddocumenturl                | nē             | nē           |
-| msdyn_msprojectdocument                | nē             | nē           |
-| msdyn_msprojectdocumentname            | nē             | nē           |
-| msdyn_plannedexpensecost               | nē             | nē           |
-| msdyn_plannedexpensecost_base          | nē             | nē           |
-| msdyn_plannedlaborcost                 | nē             | nē           |
-| msdyn_plannedlaborcost_base            | nē             | nē           |
-| msdyn_plannedsales                     | nē             | nē           |
-| msdyn_plannedsales_base                | nē             | nē           |
-| msdyn_progress                         | nē             | nē           |
-| msdyn_remainingcost                    | nē             | nē           |
-| msdyn_remainingcost_base               | nē             | nē           |
-| msdyn_remainingsales                   | nē             | nē           |
-| msdyn_remainingsales_base              | nē             | nē           |
-| msdyn_replaylogheader                  | nē             | nē           |
-| msdyn_salesconsumption                 | nē             | nē           |
-| msdyn_salesestimateatcompleteeac       | nē             | nē           |
-| msdyn_salesestimateatcompleteeac_base  | nē             | nē           |
-| msdyn_salesvariance                    | nē             | nē           |
-| msdyn_salesvariance_base               | nē             | nē           |
-| msdyn_scheduleperformance              | nē             | nē           |
-| msdyn_scheduleperformancename          | nē             | nē           |
-| msdyn_schedulevariance                 | nē             | nē           |
-| msdyn_taskearlieststart                | nē             | nē           |
-| msdyn_teamsize                         | nē             | nē           |
-| msdyn_teamsize_date                    | nē             | nē           |
-| msdyn_teamsize_state                   | nē             | nē           |
-| msdyn_totalactualcost                  | nē             | nē           |
-| msdyn_totalactualcost_base             | nē             | nē           |
-| msdyn_totalplannedcost                 | nē             | nē           |
-| msdyn_totalplannedcost_base            | nē             | nē           |
+| msdyn_actualexpensecost                | Nē.             | Nē.           |
+| msdyn_actualexpensecost_base           | Nē.             | Nē.           |
+| msdyn_actuallaborcost                  | Nē.             | Nē.           |
+| msdyn_actuallaborcost_base             | Nē.             | Nē.           |
+| msdyn_actualsales                      | Nē.             | Nē.           |
+| msdyn_actualsales_base                 | Nē.             | Nē.           |
+| msdyn_contractlineproject              | Jā            | Nē.           |
+| msdyn_contractorganizationalunitid     | Jā            | Nē.           |
+| msdyn_contractorganizationalunitidname | Jā            | Nē.           |
+| msdyn_costconsumption                  | Nē.             | Nē.           |
+| msdyn_costestimateatcomplete           | Nē.             | Nē.           |
+| msdyn_costestimateatcomplete_base      | Nē.             | Nē.           |
+| msdyn_costvariance                     | Nē.             | Nē.           |
+| msdyn_costvariance_base                | Nē.             | Nē.           |
+| msdyn_duration                         | Nē.             | Nē.           |
+| msdyn_effort                           | Nē.             | Nē.           |
+| msdyn_effortcompleted                  | Nē.             | Nē.           |
+| msdyn_effortestimateatcompleteeac      | Nē.             | Nē.           |
+| msdyn_effortremaining                  | Nē.             | Nē.           |
+| msdyn_finish                           | Jā            | Jā          |
+| msdyn_globalrevisiontoken              | Nē.             | Nē.           |
+| msdyn_islinkedtomsprojectclient        | Nē.             | Nē.           |
+| msdyn_islinkedtomsprojectclientname    | Nē.             | Nē.           |
+| msdyn_linkeddocumenturl                | Nē.             | Nē.           |
+| msdyn_msprojectdocument                | Nē.             | Nē.           |
+| msdyn_msprojectdocumentname            | Nē.             | Nē.           |
+| msdyn_plannedexpensecost               | Nē.             | Nē.           |
+| msdyn_plannedexpensecost_base          | Nē.             | Nē.           |
+| msdyn_plannedlaborcost                 | Nē.             | Nē.           |
+| msdyn_plannedlaborcost_base            | Nē.             | Nē.           |
+| msdyn_plannedsales                     | Nē.             | Nē.           |
+| msdyn_plannedsales_base                | Nē.             | Nē.           |
+| msdyn_progress                         | Nē.             | Nē.           |
+| msdyn_remainingcost                    | Nē.             | Nē.           |
+| msdyn_remainingcost_base               | Nē.             | Nē.           |
+| msdyn_remainingsales                   | Nē.             | Nē.           |
+| msdyn_remainingsales_base              | Nē.             | Nē.           |
+| msdyn_replaylogheader                  | Nē.             | Nē.           |
+| msdyn_salesconsumption                 | Nē.             | Nē.           |
+| msdyn_salesestimateatcompleteeac       | Nē.             | Nē.           |
+| msdyn_salesestimateatcompleteeac_base  | Nē.             | Nē.           |
+| msdyn_salesvariance                    | Nē.             | Nē.           |
+| msdyn_salesvariance_base               | Nē.             | Nē.           |
+| msdyn_scheduleperformance              | Nē.             | Nē.           |
+| msdyn_scheduleperformancename          | Nē.             | Nē.           |
+| msdyn_schedulevariance                 | Nē.             | Nē.           |
+| msdyn_taskearlieststart                | Nē.             | Nē.           |
+| msdyn_teamsize                         | Nē.             | Nē.           |
+| msdyn_teamsize_date                    | Nē.             | Nē.           |
+| msdyn_teamsize_state                   | Nē.             | Nē.           |
+| msdyn_totalactualcost                  | Nē.             | Nē.           |
+| msdyn_totalactualcost_base             | Nē.             | Nē.           |
+| msdyn_totalplannedcost                 | Nē.             | Nē.           |
+| msdyn_totalplannedcost_base            | Nē.             | Nē.           |
 
+### <a name="project-bucket"></a>Projekta bloks
+
+| Loģiskais nosaukums          | Var izveidot      | Var rediģēt     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Jā             | Nē.           |
+| msdyn_name            | Jā             | Jā          |
+| msdyn_project         | Jā             | Nē.           |
+| msdyn_projectbucketid | Jā             | Nē.           |
 
 ## <a name="limitations-and-known-issues"></a>Zināmās problēmas un ierobežojumi
 Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 
-- Projekta plānošanas API var izmantot tikai **lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
+- Projektu grafika API var izmantot **tikai lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
+
     - Programmas lietotāji
     - Sistēmas lietotāji
     - Integrācijas lietotāji
     - Citi lietotāji, kuriem nav nepieciešamās licences
+
 - Katrai **OperationSet** var būt ne vairāk par 100 operācijām.
 - Katram lietotājam var būt ne vairāk par 10 atvērtām **OperationSets**.
 - Project Operations pašlaik atbalsta ne vairāk kā 500 uzdevumu vienā projektā.
@@ -269,8 +280,8 @@ Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 
 ## <a name="error-handling"></a>Kļūdu apstrāde
 
-   - Lai pārskatītu operāciju kopās ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānot integrāciju** \> **Operāciju kopas**.
-   - Lai pārskatītu projekta plānošanas pakalpojuma ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānošanas integrācija** \> **PSS kļūdu žurnāli**.
+- Lai pārskatītu operāciju kopās ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānot integrāciju** \> **Operāciju kopas**.
+- Lai pārskatītu projekta plānošanas pakalpojuma ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānošanas integrācija** \> **PSS kļūdu žurnāli**.
 
 ## <a name="sample-scenario"></a>Scenārija paraugs
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

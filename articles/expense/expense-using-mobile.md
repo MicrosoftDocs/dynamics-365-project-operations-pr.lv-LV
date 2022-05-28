@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818192"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588929"
 ---
 # <a name="mobile-expense-app"></a>Izdevumu mobilā programma
 
@@ -100,7 +100,7 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 
 10. Atlasiet **Gatavs**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Apstiprināt izdevumu pārskatu, izmantojot izdevumu pārvaldības mobilo darbvietu
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Izdevumu pārskata apstiprināšana, izmantojot izdevumu pārvaldības mobilo darbvietu
 
 1. Mobilajā ierīcē atveriet **Izdevumu pārvaldības** darbvietu.
 2. **Izmaksu apstiprinājumos** tiek parādīts jūsu apstiprināšanai piešķirto izdevumu atskaišu skaits. Šis skaitlis tiek atjaunināts aptuveni ik pēc 30 minūtēm. Atlasiet **Izdevumu apstiprinājumi**.
@@ -204,28 +204,28 @@ Dynamics 365 Unified Ops mobilās programmas lejupielāde un instalēšana:
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Kāpēc izdevumu mobilā lietotne pēc noklusējuma neieslēdz maksājuma veidu?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Kāpēc mobilā lietotne Izdevumi pēc noklusējuma neievada maksājuma veidu?
 
-Organizācijas var pielāgot **noklusējuma maksājuma metodes iestatījumu katrai izdevumu** kategorijai, kad tā ir izveidota. Turklāt, uzstādot maksāšanas metodes, lauku Noklusējuma maksājuma metode var iestatīt **tikai** uz **Importēt**.
+Organizācijas var pielāgot **noklusējuma maksāšanas metodes** iestatījumu katrai izdevumu kategorijai pēc tās izveides. Turklāt, uzstādot maksāšanas metodes, lauku Noklusējuma maksāšanas metode **var iestatīt** tikai uz **Importēt**.
 
-Ja **maksājuma** metodei ir iespējota tikai importēšana, maksājuma metode pēc noklusējuma netiek ievadīta. Tas būs tukšs izdevumu kategorijās, kurās ir iestatīts šis maksājuma veids. Šī darbība ir konsekventa gan tīmekļa pieredzē, gan mobilajā pieredzē.
+Ja **maksājuma metodei ir iespējota tikai** importēšana, maksājuma veids netiek ievadīts pēc noklusējuma. Izdevumu kategorijās, kurās ir iestatīta šī maksāšanas metode, tas būs tukšs. Šī darbība ir konsekventa gan tīmekļa pieredzē, gan mobilajā pieredzē.
     
-Ja **maksājuma** metodei nav iespējota tikai importēšana, iestatītā vērtība pēc noklusējuma tiek ievadīta izdevumu kategorijām, kurās ir iestatīta šī maksājuma metode. Tomēr ir zināma problēma, kad noklusējuma vērtība nav ievadīta izdevumu mobilajā lietotnē. Lai novērstu šo problēmu, pirms izdevumu pārskata saglabāšanas manuāli atlasiet maksājuma veidu. 
+Ja **maksājuma metodei nav iespējota tikai** importēšana, iestatītā vērtība pēc noklusējuma tiek ievadīta izdevumu kategorijām, kurās šī maksāšanas metode ir iestatīta. Tomēr ir zināma problēma, kad noklusējuma vērtība nav ievadīta mobilajā lietotnē Izdevumi. Lai novērstu šo problēmu, pirms izdevumu pārskata saglabāšanas manuāli atlasiet maksājuma veidu. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Kāpēc es nevaru pievienot vai rediģēt finanšu dimensijas izdevumu mobilajā lietotnē?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Kāpēc mobilajā lietotnē Izdevumi nevar pievienot vai rediģēt finanšu dimensijas?
 
-Dimensiju un sadales ievadīšana netiek atbalstīta. Lai apietu šo ierobežojumu, šos laukus mobilajā programmā var iestatīt pēc noklusējuma, iestatot noklusējuma finanšu dimensijas katram projektam vai darbiniekam.
+Dimensiju un sadalījumu ievadīšana netiek atbalstīta. Lai novērstu šo ierobežojumu, šos laukus pēc noklusējuma var iestatīt mobilajā lietotnē, iestatot noklusējuma finanšu dimensijas katram projektam vai darbiniekam.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Kāpēc dažreiz mobilajā programmā Izdevumi tiek rādīta sinhronizācijas kļūda?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Kāpēc mobilajā programmā Izdevumi dažkārt tiek rādīta sinhronizācijas kļūda?
 
-Ja izdevumu rindas neatbilst politikas prasībām un lietotājs iesniedz izdevumu pārskatu, nevēršoties pret politikas brīdinājumu, mobilie dati netiek sinhronizēti ar serveri un rodas sinhronizācijas kļūme. Visi izdevumu pārskati, kas tiek iesniegti pēc sinhronizācijas kļūmes rašanās, paliks neizdevušos stāvoklī un izraisīs vairāk sinhronizācijas kļūmju. Vienīgais veids, kā novērst šo situāciju, ir manuāli dzēst sinhronizācijas paziņojumus. Šī problēma ir novērsta, pārtraucot izdevumu pārskatu iesniegšanu, ja politikas brīdinājumi nav novērsti, lai izvairītos no sinhronizācijas kļūdām.
+Ja izdevumu rindas neatbilst politikas prasībām un lietotājs iesniedz izdevumu pārskatu, nepievēršoties politikas brīdinājumam, mobilie dati netiek sinhronizēti ar serveri un rodas sinhronizācijas kļūme. Visi izdevumu pārskati, kas tiek iesniegti pēc sinhronizācijas kļūmes rašanās, paliks nesekmīgā stāvoklī un izraisīs vairāk sinhronizācijas kļūmju. Vienīgais veids, kā novērst šo situāciju, ir manuāli izdzēst sinhronizācijas paziņojumus. Šī problēma ir novērsta, apturot izdevumu pārskatu iesniegšanu, kad politikas brīdinājumi nav novērsti, lai izvairītos no sinhronizācijas kļūdām.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Kāpēc projekta un kategorijas apstiprināšana netiek pareizi atspoguļota izdevumu mobilajā lietotnē?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Kāpēc projekta un kategoriju validācija netiek pareizi atspoguļota mobilajā lietotnē Izdevumi?
 
-Šī validācija pašlaik netiek atbalstīta. Tomēr nākotnē atbalsts varētu tikt pievienots. 
+Šī validācija pašlaik netiek atbalstīta. Tomēr nākotnē varētu tikt pievienots atbalsts. 
 
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Kādi dokumentu tipi tiek atbalstīti mobilajā programmā Izdevumi?
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Kādi dokumentu tipi tiek atbalstīti mobilajā lietotnē Izdevumi?
 
-Izdevumu mobilā lietotne atbalsta tikai attēlus. Tas pašlaik neatbalsta PDF failus vai citus dokumentus.
+Mobilā lietotne Izdevumi atbalsta tikai attēlus. Pašlaik tas neatbalsta PDF failus vai citus dokumentus.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

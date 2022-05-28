@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002340"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591919"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pielāgotu lauku kā cenu noteikšanas dimensiju iestatīšana 
 
@@ -71,12 +72,12 @@ Pastāv divi cenu noteikšanas dimensiju tipi:
   
 | Loma        | Org. struktūrvienība    |Darba atrašanās vieta      |Standarta nosaukums      |Resursu darba stundas      |  Atzīmēt|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|Uz vietas            |                    |Virsstundas                 |15     |
-|             | Contoso India|Lokāls             |                    |Virsstundas                 |10     |
-|             | Contoso US   |Lokāls             |                    |Virsstundas                 |20     |
+|             | “Contoso India”|Uz vietas            |                    |Virsstundas                 |15     |
+|             | “Contoso India”|Lokāls             |                    |Virsstundas                 |10     |
+|             | Contoso ASV   |Lokāls             |                    |Virsstundas                 |20     |
 
 
-Ja resurss no Contoso India, kura pamatlikme ir 100 USD, strādā uz vietas un laika ierakstā norāda 8 stundas Parasta darbadienas laika un 2 virsstundas, Project Service cenu noteikšanas programma izmantos pamatlikmi 100 uz 8 stundām, lai ierakstītu 800 USD. 2 virsstundām tiks lietots 15% uzcenojums pamatlikmei 100, iegūstot vienības cenu 115 USD apmērā un ierakstot kopējās izmaksas 230 USD apmērā.
+Ja resurss no “Contoso India”, kura pamatlikme ir 100 USD, strādā uz vietas un laika ierakstā norāda 8 stundas Parasta darbadienas laika un 2 virsstundas, Project Service cenu noteikšanas programma izmantos pamatlikmi 100 uz 8 stundām, lai ierakstītu 800 USD. 2 virsstundām tiks lietots 15% uzcenojums pamatlikmei 100, iegūstot vienības cenu 115 USD apmērā un ierakstot kopējās izmaksas 230 USD apmērā.
 
 ### <a name="applicable-to-cost"></a>Piemērojams izmaksām 
 Ja iestatīts uz **Jā**, tas norāda, ka dimensijas vērtība no ievades konteksta ir jāizmanto, lai panāktu atbilstību **Lomas cenai** un **Lomas cenas uzcenojumam** izmaksu un uzcenojuma likmju izgūšanas laikā.

@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par to, kā abonēt un izviet
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991540"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588009"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Priekšskatījuma abonementa reģistrācija — Lite 
 
@@ -40,10 +40,10 @@ Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lie
 ## <a name="assign-licenses"></a>Licenču piešķiršana
 
 > [!IMPORTANT]
-> Lai izpildītu tālāk norādītās darbības, jums ir jābūt administratīvai piekļuvei savas organizācijas Microsoft 365 portālam.
+> Lai izpildītu tālāk norādītās darbības, jums ir jābūt administratīvai piekļuvei savas organizācijas Microsoft 365 portālam.
 
 
-1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai piešķirtu licences saviem lietotājiem.
+1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai lietotājiem piešķirtu licences.
 2. Lapā **Aktīvie lietotāji** atlasiet lietotājus, kuriem vēlaties piešķirt licenci.
 3. Pārbaudiet, vai ir atlasīta **Dynamics 365 Project Operations** licence. 
 4. Atlasiet **Saglabāt izmaiņas**.

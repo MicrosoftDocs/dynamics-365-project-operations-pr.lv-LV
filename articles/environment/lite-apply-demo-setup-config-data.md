@@ -4,20 +4,20 @@ description: Šajā tēmā ir sniegta informācija par demonstrācijas iestatī�
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993295"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586997"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demonstrācijas iestatīšanas un konfigurācijas datu lietošana lietojumprogrammā Project Operations — Lite 
 
 _**Lite izvietošana — pāriet uz proforma rēķina izrakstīšanu_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -32,7 +32,7 @@ Pirms konfigurēšanas sākšanas ir nepieciešama Common Data Service (CDS) vid
 
     ![Konfigurāciju migrēšana.](./media/1ConfigurationMigration.png)
 
-4. CMT Wizard 2. lapā atlasiet **Microsoft 365** kā **Izvietošanas tips** vērtību.
+4. CMT vedņa 2. lapā atlasiet **Microsoft 365** kā **Izvietošanas tips** vērtību.
 5. Atlasiet izvēles rūtiņas **Parādīt pieejamo organizāciju sarakstu** un **Rādīt opciju Papildus**.
 6. Atlasiet sava nomnieka reģionu, ievadiet akreditācijas datus un pēc tam atlasiet **Pieteikties**.
 

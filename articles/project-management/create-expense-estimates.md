@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par to, kā definēt vai apr�
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987850"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589481"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Izdevumu finanšu aprēķini projektiem
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_

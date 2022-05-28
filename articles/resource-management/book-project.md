@@ -2,16 +2,16 @@
 title: Rezervēt projektam
 description: Šajā tēmā ir sniegta informācija par to, kā rezervēt resursu projektā.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994915"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591382"
 ---
 # <a name="book-to-a-project"></a>Rezervēt projektam
 
@@ -53,6 +53,9 @@ Ja Resursu pārvaldītājam ir jārezervē resurss tieši projektam, tas var izm
     - Rezervācijas statuss
     - Rezervācijas metode
     - Ilgums
+   
+   > [!NOTE]
+   > Pašlaik Dynamics 365 Project Operations neatbalsta grafika valdi.   
 
 ## <a name="book-from-the-project-form"></a>Rezervēšana no veidlapas Projekts
 

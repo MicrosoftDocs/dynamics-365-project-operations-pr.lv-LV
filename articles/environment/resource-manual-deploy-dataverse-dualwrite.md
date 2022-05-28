@@ -4,14 +4,14 @@ description: Šajā tēmā izskaidrots, kā manuāli izvietot programmu Project 
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986455"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591229"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Manuāla programmas Project Operations Dataverse ar duālās rakstīšanas atbalstu izvietošana
 
@@ -37,7 +37,7 @@ Lai pabeigtu šo procedūru, jāpiesakās kā administratoram.
 3. Atlasiet vides tipu. Ja reģistrējāties izmēģinājumversijas piedāvājumam, atlasiet **Izmēģinājumversija (abonementa)**.
 4. Apstipriniet izvietošanas reģionu.
 5. Iespējojiet opciju **Izveidot datu bāzi šai videi**. 
-6. Apstipriniet valodu un pēc tam apstipriniet, ka valūta atbilst jūsu programmu Finance and Operations valūtai.
+6. Apstipriniet valodu un pēc tam apstipriniet, ka valūta atbilst jūsu finanšu un operāciju lietotņu valūtai.
 7. Iespējojiet opciju **Dynamics 365 programmas** un pārliecinieties, ka lauks **Automātiski izvietot šīs programmas** ir iestatīts kā **Neviens**.
 8. Ja ir nepieciešama drošības grupa, pievienojiet to.
 9. Atlasiet **Saglabāt**, lai izveidotu vidi.
@@ -62,4 +62,4 @@ Izpildiet šo procedūru, lai pievienotu videi duālās rakstīšanas priekšnos
 
 ## <a name="link-your-environments"></a><a name="link"></a>Vižu saistīšana
 
-Kad Dataverse vide ir izvietota, varat iestatīt saiti Finance and Operations programmās. Izpildiet darbības, kas norādītas sadaļā [Duālās rakstīšanas vedņa izmantošana vižu saistīšanai](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Kad vide ir izvietota Dataverse, saiti varat iestatīt savās finanšu un operāciju lietotnēs. Izpildiet darbības, kas norādītas sadaļā [Duālās rakstīšanas vedņa izmantošana vižu saistīšanai](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

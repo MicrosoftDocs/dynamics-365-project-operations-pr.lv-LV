@@ -2,76 +2,80 @@
 title: Projektu veidņu izstrāde, izmantojot darbību Projekta kopēšana
 description: Šajā tēmā ir sniegta informācija par to, kā izveidot projekta veidnes, izmantojot pielāgoto darbību Projekta kopēšana.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989271"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590907"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projektu veidņu izstrāde, izmantojot darbību Projekta kopēšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations atbalsta iespēju kopēt projektu un pārveidot visus piešķīrumus atpakaļ par vispārīgajiem resursiem, kas norāda lomu. Klienti var izmantot šo funkcionalitāti, lai veidotu vienkāršas projektu veidnes.
 
 Atlasot **Projekta kopēšana**, tiek atjaunināts mērķa projekta statuss. Izmantojiet **Statusa iemesls**, lai noteiktu, kad kopēšanas darbība ir pabeigta. Atlasot **Projekta kopēšana**, tiek atjaunināts arī projekta sākuma datums uz pašreizējo sākuma datumu, ja mērķa projekta entītijā nav noteikts mērķa datums.
 
-## <a name="copy-project-custom-action"></a>Pielāgotā darbība Projekta kopēšana 
+## <a name="copy-project-custom-action"></a>Pielāgotā darbība Projekta kopēšana
 
-### <a name="name"></a>Nosaukums/vārds, uzvārds 
+### <a name="name"></a>Nosaukums/vārds 
 
-**msdyn_CopyProjectV2**
+msdyn\_ CopyProjectV3
 
 ### <a name="input-parameters"></a>Ievades parametri
+
 Ir trīs ievades parametri.
 
-| Parametrs          | Veidi   | Vērtības                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** vai **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Entītijas atsauce | Avota projekts |
-| Mērķis             | Entītijas atsauce | Mērķa projekts |
+- **ReplaceNamedResources** vai **ClearTeamsAndAssignments** — iestatiet tikai vienu no opcijām. Nenostādi abus.
 
+    - **\{"ReplaceNamedResources":true\}** – projekta operāciju noklusējuma darbība. Visi nosauktie resursi tiek aizstāti ar vispārējiem resursiem.
+    - **\{"ClearTeamsAndAssignments":true\}** — web programmas Project noklusējuma darbība. Visi uzdevumi un grupas dalībnieki tiek noņemti.
 
-- **{"clearTeamsAndAssignments":true}**: Noklusējuma darbība Project tīmeklim, un tiks noņemti visi piešķīrumi un darba grupas dalībnieki.
-- **{"removeNamedResources":true}** Project Operations noklusējuma darbība, un tiks atjaunoti vispārīgie resursi.
+- **SourceProject** – avota projekta entītijas atsauce, no kuras kopēt. Šis parametrs nevar būt Null.
+- **Mērķis** — mērķa projekta elementa atsauce, uz kuru kopēt. Šis parametrs nevar būt Null.
 
-Vairāk darbību noklusējuma vērtību skatiet sadaļā [Web API darbību izmantošana](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Šajā tabulā sniegts trīs parametru kopsavilkums.
 
-## <a name="specify-fields-to-copy"></a>Kopējamo lauku norādīšana 
+| Parametrs                | Tipi             | vērtība                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Boolean          | **Patiess** vai **aplams** |
+| ClearTeamsAndAssignments | Boolean          | **Patiess** vai **aplams** |
+| SourceProject            | Entītijas atsauce | Avota projekts    |
+| Mērķis                   | Entītijas atsauce | Mērķa projekts    |
+
+Papildu darbību noklusējumus skatiet rakstā [Tīmekļa API darbību](/powerapps/developer/common-data-service/webapi/use-web-api-actions) izmantošana.
+
+### <a name="validations"></a>Apstiprinājumu
+
+Tiek veiktas šādas pārbaudes.
+
+1. Null pārbauda un izgūst avota un mērķa projektus, lai apstiprinātu abu projektu esamību organizācijā.
+2. Sistēma apstiprina, ka mērķa projekts ir derīgs kopēšanai, pārbaudot šādus nosacījumus:
+
+    - Projektā nav iepriekšējas aktivitātes (ieskaitot cilnes Uzdevumi **atlasi**), un projekts ir izveidots no jauna.
+    - Nav iepriekšējas kopijas, šajā projektā nav pieprasīta importēšana, un projektam nav **nesekmīga** statusa.
+
+3. Operācija netiek izsaukta, izmantojot HTTP.
+
+## <a name="specify-fields-to-copy"></a>Kopējamo lauku norādīšana
+
 Kad tiek izsaukta darbība, darbība **Projekta kopēšana** apskatīs projekta skatu **Projekta kolonnu kopēšana**, lai noteiktu, kuri lauki jākopē, pārkopējot projektu.
 
-
 ### <a name="example"></a>Piemērs
-Šajā piemērā parādīts, kā izsaukt pielāgoto darbību **CopyProject** ar parametru kopu **removeNamedResources**.
+
+Šajā piemērā parādīts, kā izsaukt pielāgoto **darbību CopyProjectV3** ar **parametru removeNamedResources kopu**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Kad tiek izsaukta darbība, darbība **Projekta kopēšana** apskatīs projekta 
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

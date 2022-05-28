@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par projekta kategoriju iesta
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997120"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591551"
 ---
 # <a name="configure-project-categories"></a>Projekta kategoriju iestatīšana
 
@@ -27,7 +27,7 @@ Darījumu kategorijas ir projekta darījumu pamata grupas. Šajās grupās ir ko
 
 ## <a name="transaction-categories"></a>Transakcijas kategorijas
 
-Darījumu kategorijas ataino projekta darījumu pamatgrupas, un tās neattiecas uz konkrētu uzņēmuma vai darījumu veidu. Piemēram, lai grupētu projekta darījumus, Contoso Robotics izmanto darījumu kategorijas Dizains, Transportēšana, Uzstādīšana un Apkope.
+Darījumu kategorijas ataino projekta darījumu pamatgrupas, un tās neattiecas uz konkrētu uzņēmuma vai darījumu veidu. Piemēram, uzņēmums Contoso Robotics" izmanto darījumu kategorijas Projektēšana, Ceļojumi, Uzstādīšana un Apkope, kurās grupē Projekta darījumus.
 
 Darījumu kategorijas tiek definētas Project Operations modulī. 
 1. Lai atvērtu veidlapu, dodieties uz **Iestatījumi** \> **Darījumu kategorijas**. 
@@ -35,7 +35,7 @@ Darījumu kategorijas tiek definētas Project Operations modulī.
 
 ## <a name="shared-categories"></a>Koplietotās kategorijas
 
-Dynamics 365 izmanto konceptu Shared categories, lai kategorizētu izmaksas dažādās lietojumprogrammās, piemēram, Dynamics 365 Finance, Dynamics 365 Supply Chain un Dynamics 365 Project Operations. Katrai izveidotajai Darījumu kategorijai Project Operations automātiski izveido četras saistītas Koplietotās kategorijas: Stundas, Izdevumi, Maksas un Vienums. Varat pārskatīt un pielāgot koplietotās kategorijas, atverot **Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Kategorijas** \> **Koplietotās kategorijas**.
+Dynamics 365 izmanto koplietojamo kategoriju koncepciju, lai kategorizētu izdevumus dažādās lietojumprogrammās, piemēram, Dynamics 365 Finance, Dynamics 365 Supply Chain un Dynamics 365 Project Operations. Katrai izveidotajai Darījumu kategorijai Project Operations automātiski izveido četras saistītas Koplietotās kategorijas: Stundas, Izdevumi, Maksas un Vienums. Varat pārskatīt un pielāgot koplietotās kategorijas, atverot **Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Kategorijas** \> **Koplietotās kategorijas**.
 
 ## <a name="project-categories"></a>Projektu kategorijas
 

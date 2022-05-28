@@ -3,15 +3,15 @@ title: Apakšsadarbību pārvaldība programmā Project Operations
 description: Šajā tēmā ir sniegts pārskats par pilnīgu apakšlīgumu pārvaldības procesu, kāds tas parasti ir uz projektiem balstītās organizācijās.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323605"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593023"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Apakšsadarbību pārvaldība projekta operācijās
 
@@ -46,7 +46,7 @@ Apakšlīguma rinda var būt balstīta uz daudzumu vai uz darbu.
 
 Ja apakšlīguma rinda ir **balstīta uz daudzumu**, tad daudzumu, kas tiek iegādāts apakšlīguma laika, izdevumu vai materiāla rindā, var izmantot jebkurā projektā.
 
-Ja apakšlīguma rinda ir **balstīta uz darbu**, apakšlīguma rinda ir kartēta uz darba vienību, ko atspoguļo mezgls projekta plānā. Apakšlīguma rindas vērtība ir visu to komponentu summa, kas nepieciešami, lai nodrošinātu šīs darba vienības izpildi. Tās tiek modelētas kā apakšlīguma rindas detaļas un var būt laika, izdevumu vai materiālu kolekcija. Uz darbu balstītām apakšlīguma rindām apakšlīguma rinda ir arī paredzēta atsevišķam projektam.
+Ja apakšlīguma rinda ir **balstīta uz darbu**, apakšlīguma rinda ir kartēta uz darba vienību, ko atspoguļo mezgls projekta plānā. Apakšlīguma rindas vērtība ir visu to komponentu summa, kas nepieciešami, lai nodrošinātu šīs darba vienības izpildi. Tās tiek modelētas kā apakšlīguma rindas detaļas un var būt laika, izdevumu vai materiālu kolekcija. Uz darbu balstītām apakšlīguma rindām apakšlīguma rinda ir arī paredzēta atsevišķam projektam. Šāda veida apakšuzņēmuma līgumi ir aktuāli, ko neatbalsta projekta operācijas.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

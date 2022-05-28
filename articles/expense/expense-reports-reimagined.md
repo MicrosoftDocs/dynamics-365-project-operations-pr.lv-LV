@@ -1,5 +1,5 @@
 ---
-title: Izdevumu pārskati, kas ir no jauna radīti (satur video)
+title: Atkārtoti izveidoti izdevumu pārskati (satur video)
 description: Šajā tēmā ir izskaidrota izdevumu atskaites ieraksta pārveidotā un atjaunotā pieredze.
 author: suvaidya
 ms.date: 12/16/2021
@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941054"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586951"
 ---
 # <a name="expense-reports-reimagined"></a>Atjaunotas izdevumu atskaites
 
@@ -58,7 +58,7 @@ Lai ieslēgtu jaunās iespējas, izmantojiet darbvietu **Līdzekļu pārvaldība
 | Jaunu izdevumu rindu saglabāšana un pievienošana | Ievadot izdevumus, ir pieejamas pogas **Saglabāt** un **Jauns**, lai jums palīdzētu ātri ievadīt izdevumu rindas. |
 | Labāka sadalīto un detalizēto rindu redzamība | Tieši izmaksu sarakstā tiek pievienotas detalizētas un sadalītas rindas, lai uzlabotu redzamību un palīdzētu ērti noteikt, vai nav kļūdu. |
 | Apakškategoriju detalizētas informācijas skatīšana detalizētās rindās | Pamatelementa izdevumu detalizētās rindās ir redzamas izdevumu atskaites apakškategoriju etiķetes. Detalizācija ļauj ātri pārskatīt detalizētu informāciju.|
-|Ātri uzskaitīt periodiskos izdevumus | Atkārtoti izveidotā izdevumu darbvieta nodrošina iespēju ātri uzskaitīt periodiskos izdevumus, pievienojot apakškategoriju, sākuma datumu un daudzumu. Daudzums attiecas uz to, cik reižu maksa tiek atkārtota nepārtrauktā periodā. |
+|Ātri uzskaitīt periodiskos izdevumus | Pārveidotā izdevumu darbvieta nodrošina iespēju ātri uzskaitīt periodiskos izdevumus, pievienojot apakškategoriju, sākuma datumu un daudzumu. Daudzums attiecas uz to, cik reižu maksa tiek atkārtota nepārtrauktā periodā. |
 | Kvīšu rādīšana detalizācijas laikā | Detalizācijas laikā var rādīt kvītis. |
 | Skaidras naudas avansa atlase | Atlasiet vienu vai vairākus skaidras naudas avansus, lai izpildītu atsevišķas izmaksu transakcijas. |
 | Skaudras naudas bilance | Veidojot izmaksu ierakstu, salīdzinot to ar apstiprinātajām un samaksātajām skaidras naudas bilancēm, pārskatiet naudas summas iepriekšējas bilances informāciju reāllaikā. |
