@@ -1,71 +1,71 @@
 ---
-title: Apakšuzņēmuma līgumu slēdzuma iespējas projekta grupas dalībniekiem
-description: Šajā tēmā ir izskaidrotas apakšuzņēmuma līgumu slēdzuma opcijas projekta grupas dalībniekiem programmā Microsoft Dynamics 365 Project Operations.
+title: Apakšlīguma iespējas projekta grupas dalībniekiem
+description: Šajā tēmā ir izskaidrotas apakšuzņēmuma līgumu opcijas projekta grupas dalībniekiem programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4db283db728b50ccf76eafabfd643313620bbce2
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903715"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600199"
 ---
-# <a name="subcontracting-options-for-project-team-members"></a>Apakšuzņēmuma līgumu slēdzuma iespējas projekta grupas dalībniekiem
+# <a name="subcontracting-options-for-project-team-members"></a>Apakšlīguma iespējas projekta grupas dalībniekiem
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Programmā Microsoft Dynamics 365 Project Operations varat novērtēt vienam vai vairākiem projekta grupas dalībniekiem pieejamās apakšuzņēmuma līgumu slēdzināšanas opcijas. Pieejamās apakšuzņēmuma līgumu slēdzot opcijas, ļauj:
+Programmā Microsoft Dynamics 365 Project Operations var novērtēt apakšuzņēmuma līgumu opcijas, kas pieejamas vienam vai vairākiem projekta grupas dalībniekiem. Pieejamās apakšuzņēmuma līgumu opcijas ļauj:
 
-- Izveidot jaunu apakšuzņēmuma līgumu un/vai izveidot jaunas rindas esošam apakšuzņēmuma līgumam atlasītajiem projekta grupas dalībniekiem. 
-- Rezervējiet pret jau esošu apakšuzņēmuma līgumu un apakšuzņēmuma līgumu rindu. 
+- Izveidojiet jaunu apakšuzņēmuma līgumu un/vai izveidojiet jaunas rindas esošā apakšuzņēmuma līgumā atlasītajiem projekta grupas dalībniekiem. 
+- Rezervēt jau esošai apakšuzņēmuma un apakšuzņēmuma līnijai. 
 
-Varat izvēlēties kādu no pieejamajām apakšuzņēmuma līgumu opcijām vispārējiem projekta grupas dalībniekiem vai izvēlēties kādu no projekta grupas dalībniekiem, kuriem ir piešķirts nosaukts resurss, kas ir līgumdarbinieks. 
+Varat izvēlēties kādu no pieejamajām apakšuzņēmuma līgumu opcijām vispārējiem projekta grupas dalībniekiem vai izvēlēties kādu no projekta grupas dalībniekiem, kuriem ir personāls ar nosauktu resursu, kas ir līgumdarbinieks. 
 
-Apakšuzņēmuma līgumu slēgšana nav pieejama:
+Apakšuzņēmuma līgumu slēgšanas iespējas nav pieejamas:
 
-- Projekta grupas dalībnieki, kuriem ir personāls ar darbinieku. 
-- Projekta grupas dalībnieki, kas jau ir saistīti ar apakšuzņēmuma līgumu un apakšuzņēmuma rindu. 
+- Projekta komandas locekļi, kuros strādājis darbinieks. 
+- Projekta grupas dalībnieki, kas jau ir saistīti ar apakšuzņēmuma un apakšuzņēmuma rindu. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Apakšuzņēmuma līgumu slēgšana projekta grupas dalībniekam bez darbinieku saimirgots
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Apakšlīgumu slēgšana ar projekta grupas dalībnieku bez personāla
 
-Lai pārskatītu un izvēlētos kādu no pieejamajām apakšuzņēmuma līgumu opcijām vispārējam vai darbiniekam bez darbinieku loka, rīkojieties šādi:
+Lai pārskatītu un izvēlētos kādu no pieejamajām apakšuzņēmuma līgumu opcijām vispārējam vai bez personāla esošam projekta grupas dalībniekam, rīkojieties šādi:
 
-1. Atlasiet vienu vai vairākas projekta grupas dalībnieku ierakstus, kur resurss ir vispārējs resurss.
-2. Pārliecinieties, vai neviens no atlasītajiem projekta grupas dalībnieku ierakstiem jau nav slēgts par apakšuzņēmuma līgumu. 
-3. **Projekta grupas** dalībnieku apakšrežģī atlasiet Apakšnodaļas opcijas. Tiek **atvērts dialoglodziņš Apakšuzņēmuma līgumu** opcijas. 
-4. Ja 1. darbībā atlasījāt tikai viena projekta grupas dalībnieka ierakstu, būs pieejamas šādas opcijas:
+1. Atlasiet vienu vai vairākus projekta grupas dalībnieku ierakstus, kuros resurss ir vispārējs resurss.
+2. Pārliecinieties, vai neviens no atlasītajiem projekta grupas dalībnieku ierakstiem jau nav noslēdzis apakšuzņēmuma līgumus. 
+3. Projekta grupas dalībnieku apakšrežā atlasiet **Apakšuzņēmuma opcijas**. Tiek **atvērts dialoglodziņš Apakšuzņēmuma opciju** dialogs. 
+4. Ja 1. darbībā atlasījāt tikai vienu projekta grupas dalībnieka ierakstu, būs pieejamas šādas opcijas:
     - Izveidojiet jaunas apakšuzņēmuma rindas. 
-    - Rezervēt pret esošu apakšuzņēmuma līgumu Ja 1. darbībā atlasījāt vairākus projekta grupas dalībnieku ierakstus, vienīgā pieejamā iespēja ir izveidot jaunas apakšuzņēmuma rindas.
-5. Iespēja rezervēt pret esošu apakšuzņēmuma rindu ļauj atlasīt apakšuzņēmuma līgumu un apakšuzņēmuma rindu, pret kuru vēlaties rezervēt. Atlasot apakšuzņēmuma rindu, lai rezervētu noslodzi, ir jānodrošina, ka atlasītā apakšuzņēmuma rinda ir uz laiku un projekta grupas dalībniekam nepieciešamā loma atbilst lomai, kas iegādāta apakšuzņēmuma rindā.
-6. Atlasot projekta grupas dalībniekiem izveidot jaunas apakšuzņēmēju rindas, sistēma ļauj atlasīt apakšuzņēmuma līgumu, kuru vēlaties izveidot šīs rindas. Apakšuzņēmuma līgumam, kurā vēlaties izveidot jaunas rindas, jābūt **statuss** Melnraksts. Izmantojot šo opciju, lai izveidotu jaunas apakšuzņēmuma rindas atlasītajiem projekta grupas dalībniekiem, sistēma katram projekta grupas dalībniekam izveidos vienu apakšuzņēmēja rindu. Loma, stundas un datumi tiek kopēti no projekta grupas dalībnieka uz katru izveidoto apakšuzņēmuma rindu. 
-7. Ja vispārējs grupas dalībnieks ir saistīts ar apakšuzņēmuma līgumu un apakšuzņēmuma rindu, **lauks Darbinieka tips** vispārīgās grupas dalībnieka rindā tiks atjaunināts uz **Līguma darbinieks un līguma spēkā** **esamības** vērtība tiks iestatīta uz **Derīgs**.
+    - Rezervēt pret esošu apakšuzņēmuma līgumu Ja 1. darbībā atlasījāt vairākus projekta grupas dalībnieku ierakstus, tad vienīgā pieejamā iespēja ir izveidot jaunas apakšuzņēmuma rindas.
+5. Iespēja rezervēt pret esošu apakšuzņēmuma rindu ļauj atlasīt apakšuzņēmuma un apakšuzņēmuma rindu, pret kuru vēlaties rezervēt. Izvēloties apakšuzņēmuma rindu rezerves noslodzei, pārliecinieties, vai atlasītā apakšuzņēmuma rinda ir paredzēta laikam un ka projekta grupas dalībniekam nepieciešamā loma atbilst apakšuzņēmuma rindā iegādātajai lomai.
+6. Atlasot izveidot jaunas apakšuzņēmuma rindas projekta grupas dalībniekiem, sistēma ļauj atlasīt apakšuzņēmuma līgumu, kuru vēlaties izveidot šīs rindas. Apakšuzņēmuma līgumam, kuru atlasījāt, lai izveidotu jaunas rindas, jābūt melnraksta **statusā**. Izmantojot šo opciju, lai atlasītajiem projekta grupas dalībniekiem izveidotu jaunas apakšuzņēmuma rindas, sistēma katram projekta grupas dalībniekam uz laiku izveidos vienu apakšuzņēmuma rindu. Loma, stundas un datumi tiks kopēti no projekta grupas dalībnieka uz katru izveidoto apakšuzņēmuma rindu. 
+7. Ja vispārējs grupas dalībnieks ir saistīts ar apakšuzņēmuma un apakšuzņēmuma rindu, **lauks Darbinieka tips** vispārīgajā grupas dalībnieku rindā tiks atjaunināts uz **Līgumdarbinieks** un **apakšuzņēmuma derīguma** vērtība tiks iestatīta kā **Derīga**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Apakšuzņēmuma līgumu slēgšana ar personāla projekta grupas dalībnieku
+## <a name="subcontracting-a-staffed-project-team-member"></a>Apakšlīgumu slēgšana ar projekta grupas dalībnieku ar personālu
 
-Tāpat kā vispārīgi vai darbinieki, varat arī skatīt apakšuzņēmuma līgumu slēgšanas iespējas projekta grupas dalībniekam, kurā ir personāls, ja vien komandas darbinieks ir līgumdarbinieks. Lai pārskatītu un izvēlētos kādu no pieejamajām apakšuzņēmuma līgumu opcijām personālam vai nosauktam projekta grupas dalībniekam, rīkojieties šādi:
+Tāpat kā vispārīgi vai komandas locekļi bez personāla, varat arī skatīt apakšuzņēmuma līgumu slēgšanas iespējas projekta komandas loceklim ar personālu, ja vien komandas loceklis ar personālu ir līgumdarbinieks. Lai pārskatītu un izvēlētos kādu no pieejamajām apakšuzņēmuma līgumu opcijām projekta grupas dalībniekam ar personālu vai vārdā, rīkojieties šādi:
 
-1. Atlasiet vienu vai vairākas projekta grupas dalībnieku ierakstus, kur resurss ir nosaukts līgumdarbinieks.
-2. Pārliecinieties, vai neviens no atlasītajiem projekta grupas dalībnieku ierakstiem jau nav slēgts par apakšuzņēmuma līgumu. 
-3. **Projekta grupas** dalībnieku apakšrežģī atlasiet Apakšnodaļas opcijas. Tiek **atvērts dialoglodziņš Apakšuzņēmuma līgumu** opcijas. 
-4. Ja 1. darbībā atlasījāt tikai viena projekta grupas dalībnieka ierakstu, būs pieejamas šādas opcijas:
+1. Atlasiet vienu vai vairākus projekta grupas dalībnieku ierakstus, kuros resurss ir nosaukts līgumdarbinieks.
+2. Pārliecinieties, vai neviens no atlasītajiem projekta grupas dalībnieku ierakstiem jau nav noslēdzis apakšuzņēmuma līgumus. 
+3. Projekta grupas dalībnieku apakšrežā atlasiet **Apakšuzņēmuma opcijas**. Tiek **atvērts dialoglodziņš Apakšuzņēmuma opciju** dialogs. 
+4. Ja 1. darbībā atlasījāt tikai vienu projekta grupas dalībnieka ierakstu, būs pieejamas šādas opcijas:
       - Izveidojiet jaunas apakšuzņēmuma rindas.
-      - Rezervējiet pret esošu apakšuzņēmuma līgumu.
-  Ja 1. darbībā atlasījāt vairākus projekta grupas dalībnieku ierakstus, vienīgā pieejamā iespēja ir izveidot jaunas apakšuzņēmuma rindas.
-5. Iespēja rezervēt pret esošu apakšuzņēmuma rindu ļauj atlasīt apakšuzņēmuma līgumu un apakšuzņēmuma rindu, pret kuru vēlaties rezervēt. Izvēloties apakšuzņēmuma rindu, lai rezervētu noslodzi, jums jānodrošina:
-      - Atlasītā apakšuzņēmuma līguma rinda ir paredzēta laikam. 
-      - Projekta grupas dalībniekam nepieciešamā loma atbilst lomai, kas iegādāta apakšuzņēmuma rindā. 
-      - Kreditors, ar kuru ir saistīts līguma darbinieks, ir tāds pats kā apakšuzņēmēja kreditors.
-6. Atlasot projekta grupas dalībniekiem izveidot jaunas apakšuzņēmēju rindas, sistēma ļauj atlasīt apakšuzņēmuma līgumu, kuru vēlaties izveidot šīs rindas. Izmantojot šo opciju, pārliecinieties, ka kreditors, kuram pieder līguma darbinieks, ir tāds pats kā apakšuzņēmēja piegādātājs. 
-7. Apakšuzņēmuma līgumam, kurā vēlaties izveidot jaunas rindas, jābūt **statuss** Melnraksts. Izmantojot šo opciju, lai izveidotu jaunas apakšuzņēmuma rindas atlasītajiem projekta grupas dalībniekiem, sistēma katram projekta grupas dalībniekam izveidos vienu apakšuzņēmēja rindu. Loma, stundas un datumi tiek kopēti no projekta grupas dalībnieka uz katru izveidoto apakšuzņēmuma rindu.  
-8. Ja nosauktais grupas dalībnieks ir saistīts ar apakšuzņēmuma līgumu un apakšuzņēmuma rindu, **lauks Darbinieka tips** nosauktā komandas dalībnieka rindā tiks atjaunināts uz **Līguma darbinieks un līguma spēkā** **esamības** vērtība tiks iestatīta uz **Derīgs**.
+      - Rezervēt esošam apakšuzņēmuma līgumam.
+  Ja 1. darbībā atlasījāt vairākus projekta grupas dalībnieku ierakstus, vienīgā pieejamā opcija ir izveidot jaunas apakšuzņēmuma rindas.
+5. Iespēja rezervēt pret esošu apakšuzņēmuma rindu ļauj atlasīt apakšuzņēmuma un apakšuzņēmuma rindu, pret kuru vēlaties rezervēt. Izvēloties apakšuzņēmuma rindu, lai rezervētu noslodzi, jums jāpārliecinās:
+      - Atlasītā apakšuzņēmuma rinda ir uz laiku. 
+      - Loma, kas nepieciešama projekta grupas dalībniekam, atbilst lomai, kas tika iegādāta apakšuzņēmuma līgumā. 
+      - Kreditors, ar kuru ir saistīts līguma darbinieks, ir tāds pats kā kreditors apakšlīgumā.
+6. Atlasot izveidot jaunas apakšuzņēmuma rindas projekta grupas dalībniekiem, sistēma ļauj atlasīt apakšuzņēmuma līgumu, kuru vēlaties izveidot šīs rindas. Izmantojot šo opciju, pārliecinieties, vai piegādātājs, kuram pieder līguma darbinieks, ir tāds pats kā piegādātājs apakšuzņēmuma līgumā. 
+7. Apakšuzņēmuma līgumam, kuru atlasījāt, lai izveidotu jaunas rindas, jābūt melnraksta **statusā**. Izmantojot šo opciju, lai atlasītajiem projekta grupas dalībniekiem izveidotu jaunas apakšuzņēmuma rindas, sistēma katram projekta grupas dalībniekam uz laiku izveidos vienu apakšuzņēmuma rindu. Loma, stundas un datumi tiks kopēti no projekta grupas dalībnieka uz katru izveidoto apakšuzņēmuma rindu.  
+8. Ja nosaukts grupas dalībnieks ir saistīts ar apakšuzņēmuma un apakšuzņēmuma rindu, **lauks Darbinieka tips** norādītajā grupas dalībnieku rindā tiks atjaunināts uz **Līgumdarbinieks** un **apakšuzņēmēja derīguma** vērtība tiks iestatīta kā **Derīga**.
 
-## <a name="re-costing-subcontractor-assignments"></a>Apakšuzņēmēju uzdevumu pārdalīšana
+## <a name="re-costing-subcontractor-assignments"></a>Apakšuzņēmēju uzdevumu pārvērtēšana
 
-Ja projekta grupas dalībnieks (vispārīgs vai nosaukts) ir saistīts ar apakšuzņēmuma līnijām, izmantojot **dialogu Apakšuzņēmuma līgumu** opcijas, visas piešķires uzdevumiem, kas ir grupas dalībniekam, tiks atkārtoti izstādītas, pamatojoties uz apakšuzņēmuma līgumam pievienoto iepirkuma cenrādi. Lapas **Detalizēta informācija par projektu cilnē Novērtējumi** **atlasiet** **pogu Atjaunināt cenas,** lai skatītu atjauninātās cenas un/vai izmaksu sārņus, kas izriet no lēmuma par apakšuzņēmuma līgumu slēdzu.
+Ja projekta grupas dalībnieks (vispārīgs vai nosaukts) ir saistīts ar apakšuzņēmuma līnijām, izmantojot **dialoglodziņu Apakšuzņēmuma opcijas**, visas piešķires uzdevumiem, kas ir grupas dalībniekam, tiks izmaksātas atkārtoti, pamatojoties uz apakšuzņēmuma līgumam pievienoto pirkšanas cenrādi. **Lapas Detalizēta informācija** par **projektu cilnē Novērtējumi** atlasiet **pogu Atjaunināt cenas**, lai skatītu atjauninātās cenas un/vai izmaksas, kas izriet no lēmuma slēgt apakšuzņēmuma līgumus rezultātā.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

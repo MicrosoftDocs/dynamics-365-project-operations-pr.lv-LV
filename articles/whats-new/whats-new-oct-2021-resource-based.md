@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753301"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598497"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021. gada oktobra jaunumi — Project Operations resursu balstītiem/krājumu nebalstītiem scenārijiem
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753301"
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Microsoft Dataverse vides versija 4.25.0.91
-   - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.21
+   - Projektu vadība un uzskaite Dynamics 365 Finance vidē versija 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -49,7 +49,7 @@ Ja startējot karti rodas problēma, tad sekojiet instrukcijām [Trūkstošo tab
 | Cenu noteikšana un norēķini | 2338357 | Kad projekts ir atlasīts, valūtai materiālu lietojuma žurnālā ir noklusējuma vērtība no projekta valūtas. |
 | Laiks un izdevumi | 2414777 | Apstiprinājuma atcelšanai, ja izmaksu vai laika ievadei ir vairāk nekā viens saistītais projekta apstiprinājums, ir jābūt iespējamai. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projekta pārvaldība un uzskaite pakalpojumā Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu vadība un uzskaite Dynamics 365 Finance
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |

@@ -2,17 +2,16 @@
 title: Projekta ieguldījuma izsekošana
 description: Šajā tēmā ir sniegta informācija par to, kā sekot līdzi projekta ieguldījumam un darba norisei.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993970"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593805"
 ---
 # <a name="project-effort-tracking"></a>Projekta ieguldījuma izsekošana
 
@@ -46,7 +45,8 @@ Piepūli kopsavilkuma uzdevumiem vai konteinera uzdevumiem var pārprojektēt. P
 - Tiek aprēķināts jaunais EAC katram atsevišķajam uzdevumam līdz pat lapas mezgla uzdevumiem. 
 - Ietekmētajiem pakārtotajiem uzdevumiem lejup pa lapas mezgliem tiek pārrēķināts to atlikušais ieguldījums un progresa procentuālais daudzums, pamatojoties uz EAC vērtību. Šādi uzdevumam tiek iegūta jauna piepūles novirzes projektēšana. 
 - Tiek pārrēķināti kopsavilkuma uzdevumu EAC visiem uzdevumiem līdz saknes mezglam.
-
+- Apstiprinātās pūles kopsavilkuma uzdevumā ir visu pakārtoto uzdevumu apstiprināto centienu summa plus apstiprinātās pūles kopsavilkuma uzdevumā.
+- Atlikušie centieni kopsavilkuma uzdevumā ir visu pakārtoto uzdevumu atlikušo pūļu summa, atskaitot apstiprinātos pūliņus kopsavilkuma uzdevumā.
 
 ## <a name="project-status-summary"></a>Projekta noteikta kopsavilkums
 

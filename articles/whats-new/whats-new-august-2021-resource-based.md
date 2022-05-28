@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501380"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594173"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada augustā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501380"
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Microsoft Dataverse vides versijā 4.13.0.152.
-   - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.20.
+   - Projektu vadība un grāmatvedība Dynamics 365 Finance vides versijā 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -54,7 +54,7 @@ Ja, sākot karti, rodas problēma, izpildiet instrukcijas dubultās rakstīšana
 | Laiks un izdevumi | 2336884 | Laika ievades pogai **Kopēt nedēļu** ir jādarbojas vairāk nekā tikai pašreizējam lietotājam. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projekta pārvaldība un uzskaite pakalpojumā Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu vadība un uzskaite Dynamics 365 Finance
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |

@@ -4,14 +4,14 @@ description: Šajā tēmā izskaidrots, kā jaunajā interfeisā izveidot darba 
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928624"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597807"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Darba sadalījuma struktūras (WBS) izveide
 
@@ -95,11 +95,11 @@ Kā administrators uzdevuma entītijai var definēt pielāgotus laukus. Tomēr l
 
 ## <a name="staffing-attributes"></a>Darbspēka atribūti
 
-Personāla komplektēšanas atribūtiem piekļūst, grafikā izmantojot lauku **Resursi**. Varat vai nu meklēt jau esošu resursu, vai rūtī **Ātrā izveide** atlasīt **Izveidot** un pievienot projekta darba grupas dalībnieku kā jaunu resursu.  Meklējot resursu, izmantojot resursu atlasītāju uzdevumu režģī, dēļa skatā vai gantē, meklēšana atgriež esošos projekta grupas dalībniekus vai aktīvos rezervējamos resursus.
+Personāla komplektēšanas atribūtiem piekļūst, grafikā izmantojot lauku **Resursi**. Varat vai nu meklēt jau esošu resursu, vai rūtī **Ātrā izveide** atlasīt **Izveidot** un pievienot projekta darba grupas dalībnieku kā jaunu resursu.  Meklējot resursu, izmantojot resursu atlasītāju uzdevumu režģī, dēļa skatā vai gantā, meklēšana atgriež esošos projekta grupas dalībniekus vai aktīvos rezervējamos resursus.
 
 Uzdevuma personāla komplektēšanas prasību aprakstīšanai tiek izmantoti lauki **Loma**, **Resursu vienība** un **Amata nosaukums**. Šie personāla komplektēšanas atribūti kopā ar uzdevuma grafiku tiek izmantoti, lai atrastu pieejamos resursus šī uzdevuma veikšanai.
 
-   - **Loma** : norādiet resursa tipu, kas nepieciešams uzdevuma veikšanai.,
+   - **Loma**: norādiet uzdevuma veikšanai nepieciešamā resursa tipu.,
    - **Resursu vienība**: Norādiet struktūrvienību, no kuras ir jāpiešķir resursi šim uzdevumam. Ja resursa izmaksu un norēķinu likmes ir iestatītas, pamatojoties uz resursu vienībām, šis atribūts uzdevumam ietekmē izmaksu un pārdošanas tāmi.
    - **Amata nosaukums**: Ievadiet draudzīgu nosaukumu vispārējam resursam, kas tiek izmantots kā vietturis resursam, kurš galu galā darīs šo darbu.
 
@@ -124,10 +124,10 @@ Ja izmantojat Project Operations darba sadalījuma struktūru, ņemiet vērā t�
 |----------------------------------------------------|----------------------|
 | Projekta maksimālais uzdevumu skaits                  | 500                  |
 | Projekta maksimālais ilgums               | 3650 dienas (10 gadi) |
-| Projekta maksimālais resursu skaits              | 150                  |
+| Projekta maksimālais resursu skaits              | 300                  |
 | Projekta maksimālais saišu skaits (tikai pēctecis) | 600                  |
 | Projekta maksimālais pielāgoto lauku skaits          | 10                   |
-| Maksimālais kontrolsaraksta vienumu skaits vienam uzdevumam                   | 20                   |
+| Maksimālais kontrolsaraksta vienumu skaits katram uzdevumam                   | 20                   |
 
 **Uzdevumu ierobežojumi**
 

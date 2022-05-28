@@ -2,17 +2,17 @@
 title: Problēmu novēršana, strādājot ar uzdevuma režģi
 description: Šajā tēmā sniegta informācija par problēmu novēršanu, kura ir nepieciešama, strādājot uzdevumu režģī.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547208"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596427"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problēmu novēršana, strādājot ar uzdevuma režģi 
 
@@ -70,6 +70,9 @@ Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu. Š
       | Project Operations                   | tips=2             |
 
 4. Noņemiet lauku no **Projekta parametru** lapas.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>3. mazināšana: piesakieties project.microsoft.com
+Microsoft Edge Pārlūkprogrammā atveriet jaunu cilni, dodieties uz project.microsoft.com un piesakieties, izmantojot lietotāja lomu, ko izmantojat, lai piekļūtu projekta operācijām.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problēma: projekts netiek ielādēts, un lietotāja interfeiss ir iestrēdzis skaitītājā
 

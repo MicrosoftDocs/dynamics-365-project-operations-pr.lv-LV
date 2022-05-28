@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995635"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600061"
 ---
 # <a name="proforma-invoices"></a>Pro forma rēķini
 
@@ -82,6 +82,9 @@ Izveidojot projekta rēķina melnrakstu, visi nepārdoto pārdošanas transakcij
 - Rediģējiet un pielāgojiet daudzuma un norēķinu tipu.
 
 Atlasiet vienumu **Apstiprināt**, lai apstiprinātu rēķinu. Apstiprinājuma darbība ir vienvirziena darbība. Kad atlasāt **Apstiprināt**, sistēma padara rēķinu par tikai lasāmu un izveido izrakstīto pārdošanas darījumu no katras rēķina rindas detalizētās vērtības katrā rēķina rindā. Ja rēķina rindas informācija attiecas uz nepārdotu pārdošanas apjomu faktisko, sistēma arī apvērš nepārdoto pārdošanas darījumu faktisko. (Jebkura rēķina rindas informācija, kas izveidota no laika vai izdevumu ieraksta, atsaucas uz nepārdotu pārdošanas darījumu.) Galvenās virsgrāmatas ieviešanas sistēmas var izmantot šo apvērsi, lai nepabeigtu projekta darbu (NP) grāmatvedības vajadzībām.
+
+> [!NOTE]
+> Apstiprinātos proformas rēķinus un saistītos ierakstus, piemēram, rēķina rindas un rēķina rindas detaļas, nevar rediģēt vai dzēst. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Apstiprināta rēķina labošana
 

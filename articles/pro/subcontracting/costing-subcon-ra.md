@@ -1,50 +1,50 @@
 ---
-title: Apakšuzņēmēju resursu piešķires izmaksu novērtējums
-description: Šajā tēmā ir paskaidrots, kā Microsoft Dynamics 365 Project Operations aprēķina izmaksu novērtējumu apakšuzņēmēju resursu piešķirēm.
+title: Apakšlīgumu resursu piešķīrumu izmaksu novērtējums
+description: Šajā tēmā ir paskaidrots, kā Microsoft Dynamics 365 Project Operations aprēķina apakšuzņēmēju resursu piešķires izmaksu novērtējumu.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09a2a86ea0e97376939d5bff6df9177747818ebb
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903708"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596703"
 ---
-# <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Apakšuzņēmēju resursu piešķires izmaksu novērtējums
+# <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Apakšlīgumu resursu piešķīrumu izmaksu novērtējums
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Apakšuzņēmēju projekta grupas dalībnieku uzdevumu piešķires tiek maksātas, izmantojot **pirkšanas** cenrādi, kas pievienots apakšuzņēmuma līgumam saistītā grupas dalībnieka ierakstā. Tas atšķiras no tā, kā tiek izmaksu izmaksas darbinieku resursu uzdevumiem, kur darbinieku resursu uzdevumu piešķires tiek izmaksas, izmantojot **izmaksu** cenrādi, kas piesaistīts projekta līgumslēdzējai vienībai. 
+Apakšuzņēmēju projekta grupas dalībnieku uzdevumu piešķires tiek izmaksātas, izmantojot **iepirkuma** cenrādi, kas pievienots apakšlīgumam saistītajā grupas dalībnieka ierakstā. Tas atšķiras no tā, kā tiek aprēķinātas darbinieku resursu piešķiršanas izmaksas, ja darbinieku resursu uzdevumu piešķires tiek izmaksātas, izmantojot **izmaksu** cenrādi, kas pievienots projekta līguma vienībai. 
 
-Vispārējiem projekta grupas dalībniekiem, par kuriem ir noslēgti apakšuzņēmuma līgumi, uzdevumi tiek maksāti, izmantojot lomu cenu iestatījumus pirkšanas cenrādī, kas pievienots apakšuzņēmuma līgumam. Iepirkuma cenas var iestatīt arī tieši katram resursam. Šīm resursiem specifiskajām cenām tiks piešķirta prioritāte, ja nosaukto projekta grupas dalībnieku uzdevumu piešķiršana ir līgumdarbinieki. 
+Vispārīgiem projekta grupas dalībniekiem, kuriem ir apakšuzņēmuma līgumi, piešķires tiek izmaksātas, izmantojot uz lomām balstītus cenu iestatījumus iepirkuma cenrādī, kas pievienots apakšuzņēmuma līgumam pievienotajā pirkšanas cenrādī. Pirkšanas cenas var iestatīt arī īpaši katram resursam. Šīm resursiem raksturīgajām cenām tiks piešķirta prioritāte, ja izmaksas uzdevumu piešķires nosauktiem projekta grupas dalībniekiem ir līgumdarbinieki. 
 
-Prioritāti, izmantojot konkrētai lomai specifisku pirkšanas cenu un resursu specifiskām, nosaka cenu dimensijas prioritātes iestatīšana **parametros > uz summu balstītās cenu dimensijās**.
+Prioritāte lomai specifiskas pirkšanas cenas izmantošanai salīdzinājumā ar resursu specifisko cenu nosaka cenu dimensijas prioritātes iestatīšana parametros **> uz summu balstītās cenu dimensijas**.
 
-Šī dinamiski iegūto cenu funkcionalitāte, kuras pamatā ir apakšuzņēmēju pirkšanas cenu dimensiju iestatījumi, ir līdzīga tam, kā pilnas slodzes darbiniekiem tiek iegūtas izmaksu un rēķinu likmes. 
+Šī dinamiski iegūto cenu funkcionalitāte, pamatojoties uz apakšuzņēmēju pirkšanas cenu dimensiju iestatījumiem, ir līdzīga tam, kā tiek iegūtas izmaksu un rēķinu likmes pilnas slodzes darbiniekiem. 
 
-## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Uzdevumu uzdevumu uzdevumu izveide apakšuzņēmēju resursu izmaksu aprēķinu iegūšanai
+## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Uzdevumu piešķiru izveide apakšuzņēmēju resursu izmaksu novērtējumu iegūšanai
 
-Uzdevumu uzdevumus apakšuzņēmējiem var izveidot divos veidos: 
-- Cilnes **Uzdevumi** izmantošana.
-- Cilnes **Komanda** izmantošana.
+Uzdevumu piešķires apakšuzņēmējiem var izveidot divos veidos: 
+- **Izmantojot cilni Uzdevumi**.
+- **Izmantojot cilni Komanda**.
 
 ### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Resursu piešķirju izveide, izmantojot cilni Uzdevumi
-Izmantojot **resursu** sarakstu **cilnē Uzdevumi** noteiktam uzdevumam, varat izveidot uzdevuma piešķiršanu nosauktam resursam vai vispārējam resursam. Ja uzdevuma nolaižamajā izvēlnē Piešķirtie resursi atlasāt nosauktu resursu **un šis resurss ir** līgumdarbinieks, nosauktais resurss tiek piešķirts uzdevumam un tiek izveidots atbilstošs projekta grupas dalībnieka ieraksts ar darbinieka tipu, kas iestatīts uz **Līguma darbinieks un** **derīgums** ir iestatīts uz **Nederīgs**. Kā nākamo soli jums būs jāatver projekta grupas dalībnieka ieraksts un jāatlasa apakšuzņēmuma un apakšuzņēmuma līgumu rinda. Tādējādi tiks atjaunināta uzdevuma piešķiršana, lai būtu atsauce uz apakšuzņēmuma līgumu un apakšuzņēmuma rindu, kā arī atjauninās grupas dalībnieka statusu uz **Derīgs**.
+**Izmantojot cilnes Uzdevumi** sarakstu **Resursi** noteiktam uzdevumam, varat izveidot uzdevumu piešķiri nosauktam resursam vai vispārējam resursam. Ja uzdevuma nolaižamajā **izvēlnē Piešķirtie resursi** atlasāt nosauktu resursu un šis resurss ir līgumdarbinieks, uzdevumam tiek piešķirts nosauktais resurss un tiek izveidots atbilstošs projekta grupas dalībnieka ieraksts ar iestatītu darbinieka tipu, kas iestatīts uz **Līgumdarbinieks** un **Derīgums** ir iestatīts uz **Nederīgs**. Kā nākamo soli jums būs jāatver projekta komandas dalībnieka ieraksts un jāizvēlas apakšuzņēmuma un apakšuzņēmuma rinda. Tas atjauninās uzdevuma piešķiri, lai būtu atsauce uz apakšuzņēmuma un apakšuzņēmuma rindu, kā arī atjauninās grupas dalībnieka statusu uz **Derīgs**.
 
-Ja izvēlaties izveidot vispārīgu grupas dalībnieku no **uzdevuma nolaižamās daļas Piešķirtie** resursi, **dialoglodziņš Vispārīga grupas dalībnieka izveide** ļauj atlasīt apakšuzņēmuma līgumu un apakšuzņēmuma rindu. Kad uzdevumam ir piešķirts vispārējais resurss un ir izveidots atbilstošais projekta grupas dalībnieka ieraksts, pamanīsit, ka projekta grupas dalībnieka ieraksts ir izveidots ar darbinieka tipu, kas iestatīts uz **Līgumdarbinieks** un **derīgums** ir iestatīts uz **Derīgs**.
+Ja izvēlaties izveidot vispārēju grupas dalībnieku no uzdevuma nolaižamā **saraksta Piešķirtie resursi**, **vispārējais grupas dalībnieka izveides** dialogs ļaus atlasīt apakšuzņēmuma un apakšuzņēmuma rindu. Kad uzdevumam ir piešķirts vispārējais resurss un izveidots atbilstošais projekta grupas dalībnieka ieraksts, jūs pamanīsit, ka projekta grupas dalībnieka ieraksts ir izveidots ar darbinieka tipu, kas iestatīts uz **Līguma darbinieks** un **derīgums ir iestatīts** uz **Derīgs**.
 
 ### <a name="creating-project-team-members-using-the-team-tab"></a>Projekta grupas dalībnieku izveide, izmantojot cilni Komanda
-Izmantojot projekta cilni Komanda, varat izveidot vispārīgu vai nosauktu grupas dalībnieku. Veidojot grupas dalībnieku, varat atlasīt apakšuzņēmuma līgumu un apakšuzņēmuma rindu. Pēc grupas dalībnieka izveides grupas dalībnieks ir jāpiešķir uzdevumam, izmantojot **uzdevuma** nolaižamo laukumā Piešķirtie resursi. 
+Izmantojot projekta cilni Komanda, varat izveidot vispārīgu vai nosauktu grupas dalībnieku. Veidojot grupas dalībnieku, varat atlasīt apakšuzņēmuma un apakšuzņēmuma rindu. Pēc grupas dalībnieka izveides grupas dalībnieks uzdevumam ir jāpiešķir, izmantojot **uzdevuma nolaižamo izvēlni Piešķirtie resursi**. 
 
-## <a name="updating-estimates"></a>Budžetu atjaunināšana
-Kad projekta grupas dalībnieki ir piešķirti uzdevumiem, jums ir jāorientējas **uz projekta cilni Novērtējumi un** jāatlasa Atjaunināt **cenas**, lai nodrošinātu, ka apakšuzņēmēju resursu piešķires izmaksu likmes tiek atjauninātas, pamatojoties uz apakšuzņēmuma līgumam pievienoto iepirkuma cenrādi. Novērtējumi nepiešķirtajiem uzdevumiem programmā Microsoft netiek ģenerēti Dynamics 365 Project Operations. Tā rezultātā jums būs jāizveido uzdevumu uzdevumi, lai cena un izmaksas dažādiem uzdevumiem jūsu projektā. 
+## <a name="updating-estimates"></a>Aplēšu atjaunināšana
+Kad uzdevumiem ir piešķirti projekta grupas dalībnieki, jums būs jāpārvietojas uz **projekta cilni Novērtējumi** un jāatlasa **Atjaunināt cenas**, lai nodrošinātu, ka apakšuzņēmēja resursu piešķires izmaksu likmes tiek atjauninātas, pamatojoties uz apakšuzņēmējam pievienoto pirkšanas cenrādi. Aprēķini netiek ģenerēti nepiešķirtiem uzdevumiem programmā Microsoft Dynamics 365 Project Operations. Tā rezultātā jums būs jāizveido uzdevumu uzdevumi, lai noteiktu cenu un maksātu dažādus uzdevumus savā projektā. 
 
-> [PIEZĪME!] Projekta grupas dalībnieki, kuru tips ir **Darbinieks** kā **Līgumdarbinieks**, bet kuriem nav apakšuzņēmuma līguma atsauces, projekta grupas dalībnieku režģī tiek atzīmēti **kā** **nederīgi**. Ja ir kāds projekta grupas dalībnieks ar šādu statusu, atveriet projekta grupas dalībnieka ierakstu un manuāli atjauniniet apakšuzņēmuma līgumu un apakšuzņēmuma rindu laukus, lai finanšu izmaksu novērtējums precīzi atspoguļotu apakšuzņēmēja izmaksas **cilnē** Novērtējumi. 
+> [PIEZĪME!] Projekta grupas dalībnieki, kuru tips ir **Darbinieks kā** līgumdarbiniekam **, bet kuriem nav apakšuzņēmuma atsauces, projekta grupas dalībnieku** režģī tiek atzīmēti kā **nederīgi** **.** Ja ir kāds projekta grupas dalībnieks ar šādu statusu, atveriet projekta grupas dalībnieka ierakstu un manuāli atjauniniet apakšuzņēmuma un apakšuzņēmuma rindu laukus, lai finanšu izmaksu novērtējums precīzi atspoguļotu apakšuzņēmēja izmaksas **cilnē Novērtējumi**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

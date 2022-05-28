@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928670"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594863"
 ---
 # <a name="provision-a-new-environment"></a>Jaunas vides nodrošināšana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šajā tēmā ir sniegta informācija par jaunas Dynamics 365 Project Operations vides nodrošināšanu scenārijiem, kas balstīti uz resursiem/bez krājumiem.
 
@@ -34,7 +34,7 @@ Veiciet tālāk norādītās darbības, lai iespējotu Project Operations automa
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations vides nodrošināšana
 
-1. Atveriet jaunu Dynamics 365 Finance [demonstrācijas vidi](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vai [smilškastes/ražošanas vides](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) izvietojumu. 
+1. Atveriet jaunu Dynamics 365 Finance [demonstrācijas vidi](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vai [smilškastes/ ražošanas vides](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) izvietošanu. 
 2. Veiciet vednī **Vidnes nodrošināšana** norādītās darbības. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Lai saņemtu šo versiju, iespējams, jūsu Finance videi būs jālieto kvalitā
 
     ![Risinājumu lietošana.](./media/13ApplySolutions.png)
 
-5. Atlasiet abus risinājumus — **Dynamics 365 Finance and Operations divkāršās rakstīšanas entītiju kartējums** un **Dynamics 365 Project Operations divkāršās rakstīšanas entītiju kartējumi** un pēc tam atlasiet **Lietot**.
+5. Atlasiet abus risinājumus, **Dynamics 365 Finance and Operations Duālās rakstīšanas entītiju karte** un **Dynamics 365 Project Operations duālās rakstīšanas entītiju kartes**, un pēc tam atlasiet **Lietot**.
 
     ![Risinājumu apstiprināšana.](./media/14ConfirmSolutions.png)
 

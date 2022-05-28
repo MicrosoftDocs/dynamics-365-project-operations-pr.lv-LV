@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992710"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597071"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Jaunumi vai izmaiņas 2021. gada jūlijā Project Operations krājumos/ražošanā balstītiem scenārijiem
 
@@ -20,7 +20,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
-- Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.20
+- Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.20
  
 ### <a name="quality-updates"></a>Kvalitātes atjauninājumi
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 | Komandējumi un izdevumi                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Ja darbplūsma nav atrasta, rīkam **Atiestatīt izdevumu dokumenta statusu** vajadzētu atiestatīt izdevumu atskaites statusu uz **Melnraksts**. 
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par reglamentējošajiem atjauninājumiem programmās Finance and Operations skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties Lifecycle Services (LCS) un skatīt plānotos regulēšanas atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par finanšu un operāciju lietotņu regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties Lifecycle Services (LCS) un skatīt plānotos regulēšanas atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

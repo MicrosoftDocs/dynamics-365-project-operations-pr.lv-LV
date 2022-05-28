@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par to, kā izveidot un izman
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993565"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594219"
 ---
 # <a name="set-up-cost-templates"></a>Izmaksu veidņu iestatīšana
 
@@ -56,7 +56,7 @@ Lēmums par to, kuru metodi izvēlēties izmaksu veidnes izveidošanai, var būt
 ## <a name="create-cost-templates"></a>Izmaksu veidņu izveide
 Lai izveidotu izmaksu veidnes, izpildiet tālāk aprakstītās darbības.
 
-1. Lai piekļūtu izmaksu veidnēm, Dynamics 365 Finance vidē pārejiet uz **Projektu pārvaldība un uzskaite** > **Iestatīšana** > **Novērtējumi** > **Izmaksu veidne**.
+1. Lai piekļūtu izmaksu veidnēm, Dynamics 365 Finance vidē dodieties uz **Projektu pārvaldība un grāmatvedība** > **Uzstādījumi** > **Tāmes** > **Izmaksu veidne**.
 2. Lai izveidotu jaunu izmaksu veidni, atlasiet **Jauns**. Ievadiet nosaukumu un aprakstu.
 3. Norādiet izmaksu rindas ID katram transakcijas tipam.
 4. Atlasiet noklusējuma pabeigšanas metodi.

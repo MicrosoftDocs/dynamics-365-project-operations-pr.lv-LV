@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798049"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596289"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Apliecinājuma tveršana, izmantojot OCR
 
@@ -52,7 +52,7 @@ Lai izveidotu izdevumu vai to saskaņotu no kvīts, izpildiet šādas darbības:
 
 ## <a name="installation"></a>Instalēšana
 
-Lai izmantotu šīs uzlabotās izdevumu iespējas, instalējiet izdevumu pārvaldības pakalpojuma pievienojumprogrammu Microsoft Dynamics 365 Finance un ieslēdziet līdzekļus savā gadījumā. Pievienojumprogrammai no sava projekta varat piekļūt Microsoft Dynamics dzīves cikla pakalpojumos (LCS).
+Lai izmantotu šīs papildu izdevumu iespējas, instalējiet izdevumu pārvaldības pakalpojuma pievienojumprogrammu Microsoft Dynamics 365 Finance un ieslēdziet līdzekļus savā gadījumā. Jūs varat piekļūt pievienojumprogrammai no sava projekta Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Pierakstieties LCS un atveriet vēlamo vidi.
 2. Pārejiet uz **Pilna informācija**.
@@ -73,7 +73,7 @@ Ieslēdzot šos līdzekļus, notiek šādas darbības:
 - Tiek pievienota jauns izvēlnes vienums izdevumu lauka redzamībai.
 - Joprojām varat atvērt kādreizējo **Izdevumu atskaišu** lapu, dodoties uz **Izdevumu pārvaldība > Mani izdevumi > Izdevumu atskaites**.
 - Darbplūsmas un visi apstiprinājumi joprojām aizved uz esošo izdevumu atskaišu lapu.
-- Kvītis tiks apstrādātas, izmantojot Microsoft Azure kognitīvos pakalpojumus, un metadati tiks iegūti un pievienoti.
+- Kvītis apstrādās ar Microsoft Azure Cognitive Services, bet metadati tiks izvilkti un pievienoti.
 - Tiek pievienota opcija, kas ļauj izveidot izdevumu atskaiti, kas ietver saskaņotas nepievienotās kvītis.
 - Opcija, kas tiek pievienota izdevumu atskaitēm, ļauj izveidot izdevumu rindu no kvīts vai mēģina saskaņot esošu kvīti ar esošu izdevumu rindu.
 
@@ -85,7 +85,7 @@ Nē, Microsoft ir iebūvēts vispārīgās algoritmiskās mācīšanās modelis,
 
 **Kur šis līdzeklis ir pieejams un kur to apstrādā?**
 
-Šī līdzekļa pieejamība dažādos reģionos ir norādīta nākamajā tabulā. Ja jūsu reģions pašlaik netiek atbalstīts, iesniedziet pieprasījumu par OCR pakalpojuma pieejamības prioritāti jūsu reģionā. 
+Šī līdzekļa pieejamība dažādos reģionos ir norādīta šajā tabulā. Ja jūsu reģions pašlaik netiek atbalstīts, iesniedziet pieprasījumu par prioritāti noteikt OCR pakalpojuma pieejamību jūsu reģionā. 
 
 | Reģions | Atbalstīts                         |
 |--------|-----------------------------------|

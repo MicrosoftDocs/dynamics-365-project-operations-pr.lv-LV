@@ -4,14 +4,14 @@ description: Šajā tēmā ir sniegta informācija par to, kā izveidot starpuz�
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005490"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599985"
 ---
 # <a name="create-intercompany-transactions"></a>Starpuzņēmumu darbību izveide
 
@@ -30,14 +30,14 @@ Kad starpuzņēmumu darbība ir apstiprināta, tiek izveidotas tālāk norādīt
 
 Izmaksas, resursu vienības izmaksas un starporganizāciju vienības pārdošanas darbību cenas un valūtu nosaka **Organizācijas vienība**. To ir svarīgi atcerēties, lemjot par to, kā strukturēt uzņēmumus un organizācijas struktūrvienības savā ieviešanā.
 
-Kad izveidojat iespēju, piedāvājumu, projekta līgumu un projekta ierakstus, sistēma pārbauda, vai līgumslēdzēja vienības valūta atbilst līgumslēdzēja uzņēmuma uzskaites valūtai. Ja tās nav vienādas, šos ierakstus nevar izveidot. Organizācijas vienības valūta jānorāda programmā Dynamics 365 Project Operations, dodoties uz **Dataverse** > **Iestatījumi** > **Organizācijas vienības**. Uzņēmuma uzskaites valūta jānorāda programmā Dynamics 365 Finance, dodoties uz **Virsgrāmata** > **Virsgrāmatas iestatīšana** > **Virsgrāmata**. Valūta tiek sinhronizēta ar jūsu Dataverse vidi, izmantojot virsgrāmatu duālās rakstīšanas karti.
+Kad izveidojat iespēju, piedāvājumu, projekta līgumu un projekta ierakstus, sistēma pārbauda, vai līgumslēdzēja vienības valūta atbilst līgumslēdzēja uzņēmuma uzskaites valūtai. Ja tās nav vienādas, šos ierakstus nevar izveidot. Organizācijas vienības valūta jānorāda programmā Dynamics 365 Project Operations, dodoties uz **Dataverse** > **Iestatījumi** > **Organizācijas vienības**. Uzņēmuma uzskaites valūta ir definēta Dynamics 365 Finance, dodoties uz **Virsgrāmatas** > **iestatījumu** > **Virsgrāmatu**. Valūta tiek sinhronizēta ar jūsu Dataverse vidi, izmantojot virsgrāmatu duālās rakstīšanas karti.
 
 Sistēma izveido resursu vienības izmaksas un starporganizāciju vienības pārdošanas faktiskos datus tālāk norādītajās situācijās.
 
   - Ja resursu vienība atšķiras no līgumslēdzēja vienības
   - Ja resursu uzņēmums atšķiras no līgumslēdzēja uzņēmuma
 
-Taču uz Dynamics 365 Finance vidi papildu uzskaitei tiks pārnestas tikai darbības, kuru resursu uzņēmums atšķiras no līgumslēdzēja uzņēmuma.
+Tomēr tikai tie darījumi, kuriem ir atšķirīgs resursu ieguves uzņēmums nekā līgumslēdzējam uzņēmumam, tiks nodoti Dynamics 365 Finance videi papildu uzskaitei.
 
 Projekta faktisko datu uzskaite tiek reģistrēta Project Operations integrācijas žurnālā programmā Finance. Sistēma izveido tālāk norādītās žurnāla rindas.
 
@@ -60,7 +60,7 @@ Līga Krūmiņa, GBPM izstrādātāja, reģistrē 10 stundu darbu USPM Adventur
     4. Iestatiet valūtu uz **USD**.
     5. Saglabājiet ierakstu.
 3. Dodieties uz **Pārdošana** > **Projektu līgumi** un izveidojiet jaunu projekta līgumu uzņēmumam Adventure Works.
-    1. Iestatiet atbildīgo uzņēmumu kā **USPM** un līgumslēdzēju vienību kā **Contoso Robotics US**.
+    1. Iestatiet atbildīgo uzņēmumu uz **USPM**, bet līgumslēdzēja vienību uz **Contoso Robotics US**.
     2. Atlasiet Adventure Works kā klientu.
     3. Atlasiet produkta cenrādi un saglabājiet ierakstu.
     4. Cilnē **Līguma rindas** izveidojiet jaunu līguma rindu. Iestatiet jebkādu nosaukumu un atlasiet **Laiks un materiāli** kā norēķinu metodi.

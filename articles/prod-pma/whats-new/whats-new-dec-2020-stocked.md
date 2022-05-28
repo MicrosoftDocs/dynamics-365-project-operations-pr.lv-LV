@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008820"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594955"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Kas jauns vai mainījies pakalpojumā Project Operations 2020. gada decembrī attiecībā uz krājumu/ražošanas scenārijiem
 
@@ -20,7 +20,7 @@ _Attiecas uz: Project Operations krājumu/ražošanas scenārijiem_
 
 Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
-  - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.15
+  - Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.15
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
@@ -139,7 +139,7 @@ _Attiecas uz: Project Operations krājumu/ražošanas scenārijiem_
 
 ## <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
 
-Informāciju par reglamentējošajiem atjauninājumiem programmās Dynamics 365 Finance skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Vēl viens veids, kā uzzināt par regulatīviem atjauninājumiem, ir pieteikties pakalpojumā Lifecycle Services (LCS) un apskatīt plānotos regulatīvos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par Dynamics 365 Finance regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Vēl viens veids, kā uzzināt par regulatīviem atjauninājumiem, ir pieteikties pakalpojumā Lifecycle Services (LCS) un apskatīt plānotos regulatīvos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
