@@ -4,20 +4,20 @@ description: Šajā tēmā ir sniegta informācija par projekta materiālu defin
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992620"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737311"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Materiālu finanšu aprēķini projektiem
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dynamics 365 Project Operations projekta vadītājiem ļauj definēt projekta materiālu izmaksas katram projektam vai uzdevumam. Katru materiālu aprēķinu var saistīt ar konkrētu projekta uzdevumu. Izmaksas tiek kategorizētas dažādās izmaksu kategorijās, kas tiek definētas organizācijas līmenī. Cenu noteikšana un izmaksu noteikšana katrai izmaksu kategorijai tiek definēts cenrādis. 
+Dynamics 365 Project Operations projekta vadītājiem ļauj definēt projekta materiālu izmaksas katram projektam vai uzdevumam. Katru materiālu aprēķinu var saistīt ar konkrētu projekta uzdevumu. Projektos izmantotie materiāli var būt rakstāmie produkti vai produkti no preču kataloga. Katrai produkta un vienības kombinācijai cenu var definēt projekta pārdošanas cenrāžos un projekta izmaksu cenrāžos.  
 
 Lai skatītu, pievienotu vai dzēstu projekta materiālu aprēķinu, veiciet tālāk norādītās darbības.
 
