@@ -1,6 +1,6 @@
 ---
 title: Ar apstiprinātiem laika un izdevumu ierakstiem izveidoto faktisko ierakstu lielapjoma korekcija
-description: Šajā tēmā ir paskaidrots, kā administrators var veikt vienu vai vairākus iepriekš apstiprinātu laika vai izdevumu ierakstu labojumus, ja norēķini nav pabeigti.
+description: Šajā rakstā paskaidrots, kā administrators var veikt vienu vai lielapjoma labojumus iepriekš apstiprinātajos laika vai izdevumu ierakstos, ja norēķini nav pabeigti.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916298"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Ar apstiprinātiem laika un izdevumu ierakstiem izveidoto faktisko ierakstu lielapjoma korekcija
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683371"
 
 Dažreiz laiks vai izdevumu ieraksts var būt ievadīts nepareizi. Piemēram, konsultants var atlasīt nepareizu datumu, kad tiek izveidots laika ieraksts, vai arī var apmainīt vietām skaitļus, kad tiek ievadīti izdevumi. Ja konsultants nevar koriģēt iesniegtos ierakstus, administrators var tieši labot projekta ierakstu.
 
-Lai izpildītu šajā tēmā aprakstītās procedūras, jums ir nepieciešamas administratora atļaujas.
+Lai pabeigtu šajā rakstā aprakstītās procedūras, jums būs nepieciešamas administratora atļaujas.
 
 ## <a name="correct-approved-time-entries"></a>Apstiprinātu laika ierakstu labošana     
 

@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 32, V3
-description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation atjauninājumu izlaidumā 32, V3.
+description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami projektu pakalpojumu automatizācijas atjaunināšanas laidienā 32, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3ad87eceb90a48997aadf00803b8d14c5108eb83
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5124137c24da9b579ee1365524d66d9135b2d420
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912893"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-32-v3"></a>Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 32, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580097"
 
 Ar prieku izziņojam jaunāko programmas Microsoft Dynamics 365 Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Tas ir saderīgs ar Dynamics 365 9.x. Lai atjauninātu šo laidienu, apmeklējiet Dynamics 365 tiešsaistes risinājumu lapas administrēšanas centru un instalējiet atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
-Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation V3, atjauninājuma izlaidumā 32. Šīs versijas būvējuma numurs ir V3.10.53.108, un tas parasti ir pieejams, izmantojot 2021. gada jūnija pašatjauninājumu.
+Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti project service automation V3, Update Release 32. Šīs versijas būvējuma numurs ir V3.10.53.108, un tas parasti ir pieejams, izmantojot 2021. gada jūnija pašatjauninājumu.
 
 ## <a name="update-release-32"></a>Atjauninājumu izlaidums 32
 

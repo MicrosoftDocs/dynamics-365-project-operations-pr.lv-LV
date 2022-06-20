@@ -1,17 +1,17 @@
 ---
 title: Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
-description: Šajā tēmā ir sniegta informācija un paraugi projekta plānošanas API izmantošanai.
+description: Šajā rakstā sniegta informācija un paraugi projektu grafika API izmantošanai.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929223"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
 

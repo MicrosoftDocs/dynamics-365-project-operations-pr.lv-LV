@@ -1,17 +1,17 @@
 ---
-title: Projekta cenrāžu pārvaldība projekta piedāvājumos
-description: Šajā tēmā ir sniegta informācija par darbu ar projekta cenrāžiem piedāvājumos.
+title: Pārvaldīt projekta cenu sarakstus projekta piedāvājumos
+description: Šajā rakstā sniegta informācija par darbu ar projektu cenrāžiem piedāvājumos.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3d9c13568921540f4cc2e1e5e58d01803631a339
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929959"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Pārvaldīt projekta cenu sarakstus projekta piedāvājumos 
 

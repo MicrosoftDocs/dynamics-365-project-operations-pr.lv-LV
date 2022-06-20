@@ -1,6 +1,6 @@
 ---
 title: Rēķinu izveidošanas papildu līgumi, pamatojoties uz norisi
-description: Šajā tēmā izskaidrots, kā izveidot projekta līgumus, lai varētu ģenerēt klientiem rēķinus, par pamatu izmantojot pabeigtā darba procentus.
+description: Šajā rakstā paskaidrots, kā izveidot projektu līgumus, lai varētu ģenerēt rēķinus klientiem, pamatojoties uz pabeigtā darba procentuālo daļu.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913675"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Rēķinu izveidošanas papildu līgumi, pamatojoties uz norisi
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā izskaidrots, kā izveidot projekta līgumus, lai varētu izveidot klientiem rēķinus, par pamatu izmantojot pabeigtā darba procentus. Rēķina summas automātiski tiek aprēķinātas budžeta darba kategorijām, kas ir iestatītas projektam. Rēķina laiks tiek iestatīts, vienojoties par projekta līgumu ar klientu.
+Šajā rakstā paskaidrots, kā izveidot projektu līgumus, lai klientiem varētu izveidot rēķinus, pamatojoties uz pabeigtā darba procentuālo vērtību. Rēķina summas automātiski tiek aprēķinātas budžeta darba kategorijām, kas ir iestatītas projektam. Rēķina laiks tiek iestatīts, vienojoties par projekta līgumu ar klientu.
 
-Izmantojiet šajā tēmā norādītās darbības, lai iestatītu līgumu, saistīto projektu un rēķinu noteikumus, kas aprēķina rēķinu summas projektam iestatītajām budžeta kategorijām.
+Lietojiet šajā rakstā aprakstītās procedūras, lai iestatītu līgumu, saistīto projektu un norēķinu noteikumus, kas aprēķina rēķina summas projektam iestatītajām budžeta darba kategorijām.
 
 Pēc tam, kad esat izveidojis līgumu un projektu, varat iestatīt detalizētu informāciju par projektu. Piemēram, var definēt aktivitātes un piešķirt darbiniekiem projektu.
 

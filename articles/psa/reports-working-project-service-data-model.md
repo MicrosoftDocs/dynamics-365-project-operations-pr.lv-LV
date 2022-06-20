@@ -1,6 +1,6 @@
 ---
 title: Darbs ar programmas Project Service Automation datu modeli
-description: Šajā tēmā ir sniegta informācija par to, kā strādāt ar datu modeli.
+description: Šajā rakstā ir sniegta informācija par to, kā strādāt ar datu modeli.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926693"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Darbs ar programmas Project Service Automation datu modeli
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587549"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation paplašina citu programmu entītijas un ievieš savas entītijas Common Data Service datu modelī. Šajā tēmā ir aprakstītas dažas entītijas, kas atrodamas tipiskos PSA atskaišu izveides scenārijos.
+Dynamics 365 Project Service Automation paplašina citu programmu entītijas un ievieš savas entītijas Common Data Service datu modelī. Šajā rakstā ir aprakstītas dažas no entītijām, ar kurām saskaraties tipiskos PSA pārskata scenārijos.
 
 ## <a name="reporting-on-opportunities"></a>Atskaišu izveide par iespējām
 

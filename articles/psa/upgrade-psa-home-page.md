@@ -1,6 +1,6 @@
 ---
 title: Jaunināšanas sākumlapa
-description: Šajā tēmā parādīts, kur meklēt svarīgu informāciju par jaunām un izmainītām funkcijām programmā Dynamics 365 Project Service Automation, kā arī par procesu jaunināšanai uz jaunāko versiju.
+description: Šajā rakstā ir parādīts, kur atrast svarīgu informāciju par jaunajiem un mainītajiem līdzekļiem programmā Dynamics 365 Project Service Automation un procesu jaunināšanai uz jaunāko versiju.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926647"
 ---
 # <a name="upgrade-home-page"></a>Jaunināšanas sākumlapa
 
@@ -48,14 +48,14 @@ Iepriekš klienti, kam ir PSA versijas 2.x instance un kam tā bija jājaunina u
 Pirms jaunināšanas procesa sākšanas ieteicams izpildīt tālāk norādītos uzdevumus.
 
 - Pārbaudiet, vai Dynamics 365 Field Service un Project Service Automation ir instalēti noteiktajā instancē. Ja ir instalēti abi risinājumi, jums ir jāplāno to jaunināšana, pirms atsākat regulāru instances lietošanu.
-- Rūpīgi pārskatiet tālāk norādītās tēmas. Izpratne par izmaiņām versijās palīdzēs jums jaunināšanas procesā. Šīs tēmas sniedz informāciju par lielākajām izmaiņām programmā PSA kopā ar apsvērumiem un ieteikumiem, lai plānotu jaunināšanu uz versiju 3. x.
+- Rūpīgi izlasiet tālāk sniegtos rakstus. Izpratne par izmaiņām versijās palīdzēs jums jaunināšanas procesā. Šajos rakstos ir sniegta informācija par galvenajām PSA izmaiņām, kā arī apsvērumi un ieteikumi, kā plānot jaunināšanu uz versiju 3.x.
 
     - [Kas jauns vai mainīts Project Service Automation 3. versijā](whats-new-changed-v3.md)
     - [Jaunināšanas apsvērumi – Project Service Automation versijas 2.x vai 1.x uz versiju 3.x](upgrade-v3.md)
 
 - Jauniniet savu smilškastes instanci, lai novērtētu veiktās ieviešanas izmaiņas pirms ražošanas instances jaunināšanas.
 
-Pēc tam, kad būsit pārskatījis jau iepriekš minētās tēmas un esat gatavs veikt jaunināšanu uz PSA versiju 3.x vai uz UCI balstītu versiju, iesniedziet pieprasījumu Microsoft atbalstam, lai padarītu jaunināšanu pieejamu no administratora centra. Pieprasījumā norādiet detalizētu informāciju par savu instanci.
+Pēc tam, kad esat pārskatījis iepriekš minētos rakstus un esat gatavs jaunināšanai uz PSA versiju 3.x vai UCI versiju, iesniedziet pieprasījumu Microsoft atbalstam, lai jaunināšana būtu pieejama administrēšanas centrā. Pieprasījumā norādiet detalizētu informāciju par savu instanci.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Vecāku versiju PSA (PSA versija 2.x) no jauna izveidotajā instancē
 

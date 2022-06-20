@@ -1,24 +1,24 @@
 ---
 title: Jaunumi 2020. gada decembrī — Project Operations Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada decembra Project Operations Lite izvietošanas laidienā — darbs ar pro forma rēķiniem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations Lite izvietošanas 2020. gada decembra laidienā - darījums ar proforma rēķinu izrakstīšanu.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924071"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Jaunumi 2020. gada decembrī — Project Operations Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
   - Project Operations Dataverse vides versijā 4.5.0.134 
 

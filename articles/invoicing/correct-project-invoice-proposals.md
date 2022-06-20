@@ -1,17 +1,17 @@
 ---
 title: Projekta rēķina melnraksta priekšlikumu uzskaites labošana
-description: Šajā tēmā izskaidrots, kā pielāgot ar uzskaiti saistītu informāciju rēķina melnraksta priekšlikumā.
+description: Šajā rakstā paskaidrots, kā koriģēt ar grāmatvedību saistīto informāciju rēķina priekšlikuma projektā.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575083"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921219"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Projekta rēķina melnraksta priekšlikumu uzskaites labošana
 
@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Projekta rēķinu *Operāciju informāciju* uztur projekta vadītājs pro forma rēķinā. Šī detalizētā informācija ietver lēmumu par stundām, izmaksām, materiāliem vai atskaites punktiem, par kuriem jāizraksta rēķins, likmes, kā arī avansa maksājumu un honorāru summu lietojumu. Pēc sākotnējā pro forma rēķina apstiprināšanas varat pielāgot operāciju informāciju, izveidojot un apstiprinot [labojošo pro forma rēķinu](../proforma-invoicing/corrective-invoices.md).
 
-*Uzskaites informācija* projekta rēķiniem tiek uzturēta pret debitoru vērstā rēķina dokumentā. Šī informācija ietver PVN aprēķinu un rēķinā lietotās finanšu dimensijas. Šajā tēmā ir sniegta detalizēta informācija par to, kā šo uzskaites informāciju var pielāgot projekta rēķina melnrakstā.
+*Uzskaites informācija* projekta rēķiniem tiek uzturēta pret debitoru vērstā rēķina dokumentā. Šī informācija ietver PVN aprēķinu un rēķinā lietotās finanšu dimensijas. Šajā rakstā sniegta detalizēta informācija par to, kā šo grāmatvedības informāciju var koriģēt projekta rēķina priekšlikuma projektā.
 
 ## <a name="adjust-sales-tax"></a>PVN pielāgošana
 

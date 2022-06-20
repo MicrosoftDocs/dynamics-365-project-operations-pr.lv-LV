@@ -1,18 +1,18 @@
 ---
 title: Piegādātāja rēķina integrācija
-description: Šajā tēmā ir sniegta informācija par piegādātāju rēķinu integrāciju programmā Project Operations.
+description: Šajā rakstā sniegta informācija par kreditoru rēķinu integrāciju projektu operācijās.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912065"
 ---
 # <a name="vendor-invoice-integration"></a>Piegādātāja rēķina integrācija
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Ar projektu saistītu Dynamics 365 Project Operations sagādi var ierakstīt, dodoties uz **Kreditori** > **Rēķini** > **Neapstiprinātie piegādātāju rēķini** un izmantojot neapstiprināto piegādātāju rēķinu dokumentu. Papildinformāciju skatiet sadaļā [Krājumos neesošu materiālu iegāde, izmantojot neapstiprinātu piegādātāju rēķinu](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Pirms šajā tēmā aprakstītās funkcionalitātes izmantošanas pārskatiet un lietojiet nepieciešamās konfigurācijas. Papildinformāciju skatiet sadaļā [Krājumos neesošu materiālu un neapstiprinātu piegādātāju rēķinu iespējošana](../procurement/configure-materials-nonstocked.md).
+> Pirms šajā rakstā aprakstītās funkcionalitātes izmantošanas pārskatiet un lietojiet nepieciešamās konfigurācijas. Papildinformāciju skatiet sadaļā [Krājumos neesošu materiālu un neapstiprinātu piegādātāju rēķinu iespējošana](../procurement/configure-materials-nonstocked.md).
 
 Programmā Project Operations ar projektiem saistītie piegādātāju rēķini tiek grāmatoti, izmantojot īpašas grāmatošanas kārtulas.
 

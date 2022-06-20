@@ -1,23 +1,23 @@
 ---
 title: Project Operations integrācijas konfigurēšana katrā juridiskā entītijā
-description: Šajā tēmā ir sniegta informācija par to, kā iestatīt juridisku entītiju integrāciju programmā Project Operations.
+description: Šajā rakstā sniegta informācija par juridiskās personas integrācijas iestatīšanu projektu operācijās.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914687"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations integrācijas konfigurēšana katrā juridiskā entītijā 
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā tēmā ir soļi, kas nepieciešami, lai konfigurētu Dynamics 365 Project Operations katru juridisko personu.
+Šajā rakstā ir aprakstītas darbības, kas jāveic, lai konfigurētu Dynamics 365 Project Operations pa juridiskām personām.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Līdzekļu taustiņu iespējošana programmā Dynamics 365 Finance
 

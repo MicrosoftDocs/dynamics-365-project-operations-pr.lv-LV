@@ -1,6 +1,6 @@
 ---
 title: Rēķinu izveide pakalpojumā Project Service Automation
-description: Šajā tēmā ir sniegta informācija par rēķinu izveidi.
+description: Šajā rakstā sniegta informācija par rēķinu izrakstīšanu.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926831"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Rēķinu izveide pakalpojumā Project Service Automation
 
@@ -94,7 +94,7 @@ Kad **ProcessRunner** ir beidzis darboties, tas izsauc **ProcessRunCaller**, nod
 Lielapjoma izpildes darbs rēķinu izveidošanai ir kārtējais darbs. Ja šis pakešapstrādes process ir palaists vairākas reizes, tiek izveidoti vairāki darba gadījumi un var tikt izraisītas kļūdas. Tāpēc pakešapstrāde jāsāk tikai vienu reizi, un tā ir jārestartē tikai tad, ja tā pārstāj darboties.
 
 > [!NOTE]
-> Pakešuzdevumu rēķinu izrakstīšana pakalpojumā Project Service Automation darbojas tikai attiecībā uz projekta līguma rindām, kas ir konfigurētas, izmantojot rēķinu grafikus. Līguma rindai ar fiksētu cenas aprēķina metodi jābūt konfigurētiem atskaites punktiem. Projekta līguma rindai ar laika un materiālu aprēķinu metodi ir jābūt iestatītam datuma bāzes rēķina grafikam. Informācija par to, kā iestatīt rēķinu izrakstīšanas biežumu saistībā ar projektu, kura pamatā ir piedāvājuma rinda, ir sniegta tēmā [Piedāvājumi un piedāvājumu rindas](basic-quote-lines.md#invoice-schedule). Tas pats attiecas uz līguma rindu, kuras pamatā ir projekts.      
+> Pakešuzdevumu rēķinu izrakstīšana pakalpojumā Project Service Automation darbojas tikai attiecībā uz projekta līguma rindām, kas ir konfigurētas, izmantojot rēķinu grafikus. Līguma rindai ar fiksētu cenas aprēķina metodi jābūt konfigurētiem atskaites punktiem. Projekta līguma rindai ar laika un materiālu aprēķinu metodi ir jābūt iestatītam datuma bāzes rēķina grafikam. Informācija par rēķinu izrakstīšanas frekvenču iestatīšanu projekta kontekstā, kura pamatā ir piedāvājuma rinda, ir sniegta rakstā [Piedāvājumi un piedāvājuma rindas](basic-quote-lines.md#invoice-schedule). Tas pats attiecas uz līguma rindu, kuras pamatā ir projekts.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA melnrakstu rēķinu rediģēšana
 

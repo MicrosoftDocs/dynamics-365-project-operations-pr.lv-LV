@@ -1,24 +1,24 @@
 ---
 title: Jaunumi 2021. gada augustā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
-description: Šajā tēmā ir sniegta informācija par 2021. gada augustā pieejamajiem kvalitātes atjauninājumiem Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada augusta projekta operāciju laidienā uz resursiem/neuzkrātiem scenārijiem.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd91f7f6b3a6f78161f8900aa06c810a58609b53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912295"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada augustā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
 
 *Attiecas uz: Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem*
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Microsoft Dataverse vides versijā 4.13.0.152.
    - Projektu vadība un grāmatvedība Dynamics 365 Finance vides versijā 10.0.20.

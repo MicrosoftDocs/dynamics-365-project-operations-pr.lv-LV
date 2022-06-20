@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 29.5, labojumfails, V3
-description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation, labojumfails 29.5, V3.
+description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami project service automation update release 29.5 Hotfix, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: df0f486a3a3d592b8780671ab05ed26f97df24ea
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: a023a2e777b04575bf31a55f1104bacbdf346744
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926371"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 29.5, V3
 
 Mēs priecājamies paziņot par jaunāko Dynamics 365 pakalpojuma Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Šis laidiens ir saderīgs ar Dynamics 365 9. x. Lai atjauninātu šo laidienu, apmeklējiet administrēšanas centru Dynamics 365 tiešsaistē un dodieties uz risinājumu lapu, lai instalētu atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
-Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation V3, atjauninājuma izlaidumā 29.5. Šīs versijas būvējuma numurs ir V3.10.47.150, un tas parasti ir pieejams, izmantojot 2021. gada janvāra pašatjauninājumu.
+Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti project service automation V3, Update Release 29.5. Šīs versijas būvējuma numurs ir V3.10.47.150, un tas parasti ir pieejams, izmantojot 2021. gada janvāra pašatjauninājumu.
 
 ## <a name="update-release-295"></a>Atjauninājumu izlaidums 29.5
 

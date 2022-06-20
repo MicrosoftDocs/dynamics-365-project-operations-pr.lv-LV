@@ -1,6 +1,6 @@
 ---
 title: Pielāgoti lauki cenas iestatījumam un transakciju entītijām
-description: Šajā tēmā ir sniegta informācija par pielāgotu lauku pievienošanu cenas iestatījumam un transakciju entītijām.
+description: Šajā rakstā sniegta informācija par pielāgotu lauku pievienošanu cenu iestatījumiem un transakciju entītijām.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920483"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Pielāgoti lauki cenas iestatījumam un transakciju entītijām 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šajā tēmā tiek pieņemts, ka tēmas procedūras ir pabeigtas, [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md). Ja šīs procedūras neesat pabeidzis, atgriezieties un pabeidziet tās, un pēc tam atgriezieties pie šīs tēmas. 
+Šajā rakstā pieņemts, ka esat pabeidzis rakstā [Izveidot pielāgotus laukus un entītijas norādītās darbības](create-custom-fields-entities.md). Ja neesat pabeidzis šīs procedūras, atgriezieties un pabeidziet tās un pēc tam atgriezieties pie šī raksta. 
 
-Šajā tēmā procedūras parādīs, kā pievienot vajadzīgās pielāgotās lauku atsauces entītijām un lietotāja saskarnes (UI) elementus, piemēram, veidlapas un skatus.
+Šajā rakstā procedūras parādīs, kā entītijām un lietotāja interfeisa (lietotāja interfeisa) elementiem, piemēram, formām un skatiem, pievienot nepieciešamās pielāgoto lauku atsauces.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pielāgotu cenas noteikšanas dimensiju lauku pievienošana 
 Pēc pielāgotu lauku un entītiju izveidošanas nākamais solis ir panākt, lai cenas iestatījumi un transakciju entītijas brīdinātu par pielāgotām entītijām vai opciju kopām, izveidojot atsauču laukus. Atkarībā no tā, vai jūsu cenrāža dimensiju sarakstā ir iekļautas opciju kopas dimensijas vai entītiju dimensijas, vai arī abas, veiciet tikai tās darbības, kas ir **Uz opciju kopu pamatotas pielāgotās cenu noteiktās dimensijas** vai **Uz entītijām pamatotas pielāgotās cenu noteiktās dimensijas**, vai tās abas.

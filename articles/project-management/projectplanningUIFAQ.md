@@ -1,25 +1,25 @@
 ---
 title: Problēmu novēršana, strādājot ar uzdevuma režģi
-description: Šajā tēmā sniegta informācija par problēmu novēršanu, kura ir nepieciešama, strādājot uzdevumu režģī.
+description: Šajā rakstā sniegta informācija par problēmu novēršanu, kas nepieciešama, strādājot uzdevumu režģī.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911053"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problēmu novēršana, strādājot ar uzdevuma režģi 
 
 
 _**Attiecas uz:** Project Operations resursu balstītiem / krājumu nebalstītiem scenārijiem, Lite izvietošana — darījums ar proformas rēķinu izrakstīšanu Project for the web_
 
-Izmantotais uzdevumu režģis Dynamics 365 Project Operations ir viesots iFrame programmā Microsoft Dataverse. Šīs lietošanas rezultātā ir jāizpilda noteiktas prasības, lai nodrošinātu autentifikācijas un autorizācijas pareizu darbību. Šajā tēmā apskatītas visbiežāk izplatītās problēmas, kas var ietekmēt iespēju atveidot režģi vai pārvaldīt uzdevumus darba sarežģījumu struktūrā (WBS).
+Izmantotais uzdevumu režģis Dynamics 365 Project Operations ir viesots iFrame programmā Microsoft Dataverse. Šīs lietošanas rezultātā ir jāizpilda noteiktas prasības, lai nodrošinātu autentifikācijas un autorizācijas pareizu darbību. Šajā rakstā ir izklāstītas bieži sastopamās problēmas, kas var ietekmēt spēju renderēt režģi vai pārvaldīt uzdevumus darba sadalījuma struktūrā (WBS).
 
 Bieži sastopamās problēmas ir:
 

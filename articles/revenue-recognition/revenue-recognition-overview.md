@@ -1,23 +1,23 @@
 ---
 title: Ieņēmumu atpazīšanas pārskats
-description: Šajā tēmā ir sniegta informācija par ieņēmumu atpazīšanu risinājumā Project Operations.
+description: Šajā rakstā sniegta informācija par ieņēmumu atzīšanu projektu operācijās.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926279"
 ---
 # <a name="revenue-recognition-overview"></a>Ieņēmumu atpazīšanas pārskats
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Risinājumā Dynamics 365 Project Operations ieņēmumu atpazīšanas principi atšķiras atkarībā no atlasītās norēķinu metodes projektam vai projekta daļai. Šajā tēmā ir sniegta informācija par ieņēmumu atpazīšanu risinājumā Project Operations.
+Risinājumā Dynamics 365 Project Operations ieņēmumu atpazīšanas principi atšķiras atkarībā no atlasītās norēķinu metodes projektam vai projekta daļai. Šajā rakstā sniegta informācija par ieņēmumu atzīšanu projektu operācijās.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transakcijas, kas uzskaitītas, izmantojot laika un materiālu norēķinu metodi
 

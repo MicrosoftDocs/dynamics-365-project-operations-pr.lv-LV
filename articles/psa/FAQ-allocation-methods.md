@@ -1,6 +1,6 @@
 ---
 title: Atļauto metožu rezervēšana pakalpojumā Project Service Automation
-description: Šajā tēmā ir sniegta informācija par dažādiem veidiem, kā var rezervēt piešķīrumus.
+description: Šajā rakstā ir sniegta informācija par dažādiem piešķiršanas rezervēšanas veidiem.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929177"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Atļauto metožu rezervēšana pakalpojumā Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ja pievienojat darba grupas dalībnieku tieši projektam cilnē **Darba grupa** vai rezervējat resursu projektam vai prasībai plānošanas panelī, varat izmantot dažas atšķirīgas rezervāciju piešķiršanas metodes. Šajā rakstā ir paskaidrots, kā darbojas katra no metodēm un kuru metožu izmantošana var izraisīt resursu rezervācijas pārsniegšanu.
+Ja pievienojat darba grupas dalībnieku tieši projektam cilnē **Darba grupa** vai rezervējat resursu projektam vai prasībai plānošanas panelī, varat izmantot dažas atšķirīgas rezervāciju piešķiršanas metodes. Šajā rakstā ir paskaidrots, kā katra metode darbojas un kādas metodes var novest pie resursu pārrezervēšanas.
 
 ## <a name="full-capacity"></a>Pilna noslodze 
 Pilnas noslodzes metode: izmantojot šo metodi, tiek rezervēta resursa pilna noslodze norādītajā laika posmā un veidā. Piemēram, ja resursa kalendārs ir iestatīts kā astoņas darba stundas dienā, piecas dienas nedēļā, iestatot sākuma un beigu datumu, kas attiecas uz piecām darba dienām, resurss tiek rezervēts uz 40 stundām. Rezervācija notiek, neņemot vērā resursa atlikušo noslodzi. Ja resurss šajā periodā jau ir rezervēts citiem projektiem, 40 stundas tiek rezervētas kā papildu stundas, potenciāli pārsniedzot rezervācijas.

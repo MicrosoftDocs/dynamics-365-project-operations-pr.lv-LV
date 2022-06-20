@@ -1,18 +1,18 @@
 ---
 title: Krājumos neesošu materiālu un neapstiprinātu piegādātāju rēķinu konfigurēšana
-description: Šajā tēmā ir izskaidrots, kā iespējot krājumos neesošus materiālus un neapstiprinātus piegādātāju rēķinus.
+description: Šajā rakstā paskaidrots, kā iespējot neuzkrājamos materiālus un gaidošos kreditoru rēķinus.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913767"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Krājumos neesošu materiālu un neapstiprinātu piegādātāju rēķinu konfigurēšana
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Duālās rakstīšanas karšu palaišana krājumos neesošu materiālu un piegādātāju rēķinu integrēšanai
 
-Šajā sadaļā ir sniegta informācija par konkrētām kartēm, kas nepieciešamas krājumos neesošiem materiāliem un piegādātāju rēķiniem. Pārbaudiet, vai jūsu vidē darbojas tēmā [Jaunas vides nodrošināšana](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) uzskaitītās priekšnosacījuma kartes.
+Šajā sadaļā ir sniegta informācija par konkrētām kartēm, kas nepieciešamas krājumos neesošiem materiāliem un piegādātāju rēķiniem. Pārbaudiet, vai jūsu vidē darbojas priekšnosacījumu kartes, [kas norādītas rakstā Nodrošinājums, kurā darbojas jauns vides](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) raksts.
 
 1. Dodieties uz Lifecycle Services (LCS), pārejiet uz savu LCS projektu un atveriet lapu **Vides informācija**.
 2. Sadaļā **Common Data Service vides informācija** atlasiet **Saite uz CDS programmām**. Pēc saites atlasīšanas tiksit novirzīts uz entītiju sarakstu kartējumos.

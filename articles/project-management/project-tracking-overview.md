@@ -1,23 +1,23 @@
 ---
 title: Projekta ieguldījuma izsekošana
-description: Šajā tēmā ir sniegta informācija par to, kā sekot līdzi projekta ieguldījumam un darba norisei.
+description: Šajā rakstā ir sniegta informācija par to, kā izsekot projekta centieniem un darba progresam.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929269"
 ---
 # <a name="project-effort-tracking"></a>Projekta ieguldījuma izsekošana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Dažās nozarēs izsekošana notiek ļoti smalkā līmenī, kamēr citās nozarēs izsekošana tiek veikta augstākā līmenī. Šajā tēmā ir parādīts, kā veikt plānošanu, lai izpildītu jūsu organizācijas prasības.
+Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Dažās nozarēs izsekošana notiek ļoti smalkā līmenī, kamēr citās nozarēs izsekošana tiek veikta augstākā līmenī. Šajā rakstā ir parādīts, kā ieplānot, lai izpildītu organizācijas prasības.
 
 ## <a name="effort-tracking-view"></a>Piepūles izsekošanas skats
 

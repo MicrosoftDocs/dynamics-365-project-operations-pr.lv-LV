@@ -1,6 +1,6 @@
 ---
 title: Pielāgotu lauku kā cenu kategoriju iestatīšana
-description: Šajā tēmā sniegta informācija par to, kā iestatīt cenu noteikšanas dimensijas, izmantojot pielāgotus laukus.
+description: Šajā rakstā sniegta informācija par to, kā iestatīt cenu kategorijas, izmantojot pielāgotus laukus.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917585"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Pielāgotu lauku kā cenu kategoriju iestatīšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Pirms darba sākšanas šajā tēmā tiek pieņemts, ka esat pabeidzis tēmās norādītās procedūras, [Izveidot pielāgotus laukus un entītijas](create-custom-fields-entities-pricing-dimensions.md) un [Pievienot nepieciešamos pielāgotos laukus cenas iestatīšanai un transakciju entītijām](add-custom-fields-price-setup-transactional-entities.md). Ja šīs procedūras neesat pabeidzis, atgriezieties un pabeidziet tās, un pēc tam atgriezieties pie šīs tēmas. 
+Pirms sākat darbu, šajā rakstā tiek pieņemts, ka esat pabeidzis rakstos norādītās darbības, [Izveidot pielāgotus laukus un entītijas](create-custom-fields-entities-pricing-dimensions.md) un [Pievienot nepieciešamos pielāgotos laukus cenu iestatīšanai un transakciju entītijām](add-custom-fields-price-setup-transactional-entities.md). Ja neesat pabeidzis šīs procedūras, atgriezieties un pabeidziet tās un pēc tam atgriezieties pie šī raksta. 
 
-Šajā tēmā ir sniegta informācija par pielāgotu cenu noteikšanas dimensiju iestatīšanu. Lapas **Parametri** cilnē **Summā balstītas cenu noteikšanas dimensijas** tiek rādīti ieraksti cenu noteikšanas dimensiju entitījās. Šajā cilnē pēc noklusējuma režģī ir divas rindas:
+Šajā rakstā sniegta informācija par pielāgotu cenu kategoriju iestatīšanu. Lapas **Parametri** cilnē **Summā balstītas cenu noteikšanas dimensijas** tiek rādīti ieraksti cenu noteikšanas dimensiju entitījās. Šajā cilnē pēc noklusējuma režģī ir divas rindas:
 
 - **msdyn_resourcecategory** (Loma);
 - **msdyn_OrganizationalUnit** (Organizācijas struktūrvienība).

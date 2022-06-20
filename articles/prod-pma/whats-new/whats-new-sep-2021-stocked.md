@@ -1,24 +1,24 @@
 ---
 title: Jaunumi vai izmaiņas projektu darbībās, 2021. gada septembris attiecībā uz uzkrātiem/uz ražošanu balstītiem scenārijiem
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2021. gada septembra projekta darbību laidienā uzkrātajiem/uz ražošanu balstītiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2021. gada septembra projekta darbību laidienā uzkrātajiem/uz ražošanu balstītiem scenārijiem.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916527"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Jaunumi vai izmaiņas projektu darbībās, 2021. gada septembris attiecībā uz uzkrātiem/uz ražošanu balstītiem scenārijiem
 
 _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem_
 
-Šī tēma attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
 
 - Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.21
  

@@ -1,23 +1,23 @@
 ---
 title: Projekta līguma iestatījumi — Lite
-description: Šajā tēmā ir informācija par laukiem, kas ietekmē līguma rindas, un informācija par līgumu, kas tiek apkopota visiem rindas vienumiem.
+description: Šajā rakstā sniegta informācija par laukiem, kas ietekmē līguma rindas, un informācija par līgumu, kas apkopota visos rindas elementos.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917079"
 ---
 # <a name="header-details-for-project-contracts"></a>Projektu līgumu virsraksta informācija
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šī tēma sniedz informāciju par laukiem, kas attiecas uz visu projekta līgumu, ieskaitot iestatījumus, kas ietekmē visas līguma rindas. Ir iekļauta arī informācija par līgumu, kas ir apkopota visos projekta līguma apakšpunktos, lai vadītu KPI.
+Šajā rakstā sniegta informācija par laukiem, kas attiecas uz visu projekta līgumu, tostarp iestatījumi, kas ietekmē visas līguma rindas. Ir iekļauta arī informācija par līgumu, kas ir apkopota visos projekta līguma apakšpunktos, lai vadītu KPI.
 
 Nākamajā tabulā ir uzskaitīti līguma lauki projekta piedāvājumam, kas ir unikāli Dynamics 365 Project Operations vai kam ir dažas svarīgas darbības izmaiņas Dynamics 365 Sales pārdošanas līgumos.
 

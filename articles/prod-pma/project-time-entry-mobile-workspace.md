@@ -1,6 +1,6 @@
 ---
 title: Projekta laika ieraksta mobilā darbvieta
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot projekta laika ieraksta mobilā darbvietu. Šī darbvieta lietotājiem ļauj ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot savu mobilo ierīci.
+description: Šajā rakstā sniegta informācija par projekta laika ievades mobilo darbvietu. Šī darbvieta lietotājiem ļauj ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot savu mobilo ierīci.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
-ms.translationtype: MT
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919548"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Projekta laika ieraksta mobilā darbvieta
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par **Projekta laika ierakstu** mobilo darbvietu. Šī darbvieta lietotājiem ļauj ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot savu mobilo ierīci.
+Šajā rakstā sniegta informācija par **projekta laika ievades** mobilo darbvietu. Šī darbvieta lietotājiem ļauj ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot savu mobilo ierīci.
 
 Šo mobilo darbvietu ir paredzēts izmantot kopā ar Dynamics 365 Unified OPS mobilo programmu. 
 

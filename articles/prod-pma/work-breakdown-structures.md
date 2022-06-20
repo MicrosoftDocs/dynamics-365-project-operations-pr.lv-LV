@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920667"
 ---
 # <a name="work-breakdown-structures-overview"></a>Darba sadalījuma struktūras pārskats
 
@@ -35,7 +35,7 @@ WBS detalizētības pakāpe ir atkarīga no novērtējuma prasītā precizitāte
 
 Turpretim projekti tādās nozarēs kā plašsaziņas līdzekļi un reklāma, programmatūra un IT infrastruktūra parasti ir sava veida projekti, un darba ražīgums ir atkarīgs no tā cilvēka pieredzes un kompetences, kurš veic šo uzdevumu. Tāpēc šīs nozares izmanto WBS, lai tuvinātu projekta apjomu, nevis lai detalizēti sekotu šā projekta virzībai. 
 
-WBS izveide ir intensīvs process, ko parasti veic ilgā laika posmā un kam nepieciešama sadarbība un informācija no dažādām personām. Šajā tēmā ir aprakstīts, kā var izmantot WBS uzlabojumus, lai apmierinātu jūsu prasības attiecībā uz novērtējumiem un izsekošanu.
+WBS izveide ir intensīvs process, ko parasti veic ilgā laika posmā un kam nepieciešama sadarbība un informācija no dažādām personām. Šajā rakstā ir aprakstīts, kā varat izmantot WBS uzlabojumus, lai izpildītu tāmju un izsekošanas prasības.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Priekšnosacījumi WBS izveidei
 Lai izveidotu WBS, ir jāspēj izveidot darba grafiku un novērtēt darba izmaksas.
@@ -166,7 +166,7 @@ Finance ir trīs skati projekta WBS: plānošanas skats, intensitātes izsekoša
 
 ### <a name="planning-view"></a>Plānošanas skats
 
-Plānošanas skatā tiek parādīts plānotais vai bāzlīnijas grafiks un informācija par izmaksām. Kaut arī nav līdzekļu, kas attiecas uz projekta WBS versiju un bāzlīniju izsekošanu, šajā skatā ietvertās vērtības ir paredzētas, lai attēlotu bāzlīnijas versiju. Šīs tēmas Grafika novērtējuma un Izmaksu novērtējuma sadaļas apraksta šo skatu un to, kā tas tiek izmantots WBS izveidei.
+Plānošanas skatā tiek parādīts plānotais vai bāzlīnijas grafiks un informācija par izmaksām. Kaut arī nav līdzekļu, kas attiecas uz projekta WBS versiju un bāzlīniju izsekošanu, šajā skatā ietvertās vērtības ir paredzētas, lai attēlotu bāzlīnijas versiju. Šī raksta sadaļās Grafiks novērtējums un Izmaksu novērtējums ir aprakstīts šis skats un tas, kā tas tiek izmantots, lai izveidotu WBS.
 
 ### <a name="effort-tracking-view"></a>Piepūles izsekošanas skats
 

@@ -1,6 +1,6 @@
 ---
 title: Izdevumu mobilā programma
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot izdevumu pārvaldības mobilo darbvietu.
+description: Šajā rakstā ir sniegta informācija par izdevumu pārvaldības mobilo darbvietu.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930235"
 ---
 # <a name="mobile-expense-app"></a>Izdevumu mobilā programma
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Šajā tēmā ir sniegta informācija par to, kā izmantot **Izdevumu pārvaldības** mobilo darbvietu. Šī darbvieta ļauj lietotājiem tvert un augšupielādēt kvīti, lai to varētu vēlāk pievienot izdevumu atskaitei. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti, un izveidot un pārvaldīt savas izdevumu atskaites. Turklāt apstiprinātāji var izmantot **Izdevumu pārvaldības** mobilo darbvietu, lai skatītu sev piešķirtās izdevumu atskaites un tās vai nu apstiprināt vai noraidīt.
+Šajā rakstā ir sniegta informācija par **izdevumu pārvaldības** mobilo darbvietu. Šī darbvieta ļauj lietotājiem tvert un augšupielādēt kvīti, lai to varētu vēlāk pievienot izdevumu atskaitei. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti, un izveidot un pārvaldīt savas izdevumu atskaites. Turklāt apstiprinātāji var izmantot **Izdevumu pārvaldības** mobilo darbvietu, lai skatītu sev piešķirtās izdevumu atskaites un tās vai nu apstiprināt vai noraidīt.
 
 Šo mobilo darbvietu ir paredzēts izmantot kopā ar Dynamics 365 Unified OPS mobilo programmu.
 

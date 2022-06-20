@@ -1,6 +1,6 @@
 ---
 title: Transakcijas kategorijas izmantošana kā cenu noteikšanas dimensiju
-description: Šajā tēmā ir sniegta informācija par transakcijas kategorijas izmantošanu kā cenu noteikšanas dimensiju.
+description: Šajā rakstā sniegta informācija par darbību kategorijas kā cenu dimensijas izmantošanu.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915745"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Transakcijas kategorijas izmantošana kā cenu noteikšanas dimensiju
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šajā tēmā ir sniegta informācija par transakcijas kategorijas izmantošanu kā cenu noteikšanas dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja savai organizācijai neesat izveidojis jaunu cenas noteikšanas dimensijas risinājumu, izpildiet procedūru tēmā [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md).
+Šajā rakstā parādīts, kā izmantot darbību kategoriju kā cenu dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja neesat izveidojis jaunu cenu dimensiju risinājumu savai organizācijai, veiciet procedūras, kas aprakstītas [rakstā Pielāgoto lauku un entītiju](create-custom-fields-entities.md) izveide.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Transakcijas kategorijas pievienošana veidlapām un skatiem
 Lai padarītu transakcijas kategoriju redzamu lietotāja interfeisā (UI), izmantojot cenas noteikšanas dimensijas risinājumu, jums būs jāapskata visas galveno entītiju veidlapas un skati un šie lauki jāpievieno šo entītiju veidlapām un skatiem.

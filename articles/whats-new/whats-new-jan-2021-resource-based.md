@@ -1,25 +1,25 @@
 ---
 title: Jaunumi 2021. janvārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada janvāra laidienā Project Operations resursu/bez krājumu scenārijiem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada janvāra projekta operāciju laidienā uz resursiem/neuzkrātiem scenārijiem.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910685"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. janvārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
   - Project Operations Dataverse vides versijā 4.6.0.154
   - Projektu vadība un grāmatvedība Dynamics 365 Finance vidē versija 10.0.16

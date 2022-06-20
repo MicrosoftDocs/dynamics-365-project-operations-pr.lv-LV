@@ -1,21 +1,21 @@
 ---
 title: Vairāku klientu pārvaldība projekta līgumos
-description: Šajā tēmā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumā.
+description: Šajā rakstā sniegta informācija par to, kā pārvaldīt vairākus debitorus projekta līgumā.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928349"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Vairāku klientu pārvaldība projekta līgumos
 
-Šajā tēmā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumā. Ja darījuma finansēšanai ir nepieciešams līgums, kurā ir iesaistīti vairāki klienti, var izmantot projekta līgumu. Lapas **Projekta līgums** cilnē **Kopsavilkums** ir iekļauta informācija par darījuma primāro klientu. Citus klientus, kas piedalās darījumā, var pievienot cilnē **Klienti**.
+Šajā rakstā sniegta informācija par to, kā pārvaldīt vairākus debitorus projekta līgumā. Ja darījuma finansēšanai ir nepieciešams līgums, kurā ir iesaistīti vairāki klienti, var izmantot projekta līgumu. Lapas **Projekta līgums** cilnē **Kopsavilkums** ir iekļauta informācija par darījuma primāro klientu. Citus klientus, kas piedalās darījumā, var pievienot cilnē **Klienti**.
 
 Visi līguma klienti projekta līguma cilnē **Klienti** pēc noklusējuma ir arī līguma rindu klienti visās jaunajās projekta līguma rindās, kas izveidotas šim projekta līgumam. Esošās projekta līguma rindas nemanto jaunus līguma klientu ierakstus, kas tiek izveidoti vēlāk.
 

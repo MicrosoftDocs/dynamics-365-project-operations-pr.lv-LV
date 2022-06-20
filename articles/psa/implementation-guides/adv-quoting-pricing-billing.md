@@ -1,6 +1,6 @@
 ---
 title: Paplašinātā piedāvājumu sniegšana, izcenojums un rēķinu izrakstīšana
-description: Šajā tēmā ir sniegta informācija par piedāvājumu sniegšanu, rēķinu izrakstīšanu un izcenojumu programmā Project Service Automation.
+description: Šajā rakstā ir sniegta informācija par citēšanu, norēķiniem un cenu noteikšanu projektu pakalpojumu automatizācijā.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921817"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Paplašinātā piedāvājumu sniegšanas, cenu noteikšanas un rēķinu izrakstīšanas rokasgrāmata
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579361"
 
 Spēja atrast pareizos resursus īstajā laikā, rezervēt šos resursus projektiem, kā arī uzturēt resursu izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. 
 
-PDF saite, kas iepriekš bija šajā tēmā, ir noņemta, un saturs ir pārvietots uz tālāk norādītajām tēmām.
+Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz šādiem rakstiem:
 
 - [Piedāvājumu sniegšana, izcenojums un rēķinu izrakstīšana](../quote-bill-price.md)
 - [Pārdošanas procesi](../basic-sales-process.md)
@@ -50,7 +50,7 @@ PDF saite, kas iepriekš bija šajā tēmā, ir noņemta, un saturs ir pārvieto
 - [Faktisko datu ierakstīšana](../advanced-actuals.md)
 
 > [!NOTE]
-> Šī tēma tiks noņemta turpmākā dokumentācijas atjauninājumā. 
+> Šis raksts tiks noņemts nākamajā dokumentācijas atjauninājumā. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Dienasnaudas izdevumi
-description: Šajā tēmā ir sniegta informācija par to, kā strādāt ar dienasnaudas izdevumiem.
+title: Dienasnauda
+description: Šajā rakstā ir sniegta informācija par to, kā strādāt ar dienasnaudas izdevumiem.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923197"
 ---
-# <a name="per-diem-expenses"></a>Dienasnaudas izdevumi
+# <a name="per-diem-expenses"></a>Dienasnauda
 
 > [!IMPORTANT] 
-> Šajā tēmā aprakstītā funkcionalitāte ir pieejama mērķa lietotājiem kā daļa no priekšskatījuma laidiena.
+> Šajā rakstā aprakstītā funkcionalitāte ir pieejama mērķa lietotājiem kā daļa no priekšskatījuma laidiena.
 
 Dienasnaudas maksājums ir fiksēta, iepriekš noteikta dienas nauda, ko uzņēmums maksā saviem darbiniekiem par izmitināšanu (viesnīcām), ēdināšanu un nejaušiem izdevumiem, kas šiem darbiniekiem rodas, ceļojot uz darbu. Uzņēmums maksā šo pabalstu darbiniekiem, nevis maksā faktiskos ceļa izdevumus. Darbinieki var izmantot savu **Nejaušo/citu** dienasnaudas pabalstu, lai segtu padomus, apkalpošanu numurā, veļas mazgātavu vai ķīmiskās tīrīšanas pakalpojumus svarīgām biznesa sanāksmēm. Dienasnaudas likme var atšķirties atkarībā no tā, vai darba devējs izvēlas atlīdzināt kopējās izmitināšanas un ēdināšanas izmaksas, vai tikai ēdināšanas un neparedzēto izdevumu izmaksas.
 

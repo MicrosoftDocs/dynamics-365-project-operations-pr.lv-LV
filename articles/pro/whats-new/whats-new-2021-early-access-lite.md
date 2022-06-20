@@ -1,24 +1,24 @@
 ---
 title: Jaunumi — 2021. gada 2. viļņa agrīnā piekļuve — Project Operations Lite izvietošana
-description: Šajā tēmā ir sniegta informācija par līdzekļiem, kas pieejami Project Operations Lite izvietošanas 2021. gada 2 viļņa agrīnās piekļuves laidienā.
+description: Šajā rakstā ir sniegta informācija par funkcijām, kas pieejamas Project Operations lite izvietošanas 2021. gada 2. viļņa agrīnās piekļuves laidienā.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924117"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Jaunumi — 2021. gada 2. viļņa agrīnā piekļuve — Project Operations Lite izvietošana
 
 _Attiecas uz: Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
   - Project Operations Dataverse vides versijā 4.23.0.4
 

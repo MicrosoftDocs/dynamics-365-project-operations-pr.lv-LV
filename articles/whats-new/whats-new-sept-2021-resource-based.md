@@ -1,24 +1,24 @@
 ---
 title: 2021. gada septembra jaunumi — Project Operations resursu balstītiem/krājumu nebalstītiem scenārijiem
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Project Operations Lite izvietošanas 2021. gada septembra izlaiduma ietvaros par resursu balstītiem/krājumu nebalstītiem scenārijiem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada septembra projekta operāciju laidienā resursu/neuzkrātu scenāriju gadījumā.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c7f764b3e8ee3775167ee57b4f034e383899aea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923381"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021. gada septembra jaunumi — Project Operations resursu balstītiem/krājumu nebalstītiem scenārijiem
 
 *Attiecas uz: Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem*
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Microsoft Dataverse vides versijā 4.14.0.99.
    - Projektu vadība un grāmatvedība Dynamics 365 Finance vides versijā 10.0.20.

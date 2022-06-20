@@ -1,6 +1,6 @@
 ---
 title: Starpuzņēmumu projektu rēķinu izrakstīšanas konfigurēšana
-description: Šajā tēmā parādīts, kā iestatīt projektu rēķinu izrakstīšanu starp diviem uzņēmumiem jūsu organizācijā.
+description: Šajā rakstā ir parādīts, kā iestatīt projektu rēķinu izrakstīšanu starp diviem organizācijas uzņēmumiem.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916619"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Starpuzņēmumu projektu rēķinu izrakstīšanas konfigurēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā parādīts, kā iestatīt projektu rēķinu izrakstīšanu starp diviem uzņēmumiem jūsu organizācijā. Šajā uzdevumā tiek izmantota USSI datu kopa.
+Šajā rakstā ir parādīts, kā iestatīt projektu rēķinu izrakstīšanu starp diviem organizācijas uzņēmumiem. Šajā uzdevumā tiek izmantota USSI datu kopa.
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Kreditori > Piegādātāji > Visi piegādātāji**.
 2. Sarakstā **Visi piegādātāji** atrodiet un atlasiet nepieciešamo ierakstu.

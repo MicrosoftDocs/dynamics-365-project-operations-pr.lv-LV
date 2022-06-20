@@ -1,17 +1,17 @@
 ---
 title: Apakšuzņēmēju kā rezervējamu resursu iestatīšana
-description: Šajā tēmā izskaidrots, kā iestatīt un uzturēt apakšuzņēmēju resursus, kas tiek veidoti no sistēmas lietotājiem un kontaktpersonām, lai tos varētu saistīt ar apakšuzņēmējiem programmā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā paskaidrots, kā iestatīt un uzturēt apakšuzņēmēju resursus, kas izveidoti no lietotājiem un kontaktpersonām sistēmā, lai tos varētu saistīt ar apakšuzņēmuma līgumiem programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d2f250063afc24de99e308d8d7583d1822bcabb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f005a05fb874f9e32a0041db5fc8fa1228fc91f1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927527"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Apakšuzņēmēju kā rezervējamu resursu iestatīšana
 

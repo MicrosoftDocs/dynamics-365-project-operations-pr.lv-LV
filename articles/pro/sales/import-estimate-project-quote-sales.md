@@ -1,17 +1,17 @@
 ---
 title: Projekta aprēķinu importēšana uz projekta piedāvājuma rindu — Lite
-description: Šajā tēmā sniegta informācija par to, kā importēt aprēķinus no projekta piedāvājuma rindā.
+description: Šajā rakstā sniegta informācija par to, kā importēt novērtējumus no projekta uz piedāvājuma rindu.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c676011660cd06e49996c137f7e9dca0ef2e491
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917309"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekta aprēķinu importēšana uz projekta piedāvājuma rindu 
 

@@ -1,6 +1,6 @@
 ---
 title: Cenu un izmaksu noteikšanas dimensiju sākumlapa
-description: Šajā tēmā ir sniegts pārskats par cenu noteikšanas dimensijām.
+description: Šajā rakstā sniegts cenu dimensiju apskats.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593621"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925451"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Cenu un izmaksu noteikšanas dimensiju sākumlapa
 
@@ -47,7 +47,7 @@ Programma PSA tiek piegādāta ar cenu noteikšanas dimensiju noklusējuma kopu.
 > [!IMPORTANT]
 > Ja pirms PSA versijas 3 kā cenu noteikšanas dimensijas lietojāt lomas un organizācijas struktūrvienības standarta laukus, nekādas izmaiņas nebūs manāmas. Varat turpināt lietot programmu Project Service kā parasti. 
 
-Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas. Lai iegūtu plašāku informāciju, skatiet tālāk norādītās tēmas, taču ņemiet vērā, ka šīs procedūras ir jāizpilda tālāk norādītajā secībā.
+Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas. Lai iegūtu papildinformāciju, skatiet tālāk sniegtos rakstus, tomēr ņemiet vērā, ka jums ir jāveic tālāk norādītajā secībā.
 
 - [Pielāgotu lauku un entītiju izveidošana](create-custom-fields-entities.md)
 - [Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām](field-references.md)

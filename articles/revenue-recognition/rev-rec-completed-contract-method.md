@@ -1,23 +1,23 @@
 ---
 title: Ieņēmumu novērtējumu pārvaldība
-description: Šajā tēmā ir sniegta informācija par to, kā darboties ar ieņēmumu novērtējumiem projektā.
+description: Šajā rakstā sniegta informācija par to, kā strādāt ar projektu ieņēmumu tāmēm.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928487"
 ---
 # <a name="manage-revenue-estimates"></a>Ieņēmumu novērtējumu pārvaldība
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Varat izveidot, aprēķināt, grāmatot, atsaukt vai izslēgt ieņēmumu novērtējumus. To var izdarīt manuāli vai izmantojot periodisku procesu. Šajā tēmā ir sniegta informācija par to, kā darboties ar ieņēmumu novērtējumiem projektā.
+Varat izveidot, aprēķināt, grāmatot, atsaukt vai izslēgt ieņēmumu novērtējumus. To var izdarīt manuāli vai izmantojot periodisku procesu. Šajā rakstā sniegta informācija par to, kā strādāt ar projektu ieņēmumu tāmēm.
 
 ### <a name="manage-revenue-estimates-manually"></a>Ieņēmumu novērtējumu pārvaldība manuāli
 

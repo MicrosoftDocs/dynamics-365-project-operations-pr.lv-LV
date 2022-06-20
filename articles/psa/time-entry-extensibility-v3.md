@@ -1,6 +1,6 @@
 ---
 title: Nedēļas laika ieraksta pielāgošana
-description: Šajā tēmā ir sniegta informācija par to, kā ieviest pielāgotas biznesa kārtulas, kas atbalsta organizācijas praksi.
+description: Šajā rakstā ir sniegta informācija par to, kā ieviest pielāgotas biznesa kārtulas, kas atbalsta organizācijas praksi.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918965"
 ---
 # <a name="customize-weekly-time-entry"></a>Nedēļas laika ieraksta pielāgošana 
 
@@ -46,7 +46,7 @@ Sadaļā **Dimensijas** kā kolonnu virsraksti tiek rādītas visas dimensijas, 
 - Tips
 - Ieraksta statuss
 
-Sadaļā **Dimensijas** iekļautā rediģēšana nav atļauta. Šīs sadaļas pamatā ir skats, kas iespējo pielāgotus laukus pievienošanai iknedēļas laika ierakstu režģim. Lai iegūtu informāciju par pielāgotu lauku pievienošanu, skatiet tālāk šajā tēmā sadaļu “Paplašināšana”.
+Sadaļā **Dimensijas** iekļautā rediģēšana nav atļauta. Šīs sadaļas pamatā ir skats, kas iespējo pielāgotus laukus pievienošanai iknedēļas laika ierakstu režģim. Informāciju par pielāgoto lauku pievienošanu skatiet šī raksta sadaļā "Paplašināmība".
 
 ### <a name="duration"></a>Ilgums
 Sadaļā Ilgums ir parādītas nedēļas dienas kā kolonnu virsraksti. Šajā sadaļā iekļautā rediģēšana ir atļauta. Pēc tam, kad tiek izveidota laika ieraksta rinda ar atbilstošām dimensijām, lietotāji var ātri ievadīt, iekļaut laika periodu, ko viņi patērējuši uz šīm dimensijām.

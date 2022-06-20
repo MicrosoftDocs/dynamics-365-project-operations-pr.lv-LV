@@ -1,21 +1,21 @@
 ---
-title: Pierakstīšanās priekšskatījuma abonementam — Lite
-description: Šajā tēmā ir sniegta informācija par to, kā abonēt un izvietot Project Operations Lite izvietošanu — pāreju uz proforma rēķinu izrakstīšanu.
+title: Priekšskatījuma abonementa reģistrācija — Lite
+description: Šajā rakstā ir sniegta informācija par to, kā abonēt un izvietot Project Operations lite izvietošanu - nodarbojieties ar proforma rēķinu izrakstīšanu.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921265"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Priekšskatījuma abonementa reģistrācija — Lite 
 
-Šajā tēmā izskaidrots, kā reģistrēties izmēģinājumversijas piedāvājumam un izvietot Dynamics 365 Project Operations Lite izvietošanu — piedāvājums pro forma rēķinu izrakstīšanai.
+Šajā rakstā paskaidrots, kā abonēt izmēģinājuma piedāvājumu un izvietot Dynamics 365 Project Operations lite izvietošanu - darījumu ar proforma rēķinu izrakstīšanu.
 
 > [!NOTE]
 > Šis process tiks mainīts nākamajā Project Operations laidienā.
@@ -50,7 +50,7 @@ Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lie
 
 ## <a name="create-a-new-dataverse-environment"></a>Izveidot jaunu Dataverse vidi
 
-1. Izveidojiet jaunu Project Operations Dataverse izvietošanas vidi, izpildot norādījumus tēmā [Dataverse izvietošanas modelis](lite-deployment.md). Kad atlasāt vides tipu, noteikti izmantojiet **Izmēģinājumversija (ar abonementiem)**.
+1. Nodrošiniet jaunu projekta operāciju Dataverse izvietošanas vidi, izpildot norādījumus rakstā izvietošanas [Dataverse modelis](lite-deployment.md). Kad atlasāt vides tipu, noteikti izmantojiet **Izmēģinājumversija (ar abonementiem)**.
 
   ![Jauna vide.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lie
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS konfigurācijas un iestatīšanas demonstrācijas instalēšana
 
-Instalējiet CDS konfigurāciju un iestatiet demonstrācijas datus, izpildot norādījumus tēmā [Demonstrācijas iestatīšanu un konfigurācijas datu lietošana](lite-apply-demo-setup-config-data.md).
+Instalējiet CDS konfigurāciju un iestatiet demonstrācijas datus, izpildot norādījumus rakstā Lietot [demonstrācijas iestatījumus un konfigurācijas datus](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

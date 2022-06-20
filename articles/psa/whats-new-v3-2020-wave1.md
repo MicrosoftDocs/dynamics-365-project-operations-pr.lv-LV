@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation 3.x wave 1 2020 versijā
-description: Šajā tēmā ir sniegta informācija par to, kas jauns un mainīts Project Service Automation 3. versijā, wave 1 2020.
+description: Šajā rakstā ir sniegta informācija par jaunumiem un izmaiņām project service automation versijā 3 wave 1 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928625"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Kas jauns vai mainīts Project Service Automation 3 wave 1 2020 versijā
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šajā tēmā ir uzsvērti galvenie jaunināšanas apsvērumi, pārejot uz jaunāko versiju Project Service Automation (PSA), versija 3. x wave 1 2020.
+Rakstā ir uzsvērti galvenie jaunināšanas apsvērumi, pārejot uz jaunāko Project Service Automation (PSA) versijas 3.x wave 1 2020 laidienu.
 
 ## <a name="time-entry"></a>Laika ieraksts
 Laika ievades pieredze ir paplašināta, lai nodrošinātu iespējas paplašināt laiku, ievadot vairāk klientu scenāriju. Tas ietver iespēju pievienot ierakstu tipus, kas tagad virza noteiktu uzvedību, pamatojoties uz lauku shēmas **Laika ieraksta iestatījumi** nosaukumu, kas tiek parādīti kā **Laika avots**. Šīs funkcionalitātes atbalstam ir pievienots jauns risinājums, ko sauc par laiku, izdevumiem, statusu un apstiprinājumiem (Time, Expense, Statusing, and Approvals — TESA).

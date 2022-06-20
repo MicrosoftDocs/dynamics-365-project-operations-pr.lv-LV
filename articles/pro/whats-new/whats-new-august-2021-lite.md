@@ -1,24 +1,24 @@
 ---
 title: 2021. gada augusta jaunumi — Project Operations Lite izvietošana
-description: Šajā tēmā ir sniegta informācija par 2021. gada augustā pieejamajiem kvalitātes atjauninājumiem Project Operations Lite izvietošanai.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations lite izvietošanas 2021. gada augusta laidienā.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922047"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>2021. gada augusta jaunumi — Project Operations Lite izvietošana
 
 _Attiecas uz: Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
   - Project Operations Dataverse vides versijā 4.13.0.152
 

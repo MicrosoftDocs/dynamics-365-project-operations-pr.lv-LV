@@ -1,25 +1,25 @@
 ---
-title: Detalizēta informācija par kreditora rēķinu virsrakstu
-description: Šī tēma izskaidro funkcionalitāti, kas norādīta kreditora rēķina virsrakstā programmā Microsoft Dynamics 365 Project Operations.
+title: Informācija par piegādātāju rēķiniem
+description: Šajā rakstā ir izskaidrota funkcionalitāte, kas norādīta Microsoft kreditora rēķina virsrakstā Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929867"
 ---
-# <a name="header-details-for-vendor-invoices"></a>Detalizēta informācija par kreditora rēķinu virsrakstu
+# <a name="header-details-for-vendor-invoices"></a>Informācija par piegādātāju rēķiniem
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šī tēma izskaidro funkcionalitāti, kas norādīta kreditora rēķina virsrakstā programmā Microsoft Dynamics 365 Project Operations.
+Šajā rakstā ir izskaidrota funkcionalitāte, kas norādīta Microsoft kreditora rēķina virsrakstā Dynamics 365 Project Operations.
 
 Tā kā projektu vadītāji plāno un izpilda projektus, viņi var nodarbināt apakšuzņēmējus un iegādāties produktus un pakalpojumus no piegādātājiem. Projekta izpildes laikā izmaksas rodas no pakalpojumu, materiālu un izdevumu kategorijām, kas tiek iepirktas apakšlīgumos ar kreditoriem. Kreditori izraksta rēķinus par šīm izmaksām projektiem, veidojot kreditoru rēķinus.
 

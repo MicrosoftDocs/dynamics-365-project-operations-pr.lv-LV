@@ -1,6 +1,6 @@
 ---
 title: Sinhronizēt projekta budžetus tieši no projektu pakalpojumu automatizācijas uz finansēm un operācijām
-description: Šajā tēmā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta stundu novērtējumus un projekta izdevumu novērtējumus tieši no Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: Šajā rakstā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta stundu novērtējumus un projekta izdevumu novērtējumus tieši no Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance līdz Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
-ms.translationtype: MT
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920851"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizēt projekta budžetus tieši no projektu pakalpojumu automatizācijas uz finansēm un operācijām
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta stundu novērtējumus un projekta izdevumu novērtējumus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Šajā rakstā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta stundu novērtējumus un projekta izdevumu novērtējumus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance līdz Dynamics 365 Finance.
 
 > [!NOTE]
 > - 8.0 versijā varat izmantot projekta uzdevumu integrāciju, izdevumu darbības kategorijas, stundu aprēķinus, izdevumu aprēķinus un funkcionalitātes bloķēšanu.

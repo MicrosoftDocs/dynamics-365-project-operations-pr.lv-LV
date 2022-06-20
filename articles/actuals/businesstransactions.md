@@ -1,6 +1,6 @@
 ---
-title: Biznesa darbības projekta operācijās
-description: Šajā tēmā sniegts pārskats par biznesa darījumu jēdzienu programmā Microsoft Dynamics 365 Project Operations.
+title: 'Biznesa transakcijas šeit: Project Operations'
+description: Šajā rakstā sniegts pārskats par biznesa darījumu jēdzienu programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923289"
 ---
-# <a name="business-transactions-in-project-operations"></a>Biznesa darbības projekta operācijās
+# <a name="business-transactions-in-project-operations"></a>Biznesa transakcijas šeit: Project Operations
 
 _**Attiecas uz:** Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem, Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu_
 

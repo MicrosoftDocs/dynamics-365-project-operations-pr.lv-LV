@@ -1,6 +1,6 @@
 ---
 title: Projekta plānošanas sākumlapa
-description: Šajā tēmā ir sniegta informācija par projekta plānošanu.
+description: Šajā rakstā ir sniegta informācija par projekta plānošanu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919103"
 ---
 # <a name="project-planning-home-page"></a>Projekta plānošanas sākumlapa
 
@@ -43,7 +43,7 @@ Projektu pārvaldības rīki programmatūrā PSA palīdz jums izpildīt projektu
 - Prognozēt resursu vajadzības projektiem, kuri atrodas uz pārdošanas ceļa.
 - Sekmīgi izpildīt projektus, izsekojot progresu un izmaksu patēriņu.
 
-Tālāk norādītajās tēmās ir sniegta informācija, kas palīdzēs projektu vadītājiem prognozēt darbu, prognozēt projekta izmaksas un prognozēt resursu vajadzības, izmantojot programmatūrā PSA atbalstītos rīkus.
+Šajos rakstos ir sniegta informācija, kas palīdzēs projektu vadītājiem novērtēt darbu, novērtēt projekta izmaksas un prognozēt resursu vajadzības, izmantojot PSA atbalstītos rīkus:
 
 - [Grafika izveidošana](project-creating.md)
 - [Projekta izmaksu un ieņēmumu prognozēšana](project-estimating.md)

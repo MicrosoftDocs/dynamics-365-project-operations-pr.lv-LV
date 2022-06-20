@@ -1,6 +1,6 @@
 ---
 title: Atskaišu veidošanas sākumlapa
-description: Šajā tēmā ir sniegta informācija par atskaišu veidošanu programmā Dynamics 365 Project Service Automation.
+description: Šajā rakstā sniegta informācija par pārskatiem programmā Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921679"
 ---
 # <a name="reporting-home-page"></a>Atskaišu veidošanas sākumlapa
 
@@ -47,7 +47,7 @@ Microsoft Power BI un Dynamics 365 nodrošina efektīvu veidu, kā strādāt ar
 
 
 ## <a name="additional-resources"></a>Papildu resursi
-Papildinformāciju par atskaišu izveidi risinājumā PSA skatiet šādās tēmās:
+Papildinformāciju par ziņošanu PSA skatiet šajos rakstos:
 
 - [Darbs ar Project Service datu modeli](reports-working-project-service-data-model.md)
 - [Informācijas paneļi](reports-dashboards.md)

@@ -1,6 +1,6 @@
 ---
 title: Nepabeigtās rēķinu izrakstīšanas pārskatīšana projektiem un projektu līgumiem
-description: Šajā tēmā ir sniegta informācija par to, kā apskatīt laiku, izdevumus un produktu rezerves, un kā tās atzīmēt kā gatavus rēķina izrakstīšanai.
+description: Šajā rakstā ir sniegta informācija par to, kā pārskatīt laiku, izdevumus un produktu uzkrāšanos un kā atzīmēt tos kā gatavus rēķinu izrakstīšanai.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928901"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Nepabeigtās rēķinu izrakstīšanas pārskatīšana projektiem un projektu līgumiem
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600567"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Kad transakcija ir sagatavota, lai izveidotu un apstrādātu rēķinu, transakcijai jābūt atzīmētai **Gatavs rēķina izrakstīšanai**. Šajā tēmā ir apraksti transakciju tipi, ko var izveidot.
+Kad transakcija ir sagatavota, lai izveidotu un apstrādātu rēķinu, transakcijai jābūt atzīmētai **Gatavs rēķina izrakstīšanai**. Šajā rakstā ir aprakstīti darbību tipi, kurus var izveidot.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Nepabeigtās laika un materiālu rēķinu izrakstīšanas pārskatīšana
 

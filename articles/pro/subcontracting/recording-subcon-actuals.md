@@ -1,17 +1,17 @@
 ---
 title: Laika, izmaksu un materiālu izlietojuma reģistrēšana apakšlīguma komponentiem
-description: Šajā tēmā ir izskaidrots, kā Microsoft izseko laiku, izdevumus un materiālu lietojumu, kas reģistrēts projektos no apakšuzņēmēju komponentiem Dynamics 365 Project Operations.
+description: Šajā rakstā paskaidrots, kā korporācija Microsoft izseko laiku, izdevumus un materiālu lietojumu, kas reģistrēts projektos no apakšuzņēmēju komponentiem Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927659"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Laika, izdevumu un materiālu izmantošanas reģistrēšana projektos apakšuzņēmēju komponentiem
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599233"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā tēmā ir izskaidrots, kā Microsoft izseko laiku, izdevumus un materiālu lietojumu, kas reģistrēts projektos no apakšuzņēmēju komponentiem Dynamics 365 Project Operations.
+Šajā rakstā paskaidrots, kā korporācija Microsoft izseko laiku, izdevumus un materiālu lietojumu, kas reģistrēts projektos no apakšuzņēmēju komponentiem Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Apakšuzņēmēja laika izmaksas projektos
 Projektu operācijās līgumdarbinieki var ierakstīt projektu laiku līdzīgi kā darbinieki. Ievadot projektu un/vai projekta uzdevumu laiku, līgumdarbinieks var atlasīt noteiktu apakšuzņēmuma un apakšuzņēmuma rindu.

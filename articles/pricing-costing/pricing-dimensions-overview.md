@@ -1,18 +1,18 @@
 ---
 title: Cenu noteikšanas dimensiju pārskats
-description: Šajā tēmā ir sniegta informācija par cenu noteikšanas dimensijām risinājumā Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par cenu dimensijām programmā Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918045"
 ---
 # <a name="pricing-dimensions-overview"></a>Cenu noteikšanas dimensiju pārskats
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations tiek piegādāta ar cenu noteikšanas dimensiju 
 
 ![Project Service parametru ekrānuzņēmums ar izceltu lauku “Attiecināms uz pārdošanu”.](media/PS-OOB-parameters.png)
 
-Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas. Papildinformāciju skatiet nākamajās tēmās. 
+Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas. Plašāku informāciju skatiet šajos rakstos. 
   
   > [!NOTE]
   > Procedūras ir jāaizpilda tādā secībā, kādā tās ir norādītas.

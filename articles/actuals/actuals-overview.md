@@ -1,6 +1,6 @@
 ---
-title: Pašreizējās
-description: Šajā tēmā ir sniegta informācija par to, kā veikt darbības ar faktiskajiem darbiem programmā Microsoft Dynamics 365 Project Operations.
+title: Faktiskie dati
+description: Šajā rakstā sniegta informācija par to, kā strādāt ar Microsoft faktiskajiem datiem Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924807"
 ---
 # <a name="actuals"></a>Faktiskie dati
 
@@ -33,7 +33,7 @@ Faktiskie dati attiecas uz pārskatīto un apstiprināto finanšu un plānošana
 
 Projekta operācijas reģistrē finanšu darbības, kas notiek projekta iesaistes dzīves cikla laikā, kā faktiskās. Faktisko datu izveide dažādos dzīves cikla notikumos atšķiras atkarībā no tā, vai projekta iesaistē tiek izmantots laika un materiālu norēķinu modelis vai fiksētas cenas norēķinu modelis, un vai tas ir pirmspārdošanas posmā vai tas ir iekšējs projekts.
 
-Tālāk norādītajās tēmās ir izskaidrota ietekme uz tabulu Faktiskie fakti dažādos notikumos dažādām variācijām:
+Šajos rakstos ir izskaidrota dažādu variāciju ietekme uz tabulu Faktiskie fakti dažādos notikumos:
 
 - [Faktiskā ietekme laikā un materiālu iesaiste](ActualsonTM.md)
 - [Faktiskā ietekme fiksētas cenas piesaistīšanā](ActualonFP.md)

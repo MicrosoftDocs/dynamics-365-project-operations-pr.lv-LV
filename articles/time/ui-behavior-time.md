@@ -1,17 +1,17 @@
 ---
 title: Laika ieraksta UI uzvedība
-description: Šajā tēmā ir sniegta informācija par laika ieraksta UI uzvedību.
+description: Šajā rakstā ir sniegta informācija par laika ieraksta lietotāja interfeisa darbību.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5b7bd3e9145673268907e749decdd728dcfb533f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b39f182901681875eb90f17d9421bcad63762f54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918183"
 ---
 # <a name="time-entry-ui-behavior"></a>Laika ieraksta UI uzvedība
 

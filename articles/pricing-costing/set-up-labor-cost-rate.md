@@ -1,17 +1,17 @@
 ---
 title: Darba izmaksu likmju iestatīšana
-description: Šajā tēmā ir sniegta informācija par to, kā iestatīt likmes darba projekta operāciju izmaksām
+description: Šajā rakstā sniegta informācija par to, kā iestatīt darbaspēka projekta operāciju izmaksu likmes
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96c74195209641f31e84af9159241123559fab17
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5216c0af29eb33ce664857b1f42b4a3130f02c50
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924255"
 ---
 # <a name="set-up-labor-cost-rates"></a>Darba izmaksu likmju iestatīšana
 

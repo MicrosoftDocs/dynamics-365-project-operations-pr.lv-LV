@@ -1,18 +1,18 @@
 ---
 title: Izmantot sagādes kategorijas ar projekta pirkšanas pasūtījumiem un neizlemtajiem kreditoru rēķiniem
-description: Šajā tēmā aprakstīts, kā konfigurēt sagādes kategorijas, kuras var izmantot ar projekta pirkšanas pasūtījumiem un gaidošajiem kreditoru rēķiniem.
+description: Šajā rakstā aprakstīts, kā konfigurēt sagādes kategorijas, kuras var izmantot projekta pirkšanas pasūtījumiem un gaidošajiem kreditoru rēķiniem.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927429"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Izmantot sagādes kategorijas ar projekta pirkšanas pasūtījumiem un neizlemtajiem kreditoru rēķiniem
 
@@ -47,7 +47,7 @@ Veiciet tālāk norādītās darbības, lai kartētu projektu kategorijas uz sag
 
 1. Dodieties uz **Sagādes un sagādes \> kategorijas** Iepirkumi.
 1. Atlasiet **Rediģēt kategoriju hierarhiju**.
-1. Atlasiet vēlamo kategoriju hierarhijas zaru un pēc tam cilnē **Projektu kategoriju** piešķiršana saistiet zaru ar projekta kategoriju no **kategorijas Laiks**, Izdevumi**vai **,Preces projekts** (t.i., **kategorijā Noklusētais laiks** vai **Noklusētie izdevumi**).
+1. Atlasiet vēlamo kategoriju hierarhijas līmeni un pēc tam cilnē **Projektu kategoriju** piešķiršana saistiet zaru ar projekta kategoriju no **kategorijas Laiks**, **Izdevumi** vai **Preces projekts** (t.i., **kategorijā Noklusētais laiks** vai **Noklusētie izdevumi**).
 1. Atlasiet **Saglabāt**.
 1. Aizveriet lapu.
 

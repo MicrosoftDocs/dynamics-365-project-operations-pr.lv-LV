@@ -1,6 +1,6 @@
 ---
 title: Vienības un vienību grupas
-description: Šajā tēmā ir sniegta informācija par to, kā izveidot vienības un vienību grupas programmā Dynamics 365 Project Operations.
+description: Šajā rakstā sniegta informācija par to, kā programmā izveidot vienības un vienību grupas Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921449"
 ---
 # <a name="units-and-unit-groups"></a>Vienības un vienību grupas
 
@@ -28,7 +28,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 Vienības ir daudzumi vai mērvienības, kādās jūs pārdodat savus produktus vai pakalpojumus. Piemēram, ja pārdodat dārzkopība piederumus, vienības sēklu pārdošanai var būt paciņas, kastes un paletes. Vienību grupa ir šo atšķirīgo vienību kopums.
 
-Lai izpildītu šīs tēmas darbības, pārliecinieties, ka jums ir piešķirta sistēmas administratora vai Sales Professional pārvaldnieka loma vai līdzvērtīgas atļaujas.
+Lai veiktu šajā rakstā aprakstītās darbības, pārliecinieties, vai esat piešķirts sistēmas administratora vai sales professional manager lomai vai jums ir līdzvērtīgas atļaujas.
 
 ## <a name="create-a-unit-group"></a>Vienību grupas izveide
 

@@ -1,6 +1,6 @@
 ---
 title: Sinhronizēt projekta faktiskos datus tieši no project service automation uz projekta integrācijas žurnālu grāmatošanai sadaļā Finanses un operācijas
-description: Šajā tēmā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta faktiskos datus tieši no Microsoft Dynamics 365 Project Service Automation uz Finanses un Operācijas.
+description: Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta faktiskos datus tieši no Microsoft Dynamics 365 Project Service Automation uz Finanses un Operācijas.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
-ms.translationtype: MT
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683547"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929499"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinhronizēt projekta faktiskos datus tieši no project service automation uz projekta integrācijas žurnālu grāmatošanai sadaļā Finanses un operācijas
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta faktiskos datus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Šajā rakstā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta faktiskos datus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 Veidne sinhronizē transakcijas no Project Service Automation uz izstādīšanas tabulu risinājumā Finance. Kad sinhronizācija ir pabeigta, jums **jāimportē** dati no izstādīšanas tabulas integrācijas žurnālā.
 

@@ -1,17 +1,17 @@
 ---
 title: Reģistrēšanās Project Operations priekšskatījuma abonementiem scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
-description: Šajā tēmā ir sniegta informācija par to, kā abonēt un izvietot Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem.
+description: Šajā rakstā ir sniegta informācija par to, kā abonēt un izvietot projekta operācijas atkārtotiem/neuzkrātiem scenārijiem.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920115"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Reģistrēšanās Project Operations priekšskatījuma abonementiem scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 
@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 
 
-Šajā tēmā izskaidrots, kā pierakstīties izmēģinājumversijas piedāvājumam un izvietot Project Operations vidi resursos /noliktavā neesošos krājumos balstītiem scenārijiem.
+Šajā rakstā paskaidrots, kā abonēt izmēģinājuma piedāvājumu un izvietot projekta operāciju vidi resursu/neuzkrātiem scenārijiem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 - Lietotājam, kurš izvieto priekšskatījumu, ir jābūt Azure nomnieka globālā administratora tiesībām. Pirmā piedāvājuma izmantošanas laikā var izveidot nomnieku. 
@@ -60,19 +60,19 @@ Dodieties uz sadaļu [Dynamics 365 for Finance izmēģinājumversijas priekšska
 
 ## <a name="start-a-new-project-in-lcs"></a>Jauna projekta sākšana LCS
 
-Izveidojiet jaunu LCS projektu, kā aprakstīts tēmā [Jauna projekta sākšana LCS](create-lcs-project.md)
+Izveidojiet jaunu LKA projektu, kā aprakstīts rakstā, [Sāciet jaunu projektu LKA](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure abonementa pievienošana LCS projektam
 
-Lai izpildītu šo uzdevumu, veiciet darbības, kas aprakstītas tēmā [Azure abonementa pievienošana LCS projektam](resource-add-azure-subscription-lcs-project.md).
+Lai pabeigtu šo uzdevumu, izpildiet rakstā [Azure abonementa pievienošana LKA projektam norādītās darbības](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Finance demonstrācijas vides izvietošana ar Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 
-Lai pabeigtu izvietošanu, izpildiet norādījumus, kas sniegti tēmā [Jaunas vides nodrošināšana](resource-provision-new-environment.md). Izmantojiet priekšskatījumam [demonstrācijas vides](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) izvietošanas tipu. 
+Izpildiet rakstā sniegtos norādījumus Nodrošināt jaunu vidi [,](resource-provision-new-environment.md) lai pabeigtu izvietošanu. Izmantojiet priekšskatījumam [demonstrācijas vides](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) izvietošanas tipu. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS iestatīšanas un konfigurācijas datu instalēšana
 
-Instalējiet CDS iestatīšanas un konfigurācijas datus, kā aprakstīts tēmā [Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service](resource-apply-pro-setup-config-data.md).
+Instalējiet CDS iestatīšanas un konfigurācijas datus, kā aprakstīts rakstā Konfigurācijas [datu iestatīšana un lietošana programmā Common Data Service](resource-apply-pro-setup-config-data.md).
 Pabeidziet šo darbību tikai pēc tam, kad Ir Finance demonstrācijas vide ir izvietota un demonstrācijas dati ir gatavi.
 
 

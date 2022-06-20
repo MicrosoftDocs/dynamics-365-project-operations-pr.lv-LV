@@ -1,22 +1,22 @@
 ---
 title: Projekta rēķina integrācija
-description: Šajā tēmā ir sniegta informācija par Project Operations duālās rakstīšanas integrāciju klientu rēķinu izrakstīšanai.
+description: Šajā rakstā sniegta informācija par projektu operāciju divrakstņu integrāciju debitoru rēķinu izrakstīšanai.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912111"
 ---
 # <a name="project-invoice-integration"></a>Projekta rēķina integrācija
 
-Šajā tēmā ir sniegta informācija par Project Operations duālās rakstīšanas integrāciju klientu rēķinu izrakstīšanai.
+Šajā rakstā sniegta informācija par projektu operāciju divrakstņu integrāciju debitoru rēķinu izrakstīšanai.
 
 Programmā Project Operations projekta vadītājs pārvalda projekta norēķinu rezerves un izveido pro formas rēķinu klientam programmā Microsoft Dataverse. Pamatojoties uz šo pro forma rēķinu, debitoru ierēdnis vai projekta grāmatvedis izveido uz klientu vērstu rēķinu. Duālās rakstīšanas integrācija nodrošina, ka proforma rēķina detaļas tiek sinhronizētas ar finanšu un operāciju programmām. Pēc tam, kad uz klientu vērstais rēķins ir grāmatots, sistēma atjaunina attiecīgos projekta faktiskos datus programmā Dataverse ar grāmatvedības informāciju. Tālāk redzamajā diagrammā ir parādīts augsta līmeņa konceptuālais šīs integrācijas pārskats.
 

@@ -1,17 +1,17 @@
 ---
 title: Projekta personāla veidošana ar līguma darbiniekiem un apakšlīguma noslodzi
-description: Šajā tēmā paskaidrots, kā projekta prasības var nodrošināt ar personālu, izmantojot līgumdarbiniekus vai apakšuzņēmēju jaudu programmā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā paskaidrots, kā projekta prasības var nodrošināt ar personālu, izmantojot līgumdarbiniekus vai apakšuzņēmēju jaudu programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922093"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Projekta personāla veidošana ar līguma darbiniekiem un apakšlīguma noslodzi
 

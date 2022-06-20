@@ -1,6 +1,6 @@
 ---
-title: Līdzekļu izmaiņas no projektu pakalpojumu automatizācijas uz projekta operācijām
-description: Šajā tēmā sniegts pārskats par līdzekļu izmaiņām no project service automation uz Dynamics 365 Project Operations.
+title: Līdzekļu izmaiņas no Project Service Automation uz Project Operations
+description: Šajā rakstā sniegts pārskats par līdzekļu izmaiņām no project service automation uz Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925359"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Līdzekļu izmaiņas no projektu pakalpojumu automatizācijas uz projekta operācijām
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Līdzekļu izmaiņas no Project Service Automation uz Project Operations
 
-Jauninājums no Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations Lite tiks piegādāts trīs posmos. Šajā tēmā ir sniegta informācija par galvenajām izmaiņām, kuras varat sagaidīt, kad jaunināšana būs pabeigta.
+Jauninājums no Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations Lite tiks piegādāts trīs posmos. Šajā rakstā ir sniegta informācija par galvenajām izmaiņām, kuras var sagaidīt, kad jaunināšana būs pabeigta.
 
 | Jaunināšanas piegāde | 1. posms <br>(2022. gada janvāris) | 2. posms <br>(Aprīļa vilnis 2022) | 3. posms  |
 |------------------|------------------------|---------------------------|---------------------------|

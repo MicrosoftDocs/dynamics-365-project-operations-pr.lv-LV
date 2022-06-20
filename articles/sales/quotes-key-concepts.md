@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumi — pamata koncepti
-description: Šajā tēmā sniegta informācija par projektu piedāvājumiem un pārdošanas piedāvājumiem, kas pieejami Project Operations.
+description: Šajā rakstā sniegta informācija par projekta piedāvājumiem un pārdošanas piedāvājumiem, kas pieejami projekta operācijās.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912525"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Projektu piedāvājumiem raksturīgie koncepti
 
@@ -35,7 +35,7 @@ Programmā Dynamics 365 Project Operations ir divu tipu piedāvājumi — proje
 - **Lauki un koncepti**: Pārdošanas piedāvājumā nav iekļauti daži lauki un koncepcijas, kas ir iekļautas projekta piedāvājumā. Šie lauki ir, piemēram, **Līgumslēdzēja struktūrvienība**, **Uzņēmumu pārvaldnieks** un **Rēķina saņēmēja kontaktpersonas vārds**.  
 - **Veids**: Pārdošanas piedāvājumus un projekta piedāvājumus norāda arī pēc opciju kopā balstīta lauka **Veids**. Pārdošanas piedāvājumā šim laukam ir vērtība **Balstīts uz elementu**. Projekta piedāvājumā tam ir vērtība **Balstīts uz darbu**.
 
-Šajā tēmā galvenā uzmanība tiks pievērsta detalizētai informācijai par projekta piedāvājumiem.
+Šajā rakstā galvenā uzmanība pievērsta detalizētai informācijai par projektu piedāvājumiem.
 
 Projekta piedāvājumam Project Operations var būt vairāki rindas elementi vai piedāvājuma rindas. Projekta piedāvājumā ir divi režģi rindas elementiem. Viens režģis ir paredzēts uz projektu balstītām rindām, kas nodrošina detalizētus novērtējumus. Otrs režģis ir paredzēts uz preci balstītām rindām, kas izmanto vienkāršu vienības cenas un uz daudzumu balstītu metodi.
 

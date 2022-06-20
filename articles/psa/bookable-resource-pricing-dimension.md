@@ -1,6 +1,6 @@
 ---
 title: Rezervējama resursa izmantošana par izcenojuma dimensiju
-description: Šajā tēmā ir sniegta informācija par rezervējama resursa izmantošanu par izcenojuma dimensiju.
+description: Šajā rakstā sniegta informācija par rezervējamā resursa izmantošanu kā cenu dimensiju.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916113"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Rezervējama resursa izmantošana par izcenojuma dimensiju
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šajā tēmā ir sniegta informācija par rezervējama resursa izmantošanu par izcenojuma dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja savai organizācijai neesat izveidojis jaunu cenas noteikšanas dimensijas risinājumu, izpildiet procedūru tēmā [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md).
+Šajā rakstā sniegta informācija par rezervējamā resursa izmantošanu kā cenu dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja neesat izveidojis jaunu cenu dimensiju risinājumu savai organizācijai, veiciet procedūras, kas aprakstītas [rakstā Pielāgoto lauku un entītiju](create-custom-fields-entities.md) izveide.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Rezervējama resursa pievienošana veidlapām un skatiem
 Lai padarītu laukus redzamus lietotāja interfeisā, izmantojot izcenojumu dimensijas risinājumu, jums būs jāapskata visas galveno Project Service entītiju veidlapas un skati un šie lauki jāpievieno šo entītiju veidlapām un skatiem.

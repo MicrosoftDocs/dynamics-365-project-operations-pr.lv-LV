@@ -1,6 +1,6 @@
 ---
 title: Izdevumu pārvaldības mobilā darbvieta
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot izdevumu pārvaldības mobilo darbvietu. Šī darbvieta ļauj lietotājiem tvert un augšupielādēt kvīti, lai to varētu vēlāk pievienot izdevumu atskaitei. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti, un izveidot un pārvaldīt savas izdevumu atskaites.
+description: Šajā rakstā ir sniegta informācija par izdevumu pārvaldības mobilo darbvietu. Šī darbvieta ļauj lietotājiem tvert un augšupielādēt kvīti, lai to varētu vēlāk pievienot izdevumu atskaitei. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti, un izveidot un pārvaldīt savas izdevumu atskaites.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920897"
 ---
 # <a name="expense-management-mobile-workspace"></a>Izdevumu pārvaldības mobilā darbvieta
 
-Šajā tēmā ir sniegta informācija par to, kā izmantot **Izdevumu pārvaldības** mobilo darbvietu. Šī darbvieta ļauj lietotājiem tvert un augšupielādēt kvīti, lai to varētu vēlāk pievienot izdevumu atskaitei. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti, un izveidot un pārvaldīt savas izdevumu atskaites. Turklāt apstiprinātāji var izmantot **Izdevumu pārvaldības** mobilo darbvietu, lai skatītu sev piešķirtās izdevumu atskaites un tās vai nu apstiprināt vai noraidīt.
+Šajā rakstā ir sniegta informācija par **izdevumu pārvaldības** mobilo darbvietu. Šī darbvieta ļauj lietotājiem tvert un augšupielādēt kvīti, lai to varētu vēlāk pievienot izdevumu atskaitei. Lietotāji var arī ātri izveidot izdevumu rindu, izmantojot pievienoto kvīti, un izveidot un pārvaldīt savas izdevumu atskaites. Turklāt apstiprinātāji var izmantot **Izdevumu pārvaldības** mobilo darbvietu, lai skatītu sev piešķirtās izdevumu atskaites un tās vai nu apstiprināt vai noraidīt.
 
 
 Šo mobilo darbvietu ir paredzēts izmantot kopā ar Dynamics 365 Unified OPS mobilo programmu.

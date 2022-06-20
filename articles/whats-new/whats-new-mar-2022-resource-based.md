@@ -1,24 +1,24 @@
 ---
 title: Jaunumi 2022. gada martā — Project Operations resursu/bez krājumu pamatotiem scenārijiem
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2022. gada marta projekta operāciju laidienā resursu/neuzkrātiem scenārijiem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2022. gada marta projekta operāciju laidienā resursu/neuzkrātiem scenārijiem.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910915"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2022. gada martā — Project Operations resursu/bez krājumu pamatotiem scenārijiem
 
 *Attiecas uz: Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem*
 
-Šī tēma attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
 
 - Projekta operācijas Dataverse vides versijā 4.30.0.99
 - Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.25
@@ -91,11 +91,11 @@ Ja, startējot karti, rodas problēma, izpildiet norādījumus, kas [sniegti dua
 
 ## <a name="removed-and-deprecated-features"></a>Noņemti un novecojuši līdzekļi
 
-Tēmā [Projekta operācijas](removed-depreciated-features-project.md) noņemtie vai novecojušie līdzekļi apraksta līdzekļus, kas ir noņemti Dynamics 365 Project Operations vai novecojuši programmai.
+Rakstā Projekta [operācijas](removed-depreciated-features-project.md) noņemtie vai novecojušie līdzekļi apraksta līdzekļus, kas ir noņemti vai novecojuši programmai Dynamics 365 Project Operations.
 
 - Noņemtais līdzeklis vairs nav pieejams produktā.
 - Novecojis līdzeklis netiek aktīvi izstrādāts, un nākamajā atjauninājumā tas var tikt noņemts.
 
-Paziņojums par nolietošanos tiks parādīts tēmā [Projekta operācijas](removed-depreciated-features-project.md) noņemtie vai novecojušie līdzekļi 12 mēnešus pirms jebkura līdzekļa noņemšanas no produkta.
+Paziņojums par nolietošanos tiks parādīts [projekta operāciju](removed-depreciated-features-project.md) rakstā Noņemtie vai novecojušie līdzekļi 12 mēnešus pirms jebkura līdzekļa noņemšanas no produkta.
 
 Ja tiek pārtrauktas izmaiņas, kas ietekmē tikai kompilācijas laiku, bet ir bināras saderīgas ar smilškasti un ražošanas vidēm, nolietojuma laiks būs mazāks par 12 mēnešiem. Parasti šīs izmaiņas ir funkcionāli atjauninājumi, kas jāveic kompilatoram.

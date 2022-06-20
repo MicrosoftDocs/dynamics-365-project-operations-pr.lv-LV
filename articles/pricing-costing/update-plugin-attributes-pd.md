@@ -1,33 +1,33 @@
 ---
 title: Spraudņu atribūtu atjaunināšana ar jaunām cenu noteikšanas dimensijām
-description: Šajā tēmā ir sniegta informācija par to, kā atjaunināt spraudņu atribūtus cenu noteikšanas dimensijām.
+description: Šajā rakstā sniegta informācija par to, kā atjaunināt spraudņa atribūtus cenu dimensijām.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920023"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Spraudņu atribūtu atjaunināšana ar jaunām cenu noteikšanas dimensijām
 
-Šajā tēmā ir sniegta informācija par to, kā atjaunināt spraudņu atribūtus cenu noteikšanas dimensijām.
+Šajā rakstā sniegta informācija par to, kā atjaunināt spraudņa atribūtus cenu dimensijām.
 
 > [!NOTE]
-> Šī tēma attiecas tikai uz piedāvājumu un līgumu līdzekļiem risinājumā Dynamics 365 Project Operations.
+> Šis raksts attiecas tikai uz piedāvājuma un līguma iezīmēm programmā Dynamics 365 Project Operations.
 
-## <a name="prerequisites"></a>Priekšnosacījumi
-Lai izpildītu šajā tēmā aprakstītās darbības, ir jāizpilda tālāk uzskaitītajās tēmās norādītās procedūras.
+## <a name="prerequisites"></a>Priekšnoteikumi
+Pirms veicat šajā rakstā norādītās darbības, jums ir jāveic šajos rakstos aprakstītās procedūras:
 
   - [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities-pricing-dimensions.md) 
   - [Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām ](add-custom-fields-price-setup-transactional-entities.md)
   - [Pielāgotu lauku kā cenu kategoriju iestatīšana](set-up-custom-fields-pricing-dimensions.md). 
   
-Ja šīs procedūras neesat pabeidzis, pabeidziet tās un pēc tam atgriezieties pie šīs tēmas.
+Ja neesat pabeidzis šīs procedūras, aizpildiet tās un pēc tam atgriezieties pie šī raksta.
 
 ## <a name="register-a-plug-in"></a>Spraudņa reģistrēšana
 Ja projekta piedāvājuma rindai tiek izveidota piedāvājuma rindas detaļa lapā **Piedāvājuma rinda**, sistēma izveido divas novērtējuma rindas. Viena rinda ir novērtējuma izmaksu puse, un otra rinda ir pārdošanas puse. Tas pats attiecas uz projekta līguma rindām.

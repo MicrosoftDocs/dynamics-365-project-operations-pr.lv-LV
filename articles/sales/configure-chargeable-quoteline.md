@@ -1,17 +1,17 @@
 ---
 title: Rēķinā iekļaujamo uzdevumu konfigurēšana projekta piedāvājuma rindā
-description: Šajā tēmā ir sniegta informācija par iekļautajiem, rēķinā iekļaujamajiem un rēķinā neiekļaujamajiem komponentiem projekta piedāvājuma rindās.
+description: Šajā rakstā sniegta informācija par iekļautiem, maksas un neapmaksājamiem komponentiem uz projektu balstītās piedāvājuma rindās.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 025a04fa63bfdb53aaababcd964a5dcb92c0a3a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff409132ef9103641578f9c94f8ea1ff56738a71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915561"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Rēķinā iekļaujamo uzdevumu konfigurēšana projekta piedāvājuma rindā
 

@@ -1,25 +1,25 @@
 ---
 title: Projekta grafika API izmantošana ar Power Automate
-description: Šī tēma nodrošina parauga plūsmu, kas izmanto projekta grafika lietojumprogrammu interfeisus (API).
+description: Šajā rakstā ir sniegta parauga plūsma, kas izmanto projekta grafika lietojumprogrammu interfeisus (API).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916343"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Projekta grafika API izmantošana ar Power Automate
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Šajā tēmā ir aprakstīta plūsmas paraugs, kas parāda, kā izveidot pilnu projekta plānu, izmantojot Microsoft Power Automate, kā izveidot operāciju kopu un kā atjaunināt entītiju. Piemērs parāda, kā izveidot projektu, projekta grupas dalībnieku, operāciju kopas, projekta uzdevumus un resursu piešķires. Šajā tēmā ir arī paskaidrots, kā atjaunināt entītiju un izpildīt operāciju kopu.
+Šajā rakstā ir aprakstīts plūsmas paraugs, kas parāda, kā izveidot pilnu projekta plānu, izmantojot Microsoft Power Automate, kā izveidot operāciju kopu un kā atjaunināt entītiju. Piemērs parāda, kā izveidot projektu, projekta grupas dalībnieku, operāciju kopas, projekta uzdevumus un resursu piešķires. Šajā rakstā ir arī paskaidrots, kā atjaunināt entītiju un izpildīt operāciju kopu.
 
-Tālāk ir sniegts pilnīgs to darbību saraksts, kas ir dokumentētas parauga plūsmā šajā tēmā:
+Tālāk ir sniegts pilnīgs to darbību saraksts, kas ir dokumentētas šajā rakstā par paraugu plūsmu:
 
 1. [Trigera PowerApps izveide](#1)
 2. [Projekta izveidošana](#2)
@@ -40,7 +40,7 @@ Tālāk ir sniegts pilnīgs to darbību saraksts, kas ir dokumentētas parauga p
 
 ## <a name="assumptions"></a>Pieņēmumi
 
-Šajā tēmā tiek pieņemts, ka jums ir pamatzināšanas par Dataverse platformu, mākoņa plūsmām un projekta grafika lietojumprogrammu programmēšanas interfeisu (API). Papildinformāciju skatiet tālāk šīs tēmas [sadaļā Atsauces](#references).
+Šajā rakstā tiek pieņemts, ka jums ir pamatzināšanas par Dataverse platformu, mākoņa plūsmām un projektu grafika lietojumprogrammu programmēšanas saskarni (API). Papildinformāciju [skatiet šī raksta sadaļā Atsauces](#references).
 
 ## <a name="create-a-flow"></a>Plūsmas izveide
 
@@ -65,7 +65,7 @@ Veiciet tālāk norādītās darbības, lai izveidotu plūsmu [, kas](/power-aut
 1. **Lapā Risinājumi** atlasiet izveidoto risinājumu un pēc tam atlasiet **Jauns**.
 2. Kreisajā rūtī atlasiet **Cloud flows** \> **Automation** \> **Cloud flow** \> **Instant.**
 3. Laukā **Plūsmas nosaukums** ievadiet **Schedule API Demo Flow**.
-4. **Sarakstā Izvēlieties, kā aktivizēt šo plūsmas plūsmu** atlasiet **Power Apps**. Veidojot trigeri Power Apps, loģika ir atkarīga no jums kā autora. Šajā tēmā testēšanas nolūkos atstājiet ievades parametrus tukšus.
+4. **Sarakstā Izvēlieties, kā aktivizēt šo plūsmas plūsmu** atlasiet **Power Apps**. Veidojot trigeri Power Apps, loģika ir atkarīga no jums kā autora. Šajā rakstā testēšanas nolūkos atstājiet ievades parametrus tukšus.
 5. Atlasiet **Izveidot**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>2. darbība: Izveidot projektu

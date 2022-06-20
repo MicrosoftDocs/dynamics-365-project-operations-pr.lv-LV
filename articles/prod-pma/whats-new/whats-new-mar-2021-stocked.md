@@ -1,24 +1,24 @@
 ---
 title: Jaunumi vai izmaiņas 2021. gada martā — Project Operations krājumu/ražošanas scenārijiem
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada marta Project Operations laidienam, kas paredzēts krājumu/ražošanas scenārijiem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada marta projektu operāciju laidienā uzkrātajiem/uz ražošanu balstītiem scenārijiem.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
-ms.translationtype: MT
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911329"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Jaunumi vai izmaiņas 2021. gada martā — Project Operations krājumu/ražošanas scenārijiem
 
 _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem_
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Projektu vadība un uzskaite Dynamics 365 Finance vidē versija 10.0.17
 

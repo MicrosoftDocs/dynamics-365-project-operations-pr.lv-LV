@@ -1,17 +1,17 @@
 ---
 title: Darījumu kategoriju kā cenu noteikšanas dimensiju izmantošana
-description: Šajā tēmā ir sniegta informācija par transakcijas kategorijas lauka izmantošanu kā cenu noteikšanas dimensiju.
+description: Šajā rakstā sniegta informācija par to, kā lauku Transakciju kategorija izmantot kā cenu dimensiju.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591137"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911703"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Darījumu kategoriju kā cenu noteikšanas dimensiju izmantošana
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591137"
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 
-Šajā tēmā ir izskaidrots, kā izmantot lauku **Transakcijas kategorija** kā cenu noteikšanas dimensiju. 
+Šajā rakstā paskaidrots, kā lauku Transakciju **kategorija** izmantot kā cenu dimensiju. 
 
-## <a name="prerequisites"></a>Priekšnosacījumi
-Pirms šajā tēmā aprakstīto procedūru veikšanas ir nepieciešams jauns organizācijas cenu dimensiju risinājums. Ja tas vēl nav izveidots, skatiet tēmu [Pielāgotu lauku un entītiju kā cenu noteikšanas dimensiju izveide](create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>Priekšnoteikumi
+Pirms šajā rakstā aprakstīto procedūru pabeigšanas ir nepieciešams jauns cenu dimensijas risinājums jūsu organizācijai. Ja tas vēl nav izveidots, skatiet tēmu [Pielāgotu lauku un entītiju kā cenu noteikšanas dimensiju izveide](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Transakcijas kategorijas lauka pievienošana veidlapām un skatiem
 Lai lauks **Transakcijas kategorija** būtu redzams cenu noteikšanas dimensijas risinājumā, šis lauks ir jāpievieno visām veidlapām un skatiem kā entītija.

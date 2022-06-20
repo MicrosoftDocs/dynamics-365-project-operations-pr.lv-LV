@@ -1,25 +1,25 @@
 ---
 title: Manuāla programmas Project Operations Dataverse ar duālās rakstīšanas atbalstu izvietošana
-description: Šajā tēmā izskaidrots, kā manuāli izvietot programmu Project Operations Dataverse, lai tā atbalstītu duālo rakstīšanu.
+description: Šajā rakstā ir paskaidrots, kā manuāli izvietot programmu Project Operations Dataverse, lai tā atbalstītu divējādu rakstīšanu.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912019"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Manuāla programmas Project Operations Dataverse ar duālās rakstīšanas atbalstu izvietošana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā tēmā izskaidrots, kā manuāli izvietot Microsoft Dynamics 365 Project Operations programmā Microsoft Dataverse, lai tā atbalstītu duālo rakstīšanu. Project Operations konstatē vides konfigurāciju un pievieno papildu atbalstu attiecībā duālajai rakstīšanai, ja tiek izpildīti priekšnosacījumi.
+Šajā rakstā paskaidrots, kā manuāli izvietot Microsoft Dynamics 365 Project Operations Microsoft Dataverse, lai tā atbalstītu duālo rakstīšanu. Project Operations konstatē vides konfigurāciju un pievieno papildu atbalstu attiecībā duālajai rakstīšanai, ja tiek izpildīti priekšnosacījumi.
 
-Veicot izvietošanu, izmantojot Microsoft Dynamics Lifecycle Services (LCS), ja ir izpildīti šajā tēmā sniegtie norādījumi, varat izlaist integrācijas Microsoft Power Platform (iepriekš zināma kā Common Data Service vide) izvietošanu.
+Izvietošanas laikā, izmantojot Microsoft Dynamics dzīves cikla pakalpojumus (LKA), ja esat ievērojis šajā rakstā sniegtos norādījumus, varat izlaist integrācijas izvietošanu Microsoft Power Platform (iepriekš saukta par Common Data Service vidi).
 
 Project Operations izvietošanas procesam Dataverse, lai tas atbalstītu duālo rakstīšanu, jāveic četras galvenās darbības.
 

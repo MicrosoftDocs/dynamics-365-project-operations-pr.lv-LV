@@ -1,17 +1,17 @@
 ---
 title: Projektu līgumi — pamata koncepti
-description: Šajā tēmā sniegta informācija par projekta līgumu pamata konceptiem risinājumā Project Operations.
+description: Šajā rakstā sniegta informācija par projektu līgumu galvenajām koncepcijām projektu darbībās.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926233"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Projektu līgumiem raksturīgie koncepti
 
@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 
 
-Šajā tēmā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus programmā Dynamics 365 Project Operations:
+Šajā rakstā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus Dynamics 365 Project Operations programmā :
 
 ## <a name="owning-company"></a>Atbildīgais uzņēmums
 

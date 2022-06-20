@@ -1,6 +1,6 @@
 ---
 title: Resursu pārvaldības sākumlapa
-description: Šajā tēmā ir sniegta informācija par to, kā pārvaldīt resursus.
+description: Šajā rakstā ir sniegta informācija par to, kā pārvaldīt resursus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913261"
 ---
 # <a name="resource-management-home-page"></a>Resursu pārvaldības sākumlapa
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578763"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja rezervēt pareizos resursus īstajā laikā, kā arī uzturēt to izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. Šādas tēmas attiecas uz resursu pārvaldības iespējām programmā Dynamics 365 Project Service Automation:
+Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja rezervēt pareizos resursus īstajā laikā, kā arī uzturēt to izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. Šajos rakstos galvenā uzmanība ir pievērsta resursu pārvaldības iespējām Dynamics 365 Project Service Automation:
 
-- [Pārvaldīt resursus](manage-resources.md)
+- [Resursu pārvaldība](manage-resources.md)
 - [Galvenie jēdzieni](reports-key-concepts.md)
 - [Resursu pieprasījumu izpilde](resource-management-fulfill-requests.md)
 - [Resursu piedāvāšana](resource-management-propose-resources.md)

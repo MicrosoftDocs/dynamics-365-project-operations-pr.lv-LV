@@ -1,23 +1,23 @@
 ---
-title: Krājumu vajadzības projektu līgumiem ar vairākiem finansējuma avotiem
-description: Šajā tēmā ir sniegta informācija par to, kā konfigurēt un izmantot krājumu vajadzības ar vairākiem finansējuma avotiem.
+title: Elementu prasības projekta līgumiem ar vairākiem avotiem+
+description: Šajā rakstā ir sniegta informācija par to, kā konfigurēt un izmantot krājumu vajadzības ar vairākiem finansējuma avotiem.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
-ms.translationtype: MT
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728089"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931201"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Krājumu vajadzības projektu līgumiem ar vairākiem finansējuma avotiem
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Elementu prasības projekta līgumiem ar vairākiem avotiem+
 
 _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem_
 
-Dažiem līgumiskiem nolīgumiem par projektu rezultātiem var būt vajadzīgi vairāki finansējuma avoti. Šajā tēmā ir izskaidrots, kā atlasīt un konfigurēt vēlamos finansējuma avotus, ja projektam vai projekta līgumam ir nepieciešami vairāki avoti.
+Dažiem līgumiskiem nolīgumiem par projektu rezultātiem var būt vajadzīgi vairāki finansējuma avoti. Šajā rakstā paskaidrots, kā atlasīt un konfigurēt vēlamos finansējuma avotus, ja projektam vai projekta līgumam ir nepieciešami vairāki avoti.
 
 ## <a name="terminology"></a>Terminoloģija
 

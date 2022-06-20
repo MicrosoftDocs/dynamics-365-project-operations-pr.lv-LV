@@ -1,23 +1,23 @@
 ---
 title: Azure abonementa pievienošana LCS projektam
-description: Šajā tēmā ir sniegta informācija par to, kā pievienot Azure abonementu LCS projektam.
+description: Šajā rakstā ir sniegta informācija par to, kā savienot Azure abonementu ar LKA projektu.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912157"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure abonementa pievienošana LCS projektam
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Mākoņpakalpojumā viesotas vides ir jāizvieto, izmantojot esošu Azure abonementu. Šajā tēmā ir izskaidrots, kā pievienot esošu Azure abonementu LCS projektam. 
+Mākoņpakalpojumā viesotas vides ir jāizvieto, izmantojot esošu Azure abonementu. Šajā rakstā paskaidrots, kā savienot esošo Azure abonementu ar LKA projektu. 
 
 ## <a name="grant-admin-consent"></a>Administratora piekrišanas piešķiršana
 
@@ -59,7 +59,7 @@ Autorizācija tagad ir pabeigta.
 2. Ievadiet sava Azure abonementa ID. Sava Azure abonementa ID varat atrast [Azure portāla](https://ms.portal.azure.com/) sadaļā **Iestatījumi** ekrāna apakšējā kreisajā stūrī.
 3. Laukā **Konfigurēt Azure Resource Manager izmantošanu** atlasiet **Jā**.
 4. Pārliecinieties, vai Azure abonementa AAD nomnieka domēns atbilst jūsu izmantotajam Azure abonementam, kam pieder domēns, un atlasiet **Tālāk**.
-5. Ekrānā **Microsoft Azure iestatīšana** atlasiet **Tālāk**, lai apstiprinātu. Ja šajā ekrānā tiek parādīts kļūdas ziņojums, atgriezieties šīs tēmas sadaļā [Piekļuves sniegšana pakalpojumam Dynamics Deployment Services jūsu Azure abonementam](#provide) un pārliecinieties, vai esat izpildījis visas darbības.
+5. Ekrānā **Microsoft Azure iestatīšana** atlasiet **Tālāk**, lai apstiprinātu. Ja šajā ekrānā tiek parādīta kļūda, atgriezieties šī raksta sadaļā [Nodrošināt Dynamics izvietošanas pakalpojumu piekļuvi Azure abonementam](#provide) un pārliecinieties, vai esat izpildījis visas darbības.
 6. Lejupielādējiet Azure pārvaldības sertifikātu lokālā mapē savā datorā. Lūdziet, lai jūsu Azure abonementa administrators augšupielādētu šo sertifikātu Azure pārvaldības portālā, atlasot abonementu un pārejot uz **Iestatījumi** > **Pārvaldības sertifikāti**. Šis sertifikāts ļauj LCS sazināties ar Azure jūsu vārdā. Ja lietotājam ir piekļuve abonementam, varat izlaist šo darbību.
 7. Atlasiet **Tālāk**.
 8. Atlasiet Azure reģionu, kurā veikt izvietošanu, un atlasiet datu centru, kas atrodas tuvu vietai, kurā plānojat lietot šo sistēmu.

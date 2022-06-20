@@ -1,6 +1,6 @@
 ---
 title: Entītijas, vadīklas un lietotāja saskarnes izmaiņas (Project Service Automation 3.x)
-description: Šajā tēmā ir aprakstītas izmaiņas risinājuma Microsoft Dynamics Project Service Automation 3.x.
+description: Šajā rakstā aprakstītas risinājumu izmaiņas projektu pakalpojumu automatizācijai Microsoft Dynamics 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926877"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Entītijas, vadīklas un lietotāja saskarnes izmaiņas (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Izlaižot Microsoft Dynamics Project Service Automation (PSA) 3.x, entītijām, vadīklām, skatiem un lietotāja saskarnei ir veiktas daudzas izmaiņas. Šajā dokumentā ir sniegta svarīga informācija par tālāk norādītajām produkta versijām.
+Izlaižot Microsoft Dynamics Project Service Automation (PSA) 3.x, entītijām, vadīklām, skatiem un lietotāja saskarnei ir veiktas daudzas izmaiņas. Šajā rakstā ir sniegta informācija par šīm svarīgajām izmaiņām.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Primārā un pakārtotā attiecību pārdošanas dokumentam, pārdošanas dokumenta rindai, pārdošanas dokumenta rindas detalizētajām entītijām
 Pēc versijas Dynamics 365 Project Service Automation (PSA), kas tika izlaista pirms versijas 3.0, dažas attiecības starp pārdošanas dokumentiem, pārdošanas dokumentu rindām un pārdošanas dokumentu rindu detaļām tika ieviestas, izmantojot virkņu laukus, kas saturēs virknes attēlojumu saistīto entītiju. Tas bija saistīts ar platformas ierobežojumiem, kam nepieciešami nozīmīgi pasūtījuma kodi serverī un klienta puses risinājumā, lai šīs attiecības darbotos līdzīgi kā tipiskas Dynamics CRM entītiju attiecības un panāktu, lai virkņu lauki darbojas kā uzmeklēšanas lauki.

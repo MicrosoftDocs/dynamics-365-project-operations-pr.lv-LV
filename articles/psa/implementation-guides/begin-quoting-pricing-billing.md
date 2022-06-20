@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumu sniegšanas, izcenojuma un rēķinu izrakstīšanas pamata darbību ceļvedis
-description: Šajā tēmā ir sniegtas saites uz informāciju par piedāvājumu sniegšanas, izcenojuma un rēķinu izrakstīšanas pamata darbībām programmā Project Service Automation.
+description: Šajā rakstā sniegtas saites uz informāciju par pamata kotēšanu, cenu noteikšanu un norēķiniem projektu pakalpojumu automatizācijā.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910807"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Piedāvājumu sniegšanas, izcenojuma un rēķinu izrakstīšanas pamata darbību ceļvedis
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592241"
 
 Spēja atrast pareizos resursus īstajā laikā, rezervēt šos resursus projektiem, kā arī uzturēt resursu izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. 
 
-PDF saite, kas iepriekš bija šajā tēmā, ir noņemta, un saturs ir pārvietots uz tālāk norādītajām tēmām.
+Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz šādiem rakstiem:
 
 - [Piedāvājumu sniegšana, izcenojums un rēķinu izrakstīšana](../quote-bill-price.md)
 - [Pārdošanas procesi](../basic-sales-process.md)
@@ -50,7 +50,7 @@ PDF saite, kas iepriekš bija šajā tēmā, ir noņemta, un saturs ir pārvieto
 - [Faktisko datu ierakstīšana](../advanced-actuals.md)
 
 > [!NOTE]
-> Šī tēma tiks noņemta turpmākā dokumentācijas atjauninājumā. 
+> Šis raksts tiks noņemts nākamajā dokumentācijas atjauninājumā. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

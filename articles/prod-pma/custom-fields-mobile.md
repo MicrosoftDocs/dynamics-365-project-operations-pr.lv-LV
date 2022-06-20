@@ -1,6 +1,6 @@
 ---
 title: Pielāgoto lauku ieviešana Microsoft Dynamics 365 Project Timesheet mobilajā programmā operētājsistēmā iOS un Android
-description: Šajā tēmā ir sniegti biežākie veidi, kā lietot paplašinājumus, lai ieviestu pielāgotus laukus.
+description: Šajā rakstā ir sniegti bieži sastopami paplašinājumu izmantošanas modeļi pielāgotu lauku ieviešanai.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913721"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Pielāgoto lauku ieviešana Microsoft Dynamics 365 Project Timesheet mobilajā programmā operētājsistēmā iOS un Android
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegti biežākie veidi, kā lietot paplašinājumus, lai ieviestu pielāgotus laukus. Ir ietvertas tālāk norādītās tēmas.
+Šajā rakstā ir sniegti bieži sastopami paplašinājumu izmantošanas modeļi pielāgotu lauku ieviešanai. Ir ietverti šādi raksti:
 
 - Dažādie datu tipi, kurus atbalsta pielāgotā lauku struktūra
 - Kā laika uzskaites tabulās parādīt tikai lasāmus vai rediģējamus ierakstus un saglabāt lietotāja sniegtās vērtības atpakaļ datu bāzē
@@ -35,7 +35,7 @@ ms.locfileid: "8682765"
 
 ## <a name="audience"></a>Auditorija
 
-Šī tēma ir paredzēta izstrādātājiem, kuri integrē savus pielāgotos laukus Microsoft Dynamics 365 Project Timesheet mobilajā programmā, kas pieejama operētājsistēmām Apple iOS un Google Android. Tiek pieņemts, ka lasītāji pārzina X++ izstrādi un projekta laika uzskaites tabulu funkcionalitāti.
+Šis raksts ir paredzēts izstrādātājiem, kuri integrē savus pielāgotos laukus mobilajā lietojumprogrammā Microsoft Dynamics 365 Project Timesheet, kas ir pieejama Apple iOS un Google Android. Tiek pieņemts, ka lasītāji pārzina X++ izstrādi un projekta laika uzskaites tabulu funkcionalitāti.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Datu līgums — TSTimesheetCustomField X++ klase
 
@@ -64,7 +64,7 @@ Rekvizīts **FieldBaseType** objektā **TsTimesheetCustom** nosaka tā lauka vei
 
 - Ja rekvizīts **stringOptions** ir norādīts objektā **TSTimesheetCustomField**, šie saraksta elementi ir vienīgās vērtības, ko lietotāji var atlasīt, izmantojot opciju pogas (radiopogas).
 
-    Šajā gadījumā virknes lauks var darboties kā uzskaitījuma vērtība lietotāja ieraksta vajadzībām. Lai vērtību saglabātu datu bāzē kā uzskaitījumu, manuāli kartējiet virknes vērtību atpakaļ uz uzskaitījuma vērtību, pirms to saglabājat datu bāzē, izmantojot komandu ķēdi (piemēru skatiet sadaļā “Komandu ķēdes izmantošana TSTimesheetEntryService klasē, lai saglabātu laika uzskaites tabulas ierakstu no programmas atpakaļ datu bāzē” tālāk šajā tēmā).
+    Šajā gadījumā virknes lauks var darboties kā uzskaitījuma vērtība lietotāja ieraksta vajadzībām. Lai saglabātu vērtību datu bāzē kā uzskaitījumu, pirms saglabāšanas datu bāzē manuāli kartējiet virknes vērtību atpakaļ uz uzskaitījuma vērtību, izmantojot komandķēdi (piemēram, skatiet sadaļu "Izmantot komandķēdi TSTimesheetEntryService klasē, lai saglabātu darba laika uzskaites tabulas ierakstu no programmas atpakaļ uz datu bāzi" tālāk šajā rakstā).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Iestatiet šo rekvizītu uz **Yes**, lai norādītu, ka laukam laika uzskaites t
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-Šis rekvizīts ir lietojams tikai tad, ja **fieldBaseType** ir iestatīts uz **String**. Ja **stringOptions** ir iestatīts, virkņu vērtības, kas ir pieejamas atlasei, izmantojot opciju pogas (radiopogas), tiek norādītas pēc virknēm sarakstā. Ja nav nevienas virknes, ir atļauts brīvā teksta ieraksts (piemēru skatiet sadaļā “Komandu ķēdes izmantošana TSTimesheetEntryService klasē, lai saglabātu laika uzskaites tabulas ierakstu no programmas atpakaļ datu bāzē” tālāk šajā tēmā).
+Šis rekvizīts ir lietojams tikai tad, ja **fieldBaseType** ir iestatīts uz **String**. Ja **stringOptions** ir iestatīts, virkņu vērtības, kas ir pieejamas atlasei, izmantojot opciju pogas (radiopogas), tiek norādītas pēc virknēm sarakstā. Ja virknes netiek nodrošinātas, brīvā teksta ievade virknes laukā ir atļauta (skatiet piemēru tālāk šajā rakstā sadaļā "Izmantot komandas ķēdi TSTimesheetEntryService klasē, lai saglabātu darba laika uzskaites tabulas ierakstu no programmas atpakaļ datu bāzē").
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

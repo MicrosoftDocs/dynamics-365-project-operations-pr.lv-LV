@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumu izmantošanas, cenu noteikšanas un norēķinu sākumlapa
-description: Šajā tēmā ir sniegta informācija par piedāvājumu izmantošanu, cenu noteikšanu un norēķiniem.
+description: Šajā rakstā ir sniegta informācija par kotēšanu, cenu noteikšanu un norēķiniem.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926739"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Piedāvājumu izmantošanas, cenu noteikšanas un norēķinu sākumlapa
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581109"
 
 Piedāvājumu izmantošana, cenu noteikšana un norēķini ir līdzekļi, ko izmanto gan mazas, gan lielas organizācijas. Izprotot, kā šie līdzekļi programmā darbojas, organizācijas var vienkāršāk pielāgot konfigurācijas.
 
-Nākamajās tēmās ir sniegta plašāka informācija par piedāvājumu izmantošanas, cenu noteikšanas un norēķinu funkcionalitāti programmatūrā PSA.
+Šajos rakstos ir sniegta papildinformācija par kotēšanas, cenu noteikšanas un norēķinu funkcionalitāti PSA:
 
 - [Pārdošanas process](basic-sales-process.md)
 - [Piedāvājuma rindas](basic-quote-lines.md)

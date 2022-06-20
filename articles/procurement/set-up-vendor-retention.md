@@ -1,24 +1,24 @@
 ---
 title: Iestatīt piegādātāju ieturēšanu
-description: Šajā tēmā ir izskaidrots, kā iestatīt piegādātāja ieturēšanu.
+description: Šajā rakstā paskaidrots, kā iestatīt kreditora ieturējumu.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929775"
 ---
 # <a name="set-up-vendor-retention"></a>Iestatīt piegādātāju ieturēšanu
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā tēmā ir informācija, kā iestatīt piegādātāja ieturēšanu.
+Šajā rakstā ir sniegta informācija par to, kā iestatīt piegādātāja ieturējumu.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Piegādātāja ieturēšanas konta iestatīšana vispārējā virsgrāmatā
 

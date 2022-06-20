@@ -1,6 +1,6 @@
 ---
 title: Jaunināšana no projektu pakalpojumu automatizācijas uz projekta operācijām
-description: Šajā tēmā sniegts pārskats par jaunināšanas procesu no Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations.
+description: Šajā rakstā sniegts pārskats par jaunināšanas procesu no Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912985"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Jaunināšana no projektu pakalpojumu automatizācijas uz projekta operācijām
 
-Mēs esam priecīgi paziņot par pirmo no trim posmiem, lai uzlabotu no Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations. Šī tēma sniedz pārskatu klientiem, kuri uzsāk šo aizraujošo ceļojumu. Turpmākās tēmas ietvers izstrādātāju apsvērumus un detalizētu informāciju par līdzekļu uzlabojumiem. Tie ne tikai sniegs norādījumus, kas palīdzēs sagatavoties jaunināšanai uz projekta operācijām, bet arī paskaidros, ko varat sagaidīt pēc jaunināšanas.
+Mēs esam priecīgi paziņot par pirmo no trim posmiem, lai uzlabotu no Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations. Šajā rakstā ir sniegts pārskats par klientiem, kuri uzsāk šo aizraujošo ceļojumu. Turpmākajos rakstos tiks iekļauti izstrādātāju apsvērumi un detalizēta informācija par līdzekļu uzlabojumiem. Tie ne tikai sniegs norādījumus, kas palīdzēs sagatavoties jaunināšanai uz projekta operācijām, bet arī paskaidros, ko varat sagaidīt pēc jaunināšanas.
 
 Jaunināšanas piegādes programma tiks sadalīta trīs posmos.
 
@@ -90,7 +90,7 @@ Pēc pielāgojumu atjaunināšanas, lai tīri importētu projekta operācijas, p
     > [!NOTE]
     > Atkarībā no datu apjoma vidē jaunināšana var ilgt vairākas stundas. Galvenajai komandai, kas pārvalda jaunināšanu, ir attiecīgi jāplāno un jāpalaiž jaunināšana ārpus darba laika. Dažos gadījumos, ja datu apjoms ir liels, jaunināšana jāveic nedēļas nogalē. Lēmums par grafiku sastādīšanu jāpieņem, pamatojoties uz testēšanas rezultātiem zemākā vidē.
 
-3. Pēc vajadzības jauniniet pielāgotus risinājumus. Šajā brīdī šīs tēmas [sadaļā Testēšana un pielāgošana pielāgojumi](#testing-and-refactoring-customizations) izvietojiet visas pielāgojumos veiktās izmaiņas.
+3. Pēc vajadzības jauniniet pielāgotus risinājumus. Šajā brīdī izvietojiet visas izmaiņas, ko veicāt pielāgojumos [šī raksta sadaļā Pielāgošanas](#testing-and-refactoring-customizations) pārbaude un pārveidošana.
 4. Dodieties uz **Iestatījumu** \> **risinājumi** un atlasiet, lai atinstalētu **projektu operāciju novecojušo komponentu** risinājumu.
 
     Šis risinājums ir pagaidu risinājums, kurā ir esošais datu modelis un komponenti, kas atrodas jaunināšanas laikā. Noņemot šo risinājumu, tiek noņemti visi lauki un komponenti, kas vairs netiek izmantoti. Tādā veidā jūs palīdzat vienkāršot saskarni un atvieglot integrāciju un paplašinājumu.
@@ -126,7 +126,6 @@ Turpinot ieguldījumus projektu operācijās, ir pieejamas vairākas jaunas iesp
 | Project Service Automation                             | Projekta operāciju Lite izvietošana                        | Atbalstīts               |
 | Dynamics 365 Finance projektu vadība un grāmatvedība | Projekta operāciju Lite izvietošana                        | Pašlaik netiek atbalstīts |
 | Finanšu projektu vadība un grāmatvedība              | Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem     | Pašlaik netiek atbalstīts |
-| Finanšu projektu vadība un grāmatvedība              | Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem | Pašlaik netiek atbalstīts |
 | Projektu pakalpojumu automatizācija 3.x                         | Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem     | Pašlaik netiek atbalstīts |
 | Projekts tīmeklim (īpaša vide)            | Projekta operāciju Lite izvietošana                        | Pašlaik netiek atbalstīts |
 

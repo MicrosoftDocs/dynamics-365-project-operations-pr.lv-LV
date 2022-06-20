@@ -1,24 +1,24 @@
 ---
 title: 2020. gada decembra jaunumi — Project Operations krājumu/ražošanas scenārijiem
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada decembra laidienā Project Operations krājumu un ražošanas scenārijiem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada decembra projektu operāciju laidienā uzkrātajiem/uz ražošanu balstītiem scenārijiem.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911375"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Kas jauns vai mainījies pakalpojumā Project Operations 2020. gada decembrī attiecībā uz krājumu/ražošanas scenārijiem
 
 _Attiecas uz: Project Operations krājumu/ražošanas scenārijiem_
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
   - Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.15
 

@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 42, V3
-description: Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas pieejami Microsoft Dynamics 365 Project Service Automation 42. atjauninājumu laidienā, V3.
+description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami atjaunināšanas laidienā Microsoft Dynamics 365 Project Service Automation 42, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 32cb7a4c5fc29d5c0dcec37dd395ae69037435a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e9911531e4acbd78db416f554c8d85c4f1fee1cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912724"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-42-v3"></a>Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 42, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8589205"
 
 Ar prieku izziņojam jaunāko programmas Microsoft Dynamics 365 Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Tas ir saderīgs ar Dynamics 365 9.x. Lai atjauninātu šo laidienu, apmeklējiet Dynamics 365 tiešsaistes risinājumu lapas administrēšanas centru un instalējiet atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
-Šajā tēmā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation, atjauninājuma izlaidumā 42, V3. Šai versijai ir būvēšanas numurs V3.10.73.61, un tā parasti ir pieejama, izmantojot pašreklāmu 2022. gada aprīlī.
+Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti projektu pakalpojumu automatizācijas atjaunināšanas laidienam 42, V3. Šai versijai ir būvēšanas numurs V3.10.73.61, un tā parasti ir pieejama, izmantojot pašreklāmu 2022. gada aprīlī.
 
 ## <a name="update-release-42"></a>Atjauninājumu izlaidums 42
 

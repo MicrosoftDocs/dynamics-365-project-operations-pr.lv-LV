@@ -1,25 +1,25 @@
 ---
-title: Apakšlīguma stāvokļa pārejas
-description: Šajā tēmā ir izskaidrotas stāvokļa pārejas uz apakšuzņēmuma līgumu programmā Microsoft Dynamics 365 Project Operations, jo apakšuzņēmuma līgums ir izveidots, izpildīts un slēgts.
+title: Apakšlīguma statusa pārejas
+description: Šajā rakstā ir izskaidrotas statusu pārejas uz apakšuzņēmuma līgumu programmā Microsoft Dynamics 365 Project Operations, jo apakšuzņēmuma līgums ir izveidots, izpildīts un slēgts.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919747"
 ---
-# <a name="state-transitions-on-a-subcontract"></a>Apakšlīguma stāvokļa pārejas 
+# <a name="state-transitions-on-a-subcontract"></a>Apakšlīguma statusa pārejas 
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā tēmā ir izskaidrotas stāvokļa pārejas uz apakšuzņēmuma līgumu programmā Microsoft Dynamics 365 Project Operations. Katrs štats tiek attēlots kā melnraksts, apstiprināts, slēgts vai atcelts. Šis attēls attēlo stāvokļa pārejas.
+Šajā rakstā ir izskaidrotas statusu pārejas uz apakšuzņēmuma līgumu programmā Microsoft Dynamics 365 Project Operations. Katrs statuss tiek attēlots kā melnraksts, apstiprināts, slēgts vai atcelts. Šis attēls attēlo statusu pārejas.
 
 ![Apakšuzņēmuma stāvokļa modelis](../media/SubconStates.png)  
 

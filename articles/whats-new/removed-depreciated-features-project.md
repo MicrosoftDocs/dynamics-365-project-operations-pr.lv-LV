@@ -1,24 +1,24 @@
 ---
 title: Noņemti vai novecojuši līdzekļi Dynamics 365 Project Operations
-description: Šajā tēmā aprakstīti līdzekļi, kas ir noņemti vai ko plānots noņemt no programmas Dynamics 365 Project Operations.
+description: Šajā rakstā aprakstīti līdzekļi, kas ir noņemti vai ko plānots noņemt no programmas Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921495"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Noņemti vai novecojuši līdzekļi Dynamics 365 Project Operations
 
 _**Attiecas uz:** Project Operations scenārijiem, kas balstīti uz resursiem/bez krājumiem, Lite izvietošana — darbs ar pro forma rēķiniem un Project Operations scenārijiem, kas balstīti uz krājumiem/ražošanu_
 
-Šajā tēmā aprakstīti līdzekļi, kas ir noņemti vai ko plānots noņemt no programmas Dynamics 365 Project Operations.
+Šajā rakstā aprakstīti līdzekļi, kas ir noņemti vai ko plānots noņemt no programmas Dynamics 365 Project Operations.
 
 - *Noņemtais* līdzeklis vairs nav pieejams produktā.
 - *Novecojis* līdzeklis nav aktīvā izstrādē, un to var noņemt turpmākā atjauninājumā.

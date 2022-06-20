@@ -1,17 +1,17 @@
 ---
-title: Apakšsadarbību pārvaldība programmā Project Operations
-description: Šajā tēmā ir sniegts pārskats par pilnīgu apakšlīgumu pārvaldības procesu, kāds tas parasti ir uz projektiem balstītās organizācijās.
+title: Apakšsadarbību pārvaldība projekta operācijās
+description: Šajā rakstā sniegts pārskats par visaptverošu apakšuzņēmuma līgumu pārvaldības procesu, kas parasti notiek uz projektiem balstītās organizācijās.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911514"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Apakšsadarbību pārvaldība projekta operācijās
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593023"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā tēmā ir sniegts pārskats par pilnīgu apakšlīgumu pārvaldības procesu, kāds tas ir uz projektiem balstītās organizācijās. Pakalpojumu apakšlīgumu slēgšana parasti ietilpst biznesa procesu plūsmā, kas parādīta tālāk redzamajā diagrammā.
+Šajā rakstā sniegts pārskats par apakšuzņēmuma pārvaldības procesu no gala līdz galam uz projektiem balstītās organizācijās. Pakalpojumu apakšlīgumu slēgšana parasti ietilpst biznesa procesu plūsmā, kas parādīta tālāk redzamajā diagrammā.
 
 ![Apakšlīgumu slēgšanas procesa plūsma](../media/SubcontractingProcessFlow.png)
 

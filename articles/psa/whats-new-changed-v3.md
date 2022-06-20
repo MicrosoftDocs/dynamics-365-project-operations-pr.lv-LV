@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation 3. versijā
-description: Šajā tēmā ir sniegta informācija par to, kas jauns un mainīts Project Service Automation 3. versijā.
+description: Šajā rakstā ir sniegta informācija par jaunumiem un izmaiņām projektu pakalpojumu automatizācijas 3. versijā.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926601"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Kas jauns vai mainīts Project Service Automation 3. versijā
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581661"
 
 
 
-Šajā tēmā ir sniegta informācija par izmaiņām Project Service Automation (PSA) lietotāja interfeisā (UI), funkcionalitātē un terminoloģijā starp 1. vai 2. versiju un 3. versiju.
+Šajā rakstā sniegta informācija par izmaiņām lietotāja interfeisā (UI), funkcionalitātē un terminoloģijā projektu pakalpojumu automatizācijā starp 2. versiju vai 1. versiju un 3. versiju.
 
 ## <a name="project-scheduling"></a>Projekta plānošana
 Projekta plāns, kas iepriekšējās versijās tika dēvēts par darba sadalījuma struktūru (WBS), ir pārdēvēts par plānu un ir pieejams, noklikšķinot uz cilnes **Plāns**. 
@@ -150,7 +150,7 @@ Ja resursam ir uzdevuma piešķires bez rezervācijām (rezervācijas deficīts)
 Šajā sadaļā ir sniegta informācija par laika, izdevumu un apstiprinājuma izmaiņām Project Service Automation 3. versijā. Kā daļa no Dynamics 365 Project Service Automation risinājuma, līdzeklis **Laika ieraksts** ir atsvaidzināts, lai gūtu labumu no vienotā interfeisa struktūras. Tas iespējo konsekventa, vienota lietotāja interfeisa nodrošināšanu, kas seko atsaucīgam dizainam optimālai skatīšanai jebkāda izmēra ekrānā vai ierīcē. 
 
 ### <a name="landing-page"></a>Reklāmas mērķlapa
-Nepaplašināmā pielāgotā laika ieraksta pieredze 3. versijā ir novecojusi. Tās vietā tagad ir paplašināma un pieejama vietējā režģa pieredze. Varat piekļūt laika ieraksta funkcionalitātei, izmantojot vietnes karti kreisajā pusē. Ar šo izmaiņu vairs nebūs iespējams katrā reizē ievadīt laiku nedēļai. Tā vietā ir jāizveido laika ieraksts katrai dienai režģī. Pēc dažu laika ierakstu izveidošanas lietotāji var izveidot lielapjoma laika ierakstus, izmantojot funkciju **Kopēt**, kas paskaidrota šīs tēmas turpinājumā. 
+Nepaplašināmā pielāgotā laika ieraksta pieredze 3. versijā ir novecojusi. Tās vietā tagad ir paplašināma un pieejama vietējā režģa pieredze. Varat piekļūt laika ieraksta funkcionalitātei, izmantojot vietnes karti kreisajā pusē. Ar šo izmaiņu vairs nebūs iespējams katrā reizē ievadīt laiku nedēļai. Tā vietā ir jāizveido laika ieraksts katrai dienai režģī. Pēc dažu ierakstu izveides lietotāji var lielapjoma izveidot laika ierakstus ar **kopēšanas** funkciju, kas izskaidrota tālāk šajā rakstā. 
 
 ![Laika ieraksta reklāmas mērķlapa.](media/time-entry-landing-page-07.png)
  

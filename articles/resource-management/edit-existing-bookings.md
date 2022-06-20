@@ -1,24 +1,24 @@
 ---
 title: Rezervāciju rediģēšana
-description: Šajā tēmā ir sniegta informācija par to, kā atjaunināt un veikt rezervāciju izmaiņas.
+description: Šajā rakstā ir sniegta informācija par to, kā atjaunināt un veikt izmaiņas rezervācijās.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915239"
 ---
 # <a name="edit-bookings"></a>Rezervāciju rediģēšana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 
-Ja projektā rodas izmaiņas, kuru dēļ jums ir jāatjaunina esošās rezervācijas, ir vairāki veidi, kādos veikt izmaiņas. Šajā tēmā izklāstīts, kā atjaunināt un veikt rezervāciju izmaiņas.
+Ja projektā rodas izmaiņas, kuru dēļ jums ir jāatjaunina esošās rezervācijas, ir vairāki veidi, kādos veikt izmaiņas. Šajā rakstā ir izklāstīts, kā atjaunināt un veikt izmaiņas rezervācijās.
 
 ## <a name="resource-reconciliation"></a>Resursu saskaņošana
 
