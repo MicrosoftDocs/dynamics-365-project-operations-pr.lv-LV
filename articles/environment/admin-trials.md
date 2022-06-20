@@ -1,17 +1,17 @@
 ---
 title: Reģistrēšanās Project Operations izmēģinājumversijām
-description: Šajā tēmā ir sniegta informācija par to, kā izvietot Dynamics 365 Project Operations izmēģinājumversiju.
+description: Šajā rakstā sniegta informācija par to, kā izvietot izmēģinājuma versiju programmā Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584283"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959700"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Reģistrēšanās Project Operations izmēģinājumversijām 
 
@@ -19,9 +19,9 @@ _**Attiecas uz:** Project Operations resursu balstītiem/krājumu nebalstītiem
 
 
 
-Šajā tēmā ir izskaidrots, kā abonēt priekšskatījuma partneru piedāvājumu un izvietot Dynamics 365 Project Operations vidi.
+Šajā rakstā paskaidrots, kā abonēt priekšskatījuma partnera piedāvājumu un izvietot Dynamics 365 Project Operations vidi.
 
-Izmantojot jauno Project Operations izmēģinājumversiju, varat automātiski izvietot jebkuru no trim atbalstītajiem izvietošanas scenārijiem, aizpildot anketu, kas iesaka labāko izvietošanas pieeju. Šajā tēmā ir sniegta informācija par to, kā:
+Izmantojot jauno Project Operations izmēģinājumversiju, varat automātiski izvietot jebkuru no trim atbalstītajiem izvietošanas scenārijiem, aizpildot anketu, kas iesaka labāko izvietošanas pieeju. Šajā rakstā ir sniegta informācija par to, kā:
 
 - izmantot izmēģinājumversijas piedāvājumu;
 - sākt nodrošināšanu;
@@ -89,8 +89,9 @@ Pirms darba sākšanas piesakieties pārlūkprogrammā ar lietotāja darba kontu
 4.  Atlasiet atbilstošo Microsoft Dataverse URL un finanšu un operāciju programmu vietrāžus URL, lai validētu izvietošanu.
 
 ## <a name="configuring-dual-write"></a>Duālās rakstīšanas konfigurēšana
-- Lai konfigurētu divrakstāstu drošības lomas, skatiet rakstu [Drošības iestatījumu atjaunināšana projektā Project Operations in Dataverse](resource-provision-new-environment.md).
-- Lai konfigurētu divrakstā rakstītās kartes, skatiet rakstu [Projekta operāciju divrakstīto karšu palaišana](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Lai konfigurētu divrakstāstu drošības lomas, skatiet rakstu [Drošības iestatījumu atjaunināšana projektā Project Operations in Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Lai piekļūtu duālās rakstīšanas konfigurācijai, naviģējiet uz finanšu un operāciju instanci, pēc tam naviģējiet uz **datu pārvaldības** > **duālo rakstīšanu**.
+- Lai konfigurētu divrakstā rakstītās kartes, skatiet rakstu [Projekta operāciju divrakstīto karšu](resource-provision-new-environment.md#run-project-operations-dual-write-maps) palaišana.
 
 ## <a name="assign-licenses"></a>Licenču piešķiršana
 

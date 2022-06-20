@@ -1,6 +1,6 @@
 ---
 title: Projekta pārdošanas pasūtījumi laika un materiālu projektiem
-description: Šajā tēmā izskaidrots, kā izveidot projektā balstītus pārdošanas pasūtījumus laika un materiālu projektiem.
+description: Šajā rakstā paskaidrots, kā izveidot uz projektiem balstītus pārdošanas pasūtījumus laika un materiālu projektiem.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933823"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projekta pārdošanas pasūtījumi laika un materiālu projektiem
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot pārdošanas pasūtījumu projektam. Pārdošanas pasūtījumus var izveidot vienīgi projektiem ar veidu **laiks un materiāli**.
+Šajā rakstā ir aprakstīts, kā izveidot projekta pārdošanas pasūtījumu. Pārdošanas pasūtījumus var izveidot vienīgi projektiem ar veidu **laiks un materiāli**.
 
 Ja laika un materiālu projektam projekta līgumā ir vairāki finansējuma avoti, ir jāiespējo parametrs **Atļaut pārdošanas pasūtījumus projektiem ar vairākiem finansējuma avotiem** lapā **Projekta pārvaldības un uzskaites parametri**. 
 

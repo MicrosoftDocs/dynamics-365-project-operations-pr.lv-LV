@@ -1,24 +1,24 @@
 ---
 title: Resursu piešķiru izveidošana
-description: Šajā tēmā ir sniegta informācija par vispārīgu un nosauktu resursu piešķiru izveidi.
+description: Šajā rakstā sniegta informācija par vispārīgu un nosauktu resursu piešķirju izveidi.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933501"
 ---
 # <a name="create-resource-assignments"></a>Resursu piešķiru izveidošana
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 
-Resursu piešķire ir projekta darba grupas dalībnieka tieša saistība ar lapas mezgla uzdevumu. Šajā tēmā ir sniegta informācija par dažādajiem veidiem, kādos var piešķirt resursus.
+Resursu piešķire ir projekta darba grupas dalībnieka tieša saistība ar lapas mezgla uzdevumu. Šajā rakstā ir sniegta informācija par dažādiem resursu piešķiršanas veidiem.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Vispārēja darba grupas dalībnieka izveide, izmantojot uzdevumu piešķiri
 

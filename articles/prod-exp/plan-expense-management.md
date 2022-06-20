@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934007"
 ---
 # <a name="configure-expense-management"></a>Izdevumu pārvaldības konfigurēšana
 
-Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas ir jāpieņem plānošanas procesa laikā pirms izdevumu pārvaldības konfigurēšanas. Izdevumu pārvaldībā var glabāt informāciju par maksājuma metodēm, ceļa pieprasījumiem, izdevumu atskaitēm, politikām un citu informāciju.
+Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas jāpieņem plānošanas procesā pirms izdevumu pārvaldības konfigurēšanas. Izdevumu pārvaldībā var glabāt informāciju par maksājuma metodēm, ceļa pieprasījumiem, izdevumu atskaitēm, politikām un citu informāciju.
 
 Tā kā daudzi no jūsu pieņemtajiem lēmumiem attiecībā uz izdevumu pārvaldības konfigurācijas plānošanu ir balstīti uz jūsu organizācijas hierarhiju un finanšu struktūru, ir jāatsaucas uz šo apgabalu plānošanas dokumentiem.
 

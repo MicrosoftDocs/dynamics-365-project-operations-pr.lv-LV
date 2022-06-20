@@ -1,24 +1,24 @@
 ---
 title: 2021. gada maija jaunumi — Project Operations Lite izvietošana
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada maija Project Operations Lite izvietošanas laidienam.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations lite izvietošanas 2021. gada maija laidienā.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 854a8c2290281b4d11a045321a334d8866806041
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a5d67159b732e0309e03c64fb6dadcc7b8cbff51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934191"
 ---
 # <a name="whats-new-may-2021---project-operations-lite-deployment"></a>2021. gada maija jaunumi — Project Operations Lite izvietošana
 
 _Attiecas uz: Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šī tēma attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Dataverse vides versijā 4.10.0.186.
 

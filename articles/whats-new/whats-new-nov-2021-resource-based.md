@@ -1,24 +1,24 @@
 ---
 title: Jaunumi 2021. novembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2021. gada novembra projekta darbību laidienā resursu/neuzkrātiem scenārijiem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2021. gada novembra projekta operāciju laidienā resursu/neuzkrātiem scenārijiem.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932903"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. novembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
 *Attiecas uz: Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem*
 
-Šī tēma attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
 
 - Projekta operācijas Dataverse vides versijā 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.22

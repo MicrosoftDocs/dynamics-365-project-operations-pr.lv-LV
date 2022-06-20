@@ -1,6 +1,6 @@
 ---
 title: Projektu plānošana un izsekošana
-description: Šajā tēmā ir saite uz informāciju par plānošanu un izsekošanu programmatūrā Project Service Automation.
+description: Šajā rakstā ir sniegta saite uz informāciju par plānošanu un izsekošanu projektu pakalpojumu automatizācijā.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933271"
 ---
 # <a name="project-planning-and-tracking"></a>Projektu plānošana un izsekošana
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589895"
 
 Programma Project Service palīdz apkalpošanas organizācijām identificēt iespējas, iesniegt piedāvājumus, panākt līgumu noslēgšanu, pārvaldīt resursus, sekot līdzi laikam un izdevumiem, izrakstīt klientiem rēķinus un izpildīt projektus savlaicīgi un budžeta ietvaros. 
 
-PDF saite, kas iepriekš bija šajā tēmā, ir noņemta, un saturs ir pārvietots uz tālāk norādītajām tēmām.
+Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz šādiem rakstiem:
 
 - [Projektu grafiki](../project-creating.md)
 - [Projekta izmaksas un ieņēmumi](../project-estimating.md)
@@ -43,7 +43,7 @@ PDF saite, kas iepriekš bija šajā tēmā, ir noņemta, un saturs ir pārvieto
 - [Projekta iestatījumi](../project-settings.md)
 
 > [!NOTE]
-> Šī tēma tiks noņemta turpmākā dokumentācijas atjauninājumā. 
+> Šis raksts tiks noņemts nākamajā dokumentācijas atjauninājumā. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

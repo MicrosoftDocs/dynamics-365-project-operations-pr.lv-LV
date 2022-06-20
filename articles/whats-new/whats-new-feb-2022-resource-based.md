@@ -1,24 +1,24 @@
 ---
 title: Jaunumi 2022. februārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
-description: Šajā tēmā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2022. gada februāra projekta operāciju laidienā resursu/neuzkrātiem scenārijiem.
+description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2022. gada februāra projekta operāciju laidienā resursu/neuzkrātiem scenārijiem.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932995"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2022. februārī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
 *Attiecas uz: Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem*
 
-Šī tēma attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
+Šis raksts attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
 
 - Projekta operācijas Dataverse vides versijā 4.28.0.120
 - Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.24
@@ -49,7 +49,7 @@ Ja, startējot karti, rodas problēma, izpildiet norādījumus, kas [sniegti du�
 | --- | --- | --- |
 | Cenu noteikšana un norēķini | 2415109 | Noklusējuma vērtībai **laukā Operāciju apmaksas nosacījumi** jābūt projekta līguma debitora ierakstam un proformas rēķina ierakstam. |
 | Cenu noteikšana un norēķini | 2497369 | Materiāla korekcijai jāatbilst datuma vērtībai **korekcijas** parametros. |
-| Cenu noteikšana un norēķini | 2498697 | Uzlabota laika ieraksta atsaukšanas **drošības** konfigurācija. |
+| Cenu noteikšana un norēķini | 2498697 | Uzlabota laika ieraksta atsaukšanas **drošības konfigurācija**. |
 | Cenu noteikšana un norēķini | 2513824 | Uz resursiem balstītiem scenārijiem darbību kategorijas ID projekta operācijās nedrīkst pārsniegt 28 rakstzīmes. |
 | Cenu noteikšana un norēķini | 2517455 | Nedrīkst **pieļaut, ka darbību Atsvaidzināt rēķina rindas darbības** vienam un tam pašam rēķinam tiek aktivizētas vairākas vienlaicīgas reizes. |
 | Cenu noteikšana un norēķini | 2517465 | Deaktivizēt **rēķina rindas detalizēto informāciju** darbība ir bloķēta, jo tā netiek atbalstīta. |
@@ -76,11 +76,11 @@ Ja, startējot karti, rodas problēma, izpildiet norādījumus, kas [sniegti du�
 
 ## <a name="removed-and-deprecated-features"></a>Noņemti un novecojuši līdzekļi
 
-Tēmā [Projekta operācijas](removed-depreciated-features-project.md) noņemtie vai novecojušie līdzekļi apraksta līdzekļus, kas ir noņemti Dynamics 365 Project Operations vai novecojuši programmai.
+Rakstā Projekta [operācijas](removed-depreciated-features-project.md) noņemtie vai novecojušie līdzekļi apraksta līdzekļus, kas ir noņemti vai novecojuši programmai Dynamics 365 Project Operations.
 
 - Noņemtais līdzeklis vairs nav pieejams produktā.
 - Novecojis līdzeklis netiek aktīvi izstrādāts, un nākamajā atjauninājumā tas var tikt noņemts.
 
-Paziņojums par nolietošanos tiks parādīts tēmā [Projekta operācijas](removed-depreciated-features-project.md) noņemtie vai novecojušie līdzekļi 12 mēnešus pirms jebkura līdzekļa noņemšanas no produkta.
+Paziņojums par nolietošanos tiks parādīts [projekta operāciju](removed-depreciated-features-project.md) rakstā Noņemtie vai novecojušie līdzekļi 12 mēnešus pirms jebkura līdzekļa noņemšanas no produkta.
 
 Ja tiek pārtrauktas izmaiņas, kas ietekmē tikai kompilācijas laiku, bet ir bināras saderīgas ar smilškasti un ražošanas vidēm, nolietojuma laiks būs mazāks par 12 mēnešiem. Parasti šīs izmaiņas ir funkcionāli atjauninājumi, kas jāveic kompilatoram.

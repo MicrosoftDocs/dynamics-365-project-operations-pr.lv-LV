@@ -1,17 +1,17 @@
 ---
 title: Projekta līgumi — pamata koncepti — Lite
-description: Šajā tēmā ir sniegta informācija par projekta līgumu pamata konceptiem.
+description: Šajā rakstā sniegta informācija par projektu līgumu galvenajiem jēdzieniem.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932673"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Projektu līgumiem raksturīgie koncepti
 
@@ -19,7 +19,7 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 
 
 
-Šajā tēmā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus programmā Dynamics 365 Project Operations:
+Šajā rakstā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus Dynamics 365 Project Operations programmā :
 
 ## <a name="contracting-unit"></a>Līgumslēdzēja vienība
 

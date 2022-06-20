@@ -1,25 +1,25 @@
 ---
-title: Stāvokļa pārejas kreditora rēķinā
-description: Šajā tēmā ir izskaidrotas statusa pārejas kreditora rēķinā programmā Microsoft Dynamics 365 Project Operations.
+title: Statusa pārejas uz kreditora rēķinu
+description: Šajā rakstā ir izskaidrotas stāvokļa pārejas kreditora rēķinā programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934329"
 ---
-# <a name="state-transitions-on-a-vendor-invoice"></a>Stāvokļa pārejas kreditora rēķinā
+# <a name="state-transitions-on-a-vendor-invoice"></a>Statusa pārejas uz kreditora rēķinu
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā tēmā ir izskaidrotas statusa pārejas kreditora rēķinā programmā Microsoft Dynamics 365 Project Operations. Tiek izmantoti šādi stāvokļi: **Melnraksts**, **Pārskatīšana**, **Apstiprināts**, **Aizturēts** un **Atcelts**.
+Šajā rakstā ir izskaidrotas stāvokļa pārejas kreditora rēķinā programmā Microsoft Dynamics 365 Project Operations. Tiek izmantoti šādi stāvokļi: **Melnraksts**, **Pārskatīšana**, **Apstiprināts**, **Aizturēts** un **Atcelts**.
 
 Tālāk ilustrācijās ir parādītas statusa pārejas.
 

@@ -1,17 +1,17 @@
 ---
 title: Projekta iespēju pārvaldība
-description: Šajā tēmā ir sniegta informācija par to, kā strādāt ar iespējām, kas ir saistītas ar projektiem.
+description: Šajā rakstā ir sniegta informācija par to, kā strādāt ar iespējām, kas saistītas ar projektiem.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933225"
 ---
 # <a name="manage-project-based-opportunities"></a>Projekta iespēju pārvaldība
 
@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 Uzņēmumiem, kas strādā ar projektiem, piegādes operācijas parasti ir izvērstas vairākās valstīs un ģeogrāfiskajās atrašanās vietās. Projekta izpildes un piegādes izmaksas var mainīties atkarībā no tā, kāda ģeogrāfiskā vieta vai nodaļa pārvalda piegādi. Savukārt tas var ietekmēt darījuma uzcenojumu. Projekta pakalpojumu piegāde parasti ietver daudz cilvēkresursu nodaļas laika, ievērojamas izmaksas par ceļojumiem, materiālu izmaksas un citus izdevumus.
 
-Projekta iespējas programmā ir Dynamics 365 Project Operations izstrādātas ar paplašinājumiem programmai Dynamics 365 Sales. Šajā tēmā ir sniegta detalizēta informācija par dažādiem laukiem un biznesa loģiku, kas ir iekļauta papildu funkcionalitātē un kas ir nepieciešama uzņēmumiem, kas strādā projektiem, lai pārvaldītu projektu iespējas.
+Projekta iespējas programmā ir Dynamics 365 Project Operations izstrādātas ar paplašinājumiem programmai Dynamics 365 Sales. Rakstā sniegta detalizēta informācija par dažādām jomām un biznesa loģiku, kas iekļauta papildu funkcionalitātē, kuru pieprasa uz projektiem balstīti uzņēmumi, lai pārvaldītu uz projektiem balstītas iespējas.
 
 ## <a name="view-all-project-based-opportunities"></a>Visu projekta iespēju skatīšana
 

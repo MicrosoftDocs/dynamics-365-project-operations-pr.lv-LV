@@ -1,18 +1,18 @@
 ---
-title: Project Operations atjauninājumi
-description: Šajā tēmā ir sniegta informācija par Dynamics 365 Project Operations izlaistajām versijām.
+title: Project Operations atjauninājumi
+description: Šajā rakstā sniegta informācija par izlaistajām programmas versijām Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732940"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959705"
 ---
 # <a name="project-operations-updates"></a>Project Operations atjauninājumi
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sastāv no diviem komponentiem.
 
 | Project Operations Dataverse vidē | Projektu vadība un uzskaite finanšu un operāciju lietotņu vidēs | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Projekta operāciju resursa/neuzkrāta scenārija gadījumā ieteicams izmantot divrakstā orķestrācijas versiju 2.3.1.15 vai jaunāku.
 
@@ -47,24 +47,24 @@ Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī.
 | Stacija | Reģions | Pašreizējās versijas numurs | Lite izvietošanas automātiskie atjauninājumi | Resursu/krājumos nebalstītas izvietošanas automātiskie atjauninājumi | Nākamās versijas numurs | Vispārēji pieejamā nākamā versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmais laidiens         |  4.42.0.70      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 27. maijs        |
+|   &nbsp;  | Pirmais laidiens         |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
 | 2. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dienvidamerika         |  4.42.0.70      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 27. maijs        |
-|   &nbsp;  | Kanāda                |  4.42.0.70      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 27. maijs        |
-|   &nbsp;  | Indija                 |  4.42.0.70      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 27. maijs        |
-|   &nbsp;  | Francija                |  4.42.0.70      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 27. maijs        |
-|   &nbsp;  | Dienvidāfrika          |  4.42.0.70      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 27. maijs        |
-|   &nbsp;  | Šveice           |  4.42.0.70      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 27. maijs        |
+|   &nbsp;  | Dienvidamerika         |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
+|   &nbsp;  | Kanāda                |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
+|   &nbsp;  | Indija                 |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
+|   &nbsp;  | Francija                |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
+|   &nbsp;  | Dienvidāfrika          |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
+|   &nbsp;  | Šveice           |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
 | 3. stacija |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japāna                 |  4.42.0.70      | 2022. gada 13. maijs       | 2022. gada 13. maijs        | TBD                 | 2022. gada 03. jūnijs       |
-|   &nbsp;  | Āzija un Klusais okeāns          |  4.42.0.70      | 2022. gada 13. maijs       | 2022. gada 13. maijs        | TBD                 | 2022. gada 03. jūnijs       |
-|   &nbsp;  | Lielbritānija         |  4.42.0.70      | 2022. gada 13. maijs       | 2022. gada 13. maijs        | TBD                 | 2022. gada 03. jūnijs       |
-|   &nbsp;  | Okeānija               |  4.42.0.70      | 2022. gada 13. maijs       | 2022. gada 13. maijs        | TBD                 | 2022. gada 03. jūnijs       |
-|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.42.0.70      | 2022. gada 13. maijs       | 2022. gada 13. maijs        | TBD                 | 2022. gada 03. jūnijs       |
+|   &nbsp;  | Japāna                 |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
+|   &nbsp;  | Āzija un Klusais okeāns          |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
+|   &nbsp;  | Lielbritānija         |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
+|   &nbsp;  | Okeānija               |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
+|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
 | 4. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eiropa                |  4.41.0.45      | Pabeigta           | Pabeigta            | 4.42.0.70           | 2022. gada 13. maijs        |
+|   &nbsp;  | Eiropa                |  4.42.0.70      | Pabeigta           | Pabeigta            | 4.43.0.77           | 2022. gada 10. jūnijs       |
 | 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ziemeļamerika         |  4.41.0.45      | Pabeigta           | Pabeigta            | 4.42.0.70           | 2022. gada 20. maijs        |
+|   &nbsp;  | Ziemeļamerika         |  4.42.0.70      | Pabeigta           | Pabeigta            | 4.43.0.77           | 2022. gada 17. jūnijs       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektu pārvaldības un uzskaites izlaišanas grafiks finanšu un operāciju programmu vidē
 

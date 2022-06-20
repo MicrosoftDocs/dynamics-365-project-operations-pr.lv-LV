@@ -1,17 +1,17 @@
 ---
 title: Project Operations duālās rakstīšanas kartes versijas
-description: Šajā tēmā ir ietverts saraksts ar duālās rakstīšanas kartēm, kas ir nepieciešamas Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegts saraksts ar duālās rakstīšanas kartēm, kas nepieciešamas Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: MT
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612763"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959664"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations duālās rakstīšanas kartes versijas
 
@@ -54,7 +54,7 @@ Risinājumā Project Operations nepieciešamas tālāk uzskaitītās kartes. Ar 
 | Project Operations integrācijas entītija stundu aprēķiniem (msdyn_resourceassignments) | 1.0.0.5 | Nav nepieciešama nodrošināšanai. ||
 | Project Operations integrācijas projekta izdevumu kategorijas eksporta entītija (msdyn_expensecategories) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. ||
 | Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn_expenses) | 1.0.0.3 | Nav nepieciešama nodrošināšanai. ||
-| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn_projectvendorinvoices) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
+| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn_projectvendorinvoices) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. |10.0.26 vai jaunāka versija|
 | Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. | 10.0.26 vai jaunāka versija |
 | Projekta resursu lomas visiem uzņēmumiem (bookableresourcecategories) | 1.0.0.1 | Lai sinhronizētu projektu vadītāja un darba grupas dalībnieka resursu lomas, kas aizpildītas Dynamics 365 Dataverse vidē nodrošināšanas laikā, tabulas kartei ir nepieciešama sākotnējā sinhronizācija. Dataverse ir sākotnējās sinhronizācijas galvenais avots. ||
 | Projekta uzdevumi (msdyn_projecttasks) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. ||

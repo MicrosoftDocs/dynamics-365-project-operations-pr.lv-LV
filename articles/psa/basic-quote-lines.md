@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumi un piedāvājumu rindas
-description: Šajā tēmā ir sniegta informācija par piedāvājumiem un piedāvājumu rindām.
+description: Šajā rakstā sniegta informācija par piedāvājumiem un piedāvājuma rindām.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933363"
 ---
 # <a name="quotes-and-quote-lines"></a>Piedāvājumi un piedāvājumu rindas
 
@@ -39,7 +39,7 @@ Programmā Dynamics 365 Project Service Automation ir divu tipu piedāvājumi: p
 - Pārdošanas piedāvājumā nav iekļauti daži lauki un koncepcijas, kas ir iekļauti projekta piedāvājumā. Šie lauki ir, piemēram, **Līgumslēdzēja struktūrvienība**, **Uzņēmumu pārvaldnieks** un **Rēķina saņēmēja kontaktpersonas vārds**.  
 - Pārdošanas piedāvājumus un projekta piedāvājumus norāda arī opciju kopas lauks ar nosaukumu **Tips**. Pārdošanas piedāvājumā šim laukam ir vērtība **Balstīts uz elementu**. Projekta piedāvājumā tam ir vērtība **Balstīts uz darbu**.
 
-Šajā tēmā tiks izklāstīta detalizēta informācija par projekta piedāvājumiem.
+Šajā rakstā galvenā uzmanība tiks pievērsta detalizētai informācijai par projektu piedāvājumiem.
 
 Projekta piedāvājumam programmā PSA var būt vairāki rindas elementi vai piedāvājuma rindas. Projekta piedāvājumā ir divi režģi rindas elementiem. Viens režģis ir paredzēts uz projektu balstītām rindām, kas nodrošina detalizētus novērtējumus. Otrs režģis ir paredzēts uz preci balstītām rindām, kas izmanto vienkāršu vienības cenas un uz daudzumu balstītu metodi.
 
