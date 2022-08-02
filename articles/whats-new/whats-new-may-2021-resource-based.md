@@ -1,18 +1,18 @@
 ---
 title: Jaunumi 2021. gada maijā — Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada maija projekta operāciju laidienā resursu/neuzkrātu scenāriju gadījumā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations 2021. gada maija laidienā uz resursiem/nepiegādātiem scenārijiem.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 425b0eb78b5f03d4b0da9a792d6e33fc96adf060
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: cc5e8104702951fd787d02407d26671e46d44f0c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930419"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029998"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada maijā — Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Project Operations Dynamics 365 Dataverse vidē versija 4.10.0.186
-- Projektu vadība un uzskaite Finance and Operations lietotņu vidē versija 10.0.18
+- Projektu vadība un uzskaite finanšu un operāciju programmu vidēs versija 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -41,7 +41,7 @@ Tālāk redzamajā sarakstā ir parādītas duālās rakstīšanas kartes, kas i
 | Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Kvalitātes atjauninājumi |
 | Projekti V2 (msdyn\_projects) | 1.0.0.2 | Kvalitātes atjauninājumi |
 
-Atjauninot projektu operāciju Dataverse risinājumu un Finance and Operations programmu risinājuma versiju, vienmēr palaidiet vidē jaunāko kartes versiju un iespējojiet visas saistītās tabulu kartes. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas  **Versija**  lapā  **Duālā rakstīšana**. Lai aktivizētu jaunu kartes versiju, atlasiet **Tabulas kartes versijas**, atlasiet jaunāko versiju un pēc tam saglabājiet atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vienmēr palaidiet jaunāko kartes versiju savā vidē un iespējojiet visas saistītās tabulas kartes, atjauninot project operations Dataverse risinājumu un finanšu un operāciju programmu risinājuma versiju. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas  **Versija**  lapā  **Duālā rakstīšana**. Lai aktivizētu jaunu kartes versiju, atlasiet **Tabulas kartes versijas**, atlasiet jaunāko versiju un pēc tam saglabājiet atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ja rodas problēma ar kartes startēšanu, izpildiet instrukcijas, kas sniegtas duālās rakstīšanas problēmu novēršanas ceļveža sadaļā [Problēma ar trūkstošām tabulu kolonnām kartēs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 

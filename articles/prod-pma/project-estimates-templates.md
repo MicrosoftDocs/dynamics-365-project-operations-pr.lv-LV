@@ -1,6 +1,6 @@
 ---
-title: Sinhronizēt projekta budžetus tieši no projektu pakalpojumu automatizācijas uz finansēm un operācijām
-description: Šajā rakstā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta stundu novērtējumus un projekta izdevumu novērtējumus tieši no Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance līdz Dynamics 365 Finance.
+title: Sinhronizēt projektu aprēķinus tieši no Project Service Automation uz finansēm un operācijām
+description: Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta stundu aprēķinus un projekta izdevumu aprēķinus tieši no Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 2a71a2a7ca0c9179ddd5667364d8b5c9e413b917
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920851"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029814"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizēt projekta budžetus tieši no projektu pakalpojumu automatizācijas uz finansēm un operācijām
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizēt projektu aprēķinus tieši no Project Service Automation uz finansēm un operācijām
 
 [!include[banner](../includes/banner.md)]
 
-Šajā rakstā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta stundu novērtējumus un projekta izdevumu novērtējumus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance līdz Dynamics 365 Finance.
+Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta stundu aprēķinus un projekta izdevumu aprēķinus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - 8.0 versijā varat izmantot projekta uzdevumu integrāciju, izdevumu darbības kategorijas, stundu aprēķinus, izdevumu aprēķinus un funkcionalitātes bloķēšanu.
@@ -69,7 +69,7 @@ Pirms var notikt projekta stundu aprēķinu sinhronizēšana, ir jāsinhronizē 
 
 ### <a name="power-query"></a>Power Query
 
-Projekta stundu tāmju veidnē ir jāizmanto programma Microsoft Power Query darbam ar Excel, lai veiktu šos uzdevumus:
+Projekta stundu aprēķinu veidnē ir jāizmanto Microsoft Power Query programmai Excel, lai izpildītu šos uzdevumus:
 
 - Iestatiet noklusējuma prognozes modeļa ID, kas tiks izmantots, kad integrācija veidos jaunas stundu prognozes.
 - Izfiltrējiet visus resursiem specifiskos ierakstus uzdevumā, kas nevarēs integrēties stundu prognozēs.
@@ -125,7 +125,7 @@ Pirms var notikt projekta stundu izmaksu sinhronizēšana, ir jāsinhronizē pro
 
 ### <a name="power-query"></a>Power Query
 
-Projekta izdevumu budžetu veidnē ir jāizmanto Power Query, lai izpildītu šādus uzdevumus:
+Projekta izdevumu tāmes veidnē ir jāizmanto Power Query, lai pabeigtu šādus uzdevumus:
 
 - Filtrēt, lai iekļautu tikai izmaksas aprēķinu rindas ierakstus.
 - Iestatiet noklusējuma prognozes modeļa ID, kas tiks izmantots, kad integrācija veidos jaunas stundu prognozes.
@@ -140,7 +140,7 @@ Projekta izmaksu aprēķinu (PSA uz Fin un Ops) veidnei ir noklusējuma filtrs, 
 
 Lai veidnē atjauninātu noklusējuma prognozes modeļa ID, atlasiet uzdevumu **Izmaksu aprēķini** un pēc tam noklikšķiniet uz bulttaustiņa **Karte**, lai atvērtu kartējumu. Atlasiet **Detalizēto vaicājumu un filtrēšanas** saiti.
 
-- Ja izmantojat noklusējuma projekta izdevumu novērtējumu veidni (PSA līdz Fin un Ops), sadaļā atlasiet pirmo Power Query ievietoto **nosacījumu** sadaļā Lietotās darbības **.** **Funkciju** ierakstā aizstājiet **O\_prognozi** ar tā prognozes modeļa ID, kuru vajadzētu izmantot ar integrāciju. Noklusējuma veidnei ir prognozes modeļa ID no demonstrācijas datiem.
+- Ja izmantojat noklusējuma veidni Projekta izdevumu aplēses (PSA līdz Fin un Ops), sadaļā Lietotās Power Query darbības **atlasiet pirmo** ievietoto **nosacījumu**. **Funkciju** ierakstā aizstājiet **O\_prognozi** ar tā prognozes modeļa ID, kuru vajadzētu izmantot ar integrāciju. Noklusējuma veidnei ir prognozes modeļa ID no demonstrācijas datiem.
 - Ja izveidojat jaunu veidni, šī kolonna ir jāpievieno. Sadaļā Power Query atlasiet **Pievienot nosacījuma kolonnu** un ievadiet jaunās kolonnas nosaukumu, piemēram **, ModelID**. Ievadiet kolonnas nosacījumu, kur, ja novērtējuma rindas ID nav Null, tad \<enter the forecast model ID\>; pretējā gadījumā tas ir Null.
 
 #### <a name="transform-the-billing-types"></a>Pārvērtiet norēķinu veidus

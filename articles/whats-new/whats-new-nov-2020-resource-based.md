@@ -1,17 +1,17 @@
 ---
 title: Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada novembra projekta operāciju laidienā uz resursiem/neuzkrātiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami project operations 2020. gada novembra laidienā uz resursiem/nepiegādātiem scenārijiem.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923427"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029539"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
 
@@ -20,7 +20,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Project Operations CDS vides versijā 4.4.0.70
-- Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.14
+- Projektu vadīšana un uzskaite Dynamics 365 Finance vidē versija 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Atjauninājumi Project Operations scenārijiem, kas balstīti uz resursiem/bez krājumiem
 
@@ -65,7 +65,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 | Projekta uzskaite  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Iespējojot līdzekli, vairākas līguma rindas nav iespējamas bez CDS integrācijas.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par finanšu un operāciju lietotņu regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par finanšu un operāciju programmu regulatīvajiem atjauninājumiem skatiet sadaļā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,18 @@
 ---
 title: Project Operations atjauninājumi
-description: Šajā rakstā sniegta informācija par izlaistajām programmas versijām Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par izlaistajām Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959705"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188288"
 ---
 # <a name="project-operations-updates"></a>Project Operations atjauninājumi
 
@@ -25,20 +25,20 @@ _**Attiecas uz:** Project Operations scenārijiem, kas balstīti uz resursiem/be
 Dynamics 365 Project Operations sastāv no diviem komponentiem.
 
 - Project Operations pakalpojuma Dataverse vidē aptver iespējas, sākot no iespējas līdz pro forma rēķiniem. Dataverse tiek izmantots Lite izvietošanā un Project Operations resursu/bez krājumu scenāriju izvietošanā.
-- Projektu vadība un grāmatvedība Dynamics 365 Finance vidē ietver izdevumu pārvaldības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. Finanšu un operāciju programmas vide tiek izmantota projektu operācijās resursu/neuzkrātiem scenārijiem un projektu operācijām uzkrātiem/uz ražošanu balstītiem scenārijiem.
+- Projektu vadība un grāmatvedība Dynamics 365 Finance vidē aptver izdevumu pārvaldības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. Finance and operations programmas vide tiek izmantota project operations resursu/nekrājumu scenārijiem un Project Operations — uz krājumiem balstītiem scenārijiem/ uz ražošanu balstītiem scenārijiem.
 
 ## <a name="project-operations-release-notes"></a>Project Operations informācija par laidienu
-- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Resursi/bez krājumiem](whats-new-may-2022-resource-based.md).
-- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Lite izvietošana](../pro/whats-new/whats-new-may-2022-lite.md).
-- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [krājumu/ražošanas balstīti](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
+- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Resursi/bez krājumiem](whats-new-july-2022-resource-based.md).
+- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Lite izvietošana](../pro/whats-new/whats-new-july-2022-lite.md).
+- Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [krājumu/ražošanas balstīti](../prod-pma/whats-new/whats-new-jul-2022-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Project Operations jaunākā versija
 
-| Project Operations Dataverse vidē | Projektu vadība un uzskaite finanšu un operāciju lietotņu vidēs | 
+| Project Operations Dataverse vidē | Projektu pārvaldība un uzskaite finanšu un operāciju programmu vidēs | 
 | --- | --- |
-| 4.43.0.77 | 10.0.26 |
+| 4.44.0.22 | 10.0.28 |
 
-Projekta operāciju resursa/neuzkrāta scenārija gadījumā ieteicams izmantot divrakstā orķestrācijas versiju 2.3.1.15 vai jaunāku.
+Project Operations resource/non-stocked scenārijā ieteicams izmantot divrakstu orķestrācijas versiju 2.3.1.15 vai jaunāku versiju.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Project Operations izlaišanas grafiks Dataverse vidē
 
@@ -47,40 +47,38 @@ Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī.
 | Stacija | Reģions | Pašreizējās versijas numurs | Lite izvietošanas automātiskie atjauninājumi | Resursu/krājumos nebalstītas izvietošanas automātiskie atjauninājumi | Nākamās versijas numurs | Vispārēji pieejamā nākamā versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmais laidiens         |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
+|   &nbsp;  | Pirmais laidiens         |  4.44.0.22      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 05. augusts       |
 | 2. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dienvidamerika         |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
-|   &nbsp;  | Kanāda                |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
-|   &nbsp;  | Indija                 |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
-|   &nbsp;  | Francija                |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
-|   &nbsp;  | Dienvidāfrika          |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
-|   &nbsp;  | Šveice           |  4.43.0.77      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 01. jūlijs       |
+|   &nbsp;  | Dienvidamerika         |  4.44.0.22      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 06. augusts       |
+|   &nbsp;  | Kanāda                |  4.44.0.22      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 06. augusts       |
+|   &nbsp;  | Indija                 |  4.44.0.22      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 06. augusts       |
+|   &nbsp;  | Francija                |  4.44.0.22      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 06. augusts       |
+|   &nbsp;  | Dienvidāfrika          |  4.44.0.22      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 06. augusts       |
+|   &nbsp;  | Šveice           |  4.44.0.22      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 06. augusts       |
 | 3. stacija |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japāna                 |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
-|   &nbsp;  | Āzija un Klusais okeāns          |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
-|   &nbsp;  | Lielbritānija         |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
-|   &nbsp;  | Okeānija               |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
-|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.43.0.77      | 2022. gada 03. jūnijs      | 2022. gada 03. jūnijs       | TBD                 | 2022. gada 08. jūlijs       |
+|   &nbsp;  | Japāna                 |  4.44.0.22      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 12. augusts       |
+|   &nbsp;  | Āzija un Klusais okeāns          |  4.44.0.22      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 12. augusts       |
+|   &nbsp;  | Lielbritānija         |  4.44.0.22      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 12. augusts       |
+|   &nbsp;  | Okeānija               |  4.44.0.22      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 12. augusts       |
+|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.44.0.22      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 12. augusts       |
 | 4. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eiropa                |  4.42.0.70      | Pabeigta           | Pabeigta            | 4.43.0.77           | 2022. gada 10. jūnijs       |
+|   &nbsp;  | Eiropa                |  4.43.0.119      | Pabeigta           | Pabeigta            | 4.44.0.22           | 2022. gada 29. jūlijs       |
 | 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ziemeļamerika         |  4.42.0.70      | Pabeigta           | Pabeigta            | 4.43.0.77           | 2022. gada 17. jūnijs       |
+|   &nbsp;  | Ziemeļamerika         |  4.43.0.119      | Pabeigta           | Pabeigta            | 4.44.0.22           | 2022. gada 05. augusts       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektu pārvaldības un uzskaites izlaišanas grafiks finanšu un operāciju programmu vidē
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektu pārvaldības un uzskaites laidiena grafiks finanšu un operāciju programmu vidē
 
 Projekta pārvaldības un uzskaites atjauninājumi tiek izlaisti astoņas reizes gadā.
 
-|Atbalstītā versija| Priekšskatījuma pieejamība (PEAP) | Parasti pieejams (pašatjaunināšana) | Automātiskās atjaunināšanas grafika (izmantojot LCS atjaunināšanas iestatījumus) ražošanas sākuma datums |   Pakalpojumu izbeigšana   |
+|Atbalstītā versija| Priekšskatījuma pieejamība | Parasti pieejams (pašatjaunināšana) | Automātiskās atjaunināšanas grafika (izmantojot LCS atjaunināšanas iestatījumus) ražošanas sākuma datums |   Pakalpojumu izbeigšana   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.26     |      2022. gada 4. marts          |        2022. gada 15. aprīlis             |                          2022. gada 29. aprīlis                              | 2022. gada 15. jūlijs      |
-|     10.0.25     |      2022. gada 31. janvāris       |        2022. gada 18. marts             |                          2022. gada 1. aprīlis                               | 2022. gada 10. jūnijs      |
-
+|     10.0.28     |      2022. gada 27. maijs           |        2022. gada 15. jūlijs              |                          2022. gada 29. jūlijs                               | 2022. gada 21. oktobris   |
+|     10.0.27     |      2022. gada 22. aprīlis         |        2022. gada 17. jūnijs              |                          2022. gada 1. jūlijs                                | 2022. gada 16. septembris |
 
 Mērķa laidiena datumi var tikt mainīti. Papildinformāciju skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|Mērķa versija | Priekšskatījuma pieejamība (PEAP) | Parasti pieejams (pašatjaunināšana) | Automātiskās atjaunināšanas grafika (izmantojot LCS atjaunināšanas iestatījumus) ražošanas sākuma datums |   Pakalpojumu izbeigšana   |
+|Mērķa versija | Priekšskatījuma pieejamība | Parasti pieejams (pašatjaunināšana) | Automātiskās atjaunināšanas grafika (izmantojot LCS atjaunināšanas iestatījumus) ražošanas sākuma datums |   Pakalpojumu izbeigšana   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.27     |      2022. gada 22. aprīlis         |        2022. gada 17. jūnijs              |                          2022. gada 1. jūlijs                                | 2022. gada 16. septembris |
-|     10.0.28     |      2022. gada 27. maijs           |        2022. gada 15. jūlijs              |                          2022. gada 29. jūlijs                               | 2022. gada 21. oktobris   |
+|     10.0.29     |      2022. gada 1. augusts         |       2022. gada 16. septembris          |                        2022. gada 30. septembris                            | 2023. gada 13. janvāris   |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
 title: Nobraukuma iestatīšana, izmantojot nobraukuma likmes pakāpes
-description: Šajā rakstā sniegta informācija par nobraukuma līmeni un nobraukuma līmeņa līmeņiem.
+description: Šajā rakstā ir sniegta informācija par nobraukuma likmēm un nobraukuma likmes līmeņiem.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930143"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064287"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Nobraukuma iestatīšana, izmantojot nobraukuma likmes pakāpes
 
@@ -50,5 +50,15 @@ Līdzeklis **Nobraukuma summas aprēķina iespējošana vairākām nobraukuma pa
 
 Pēc līdzekļa iespējošanas atiestatiet nobraukuma likmes, lai pareizi atspoguļotu lauka **Daudzums** vērtību. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Nobraukuma kopsummu aprēķina iespējošana pēc finanšu gads līdzekļa
+
+Nobraukuma **kopsummu aprēķins pēc finanšu gads** līdzekļa iespējo jaunu iestatījumu izdevumu pārvaldības parametros, kas veic nobraukuma kopsummu aprēķinus pēc finanšu gads, nevis pēc kalendārā gada. Lai iespējotu šo līdzekli, veiciet tālāk uzskaitītās darbības.
+
+1. Dodieties uz **Darbvietas** > **Līdzekļu pārvaldība**.
+1. Sarakstā atrodiet un atlasiet **Nobraukuma kopsummu aprēķinu pēc finanšu gads** un pēc tam atlasiet **Iespējot tūlīt**.
+1. Dodieties uz **Izdevumu pārvaldības** > **iestatīšanas** > **vispārīgie** > **izdevumu pārvaldības parametri.**
+1. **Lapā Izdevumu pārvaldības parametri** atrodiet un iespējojiet **izmantot finanšu gads nobraukuma kopsummām**.
+
+Pēc tam, kad ir iespējota **opcija Lietot finanšu gads nobraukuma kopsummām**, nobraukuma kopsummas tiek aprēķinātas pēc finanšu gads.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,18 @@
 ---
 title: Jaunumi vai izmaiņas 2021. gada martā — Project Operations krājumu/ražošanas scenārijiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada marta projektu operāciju laidienā uzkrātajiem/uz ražošanu balstītiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada marta laidienā Project Operations krājumos/ražošanas scenārijos.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911329"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028757"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Jaunumi vai izmaiņas 2021. gada martā — Project Operations krājumu/ražošanas scenārijiem
 
@@ -20,7 +20,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
-- Projektu vadība un uzskaite Dynamics 365 Finance vidē versija 10.0.17
+- Projektu vadīšana un uzskaite Dynamics 365 Finance vidē versija 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 Šajā laidienā ir ietverti tālāk minētie līdzekļi.
@@ -121,7 +121,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 | Projektu pārvaldība un uzskaite | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Mantotā darba sadalījuma struktūras (WBS) klases metode, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, ir novecojusi.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par finanšu un operāciju lietotņu regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par finanšu un operāciju programmu regulatīvajiem atjauninājumiem skatiet sadaļā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

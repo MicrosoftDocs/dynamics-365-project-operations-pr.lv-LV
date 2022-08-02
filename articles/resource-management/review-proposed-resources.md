@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924853"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183984"
 ---
 # <a name="review-proposed-resources"></a>Piedāvāto resursu pārskats
 
@@ -40,8 +40,8 @@ Lai pārskatītu piedāvātos resursus, izpildiet šīs darbības.
     Tiek veikti šādi statusa atjauninājumi:
 
     - Lapā **Plānošanas palīgs** statusa indikatori tiek atjaunināti, lai norādītu, ka rezervācija ir piedāvāta, nevis stingri rezervēta.
-    - Resursa pieprasījumā statuss tiek mainīts uz **Nepieciešama pārskatīšana**.
-    - Projekta cilnē **Darba grupa** vērtība vispārējā darba grupas dalībnieka vienumam **Pieprasījuma statuss** ir mainīta uz **Nepieciešama pārskatīšana**.
+    - Pēc resursu pieprasījuma pieprasījuma recenzentam ir jāmaina statuss uz **Vajadzību pārskatīšana**.
+    - **Projekta cilnē Darba grupa** vispārējā grupas dalībnieka vērtība Pieprasīt statusu **tiek automātiski mainīta** uz **Vajadzību pārskatīšana**.
 
 Projekta vadītājs var pieņemt vai noraidīt piedāvājumu.
 

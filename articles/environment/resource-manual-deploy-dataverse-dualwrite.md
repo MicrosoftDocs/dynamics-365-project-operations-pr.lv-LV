@@ -1,25 +1,25 @@
 ---
 title: Manuāla programmas Project Operations Dataverse ar duālās rakstīšanas atbalstu izvietošana
-description: Šajā rakstā ir paskaidrots, kā manuāli izvietot programmu Project Operations Dataverse, lai tā atbalstītu divējādu rakstīšanu.
+description: Šajā rakstā ir paskaidrots, kā manuāli izvietot programmu Project Operations Dataverse, lai tā atbalstītu dubultrakstīšanu.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912019"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028573"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Manuāla programmas Project Operations Dataverse ar duālās rakstīšanas atbalstu izvietošana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā rakstā paskaidrots, kā manuāli izvietot Microsoft Dynamics 365 Project Operations Microsoft Dataverse, lai tā atbalstītu duālo rakstīšanu. Project Operations konstatē vides konfigurāciju un pievieno papildu atbalstu attiecībā duālajai rakstīšanai, ja tiek izpildīti priekšnosacījumi.
+Šajā rakstā ir paskaidrots, kā manuāli izvietot Microsoft Dynamics 365 Project Operations Microsoft Dataverse, lai tā atbalstītu dubultrakstīšanu. Project Operations konstatē vides konfigurāciju un pievieno papildu atbalstu attiecībā duālajai rakstīšanai, ja tiek izpildīti priekšnosacījumi.
 
-Izvietošanas laikā, izmantojot Microsoft Dynamics dzīves cikla pakalpojumus (LKA), ja esat ievērojis šajā rakstā sniegtos norādījumus, varat izlaist integrācijas izvietošanu Microsoft Power Platform (iepriekš saukta par Common Data Service vidi).
+Izvietošanas laikā, izmantojot Microsoft Dynamics Lifecycle Services (LCS), ja esat izpildījis šajā rakstā sniegtos norādījumus, varat izlaist integrācijas izvietošanu Microsoft Power Platform (iepriekš zināma kā Common Data Service vide).
 
 Project Operations izvietošanas procesam Dataverse, lai tas atbalstītu duālo rakstīšanu, jāveic četras galvenās darbības.
 
@@ -37,7 +37,7 @@ Lai pabeigtu šo procedūru, jāpiesakās kā administratoram.
 3. Atlasiet vides tipu. Ja reģistrējāties izmēģinājumversijas piedāvājumam, atlasiet **Izmēģinājumversija (abonementa)**.
 4. Apstipriniet izvietošanas reģionu.
 5. Iespējojiet opciju **Izveidot datu bāzi šai videi**. 
-6. Apstipriniet valodu un pēc tam apstipriniet, ka valūta atbilst jūsu finanšu un operāciju lietotņu valūtai.
+6. Apstipriniet valodu un pēc tam apstipriniet, vai valūta atbilst jūsu finanšu un operāciju lietotņu valūtai.
 7. Iespējojiet opciju **Dynamics 365 programmas** un pārliecinieties, ka lauks **Automātiski izvietot šīs programmas** ir iestatīts kā **Neviens**.
 8. Ja ir nepieciešama drošības grupa, pievienojiet to.
 9. Atlasiet **Saglabāt**, lai izveidotu vidi.
@@ -62,4 +62,4 @@ Izpildiet šo procedūru, lai pievienotu videi duālās rakstīšanas priekšnos
 
 ## <a name="link-your-environments"></a><a name="link"></a>Vižu saistīšana
 
-Kad vide ir izvietota Dataverse, saiti varat iestatīt savās finanšu un operāciju lietotnēs. Izpildiet darbības, kas norādītas sadaļā [Duālās rakstīšanas vedņa izmantošana vižu saistīšanai](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Dataverse Kad vide ir izvietota, varat iestatīt saiti savās finanšu un operāciju programmās. Izpildiet darbības, kas norādītas sadaļā [Duālās rakstīšanas vedņa izmantošana vižu saistīšanai](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

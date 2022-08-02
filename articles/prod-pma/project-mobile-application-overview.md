@@ -1,6 +1,6 @@
 ---
 title: Projekta mobilo programmu pārskats
-description: Šajā rakstā ir sniegta vispārīga informācija par projekta laika lietojumprogrammām mobilajā ierīcē pieejamajām Microsoft Dynamics 365 Project Timesheet projekta laika ievadnēm un manām darba laika uzskaites tabulām/darba laika uzskaites tabulām.
+description: Šajā rakstā ir sniegta vispārīga informācija par projekta laika lietojumprogrammām, kas paredzētas Microsoft Dynamics 365 Project Timesheet programmai Project Time Entry un My timeheets/Timesheets, kas ir pieejamas mobilajā ierīcē.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922875"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028895"
 ---
 # <a name="project-mobile-applications-overview"></a>Projekta mobilo programmu pārskats
 
@@ -29,7 +29,7 @@ Ar projekta laiku saistītas trīs mobilās lietotnes ir pieejamas Microsoft Dyn
 
 ## <a name="project-timesheet-mobile-app"></a>Projekta darba laika uzskaites tabulas mobilā programma
 
-Dynamics 365 Projekta darba laika uzskaites tabulas mobilā programma ļauj lietotājiem iesniegt un apstiprināt darba laika uzskaites tabulas par projektiem savā mobilajā ierīcē. Šī mobilā lietotne nodrošina darba laika uzskaites tabulas funkcionalitāti Dynamics 365 Finance projektu pārvaldības un uzskaites apgabalā. Tā palīdz uzlabot lietotāja produktivitāti un efektivitāti, kā arī palīdz laicīgi ievadīt un apstiprināt projekta darba laika uzskaites tabulas.
+Dynamics 365 Projekta darba laika uzskaites tabulas mobilā programma ļauj lietotājiem iesniegt un apstiprināt darba laika uzskaites tabulas par projektiem savā mobilajā ierīcē. Šī mobilā lietotne nodrošina darba laika uzskaites tabulas funkcionalitāti Dynamics 365 Finance projektu vadības un uzskaites jomā. Tā palīdz uzlabot lietotāja produktivitāti un efektivitāti, kā arī palīdz laicīgi ievadīt un apstiprināt projekta darba laika uzskaites tabulas.
 
 ## <a name="project-time-entry-workspace"></a>Projekta laika ievades darbvieta
 

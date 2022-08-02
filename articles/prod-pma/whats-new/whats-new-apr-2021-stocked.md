@@ -1,18 +1,18 @@
 ---
 title: Jaunumi vai izmaiņas 2021. gada aprīlī — Project Operations krājumu/ražošanas scenārijiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada aprīļa projekta operāciju laidienā uzkrātajiem/uz ražošanu balstītiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada aprīļa laidienā Project Operations krājuma/ražošanas scenārijiem.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 74cace069e0b5a982e6ea1df0607ff72f1911a0f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916481"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028203"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Jaunumi vai izmaiņas 2021. gada aprīlī — Project Operations krājumu/ražošanas scenārijiem
 
@@ -83,7 +83,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 | Komandējumi un izdevumi                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Ja izdevumu kategorija ir kategorija, kas nav projekta kategorija, lapā **Izdevumi** atlasītās finanšu dimensijas netiek kopētas izdevumu pārskatā.                                          |
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par finanšu un operāciju lietotņu regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par finanšu un operāciju programmu regulatīvajiem atjauninājumiem skatiet sadaļā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

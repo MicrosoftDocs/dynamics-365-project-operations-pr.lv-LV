@@ -1,17 +1,17 @@
 ---
 title: Project Operations duālās rakstīšanas kartes versijas
-description: Šajā rakstā ir sniegts saraksts ar duālās rakstīšanas kartēm, kas nepieciešamas Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegts saraksts ar dubultās rakstīšanas kartēm, kas nepieciešamas Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
-ms.translationtype: HT
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959664"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112438"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations duālās rakstīšanas kartes versijas
 
@@ -25,12 +25,12 @@ Risinājumā Project Operations nepieciešamie priekšnosacījumi ir tālāk uzs
 
 | Tabulas karte | Sākotnējā sinhronizācija |
 | --- | --- |
-| Virsgrāmata (msdyn_ledgers) | Tabulas kartei ir nepieciešama sākotnējā sinhronizācija un visi priekšnosacījumi. Sākotnējās sinhronizācijas šablons ir Finance and Operations programmas. |
+| Virsgrāmata (msdyn_ledgers) | Tabulas kartei ir nepieciešama sākotnējā sinhronizācija un visi priekšnosacījumi. Sākotnējās sinhronizācijas šablons ir finanšu un operāciju programmas. |
 | Juridiskas personas (cdm_companies) | Nav obligāta. Sistēma automātiski aizpilda šo entītiju, kad vides tiek saistītas, izmantojot duālo rakstīšanu. |
 | Klienti V3 (accounts) | Nav nepieciešama nodrošināšanai. |
 | Piegādātāji V2 (msdyn_vendors) | Nav nepieciešama nodrošināšanai. |
 
-1. Karšu sarakstā atlasiet karti Virsgrāmata **(msdyn\_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. Laukā Šablons **sākotnējai sinhronizācijai** atlasiet **Finance and Operations programmas** gan Virsgrāmatas kartei, gan visām priekšnosacījumu kartēm. Atlasiet **Izpildīt**.
+1. Karšu sarakstā atlasiet karti Virsgrāmata **(msdyn\_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. **Laukā Master for Initial sync** atlasiet **Finance and operations programmas** gan Virsgrāmatas kartei, gan visām nepieciešamajām kartēm. Atlasiet **Izpildīt**.
 
 ![Virsgrāmatas kartes sinhronizācija.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Risinājumā Project Operations nepieciešamas tālāk uzskaitītās kartes. Ar 
 | Projektu līgumu galvenes (sales orders) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. ||
 | Projekta līguma rindas (salesorderdetails) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
 | Projekta līdzekļu avots (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. ||
-| Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
+| Projekta integrācijas tabula materiālu aplēsēm (msdyn\_ tāmes) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
 | Projekta rēķinu priekšlikumi V2 (invoices) | 1.0.0.3 | Nav nepieciešama nodrošināšanai. ||
 | Project Operations integrācijas faktiskie dati (msdyn_actuals) | 1.0.0.14 | Nav nepieciešama nodrošināšanai. ||
 | Project Operations integrācija līguma rindas atskaites punktos (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. ||

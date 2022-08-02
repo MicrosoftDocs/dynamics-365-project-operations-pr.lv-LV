@@ -1,17 +1,17 @@
 ---
 title: Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada novembra projektu operāciju laidienā, laidienā par uzkrātajiem ražošanas scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami project operations 2020. gada novembra laidienā uz krājumu ražošanu balstītiem scenārijiem.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 8f19f8476ed2b7958f0ba90d135bda483d05c923
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911238"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028236"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Jaunumi 2020. novembrī — Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem
 
@@ -23,7 +23,7 @@ Lai iegūtu informāciju par šajā atjauninājumā iekļautajiem labojumiem, pi
 
 ## <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
 
-Informāciju par Dynamics 365 Finance and Operations lietotņu regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošiem atjauninājumiem Dynamics 365 finanšu un operāciju programmām skatiet sadaļā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
 title: Pārvaldīt projekta cenu sarakstus projekta piedāvājumos
-description: Šajā rakstā sniegta informācija par darbu ar projektu cenrāžiem piedāvājumos.
+description: Šajā rakstā ir sniegta informācija par darbu ar projektu cenrāžiem par piedāvājumiem.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929959"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023622"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Pārvaldīt projekta cenu sarakstus projekta piedāvājumos 
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu, Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem_
 
 Projekta piedāvājumi ir paredzēti, lai atbalstītu vairākus spēkā esošus pārdošanas cenrāžus. Izmantojot Dynamics 365 Project Operations šo entītiju, tiek pievienota jauna saistītā entītija **Projekta cenrāži**. Šai entītijai ar projekta piedāvājumu ir attiecība viens pret daudziem.
 

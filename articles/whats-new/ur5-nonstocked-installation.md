@@ -1,25 +1,25 @@
 ---
 title: Project Operations atjaunināšana Finance vidē
-description: Šajā rakstā ir sniegta informācija par to, kā atjaunināt projekta darbības Dynamics 365 Finance vidē.
+description: Šajā rakstā ir sniegta informācija par to, kā atjaunināt Project Operations savā Dynamics 365 Finance vidē.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912479"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030044"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operations atjaunināšana Finance vidē
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 
-Šajā rakstā sniegta informācija par to, kā atjaunināt Dynamics 365 Project Operations Dynamics 365 Finance vidē. Lai atjauninātu Project Operations uz 5. atjauninājumu (UR5): ir nepieciešams veikt trīs procedūras:
+Šajā rakstā ir sniegta informācija par to, kā veikt atjaunināšanu Dynamics 365 Project Operations Dynamics 365 Finance vidē. Lai atjauninātu Project Operations uz 5. atjauninājumu (UR5): ir nepieciešams veikt trīs procedūras:
 
 - [Importējiet pakotni jūsu iepriekšējā priekšskatījuma projektā](#import)
 - [Lietojiet atjauninājumu](#apply)
@@ -119,7 +119,7 @@ Kā daļa no UR5 atjaunināšanas ir nepieciešami šādi entitīju drošības p
 4. Lapā **Tabulas kartes versija** lietojiet jauno kartes versiju katrai no trim entitījām.
 5. Lapā **Duālā rakstīšana** atlasiet palaišanu, lai restartētu kartes.
 6. Karšu sarakstā atlasiet karti **Virsgrāmata (msdyn_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. 
-7. Sākotnējās sinhronizācijas **laukā** Šablons atlasiet **Finance and Operations programmas** un pēc tam atlasiet **Palaist**.
+7. **Laukā Master for Initial sync** atlasiet **Finance and operations programmas** un pēc tam atlasiet **Palaist**.
  
  ![Virsgrāmatas kartes sinhronizācija.](media/DW6.png)
  

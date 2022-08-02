@@ -1,18 +1,18 @@
 ---
 title: Jaunumi 2021. gada aprīlī — Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada aprīļa projekta operāciju laidienā resursu/neuzkrātu scenāriju gadījumā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations 2021. gada aprīļa laidienā uz resursiem/krājumiem nebalstītiem scenārijiem.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912433"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029263"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada aprīlī — Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Project Operations Dataverse vides versijā 4.9.0.221
-- Projektu vadība un uzskaite Dynamics 365 Finance vidē versija 10.0.17
+- Projektu vadīšana un uzskaite Dynamics 365 Finance vidē versija 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -42,13 +42,13 @@ Tālāk redzamajā sarakstā ir parādītas duālās rakstīšanas kartes, kas i
 | **Entītiju karte** | **Atjauninātā versija** | **Komentāri** |
 | --- | --- | --- |
 | Project Operations integrācijas faktiskie dati (msdyn\_actuals) | 1.0.0.14 | Karte ir modificēta, lai sinhronizētu materiālu projekta faktiskās vērtības. |
-| Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimateslines) | 1.0.0.2 | Pievienota projekta līguma rindas sinhronizācija finanšu un operāciju programmām, lai saņemtu uz uzdevumiem balstītu norēķinu atbalstu. |
-| Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments) | 1.0.0.5 | Pievienota projekta līguma rindas sinhronizācija finanšu un operāciju programmām, lai saņemtu uz uzdevumiem balstītu norēķinu atbalstu. |
-| Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Jauna tabulas karte materiālu novērtējumu sinhronizēšanai no Dataverse finanšu un operāciju programmām. |
-| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn\_projectvendorinvoices) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu kreditoru rēķinu virsrakstus no finanšu un operāciju programmām uz Dataverse. |
-| Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Jauna tabulas karte kreditoru rēķinu rindu sinhronizēšanai no finanšu un operāciju programmām uz Dataverse. |
+| Project Operations integrācijas entītija izdevumu aprēķiniem (msdyn\_estimateslines) | 1.0.0.2 | Pievienota projekta līguma rindiņas sinhronizācija ar finanšu un operāciju programmām, lai saņemtu uz uzdevumiem balstītu norēķinu atbalstu. |
+| Project Operations integrācijas entītija stundu aprēķiniem (msdyn\_resourceassignments) | 1.0.0.5 | Pievienota projekta līguma rindiņas sinhronizācija ar finanšu un operāciju programmām, lai saņemtu uz uzdevumiem balstītu norēķinu atbalstu. |
+| Project Operations integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu materiālu aprēķinus no Dataverse finanšu un operāciju programmām. |
+| Project Operations integrācijas projekta piegādātāju rēķinu eksportēšanas entītija (msdyn\_projectvendorinvoices) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu kreditoru rēķinu galvenes no finanšu un operāciju programmām ar Dataverse. |
+| Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Jauna tabulas karte, lai sinhronizētu kreditoru rēķinu rindas no finance and operations programmām uz Dataverse. |
 
-Atjauninot projektu operāciju Dataverse risinājumu un Finance and Operations risinājuma versiju, vienmēr jāpalaiž apkārtējā vidē jaunākā kartes versija un jāiespējo visas saistītās tabulu kartes. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas **Versija** lapā **Duālā rakstīšana**. Varat aktivizēt jaunu kartes versiju, atlasot **Tabulas kartes versijas**, atlasot jaunāko versiju un pēc tam saglabājot atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Jums vienmēr vajadzētu palaist jaunāko kartes versiju savā vidē un iespējot visas saistītās tabulas kartes, atjauninot Project Operations Dataverse risinājumu un finance and operations risinājuma versiju. Ja nav aktivizēta jaunākā kartes versija, noteikti līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir redzama kolonnas **Versija** lapā **Duālā rakstīšana**. Varat aktivizēt jaunu kartes versiju, atlasot **Tabulas kartes versijas**, atlasot jaunāko versiju un pēc tam saglabājot atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ja rodas problēma ar kartes startēšanu, izpildiet instrukcijas, kas sniegtas duālās rakstīšanas problēmu novēršanas ceļveža sadaļā [Problēma ar trūkstošām tabulu kolonnām kartēs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 

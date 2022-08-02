@@ -1,17 +1,17 @@
 ---
 title: Noklusējuma cenrāži
-description: Šajā rakstā ir sniegta informācija par noklusējuma pārdošanas un izmaksu cenrāžiem projekta operācijās.
+description: Šajā rakstā ir sniegta informācija par noklusējuma pārdošanas un izmaksu cenrāžiem programmā Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917723"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036420"
 ---
 # <a name="default-price-lists"></a>Noklusējuma cenrāži
 
@@ -25,7 +25,7 @@ Katrā projekta piedāvājumā un līgumā Dynamics 365 Project Operations ir no
 Sistēma pabeidz tālāk norādīto procesu, lai noteiktu, kurš cenrādis projekta piedāvājumam tiks izmantots pēc noklusējuma.
 
 1. Sistēma apskata cenrāžus, kas ir pievienoti uzņēmuma projekta cenrāžiem. 
-2. Ja uzņēmuma ierakstam ir pievienoti projekta cenrāži, sistēma apskata pārdošanas cenrāžus, kas pievienoti ar projekta parametriem un kas atbilst projekta piedāvājuma valūtai.
+2. Ja konta ierakstam nav pievienoti projekta cenrāži, sistēma aplūko pārdošanas cenrāžus, kas pievienoti projekta parametriem, kuri atbilst projekta piedāvājuma valūtai.
 3. Pēc tam sistēma pārbauda to cenrāžu spēkā būšanas datumu, kas atbilst projekta piedāvājuma datumu diapazonam. Precīzāk — datumu, kurā tika izveidots piedāvājums.
 4. Ja ir vairāki cenrāži, kas ir spēkā projekta piedāvājuma datumā, projekta piedāvājumā pēc noklusējuma tiek izmantoti visi cenrāži.
 5. Ja projekta piedāvājumā attiecīgajā datumā nav spēkā neviens cenrādis, projekta piedāvājumā netiek pēc noklusējuma izmantots projekta cenrādis. Projekta piedāvājumā tiks parādīts brīdinājuma ziņojums. Ziņojumā ir norādīts, ka faktiskajiem datiem un aprēķiniem projektā netiks rādītas cenas, jo nav pievienotu projekta cenrāžu.

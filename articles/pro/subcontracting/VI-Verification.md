@@ -1,59 +1,59 @@
 ---
 title: Kreditoru rēķinu pārbaude ar apstiprinātiem datiem
-description: Šajā rakstā paskaidrots, kā Microsoft Dynamics 365 Project Operations projektu vadītāji pārbaudīs piegādātāju rēķinus ar faktiskajiem datiem, kas tika apstiprināti kā darbuzņēmēji, kas veica darbu un reģistrēja laiku, kā arī izdevumus un materiālus, ko izmantoja projekta grupas dalībnieki.
+description: Šajā rakstā ir paskaidrots, kā Microsoft Dynamics 365 Project Operations ļauj projektu vadītājiem pārbaudīt kreditoru rēķinus, izmantojot faktiskos datus, kas tika apstiprināti, darbuzņēmējiem veicot darbu un reģistrējot laiku, kā arī izdevumus un materiālus, ko izmantoja projekta grupas dalībnieki.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914227"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204184"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Kreditoru rēķinu pārbaude ar apstiprinātiem datiem
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_ **Attiecas uz:** Lite izvietošana - darījums ar proforma rēķinu izrakstīšanu
+_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Microsoft Dynamics 365 Project Operations projektu vadītāji pārbaudīs kreditora rēķina rindas šādos veidos:
+Microsoft Dynamics 365 Project Operations verificēsim kreditoru rēķinu rindas šādos veidos:
 
-- **Izmantojiet kreditora rēķina rindu lauku Pārbaudes statuss**.
-- Ja kreditora rēķina rindas atsaucas uz apakšuzņēmuma rindu, saistiet izmaksu faktiskos datus no apakšuzņēmēja darbības uz šīm kreditora rēķina rindām. Saite tiek izveidota, saskaņojot izmaksu faktiskās vērtības ar kreditora rēķina rindām.
+- Izmantojiet **lauku Verifikācijas statuss** kreditora rēķina rindās.
+- Ja kreditora rēķina rindās ir atsauce uz apakšuzņēmuma līgumu rindu, saistiet faktiskos izmaksu datus no apakšuzņēmēja darbībām ar šīm kreditora rēķina rindām. Saite tiek izveidota, saskaņojot faktiskos izmaksu datus ar kreditoru rēķina rindām.
 
     > [!NOTE]
-    > Lai gan pārbaudes statusu var izsekot kreditora rēķina rindām, kas neatsaucas uz apakšuzņēmuma līgumu, izmaksu faktiskās nevar saistīt ar šīm kreditora rēķina rindām.
+    > Lai gan verifikācijas statusu var izsekot kreditora rēķina rindām, kurās nav atsauces uz apakšlīgumu, faktiskos izmaksu datus nevar saistīt ar šīm kreditoru rēķinu rindām.
 
-## <a name="verification-status"></a>Pārbaudes statuss
+## <a name="verification-status"></a>Verifikācijas statuss
 
-Kreditora **rēķina rindas lauks Verifikācijas statuss** norāda šo pārbaudes statusu. Tiek atbalstīti šādi statusi:
+Lauks Verifikācijas **statuss** kreditora rēķina rindā norāda šo verifikācijas statusu. Tiek atbalstīti šādi statusi:
 
 1. Nav sākts
 2. Norisē
 3. Pabeigta
 
-Kreditora rēķina rindas, kuru pārbaudes statuss **ir Nav startēts**, var labot.
+Var rediģēt kreditora rēķina rindas, kuru verifikācijas **statuss ir Nav sākts**.
 
-Kreditora rēķina rindas, kuru pārbaudes statuss **ir Notiek**, vairs nevar labot. Kreditora rēķina rindai, kas atsaucas uz apakšuzņēmuma līgumu, pārbaudes statuss tiek automātiski iestatīts uz **Notiek,** tiklīdz pirmās faktiskās izmaksas tiek saskaņotas ar kreditora rēķina rindu.
+Kreditora rēķina rindas, kuru verifikācijas **statuss ir Pašlaik,** vairs nevar rediģēt. Kreditora rēķina rindai, kas atsaucas uz apakšlīgumu, verifikācijas statuss tiek automātiski iestatīts uz **Notiek**, tiklīdz pirmās faktiskās izmaksas tiek saskaņotas ar kreditora rēķina rindu.
 
-Kreditora rēķina rindas, kuru pārbaudes statuss ir **Pabeigts**, vairs nevar labot. Ja visām kreditora rēķina rindām ir šāds pārbaudes statuss, kreditora rēķinu var apstiprināt.
+Kreditora rēķina rindas, kuru verifikācijas **statuss ir Pabeigts**, vairs nevar rediģēt. Ja visām kreditora rēķina rindām ir šāds verifikācijas statuss, kreditora rēķinu var apstiprināt.
 
-## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Saskaņot izmaksu faktiskos ar kreditora rēķina rindām
+## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Izmaksu faktisko vērtību saskaņošana ar kreditora rēķina rindām
 
-Izmaksu faktisko saskaņošana palīdz veikt pārbaudes procesu kreditora rēķina rindā. Lai izmaksu faktisko atbilstību kreditora rēķina rindai saskaņotu ar kreditora rēķina rindu, rīkojieties šādi.
+Faktisko izmaksu saskaņošana palīdz verifikācijas procesā kreditora rēķina rindā. Lai izmaksu faktiskās izmaksas saskaņotu ar kreditora rēķina rindu, veiciet tālāk norādītās darbības.
 
-1. Atveriet kreditora rēķina rindu un atlasiet **cilni Nesaskaņotās izmaksu faktiskās** vērtības. Režģis parāda izmaksu faktisko sarakstu, kas atsaucas uz to pašu apakšuzņēmuma rindu kā kreditora rēķina rinda.
-2. Atlasiet vienu vai vairākus izmaksu faktiskos lielumus un pēc tam rīkjoslā virs režģa atlasiet **Saskaņot**. Sistēma apstiprina, ka atlasītos izmaksu faktiskos lielumus var saskaņot. Pēc pārbaudes pabeigšanas izmaksu faktiskās izmaksas tiek saistītas ar kreditora rēķina rindu.
+1. Atveriet kreditora rēķina rindu un atlasiet **cilni Nesaskaņotās faktiskās** izmaksas. Režģī tiek parādīts saraksts ar faktisko izmaksu izmaksām, kas atsaucas uz to pašu apakšlīguma rindu, uz kuru attiecas kreditora rēķina rinda.
+2. Atlasiet vienu vai vairākas faktiskās izmaksas un pēc tam rīkjoslā virs režģa atlasiet **Saskaņot**. Sistēma apstiprina, ka atlasītās izmaksu faktiskās vērtības var tikt saskaņotas. Kad validācija ir nokārtota, faktiskās izmaksas tiek saistītas ar kreditora rēķina rindu.
 
-### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Pārbaudes kritēriji, ko izmanto, lai izmaksu faktiskos datus sasaistītu ar kreditora rēķina rindām
+### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Validācijas kritēriji, kas tiek izmantoti, lai izmaksu faktiskos datus saistītu ar kreditoru rēķinu rindām
 
-Saskaņošanas procesa laikā saiti starp faktisko pašizmaksu un kreditora rēķina rindu var izveidot tikai tad, ja ir izpildīti abi šie nosacījumi:
+Atbilstības procesa laikā saikni starp faktisko izmaksu un kreditora rēķina rindu var noteikt tikai tad, ja ir izpildīti abi tālāk norādītie nosacījumi.
 
-- Laukam **Korekcijas statuss** katrai faktiskajai atlasītajai pašizmaksai jābūt tukšam. Citiem vārdiem sakot, atsaukšanas, apstiprināšanas atcelšanas vai labošanas žurnāla procesa laikā izmaksu faktiskās izmaksas nedrīkst aizstāt ar citām izmaksu izteiksmēm.
-- Šo lauku vērtības tiek saskaņotas starp kreditora rēķina rindu un faktiskajām atlasītajām izmaksām. Ja kreditora rēķina rindā nav iestatīts kāds lauks, tas netiek ņemts vērā saskaņošanai.
+- Laukam **Korekcijas statuss** katrai atlasītajai faktiskajai izmaksu vērtībai ir jābūt tukšam. Citiem vārdiem sakot, faktiskās izmaksas nedrīkst būt aizstātas ar citām faktiskajām izmaksām atsaukšanas, apstiprinājuma atcelšanas vai labošanas žurnāla procesa laikā.
+- Tālāk norādīto lauku vērtības tiek saskaņotas starp kreditora rēķina rindu un atlasītajām faktiskajām izmaksām. Ja kāds lauks nav iestatīts kreditora rēķina rindā, tas netiek ņemts vērā kā atbilstošs.
 
     - Projekta līgums
     - Projekta līguma rinda
@@ -63,14 +63,14 @@ Saskaņošanas procesa laikā saiti starp faktisko pašizmaksu un kreditora rē�
     - Resursu kategorija
     - Transakciju kategorija
     - Produkts
-    - Apakšuzņēmuma līnija
+    - Apakšuzņēmuma līgumu līnija
     - Rezervējamais resurss
 
-## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Atmatīt izmaksu faktiskās vērtības no kreditora rēķina rindas
+## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Izmaksu faktiskās vērtības atsaukšana no kreditora rēķina rindas
 
-Izmaksu faktisko attiecību atcelšana var palīdzēt arī kreditora rēķina pārbaudes procesā, ļaujot noņemt iepriekš izveidotās saites. Izmaksu faktiskos lielumus var nesaskaņot tikai no kreditora rēķina rindām, kuru pārbaudes statuss **ir Notiek**. Lai noņemtu izmaksu faktiskos rādītājus no kreditora rēķina rindas, rīkojieties šādi.
+Izmaksu faktisko vērtību atmaskošana var arī palīdzēt kreditora rēķinā iekļautajā verifikācijas procesā, ļaujot noņemt iepriekš izveidotās saites. Faktiskos izmaksu datus var nesalīdzināt tikai no kreditoru rēķinu rindām, kuru verifikācijas **statuss ir Notiek**. Lai atceltu faktisko izmaksu atzīmi no kreditora rēķina rindas, veiciet tālāk norādītās darbības.
 
-1. Atveriet kreditora rēķina rindu un atlasiet **cilni Saskaņoto izmaksu faktiskās** vērtības. Režģis parāda izmaksu faktisko sarakstu, kas atsaucas uz kreditora rēķina rindu.
-2. Atlasiet vienu vai vairākus izmaksu faktiskos lielumus un pēc tam rīkjoslā virs režģa atlasiet **Noņemt** atlasi.
+1. Atveriet kreditora rēķina rindu un atlasiet **cilni Atbilstošās izmaksu faktiskās** izmaksas. Režģī tiek parādīts to faktisko izmaksu saraksts, kurās ir atsauce uz kreditora rēķina rindu.
+2. Atlasiet vienu vai vairākas faktiskās izmaksas un pēc tam rīkjoslā virs režģa atlasiet **Atmaskot**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

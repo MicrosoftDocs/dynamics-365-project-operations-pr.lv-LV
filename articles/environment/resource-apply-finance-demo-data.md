@@ -1,24 +1,24 @@
 ---
 title: Demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
-description: Šajā rakstā paskaidrots, kā project operations demonstrācijas datus lietot Dynamics 365 Finance mākonī mitinātai videi.
+description: Šajā rakstā ir paskaidrots, kā lietot demonstrācijas datus no Project Operations Dynamics 365 Finance mākonī viesotai videi.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924669"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029906"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demonstrācijas datu lietošana Finance mākoņpakalpojumā viesotā vidē
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 > [!IMPORTANT]
-> Šis raksts ir piemērojams tikai Microsoft Dynamics 365 Finance versijai 10.0.13, un to var veikt tikai mākoņdatošanas vidē. Veiciet šajā rakstā **norādītās darbības PIRMS** kvalitātes atjauninājumu lietošanas videi.
+> Šis raksts ir piemērojams tikai Microsoft Dynamics 365 Finance versijai 10.0.13, un to var veikt tikai mākonī viesotā vidē. Pirms kvalitātes atjauninājumu lietošanas vidē veiciet šajā rakstā **norādītās** darbības.
 
 1. Savā LCS projektā atveriet lapu **Vides informācija**. Ņemiet vērā, ka tajā ir iekļauta informācija, kas nepieciešama, lai izveidotu savienojumu ar vidi, izmantojot attālās darbvirsmas protokolu (RDP).
 

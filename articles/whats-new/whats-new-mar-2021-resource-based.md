@@ -1,18 +1,18 @@
 ---
 title: Jaunumi 2021. gada martā — Project Operations resursu/bez krājumu pamatotiem scenārijiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada marta projekta operāciju laidienā par resursu/neuzkrātiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations 2021. gada marta laidienā uz resursiem/krājumiem nebalstītiem scenārijiem.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: e93b4eaad98267f163bad4aff3e4fdcc661e2ab0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932949"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028272"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2021. gada martā — Project Operations resursu/bez krājumu pamatotiem scenārijiem
 
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Project Operations Dataverse vides versijā 4.8.0.91 
-- Projekta vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.16 
+- Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.16 
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
@@ -48,7 +48,7 @@ Lai iegūtu papildinformāciju, skatiet: [Jaunumi 2021. gada janvārī — Pro
 
 ## <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
 
-Informāciju par finanšu un operāciju lietotņu regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Vēl viens veids, kā uzzināt par regulatīviem atjauninājumiem, ir pieteikties pakalpojumā LCS un apskatīt plānotos regulatīvos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par finanšu un operāciju programmu regulatīvajiem atjauninājumiem skatiet sadaļā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Vēl viens veids, kā uzzināt par regulatīviem atjauninājumiem, ir pieteikties pakalpojumā LCS un apskatīt plānotos regulatīvos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

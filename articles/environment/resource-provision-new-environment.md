@@ -1,18 +1,18 @@
 ---
 title: Jaunas vides nodrošināšana
-description: Šajā rakstā ir sniegta informācija par to, kā nodrošināt jaunu projekta darbību vidi.
+description: Šajā rakstā ir sniegta informācija par to, kā nodrošināt jaunu Project Operations vidi.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931615"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028527"
 ---
 # <a name="provision-a-new-environment"></a>Jaunas vides nodrošināšana
 
@@ -20,7 +20,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 
 
-Šajā rakstā sniegta informācija par to, kā nodrošināt jaunu Dynamics 365 Project Operations vidi resursu/neuzkrātiem scenārijiem.
+Šajā rakstā ir sniegta informācija par to, kā nodrošināt jaunu Dynamics 365 Project Operations vidi uz resursiem/krājumiem nebalstītiem scenārijiem.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operations automatizētās nodrošināšanas iespējošana LCS projektā
 
@@ -117,7 +117,7 @@ Lai saņemtu šo versiju, iespējams, jūsu Finance videi būs jālieto kvalitā
 
     ![Risinājumu lietošana.](./media/13ApplySolutions.png)
 
-5. Atlasiet abus risinājumus, **Dynamics 365 Finance and Operations Duālās rakstīšanas entītiju karte** un **Dynamics 365 Project Operations duālās rakstīšanas entītiju kartes**, un pēc tam atlasiet **Lietot**.
+5. Atlasiet abus risinājumus, **Dynamics 365 Finance Dual Write Entity Map** un **Dynamics 365 Project Operations Dual Write Entity Maps**, un pēc tam atlasiet **Apply (Lietot**).
 
     ![Risinājumu apstiprināšana.](./media/14ConfirmSolutions.png)
 
