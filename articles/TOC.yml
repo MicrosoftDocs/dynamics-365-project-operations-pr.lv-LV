@@ -58,14 +58,16 @@
               href: environment/resource-dual-write-expense.md
             - name: Piegādātāju rēķinu integrācija
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Atinstalēt Dynamics 365 Project Operations
+        - name: Dynamics 365 Project Operations atinstalēšana
           href: environment/uninstall-project-operations.md
     - name: Jaunumi
       items:
-        - name: "2022.\_gada jūlijs\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: "2022.\_gada augusts\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arhīvs
           items:
+            - name: "2022.\_gada jūlijs\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: "2022.\_gada jūnijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: "2022.\_gada maijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
@@ -384,6 +386,42 @@
           items:
             - name: Resursu lietojuma pārskats
               href: resource-management/resource-utilization-overview.md
+    - name: Pakārtotā pārvaldība
+      items:
+        - name: Pakārtota pārvaldība programmā Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Galvenie jēdzieni apakšlīgumu slēgšanā
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Piegādātāju un projektu cenrāžu pārvaldība
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Apakšuzņēmēji kā rezervējami resursi
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Apakšlīguma galvenes detalizētā informācija
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Apakšlīguma rindas par laiku
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Apakšlīguma rindas par izdevumu kategorijām
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Apakšlīguma rindas par produktiem
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Apakšuzņēmēja rinda par resursiem
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Apakšlīguma rinda par atskaites punktiem
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Apakšlīguma projekta grupas dalībnieki
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Apakšlīguma iespējas projekta grupas dalībniekiem
+          href: pro/subcontracting/subcon-options.md
+        - name: Apakšlīgumu resursu piešķīrumu izmaksu novērtējums
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 'Plānošanas paneļa konfigurēšana, lai parādītu līguma darbiniekus un apakšlīguma noslodzi'
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projekta personāla veidošana ar līguma darbiniekiem un apakšlīguma noslodzi
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Laika, izmaksu un materiālu izlietojuma reģistrēšana apakšlīguma komponentiem'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Apakšlīguma stāvokļa pārejas
+          href: pro/subcontracting/subcon-states.md
     - name: Laiks
       items:
         - name: Laika pārskats
@@ -578,13 +616,15 @@
           href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: Uzlabotā konfigurācija
       items:
-        - name: Migrēt pilnībā izrakstītu rēķinu atskaites punktus apgriešanas laikā
+        - name: Pilnībā izrakstītu rēķinu atskaites punktu migrēšana apgriešanas laikā
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: 'Projekta statusa sinhronizēšana, lai nepieļautu ierakstu pret slēgtiem projektiem'
+          href: advanced-configuration/sync-project-status.md
     - name: Jaunināšana
       items:
         - name: Mūsdienīgu apstiprinājumu jaunināšanas apsvērumi
           href: upgrade/upgrade-considerations-modern-approvals.md
-    - name: Project Operations lietotnes
+    - name: Project Operations programmas
       items:
         - name: Project Operations darba grupas lietotne
           href: team-member/project-operations-team-member.md
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
-        - name: "2022.\_gada jūlija jaunumi\_— Lite izvietošana"
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: "2022.\_gada augusta jaunumi\_— Lite izvietošana"
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arhīvs
           items:
+            - name: "2022.\_gada jūlija jaunumi\_— Lite izvietošana"
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: "2022.\_gada jūnija jaunumi\_— Lite izvietošana"
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: "2021.\_gada jaunumi\_— 2.\_kopuma agrīna piekļuve\_— Lite izvietošana"
@@ -1084,7 +1126,7 @@
       items:
         - name: Mūsdienīgu apstiprinājumu jaunināšanas apsvērumi
           href: upgrade/upgrade-considerations-modern-approvals.md
-    - name: Project Operations lietotnes
+    - name: Project Operations programmas
       items:
         - name: Project Operations darba grupas lietotne
           href: team-member/project-operations-team-member.md
