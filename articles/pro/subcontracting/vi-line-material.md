@@ -1,48 +1,46 @@
 ---
 title: Kreditora rēķina rindas par produktiem
-description: Šajā rakstā paskaidrots, kā reģistrēt piegādātāju rēķinu rindas precēm un izmantot dažādus laukus, lai reģistrētu preču iepirkumus no piegādātājiem.
+description: Šajā rakstā ir paskaidrots, kā reģistrēt preču kreditoru rēķinu rindas un izmantot dažādus laukus, lai reģistrētu preču pirkumus no kreditoriem.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d38a447c576c095a7bbe2f5ed84342a88bf69a9b
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931385"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261568"
 ---
 # <a name="vendor-invoice-lines-for-products"></a>Kreditora rēķina rindas par produktiem
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Kreditora rēķinā sistēmā Microsoft Dynamics 365 Project Operations var būt kreditora rēķina rindas precēm (sauktas arī par materiāliem). Projektu vadītāji var izmantot kreditoru rēķinu rindas precēm, lai reģistrētu projektos iegādāto preču izmaksas.
+Kreditora rēķinā korporācijā Microsoft Dynamics 365 Project Operations var būt kreditoru rēķinu rindas par produktiem (sauktiem arī par materiāliem). Projektu vadītāji var izmantot kreditoru rēķinu rindas precēm, lai reģistrētu projektos iegādāto preču izmaksas.
 
-Kreditora rēķina rindas precēm var vai nevar atsaukties uz materiālu apakšuzņēmuma rindu. Ja kreditora rēķina rinda precēm atsaucas uz apakšuzņēmuma līgumu, projektu vadītāji varēs saskaņot un pārbaudīt preces, par kurām kreditora rēķina rinda izraksta rēķinu, salīdzinot ar iegādāto preču izmantošanu, kuras reģistrējuši un apstiprinājuši projektu vadītāji.
+Kreditoru rēķinu rindās par precēm var būt vai nebūt atsauces uz apakšuzņēmuma līgumu rindu par materiāliem. Ja preču kreditora rēķina rindā ir atsauces uz apakšlīgumu, projektu vadītāji varēs saskaņot un pārbaudīt preces, par kurām rēķins tiek izrakstīts, izmantojot kreditora rēķina rindu, pret iegādāto preču izmantošanu, kuras ir reģistrējuši un apstiprinājuši projektu vadītāji.
 
-Šajā tabulā ir sniegta informācija par preču kreditora rēķina rindu laukiem.
+Šajā tabulā ir sniegta informācija par laukiem preču kreditoru rēķinu rindās.
 
 | Kolonna | Apraksts | Funkcionālā ietekme |
 | --- | --- | --- |
-| Nosaukums/vārds | Kreditora rēķina rindas nosaukums, lai palīdzētu veikt identifikāciju. | Šis nosaukums tiks parādīts kā pirmā kolonna visās uzmeklēšanas reizēs, kuru pamatā ir kreditora rēķina rindas. |
-| Apraksts | Īss to preču apraksts, kurām kreditors izraksta rēķinu kreditora rēķina rindā. | Nevienu |
-| Apakšuzņēmēja līgums | Apakšuzņēmums, kurā produkti sākotnēji tika pasūtīti. | Ja kreditora rēķinam ir atlasīts apakšlīgums, visas kreditora rēķina rindas pārmantos šo atlasi. Kreditora rēķinā nevar būt kreditora rēķina rindas, kas atsaucas uz dažādiem apakšuzņēmuma līgumiem. |
-| Apakšuzņēmuma līnija | Apakšuzņēmuma līnija, kurā preces tika pasūtītas. Atlasāmo apakšuzņēmuma rindu saraksts attiecas tikai uz atlasītā apakšlīguma rindām. | Ja preču kreditora rēķina rindā ir atlasīta apakšuzņēmuma rinda, lauku Projekts **,** Uzdevums **un** Prece **noklusētās vērtības** tiek ievadītas no atbilstošajiem zemlīguma rindas laukiem. Ja atlasītajai apakšuzņēmuma rindai ir vērtības **laukos Projekts**, **Uzdevums** un **Produkts**, atbilstošo lauku vērtības kreditora rēķina rindā nevar atšķirties no šīm vērtībām. |
-| Darījuma datums | Datums, kad projektā tiks reģistrētas kreditora rēķina rindas faktiskās izmaksas. | Nevienu|
-| Transakciju klase | Kad precēm ir izrakstīts rēķins, šis lauks jāiestata uz **Materiāls**. | Vērtība **Materiāls** norāda, ka kreditora rēķina rinda tiek izmantota, lai reģistrētu iepirkto materiālu rēķina summu. |
-| Project | Tā projekta nosaukums, kurā tika izmantotas preces, par kurām tiek izrakstīts rēķins. | Šis lauks ir obligāts, un to nevar atstāt tukšu. |
-| Uzdevums | Tā projekta uzdevuma nosaukums, kurā tika izmantotas preces, par kurām tiek izrakstīts rēķins. Šis lauks ir pieejams tikai tad, ja ir atlasīts projekts. Projekta uzdevuma atlase nav obligāta. | Ja šis lauks ir atstāts tukšs, projekta vadītājs var saskaņot kreditora rēķina rindu ar iepirkto preci, kas tiek izmantota jebkurā projekta uzdevumā. Ja kreditora rēķina rindā nav atsauces uz apakšuzņēmuma rindu un šis lauks ir atstāts tukšs, faktiskās izmaksas, ko izveidojusi kreditora rēķina rinda, netiks saistītas ar neskaitāmām pārdošanas faktiskajām versijām. Šādā gadījumā, ja ir iestatīti uz uzdevumiem balstīti norēķini, izmaksas nevarēs izrakstīt gala debitoram. |
-| Atlasīt produktu | Atlasiet, vai prece, par kuru tiek izrakstīts rēķins, ir esoša prece no kataloga vai ierakstāmā prece. | Noklusējuma vērtība tiek ievadīta no apakšuzņēmuma rindas, kad ir atlasīta apakšuzņēmuma līguma rinda. |
-| Produkts | Atlasiet preci no kataloga. Ja produkts ir ierakstāms produkts, ievadiet produkta nosaukumu. | Šis lauks tiek izmantots, lai ievadītu esošo preču noklusējuma iepirkuma cenas. |
-| Daudzums | Ievadiet materiālu daudzumu, par kuru piegādātājs izraksta rēķinu šajā rēķina rindā. | Nevienu |
-| Vienību grupa | Atlasiet vienības vienību grupu, kurā ir izteikts daudzums, par kuru tiek izrakstīts rēķins. | Nevienu |
-| Vienība | Noklusējuma vērtība ir atlasītās vienību grupas pamatvienība. Šo vērtību var mainīt, lai samaksātu jebkurā atlasītās vienību grupas vienībā. | Produkta un vienības vērtību kombinācija **tiks izmantota kā kreditora rēķina rindas lauka Vienības cena** noklusējuma vai aprēķinātā vērtība **.** **·** |
-| Vienības cena | Noklusētajā vienības cenā tiek izmantota projekta cenrāža produktu **un** vienību **vērtību kombinācija**, kas attiecas uz kreditora rēķina rindas darbības datumu. | Nevienu |
-| Starpsumma | Šis lasāmais lauks tiek aprēķināts kā *Daudzuma*&times;*vienības cena*, ja vērtības ir ievadītas gan laukā Daudzums **,** gan **laukā Vienības cena.** Ja viens vai abi šie lauki ir tukši, šajā laukā var ievadīt vērtību. | Nevienu |
+| Nosaukums/vārds | Kreditora rēķina rindas nosaukums, lai palīdzētu identificēt. | Šis nosaukums tiks rādīts kā pirmā kolonna visās uzmeklēšanas reizēs, kuru pamatā ir kreditora rēķina rindas. |
+| Apraksts | Īss apraksts par precēm, par kurām kreditors ir izrakstījis rēķinus kreditora rēķina rindā. | Nevienu |
+| Apakšuzņēmēja līgums | Apakšlīgums, uz kura preces sākotnēji tika pasūtītas. | Ja kreditora rēķinam ir atlasīts apakšlīgums, visas rindas kreditora rēķinā pārmanto šo atlasi. Kreditora rēķinā nevar būt kreditora rēķina rindas, kurās ir atsauces uz dažādiem apakšuzņēmuma līgumiem. |
+| Apakšuzņēmuma līgumu līnija | Apakšuzņēmuma līnija, uz kuras tika pasūtīti produkti. To apakšlīgumu rindu saraksts, kuras var atlasīt, ir ierobežots līdz rindām atlasītajā apakšuzņēmuma līgumā. | Ja apakšuzņēmuma līgumu rinda ir atlasīta preču kreditora rēķina rindā, apakšuzņēmuma līguma rindas atbilstošajos laukos tiek ievadītas **lauku Projekts**, **Uzdevums** un **Produkts** noklusējuma vērtības. Ja atlasītajai apakšuzņēmuma līgumu rindai ir vērtības laukos **Projekts**, **Uzdevums** un **Produkts**, atbilstošo lauku vērtības kreditora rēķina rindā nevar atšķirties no šīm vērtībām. |
+| Darījuma datums | Datums, kad projektā tiks ierakstītas kreditora rēķina rindas faktiskās izmaksas. | Nevienu|
+| Transakciju klase | Kad rēķins par produktiem tiek izrakstīts, šim laukam ir jābūt iestatītam uz **Materiāls**. | Vērtība **Materiāls** norāda, ka kreditora rēķina rinda tiek izmantota, lai reģistrētu rēķina summu par iegādātajiem materiāliem. |
+| Project | Tā projekta nosaukums, kurā tika izmantoti rēķini par produktiem, par kuriem tiek izrakstīts rēķins. | Šis lauks ir obligāts, un to nevar atstāt tukšu. |
+| Uzdevums | Tā projekta uzdevuma nosaukums, kurā tika izmantotas preces, par kurām tiek izrakstīts rēķins. Šis lauks ir pieejams tikai tad, ja ir atlasīts projekts. Projekta uzdevuma atlase nav obligāta. | Ja šis lauks ir atstāts tukšs, projekta vadītājs var saskaņot kreditora rēķina rindu ar iegādāto preci, kas tiek izmantota jebkurā projekta uzdevumā. Ja kreditora rēķina rindā nav atsauces uz apakšuzņēmuma līguma rindiņu un šis lauks tiek atstāts tukšs, faktiskās izmaksas, ko izveido kreditora rēķina rinda, netiks saistītas ne ar vienu nesamaksātu pārdošanas faktisko vērtību. Šādā gadījumā, ja ir iestatīti uz uzdevumiem balstīti norēķini, rēķinus par izmaksām nevarēs izrakstīt gala debitoram. |
+| Atlasīt produktu | Atlasiet, vai prece, par kuru tiek izrakstīts rēķins, ir esoša prece no kataloga vai ierakstāma prece. | Noklusējuma vērtība tiek ievadīta no apakšuzņēmuma līguma rindas, kad ir atlasīta apakšuzņēmuma līguma rindiņa. |
+| Produkts | Atlasiet produktu no kataloga. Ja produkts ir ierakstāms produkts, ievadiet produkta nosaukumu. | Šis lauks tiek izmantots, lai ievadītu esošo preču noklusējuma pirkšanas cenas. |
+| Daudzums | Ievadiet materiāla daudzumu, par kuru kreditors ir izrakstījis rēķinu šajā rēķina rindā. | Nevienu |
+| Vienību grupa | Atlasiet vienības vienību grupu, kurā ir izteikts rēķins par daudzumu, par kuru tiek izrakstīts rēķins. | Nevienu |
+| Vienība | Noklusējuma vērtība ir atlasītās vienību grupas pamatvienība. Šo vērtību var mainīt, lai samaksātu jebkurā atlasītās vienības grupas vienībā. | Vērtības Produkts **un** **Vienība** kombinācija tiks izmantota kā noklusējuma vai aprēķinātā vērtība laukam **Vienības cena** kreditora rēķina rindā. |
+| Vienības cena | Noklusējuma vienības cenā tiek izmantota produkta **un** vienības **vērtību kombinācija** no projekta cenrāža, kas ir piemērojama kreditora rēķina rindas transakcijas datumam. | Nevienu |
+| Starpsumma | Šis tikai lasāmais lauks tiek aprēķināts kā *daudzuma*&times;*vienības cena*, ja vērtības tiek ievadītas gan laukā Daudzums **, gan** **laukā Vienības cena.** Ja viens vai abi šie lauki ir tukši, šajā laukā varat ievadīt vērtību. | Nevienu |
 | PVN | Ievadiet pārdošanas nodokļa summu. | Nevienu |
-| Kopsumma | Kreditora rēķina rindas kopsumma, ieskaitot nodokļus. Šis lauks tiek aprēķināts kā *starpsummas* + *PVN*. | Nevienu |
+| Kopsumma | Kreditora rēķina rindas kopējā summa, ieskaitot nodokļus. Šis lauks tiek aprēķināts kā *starpsummu* + *pārdošanas nodoklis*. | Nevienu |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

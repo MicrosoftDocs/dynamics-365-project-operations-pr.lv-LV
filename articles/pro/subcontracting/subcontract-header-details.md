@@ -1,25 +1,23 @@
 ---
 title: Apakšlīgumu galvenes informācija
-description: Šajā rakstā ir izskaidrota funkcionalitāte, kas paredzēta projekta operāciju apakšuzņēmuma virsrakstā apakšuzņēmuma virsrakstā.
+description: Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta apakšuzņēmuma līguma galvenē project operations.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914181"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261427"
 ---
 # <a name="header-details-for-subcontracts"></a>Apakšlīgumu galvenes informācija
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā rakstā ir izskaidrota funkcionalitāte, kas norādīta apakšuzņēmuma galvenē programmā Dynamics 365 Project Operations.
+Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta apakšuzņēmuma galvenē Dynamics 365 Project Operations.
 
 Tā kā projekta vadītājs plāno un izpilda projektus, viņš var nodarbināt apakšuzņēmējus un iegādāties produktus un pakalpojumus no piegādātājiem. Ja projekta vadītājam ir jāiegādājas produkti vai pakalpojumi, viņš var izveidot apakšlīgumu programmā Project Operations.
 

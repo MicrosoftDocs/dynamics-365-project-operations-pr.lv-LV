@@ -1,46 +1,44 @@
 ---
 title: Kreditora rēķina rindas par atskaites punktiem
-description: Šajā rakstā paskaidrots, kā izveidot kreditora rēķina rindas starplīguma atskaites punktiem.
+description: Šajā rakstā ir paskaidrots, kā izveidot kreditoru rēķinu rindas atskaites punktiem apakšuzņēmuma līgumā.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f066c2ac7377a989a92a9ae2e9a732d3c979a0db
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931339"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261037"
 ---
 # <a name="vendor-invoice-lines-for-milestones"></a>Kreditora rēķina rindas par atskaites punktiem
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Kreditora rēķinā sistēmā Microsoft Dynamics 365 Project Operations var būt kreditora rēķina rindas atskaites punktiem, kas definēti apakšuzņēmuma rindā. Projektu vadītāji var izmantot kreditora rēķina rindas atskaites punktiem, lai reģistrētu to pakalpojumu izmaksas, kas tiek iepirkti kā starpposma izmaksas, kas radušās par pakalpojumiem vai produktiem, kuri tiek iepirkti projektam.
+Kreditora rēķinā korporācijā Microsoft Dynamics 365 Project Operations var būt kreditoru rēķinu rindas atskaites punktiem, kas ir definēti apakšuzņēmuma līguma rindā. Projektu vadītāji var izmantot kreditoru rēķinu rindas atskaites punktiem, lai reģistrētu to pakalpojumu izmaksas, kas tiek iepirkti kā uz atskaites punktu balstītas izmaksas, kuras rodas par pakalpojumiem vai precēm, kas tiek iepirktas projektam.
 
-Kreditora rēķina rindām atskaites punktiem vienmēr jāatsaucas uz apakšuzņēmuma rindu, kurai ir fiksētas cenas norēķinu metode. Ja kreditora rēķina rinda atskaites punktiem atsaucas uz apakšuzņēmuma rindu, projektu vadītāji varēs saskaņot un pārbaudīt laika, izdevumu vai materiālu pamatizmaksas, kas atsaucas uz šo apakšuzņēmuma rindu, ar atskaites punktu, par kuru kreditors izraksta rēķinu.
+Kreditoru rēķinu rindās atskaites punktiem vienmēr ir jāatsaucas uz apakšuzņēmuma līgumu rindu, kurai ir fiksētas cenas norēķinu metode. Kad atskaites punktu kreditora rēķina rindā ir atsauce uz apakšuzņēmuma līgumu rindu, projektu vadītāji varēs saskaņot un pārbaudīt laika, izdevumu vai materiālu, kuros ir atsauce uz šo apakšuzņēmuma līgumu, pamatā esošās izmaksas attiecībā pret atskaites punktu, par kuru kreditors ir izrakstījis rēķinu.
 
-Šajā tabulā ir sniegta informācija par atskaites punktu kreditoru rēķinu rindu laukiem.
+Nākamajā tabulā ir sniegta informācija par laukiem kreditoru rēķinu rindās atskaites punktiem.
 
 | Kolonna | Apraksts | Funkcionālā ietekme |
 | --- | --- | --- |
-| Nosaukums/vārds | Kreditora rēķina rindas nosaukums, lai palīdzētu veikt identifikāciju. | Šis nosaukums tiks parādīts kā pirmā kolonna visās uzmeklēšanas reizēs, kuru pamatā ir kreditora rēķina rindas. |
-| Apraksts | Īss to pakalpojumu apraksts, par kuriem piegādātājs izraksta rēķinu kreditora rēķina rindā. | Nevienu |
-| Apakšuzņēmēja līgums | Apakšuzņēmums, kurā pakalpojumi sākotnēji tika pasūtīti. | Ja kreditora rēķinam ir atlasīts apakšlīgums, visas kreditora rēķina rindas pārmantos šo atlasi. Kreditora rēķinā nevar būt kreditora rēķina rindas, kas atsaucas uz dažādiem apakšuzņēmuma līgumiem. |
-| Apakšuzņēmuma līnija | Apakšuzņēmuma līnija, kurā pakalpojumi tika pasūtīti. Atlasāmo apakšuzņēmuma rindu saraksts attiecas tikai uz atlasītā apakšlīguma rindām. | Ja kreditora rēķina rindā atskaites punktiem ir atlasīta apakšuzņēmuma rinda, **lauki Loma** un **Transakcija kategorija** un ar produktu saistītie lauki nav atbilstoši un nav pieejami. Lauki **Daudzums**, **Vienība** un **Vienību grupa** neattiecas arī uz atskaites punkta kreditora rēķina rindām. |
-| Darījuma datums | Datums, kad projektā tiks reģistrētas kreditora rēķina rindas faktiskās izmaksas. | Nevienu |
-| Transakciju klase | Atlasiet **Atskaites punkts**, lai ierakstītu kreditora rēķinu par pabeigtu atskaites punktu, kas tika definēts apakšuzņēmuma rindā. | Nevienu |
-| Atskaites punkts | Atlasiet atskaites punktu, kas definēts saistītajā apakšuzņēmuma rindā, kas atzīmēta kā **gatava rēķinam**. | Apakšuzņēmuma rindas atskaites punktus, kuru statuss **ir Gatavs rēķinam**, var atlasīt kreditora rēķina rindā. |
+| Nosaukums/vārds | Kreditora rēķina rindas nosaukums, lai palīdzētu identificēt. | Šis nosaukums tiks rādīts kā pirmā kolonna visās uzmeklēšanas reizēs, kuru pamatā ir kreditora rēķina rindas. |
+| Apraksts | Īss apraksts par pakalpojumiem, par kuriem kreditors ir izrakstījis rēķinus kreditora rēķina rindā. | Nevienu |
+| Apakšuzņēmēja līgums | Apakšuzņēmuma līgums, uz kura sākotnēji tika pasūtīti pakalpojumi. | Ja kreditora rēķinam ir atlasīts apakšlīgums, visas rindas kreditora rēķinā pārmanto šo atlasi. Kreditora rēķinā nevar būt kreditora rēķina rindas, kurās ir atsauces uz dažādiem apakšuzņēmuma līgumiem. |
+| Apakšuzņēmuma līgumu līnija | Apakšuzņēmuma līnija, uz kuras tika pasūtīti pakalpojumi. To apakšlīgumu rindu saraksts, kuras var atlasīt, ir ierobežots līdz rindām atlasītajā apakšuzņēmuma līgumā. | Ja atskaites punktiem kreditora rēķina rindā ir atlasīta apakšuzņēmuma līguma rinda, **lauki Lomu** un **transakciju kategorija** un ar precēm saistītie lauki nav būtiski un nav pieejami. Lauki **Daudzums**, **Vienība** un **Vienība** arī neattiecas uz atskaites punktu balstītām kreditoru rēķinu rindām. |
+| Darījuma datums | Datums, kad projektā tiks ierakstītas kreditora rēķina rindas faktiskās izmaksas. | Nevienu |
+| Transakciju klase | Atlasiet **Atskaites punkts**, lai ierakstītu kreditora rēķinu par pabeigtu atskaites punktu, kas tika definēts apakšuzņēmuma līguma rindiņā. | Nevienu |
+| Atskaites punkts | Atlasiet atskaites punktu, kas ir definēts saistītajā apakšlīguma rindiņā, kas ir atzīmēta kā **Gatavs rēķinam**. | Apakšuzņēmuma līgumu rindu atskaites punktus, kuru statuss **ir Gatavs rēķinam**, var atlasīt kreditora rēķina rindā. |
 | Project | Tā projekta nosaukums, kurā tika izmantoti pakalpojumi, par kuriem tiek izrakstīts rēķins. | Šis lauks ir obligāts, un to nevar atstāt tukšu. |
-| Uzdevums | Tā projekta uzdevuma nosaukums, par kuru tika izmantoti pakalpojumi, par kuriem tiek izrakstīts rēķins. Šis lauks ir pieejams tikai tad, ja ir atlasīts projekts. Projekta uzdevuma atlase nav obligāta. | Ja šis lauks ir atstāts tukšs, projekta vadītājs var saskaņot kreditora rēķina rindu ar darbību klasi saistītajā apakšuzņēmuma rindā, kas tiek ierakstīta jebkurā projekta uzdevumā. Ja kreditora rēķina rindā nav atsauces uz apakšuzņēmuma rindu un šis lauks ir atstāts tukšs, faktiskās izmaksas, ko izveidojusi kreditora rēķina rinda, netiks saistītas ar neskaitāmām pārdošanas faktiskajām versijām. Šādā gadījumā, ja ir iestatīti uz uzdevumiem balstīti norēķini, iespējams, ka par izmaksām nevar izrakstīt rēķinus gala debitoram. |
-| Atskaites punkta summa | Ievadiet atskaites punkta vērtību, kas definēta apakšuzņēmuma rindā, kura ir gatava rēķina izrakstīšanai. | Nevienu |
+| Uzdevums | Tā projekta uzdevuma nosaukums, kurā tika izmantoti pakalpojumi, par kuriem tiek izrakstīts rēķins. Šis lauks ir pieejams tikai tad, ja ir atlasīts projekts. Projekta uzdevuma atlase nav obligāta. | Ja šis lauks ir atstāts tukšs, projekta vadītājs var saskaņot kreditora rēķina rindu ar transakciju klasi saistītajā apakšlīguma rindā, kas tiek ierakstīta jebkurā projekta uzdevumā. Ja kreditora rēķina rindā nav atsauces uz apakšuzņēmuma līguma rindiņu un šis lauks tiek atstāts tukšs, faktiskās izmaksas, ko izveido kreditora rēķina rinda, netiks saistītas ne ar vienu nesamaksātu pārdošanas faktisko vērtību. Šādā gadījumā, ja ir iestatīti uz uzdevumiem balstīti norēķini, iespējams, nevarēs izrakstīt rēķinus par izmaksām gala debitoram. |
+| Atskaites punkta summa | Ievadiet atskaites punkta vērtību, kas ir definēta apakšuzņēmuma līgumu rindā, kura ir gatava rēķināšanai. | Nevienu |
 | PVN | Ievadiet pārdošanas nodokļa summu. | Nevienu |
-| Kopsumma | Kreditora rēķina rindas kopsumma, ieskaitot nodokļus. Šis lauks tiek aprēķināts kā *Atskaites punkta summa* + *PVN*. | Nevienu |
+| Kopsumma | Kreditora rēķina rindas kopējā summa, ieskaitot nodokļus. Šis lauks tiek aprēķināts kā *atskaites punkta summa* + *PĀRDOŠANAS NODOKLIS*. | Nevienu |
 
 > [!NOTE]
-> Kad tiek izveidota kreditora rēķina rinda, kas atsaucas uz apakšuzņēmuma rindas atskaites punktu, apakšlīguma atskaites punkta statuss tiek atjaunināts uz **izveidoto** kreditora rēķinu. Pēc tam, kad šis kreditora rēķins ir apstiprināts, apakšuzņēmuma rindas atskaites punkta statuss tiek atjaunināts uz **kreditora rēķina apstiprinājumu**.
+> Kad tiek izveidota kreditora rēķina rinda, kas atsaucas uz apakšuzņēmuma līgumu rindas atskaites punktu, apakšuzņēmuma atskaites punkta statuss tiek atjaunināts uz **Izveidots** kreditora rēķins. Pēc tam, kad šis kreditora rēķins ir apstiprināts, apakšuzņēmuma līguma rindas atskaites punkta statuss tiek atjaunināts uz **Apstiprināts** kreditora rēķins.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

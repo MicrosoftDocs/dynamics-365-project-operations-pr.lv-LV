@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
-ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
-ms.translationtype: HT
+ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "9190676"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295841"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Atjauninājumu izlaiduma grafiks Project Service 3.x
 
@@ -63,12 +63,12 @@ Informāciju par Project Service atjauninājumiem skatiet [Dynamics 365 izlaiša
 | | <i>Okeānija</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022. gada 09. septembris
 | | <i>Apvienotie Arābu Emirāti</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022. gada 09. septembris
 |<strong>4. stacija</strong> | |  |  | |
-| | <i>Eiropa</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022. gada 29. jūlijs
+| | <i>Eiropa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022. gada 16. septembris
 |<strong>5. stacija</strong> | |  |  | |
-| | <i>Ziemeļamerika</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022. gada 05. augusts
+| | <i>Ziemeļamerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022. gada 23. septembris
 |<strong>6. stacija</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022. gada 03. augusts
-| | <i>Īpašas skalu grupas</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022. gada 05. augusts
+| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022. gada 21. septembris
+| | <i>Īpašas skalu grupas</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022. gada 30. septembris
 
 
 

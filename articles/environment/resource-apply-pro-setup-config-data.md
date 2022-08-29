@@ -1,17 +1,17 @@
 ---
-title: Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service
-description: Šajā rakstā sniegta informācija par konfigurācijas datu iestatīšanu un lietošanu projekta operācijās.
+title: Konfigurācijas datu iestatīšana un lietošana pakalpojumā Microsoft Dataverse
+description: Šajā rakstā ir sniegta informācija par konfigurācijas datu iestatīšanu un lietošanu programmā Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928027"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230247"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurācijas datu iestatīšana un lietošana pakalpojumā Common Data Service 
 
@@ -19,12 +19,12 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 
 
-## <a name="prerequisites"></a>Priekšnosacījumi
+## <a name="prerequisites"></a>Priekšnoteikumi
 
-Pirms varat sākt datu konfigurēšanu Common Data Service (CDS), ir jāizpilda tālāk norādītie priekšnosacījumi.
+Pirms sākat konfigurēt datus, Microsoft Dataverse ir jāizpilda šādi priekšnosacījumi:
 
-1.  Nodrošināt CDS vidi un Dynamics 365 Finance vidi projekta darbībām.
-2.  Juridiskās personas informācija no Dynamics 365 Finance tiek kopīgota CDS vidē. Tas nozīmē, ka entītijai **Uzņēmums** pakalpojumā CDS ir šādi uzņēmumu ieraksti:
+1.  Dataverse Nodrošiniet vidi un Dynamics 365 Finance vidi projektu darbībām.
+2.  Juridiskās personas informācija no Dynamics 365 Finance tiek kopīgota ar Dataverse vidi. Tas nozīmē, ka **uzņēmuma** vienībai Dataverse ir šādi uzņēmuma ieraksti:
   - THPM
   - USPM
   - GBPM

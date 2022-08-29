@@ -1,20 +1,20 @@
 ---
-title: Jaunumi vai izmaiņas projektu darbībās, 2022. gada jūnijs attiecībā uz uzkrātajiem/uz ražošanu balstītiem scenārijiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2022. gada jūnija projekta darbību laidienā uzkrātajiem/uz ražošanu balstītiem scenārijiem.
+title: Kas jauns vai mainīts Project Operations 2022. gada jūnijā krājumos/uz ražošanu balstītiem scenārijiem
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2022. gada jūnija projekta operāciju laidienā krājumos/uz ražošanu balstītiem scenārijiem.
 author: andchoi
 ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959687"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316951"
 ---
-# <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Jaunumi vai izmaiņas projektu darbībās, 2022. gada jūnijs attiecībā uz uzkrātajiem/uz ražošanu balstītiem scenārijiem
+# <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Kas jauns vai mainīts Project Operations 2022. gada jūnijā krājumos/uz ražošanu balstītiem scenārijiem
 
 _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem_
 
@@ -24,8 +24,8 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
-Krājumu vajadzības var izmantot projektu līgumiem, kuriem ir vairāki finansējuma avoti. Plašāku informāciju skatiet [Item requirements projektu līgumiem ar vairākiem finansējuma avotiem](/multiple-funding-sources-item-req.md).
+Krājumu prasības var izmantot projektu līgumiem, kuriem ir vairāki finansējuma avoti. Papildinformāciju skatiet sadaļā [Krājumu prasības projektu līgumiem ar vairākiem finansējuma avotiem](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
-Lai iegūtu informāciju par kļūdu labojumiem, kas ir iekļauti šajā atjauninājumā, piesakieties Microsoft Dynamics lifecycle services (LCS) un skatiet [KB rakstu](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).
+Lai iegūtu informāciju par kļūdu labojumiem, kas ir iekļauti šajā atjauninājumā, piesakieties Microsoft Dynamics Lifecycle Services (LCS) un skatiet [zināšanu bāzes rakstu](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).

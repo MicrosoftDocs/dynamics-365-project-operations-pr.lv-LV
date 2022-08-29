@@ -1,35 +1,33 @@
 ---
 title: Atcelt projekta kreditora rēķinu
-description: Šajā rakstā paskaidrots, kā atcelt projekta kreditora rēķinu programmā Microsoft Dynamics 365 Project Operations, un projekta kreditora rēķina atcelšanas finansiālā ietekme.
+description: Šajā rakstā ir paskaidrots, kā atcelt projekta kreditora rēķinu korporācijā Microsoft Dynamics 365 Project Operations, un projekta kreditora rēķina atcelšanas finansiālā ietekme.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79d00a91f9ab2d66eab2f80349d6f1fba1934f94
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911559"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261100"
 ---
 # <a name="cancel-a-project-vendor-invoice"></a>Atcelt projekta kreditora rēķinu
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Pēc kreditora rēķina apstiprināšanas to nevar rediģēt vai dzēst. Ja apstiprinātā kreditora rēķinā radās kļūda, varat izmantot darbību Atcelt, lai atsauktu kreditora rēķina ietekmi un izveidotu jaunu kreditora rēķinu.
+Kad kreditora rēķins ir apstiprināts, to nevar rediģēt vai dzēst. Ja piegādātāja rēķinā, kas tika apstiprināts, ir radusies kļūda, varat izmantot darbību Atcelt, lai mainītu kreditora rēķina ietekmi un izveidotu jaunu kreditora rēķinu.
 
-Kreditora rēķinā atlasot **Atcelt**, notiek šāda darbība:
+Kreditora rēķinā atlasot **Atcelt**, tiek veikta tālāk norādītā darbība.
 
 1. Kreditora rēķina stāvoklis tiek atjaunināts uz **Atcelts**.
 2. Atceltais kreditora rēķins un ar to saistītie ieraksti kļūst tikai lasāmi, un tos nevar rediģēt vai dzēst.
-3. Visas izmaksu faktiskās darbības, kas tika izveidotas, pamatojoties uz kreditora rēķina rindām kā daļa no kreditora rēķina apstiprinājuma, tiek atsauktas.
-4. Ja izmaksu fakti tika saistīti ar kreditora rēķina rindām kā daļa no atbilstības procesa, sākotnējais kreditora rēķina apstiprinājums tos atsauca. Kreditora rēķina atcelšanas laikā šīs izmaksu faktiskās tiek izveidotas no jauna. Izcelsme norāda uz laika, izdevumu vai materiālu lietojuma ierakstiem.
-5. Pēc piegādātāja rēķina atcelšanas var vēlreiz izveidot labojumu žurnālus, apstrādāt laika ieraksta atsaukšanas un atcelt sākotnējā laika, izdevumu vai materiālu faktiskās apstiprināšanas.
+3. Visas faktiskās izmaksas, kas tika izveidotas, pamatojoties uz kreditora rēķina rindām kā daļa no kreditora rēķina apstiprinājuma, tiek anulētas.
+4. Ja faktiskās izmaksas tika saistītas ar kreditora rēķina rindām kā daļa no salīdzināšanas procesa, sākotnējais kreditora rēķina apstiprinājums tos apvērsa. Kreditora rēķina atcelšanas laikā šīs faktiskās izmaksas tiek atkārtoti izveidotas. Izcelsme norāda uz laika, izdevumu vai materiālu izmantošanas ierakstiem.
+5. Pēc kreditora rēķina atcelšanas varat vēlreiz izveidot labojumu žurnālus, apstrādāt laika ieraksta atsaukumus un atcelt sākotnējā laika, izdevumu vai faktisko materiālu apstiprināšanu.
 
 > [!NOTE]
-> Var atcelt tikai apstiprinātos projekta kreditoru rēķinus. Kreditoru rēķinus citos štatos nevar atcelt.
+> Var atcelt tikai apstiprinātus projektu kreditoru rēķinus. Kreditoru rēķinus citās valstīs nevar atcelt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,24 @@
 ---
 title: Galvenie jēdzieni apakšlīgumu slēgšanā
-description: Šajā rakstā ir izskaidroti daži galvenie jēdzieni, kas attiecas uz apakšuzņēmuma līgumiem programmā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā ir izskaidroti daži galvenie jēdzieni, kas attiecas uz apakšuzņēmuma līgumiem korporācijā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927705"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262179"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Galvenie jēdzieni apakšlīgumu slēgšanā
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Rakstā ir izskaidroti daži galvenie jēdzieni, kas jums jāzina, pirms sākat izmantot apakšuzņēmuma funkcionalitāti programmā Microsoft Dynamics 365 Project Operations.
+Rakstā ir izskaidroti daži galvenie jēdzieni, kas jums jāzina, pirms sākat izmantot apakšuzņēmuma līgumu funkcionalitāti korporācijā Microsoft Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Līgumslēdzēja vienība apakšsavienībā
 

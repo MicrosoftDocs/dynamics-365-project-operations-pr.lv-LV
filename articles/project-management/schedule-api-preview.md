@@ -1,17 +1,17 @@
 ---
 title: Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
-description: Šajā rakstā sniegta informācija un paraugi projektu grafika API izmantošanai.
+description: Šajā rakstā ir sniegta informācija un paraugi, kā izmantot project schedule API.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929223"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230325"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
 
@@ -42,12 +42,12 @@ OperationSet ir darba vienības shēma, ko var izmantot, kad transakcijā ir jā
 
 Tālāk ir parādīts pašreizējo projekta plānošanas API saraksts.
 
-- **msdyn_CreateProjectV1**: šo API var izmantot, lai izveidotu projektu. Projekts un noklusējuma projekta grupa tiek izveidoti nekavējoties.
+- **msdyn_CreateProjectV1**: šo API var izmantot, lai izveidotu projektu. Projekts un noklusējuma projekta kauss tiek izveidots nekavējoties.
 - **msdyn_CreateTeamMemberV1**: šo API var izmantot, lai izveidotu projekta darba grupas dalībnieku. Darba grupas dalībnieka ieraksts tiek izveidots nekavējoties.
 - **msdyn_CreateOperationSetV1**: šo API var izmantot, lai ieplānotu vairākus pieprasījumus, kas jāveic transakcijā.
-- **msdyn_PSSCreateV1**: šo API var izmantot, lai izveidotu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta izveides operāciju.
-- **msdyn_PSSUpdateV1**: šo API var izmantot, lai atjauninātu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta atjaunināšanas operāciju.
-- **msdyn_PSSDeleteV1**: šo API var izmantot, lai dzēstu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta dzēšanas operāciju.
+- **msdyn_PssCreateV1**: šo API var izmantot, lai izveidotu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta izveides operāciju.
+- **msdyn_PssUpdateV1**: šo API var izmantot, lai atjauninātu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta atjaunināšanas operāciju.
+- **msdyn_PssDeleteV1**: šo API var izmantot, lai dzēstu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta dzēšanas operāciju.
 - **msdyn_ExecuteOperationSetV1**: šis API tiek izmantots, lai izpildītu visas operācijas attiecīgajā operāciju kopā.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Projekta plānošanas API izmantošana ar OperationSet
@@ -59,9 +59,9 @@ Tā kā ieraksti, kuriem ir gan **CreateProjectV1**, gan **CreateTeamMemberV1**,
 | Plānošanas entītija | Izveide | Atjauninājums | Delete | Svarīgi ieteikumi |
 | --- | --- | --- | --- | --- |
 Projekta uzdevums | Jā | Jā | Jā | Laukus **Progress**, **EffortCompleted** un **EffortRemaining** var rediģēt programmā Project for the Web, bet tos nevar rediģēt programmā Project Operations.  |
-| Projekta uzdevuma atkarība | Jā |  | Jā | Projekta uzdevumu atkarības ieraksti netiek atjaunināti. Tā vietā var izdzēst vecu ierakstu un izveidot jaunu ierakstu. |
-| Resursu piešķiršana | Jā | Jā | | Netiek atbalstītas operācijas ar šādiem laukiem: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** un **PlannedWork**. Resursu piešķiršanas ieraksti netiek atjaunināti. Tā vietā veco ierakstu var izdzēst un izveidot jaunu ierakstu. |
-| Projekta bloks | Jā | Jā | Jā | Noklusējuma spainis tiek izveidots, izmantojot **API CreateProjectV1**. Atbalsts projektu kausu izveidei un dzēšanai tika pievienots atjauninājuma laidienā Nr. 16. |
+| Projekta uzdevuma atkarība | Jā |  | Jā | Projekta uzdevumu atkarības ieraksti netiek atjaunināti. Tā vietā var izdzēst vecu ierakstu, un var izveidot jaunu ierakstu. |
+| Resursu piešķiršana | Jā | Jā | | Netiek atbalstītas operācijas ar šādiem laukiem: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** un **PlannedWork**. Resursu piešķiršanas ieraksti netiek atjaunināti. Tā vietā veco ierakstu var izdzēst, un var izveidot jaunu ierakstu. |
+| Projekta bloks | Jā | Jā | Jā | Noklusējuma spainis tiek izveidots, **izmantojot CreateProjectV1** API. Atbalsts projektu kopu izveidei un dzēšanai tika pievienots 16. atjauninājuma laidienā. |
 | Projekta darba grupas dalībnieks | Jā | Jā | Jā | Izveides operācijai izmantojiet **CreateTeamMemberV1** API. |
 | Project | Jā | Jā |  | Netiek atbalstītas operācijas ar šādiem laukiem: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** un **Duration**. |
 
@@ -71,7 +71,7 @@ Rekvizīts ID nav obligāts. Ja tas ir nodrošināts, sistēma mēģina to izman
 
 ## <a name="restricted-fields"></a>Ierobežotie lauki
 
-Šajās tabulās ir definēti lauki, kas ir ierobežoti no **izveides** un **rediģēšanas**.
+Tālāk esošajās tabulās ir definēti lauki, kas ir ierobežoti sadaļā **Izveide** un **rediģēšana**.
 
 ### <a name="project-task"></a>Projekta uzdevums
 
@@ -265,7 +265,7 @@ Rekvizīts ID nav obligāts. Ja tas ir nodrošināts, sistēma mēģina to izman
 ## <a name="limitations-and-known-issues"></a>Zināmās problēmas un ierobežojumi
 Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 
-- Projektu grafika API var izmantot **tikai lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
+- Project Schedule API var izmantot **tikai lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
 
     - Programmas lietotāji
     - Sistēmas lietotāji
