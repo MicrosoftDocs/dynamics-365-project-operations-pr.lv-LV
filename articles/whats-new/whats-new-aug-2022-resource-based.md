@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348105"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403866"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2022. gada augustā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
 
@@ -38,6 +38,11 @@ Ja, startējot karti, rodas problēma, izpildiet norādījumus, kas sniegti [div
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
 |   Iespēju pārvaldība | 2762089 | Kļūdu apstrāde, aizverot līgumu kā zaudētu, ja organizācijā ir atspējota automātiskā saglabāšana.|
+|Projektu plānošana un izsekošana | 2767841 | Telemetrijas atjauninājumi Projekta entītija Izveidojiet vai atjauniniet scenārijus.|
+|Cenu noteikšana un norēķini | 2771072 | Nulles atsauces izņēmuma apstrāde, uzvarot citātu.|
+|Cenu noteikšana un norēķini | 2844181 |Nespēja iegūt korelācijas ID un bloķēt rēķina izveidi.|
+|Cenu noteikšana un norēķini | 2852836 | Starpuzņēmumu faktiskie dati trūkst starpuzņēmumu izdevumiem, kas izveidoti un apstiprināti CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektu vadība un grāmatvedība finanšu jomā
 

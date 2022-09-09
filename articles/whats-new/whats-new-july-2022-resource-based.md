@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183917"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403961"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Jaunumi 2022. gada jūlijā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
 
@@ -45,6 +45,12 @@ Ja, startējot karti, rodas problēma, izpildiet norādījumus, kas sniegti [div
 | Cenu noteikšana un norēķini | 2675880 | Neļaujiet projektam būt saistītam ar līguma līniju, kas nav balstīta uz darbu. |
 | Cenu noteikšana un norēķini | 2664396 | Ja piedāvājuma cenrādis tiek saglabāts bez piedāvājuma, ir jābūt kļūdai, kas norāda, ka piedāvājums nevar būt tukšs. |
 | Cenu noteikšana un norēķini | 2184019 | Cilne Uz **uzdevumu balstīti norēķini** nav jārāda projektiem, kuriem nav atbalsta līguma vai piedāvājuma. |
+| Laiks un izdevumi | 2754459 | Ja periodiska plānošanas mākoņa plūsma ir neaktīva, parādiet reklāmkarogu un apejiet asinhrono apstrādi. |
+| Cenu noteikšana un norēķini | 2724391 | Nepareizs izņēmums tiek izmests, ja projekta līguma sadalītā norēķinu kārtulā trūkst klienta vērtības. |
+| Cenu noteikšana un norēķini | 2708638 | Ieraksts netika atrasts, meklējot, izmantojot režģa meklēšanu materiāla lietojumos un materiālu lietojumu apstiprinājumos.|
+| Cenu noteikšana un norēķini | 2686977 | Novērsiet rēķina rindas validāciju rēķina izveides laikā. |
+| Cenu noteikšana un norēķini | 2683032 | Iekasējamo lomu un kategoriju kopēšana nepārsniedz 5000 ierakstus.|
+| Cenu noteikšana un norēķini | 2673363 | Izmaksu patēriņš % projektā tiek bojāts, ja projektam pastāv gan piepūles, gan izdevumu aprēķini un faktiskie dati. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektu vadība un grāmatvedība finanšu jomā
 

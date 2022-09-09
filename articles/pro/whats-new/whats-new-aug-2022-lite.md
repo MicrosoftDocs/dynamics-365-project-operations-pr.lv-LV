@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 471cf1fc24010351a76394cb2342d2cfe14da1cb
-ms.sourcegitcommit: 360eccc09e47f81cd57affa9f0012641b7351694
+ms.openlocfilehash: 95681a4e1c0c42e8a29810796ee84429c94cc7cd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9321422"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403913"
 ---
 # <a name="whats-new-august-2022---project-operations-lite-deployment"></a>2022. gada augusta jaunumi — Project Operations Lite izvietošana
 
@@ -27,3 +27,7 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
 |   Iespēju pārvaldība | 2762089 | Kļūdu apstrāde, aizverot līgumu kā zaudētu, ja organizācijā ir atspējota automātiskā saglabāšana.|
+|Projektu plānošana un izsekošana | 2767841 | Telemetrijas atjauninājumi Projekta entītija Izveidojiet vai atjauniniet scenārijus.|
+|Cenu noteikšana un norēķini | 2771072 | Nulles atsauces izņēmuma apstrāde, uzvarot citātu.|
+|Cenu noteikšana un norēķini | 2844181 |Nespēja iegūt korelācijas ID un bloķēt rēķina izveidi.|
+|Cenu noteikšana un norēķini | 2852836 | Starpuzņēmumu faktiskie dati trūkst starpuzņēmumu izdevumiem, kas izveidoti un apstiprināti CE.|

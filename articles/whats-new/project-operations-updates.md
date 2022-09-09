@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295888"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409945"
 ---
 # <a name="project-operations-updates"></a>Project Operations atjauninājumi
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sastāv no diviem komponentiem.
 
 | Project Operations Dataverse vidē | Projektu pārvaldība un uzskaite finanšu un operāciju programmu vidēs | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
 Project Operations resource/non-stocked scenārijā ieteicams izmantot divrakstu orķestrācijas versiju 2.3.1.15 vai jaunāku versiju.
 
@@ -47,24 +47,24 @@ Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī.
 | Stacija | Reģions | Pašreizējās versijas numurs | Lite izvietošanas automātiskie atjauninājumi | Resursu/krājumos nebalstītas izvietošanas automātiskie atjauninājumi | Nākamās versijas numurs | Vispārēji pieejamā nākamā versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmais laidiens         |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 26. augusts       |
+|   &nbsp;  | Pirmais laidiens         |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 09. septembris      |
 | 2. stacija |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Dienvidamerika         |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 02. septembris       |
-|   &nbsp;  | Kanāda                |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 02. septembris       |
-|   &nbsp;  | Indija                 |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 02. septembris       |
-|   &nbsp;  | Francija                |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 02. septembris       |
-|   &nbsp;  | Dienvidāfrika          |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 02. septembris       |
-|   &nbsp;  | Šveice           |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 02. septembris       |
+|   &nbsp;  | Dienvidamerika         |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Kanāda                |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Indija                 |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Francija                |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Dienvidāfrika          |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Šveice           |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD                 | 2022. gada 09. septembris       |
 | 3. stacija |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japāna                 |  4.44.0.22      | Pabeigta      | Pabeigta       | 4.45.0.53                 | 2022. gada 19. augusts       |
-|   &nbsp;  | Āzija un Klusais okeāns          |  4.44.0.22      | Pabeigta      | Pabeigta       | 4.45.0.53                 | 2022. gada 19. augusts       |
-|   &nbsp;  | Lielbritānija         |  4.44.0.22      | Pabeigta      | Pabeigta       | 4.45.0.53                 | 2022. gada 19. augusts       |
-|   &nbsp;  | Okeānija               |  4.44.0.22      | Pabeigta      | Pabeigta       | 4.45.0.53                 | 2022. gada 19. augusts       |
-|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.44.0.22      | Pabeigta      | Pabeigta       | 4.45.0.53                 | 2022. gada 19. augusts       |
+|   &nbsp;  | Japāna                 |  4.45.0.53      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Āzija un Klusais okeāns          |  4.45.0.53      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Lielbritānija         |  4.45.0.53      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Okeānija               |  4.45.0.53      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 09. septembris       |
+|   &nbsp;  | Apvienotie Arābu Emirāti  |  4.45.0.53      | Pabeigta      | Pabeigta       | TBD                 | 2022. gada 09. septembris       |
 | 4. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eiropa                |  4.44.0.22      | Pabeigta           | Pabeigta            | 4.45.0.53           | 2022. gada 26. augusts       |
+|   &nbsp;  | Eiropa                |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD           | 2022. gada 16. septembris       |
 | 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ziemeļamerika         |  4.44.0.22      | Pabeigta           | Pabeigta            | 4.45.0.53           | 2022. gada 02. septembris       |
+|   &nbsp;  | Ziemeļamerika         |  4.45.0.53      | Pabeigta           | Pabeigta            | TBD           | 2022. gada 16. septembris       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektu pārvaldības un uzskaites laidiena grafiks finanšu un operāciju programmu vidē
 

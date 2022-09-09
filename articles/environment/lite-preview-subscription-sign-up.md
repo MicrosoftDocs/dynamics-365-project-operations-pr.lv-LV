@@ -1,21 +1,21 @@
 ---
 title: Priekšskatījuma abonementa reģistrācija — Lite
-description: Šajā rakstā ir sniegta informācija par to, kā abonēt un izvietot Project Operations lite izvietošanu - nodarbojieties ar proforma rēķinu izrakstīšanu.
+description: Šajā rakstā ir sniegta informācija par to, kā abonēt un izvietot Project Operations lite izvietošanu — nodarbojieties ar proforma rēķinu izrakstīšanu.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921265"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410043"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Priekšskatījuma abonementa reģistrācija — Lite 
 
-Šajā rakstā paskaidrots, kā abonēt izmēģinājuma piedāvājumu un izvietot Dynamics 365 Project Operations lite izvietošanu - darījumu ar proforma rēķinu izrakstīšanu.
+Šajā rakstā ir paskaidrots, kā abonēt izmēģinājuma piedāvājumu un izvietot Dynamics 365 Project Operations lite izvietošanu - nodarbojieties ar proforma rēķinu izrakstīšanu.
 
 > [!NOTE]
 > Šis process tiks mainīts nākamajā Project Operations laidienā.
@@ -43,14 +43,14 @@ Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lie
 > Lai izpildītu tālāk norādītās darbības, jums ir jābūt administratīvai piekļuvei savas organizācijas Microsoft 365 portālam.
 
 
-1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai lietotājiem piešķirtu licences.
+1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai piešķirtu licences saviem lietotājiem.
 2. Lapā **Aktīvie lietotāji** atlasiet lietotājus, kuriem vēlaties piešķirt licenci.
 3. Pārbaudiet, vai ir atlasīta **Dynamics 365 Project Operations** licence. 
 4. Atlasiet **Saglabāt izmaiņas**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Izveidot jaunu Dataverse vidi
 
-1. Nodrošiniet jaunu projekta operāciju Dataverse izvietošanas vidi, izpildot norādījumus rakstā izvietošanas [Dataverse modelis](lite-deployment.md). Kad atlasāt vides tipu, noteikti izmantojiet **Izmēģinājumversija (ar abonementiem)**.
+1. Nodrošiniet jaunu Project Operations Dataverse izvietošanas vidi, izpildot rakstā izvietošanas [Dataverse modelis sniegtos norādījumus](lite-deployment.md). Kad atlasāt vides tipu, noteikti izmantojiet **Izmēģinājumversija (ar abonementiem)**.
 
   ![Jauna vide.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lie
 
 ![Risinājuma instalēšana.](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS konfigurācijas un iestatīšanas demonstrācijas instalēšana
+## <a name="set-up-demo-data"></a>Demonstrācijas datu iestatīšana
 
-Instalējiet CDS konfigurāciju un iestatiet demonstrācijas datus, izpildot norādījumus rakstā Lietot [demonstrācijas iestatījumus un konfigurācijas datus](lite-apply-demo-setup-config-data.md).
+Iestatiet demonstrācijas datus, [izpildot rakstā Lietot demonstrācijas iestatīšanas un konfigurācijas datus sniegtos norādījumus](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

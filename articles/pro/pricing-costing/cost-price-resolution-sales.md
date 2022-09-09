@@ -1,45 +1,85 @@
 ---
-title: Izmaksu atrisināšana projekta aprēķinos un faktiskajās vērtībās
-description: Šajā rakstā sniegta informācija par to, kā tiek atrisinātas izmaksu cenas projektu tāmēs un faktiskajos apjomos.
+title: Izmaksu likmju noteikšana projekta aplēsēm un faktiskajiem faktiskajiem faktoriem
+description: Šajā rakstā ir sniegta informācija par to, kā tiek noteiktas projekta tāmes un faktiskās izmaksas.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917539"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410159"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Izmaksu atrisināšana projekta aprēķinos un faktiskajās vērtībās 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Izmaksu likmju noteikšana projekta aplēsēm un faktiskajiem faktiskajiem faktoriem
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Lai atrisinātu izmaksas un izmaksu cenrādi attiecībā uz aprēķiniem un faktiskajiem rādītājiem, sistēma izmanto informāciju saistītā projekta laukos **Datums**, **Valūta** un **Līgumslēdzēja vienība**. Kad izmaksu cenrādis ir atrisināts, programma atrisina izmaksu likmi.
+Lai noteiktu izmaksu cenrādi un izmaksu likmes tāmes un faktiskajos kontekstos, sistēma izmanto informāciju saistītā projekta laukos **Datums**, **Valūta** un **Līgumslēdzēja vienība**.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Izmaksu likmju atrisināšana attiecībā uz faktiskajām un novērtējuma rindām par laiku
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Izmaksu likmju noteikšana aplēses un laika faktiskos kontekstos
 
-Laika novērtējuma rindas norāda uz piedāvājuma un līguma rindu detalizētu informāciju par laika un resursu piešķirēm projektā.
+Laika **aplēses konteksts** attiecas uz:
 
-Kad ir atrisināts izmaksu cenrādis, laika novērtējuma rindas lauki **Loma** un **Resursu vienība** tiek saskaņoti ar lomas cenu rindām cenrādī. Šajā saskaņošanā tiek pieņemts, ka darba spēka izmaksām lietojat standarta cenu noteikšanas dimensijas. Ja esat konfigurējis sistēmu saskaņot laukus, nevis laukus **Loma** un **Resursu vienība** (vai papildus tiem), tad cita kombinācija tiks izmantota, lai izgūtu atbilstošo lomas cenu rindu. Ja lietojumprogramma atrod lomas cenu rindu, kurai ir izmaksu likme lauku rindai **Loma** un **Resursu vienība**, tā ir noklusējuma izmaksu likme. Ja lietojumprogramma nespēj saskaņot lauku **Loma** un **Resursu vienība** vērtības, tad tā iegūst lomu cenu rindas ar atbilstošu lomu, bet anulē vērtības vienumam **Resursu vienība**. Kad ir atrasts atbilstošs lomu cenu ieraksts, šim ierakstam tiek atjaunotas izmaksu likmju noklusējuma vērtības. 
+- Citātu rindas informācija par **laiku**.
+- Detalizēta informācija par līguma rindiņu par **laiku**.
+- Resursu piešķiršana projektā.
+
+Faktiskais laika **konteksts** attiecas uz:
+
+- Ierakstu un labojumu žurnāla rindas **laikam**.
+- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts laika ieraksts.
+
+Kad izmaksu cenrādis ir noteikts, sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
+
+1. Sistēma atbilst **lauku Lomu** un **resursu vienība** kombinācijai **aplēses** vai faktiskā laika kontekstā ar lomu cenu rindām cenrādī. Šajā saskaņošanā tiek pieņemts, ka jūs izmantojat standarta cenu noteikšanas kategorijas darbaspēka izmaksām. Ja esat konfigurējis sistēmu, lai tā atbilstu laukiem, kas nav lomu **un** resursu vienība **vai ir papildus tiem**, tiek izmantota cita kombinācija, lai izgūtu atbilstošu lomu cenu rindu.
+1. Ja sistēma atrod lomu cenu rindu, kurai ir izmaksu likme kombinācijai **Lomu** un **resursu vienība**, šī izmaksu likme tiek izmantota kā noklusējuma izmaksu likme.
+1. Ja sistēma neatbilst lomu un resursu vienības **vērtībām, tā izgūst lomu cenu rindas, kurām ir atbilstošas vērtības laukā Loma**, **bet kurām ir nulles vērtības laukam** Resursu vienība **.** **·** Pēc tam, kad sistēmai ir atbilstošs lomu cenu ieraksts, izmaksu likme no šī ieraksta tiks izmantota kā noklusējuma izmaksu likme.
 
 > [!NOTE]
-> Ja laukiem **Loma** un **Resursu vienība** konfigurējat atšķirīgas prioritātes vai ja ir citas augstākas prioritātes kategorijas, šī darbība attiecīgi mainīsies. Sistēma iegūst lomu cenu ierakstus ar vērtībām, kas atbilst katrai cenu dimensijas vērtībai prioritātes secībā ar rindām, kurām ir Null vērtības tām dimensijām, kas tuvojas pēdējam.
+> Ja konfigurējat atšķirīgu lauku Lomu **un** resursu vienība **prioritāšu noteikšanu** vai ja jums ir citas dimensijas, kurām ir augstāka prioritāte, iepriekšējā darbība attiecīgi mainīsies. Sistēma izgūst lomu cenu ierakstus, kuru vērtības atbilst katrai cenu noteikšanas dimensijas vērtībai prioritārā secībā. Rindas, kurās šīm dimensijām ir nulles vērtības, ir pēdējās.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Izmaksu likmju atrisināšana attiecībā uz faktiskajām un novērtējuma rindām par izdevumiem
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Izmaksu likmju noteikšana faktiskajās un aplēstajās izdevumu rindās
 
-Novērtēšanas rindas izdevumiem attiecas uz piedāvājuma un līguma rindas informāciju izdevumiem, kā arī izdevuma novērtēšanas rindām projektā.
+Izdevumu **aplēses konteksts** attiecas uz:
 
-Pēc tam, kad ir atrisināts cenrāža saraksts, sistēma izmanto lauku **Kategorija** un **Vienība** kombināciju izmaksu novērtējuma rindā, lai saskaņotu ar **Kategoriju cenas** rindām atrisinātajā cenrādī. Ja sistēma atrod kategorijas cenas rindu, kurai ir izmaksu likme lauku kombinācijai **Kategorija** un **Vienība**, tad izmaksu likme ir tiek noklusēta. Ja sistēma nevar saskaņot vērtības **Kategorija** un **Vienība** vai ja tā nevar atrast atbilstošu kategorijas cenas rindu, bet cenu noteikšanas metode nav **Cena par vienību**, izmaksu likme pēc noklusējuma ir nulle (0).
+- Detalizēta informācija par izdevumu **piedāvājuma rindiņu**.
+- Detalizēta informācija par līguma rindiņu **izdevumiem**.
+- Projekta izdevumu tāmes.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Izmaksu likmju atrisināšana faktiskajām un aprēķinātajām materiālu rindām
+Faktiskais izdevumu **konteksts** attiecas uz:
 
-Materiālu aprēķinu rindas attiecas uz piedāvājuma un līguma rindu informāciju par materiāliem un materiālu aprēķina rindām projektā.
+- Ierakstu un korekcijas žurnāla rindas izdevumam **Izdevumi**.
+- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts izdevumu ieraksts.
 
-Kad ir atrisināts izmaksu cenrādis, sistēma izmanto lauku **Produkts** un **Vienība** kombināciju materiālu aprēķina rindai, lai nodrošinātu tās atbilstību atrisinātā cenrāža rindām **Cenrāža elementi**. Ja sistēma atrod produkta cenas rindu, kuras izmaksu likmei ir lauku **Produkts** un **Vienība** kombinācija, izmaksu likmei ir noklusējuma vērtība. Ja sistēma neatrod atbilstību lauku **Produkts** un **Vienība** vērtībām vai atrod atbilstību cenrāža elementa rindai, bet cenu noteikšanas metodes pamatā ir standarta izmaksas vai pašreizējās izmaksas un neviena no tām nav definēta produktam, vienības izmaksām noklusējuma vērtība ir nulle.
+Kad izmaksu cenrādis ir noteikts, sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
 
+1. Sistēma atbilst kategorijas **un** **vienības** lauku kombinācijai aplēses **vai faktiskā izdevumu** kontekstā ar kategorijas cenu rindām cenrādī.
+1. Ja sistēma atrod kategorijas cenu rindu, kurai ir izmaksu likme kategorijas **un** vienības **kombinācijai**, šī izmaksu likme tiek izmantota kā noklusējuma izmaksu likme.
+1. Ja sistēma neatbilst kategorijas **un** **vienības** vērtībām, cena pēc noklusējuma tiek iestatīta uz **0** (nulle).
+1. Aplēses kontekstā, ja sistēma var atrast atbilstošu kategorijas cenu rindu, bet cenu noteikšanas metode ir kaut kas cits, nevis **cena par vienību**, izmaksu likme pēc noklusējuma tiek iestatīta uz **0** (nulle).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Izmaksu likmju noteikšana materiāla faktiskajās un aplēstajās rindās
+
+Materiāla **aplēses konteksts** attiecas uz:
+
+- Citātu rindas informācija **materiālam**.
+- Detalizēta informācija par līguma līniju **materiālam**.
+- Projekta materiālu tāmes.
+
+Materiāla **faktiskais konteksts** attiecas uz:
+
+- Ieraksta un korekcijas žurnāla rindas **materiālam**.
+- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts materiāla lietojuma žurnāls.
+
+Kad izmaksu cenrādis ir noteikts, sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
+
+1. Sistēma izmanto lauku Produkts un Vienība kombināciju **aplēses** vai faktiskā materiāla kontekstā attiecībā pret **cenrāža pozīciju rindām cenrādī**.**·**
+1. Ja sistēma atrod cenrāža krājuma rindu, kurai ir izmaksu likme preču **un** vienības **kombinācijai**, šī izmaksu likme tiek izmantota kā noklusējuma izmaksu likme.
+1. Ja sistēma neatbilst **produkta** un **vienības** vērtībām, vienības izmaksas pēc noklusējuma tiek iestatītas uz **0** (nulle).
+1. Aplēses vai faktiskā kontekstā, ja sistēma var atrast atbilstošu cenrāža rindu, bet cenu noteikšanas metode ir kaut kas cits, nevis **Valūtas summa**, vienības izmaksas pēc noklusējuma tiek iestatītas uz 0.**·** Šī problēma rodas, jo Project Operations atbalsta tikai **valūtas summas** cenu noteikšanas metodi materiāliem, kas tiek izmantoti projektā.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

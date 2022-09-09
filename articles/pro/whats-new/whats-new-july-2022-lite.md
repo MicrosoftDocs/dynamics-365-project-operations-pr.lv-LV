@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 56692661a08cd6676e68f9715a976000cdba3fba
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: 82812f0b7f172bf7386057b5684ff5ade67a6a22
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183918"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404007"
 ---
 # <a name="whats-new-july-2022---project-operations-lite-deployment"></a>2022. gada jūlija jaunumi — Project Operations Lite izvietošana
 
@@ -34,3 +34,9 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 | Cenu noteikšana un norēķini | 2675880 | Neļaujiet projektam būt saistītam ar līguma līniju, kas nav balstīta uz darbu. |
 | Cenu noteikšana un norēķini | 2664396 | Ja piedāvājuma cenrādis tiek saglabāts bez piedāvājuma, ir jābūt kļūdai, kas norāda, ka piedāvājums nevar būt tukšs. |
 | Cenu noteikšana un norēķini | 2184019 | Cilne Uz **uzdevumu balstīti norēķini** nav jārāda projektiem, kuriem nav atbalsta līguma vai piedāvājuma. |
+| Laiks un izdevumi | 2754459 | Ja periodiska plānošanas mākoņa plūsma ir neaktīva, parādiet reklāmkarogu un apejiet asinhrono apstrādi. |
+| Cenu noteikšana un norēķini | 2724391 | Nepareizs izņēmums tiek izmests, ja projekta līguma sadalītā norēķinu kārtulā trūkst klienta vērtības. |
+| Cenu noteikšana un norēķini | 2708638 | Ieraksts netika atrasts, meklējot, izmantojot režģa meklēšanu materiāla lietojumos un materiālu lietojumu apstiprinājumos.|
+| Cenu noteikšana un norēķini | 2686977 | Novērsiet rēķina rindas validāciju rēķina izveides laikā. |
+| Cenu noteikšana un norēķini | 2683032 | Iekasējamo lomu un kategoriju kopēšana nepārsniedz 5000 ierakstus.|
+| Cenu noteikšana un norēķini | 2673363 | Izmaksu patēriņš % projektā tiek bojāts, ja projektam pastāv gan piepūles, gan izdevumu aprēķini un faktiskie dati. |
