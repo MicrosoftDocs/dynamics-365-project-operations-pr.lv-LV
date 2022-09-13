@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projekta piedāvājumu kopēšana
               href: sales/lose-quote.md
+            - name: Projekta piedāvājuma aktivizēšana un pārskatīšana
+              href: sales/activation-and-revision.md
             - name: Projekta piedāvājumu slēgšana
               href: sales/win-quote.md
         - name: Projekta līgumu pārvaldība
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Rēķinu grafiku izveide projektā balstīta līguma rindās
                   href: sales/invoice-schedules-contract-line.md
+            - name: Projektā balstītu līgumu kopēšana
+              href: sales/copy-project-based-contracts-sales.md
             - name: Projekta līguma apstiprināšana
               href: pro/sales/confirm-contract-sales.md
             - name: Avansi un honorāri
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekta pārdošanas cenrāžu pārlabošana
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Izmaksu atrisināšana aprēķinos un spēlētāja statistikā
+            - name: Izmaksu cenu noteikšana aprēķiniem un faktiskajiem datiem
               href: pricing-costing/cost-price-resolution.md
-            - name: Pārdošanas cenu atrisināšana aprēķiniem un spēlētāju statistikai
+            - name: Aprēķinu un faktisko pārdošanas cenu noteikšana
               href: pricing-costing/sales-price-resolution.md
             - name: Cenrāžu kopēšana
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projekta balstītu piedāvājumu kopēšana
               href: sales/lose-quote.md
+            - name: Projekta piedāvājuma aktivizēšana un pārskatīšana
+              href: sales/activation-and-revision.md
             - name: Projekta balstītu piedāvājumu slēgšana
               href: pro/sales/win-quote-sales.md
         - name: Projektā balstītu līgumu pārvaldība
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekta pārdošanas cenrāžu pārlabošana
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Izmaksu atrisināšana projekta aprēķinos un spēlētāju statistikā
+            - name: Izmaksu noteikšana projekta aprēķinos un spēlētāju statistikā
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Pārdošanas cenu atrisināšana projekta aprēķinos un spēlētāju statistikā
+            - name: Pārdošanas cenu noteikšana projekta aprēķinos un spēlētāju statistikā
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Cenrāžu kopēšana
               href: pricing-costing/copy-price-lists.md
