@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410159"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475241"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Izmaksu likmju noteikšana projekta aplēsēm un faktiskajiem faktiskajiem faktoriem
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Lai noteiktu izmaksu cenrādi un izmaksu likmes tāmes un faktiskajos kontekstos, sistēma izmanto informāciju saistītā projekta laukos **Datums**, **Valūta** un **Līgumslēdzēja vienība**.
+Lai noteiktu izmaksu likmes aplēsēm un faktiskajiem datiem korporācijā Microsoft Dynamics 365 Project Operations, sistēma vispirms izmanto datumu un valūtu ienākošajā aplēsē vai faktiskajā kontekstā, lai noteiktu izmaksu cenrādi. Konkrēti faktiskajā kontekstā sistēma izmanto lauku Transakcijas **datums**, lai noteiktu, kurš cenrādis ir piemērojams. **Ienākošās aplēses vai faktiskās transakcijas datuma** vērtība tiek salīdzināta ar **vērtībām Faktiskais sākums (neatkarīgi no laika joslas)** un **Efektīvās beigas (no laika joslas neatkarīgas)** cenrādī. Pēc izmaksu cenrāža noteikšanas sistēma nosaka izmaksu likmi. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Izmaksu likmju noteikšana aplēses un laika faktiskos kontekstos
 
@@ -33,7 +33,7 @@ Faktiskais laika **konteksts** attiecas uz:
 - Ierakstu un labojumu žurnāla rindas **laikam**.
 - Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts laika ieraksts.
 
-Kad izmaksu cenrādis ir noteikts, sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
+Pēc izmaksu cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
 
 1. Sistēma atbilst **lauku Lomu** un **resursu vienība** kombinācijai **aplēses** vai faktiskā laika kontekstā ar lomu cenu rindām cenrādī. Šajā saskaņošanā tiek pieņemts, ka jūs izmantojat standarta cenu noteikšanas kategorijas darbaspēka izmaksām. Ja esat konfigurējis sistēmu, lai tā atbilstu laukiem, kas nav lomu **un** resursu vienība **vai ir papildus tiem**, tiek izmantota cita kombinācija, lai izgūtu atbilstošu lomu cenu rindu.
 1. Ja sistēma atrod lomu cenu rindu, kurai ir izmaksu likme kombinācijai **Lomu** un **resursu vienība**, šī izmaksu likme tiek izmantota kā noklusējuma izmaksu likme.
@@ -55,7 +55,7 @@ Faktiskais izdevumu **konteksts** attiecas uz:
 - Ierakstu un korekcijas žurnāla rindas izdevumam **Izdevumi**.
 - Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts izdevumu ieraksts.
 
-Kad izmaksu cenrādis ir noteikts, sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
+Pēc izmaksu cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
 
 1. Sistēma atbilst kategorijas **un** **vienības** lauku kombinācijai aplēses **vai faktiskā izdevumu** kontekstā ar kategorijas cenu rindām cenrādī.
 1. Ja sistēma atrod kategorijas cenu rindu, kurai ir izmaksu likme kategorijas **un** vienības **kombinācijai**, šī izmaksu likme tiek izmantota kā noklusējuma izmaksu likme.
@@ -75,7 +75,7 @@ Materiāla **faktiskais konteksts** attiecas uz:
 - Ieraksta un korekcijas žurnāla rindas **materiālam**.
 - Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts materiāla lietojuma žurnāls.
 
-Kad izmaksu cenrādis ir noteikts, sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
+Pēc izmaksu cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma izmaksu likmi.
 
 1. Sistēma izmanto lauku Produkts un Vienība kombināciju **aplēses** vai faktiskā materiāla kontekstā attiecībā pret **cenrāža pozīciju rindām cenrādī**.**·**
 1. Ja sistēma atrod cenrāža krājuma rindu, kurai ir izmaksu likme preču **un** vienības **kombinācijai**, šī izmaksu likme tiek izmantota kā noklusējuma izmaksu likme.

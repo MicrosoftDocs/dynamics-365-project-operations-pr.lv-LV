@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekta pārdošanas cenrāžu pārlabošana
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Spēkā stāšanās datuma labojumu iestatīšana noteiktām cenrāža cenām
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Izmaksu cenu noteikšana aprēķiniem un faktiskajiem datiem
               href: pricing-costing/cost-price-resolution.md
             - name: Aprēķinu un faktisko pārdošanas cenu noteikšana
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: 'Pasūtīt preces un pakalpojumus projektiem, kas izmanto projekta pirkšanas pasūtījumus'
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Piegādātāju rēķini apakšlīgumiem programmā Dataverse
+          items:
+            - name: Kreditoru rēķinu izveide
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Kreditoru rēķinu pārbaude ar apstiprinātiem datiem
+              href: pro/subcontracting/VI-Verification.md
+            - name: Projekta kreditoru rēķinu apstiprināšana
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Piegādātāja saglabāšana
           items:
             - name: Piegādātāja saglabāšanas pārskats
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekta pārdošanas cenrāžu pārlabošana
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Spēkā stāšanās datuma labojumu iestatīšana noteiktām cenrāža cenām
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Izmaksu noteikšana projekta aprēķinos un spēlētāju statistikā
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Pārdošanas cenu noteikšana projekta aprēķinos un spēlētāju statistikā

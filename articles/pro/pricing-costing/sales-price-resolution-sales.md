@@ -1,23 +1,23 @@
 ---
-title: Pārdošanas cenu noteikšana projekta aplēsēm un faktiskajiem datiem
+title: Pārdošanas cenu noteikšana projekta aprēķinos un spēlētāju statistikā
 description: Šajā rakstā ir sniegta informācija par to, kā tiek noteiktas projekta aplēšu un faktisko vērtību pārdošanas cenas.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410128"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475194"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Pārdošanas cenu noteikšana projekta aplēsēm un faktiskajiem datiem
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Pārdošanas cenu noteikšana projekta aprēķinos un spēlētāju statistikā
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Lai noteiktu pārdošanas cenas aplēsēm un faktiskajiem datiem korporācijā Microsoft Dynamics 365 Project Operations, sistēma vispirms izmanto datumu un valūtu ienākošajā aplēsē vai faktiskajā kontekstā, lai noteiktu pārdošanas cenrādi. Konkrēti faktiskajā kontekstā sistēma izmanto lauku Transakcijas **datums**, lai noteiktu, kurš cenrādis ir piemērojams. Pēc pārdošanas cenrāža noteikšanas sistēma nosaka pārdošanas vai rēķina likmi.
+Lai noteiktu pārdošanas cenas aplēsēm un faktiskajiem datiem korporācijā Microsoft Dynamics 365 Project Operations, sistēma vispirms izmanto datumu un valūtu ienākošajā aplēsē vai faktiskajā kontekstā, lai noteiktu pārdošanas cenrādi. Konkrēti faktiskajā kontekstā sistēma izmanto lauku Transakcijas **datums**, lai noteiktu, kurš cenrādis ir piemērojams. **Ienākošās aplēses vai faktiskās transakcijas datuma** vērtība tiek salīdzināta ar **vērtībām Faktiskais sākums (neatkarīgi no laika joslas)** un **Efektīvās beigas (no laika joslas neatkarīgas)** cenrādī. Pēc pārdošanas cenrāža noteikšanas sistēma nosaka pārdošanas vai rēķina likmi.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pārdošanas likmju noteikšana faktiskajās un aptuvenajās laika rindās
 

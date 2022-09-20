@@ -1,68 +1,95 @@
 ---
-title: Pārdošanas cenu atrisināšana novērtējumiem un faktiskajiem datiem
-description: Šajā rakstā ir sniegta informācija par to, kā atrisināt aprēķinu un faktisko pārdošanas kursus.
+title: Pārdošanas cenu noteikšana uz projektiem balstītām aplēsēm un faktiskajiem datiem
+description: Šajā rakstā ir sniegta informācija par to, kā tiek noteiktas uz projektiem balstītu aplēšu un faktisko aprēķinu pārdošanas cenas.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911835"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475379"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Pārdošanas cenu atrisināšana novērtējumiem un faktiskajiem datiem
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Pārdošanas cenu noteikšana uz projektiem balstītām aplēsēm un faktiskajiem datiem
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Kad Dynamics 365 Project Operations tiek atrisinātas aprēķinu un faktisko datu pārdošanas cenas, sistēma vispirms izmanto saistītā projekta piedāvājuma vai līguma datumu un valūtu, lai atrisinātu pārdošanas cenrādi. Pēc tam, kad pārdošanas cenrādis ir atrisināts, sistēma atrisina pārdošanas vai rēķina likmi.
+Lai noteiktu pārdošanas cenas aplēsēm un faktiskajiem datiem korporācijā Microsoft Dynamics 365 Project Operations, sistēma vispirms izmanto datumu un valūtu ienākošajā aplēsē vai faktiskajā kontekstā, lai noteiktu pārdošanas cenrādi. Konkrēti faktiskajā kontekstā sistēma izmanto lauku Transakcijas **datums**, lai noteiktu, kurš cenrādis ir piemērojams. **Ienākošās aplēses vai faktiskās transakcijas datuma** vērtība tiek salīdzināta ar **vērtībām Faktiskais sākums (neatkarīgi no laika joslas)** un **Efektīvās beigas (no laika joslas neatkarīgas)** cenrādī. Pēc pārdošanas cenrāža noteikšanas sistēma nosaka pārdošanas vai rēķina likmi.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pārdošanas likmju atrisināšana attiecībā uz faktiskajām un novērtējuma rindām par laiku
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pārdošanas likmju noteikšana faktiskajās un aptuvenajās laika rindās
 
-Risinājumā Project Operations laika novērtējuma rindas tiek izmantotas, lai norādītu piedāvājuma rindas un līguma rindas informāciju par laiku un projekta resursu piešķires.
+Laika **aplēses konteksts** attiecas uz:
 
-Pēc tam, kad ir atrisināts pārdošanas cenrādis, sistēma izpilda tālāk norādītās darbības, lai noklusējuma rēķina likme būtu noklusējuma.
+- Citātu rindas informācija par **laiku**.
+- Detalizēta informācija par līguma rindiņu par **laiku**.
+- Resursu piešķiršana projektā.
 
-1. Sistēma izmanto laukus **Loma**, **Resursu uzņēmums** un **Resursu vienība** novērtējuma rindā laika ziņā, lai pieskaņotos lomu cenu rindām atrisinātajā cenrādī. Šī saskaņošana pieņem, ka rēķina likmēm ir izmantotas neiekļautas cenas noteikšanas dimensijas. Ja esat konfigurējis cenu noteikšanu, pamatojoties uz kādu citu lauku, nevis **Loma**, **Resursu uzņēmums** un **Resursu vienība**, tad šī ir kombinācija, kas tiks izmantota, lai izgūtu atbilstošo lomas cenu rindu.
-2. Ja sistēma atrod lomas cenu rindu, kurai ir rēķina likme lauku rindai **Loma**, **Resursu uzņēmums** un **Resursu vienība**, tad šī rēķina likme ir noklusēta.
-3. Ja sistēma nespēj saskaņot lauku **Loma**, **Resursu uzņēmums** un **Resursu vienība**, tad tā iegūst lomu cenas rindas ar atbilstošu lomu, bet nulles vērtības vienumam **Resursu vienība**. Pēc tam, kad sistēma atradīs atbilstošu lomas cenas ierakstu, tā noklusēs šī ieraksta rēķina likmi. Šī atbilstība pieņem ārpus saraksta esošu konfigurāciju **Loma** pret **Resursu vienība** relatīvajai prioritātei kā pārdošanas cenu dimensiju.
+Faktiskais laika **konteksts** attiecas uz:
+
+- Ierakstu un labojumu žurnāla rindas **laikam**.
+- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts laika ieraksts.
+- Detalizēta informācija par rēķina rindiņu par **laiku**. 
+
+Pēc pārdošanas cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma rēķina likmi.
+
+1. Sistēma atbilst lauku Role **, Resourcing Company** un **Resourcing Unit** kombinācijai **·** **aplēses vai faktiskā laika kontekstā ar lomu cenu rindām cenrādī**. Veicot atbilstošu atbilstību, tiek pieņemts, ka rēķinu likmēm izmantojat standarta cenu kategorijas. Ja esat konfigurējis cenu noteikšanu tā, lai **tās pamatā būtu citi lauki, nevis Role**, **Resourcing Company** un **Resourcing Unit**, vai papildus tiem, šī lauku kombinācija tiek izmantota, lai izgūtu atbilstošu lomu cenu rindu.
+1. Ja sistēma atrod lomu cenu rindu, kurai ir rēķina likme lomas **,** resursu uzņēmuma **un** resursu maiņas vienības **kombinācijai, šī rēķina likme tiek izmantota kā** noklusējuma rēķina likme.
 
 > [!NOTE]
-> Ja laukiem **Loma**, **Resursu uzņēmums** un **Resursu vienība** ir konfigurētas atšķirīgas prioritātes vai ja ir citas augstākas prioritātes kategorijas, šī darbība attiecīgi mainīsies. Sistēma iegūst lomu cenu ierakstus ar atbilstošajām vērtībām katrai cenu dimensijas vērtībai prioritātes secībā ar rindām, kurām ir Null vērtības tām dimensijām, kas tuvojas pēdējam.
+> Ja konfigurējat atšķirīgu lauku Role **,** Resourcing Company **un** Resourcing Unit **prioritāšu noteikšanu** vai ja jums ir citas dimensijas, kurām ir augstāka prioritāte, iepriekšējā darbība attiecīgi mainīsies. Sistēma izgūst lomu cenu ierakstus, kuru vērtības atbilst katrai cenu noteikšanas dimensijas vērtībai prioritārā secībā. Rindas, kurās šīm dimensijām ir nulles vērtības, ir pēdējās.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Pārdošanas likmju atrisināšana attiecībā uz faktiskajām un novērtējuma rindām par izdevumiem
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Pārdošanas likmju noteikšana faktiskajās un aplēses rindās izdevumam Izdevumi
 
-Risinājumā Project Operations novērtējumu rindas izdevumiem tiek izmantotas, lai norādītu piedāvājuma rindu un līguma rindas detalizētu informāciju par projekta izdevumiem un izdevumu novērtējuma rindām.
+Izdevumu **aplēses konteksts** attiecas uz:
 
-Kad pārdošanas cenrādis ir atrisināts, sistēma pabeidz tālāk norādītās darbības, lai noklusētu vienības pārdošanas cenu.
+- Detalizēta informācija par izdevumu **piedāvājuma rindiņu**.
+- Detalizēta informācija par līguma rindiņu **izdevumiem**.
+- Projekta izdevumu tāmes rindas.
 
-1. Sistēma izmanto novērtējuma rindas lauku **Kategorija** un **Vienība** kombināciju, lai izdevumi sakristu ar kategoriju cenu rindām cenrādī, kas tika atrisināts.
-2. Ja sistēma atrod kategorijas cenas rindu, kurai ir pārdošanas likme lauku kombinācijai **Kategorija** un **Resursu vienība**, tad šī rēķina likme ir tiek noklusēta.
-3. Ja sistēma atrod atbilstošo kategorijas cenas rindu, varat izmantot cenas noteikšanas metodi, lai noklusējuma pārdošanas cena būtu noklusējuma. Tālāk esošajā tabulā ir redzams izmaksu cenu noklusējuma izturēšanās risinājumā Project Operations.
+Faktiskais izdevumu **konteksts** attiecas uz:
 
-    | Konteksts | Izcenojuma metode | Noklusētā cena |
+- Ierakstu un korekcijas žurnāla rindas izdevumam **Izdevumi**.
+- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts izdevumu ieraksts.
+- Detalizēta informācija par rēķina rindiņu izdevumam **Izdevumi**. 
+
+Pēc pārdošanas cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma vienības pārdošanas cenu.
+
+1. Sistēma atbilst lauku Kategorija un Vienība kombinācijai **izdevumu aplēses** **rindā ar kategoriju cenu rindām cenrādī.** **·**
+1. Ja sistēma atrod kategorijas cenu rindu, kurā ir pārdošanas likme kombinācijai **Kategorija** un **Vienība**, šis pārdošanas līmenis tiek izmantots kā noklusējuma pārdošanas līmenis.
+1. Ja sistēma atrod atbilstošu kategorijas cenu rindu, iespējams, tiks izmantota cenu noteikšanas metode, lai ievadītu noklusējuma pārdošanas cenu. Nākamajā tabulā ir parādīta izdevumu cenu noklusējuma darbība programmā Project Operations.
+
+    | Konteksts | Izcenojuma metode | Noklusējuma cena |
     | --- | --- | --- |
-    | Novērtējums | Vienības cena | Pamatojoties uz kategorijas cenas rindu |
-    | &nbsp; | Pašizmaksa | 0.00 |
-    | &nbsp; | Uzcenojums augstāks par izmaksu | 0.00 |
-    | Faktiski | Vienības cena | Pamatojoties uz kategorijas cenas rindu |
-    | &nbsp; | Pašizmaksa | Pamatojoties uz saistīto izmaksu faktiskajiem datiem |
-    | &nbsp; | Uzcenojums augstāks par izmaksu | Piemērojot uzcenojumu, kas definēts kategorijas cenas rindā uz saistītās faktiskās izmaksas likmes vienības izmaksu likmes |
+    | Novērtējums | Vienības cena | Pamatojoties uz kategorijas cenu līniju. |
+    |        | Pašizmaksa | 0.00 |
+    |        | Uzcenojums augstāks par izmaksu | 0.00 |
+    | Faktiski | Vienības cena | Pamatojoties uz kategorijas cenu līniju. |
+    |        | Pašizmaksa | Pamatojoties uz faktiskajām saistītajām izmaksām. |
+    |        | Uzcenojums augstāks par izmaksu | Uzcenojums tiek piemērots, kā noteikts kategorijas cenu rindā, saistīto faktisko izmaksu vienības izmaksu likmei. |
 
-4. Ja sistēma nespēj saskaņot **Kategorija** un **Vienība** lauku vērtības, pārdošanas likme pēc noklusējuma ir nulle (0).
+1. Ja sistēma neatbilst kategorijas **un** **vienības** vērtībām, pārdošanas likme pēc noklusējuma ir iestatīta uz **0** (nulle).
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Pārdošanas likmju atrisināšana faktiskajām un novērtētajām materiāla rindām
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Pārdošanas likmju noteikšana materiāla faktiskajās un tāmes rindās
 
-Programmā Project Operations materiālu aprēķinu rindas tiek izmantotas, lai piedāvājuma un līguma rindu informāciju attiecinātu uz materiāliem un materiālu aprēķina rindām projektā.
+Materiāla **aplēses konteksts** attiecas uz:
 
-Kad pārdošanas cenrādis ir atrisināts, sistēma pabeidz tālāk norādītās darbības, lai noklusētu vienības pārdošanas cenu.
+- Citātu rindas informācija **materiālam**.
+- Detalizēta informācija par līguma līniju **materiālam**.
+- Projekta materiālu tāmes rindas.
 
-1. Sistēma izmanto lauku **Produkts** un **Vienība** kombināciju materiālu aprēķinu rindai, lai atrastu atbilstību cenrāža elementam atrisinātajā cenrādī.
-2. Ja sistēma atrod cenrāža elementa rindu, kuras pārdošanas likme lauku **Produkts** un **Vienība** kombinācijai un cenu noteikšanas metodei ir **Valūtas summa**, tiek izmantota cenrāža rindā norādītā pārdošanas cena.
-3. Ja lauku **Produkts** un **Vienība** vērtības neatbilst, pārdošanas likmes noklusējuma vērtība ir nulle.
+Materiāla **faktiskais konteksts** attiecas uz:
 
+- Ieraksta un korekcijas žurnāla rindas **materiālam**.
+- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts materiāla lietojuma žurnāls.
+- Detalizēta informācija par rēķina rindiņu **materiālam**. 
 
+Pēc pārdošanas cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma vienības pārdošanas cenu.
+
+1. Sistēma atbilst laukam Prece un Vienība, kas atrodas materiāla **aplēses rindā, kombinācijai** **ar cenrāža pozīciju rindām cenrādī.** **·**
+1. Ja sistēma atrod cenrāža krājuma rindu, kurā ir pārdošanas kurss preču un vienības kombinācijai **, un ja cenu noteikšanas metode ir** Valūtas summa **, tiek izmantota pārdošanas cena, kas ir norādīta cenrāža rindā.** **·** 
+1. **Ja lauka Preces** un **Vienības** vērtības neatbilst vai ja cenu noteikšanas metode ir kaut kas cits, nevis **summa Valūta**, pārdošanas likme pēc noklusējuma ir iestatīta uz **0** (nulle). Šī problēma rodas, jo Project Operations atbalsta tikai **valūtas summas** cenu noteikšanas metodi materiāliem, kas tiek izmantoti projektā.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
