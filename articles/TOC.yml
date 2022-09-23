@@ -508,11 +508,13 @@
           href: approvals/cancelapproval.md
         - name: AIepriekš apstiprināto ierakstu atsaukšana
           href: approvals/recall-cancel.md
+        - name: Drošība un apstiprinājumi
+          href: approvals/approvals-security.md
         - name: Izstrādātāja piezīmes
           items:
             - name: Izstrādātāja piezīmes par apstiprinājumiem
               href: approvals/dev-notes-approvals.md
-    - name: Dati
+    - name: Faktiskie dati
       items:
         - name: 'Biznesa transakcijas šeit: Project Operations'
           href: actuals/businesstransactions.md
@@ -560,7 +562,9 @@
               href: procurement/vendor-retention-overview.md
             - name: Kreditoru saglabāšanas iestatīšana
               href: procurement/set-up-vendor-retention.md
-    - name: Rēķini
+            - name: Apmaksāt pēc apmaksas
+              href: procurement/Pay-when-paid.md
+    - name: Rēķinu izrakstīšana
       items:
         - name: Rēķinu norises pārskats
           href: invoicing/post-project-invoices.md
@@ -1102,11 +1106,13 @@
           href: approvals/cancelapproval.md
         - name: AIepriekš apstiprināto ierakstu atsaukšana
           href: approvals/recall-cancel.md
+        - name: Drošība un apstiprinājumi
+          href: approvals/approvals-security.md
         - name: Izstrādātāja piezīmes
           items:
             - name: Izstrādātāja piezīmes par apstiprinājumiem
               href: approvals/dev-notes-approvals.md
-    - name: Dati
+    - name: Faktiskie dati
       items:
         - name: 'Biznesa transakcijas šeit: Project Operations'
           href: actuals/businesstransactions.md
