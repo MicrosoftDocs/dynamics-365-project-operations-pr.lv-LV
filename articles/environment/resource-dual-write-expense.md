@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029218"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528002"
 ---
 # <a name="expense-management-integration"></a>Izdevumu pārvaldības integrācija
 
@@ -34,7 +34,7 @@ Izdevumu kategorijas finanšu un operāciju lietotnēs ir saistītas ar uzņēmu
 
 ## <a name="expense-reports"></a>Izdevumu atskaites
 
-Izdevumu pārskati tiek izveidoti un apstiprināti finanšu un operāciju lietotnēs. Papildinformāciju skatiet sadaļā [Izdevumu atskaišu izveide un apstrāde risinājumā Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Pēc tam, kad izdevumu atskaiti ir apstiprinājis projekta vadītājs, tā tiek grāmatota virsgrāmatā. Programmā Project Operations ar projektiem saistītās izdevumu atskaišu rindas tiek grāmatotas, izmantojot īpašas grāmatošanas kārtulas.
+Izdevumu pārskati tiek izveidoti un apstiprināti finanšu un operāciju lietotnēs. Papildinformāciju skatiet sadaļā [Izdevumu atskaišu izveide un apstrāde risinājumā Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Pēc tam, kad izdevumu atskaiti ir apstiprinājis projekta vadītājs, tā tiek grāmatota virsgrāmatā. Programmā Project Operations ar projektiem saistītās izdevumu atskaišu rindas tiek grāmatotas, izmantojot īpašas grāmatošanas kārtulas.
 
   - Ar projektiem saistītās izmaksas (tostarp neatgūstamie nodokļi) netiek nekavējoties grāmatotas projekta izmaksu kontā virsgrāmatā, bet tiek grāmatotas izdevumu integrācijas kontā. Šis konts tiek konfigurēts sadaļas **Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Projekta pārvaldības un uzskaites parametri** cilnē **Project Operations on Dynamics 365 Customer engagement**.
   - Duālā rakstīšana veic sinhronizāciju ar Dataverse, izmantojot tabulas karti **Project Operations integrācijas projekta izdevumu eksporta entītija (msdyn\_expenses)**.

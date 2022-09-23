@@ -2,20 +2,20 @@
 title: Apakšlīguma laika rindas
 description: Šajā rakstā ir paskaidrots, kā ierakstīt apakšuzņēmuma līgumu rindas uz laiku un reģistrēt laika iegādi no piegādātājiem.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261992"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522242"
 ---
 # <a name="subcontract-lines-for-time"></a>Apakšlīguma laika rindas
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 Apakšlīgumam programmā Dynamics 365 Project Operations var būt apakšlīguma laika rinda. Apakšlīguma laika rindas ļauj projekta vadītājam iegādāties pārdevēja resursu laiku, lai nodrošinātu darbiniekus projekta uzdevumiem un resursu prasībām.
 

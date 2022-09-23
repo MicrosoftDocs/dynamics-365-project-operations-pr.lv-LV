@@ -2,20 +2,20 @@
 title: Apakšlīgumu galvenes informācija
 description: Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta apakšuzņēmuma līguma galvenē project operations.
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261427"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522570"
 ---
 # <a name="header-details-for-subcontracts"></a>Apakšlīgumu galvenes informācija
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta apakšuzņēmuma galvenē Dynamics 365 Project Operations.
 

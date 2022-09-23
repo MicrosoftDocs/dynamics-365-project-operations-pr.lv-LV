@@ -2,21 +2,21 @@
 title: Galvenie jēdzieni apakšlīgumu slēgšanā
 description: Šajā rakstā ir izskaidroti daži galvenie jēdzieni, kas attiecas uz apakšuzņēmuma līgumiem korporācijā Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262179"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522758"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Galvenie jēdzieni apakšlīgumu slēgšanā
 
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 Rakstā ir izskaidroti daži galvenie jēdzieni, kas jums jāzina, pirms sākat izmantot apakšuzņēmuma līgumu funkcionalitāti korporācijā Microsoft Dynamics 365 Project Operations.
 

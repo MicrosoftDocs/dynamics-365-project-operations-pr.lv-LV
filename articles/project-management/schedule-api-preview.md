@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230325"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541134"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 
-
-## <a name="scheduling-entities"></a>Plānošanas entītijas
+**Plānošanas entītijas**
 
 Projekta plānošanas API nodrošina iespēju veikt izveides, atjaunināšanas un dzēšanas operācijas ar **plānošanas entītijām**. Šīs entītijas tiek pārvaldītas, izmantojot projekta tīmekļa plānošanas programmu. Iepriekšējos Dynamics 365 Project Operations laidienos tika ierobežotas izveides, atjaunināšanas un dzēšanas operācijas ar **plānošanas entītijām**.
 
 Tālāk sniegtajā tabulā ir sniegts projekta plānošanas entītiju pilns saraksts.
 
-| Entītijas nosaukums  | Entītijas loģiskais nosaukums |
-| --- | --- |
-| Project | msdyn_project |
-| Projekta uzdevums  | msdyn_projecttask  |
-| Projekta uzdevuma atkarība  | msdyn_projecttaskdependency  |
-| Resursu piešķiršana | msdyn_resourceassignment |
-| Projekta bloks  | msdyn_projectbucket |
-| Projekta grupas dalībnieks | msdyn_projectteam |
+| **Entītijas nosaukums**         | **Entītijas loģiskais nosaukums**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Projekta uzdevums            | msdyn_projecttask           |
+| Projekta uzdevuma atkarība | msdyn_projecttaskdependency |
+| Resursu piešķiršana     | msdyn_resourceassignment    |
+| Projekta bloks          | msdyn_projectbucket         |
+| Projekta grupas dalībnieks     | msdyn_projectteam           |
+| Projekta kontrolsaraksti      | msdyn_projectchecklist      |
+| Projekta etiķete           | msdyn_projectlabel          |
+| Projekta uzdevums etiķetei   | msdyn_projecttasktolabel    |
+| Projekta sprints          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet ir darba vienības shēma, ko var izmantot, kad transakcijā ir jāapstrādā vairāki plānošanas ietekmēšanas pieprasījumi.
 
-## <a name="project-schedule-apis"></a>Projekta plānošanas API
+**Projekta plānošanas API**
 
 Tālāk ir parādīts pašreizējo projekta plānošanas API saraksts.
 
-- **msdyn_CreateProjectV1**: šo API var izmantot, lai izveidotu projektu. Projekts un noklusējuma projekta kauss tiek izveidots nekavējoties.
-- **msdyn_CreateTeamMemberV1**: šo API var izmantot, lai izveidotu projekta darba grupas dalībnieku. Darba grupas dalībnieka ieraksts tiek izveidots nekavējoties.
-- **msdyn_CreateOperationSetV1**: šo API var izmantot, lai ieplānotu vairākus pieprasījumus, kas jāveic transakcijā.
-- **msdyn_PssCreateV1**: šo API var izmantot, lai izveidotu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta izveides operāciju.
-- **msdyn_PssUpdateV1**: šo API var izmantot, lai atjauninātu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta atjaunināšanas operāciju.
-- **msdyn_PssDeleteV1**: šo API var izmantot, lai dzēstu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta dzēšanas operāciju.
-- **msdyn_ExecuteOperationSetV1**: šis API tiek izmantots, lai izpildītu visas operācijas attiecīgajā operāciju kopā.
+| **Api**                                 | Apraksts                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Šis API tiek izmantots, lai izveidotu projektu. Projekts un noklusējuma projekta kauss tiek izveidots nekavējoties.                         |
+| **msdyn_CreateTeamMemberV1**            | Šis API tiek izmantots, lai izveidotu projekta grupas dalībnieku. Darba grupas dalībnieka ieraksts tiek izveidots nekavējoties.                                  |
+| **msdyn_CreateOperationSetV1**          | Šis API tiek izmantots, lai ieplānotu vairākus pieprasījumus, kas jāveic transakcijas ietvaros.                                        |
+| **msdyn_PssCreateV1**                   | Šis API tiek izmantots, lai izveidotu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta izveides operāciju. |
+| **msdyn_PssUpdateV1**                   | Šis API tiek izmantots, lai atjauninātu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta atjaunināšanas operāciju  |
+| **msdyn_PssDeleteV1**                   | Šis API tiek izmantots, lai izdzēstu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta dzēšanas operāciju. |
+| **msdyn_ExecuteOperationSetV1**         | Šis API tiek izmantots, lai izpildītu visas operācijas dotajā operāciju kopā.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Šis API tiek izmantots, lai atjauninātu resursu piešķires plānoto darba kontūru.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Projekta plānošanas API izmantošana ar OperationSet
+
+
+**Projekta plānošanas API izmantošana ar OperationSet**
 
 Tā kā ieraksti, kuriem ir gan **CreateProjectV1**, gan **CreateTeamMemberV1**, tiek izveidoti nekavējoties, šos API nevar izmantot tieši kopā **OperationSet**. Tomēr API var lietot, lai izveidotu nepieciešamos ierakstus, izveidotu **OperationSet** un pēc tam izmantotu šos iepriekš izveidotos ierakstus kopā **OperationSet**.
 
-## <a name="supported-operations"></a>Atbalstītās operācijas
+**Atbalstītās operācijas**
 
-| Plānošanas entītija | Izveide | Atjauninājums | Delete | Svarīgi ieteikumi |
-| --- | --- | --- | --- | --- |
-Projekta uzdevums | Jā | Jā | Jā | Laukus **Progress**, **EffortCompleted** un **EffortRemaining** var rediģēt programmā Project for the Web, bet tos nevar rediģēt programmā Project Operations.  |
-| Projekta uzdevuma atkarība | Jā |  | Jā | Projekta uzdevumu atkarības ieraksti netiek atjaunināti. Tā vietā var izdzēst vecu ierakstu, un var izveidot jaunu ierakstu. |
-| Resursu piešķiršana | Jā | Jā | | Netiek atbalstītas operācijas ar šādiem laukiem: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** un **PlannedWork**. Resursu piešķiršanas ieraksti netiek atjaunināti. Tā vietā veco ierakstu var izdzēst, un var izveidot jaunu ierakstu. |
-| Projekta bloks | Jā | Jā | Jā | Noklusējuma spainis tiek izveidots, **izmantojot CreateProjectV1** API. Atbalsts projektu kopu izveidei un dzēšanai tika pievienots 16. atjauninājuma laidienā. |
-| Projekta darba grupas dalībnieks | Jā | Jā | Jā | Izveides operācijai izmantojiet **CreateTeamMemberV1** API. |
-| Project | Jā | Jā |  | Netiek atbalstītas operācijas ar šādiem laukiem: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** un **Duration**. |
+| **Plānošanas entītija**   | **Izveide** | **Atjaunināšana** | **Dzēšana** | **Svarīgi ieteikumi**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Projekta uzdevums            | Jā        | Jā        | Jā        | Laukus **Progress**, **EffortCompleted** un **EffortRemaining** var rediģēt programmā Project for the Web, bet tos nevar rediģēt programmā Project Operations.                                                                                                                                                                                             |
+| Projekta uzdevuma atkarība | Jā        | Nē.         | Jā        | Projekta uzdevumu atkarības ieraksti netiek atjaunināti. Tā vietā var izdzēst vecu ierakstu, un var izveidot jaunu ierakstu.                                                                                                                                                                                                                                 |
+| Resursu piešķiršana     | Jā        | Jā\*      | Jā        | Netiek atbalstītas operācijas ar šādiem laukiem: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** un **PlannedWork**. Resursu piešķiršanas ieraksti netiek atjaunināti. Tā vietā veco ierakstu var izdzēst, un var izveidot jaunu ierakstu. Lai atjauninātu resursu piešķiršanas kontūras, ir nodrošināts atsevišķs API. |
+| Projekta bloks          | Jā        | Jā        | Jā        | Noklusējuma spainis tiek izveidots, **izmantojot CreateProjectV1** API. Atbalsts projektu kopu izveidei un dzēšanai tika pievienots 16. atjauninājuma laidienā.                                                                                                                                                                                                   |
+| Projekta darba grupas dalībnieks     | Jā        | Jā        | Jā        | Izveides operācijai izmantojiet **CreateTeamMemberV1** API.                                                                                                                                                                                                                                                                                           |
+| Project                 | Jā        | Jā        |            | Netiek atbalstītas operācijas ar šādiem laukiem: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** un **Duration**.                                                                                       |
+| Projekta kontrolsaraksti      | Jā        | Jā        | Jā        |                                                                                                                                                                                                                                                                                                                                                         |
+| Projekta etiķete           | Nē.         | Jā        | Nē.         | Etiķešu nosaukumus var mainīt. Šis līdzeklis ir pieejams tikai programmai Project for the Web                                                                                                                                                                                                                                                                      |
+| Projekta uzdevums etiķetei   | Jā        | Nē.         | Jā        | Šis līdzeklis ir pieejams tikai programmai Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Projekta sprints          | Jā        | Jā        | Jā        | Laukam **Sākt** ir jābūt datumam, kas ir agrāks par **lauku Finish**. Viena un tā paša projekta sprinti nevar pārklāties viens ar otru. Šis līdzeklis ir pieejams tikai programmai Project for the Web                                                                                                                                                                    |
 
-Šos API var izsaukt ar entītijas objektiem, kuros ir pielāgoti lauki.
+
+
 
 Rekvizīts ID nav obligāts. Ja tas ir nodrošināts, sistēma mēģina to izmantot un rodas izņēmums, ja to nevar izmantot. Ja tas nav nodrošināts, sistēma to ģenerēs.
 
-## <a name="restricted-fields"></a>Ierobežotie lauki
+**Zināmās problēmas un ierobežojumi**
 
-Tālāk esošajās tabulās ir definēti lauki, kas ir ierobežoti sadaļā **Izveide** un **rediģēšana**.
-
-### <a name="project-task"></a>Projekta uzdevums
-
-| Loģiskais nosaukums                           | Var izveidot     | Var rediģēt         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | Nē.             | Nē.               |
-| msdyn_actualcost_base                  | Nē.             | Nē.               |
-| msdyn_actualend                        | Nē.             | Nē.               |
-| msdyn_actualsales                      | Nē.             | Nē.               |
-| msdyn_actualsales_base                 | Nē.             | Nē.               |
-| msdyn_actualstart                      | Nē.             | Nē.               |
-| msdyn_costatcompleteestimate           | Nē.             | Nē.               |
-| msdyn_costatcompleteestimate_base      | Nē.             | Nē.               |
-| msdyn_costconsumptionpercentage        | Nē.             | Nē.               |
-| msdyn_effortcompleted                  | Nē (jā projektam)             | Nē (jā projektam)               |
-| msdyn_effortremaining                  | Nē (jā projektam)              | Nē (jā projektam)                |
-| msdyn_effortestimateatcomplete         | Nē.             | Nē.               |
-| msdyn_iscritical                       | Nē.             | Nē.               |
-| msdyn_iscriticalname                   | Nē.             | Nē.               |
-| msdyn_ismanual                         | Nē.             | Nē.               |
-| msdyn_ismanualname                     | Nē.             | Nē.               |
-| msdyn_ismilestone                      | Nē.             | Nē.               |
-| msdyn_ismilestonename                  | Nē.             | Nē.               |
-| msdyn_LinkStatus                       | Nē.             | Nē.               |
-| msdyn_linkstatusname                   | Nē.             | Nē.               |
-| msdyn_msprojectclientid                | Nē.             | Nē.               |
-| msdyn_plannedcost                      | Nē.             | Nē.               |
-| msdyn_plannedcost_base                 | Nē.             | Nē.               |
-| msdyn_plannedsales                     | Nē.             | Nē.               |
-| msdyn_plannedsales_base                | Nē.             | Nē.               |
-| msdyn_pluginprocessingdata             | Nē.             | Nē.               |
-| msdyn_progress                         | Nē (jā projektam)             | Nē (jā projektam) |
-| msdyn_remainingcost                    | Nē.             | Nē.               |
-| msdyn_remainingcost_base               | Nē.             | Nē.               |
-| msdyn_remainingsales                   | Nē.             | Nē.               |
-| msdyn_remainingsales_base              | Nē.             | Nē.               |
-| msdyn_requestedhours                   | Nē.             | Nē.               |
-| msdyn_resourcecategory                 | Nē.             | Nē.               |
-| msdyn_resourcecategoryname             | Nē.             | Nē.               |
-| msdyn_resourceorganizationalunitid     | Nē.             | Nē.               |
-| msdyn_resourceorganizationalunitidname | Nē.             | Nē.               |
-| msdyn_salesconsumptionpercentage       | Nē.             | Nē.               |
-| msdyn_salesestimateatcomplete          | Nē.             | Nē.               |
-| msdyn_salesestimateatcomplete_base     | Nē.             | Nē.               |
-| msdyn_salesvariance                    | Nē.             | Nē.               |
-| msdyn_salesvariance_base               | Nē.             | Nē.               |
-| msdyn_scheduleddurationminutes         | Nē.             | Nē.               |
-| msdyn_scheduledend                     | Nē.             | Nē.               |
-| msdyn_scheduledstart                   | Nē.             | Nē.               |
-| msdyn_schedulevariance                 | Nē.             | Nē.               |
-| msdyn_skipupdateestimateline           | Nē.             | Nē.               |
-| msdyn_skipupdateestimatelinename       | Nē.             | Nē.               |
-| msdyn_summary                          | Nē.             | Nē.               |
-| msdyn_varianceofcost                   | Nē.             | Nē.               |
-| msdyn_varianceofcost_base              | Nē.             | Nē.               |
-
-### <a name="project-task-dependency"></a>Projekta uzdevuma atkarība
-
-| Loģiskais nosaukums                  | Var izveidot     | Var rediģēt     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | Nē.             | Nē.           |
-| msdyn_linktypename            | Nē.             | Nē.           |
-| msdyn_predecessortask         | Jā            | Nē.           |
-| msdyn_predecessortaskname     | Jā            | Nē.           |
-| msdyn_project                 | Jā            | Nē.           |
-| msdyn_projectname             | Jā            | Nē.           |
-| msdyn_projecttaskdependencyid | Jā            | Nē.           |
-| msdyn_successortask           | Jā            | Nē.           |
-| msdyn_successortaskname       | Jā            | Nē.           |
-
-### <a name="resource-assignment"></a>Resursu piešķiršana
-
-| Loģiskais nosaukums                 | Var izveidot     | Var rediģēt     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Jā            | Nē.           |
-| msdyn_bookableresourceidname | Jā            | Nē.           |
-| msdyn_bookingstatusid        | Nē.             | Nē.           |
-| msdyn_bookingstatusidname    | Nē.             | Nē.           |
-| msdyn_committype             | Nē.             | Nē.           |
-| msdyn_committypename         | Nē.             | Nē.           |
-| msdyn_effort                 | Nē.             | Nē.           |
-| msdyn_effortcompleted        | Nē.             | Nē.           |
-| msdyn_effortremaining        | Nē.             | Nē.           |
-| msdyn_finish                 | Nē.             | Nē.           |
-| msdyn_plannedcost            | Nē.             | Nē.           |
-| msdyn_plannedcost_base       | Nē.             | Nē.           |
-| msdyn_plannedcostcontour     | Nē.             | Nē.           |
-| msdyn_plannedsales           | Nē.             | Nē.           |
-| msdyn_plannedsales_base      | Nē.             | Nē.           |
-| msdyn_plannedsalescontour    | Nē.             | Nē.           |
-| msdyn_plannedwork            | Nē.             | Nē.           |
-| msdyn_projectid              | Jā            | Nē.           |
-| msdyn_projectidname          | Nē.             | Nē.           |
-| msdyn_projectteamid          | Nē.             | Nē.           |
-| msdyn_projectteamidname      | Nē.             | Nē.           |
-| msdyn_start                  | Nē.             | Nē.           |
-| msdyn_taskid                 | Nē.             | Nē.           |
-| msdyn_taskidname             | Nē.             | Nē.           |
-| msdyn_userresourceid         | Nē.             | Nē.           |
-
-### <a name="project-team-member"></a>Projekta darba grupas dalībnieks
-
-| Loģiskais nosaukums                                     | Var izveidot     | Var rediģēt     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | Nē.             | Nē.           |
-| msdyn_creategenericteammemberwithrequirementname | Nē.             | Nē.           |
-| msdyn_deletestatus                               | Nē.             | Nē.           |
-| msdyn_deletestatusname                           | Nē.             | Nē.           |
-| msdyn_effort                                     | Nē.             | Nē.           |
-| msdyn_effortcompleted                            | Nē.             | Nē.           |
-| msdyn_effortremaining                            | Nē.             | Nē.           |
-| msdyn_finish                                     | Nē.             | Nē.           |
-| msdyn_hardbookedhours                            | Nē.             | Nē.           |
-| msdyn_hours                                      | Nē.             | Nē.           |
-| msdyn_markedfordeletiontimer                     | Nē.             | Nē.           |
-| msdyn_markedfordeletiontimestamp                 | Nē.             | Nē.           |
-| msdyn_msprojectclientid                          | Nē.             | Nē.           |
-| msdyn_percentage                                 | Nē.             | Nē.           |
-| msdyn_requiredhours                              | Nē.             | Nē.           |
-| msdyn_softbookedhours                            | Nē.             | Nē.           |
-| msdyn_start                                      | Nē.             | Nē.           |
-
-### <a name="project"></a>Project
-
-| Loģiskais nosaukums                           | Var izveidot     | Var rediģēt     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | Nē.             | Nē.           |
-| msdyn_actualexpensecost_base           | Nē.             | Nē.           |
-| msdyn_actuallaborcost                  | Nē.             | Nē.           |
-| msdyn_actuallaborcost_base             | Nē.             | Nē.           |
-| msdyn_actualsales                      | Nē.             | Nē.           |
-| msdyn_actualsales_base                 | Nē.             | Nē.           |
-| msdyn_contractlineproject              | Jā            | Nē.           |
-| msdyn_contractorganizationalunitid     | Jā            | Nē.           |
-| msdyn_contractorganizationalunitidname | Jā            | Nē.           |
-| msdyn_costconsumption                  | Nē.             | Nē.           |
-| msdyn_costestimateatcomplete           | Nē.             | Nē.           |
-| msdyn_costestimateatcomplete_base      | Nē.             | Nē.           |
-| msdyn_costvariance                     | Nē.             | Nē.           |
-| msdyn_costvariance_base                | Nē.             | Nē.           |
-| msdyn_duration                         | Nē.             | Nē.           |
-| msdyn_effort                           | Nē.             | Nē.           |
-| msdyn_effortcompleted                  | Nē.             | Nē.           |
-| msdyn_effortestimateatcompleteeac      | Nē.             | Nē.           |
-| msdyn_effortremaining                  | Nē.             | Nē.           |
-| msdyn_finish                           | Jā            | Jā          |
-| msdyn_globalrevisiontoken              | Nē.             | Nē.           |
-| msdyn_islinkedtomsprojectclient        | Nē.             | Nē.           |
-| msdyn_islinkedtomsprojectclientname    | Nē.             | Nē.           |
-| msdyn_linkeddocumenturl                | Nē.             | Nē.           |
-| msdyn_msprojectdocument                | Nē.             | Nē.           |
-| msdyn_msprojectdocumentname            | Nē.             | Nē.           |
-| msdyn_plannedexpensecost               | Nē.             | Nē.           |
-| msdyn_plannedexpensecost_base          | Nē.             | Nē.           |
-| msdyn_plannedlaborcost                 | Nē.             | Nē.           |
-| msdyn_plannedlaborcost_base            | Nē.             | Nē.           |
-| msdyn_plannedsales                     | Nē.             | Nē.           |
-| msdyn_plannedsales_base                | Nē.             | Nē.           |
-| msdyn_progress                         | Nē.             | Nē.           |
-| msdyn_remainingcost                    | Nē.             | Nē.           |
-| msdyn_remainingcost_base               | Nē.             | Nē.           |
-| msdyn_remainingsales                   | Nē.             | Nē.           |
-| msdyn_remainingsales_base              | Nē.             | Nē.           |
-| msdyn_replaylogheader                  | Nē.             | Nē.           |
-| msdyn_salesconsumption                 | Nē.             | Nē.           |
-| msdyn_salesestimateatcompleteeac       | Nē.             | Nē.           |
-| msdyn_salesestimateatcompleteeac_base  | Nē.             | Nē.           |
-| msdyn_salesvariance                    | Nē.             | Nē.           |
-| msdyn_salesvariance_base               | Nē.             | Nē.           |
-| msdyn_scheduleperformance              | Nē.             | Nē.           |
-| msdyn_scheduleperformancename          | Nē.             | Nē.           |
-| msdyn_schedulevariance                 | Nē.             | Nē.           |
-| msdyn_taskearlieststart                | Nē.             | Nē.           |
-| msdyn_teamsize                         | Nē.             | Nē.           |
-| msdyn_teamsize_date                    | Nē.             | Nē.           |
-| msdyn_teamsize_state                   | Nē.             | Nē.           |
-| msdyn_totalactualcost                  | Nē.             | Nē.           |
-| msdyn_totalactualcost_base             | Nē.             | Nē.           |
-| msdyn_totalplannedcost                 | Nē.             | Nē.           |
-| msdyn_totalplannedcost_base            | Nē.             | Nē.           |
-
-### <a name="project-bucket"></a>Projekta bloks
-
-| Loģiskais nosaukums          | Var izveidot      | Var rediģēt     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Jā             | Nē.           |
-| msdyn_name            | Jā             | Jā          |
-| msdyn_project         | Jā             | Nē.           |
-| msdyn_projectbucketid | Jā             | Nē.           |
-
-## <a name="limitations-and-known-issues"></a>Zināmās problēmas un ierobežojumi
 Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 
-- Project Schedule API var izmantot **tikai lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
+-   Project Schedule API var izmantot **tikai lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
+    -   Programmas lietotāji
+    -   Sistēmas lietotāji
+    -   Integrācijas lietotāji
+    -   Citi lietotāji, kuriem nav nepieciešamās licences
+-   Katrai **OperationSet** var būt ne vairāk par 100 operācijām.
+-   Katram lietotājam var būt ne vairāk par 10 atvērtām **OperationSets**.
+-   Project Operations pašlaik atbalsta ne vairāk kā 500 uzdevumu vienā projektā.
+-   Katra atjaunināšanas resursu piešķires kontūras operācija tiek uzskatīta par vienu darbību.
+-   Katrā atjaunināto kontūru sarakstā var būt ne vairāk kā 100 laika šķēles.
+-   **OperationSet** kļūmes statusa un kļūmju žurnāli pašlaik nav pieejami.
+-   Vienā projektā ir ne vairāk kā 400 sprintu.
+-   [Projektu un uzdevumu](/project-for-the-web/project-for-the-web-limits-and-boundaries) ierobežojumi un robežas.
+-   Etiķetes pašlaik ir pieejamas tikai programmai Project for the Web.
 
-    - Programmas lietotāji
-    - Sistēmas lietotāji
-    - Integrācijas lietotāji
-    - Citi lietotāji, kuriem nav nepieciešamās licences
+**Kļūdu apstrāde**
 
-- Katrai **OperationSet** var būt ne vairāk par 100 operācijām.
-- Katram lietotājam var būt ne vairāk par 10 atvērtām **OperationSets**.
-- Project Operations pašlaik atbalsta ne vairāk kā 500 uzdevumu vienā projektā.
-- **OperationSet** kļūmes statusa un kļūmju žurnāli pašlaik nav pieejami.
-- [Projektu un uzdevumu ierobežojumi un robežas](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Lai pārskatītu operāciju kopās ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānot integrāciju** \> **Operāciju kopas**.
+-   Lai pārskatītu projekta plānošanas pakalpojuma ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānošanas integrācija** \> **PSS kļūdu žurnāli**.
 
-## <a name="error-handling"></a>Kļūdu apstrāde
+**Resursu piešķiršanas kontūru rediģēšana**
 
-- Lai pārskatītu operāciju kopās ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānot integrāciju** \> **Operāciju kopas**.
-- Lai pārskatītu projekta plānošanas pakalpojuma ģenerētās kļūdas, atveriet sadaļu **Iestatījumi** \> **Plānošanas integrācija** \> **PSS kļūdu žurnāli**.
+Atšķirībā no visām citām projekta plānošanas API, kas atjaunina entītiju, resursu piešķires kontūras API ir atbildīga tikai par viena lauka, msdyn_plannedwork, atjauninājumiem vienā entītijā msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Scenārija paraugs
+Dotais grafika režīms ir:
+
+-   **fiksētas vienības**
+-   Projekta kalendārs ir 9-5p ir 9-5pst, Pirmdiena, Tue, Thurs, piektdiena (TREŠDIENĀS BEZ DARBA)
+-   Un resursu kalendārs ir 9-1p PST no pirmdienas līdz piektdienai
+
+Šis uzdevums ir uz vienu nedēļu, četrām stundām dienā. Tas ir tāpēc, ka resursu kalendārs ir no 9-1 PST vai četras stundas dienā.
+
+| &nbsp;     | Uzdevums | Sākuma datums | Beigu datums  | Daudzums | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 strādnieks |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Piemēram, ja vēlaties, lai darbinieks šonedēļ katru dienu strādātu tikai trīs stundas un atļautu vienu stundu citiem uzdevumiem.
+
+#### <a name="updatedcontours-sample-payload"></a>AtjauninātsKontours lietderīgās slodzes paraugs:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Šis ir uzdevums pēc tam, kad ir palaista API Atjaunināt kontūru grafiku.
+
+| &nbsp;     | Uzdevums | Sākuma datums | Beigu datums  | Daudzums | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 strādnieks | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Scenārija paraugs**
 
 Šādā scenārijā jums būs jāizveido projekts, darba grupas dalībnieks, četri uzdevumi un divi resursu piešķīrumi. Pēc tam jūs atjaunināsiet vienu uzdevumu, atjaunināsiet projektu, izdzēsiet vienu uzdevumu, izdzēsiet vienu resursa piešķīrumu un izveidosiet uzdevuma atkarību.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Papildu paraugi
+** Papildu paraugi
 
 ```csharp
 #region Call actions --- Sample code ----

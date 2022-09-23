@@ -2,20 +2,20 @@
 title: Apakšlīgumu resursu piešķīrumu izmaksu novērtējums
 description: Šajā rakstā ir paskaidrots, kā Microsoft Dynamics 365 Project Operations aprēķina ar apakšlīgumiem saistīto resursu cesiju izmaksu tāmi.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262069"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522665"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Apakšlīgumu resursu piešķīrumu izmaksu novērtējums
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 Apakšuzņēmuma līgumu projekta grupas dalībnieku uzdevumu piešķiršana tiek apmaksāta, **izmantojot pirkšanas** cenrādi, kas pievienots apakšlīgumam saistītajā grupas dalībnieku ierakstā. Tas atšķiras no tā, kā tiek izmaksātas darbinieku resursu piešķiršanas izmaksas, ja darbinieku resursu uzdevumu piešķiršana tiek apmaksāta, izmantojot **izmaksu** cenrādi, kas ir pievienots projekta līgumslēdzēja vienībai. 
 

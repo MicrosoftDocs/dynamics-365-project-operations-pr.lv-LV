@@ -2,16 +2,16 @@
 title: Integrācijas žurnāls risinājumā Project Operations
 description: Šajā rakstā ir sniegta informācija par darbu ar integrācijas žurnālu programmā Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106284"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541087"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrācijas žurnāls risinājumā Project Operations
 
@@ -65,6 +65,12 @@ Publicēšanu var veikt interaktīvi vai partijā. Ņemiet vērā, ka visi žurn
 > [!NOTE]
 > Lai izmantotu šo iespēju, iespējojiet opciju **Pārsūtīt visas rindas ar grāmatošanas kļūdām uz jaunu Project Operations integrācijas žurnāla** līdzekli līdzekļu pārvaldības darbvietā **Līdzekļu pārvaldība**.
 
-Publicējot project operations integrācijas žurnālā, sistēma validē katru rindu žurnālā. Sistēma izliek visas rindas, kurās nav kļūdu, un izveido jaunu žurnālu visām rindām, kurās ir publicēšanas kļūdas. Lai pārskatītu žurnālus, kuros ir grāmatošanas kļūdu rindas, dodieties uz **Projektu vadības un uzskaites** > **žurnālu projektu operāciju integrācijas žurnālu** > **un** filtrējiet žurnālus, izmantojot **lauku Sākotnējais žurnāls**.
+Šis līdzeklis palīdz uzlabot pieredzi ar Project Operations integrācijas žurnālu. Kad tas ir iespējots, dubultās rakstīšanas laika problēmas un iestatīšanas problēmas vairs neliedz publicēt derīgus žurnālus. Publicējot project operations integrācijas žurnālā, sistēma validē katru rindu žurnālā. Tas publicē visas rindas, kurās nav kļūdu, un izveido jaunu žurnālu visām rindām, kurās ir publicēšanas kļūdas.
+
+Lai pārskatītu žurnālus, kuros ir grāmatošanas kļūdu rindas, dodieties uz **projektu vadības un uzskaites** \> **žurnālu projektu operāciju integrācijas** \> **žurnālu** un filtrējiet žurnālu sarakstu, izmantojot **lauku Sākotnējais žurnāls.** Nākamajā attēlā ir parādīts piemērs, kur žurnāli projekta operāciju integrācijas **žurnāla** lapā ir filtrēti šādā veidā.
+
+![Oriģinālais žurnāls, kas tiek rādīts Project Operations integrācijas žurnāla lapā.](./media/transferLines-originalJournal.png)
+
+Ja periodisks pakešdarbs ir konfigurēts integrācijas žurnāla publicēšanai, grāmatošana tiks pievienota atkārtoti, un žurnāli tiks publicēti, ja laika problēma ir novērsta. Visi atlikušie žurnāli ir jāizpēta manuāli, pārskatot žurnālus un veicot visas nepieciešamās darbības.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
