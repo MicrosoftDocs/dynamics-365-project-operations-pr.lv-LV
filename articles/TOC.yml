@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Jaunumi
       items:
-        - name: "2022.\_gada augusts\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: "2022.\_gada septembris\_— Project\_Operations resursu balstītiem/krājumu nebalstītiem scenārijiem"
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Arhīvs
           items:
+            - name: "2022.\_gada augusts\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: "2022.\_gada jūlijs\_— Project\_Operations resursu balstītiem\_/ krājumu nebalstītiem scenārijiem"
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: "2022.\_gada jūnijs\_— Project\_Operations resursos balstītiem/krājumos nebalstītiem scenārijiem"
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Jaunumi
       items:
-        - name: "2022.\_gada augusta jaunumi\_— Lite izvietošana"
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: 2022. gada septembra jaunumi — Lite izvietošana
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Arhīvs
           items:
+            - name: "2022.\_gada augusta jaunumi\_— Lite izvietošana"
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: "2022.\_gada jūlija jaunumi\_— Lite izvietošana"
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: "2022.\_gada jūnija jaunumi\_— Lite izvietošana"
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Jaunumi
       items:
-        - name: "Jaunumi 2022.\_gada jūlijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: "Jaunumi 2022.\_gada septembrī\_— Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Arhīvs
           items:
+            - name: "Jaunumi 2022.\_gada jūlijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: "Jaunumi 2022.\_gada jūnijā\_— Project\_Operations krājumos/ražošanā balstītiem scenārijiem"
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: "Jaunumi 2021.\_gada oktobrī\_— Project\_Operations krājumu/ražošanas balstītiem scenārijiem"
@@ -1434,8 +1440,12 @@
       href: psa/overview.md
     - name: Jaunumi
       items:
-        - name: "Project\_Service\_3.x atjauninājumu laidiena plāns"
+        - name: "Project\_Service\_3.x atjauninājumu laidienu grafiks"
           href: psa/version-history-ps.md
+        - name: 'Kas jauns vai mainīts atjaunināšanas izlaidumā 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Kas jauns vai mainīts atjaunināšanas izlaidumā 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Kas jauns vai mainīts atjaunināšanas izlaidumā 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Kas jauns vai mainīts atjaunināšanas izlaidumā 43, V3'
