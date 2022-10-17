@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Jaunumi un izmaiņas Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Project Service Automation jaunināšana (programmas versija Project Operations Lite 4.x)
+      items:
+        - name: Project Service Automation jaunināšana uz Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Līdzekļu izmaiņas no Project Service Automation uz Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Project Service Automation uz Project Operations projekta plānošanas pārvēršanas process
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Ieviešanas plānošana (lietotnes versija 3.x)
       items:
         - name: Parauga datu instalācija
