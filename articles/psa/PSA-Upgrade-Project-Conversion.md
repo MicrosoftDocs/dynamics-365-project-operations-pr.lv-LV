@@ -1,9 +1,9 @@
 ---
-title: Project Service Automation līdzekļu izmaiņas uz Project Operations
-description: Šajā rakstā ir sniegts pārskats par līdzekļu izmaiņām Microsoft Dynamics 365 Project Service Automation attiecībā uz Dynamics 365 Project Operations.
+title: Project Service Automation uz Project Operations projekta plānošanas konvertēšanas procesu
+description: Šajā rakstā ir sniegts pārskats par līdzekļu izmaiņām Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,49 +16,49 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621339"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642578"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Project Service Automation līdzekļu izmaiņas uz Project Operations
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Project Service Automation uz Project Operations projekta plānošanas konvertēšanas procesu
 
-Pēc tam, kad projekts ir veiksmīgi jaunināts no Microsoft Dynamics 365 Project Service Automation 3.X uz Dynamics 365 Project Operations Lite, projekta uzdevumu rediģēšana uzdevumu režģa darba sadalījuma struktūrā (WBS) nav iespējama. Klienti varēs pārskatīt WBS izsekošanas režģī, kur ir pievienoti jauni lauki, lai sniegtu visu informāciju, kas ir saistīta ar uzdevumu. Projektiem, kuros ir nepieciešami WBS labojumi, varat selektīvi pārvērst piemērotos projektus par jauno projektu tīmekļa plānošanas pieredzei.
+Pēc tam, kad projekts ir veiksmīgi jaunināts no Microsoft Dynamics 365 Project Service Automation 3.X uz Dynamics 365 Project Operations Lite, projekta uzdevumu rediģēšana uzdevumu režģa darba sadalījuma struktūrā (WBS) nav iespējama. Klienti varēs pārskatīt WBS izsekošanas režģī, kur ir pievienoti jauni lauki, lai sniegtu visu informāciju, kas ir saistīta ar uzdevumu. Projektiem, kuros ir nepieciešami WBS labojumi, varat selektīvi pārvērst piemērotus projektus par jauno Project tīmekļa plānošanas pieredzei.
 
-## <a name="project-conversion-process"></a>Projekta konvertēšanas process
+## <a name="project-conversion-process"></a>Projekta pārveidošanas process
 
-Lai pārvērstu projektu, veiciet tālāk norādītās darbības.
+Lai pārveidotu projektu, veiciet tālāk norādītās darbības.
 
 1. Atveriet projekta galveno lapu un darbību rūtī atlasiet **Konvertēt**.
 1. Apstiprinājuma ziņojuma lodziņā atlasiet **Labi**, lai sāktu projekta konvertēšanu. Notiek šādas darbības:
 
-    1. Ziņojumu joslā, kas tiek parādīta projekta galvenajā lapā, ir teikts: "Projekta grafiks tiek konvertēts. Jūs nevarat veikt izmaiņas projektā, kamēr reklāmguvums nav pabeigts."
+    1. Ziņojuma joslā, kas tiek parādīta projekta galvenajā lapā, ir teikts: "Projekta grafiks tiek pārveidots. Jūs nevarat veikt izmaiņas projektā, kamēr konvertēšana nav pabeigta."
     1. Jūs tiekat novirzīts uz projektu sarakstu.
 
-    Kad projekta konvertēšana ir pabeigta, tiek veiktas tālāk norādītās darbības.
+    Kad projekta konvertēšana ir pabeigta, notiek šādas darbības:
 
-    1. Piešķirtais projektu vadītājs saņem paziņojumu lietojumprogrammas labajā pusē.
-    1. Ziņojumu josla, kurā norādīts, ka notiek konvertēšana, tiek noņemta.
-    1. Cilnē **Grafiks** tiek rādītas jaunās plānošanas iespējas saistībā ar Project tīmeklim. Jebkurš lietotājs, kuram ir atbilstošas licences un drošības lomas, var rediģēt WBS.
-    1. Plānošanas programmas lauks **tiek atjaunināts uz** Project for the web **.**
+    1. Piešķirtais projekta vadītājs saņem paziņojumu pieteikuma labajā pusē.
+    1. Ziņojumu josla, kurā norādīts, ka notiek reklāmguvums, tiek noņemta.
+    1. Cilnē **Grafiks** tiek rādīta jaunā plānošanas pieredze programmā Project tīmeklī. Jebkurš lietotājs, kuram ir atbilstošas licences un drošības lomas, var rediģēt WBS.
+    1. Lauks **Plānošanas programma** tiek atjaunināts uz **Project tīmeklim**.
     1. Poga **Konvertēt** tiek noņemta no darbību rūts.
 
 > [!IMPORTANT]
-> Projektu masveida pārveidošana nav atļauta. Jebkurš mēģinājums vienlaikus atjaunināt lielu projektu apjomu tiks samazināts. Šis ierobežojums palīdz nodrošināt augstu veiktspēju visiem klientiem.
+> Projektu lielapjoma konvertēšana nav atļauta. Jebkurš mēģinājums vienlaikus atjaunināt lielu projektu apjomu tiks ierobežots. Šis ierobežojums palīdz nodrošināt augstu veiktspēju visiem klientiem.
 
-## <a name="manual-tasks-vs-automatic-tasks"></a>Manuālie uzdevumi salīdzinājumā ar automātiskajiem uzdevumiem
+## <a name="manual-tasks-vs-automatic-tasks"></a>Manuāli uzdevumi salīdzinājumā ar automātiskiem uzdevumiem
 
-Kad vide tiek jaunināta no Project Service Automation uz Project Operations, visi WBS uzdevumi tiek uzskatīti par automātiski ieplānotiem. Manuāli ieplānotu uzdevumu jēdziens programmā Project tīmeklim nav pieejams. Tomēr varat definēt vēlamo projektu plānošanas darbību, izmantojot [plānošanas režīma](/project-management/scheduling-modes.md) iestatījumu, kad veidojat jaunus projektus.
+Kad vide tiek jaunināta no Project Service Automation uz Project Operations, visi WBS uzdevumi tiek uzskatīti par automātiski ieplānotiem. Manuāli ieplānotu uzdevumu jēdziens nav pieejams programmā Project tīmeklim. Tomēr varat definēt vēlamo plānošanas darbību saviem projektiem, izmantojot plānošanas režīma [iestatījumu,](/project-management/scheduling-modes.md) kad veidojat jaunus projektus.
 
-## <a name="restricted-operations-for-pre-conversion-projects"></a>Ierobežotas darbības pirmskonversijas projektiem
+## <a name="restricted-operations-for-pre-conversion-projects"></a>Ierobežotas darbības pirmspārveidošanas projektiem
 
 Šajā sadaļā ir izklāstītas funkcionālās atšķirības, ko varat sagaidīt, ja projekti nav konvertēti.
 
-### <a name="copy-project"></a>Kopēt projektu
+### <a name="copy-project"></a>Projekta kopēšana
 
-Darbība Kopēšana **tiek** atbalstīta tikai konvertētiem projektiem. Jauninātos projektus pirms konvertēšanas nevar kopēt.
+Kopēšanas **operācija** tiek atbalstīta tikai konvertētiem projektiem. Jauninātos projektus pirms konvertēšanas nevar kopēt.
 
 ### <a name="move-project"></a>Pārvietot projektu
 
@@ -66,22 +66,22 @@ Projekta sākuma datuma izmaiņas proporcionāli nepārvietos uzdevumu sākumu, 
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 
-### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Kādas ir atšķirības starp pārveidotajiem projektiem un jauniem projektiem, kas tiek izveidoti pēc jaunināšanas pabeigšanas?
+### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Kāda ir atšķirība starp pārveidotiem projektiem un jauniem projektiem, kas tiek izveidoti pēc jaunināšanas pabeigšanas?
 
-Projektiem, kas tiek konvertēti pēc vides jaunināšanas, tiks iestatīts karodziņš, kas norādīs grafikam ievērot tikai projekta kalendāru. Šī darbība atbilst darbībai programmā Project Service Automation. Tomēr karodziņš netiks iestatīts jauniem projektiem, kas tiek izveidoti pēc jaunināšanas. Tāpēc grafikā tiks ievērots resursu darba laiks, kad tie tiks piešķirti uzdevumam.
+Projektiem, kas tiek konvertēti pēc vides jaunināšanas, tiks iestatīts karodziņš, kas norāda, ka grafikam ir jāievēro tikai projekta kalendārs. Šī darbība atbilst Project Service Automation darbībai. Tomēr karodziņš netiks iestatīts jauniem projektiem, kas tiek izveidoti pēc jaunināšanas. Tāpēc grafikā tiks ievērots resursu darba laiks, kad tie tiks piešķirti uzdevumam.
 
-### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Kā rīkoties, ja mans projekts netiek pārveidots?
+### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Kā rīkoties, ja manu projektu neizdodas konvertēt?
 
-Ja jūsu projekts netiek konvertēts, vispirms ir jāpārskata kļūdu žurnāli, lai noteiktu visas bieži sastopamās problēmas, kas saistītas ar jūsu WBS. Ja žurnālos nav norādīta konkrēta kļūda, ar kuru varat veikt darbības, sazinieties ar klientu atbalsta dienestu, lai jūsu pieteikumu varētu pārskatīt tālāk.
+Ja jūsu projektu neizdodas konvertēt, vispirms ir jāpārskata kļūdu žurnāli, lai noteiktu visas bieži sastopamās problēmas, kas saistītas ar jūsu WBS. Ja žurnālos nav norādīta konkrēta kļūda, ar kuru varat rīkoties, sazinieties ar klientu atbalsta dienestu, lai jūsu pieteikumu varētu pārskatīt sīkāk.
 
-### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Kā tiek risināta uzņēmumu slēgšana programmā Project tīmeklim?
+### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Kā tiek risināta uzņēmumu slēgšana programmā Project tīmeklī?
 
-Projekts tīmeklim nerespektē uzņēmumu slēgšanu, ko uzņēmums definē organizācijas līmenī. Tomēr tas ievēros citus brīvdienu veidus, kas ir definēti konkrētā darba stundas veidnē.
+Project tīmeklī neievēro uzņēmumu slēgšanu, ko uzņēmums definē organizācijas līmenī. Tomēr tas ņems vērā citus brīvdienu veidus, kas ir definēti konkrētā darba stundas veidnē.
 
-### <a name="what-are-the-limitations-of-project-for-the-web"></a>Kādi ir Project ierobežojumi tīmeklim?
+### <a name="what-are-the-limitations-of-project-for-the-web"></a>Kādi ir programmas Project tīmeklī ierobežojumi?
 
-Skatiet rakstu [Darba sadalījuma struktūras izveide: projekta ierobežojumi](/project-management/create-wbs#project-limitations.md).
+Skatiet sadaļu [Darba sadalījuma struktūras izveide: Projekta ierobežojumi](/project-management/create-wbs#project-limitations.md).
 
-### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Vai varu sagaidīt izmaksu un pārdošanas tāmju izmaiņas?
+### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Vai varu sagaidīt izmaiņas izmaksu un pārdošanas aprēķinos?
 
-Retos gadījumos, kad resursu piešķiršanas kontūras tiek pārrēķinātas vai ja tās atrodas uz citas datuma robežas nekā avota projekts, var tikt parādītas atšķirības pārdošanas un izmaksu aprēķinos. Jaunināšanas procesa ietvaros klientiem ir jāpārbauda reprezentatīva projektu izlases kopa, lai viņi varētu saprast visas iespējamās grafika izmaiņas.
+Retos gadījumos, kad resursu piešķīruma kontūras tiek pārrēķinātas vai ja tās atbilst datuma robežai, kas atšķiras no avota projekta, pārdošanas un izmaksu aprēķinos var tikt novērotas atšķirības. Jaunināšanas procesa ietvaros no klientiem tiek sagaidīts, ka viņi testēs reprezentatīvu projektu izlases kopu, lai viņi varētu izprast visas iespējamās grafika izmaiņas.

@@ -1,17 +1,17 @@
 ---
 title: Darba sadalījuma struktūras izveide
-description: Šajā rakstā paskaidrots, kā izveidot darba sadalījuma struktūru (WBS), iekļaujot pamata vadīklas jaunajā plānošanas saskarnē.
+description: Šajā rakstā ir paskaidrots, kā izveidot darba sadalījuma struktūru (WBS), iekļaujot pamata vadīklas jaunajā plānošanas interfeisā.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932075"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655198"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Darba sadalījuma struktūras (WBS) izveide
 
@@ -95,11 +95,11 @@ Kā administrators uzdevuma entītijai var definēt pielāgotus laukus. Tomēr l
 
 ## <a name="staffing-attributes"></a>Darbspēka atribūti
 
-Personāla komplektēšanas atribūtiem piekļūst, grafikā izmantojot lauku **Resursi**. Varat vai nu meklēt jau esošu resursu, vai rūtī **Ātrā izveide** atlasīt **Izveidot** un pievienot projekta darba grupas dalībnieku kā jaunu resursu.  Meklējot resursu, izmantojot resursu atlasītāju uzdevumu režģī, dēļa skatā vai gantā, meklēšana atgriež esošos projekta grupas dalībniekus vai aktīvos rezervējamos resursus.
+Personāla komplektēšanas atribūtiem piekļūst, grafikā izmantojot lauku **Resursi**. Varat vai nu meklēt jau esošu resursu, vai rūtī **Ātrā izveide** atlasīt **Izveidot** un pievienot projekta darba grupas dalībnieku kā jaunu resursu.  Meklējot resursu, izmantojot resursu atlasītāju uzdevumu režģī, paneļa skatā vai gantā, meklēšana atgriež vai nu esošos projekta grupas dalībniekus, vai aktīvos rezervējamos resursus.
 
 Uzdevuma personāla komplektēšanas prasību aprakstīšanai tiek izmantoti lauki **Loma**, **Resursu vienība** un **Amata nosaukums**. Šie personāla komplektēšanas atribūti kopā ar uzdevuma grafiku tiek izmantoti, lai atrastu pieejamos resursus šī uzdevuma veikšanai.
 
-   - **Loma**: norādiet uzdevuma veikšanai nepieciešamā resursa tipu.,
+   - **Loma**: norādiet uzdevuma veikšanai nepieciešamo resursa tipu.,
    - **Resursu vienība**: Norādiet struktūrvienību, no kuras ir jāpiešķir resursi šim uzdevumam. Ja resursa izmaksu un norēķinu likmes ir iestatītas, pamatojoties uz resursu vienībām, šis atribūts uzdevumam ietekmē izmaksu un pārdošanas tāmi.
    - **Amata nosaukums**: Ievadiet draudzīgu nosaukumu vispārējam resursam, kas tiek izmantots kā vietturis resursam, kurš galu galā darīs šo darbu.
 
@@ -112,6 +112,18 @@ Laukā **Kategorija** ir vērtības, kas norāda plašāku darba tipu, kurā šo
 Grafiku programmā Project Operations varat izmantot, lai starp uzdevumiem izveidotu pirmstecīgas aktivitātes attiecības. Lauks **Pirmstecīga aktivitāte** izmanto vienu vai vairākas vērtības, lai norādītu uzdevumus, no kuriem kāds uzdevums ir atkarīgs. Ja kādam uzdevumam ir piešķirtas pirmstecīgas aktivitātes vērtības, šis uzdevums var sākties tikai pēc tam, kad ir pabeigti visi tā pirmstecīgie uzdevumi. Atkarības dēļ uzdevuma plānotais sākuma datums tiek atiestatīts uz datumu, kad ir pabeigti pirmstecīgie uzdevumi.
 
 Uzdevuma režīms neietekmē atjauninājumus, kas tiek veikti pirmstecīgo/atkarīgo uzdevumu sākuma un beigu datumiem.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Izpratne par ilguma, resursu kalendāru un projektu kalendāru ietekmi uz uzdevumiem
+Uzdevuma ilgums tiek definēts kā darba stundu skaits starp uzdevuma sākuma datuma sākuma laiku un uzdevuma beigu datuma beigu laiku.   Projekts tīmeklī definē ilguma mērvienības šādi:
+
+| **Ilguma mērs** | **Daudzums**|
+|----------------------------------------------------|----------------------|
+| Stundas dienā | 8 |
+| Stundas nedēļā |  40 |
+| Dienas mēnesī |  20 |
+
+Nepiešķirtie uzdevumi tiek ieplānoti, izmantojot projekta kalendāru. Tomēr pēc sākotnējās resursu piešķiršanas uzdevuma plānošana tiek atjaunināta, lai tā atbilstu resursa kalendāram. Turpmākās izmaiņas uzdevumā, kuram ir uzdevums, tiks regulētas pēc [projekta plānošanas režīma](scheduling-modes.md). Lai uzzinātu vairāk par kalendāru ietekmi uz uzdevumiem, skatiet rakstu [Resursu kalendāri programmā Project tīmeklī](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) un Uzdevumu sākuma laiki un [jūsu projekti!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pieejamība un īsinājumtaustiņi
 
@@ -127,7 +139,7 @@ Ja izmantojat Project Operations darba sadalījuma struktūru, ņemiet vērā t�
 | Projekta maksimālais resursu skaits              | 300                  |
 | Projekta maksimālais saišu skaits (tikai pēctecis) | 600                  |
 | Projekta maksimālais pielāgoto lauku skaits          | 10                   |
-| Maksimālais kontrolsaraksta vienumu skaits katram uzdevumam                   | 20                   |
+| Maksimālais kontrolsaraksta elementu skaits katram uzdevumam                   | 20                   |
 
 **Uzdevumu ierobežojumi**
 
