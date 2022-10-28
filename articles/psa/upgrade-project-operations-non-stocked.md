@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686985"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709454"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation jaunināšana uz Project Operations
 
@@ -70,7 +70,7 @@ Priekšnosacījumi 3. posmam tiks atjaunināti, tuvojoties vispārējās pieejam
 
 ## <a name="licensing"></a>Licencēšana
 
-Ja jums ir aktīvas Project Service Automation licences, varat instalēt un izmantot Project Operations, kas ietver visas Project Service Automation un citas iespējas. Pēc tam varat pārbaudīt Project Operations iespējas atsevišķā vidē, turpinot izmantot Project Service Automation ražošanā. Pēc Project Service Automation licenču derīguma termiņa beigām jums būs jāpāriet uz Project Operations. Plānojot šo pāreju, jums ir jāņem vērā fakts, ka Project Operations licencē nav iekļauta Project Service Automation licence.
+Ja jums ir aktīvas Project Service Automation licences, varat instalēt un izmantot Project Operations, kas ietver visas Project Service Automation un citas iespējas. Šādā veidā varat pārbaudīt Project Operations iespējas, turpinot izmantot Project Service Automation ražošanā. Pēc Project Service Automation licenču derīguma termiņa beigām jums būs jāpāriet uz Project Operations. Plānojot šo pāreju, jums ir jāņem vērā fakts, ka Project Operations licencē nav iekļauta Project Service Automation licence. Klienti, kuriem ir scenāriji, kuros viņi ir izvietojuši Project Service Automation un kuriem ir jāturpina izmantot vai palielināt savas PSA licences, kamēr viņi plāno pāriet uz Project Operations, var pieprasīt pagaidu PSA licences, pamatojoties uz Project Operations iegādātajām licencēm. Vienai Project Service Automation licencei tiks izsniegta viena Project Service Automation licence. Pagaidu PSA licences var pieprasīt, izmantojot šo saiti: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Pielāgojumu testēšana un refaktorizēšana
 
