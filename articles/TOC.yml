@@ -1750,10 +1750,8 @@
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
             - name: Kā veikt resursu vieglo rezervāciju (lietotnes versija 2.x)?
               href: psa/FAQ-soft-book-in-web-app.md
-            - name: Kā pielāgot projekta posmu biznesa procesu plūsmu?
+            - name: Kā pielāgot projekta posmu biznesa procesa plūsmu?
               href: psa/FAQ-customize-bpf.md
-            - name: Darba sadalījuma struktūras jaunināšanas apsvērumi
-              href: psa/upgrade-considerations-tasks.md
         - name: Tehniskie dokumenti
           href: psa/white-papers.md
         - name: Administratora rokasgrāmata
