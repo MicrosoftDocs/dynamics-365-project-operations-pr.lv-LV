@@ -1,6 +1,6 @@
 ---
-title: Apstipriniet projekta kreditoru rēķinus
-description: Šajā rakstā ir paskaidrots, kā apstiprināt projekta kreditora rēķinu korporācijā Microsoft Dynamics 365 Project Operations, un aprakstīta projekta kreditora rēķina apstiprināšanas finansiālā ietekme.
+title: Projekta kreditoru rēķinu apstiprināšana
+description: Šajā rakstā izskaidrots, kā apstiprināt projekta piegādātāja rēķinu programmā Microsoft Dynamics 365 Project Operations, un aprakstīta projekta piegādātāja rēķina apstiprināšanas finanšu ietekme.
 author: suvaidya
 ms.date: 8/25/2022
 ms.topic: article
@@ -13,24 +13,24 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475477"
 ---
-# <a name="confirm-project-vendor-invoices"></a>Apstipriniet projekta kreditoru rēķinus
+# <a name="confirm-project-vendor-invoices"></a>Projekta kreditoru rēķinu apstiprināšana
 
 _ **Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem
 
-Ja ir iespējots parametrs **Pm manuāla apstiprināšana, izmantojot obligāto** parametru, kreditoru rēķiniem, kas ir izveidoti, Microsoft Dataverse ir **melnraksta** statuss. Šādi izveidoti kreditoru rēķini ir jāpārskata un manuāli jāapstiprina. Ja parametrs **Pm manuālais apstiprinājums ir obligāts**, ir atspējots, kreditoru rēķini, kas tiek izveidoti Dataverse, tiek automātiski apstiprināti. Turpmāka rīcība nav nepieciešama. 
+Ja ir iespējots parametrs **Nepieciešams manuāls projekta vadītāja apstiprinājums**, piegādātāju rēķiniem, kas izveidoti Microsoft Dataverse, ir statuss **Melnraksts**. Šādi izveidotie piegādātāju rēķini ir jāpārskata un manuāli jāapstiprina. Ja ir atspējots parametrs **Nepieciešams manuāls projekta vadītāja apstiprinājums**, piegādātāju rēķiniem, kas izveidoti Dataverse, tiek automātiski apstiprināti. Nav jāveic papildu darbības. 
 
-Kad esat verificējis visas rindas kreditora rēķinā, Dynamics 365 Project Operations atlasiet **Apstiprināt**, lai apstiprinātu kreditora rēķinu.
+Kad esat pārbaudījis visas rindas piegādātāja rēķinā programmā Dynamics 365 Project Operations, atlasiet **Apstiprināt**, lai apstiprinātu piegādātāja rēķinu.
 
-Kreditora rēķinā atlasot **Apstiprināt**, tiek veikta tālāk norādītā darbība.
+Ja piegādātāja rēķinā tiek atlasīts **Apstiprināt**, notiek šāda darbība:
 
-1. Kreditora rēķina statuss tiek atjaunināts uz **Apstiprināts**.
-1. Apstiprinātais kreditora rēķins un ar to saistītie ieraksti kļūst tikai lasāmi, un tos nevar rediģēt vai dzēst.
-1. Ja kāda no izmaksām faktiski atsaucas uz kreditora rēķina rindu kā daļu no salīdzināšanas procesa, visas izmaksu faktiskās izmaksas, kas ir saistītas ar atsauces kreditora rēķina rindu, tiek apgrieztas atpakaļ.
-1. Jaunas izmaksu faktiskās izmaksas tiek izveidotas, izmantojot informāciju kreditora rēķina rindā.
-1. Jūs vairs nevarat izveidot labojumu žurnālus, apstrādāt laika ierakstu atsaukšanu vai atcelt apgrieztā sākotnējā laika, izdevumu vai faktisko materiālu apstiprinājumu.
-1. Programmā Dynamics 365 Finance projekta izmaksu **vērtība tiek atjaunināta,** izmantojot projektu integrācijas žurnālu, un sagādes integrācijas konts tiek *anulēts* pēc projekta integrācijas žurnāla grāmatošanas.
+1. piegādātāja rēķina statuss tiek atjaunināts uz **Apstiprināts**.
+1. Apstiprinātais piegādātāja rēķins un tā saistītie ieraksti kļūst tikai lasāmi, un tos nevar rediģēt vai dzēst.
+1. Ja kādas faktiskās izmaksas atsaucas uz piegādātāja rēķina rindu kā daļu no atbilstības noteikšanas procesa, tiek apgrieztas visas faktiskās izmaksas, kas ir saistītas ar atsaucē norādīto piegādātāja rēķina rindu.
+1. Tiek izveidotas jaunas faktiskās izmaksas, izmantojot informāciju no piegādātāja rēķina rindas.
+1. Vairs nevar izveidot labošanas žurnālus, apstrādāt laika ierakstu atsaukšanu vai atcelt sākotnējo apgriezto laika, izdevumu vai materiālu faktisko datu apstiprinājumu.
+1. Programmā Dynamics 365 Finance vērtība **Projekta izmaksas** tiek atjaunināta, izmantojot projekta integrācijas žurnālu, un iepirkumu integrācijas konts tiek *apgriezts* pēc projekta integrācijas žurnāla grāmatošanas.
 
 > [!NOTE]
-> Ja kādai rindai kreditora rēķinā ir cits verifikācijas statuss, nevis **Pabeigts**, kreditora rēķinu nevar apstiprināt.
+> Ja kādai no piegādātāja rēķina rindām ir pārbaudes statuss, kas nav **Pabeigts**, nevar apstiprināt piegādātāja rēķinu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

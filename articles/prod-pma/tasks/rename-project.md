@@ -24,7 +24,7 @@ ms.locfileid: "8683869"
 
 [!include [banner](../../includes/banner.md)]
 
-Projekta posmi var kalpot kā ceļvedis projekta dzīves ciklā. Varat definēt projekta posmus, kurus vēlaties iekļaut projektos projekta posma apgabalā projekta pārvaldības un grāmatvedības parametru lapā. Dynamics 365 Finance nodrošina piecus iepriekš noteiktus projekta posmus un trīs lietotāja noteiktus posmus. Varat atjaunināt projekta posma nosaukumu, ko izmantojat, lai sekotu projektu norisei. Varat arī norādīt nosaukumus lietotāja definētiem statusa nosaukumiem. Šajā uzdevumā ir parādīts, kā pārdēvēt vai mainīt projekta posmu un kā lietot USSI datu kopu.
+Projekta posmi var kalpot kā ceļvedis projekta dzīves ciklā. Varat definēt projekta posmus, kurus vēlaties iekļaut projektos projekta posma apgabalā projekta pārvaldības un grāmatvedības parametru lapā. Dynamics 365 Finance nodrošina piecus iepriekš definētus projekta posmus un trīs lietotāja definētus posmus. Varat atjaunināt projekta posma nosaukumu, ko izmantojat, lai sekotu projektu norisei. Varat arī norādīt nosaukumus lietotāja definētiem statusa nosaukumiem. Šajā uzdevumā ir parādīts, kā pārdēvēt vai mainīt projekta posmu un kā lietot USSI datu kopu.
 
 1. Dodieties uz Projekta pārvaldība un grāmatvedība > Iestatīšana > Projekta pārvaldības un grāmatvedības parametri.
 2. Noklikšķiniet uz cilnes Projekta posms.

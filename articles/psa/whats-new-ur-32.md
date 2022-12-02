@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 32, V3
-description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami projektu pakalpojumu automatizācijas atjaunināšanas laidienā 32, V3.
+description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami Project Service Automation atjauninājumu izlaidumā 32, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8912893"
 
 Ar prieku izziņojam jaunāko programmas Microsoft Dynamics 365 Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Tas ir saderīgs ar Dynamics 365 9.x. Lai atjauninātu šo laidienu, apmeklējiet Dynamics 365 tiešsaistes risinājumu lapas administrēšanas centru un instalējiet atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
-Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti project service automation V3, Update Release 32. Šīs versijas būvējuma numurs ir V3.10.53.108, un tas parasti ir pieejams, izmantojot 2021. gada jūnija pašatjauninājumu.
+Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation V3, atjauninājuma izlaidumā 32. Šīs versijas būvējuma numurs ir V3.10.53.108, un tas parasti ir pieejams, izmantojot 2021. gada jūnija pašatjauninājumu.
 
 ## <a name="update-release-32"></a>Atjauninājumu izlaidums 32
 

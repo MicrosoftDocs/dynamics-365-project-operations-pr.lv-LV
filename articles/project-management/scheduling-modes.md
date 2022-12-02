@@ -1,6 +1,6 @@
 ---
 title: Plānošanas režīmi
-description: Šajā rakstā sniegta informācija par plānošanas režīmiem.
+description: Šajā rakstā ir sniegta informācija par plānošanas režīmiem.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Definējot projekta plānošanas režīmu, tiek iestatīta viena no šīm vērt�
 | Fiksēta ieguldījuma uzdevums    | Ilgums tiek pārrēķināts. | Vienības tiek pārrēķinātas.    | Ilgums tiek pārrēķināts. |
 | Fiksēta ilguma uzdevums  | Ieguldījums tiek pārrēķināts.   | Ieguldījums tiek pārrēķināts.    | Vienības tiek pārrēķinātas.   |
 
-Papildinformāciju par konkrētā režīma nosacījumiem skatiet sadaļā [Uzdevuma tipa mainīšana precīzākai plānošanai](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Rakstā piepūles vietā tiek lietots termins **Darbs** **·**.
+Papildinformāciju par konkrētā režīma nosacījumiem skatiet sadaļā [Uzdevuma tipa mainīšana precīzākai plānošanai](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Rakstā tiek lietots vārds **Darbs**, nevis **Ieguldījums**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Organizācijas plānošanas režīma maiņa
 

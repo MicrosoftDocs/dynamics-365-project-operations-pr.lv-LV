@@ -1,6 +1,6 @@
 ---
 title: Projekta budžetu prognožu modeļu izveide
-description: Šajā rakstā aprakstīts, kā izveidot budžeta modeli atlikušajiem budžetiem.
+description: Šajā rakstā aprakstīts, kā izveidot prognožu modeli atlikušajiem budžetiem.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916711"
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā aprakstīts, kā izveidot budžeta modeli atlikušajiem budžetiem. Projekts, kam tiek kontrolēts budžets, izmanto divu veidu budžetus: sākotnējo un atlikušo. Kad izveidojat projekta budžetu, ir jānorāda sākotnējā un atlikušā budžeta prognožu modeļi, kas izveidoti lapā **Prognožu modeļi**. Projekta budžeti, kuru pamatā ir noteikti modeļi, tiek izveidoti, kad izpildāt projekta budžetu.
+Šajā rakstā aprakstīts, kā izveidot prognožu modeli atlikušajiem budžetiem. Projekts, kam tiek kontrolēts budžets, izmanto divu veidu budžetus: sākotnējo un atlikušo. Kad izveidojat projekta budžetu, ir jānorāda sākotnējā un atlikušā budžeta prognožu modeļi, kas izveidoti lapā **Prognožu modeļi**. Projekta budžeti, kuru pamatā ir noteikti modeļi, tiek izveidoti, kad izpildāt projekta budžetu.
 
 > [!NOTE]
 > Prognožu modelim, kas tiek izmantots budžeta kontrolei, nevar būt apakšmodelis, vai tas nevar tikt izmantots kā apakšmodelis.

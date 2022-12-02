@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation integrācijas parametri
-description: Šajā rakstā paskaidrots, kā konfigurēt noklusējuma datu ievadīšanu, integrējot Microsoft Dynamics 365 for Project Service Automation ar Microsoft Dynamics 365 Finance.
+description: Šajā rakstā izskaidrots, kā konfigurēt noklusējuma datu ievadīšanu, kad veicat Microsoft Dynamics 365 for Project Service Automation integrēšanu ar Microsoft Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932305"
 
 [!include[banner](../includes/banner.md)]
 
-**Lapā Projektu pakalpojumu automatizācijas integrācijas parametri** varat konfigurēt, kā tiek ievadīti noklusējuma dati, integrējot Dynamics 365 Project Service Automation ar Dynamics 365 Finance. Lai projektus veiksmīgi sinhronizētu no Project Service Automation to Finance, ir jāiestata tālāk norādītie lauki.
+Lapā **Project Service Automation integrācijas parametri** var konfigurēt, kā tiek ievadīti noklusējuma dati, integrējot Dynamics 365 Project Service Automation programmā Dynamics 365 Finance. Lai projektus veiksmīgi sinhronizētu no Project Service Automation to Finance, ir jāiestata tālāk norādītie lauki.
 
 Lai atvērtu lapu **Project Service Automation integrācijas parametri**, atveriet sadaļu **Projekta pārvaldība un grāmatvedība** \> **Iestatīšana** \> **Dynamics 365 for Project Service Automation integrācijas parametri**. 
 

@@ -1,6 +1,6 @@
 ---
 title: Laika un izdevumu izmaiņas (Project Service Automation 3.x)
-description: Šajā rakstā sniegta informācija par laika un izdevumu risinājuma izmaiņām.
+description: Šajā rakstā ir sniegta informācija par risinājuma izmaiņām attiecībā uz laiku un izdevumiem.
 author: makk
 ms.custom:
 - dyn365-projectservice

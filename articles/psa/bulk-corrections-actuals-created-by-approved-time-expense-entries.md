@@ -1,6 +1,6 @@
 ---
 title: Ar apstiprinātiem laika un izdevumu ierakstiem izveidoto faktisko ierakstu lielapjoma korekcija
-description: Šajā rakstā paskaidrots, kā administrators var veikt vienu vai lielapjoma labojumus iepriekš apstiprinātajos laika vai izdevumu ierakstos, ja norēķini nav pabeigti.
+description: Šajā rakstā ir paskaidrots, kā administrators var veikt vienu vai vairākus iepriekš apstiprinātu laika vai izdevumu ierakstu labojumus, ja norēķini nav pabeigti.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916298"
 
 Dažreiz laiks vai izdevumu ieraksts var būt ievadīts nepareizi. Piemēram, konsultants var atlasīt nepareizu datumu, kad tiek izveidots laika ieraksts, vai arī var apmainīt vietām skaitļus, kad tiek ievadīti izdevumi. Ja konsultants nevar koriģēt iesniegtos ierakstus, administrators var tieši labot projekta ierakstu.
 
-Lai pabeigtu šajā rakstā aprakstītās procedūras, jums būs nepieciešamas administratora atļaujas.
+Lai izpildītu šajā rakstā aprakstītās procedūras, jums ir nepieciešamas administratora atļaujas.
 
 ## <a name="correct-approved-time-entries"></a>Apstiprinātu laika ierakstu labošana     
 

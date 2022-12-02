@@ -1,6 +1,6 @@
 ---
 title: Resursu pārvaldības izmaiņas (Project Service Automation 3.x)
-description: Šajā rakstā sniegta informācija par izmaiņām resursu pārvaldības apgabalā.
+description: Šajā rakstā ir sniegta informācija par izmaiņām resursu pārvaldības apgabalā.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916021"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Šī raksta sadaļās ir sniegta informācija par izmaiņām, kas veiktas versijas 3.x resursu pārvaldības apgabalā Dynamics 365 Project Service Automation.
+Šī raksta sadaļās ir sniegta informācija par izmaiņām, kas veiktas attiecībā uz resursu pārvaldības apgabalu programmas Dynamics 365 Project Service Automation versijā 3.x.
 
 ## <a name="project-estimates"></a>Projekta tāmes
 

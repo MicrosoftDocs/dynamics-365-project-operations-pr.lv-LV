@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt vairākus klientus projekta līguma rindās — Lite
-description: Šajā rakstā ir sniegta informācija par vairāku debitoru pārvaldību uz projektiem balstītās līguma rindās.
+description: Šajā rakstā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līguma rindās.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

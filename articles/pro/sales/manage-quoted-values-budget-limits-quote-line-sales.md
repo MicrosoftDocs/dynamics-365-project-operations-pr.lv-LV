@@ -1,6 +1,6 @@
 ---
 title: Projekta balstīta piedāvājuma rindu pārskats
-description: Šajā rakstā sniegta informācija par projekta piedāvājuma rindu izmantošanu projekta darbam.
+description: Šajā rakstā ir sniegta informācija par projekta piedāvājumu rindu izmantošanu projektu darbam.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

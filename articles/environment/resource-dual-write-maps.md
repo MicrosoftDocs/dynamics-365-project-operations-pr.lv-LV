@@ -1,6 +1,6 @@
 ---
 title: Project Operations duālās rakstīšanas kartes versijas
-description: Šajā rakstā ir sniegts saraksts ar dubultās rakstīšanas kartēm, kas nepieciešamas Dynamics 365 Project Operations.
+description: Šajā rakstā ir ietverts saraksts ar duālās rakstīšanas kartēm, kas ir nepieciešamas Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -30,7 +30,7 @@ Risinājumā Project Operations nepieciešamie priekšnosacījumi ir tālāk uzs
 | Klienti V3 (accounts) | Nav nepieciešama nodrošināšanai. |
 | Piegādātāji V2 (msdyn_vendors) | Nav nepieciešama nodrošināšanai. |
 
-1. Karšu sarakstā atlasiet karti Virsgrāmata **(msdyn\_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. **Laukā Master for Initial sync** atlasiet **Finance and operations programmas** gan Virsgrāmatas kartei, gan visām nepieciešamajām kartēm. Atlasiet **Izpildīt**.
+1. Karšu sarakstā atlasiet karti Virsgrāmata **(msdyn\_ledgers)** ar visiem priekšnosacījumiem un atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. Laukā **Sākotnējās sinhronizācijas šablons** atlasiet **Finanšu un operāciju programmas** gan virsgrāmatas kartei, gan visām priekšnosacījuma kartēm. Atlasiet **Izpildīt**.
 
 ![Virsgrāmatas kartes sinhronizācija.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Risinājumā Project Operations nepieciešamie priekšnosacījumi ir tālāk uzs
 
 Risinājumā Project Operations nepieciešamas tālāk uzskaitītās kartes. Ar 2021. gada maija atjauninājumu Project Operations versiju 4.10.0.186 ir uzskaitītas duālās rakstīšanas kartes.
 
-| Entītiju karte | Jaunākā versija | Sākotnējā sinhronizācija | Nepieciešamā Dynamics 365 Finance versija |
+| Entītiju karte | Jaunākā versija | Sākotnējā sinhronizācija | Vajadzīgā Dynamics 365 Finance versija |
 | --- | --- | --- | --- |
 | Integrāciju entītija projekta transakciju relācijām (msdyn\_transactionconnections) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
 | Projektu līgumu galvenes (sales orders) | 1.0.0.1 | Nav nepieciešama nodrošināšanai. ||
 | Projekta līguma rindas (salesorderdetails) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
 | Projekta līdzekļu avots (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nav nepieciešama nodrošināšanai. ||
-| Projekta integrācijas tabula materiālu aplēsēm (msdyn\_ tāmes) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
+| Projekta integrācijas tabula materiālu aprēķiniem (msdyn\_estimatelines) | 1.0.0.0 | Nav nepieciešama nodrošināšanai. ||
 | Projekta rēķinu priekšlikumi V2 (invoices) | 1.0.0.3 | Nav nepieciešama nodrošināšanai. ||
 | Project Operations integrācijas faktiskie dati (msdyn_actuals) | 1.0.0.15 | Nav nepieciešama nodrošināšanai. |10.0.29 vai jaunāka versija|
 | Project Operations integrācija līguma rindas atskaites punktos (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nav nepieciešama nodrošināšanai. ||

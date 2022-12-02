@@ -1,6 +1,6 @@
 ---
 title: Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām
-description: Šajā rakstā ir sniegta informācija un paraugi, kā izmantot project schedule API.
+description: Šajā rakstā ir sniegta informācija un paraugi projekta plānošanas API izmantošanai.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Tālāk sniegtajā tabulā ir sniegts projekta plānošanas entītiju pilns sara
 | Projekta grupas dalībnieks     | msdyn_projectteam           |
 | Projekta kontrolsaraksti      | msdyn_projectchecklist      |
 | Projekta etiķete           | msdyn_projectlabel          |
-| Projekta uzdevums etiķetei   | msdyn_projecttasktolabel    |
+| Marķējamais projekta uzdevums   | msdyn_projecttasktolabel    |
 | Projekta sprints          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -45,16 +45,16 @@ OperationSet ir darba vienības shēma, ko var izmantot, kad transakcijā ir jā
 
 Tālāk ir parādīts pašreizējo projekta plānošanas API saraksts.
 
-| **Api**                                 | Apraksts                                                                                                                       |
+| **API**                                 | Apraksts                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Šis API tiek izmantots, lai izveidotu projektu. Projekts un noklusējuma projekta kauss tiek izveidots nekavējoties.                         |
-| **msdyn_CreateTeamMemberV1**            | Šis API tiek izmantots, lai izveidotu projekta grupas dalībnieku. Darba grupas dalībnieka ieraksts tiek izveidots nekavējoties.                                  |
-| **msdyn_CreateOperationSetV1**          | Šis API tiek izmantots, lai ieplānotu vairākus pieprasījumus, kas jāveic transakcijas ietvaros.                                        |
-| **msdyn_PssCreateV1**                   | Šis API tiek izmantots, lai izveidotu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta izveides operāciju. |
-| **msdyn_PssUpdateV1**                   | Šis API tiek izmantots, lai atjauninātu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta atjaunināšanas operāciju  |
-| **msdyn_PssDeleteV1**                   | Šis API tiek izmantots, lai izdzēstu entītiju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta dzēšanas operāciju. |
-| **msdyn_ExecuteOperationSetV1**         | Šis API tiek izmantots, lai izpildītu visas operācijas dotajā operāciju kopā.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Šis API tiek izmantots, lai atjauninātu resursu piešķires plānoto darba kontūru.                                                        |
+| **msdyn_CreateProjectV1**               | Šis API tiek izmantots, lai izveidotu projektu. Nekavējoties tiek izveidots projekts un noklusējuma projekta bloks.                         |
+| **msdyn_CreateTeamMemberV1**            | Šis API tiek izmantots, lai izveidotu projekta darba grupas dalībnieku. Darba grupas dalībnieka ieraksts tiek izveidots nekavējoties.                                  |
+| **msdyn_CreateOperationSetV1**          | Šo API var izmantot, lai ieplānotu vairākus pieprasījumus, kas jāveic transakcijā.                                        |
+| **msdyn_PssCreateV1**                   | Šis API tiek izmantots, lai izveidotu entitīju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta izveides operāciju. |
+| **msdyn_PssUpdateV1**                   | Šis API tiek izmantots, lai atjauninātu entitīju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta atjaunināšanas operāciju.  |
+| **msdyn_PssDeleteV1**                   | Šis API tiek izmantots, lai dzēstu entitīju. Entītija var būt jebkura no projekta plānošanas entītijām, kas atbalsta dzēšanas operāciju. |
+| **msdyn_ExecuteOperationSetV1**         | Šis API tiek izmantots, lai izpildītu visas operācijas attiecīgajā operāciju kopā.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Šis API tiek izmantots, lai atjauninātu resursu piešķiršanas plānoto darba noslodzi.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Tā kā ieraksti, kuriem ir gan **CreateProjectV1**, gan **CreateTeamMemberV1**,
 
 | **Plānošanas entītija**   | **Izveide** | **Atjaunināšana** | **Dzēšana** | **Svarīgi ieteikumi**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projekta uzdevums            | Jā        | Jā        | Jā        | Laukus **Progress**, **EffortCompleted** un **EffortRemaining** var rediģēt programmā Project for the Web, bet tos nevar rediģēt programmā Project Operations.                                                                                                                                                                                             |
-| Projekta uzdevuma atkarība | Jā        | Nē.         | Jā        | Projekta uzdevumu atkarības ieraksti netiek atjaunināti. Tā vietā var izdzēst vecu ierakstu, un var izveidot jaunu ierakstu.                                                                                                                                                                                                                                 |
-| Resursu piešķiršana     | Jā        | Jā\*      | Jā        | Netiek atbalstītas operācijas ar šādiem laukiem: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** un **PlannedWork**. Resursu piešķiršanas ieraksti netiek atjaunināti. Tā vietā veco ierakstu var izdzēst, un var izveidot jaunu ierakstu. Lai atjauninātu resursu piešķiršanas kontūras, ir nodrošināts atsevišķs API. |
-| Projekta bloks          | Jā        | Jā        | Jā        | Noklusējuma spainis tiek izveidots, **izmantojot CreateProjectV1** API. Atbalsts projektu kopu izveidei un dzēšanai tika pievienots 16. atjauninājuma laidienā.                                                                                                                                                                                                   |
+| Projekta uzdevums            | Jā        | Jā        | Jā        | Laukus **Progress**, **EffortCompleted** un **EffortRemaining** var rediģēt Project for the Web, bet tos nevar rediģēt Project Operations.                                                                                                                                                                                             |
+| Projekta uzdevuma atkarība | Jā        | Nē.         | Jā        | Projekta uzdevumu atkarības ieraksti netiek atjaunināti. Tā vietā var izdzēst veco ierakstu un izveidot jaunu ierakstu.                                                                                                                                                                                                                                 |
+| Resursu piešķiršana     | Jā        | Jā\*      | Jā        | Netiek atbalstītas operācijas ar šādiem laukiem: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** un **PlannedWork**. Resursu piešķiršanas ieraksti netiek atjaunināti. Tā vietā var izdzēst veco ierakstu un izveidot jaunu ierakstu. Resursu piešķiršanas noslodžu atjaunināšanai ir nodrošināts atsevišķs API. |
+| Projekta bloks          | Jā        | Jā        | Jā        | Noklusējuma bloks tiek izveidots, izmantojot **CreateProjectV1** API. 16. atjauninājumu laidienā tika pievienots atbalsts projekta intervālu izveidošanai un dzēšanai.                                                                                                                                                                                                   |
 | Projekta darba grupas dalībnieks     | Jā        | Jā        | Jā        | Izveides operācijai izmantojiet **CreateTeamMemberV1** API.                                                                                                                                                                                                                                                                                           |
 | Project                 | Jā        | Jā        |            | Netiek atbalstītas operācijas ar šādiem laukiem: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** un **Duration**.                                                                                       |
 | Projekta kontrolsaraksti      | Jā        | Jā        | Jā        |                                                                                                                                                                                                                                                                                                                                                         |
-| Projekta etiķete           | Nē.         | Jā        | Nē.         | Etiķešu nosaukumus var mainīt. Šis līdzeklis ir pieejams tikai programmai Project for the Web                                                                                                                                                                                                                                                                      |
-| Projekta uzdevums etiķetei   | Jā        | Nē.         | Jā        | Šis līdzeklis ir pieejams tikai programmai Project for the Web                                                                                                                                                                                                                                                                                                  |
-| Projekta sprints          | Jā        | Jā        | Jā        | Laukam **Sākt** ir jābūt datumam, kas ir agrāks par **lauku Finish**. Viena un tā paša projekta sprinti nevar pārklāties viens ar otru. Šis līdzeklis ir pieejams tikai programmai Project for the Web                                                                                                                                                                    |
+| Projekta etiķete           | Nē.         | Jā        | Nē.         | Etiķešu nosaukumus var mainīt. Šis līdzeklis ir pieejams vienīgi Project for the Web                                                                                                                                                                                                                                                                      |
+| Marķējamais projekta uzdevums   | Jā        | Nē.         | Jā        | Šis līdzeklis ir pieejams vienīgi Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Projekta sprints          | Jā        | Jā        | Jā        | Laukam **Sākums** jābūt ar datumu, kas agrāks par lauku **Beigas**. Viena un tā paša projekta sprinti nevar savstarpēji pārklāties. Šis līdzeklis ir pieejams vienīgi Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Rekvizīts ID nav obligāts. Ja tas ir nodrošināts, sistēma mēģina to izman
 
 Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 
--   Project Schedule API var izmantot **tikai lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
+-   Projekta plānošanas API var izmantot tikai **lietotāji ar Microsoft Project licenci**. Tos nevar izmantot tālāk minētie lietotāji.
     -   Programmas lietotāji
     -   Sistēmas lietotāji
     -   Integrācijas lietotāji
@@ -94,12 +94,12 @@ Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 -   Katrai **OperationSet** var būt ne vairāk par 100 operācijām.
 -   Katram lietotājam var būt ne vairāk par 10 atvērtām **OperationSets**.
 -   Project Operations pašlaik atbalsta ne vairāk kā 500 uzdevumu vienā projektā.
--   Katra atjaunināšanas resursu piešķires kontūras operācija tiek uzskatīta par vienu darbību.
--   Katrā atjaunināto kontūru sarakstā var būt ne vairāk kā 100 laika šķēles.
+-   Katra resursa piešķiršanas papildu operācija tiek skaitīta kā atsevišķa operācija.
+-   Katrā atjaunināto kontūru sarakstā var būt maksimāli 100 laika sektoru.
 -   **OperationSet** kļūmes statusa un kļūmju žurnāli pašlaik nav pieejami.
--   Vienā projektā ir ne vairāk kā 400 sprintu.
--   [Projektu un uzdevumu](/project-for-the-web/project-for-the-web-limits-and-boundaries) ierobežojumi un robežas.
--   Etiķetes pašlaik ir pieejamas tikai programmai Project for the Web.
+-   Katram projektam ir ne vairāk kā 400 sprintu.
+-   [Projektu un uzdevumu ierobežojumi un robežas](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Pašlaik etiķetes ir pieejamas vienīgi Project for the Web.
 
 **Kļūdu apstrāde**
 
@@ -108,23 +108,23 @@ Tālāk ir saraksts ar ierobežojumiem un zināmajām problēmām.
 
 **Resursu piešķiršanas kontūru rediģēšana**
 
-Atšķirībā no visām citām projekta plānošanas API, kas atjaunina entītiju, resursu piešķires kontūras API ir atbildīga tikai par viena lauka, msdyn_plannedwork, atjauninājumiem vienā entītijā msydn_resourceassignment.
+Atšķirībā no visiem citiem projekta plānošanas API, kas atjaunina entītiju, resursu piešķiršanas kontūru API ir atbildīgs tikai par viena lauka atjauninājumiem ( msdyn_plannedwork), kas atrodas vienā entītijā, msydn_resourceassignment.
 
-Dotais grafika režīms ir:
+Dotais plānošanas režīms:
 
 -   **fiksētas vienības**
--   Projekta kalendārs ir 9-5p ir 9-5pst, Pirmdiena, Tue, Thurs, piektdiena (TREŠDIENĀS BEZ DARBA)
--   Un resursu kalendārs ir 9-1p PST no pirmdienas līdz piektdienai
+-   Projekta kalendārs ir 9-5p ir 9-5pst, Pirm., Otrd., Cet., Piektd. (NAV DARBA TREŠDIENĀS)
+-   Un resursu kalendārs ir 9-1p PST Pirm. līdz piektd.
 
-Šis uzdevums ir uz vienu nedēļu, četrām stundām dienā. Tas ir tāpēc, ka resursu kalendārs ir no 9-1 PST vai četras stundas dienā.
+Šis piešķīrums ir vienai nedēļai, četrām stundām dienā. Tas ir tāpēc, ka resursu kalendārs ir no 9-1 PST vai četrām stundām dienā.
 
 | &nbsp;     | Uzdevums | Sākuma datums | Beigu datums  | Daudzums | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 strādnieks |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 darbinieks |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Piemēram, ja vēlaties, lai darbinieks šonedēļ katru dienu strādātu tikai trīs stundas un atļautu vienu stundu citiem uzdevumiem.
+Piemēram, ja vēlaties, lai darbinieks katru dienu strādātu tikai trīs stundas šajā nedēļā un citiem uzdevumiem atļautu vienu stundu.
 
-#### <a name="updatedcontours-sample-payload"></a>AtjauninātsKontours lietderīgās slodzes paraugs:
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours parauga slodze:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Piemēram, ja vēlaties, lai darbinieks šonedēļ katru dienu strādātu tikai 
 }]
 ```
 
-Šis ir uzdevums pēc tam, kad ir palaista API Atjaunināt kontūru grafiku.
+Šis ir piešķīrums pēc tam, kad ir palaists Kontūras plānošanas atjauninājuma API.
 
 | &nbsp;     | Uzdevums | Sākuma datums | Beigu datums  | Daudzums | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 strādnieks | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 darbinieks | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Scenārija paraugs**

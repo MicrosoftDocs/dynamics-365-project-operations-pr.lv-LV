@@ -1,6 +1,6 @@
 ---
 title: Honorāru grafika iestatīšana
-description: Šajā rakstā ir sniegta informācija par to, kā iestatīt aizturētāja grafiku projekta operācijās.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt honorāra grafiku risinājumā Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

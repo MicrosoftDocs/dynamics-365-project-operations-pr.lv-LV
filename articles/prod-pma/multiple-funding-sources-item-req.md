@@ -1,6 +1,6 @@
 ---
 title: Elementu prasības projekta līgumiem ar vairākiem avotiem+
-description: Šajā rakstā ir sniegta informācija par to, kā konfigurēt un izmantot krājumu prasības, izmantojot vairākus finansējuma avotus.
+description: Šajā rakstā ir sniegta informācija par to, kā konfigurēt un izmantot elementu prasības ar vairākiem finansējuma avotiem.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
@@ -17,70 +17,70 @@ ms.locfileid: "9028497"
 
 _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumiem/ražošanas pasūtījumiem_
 
-Dažām līgumiskām vienošanām par projektu nodevumiem var būt nepieciešami vairāki finansējuma avoti. Šajā rakstā ir paskaidrots, kā atlasīt un konfigurēt vēlamos finansējuma avotus, ja projektam vai projekta līgumam ir nepieciešami vairāki avoti.
+Daži līgumi, kuru pamatā ir projektos balstīti nodevumi, nosaka vajadzību pēc vairākiem finansējuma avotiem. Šajā rakstā izskaidrots, kā atlasīt un konfigurēt vēlamos avotus, ja projektam vai projekta līgumam ir vajadzīgi vairāki avoti.
 
 ## <a name="terminology"></a>Terminoloģija
 
-- **Finansējuma avots** — uzņēmums, kas finansē projekta līgumdarbu. Šī entītija var būt iekšēja organizācija vai ārējs rēķina konts (debitors vai dotācija).
-- **Projekta klients** — entītija, kurai projekta darbs tiek piegādāts.
-- **Rēķina konts** — ārējā entītija, kas maksā par projekta darbu.
+- **Finansējuma avots** — entitīja, kas finansē projekta līguma darbu. Šī entitīja var būt iekšēja organizācija vai ārējs rēķina konts (klients vai piešķīrums).
+- **Projekta klients** — entītija, kurai tiek sniegts projekta darbs.
+- **Rēķina uzņēmums** — ārēja entītija, kas maksā par projekta darbu.
 
 ## <a name="example"></a>Piemērs
 
-Contoso ir ieguvusi aprīkojuma atjaunošanas līgumu ar diviem saviem klientiem: Adatum US un Adatum Corporate. Līgums ietver aparatūras un uzstādīšanas pakalpojumus, kas tiks piegādāti Adatum US (projekta klientam). Aparatūru finansēs Adatum Corporate (rēķina konts 1), un uzstādīšanas darbus finansēs Adatum US (rēķina konts 2).
+Contoso ir ieguvis aprīkojuma atjaunošanas līgumu ar diviem no tā klientiem: Adatum US un Adatum Corporate. Līgumā ir iekļauti aparatūras un instalēšanas pakalpojumi, kas tiks piegādāti Uz Adatum US (projekta klients). Aparatūras darbību finansē Adatum Corporate (1. rēķina uzņēmums), un instalācijas darbu finansēs Adatum US (2. rēķina uzņēmums).
 
-## <a name="set-up-invoice-account-defaulting-rules-for-item-requirements"></a>Rēķina konta noklusējuma kārtulu iestatīšana krājumu prasībām
+## <a name="set-up-invoice-account-defaulting-rules-for-item-requirements"></a>Rēķina uzņēmuma noklusējuma kārtulu iestatīšana elementu prasībām
 
 ### <a name="prerequisites"></a>Priekšnoteikumi
 
-- Microsoft Dynamics 365 Finance **versija 10.0.27 vai jaunāka** ir nepieciešama, lai izmantotu krājumu prasības, kurām ir vairāki rēķinu konti.
-- Sistēmas administratoram ir jāiespējo līdzekļa **Atļaut krājumus ar vairākiem finansējuma avotiem project operations krājuma/ražošanas scenārijiem** līdzekļa līdzekļa Līdzekļa pārvaldība līdzekļa Atļaut krājumus ar vairākiem finansējuma avotiem darbvietā **Līdzekļu pārvaldība**.
+- Lai lietotu elementu prasības ar vairākiem rēķinu uzņēmumiem, ir vajadzīga Microsoft Dynamics 365 Finance **10.0.27. versija vai jaunāka versija**.
+- Sistēmas administratoram ir jāiespējo līdzeklis **Atļaut elementu prasības ar vairākiem finansējuma avotiem Project Operations krājumu/ražošanas scenārijos**, kas pieejams darbvietā **Līdzekļu pārvaldība**.
 
-### <a name="set-up-the-invoice-account-defaulting-rules"></a>Rēķina konta saistību neizpildes kārtulu iestatīšana
+### <a name="set-up-the-invoice-account-defaulting-rules"></a>Rēķina uzņēmuma noklusējuma kārtulu iestatīšana
 
-Lai iestatītu rēķina konta noklusējuma kārtulas, veiciet tālāk norādītās darbības.
+Lai rēķina uzņēmumam iestatītu noklusējuma kārtulas, veiciet tālāk uzskaitītās darbības.
 
 1. Dodieties uz **Projekta pārvaldība un uzskaite** \> **Iestatīšana** \> **Projekta pārvaldības un grāmatvedības parametri**.
-1. Cilnes Vispārīgi sadaļā Pārdošanas pasūtījumi un krājumu prasības **iestatiet opciju** Atļaut projektiem ar vairākiem finansējuma avotiem **vērtību** Jā **.** **·**
-1. **Laukā Noklusējuma debitors** norādiet, no kurienes pēc noklusējuma nāk projekta piegādes debitors, kuram nepieciešams krājums:
+1. Cilnē **Vispārīgi**, sadaļā **Pārdošanas pasūtījumi un elementu prasības** iestatiet opciju **Atļaut projektus ar vairākiem finansējuma avotiem** uz vērtību **Jā**.
+1. Laukā **Noklusējuma klients** norādiet, no kurienes pēc noklusējuma tiek ņemts elementa prasības projekta piegādes klients:
 
-    - **No finansējuma avota** — noklusējuma projekta piegādes klients nāk no finansējuma avota. Ja projekta līgumā ir iesaistīti vairāki finansējuma avoti, tiks izmantots pirmais finansējuma avots sarakstā.
-    - **No projekta** — noklusējuma projekta piegādes klients nāk no klienta, kas ir atlasīts **laukā Projekta ieraksta konts**.
+    - **No finansējuma avota** — Noklusējuma projekta piegādes klients tiek ņemts no finansējuma avota. Ja ar projekta līgumu ir saistīti vairāki finansējuma avoti, kas saistīti ar projektu, tiks izmantots pirmais sarakstā parādītais finansējuma avots.
+    - **No projekta** — noklusējuma projekta piegādes klients tiek ņemts no klienta, kas ir atlasīts laukā **Projekta ieraksta uzņēmums**.
 
-1. Neobligāti: noklusējuma rēķina konta iestatīšana vai mainīšana projekta ierakstos:
+1. Neobligāti: Iestatiet vai mainiet projekta ierakstu noklusējuma rēķina uzņēmumu:
 
-    1. Dodieties uz **Projektu vadība un grāmatvedība** \> **Projekti** \> **Visi projekti** un atveriet detalizētu informāciju par projekta ierakstu.
-    2. Cilnē **Vispārīgi** iestatiet vai atjauniniet **lauku Noklusējuma rēķina konts**. Norādītais konts tiks izmantots kā noklusējuma rēķina konts jaunām krājumu prasībām, kas izveidotas projektam. Ja atstāsit lauku tukšu, pēc noklusējuma tiks izmantots pirmā projekta līguma finansējuma avota rēķina konts. Tomēr lietotāji varēs mainīt kontu, saglabājot ierakstu.
+    1. Dodieties uz **Projektu pārvaldība un uzskaits** \>**Projekti** \>**Visi projekti** un atveriet projekta ieraksta informāciju.
+    2. Cilnē **Vispārīgi** iestatiet vai atjauniniet lauku **Noklusējuma rēķina uzņēmums**. Jūsu norādītais konts tiks izmantots kā noklusējuma rēķina konts jaunām elementu prasībām, kas izveidotas projektam. Ja lauku atstājat tukšu, pēc noklusējuma tiks izmantots pirmā projekta līguma finansējuma avota rēķina uzņēmums. Taču lietotāji varēs mainīt uzņēmumu, kad tiks saglabāts ieraksts.
 
-### <a name="select-the-invoice-account-to-use-when-you-create-an-item-requirement"></a>Atlasiet rēķina kontu, ko izmantot, veidojot krājumu prasību
+### <a name="select-the-invoice-account-to-use-when-you-create-an-item-requirement"></a>Atlasiet rēķina uzņēmumu, kuru lietot, kad tiek izveidota elementa prasība.
 
-Lai atlasītu rēķina kontu, ko izmantot, veidojot krājumu vajadzības, veiciet tālāk norādītās darbības.
+Lai atlasītu rēķina uzņēmumu, ko lietot, kad izveidojat elementa prasību, veiciet tālāk uzskaitītās darbības.
 
-1. Dodieties uz **Projektu vadība un grāmatvedība** \> **Projekti** \> **Visi projekti** un atlasiet projekta ierakstu.
-1. Cilnē **Plāns** atlasiet **Vienumu prasības**.
-1. Izveidojiet jaunu vienuma prasību ierakstu.
+1. Dodieties uz **Projekta pārvaldība un uzskaite** \>**Projekti** \>**Visi projekti** un atlasiet projekta ierakstu.
+1. Cilnē **Plāns** atlasiet **Elementa prasības**.
+1. Izveidojiet jaunu elementa prasības ierakstu.
 
-    - Pēc noklusējuma ieraksta lauks **Rēķina konts** tiek iestatīts uz rēķina kontu, kas ir iestatīts projektam. Varat mainīt rēķina konta **lauka vērtību** un pēc tam saglabāt ierakstu. Kad ieraksts ir saglabāts, jūs vairs nevarat atjaunināt **rēķina konta** vērtību. Ja krājuma **prasībai ir jāatjaunina rēķina konta** vērtība, izdzēsiet esošo krājumu prasību un pēc tam izveidojiet jaunu, kam ir vēlamā vērtība.
-    - Pēc noklusējuma krājuma prasību lauks **Klients** tiek iestatīts, pamatojoties uz **noklusējuma klienta** vērtību, kas ir iestatīta **lapā Projektu vadības un uzskaites parametri**.
+    - Ieraksta lauks **Rēķina uzņēmums** pēc noklusējuma ir iestatīts uz projektam iestatīto rēķina uzņēmumu. Varat mainīt lauka **Rēķina uzņēmums** vērtību un pēc tam ierakstu saglabāt. Pēc ieraksta saglabāšanas vairāk nevarēsit jaunināt **Rēķina uzņēmuma** vērtību. Ja elementa prasībai jāatjaunina **Rēķina uzņēmuma** vērtība, dzēsiet esošo elementa prasību un izveidojiet jaunu ar vajadzīgo vērtību.
+    - Elementa prasības lauks **Klients** pēc noklusējuma tiek balstīts **Noklusējuma klienta** vērtībā, kas tiek iestatīta lapā **Projekta pārvaldības un uzskaites parametri**.
 
-    Kad krājuma prasību ieraksts ir saglabāts, sistēma to saista ar **krājumu prasību pārdošanas pasūtījuma** galvenes ierakstu. Ja atlasītajam rēķina kontam nav atvērta pārdošanas pasūtījuma galvenes, sistēma to izveidos un saistīs ar to krājumu prasību rindu.
+    Kad tiek saglabāts elementa prasības ieraksts, sistēma to saista ar galvenes ierakstu **Elementa prasības pārdošanas pasūtījums**. Ja nevienai atvērta pārdošanas pasūtījuma galvenei nav atlasīts rēķina uzņēmums, sistēma tādu izveidos un ar to saistīs elementa prasības rindu.
 
 > [!NOTE]
-> Krājumu prasības vienmēr tiek pilnībā iekļautas rēķinā rēķinā rēķinā norādītajā rēķina kontā, kas ir iestatīts ierakstā. Sistēma pašlaik neatbalsta finansējuma piešķiršanas noteikumus, kuriem ir posteņu prasības, un tā nesadalīs norīkošanu, pamatojoties uz finansējuma piešķiršanas noteikumu noteikšanu.
+> Par elementa prasībām vienmēr pilnībā tiek izrakstīts rēķins ierakstā iestatītajam rēķina uzņēmumam. Pašlaik sistēma neatbalsta finansējuma sadalījuma kārtulas ar elementa prasībām, un tās nedalīs grāmatojumu, balstoties finansējuma sadalījuma kārtulu iestatījumos.
 
-### <a name="create-an-item-requirement-from-an-item-forecast-record"></a>Vienuma prasības izveide no krājumu prognozes ieraksta
+### <a name="create-an-item-requirement-from-an-item-forecast-record"></a>Elementa prasības izveidošana no elementa prognozes ieraksta
 
-Lai izveidotu vienuma prasību no vienuma prognozes ieraksta, veiciet tālāk norādītās darbības.
+Lai izveidotu elementa prasību no elementa prognozes ieraksta, veiciet tālāk uzskaitītās darbības.
 
-1. Dodieties uz **Projektu vadība un grāmatvedība** \> **Projekti** \> **Visi projekti** un atlasiet projekta ierakstu.
-1. **Cilnē Plāns** atlasiet **Vienumu prognozes**.
-1. Izveidojiet jaunu vienumu prognozes ierakstu.
-1. Neobligāti: **cilnes** Projekts **laukā Finansējuma avots** atlasiet vajadzīgo rēķina kontu.
-1. Atlasiet **Izveidot vienuma nepieciešamību** un apstipriniet saņemto ziņojumu.
+1. Dodieties uz **Projekta pārvaldība un uzskaite** \>**Projekti** \>**Visi projekti** un atlasiet projekta ierakstu.
+1. Cilnē **Plāns** atlasiet **Elementa prognozes**.
+1. Izveidojiet jaunu elementa prognozes ierakstu.
+1. Neobligāti: Cilnes **Projekts** laukā **Finansējuma avots** atlasiet vēlamo rēķina uzņēmumu.
+1. Atlasiet **Izveidot elementa prasību** un apstipriniet saņemto ziņojumu.
 
     > [!NOTE]
-    > Sistēma kopē **finansējuma avota** vērtību no krājuma prognozes ieraksta uz jaunizveidoto krājumu prasību ierakstu.
+    > Sistēma kopē vērtību **Finansējuma avots** no elementa prognozes ieraksta uz jaunizveidoto elementa prasības ierakstu.
 
-### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Noklusējuma rēķina konts, kad sistēma automātiski izveido krājumu prasību no pirkšanas pasūtījuma rindas
+### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Noklusējuma rēķina uzņēmums, kas sistēma automātiski izveido elementa prasību no pirkuma pasūtījuma rindas
 
-**Ja opcijai Izveidot krājumu nepieciešamību** lapā Projektu vadības un uzskaites parametri **ir iestatīta vērtība** Jā **·**, sistēma automātiski izveido krājumu nepieciešamību, kad tiek saglabāta jauna projekta pirkšanas pasūtījuma rinda. Pēc noklusējuma laukiem **Rēķina konts** un **Krājuma prasība** ir iestatīta **lauka Noklusējuma rēķina vērtība** projekta ierakstā. Sistēma pašlaik neatbalsta šāda veida ierakstu rēķina konta atjaunināšanu vai maiņu.
+Ja opcija **Izveidot elementa prasību** ir iestatīta uz vērtību **Jā** lapā **Projekta pārvaldības un uzskaites parametri**, sistēma automātiski izveido elementa prasību, kad tiek saglabāta jauna projekta pirkuma pasūtījuma rinda. Lauki **Rēķina uzņēmums** un **Elementa prasība** pēc noklusējuma tiek iestatīta uz **Noklusējuma rēķina uzņēmuma** vērtību projekta ierakstā. Pašlaik sistēma neatbalsta rēķina uzņēmuma jaunināšanu vai maiņu šī tipa ierakstiem.

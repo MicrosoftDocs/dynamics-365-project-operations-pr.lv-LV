@@ -1,6 +1,6 @@
 ---
 title: Bieži uzdotie jautājumi par resursu pārvaldību
-description: Šajā rakstā sniegtas atbildes uz bieži uzdotajiem jautājumiem par resursu pārvaldību.
+description: Šajā rakstā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par resursu pārvaldību.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

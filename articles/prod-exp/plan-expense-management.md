@@ -1,6 +1,6 @@
 ---
 title: Izdevumu pārvaldības konfigurēšana
-description: Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas jāpieņem plānošanas procesā pirms izdevumu pārvaldības konfigurēšanas programmā Microsoft Dynamics 365 Finance.
+description: Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas ir jāpieņem plānošanas procesa laikā pirms izdevumu pārvaldības konfigurēšanas Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8934007"
 ---
 # <a name="configure-expense-management"></a>Izdevumu pārvaldības konfigurēšana
 
-Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas jāpieņem plānošanas procesā pirms izdevumu pārvaldības konfigurēšanas. Izdevumu pārvaldībā var glabāt informāciju par maksājuma metodēm, ceļa pieprasījumiem, izdevumu atskaitēm, politikām un citu informāciju.
+Šajā rakstā ir aprakstīti apsvērumi un lēmumi, kas ir jāpieņem plānošanas procesa laikā pirms izdevumu pārvaldības konfigurēšanas. Izdevumu pārvaldībā var glabāt informāciju par maksājuma metodēm, ceļa pieprasījumiem, izdevumu atskaitēm, politikām un citu informāciju.
 
 Tā kā daudzi no jūsu pieņemtajiem lēmumiem attiecībā uz izdevumu pārvaldības konfigurācijas plānošanu ir balstīti uz jūsu organizācijas hierarhiju un finanšu struktūru, ir jāatsaucas uz šo apgabalu plānošanas dokumentiem.
 

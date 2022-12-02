@@ -26,7 +26,7 @@ ms.locfileid: "8684986"
 
 [!include [banner](../includes/banner.md)]
 
-Projekta grafika plānošana un uzturēšana var būt sarežģīta, tāpēc projektu vadītājiem ir jāizmanto rīki, kas viņiem palīdz pārvaldīt šo uzdevumu. Integrācija ar Microsoft Project Client sniedz atbalstu, lai atvērtu un pārvaldītu projekta darba sadalījuma struktūru. Projekta vadītājs var publicēt visas izmaiņas Dynamics 365 Finance projekta darba sadalījuma struktūrā.
+Projekta grafika plānošana un uzturēšana var būt sarežģīta, tāpēc projektu vadītājiem ir jāizmanto rīki, kas viņiem palīdz pārvaldīt šo uzdevumu. Integrācija ar Microsoft Project Client sniedz atbalstu, lai atvērtu un pārvaldītu projekta darba sadalījuma struktūru. Projekta vadītājs var publicēt jebkādas izmaiņas atpakaļ Dynamics 365 Finance projekta darba sadalījuma struktūrā.
 
 > [!NOTE]
 > Ja izmantojat jūlija atjauninājumu (versija 10.0.4), ir jāinstalē KB 4054797 un 4055884.
@@ -39,7 +39,7 @@ Lai iespējotu integrēšanu ar programmu Microsoft Project Client, lietotāja k
 •  Noklikšķiniet uz **Atvērt** un pēc tam noklikšķiniet uz **Palaist**, kad tiek parādīta uzvedne.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Esoša melnraksta darba sadalījuma struktūras atvēršana un rediģēšana programmā Microsoft Project Client
-Ja Dynamics 365 Finance projektam jau ir izveidota darba sadalījuma struktūra, darba sadalījuma struktūru var atvērt lietojumprogrammā Microsoft Project Client, ja darba sadalījuma struktūra ir melnraksta statusā. Lai atvērtu no **Projekta** lapas, noklikšķiniet uz **Atvērt programmā Microsoft Project** saites cilnē **Plāns**. Šo lapu var arī atvērt no Microsoft Project Client programmas, **Microsoft Dynamics 365** cilnē noklikšķinot **Atvērt**. Sarakstā atlasiet **Juridiska persona** un **Projekts**.
+Ja Dynamics 365 Finance projektā jau ir izveidota darba sadalījuma struktūra, darba sadalījuma struktūru var atvērt Microsoft Project Client lietojumprogrammā, ja darba sadalījuma struktūrai ir melnraksta statuss. Lai atvērtu no **Projekta** lapas, noklikšķiniet uz **Atvērt programmā Microsoft Project** saites cilnē **Plāns**. Šo lapu var arī atvērt no Microsoft Project Client programmas, **Microsoft Dynamics 365** cilnē noklikšķinot **Atvērt**. Sarakstā atlasiet **Juridiska persona** un **Projekts**.
 
 > [!NOTE]
 > Ja izmantojat Internet Explorer kā pārlūkprogrammu, noklikšķiniet uz **Saglabāt**, lai manuāli atvērtu no atrašanās vietas, kurā fails tiek lejupielādēts. Vai noklikšķiniet uz **Saglabāt un atvērt**, lai šo failu atvērtu programmā Microsoft Project Client. Saglabājot nepārdēvējiet failu.

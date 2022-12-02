@@ -1,6 +1,6 @@
 ---
 title: Apstiprināšanas kopas
-description: Šajā rakstā ir paskaidrots, kā strādāt ar apstiprināšanas kopām, pieprasījumiem un šo darbību apakškopām.
+description: Šajā rakstā ir izskaidrots, kā strādāt ar apstiprināšanas kopām, pieprasījumiem un šo operāciju apakškopām.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
@@ -26,17 +26,17 @@ Apstiprinājumi, kas ir ievietoti rindā apstrādei, ir redzami skatā **Apstipr
 
 Laukā **Apstiprināšanas kopas darbmūžs** tiek reģistrēts atlikušais kopas apstrādes mēģinājumu skaits, pirms tā tiek atzīmēta kā nesekmīga.
 
-Apstiprināšanas kopas tiek apstrādātas, izmantojot periodisko aktivizēšanu, kuras pamatā ir **mākoņa plūsma** ar nosaukumu **Project Service — periodiska projektu apstiprināšanas kopu plānošana**. Tas ir atrodams risinājumā **ar** nosaukumu **Project Operations**. 
+Apstiprināšanas kopas tiek apstrādātas, izmantojot periodisko aktivizēšanu, kas balstīta uz **mākoņa plūsmu** ar nosaukumu **Project Service - regulāri ieplānot projektu apstiprināšanas kopas**. Tā ir atrodama **risinājumā** ar nosaukumu **Project Operations**. 
 
-Pārliecinieties, vai plūsma ir aktivizēta, veicot tālāk norādītās darbības.
+Pārliecinieties, ka plūsma ir aktivizēta, izpildot tālāk norādītās darbības.
 
-1. Kā administrators piesakieties flow.microsoft.com [...](https://powerautomate.microsoft.com).
-2. Augšējā labajā stūrī pārslēdzieties uz vidi, kurai izmantojat Dynamics 365 Project Operations.
+1. Kā administrators piesakieties vietnē [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Augšējā labajā stūrī pārslēdzieties uz vidi, kuru izmantojat Dynamics 365 Project Operations.
 3. Atlasiet **Risinājumi**, lai uzskaitītu vidē instalētos risinājumus.
 4. Risinājumu sarakstā atlasiet **Project Operations**.
 5. Mainiet filtru no **Visi** uz **Mākoņa plūsmas**.
-6. Pārbaudiet, **vai project service — periodiski ieplānot projekta apstiprināšanas kopu** plūsma ir iestatīta uz **Ieslēgts**. Ja tā nav, atlasiet plūsmu un pēc tam atlasiet **Ieslēgt**.
-7. Pārbaudiet, vai apstrāde notiek ik pēc piecām minūtēm, pārskatot **sarakstu Sistēmas darbi** apgabalā Iestatījumi **savā Project Operations** Dataverse vidē.
+6. Pārbaudiet, vai plūsma **Project Service - regulāri ieplānot projektu apstiprināšanas kopas** ir iestatīta kā **Ieslēgta**. Ja tā nav, atlasiet plūsmu un pēc tam atlasiet **Ieslēgt**.
+7. Pārbaudiet, vai apstrāde notiek ik pēc piecām minūtēm, atjauninot sarakstu **Sistēmas uzdevumi** apgabalā **Iestatījumi** jūsu Project Operations Dataverse vidē.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Nesekmīgi apstiprinājumi un apstiprināšanas kopas
 Skatā **Nesekmīgie apstiprinājumi** ir uzskaitīti visi apstiprinājumi, kam nepieciešama lietotāja iejaukšanās. Atveriet saistītos apstiprināšanas kopu žurnālus, lai noteiktu kļūmes iemeslu.
@@ -45,7 +45,7 @@ Atlasot **Mēģināt vēlreiz**, tiek palielināts apstiprināšanas kopas darbm
 ## <a name="configure-approval-sets"></a>Apstiprināšanas kopu konfigurēšana
 
 ### <a name="enable-the-approval-sets-feature"></a>Apstiprināšanas kopu līdzekļa iespējošana
-Pirms apstiprināšanas kopu līdzekļa iespējošanas pārliecinieties, vai pašlaik netiek apstrādāts neviens apstiprinājums. Kad šis līdzeklis ir iespējots, to nevar atspējot.
+Pirms apstiprināšanas kopu līdzekļa iespējošanas pārliecinieties, vai pašlaik netiek apstrādāts neviens apstiprinājums. Pēc šī līdzekļa iespējošanas to nevar atspējot.
 
 - Dodieties uz lapu **Projekta parametri** un atlasiet **Līdzekļu vadība** > **Iespējot mūsdienīgos apstiprinājumus**.
 

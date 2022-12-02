@@ -1,6 +1,6 @@
 ---
 title: Iespējas slēgšana
-description: Šajā rakstā sniegta informācija par projekta iespējas slēgšanu.
+description: Šajā rakstā ir sniegta informācija par projekta iespējas slēgšanu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

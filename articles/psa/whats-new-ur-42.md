@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 42, V3
-description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami atjaunināšanas laidienā Microsoft Dynamics 365 Project Service Automation 42, V3.
+description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas pieejami Microsoft Dynamics 365 Project Service Automation 42. atjauninājumu laidienā, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8912724"
 
 Ar prieku izziņojam jaunāko programmas Microsoft Dynamics 365 Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Tas ir saderīgs ar Dynamics 365 9.x. Lai atjauninātu šo laidienu, apmeklējiet Dynamics 365 tiešsaistes risinājumu lapas administrēšanas centru un instalējiet atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
-Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti projektu pakalpojumu automatizācijas atjaunināšanas laidienam 42, V3. Šai versijai ir būvēšanas numurs V3.10.73.61, un tā parasti ir pieejama, izmantojot pašreklāmu 2022. gada aprīlī.
+Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation, atjauninājuma izlaidumā 42, V3. Šīs versijas būvējuma numurs ir V3.10.73.61, un tā ir pieejama vispārēji, izmantojot 2022. gada aprīļa pašatjauninājumu.
 
 ## <a name="update-release-42"></a>Atjauninājumu izlaidums 42
 
@@ -39,10 +39,10 @@ Ir novērstas tālāk norādītās problēmas.
 
 **Laiks un izdevumi**
 
-- Kad laika grafiks tiek noraidīts, lietotājs, kurš to noraidīja, tiek nepareizi identificēts kā **sistēma**.
-- Importējot laika ierakstus, **trūkst resursu kategorijas** vērtības.
-- Projektu apstiprinātāji var apstiprināt iesniegtos projektus, ja viņu atļaujas nav īpaši iestatītas uz **Var apstiprināt**.
+- Kad tiek noraidīta laika lapa, lietotājs, kurš to ir noraidījis, tiek nepareizi identificēts kā **Sistēma**.
+- Importējot laika ierakstus, trūkst vērtības **Resursu kategorija**.
+- Projekta apstiprinātāji var apstiprināt iesniegtos projektus, ja viņiem nav īpaši iestatītas atļaujas **Var apstiprināt**.
 
 **Pārdošana**
 
-- Ja faktiskie dokumenti tiek reģistrēti uzdevumos, kas nav saknes līmeņa uzdevumi, faktiskās izmaksas tiek nepareizi apkopotas.
+- Kad faktiskie dati tiek pieteikti uzdevumiem, kas nav saknes līmeņa uzdevumi, faktiskās izmaksas tiek nepareizi apkopotas.

@@ -1,6 +1,6 @@
 ---
 title: Projekta rēķinu priekšlikumu pārvaldība
-description: Šajā rakstā sniegta detalizēta informācija par uz klientu vērstu rēķinu apstrādi ar projekta operācijām resursu/ neuzkrātiem scenārijiem.
+description: Šajā rakstā sniegta detalizēta informācija par klientam sniegto rēķinu apstrādi ar programmu Project Operations resursu/krājumos nebalstītos scenārijos.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Projekta rēķinu priekšlikumus var apstrādāt jūsu norēķinu departaments, 
   - Projekta vadītājs apstiprina proformas rēķinu pakalpojumā Microsoft Dataverse.
   - Visas laika un materiālu pārdošanas transakcijas, par kurām nav izrakstīts rēķins un kuras tiek ietvertas proformas rēķinā, tiek uzskaitītas, izmantojot Dynamics 365 **Project Operations integrācijas** žurnālu.
 
-Veiciet tālāk norādītās darbības, lai pabeigtu projekta rēķina priekšlikumu programmā Dynamics 365 Finance.
+Lai aizpildītu projekta rēķina priekšlikumu pakalpojumā Dynamics 365 Finance, izpildiet šādas darbības.
 
 1. Pārskatiet norēķinu informāciju laika un materiālu transakcijām un uzskaitiet **Project Operations integrācijas** žurnālā.
 2. Pārskatiet norēķinu informāciju fiksētu cenu norēķinu atskaites punktiem.

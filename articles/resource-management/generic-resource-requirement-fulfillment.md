@@ -1,6 +1,6 @@
 ---
 title: Vispārējo resursu prasību izpilde
-description: Šajā rakstā sniegta informācija par to, kā rezervēt nosauktos resursus vispārējai resursu vajadzībai.
+description: Šajā rakstā ir sniegta informācija par to, kā rezervēt nosaukumu resursus attiecībā uz vispārējo resursu prasībām.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

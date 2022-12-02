@@ -1,6 +1,6 @@
 ---
 title: Projekta resursu plānošanas veiktspēja
-description: Šajā rakstā sniegta informācija par to, kā uzlabot resursu plānošanas veiktspēju daudziem projektiem.
+description: Šajā rakstā ir sniegta informācija par to, kā uzlabot resursu plānošanas veiktspēju lielam skaitam projektu.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

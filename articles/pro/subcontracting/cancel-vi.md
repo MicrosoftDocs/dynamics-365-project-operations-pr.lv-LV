@@ -1,6 +1,6 @@
 ---
 title: Atcelt projekta kreditora rēķinu
-description: Šajā rakstā ir paskaidrots, kā atcelt projekta kreditora rēķinu korporācijā Microsoft Dynamics 365 Project Operations, un projekta kreditora rēķina atcelšanas finansiālā ietekme.
+description: Šajā rakstā izskaidrots, kā atcelt projekta piegādātāja rēķinu programmā Microsoft Dynamics 365 Project Operations, un izskaidrota projekta piegādātāja rēķina atcelšanas finanšu ietekme.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261100"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Kad kreditora rēķins ir apstiprināts, to nevar rediģēt vai dzēst. Ja piegādātāja rēķinā, kas tika apstiprināts, ir radusies kļūda, varat izmantot darbību Atcelt, lai mainītu kreditora rēķina ietekmi un izveidotu jaunu kreditora rēķinu.
+Pēc piegādātāja rēķina apstiprināšanas to nevar rediģēt vai dzēst. Ja apstiprinātā piegādātāja rēķinā bijusi kļūda, varat izmantot atcelšanas darbību, lai apgrieztu piegādātāja rēķina ietekmi un izveidotu jaunu piegādātāja rēķinu.
 
-Kreditora rēķinā atlasot **Atcelt**, tiek veikta tālāk norādītā darbība.
+Ja piegādātāja rēķinā tiek atlasīts **Atcelt**, notiek šāda darbība:
 
-1. Kreditora rēķina stāvoklis tiek atjaunināts uz **Atcelts**.
-2. Atceltais kreditora rēķins un ar to saistītie ieraksti kļūst tikai lasāmi, un tos nevar rediģēt vai dzēst.
-3. Visas faktiskās izmaksas, kas tika izveidotas, pamatojoties uz kreditora rēķina rindām kā daļa no kreditora rēķina apstiprinājuma, tiek anulētas.
-4. Ja faktiskās izmaksas tika saistītas ar kreditora rēķina rindām kā daļa no salīdzināšanas procesa, sākotnējais kreditora rēķina apstiprinājums tos apvērsa. Kreditora rēķina atcelšanas laikā šīs faktiskās izmaksas tiek atkārtoti izveidotas. Izcelsme norāda uz laika, izdevumu vai materiālu izmantošanas ierakstiem.
-5. Pēc kreditora rēķina atcelšanas varat vēlreiz izveidot labojumu žurnālus, apstrādāt laika ieraksta atsaukumus un atcelt sākotnējā laika, izdevumu vai faktisko materiālu apstiprināšanu.
+1. piegādātāja rēķina statuss tiek atjaunināts uz **Atcelts**.
+2. Atceltais piegādātāja rēķins un tā saistītie ieraksti kļūst tikai lasāmi, un tos nevar rediģēt vai dzēst.
+3. Tiek atgriezti visi izmaksu faktiskie dati, kas tika izveidoti, par pamatu izmantojot piegādātāja rēķina rindas kā daļu no piegādātāja rēķina apstiprinājuma.
+4. Ja ar piegādātāja rēķina rindām kā daļu no atbilstības noteikšanas procesa ir saistīti jebkādi izmaksu faktiskie dati, tos apvērš sākotnējā piegādātāja rēķina apstiprināšana. Piegādātāja rēķina atcelšanas laikā šie izmaksu faktiskie dati tiek izveidoti atkārtoti. Izcelsme norāda uz laika, izmaksu vai materiālu lietojuma ierakstiem.
+5. Pēc piegādātāja rēķina atcelšanas varat vēlreiz izveidot labošanas žurnālus, apstrādāt laika ierakstu atsaukšanu un atcelt sākotnējos laika, izmaksu vai materiālu faktisko datu apstiprinājumu.
 
 > [!NOTE]
-> Var atcelt tikai apstiprinātus projektu kreditoru rēķinus. Kreditoru rēķinus citās valstīs nevar atcelt.
+> Atcelt var tikai atceltus projektu piegādātāju rēķinus. Nevar atcelt piegādātāju rēķinus citos gadījumos.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

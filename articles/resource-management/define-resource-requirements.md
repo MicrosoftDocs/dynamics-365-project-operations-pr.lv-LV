@@ -1,6 +1,6 @@
 ---
 title: Resursu prasību definēšana
-description: Šajā rakstā sniegta informācija par resursu vajadzību informācijas definēšanu.
+description: Šajā rakstā ir sniegta informācija par to, kā definēt resursu prasību informāciju.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

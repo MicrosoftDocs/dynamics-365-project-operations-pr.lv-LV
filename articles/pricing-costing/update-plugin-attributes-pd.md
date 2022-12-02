@@ -1,6 +1,6 @@
 ---
 title: Spraudņu atribūtu atjaunināšana ar jaunām cenu noteikšanas dimensijām
-description: Šajā rakstā sniegta informācija par to, kā atjaunināt spraudņa atribūtus cenu dimensijām.
+description: Šajā rakstā ir sniegta informācija par to, kā atjaunināt spraudņu atribūtus cenu noteikšanas dimensijām.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920023"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Spraudņu atribūtu atjaunināšana ar jaunām cenu noteikšanas dimensijām
 
-Šajā rakstā sniegta informācija par to, kā atjaunināt spraudņa atribūtus cenu dimensijām.
+Šajā rakstā ir sniegta informācija par to, kā atjaunināt spraudņu atribūtus cenu noteikšanas dimensijām.
 
 > [!NOTE]
-> Šis raksts attiecas tikai uz piedāvājuma un līguma iezīmēm programmā Dynamics 365 Project Operations.
+> Šis raksts attiecas tikai uz piedāvājumu un līgumu līdzekļiem risinājumā Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Priekšnoteikumi
-Pirms veicat šajā rakstā norādītās darbības, jums ir jāveic šajos rakstos aprakstītās procedūras:
+Lai izpildītu šajā rakstā aprakstītās darbības, ir jāizpilda tālāk uzskaitītajos rakstos norādītās procedūras.
 
   - [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities-pricing-dimensions.md) 
   - [Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām ](add-custom-fields-price-setup-transactional-entities.md)
   - [Pielāgotu lauku kā cenu kategoriju iestatīšana](set-up-custom-fields-pricing-dimensions.md). 
   
-Ja neesat pabeidzis šīs procedūras, aizpildiet tās un pēc tam atgriezieties pie šī raksta.
+Ja šīs procedūras neesat pabeidzis, pabeidziet tās un pēc tam atgriezieties pie šī raksta.
 
 ## <a name="register-a-plug-in"></a>Spraudņa reģistrēšana
 Ja projekta piedāvājuma rindai tiek izveidota piedāvājuma rindas detaļa lapā **Piedāvājuma rinda**, sistēma izveido divas novērtējuma rindas. Viena rinda ir novērtējuma izmaksu puse, un otra rinda ir pārdošanas puse. Tas pats attiecas uz projekta līguma rindām.

@@ -1,6 +1,6 @@
 ---
-title: Atcelt iepriekš apstiprinātu ierakstu apstiprināšanu
-description: Šajā rakstā paskaidrots, kā projektu vadītājs var atcelt iepriekš apstiprinātā laika, izdevumu vai materiālu lietojuma ierakstu apstiprināšanu.
+title: Apstiprinājuma atcelšana iepriekš apstiprinātiem ierakstiem
+description: Šajā rakstā izskaidrots, kā projekta vadītājs var atcelt iepriekš apstiprinātu laika, izmaksu vai materiālu lietojuma ierakstu apstiprinājumu.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -13,35 +13,35 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8930465"
 ---
-# <a name="cancel-the-approval-of-previously-approved-entries"></a>Atcelt iepriekš apstiprinātu ierakstu apstiprināšanu
+# <a name="cancel-the-approval-of-previously-approved-entries"></a>Apstiprinājuma atcelšana iepriekš apstiprinātiem ierakstiem
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Projekta vadītājs vai apstiprinātājs, kas iepriekš ir apstiprinājis laika, izdevumu vai materiālu lietojuma ierakstus, var atcelt šo ierakstu apstiprināšanu. 
+Projekta vadītājs vai apstiprinātājs, kurš ir iepriekš apstiprinājis laika, izmaksu vai materiālu lietojuma ierakstus, var atcelt šo ierakstu apstiprinājumu. 
 
-Veiciet šīs darbības, lai atceltu iepriekš apstiprināta laika, izdevumu vai materiālu lietojuma ieraksta apstiprinājumu.
+Lai atceltu iepriekš apstiprināto laika vai izdevumu ierakstu apstiprinājumu, veiciet tālāk norādītās darbības.
 
 1. Atveriet sadaļu **Projekti** \> **Mani darbi** \> **Apstiprinājumi**.
-2. Lapā **Apstiprinājumu saraksts tiek rādīti** visi laika ieraksti, kas gaida apstiprinājumu. Mainīt skatu uz **Mani iepriekšējie apstiprinājumi**.
-3. Atlasiet atcelšanas laiku, izdevumus vai materiālu apstiprinājumus. Pēc tam darbību rūtī atlasiet **Atcelt apstiprinājumu**.
-4. Parādītajā apstiprinājuma ziņojuma lodziņā atlasiet **Labi**, lai apstiprinātu operāciju.
+2. Saraksta lapā **Apstiprinājumi** tiek rādīti visi laika ieraksti, kas gaida apstiprinājumu. Mainiet skatu uz **Mani iepriekšējie apstiprinājumi**.
+3. Atlasiet laika, izdevumu vai materiālu apstiprinājumus, ko atcelt. Darbību rūtī atlasiet **Atcelt apstiprinājumu**.
+4. Parādītajā apstiprinājuma lodziņā atlasiet vienumu **Labi**, lai apstiprinātu darbību.
 
 > [!IMPORTANT]
-> Nevar atcelt iepriekš apstiprināta laika, izdevumu un materiālu lietojuma ieraksta apstiprināšanu, par kuru klientam jau ir izrakstīts rēķins. Ja mēģināt, tiek parādīts ziņojums, kurā norādīts, ka apstiprinājumu nevar atcelt, jo tam jau ir izrakstīts rēķins. Šādā gadījumā apstiprinājumu var atcelt tikai tad, ja tiek izmantots koriģējošs rēķins, lai izsniegtu klientam pilnu kredītu vai atmaksu sākotnējā rēķinā.
+> Nevar atcelt iepriekš apstiprināta laika, izmaksu un materiālu lietojuma ieraksta apstiprinājumu, par ko klientam jau ir izrakstīts rēķins. Mēģinot to izdarīt, tiek parādīts ziņojums, ka apstiprinājumu nevar atcelt, jo par to jau ir izrakstīts rēķins. Šajā gadījumā apstiprinājumu var atcelt tikai tad, ja klientam sākotnējā rēķinā tiek izmantots labots rēķins, lai izsniegtu pilnu kredītu vai atmaksu.
 
-## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Iepriekš apstiprināta ieraksta apstiprinājuma anulēšanas ietekme
+## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Iepriekš apstiprināta ieraksta apstiprinājuma atcelšanas ietekme
 
 Kad apstiprinājums tiek atcelts, tam ir gan operacionāla, gan finansiālā ietekme.
 
 ### <a name="operational-impact"></a>Operatīva ietekme
 
-Ja ieraksta apstiprinājums tiek atcelts, apstiprinājuma ieraksts tiek atzīmēts kā **iesniegts**. Ieraksta statuss tiek mainīts uz **Iesniegts**. Šajā posmā projekta komandas loceklis var atsaukt ierakstu, neiesniedzot atsaukšanas pieprasījumu.
+Ja ieraksta apstiprinājums ir atcelts, apstiprinājuma ieraksts tiek atzīmēts kā **Iesniegts**. Ieraksta statuss tiek mainīts uz **Iesniegts**. Šajā posmā projekta darba grupas dalībnieks var atsaukt ierakstu, iesniedzot atsaukšanas pieprasījumu.
 
-Apstiprinātājs var mainīt apmaksājamā **daudzuma** un **norēķinu tipa** vērtības un pēc tam vēlreiz apstiprināt ierakstu.
+Apstiprinātājs var mainīt **Daudzums, par ko izrakstīt rēķinu** un **Norēķinu tips** un pēc tam ierakstu apstiprināt vēlreiz.
 
 ### <a name="financial-impact"></a>Finansiālā ietekme
 
-Ja ieraksta apstiprinājums tiek atcelts, atbilstošās izmaksas un pārdošanas faktiskās vērtības tiek atjauninātas šādā veidā:
+Ja ieraksta apstiprinājums ir atcelts, atbilstošās faktiskās vērtības izmaksām un pārdošanai tiek atjauninātas tālāk norādītajā veidā.
 
 - Lauks **Korekcijas statuss** tiek atjaunināts uz **Koriģēts**.
 - Lauks **Norēķinu statuss** tiek atjaunināts uz **Atcelts**.

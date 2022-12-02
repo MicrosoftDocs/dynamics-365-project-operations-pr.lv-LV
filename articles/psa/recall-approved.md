@@ -1,6 +1,6 @@
 ---
 title: Apstiprinātu laika vai izdevumu ierakstu atsaukšana
-description: Šajā rakstā ir sniegta informācija par to, kā atsaukt iepriekš apstiprinātu laika vai izdevumu darbību.
+description: Šajā rakstā ir sniegta informācija par to, kā atsaukt iepriekš apstiprinātu laika un izdevumu transakciju.
 author: rumant
 ms.custom: ''
 ms.author: rumant

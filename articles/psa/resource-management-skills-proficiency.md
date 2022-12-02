@@ -1,6 +1,6 @@
 ---
 title: Prasmes un kvalifikācijas modeļi
-description: Šajā rakstā ir sniegta informācija par to, kā izmantot prasmju un prasmju modeļus.
+description: Šajā rakstā ir sniegta informācija par to, kā izmantot prasmes un kvalifikācijas modeļus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

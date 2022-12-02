@@ -1,6 +1,6 @@
 ---
 title: Apakšlīguma rindas resursi
-description: Šajā rakstā ir paskaidrots, kā norādīt īpašos resursus, ko kreditors nodrošina konkrētai apakšlīguma rindai uz laiku.
+description: Šajā rakstā ir paskaidrots, kā norādīt īpašos resursus, ko piegādātājs nodrošina konkrētai apakšlīguma laika rindai.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Piedāvājuma aizvēršana — Lite
-description: Šajā rakstā sniegta informācija par piedāvājuma slēgšanu projekta operācijās.
+description: Šajā rakstā ir sniegta informācija par piedāvājuma slēgšanu programmā Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Nobraukuma iestatīšana, izmantojot nobraukuma likmes pakāpes
-description: Šajā rakstā ir sniegta informācija par nobraukuma likmēm un nobraukuma likmes līmeņiem.
+description: Šajā rakstā ir sniegta informācija par nobraukuma likmēm un nobraukuma likmju pakāpēm.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Līdzeklis **Nobraukuma summas aprēķina iespējošana vairākām nobraukuma pa
 
 Pēc līdzekļa iespējošanas atiestatiet nobraukuma likmes, lai pareizi atspoguļotu lauka **Daudzums** vērtību. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Nobraukuma kopsummu aprēķina iespējošana pēc finanšu gads līdzekļa
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Līdzekļa Kopējā nobraukuma aprēķināšana pēc finanšu gada iespējošana
 
-Nobraukuma **kopsummu aprēķins pēc finanšu gads** līdzekļa iespējo jaunu iestatījumu izdevumu pārvaldības parametros, kas veic nobraukuma kopsummu aprēķinus pēc finanšu gads, nevis pēc kalendārā gada. Lai iespējotu šo līdzekli, veiciet tālāk uzskaitītās darbības.
+Līdzeklis **Kopējā nobraukuma aprēķināšana pēc finanšu gada** iespējo jaunu iestatījumu izdevumu pārvaldības parametros, kas veic nobraukuma aprēķināšanu pēc finanšu gada, nevis kalendārā gada. Lai iespējotu šo līdzekli, veiciet tālāk uzskaitītās darbības.
 
 1. Dodieties uz **Darbvietas** > **Līdzekļu pārvaldība**.
-1. Sarakstā atrodiet un atlasiet **Nobraukuma kopsummu aprēķinu pēc finanšu gads** un pēc tam atlasiet **Iespējot tūlīt**.
-1. Dodieties uz **Izdevumu pārvaldības** > **iestatīšanas** > **vispārīgie** > **izdevumu pārvaldības parametri.**
-1. **Lapā Izdevumu pārvaldības parametri** atrodiet un iespējojiet **izmantot finanšu gads nobraukuma kopsummām**.
+1. Sarakstā atrodiet un atlasiet **Kopējā nobraukuma aprēķināšana pēc finanšu gada** un pēc tam atlasiet **Iespējot tagad**.
+1. Dodieties uz **Izdevumu pārvaldība** > **Iestatīšana** > **Vispārīgi** > **Izdevumu pārvaldības parametri**.
+1. Lapā **Izdevumu pārvaldības parametri** atrodiet un iespējojiet opciju **Izmantot finanšu gadu kopējam nobraukumam**.
 
-Pēc tam, kad ir iespējota **opcija Lietot finanšu gads nobraukuma kopsummām**, nobraukuma kopsummas tiek aprēķinātas pēc finanšu gads.
+Pēc opcijas **Izmantot finanšu gadu kopējam nobraukumam** iespējošanas kopējais nobraukums tiek aprēķināts pēc finanšu gada.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

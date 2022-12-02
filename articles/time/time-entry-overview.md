@@ -1,6 +1,6 @@
 ---
 title: Laika pārskats
-description: Šajā rakstā sniegta informācija par laika funkcionalitāti programmā Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par laiku risinājumā Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
-title: Atkārtoti izveidoti izdevumu pārskati (satur video)
-description: Šajā rakstā paskaidrota izdevumu pārskata ieraksta pārveidotā un pārveidotā pieredze.
+title: Atjaunotas izdevumu atskaites (satur video)
+description: Šajā rakstā ir izskaidrota izdevumu atskaites ieraksta pārveidotā un atjaunotā pieredze.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Lai ieslēgtu jaunās iespējas, izmantojiet darbvietu **Līdzekļu pārvaldība
 | Jaunu izdevumu rindu saglabāšana un pievienošana | Ievadot izdevumus, ir pieejamas pogas **Saglabāt** un **Jauns**, lai jums palīdzētu ātri ievadīt izdevumu rindas. |
 | Labāka sadalīto un detalizēto rindu redzamība | Tieši izmaksu sarakstā tiek pievienotas detalizētas un sadalītas rindas, lai uzlabotu redzamību un palīdzētu ērti noteikt, vai nav kļūdu. |
 | Apakškategoriju detalizētas informācijas skatīšana detalizētās rindās | Pamatelementa izdevumu detalizētās rindās ir redzamas izdevumu atskaites apakškategoriju etiķetes. Detalizācija ļauj ātri pārskatīt detalizētu informāciju.|
-|Ātri uzskaitīt periodiskos izdevumus | Pārveidotā izdevumu darbvieta nodrošina iespēju ātri uzskaitīt periodiskos izdevumus, pievienojot apakškategoriju, sākuma datumu un daudzumu. Daudzums attiecas uz to, cik reižu maksa tiek atkārtota nepārtrauktā periodā. |
+|Ātra periodisko izdevumu izsekošana | Atjauninātā izdevumu darbvieta nodrošina iespēju ātri uzskaitīt periodiskos izdevumus, pievienojot apakškategoriju, sākuma datumu un daudzumu. Daudzums norāda, cik reižu maksa tiek atkārtota nepārtraukta perioda laikā. |
 | Kvīšu rādīšana detalizācijas laikā | Detalizācijas laikā var rādīt kvītis. |
 | Skaidras naudas avansa atlase | Atlasiet vienu vai vairākus skaidras naudas avansus, lai izpildītu atsevišķas izmaksu transakcijas. |
 | Skaudras naudas bilance | Veidojot izmaksu ierakstu, salīdzinot to ar apstiprinātajām un samaksātajām skaidras naudas bilancēm, pārskatiet naudas summas iepriekšējas bilances informāciju reāllaikā. |

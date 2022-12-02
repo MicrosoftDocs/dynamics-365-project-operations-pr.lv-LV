@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt apmaksājamo projektu uzskaiti
-description: Šajā rakstā ir sniegta informācija par apmaksājamo projektu uzskaites opcijām.
+description: Šajā rakstā ir sniegta informācija par apmaksājamu projektu uzskaites iespējām.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Vairāku klientu pārvaldība projekta piedāvājumu rindās
-description: Šajā rakstā ir sniegta informācija par to, kā pārvaldīt vairākus debitorus projekta piedāvājuma rindās.
+description: Šajā rakstā sniegta informācija par to, kā pārvaldīt vairākus klientus projekta piedāvājuma rindās.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

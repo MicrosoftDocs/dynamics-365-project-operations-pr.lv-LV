@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumu sniegšanas, izcenojuma un rēķinu izrakstīšanas pamata darbību ceļvedis
-description: Šajā rakstā sniegtas saites uz informāciju par pamata kotēšanu, cenu noteikšanu un norēķiniem projektu pakalpojumu automatizācijā.
+description: Šajā rakstā ir sniegtas saites uz informāciju par piedāvājumu sniegšanas, izcenojuma un rēķinu izrakstīšanas pamata darbībām programmā Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8910807"
 
 Spēja atrast pareizos resursus īstajā laikā, rezervēt šos resursus projektiem, kā arī uzturēt resursu izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. 
 
-Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz šādiem rakstiem:
+PDF saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz tālāk uzskaitītajiem rakstiem:
 
 - [Piedāvājumu sniegšana, izcenojums un rēķinu izrakstīšana](../quote-bill-price.md)
 - [Pārdošanas procesi](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārviet
 - [Faktisko datu ierakstīšana](../advanced-actuals.md)
 
 > [!NOTE]
-> Šis raksts tiks noņemts nākamajā dokumentācijas atjauninājumā. 
+> Šis raksts tiks noņemts turpmākā dokumentācijas atjauninājumā. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

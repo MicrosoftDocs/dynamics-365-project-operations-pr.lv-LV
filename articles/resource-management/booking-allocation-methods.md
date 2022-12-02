@@ -1,6 +1,6 @@
 ---
 title: Atļauto metožu rezervēšana
-description: Šajā rakstā ir sniegta informācija par to, kā rezervēšanas piešķiršanas metodes darbojas projektu operācijās.
+description: Šajā rakstā sniegta informācija par to, kā rezervācijas sadalījuma metodes darbojas programmā Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8912755"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Ja pievienojat darba grupas dalībnieku tieši projektam cilnē **Darba grupa** vai rezervējat resursu projektam vai prasībai plānošanas panelī, varat izmantot dažas atšķirīgas rezervāciju piešķiršanas metodes. Šajā rakstā ir paskaidrots, kā katra metode darbojas un kādas metodes var novest pie resursu pārrezervēšanas.
+Ja pievienojat darba grupas dalībnieku tieši projektam cilnē **Darba grupa** vai rezervējat resursu projektam vai prasībai plānošanas panelī, varat izmantot dažas atšķirīgas rezervāciju piešķiršanas metodes. Šajā rakstā ir paskaidrots, kā darbojas katra no metodēm un kuru metožu izmantošana var izraisīt resursu rezervācijas pārsniegšanu.
 
 ## <a name="booking-allocation-methods"></a>Atļauto metožu rezervēšana
 

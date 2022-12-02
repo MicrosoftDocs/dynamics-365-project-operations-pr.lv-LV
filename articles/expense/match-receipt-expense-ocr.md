@@ -1,6 +1,6 @@
 ---
 title: Apliecinājuma tveršana, izmantojot OCR
-description: Šajā rakstā sniegta informācija par optiskās rakstzīmju atpazīšanas (OCR) apstrādi kvītīm.
+description: Šajā rakstā ir sniegta informācija par rakstzīmju optiskās atpazīšanas (OCR) apstrādi kvītīm.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Lai izveidotu izdevumu vai to saskaņotu no kvīts, izpildiet šādas darbības:
 
 ## <a name="installation"></a>Instalēšana
 
-Lai izmantotu šīs papildu izdevumu iespējas, instalējiet izdevumu pārvaldības pakalpojuma pievienojumprogrammu Microsoft Dynamics 365 Finance un ieslēdziet līdzekļus savā gadījumā. Jūs varat piekļūt pievienojumprogrammai no sava projekta Microsoft Dynamics Lifecycle Services (LCS).
+Lai izmantotu šīs papildu izdevumu iespējas, instalējiet Izdevumu Pārvaldības Pakalpojums pievienojumprogrammu Microsoft programmai Microsoft Dynamics 365 Finance un ieslēdziet līdzekļus savā instancē. Jūs varat piekļūt pievienojumprogrammai no sava projekta Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Pierakstieties LCS un atveriet vēlamo vidi.
 2. Pārejiet uz **Pilna informācija**.
@@ -85,7 +85,7 @@ Nē, Microsoft ir iebūvēts vispārīgās algoritmiskās mācīšanās modelis,
 
 **Kur šis līdzeklis ir pieejams un kur to apstrādā?**
 
-Šī līdzekļa pieejamība dažādos reģionos ir norādīta šajā tabulā. Ja jūsu reģions pašlaik netiek atbalstīts, iesniedziet pieprasījumu par prioritāti noteikt OCR pakalpojuma pieejamību jūsu reģionā. 
+Šī līdzekļa pieejamība dažādos reģionos ir uzskaitīta tālāk sniegtajā tabulā. Ja jūsu reģions pašlaik netiek atbalstīts, iesniedziet pieprasījumu, lai noteiktu prioritāti OCR pakalpojuma pieejamībai jūsu reģionā. 
 
 | Reģions | Atbalstīts                         |
 |--------|-----------------------------------|
@@ -93,7 +93,7 @@ Nē, Microsoft ir iebūvēts vispārīgās algoritmiskās mācīšanās modelis,
 | CAN    | Jā                               |
 | Apvienotā Karaliste     | Jā                               |
 | AUS    | Jā                               |
-| ES     | Daļēji. Tikai angļu valodas kvītis. |
+| EU     | Daļēji. Tikai saņemšana angļu valodā. |
 | Āzija   | Nē.                                |
 | Japāna  | Nē.                                |
 | Āfrika | Nē.                                |

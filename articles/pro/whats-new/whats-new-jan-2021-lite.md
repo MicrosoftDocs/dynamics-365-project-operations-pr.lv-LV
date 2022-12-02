@@ -1,6 +1,6 @@
 ---
 title: 2021. gada janvāra jaunumi — Project Operations Lite izvietošana
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations lite izvietošanas 2021. gada janvāra laidienā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada janvāra Project Operations Lite izvietošanas laidienā.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article

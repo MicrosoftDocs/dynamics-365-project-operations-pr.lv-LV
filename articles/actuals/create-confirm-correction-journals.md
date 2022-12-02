@@ -1,6 +1,6 @@
 ---
 title: Korekciju žurnālu izveide un apstiprināšana
-description: Šajā rakstā sniegta informācija par to, kā izveidot un apstiprināt labojumu žurnālu.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot un apstiprināt labojumu žurnālu.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928073"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dažkārt laika vai izdevumu ieraksts var tikt ievadīts nepareizi. Piemēram, konsultants, veidojot laika ierakstu, var atlasīt nepareizu datumu vai, ievadot izdevumus, izvēlēties nepareizu projektu. Ja konsultants nevar atjaunināt iesniegtos ierakstus, aizmugursistēmas administrators var tieši labot projekta faktiskos datus.
+Dažreiz laiks vai izdevumu ieraksts var būt ievadīts nepareizi. Piemēram, konsultants var atlasīt nepareizu datumu, kad izveido laika ierakstu, vai arī var atlasīt nepareizo projektu, ievadot izdevumus. Ja konsultants nevar atjaunināt iesniegtos ierakstus, aizmugursistēmas administrators var tieši labot projekta faktiskos datus.
 
 ## <a name="correct-approved-time-entries"></a>Apstiprinātu laika ierakstu labošana     
 
@@ -73,30 +73,30 @@ Izpildiet tālāk aprakstītās darbības, lai labotu vienu vai vairākus izdevu
 
 6. Ja labotās vērtības tiek parādītas, kā paredzēts, atlasiet **Apstiprināt**. Dialoglodziņā atlasiet **Labi**. Ja vērtības netiek rādītas, kā paredzēts, atlasiet **Atcelt**, lai atgrieztos sarakstā **Apstiprinātie izdevumi**. Atkārtojiet 2.–5. darbību. 
 
-7. Pēc labojumu žurnāla apstiprināšanas atgriezieties projektā vai projektos, kurus atjauninājāt, lai skatītu izmaiņas.
+7. Kad apstiprināsiet labojumu žurnālu, atgriezieties atjauninātajā projektā vai projektos, lai skatītu veiktās izmaiņas.
 
-8. Projekta lapas cilnē **Faktiskie** pārskatiet **sarakstu Faktiskais saistītais skats**. Tiek parādīti sākotnējie ieraksti un labotie ieraksti.
+8. Cilnes **Faktiskās vērtības** projekta lapā pārskatiet sarakstu **Faktiskais saistītais skats**. Tiek parādīti sākotnējie ieraksti un labotie ieraksti.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Labot apstiprinātos materiālu lietojuma žurnālus
+## <a name="correct-approved-material-usage-logs"></a>Apstiprinātu materiālu lietojuma žurnālu labošana
 
-Veiciet tālāk norādītās darbības, lai labotu vienu vai vairākus materiālu lietojuma žurnāla ierakstus.
+Izpildiet tālāk aprakstītās darbības, lai labotu vienu vai vairākus materiālu lietojuma žurnāla ierakstus.
 
-1. **Apgabala Pārdošana** kreisās navigācijas rūts sadaļā **Darbības** atlasiet **Faktiskie**.
+1. Apgabala **Pārdošana** sadaļas **Transakcijas** kreisās puses navigācijas rūtī atlasiet **Faktiskie dati**.
 
-2. **Sarakstā Faktiski izmantojiet kolonnu** filtrus, lai atlasītu **darbību klasi Materiāls**, lai parādītu tikai materiālu faktiskās versijas. Izmantojiet citus kolonnu filtrus, lai vēl vairāk ierobežotu parādītos faktiskos datus. Kad esat atradis vēlamo faktisko kopu, atlasiet faktiskos un pēc tam atlasiet **Labot ierakstus**. Automātiski tiek izveidots jauns labojumu žurnāls **, un tiek piešķirts korekcijas** tips Materiāls.
+2. Sarakstā **Faktiskie dati** izmantojiet kolonnu filtrus, lai atlasītu transakciju klasi **Materiāls**, lai tiktu rādīti tikai materiālu faktiskie dati. Izmantojiet citus kolonnu filtrus, lai papildus ierobežotu parādītos faktiskos datus. Kad varat atrast vēlamo faktisko datu kopu, atlasiet faktiskos datus un pēc tam atlasiet **Labot ierakstus**. Automātiski tiek izveidots jauns labojumu žurnāls, un tiek piešķirts tips **Materiālu korekcija**.
 
-3. **Lapas Jauns žurnāls** **laukā Apraksts** ievadiet labojuma aprakstu. Pēc tam **cilnes Materiālu labošana** sadaļā Jaunas materiālu **vērtības atlasiet datu laukus, kas jālabo atlasītajām** materiālu rindām. Piemēram, materiālu var piešķirt citam projektam vai labot produktu, materiāla datumu vai apakšuzņēmuma līgumu.
+3. Lapas **Jauns žurnāls** laukā **Apraksts** ievadiet korekcijas aprakstu. Pēc tam cilnes **Materiālu korekcija** sadaļā **Jaunas vērtības materiāliem** atlasiet datu laukus, lai tos labotu atlasītajām materiālu rindām. Piemēram, varat piešķirt materiālu citam projektam vai labot produktu, materiālu datumu vai apakšlīgumu.
 
 4. Atlasiet **Priekšskatīt**. Pēc tam dialoglodziņā atlasiet **Labi**.
 
-5. Cilnē **Žurnāla rindas** pārbaudiet labojumus. Var apskatīt sarakstu ar sākotnējiem faktiskajiem dokumentiem, kas saistīti ar atlasītajiem materiālu ierakstiem, kas ir atsaukti, un labotajām atbilstošajām rindām, kas ir izveidotas.
+5. Cilnē **Žurnāla rindas** pārbaudiet labojumus. Varat skatīt sākotnējo faktisko ierakstu sarakstu, kas ir saistīti ar atlasītajiem materiālu ierakstiem, kuri tika apvērsti, un labotajām atbilstošajām rindām, kas tika izveidotas.
 
-6. Ja labotās vērtības tiek parādītas, kā paredzēts, atlasiet **Apstiprināt**. Pēc tam dialoglodziņā atlasiet **Labi**. Ja vērtības nav tādas, kā paredzēts, atlasiet **Atcelt**, lai atgrieztos **sarakstā Faktiskie**. Pēc tam atkārtojiet 2.–5. darbību.
+6. Ja labotās vērtības tiek parādītas, kā paredzēts, atlasiet **Apstiprināt**. Pēc tam dialoglodziņā atlasiet **Labi**. Ja vērtības nav tādas, kā paredzēts, atlasiet **Atcelt**, lai atgrieztos sarakstā **Faktiskie dati**. Pēc tam atkārtojiet 2.–5. darbību.
 
-7. Pēc labojumu žurnāla apstiprināšanas atgriezieties projektā vai projektos, kurus atjauninājāt, lai skatītu izmaiņas.
+7. Kad apstiprināsiet labojumu žurnālu, atgriezieties atjauninātajā projektā vai projektos, lai skatītu veiktās izmaiņas.
 
-8. Projekta lapas cilnē **Faktiskie** pārskatiet **sarakstu Faktiskais saistītais skats**. Tiek parādīti sākotnējie ieraksti un labotie ieraksti.
+8. Cilnes **Faktiskās vērtības** projekta lapā pārskatiet sarakstu **Faktiskais saistītais skats**. Tiek parādīti sākotnējie ieraksti un labotie ieraksti.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

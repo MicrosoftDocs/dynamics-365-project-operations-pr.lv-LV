@@ -1,6 +1,6 @@
 ---
 title: Jaunumi 2021. gada martā — Project Operations Lite izvietošana
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations lite izvietošanas 2021. gada marta laidienā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada marta Project Operations Lite izvietošanas laidienā.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article

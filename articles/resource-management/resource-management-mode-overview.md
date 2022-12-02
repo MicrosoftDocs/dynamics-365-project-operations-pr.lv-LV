@@ -1,6 +1,6 @@
 ---
 title: Resursu pārvaldības režīmu pārskats
-description: Šajā rakstā sniegta informācija par resursu pārvaldības funkcionalitāti programmā Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par resursu pārvaldību risinājumā Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
@@ -38,7 +38,7 @@ Organizācijām, kurām ir nepieciešama elastība attiecībā uz resursu pieš�
 
 ![Hibrīda režīms.](./media/resource-management-hybrid.png)
 
-Papildus atbalstītajam centrālā režīma procesam skatiet tālāk sniegtos rakstus, lai pārvaldītu visas pārējās atbalstītās rezervācijas plūsmas hibrīda režīmā:
+Papildus atbalstītajam centrālā režīma procesam skatiet šos rakstus, lai pārvaldītu visas citas atbalstītās rezervācijas plūsmas hibrīda režīmā:
 
 Resursa rezervēšana tieši projektam:
 - [Nosaukto rezervējamo resursu rezervēšana projekta darba grupai un uzdevumu piešķiršana](/dynamics365/project-service/assign-named-bookable-resource)

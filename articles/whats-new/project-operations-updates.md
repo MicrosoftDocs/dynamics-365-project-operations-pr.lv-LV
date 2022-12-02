@@ -1,6 +1,6 @@
 ---
 title: Project Operations atjauninājumi
-description: Šajā rakstā ir sniegta informācija par izlaistajām Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par Dynamics 365 Project Operations izlaistajām versijām.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas balstīti uz resursiem/be
 Dynamics 365 Project Operations sastāv no diviem komponentiem.
 
 - Project Operations pakalpojuma Dataverse vidē aptver iespējas, sākot no iespējas līdz pro forma rēķiniem. Dataverse tiek izmantots Lite izvietošanā un Project Operations resursu/bez krājumu scenāriju izvietošanā.
-- Projektu vadība un grāmatvedība Dynamics 365 Finance vidē aptver izdevumu pārvaldības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. Finance and operations programmas vide tiek izmantota project operations resursu/nekrājumu scenārijiem un Project Operations — uz krājumiem balstītiem scenārijiem/ uz ražošanu balstītiem scenārijiem.
+- Projektu pārvaldība un uzskaite vidē Dynamics 365 Finance aptver izdevumu pārvaldības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. Finanšu un operāciju programmas vide tiek izmantota risinājumā Project Operations scenārijiem, kas balstīti uz resursiem/bez krājumiem, un Project Operations scenārijiem, kas balstīti uz krājumiem/ražošanu.
 
 ## <a name="project-operations-release-notes"></a>Project Operations informācija par laidienu
 - Project Operations jaunākā informācija par laidienu, kas paredzēta scenārijam [Resursi/bez krājumiem](whats-new-july-2022-resource-based.md).
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations sastāv no diviem komponentiem.
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Project Operations resource/non-stocked scenārijā ieteicams izmantot divrakstu orķestrācijas versiju 2.3.1.15 vai jaunāku versiju.
+Ja izmantojat Project Operations resursu/uz krājumiem nebalstītu scenāriju, mēs iesakām lietot duālās rakstīšanas Orchestration versiju 2.3.1.15 vai jaunākas versijas.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Project Operations izlaišanas grafiks Dataverse vidē
 
@@ -66,7 +66,7 @@ Project Operations atjauninājumi Dataverse vidē ir pieejami reizi mēnesī.
 | 5. stacija |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Ziemeļamerika         |  4.46.0.60      | Pabeigta           | Pabeigta            | TBD           | 2022. gada 04. novembris       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektu pārvaldības un uzskaites laidiena grafiks finanšu un operāciju programmu vidē
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Izlaišanas grafiks projektu pārvaldībai un uzskaitei finanšu un operāciju programmu vidē
 
 Projekta pārvaldības un uzskaites atjauninājumi tiek izlaisti astoņas reizes gadā.
 

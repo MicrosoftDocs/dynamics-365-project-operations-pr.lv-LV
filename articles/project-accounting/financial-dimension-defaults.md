@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 
 
-Dynamics 365 Project Operations [izmanto finanšu dimensiju](/dynamics365/finance/general-ledger/financial-dimensions) struktūru Dynamics 365 Finance, lai sniegtu papildu ieskatus par projekta apakšgrāmatu un virsgrāmatas darbībām.
+Dynamics 365 Project Operations izmanto [Finanšu dimensiju](/dynamics365/finance/general-ledger/financial-dimensions) struktūru risinājumā Dynamics 365 Finance, lai sniegtu papildu ieskatu projekta apakšgrāmatas un virsgrāmatas transakcijās.
 
 Noklusējuma finanšu dimensijas var iestatīt klientam, projekta finansējuma avotam, atskaites punktam, projekta līguma rindai vai projektam.
 

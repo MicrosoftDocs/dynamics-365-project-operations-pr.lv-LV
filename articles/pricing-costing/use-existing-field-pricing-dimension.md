@@ -1,6 +1,6 @@
 ---
 title: Project Operations lauki kā cenu noteikšanas dimensijas
-description: Šajā rakstā sniegta informācija, izmantojot laukus kā cenu dimensijas programmā Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par lauku lietošanu cenu noteikšanas dimensijām risinājumā Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Pro formas projekta rēķina apstiprināšana
-description: Šajā rakstā sniegta informācija par proformas projekta rēķinu apstiprināšanu projekta operācijās.
+description: Šajā rakstā ir sniegta informācija par proformas projekta rēķinu apstiprinājumu programmā Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

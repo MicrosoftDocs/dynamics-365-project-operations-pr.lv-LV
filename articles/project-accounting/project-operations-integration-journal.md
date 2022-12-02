@@ -1,6 +1,6 @@
 ---
 title: Integrācijas žurnāls risinājumā Project Operations
-description: Šajā rakstā ir sniegta informācija par darbu ar integrācijas žurnālu programmā Project Operations.
+description: Šajā rakstā ir sniegta informācija par darbu ar integrācijas žurnālu risinājumā Project Operations.
 author: sigitac
 ms.date: 09/22/2022
 ms.topic: article
@@ -17,16 +17,16 @@ ms.locfileid: "9541087"
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Laiks, izdevumi, maksa un materiālie ieraksti rada **Faktiskās transakcijas**, kas atspoguļo darbības skatu uz darbu, kas pabeigts pret projektu. Dynamics 365 Project Operations nodrošina grāmatvežus ar rīku, lai pārskatītu transakcijas un vajadzības gadījumā pielāgotu uzskaites atribūtus. Kad pārskatīšana un pielāgojumi ir pabeigti, darbības tiek grāmatotas Projekta apakšgrāmatā un Virsgrāmatā. Grāmatvedis var veikt šīs darbības, izmantojot žurnālu **Project Operations Integration** (**Dynamics 365 Finance** > **Project management and accounting** > **Journals Project Operations Integration** > **žurnālu**.
+Laika, izdevumu, maksu un materiālu ieraksti veido **Faktiskās** transakcijas, kas atspoguļo projekta pabeigto darbu operatīvo skatu. Dynamics 365 Project Operations nodrošina grāmatvežus ar rīku, lai pārskatītu transakcijas un vajadzības gadījumā pielāgotu uzskaites atribūtus. Kad pārskatīšana un pielāgojumi ir pabeigti, darbības tiek grāmatotas Projekta apakšgrāmatā un Virsgrāmatā. Grāmatvedis var veikt šīs darbības, izmantojot žurnālu **Project Operations integrācija** (**Dynamics 365 Finance** > **Projekta pārvaldība un grāmatvedība** > **Žurnāli** > **Project Operations integrācijas žurnāls**).
 
 ![Integrācijas žurnāla plūsma.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Ierakstu izveide Project Operations integrācijas žurnālā
 
-Ieraksti Project Operations integrācijas žurnālā tiek izveidoti, izmantojot periodisku procesu **Importēšana no Izstādīšanas tabulas**. Šo procesu var palaist, dodoties uz **Dynamics 365 Finance** > **Project pārvaldība un grāmatvedība** > **Periodiska** > **projekta operāciju integrācija** > **Importēšana no inscenēšanas tabulas**. Procesu var izpildīt interaktīvi vai pēc nepieciešamības konfigurēt procesu, lai tas tiktu izpildīts fonā.
+Ieraksti Project Operations integrācijas žurnālā tiek izveidoti, izmantojot periodisku procesu **Importēšana no Izstādīšanas tabulas**. Šo procesu var izpildīt, dodoties uz **Dynamics 365 Finance** > **Projektu pārvaldība un grāmatvedība** > **Periodiski** > **Project Operations integrācija** > **Importēšana no izstādīšanas tabulas**. Procesu var izpildīt interaktīvi vai pēc nepieciešamības konfigurēt procesu, lai tas tiktu izpildīts fonā.
 
 Veicot periodisku procesu, tiek atrasti visi faktiskie dati, kas vēl nav pievienoti Project Operations integrācijas žurnālam. Tiek izveidota žurnāla rinda katrai faktiskajai darbībai.
-Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērtību, kas atlasīta žurnāla lauka **Project Operations Integration (** Finance **Project management and accounting Setup Project management and accounting** > **Setup** > **Project management and accounting parameters** > **,** Project Operations on Dynamics 365 Customer Engagement **tab) atlasīto** vērtību. Šī lauka iespējamās vērtības ir šādas:
+Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērtību, kas ir atlasīta laukā **Perioda vienība Project Operations integrācijas žurnālā** (**Finance** > **Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Projekta pārvaldība un uzskaites parametri**, **Project Operations Dynamics 365 Customer Engagement** cilne). Šī lauka iespējamās vērtības ir šādas:
 
   - **Dienas**: faktiskie dati ir grupēti pēc darbības datuma. Katrai dienai tiek izveidots atsevišķs žurnāls.
   - **Mēneši**: faktiskie dati ir grupēti pēc kalendāra mēneša. Katram mēnesim tiek izveidots atsevišķs žurnāls.
@@ -40,37 +40,37 @@ Sistēma grupē žurnāla rindas atsevišķos žurnālos, pamatojoties uz vērt�
   - Lauks **Dokuments** rāda dokumenta numuru visām faktiskajām transakcijām. Dokumentu numuru sērija ir definēta cilnē **Numuru sērijas**, kas atrodas lapā **Projektu pārvaldības un uzskaites parametri**. Katrai rindai tiek piešķirts jauns numurs. Pēc tam kad dokuments ir iegrāmatots, varat skatīt, kā izmaksas un rēķinos neiekļautie pārdošanas darījumi ir saistīti, atlasot **Saistītos dokumentus** lapā **Dokumentu darbības**.
   - Lauks **Kategorija** atspoguļo projekta transakciju un noklusējuma vērtības, pamatojoties uz saistīto projekta faktisko datu kategoriju.
     - Ja **Darbību kategorija** ir iestatīta projekta faktiskajos datos un dotajā juridiskajā entītijā pastāv saistītā **Projekta kategorija**, kategorijas noklusējums ir šī projekta kategorija.
-    - Ja **kategorija Transakcija nav iestatīta projekta faktiskajā, sistēma izmanto vērtību** laukā Projekta kategorijas noklusējumi cilnē **Projekta** operācijas Dynamics 365 Customer Engagement **lapas Projekta vadības un uzskaites** parametri cilnē Projekta vadība un uzskaites parametri **.**
+    - Ja **Darbības kategorija** nav iestatīta projekta faktiskajos datos, sistēma izmanto vērtību no lauka **Projekta kategoriju noklusējumi** cilnē **Project Operations pakalpojumā Dynamics 365 Customer Engagement**, kas atrodas lapā **Projekta pārvaldības un uzskaites parametri**.
   - Lauks **Resursi** norāda ar šo transakciju saistīto projekta resursu. Resurss tiek izmantots kā atsauce projekta rēķina priekšlikumos klientiem.
-  - Lauks **Valūtas kurss** pēc noklusējuma tiek izmantots valūtas **maiņas kursā**, kas iestatīts Dynamics 365 Finance. Ja nav maiņas kursa iestatījuma, periodiskais process **Importēšana no izstādīšanas** nepievienos šo ieraksta žurnālā, un darba izpildes žurnālā tiks pievienots kļūdas ziņojums.
-  - Lauks **Rindas rekvizīts** apzīmē norēķinu tipu projekta faktiskajos datos. Rindas rekvizītu un norēķinu tipu kartēšana ir definēta **lapas Projektu vadības un uzskaites parametri** cilnē **Projekta operācijas Dynamics 365 Customer Engagement**.
+  - Lauks **Valūtas kurss** pēc noklusējuma tiek ņemts no **Valūtas maiņas kursa**, kas iestatīts programmā Dynamics 365 Finance. Ja nav maiņas kursa iestatījuma, periodiskais process **Importēšana no izstādīšanas** nepievienos šo ieraksta žurnālā, un darba izpildes žurnālā tiks pievienots kļūdas ziņojums.
+  - Lauks **Rindas rekvizīts** apzīmē norēķinu tipu projekta faktiskajos datos. Rindas statuss un norēķinu tipu kartēšana tiek definēta cilnē **Project Operations pakalpojumā Dynamics 365 Customer Engagement**, kas atrodas lapā **Projekta pārvaldības un grāmatvedības parametri**.
 
 Project Operations integrācijas žurnāla rindās var atjaunināt tikai šādus uzskaites atribūtus:
 
 - **Rēķinu PVN grupa** un **Rēķina vienuma PVN grupa**
 - **Finanšu dimensijas** (izmantojot darbību **Sadalīt summas**)
 
-Integrācijas žurnāla rindas var izdzēst. Tomēr visas nepublicētās rindas tiks atkal ievietotas žurnālā pēc tam, kad būsit atkārtoti palaidis **importēšanas periodisko** procesu.
+Integrācijas žurnāla rindas nav iespējams dzēst. Taču visas neiegrāmatotās rindas tiks ievietotas žurnālā vēlreiz pēc tam, kad atkārtoti palaidīsit periodisko procesu **Importēšana no izstādīšanas**.
 
-### <a name="post-the-project-operations-integration-journal"></a>Projekta operāciju integrācijas žurnāla publicēšana
+### <a name="post-the-project-operations-integration-journal"></a>Project Operations integrācijas žurnāla grāmatošana
 
 Kad tiek grāmatots integrācijas žurnāls, tiek izveidotas projekta apakšgrāmatas un virsgrāmatas darbības. Tās izmanto pakārtotā klienta rēķina izrakstīšanai, ieņēmumu atzīšanai un finanšu atskaišu izveidei.
 
-Atlasīto Project Operations integrācijas žurnālu var publicēt, izmantojot **opciju Post** Project Operations integrācijas žurnāla lapā. Visus žurnālus var automātiski grāmatot, palaižot procesu periodisko projektu operāciju integrācijas žurnālā **Post Project Operations** > **.** > **·**
+Atlasīto Project Operations integrācijas žurnālu var iegrāmatot, izmantojot funkciju **Grāmatot** Public Operations integrācijas žurnāla lapā. Visas darba grupas var automātiski grāmato, palaižot procesu sadaļā **Periodiski** > **Project Operations integrācija** > **Grāmatot Project Operations integrācijas žurnālu**.
 
-Publicēšanu var veikt interaktīvi vai partijā. Ņemiet vērā, ka visi žurnāli, kuros ir vairāk nekā 100 rindiņu, tiks automātiski publicēti partijā. Lai nodrošinātu labāku veiktspēju, ja žurnāli, kuros ir daudz rindu, tiek grāmatoti paketē, iespējojiet **integrācijas žurnālu Post Project Operations, izmantojot vairākus pakešizdevumus** darbvietā **Līdzekļu pārvaldība**. 
+Grāmatošanu var veikt interaktīvi vai partijā. Ņemiet vērā, ka visi žurnāli ar vairāk nekā 100 rindām tiek automātiski grāmatoti partijā. Lai nodrošinātu labāku veiktspēju, kad partijā tiek grāmatoti žurnāli ar daudz rindām, iespējojiet līdzekli **Grāmatot Project Operations integrācijas žurnālu, izmantojot vairāku partiju uzdevumus** darbvietā **Līdzekļu pārvaldība**. 
 
-#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Pārsūtiet visas rindas, kurās ir publicēšanas kļūdas, uz jaunu žurnālu
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Pārsūtīt visas rindas, kurās ir ziņu kļūdas, uz jaunu žurnālu
 
 > [!NOTE]
-> Lai izmantotu šo iespēju, iespējojiet opciju **Pārsūtīt visas rindas ar grāmatošanas kļūdām uz jaunu Project Operations integrācijas žurnāla** līdzekli līdzekļu pārvaldības darbvietā **Līdzekļu pārvaldība**.
+> Lai izmantotu šo iespēju, darbvietā **Līdzekļu pārvaldība** iespējojiet līdzekli **Pārsūtīt visas rindas ar grāmatošanas kļūdām uz Project Operations integrāciju žurnālu**.
 
-Šis līdzeklis palīdz uzlabot pieredzi ar Project Operations integrācijas žurnālu. Kad tas ir iespējots, dubultās rakstīšanas laika problēmas un iestatīšanas problēmas vairs neliedz publicēt derīgus žurnālus. Publicējot project operations integrācijas žurnālā, sistēma validē katru rindu žurnālā. Tas publicē visas rindas, kurās nav kļūdu, un izveido jaunu žurnālu visām rindām, kurās ir publicēšanas kļūdas.
+Šis līdzeklis palīdz uzlabot Project Operations integrāciju žurnāla lietošanu. Ja šī opcija ir iespējota, nekādas problēmas ar rakstīto laika grafiku un iestatīšanas problēmas vairs nekavēs derīgu žurnālu grāmatošanu. Veicot grāmatošanu Project Operations integrāciju žurnālā, sistēma pārbaude katru žurnāla rindu. Tiek izliktas visas rindas, kurās nav kļūdu, un tiek izveidots jauns kļūdu saraksts visām rindām, kurās ir grāmatošanas kļūdas.
 
-Lai pārskatītu žurnālus, kuros ir grāmatošanas kļūdu rindas, dodieties uz **projektu vadības un uzskaites** \> **žurnālu projektu operāciju integrācijas** \> **žurnālu** un filtrējiet žurnālu sarakstu, izmantojot **lauku Sākotnējais žurnāls.** Nākamajā attēlā ir parādīts piemērs, kur žurnāli projekta operāciju integrācijas **žurnāla** lapā ir filtrēti šādā veidā.
+Lai pārskatītu žurnālus ar grāmatošanas kļūmju rindām, dodieties uz **Projektu pārvaldība un uzskaite**\>**Žurnāli**\>**Project Operations integrāciju žurnāls** un filtrējiet žurnālu sarakstu, izmantojot lauku **Sākotnējais žurnāls**. Attēlā tālāk parādīts piemērs, kurā šādā veidā ir filtrēti žurnāli lapā **Project Operations integrāciju žurnāls**.
 
-![Oriģinālais žurnāls, kas tiek rādīts Project Operations integrācijas žurnāla lapā.](./media/transferLines-originalJournal.png)
+![Sākotnējais žurnāls, parādīts Project Operations integrāciju žurnāla lapā.](./media/transferLines-originalJournal.png)
 
-Ja periodisks pakešdarbs ir konfigurēts integrācijas žurnāla publicēšanai, grāmatošana tiks pievienota atkārtoti, un žurnāli tiks publicēti, ja laika problēma ir novērsta. Visi atlikušie žurnāli ir jāizpēta manuāli, pārskatot žurnālus un veicot visas nepieciešamās darbības.
+Ja periodisks pakešu uzdevums tiek konfigurēts, lai grāmatotu integrācijas žurnālu, grāmatošanas mēģinājums tiks atkārtots un žurnāli tiks grāmatoti, ja būs labota laika kļūda. Jebkurš atlikušais žurnāls ir manuāli jāpārbauda, izskatot žurnālus un veicot vajadzīgās darbības.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

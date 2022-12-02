@@ -1,6 +1,6 @@
 ---
 title: Projekta izdevumu kategoriju sinhronizēšana starp finansēm un operācijām un Project Service Automation
-description: Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta izdevumu kategorijas starp Microsoft Dynamics 365 Finance un Dynamics 365 Project Service Automation.
+description: Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta izdevumu kategoriju sinhronizēšanai starp Microsoft Microsoft Dynamics 365 Finance un Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "9028941"
 
 [!include[banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projekta izdevumu kategorijas starp Dynamics 365 Finance un Dynamics 365 Project Service Automation.
+Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta izdevumu kategoriju sinhronizēšanai starp Dynamics 365 Finance un Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - 8.0 versijā varat izmantot projekta uzdevumu integrāciju, izdevumu darbības kategorijas, stundu aprēķinus, izdevumu aprēķinus un funkcionalitātes bloķēšanu.
@@ -80,10 +80,10 @@ Projekta izdevumu kategorijas tiek pārvaldītas pakalpojumā Finance, un tās t
 
 ### <a name="power-query"></a>Power Query
 
-Sinhronizējot ar Project Service Automation, ir jāizmanto Microsoft Power Query programmai Excel, lai iestatītu norēķinu tipu transakciju kategorijā. Projekta izdevumu transakciju kategoriju (Fin un Ops uz PSA) veidne nodrošina noklusējuma kolonnu un kartēšanu. Ja izveidojat savu veidni, nosacījuma kolonna ir jāpievieno sadaļā Power Query. Veiciet tālāk norādītās darbības.
+Kad veicat sinhronizēšanu uz Project Service Automation, ir jāizmanto Microsoft Power Query programmai Excel, lai transakciju kategorijā iestatītu norēķinu tipu. Projekta izdevumu transakciju kategoriju (Fin un Ops uz PSA) veidne nodrošina noklusējuma kolonnu un kartēšanu. Ja izveidojat savu veidni, ir jāpievieno šī nosacījuma kolonna programmā Power Query. Veiciet tālāk norādītās darbības.
 
 1. Noklikšķiniet uz bultiņas, lai atvērtu projekta izdevumu kategoriju uzdevuma kartējumu projekta izdevumu transakciju kategoriju (Fin un Ops uz PSA) veidnē.
-2. Noklikšķiniet uz **saites Iepriekšējs vaicājums un filtrēšana**, lai atvērtu Power Query.
+2. Noklikšķiniet uz **Detalizēto vaicājumu un filtrēšanas** saites, lai atvērtu Power Query.
 2. Atlasiet **Pievienot nosacījuma kolonnu**.
 3. Ievadiet jaunās kolonnas nosaukumu, piemēram, **NorēķinuTips**.
 4. Ievadiet šādu nosacījumu:Ievadiet šādu nosacījumu: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

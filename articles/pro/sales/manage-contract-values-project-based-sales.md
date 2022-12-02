@@ -1,6 +1,6 @@
 ---
 title: Projekta balstīta līguma rindu pārskats
-description: Šajā rakstā sniegta informācija par darbu ar projektu līgumu rindām.
+description: Šajā rakstā ir sniegta informācija par darbu ar projekta līguma rindām.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

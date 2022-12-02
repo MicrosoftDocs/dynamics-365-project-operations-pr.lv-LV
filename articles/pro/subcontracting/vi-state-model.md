@@ -1,6 +1,6 @@
 ---
 title: Statusa pārejas uz kreditora rēķinu
-description: Šajā rakstā ir izskaidrotas štata pārejas kreditora rēķinā pakalpojumā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā ir izskaidrotas statusa pārejas piegādātāja rēķinā programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,20 +17,20 @@ ms.locfileid: "9261026"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā rakstā ir izskaidrotas štata pārejas kreditora rēķinā pakalpojumā Microsoft Dynamics 365 Project Operations. Tiek izmantoti šādi stāvokļi: **Melnraksts**, **Pārskatīšana**, **Apstiprināts**, **Aizturēts** un **Atcelts**.
+Šajā rakstā ir izskaidrotas statusa pārejas piegādātāja rēķinā programmā Microsoft Dynamics 365 Project Operations. Tiek lietoti šādi statusi: **Melnraksts**, **Pārskatīšanā**, **Apstiprināts**, **Aizturēt** un **Atcelts**.
 
-Tālāk ilustrācijās ir parādītas statusa pārejas.
+Šīs statusu pārejas ir attēlotas tālāk esošajās ilustrācijās.
 
-![Apakšuzņēmuma līgumu valsts pārejas modelis.](../media/VI_State_Model.jpg)
+![Apakšlīguma statusa pārejas modelis.](../media/VI_State_Model.jpg)
 
-Nākamajā tabulā ir paskaidrots, ko katrs štats pārstāv kreditora rēķina dzīves ciklā programmā Project Operations.
+Tālāk redzamajā tabulā ir izskaidrots, ko katrs statuss atspoguļo piegādātāja rēķina dzīves cikla laikā programmā Project Operations.
 
 | Novads | Apraksts | Atļautās pārejas |
 | --- | --- | --- |
-| Melnraksts | Šis stāvoklis ir kreditora rēķina sākotnējais stāvoklis. Līnijas un cenas var tikt mainītas. Kreditora rēķinu šādā stāvoklī var rediģēt un dzēst. | Procesā |
-| Pārskatīšanā | Šis stāvoklis atspoguļo kreditora rēķina apstrādes stāvokli. Vismaz vienai kreditora rēķina rindai verifikācijas statuss **ir Pašlaik**. | Apstiprināts, Aizturēts |
-| Apstiprināts | Šis stāvoklis atspoguļo kreditora rēķina stadiju, kurā lietojumprogramma ir izveidojusi faktiskos izmaksu aprēķinus katrai kreditora rēķina rindai. Visas saistītās izmaksu faktiskās izmaksas, kas tika saskaņotas ar kreditoru rēķina rindām, ir anulētas un aizstātas ar faktiskajām izmaksām no šīm kreditoru rēķinu rindām. Kreditora rēķinu šādā stāvoklī nevar rediģēt vai dzēst. Varat izmantot **pogu Atcelt**, lai atceltu apstiprinātu kreditora rēķinu. Darbība Atcelt apvērš darbības Apstiprināt ietekmi. | Atcelta |
-| Aizturēts | <p>Šis stāvoklis ir kreditora rēķina posms, kurā kreditora rēķins nevar tikt pārvietots rēķina problēmas vai kreditora statusa dēļ. Kreditora rēķinu šādā stāvoklī nevar apstiprināt, atcelt, rediģēt vai dzēst.</p><p>Darbību "Atkārtoti atvērt" varat izmantot, lai kreditora rēķinu pārvietotu uz **melnraksta** vai **recenzijas** stāvokli. Ja vismaz vienai rindai kreditora rēķinā verifikācijas statuss **ir Pabeigts** vai **Pabeigts**, kreditora rēķins tiks atkārtoti atvērts **pārskatīšanas** stāvoklī. Ja visām rindām kreditora rēķinā verifikācijas statuss **ir Nav sākts** **, kreditora rēķins tiks atkārtoti atvērts stāvoklī Melnraksts**.</p> | Melnraksts, tiek pārskatīts |
-| Atcelta | Šī valsts ir apakšuzņēmuma līguma posms, kurā vairs nav nepieciešama faktiska materiālu piegāde un/vai darbs, izmantojot resursus, par kuriem noslēgti apakšlīgumi. Apakšlīgumu šajā štatā nevar izmantot, lai novērtētu un personāla projektu vajadzības pēc resursiem un materiāliem, kā arī nevar atsaukties uz laiku, izdevumiem un materiālu izmantošanu projektā. Apakšlīgumu šādā stāvoklī nevar rediģēt vai izdzēst. | Nevienu |
+| Melnraksts | Šis statuss ir piegādātāja rēķina sākotnējais statuss. Rindas un izcenojums var tikt modificēts. Šajā statusā piegādātāja rēķinu var rediģēt un dzēst. | Procesā |
+| Pārskatīšanā | Šis statuss atspoguļo piegādātāja rēķina apstrādes stāvokli. Vismaz vienai piegādātāja rēķina rindai ir pārbaudes statuss **Norisē**. | Apstiprināts, aizturēts |
+| Apstiprināts | Šis statuss atspoguļo piegādātāja rēķina posmu, kurā lietojumprogramma katrai piegādātāja rēķina rindai ir izveidojusi faktiskās izmaksās. Visas saistītās faktiskās izmaksas, kas tika saskaņotas ar piegādātāja rēķina rindām, ir apgrieztas un aizstātas ar faktiskajām izmaksām no šīm piegādātāja rēķina rindām. Šajā statusā piegādātāja rēķinu nevar rediģēt vai dzēst. Lai atceltu apstiprinātu piegādātāja rēķinu, varat izmantot pogu **Atcelt**. Atcelšanas darbība apgriež apstiprināšanas darbības ietekmi. | Atcelta |
+| Aizturēts | <p>Šis statuss atspoguļo piegādātāja rēķina posmu, kurā piegādātāja rēķinu nevar pārvietot, jo ar rēķinu vai piegādātāja statusu ir radusies problēma. Šajā statusā piegādātāja rēķinu nevar apstiprināt, atcelt, rediģēt vai dzēst.</p><p>Varat izmantot atkārtotas atvēršanas darbību, lai piegādātāja rēķinu pārvietotu uz statusu **Melnraksts** vai **Pārskatīšanā**. Ja vismaz vienai piegādātāja rēķina rindai ir pārbaudes statuss **Norisē** vai **Pabeigts**, piegādātāja rēķins tiks atkārtoti atvērts ar statusu **Pārskatīšanā**. Ja visām piegādātāja rēķina rindām ir pārbaudes statuss **Nav sākts**, piegādātāja rēķins tiek atkārtoti atvērts ar statusu **Melnraksts**.</p> | Melnraksts, pārskatīšanā |
+| Atcelta | Šis statuss atspoguļo apakšlīguma posmu, kurā materiālu un/vai darba faktiskā nodrošināšana, ko veic apakšlīguma resursi, vairs nav nepieciešama. Šajā stāvoklī apakšlīgumu nevar izmantot, lai novērtētu un nokomplektētu projekta prasības resursiem un materiāliem, kā arī tam nevar izveidot atsauci uz laiku, izdevumiem un materiālu lietojumu projektā. Šajā statusā apakšlīgumu nevar rediģēt vai dzēst. | Nevienu |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

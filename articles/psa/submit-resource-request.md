@@ -1,6 +1,6 @@
 ---
 title: Resursa pieprasījuma iesniegšana
-description: Šajā rakstā ir sniegta informācija par projekta resursa pieprasījuma iesniegšanu.
+description: Šajā rakstā ir sniegta informācija par pieprasījuma iesniegšanu par projekta resursu.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

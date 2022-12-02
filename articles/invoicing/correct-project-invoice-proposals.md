@@ -1,6 +1,6 @@
 ---
 title: Projekta rēķina melnraksta priekšlikumu uzskaites labošana
-description: Šajā rakstā paskaidrots, kā koriģēt ar grāmatvedību saistīto informāciju rēķina priekšlikuma projektā.
+description: Šajā rakstā izskaidrots, kā pielāgot ar uzskaiti saistītu informāciju rēķina melnraksta priekšlikumā.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 Projekta rēķinu *Operāciju informāciju* uztur projekta vadītājs pro forma rēķinā. Šī detalizētā informācija ietver lēmumu par stundām, izmaksām, materiāliem vai atskaites punktiem, par kuriem jāizraksta rēķins, likmes, kā arī avansa maksājumu un honorāru summu lietojumu. Pēc sākotnējā pro forma rēķina apstiprināšanas varat pielāgot operāciju informāciju, izveidojot un apstiprinot [labojošo pro forma rēķinu](../proforma-invoicing/corrective-invoices.md).
 
-*Uzskaites informācija* projekta rēķiniem tiek uzturēta pret debitoru vērstā rēķina dokumentā. Šī informācija ietver PVN aprēķinu un rēķinā lietotās finanšu dimensijas. Šajā rakstā sniegta detalizēta informācija par to, kā šo grāmatvedības informāciju var koriģēt projekta rēķina priekšlikuma projektā.
+*Uzskaites informācija* projekta rēķiniem tiek uzturēta pret debitoru vērstā rēķina dokumentā. Šī informācija ietver PVN aprēķinu un rēķinā lietotās finanšu dimensijas. Šajā rakstā ir sniegta detalizēta informācija par to, kā šo uzskaites informāciju var pielāgot projekta rēķina melnrakstā.
 
 ## <a name="adjust-sales-tax"></a>PVN pielāgošana
 
@@ -27,15 +27,15 @@ Noklusējuma norēķinu PVN grupas un krājumu PVN grupas var pielāgot tieši r
 
 ## <a name="adjust-financial-dimensions"></a>Finanšu dimensiju pielāgošana
 
-### <a name="header-dimensions"></a>Galvenes dimensijas
+### <a name="header-dimensions"></a>Galvenes izmēri
 
-Pēc noklusējuma rēķinu finanšu dimensijas tiek atvasinātas no nelīdzenajiem projekta darbību ierakstiem, par kuriem tiek izrakstīts rēķins. Tomēr sistēmas iestatījumi ļauj izmantot finanšu dimensijas projekta rēķinu priekšlikumu virsrakstā, lai grāmatotu debitoru bilances. Lai iespējotu šo funkcionalitāti, lapas Projektu vadība un grāmatvedības parametri **cilnē** Finanses **atlasiet** Atļaut atjaunināt **debitoru** projektu dimensijas.
+Pēc noklusējuma rēķina finanšu dimensijas ir atvasinātas no rēķinā neiekļautajiem projekta transakciju ierakstiem, par kuriem tiek izrakstīts rēķins. Taču sistēmas iestatījumi ļauj projekta rēķinu priekšlikumu galvenē izmantot finanšu dimensijas, lai publicētu klientu bilances. Lai iespējotu šo funkcionalitāti, atlasiet **Atļaut projektu dimensiju atjauninājumus debitoriem** cilnē **Finanšu dati**, kas atrodas lapā **Projektu pārvaldības un uzskaites parametri**.
 
-Finanšu dimensijas rēķinu virsrakstos var labot pirms rēķina iegrāmatošanas. **Lapā Projekta rēķina priekšlikums** pārslēdzieties uz **skatu Virsraksts** un pēc tam rediģējiet vērtības **cilnē Finanšu dimensijas**.
+Rēķinu galveņu finanšu dimensijas var rediģēt pirms rēķina grāmatošanas. Lapā **Projekta rēķinu priekšlikums** pārslēdzieties uz skatu **Galvene** un pēc tam rediģējiet vērtības cilnē **Finanšu dimensijas**.
 
-**Skats Virsraksts** ir pieejams tikai pēc tam, kad sistēmas administrators līdzekļu pārvaldības **darbvietā iespējo** projekta rēķina priekšlikuma un rēķinu žurnāla formu izmantošanu ar skatu **Virsraksts** un rindas. Šim līdzeklim ir nepieciešams finanšu atjauninājums 10.0.25 vai jaunāka versija.
+Skats **Galvene** ir pieejams tikai pēc tam, kad sistēmas administrators iespējo līdzekli **Izmantot Projekta rēķinu priekšlikumu un rēķinu žurnālu veidlapas ar Galvenes un Rindu skatu** darbvietā **Līdzekļu pārvaldība**. Šim līdzeklim ir nepieciešams Finance atjauninājums 10.0.25 vai jaunāka versija.
 
-### <a name="line-dimensions"></a>Rindu dimensijas
+### <a name="line-dimensions"></a>Rindas dimensijas
 
 Finanšu dimensijas nevar rediģēt tieši projekta rēķina priekšlikuma rindā. Tā vietā veiciet tālāk aprakstītās darbības, lai pielāgotu finanšu dimensijas projekta rēķina priekšlikumā.
 

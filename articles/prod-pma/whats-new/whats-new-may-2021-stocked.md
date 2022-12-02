@@ -1,6 +1,6 @@
 ---
 title: Jaunumi vai izmaiņas 2021. gada maijā Project Operations krājumos/ražošanā balstītiem scenārijiem
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations 2021. gada maija laidienā krājumos/uz ražošanu balstītiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par 2021. gada maijā pieejamajiem kvalitātes atjauninājumiem Project Operations krājumos/ražošanā balstītiem scenārijiem.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
@@ -20,7 +20,7 @@ ms.locfileid: "9029401"
 
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
-- Projektu vadība un uzskaite Dynamics 365 Finance vidē versija 10.0.19
+- Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.19.
  
 ### <a name="quality-updates"></a>Kvalitātes atjauninājumi
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ ms.locfileid: "9029401"
 | Komandējumi un izdevumi                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Pastāv sinhronizācijas problēmas ar izdevumu mobilo programmu. 
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par finanšu un operāciju programmu regulatīvajiem atjauninājumiem skatiet sadaļā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties Lifecycle Services (LCS) un skatīt plānotos regulēšanas atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošajiem atjauninājumiem finanšu un operāciju programmās skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties Lifecycle Services (LCS) un skatīt plānotos regulēšanas atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Izstrādes sākumlapa (Project Service Automation 3.x)
-description: Šajā rakstā ir sniegtas saites uz rakstiem, kas sniedz izstrādes informāciju (PSA) versijai Dynamics 365 Project Service Automation 3.x.
+description: Šajā rakstā ir saites uz rakstiem, kuros ir izstrādes informācija Dynamics 365 Project Service Automation (PSA) versijai 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8928993"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x piedāvā jaunus līdzekļus, jaunu platformas iespēju ieviešanu un esošo līdzekļu uzlabojumus dažādās jomās. Šajos rakstos sniegta plašāka informācija par jaunākajā PSA versijā veiktajām izmaiņām:
+Dynamics 365 Project Service Automation 3.x piedāvā jaunus līdzekļus, jaunu platformas iespēju ieviešanu un esošo līdzekļu uzlabojumus dažādās jomās. Tālāk uzskaitītajos rakstos ir sniegta plašāka informācija par izmaiņām, kas ir veiktas ar jaunākajā PSA versijā.
 
 - [Entītiju, vadīklu un lietotāja interfeisa izmaiņas (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Laika un izdevumu izmaiņas (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

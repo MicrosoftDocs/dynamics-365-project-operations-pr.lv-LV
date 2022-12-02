@@ -1,6 +1,6 @@
 ---
 title: Iespējas galvene/kopsavilkums
-description: Šajā rakstā sniegta informācija par projektu darījumiem un uz projektiem balstītām iespēju līnijām.
+description: Šajā rakstā ir sniegta informācija par projekta darījumiem un projekta iespēju rindām.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

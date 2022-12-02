@@ -1,6 +1,6 @@
 ---
 title: Projekta darba grupas dalībnieki
-description: Šajā rakstā ir sniegta informācija par to, kā strādāt ar projekta grupas dalībnieku informāciju, atribūtiem un plānošanu.
+description: Šajā rakstā ir sniegta informācija par to, kā strādāt ar projekta darba grupas dalībnieku informāciju, atribūtiem un plānošanu.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

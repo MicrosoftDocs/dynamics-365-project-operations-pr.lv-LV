@@ -1,6 +1,6 @@
 ---
 title: Projekta izmaksas un ieņēmumi
-description: Šajā rakstā sniegta informācija par projekta izmaksu un ieņēmumu aplēšu.
+description: Šajā rakstā ir sniegta informācija par projekta izmaksu un ieņēmumu prognozēšanu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Projekta pārdošanas un izmaksu aprēķini, kad rezervējamam resursam projektā ir vairākas lomas
-description: Šajā rakstā paskaidrots, kā izmantot cenu dimensijas, lai atbalstītu cenu noteikšanas un izmaksu aprēķinus resursam, kas projektā aizpilda vairākas lomas.
+description: Šajā rakstā ir paskaidrots, kā izmantot cenu noteikšanas dimensijas, lai atbalstītu cenu un izmaksu aprēķinus resursam, kam projektā ir vairākas lomas.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article

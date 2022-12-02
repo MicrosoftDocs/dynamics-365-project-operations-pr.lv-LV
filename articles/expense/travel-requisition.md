@@ -1,6 +1,6 @@
 ---
 title: Ceļojuma pieprasījumi
-description: Šajā rakstā ir sniegta informācija par komandējumu pieprasījumiem.
+description: Šajā rakstā ir sniegta informācija par ceļojuma pieprasījumiem.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

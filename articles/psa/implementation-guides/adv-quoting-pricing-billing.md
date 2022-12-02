@@ -1,6 +1,6 @@
 ---
 title: Paplašinātā piedāvājumu sniegšana, izcenojums un rēķinu izrakstīšana
-description: Šajā rakstā ir sniegta informācija par citēšanu, norēķiniem un cenu noteikšanu projektu pakalpojumu automatizācijā.
+description: Šajā rakstā ir sniegta informācija par piedāvājumu sniegšanu, rēķinu izrakstīšanu un izcenojumu programmā Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921817"
 
 Spēja atrast pareizos resursus īstajā laikā, rezervēt šos resursus projektiem, kā arī uzturēt resursu izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. 
 
-Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz šādiem rakstiem:
+PDF saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz tālāk uzskaitītajiem rakstiem:
 
 - [Piedāvājumu sniegšana, izcenojums un rēķinu izrakstīšana](../quote-bill-price.md)
 - [Pārdošanas procesi](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārviet
 - [Faktisko datu ierakstīšana](../advanced-actuals.md)
 
 > [!NOTE]
-> Šis raksts tiks noņemts nākamajā dokumentācijas atjauninājumā. 
+> Šis raksts tiks noņemts turpmākā dokumentācijas atjauninājumā. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Cenrāžu kopēšana
-description: Šajā rakstā ir sniegta informācija par cenrāžu kopēšanu projekta operācijās.
+description: Šajā rakstā ir sniegta informācija par cenrāžu kopēšanu risinājumā Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

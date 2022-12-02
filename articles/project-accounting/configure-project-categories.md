@@ -1,6 +1,6 @@
 ---
 title: Projekta kategoriju iestatīšana
-description: Šajā rakstā ir sniegta informācija par projektu kategoriju iestatīšanu.
+description: Šajā rakstā ir sniegta informācija par projekta kategoriju iestatīšanu.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Darījumu kategorijas tiek definētas Project Operations modulī.
 
 ## <a name="shared-categories"></a>Koplietotās kategorijas
 
-Dynamics 365 izmanto koplietojamo kategoriju koncepciju, lai kategorizētu izdevumus dažādās lietojumprogrammās, piemēram, Dynamics 365 Finance, Dynamics 365 Supply Chain un Dynamics 365 Project Operations. Katrai izveidotajai Darījumu kategorijai Project Operations automātiski izveido četras saistītas Koplietotās kategorijas: Stundas, Izdevumi, Maksas un Vienums. Varat pārskatīt un pielāgot koplietotās kategorijas, atverot **Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Kategorijas** \> **Koplietotās kategorijas**.
+Dynamics 365 izmanto Koplietoto kategoriju koncepciju, lai kategorizētu izdevumus dažādās programmās, piemēram, Dynamics 365 Finance, Dynamics 365 Supply Chain un Dynamics 365 Project Operations. Katrai izveidotajai Darījumu kategorijai Project Operations automātiski izveido četras saistītas Koplietotās kategorijas: Stundas, Izdevumi, Maksas un Vienums. Varat pārskatīt un pielāgot koplietotās kategorijas, atverot **Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Kategorijas** \> **Koplietotās kategorijas**.
 
 ## <a name="project-categories"></a>Projektu kategorijas
 

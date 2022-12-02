@@ -1,6 +1,6 @@
 ---
 title: Risinājuma izveide pielāgotām cenu noteikšanas dimensijām
-description: Šajā rakstā ir sniegta informācija par to, kā izveidot risinājumus pielāgotām cenu kategorijām.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot risinājumus pielāgotām cenu noteikšanas dimensijām.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

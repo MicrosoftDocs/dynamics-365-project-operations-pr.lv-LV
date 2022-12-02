@@ -1,6 +1,6 @@
 ---
 title: Honorāra vai avansa rēķina izrakstīšana
-description: Šajā rakstā ir sniegta informācija par to, kā izrakstīt rēķinus aizturētājam vai avansam projekta operācijās.
+description: Šajā rakstā sniegta informācija par to, kā programmā Project Operations izrakstīt rēķinus par honorāru vai avansu.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

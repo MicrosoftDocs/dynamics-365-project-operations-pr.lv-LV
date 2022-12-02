@@ -1,6 +1,6 @@
 ---
-title: Sagādes kategoriju izmantošana ar projektu pirkšanas pasūtījumiem un gaidošiem kreditoru rēķiniem
-description: Šajā rakstā ir aprakstīts, kā konfigurēt sagādes kategorijas, ko var izmantot ar projektu pirkšanas pasūtījumiem un gaidošajiem kreditoru rēķiniem.
+title: Iepirkumu kategoriju izmantošana ar projekta pirkuma pasūtījumiem un neizpildītiem piegādātāja rēķiniem
+description: Šajā rakstā ir aprakstīts, kā konfigurēt iepirkuma kategorijas, ko var izmantot ar projekta pirkuma pasūtījumiem un neizpildītiem piegādātāja rēķiniem.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
@@ -14,42 +14,42 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028619"
 ---
-# <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Sagādes kategoriju izmantošana ar projektu pirkšanas pasūtījumiem un gaidošiem kreditoru rēķiniem
+# <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Iepirkumu kategoriju izmantošana ar projekta pirkuma pasūtījumiem un neizpildītiem piegādātāja rēķiniem
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Iepirkumu speciālisti var izveidot un uzturēt to krājumu un pakalpojumu katalogus, kurus var izmantot projektu pirkšanas pasūtījumos un gaidošos kreditoru rēķinos. [Sagādes katalogi](/dynamics365/supply-chain/procurement/procurement-catalogs) sniedz vienkāršu veidu, kā kategorizēt pirkumus, nekonfigurējot un neizmantojot izlaisto preču katalogu. Katru sagādes kategoriju var kartēt uz projekta kategoriju laika, izdevumu vai krājumu transakcijām. Pēc tam, kad tiek grāmatots gaidošs kreditora rēķins, kurā tiek izmantota sagādes kategorija, sistēma izveidos laika, izdevumu vai materiālu projekta faktiskos datus, projekta transakcijas un apakšzemes ierakstus.
+Iepirkumu speciālisti var izveidot un uzturēt preču un pakalpojumu katalogus, ko var izmantot projekta pirkumu pasūtījumos un neizpildītos piegādātāja rēķinos. [Iepirkumu katalogi](/dynamics365/supply-chain/procurement/procurement-catalogs) sniedz vienkāršu veidu, kā kategorizēt pirkumus bez nepieciešamības konfigurēt un izmantot izlaistu produktu katalogu. Katru iepirkuma kategoriju var kartēt uz projekta kategoriju laika, izmaksu vai preču transakcijām. Pēc tam, kad ir iegrāmatots neizpildīts rēķins, kurā izmantota iepirkumu kategorija, sistēma izveido laika, izmaksu vai materiālu projekta faktiskos datus, projekta transakcijas un apakšgrāmatas ierakstus.
 
-## <a name="minimum-version-requirements"></a>Minimālās versijas prasības
+## <a name="minimum-version-requirements"></a>Nepieciešamās minimālās prasības
 
-Tālāk norādītās versijas ir nepieciešamas, lai izmantotu sagādes kategorijas ar projektu pirkšanas pasūtījumiem Microsoft Dynamics 365 Project Operations scenārijiem, kuru pamatā nav krājumu/resursu:
+Lai izmantotu iepirkumu kategorijas ar projekta pirkumu pasūtījumiem Microsoft Dynamics 365 Project Operations krājumos neesošo materiālu/uz resursiem balstītos scenārijos, ir nepieciešamas tālāk norādītās versijas.
 
 - Project Operations Dataverse risinājuma versija 4.41.0.45 vai jaunāka
-- Finance and operations vides versija 10.0.26 vai jaunāka
+- Finanšu un operāciju vides versija 10.0.26 vai jaunāka
 
-## <a name="run-dual-write-maps-for-procurement-category-support"></a>Divrakstu karšu palaišana sagādes kategoriju atbalstam
+## <a name="run-dual-write-maps-for-procurement-category-support"></a>Duālās rakstīšanas karšu palaišana iepirkumu kategoriju atbalstam
 
-Pārliecinieties, vai Project Operations integrācijas **projekta kreditora rēķina rindas eksportēšanas entītijas msdyn\_ projectvendorinvoicelines** kartēšanā tiek izmantota 1.0.0.4 vai jaunāka versija.
+Pārliecinieties, ka **Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija msdyn\_projectvendorinvoicelines** izmanto versiju 1.0.0.4 vai jaunāku.
 
-## <a name="enable-the-feature-key-for-procurement-categories"></a>Līdzekļa atslēgas iespējošana sagādes kategorijām
+## <a name="enable-the-feature-key-for-procurement-categories"></a>Līdzekļa atslēgas iespējošana iepirkumu kategorijām
 
-Veiciet šīs darbības, lai iespējotu funkcionalitāti sagādes kategoriju izmantošanai projektu pirkšanas pasūtījumos.
+Veiciet šīs darbības, lai iespējotu funkcionalitāti iepirkumu kategoriju izmantošanai ar projekta pirkumu pasūtījumiem.
 
 1. Programmā Dynamics 365 Finance atveriet darbvietu **Līdzekļu pārvaldība**.
-1. Līdzekļu sarakstā atrodiet **līdzekli Izmantot sagādes kategorijas project operations for resource based/non-stocked scenarios** un pēc tam atlasiet **Enable (Iespējot**).
+1. Līdzekļu sarakstā atrodiet līdzekli **Izmantot iepirkumu kategorijas programmā Project Operations uz resursiem balstītu/krājumos neesošu materiālu scenārijiem** un pēc tam atlasiet **Iespējot**.
 
 > [!IMPORTANT]
-> Kā priekšnosacījums ir arī jāiespējo **līdzeklis Iespējot gaidošos kreditoru rēķinus project operations uz resursiem balstītiem/neiekrātiem scenārijiem**.
+> Kā priekšnoteikums ir jāiespējo arī līdzeklis **Iespējot neapstiprināto piegādātāju rēķinus risinājumā Project Operations uz resursiem balstītiem/krājumos neesošu materiālu scenārijiem**.
 
-## <a name="map-project-categories-in-the-procurement-category-hierarchy"></a>Projektu kategoriju kartēšana sagādes kategoriju hierarhijā
+## <a name="map-project-categories-in-the-procurement-category-hierarchy"></a>Projektu kategoriju kartēšana iepirkumu kategoriju hierarhijā
 
-Veiciet tālāk norādītās darbības, lai sagādes kategoriju **hierarhijā projektu kategorijas** kartētu uz sagādes kategorijām.
+Izpildiet šīs darbības, lai kartētu projekta kategorijas uz iepirkumu kategorijām hierarhijā **Iepirkumu kategorija**.
 
-1. Dodieties uz **sagādes un sagādes \> sagādes kategorijām**.
+1. Pārejiet uz **Sagāde un avoti \> Iepirkumu kategorijas**.
 1. Atlasiet **Rediģēt kategoriju hierarhiju**.
-1. Atlasiet vajadzīgo kategoriju hierarhijas mezglu un pēc tam **cilnē Piešķirt projekta kategorijas** saistiet mezglu ar projekta kategoriju no **kategorijas Laiks**, **Izdevumi** vai **Krājuma projekts** (tas ir, **kategorijas Noklusētais laiks** vai **Noklusējuma izdevumi**).
+1. Atlasiet vēlamo kategorijas hierarhijas mezglu un pēc tam cilni **Piešķirt projekta kategorijas**, saistiet mezglu ar projekta kategoriju no kategorijas **Laiks**, **Izdevumi** vai **Preču projekts** (proti, kategorijas **Noklusējums - laiks** vai **Noklusējums - izdevumi**).
 1. Atlasiet **Saglabāt**.
 1. Aizveriet lapu.
 
 > [!NOTE]
-> Sagādes kategorijas kartēšana uz projekta kategoriju nav obligāta. Ja sagādes kategorija nav kartēta, sistēma izmantos vērtību, kas ir iestatīta **lapas Projekta vadības un grāmatvedības parametri** cilnes **Project Operations on Dynamics 365 Customer Engagement sadaļas Project Operations on Dynamics 365 Customer Engagement** laukā **Krājums** **·**.
+> Iepirkumu kategorijas kartēšana uz projekta kategoriju nav obligāta. Ja iepirkumu kategorija nav kartēta, sistēma izmantos vērtību, kas ir iestatīta laukā **Vienums** sadaļā **Projektu kategoriju noklusējumi** cilnē **Project Operations pakalpojumā Dynamics 365 Customer Engagement**, kas atrodas lapā **Projekta pārvaldības un uzskaites parametri**.

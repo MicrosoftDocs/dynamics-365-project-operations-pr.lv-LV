@@ -1,6 +1,6 @@
 ---
 title: Izmaksu un pārdošanas likmju iestatīšana izdevumiem
-description: Šajā rakstā sniegta informācija par to, kā iestatīt izmaksu un pārdošanas kursus darbību un izdevumu kategorijām.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt izmaksu un pārdošanas likmes darbību un izdevumu kategorijām.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

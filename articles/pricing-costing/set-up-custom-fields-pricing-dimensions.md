@@ -1,6 +1,6 @@
 ---
 title: Pielāgotu lauku kā cenu kategoriju iestatīšana
-description: Šajā rakstā sniegta informācija par to, kā iestatīt cenu kategorijas, izmantojot pielāgotus laukus.
+description: Šajā rakstā sniegta informācija par to, kā iestatīt cenu noteikšanas dimensijas, izmantojot pielāgotus laukus.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917585"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Pirms sākat darbu, šajā rakstā tiek pieņemts, ka esat pabeidzis rakstos norādītās darbības, [Izveidot pielāgotus laukus un entītijas](create-custom-fields-entities-pricing-dimensions.md) un [Pievienot nepieciešamos pielāgotos laukus cenu iestatīšanai un transakciju entītijām](add-custom-fields-price-setup-transactional-entities.md). Ja neesat pabeidzis šīs procedūras, atgriezieties un pabeidziet tās un pēc tam atgriezieties pie šī raksta. 
+Pirms darba sākšanas šajā rakstā tiek pieņemts, ka esat pabeidzis procedūras, kas norādītas rakstos [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities-pricing-dimensions.md) un [Obligāto pielāgoto lauku pievienošana cenu iestatījumiem un transakciju entītijām](add-custom-fields-price-setup-transactional-entities.md). Ja šīs procedūras neesat pabeidzis, atgriezieties un pabeidziet tās, un pēc tam atgriezieties pie šī raksta. 
 
-Šajā rakstā sniegta informācija par pielāgotu cenu kategoriju iestatīšanu. Lapas **Parametri** cilnē **Summā balstītas cenu noteikšanas dimensijas** tiek rādīti ieraksti cenu noteikšanas dimensiju entitījās. Šajā cilnē pēc noklusējuma režģī ir divas rindas:
+Šajā rakstā ir sniegta informācija par pielāgotu cenu noteikšanas dimensiju iestatīšanu. Lapas **Parametri** cilnē **Summā balstītas cenu noteikšanas dimensijas** tiek rādīti ieraksti cenu noteikšanas dimensiju entitījās. Šajā cilnē pēc noklusējuma režģī ir divas rindas:
 
 - **msdyn_resourcecategory** (Loma);
 - **msdyn_OrganizationalUnit** (Organizācijas struktūrvienība).

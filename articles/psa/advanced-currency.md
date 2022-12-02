@@ -1,6 +1,6 @@
 ---
 title: Vairāku valūtu scenāriji (versija 3.x)
-description: Šajā rakstā sniegta informācija par vairāku valūtu scenārijiem.
+description: Šajā rakstā ir sniegta informācija par vairāku valūtu scenārijiem.
 author: rumant
 ms.custom:
 - dyn365-projectservice

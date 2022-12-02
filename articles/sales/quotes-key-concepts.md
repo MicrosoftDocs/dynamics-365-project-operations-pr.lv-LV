@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumi — pamata koncepti
-description: Šajā rakstā sniegta informācija par projekta piedāvājumiem un pārdošanas piedāvājumiem, kas pieejami projekta operācijās.
+description: Šajā rakstā sniegta informācija par projektu piedāvājumiem un pārdošanas piedāvājumiem, kas pieejami Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Programmā Dynamics 365 Project Operations ir divu tipu piedāvājumi — proje
 - **Lauki un koncepti**: Pārdošanas piedāvājumā nav iekļauti daži lauki un koncepcijas, kas ir iekļautas projekta piedāvājumā. Šie lauki ir, piemēram, **Līgumslēdzēja struktūrvienība**, **Uzņēmumu pārvaldnieks** un **Rēķina saņēmēja kontaktpersonas vārds**.  
 - **Veids**: Pārdošanas piedāvājumus un projekta piedāvājumus norāda arī pēc opciju kopā balstīta lauka **Veids**. Pārdošanas piedāvājumā šim laukam ir vērtība **Balstīts uz elementu**. Projekta piedāvājumā tam ir vērtība **Balstīts uz darbu**.
 
-Šajā rakstā galvenā uzmanība pievērsta detalizētai informācijai par projektu piedāvājumiem.
+Šajā rakstā galvenā uzmanība tiks pievērsta detalizētai informācijai par projekta piedāvājumiem.
 
 Projekta piedāvājumam Project Operations var būt vairāki rindas elementi vai piedāvājuma rindas. Projekta piedāvājumā ir divi režģi rindas elementiem. Viens režģis ir paredzēts uz projektu balstītām rindām, kas nodrošina detalizētus novērtējumus. Otrs režģis ir paredzēts uz preci balstītām rindām, kas izmanto vienkāršu vienības cenas un uz daudzumu balstītu metodi.
 

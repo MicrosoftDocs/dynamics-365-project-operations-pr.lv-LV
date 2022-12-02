@@ -1,6 +1,6 @@
 ---
 title: Jaunumi 2021. gada augustā — Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada augusta projekta operāciju laidienā uz resursiem/neuzkrātiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par 2021. gada augustā pieejamajiem kvalitātes atjauninājumiem Project Operations resursos / noliktavā neesošos krājumos balstītiem scenārijiem.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -21,7 +21,7 @@ ms.locfileid: "8912295"
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Microsoft Dataverse vides versijā 4.13.0.152.
-   - Projektu vadība un grāmatvedība Dynamics 365 Finance vides versijā 10.0.20.
+   - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -54,7 +54,7 @@ Ja, sākot karti, rodas problēma, izpildiet instrukcijas dubultās rakstīšana
 | Laiks un izdevumi | 2336884 | Laika ievades pogai **Kopēt nedēļu** ir jādarbojas vairāk nekā tikai pašreizējam lietotājam. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu vadība un uzskaite Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu pārvaldība un uzskaite programmā Dynamics 365 Finance
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |

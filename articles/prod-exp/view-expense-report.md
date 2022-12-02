@@ -1,6 +1,6 @@
 ---
 title: Skatīt izdevumu pārskatu no virsgrāmatas vai sagādes un avotiem
-description: Šajā rakstā paskaidrots, kā skatīt sākotnējo izdevumu pārskatu, kurā parādījās darbība.
+description: Šajā rakstā izskaidrots, kā skatīt sākotnējo izmaksu atskaiti, kurā tika parādīta transakcija.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

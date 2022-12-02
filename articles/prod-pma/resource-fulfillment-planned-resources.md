@@ -1,6 +1,6 @@
 ---
 title: Resursa izpilde plānotiem resursiem
-description: Šajā rakstā sniegta informācija par plānotajiem resursiem projektam.
+description: Šajā rakstā ir sniegta informācija par projekta plānotajiem resursiem.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

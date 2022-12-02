@@ -1,6 +1,6 @@
 ---
 title: Apakšlīguma rindas izdevumu kategorijām
-description: Šajā rakstā ir paskaidrots, kā ierakstīt apakšuzņēmuma līgumu rindas par izdevumiem un izmantot laukus, lai reģistrētu laika iegādi no kreditoriem.
+description: Šajā rakstā paskaidrots, kā reģistrēt apakšlīguma izdevumu rindas un izmantot laukus, lai reģistrētu laika iegādi no piegādātājiem.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

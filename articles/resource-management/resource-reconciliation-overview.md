@@ -1,6 +1,6 @@
 ---
 title: Resursu saskaņošanas pārskats
-description: Šajā rakstā ir sniegta informācija, kas palīdzēs nodrošināt resursu rezervāciju un projektu uzdevumu saskaņošanu.
+description: Šajā rakstā ir sniegta informācija, kas palīdzēs nodrošināt, ka projektu resursu rezervācijas un projektu piešķire ir saskaņoti.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

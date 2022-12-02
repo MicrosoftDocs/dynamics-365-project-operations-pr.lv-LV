@@ -30,7 +30,7 @@ ms.locfileid: "8919241"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Kad vienumi ir konfigurēti iepriekšējos rakstos, ir jāiestata papildu projekta parametri, ko izmantot saviem projektiem. Kad pirmoreiz instalējāt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], jūs izveidojāt parametru iestatījumu, visu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] darbībai vajadzīgo ierakstu pirmajai izveidei. Tagad ir pienācis laiks doties atpakaļ un konfigurēt papildu laukus šiem iestatījumiem.  
+Kad esat konfigurējis vienumus iepriekšējos rakstos, jums jāiestata papildu projekta parametri, ko izmantot jūsu projektiem. Kad pirmoreiz instalējāt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], jūs izveidojāt parametru iestatījumu, visu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] darbībai vajadzīgo ierakstu pirmajai izveidei. Tagad ir pienācis laiks doties atpakaļ un konfigurēt papildu laukus šiem iestatījumiem.  
   
  Jums jābūt konfigurētiem šādiem iestatījumiem.  
   

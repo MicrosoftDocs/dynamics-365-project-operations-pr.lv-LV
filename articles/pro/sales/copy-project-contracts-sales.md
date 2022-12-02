@@ -1,6 +1,6 @@
 ---
 title: Projekta līgumu kopēšana
-description: Šajā rakstā ir sniegta informācija par projektu līgumu kopēšanu programmā Project Operations.
+description: Šajā rakstā ir sniegta informācija par projekta līgumu kopēšanu risinājumā Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

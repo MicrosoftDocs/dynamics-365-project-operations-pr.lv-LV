@@ -1,6 +1,6 @@
 ---
 title: Kopsavilkuma informācija par projekta piedāvājumu — Lite
-description: Šajā rakstā ir sniegta informācija par informāciju un iestatījumiem, kas attiecas uz projektu piedāvājumiem un ietekmē tos. (Sales)
+description: Šajā rakstā ir sniegta informācija par iestatījumiem un informāciju, kas attiecas uz projekta piedāvājumiem un ietekmē tos. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

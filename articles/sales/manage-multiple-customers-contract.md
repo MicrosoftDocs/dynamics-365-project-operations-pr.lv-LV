@@ -1,6 +1,6 @@
 ---
 title: Vairāku klientu pārvaldība projekta līgumos
-description: Šajā rakstā sniegta informācija par to, kā pārvaldīt vairākus debitorus projekta līgumā.
+description: Šajā rakstā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumā.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "8928349"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Vairāku klientu pārvaldība projekta līgumos
 
-Šajā rakstā sniegta informācija par to, kā pārvaldīt vairākus debitorus projekta līgumā. Ja darījuma finansēšanai ir nepieciešams līgums, kurā ir iesaistīti vairāki klienti, var izmantot projekta līgumu. Lapas **Projekta līgums** cilnē **Kopsavilkums** ir iekļauta informācija par darījuma primāro klientu. Citus klientus, kas piedalās darījumā, var pievienot cilnē **Klienti**.
+Šajā rakstā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumā. Ja darījuma finansēšanai ir nepieciešams līgums, kurā ir iesaistīti vairāki klienti, var izmantot projekta līgumu. Lapas **Projekta līgums** cilnē **Kopsavilkums** ir iekļauta informācija par darījuma primāro klientu. Citus klientus, kas piedalās darījumā, var pievienot cilnē **Klienti**.
 
 Visi līguma klienti projekta līguma cilnē **Klienti** pēc noklusējuma ir arī līguma rindu klienti visās jaunajās projekta līguma rindās, kas izveidotas šim projekta līgumam. Esošās projekta līguma rindas nemanto jaunus līguma klientu ierakstus, kas tiek izveidoti vēlāk.
 

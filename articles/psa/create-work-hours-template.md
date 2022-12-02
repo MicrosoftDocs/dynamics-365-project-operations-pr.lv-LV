@@ -1,6 +1,6 @@
 ---
 title: Darba stundu veidnes izveide
-description: Šajā rakstā aprakstīts, kā izveidot darba laika veidni pakalpojumā Project Service.
+description: Šajā rakstā ir aprakstīts, kā izveidot darba stundu veidni programmā Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

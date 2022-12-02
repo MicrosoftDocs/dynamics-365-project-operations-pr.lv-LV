@@ -1,6 +1,6 @@
 ---
 title: Valūta
-description: Šajā rakstā sniegta informācija par to, kā pievienot un noņemt valūtu tipus projektu operācijās.
+description: Šajā rakstā sniegta informācija par to, kā pievienot un noņemt valūtu veidus programmā Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

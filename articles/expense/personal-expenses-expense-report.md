@@ -1,6 +1,6 @@
 ---
 title: Darbs ar personīgajiem izdevumiem izdevumu atskaitē
-description: Šajā rakstā sniegta informācija par to, kā strādāt ar personīgajiem izdevumiem, kas darbiniekiem radušies, ceļojot biznesa nolūkos.
+description: Šajā rakstā sniegta informācija par to, kā strādāt ar personīgajiem izdevumiem, kas darbiniekiem radušies, ceļojot darba vajadzībām.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

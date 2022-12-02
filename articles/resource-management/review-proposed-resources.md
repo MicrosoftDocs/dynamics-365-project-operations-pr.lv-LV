@@ -40,8 +40,8 @@ Lai pārskatītu piedāvātos resursus, izpildiet šīs darbības.
     Tiek veikti šādi statusa atjauninājumi:
 
     - Lapā **Plānošanas palīgs** statusa indikatori tiek atjaunināti, lai norādītu, ka rezervācija ir piedāvāta, nevis stingri rezervēta.
-    - Pēc resursu pieprasījuma pieprasījuma recenzentam ir jāmaina statuss uz **Vajadzību pārskatīšana**.
-    - **Projekta cilnē Darba grupa** vispārējā grupas dalībnieka vērtība Pieprasīt statusu **tiek automātiski mainīta** uz **Vajadzību pārskatīšana**.
+    - Pēc resursa pieprasījuma pieprasījuma pārskatītāja statusam vajadzētu tikt mainītam uz **Vajadzīga pārskatīšana**.
+    - Projekta cilnē **Darba grupa** vērtība vispārējā darba grupas dalībnieka vienumam **Pieprasījuma statuss** tiek automātiski mainīta uz **Nepieciešama pārskatīšana**.
 
 Projekta vadītājs var pieņemt vai noraidīt piedāvājumu.
 

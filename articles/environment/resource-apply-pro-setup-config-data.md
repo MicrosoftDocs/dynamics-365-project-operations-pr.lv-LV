@@ -21,10 +21,10 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 ## <a name="prerequisites"></a>Priekšnoteikumi
 
-Pirms sākat konfigurēt datus, Microsoft Dataverse ir jāizpilda šādi priekšnosacījumi:
+Pirms varat sākt datu konfigurēšanu Microsoft Dataverse, ir jāizpilda tālāk norādītie priekšnosacījumi.
 
-1.  Dataverse Nodrošiniet vidi un Dynamics 365 Finance vidi projektu darbībām.
-2.  Juridiskās personas informācija no Dynamics 365 Finance tiek kopīgota ar Dataverse vidi. Tas nozīmē, ka **uzņēmuma** vienībai Dataverse ir šādi uzņēmuma ieraksti:
+1.  Nodrošināt Dataverse vidi un Dynamics 365 Finance vidi risinājumam Project Operations.
+2.  Juridiskā informācija no Dynamics 365 Finance tiek kopīgota Dataverse vidē. Tas nozīmē, ka entītijai **Uzņēmums** pakalpojumā Dataverse ir šādi uzņēmumu ieraksti:
   - THPM
   - USPM
   - GBPM

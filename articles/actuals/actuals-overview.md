@@ -1,6 +1,6 @@
 ---
 title: Faktiskie dati
-description: Šajā rakstā sniegta informācija par to, kā strādāt ar Microsoft faktiskajiem datiem Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par to, kā veikt darbības ar faktiskajiem darbiem programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -24,20 +24,20 @@ ms.locfileid: "8924807"
 
 _**Attiecas uz:** Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem, Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu_
 
-Faktiskie dati attiecas uz pārskatīto un apstiprināto finanšu un plānošanas norisi projektā. Tie tiek izveidoti, kad tiek apstiprināti laika, izdevumu un materiālu lietojuma ieraksti, žurnāla ieraksti un rēķini.
+Faktiskie dati attiecas uz pārskatīto un apstiprināto finanšu un plānošanas norisi projektā. Tie tiek izveidoti, kad tiek apstiprināti laika, izmaksu un materiālu lietojuma ieraksti, žurnālu ieraksti un rēķini.
 
 > [!IMPORTANT]
-> Faktiskos datus nedrīkst rediģēt vai dzēst no sistēmas. Pretējā gadījumā var tikt negatīvi ietekmēta finanšu integritāte un jebkāda integrācija ar citām finanšu un grāmatvedības sistēmām. Microsoft Dynamics 365 Project Operations ļauj izmantot faktisko izdevumu atpakaļgaitu un aizstāšanu, lai rediģētu faktiskos datus dažādos projektu biznesa procesa dzīves cikla punktos.
+> Faktiskos datus nedrīkst rediģēt vai dzēst no sistēmas. Pretējā gadījumā var tikt ietekmēta finanšu integritāte un integrācija ar citām finanšu un grāmatvedības sistēmām. Microsoft Dynamics 365 Project Operations ļauj izmantot faktisko datu atsaukšanu un aizstāšanu, lai rediģētu faktiskos datus dažādos projekta biznesa procesa dzīves cikla punktos.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Faktisko datu ierakstīšana, pamatojoties uz projekta notikumiem
 
-Projekta operācijas reģistrē finanšu darbības, kas notiek projekta iesaistes dzīves cikla laikā, kā faktiskās. Faktisko datu izveide dažādos dzīves cikla notikumos atšķiras atkarībā no tā, vai projekta iesaistē tiek izmantots laika un materiālu norēķinu modelis vai fiksētas cenas norēķinu modelis, un vai tas ir pirmspārdošanas posmā vai tas ir iekšējs projekts.
+Project Operations ieraksta finanšu transakcijas, kas notiek projekta darbības dzīves cikla laikā, kā faktiskos datus. Faktisko datu izveide dažādos dzīves cikla notikumos atšķiras atkarībā no tā, vai projekta darbības laikā tiek izmantots laika un materiālu norēķinu modelis vai fiksētas cenas norēķinu modelis, kā arī no tā, vai tas ir pirmspārdošanas posms vai iekšējs projekts.
 
-Šajos rakstos ir izskaidrota dažādu variāciju ietekme uz tabulu Faktiskie fakti dažādos notikumos:
+Tālāk sniegtajos rakstos ir izskaidrots, kāda būs ietekme uz faktisko datu tabulu dažādos notikumos dažādās atšķirīgās situācijās.
 
-- [Faktiskā ietekme laikā un materiālu iesaiste](ActualsonTM.md)
-- [Faktiskā ietekme fiksētas cenas piesaistīšanā](ActualonFP.md)
-- [Faktiskā ietekme iesaistīšanās pirmspārdošanas posmā](ActualonPreSales.md)
-- [Iekšējā projekta faktiskā ietekme](ActualonInternal.md)
+- [Datu ietekme uz laiku un materiālu piesaisti](ActualsonTM.md)
+- [Datu ietekme uz fiksētu cenu piesaistīšanu](ActualonFP.md)
+- [Datu ietekme pirms pārdošanas piesaistes posmā](ActualonPreSales.md)
+- [Datu ietekme uz iekšējo projektu](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

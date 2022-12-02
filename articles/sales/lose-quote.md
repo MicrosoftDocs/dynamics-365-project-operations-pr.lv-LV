@@ -1,6 +1,6 @@
 ---
 title: Projekta piedāvājumu kopēšana
-description: Šajā rakstā ir sniegta informācija par to, kā kopēt uz projektiem balstītus piedāvājumus projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par projekta piedāvājumu kopēšanu Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekta līgumi — pamata koncepti — Lite
-description: Šajā rakstā sniegta informācija par projektu līgumu galvenajiem jēdzieniem.
+description: Šajā rakstā ir sniegta informācija par projekta līgumu pamata konceptiem.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 
 
 
-Šajā rakstā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus Dynamics 365 Project Operations programmā :
+Šajā rakstā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus programmā Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Līgumslēdzēja vienība
 

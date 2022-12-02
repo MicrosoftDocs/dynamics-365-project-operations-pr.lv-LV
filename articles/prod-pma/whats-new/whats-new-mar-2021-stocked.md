@@ -1,6 +1,6 @@
 ---
 title: Jaunumi vai izmaiņas 2021. gada martā — Project Operations krājumu/ražošanas scenārijiem
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada marta laidienā Project Operations krājumos/ražošanas scenārijos.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada marta Project Operations laidienam, kas paredzēts krājumu/ražošanas scenārijiem.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
-- Projektu vadīšana un uzskaite Dynamics 365 Finance vidē versija 10.0.17
+- Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.17.
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 Šajā laidienā ir ietverti tālāk minētie līdzekļi.
@@ -121,7 +121,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas ir balstīti uz krājumie
 | Projektu pārvaldība un uzskaite | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Mantotā darba sadalījuma struktūras (WBS) klases metode, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, ir novecojusi.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par finanšu un operāciju programmu regulatīvajiem atjauninājumiem skatiet sadaļā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošajiem atjauninājumiem finanšu un operāciju programmās skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

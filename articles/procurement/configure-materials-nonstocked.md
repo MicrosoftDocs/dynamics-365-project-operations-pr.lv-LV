@@ -1,6 +1,6 @@
 ---
 title: Krājumos neesošu materiālu un neapstiprinātu piegādātāju rēķinu konfigurēšana
-description: Šajā rakstā paskaidrots, kā iespējot neuzkrājamos materiālus un gaidošos kreditoru rēķinus.
+description: Šajā rakstā ir izskaidrots, kā iespējot krājumos neesošus materiālus un neapstiprinātus piegādātāju rēķinus.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Duālās rakstīšanas karšu palaišana krājumos neesošu materiālu un piegādātāju rēķinu integrēšanai
 
-Šajā sadaļā ir sniegta informācija par konkrētām kartēm, kas nepieciešamas krājumos neesošiem materiāliem un piegādātāju rēķiniem. Pārbaudiet, vai jūsu vidē darbojas priekšnosacījumu kartes, [kas norādītas rakstā Nodrošinājums, kurā darbojas jauns vides](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) raksts.
+Šajā sadaļā ir sniegta informācija par konkrētām kartēm, kas nepieciešamas krājumos neesošiem materiāliem un piegādātāju rēķiniem. Pārbaudiet, vai jūsu vidē darbojas rakstā [Jaunas vides nodrošināšana](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) uzskaitītās priekšnosacījuma kartes.
 
 1. Dodieties uz Lifecycle Services (LCS), pārejiet uz savu LCS projektu un atveriet lapu **Vides informācija**.
 2. Sadaļā **Common Data Service vides informācija** atlasiet **Saite uz CDS programmām**. Pēc saites atlasīšanas tiksit novirzīts uz entītiju sarakstu kartējumos.

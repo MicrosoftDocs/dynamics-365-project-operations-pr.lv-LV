@@ -1,6 +1,6 @@
 ---
 title: Jaunumi 2022. gada martā — Project Operations resursu/bez krājumu pamatotiem scenārijiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2022. gada marta projekta operāciju laidienā resursu/neuzkrātiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami 2022. gada marta laidienā Project Operations resursu/bez krājumu scenārijiem.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
@@ -20,24 +20,24 @@ ms.locfileid: "8910915"
 
 Šis raksts attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
 
-- Projekta operācijas Dataverse vides versijā 4.30.0.99
-- Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.25
+- Project Operations Dataverse vides versijā 4.30.0.99
+- Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.25.
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
-Dienasnauda tagad tiek atbalstīta jaunajā un pārveidotajā mūsdienu izdevumu darbvietā. Uzņēmumi, kas izmanto dienasnaudu, var iespējot šo funkciju, lai lietotājiem būtu vienkāršs veids, kā iesniegt un saņemt atlīdzību par dienasnaudas izdevumiem. Plašāku informāciju skatiet [Per dienasnaudas izdevumos](../expense/per-diem-expenses.md).
+Tagad dienasnaudas tiek atbalstītas jaunajā un pārstrādātajā modernajā izdevumu darbvietā. Uzņēmumi, kas izmanto dienasnaudas, var iespējot šo līdzekli, lai lietotājiem nodrošinātu vienkāršu veidu, kā iesniegt pieteikumus un saņemt atlīdzību par viņu dienasnaudas izdevumiem. Papildinformāciju skatiet tēmā [Dienasnauda](../expense/per-diem-expenses.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations duālās rakstīšanas karšu atjauninājumi
 
-Šajā sarakstā ir parādītas duālās rakstīšanas kartes, kas ir modificētas vai pievienotas projekta operāciju 2022. gada marta laidienā.
+Tālāk redzamajā sarakstā ir parādītas duālās rakstīšanas kartes, kas ir modificētas vai pievienotas Project Operations 2022. gada marta laidienā.
 
 | **Entītiju karte** | **Atjauninātā versija** | **Komentāri** |
 | --- | --- | --- |
-| Projekta operāciju integrācija projekta kreditora rēķina rindas eksporta entītija msdyn\_ projectvendorinvoicelines | 1.0.0.3 | Kartējumi atjaunināti, lai līdzinātos ar kreditora rēķina rindas entītiju programmā Dataverse. <br>Neaktivizējiet kartēšanas versiju 1.0.0.4. Tas būs gatavs lietošanai kombinācijā ar Finance vides versiju 10.0.26 nākamajā ikmēneša atjauninājumā. |
+| Project Operations integrācijas projekta piegādātāju rēķinu rindu eksportēšanas entītija msdyn\_projectvendorinvoicelines | 1.0.0.3 | Kartējumi atjaunināti, lai nodrošinātu atbilstību piegādātāja rēķina rindas entītijai programmā Dataverse. <br>Neaktivizējiet kartējuma versiju 1.0.0.4. Tā būs gatava lietošanai kopā ar Finance vides versiju 10.0.26 nākamajā ikmēneša atjauninājumā. |
 
-Atjauninot projektu operāciju Dataverse risinājumu un Finance risinājuma versiju, vienmēr palaidiet vidē jaunāko kartes versiju un iespējojiet visas saistītās tabulu kartes. Daži līdzekļi un iespējas var nedarboties pareizi, ja jaunākā kartes versija nav aktivizēta. Kartes aktīvā versija ir skatāma kolonnas **Versija** lapā **Duālā rakstīšana**. Lai aktivizētu jaunu kartes versiju, atlasiet **Tabulas kartes versijas**, atlasiet jaunāko versiju un pēc tam saglabājiet atlasīto versiju. Ja esat pielāgojis gatavu tabulas karti, atkārtoti lietojiet izmaiņas. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Atjauninot Project Operations Dataverse risinājumu un finanšu risinājumu, vienmēr izmantojiet jaunāko kartes versiju savā vidē un iespējojiet visas saistītās tabulas kartes. Ja nav aktivizēta jaunākā kartes versija, daži līdzekļi un iespējas var nedarboties pareizi. Kartes aktīvā versija ir skatāma kolonnas **Versija** lapā **Duālā rakstīšana**. Lai aktivizētu jaunu kartes versiju, atlasiet **Tabulas kartes versijas**, atlasiet jaunāko versiju un pēc tam saglabājiet atlasīto versiju. Ja jums ir pielāgota parastā tabulas karte, lietojiet izmaiņas atkārtoti. Vairāk informācijas skatiet sadaļā [Lietojumprogrammu dzīves cikla pārvaldība](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Ja, startējot karti, rodas problēma, izpildiet norādījumus, kas [sniegti dual-write problēmu novēršanas rokasgrāmatas sadaļā Trūkstošo tabulu kolonnu problēma karšu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) sadaļā.
+Ja rodas problēma, startējot karti, izpildiet instrukcijas, kas sniegtas duālās rakstīšanas problēmu novēršanas ceļveža sadaļā [Problēma ar trūkstošām tabulu kolonnām kartēs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
@@ -45,57 +45,57 @@ Ja, startējot karti, rodas problēma, izpildiet norādījumus, kas [sniegti dua
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
-| Laiks un izdevumi | 2388011 | Lielapjoma apstiprināšanas laikā rādīt noraidījuma komentārus laika ierakstu iesniedzējiem. |
-| Projektu plānošana un izsekošana | 2495294 | Detalizēta informācija par projektu nedrīkst būt rediģējama lapā Detalizēta informācija par **uzdevumu**. |
-| Cenu noteikšana un norēķini | 2499605 | Līguma atskaites punkti, kas izveidoti no piedāvājuma atskaites punktiem, ir nepareizi atzīmēti kā tikai lasāmi. |
-| Projektu plānošana un izsekošana | 2506050 | Operāciju kopa paliek gaidīšanas režīmā vienu stundu, ja nav izmaiņu, ko saglabāt. Pēc tam kopa tiek nepareizi atzīmēta kā **neveiksmīga**, bet tā ir jāaizpilda nekavējoties. |
-| Cenu noteikšana un norēķini | 2507401 | Noklusējuma līguma vienības tiek nepareizi ievadītas projektos nepareizas kešatmiņas dēļ. |
-| Cenu noteikšana un norēķini | 2541660 | **Pārdošanas pasūtījuma izveides validācijai** divrakstā jābūt tikai uz projektiem balstītiem pasūtījumiem. |
-| Cenu noteikšana un norēķini | 2552745 | Nodoklis netiek sadalīts starp klientiem, kuri ir iestatījuši dalītās norēķinu kārtulas. |
-| Cenu noteikšana un norēķini | 2558859 | Uzlaboti kļūdu ziņojumi, iestatot cenu dimensijas. |
-| Cenu noteikšana un norēķini | 2558933 | **Importēšana no projekta aplēsēm** neizdodas, ja **MSDYN\_ projekts** tiek pievienots kā cenu dimensija. |
-| Cenu noteikšana un norēķini | 2559101 | Projekta parametru dzēšana nav bloķēta un rada problēmas. |
-|   Iespēju pārvaldība | 2570390 | Divrakstīšanas spraudnis liek konta tipam piedāvājumos, pasūtījumos un iespējās būt **Klientam**, pat ja šis konta tips nav pareizs. |
-| Cenu noteikšana un norēķini | 2586097 | Sadalīto izmaksu faktiskās izmaksas netiek atsauktas, kad projekts tiek noņemts no projekta līguma rindas. |
-| Cenu noteikšana un norēķini | 2589619 | Nodoklis par rakstīšanas materiālu tiek pavairots uz nemainīgiem pārdošanas faktiskajiem izdevumiem un rēķinu. |
-|   Iespēju pārvaldība | 2594015 | Piedāvājumu nevar slēgt kā uzvarētu klientiem, kuriem ir **Net60** apmaksas nosacījumi. |
-| Projektu plānošana un izsekošana | 2595841 | Programmā Project for the Web lietotāji saņem kļūdas ziņojumu par trūkstošo **msdyn\_ faktisko sākšanu**, kad viņi izveido jaunu resursu pieprasījumu. |
-| Laiks un izdevumi | 2602511 | Laika **ierakstu laukā Noraidīts tiek rādīta** **sistēma**, nevis nosaukts lietotājs kā noraidītājs. |
-| Laiks un izdevumi | 2602528 | Projekta apstiprinātājs var apstiprināt laiku projektiem, kuros tie nav norādīti kā apstiprinātāji. |
-| Cenu noteikšana un norēķini | 2608550 | Labojuma rēķinu var apstiprināt pat tad, ja oriģinālā nav izmaiņu. |
+| Laiks un izdevumi | 2388011 | Noraidījuma komentāru parādīšana laika ierakstu iesniedzējiem lielapjoma apstiprināšanas laikā. |
+| Projektu plānošana un izsekošana | 2495294 | Projekta informāciju nedrīkst rediģēt lapā **Uzdevuma informācija**. |
+| Cenu noteikšana un norēķini | 2499605 | Līgumu atskaites punkti, kas izveidoti no piedāvājumu atskaites punktiem, tiek nepareizi atzīmēti kā tikai lasāmi. |
+| Projektu plānošana un izsekošana | 2506050 | Ja nav izmaiņu, ko saglabāt, operāciju kopa paliek gaidoša uz vienu stundu. Pēc tam kopa tiek nepareizi atzīmēta kā **Neizdevās**, kaut gan tā būtu jāpabeidz nekavējoties. |
+| Cenu noteikšana un norēķini | 2507401 | Noklusējuma līgumslēdzējas vienības tiek nepareizi ievadītas projektos nepareizas kešdarbes dēļ. |
+| Cenu noteikšana un norēķini | 2541660 | Opcija **Pārdošanas pasūtījumu izveides apstiprināšana** duālajā rakstīšanā ir paredzēta tikai uz projektiem balstītiem pasūtījumiem. |
+| Cenu noteikšana un norēķini | 2552745 | Nodokļi netiek sadalīti starp klientiem, kuri ir iestatījuši dalītu norēķinu kārtulas. |
+| Cenu noteikšana un norēķini | 2558859 | Uzlaboti kļūdu ziņojumi, iestatot izcenojuma dimensijas. |
+| Cenu noteikšana un norēķini | 2558933 | Opcija **Importēt no projekta aprēķiniem** neizdodas, kad **msdyn\_project** tiek pievienots kā izcenojuma dimensija. |
+| Cenu noteikšana un norēķini | 2559101 | Projekta parametru dzēšana nav bloķēta un izraisa problēmas. |
+|   Iespēju pārvaldība | 2570390 | Duālās rakstīšanas spraudnis liek iestatīt piedāvājumos, pasūtījumos un iespējās konta tipu **Klients**, pat ja šis konta tips nav pareizs. |
+| Cenu noteikšana un norēķini | 2586097 | Faktiskās izmaksas ar dalītajiem rēķiniem netiek atgrieztas, kad projekts tiek noņemts no projekta līguma rindas. |
+| Cenu noteikšana un norēķini | 2589619 | Ierakstāmo materiālu nodoklis tiek izplatīts uz rēķinā neiekļautajām faktiskajām pārdošanām un rēķinu. |
+|   Iespēju pārvaldība | 2594015 | Piedāvājumu nevar slēgt kā iegūtu klientiem, kuriem ir **Net60** maksāšanas nosacījumi. |
+| Projektu plānošana un izsekošana | 2595841 | Project for the Web lietotāji saņem kļūdas ziņojumu par trūkstošu **msdyn\_actualstart**, izveidojot jaunu resursa pieprasījumu. |
+| Laiks un izdevumi | 2602511 | Laika ierakstu laukā **Noraidīts** kā noraidītājs tiek rādīts **Sistēma**, nevis nosaukts lietotājs. |
+| Laiks un izdevumi | 2602528 | Projekta apstiprinātājs var apstiprināt laiku projektiem, kuros viņš nav uzskaitīts kā apstiprinātājs. |
+| Cenu noteikšana un norēķini | 2608550 | Korekcijas rēķinu var apstiprināt pat tad, ja oriģinālā nav izmaiņu. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu vadība un uzskaite Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu pārvaldība un uzskaite programmā Dynamics 365 Finance
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
-| Projektu pārvaldība un uzskaite | [606759](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606759) | Lauka Kategorijas ID **atļautajā garumā** pastāv neatbilstība starp finanšu un projekta operācijām. |
-| Projektu pārvaldība un uzskaite | [617806](https://fix.lcs.dynamics.com/Issue/Details/?bugId=617806) | Fiksētas cenas projektus nevar izslēgt, ja **lauks Starpkonta rēķini** ir iestatīts uz **Peļņa un zaudējumi** un **tiek izmantots princips Pabeigts procents**. |
-| Projektu pārvaldība un uzskaite | [620979](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620979) | Nepareiza noklusējuma PVN grupa tiek ievadīta no projekta iestatījuma izdevumu rindās projektu operāciju integrācijas žurnālā. |
-| Projektu pārvaldība un uzskaite | [623014](https://fix.lcs.dynamics.com/Issue/Details/?bugId=623014) | Projekta rēķina priekšlikuma virsrakstu dimensijas nevar rediģēt integrētā izvietošanā ar projekta operācijām. |
-| Projektu pārvaldība un uzskaite | [624283](https://fix.lcs.dynamics.com/Issue/Details/?bugId=624283) | Starpuzņēmumu kreditoru rēķinus nedrīkst integrēt .Dataverse |
-| Projektu pārvaldība un uzskaite | [634156](https://fix.lcs.dynamics.com/Issue/Details/?bugId=634156) | Debitora bilances valūtā un pārskata valūtā ir neatbilstība. |
-| Projektu pārvaldība un uzskaite | [641612](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641612) | Projekta rēķinu var grāmatot pat tad, ja debitors ir aizturēts visiem rēķiniem. |
-| Projektu pārvaldība un uzskaite | [642945](https://fix.lcs.dynamics.com/Issue/Details/?bugId=642945) | Projektu **rēķinu priekšlikumos, kuriem ir skati Virsraksts** **un** Rindas, trūkst pogas Dzēst visas **rindas**. |
-| Projektu pārvaldība un uzskaite | [637760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=637760) | Grāmatojot kreditora rēķinu, rodas šāda kļūda: "Rēķina uzskaites datumam jābūt tajā pašā grāmatvedības gadā, kurā atrodas saistītais iepirktais pasūtījums. Palaidiet pirkšanas pasūtījuma gada beigu procesu vai mainiet datumu uz pašreizējo grāmatvedības gadu." |
-| Komandējumi un izdevumi | [604128](https://fix.lcs.dynamics.com/Issue/Details/?bugId=604128) | Projekta fiksētās izmaksas netiek atbrīvotas pēc tam, kad ir atbrīvotas ceļojuma pieprasījuma piesaistītās izmaksas. |
-| Komandējumi un izdevumi | [620803](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620803) | Iesniedzot izdevumu pārskatu, rodas šāda kļūda: "Steka izsekošana: uzņēmums nepastāv." |
-| Komandējumi un izdevumi | [622465](https://fix.lcs.dynamics.com/Issue/Details/?bugId=622465) | **Noklusējuma projekta ID** netiek ievadīts izdevumu pārskatos, ja projektā ir atlasīts **parametrs Pieprasīt aktivitāti žurnālam**. |
-| Komandējumi un izdevumi | [626781](https://fix.lcs.dynamics.com/Issue/Details/?bugId=626781) | Poga **Grāmatot izdevumus** nedarbojas pareizi projekta operācijās resursu/neuzkrātiem scenārijiem. |
-| Komandējumi un izdevumi | [635348](https://fix.lcs.dynamics.com/Issue/Details/?bugId=635348) | Ir problēma ar **likmi par jūdzi** nobraukuma izdevumu pārskatā, kas ietver pasažierus. |
-| Komandējumi un izdevumi | [638019](https://fix.lcs.dynamics.com/Issue/Details/?bugId=638019) | Izdevumu nobraukuma rādītāji darbiniekiem netiek pareizi summēti, ja nobraukuma likmes līmeņu izdevumu kategorijā tiek izmantoti **divi dažādi transportlīdzekļu tipi**. |
-| Komandējumi un izdevumi | [641272](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641272) | Ceļojuma pieprasījuma rindas lauka Projekts **uzmeklēšana** neatgriež pareizo projektu sarakstu. |
-| Komandējumi un izdevumi | [645905](https://fix.lcs.dynamics.com/Issue/Details/?bugId=645905) | **Pārskatā redzamais** nobraukums parāda brīdinājumu par izdevumu pārskatiem. |
-| Komandējumi un izdevumi | [647819](https://fix.lcs.dynamics.com/Issue/Details/?bugId=647819) | Ieejas plūsmas optiskās rakstzīmju atpazīšanas (OCR) pakalpojums nedarbojas, jo pastāv problēma ar izdevumu OCR pakalpojuma URL. |
-| Komandējumi un izdevumi | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Ja ir aktivizēta **funkcija Iespēja ātri** uzskaitīt periodiskos izdevumus, summas izdevumu pārskatu itemizācijas rindās maina summas ikreiz, **kad tiek atvērta lapa Itemize**. |
-| Komandējumi un izdevumi | [651899](https://fix.lcs.dynamics.com/Issue/Details/?bugId=651899) | Izdevumu pārskatu nevar dzēst, ja pagaidu sarakstā ir vairāki apstiprinātāji. |
+| Projektu pārvaldība un uzskaite | [606759](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606759) | Ir neatbilstība starp Finance un Project Operations attiecībā uz lauka **Kategorijas ID** atļauto garumu. |
+| Projektu pārvaldība un uzskaite | [617806](https://fix.lcs.dynamics.com/Issue/Details/?bugId=617806) | Fiksētas cenas projektus nevar likvidēt, ja lauks **Par kontu rēķinu izrakstīšanu** ir iestatīts kā **Peļņa un zaudējumi** un tiek izmantots princips **Pabeigtie procenti**. |
+| Projektu pārvaldība un uzskaite | [620979](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620979) | Tiek ievadīta nepareiza noklusējuma pārdošanas nodokļu grupa no projekta iestatījuma izdevumu rindās Project Operations integrācijas žurnālā. |
+| Projektu pārvaldība un uzskaite | [623014](https://fix.lcs.dynamics.com/Issue/Details/?bugId=623014) | Nevar rediģēt projekta rēķina priekšlikuma galvenes dimensijas integrētā izvietošanā ar Project Operations. |
+| Projektu pārvaldība un uzskaite | [624283](https://fix.lcs.dynamics.com/Issue/Details/?bugId=624283) | Starpuzņēmumu piegādātāju rēķinus nevar integrēt ar Dataverse. |
+| Projektu pārvaldība un uzskaite | [634156](https://fix.lcs.dynamics.com/Issue/Details/?bugId=634156) | Klienta bilanču valūta un pārskatu valūta nesakrīt. |
+| Projektu pārvaldība un uzskaite | [641612](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641612) | Projekta rēķinu var grāmatot pat tad, ja klientam ir aizturēti visi rēķini. |
+| Projektu pārvaldība un uzskaite | [642945](https://fix.lcs.dynamics.com/Issue/Details/?bugId=642945) | Projektu rēķinu priekšlikumos, kuriem ir skati **Galvene** un **Rindas**, trūkst pogas **Dzēst visas rindas**. |
+| Projektu pārvaldība un uzskaite | [637760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=637760) | Grāmatojot piegādātāj rēķinu, rodas šāda kļūda: “Rēķina uzskaites datumam ir jābūt tajā pašā uzskaites gadā, kurā ir saistītais iegādātais pasūtījums. Izpildiet pirkuma pasūtījuma gada beigu procesu vai mainiet datumu uz pašreizējo uzskaites gadu”. |
+| Komandējumi un izdevumi | [604128](https://fix.lcs.dynamics.com/Issue/Details/?bugId=604128) | Projekta fiksētās izmaksas netiek izlaistas pēc tam, kad tiek izlaistas ceļojuma pieprasījuma fiksētās izmaksas. |
+| Komandējumi un izdevumi | [620803](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620803) | Iesniedzot izdevumu pārskatu, rodas šāda kļūda: “Steka trasēšana: Uzņēmums nepastāv.” |
+| Komandējumi un izdevumi | [622465](https://fix.lcs.dynamics.com/Issue/Details/?bugId=622465) | Noklusējuma **Projekta ID** netiek ievadīts izdevumu pārskatos, kad projektā ir atlasīts parametrs **Pieprasīt darbību žurnālam**. |
+| Komandējumi un izdevumi | [626781](https://fix.lcs.dynamics.com/Issue/Details/?bugId=626781) | Poga **Grāmatot izdevumus** nedarbojas pareizi programmā Project Operations scenārijiem, kas ir balstīti uz resursiem/nav balstīti uz krājumiem. |
+| Komandējumi un izdevumi | [635348](https://fix.lcs.dynamics.com/Issue/Details/?bugId=635348) | Rodas problēma ar **Likme par jūdzi** attiecībā uz nobraukuma izdevumu pārskatu, kurā ietverti pasažieri. |
+| Komandējumi un izdevumi | [638019](https://fix.lcs.dynamics.com/Issue/Details/?bugId=638019) | Izdevumu nobraukuma likmes darbiniekiem netiek pareizi saskaitītas, kad izdevumu kategorijā **Nobraukuma likmju pakāpes** ir izmantoti divi dažādi transportlīdzekļu tipi. |
+| Komandējumi un izdevumi | [641272](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641272) | Laukā **Projekts** uzmeklēšana ceļojuma pieprasījuma rindā neatgriež pareizo projektu sarakstu. |
+| Komandējumi un izdevumi | [645905](https://fix.lcs.dynamics.com/Issue/Details/?bugId=645905) | **Pārskatāmais nobraukums** rāda brīdinājumu izdevumu pārskatos. |
+| Komandējumi un izdevumi | [647819](https://fix.lcs.dynamics.com/Issue/Details/?bugId=647819) | Rakstzīmju optiskā atpazīšana kvītīs (OCR) nedarbojas, jo ir radusies problēma ar izdevumu OCR pakalpojuma URL. |
+| Komandējumi un izdevumi | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Ja ir iespējots līdzeklis **Iespēja ātri detalizēt periodiskos izdevumus**, summas izdevumu pārskatu detalizācijas rindās tiek mainītas katru reizi, kad tiek atvērta lapa **Uzskaitīt**. |
+| Komandējumi un izdevumi | [651899](https://fix.lcs.dynamics.com/Issue/Details/?bugId=651899) | Nevar dzēst izdevumu pārskatu, ja pagaidu sarakstam ir vairāki apstiprinātāji. |
 
 ## <a name="removed-and-deprecated-features"></a>Noņemti un novecojuši līdzekļi
 
-Rakstā Projekta [operācijas](removed-depreciated-features-project.md) noņemtie vai novecojušie līdzekļi apraksta līdzekļus, kas ir noņemti vai novecojuši programmai Dynamics 365 Project Operations.
+Rakstā [Noņemtie vai novecojuši līdzekļi programmā Project Operations](removed-depreciated-features-project.md) ir aprakstīti līdzekļi, kas ir noņemti vai novecojuši programmā Dynamics 365 Project Operations.
 
 - Noņemtais līdzeklis vairs nav pieejams produktā.
-- Novecojis līdzeklis netiek aktīvi izstrādāts, un nākamajā atjauninājumā tas var tikt noņemts.
+- Novecojis līdzeklis nav aktīvā izstrādē, un to var noņemt turpmākā atjauninājumā.
 
-Paziņojums par nolietošanos tiks parādīts [projekta operāciju](removed-depreciated-features-project.md) rakstā Noņemtie vai novecojušie līdzekļi 12 mēnešus pirms jebkura līdzekļa noņemšanas no produkta.
+Paziņojums par līdzekļu novecošanu tiks publicēts rakstā [Noņemtie vai novecojuši līdzekļi programmā Project Operations](removed-depreciated-features-project.md) 12 mēnešus pirms jebkādu līdzekļu noņemšanas no produkta.
 
-Ja tiek pārtrauktas izmaiņas, kas ietekmē tikai kompilācijas laiku, bet ir bināras saderīgas ar smilškasti un ražošanas vidēm, nolietojuma laiks būs mazāks par 12 mēnešiem. Parasti šīs izmaiņas ir funkcionāli atjauninājumi, kas jāveic kompilatoram.
+Svarīgām izmaiņām, kas ietekmē tikai kompilēšanas laiku, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, novecošanas laiks būs īsāks par 12 mēnešiem. Parasti tās ir funkcionālas izmaiņas, kas jāveic kompilatoram.

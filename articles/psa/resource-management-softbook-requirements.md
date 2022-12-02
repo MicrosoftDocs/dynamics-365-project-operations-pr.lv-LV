@@ -1,6 +1,6 @@
 ---
 title: Vajadzību viegla rezervēšana
-description: Šajā rakstā ir sniegta informācija par to, kā ievērot soft-book prasības.
+description: Šajā rakstā ir sniegta informācija par to, kā viegli rezervēt vajadzības.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

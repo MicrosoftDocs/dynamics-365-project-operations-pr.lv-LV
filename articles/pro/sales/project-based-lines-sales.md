@@ -1,6 +1,6 @@
 ---
 title: Uz projektu balstītas iespēju rindas — Lite
-description: Šajā rakstā sniegta informācija par uz projektiem balstītām iespēju rindām. (Pro)
+description: Šajā rakstā ir sniegta informācija par iespēju rindām, kuras ir balstītas uz projektu. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

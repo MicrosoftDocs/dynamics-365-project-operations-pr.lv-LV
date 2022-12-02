@@ -1,6 +1,6 @@
 ---
 title: Projekta resursu iestatīšana
-description: Šajā rakstā ir sniegta informācija par projekta resursu iestatīšanu vai pieprasīšanu.
+description: Šajā rakstā sniegta informācija par projekta resursu iestatīšanu vai pieprasīšanu.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

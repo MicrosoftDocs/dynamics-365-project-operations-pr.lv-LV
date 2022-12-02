@@ -1,6 +1,6 @@
 ---
 title: Projekta iespēju kopēšana
-description: Šajā rakstā sniegta informācija par uz projektiem balstītu iespēju kopēšanu projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par projekta iespēju kopēšanu risinājumā Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

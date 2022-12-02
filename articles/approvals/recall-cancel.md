@@ -1,6 +1,6 @@
 ---
 title: AIepriekš apstiprināto ierakstu atsaukšana
-description: Šajā rakstā paskaidrots, kā projekta grupas dalībnieks var pieprasīt atsaukt iepriekš iesniegtos un apstiprinātos laika, izdevumu un materiālu lietojuma ierakstus un kā projekta vadītājs var apstiprināt vai noraidīt atsaukšanas pieprasījumus.
+description: Šajā rakstā izskaidrots, kā projekta darba grupas dalībnieks var pieprasīt iepriekš iesniegts un apstiprināta laika, izmaksu un materiālu lietojuma ierakstu izskaidrošanu, kā arī to, kā projekta vadītājs var apstiprināt vai noraidīt pieprasījumus, kas tiek iesniegti iepriekš.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -17,26 +17,26 @@ ms.locfileid: "8930373"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Projekta grupas dalībnieks, kas iesniedz laika, izdevumu vai materiālu lietojuma ierakstu, var atsaukt šo ierakstu pēc tā apstiprināšanas. Atsaukšanas procesam ir divi galvenie soļi:
+Projekta darba grupas dalībnieks vai cita persona, kas iesniedz laika, izdevumu vai materiālu lietošanas ierakstu, pēc tā apstiprināšanas šo ierakstu var atsaukt. Atsaukšanas procesam ir divas galvenās darbības:
 
 1. Iesniedzējs pieprasa atsaukšanu.
 2. Apstiprinātājs apstiprina atsaukšanas pieprasījumu.
 
 ## <a name="request-a-recall"></a>Atsaukšanas pieprasīšana
 
-Veiciet šīs darbības, lai pieprasītu apstiprinātā laika, izdevumu vai materiālu lietojuma ierakstu atsaukšanu.
+Lai pieprasītu apstiprināta laika, izdevumu vai materiālu lietojuma ierakstu atsaukšanu, izpildiet tālāk aprakstītās darbības.
 
-1. Atkarībā no tā, kāda veida ierakstu vēlaties atsaukt, veiciet vienu no šīm darbībām:
+1. Izpildiet vienu no minētajām darbībām atkarībā no atsaucamā ieraksta veida:
 
-    - Laika ierakstiem dodieties uz **Projekti** \> **Mans darba** \> **laika ieraksts** un atlasiet visus laika ierakstus noteiktai projekta un uzdevuma kombinācijai. Vai arī režģī atlasiet atsevišķās šūnas laikam noteikta projekta noteiktā datumā.
-    - Izdevumu ierakstiem dodieties uz **Projekti** \> **Mani darba** \> **izdevumi** un atlasiet izdevumu ieraksta rindu atsaukšanai.
-    - Materiālu lietojuma ierakstiem dodieties uz **Projekti** \> **Mana darba** \> **materiāla lietojuma žurnāls** un atlasiet rindu materiālu lietojuma ierakstam, lai atsauktu.
+    - Laika ierakstu gadījumā dodieties uz **Projekti** \> **Mans darbs** \> **Laika ieraksts** un atlasiet visus laika ierakstus konkrētajai projekta un uzdevuma kombinācijai. Vai arī režģī atlasiet atsevišķās šūnas laikam noteikta projekta noteiktā datumā.
+    - Izdevumu ierakstu gadījumā dodieties uz **Projekti** \> **Mans darbs** \> **Izdevumi** un atlasiet atsaucamā izdevumu ieraksta rindu.
+    - Materiālu ierakstu gadījumā dodieties uz **Projekti** \> **Mans darbs** \> **Materiālu lietojuma žurnāls** un atlasiet atsaucamā materiālu lietojuma rindu.
 
-2. Atlasiet **Atsaukt**. Tiek atvērts apstiprinājuma dialoglodziņš. Ja atlasītie laika, izdevumu vai materiālu lietojuma ieraksti jau ir apstiprināti, tiek piedāvāts ievadīt atsaukšanas iemeslu.
+2. Atlasiet **Atsaukt**. Tiek atvērts apstiprinājuma dialoglodziņš. Ja atlasītie laika, izdevumu vai materiālu lietojuma ieraksti jau bija apstiprināti, tiek parādīta uzvedne ar aicinājumu ievadīt atsaukšanas iemeslu.
 3. Ievadiet atsaukšanas iemeslu un pēc tam atlasiet **Labi**, lai apstiprinātu šo operāciju. Personai, kas apstiprināja šos ierakstus, sistēma nosūta pieprasījumu apstiprināt atsaukšanu.
 
 > [!IMPORTANT]
-> Nevar izveidot atsaukšanas pieprasījumu apstiprinātam laika, izdevumu vai materiālu lietojuma ierakstam, par kuru klientam jau ir izrakstīts rēķins. Ja mēģināt, tiek parādīts ziņojums, kurā norādīts, ka laiku, izdevumus vai materiālu lietojuma ierakstu nevar atsaukt, jo tam jau ir izrakstīts rēķins. Šādā gadījumā ieraksta atsaukšanu var pieprasīt tikai tad, ja labojuma rēķins tiek izmantots, lai izsniegtu klientam pilnu kredītu vai atmaksu sākotnējā rēķinā.
+> Nevar izveidot iepriekš apstiprināta laika, izmaksu un materiālu lietojuma ieraksta atsaukuma pieprasījumu, par ko klientam jau ir izrakstīts rēķins. Mēģinot to darīt, tiks saņemts ziņojums, kurā teikts, ka laika, izdevumu vai materiālu lietojuma ierakstu nevar atsaukt, jo par to jau ir izrakstīts rēķins. Šajā gadījumā ieraksta atsaukšanu var pieprasīt tikai tad, ja klientam sākotnējā rēķinā tiek izmantots labots rēķins, lai izsniegtu pilnu kredītu vai atmaksu.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Atsaukšanas pieprasījuma apstiprināšana vai noraidīšana
 
@@ -52,7 +52,7 @@ Lai apstiprinātu vai noraidītu atsaukšanas pieprasījumu, izpildiet tālāk a
     Ja atlasījāt **Noraidīt**, atsaukšanas pieprasījums tiek noraidīts.
 
 > [!IMPORTANT]
-> Kad atsaukšana ir apstiprināta, tāpat kā tad, kad tā tiek pieprasīta, sistēma pārbauda, vai nav rēķina izrakstīšanas darbības par laiku, izdevumiem vai materiālu lietojuma ierakstiem. Ja ierakstam jau ir izrakstīts rēķins vai ja tas ir rēķina melnrakstā, apstiprinātājs saņem kļūdas ziņojumu, kurā norādīts, ka laiku vai izdevumus nevar apstiprināt atsaukšanai, jo tam jau ir izrakstīts rēķins. Šādā gadījumā apstiprinātājs var apstiprināt atsaukšanu tikai tad, ja tiek izmantots koriģējošs rēķins, lai izsniegtu klientam pilnu kredītu vai atmaksu sākotnējā rēķinā.
+> Kad atsaukums ir apstiprināts, tāpat kā, kad tas tiek pieprasīts, sistēma pārbauda laika, izdevumu un materiālu lietojuma ierakstu norēķinu darbības. Ja par ierakstu jau ir izrakstīts rēķins vai ja tas atrodas melnraksta rēķinā, apstiprinātājs saņem kļūdas ziņojumu, kurā ir teikts, ka šo laiku vai izdevumus nevar apstiprināt atsaukšanai, jo par tiem jau ir izrakstīts rēķins. Šajā gadījumā ieraksta apstiprinātājs var apstiprināt atsaukumu tikai tad, ja klientam sākotnējā rēķinā tiek izmantots labots rēķins, lai izsniegtu pilnu kredītu vai atmaksu.
 
 ## <a name="impact-of-a-recall-request"></a>Atsaukšanas pieprasījuma ietekme
 
@@ -60,9 +60,9 @@ Kad apstiprinājums tiek atsaukts, tam ir gan operatīva, gan finansiālā ietek
 
 ### <a name="operational-impact"></a>Operatīva ietekme
 
-Ja atsaukšanas pieprasījums tiek apstiprināts, apstiprinājuma ieraksts tiek atzīmēts kā **Noraidīts**. Ieraksta statuss tiek mainīts uz **Atgriezts** vai **Noraidīts** atkarībā no tā, vai tas ir laika ieraksts vai izdevumu vai materiālu patēriņa ieraksts.
+Ja atsaukšanas pieprasījums tiek apstiprināts, apstiprinājuma ieraksts tiek atzīmēts kā **Noraidīts**. Atkarībā no tā, vai tas ir laika, izdevumu vai materiālu lietojuma ieraksts, ieraksta statuss mainās uz **Atgriezts** vai uz **Noraidīts**.
 
-Projekta grupas dalībnieks var skatīt ierakstus, rediģēt un pēc tam atkārtoti iesniegt ierakstus vai pilnībā dzēst ierakstus.
+Projekta darba grupas dalībnieks var apskatīt ierakstus, rediģēt un atkārtoti iesniegt ierakstus vai pilnībā dzēst ierakstus pilnībā.
 
 Ja atsaukšanas pieprasījums tiek noraidīts, ieraksta statuss paliek **Apstiprināts** un projekta darba grupas dalībnieks un projekta apstiprinātājs šo ierakstu nevar rediģēt.
 
@@ -79,14 +79,14 @@ Ja atsaukšanas pieprasījums tiek noraidīts, uz projektu nav nekādas finansi�
 
 ## <a name="changes-to-time-entry-records"></a>Laika ierakstu reģistru izmaiņas
 
-Nākamajā attēlā ir parādītas izmaiņas, kas notiek apstiprinātos laika ierakstos un atbilstošajos apstiprinājuma ierakstos, kad tie tiek atsaukti.
+Nākamajā ilustrācijā ir parādītas izmaiņas, kas rodas apstiprinātiem laika ierakstiem un atbilstošajiem apstiprinājuma ierakstiem, kad tie tiek atsaukti.
 
-![Laika ievadīšanas stāvokļa pārejas.](media/TimeEntryStateTransitions.png)
+![Laika ierakstu stāvokļa pārejas.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Izmaiņas izdevumu un materiālu lietojuma ierakstu ierakstos
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Izmaiņas izdevumu un materiālu lietojuma ierakstu reģistros
 
-Nākamajā attēlā parādītas izmaiņas, kas notiek apstiprināto izdevumu un materiālu lietojuma ievadnēs, un atbilstošie apstiprinājuma ieraksti, kad tie tiek atsaukti.
+Nākamajā ilustrācijā ir parādītas izmaiņas, kas rodas apstiprinātiem izdevumu un materiālu lietojuma ierakstiem un atbilstošajiem apstiprinājuma ierakstiem, kad tie tiek atsaukti.
 
-![Izdevumu ieraksta stāvokļa pārejas.](media/ExpenseEntryStateTransitions.png)
+![Izdevumu ierakstu stāvokļa pārejas.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

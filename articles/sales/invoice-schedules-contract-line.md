@@ -1,6 +1,6 @@
 ---
 title: Rēķina grafika izveidošana projekta līguma rindā
-description: Šajā rakstā sniegta informācija par to, kā izveidot rēķinu grafikus un atskaites punktus līguma rindās.
+description: Šajā rakstā ir sniegta informācija par rēķinu grafiku un atskaites punktu izveidi līguma rindās.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekta ieguldījuma izsekošana
-description: Šajā rakstā ir sniegta informācija par to, kā izsekot projekta centieniem un darba progresam.
+description: Šajā rakstā ir sniegta informācija par to, kā sekot līdzi projekta ieguldījumam un darba norisei.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929269"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Dažās nozarēs izsekošana notiek ļoti smalkā līmenī, kamēr citās nozarēs izsekošana tiek veikta augstākā līmenī. Šajā rakstā ir parādīts, kā ieplānot, lai izpildītu organizācijas prasības.
+Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Dažās nozarēs izsekošana notiek ļoti smalkā līmenī, kamēr citās nozarēs izsekošana tiek veikta augstākā līmenī. Šajā rakstā ir parādīts, kā veikt plānošanu, lai izpildītu jūsu organizācijas prasības.
 
 ## <a name="effort-tracking-view"></a>Piepūles izsekošanas skats
 
@@ -45,8 +45,8 @@ Piepūli kopsavilkuma uzdevumiem vai konteinera uzdevumiem var pārprojektēt. P
 - Tiek aprēķināts jaunais EAC katram atsevišķajam uzdevumam līdz pat lapas mezgla uzdevumiem. 
 - Ietekmētajiem pakārtotajiem uzdevumiem lejup pa lapas mezgliem tiek pārrēķināts to atlikušais ieguldījums un progresa procentuālais daudzums, pamatojoties uz EAC vērtību. Šādi uzdevumam tiek iegūta jauna piepūles novirzes projektēšana. 
 - Tiek pārrēķināti kopsavilkuma uzdevumu EAC visiem uzdevumiem līdz saknes mezglam.
-- Apstiprinātās pūles kopsavilkuma uzdevumā ir visu pakārtoto uzdevumu apstiprināto centienu summa plus apstiprinātās pūles kopsavilkuma uzdevumā.
-- Atlikušie centieni kopsavilkuma uzdevumā ir visu pakārtoto uzdevumu atlikušo pūļu summa, atskaitot apstiprinātos pūliņus kopsavilkuma uzdevumā.
+- Kopsavilkuma uzdevuma apstiprinātajā piepūlē ir visu pakārtoto uzdevumu apstiprināto darba pūliņu summa un kopsavilkuma uzdevuma apstiprinātā piepūle.
+- Kopsavilkuma uzdevuma atlikušajā piepūlē ir visu atlikušo pakārtoto uzdevumu darba pūliņu summa mīnus kopsavilkuma uzdevuma apstiprinātā piepūle.
 
 ## <a name="project-status-summary"></a>Projekta noteikta kopsavilkums
 

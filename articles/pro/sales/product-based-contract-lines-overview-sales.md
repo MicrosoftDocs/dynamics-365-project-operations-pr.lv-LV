@@ -1,6 +1,6 @@
 ---
 title: Uz produktiem balstītu līgumu rindu pārskats — Lite
-description: Šajā rakstā sniegta informācija par līguma rindām, kuru pamatā ir produkti.
+description: Šajā rakstā ir sniegta informācija par līguma rindām, kuras ir balstītas uz produktu.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

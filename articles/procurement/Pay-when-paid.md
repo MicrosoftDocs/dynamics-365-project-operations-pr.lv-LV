@@ -1,6 +1,6 @@
 ---
-title: Maksājiet, kad kreditors ir samaksājis par maksājumiem
-description: Šajā tēmā ir paskaidrots, kā izmantot scenāriju "maksāšana pēc samaksas" (PWP).
+title: "\"Apmaksāt pēc apmaksas\" tipa piegādātāju maksājumi"
+description: Šajā tēmā izskaidrots, kā izmantot "apmaksāt pēc apmaksas" (PWP) scenāriju.
 author: mukumarm
 ms.date: 08/18/2022
 ms.topic: article
@@ -14,48 +14,48 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 09/16/2022
 ms.locfileid: "9525387"
 ---
-# <a name="pay-when-paid-vendor-payments"></a>Maksājiet, kad kreditors ir samaksājis par maksājumiem
+# <a name="pay-when-paid-vendor-payments"></a>"Apmaksāt pēc apmaksas" tipa piegādātāju maksājumi
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā tēmā ir paskaidrots, kā izmantot scenāriju "maksāšana pēc samaksas" (PWP).
+Šajā tēmā izskaidrots, kā izmantot "apmaksāt pēc apmaksas" (PWP) scenāriju.
 
-## <a name="create-a-purchase-order-that-has-pwp-terms"></a>Tāda pirkšanas pasūtījuma izveide, kurā ir PWP nosacījumi
+## <a name="create-a-purchase-order-that-has-pwp-terms"></a>Pirkuma pasūtījuma ar PWP nosacījumiem izveide
 
-Kad grāmatojat rēķinu no kreditora, ja uz kreditoru attiecas PWP nosacījumi, šie nosacījumi tiek rādīti pirkšanas pasūtījuma (PO) rindās. Lai izveidotu PP, kam ir PWP nosacījumi, rīkojieties šādi:
+Grāmatojot rēķinu no piegādātāja, ja uz piegādātāju attiecas PWP nosacījumi, šie nosacījumi tiek parādīti pirkšanas pasūtījuma (PO) rindās. Lai izveidotu PP, kam ir PWP nosacījumi, rīkojieties šādi:
 
-1. Programmā Microsoft Dynamics 365 Finance veiciet vienu no šīm darbībām:
+1. Programmā Microsoft Dynamics 365 Finance izpildiet vienu no turpmāk uzskaitītajām darbībām:
 
-    - Dodieties uz **Sagāde un avoti** \> **Pirkšanas pasūtījumi** \> **Visi pirkšanas pasūtījumi**. Darbību rūtī atlasiet **Jauns**. Dialoglodziņā Pirkšanas **pasūtījuma** izveide atlasiet kreditoru, kuram projektā ir iestatīti PWP nosacījumi, ievadiet citu nepieciešamo informāciju un pēc tam atlasiet **Labi**.
-    - Dodieties uz **Projekta pārvaldība un uzskaite** \> **Projekti** \> **Visi projekti**. Darbību rūts cilnē **Pārvaldība** atlasiet **Uzdevums Vienums**. Atlasiet pirkšanas pasūtījumu. Atlasiet kreditoru, kuram projektā ir iestatīti PWP nosacījumi, un pēc tam atlasiet **Labi**.
+    - Dodieties uz **Sagāde un avoti** \> **Pirkšanas pasūtījumi** \> **Visi pirkšanas pasūtījumi**. Darbību rūtī atlasiet **Jauns**. Dialoglodziņā **Izveidot pirkuma pasūtījumu** atlasiet piegādātāju, kuram projektā tiek sagatavoti PWP nosacījumi, ievadiet pārējo vajadzīgo informāciju un atlasiet **Labi**.
+    - Dodieties uz **Projekta pārvaldība un uzskaite** \> **Projekti** \> **Visi projekti**. Darbību rūts cilnē **Pārvaldīt** atlasiet **Vienības uzdevums**. Atlasiet pirkšanas pasūtījumu. Atlasiet piegādātāju, kuram projektā tiek sagatavoti PWP nosacījumi un atlasiet **Labi**.
 
-2. Lapas Pirkšanas **pasūtījums** cilnē Pirkšanas **pasūtījuma rindas** Ātrā cilne atlasiet **Pievienot rindu**, lai izveidotu pirkšanas pasūtījuma rindu.
-3. Atlasiet krājuma numuru vai sagādes kategoriju un ievadiet citu nepieciešamo informāciju. Pārskatiet detalizētu informāciju par kreditora pirkšanas pasūtījuma rindiņu.
+2. Laukā **Pirkšanas pasūtījums**, kopsavilkuma cilnē **Pirkšanas pasūtījuma rindas** atlasiet **Pievienot rindu**, lai izveidotu pirkšanas pasūtījuma rindu.
+3. Atlasiet elementa numuru vai iepirkuma kategoriju un ievadiet pārējo vajadzīgo informāciju. Pārskatiet piegādātāja PO rindas informāciju.
 
     Automātiski tiek atlasīta opcija **Maksāt-kad-apmaksāts**, un lauks **PWP sliekšņa procentuālā vērtība** automātiski tiek kopēts no lauka **PWP sliekšņa procentuālā vērtība** lapā **Projekti**.
 
-4. Ja nevēlaties lietot PWP nosacījumus piegādātājam PP rindai, notīriet opciju **Maksāt-kad-apmaksāts**. Šajā gadījumā pirkšanas pasūtījuma rindas **PWP sliekšņa procentuālās** daļas lauks tiks atiestatīts uz **0** (nulle).
-5. Lapas Pirkšanas **pasūtījums** darbību rūts **cilnē Pirkšana** atlasiet **Apstiprināt**, lai apstiprinātu pirkšanas pasūtījumu.
-6. Darbību rūts cilnē Rēķins **atlasiet** **Rēķins**, lai ģenerētu rēķinu pirkšanas pasūtījumam.
+4. Ja nevēlaties lietot PWP nosacījumus piegādātājam PP rindai, notīriet opciju **Maksāt-kad-apmaksāts**. Šādā gadījumā PO rindas lauks **PWP sliekšņa procentuālā vērtība** tiks atiestatīts uz **0** (nulle).
+5. Darbību rūts lapā **Pirkšanas pasūtījums**, cilnē **Pirkums** atlasiet **Apstiprināt**, lai apstiprinātu pirkšanas pasūtījumu.
+6. Darbību rūts cilnē **Rēķins** atlasiet **Rēķins**, lai ģenerētu pirkuma pasūtījuma rēķinu.
 
 ## <a name="create-a-project-invoice-proposal"></a>Projekta rēķina priekšlikuma izveide
 
-Projekta rēķinu priekšlikumi tiek izmantoti, lai izveidotu projekta rēķinus debitoram. PWP scenārijā kreditoru maksājumi ir atkarīgi no debitoru maksājumiem saskaņā ar PWP iestatījumiem. Tomēr ir iespējas, kas ļauj atbrīvot maksājumus bez debitoru maksājumiem, kā jums nepieciešams. Lai debitoram izveidotu projekta rēķinu, veiciet tālāk norādītās darbības.
+Projekta rēķinu priekšlikumus izmanto, lai klientam izveidotu projekta rēķinus. PWP scenārijā piegādātāju maksājumi ir atkarīgi no klienta maksājumiem atbilstoši PWP iestatījumiem. Taču ir iespējas, ar kurām maksājumus varat pēc vajadzības veikt, neraugoties uz klienta maksājumiem. Lai klientam izveidotu projekta rēķinu, izpildiet turpmāk uzskaitītās darbības.
 
-1. Klientu iesaistes programmās dodieties uz **Project** \> **Projects** un atlasiet projektu.
-2. **Cilnē Faktiskie** dati atlasiet faktisko rindu, ko ģenerē pirkšanas pasūtījums, kuram ir pirkšanas **unbilāro pārdošanas transakciju** tips. Pēc tam atlasiet **Gatavs rēķinam**.
-3. Dodieties uz **Pārdošanas** \> **pārdošanas** \> **projekta līgums** un atlasiet projekta līgumu.
-4. Darbību rūtī atlasiet **Rēķins**, lai ģenerētu debitora rēķinu.
-5. Programmā Finance dodieties uz **Projektu pārvaldība un grāmatvedība** \> **Periodiskā** \> **importēšana no sagatavošanas tabulas** un atlasiet **Labi**, lai ģenerētu projektu operāciju integrācijas žurnālu.
-6. Dodieties uz **Projektu vadība un uzskaite** \> **Projekta rēķini** \> **Projekta rēķina priekšlikums** un atlasiet **Izlikt ziņu**, lai grāmatotu projektam ģenerēto rēķina priekšlikumu.
+1. Klientu iesaistes programmā atveriet **Projekts**\>**Projekti** un atlasiet projektu.
+2. Cilnē **Dati** atlasiet PO ģenerēto datu rindu, kurai ir transakcijas tipa **Rēķinā neiekļautā pārdošana**. Pēc tam atlasiet **Gatavs rēķinam**.
+3. Dodieties uz **Pārdošana** \>**Pārdošana** \>**Projekta līgums** un atlasiet projekta līgumu.
+4. Darbību rūtī atlasiet **Rēķins**, lai ģenerētu klienta rēķinu.
+5. Pakalpojumā Finance dodieties uz **Projektu pārvaldībva un uzskaite** \>**Periodiski** \>**Importēt no izstādīšanas tabulas** un atlasiet **Labi**, lai ģenerētu Project Operations integrācijas žurnālu.
+6. Dodieties uz **Projektu pārvaldība un uzskaite** \> **Projekta rēķini** \> **Projekta rēķina priekšlikums** un atlasiet **Grāmatot**, lai grāmatotu projektam ģenerēto rēķina priekšlikumu.
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Klienta maksājumu un piegādātāja apmaksu atjaunināšana
 
-Kad kreditors ir pabeidzis darbu pie projekta un nosūta jums rēķinu, jums ir jāpārskata projekta statuss un debitoru rēķini, lai noteiktu, vai projektā ir izpildīti PWP nosacījumi. Ja tika izpildīti piegādātāja PWP nosacījumi, varat noteikt, kuras rindas piegādātāja rēķinā ir jāmaksā, pamatojoties uz klienta maksājumiem par projektu. Ja nolemjat maksāt piegādātājam pat tad, ja PWP nosacījumi nav izpildīti, varat ignorēt PWP nosacījumus lapā **Piegādātāja rēķins ar apmaksāto summu**.
+Kad piegādātājs pabeidz darbu ar projektu un nosūta jums rēķinu, ir jāpārskata projekta statuss un klientu rēķini, lai noteiktu, vai projektam tika izpildīti PWP nosacījumi. Ja tika izpildīti piegādātāja PWP nosacījumi, varat noteikt, kuras rindas piegādātāja rēķinā ir jāmaksā, pamatojoties uz klienta maksājumiem par projektu. Ja nolemjat maksāt piegādātājam pat tad, ja PWP nosacījumi nav izpildīti, varat ignorēt PWP nosacījumus lapā **Piegādātāja rēķins ar apmaksāto summu**.
 
-1. Programmā Finance dodieties uz **Projektu vadība un grāmatvedība** \> **Projekti** \> **Visi projekti** un atlasiet projektu.
-2. Darbību rūtī atlasiet **Vadīkla** un pēc tam atlasiet **Kreditoru rēķini**, lai parādītu visus projektam ģenerētos kreditoru rēķinus.
+1. Sadaļā Finance dodieties uz **Projektu pārvaldība un uzskaite** \> **Projekti** \> **Visi projekti** un atlasiet projektu.
+2. Darbību rūtī atlasiet **Vadība** un pēc tam atlasiet **Piegādātāju rēķini**, lai redzētu visus projektam ģenerētos piegādātāju rēķinus.
 3. Lapas **Piegādātāja rēķins ar apmaksāto summu** meklēšanas laukā ievadiet vērtības, lai atrastu piegādātāja rēķinu, kuru vēlaties pārskatīt, un pēc tam atlasiet **Meklēt**.
-4. Atlasiet opciju **Maksāt, kad maksājat**, lai skatītu tikai PWP rēķinus.
-5. Ātrās **cilnes Kreditoru rēķinu rindās** atlasiet rindas, kuras vēlaties izlaist apmaksai.
-6. Atlasiet **Atbrīvot kreditora maksājumu**. Opcija **Maksāt-kad-apmaksāts** tiek notīrīta, un lauka **Gatavs apmaksai** vērtība tiek mainīta uz **Jā**.
+4. Lai skatītu tikai PWP rēķinus, atlasiet opciju **Apmaksāt pēc apmaksas**.
+5. Kopsavilkuma cilnē **Piegādātāja rēķina rindas** atlasiet rindas, kurām vēlaties veikt maksājumu.
+6. Atlasiet **Veikt piegādātāja maksājumu**. Opcija **Maksāt-kad-apmaksāts** tiek notīrīta, un lauka **Gatavs apmaksai** vērtība tiek mainīta uz **Jā**.

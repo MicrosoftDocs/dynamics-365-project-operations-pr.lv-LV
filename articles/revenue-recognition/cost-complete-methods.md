@@ -1,6 +1,6 @@
 ---
 title: Pabeigšanas izmaksu metodes
-description: Šajā rakstā sniegta informācija par metodēm, kas izmantotas, lai aprēķinātu projekta pabeigšanas izmaksas.
+description: Šajā rakstā ir sniegta informācija par metodēm, kas tiek izmantotas projekta pabeigšanas izmaksu aprēķināšanai.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920299"
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā rakstā sniegta informācija par metodēm, kas izmantotas, lai aprēķinātu projekta pabeigšanas izmaksas. Projekta pabeigšanas izmaksu aprēķināšanai var izmantot vairākas metodes. 
+Šajā rakstā ir sniegta informācija par metodēm, kas tiek izmantotas projekta pabeigšanas izmaksu aprēķināšanai. Projekta pabeigšanas izmaksu aprēķināšanai var izmantot vairākas metodes. 
 
 Kad izveidojat projekta aprēķinu, lapas **Izveidot aprēķinu** laukā **Pabeigšanas izmaksu metode** varat atlasīt kādu no tālāk norādītajām pabeigšanas izmaksu metodēm.
 

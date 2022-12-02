@@ -1,6 +1,6 @@
 ---
 title: Produkta piedāvājuma rindas pārskats — Lite
-description: Šajā rakstā sniegta informācija par darbu ar produktu piedāvājuma rindām.
+description: Šajā rakstā ir sniegta informācija par darbu ar produkta piedāvājuma rindām.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

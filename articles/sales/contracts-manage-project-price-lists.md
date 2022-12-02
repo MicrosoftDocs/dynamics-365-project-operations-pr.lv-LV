@@ -1,6 +1,6 @@
 ---
 title: Projekta līgumu projekta cenu sarakstu pārvaldīšana
-description: Šajā rakstā sniegta informācija par projektu cenrāžu pārvaldību projektu līgumos.
+description: Šajā rakstā ir sniegta informācija par projekta cenu sarakstu pārvaldību projekta līgumos.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

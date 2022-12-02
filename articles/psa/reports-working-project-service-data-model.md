@@ -31,7 +31,7 @@ ms.locfileid: "8926693"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation paplašina citu programmu entītijas un ievieš savas entītijas Common Data Service datu modelī. Šajā rakstā ir aprakstītas dažas no entītijām, ar kurām saskaraties tipiskos PSA pārskata scenārijos.
+Dynamics 365 Project Service Automation paplašina citu programmu entītijas un ievieš savas entītijas Common Data Service datu modelī. Šajā rakstā ir aprakstītas dažas entītijas, kas atrodamas tipiskos PSA atskaišu izveides scenārijos.
 
 ## <a name="reporting-on-opportunities"></a>Atskaišu izveide par iespējām
 

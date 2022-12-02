@@ -1,6 +1,6 @@
 ---
 title: Projektu resursu sākumlapa
-description: Šajā rakstā ir sniegta informācija par projektu resursu piešķiršanu.
+description: Šajā rakstā ir sniegta informācija par projekta resursiem.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924025"
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par projektu resursu piešķiršanu.
+Šajā rakstā ir sniegta informācija par projekta resursiem.
 
-Viens no projekta vadītāju un resursu vadītāju uzdevumiem projekta plānošanas posmā ir resursu piešķiršana, kuras laikā viņiem ir jānosaka un jārezervē pareizais resurss, ar ko strādāt projektā. Programmā Dynamics 365 Finance resursu iegūšanas iespējas projektiem ļauj definēt lomas, kas tiek uzskatītas par pagaidu resursiem, kurus var rezervēt noteiktai iesaistei vai iesaistes daļai. Šāda veida resursu plānošana ļauj projekta vadītājiem un resursu vadītājiem izpildīt šādus uzdevumus:
+Viens no projekta vadītāju un resursu vadītāju uzdevumiem projekta plānošanas posmā ir resursu piešķiršana, kuras laikā viņiem ir jānosaka un jārezervē pareizais resurss, ar ko strādāt projektā. Programmā Dynamics 365 Finance iespēju noteikšanai projektiem varat definēt lomas, kas tiek uzskatītas par pagaidu resursiem, ko var rezervēt noteiktai piesaistei vai tās daļai. Šāda veida resursu plānošana ļauj projekta vadītājiem un resursu vadītājiem izpildīt šādus uzdevumus:
 
 - Definēt lomu, kurai ir nepieciešamās kompetences, lai varētu viegli saskaņot resursus.
 - Izmantot lomas, lai definētu sākotnēju iesaistes grafiku, kura pamatā ir rezervēti resursi.
@@ -41,7 +41,7 @@ Viens no projekta vadītāju un resursu vadītāju uzdevumiem projekta plānoša
 
 Turpinoties projekta plānošanai, plānotos resursus var aizstāt ar personāla resursiem. Turklāt projekta vadītājs var atgriezties un atjaunināt resursu rezervācijas jebkurā projekta posmā.
 
-Šajos rakstos ir sniegta informācija par uzdevumiem, kas jāizpilda, strādājot ar resursu projektiem.
+Rakstos tālāk ir sniegta informācija par uzdevumiem, kas jāizpilda, strādājot pie resursu plānošanas projektiem.
 
 - [Projekta resursu iestatīšana](set-up-project-resources.md)
 - [Resursu kompetenču pārvaldība](manage-resource-competencies.md)

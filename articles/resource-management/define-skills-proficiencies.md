@@ -1,6 +1,6 @@
 ---
 title: Prasmju un metodiku definēšana
-description: Šajā rakstā sniegta informācija par to, kā iestatīt kvalifikācijas modeļus resursu novērtēšanai.
+description: Šajā rakstā sniegta informācija par to, kā iestatīt kvalifikācijas modeļus, lai novērtētu resursus.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

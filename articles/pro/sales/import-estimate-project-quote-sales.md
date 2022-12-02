@@ -1,6 +1,6 @@
 ---
 title: Projekta aprēķinu importēšana uz projekta piedāvājuma rindu — Lite
-description: Šajā rakstā sniegta informācija par to, kā importēt novērtējumus no projekta uz piedāvājuma rindu.
+description: Šajā rakstā sniegta informācija par to, kā importēt aprēķinus no projekta piedāvājuma rindā.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

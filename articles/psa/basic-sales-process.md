@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas procesi
-description: Šajā rakstā sniegta informācija par pārdošanas pamatprocesiem.
+description: Šajā rakstā ir sniegta informācija par pamata pārdošanas procesiem.
 author: rumant
 ms.custom:
 - dyn365-projectservice

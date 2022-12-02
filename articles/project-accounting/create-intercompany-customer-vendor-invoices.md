@@ -1,6 +1,6 @@
 ---
 title: Starpuzņēmumu klientu un piegādātāju rēķinu izveide
-description: Šajā rakstā sniegta informācija par to, kā izveidot starpuzņēmumu debitoru un kreditoru rēķinus.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot starpuzņēmumu klientu un piegādātāju rēķinus.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Izmantojiet šo procedūru, lai manuāli izveidotu starpuzņēmumu klienta rēķ
 
 Tālāk uzskaitītās darbības ir jāveic aizdodošajā juridiskajā entītijā. 
 
-1. Programmā Dynamics 365 Finance dodieties uz **Projektu vadība un grāmatvedība** > **Projekta rēķini** > **Starpuzņēmumu debitoru rēķini**. Saraksta lapas **Starpuzņēmumu klientu rēķini** darbību rūtī atlasiet **Jauns.**
+1. Programmā Dynamics 365 Finance dodieties uz **Projektu pārvaldība un uzskaite** > **Projektu rēķini** > **Starpuzņēmumu klientu rēķini**. Saraksta lapas **Starpuzņēmumu klientu rēķini** darbību rūtī atlasiet **Jauns.**
 2. Lapas **Izveidot starpuzņēmumu rēķinu** laukā **Juridiskā persona** atlasiet aizņēmuma juridisko personu.
 3. Neobligāti: ievadiet konkrēta projekta līguma un projekta numuru.
 4. Sašauriniet meklēšanu, atlasot datumu diapazonu. Ievadiet konkrētus datumus laukos **Sākuma datums** un **Beigu datums**. Meklēšanas rezultātos tiek rādītas tikai šajā datumu diapazonā grāmatotās starpuzņēmumu darbības.

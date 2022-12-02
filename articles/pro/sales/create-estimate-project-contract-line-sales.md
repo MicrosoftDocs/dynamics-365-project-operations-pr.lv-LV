@@ -1,6 +1,6 @@
 ---
 title: Projekta līguma rindas aprēķini — Lite
-description: Šajā rakstā sniegta informācija par projekta līguma rindas aplēšanu.
+description: Šajā rakstā ir sniegta informācija par aprēķiniem, pamatojoties uz projekta līguma rindu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

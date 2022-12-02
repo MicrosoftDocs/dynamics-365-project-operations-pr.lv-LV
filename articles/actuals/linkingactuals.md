@@ -1,6 +1,6 @@
 ---
-title: Darbību izcelsme – saistiet faktiskos datus ar to avotu
-description: Šajā rakstā paskaidrots, kā darbību izcelsmes jēdziens tiek izmantots, lai sasaistītu faktiskos datus ar sākotnējiem avota ierakstiem, piemēram, laika ierakstu, izdevumu ierakstu vai materiālu lietojuma žurnāliem.
+title: Transakciju izcelsme — saistiet datus ar avotu
+description: Šajā rakst izskaidrots, kā tiek izmantota transakciju izcelsme, lai saistītu datus ar to oriǵinālavota ierakstiem, piemēram, laika ierakstiem, izdevumu ierakstiem vai materiālu lietojuma žurnāliem.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921311"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Darbību izcelsme – saistiet faktiskos datus ar to avotu
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Transakciju izcelsme — saistiet datus ar avotu
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Transakciju izcelsmes ieraksti tiek izveidoti, lai sasaistītu faktiskos datus ar to avotu, tādiem laika ierakstiem, izdevumu ierakstiem, materiālu lietojuma žurnāliem un projekta rēķiniem.
+Transakciju izcelsmes ieraksti tiek izveidoti, lai saistītu datus ar to avotu, piemēram, laika ierakstiem, izdevumu ierakstiem, materiālu izmantojuma žurnāliem un projekta rēķiniem.
 
 Tālāk sniegtajā piemērā ir redzama tipiska laika ierakstu apstrāde Project Operations projekta dzīves ciklā.
 
-> ![Visu laika apstrāde projekta operācijās.](media/basic-guide-17.png)
+> ![Laika ierakstu apstrāde programmā Project Operations.](media/basic-guide-17.png)
  
-1. Laika ieraksta iesniegšanas rezultātā tiek izveidotas divas žurnāla rindas: viena izmaksām un otra nelīdzenai pārdošanai.
-2. Iespējamā laika ieraksta apstiprināšana izraisa divu faktisko datu izveidi: vienu izmaksām un otru par nemainīgu pārdošanu.
+1. Iesniedzot laika ierakstu, tiek izveidotas divas žurnāla rindas: viena ir paredzēta izmaksām, bet otra ir paredzēta rēķinā neiekļautajai pārdošanai.
+2. Veicot laika ieraksta galīgo apstiprināšanu, tiek izveidoti divu veidu faktiskie dati: vieni ir paredzēti izmaksām, bet otri ir paredzēti rēķinā neiekļautajai pārdošanai.
 3. Kad lietotājs izveido projekta rēķinu, rēķina rindas transakcija tiek izveidota, izmantojot datus no rēķinā neiekļautās pārdošanas faktiskajiem datiem.
 4. Apstiprinot rēķinu, tiek izveidoti divu veidu jauni faktiskie dati: rēķinā neiekļautās pārdošanas anulēšana un rēķinā iekļautās pārdošanas faktiskie dati.
 
-Katrs notikums šajā apstrādes darbplūsmā izraisa ierakstu izveidi entītijā Transakcijas izcelsme, lai palīdzētu izveidot šo ierakstu, kas izveidoti laika ievadnē, žurnāla rindā, faktiskajā un rēķina rindas detaļās, lai izveidotu šo ierakstu, žurnāla rindas, faktisko un rēķina rindas detalizēto informāciju.
+Katrs no notikumiem šajā apstrādē darbplūsmā izraisa ierakstu izveidi entītijā Transakcijas izcelsme, lai palīdzētu izsekot relācijas starp šiem ierakstiem, kas tiek izveidoti laika ierakstu, žurnāla rindu, faktisko datu un rēķina rindu detaļās.
 
 Tālāk sniegtajā tabulā ir parādīti iepriekšējās darbplūsmas ieraksti entītijā Transakcijas izcelsme.
 
@@ -70,8 +70,8 @@ Tālāk sniegtajā tabulā ir parādīti iepriekšējās darbplūsmas ieraksti e
 | Labotā rēķina GUID      | Rēķins                  | Jaunās, rēķinā neiekļautās pārdošanas faktisko datu GUID    | Faktiski                            |                          |
 
 
-Nākamajā attēlā parādītas saites, kas dažādos notikumos izveidotas starp faktiskajiem un to avotiem, izmantojot laika ierakstu piemēru projekta operācijās.
+Attēlā tālāk parādītas saites, kas tiek izveidotas starp datiem un to avotiem vairākos gadījumos, izmantojot laika ierakstu piemēru programmā Project Operations.
 
-> ![Kā faktiskie dati ir saistīti ar avota ierakstiem projektu operācijās.](media/TransactionOrigins.png)
+> ![Kā dati tiek saistīti ar avotu ierakstiem programmā Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

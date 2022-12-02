@@ -1,6 +1,6 @@
 ---
 title: Maksas komponentu konfigurēšana projekta balstīta līguma rindā
-description: Šajā rakstā sniegta informācija par to, kā projekta operāciju līgumu rindām pievienot iekasējamos komponentus.
+description: Šajā rakstā ir sniegta informācija par to, kā Project Operations līguma rindām pievienot apmaksājamus komponentus.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

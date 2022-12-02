@@ -1,6 +1,6 @@
 ---
 title: Periodu tipi
-description: Šajā rakstā sniegta informācija par to, kā iestatīt periodu tipus ieņēmumu novērtēšanai.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt periodu tipus ieņēmumu novērtējumiem.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930971"
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Perioda tips nosaka, cik bieži projekta ieņēmumi tiek novērtēti. Šajā rakstā sniegta informācija par to, kā iestatīt periodu tipus ieņēmumu novērtēšanai. 
+Perioda tips nosaka, cik bieži projekta ieņēmumi tiek novērtēti. Šajā rakstā ir sniegta informācija par to, kā iestatīt periodu tipus ieņēmumu novērtējumiem. 
 
 ## <a name="create-and-work-with-period-types"></a>Periodu tipu izveide un darbs ar tiem
 Lai izveidotu periodu tipus un strādātu ar tiem, izpildiet tālāk norādītās darbības.
 
-1. Dynamics 365 Finance vidē dodieties uz **Projektu vadība un grāmatvedība** > **Uzstādījumi** > **Estimates** > **Period tipi**.
+1. Dynamics 365 Finance vidē pārejiet uz **Projektu pārvaldība un uzskaite** > **Iestatīšana** > **Novērtējumi** > **Periodu tipi**.
 2. Lai izveidotu jaunu perioda tipu, atlasiet **Jauns**. Ievadiet nosaukumu un aprakstu.
 3. Laukā **Biežums** ievadiet vērtību.
 

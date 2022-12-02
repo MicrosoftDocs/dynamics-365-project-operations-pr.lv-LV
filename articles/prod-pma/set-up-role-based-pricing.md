@@ -1,6 +1,6 @@
 ---
 title: Iestatīt lomā balstītas cenas
-description: Šajā rakstā ir sniegta informācija par to, kā iestatīt cenas noteiktām lomām.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt cenu noteikšanu konkrētām lomām.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

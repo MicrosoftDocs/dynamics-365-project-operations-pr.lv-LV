@@ -1,6 +1,6 @@
 ---
 title: Projekta kalendāru definēšana
-description: Šajā rakstā sniegta informācija par to, kā lietot kalendāra veidni projektam, lai izsekotu projekta grafiku.
+description: Šajā rakstā ir sniegta informācija par to, kā projektam lietot kalendāra veidni, lai sekotu līdzi projekta grafikam.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

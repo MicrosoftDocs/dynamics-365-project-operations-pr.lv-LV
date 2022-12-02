@@ -1,6 +1,6 @@
 ---
 title: Lite izvietošanas pārskats
-description: Šajā rakstā ir sniegta informācija par Lite izvietošanu programmā Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par Dynamics 365 Project Operations Lite izvietošanu.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

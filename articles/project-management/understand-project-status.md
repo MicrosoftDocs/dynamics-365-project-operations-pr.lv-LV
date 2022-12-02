@@ -1,6 +1,6 @@
 ---
 title: Projekta statusa izprašana
-description: Šajā rakstā sniegta informācija par statusu, kas piešķirts projektiem programmā Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par projektiem piešķirto statusu programmā Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

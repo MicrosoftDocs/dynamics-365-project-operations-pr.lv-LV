@@ -1,6 +1,6 @@
 ---
 title: Darījumu kategoriju kā cenu noteikšanas dimensiju izmantošana
-description: Šajā rakstā sniegta informācija par to, kā lauku Transakciju kategorija izmantot kā cenu dimensiju.
+description: Šajā rakstā ir sniegta informācija par transakcijas kategorijas lauka izmantošanu kā cenu noteikšanas dimensiju.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911703"
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 
-Šajā rakstā paskaidrots, kā lauku Transakciju **kategorija** izmantot kā cenu dimensiju. 
+Šajā rakstā ir izskaidrots, kā izmantot lauku **Transakcijas kategorija** kā cenu noteikšanas dimensiju. 
 
 ## <a name="prerequisites"></a>Priekšnoteikumi
-Pirms šajā rakstā aprakstīto procedūru pabeigšanas ir nepieciešams jauns cenu dimensijas risinājums jūsu organizācijai. Ja tas vēl nav izveidots, skatiet tēmu [Pielāgotu lauku un entītiju kā cenu noteikšanas dimensiju izveide](create-custom-fields-entities-pricing-dimensions.md).
+Pirms šajā rakstā aprakstīto procedūru veikšanas ir nepieciešams jauns organizācijas cenu dimensiju risinājums. Ja tas vēl nav izveidots, skatiet tēmu [Pielāgotu lauku un entītiju kā cenu noteikšanas dimensiju izveide](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Transakcijas kategorijas lauka pievienošana veidlapām un skatiem
 Lai lauks **Transakcijas kategorija** būtu redzams cenu noteikšanas dimensijas risinājumā, šis lauks ir jāpievieno visām veidlapām un skatiem kā entītija.

@@ -1,6 +1,6 @@
 ---
 title: Plānošanas paneļa izmantošana projekta resursu rezervēšanai
-description: Šajā rakstā ir sniegta informācija par resursu rezervēšanu.
+description: Šajā rakstā ir sniegta informācija par to, kā rezervēt resursus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

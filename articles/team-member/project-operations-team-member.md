@@ -1,6 +1,6 @@
 ---
-title: Projekta operāciju grupas dalībnieka programma
-description: Šajā rakstā sniegta informācija par programmu Project Operations Team Member programmā Microsoft Dynamics 365 Project Operations.
+title: Project Operations darba grupas lietotne
+description: Šajā rakstā ir sniegta informācija par resursu pārvaldības iespējām Microsoft Dynamics 365 Project Operations darba grupas lietotnē Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918229"
 ---
-# <a name="project-operations-team-member-app"></a>Projekta operāciju grupas dalībnieka programma
+# <a name="project-operations-team-member-app"></a>Project Operations darba grupas lietotne
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Programma Project Operations Team Member (iepriekš pazīstama kā Project Resource Hub) ietver visas iespējas, ko Microsoft Dynamics 365 Project Operations piedāvā Team Members lietotāja licencei.
+Programmā Project Operations Team Member (iepriekš sauktā par Project Resource Hub) ir ietvertas visas iespējas, ko Microsoft Dynamics 365 Project Operations piedāvā Team Members lietotāju licencei.
 
-Tālāk ir norādītas dažas no projekta operāciju grupas dalībnieka programmas iespējām.
+Tālāk uzskaitītas dažas Project Operations Team Member lietojumprogrammas funkcijas:
 
 - Laika ieraksts
-- Izdevumu ieraksts (Lite izvietošana)
+- Izdevumu ievade (Lite izvietošana)
 - Materiālu lietojums
 - Approvals
-- Paplašināmība (līdz 15 vienībām)
+- Paplašināmība (līdz 15 entītijām)
 
-Lai izmantotu programmu Projekta operāciju grupas dalībnieks, jums ir jābūt pilnai projekta operāciju licencei vai Dynamics Team Members lietotāja licencei. Papildinformāciju par licencēm skatiet [Dynamics 365 licencēšanas rokasgrāmatā](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Projekta operāciju grupas dalībnieka programmai ir nepieciešama projekta operāciju izvietošana.
+Lai izmantotu programmu Project Operations Team Member, ir nepieciešama pilna Project Operations licence vai Dynamics Team Members lietotāju licence. Papildinformāciju par licencēm skatiet [Dynamics 365 licencēšanas rokasgrāmatā](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Project Operations Team Member programmai ir vajadzīga Project Operations izvietošana.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

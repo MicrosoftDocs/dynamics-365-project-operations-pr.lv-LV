@@ -1,6 +1,6 @@
 ---
 title: Jaunumi 2021. gada oktobra Project Operations Lite izvietošanā
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations lite izvietošanas 2021. gada oktobra laidienā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Project Operations Lite izvietošanas 2021. gada oktobra izlaiduma ietvaros.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article

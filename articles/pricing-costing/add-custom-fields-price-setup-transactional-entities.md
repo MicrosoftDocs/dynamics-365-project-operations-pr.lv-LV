@@ -1,6 +1,6 @@
 ---
 title: 'Obligāto pielāgoto lauku pievienošana cenu iestatījumiem un transakciju entītijām '
-description: Šajā rakstā ir sniegta informācija par to, kā entītijām, veidlapām un skatiem pievienot nepieciešamās pielāgoto lauku atsauces.
+description: Šajā rakstā sniegta informācija par to, kā pievienot obligātās pielāgoto lauku atsauces entītijām un veidlapām un skatiem.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8926049"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Šajā rakstā pieņemts, ka esat pabeidzis rakstā Norādītās darbības, izveidojot pielāgotus laukus un entītijas, [kas izmantojamas kā cenu kategorijas](create-custom-fields-entities-pricing-dimensions.md). Ja neesat pabeidzis šīs procedūras, atgriezieties un pabeidziet tās un pēc tam atgriezieties pie šī raksta. 
+Šajā rakstā tiek pieņemts, ka tēmas procedūras ir pabeigtas procedūras, kas aprakstītas rakstā [Pielāgotu lauku un entītiju izveide, ko izmantot kā cenu noteikšanas dimensijas](create-custom-fields-entities-pricing-dimensions.md). Ja šīs procedūras neesat pabeidzis, atgriezieties un pabeidziet tās, un pēc tam atgriezieties pie šī raksta. 
 
-Šajā rakstā procedūras parādīs, kā entītijām un lietotāja interfeisa (lietotāja interfeisa) elementiem, piemēram, formām un skatiem, pievienot nepieciešamās pielāgoto lauku atsauces.
+Šajā rakstā procedūras parādīs, kā pievienot vajadzīgās pielāgotās lauku atsauces entītijām un lietotāja saskarnes (UI) elementus, piemēram, veidlapas un skatus.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pielāgotu cenas noteikšanas dimensiju lauku pievienošana 
 Pēc pielāgotu lauku un entītiju izveidošanas nākamais solis ir panākt, lai cenas iestatījumi un transakciju entītijas brīdinātu par pielāgotām entītijām vai opciju kopām, izveidojot atsauču laukus. Atkarībā no tā, vai jūsu cenrāža dimensiju sarakstā ir iekļautas opciju kopas dimensijas vai entītiju dimensijas, vai arī abas, veiciet tikai tās darbības, kas ir **Uz opciju kopu pamatotas pielāgotās cenu noteiktās dimensijas** vai **Uz entītijām pamatotas pielāgotās cenu noteiktās dimensijas**, vai tās abas.

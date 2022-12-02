@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 41, V3
-description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami atjaunināšanas laidienā Microsoft Dynamics 365 Project Service Automation 41, V3.
+description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas pieejami Microsoft Dynamics 365 Project Service Automation 41. atjauninājumu laidienā, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8930557"
 
 Ar prieku izziņojam jaunāko programmas Microsoft Dynamics 365 Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Tas ir saderīgs ar Dynamics 365 9.x. Lai atjauninātu šo laidienu, apmeklējiet Dynamics 365 tiešsaistes risinājumu lapas administrēšanas centru un instalējiet atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
-Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti projektu pakalpojumu automatizācijas atjaunināšanas laidienam 41, V3. Šīs versijas būvējuma numurs ir V3.10.62.162, un tas parasti ir pieejams, izmantojot 2022. gada marta pašatjauninājumu.
+Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation, atjauninājuma izlaidumā 41, V3. Šīs versijas būvējuma numurs ir V3.10.62.162, un tas parasti ir pieejams, izmantojot 2022. gada marta pašatjauninājumu.
 
 ## <a name="update-release-41"></a>Atjauninājumu izlaidums 41
 
@@ -38,10 +38,10 @@ Ar prieku izziņojam jaunāko programmas Microsoft Dynamics 365 Project Service 
 Ir novērstas tālāk norādītās problēmas.
 
 **Projekta pārvaldība**
-- Mēģinot izveidot projektu no veidnes, kuras pamatā ir projekts, kas izveidots no darbvirsmas pievienojumprogrammas, tiek parādīta šāda kļūda: "Resursa piešķiršanas plānotā darba lauka validācija: katra resursa piešķiršanas laika sadaļas beigu datums nedrīkst būt agrāks par tā sākuma datumu".
+- Mēģinot izveidot projektu no veidnes, kuras pamatā ir projekts, kas izveidots no darbvirsmas pievienojumprogrammas, tiek parādīts šāds kļūdas ziņojums: “Resursu piešķiršanas lauka Plānotais darbs validācija: katra resursa piešķiršanas laika slāņa beigu datums nedrīkst būt agrāks par tā sākuma datumu”.
 
 **Laiks un izdevumi**
-- Mēģinot izdzēst laika ierakstu, tiek parādīts šāds kļūdas ziņojums "No ISV koda rodas neparedzēta kļūda".
+- Mēģinot dzēst laika ierakstu, tiek parādīts šāds kļūdas ziņojums: “Rodas neparedzēta kļūda no ISV koda”.
 
 **Pārdošana**
-- Veidojot rēķinu fiksētas cenas atskaites punktam, **lauki Apraksts** un **Ārējais apraksts** netiek aizpildīti. 
+- Izveidojot rēķinu fiksētas cenas atskaites punktam, netiek aizpildīti lauki **Apraksts** un **Ārējais apraksts**. 

@@ -1,6 +1,6 @@
 ---
 title: Darba grupas dalībnieku uzturēšana
-description: Šajā rakstā sniegta informācija par nosaukto resursu rezervēšanu projektu grupām un to piešķiršanu uzdevumiem.
+description: Šajā rakstā ir sniegta informācija par nosaukto resursu rezervēšanu projekta darba grupām un to piešķiršanu uzdevumiem.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

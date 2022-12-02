@@ -1,6 +1,6 @@
 ---
 title: Materiālu lietojuma ieraksts projektos un projekta uzdevumos
-description: Šajā rakstā ir sniegta informācija par to, kā reģistrēt materiālu lietojumu, salīdzinot tos ar projektiem un projekta uzdevumiem.
+description: Šajā rakstā ir sniegta informācija par to, kā reģistrēt materiālu izmantošanu attiecībā pret projektiem un projekta uzdevumiem.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

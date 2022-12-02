@@ -1,6 +1,6 @@
 ---
 title: Izdevumu pārvaldības pārskats
-description: Šajā rakstā ir sniegta vispārīga informācija par izdevumu pārvaldību un saites uz papildu resursiem. Izdevumu pārvaldību var izmantot, lai izveidotu integrētu darbplūsmu, kurā var glabāt maksāšanas metodes informāciju, importēt darījumus ar kredītkarti, kā arī izsekot naudu, ko darbinieki tērē, kad uzņēmumam rodas izdevumi.
+description: Šajā rakstā ir sniegta vispārēja informācija par izdevumu pārvaldību un saitēm uz papildu resursiem. Izdevumu pārvaldību var izmantot, lai izveidotu integrētu darbplūsmu, kurā var glabāt maksāšanas metodes informāciju, importēt darījumus ar kredītkarti, kā arī izsekot naudu, ko darbinieki tērē, kad uzņēmumam rodas izdevumi.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Papildinformāciju skatiet sadaļā [Atjaunotas izdevumu atskaites](ExpenseWorks
 
 ### <a name="blogs"></a>Emuārs
 
-Viedokļus, ziņas un citu informāciju [Microsoft Dynamics varat atrast 365 emuārā un](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) emuārā [Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Viedokļus, jaunumus un citu informāciju varat atrast [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārs](https://community.dynamics.com/partner/b/operationspartnercommunityblog) nodrošina Microsoft Dynamics partneriem vienu resursu, kur viņi var uzzināt par MBS Operations jaunumiem un tendencēm.
 

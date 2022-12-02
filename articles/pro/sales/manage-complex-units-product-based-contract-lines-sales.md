@@ -1,6 +1,6 @@
 ---
 title: Produktu līgumu rindu kompleksu vienību pārvaldīšana — Lite
-description: Šajā rakstā ir sniegta informācija par atbalstu abonētu produktu pārdošanai.
+description: Šajā rakstā ir sniegta informācija par to, kā atbalstīt uz abonementu balstītu produktu pārdošanu.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

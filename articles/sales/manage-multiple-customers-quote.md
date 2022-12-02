@@ -1,6 +1,6 @@
 ---
 title: Vairāku klientu pārvaldība projekta piedāvājumā
-description: Šajā rakstā sniegta informācija par darbu ar piedāvājumiem, kuros iesaistīti vairāki klienti, kas finansēs projektu.
+description: Šajā rakstā ir sniegta informācija par darbu ar piedāvājumiem, kas ietver vairākus klientus, kuri finansēs šo projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

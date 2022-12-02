@@ -1,6 +1,6 @@
 ---
 title: Laika ierakstu izvēršana
-description: Šajā rakstā ir sniegta informācija par to, kā izstrādātāji var pagarināt ieraksta kontroles laiku.
+description: Šajā rakstā ir sniegta informācija par to, kā izstrādātāji var izvērst laika ieraksta vadīklu.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
@@ -43,7 +43,7 @@ Laika ieraksti ir pamata entītija, kas tiek izmantota vairākos scenārijos. 20
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Laika ieraksti un entītija Laika avots
-Katrs laika ieraksts tiek saistīts ar laika avota ierakstu. Šis ieraksts nosaka, kurām lietojumprogrammām ir jāapstrādā laika ievadne un kā.
+Katrs laika ieraksts tiek saistīts ar laika avota ierakstu. Šis ieraksts nosaka, kā un kurām programmām jāapstrādā laika ieraksts.
 
 Laika ieraksti vienmēr ir viens nepārtraukts laika bloks ar saistītu sākuma, beigu laiku un ilgumu.
 
@@ -55,7 +55,7 @@ Loģika automātiski atjaunina laika ieraksta ierakstu šādos gadījumos:
     - **msdyn_end**
     - **msdyn_duration**
 
-- Lauki **msdyn_start** un **msdyn_end** ir zināmi laika joslai.
+- Laukos **msdyn_start** un **msdyn_end** ir ņemtas vērā laika joslas.
 - Laika ieraksti, kas izveidoti tikai ar norādītu **msdyn_date** un **msdyn_duration**, tiks sākti pusnaktī. Lauki **msdyn_start** un **msdyn_end** tiks atbilstoši atjaunināti.
 
 #### <a name="time-entry-types"></a>Laika ierakstu tipi
@@ -80,55 +80,55 @@ Ir trīs galvenās darbības pielāgotu lauku pievienošanai iknedēļas laika i
 
 1. Pievienojiet pielāgoto lauku dialoglodziņam **Ātrā izveide**.
 2. Konfigurējiet režģi, lai parādītu pielāgoto lauku.
-3. Pēc vajadzības pievienojiet pielāgoto lauku lapai **Rindas rediģēšana** vai **Laika ieraksta rediģēšana**.
+3. Pievienojiet pielāgoto lauku lapai **Rindu rediģēšana** vai **Laika ierakstu rediģēšana** pēc vajadzības.
 
-Pārliecinieties, vai jaunajam laukam lapā Rindas rediģēšana **vai** Laika ieraksta rediģēšana **ir** nepieciešamās validācijas. Šī uzdevuma ietvaros bloķējiet lauku, pamatojoties uz laika ieraksta statusu.
+Pārliecinieties arī par to, vai jaunajam laukam ir nepieciešamās apstiprināšanas lapā **Rindu rediģēšana** vai **Laika ierakstu rediģēšana**. Veicot šo uzdevumu, lauks ir jābloķē, pamatojoties uz laika ieraksta statusu.
 
-Pievienojot pielāgotu lauku laika ieraksta **režģim** un pēc tam veidojot laika ierakstus tieši režģī, šo ierakstu pielāgotais lauks tiek automātiski iestatīts tā, lai tas atbilstu rindai. 
+Kad režģim **Laika ieraksts** pievieno pielāgotu lauku un pēc tam laika ierakstus izveido tieši režģī, šo ierakstu pielāgotais lauks tiek automātiski iestatīts, lai tas atbilstu rindai. 
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Pielāgotā lauka pievienošana dialoglodziņam Ātrā izveide
-Pievienojiet pielāgoto lauku dialoglodziņam **Ātrā izveide: laika ieraksta** izveide. Pēc tam lietotāji var ievadīt vērtību, pievienojot laika ierakstus, atlasot **Jauns**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Pielāgotā lauka pievienošana ātrās izveides dialoglodziņam
+Pielāgotais lauks ir jāpievieno dialoglodziņam **Ātrā izveide: laika ieraksta izveide**. Pēc tam lietotāji var ievadīt vērtību, pievienojot laika ierakstus, atlasot **Jauns**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurējiet režģi, lai parādītu pielāgoto lauku.
-Ir divi veidi, kā pievienot pielāgotu lauku iknedēļas **laika ieraksta** režģim.
+Ir divi veidi, kā pievienot pielāgotu lauku režģim **Nedēļas laika ieraksts**.
 
-- Pielāgojiet **skatu Mani iknedēļas laika ieraksti** un pievienojiet tam pielāgoto lauku. Pielāgotā lauka atrašanās vietu un lielumu režģī var norādīt, rediģējot skata rekvizītus.
-- Izveidojiet jaunu pielāgota laika ieraksta skatu un iestatiet to kā noklusējuma skatu. Šajā skatā papildus kolonnām, kurās jāiekļauj režģis, ir jābūt **laukiem Apraksts** un **Ārējie komentāri**. Režģa atrašanās vietu, lielumu un noklusējuma kārtošanas secību var norādīt, rediģējot rekvizītus skatā. Pēc tam konfigurējiet pielāgotu vadīklu šim skatam, lai tā būtu **Laika ierakstu režģa** vadīkla. Pievienojiet vadīklu skatam un atlasiet to tīmeklim, tālrunim **un** planšetdatoram **·**. **·** Pēc tam konfigurējiet nedēļas laika ieraksta **režģa** parametrus. **Iestatiet lauku Sākuma datums** uz **MSDYN\_ datumu**, iestatiet **lauku Ilgums** uz **msdyn\_ ilgumu** un iestatiet **lauku Statuss** uz **msdyn\_ entrystatus**. Lauks **Tikai lasāms statusu saraksts** ir iestatīts uz **192350002 (Apstiprināts)**, **192350003 (iesniegts)** vai **192350004 (pieprasīts atsaukt)**.
+- Pielāgojiet skatu **Mani iknedēļas laika ieraksti** un pievienot tam pielāgoto lauku. Varat norādīt pielāgotā lauka novietojumu un izmēru režģī, rediģējot šos rekvizītus skatā.
+- Izveidojiet jaunu pielāgotu laika ierakstu skatu un iestatiet to kā noklusējuma skatu. Šajā skatā ir jābūt iekļautiem laukiem **Apraksts** un **Ārējie komentāri** papildus tām kolonnām, kuras vēlaties iekļaut režģī. Varat norādīt režģa novietojumu, izmēru un kārtošanas secību, rediģējot rekvizītus skatā. Pēc tam konfigurējiet pielāgotu vadīklu šim skatam, lai tā būtu **Laika ierakstu režģa** vadīkla. Pievienojiet šo vadīklu skatam un atlasiet to opcijām **Tīmeklis**, **Tālrunis** un **Planšetdators**. Pēc tam konfigurējiet režģa **Nedēļas laika ieraksts** parametrus. Iestatiet lauku **Sākuma datums** uz **msdyn\_date**, iestatiet lauku **Ilgums** uz **msdyn\_duration** un iestatiet lauku **Statuss** uz **msdyn\_entrystatus**. Lauks **Tikai lasāms statusu saraksts** ir iestatīts uz **192350002 (Apstiprināts)**, **192350003 (Iesniegts)** vai **192350004 (Pieprasīta atsaukšana)**.
 
 ### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Pielāgotā lauka pievienošana atbilstošajai rediģēšanas lapai
-Lapas, kas tiek izmantotas laika ieraksta vai laika ierakstu rindas rediģēšanai, var atrast sadaļā **Veidlapas**. Poga **Rediģēt ievadni** režģī atver **lapu Rediģēt ievadni**, un **poga Rediģēt rindā** tiek atvērta **lapa Rindas rediģēšana**. Šīs lapas var rediģēt, lai tajās būtu iekļauti pielāgoti lauki.
+Lapas, kas tiek izmantotas laika ieraksta vai laika ierakstu rindas rediģēšanai, var atrast sadaļā **Veidlapas**. Poga **Rediģēt ierakstu** režģī atver lapu **Ieraksta rediģēšana**, un poga **Rediģēt rindu** atver lapu **Rindu rediģēšana**. Šīs lapas var rediģēt, lai tajās būtu iekļauti pielāgoti lauki.
 
-Abas opcijas noņem dažus izvades filtrus projekta **un** projekta uzdevuma **entītijās**, lai visi entītiju uzmeklēšanas skati būtu redzami. Ārpus lodziņa ir redzami tikai atbilstošie uzmeklēšanas skati.
+Abas opcijas noņem dažus neiekļautus filtrus entītijām **Projekts** un **Projekta uzdevums**, lai būtu redzami visi entītiju uzmeklēšanas skati. Ārpus lodziņa ir redzami tikai atbilstošie uzmeklēšanas skati.
 
-Ir jānosaka pielāgotā lauka atbilstošā lapa. Visticamāk, ja lauks ir pievienots režģim, tam jāiet uz **rindas rediģēšanas** lapu, kas tiek izmantota laukiem, kuri attiecas uz visu laika ierakstu rindu. Ja pielāgotajam laukam katru dienu rindā ir unikāla vērtība (piemēram, ja tas ir pielāgots lauks beigu laikam), tam jāiet uz **lapu Laika ieraksta rediģēšana**.
+Pielāgotajam laukam ir jānosaka piemērota lapa. Visticamāk, ja pievienojāt lauku režģim, tam ir jābūt lapā **Rindu rediģēšana**, kas tiek izmantota laukiem, kas attiecas uz visu laika ierakstu rindu. Ja pielāgotajam laukam katru dienu rindā ir unikāla vērtība (piemēram, ja tas ir pielāgots lauks beigu laikam), tam jāatrodas lapā **Laika ierakstu rediģēšana**.
 
-Lai pielāgotu lauku pievienotu lapai, velciet **lauka** elementu atbilstošajā lapas pozīcijā un pēc tam iestatiet tā rekvizītus.
+Lai lapai pievienotu pielāgoto lauku, velciet elementu **Lauks** uz atbilstošo atrašanās vietu lapā un pēc tam iestatiet tā rekvizītus.
 
 ### <a name="add-new-option-set-values"></a>Jaunu opciju kopas vērtību pievienošana
-Lai pievienotu opciju kopa vērtības ārpus rāmja laukam, rīkojieties šādi.
+Lai neiekļautajam laukam pievienotu opciju kopas vērtības, izpildiet tālāk aprakstītās darbības.
 
-1. Atveriet lauka rediģēšanas lapu un pēc tam sadaļā **Tips** atlasiet **Rediģēt** blakus opciju kopa.
-2. Pievienojiet jaunu opciju, kurai ir pielāgota etiķete un krāsa. Ja vēlaties pievienot jaunu laika ieraksta statusu, gatavā lauka nosaukums **ir Ieraksta statuss**.
+1. Atveriet lauka rediģēšanas lapu un pēc tam sadaļā **Tips** atlasiet **Rediģēt**, kas atrodas blakus opciju kopai.
+2. Pievienojiet jaunu opciju, kurai ir pielāgota etiķete un krāsa. Ja vēlaties pievienot jaunu laika ieraksta statusu, neiekļautā lauka nosaukums ir Ieraksta statuss, nevis **Ieraksta statuss**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Jauna laika ieraksta tikai lasāma statusa norādīšana
-Lai norādītu jaunu laika ieraksta statusu kā tikai lasāmu, pievienojiet jauno laika ieraksta vērtību rekvizītam **Tikai lasāma statusa saraksts**. Noteikti pievienojiet numuru, nevis etiķeti. Laika ieraksta režģa rediģējamā daļa tagad tiks bloķēta rindām ar jauno statusu. Lai dažādiem **laika ieraksta** skatiem rekvizītu Tikai lasāms statusa saraksts **iestatītu** atšķirīgi, pievienojiet **laika ieraksta** režģi skata pielāgoto vadīklu **sadaļā** un pēc vajadzības konfigurējiet parametrus.
+Lai norādītu jaunu laika ieraksta statusu kā tikai lasāmu, pievienojiet jauno laika ieraksta vērtību rekvizītam **Tikai lasāma statusa saraksts**. Noteikti pievienojiet numuru, nevis etiķeti. Laika ieraksta režģa rediģējamā daļa tagad tiks bloķēta rindām ar jaunu statusu. Lai iestatītu rekvizītu **Tikai lasāms statusu saraksts** atšķirīgi dažādiem skatiem **Laika ieraksts**, pievienojiet režģi **Laika ieraksts** skata sadaļai **Pielāgotas vadīklas** un konfigurējiet atbilstošos parametrus.
 
-Pēc tam pievienojiet biznesa kārtulas, lai bloķētu visus laukus lapās **Rindas rediģēšana** un **Laika ieraksta rediģēšana**. Lai piekļūtu šo lapu biznesa kārtulām, atveriet katras lapas veidlapu redaktors un pēc tam atlasiet **Biznesa kārtulas**. Jaunu statusu var pievienot nosacījumam esošajās biznesa kārtulās vai jaunajam statusam varat pievienot jaunu biznesa kārtulu.
+Pēc tam pievienojiet biznesa kārtulas, lai bloķētu visus laukus lapās **Rindu rediģēšana** un **Laika ierakstu rediģēšana**. Lai piekļūtu šo lapu biznesa kārtulām, atveriet katras lapas veidlapu redaktoru un atlasiet **Biznesa kārtulas**. Jaunu statusu var pievienot nosacījumam esošajās biznesa kārtulās vai jaunajam statusam varat pievienot jaunu biznesa kārtulu.
 
 ### <a name="add-custom-validation-rules"></a>Pielāgotu validācijas kārtulu pievienošana
-Nedēļas laika ievades **režģa pieredzei** var pievienot divu veidu pārbaudes kārtulas:
+Varat pievienot divus validācijas kārtulu tipus, ko varat pievienot režģa **Nedēļas laika ieraksts** lietošanas pieredzei.
 
 - Klienta puses biznesa kārtulas, kas darbojas lapās
-- Servera puses spraudņa validācijas, kas attiecas uz visu laiku ierakstu atjauninājumiem
+- Servera puses spraudņu pārbaudes, kas attiecas uz visiem laika ierakstu atjauninājumiem
 
-#### <a name="client-side-business-rules"></a>Klienta puses biznesa noteikumi
-Izmantojiet biznesa kārtulas, lai bloķētu un atbloķētu laukus, ievadiet noklusējuma vērtības laukos un definējiet pārbaudes, kurām ir nepieciešama informācija tikai no pašreizējā laika ieraksta. Lai piekļūtu lapas biznesa kārtulām, atveriet veidlapu redaktors un pēc tam atlasiet **Biznesa kārtulas**. Pēc tam varat rediģēt esošās biznesa kārtulas vai pievienot jaunu biznesa kārtulu.
+#### <a name="client-side-business-rules"></a>Klienta puses biznesa kārtulas
+Izmantojiet biznesa kārtulas, lai bloķētu un atbloķētu laukus, ievadiet noklusējuma vērtības laukos un definējiet pārbaudes, kurām ir nepieciešama informācija tikai no pašreizējā laika ieraksta. Lai piekļūtu lapas biznesa kārtulām, atveriet veidlapu redaktoru un atlasiet **Biznesa kārtulas**. Pēc tam varat rediģēt esošās biznesa kārtulas vai pievienot jaunu biznesa kārtulu.
 
-#### <a name="server-side-plug-in-validations"></a>Servera puses spraudņa validācijas
-Spraudņa validācijas jāizmanto jebkurām validācijām, kurām nepieciešams vairāk konteksta, nekā tas ir pieejams viena laika ieraksta ierakstā. Tie jāizmanto arī visām validācijām, kuras vēlaties palaist ar režģī iekļautajiem atjauninājumiem. Lai pabeigtu validācijas, entītijā **Time Entry** izveidojiet pielāgotu spraudni.
+#### <a name="server-side-plug-in-validations"></a>Servera puses spraudņu apstiprināšana
+Spraudņu pārbaudes ir jāizmanto jebkādām pārbaudēm, kurām nepieciešams vairāk konteksta, nekā pieejams vienā laika ierakstā. Tās ir jāizmanto arī jebkādām pārbaudēm, ko vēlaties izpildīt, izmantojot režģī iekļautos atjauninājumus. Lai pabeigtu pārbaudes, izveidojiet pielāgotu spraudni entītijā **Laika ieraksts**.
 
 ### <a name="limits"></a>Ierobežojumi
-**Pašlaik laika ievades** režģa lieluma ierobežojums ir 500 rindas. Ja ir vairāk nekā 500 rindu, liekās rindas netiks rādītas. Šo lieluma ierobežojumu nav iespējams palielināt.
+Pašlaik režģa **Laika ieraksts** lieluma ierobežojums ir 500 rindas. Ja rindu skaits pārsniedz 500, liekās rindas netiek rādītas. Šo lieluma ierobežojumu nevar palielināt.
 
 ### <a name="copying-time-entries"></a>Laika ierakstu kopēšana
 Izmantojiet skatu **Kopēt laika ieraksta kolonnas**, lai definētu to lauku sarakstu, kas jākopē, ievadot laiku. **Datums** un **Ilgums** ir obligāti lauki, un tos nevar noņemt no skata.

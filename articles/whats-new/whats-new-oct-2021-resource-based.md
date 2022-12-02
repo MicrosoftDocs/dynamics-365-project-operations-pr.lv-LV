@@ -1,6 +1,6 @@
 ---
 title: 2021. gada oktobra jaunumi — Project Operations resursu balstītiem/krājumu nebalstītiem scenārijiem
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada oktobra projekta darbību laidienā resursu/neuzkrātiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Project Operations Lite izvietošanas 2021. gada oktobra izlaiduma ietvaros par resursu balstītiem/krājumu nebalstītiem scenārijiem.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -21,7 +21,7 @@ ms.locfileid: "8914646"
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Microsoft Dataverse vides versija 4.25.0.91
-   - Projektu vadība un uzskaite Dynamics 365 Finance vidē versija 10.0.21
+   - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.21.
 
 ## <a name="features-included-in-this-release"></a>Līdzekļi, kas ir ietverti šajā laidienā
 
@@ -49,7 +49,7 @@ Ja startējot karti rodas problēma, tad sekojiet instrukcijām [Trūkstošo tab
 | Cenu noteikšana un norēķini | 2338357 | Kad projekts ir atlasīts, valūtai materiālu lietojuma žurnālā ir noklusējuma vērtība no projekta valūtas. |
 | Laiks un izdevumi | 2414777 | Apstiprinājuma atcelšanai, ja izmaksu vai laika ievadei ir vairāk nekā viens saistītais projekta apstiprinājums, ir jābūt iespējamai. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu vadība un uzskaite Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektu pārvaldība un uzskaite programmā Dynamics 365 Finance
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Izmaksu veidņu iestatīšana
-description: Šajā rakstā ir sniegta informācija par to, kā izveidot un izmantot izmaksu veidnes projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot un izmanto izmaksu veidnes risinājumā Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918413"
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 
-Šajā rakstā ir sniegta informācija par to, kā izveidot un izmantot izmaksu veidnes projektu operācijās. Izmaksu veidne nosaka:
+Šajā rakstā ir sniegta informācija par to, kā izveidot un izmanto izmaksu veidnes risinājumā Project Operations. Izmaksu veidne nosaka:
 
 - projekta kategorijas prognozēm un faktiskajām transakcijām, kas jāiekļauj projekta pabeigšanas aprēķina procentuālajā vērtībā. Pēc tam pabeigšanas procentuālā vērtība tiek izmantota, lai aprēķinātu, cik daudz ieņēmumu ir atzīts;
 - vai pabeigšanas procentuālo vērtību var modificēt, ja tā ir aprēķināta automātiski;
@@ -56,7 +56,7 @@ Lēmums par to, kuru metodi izvēlēties izmaksu veidnes izveidošanai, var būt
 ## <a name="create-cost-templates"></a>Izmaksu veidņu izveide
 Lai izveidotu izmaksu veidnes, izpildiet tālāk aprakstītās darbības.
 
-1. Lai piekļūtu izmaksu veidnēm, Dynamics 365 Finance vidē dodieties uz **Projektu pārvaldība un grāmatvedība** > **Uzstādījumi** > **Tāmes** > **Izmaksu veidne**.
+1. Lai piekļūtu izmaksu veidnēm, Dynamics 365 Finance vidē pārejiet uz **Projektu pārvaldība un uzskaite**  > **Iestatīšana**  > **Novērtējumi**  > **Izmaksu veidne**.
 2. Lai izveidotu jaunu izmaksu veidni, atlasiet **Jauns**. Ievadiet nosaukumu un aprakstu.
 3. Norādiet izmaksu rindas ID katram transakcijas tipam.
 4. Atlasiet noklusējuma pabeigšanas metodi.

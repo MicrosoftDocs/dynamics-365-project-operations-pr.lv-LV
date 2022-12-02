@@ -1,6 +1,6 @@
 ---
 title: Kreditoru rēķinu izrakstīšana — koncepcija un izveide
-description: Šajā rakstā ir aprakstīts kreditoru rēķinu jēdziens, lietošanas scenāriji un kreditoru rēķinu izveide korporācijā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā ir aprakstīts piegādātāju rēķinu jēdziens, lietojamie scenāriji un izskaidrots, kā piegādātāju rēķinus izveidot programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,57 +17,57 @@ ms.locfileid: "9261953"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Kreditoru rēķinus korporācijā Microsoft Dynamics 365 Project Operations var izmantot, lai reģistrētu izmaksas, kas saistītas ar piegādātāju veiktajām pakalpojumu un/vai materiālu piegādēm projektā.
+Piegādātāju rēķinu izrakstīšanu programmā Microsoft Dynamics 365 Project Operations var izmantot, lai ierakstītu izmaksas, kas saistītas ar pakalpojumu piegādi un/vai materiāliem projektā, ko izpilda piegādātāji.
 
-Ja pakalpojumi un/vai materiāli ir noslēgti ar pārdevēju, apakšlīgums ir līgums ar šo pārdevēju. Kad pārdevējs sniedz pakalpojumus vai materiāli tiek saņemti un izmantoti projekta uzdevumos, izmaksas tiek reģistrētas projektā. Periodiski kreditors sūta rēķinus, kas ir verificēti un saskaņoti ar izmaksām, kas tiek reģistrētas projektā. Kad verifikācijas process ir pabeigts, kreditora rēķins tiek apstiprināts un izlaists apmaksai.
+Kad ar piegādātāju tiek noslēgts apakšlīgums par pakalpojumiem un/vai materiāliem, apakšlīgums atspoguļo līgumisku vienošanos ar šo piegādātāju. Kamēr piegādātājs nodrošina pakalpojumus vai tiek saņemti materiāli, kas tiek izmantoti projekta uzdevumiem, izmaksas tiek ierakstītas projektā. Periodiski piegādātājs nosūta rēķinus, kas tiek pārbaudīti un saskaņoti ar izmaksām, kas ir ierakstītas projektā. Pēc pārbaudes procesa pabeigšanas piegādātāja rēķins tiek apstiprināts un izlaists maksājumam.
 
-## <a name="scenarios-for-use"></a>Lietošanas scenāriji
+## <a name="scenarios-for-use"></a>Scenāriji lietošanai
 
-Kreditoru rēķinus project operations var izmantot, lai atbalstītu divus atšķirīgus scenārijus.
+Piegādātāju rēķini programmā Project Operations var tikt izmantoti, lai atbalstītu divus atsevišķus scenārijus.
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Klienti izmanto visas apakšuzņēmuma līgumu slēgšanas iespējas
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Klienti izmanto pilnu apakšlīgumu pieredzi
 
-Kreditoru rēķinu lietošanas iespējas nodrošina veidu, kā pārbaudīt un saskaņot laika ierakstus, materiālu lietojumu un izdevumu ierakstus, kuros ir atsauce uz apakšuzņēmēju komponentiem, ar kreditoru rēķina rindām. Šo procesu var izmantot, lai pārbaudītu kreditora rēķina rindu rindu precizitāti. Kad verifikācijas process ir pabeigts un kreditora rēķins ir apstiprināts, lietojumprogramma apvērsīs faktiskās vērtības, kas tika reģistrētas ar apstiprinātajiem laika, izdevumu un materiālu lietojuma žurnāliem, un izveidos jaunas izmaksu faktiskās izmaksas, izmantojot kreditora rēķina rindas.
+Piegādātāju rēķinu lietošanas iespējas nodrošina veidu, kā pārbaudīt un saskaņot laika ierakstus, materiālu lietojumu un izdevumu ierakstus, kas attiecas uz apakšlīguma komponentiem, ar piegādātāja rēķina rindām. Šo procesu var izmantot, lai pārbaudītu piegādātāja rēķina rindu precizitāti. Pēc pārbaudes procesa pabeigšanas un piegādātāja rēķina apstiprināšanas programma apgriež faktiskos datus, kas tika ierakstīti apstiprinātajos laika, izdevumu un materiālu lietojuma žurnālos, un izveido jaunas faktiskās izmaksas, izmantojot piegādātāja rēķina rindas.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Klienti neizmanto pilnas apakšuzņēmuma līgumu slēgšanas iespējas, bet vēlas iegūt vienotu priekšstatu par projektu izmaksām project darbībās
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Klienti neizmanto pilnu apakšlīgumu pieredzi, bet vēlas vienotu projektu izmaksu pārskatu programmā Project Operations
 
-Ja izsekojat apakšuzņēmuma līgumu slēgšanas procesu trešās puses sistēmā, varat reģistrēt izmaksas no šīs trešās puses sistēmas uz Project Operations, izveidojot kreditoru rēķinus, kuros nav atsauces uz apakšuzņēmuma līgumiem. Tādā veidā jūsu projektu vadītājiem var būt vienots, vienots skatījums uz visām izmaksām konkrētā projektā.
+Ja izsekojat apakšlīguma procesu trešās puses sistēmā, varat ierakstīt izmaksas no šīs trešās puses sistēmas uz Project Operations, izveidojot piegādātāja rēķinus, kuriem nav atsauču uz apakšlīgumiem. Tādējādi projektu vadītājiem tiek nodrošināts viens, vienots visu konkrētā projekta izmaksu skats.
 
-## <a name="creation-of-vendor-invoices-in-project-operations"></a>Kreditoru rēķinu izveide programmā Project Operations
+## <a name="creation-of-vendor-invoices-in-project-operations"></a>Piegādātāju rēķinu izveidošana programmā Project Operations
 
-Kreditoru rēķinus var izveidot divos veidos:
+Piegādātāju rēķinus var izveidot divējādi:
 
-- No kreditora rēķina saraksta lapas vai detalizētas informācijas lapas par vienu kreditora rēķinu
-- No apakšuzņēmuma līgumu saraksta lapas vai detalizētas informācijas lapas par vienu apakšlīgumu
+- piegādātāju rēķinu saraksta lapā vai atsevišķa piegādātāja rēķina detalizētas informācijas lapā;
+- apakšlīgumu saraksta lapā vai atsevišķa apakšlīguma detalizētas informācijas lapā.
 
-### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Izveide no kreditora rēķina saraksta lapas vai detalizētas informācijas lapas
+### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Izveide piegādātāju rēķinu saraksta lapas vai detalizētas informācijas lapā
 
-1. Dodieties uz **pirkšanas** \> **kreditora rēķini**.
-2. Kreditora rēķina saraksta lapā vai viena kreditora rēķina detalizētas informācijas lapā atlasiet **Jauns**, lai izveidotu jaunu kreditora rēķinu.
+1. Dodieties uz **Pirkšana** \> **Piegādātāju rēķini**.
+2. Lai izveidotu jaunu piegādātāja rēķinu, piegādātāju rēķinu saraksta lapā vai atsevišķa piegādātāja rēķina detalizētas informācijas lapā atlasiet **Jauns**.
 
-Šādā veidā izveidotajos kreditoru rēķinos var būt arī atsauce uz apakšlīgumu.
+Šādi izveidoti piegādātāju rēķini var arī saturēt atsauci uz apakšlīgumu.
 
-### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Izveide no apakšuzņēmuma līgumu saraksta lapas vai detalizētas informācijas lapas
+### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Izveide apakšlīgumu saraksta lapas vai detalizētas informācijas lapā
 
-1. Dodieties uz Apakšuzņēmuma **līgumu iegādi** \> **.**
-2. Atlasiet vienu vai vairākus apakšuzņēmuma līgumus.
-3. Apakšuzņēmuma līgumu saraksta lapā vai viena apakšuzņēmuma līguma detalizētas informācijas lapā atlasiet **Izveidot kreditora rēķinu**, lai izveidotu jaunu kreditora rēķinu.
+1. Dodieties uz **Pirkšana** \> **Apakšlīgumi**.
+2. Atlasiet vienu vai vairākus apakšlīgumus.
+3. Lai izveidotu jaunu piegādātāja rēķinu, apakšlīgumu saraksta lapā vai atsevišķa apakšlīguma detalizētas informācijas lapā atlasiet **Izveidot piegādātāja rēķinu**.
 
-Katram atlasītajam apakšlīgumam tiek izveidots jauns kreditora rēķins melnraksta **statusā**.
+Katram atlasītajam apakšlīgumam tiek izveidots jauns piegādātāja rēķins ar statusu **Melnraksts**.
 
-Šādā veidā izveidotajos kreditoru rēķinos vienmēr ir atsauce uz apakšlīgumu kreditora rēķina galvenē. Katra apakšuzņēmuma līguma rinda, kurai ir laika un materiālu norēķinu metode, kreditora rēķinā liks izveidot rindu. Katra apakšuzņēmuma līguma rinda, kurai ir fiksētas cenas norēķinu metode, liks kreditora rēķinā izveidot rindu katram apakšlīguma rindas atskaites punktam, kura statuss **ir Gatavs rēķinam**.
+Šādi izveidoti piegādātāju rēķini vienmēr satur atsauci uz apakšlīgumu piegādātāja rēķina galvenē. Katra apakšlīguma rinda, kurā ir laika un materiālu norēķinu metode, izraisa rindas izveidi piegādātāja rēķinā. Katra apakšlīguma rinda, kam ir fiksētas cenas norēķinu metode, izraisa rindas izveidošanu piegādātāja rēķinā katram apakšlīguma rindas atskaites punktam, kam ir statuss **Gatavs rēķina izrakstīšanai**.
 
-Tālāk norādītie lauki un saistītie ieraksti tiks kopēti no apakšuzņēmuma līguma uz kreditora rēķina galveni:
+Tālāk norādītie lauki un saistītie ieraksti tiks kopēti no apakšlīguma uz piegādātāja rēķina galveni.
 
-- Kreditora.
-- Saistītie cenrāži tiks kopēti kreditora rēķinā kā cenrāži.
+- Piegādātājs.
+- Saistītie cenrāži tiek kopēti piegādātāja rēķinā kā cenrāži.
 - Valūta.
 - Līgumslēdzēja vienība.
-- Apmaksas noteikumi.
+- Maksājumu nosacījumi.
 
-Laika un materiālu apakšlīgumu rindām no apakšlīguma rindas uz kreditora rēķina rindu tiks kopēti šādi lauki un saistītie ieraksti:
+Laika un materiālu apakšlīguma rindām tālāk norādītie lauki un saistītie ieraksti tiks kopēti no apakšlīguma rindas uz piegādātāja rēķina rindu.
 
-- Atsauces uz apakšuzņēmuma līgumiem un apakšuzņēmuma līgumiem
+- Apakšlīgums un apakšlīguma rindas atsauces
 - Transakciju klase
 - Loma
 - Transakciju kategorija
@@ -76,11 +76,11 @@ Laika un materiālu apakšlīgumu rindām no apakšlīguma rindas uz kreditora r
 - Uzdevums
 - Rezervējamais resurss
 
-Fiksētas cenas apakšlīgumu rindām tālāk norādītie lauki tiks kopēti no apakšuzņēmuma līguma rindas un apakšlīguma rindas atskaites punkta uz kreditora rēķina rindu:
+Fiksētas cenas apakšlīguma rindām tālāk norādītie lauki tiks kopēti no apakšlīguma rindas un apakšlīguma rindas atskaites punkta uz piegādātāja rēķina rindu.
 
-- Atsauces uz apakšuzņēmuma līgumiem un apakšuzņēmuma līgumiem.
-- Darījumu klase. Pēc noklusējuma vērtība būs **Milestone**.
-- Atskaites punkta nosaukums un summa tiks kopēta no attiecīgās apakšlīguma rindas atskaites punkta.
-- Lietotājs varēs atlasīt projektu un uzdevumu kreditora rēķina rindā.
+- Apakšlīgums un apakšlīguma rindas atsauces.
+- Transakcijas klase. Pēc noklusējuma šī vērtība ir **Atskaites punkts**.
+- Atskaites punkta nosaukums un summa tiks kopēta no saistītā apakšlīguma rindas atskaites punkta.
+- Lietotājs piegādātāja rēķina rindā varēs atlasīt projektu un uzdevumu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Kredītkaršu darījumu importēšana un uzturēšana
-description: Šajā rakstā paskaidrots, kā importēt un uzturēt ar izdevumiem saistītas kredītkaršu darbības. Šos darījumus var iestatīt tā, lai tie tiktu automātiski importēti pēc periodiska grafika, vai arī tos var importēt manuāli pēc nepieciešamības.
+description: Šajā rakstā paskaidrots, kā importēt un uzturēt izdevumu kredītkaršu transakcijas. Šos darījumus var iestatīt tā, lai tie tiktu automātiski importēti pēc periodiska grafika, vai arī tos var importēt manuāli pēc nepieciešamības.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

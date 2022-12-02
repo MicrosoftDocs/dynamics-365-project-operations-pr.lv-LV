@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt projekta cenu sarakstus projekta piedāvājumos
-description: Šajā rakstā ir sniegta informācija par darbu ar projektu cenrāžiem par piedāvājumiem.
+description: Šajā rakstā ir sniegta informācija par darbu ar projekta cenrāžiem piedāvājumos.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

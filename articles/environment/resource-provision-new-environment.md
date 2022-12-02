@@ -20,7 +20,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 
 
-Šajā rakstā ir sniegta informācija par to, kā nodrošināt jaunu Dynamics 365 Project Operations vidi uz resursiem/krājumiem nebalstītiem scenārijiem.
+Šajā rakstā ir sniegta informācija par jaunas Dynamics 365 Project Operations vides nodrošināšanu scenārijiem, kas balstīti uz resursiem/scenārijiem bez krājumiem.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operations automatizētās nodrošināšanas iespējošana LCS projektā
 
@@ -34,7 +34,7 @@ Veiciet tālāk norādītās darbības, lai iespējotu Project Operations automa
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations vides nodrošināšana
 
-1. Atveriet jaunu Dynamics 365 Finance [demonstrācijas vidi](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vai [smilškastes/ ražošanas vides](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) izvietošanu. 
+1. Atveriet jaunu Dynamics 365 Finance [izmēģinājuma vidi](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) vai [smilškastes/ražošanas vidi](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Veiciet vednī **Vidnes nodrošināšana** norādītās darbības. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Lai saņemtu šo versiju, iespējams, jūsu Finance videi būs jālieto kvalitā
 
     ![Risinājumu lietošana.](./media/13ApplySolutions.png)
 
-5. Atlasiet abus risinājumus, **Dynamics 365 Finance Dual Write Entity Map** un **Dynamics 365 Project Operations Dual Write Entity Maps**, un pēc tam atlasiet **Apply (Lietot**).
+5. Atlasiet abus risinājumus — **Dynamics 365 Finance duālās rakstīšanas entītiju kartējumu** un **Dynamics 365 Project Operations duālās rakstīšanas entītiju kartējumu** un pēc tam atlasiet **Lietot**.
 
     ![Risinājumu apstiprināšana.](./media/14ConfirmSolutions.png)
 

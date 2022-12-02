@@ -1,6 +1,6 @@
 ---
 title: Nepabeigtās rēķinu izrakstīšanas pārskatīšana projektiem un projektu līgumiem
-description: Šajā rakstā ir sniegta informācija par to, kā pārskatīt laiku, izdevumus un produktu uzkrāšanos un kā atzīmēt tos kā gatavus rēķinu izrakstīšanai.
+description: Šajā rakstā ir sniegta informācija par to, kā apskatīt laiku, izdevumus un produktu rezerves, un kā tās atzīmēt kā gatavus rēķina izrakstīšanai.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -28,7 +28,7 @@ ms.locfileid: "8928901"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Kad transakcija ir sagatavota, lai izveidotu un apstrādātu rēķinu, transakcijai jābūt atzīmētai **Gatavs rēķina izrakstīšanai**. Šajā rakstā ir aprakstīti darbību tipi, kurus var izveidot.
+Kad transakcija ir sagatavota, lai izveidotu un apstrādātu rēķinu, transakcijai jābūt atzīmētai **Gatavs rēķina izrakstīšanai**. Šajā rakstā ir apraksti transakciju tipi, ko var izveidot.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Nepabeigtās laika un materiālu rēķinu izrakstīšanas pārskatīšana
 

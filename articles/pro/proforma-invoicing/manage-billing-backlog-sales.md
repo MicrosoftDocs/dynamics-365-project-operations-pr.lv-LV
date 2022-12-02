@@ -1,6 +1,6 @@
 ---
 title: Projekta norēķinu neizpildīto darbību žurnālu pārvaldība
-description: Šajā rakstā sniegta informācija par dažādiem viedokļiem, kas pieejami, lai tos izmantotu, pārvaldot projektu rēķinu uzkrāšanos.
+description: Šajā rakstā ir sniegta informācija par dažādiem skatiem, kas pieejami, pārvaldot projektu neizrakstītos rēķinus.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

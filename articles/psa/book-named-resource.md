@@ -1,6 +1,6 @@
 ---
 title: Resursu prasības ir redzamas resursiem.
-description: Šajā rakstā ir sniegta informācija par nosaukto resursu rezervēšanu vispārējai resursu prasībai.
+description: Šajā rakstā ir sniegta informācija par rezervācijas nosaukumu resursiem attiecībā uz vispārējo resursu prasībām.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

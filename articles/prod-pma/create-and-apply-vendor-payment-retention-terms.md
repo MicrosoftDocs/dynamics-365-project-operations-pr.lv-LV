@@ -1,6 +1,6 @@
 ---
 title: Piegādātāja maksājuma saglabāšanas nosacījumu izveide un lietošana
-description: Šajā rakstā sniegta informācija par to, kā iestatīt un uzturēt uzkrājumu nosacījumus kreditoru maksājumiem.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt un uzturēt saglabāšanas nosacījumus piegādātāju maksājumiem.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

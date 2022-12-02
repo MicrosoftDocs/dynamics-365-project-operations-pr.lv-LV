@@ -1,6 +1,6 @@
 ---
 title: Reģistrēšanās Project Operations izmēģinājumversijām
-description: Šajā rakstā ir sniegta informācija par to, kā izvietot Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par to, kā izvietot Dynamics 365 Project Operations izmēģinājumversiju.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations resursu balstītiem/krājumu nebalstītiem
 
 
 
-Šajā rakstā ir paskaidrots, kā abonēt priekšskatījuma partnera piedāvājumu un izvietot Dynamics 365 Project Operations vidi.
+Šajā rakstā ir izskaidrots, kā abonēt priekšskatījuma partneru piedāvājumu un izvietot Dynamics 365 Project Operations vidi.
 
 Izmantojot jauno Project Operations izmēģinājumversiju, varat automātiski izvietot jebkuru no trim atbalstītajiem izvietošanas scenārijiem, aizpildot anketu, kas iesaka labāko izvietošanas pieeju. Šajā rakstā ir sniegta informācija par to, kā:
 
@@ -86,18 +86,18 @@ Pirms darba sākšanas piesakieties pārlūkprogrammā ar lietotāja darba kontu
  
   Kad nodrošināšana ir pabeigta, vides statuss ir **Gatavs**. Vides nodrošināšana iekļauj demonstrācijas datu izvietošanu.
  
-4.  Atlasiet attiecīgo Microsoft Dataverse vietrādi URL un finanšu un operāciju programmu vietrāžus URL, lai apstiprinātu izvietošanu.
+4.  Atlasiet attiecīgo Microsoft Dataverse URL un finanšu un operāciju programmu URL, lai validētu izvietošanu.
 
 ## <a name="configuring-dual-write"></a>Duālās rakstīšanas konfigurēšana
-- Lai konfigurētu drošības lomas dubultrakstīšanai, skatiet rakstu [Drošības iestatījumu atjaunināšana project operations vietnē Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Lai piekļūtu divrakstīšanas konfigurācijai, naviģējiet uz finanšu un operāciju instanci, pēc tam pārejiet uz **datu pārvaldības** > **duālo rakstīšanu**.
-- Lai konfigurētu divrakstu kartes, skatiet rakstu [Projektu operāciju divrakstu karšu palaišana](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Informāciju par drošības lomu konfigurēšanu duālajai rakstīšanai skatiet sadaļā [Drošības iestatījumu atjaunināšana Dataverse Project Operations](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Lai piekļūtu duālās rakstīšanas konfigurācijai, pārejiet uz finanšu un operāciju instanci, pēc tam pārejiet uz **Datu pārvaldība** > **Duālā rakstīšana**.
+- Lai konfigurētu duālās rakstīšanas kartējumu, skatiet sadaļu [Project Operations duālās rakstīšanas kartējumu palaišana](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Licenču piešķiršana
 
 Lai izpildītu tālāk norādītās darbības, jums ir jābūt administratīvai piekļuvei savas organizācijas Microsoft 365 portālam.
 
-1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai piešķirtu licences saviem lietotājiem.
+1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai lietotājiem piešķirtu licences.
 
    ![Administrēšanas centra sākumlapa](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Sākot lietot Project Operations, tālāk sniegtajos resursos atradīsiet noder�
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Kā rīkoties, ja finanšu un operāciju programmu videi ir nepieciešama ALM vai ELM?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ko darīt, ja manā finanšu un operāciju programmu vidē ir nepieciešama ALM vai ELM?
 
 - Partneriem, kuriem nepieciešamas pilna vides dzīves cikla pārvaldības iespējas, skatiet sadaļu [Partneru smilškastes licences pieprasījums](https://experience.dynamics.com/requestlicense), lai pārskatītu jauno partneru piedāvājumu. 
 - Partneriem, kas meklē papildinformāciju par iekšējās lietošanas tiesībām, skatiet sadaļu [Iekšējās lietošanas tiesību mākoņa un programmatūras priekšrocības (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Sākot lietot Project Operations, tālāk sniegtajos resursos atradīsiet noder�
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Vai izmēģinājumversijas termiņu var pagarināt pēc 30 dienām?
 Lai pagarinātu izmēģinājumversijas termiņu, veiciet tālāk norādītās darbības.
 
-1. Administrēšanas centrā **Microsoft 365 dodieties uz** Norēķini **par saviem produktiem** > **.**
+1. **Microsoft 365 administrēšanas centrā** pārejiet uz lapu **Norēķini** > **Jūsu produkti**.
 2. Atlasiet **Dynamics 365 Project Operations (CE) — izmēģinājumversijas priekšskatīšana**.
 3. Sadaļā **Derīguma beigu datums** atlasiet **Pagarināt termiņu**.
 

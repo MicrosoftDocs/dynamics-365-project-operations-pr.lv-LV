@@ -1,6 +1,6 @@
 ---
 title: Cenu noteikšanas dimensiju izslēgšana
-description: Šajā rakstā sniegta informācija par to, kā izslēgt cenu dimensijas.
+description: Šajā rakstā ir sniegta informācija par cenu noteikšanas dimensiju izslēgšanu.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

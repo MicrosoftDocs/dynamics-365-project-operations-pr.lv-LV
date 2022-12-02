@@ -1,6 +1,6 @@
 ---
 title: Starpuzņēmumu izdevumi
-description: Šajā rakstā sniegta informācija par to, kā izmantot starpuzņēmumu izdevumus, lai piešķirtu darbinieka izdevumus juridiskajai personai, kurai darbs tika veikts.
+description: Šajā rakstā sniegta informācija par to, kā izmantot starpuzņēmumu izdevumus, lai piešķirtu darbinieka izdevumus juridiskai entītijai, kurai tika izpildīts darbs.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

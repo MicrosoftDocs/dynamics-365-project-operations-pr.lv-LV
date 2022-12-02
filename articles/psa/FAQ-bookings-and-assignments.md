@@ -1,6 +1,6 @@
 ---
 title: Resursu rezervācijas un kā tās saistītas ar uzdevumu piešķiri
-description: Šajā rakstā ir sniegta informācija par to, kā pārvaldīt nosauktos resursus, resursu rezervācijas un uzdevumu piešķires un kā tās ir savstarpēji saistītas.
+description: Šajā rakstā sniegta informācija par to, kā pārvaldīt nosauktos resursus, resursu rezervēšanu un uzdevumu piešķiršanu un kā tie saistīti viens ar otru.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

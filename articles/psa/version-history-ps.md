@@ -1,6 +1,6 @@
 ---
 title: Atjauninājumu izlaiduma grafiks Project Service 3.x
-description: Šajā rakstā ir sniegta informācija par pieejamajiem un gaidāmajiem izlaidumiem Dynamics 365 Project Service Automation.
+description: Šajā rakstā ir sniegta informācija par pieejamajiem un nākamajiem Dynamics 365 Project Service Automation laidieniem.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ Informāciju par Project Service atjauninājumiem skatiet [Dynamics 365 izlaiša
 |<strong>4. stacija</strong> | |  |  | |
 | | <i>Eiropa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022. gada 21. oktobris
 |<strong>5. stacija</strong> | |  |  | |
-| | <i>Ziemeļamerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04. gada 2022. novembris
+| | <i>Ziemeļamerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022. gada 04. novembris
 |<strong>6. stacija</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022. gada 02. novembris
 | | <i>Īpašas skalu grupas</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022. gada 11. novembris

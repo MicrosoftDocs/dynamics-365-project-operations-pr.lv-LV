@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt vairākus klientus projekta līguma rindās
-description: Šajā rakstā sniegta informācija par darbu ar līguma rindām un līgumiem, kuros ir vairāki klienti.
+description: Šajā rakstā ir sniegta informācija par darbu ar līguma rindām un līgumiem, kuros ir vairāki klienti.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

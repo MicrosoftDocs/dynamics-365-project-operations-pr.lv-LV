@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation apstiprināšanas kopas
-description: Šajā rakstā ir sniegta informācija par apstiprināšanas kopu, pieprasījumiem un šo operāciju apakškopām.
+description: Šajā rakstā ir sniegta informācija par apstiprināšanas kopu, pieprasījumiem un šo darbību apakškopām.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

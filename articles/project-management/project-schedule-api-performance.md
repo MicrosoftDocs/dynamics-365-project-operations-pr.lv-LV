@@ -1,6 +1,6 @@
 ---
 title: Projektu plānošanas API veiktspēja
-description: Šajā rakstā ir sniegta informācija par projektu grafika API veiktspējas kritērijiem un apzināta optimālās izmantošanas paraugprakse.
+description: Šajā rakstā ir sniegta informācija par projektu plānošanas API veiktspējas kritērijiem un paraugprakses piemēri optimālai izmantošanai.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911191"
 
 _**Attiecas uz:** Project Operations resursu balstītiem / krājumu nebalstītiem scenārijiem, Lite izvietošana — darījums ar proformas rēķinu izrakstīšanu Project for the web_
 
-Šajā rakstā sniegta informācija par projektu grafika lietojumprogrammu interfeisu (API) veiktspējas kritērijiem un norādīta labākā lietošanas optimizācijas prakse.
+Šajā rakstā ir sniegta informācija par projektu plānošanas lietojumprogrammu programmēšanas interfeisu (API) veiktspējas kritērijiem un paraugprakses piemēri optimālai izmantošanai.
 
 ## <a name="project-scheduling-service"></a>Projektu plānošanas pakalpojums
 Projektu plānošanas pakalpojums ir vairāku nomnieku pakalpojums, kas tiek izpildīts platformā Microsoft Azure. Šī platforma ir izstrādāta, lai uzlabotu mijiedarbību, nodrošinot ātru un ērtu lietošanu darbā ar projektiem. Uzlabojums tiek sasniegts, pieņemot izmaiņu pieprasījumus, apstrādājot tos un pēc tam nekavējoties atgriežot rezultātus. Pakalpojums asinhroni pastāv platformā Dataverse un nebloķē lietotājus citu operāciju veikšanai.
 
-Projektu grafika API paļaujas uz projektu plānošanas pakalpojumu, lai palaistu pieprasījumus, kas sīkāk aprakstīti šī raksta turpmākajās sadaļās.
+Projektu plānošanas API izmanto projektu plānošanas pakalpojumu, lai izpildītu pieprasījumus, kas detalizētāk aprakstīti šī raksta turpmākajās sadaļās.
 
 Projektu plānošanas API ir izstrādāti darbam ar šādām darba sadalījuma struktūras (WBS) entītijām:
 

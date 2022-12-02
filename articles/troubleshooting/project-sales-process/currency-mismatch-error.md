@@ -1,6 +1,6 @@
 ---
-title: Valūtu nesakritības kļūda
-description: Šajā rakstā sniegta informācija par problēmu novēršanu saistībā ar valūtu nesakritības kļūdu, kas rodas, saglabājot noteiktus ierakstu tipus.
+title: Valūtu nesaderības kļūda
+description: Šajā rakstā ir sniegta informācija par problēmu novēršanu saistībā ar valūtu nesaderības kļūdu, kas rodas, saglabājot noteiktus ierakstu tipus.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8914733"
 ---
-# <a name="currency-mismatch-error"></a>Valūtu nesakritības kļūda 
+# <a name="currency-mismatch-error"></a>Valūtu nesaderības kļūda 
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Saglabājot projektu, līgumu, piedāvājumu vai rezervējamo resursu, iespējams, tiks parādīta kļūda, **uzņēmuma valūtas piederība neatbilst līguma vienības valūtai. Lai turpinātu, izvēlieties citu īpašumā esošu uzņēmumu vai līgumslēdzēju vienību**. Tas ir tāpēc, ka pastāv valūtas nesakritība starp ieraksta līguma vienības valūtu un uzņēmuma valūtu, kurai pieder uzņēmums.
+Saglabājot projektu, līgumu, piedāvājumu vai rezervējamu resursu, var tikt parādīta kļūda **Projekta līgums, kuram pieder uzņēmuma valūta, neatbilst līgumslēdzējas vienības valūtai. Izvēlēties projekta līgumam citu atbildīgā uzņēmuma vai līgumslēdzēja vienību, lai turpinātu**. Tā rodas, jo pastāv valūtu nesaderība starp līgumslēdzējas vienības valūtu ierakstā un atbildīgā uzņēmuma valūtu.
 
 
 ## <a name="resolution"></a>Izšķirtspēja
 
-Lai novērstu šo problēmu, rīkojieties šādi:
-- Pārbaudiet šī ieraksta līgumslēdzējas vienības valūtu. Valūtu var apskatīt, atverot organizācijas vienības ierakstu un pārbaudot vērtību **lauka Valūta** cilnē **Vispārīgi**.
-- Pārbaudiet paša uzņēmuma valūtu. Valūtu var redzēt, uzņēmuma ierakstā dodoties uz **Saistītajām** > **virsgrāmatām**. Veiciet dubultklikšķi uz Virsgrāmatas ieraksta, kas ir saistīts ar uzņēmumu, un pārbaudiet vērtību **lauka Grāmatvedības valūta** cilnē **Vispārīgi**.
+Lai apietu šo problēmu, veiciet tālāk norādītās darbības.
+- Pārbaudiet līgumslēdzējas vienības valūtu šim ierakstam. Valūtu var redzēt, atverot organizācijas vienības ierakstu un pārbaudot vērtību cilnē **Vispārīgi** laukā **Valūta**.
+- Pārbaudiet atbildīgā uzņēmuma valūtu. Valūtu var redzēt uzņēmuma ieraksta sadaļā **Saistīts** > **Virsgrāmatas**. Veiciet dubultklikšķi uz virsgrāmatas ieraksta, kas ir saistīts ar uzņēmumu, un pārbaudiet vērtību cilnē **Vispārīgi** laukā **Uzskaites valūta**.
 
-Ja līguma vienībā un Virsgrāmatas ierakstā iestatītā valūta nesakrīt, saglabājot ierakstu, koriģējiet konfigurāciju vai atlasiet dažādas vērtības. Sistēma pieprasa, lai šie ieraksti atbilstu, lai nodrošinātu pareizas starpuzņēmumu rēķinu plūsmas. Plašāku informāciju par starpuzņēmumu konfigurācijām skatiet Create [intercompany transactions.](../../project-accounting/create-intercompany-transactions.md)
+Ja valūta, kas ir iestatīta līgumslēdzējas vienībā, un virsgrāmatas ierakstā nesakrīt, pielāgojiet konfigurāciju vai atlasiet citas vērtības, kad saglabājat ierakstu. Sistēmai nepieciešams, lai šie ieraksti atbilstu pareizām starpuzņēmumu rēķinu izrakstīšanas plūsmām. Papildinformāciju par starpuzņēmumu konfigurācijām skatiet sadaļā [Starpuzņēmumu darbību izveide](../../project-accounting/create-intercompany-transactions.md).
 
-Ja uzņēmuma ierakstam nav saistīta Virsgrāmatas ieraksta, tas norāda, ka, iestatot vidi, trūkst konfigurācijas. Sistēmas administratoram ir jālabo konfigurācija. Sistēmas administratoram jādodas uz **divu rakstīšanas konfigurācijām** un jāaptur un jārestartē **Ledgers divrakstāšanas karte** ar šīs kartes sākotnējo sinhronizāciju, un tas ir priekšnosacījumi. Papildinformāciju skatiet sadaļā [Project Operations duālās rakstīšanas karšu versijas](../../environment/resource-dual-write-maps.md).
+Ja uzņēmuma ierakstam nav piesaistīta virsgrāmatas ieraksta, tas norāda, ka vides iestatīšanas laikā ir iztrūkusi konfigurācija. Konfigurācija ir jākoriģē sistēmas administratoram. Sistēmas administratoram ir jādodas uz **Duālās rakstīšanas konfigurācijām**, jāaptur un jārestartē **Virsgrāmatu duālās rakstīšanas karte** ar šīs kartes sākotnējo sinhronizāciju un tās priekšnosacījumiem. Papildinformāciju skatiet sadaļā [Project Operations duālās rakstīšanas karšu versijas](../../environment/resource-dual-write-maps.md).

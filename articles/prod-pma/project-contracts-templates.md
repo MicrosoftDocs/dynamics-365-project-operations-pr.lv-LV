@@ -1,6 +1,6 @@
 ---
 title: Sinhronizējiet projekta līgumus un projektus tieši no Project Service Automation uz Finance
-description: Šajā rakstā ir aprakstīta veidne un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projektu līgumus un projektus tieši no Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: Šajā rakstā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantots projekta līgumu un projektu sinhronizēšanai tieši no Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933869"
 
 
 
-Šajā rakstā ir aprakstīta veidne un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu projektu līgumus un projektus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Šajā rakstā ir aprakstīta veidne un pamata uzdevumi, kas tiek izmantots projekta līgumu un projektu sinhronizēšanai tieši no Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
 
 > [!NOTE] 
 > Ja izmantojat Enterprise edition 7.3.0, ir jāinstalē KB 4074835.
@@ -120,15 +120,15 @@ Kad tiek lietots Project Service Automation uz Finance integrācijas risinājums
 
 ## <a name="power-query"></a>Power Query
 
-Izmantojiet Microsoft programmai Excel Power Query, lai filtrētu datus, ja ir izpildīti šādi nosacījumi:
+Lietojiet Microsoft Power Query programmai Excel, lai filtrētu datus, ja tiek izpildīti šādi nosacījumi:
 
 - Jums ir pārdošanas pasūtījumi risinājumā Dynamics 365 Sales.
 - Jums ir vairākas organizācijas struktūrvienības Project Service Automation, un šīs organizācijas struktūrvienības tiks kartētas uz vairākām juridiskām personām risinājumā Finance.
 
-Ja jums ir nepieciešams izmantot Power Query, ievērojiet šīs vadlīnijas:
+Ja ir jāizmanto Power Query, ievērojiet šīs vadlīnijas:
 
 - Projektu un līgumu (PSA uz Fin un Ops) veidnei ir noklusējuma filtrs, kas ietver tikai pārdošanas pasūtījumus ar tipu **Darba vienums (msdyn\_ordertype = 192350001)**. Šis filtrs palīdz nodrošināt, lai projekta līgumi netiktu izveidoti pārdošanas pasūtījumiem risinājumā Finance. Ja izveidojat savu veidni, šis filtrs ir jāpievieno.
-- Power Query Izveidojiet filtru, kurā iekļautas tikai tās līguma organizācijas, kas jāsinhronizē ar integrācijas savienojumu kopas juridisko personu. Piemēram, projekta līgumi, kas jums ir ar līguma organizācijas struktūrvienību Contoso US, ir jāsinhronizē ar USSI juridisko personu, bet projekta līgumi, kas jums ir ar organizācijas struktūrvienību Contoso Global, ir jāsinhronizē ar USMF juridisko personu. Ja nepievienosit šo filtru jūsu uzdevumu kartējumam, visi projekta līgumi tiks sinhronizēti ar juridisko personu, kas ir definēta savienojuma kopai, neatkarīgi no līguma organizācijas struktūrvienības.
+- Izveidojiet Power Query filtru, kas ietver tikai tās līguma organizācijas, kuras vajadzētu sinhronizēt ar iestatītās integrācijas savienojuma juridisko entitīju. Piemēram, projekta līgumi, kas jums ir ar līguma organizācijas struktūrvienību Contoso US, ir jāsinhronizē ar USSI juridisko personu, bet projekta līgumi, kas jums ir ar organizācijas struktūrvienību Contoso Global, ir jāsinhronizē ar USMF juridisko personu. Ja nepievienosit šo filtru jūsu uzdevumu kartējumam, visi projekta līgumi tiks sinhronizēti ar juridisko personu, kas ir definēta savienojuma kopai, neatkarīgi no līguma organizācijas struktūrvienības.
 
 ## <a name="template-mapping-in-data-integration"></a>Veidņu kartēšana datu integrācijā
 

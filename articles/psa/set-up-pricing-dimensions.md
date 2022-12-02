@@ -1,6 +1,6 @@
 ---
 title: Pielāgotu lauku kā cenu noteikšanas dimensiju iestatīšana
-description: Šajā rakstā sniegta informācija par pielāgotu cenu kategoriju iestatīšanu.
+description: Šajā rakstā ir sniegta informācija par pielāgotu cenu noteikšanas dimensiju iestatīšanu.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922606"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Pirms sākat darbu, šajā rakstā tiek pieņemts, ka esat pabeidzis rakstu, [Pielāgotu lauku un entītiju](create-custom-fields-entities.md) izveide un [pielāgotu lauku pievienošana cenu iestatīšanai un transakciju entītijām — procedūras](field-references.md). Ja neesat pabeidzis šīs procedūras, atgriezieties un pabeidziet tās un pēc tam atgriezieties pie šī raksta. 
+Pirms darba sākšanas šajā rakstā tiek pieņemts, ka esat pabeidzis procedūras, kas norādītas rakstos [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md) un [Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām](field-references.md). Ja šīs procedūras neesat pabeidzis, atgriezieties un pabeidziet tās, un pēc tam atgriezieties pie šī raksta. 
 
-Šajā rakstā sniegta informācija par pielāgotu cenu kategoriju iestatīšanu. Project service tīmekļa interfeisā, lapā **Parametri**, cilnē **Uz summu balstītas cenu noteikšanas dimensijas** ir parādīti ieraksti cenu noteikšanas dimensiju entītijās. Pēc noklusējuma programmas Project Service instalēšanas laikā šīs cilnes režģī tiek izveidotas 2 rindas:
+Šajā rakstā ir sniegta informācija par pielāgotu cenu noteikšanas dimensiju iestatīšanu. Project service tīmekļa interfeisā, lapā **Parametri**, cilnē **Uz summu balstītas cenu noteikšanas dimensijas** ir parādīti ieraksti cenu noteikšanas dimensiju entītijās. Pēc noklusējuma programmas Project Service instalēšanas laikā šīs cilnes režģī tiek izveidotas 2 rindas:
 
 - **msdyn_resourcecategory** (Loma);
 - **msdyn_OrganizationalUnit** (Organizācijas struktūrvienība).

@@ -1,6 +1,6 @@
 ---
 title: Apakšlīgumu galvenes informācija
-description: Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta apakšuzņēmuma līguma galvenē project operations.
+description: Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta Project Operations apakšlīgumu galvenē.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522570"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta apakšuzņēmuma galvenē Dynamics 365 Project Operations.
+Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta Dynamics 365 Project Operations apakšlīgumu galvenē.
 
 Tā kā projekta vadītājs plāno un izpilda projektus, viņš var nodarbināt apakšuzņēmējus un iegādāties produktus un pakalpojumus no piegādātājiem. Ja projekta vadītājam ir jāiegādājas produkti vai pakalpojumi, viņš var izveidot apakšlīgumu programmā Project Operations.
 

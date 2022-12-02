@@ -1,6 +1,6 @@
 ---
 title: Izdevumu kategoriju iestatīšana
-description: Šajā rakstā sniegta informācija par to, kā iestatīt izdevumu kategorijas un koplietojamās kategorijas izdevumu pārskatiem.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt izdevumu kategorijas un kopīgotās kategorijas izdevumu atskaitēm.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

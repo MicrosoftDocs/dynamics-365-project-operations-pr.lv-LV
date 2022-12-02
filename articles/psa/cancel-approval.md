@@ -1,6 +1,6 @@
 ---
 title: Iepriekš apstiprināto laika un izdevumu ierakstu atcelšana
-description: Šajā rakstā sniegta informācija par to, kā atcelt apstiprinātu projekta laika un izdevumu darbību.
+description: Šajā rakstā ir sniegta informācija par to, kā atcelt apstiprinātu projekta laiku un izmaksu darbību.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Project Operations atinstalēšana
-description: Šajā rakstā sniegta informācija par to, kā atinstalēt Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par to, kā atinstalēt Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Lai atinstalētu Dynamics 365 Project Operations, ir jāpiešķir administratora
     | 6 | ProjectServiceCore_Patch                           | Nav papildu piezīmju.                                                                         |
     | 7 | ProjectServiceCore                                 | Nav papildu piezīmju.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Ja risinājums nav atrasts, izlaidiet to.                                                            |
-    | 9 | FieldServiceCommon                                 | Nepieciešams duālai rakstīšanai ar Dynamics 365 Finance vai Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Nepieciešams duālai rakstīšanai ar Dynamics 365 Finance vai Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Obligāts duālajai rakstīšanai ar Dynamics 365 Finance vai Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Obligāts duālajai rakstīšanai ar Dynamics 365 Finance vai Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Obligāts ar Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Obligāts ar Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Obligāts ar Dynamics 365 Field Service.                                                     |

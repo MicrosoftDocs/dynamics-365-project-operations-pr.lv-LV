@@ -1,6 +1,6 @@
 ---
 title: Federālo apbalvojumu izmeklēšanas izdevumu plāns
-description: Šajā rakstā ir sniegta informācija par Federālo balvu izmeklēšanas izdevumu grafiku.
+description: Šajā rakstā ir sniegta informācija par Federālās balvas izmeklēšanas izdevumu plānu.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

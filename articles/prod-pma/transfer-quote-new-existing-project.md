@@ -1,6 +1,6 @@
 ---
 title: Piedāvājuma pārcelšana uz projektu
-description: Šajā rakstā sniegta informācija par to, kā pārsūtīt piedāvājumu uz jaunu vai esošu projektu.
+description: Šajā rakstā ir sniegta informācija par to, kā pārcelt piedāvājumu uz jaunu vai esošu projektu.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

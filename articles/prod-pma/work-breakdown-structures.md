@@ -35,7 +35,7 @@ WBS detalizētības pakāpe ir atkarīga no novērtējuma prasītā precizitāte
 
 Turpretim projekti tādās nozarēs kā plašsaziņas līdzekļi un reklāma, programmatūra un IT infrastruktūra parasti ir sava veida projekti, un darba ražīgums ir atkarīgs no tā cilvēka pieredzes un kompetences, kurš veic šo uzdevumu. Tāpēc šīs nozares izmanto WBS, lai tuvinātu projekta apjomu, nevis lai detalizēti sekotu šā projekta virzībai. 
 
-WBS izveide ir intensīvs process, ko parasti veic ilgā laika posmā un kam nepieciešama sadarbība un informācija no dažādām personām. Šajā rakstā ir aprakstīts, kā varat izmantot WBS uzlabojumus, lai izpildītu tāmju un izsekošanas prasības.
+WBS izveide ir intensīvs process, ko parasti veic ilgā laika posmā un kam nepieciešama sadarbība un informācija no dažādām personām. Šajā rakstā ir aprakstīts, kā var izmantot WBS uzlabojumus, lai apmierinātu jūsu prasības attiecībā uz novērtējumiem un izsekošanu.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Priekšnosacījumi WBS izveidei
 Lai izveidotu WBS, ir jāspēj izveidot darba grafiku un novērtēt darba izmaksas.
@@ -166,7 +166,7 @@ Finance ir trīs skati projekta WBS: plānošanas skats, intensitātes izsekoša
 
 ### <a name="planning-view"></a>Plānošanas skats
 
-Plānošanas skatā tiek parādīts plānotais vai bāzlīnijas grafiks un informācija par izmaksām. Kaut arī nav līdzekļu, kas attiecas uz projekta WBS versiju un bāzlīniju izsekošanu, šajā skatā ietvertās vērtības ir paredzētas, lai attēlotu bāzlīnijas versiju. Šī raksta sadaļās Grafiks novērtējums un Izmaksu novērtējums ir aprakstīts šis skats un tas, kā tas tiek izmantots, lai izveidotu WBS.
+Plānošanas skatā tiek parādīts plānotais vai bāzlīnijas grafiks un informācija par izmaksām. Kaut arī nav līdzekļu, kas attiecas uz projekta WBS versiju un bāzlīniju izsekošanu, šajā skatā ietvertās vērtības ir paredzētas, lai attēlotu bāzlīnijas versiju. Šī raksta Grafika novērtējuma un Izmaksu novērtējuma sadaļas apraksta šo skatu un to, kā tas tiek izmantots WBS izveidei.
 
 ### <a name="effort-tracking-view"></a>Piepūles izsekošanas skats
 

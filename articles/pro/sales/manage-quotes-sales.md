@@ -1,6 +1,6 @@
 ---
 title: Projekta piedāvājumu pārvaldīšana
-description: Šajā rakstā ir sniegta informācija par projektu piedāvājumiem.
+description: Šajā rakstā ir sniegta informācija par projekta piedāvājumiem.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Visu projekta piedāvājumu sarakstu var skatīt lapā **Piedāvājumi**.
 Piedāvājumus var izveidot vai izdzēst no šīs saraksta lapas vai detalizētās lapas.
 
  > [!NOTE]
- > Piedāvājumus, kuriem ir piesaistīti projekti, uzdevumi, novērtējumi, žurnāli un/vai faktiskie piedāvājumi, nevar dzēst. Turklāt, ja piedāvājums ir aizvērts kā Uzvarēts vai Pazaudēts, to vairs nevar izdzēst vai modificēt. 
+ > Piedāvājumus, kam ir piesaistīti projekti, uzdevumi, aprēķini, un/vai faktiskās vērtības, nevar dzēst. Turklāt, kad piedāvājums ir slēgts kā iegūts vai zaudēts, to vairs nevar dzēst vai modificēt. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

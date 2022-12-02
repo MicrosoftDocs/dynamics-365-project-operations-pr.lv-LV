@@ -1,6 +1,6 @@
 ---
 title: Rēķinā iekļaujamo uzdevumu konfigurēšana projekta piedāvājuma rindā
-description: Šajā rakstā sniegta informācija par iekļautiem, maksas un neapmaksājamiem komponentiem uz projektu balstītās piedāvājuma rindās.
+description: Šajā rakstā ir sniegta informācija par iekļautajiem, rēķinā iekļaujamajiem un rēķinā neiekļaujamajiem komponentiem projekta piedāvājuma rindās.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

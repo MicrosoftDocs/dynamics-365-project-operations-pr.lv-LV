@@ -1,6 +1,6 @@
 ---
 title: Resursu laika finanšu aprēķini projektiem
-description: Šajā rakstā sniegta informācija par to, kā tiek aprēķinātas laika finanšu aplēses.
+description: Šajā rakstā ir sniegta informācija par to, kā tiek aprēķināti laika finanšu aprēķini.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

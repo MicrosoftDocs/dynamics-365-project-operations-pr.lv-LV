@@ -1,6 +1,6 @@
 ---
 title: Projekta aprēķinu importēšana uz projekta piedāvājuma rindu
-description: Šajā rakstā sniegta informācija par novērtējumu importēšanu no projekta uz projekta piedāvājuma rindu.
+description: Šajā rakstā ir sniegta informācija par aprēķinu importēšanu no projekta projekta piedāvājuma rindā.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

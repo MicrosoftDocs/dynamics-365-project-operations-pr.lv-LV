@@ -1,6 +1,6 @@
 ---
 title: Projektu veidņu izstrāde, izmantojot darbību Projekta kopēšana
-description: Šajā rakstā ir sniegta informācija par to, kā izveidot projektu veidnes, izmantojot pielāgoto darbību Kopēt projektu.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot projekta veidnes, izmantojot pielāgoto darbību Projekta kopēšana.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,40 +25,40 @@ Atlasot **Projekta kopēšana**, tiek atjaunināts mērķa projekta statuss. Izm
 
 ### <a name="name"></a>Nosaukums/vārds 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Ievades parametri
 
 Ir trīs ievades parametri.
 
-- **ReplaceNamedResources** vai **ClearTeamsAndAssignments** — iestatiet tikai vienu no opcijām. Nenostādi abus.
+- **ReplaceNamedResources** vai **ClearTeamsAndAssignments** — iestatiet tikai vienu no opcijām. Neiestatiet abus.
 
-    - **\{"ReplaceNamedResources":true\}** – projekta operāciju noklusējuma darbība. Visi nosauktie resursi tiek aizstāti ar vispārējiem resursiem.
-    - **\{"ClearTeamsAndAssignments":true\}** — web programmas Project noklusējuma darbība. Visi uzdevumi un grupas dalībnieki tiek noņemti.
+    - **\{"ReplaceNamedResources":true\}**  — Project Operations noklusējuma uzvedība. Visi nosauktie resursi tiek aizstāti ar vispārējiem resursiem.
+    - **\{"ClearTeamsAndAssignments":true\}**  — Project for the Web noklusējuma uzvedība. Visi piešķīrumi un darba grupu dalībnieki tiek noņemti.
 
-- **SourceProject** – avota projekta entītijas atsauce, no kuras kopēt. Šis parametrs nevar būt Null.
-- **Mērķis** — mērķa projekta elementa atsauce, uz kuru kopēt. Šis parametrs nevar būt Null.
+- **SourceProject** — avota projekta, no kura jākopē, entītijas atsauce. Šī parametra vērtība nevar būt nulle.
+- **Target** — mērķa projekta, uz kuru jākopē, entītijas atsauce. Šī parametra vērtība nevar būt nulle.
 
-Šajā tabulā sniegts trīs parametru kopsavilkums.
+Nākamajā tabulā ir sniegts šo trīs parametru kopsavilkums.
 
 | Parametrs                | Tipi             | vērtība                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Boolean          | **Patiess** vai **aplams** |
-| ClearTeamsAndAssignments | Boolean          | **Patiess** vai **aplams** |
+| ReplaceNamedResources    | Boolean          | **Patiess** vai **Aplams** |
+| ClearTeamsAndAssignments | Boolean          | **Patiess** vai **Aplams** |
 | SourceProject            | Entītijas atsauce | Avota projekts    |
 | Mērķis                   | Entītijas atsauce | Mērķa projekts    |
 
-Papildu darbību noklusējumus skatiet rakstā [Tīmekļa API darbību](/powerapps/developer/common-data-service/webapi/use-web-api-actions) izmantošana.
+Vairāk darbību noklusējuma vērtību skatiet sadaļā [Web API darbību izmantošana](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
-### <a name="validations"></a>Apstiprinājumu
+### <a name="validations"></a>Pārbaudes
 
-Tiek veiktas šādas pārbaudes.
+Tiek veiktas tālāk norādītās pārbaudes.
 
-1. Null pārbauda un izgūst avota un mērķa projektus, lai apstiprinātu abu projektu esamību organizācijā.
+1. Tukšā pārbaude un avota un mērķa projektu izgūšana, lai apstiprinātu abu projektu esamību organizācijā.
 2. Sistēma apstiprina, ka mērķa projekts ir derīgs kopēšanai, pārbaudot šādus nosacījumus:
 
-    - Projektā nav iepriekšējas aktivitātes (ieskaitot cilnes Uzdevumi **atlasi**), un projekts ir izveidots no jauna.
-    - Nav iepriekšējas kopijas, šajā projektā nav pieprasīta importēšana, un projektam nav **nesekmīga** statusa.
+    - Projektā nav iepriekšēju darbību (tostarp cilnes **Uzdevumi** atlase), un projekts ir jaunizveidots.
+    - Tajā nav iepriekšēju kopiju, šajā projektā netika pieprasīta importēšana, un projekta statuss nav **Neizdevās**.
 
 3. Operācija netiek izsaukta, izmantojot HTTP.
 
@@ -68,7 +68,7 @@ Kad tiek izsaukta darbība, darbība **Projekta kopēšana** apskatīs projekta 
 
 ### <a name="example"></a>Piemērs
 
-Šajā piemērā parādīts, kā izsaukt pielāgoto **darbību CopyProjectV3** ar **parametru removeNamedResources kopu**.
+Šajā piemērā parādīts, kā izsaukt pielāgoto darbību **CopyProjectV3** ar parametru kopu **removeNamedResources**.
 
 ```C#
 {

@@ -1,6 +1,6 @@
 ---
 title: Aprēķina importēšana uz projekta līguma rindu
-description: Šajā rakstā sniegta informācija par to, kā importēt novērtējumus no projekta uz līguma rindu.
+description: Šajā rakstā sniegta informācija par to, kā importēt aprēķinus no projekta līguma rindā.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Materiālu finanšu aprēķini projektiem
-description: Šajā rakstā sniegta informācija par projektu materiālu definēšanu vai aplēšanu.
+description: Šajā rakstā ir sniegta informācija par projekta materiālu definēšanu vai aprēķiniem.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925711"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Dynamics 365 Project Operations projekta vadītājiem ļauj definēt projekta materiālu izmaksas katram projektam vai uzdevumam. Katru materiālu aprēķinu var saistīt ar konkrētu projekta uzdevumu. Projektos izmantotie materiāli var būt rakstāmie produkti vai produkti no preču kataloga. Katrai produkta un vienības kombinācijai cenu var definēt projekta pārdošanas cenrāžos un projekta izmaksu cenrāžos.  
+Dynamics 365 Project Operations projekta vadītājiem ļauj definēt projekta materiālu izmaksas katram projektam vai uzdevumam. Katru materiālu aprēķinu var saistīt ar konkrētu projekta uzdevumu. Materiāli, ko izmanto projektos, var būt ierakstāmi produkti vai produkti no preču kataloga. Katrai produkta un vienības kombinācijai cenu var definēt projekta pārdošanas cenrāžos un projekta izmaksu cenrāžos.  
 
 Lai skatītu, pievienotu vai dzēstu projekta materiālu aprēķinu, veiciet tālāk norādītās darbības.
 

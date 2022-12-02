@@ -1,6 +1,6 @@
 ---
 title: Pārdevēju un pirkumu cenrāžu pārvaldība programmā Project Operations
-description: Šajā rakstā ir sniegta informācija, kas palīdzēs jums izveidot un uzturēt kreditoru datus un iegādāties cenu sarakstus apakšuzņēmuma līgumiem.
+description: Šajā rakstā ir sniegta informācija, kas palīdzēs izveidot un uzturēt pārdevēju datus un pirkumu cenrāžus apakšlīgumu slēgšanai.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

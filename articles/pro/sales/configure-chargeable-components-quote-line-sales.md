@@ -1,6 +1,6 @@
 ---
 title: Piedāvājuma rindas maksas komponentu konfigurēšana
-description: Šajā rakstā sniegta informācija par apmaksājamo un neapmaksājamo komponentu iestatīšanu projekta piedāvājuma rindā.
+description: Šajā rakstā ir sniegta informācija par apmaksājamu un neapmaksājamu komponentu iestatīšanu projekta piedāvājuma rindā.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

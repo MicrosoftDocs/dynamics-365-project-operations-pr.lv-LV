@@ -1,6 +1,6 @@
 ---
 title: 2022. gada aprīļa jaunumi — Project Operations Lite izvietošana
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Microsoft Dynamics 365 Project Operations lite izvietošanas 2022. gada aprīļa laidienā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Microsoft Dynamics 365 Project Operations lite izvietošanas 2022. gada aprīļa laidienā.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
@@ -20,19 +20,19 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 
 Šis raksts attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
 
-- Projekta operācijas Dataverse vides versijā 4.41.0.45
+- Project Operations Dataverse vides versijā 4.41.0.45
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
-| Laiks un izdevumi | 2573900 | Modernā **apstiprinājuma** līdzeklis ir jāiespējo pēc noklusējuma. |
-| Cenu noteikšana un norēķini | 2603313 | Novērsa ieraksta dublikāta kļūdu, kas neļāva pievienot piedāvājuma un līguma rindas, kurām ir prece. |
-| Izvietošana un konfigurēšana | 2611368 | Izmantojot moderno lietotņu noformētāju, klientiem risinājumam ir jāpievieno ne vairāk kā piecas pielāgotas entītijas. |
-| Laiks un izdevumi | 2628285 | Novērsta problēma, kas ietekmēja iespēju iestatīt pareizo resursu kategoriju importēšanas laikā. |
-|   Iespēju pārvaldība| 2628815 | Atjauniniet piedāvājuma rindas detalizētās informācijas apraksta rakstzīmju ierobežojumu, lai tas atbilstu uzdevuma tēmas rakstzīmju ierobežojumam, lai importēšana izdotos uzdevumiem, kuros tēma ir garāka par 100 rakstzīmēm. |
-| Laiks un izdevumi| 2629547 | Projekta **apstiprinājumu laukam Iesniegts** jānorāda uz lietotāju, kurš iesniedzis ierakstu. |
-| Laiks un izdevumi| 2629865 | Lauku **Kopēt kategoriju** uzdevumiem, kad projekti tiek kopēti. |
-| Laiks un izdevumi| 2636463 | Laboja filtrus apstiprinājumiem modernās apstiprinājumu veidlapās. |
+| Laiks un izdevumi | 2573900 | Pēc noklusējuma ir jāiespējo līdzeklis **Mūsdienīgi apstiprinājumi**. |
+| Cenu noteikšana un norēķini | 2603313 | Novērsta ierakstu dublikāta kļūda, kas neļāva pievienot piedāvājumu un līgumu rindas, kam ir produkts. |
+| Izvietošana un konfigurācija | 2611368 | Klientiem ir jābūt iespējai pievienot līdz piecām pielāgotām entītijām risinājumam, izmantojot moderno programmu noformētāju. |
+| Laiks un izdevumi | 2628285 | Novērsta problēma, kas ietekmē iespēju iestatīt pareizo resursa kategoriju laika ieraksta importēšanas laikā. |
+|   Iespēju pārvaldība| 2628815 | Atjaunināts piedāvājuma rindas detalizētās informācijas apraksta rakstzīmju ierobežojums, lai tas atbilstu uzdevuma tēmas rakstzīmju ierobežojumam, tādējādi ļaujot sekmīgi importēt uzdevumus, kuru tēmas garums pārsniedz 100 rakstzīmes. |
+| Laiks un izdevumi| 2629547 | Projekta apstiprinājumu laukam **Iesniedza** jānorāda lietotājs, kas ir iesniedzis ierakstu. |
+| Laiks un izdevumi| 2629865 | Lauks **Kopēt kategoriju** uzdevumos, kad tiek kopēti projekti. |
+| Laiks un izdevumi| 2636463 | Laboti apstiprinājumu filtri moderno apstiprinājumu veidlapās. |
 | Projektu plānošana un izsekošana | 2648300 | Novērsta problēma, kas neļauj mainīt projekta īpašnieku. |
-| Cenu noteikšana un norēķini | 2563000 | Nedrīkst atļaut žurnāla rindas neierobežotai pārdošanai, ja valūta atšķiras no līguma valūtas. |
+| Cenu noteikšana un norēķini | 2563000 | Rēķinā neiekļautas pārdošanas žurnāla rindas, kur valūta atšķiras no līguma valūtas, nedrīkst tikt atļautas. |

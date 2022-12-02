@@ -1,6 +1,6 @@
 ---
 title: PVN atmaksa modulī Izdevumu pārvaldība
-description: Šajā rakstā paskaidrots, kā saņemt atmaksu par attiecināmiem pievienotās vērtības nodokļa (PVN) darījumiem.
+description: Šajā rakstā ir izskaidrots, kā saņemt atmaksas par piemērotām pievienotās vērtības nodokļa (PVN) transakcijām.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

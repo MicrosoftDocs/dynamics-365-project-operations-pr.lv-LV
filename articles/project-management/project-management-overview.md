@@ -1,6 +1,6 @@
 ---
 title: Projekta pārvaldības pārskats
-description: Šajā rakstā ir sniegta informācija par projektu pārvaldību programmā Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par projekta pārvaldības iestatījumiem programmā Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

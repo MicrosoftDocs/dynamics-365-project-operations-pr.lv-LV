@@ -1,6 +1,6 @@
 ---
 title: Projekta piedāvājuma iestatījumi
-description: Šajā rakstā ir sniegta informācija par informāciju un iestatījumiem, kas attiecas uz projektu piedāvājumiem un ietekmē tos.
+description: Šajā rakstā ir sniegta informācija par iestatījumiem un informāciju, kas attiecas uz projekta piedāvājumiem un ietekmē tos.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

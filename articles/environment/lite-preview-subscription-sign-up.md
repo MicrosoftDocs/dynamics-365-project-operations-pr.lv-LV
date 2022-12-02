@@ -1,6 +1,6 @@
 ---
 title: Priekšskatījuma abonementa reģistrācija — Lite
-description: Šajā rakstā ir sniegta informācija par to, kā abonēt un izvietot Project Operations lite izvietošanu — nodarbojieties ar proforma rēķinu izrakstīšanu.
+description: Šajā rakstā ir sniegta informācija par to, kā abonēt un izvietot Project Operations Lite izvietošanu — pāreju uz proforma rēķinu izrakstīšanu.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410043"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Priekšskatījuma abonementa reģistrācija — Lite 
 
-Šajā rakstā ir paskaidrots, kā abonēt izmēģinājuma piedāvājumu un izvietot Dynamics 365 Project Operations lite izvietošanu - nodarbojieties ar proforma rēķinu izrakstīšanu.
+Šajā rakstā izskaidrots, kā reģistrēties izmēģinājumversijas piedāvājumam un izvietot Dynamics 365 Project Operations Lite izvietošanu — piedāvājums pro forma rēķinu izrakstīšanai.
 
 > [!NOTE]
 > Šis process tiks mainīts nākamajā Project Operations laidienā.
@@ -43,14 +43,14 @@ Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lie
 > Lai izpildītu tālāk norādītās darbības, jums ir jābūt administratīvai piekļuvei savas organizācijas Microsoft 365 portālam.
 
 
-1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai piešķirtu licences saviem lietotājiem.
+1. Dodieties uz [Microsoft 365 administrēšanas centru](https://portal.office.com/), lai lietotājiem piešķirtu licences.
 2. Lapā **Aktīvie lietotāji** atlasiet lietotājus, kuriem vēlaties piešķirt licenci.
 3. Pārbaudiet, vai ir atlasīta **Dynamics 365 Project Operations** licence. 
 4. Atlasiet **Saglabāt izmaiņas**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Izveidot jaunu Dataverse vidi
 
-1. Nodrošiniet jaunu Project Operations Dataverse izvietošanas vidi, izpildot rakstā izvietošanas [Dataverse modelis sniegtos norādījumus](lite-deployment.md). Kad atlasāt vides tipu, noteikti izmantojiet **Izmēģinājumversija (ar abonementiem)**.
+1. Izveidojiet jaunu Project Operations Dataverse izvietošanas vidi, izpildot norādījumus rakstā [Dataverse izvietošanas modelis](lite-deployment.md). Kad atlasāt vides tipu, noteikti izmantojiet **Izmēģinājumversija (ar abonementiem)**.
 
   ![Jauna vide.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Pirms sākšanas pārliecinieties, vai esat pieteicies pārlūkprogrammā ar lie
 
 ## <a name="set-up-demo-data"></a>Demonstrācijas datu iestatīšana
 
-Iestatiet demonstrācijas datus, [izpildot rakstā Lietot demonstrācijas iestatīšanas un konfigurācijas datus sniegtos norādījumus](lite-apply-demo-setup-config-data.md).
+Iestatiet demonstrācijas datus, izpildot norādījumus, kas sniegti rakstā [Demonstrācijas iestatīšanu un konfigurācijas datu lietošana](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

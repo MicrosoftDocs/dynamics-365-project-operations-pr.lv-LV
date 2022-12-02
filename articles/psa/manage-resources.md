@@ -1,6 +1,6 @@
 ---
 title: Resursu pārvaldīšana
-description: Šajā rakstā ir sniegta informācija par to, kā pārvaldīt resursus.
+description: Šajā rakstā ir sniegta informācija par to, kā varat pārvaldīt resursus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

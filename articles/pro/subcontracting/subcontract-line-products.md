@@ -1,6 +1,6 @@
 ---
 title: Apakšlīguma produktu rindas
-description: Šajā rakstā ir paskaidrots, kā reģistrēt apakšlīgumu rindas par precēm un izmantot dažādus laukus, lai reģistrētu preču pirkumus no piegādātājiem.
+description: Šajā rakstā paskaidrots, kā reģistrēt apakšlīguma produktu rindas un izmantot dažādos laukus, lai reģistrētu produktu pirkumus no piegādātājiem.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

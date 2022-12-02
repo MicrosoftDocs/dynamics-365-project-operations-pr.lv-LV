@@ -1,6 +1,6 @@
 ---
 title: Entītijas, vadīklas un lietotāja saskarnes izmaiņas (Project Service Automation 3.x)
-description: Šajā rakstā aprakstītas risinājumu izmaiņas projektu pakalpojumu automatizācijai Microsoft Dynamics 3.x.
+description: Šajā rakstā ir aprakstītas izmaiņas risinājuma Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926877"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Izlaižot Microsoft Dynamics Project Service Automation (PSA) 3.x, entītijām, vadīklām, skatiem un lietotāja saskarnei ir veiktas daudzas izmaiņas. Šajā rakstā ir sniegta informācija par šīm svarīgajām izmaiņām.
+Izlaižot Microsoft Dynamics Project Service Automation (PSA) 3.x, entītijām, vadīklām, skatiem un lietotāja saskarnei ir veiktas daudzas izmaiņas. Šajā rakstā ir sniegta svarīga informācija par tālāk norādītajām produkta versijām.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Primārā un pakārtotā attiecību pārdošanas dokumentam, pārdošanas dokumenta rindai, pārdošanas dokumenta rindas detalizētajām entītijām
 Pēc versijas Dynamics 365 Project Service Automation (PSA), kas tika izlaista pirms versijas 3.0, dažas attiecības starp pārdošanas dokumentiem, pārdošanas dokumentu rindām un pārdošanas dokumentu rindu detaļām tika ieviestas, izmantojot virkņu laukus, kas saturēs virknes attēlojumu saistīto entītiju. Tas bija saistīts ar platformas ierobežojumiem, kam nepieciešami nozīmīgi pasūtījuma kodi serverī un klienta puses risinājumā, lai šīs attiecības darbotos līdzīgi kā tipiskas Dynamics CRM entītiju attiecības un panāktu, lai virkņu lauki darbojas kā uzmeklēšanas lauki.

@@ -1,6 +1,6 @@
 ---
 title: Pielāgotu risinājumu izveide cenu noteikšanas dimensijām
-description: Šajā rakstā paskaidrots, kā izveidot pielāgotu risinājumu, veidojot pielāgotas cenu kategorijas.
+description: Šajā rakstā izskaidrots, kā izveidot pielāgotu risinājumu, veidojot pielāgotas cenu noteikšanas dimensijas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

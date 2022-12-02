@@ -1,6 +1,6 @@
 ---
 title: Vienību grupas un vienības
-description: Šajā rakstā sniegta informācija par vienību grupām un vienībām.
+description: Šajā rakstā ir sniegta informācija par vienību grupām un vienībām.
 author: rumant
 ms.custom:
 - dyn365-projectservice

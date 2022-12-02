@@ -1,6 +1,6 @@
 ---
 title: Resursu kompetenču pārvaldība
-description: Šajā rakstā sniegta informācija par projekta resursu kompetenču iestatīšanu.
+description: Šajā rakstā sniegta informācija par projekta resursu kompetences iestatīšanu.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

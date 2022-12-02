@@ -1,6 +1,6 @@
 ---
 title: Projekta piedāvājuma izveide no iespējām
-description: Šajā rakstā sniegta informācija par projekta piedāvājuma izveidi no iespējas.
+description: Šajā rakstā ir sniegta informācija par projekta piedāvājuma izveidi no iespējas.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

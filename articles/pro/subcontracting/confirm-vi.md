@@ -1,6 +1,6 @@
 ---
 title: Projekta rēķina apstiprināšana
-description: Šajā rakstā ir paskaidrots, kā apstiprināt projekta kreditora rēķinu korporācijā Microsoft Dynamics 365 Project Operations, un projekta kreditora rēķina apstiprināšanas finansiālā ietekme.
+description: Šajā rakstā izskaidrots, kā apstiprināt projekta piegādātāja rēķinu programmā Microsoft Dynamics 365 Project Operations, un aprakstīta projekta piegādātāja rēķina apstiprināšanas finanšu ietekme.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261521"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Kad esat verificējis visas rindas kreditora rēķinā korporācijā Microsoft Dynamics 365 Project Operations, varat izmantot darbību Apstiprināt, lai apstiprinātu kreditora rēķinu.
+Kad esat pārbaudījis visas rindas piegādātāja rēķinā programmā Microsoft Dynamics 365 Project Operations, varat izmantot apstiprināšanas darbību, lai apstiprinātu piegādātāja rēķinu.
 
-Kreditora rēķinā atlasot **Apstiprināt**, tiek veikta tālāk norādītā darbība.
+Ja piegādātāja rēķinā tiek atlasīts **Apstiprināt**, notiek šāda darbība:
 
-1. Kreditora rēķina stāvoklis tiek atjaunināts uz **Apstiprināts**.
-2. Apstiprinātais kreditora rēķins un ar to saistītie ieraksti kļūst tikai lasāmi, un tos nevar rediģēt vai dzēst.
-3. Ja kāda no izmaksām faktiski atsaucas uz kreditora rēķina rindu kā daļu no salīdzināšanas procesa, visas izmaksu faktiskās izmaksas, kas ir saistītas ar atsauces kreditora rēķina rindu, tiek apgrieztas atpakaļ.
-4. Jaunas izmaksu faktiskās izmaksas tiek izveidotas, izmantojot informāciju kreditora rēķina rindā.
-5. Pēc kreditora rēķina apstiprināšanas vairs nevar izveidot korekcijas žurnālus, apstrādāt laika ieraksta atsaukumus vai atcelt apgrieztā sākotnējā laika, izdevumu vai faktisko faktisko materiālu apstiprināšanu.
+1. piegādātāja rēķina statuss tiek atjaunināts uz **Apstiprināts**.
+2. Apstiprinātais piegādātāja rēķins un tā saistītie ieraksti kļūst tikai lasāmi, un tos nevar rediģēt vai dzēst.
+3. Ja kādas faktiskās izmaksas atsaucas uz piegādātāja rēķina rindu kā daļu no atbilstības noteikšanas procesa, tiek apgrieztas visas faktiskās izmaksas, kas ir saistītas ar atsaucē norādīto piegādātāja rēķina rindu.
+4. Tiek izveidotas jaunas faktiskās izmaksas, izmantojot informāciju no piegādātāja rēķina rindas.
+5. Pēc piegādātāja rēķina apstiprināšanas vairs nevar izveidot labošanas žurnālus, apstrādāt laika ierakstu atsaukšanu vai atcelt sākotnējos apgrieztos laika, izdevumu vai materiālu faktiskos datus.
 
 > [!NOTE]
-> Ja kādai rindai kreditora rēķinā ir cits verifikācijas statuss, nevis **Pabeigts**, kreditora rēķinu nevar apstiprināt.
+> Ja kādai no piegādātāja rēķina rindām ir pārbaudes statuss, kas nav **Pabeigts**, nevar apstiprināt piegādātāja rēķinu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

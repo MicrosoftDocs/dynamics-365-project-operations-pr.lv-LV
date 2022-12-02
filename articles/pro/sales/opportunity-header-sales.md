@@ -1,6 +1,6 @@
 ---
 title: Iespējas iestatījumi — Lite
-description: Šajā rakstā sniegta informācija par projektu darījumiem un uz projektiem balstītām iespēju rindām.
+description: Šajā rakstā ir sniegta informācija par projektu darījumiem un projekta iespēju rindām.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

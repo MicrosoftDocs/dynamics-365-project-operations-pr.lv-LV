@@ -1,6 +1,6 @@
 ---
 title: Projekta rēķina priekšlikuma izpilde
-description: Šajā rakstā sniegta informācija par projektu rēķinu priekšlikumu veiktspējas uzlabojumiem.
+description: Šajā rakstā ir sniegta informācija par veiktspējas uzlabojumiem projekta rēķinu priekšlikumiem.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

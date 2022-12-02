@@ -70,7 +70,7 @@ Attīstoties Office grupas sadarbības modelim, tiks pievienotas funkcijas, lai 
 
 Papildinformāciju skatiet tēmā [Drošība pakalpojumā Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projekta operācijas un Microsoft Dynamics 365 Finanšu drošība
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations un Microsoft Dynamics 365 Finance drošība
 Programmā Project Operations ir šādas lomas:
 
 - Projekta vadītājs

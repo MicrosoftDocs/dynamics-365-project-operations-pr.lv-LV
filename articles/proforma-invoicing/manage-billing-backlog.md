@@ -1,6 +1,6 @@
 ---
 title: Izrakstīšanas rezervju pārvaldība
-description: Šajā rakstā ir sniegta informācija par to, kā skatīt un strādāt ar rēķinu uzkrāšanos projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt skatīt uzkrātos rēķinus risinājumā Project Operations un strādāt ar tiem.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

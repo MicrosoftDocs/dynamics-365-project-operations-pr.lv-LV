@@ -1,6 +1,6 @@
 ---
 title: Rezervāciju un piešķiru saskaņošana
-description: Šajā rakstā ir sniegta informācija par faktiskajiem datiem.
+description: Šajā rakstā ir sniegta informācija par faktiskajām vērtībām.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

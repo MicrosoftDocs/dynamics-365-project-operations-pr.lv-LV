@@ -1,6 +1,6 @@
 ---
 title: Starpuzņēmumu projektu rēķinu izrakstīšanas konfigurēšana
-description: Šajā rakstā ir parādīts, kā iestatīt projektu rēķinu izrakstīšanu starp diviem organizācijas uzņēmumiem.
+description: Šajā rakstā parādīts, kā iestatīt projektu rēķinu izrakstīšanu starp diviem uzņēmumiem jūsu organizācijā.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916619"
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir parādīts, kā iestatīt projektu rēķinu izrakstīšanu starp diviem organizācijas uzņēmumiem. Šajā uzdevumā tiek izmantota USSI datu kopa.
+Šajā rakstā parādīts, kā iestatīt projektu rēķinu izrakstīšanu starp diviem uzņēmumiem jūsu organizācijā. Šajā uzdevumā tiek izmantota USSI datu kopa.
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Kreditori > Piegādātāji > Visi piegādātāji**.
 2. Sarakstā **Visi piegādātāji** atrodiet un atlasiet nepieciešamo ierakstu.

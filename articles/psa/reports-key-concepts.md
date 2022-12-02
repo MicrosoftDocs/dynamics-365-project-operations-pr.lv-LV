@@ -1,6 +1,6 @@
 ---
 title: Pamata koncepti
-description: Šajā rakstā sniegta informācija par galvenajām resursu pārvaldības koncepcijām projektu pakalpojumu automatizācijā.
+description: Šajā rakstā ir sniegta informācija par galvenajiem resursu pārvaldības jēdzieniem programmā Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

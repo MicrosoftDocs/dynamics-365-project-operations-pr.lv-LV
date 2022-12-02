@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas cenu noteikšana projekta aprēķinos un spēlētāju statistikā
-description: Šajā rakstā ir sniegta informācija par to, kā tiek noteiktas projekta aplēšu un faktisko vērtību pārdošanas cenas.
+description: Šajā rakstā sniegta informācija par to, kā tiek noteiktas pārdošanas cenas projektu aprēķiniem un datiem.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -17,80 +17,80 @@ ms.locfileid: "9475194"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Lai noteiktu pārdošanas cenas aplēsēm un faktiskajiem datiem korporācijā Microsoft Dynamics 365 Project Operations, sistēma vispirms izmanto datumu un valūtu ienākošajā aplēsē vai faktiskajā kontekstā, lai noteiktu pārdošanas cenrādi. Konkrēti faktiskajā kontekstā sistēma izmanto lauku Transakcijas **datums**, lai noteiktu, kurš cenrādis ir piemērojams. **Ienākošās aplēses vai faktiskās transakcijas datuma** vērtība tiek salīdzināta ar **vērtībām Faktiskais sākums (neatkarīgi no laika joslas)** un **Efektīvās beigas (no laika joslas neatkarīgas)** cenrādī. Pēc pārdošanas cenrāža noteikšanas sistēma nosaka pārdošanas vai rēķina likmi.
+Lai noteiktu pārdošanas cenas aprēķiniem un datiem programmā Microsoft Dynamics 365 Project Operations, sistēma vispirms izmantot ienākošā aprēķina vai faktiskā konteksta datumu un valūtu, lai noteiktu cenrādi. Īpaši datu kontekstā sistēma izmanto lauku **Transakcijas datums**, lai noteiktu, kurš cenrādis ir lietojams. Ienākošā aprēķina vai datu vērtība **Transakcijas datums** tiek salīdzināta ar cenrāža vērtībām **Faktiskais sākums (atkarīgs no laika joslas)** un **Faktiskās beigas (atkarīgs no laika joslas)**. Pēc tam, kad ir noteikts pārdošanas cenrādis, sistēma nosaka pārdošanas vai rēķina likmi.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pārdošanas likmju noteikšana faktiskajās un aptuvenajās laika rindās
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pārdošanas likmju noteikšana Laika datu un aprēķinu rindām
 
-Laika **aplēses konteksts** attiecas uz:
+Aprēķina konteksts **Laikam** attiecas uz:
 
-- Citātu rindas informācija par **laiku**.
-- Detalizēta informācija par līguma rindiņu par **laiku**.
-- Resursu piešķiršana projektā.
+- **Laika** piedāvājuma rindas informācija.
+- **Laika** līguma rindas informācija.
+- Resursu piešķīrumi projektam.
 
-Faktiskais laika **konteksts** attiecas uz:
+Datu konteksts **Laikam** attiecas uz:
 
-- Ierakstu un labojumu žurnāla rindas **laikam**.
-- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts laika ieraksts.
-- Detalizēta informācija par rēķina rindiņu par **laiku**. 
+- Ierakstu un labošanas žurnālu rindas **Laikam**.
+- Žurnālu rindas, kas tiek izveidotas, kad tiek iesniegts laika ieraksts.
+- **Laika** rēķina rindas informācija. 
 
-Pēc pārdošanas cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma rēķina likmi.
+Pēc tam, kad ir noteikts pārdošanas cenrādis, sistēma izpilda tālāk norādītās darbības, lai ievadītu rēķina likmes noklusējuma vērtību.
 
-1. Sistēma atbilst **lauku Lomu** un **resursu vienība** kombinācijai **aplēses** vai faktiskā laika kontekstā ar lomu cenu rindām cenrādī. Veicot atbilstošu atbilstību, tiek pieņemts, ka rēķinu likmēm izmantojat standarta cenu kategorijas. Ja cenu noteikšana ir konfigurēta tā, lai **tās pamatā būtu lauki, kas nav lomu** un **resursu vienība** vai ir papildus tiem, šī lauku kombinācija tiek izmantota, lai izgūtu atbilstošu lomu cenu rindu.
-1. Ja sistēma atrod lomu cenu rindu, kurai ir rēķina likme **lomas** un **resursu vienības** kombinācijai, šī rēķina likme tiek izmantota kā noklusējuma rēķina likme.
-1. Ja sistēma nevar saskaņot lomu un resursu vienības **vērtību, tā izgūst lomu cenu rindas, kurām ir atbilstošas vērtības laukā Loma**, **bet kurām ir vērtības Null laukos** Resursu vienība **.** **·** Pēc tam, kad sistēma ir atradusi atbilstošu lomu cenas ierakstu, šī ieraksta rēķina likme tiks izmantota kā noklusējuma rēķina likme. Šajā saskaņošanā tiek pieņemta standarta konfigurācija lomas **relatīvajai prioritātei** **pret resursu piešķiršanas vienību** kā pārdošanas cenu dimensijai.
+1. Sistēma saskaņo lauku **Loma** un **Resursu vienība** kombināciju novērtējuma vai datu kontekstā **Laiks** ar lomas cenu rindām cenrādī. Šī saskaņošana pieņem, ka rēķina likmēm ir izmantotas neiekļautas cenas noteikšanas dimensijas. Ja esat konfigurējis cenu noteikšanu, pamatojoties uz kādu citu lauku, nevis **Loma** un **Resursu vienība**, tad šī ir lauku kombinācija, kas tiks izmantota, lai izgūtu atbilstošo lomas cenu rindu.
+1. Ja sistēma atrod lomas cenu rindu, kurai ir rēķina likme lauku rindai **Loma** un **Resursu vienība**, tad šī rēķina likme tiek izmantota kā noklusējuma rēķina likme.
+1. Ja sistēma nespēj saskaņot vērtības **Loma** un **Resursu vienība**, tad tā iegūst lomu cenas rindas ar atbilstošu vērtību laukam **Loma**, bet nulles vērtības laukam **Resursu vienība**. Pēc tam, kad sistēma ir atradusi atbilstošu lomas cenas ierakstu, šī ieraksta rēķina likme tiek izmantota kā noklusējuma rēķina likme. Šī atbilstība pieņem ārpus saraksta esošu konfigurāciju **Loma** pret **Resursu vienība** relatīvajai prioritātei kā pārdošanas cenu dimensiju.
 
 > [!NOTE]
-> Ja konfigurējat atšķirīgu lauku Lomu **un** resursu vienība **prioritāšu noteikšanu** vai ja jums ir citas dimensijas, kurām ir augstāka prioritāte, iepriekšējā darbība attiecīgi mainīsies. Sistēma izgūst lomu cenu ierakstus, kuru vērtības atbilst katrai cenu noteikšanas dimensijas vērtībai prioritārā secībā. Rindas, kurās šīm dimensijām ir nulles vērtības, ir pēdējās.
+> Ja laukiem **Loma** un **Resursu vienība** konfigurējat atšķirīgas prioritātes vai ja ir citas augstākas prioritātes kategorijas, iepriekšējā darbība attiecīgi mainīsies. Sistēma izgūst lomu cenu ierakstus, kuriem ir vērtības, kas atbilst katrai cenas noteikšanas scenārija vērtībai prioritārā secībā. Rindas ar vērtībām Null šīm dimensijām ir pēdējās.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Pārdošanas likmju noteikšana faktiskajās un aplēses rindās izdevumam Izdevumi
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Pārdošanas likmju noteikšana attiecībā uz faktiskajām un novērtējuma rindām par Izdevumiem
 
-Izdevumu **aplēses konteksts** attiecas uz:
+Aprēķina konteksts **Izdevumiem** attiecas uz:
 
-- Detalizēta informācija par izdevumu **piedāvājuma rindiņu**.
-- Detalizēta informācija par līguma rindiņu **izdevumiem**.
-- Projekta izdevumu tāmes rindas.
+- **Izdevumu** piedāvājuma rindas informācija.
+- **Izdevumu** līguma rindas informācija.
+- Izdevumu projekta aplēšu rindas.
 
-Faktiskais izdevumu **konteksts** attiecas uz:
+Faktiskais konteksts **Izdevumiem** attiecas uz:
 
-- Ierakstu un korekcijas žurnāla rindas izdevumam **Izdevumi**.
-- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts izdevumu ieraksts.
-- Detalizēta informācija par rēķina rindiņu izdevumam **Izdevumi**. 
+- Ierakstu un labošanas žurnālu rindas **Izdevumiem**.
+- Žurnālu rindas, kas tiek izveidotas, kad tiek iesniegts izdevumu ieraksts.
+- **Izdevumu** rēķina rindas informācija. 
 
-Pēc pārdošanas cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma vienības pārdošanas cenu.
+Kad pārdošanas cenrādis ir noteikts, sistēma pabeidz tālāk norādītās darbības, lai ievadītu vienības pārdošanas noklusējuma cenu.
 
-1. Sistēma atbilst lauku Kategorija un Vienība kombinācijai **izdevumu aplēses** **rindā ar kategoriju cenu rindām cenrādī.** **·**
-1. Ja sistēma atrod kategorijas cenu rindu, kurā ir pārdošanas likme kombinācijai **Kategorija** un **Vienība**, šis pārdošanas līmenis tiek izmantots kā noklusējuma pārdošanas līmenis.
-1. Ja sistēma atrod atbilstošu kategorijas cenu rindu, iespējams, tiks izmantota cenu noteikšanas metode, lai ievadītu noklusējuma pārdošanas cenu. Nākamajā tabulā ir parādīta izdevumu cenu noklusējuma darbība programmā Project Operations.
+1. Sistēma saskaņo lauku **Kategorija** un **Vienība** kombināciju **Izdevumu** aplēšu rindā pret kategoriju cenu rindām cenrādī.
+1. Ja sistēma atrod kategorijas cenas rindu, kurai ir pārdošanas likme lauku kombinācijai **Kategorija** un **Resursu vienība**, tad šī rēķina likme tiek izmantota kā noklusējuma pārdošanas likme.
+1. Ja sistēma atrod atbilstošo kategorijas cenas rindu, varat izmantot cenas noteikšanas metodi, lai ievadītu noklusējuma pārdošanas cenu. Tālāk esošajā tabulā ir redzams izmaksu cenu noklusējuma izturēšanās risinājumā Project Operations.
 
     | Konteksts | Izcenojuma metode | Noklusējuma cena |
     | --- | --- | --- |
-    | Novērtējums | Vienības cena | Pamatojoties uz kategorijas cenu līniju. |
+    | Novērtējums | Vienības cena | Pamatojoties uz kategorijas cenas rindu. |
     |        | Pašizmaksa | 0.00 |
     |        | Uzcenojums augstāks par izmaksu | 0.00 |
-    | Faktiski | Vienības cena | Pamatojoties uz kategorijas cenu līniju. |
-    |        | Pašizmaksa | Pamatojoties uz faktiskajām saistītajām izmaksām. |
-    |        | Uzcenojums augstāks par izmaksu | Uzcenojums tiek piemērots, kā noteikts kategorijas cenu rindā, saistīto faktisko izmaksu vienības izmaksu likmei. |
+    | Faktiski | Vienības cena | Pamatojoties uz kategorijas cenas rindu. |
+    |        | Pašizmaksa | Pamatojoties uz saistīto izmaksu faktiskajiem datiem. |
+    |        | Uzcenojums augstāks par izmaksu | Tiek lietots uzcenojums, kā definējis kategorijas cenu rindā saistītās faktiskās izmaksas likmes vienības izmaksu likmē. |
 
-1. Ja sistēma neatbilst kategorijas **un** **vienības** vērtībām, pārdošanas likme pēc noklusējuma ir iestatīta uz **0** (nulle).
+1. Ja sistēma nevar atrast atbilstību lauku **Kategorija** un **Vienība** vērtībām, pārdošanas likme pēc noklusējuma tiek iestatīta uz **0** (nulle).
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Pārdošanas likmju noteikšana materiāla faktiskajās un tāmes rindās
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Pārdošanas likmju noteikšana faktiskajām un novērtētajām materiāla rindām
 
-Materiāla **aplēses konteksts** attiecas uz:
+Aprēķina konteksts **Materiāliem** attiecas uz:
 
-- Citātu rindas informācija **materiālam**.
-- Detalizēta informācija par līguma līniju **materiālam**.
-- Projekta materiālu tāmes rindas.
+- **Materiālu** piedāvājuma rindas informācija.
+- **Materiālu** līguma rindas informācija.
+- Projekta materiālu aprēķinu rindas.
 
-Materiāla **faktiskais konteksts** attiecas uz:
+Faktiskais konteksts **Materiāliem** attiecas uz:
 
-- Ieraksta un korekcijas žurnāla rindas **materiālam**.
-- Žurnāla rindas, kas tiek izveidotas, kad tiek iesniegts materiāla lietojuma žurnāls.
-- Detalizēta informācija par rēķina rindiņu **materiālam**. 
+- Ierakstu un labošanas žurnālu rindas **Materiāliem**.
+- Žurnālu rindas, kas tiek izveidotas, kad tiek iesniegts Materiālu lietojuma žurnāls.
+- **Materiālu** rēķina rindas informācija. 
 
-Pēc pārdošanas cenrāža noteikšanas sistēma veic tālāk norādītās darbības, lai ievadītu noklusējuma vienības pārdošanas cenu.
+Kad pārdošanas cenrādis ir noteikts, sistēma pabeidz tālāk norādītās darbības, lai ievadītu vienības pārdošanas noklusējuma cenu.
 
-1. Sistēma atbilst laukam Prece un Vienība, kas atrodas materiāla **aplēses rindā, kombinācijai** **ar cenrāža pozīciju rindām cenrādī.** **·**
-1. Ja sistēma atrod cenrāža krājuma rindu, kurā ir pārdošanas kurss preču un vienības kombinācijai **, un ja cenu noteikšanas metode ir** Valūtas summa **, tiek izmantota pārdošanas cena, kas ir norādīta cenrāža rindā.** **·** 
-1. **Ja lauka Preces** un **Vienības** vērtības neatbilst vai ja cenu noteikšanas metode ir kaut kas cits, nevis **summa Valūta**, pārdošanas likme pēc noklusējuma ir iestatīta uz **0** (nulle). Šī problēma rodas, jo Project Operations atbalsta tikai **valūtas summas** cenu noteikšanas metodi materiāliem, kas tiek izmantoti projektā.
+1. Sistēma saskaņo lauku **Produkts** un **Vienība** kombināciju **Materiālu** aprēķinu rindā ar cenrāža vienību rindām cenrādī.
+1. Ja sistēma atrod cenrāža elementa rindu, kuras pārdošanas likme lauku **Produkts** un **Vienība** kombinācijai un ja cenu noteikšanas metodei ir **Valūtas summa**, tiek izmantota cenrāža rindā norādītā pārdošanas cena. 
+1. Ja lauku **Produkts** un **Vienība** vērtības nesaskan vai ja cenas noteikšanas metode nav **Valūtas summa**, pārdošanas likme pēc noklusējuma tiek iestatīta uz **0** (nulli). Tā notiek tāpēc, ka Project Operations projektā izmantotajiem materiāliem atbalsta tikai cenu noteikšanas metodi **Valūtas summa**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

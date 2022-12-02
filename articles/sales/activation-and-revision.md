@@ -1,6 +1,6 @@
 ---
 title: Projekta piedāvājuma aktivizēšana un pārskatīšana
-description: Šajā rakstā ir sniegta informācija par citātu aktivizēšanu un pārskatīšanu pakalpojumā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par piedāvājumu aktivizēšanu un pārskatīšanu programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -17,34 +17,34 @@ ms.locfileid: "9410380"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Aktivizācijas un pārskatīšanas iespējas palīdz sekot līdzi versiju izveidei uz projektiem balstītiem piedāvājumiem novērtēšanas un sarunu posmos. Kad tiek aktivizēts citāta melnraksts, tas kļūst tikai lasāms.
+Aktivizēšanas un pārskatīšanas iespējas palīdz izsekot projekta piedāvājumu versijām aprēķinu un apspriešanas laikā. Kad piedāvājuma melnraksts ir aktivizēts, tas kļūst tikai lasāms.
 
-Aktivizācijas un pārskatīšanas iespējas ļauj veikt šādus uzdevumus:
+Aktivizēšanas un pārskatīšanas iespējas ļauj šādus uzdevumus:
 
-- Vinnējiet vai zaudējiet citātus tikai pēc aktivizēšanas.
-- Pārskatiet citātu, lai veiktu izmaiņas esošajā piedāvājumā vai izveidotu jaunu versiju.
+- iegūt vai zaudēt piedāvājumus tikai pēc aktivizēšanas;
+- pārskatīt piedāvājumu, lai veiktu izmaiņas esošajā piedāvājumā vai izveidotu jaunu versiju.
 
 > [!NOTE]
-> Pēc tam, kad ir iespējots citātu aktivizēšanas un pārskatīšanas līdzeklis, to nevar atspējot.
+> Pēc piedāvājumu aktivizēšanas un pārskatīšanas līdzekļa iespējošanas to nevar atspējot.
 
-Lai ieslēgtu iespēju aktivizēt un pārskatīt uz projektiem balstītus piedāvājumus, veiciet tālāk norādītās darbības.
+Lai ieslēgtu iespēju aktivizēt un pārskatīt projekta piedāvājumus, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Iestatījumu** \> **parametri**.
-1. **Atveriet ierakstu Parametri**.
-1. Darbību rūts **cilnē Līdzekļu kontrole** atlasiet **Iespējot citātu aktivizēšanu un pārskatīšanu**.
+1. Pārejiet uz **Iestatījumi** \> **Parametri**.
+1. Atveriet ierakstu **Parametri**.
+1. Darbību rūts cilnē **Līdzekļu vadība** atlasiet **Iespējot piedāvājumu aktivizēšanu un pārskatīšanu**.
 1. Apstiprinājuma dialoglodziņā atlasiet **Labi**.
-1. Pēc dažiem mirkļiem atsvaidziniet pārlūkprogrammu. Tagad vajadzētu būt pieejamām aktivizēšanas un pārskatīšanas iespējām. Jūs zināt, ka šīs iespējas ir iespējotas, **ja poga Iespējot citātu aktivizēšanu un pārskatīšanu** vairs netiek rādīta darbību rūtī.
+1. Pēc brīža atsvaidziniet pārlūkprogrammu. Tagad aktivizēšanas un pārskatīšanas iespējām ir jābūt pieejamām. Varēsiet noteikt, ka šīs iespējas ir iespējotas, ja darbību rūtī vairs nav redzama poga **Iespējot piedāvājumu aktivizēšanu un pārskatīšanu**.
 
-## <a name="activating-a-quote"></a>Citāta aktivizēšana
+## <a name="activating-a-quote"></a>Piedāvājuma aktivizēšana
 
-Pēc tam, kad ir iespējots citātu aktivizēšanas un pārskatīšanas līdzeklis, **darbību rūts pogas Aizvērt citātu kā uzvarētu** un **Aizvērt citātu kā pazaudētu** pogu nav pieejamas projektu citātu melnrakstiem. Tie ir pieejami tikai pēc citāta aktivizēšanas.
+Pēc piedāvājumu aktivizēšanas un pārskatīšanas līdzekļa iespējošanas pogas **Iegūta piedāvājuma slēgšana** un **Zaudēta piedāvājuma slēgšana** darbību rūtī projektu piedāvājumu melnrakstiem nav pieejamas. Tās ir pieejamas tikai pēc tam, kad piedāvājums ir aktivizēts.
 
-Aktivizēšana ir citāta procesa posms, kad vēlaties novērst papildu izmaiņas piedāvājumā. Šajā posmā piedāvājums tiek nosūtīts iekšējai pārskatīšanai vai klientam.
+Aktivizēšana ir piedāvājuma procesa posms, kad vēlaties novērst papildu izmaiņas piedāvājumā. Šajā posmā piedāvājums tiek nosūtīts iekšējai pārskatīšanai vai klientam.
 
-Aizvērt **citātu kā uzvarētu** un **Aizvērt citātu kā pazaudētu** pogu darbību rūtī ir pieejamas aktivizētiem citātiem. Atkarībā no iekšējās vai klientu pārskatīšanas rezultāta varat izmantot vienu no šīm pogām, lai aizvērtu aktivizētu piedāvājumu. Varat veikt sarunas un izmaiņas aktivizētajos citātos, atlasot **Pārskatīt citātu**.
+Aktivizētajiem piedāvājumiem darbību rūtī ir pieejamas pogas **Iegūta piedāvājuma slēgšana** un **Zaudēta piedāvājuma slēgšana**. Atkarībā no iekšējās vai klienta pārskatīšanas rezultāta varat izmantot vienu no šīm pogām, lai slēgtu aktivizētu piedāvājumu. Aktivizētajiem piedāvājumiem varat veikt apspriešanu un izmaiņas, atlasot opciju **Pārskatīt piedāvājumu**.
 
-## <a name="revising-a-quote"></a>Citāta pārskatīšana
+## <a name="revising-a-quote"></a>Piedāvājuma pārskatīšana
 
-Ja aktivizētajā piedāvājumā ir jāveic izmaiņas, atlasiet **Pārskatīt citātu**. Citāts ir slēgts, un tiek izmantots pārskatītais **iemesla** kods. Pēc tam tiek izveidots jauns citāts, kuram ir tāds pats ID un palielināts pārskatījuma numurs. Visas detaļas no sākotnējā citāta tiek kopētas uz jauno citātu. Jaunajam citātam ir melnraksta statuss, un to var rediģēt pēc vajadzības.
+Ja aktivizētā piedāvājumā jāveic izmaiņas, atlasiet **Pārskatīt piedāvājumu**. Piedāvājums tiek slēgts, un tiek izmantots iemesla kods **pārskatīts**. Pēc tam tiek izveidots jauns piedāvājums ar tādu pašu ID un palielinātu pārskatīšanu skaitu. Visa detalizētā informācija no sākotnējā piedāvājuma tiek pārkopēta uz jauno piedāvājumu. Jaunajam piedāvājumam ir melnraksta statuss, un to var rediģēt pēc vajadzības.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

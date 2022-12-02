@@ -1,6 +1,6 @@
 ---
 title: Kreditora rēķina rindas par laiku
-description: Šajā rakstā ir paskaidrots, kā reģistrēt kreditoru rēķinu rindas par laika izmaksām, ko apakšuzņēmēji ir ieguldījuši.
+description: Šajā rakstā ir izskaidrots, kā ierakstīt piegādātāja rēķina rindas par laika izmaksām, ko ievada apakšuzņēmēji.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
@@ -17,30 +17,30 @@ ms.locfileid: "9262022"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Kreditora rēķinam korporācijā Microsoft Dynamics 365 Project Operations var būt kreditora rēķina rindas uz laiku. Projektu vadītāji var izmantot kreditoru rēķinu rindas uz laiku, lai reģistrētu apakšuzņēmēja laika izmaksas projektos.
+Piegādātāja rēķinam programmā Microsoft Dynamics 365 Project Operations var būt piegādātāja rēķina rindas, kas paredzētas laikam. Projektu vadītāji var izmantot piegādātāja rēķina rindas, kas paredzētas laikam, lai projektos ierakstītu apakšuzņēmēja laika izmaksas.
 
-Kreditora rēķina rindās uz laiku var būt vai nebūt atsauces uz apakšuzņēmuma līgumu rindiņu. Ja kreditora rēķina rindā par laiku ir atsauce uz apakšlīgumu, projektu vadītāji varēs saskaņot un pārbaudīt laiku, par kuru rēķins tiek izrakstīts, izmantojot kreditora rēķina rindu, ar laiku, ko reģistrējuši apakšuzņēmēji un ko projekta vadītāji ir apstiprinājuši projektā.
+Piegādātāja rēķina rindās, kas paredzētas laikam, var būt un var arī nebūt atsauce uz apakšlīguma rindu, kas paredzēta laikam. Ja piegādātāja rēķina rinda laikam satur atsauci uz apakšlīgumu, projektu vadītāji var saskaņot un pārbaudīt laiku, par kuru piegādātājs izraksta rēķinu rēķina rindā, salīdzinot ar laiku, ko ierakstījuši apakšuzņēmēji un apstiprinājuši projekta vadītāji.
 
-Šajā tabulā ir sniegta informācija par laukiem kreditoru rēķinu rindās uz laiku.
+Šajā tabulā ir informācija par piegādātāja rēķina rindām laikam.
 
 | Kolonna | Apraksts | Funkcionālā ietekme |
 | --- | --- | --- |
-| Nosaukums/vārds | Kreditora rēķina rindas nosaukums, lai palīdzētu identificēt. | Šis nosaukums tiks rādīts kā pirmā kolonna visās uzmeklēšanas reizēs, kuru pamatā ir kreditora rēķina rindas. |
-| Apraksts | Īss apraksts par pakalpojumiem, par kuriem kreditors izraksta rēķinus kreditora rēķina rindā. | Nevienu |
-| Apakšuzņēmēja līgums | Apakšuzņēmuma līgums, uz kura sākotnēji tika pasūtīti pakalpojumi. | Ja kreditora rēķinam ir atlasīts apakšlīgums, visas rindas kreditora rēķinā pārmanto šo atlasi. Kreditora rēķinā nevar būt kreditora rēķina rindas, kurās ir atsauces uz dažādiem apakšuzņēmuma līgumiem. |
-| Apakšuzņēmuma līgumu līnija | Apakšuzņēmuma līnija, uz kuras tika pasūtīti pakalpojumi. To apakšlīgumu rindu saraksts, kuras var atlasīt, ir ierobežots līdz rindām atlasītajā apakšuzņēmuma līgumā. | Ja apakšuzņēmuma līgumu rinda ir atlasīta kreditora rēķina rindā uz laiku, lauka Projekts **,** Loma **un** Rezervējamais resurss **noklusējuma vērtības** tiek ievadītas no atbilstošajiem apakšlīguma rindas laukiem. Ja atlasītajā apakšuzņēmuma līguma rindiņā ir vērtības laukos **Projekts**, **Loma** un **Rezervējams** laukos, atbilstošo lauku vērtības kreditora rēķina rindā nevar atšķirties no šīm vērtībām. |
-| Darījuma datums | Datums, kad projektā tiks ierakstītas kreditora rēķina rindas faktiskās izmaksas. | Nevienu |
-| Transakciju klase | Noklusējuma vērtība ir **"Laiks"**. | Vērtība **Laiks** norāda, ka kreditora rēķina rinda tiek izmantota, lai reģistrētu apakšuzņēmēja laika rēķina summu. |
-| Project | Tā projekta nosaukums, kurā tika izmantoti pakalpojumi, par kuriem tiek izrakstīts rēķins. | Šis lauks ir obligāts, un to nevar atstāt tukšu. |
-| Uzdevums | Tā projekta uzdevuma nosaukums, kurā tika izmantoti pakalpojumi, par kuriem tiek izrakstīts rēķins. Šis lauks ir pieejams tikai tad, ja ir atlasīts projekts. Projekta uzdevuma atlase nav obligāta. | Ja šis lauks ir atstāts tukšs, projekta vadītājs var saskaņot kreditora rēķina rindu ar laiku, ko reģistrē apakšuzņēmēju resursi jebkurā projekta uzdevumā. Ja kreditora rēķina rindā nav atsauces uz apakšuzņēmuma līguma rindiņu un šis lauks tiek atstāts tukšs, faktiskās izmaksas, ko izveido kreditora rēķina rinda, netiks saistītas ne ar vienu nesamaksātu pārdošanas faktisko vērtību. Šādā gadījumā, ja ir iestatīti uz uzdevumiem balstīti norēķini, iespējams, nevarēs izrakstīt rēķinus par izmaksām gala debitoram. |
-| Loma | To apakšuzņēmuma līgumu resursu loma, par kuru laiku tiek izrakstīts rēķins. | Šis lauks norāda lomu, ko veic apakšuzņēmuma līguma resursi, kuru laiks tiek izrakstīts rēķinā ar kreditora rēķinu. |
-| Rezervējamais resurss | Tā apakšuzņēmēja nosaukums, kura laiks tiek izrakstīts rēķinos. Rezervējama resursa izvēle nav obligāta. | Ja šis lauks ir atstāts tukšs, projekta vadītājs var saskaņot kreditora rēķina rindu ar laiku, ko reģistrē jebkurš resurss, kas pieder kreditoram kreditora rēķina rindā. |
-| Daudzums | Rēķina rindā ievadiet laika stundu skaitu, par kurām kreditors ir izrakstījis rēķinu. |Nevienu |
-| Vienību grupa | Noklusējuma vērtība ir **Laika vienības grupa**, un to nevar mainīt. | Nevienu |
-| Vienība | Noklusējuma vērtība ir stundu pamatvienība no laika vienības grupas. Šo vērtību var mainīt, lai iegādātos jebkurā laika vienības grupas vienībā, piemēram, dienā vai nedēļā. | Lomu un vienības vērtību kombinācija **tiks izmantota kā noklusējuma vai aprēķinātā vērtība laukam** Vienības cena **kreditora rēķina rindā.** **·** |
-| Vienības cena | Noklusējuma vienības cenā tiek izmantota lomas **un** vienības **vērtību kombinācija** no projekta cenrāža, kas ir piemērojama kreditora rēķina rindas transakcijas datumam. | Ja piemērojamā projekta cenrāža cena ir iestatīta vienībā, kas atšķiras no vienības kreditora rēķina rindā, sistēma izmanto vienības konvertāciju, lai aprēķinātu vienas vienības cenu. |
-| Starpsumma | Šis tikai lasāmais lauks tiek aprēķināts kā *daudzuma*&times;*vienības cena*, ja vērtības tiek ievadītas gan laukā Daudzums **, gan** **laukā Vienības cena.** Ja viens vai abi šie lauki ir tukši, šajā laukā varat ievadīt vērtību. | Nevienu |
+| Nosaukums/vārds | Piegādātāja rēķina rindas nosaukums, lai atvieglotu identificēšanu. | Šis nosaukums tiks parādīts, kā pirmā kolonna visos uzmeklēšanas rezultātos, kas ir balstīti uz piegādātāja rēķina rindām. |
+| Apraksts | Īss pakalpojumu apraksts, par kuriem piegādātājs izraksta rēķinu piegādātāja rēķina rindā. | Nevienu |
+| Apakšuzņēmēja līgums | Apakšlīgums, ar kuru pakalpojumi sākotnēji tika pasūtīti. | Ja piegādātāja rēķinam ir atlasīts apakšlīgums, visas rindas piegādātāja rēķinā pārmantos šo atlasi. Piegādātāja rēķinā nevar būt piegādātāja rēķina rindas, kam ir atsauce uz dažādiem apakšlīgumiem. |
+| Apakšlīguma rinda | Apakšlīguma rinda, ar kuru pakalpojumi tika pasūtīti. Atlasāmo apakšlīguma rindu saraksts ir ierobežots līdz atlasītā apakšlīguma rindām. | Kad piegādātāja rēķina rindā laikam ir atlasīta apakšlīguma rinda, lauku **Projekts**, **Loma** un **Rezervējamais resurss** noklusējuma vērtības tiek ievadītas no atbilstošajiem apakšlīguma rindas laukiem. Ja atlasītajai apakšlīguma rindai ir vērtības laukos **Projekts**, **Loma** un **Rezervējams**, atbilstošo lauku vērtības piegādātāja rēķina rindā nevar atšķirties no šīm vērtībām. |
+| Darījuma datums | Datums, kurā piegādātāja rēķina rindas faktiskās izmaksas tiek ierakstītas projektā. | Nevienu |
+| Transakciju klase | Noklusējuma vērtība ir **"Laiks"**. | Vērtība **Laiks** norāda, ka piegādātāja rēķina rinda tiek izmantota, lai ierakstītu rēķina summu par apakšuzņēmēja laiku. |
+| Project | Projekta nosaukums, kurā tika izmantoti pakalpojumi, par kuriem tiek izrakstīts rēķins. | Šis lauks ir obligāts, un to nevar atstāt tukšu. |
+| Uzdevums | Projekta uzdevuma nosaukums, kurā tika izmantoti pakalpojumi, par kuriem tiek izrakstīts rēķins. Šis lauks ir pieejams tikai tad, ja ir atlasīts projekts. Projekta uzdevuma atlase nav obligāta. | Ja šis lauks ir atstāts tukšs, projekta vadītājs var saskaņot piegādātāja rēķina rindu ar laiku, ko apakšuzņēmēja resursi ir ierakstījuši jebkurā projekta uzdevumā. Ja piegādātāja rēķina rindā nav atsauces uz apakšlīguma rindu un šis lauks ir atstāts tukšs, piegādātāja rēķina rindas izveidotās faktiskās izmaksas netiks saistītas ne ar kādām rēķinā neiekļautām faktiskajām pārdošanām. Šajā gadījumā, ja ir iestatīti uz uzdevumiem balstīti norēķini, par izmaksām var nebūt iespējams izrakstīt rēķinu gala klientam. |
+| Loma | To apakšuzņēmēju resursu loma, par kuru laiku tiek izrakstīts rēķins. | Šajā laukā ir norādīta loma, ko izpilda apakšlīguma resursi, par kuru laiku tiek izrakstīts rēķins piegādātāja rēķinā. |
+| Rezervējamais resurss | Tā apakšuzņēmēja vārds, par kura laiku tiek izrakstīts rēķins. Rezervējamā resursa atlase nav obligāta. | Ja šis lauks ir atstāts tukšs, projekta vadītājs var saskaņot piegādātāja rēķina rindu ar laiku, ko ieraksta jebkurš resurss, kurš pieder piegādātājam, piegādātāja rēķina rindā. |
+| Daudzums | Ievadiet laika stundu skaitu, par ko piegādātājs izraksta rēķinu rēķina rindā. |Nevienu |
+| Vienību grupa | Noklusējuma vērtība ir **Laika vienību grupa**, un to nevar mainīt. | Nevienu |
+| Vienība | Noklusējuma vērtība ir stundu pamatvienība no laika vienību grupas. Šo vērtību var mainīt, lai iegādātos jebkuru laika vienību grupas vienību, piemēram, dienu vai nedēļu. | Vērtību **Loma** un **Vienība** kombinācija tiks izmantota kā noklusējuma vērtība vai aprēķinātā vērtība laukam **Vienības cena** apakšlīguma rēķina rindā. |
+| Vienības cena | Vienības noklusējuma cenā tiek izmantota vērtību **Loma** un **Vienība** kombinācija no projekta cenrāža, kas ir piemērojams piegādātāja rēķina rindas transakcijas datumam. | Ja piemērojamā projekta cenrāža cena ir iestatīta vienībā, kas atšķiras no vienības piegādātāja rēķina rindā, sistēma izmanto vienības konversiju, lai aprēķinātu vienas vienības cenu. |
+| Starpsumma | Šis tikai lasāmais lauks tiek automātiski aprēķināts kā *Daudzums* &times; *Vienības cena*, ja vērtības ir ievadītas gan laukā **Daudzums**, gan laukā **Vienības cena**. Ja viens vai abi šie lauki ir tukši, tad tajos var ievadīt vērtību. | Nevienu |
 | PVN | Ievadiet pārdošanas nodokļa summu. | Nevienu |
-| Kopsumma | Kreditora rēķina rindas kopējā summa, ieskaitot nodokļus. Šis lauks tiek aprēķināts kā *starpsummu* + *pārdošanas nodoklis*. | Nevienu |
+| Kopsumma | Piegādātāja rēķina rindas kopsumma, ieskaitot nodokļus. Šis lauks tiek aprēķināts kā *Starpsumma* + *Pārdošanas nodoklis*. | Nevienu |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

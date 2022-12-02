@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas tāmes un projekti
-description: Šajā rakstā sniegta informācija par to, kā izmantot pārdošanas procesa grafiku un novērtējumus.
+description: Šajā rakstā ir sniegta informācija par to, kā pārdošanas procesā izdevīgi izmantot plānošanu un tāmes.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

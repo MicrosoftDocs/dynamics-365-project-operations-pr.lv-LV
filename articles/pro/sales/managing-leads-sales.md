@@ -1,6 +1,6 @@
 ---
 title: Interesentu pārvaldība — Lite
-description: Šajā rakstā sniegta informācija par projektu potenciālo klientu pārvaldību (pro).
+description: Šajā rakstā ir sniegta informācija par projekta interesentu pārvaldību (pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

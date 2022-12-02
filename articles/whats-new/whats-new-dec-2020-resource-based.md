@@ -1,6 +1,6 @@
 ---
 title: Jaunumi 2020. decembrī — Project Operations scenārijiem, kas ir balstīti uz resursiem/bez krājumiem
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada decembra projekta operāciju laidienā uz resursiem/krājumiem nebalstītiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada decembra laidienā Project Operations resursu/bez krājumu scenārijiem.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -21,7 +21,7 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
 - Project Operations Dataverse vides versijā 4.5.0.134
-- Projektu vadība un uzskaite Dynamics 365 Finance vidē versija 10.0.15
+- Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.15.
 
 Informāciju par to, kā veikt atjaunināšanu uz šo laidienu, skatiet rakstā [Atjauniniet Project Operations savā Finance vidē](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ Informāciju par to, kā veikt atjaunināšanu uz šo laidienu, skatiet rakstā 
 | Projektu plānošana un izsekošana | 2057197          | Netiek atbalstīta novērtēšanas rindu kopēšana ar uzdevuma atsauci                                                                                                     |
 | Projektu plānošana un izsekošana | 2060687          | Laika joslas brīdinājums tagad pazūd pēc noteikta laika                                                                                                      |
 | Resursu pārvaldība           | 1832887          | Noklusējuma resursu kategorijas ID ir jābūt statiskam, lai nodrošinātu atkārtojamu datu ielādi Dataverse un Finance vidēs                                                 |
-| Laiks un izdevumi              | 2081793          | **Izdevumu kategorijas nosaukums** ir jākartē uz **lauku Izdevumu kategorijas apraksts** finanšu un operāciju programmās                                                  |
+| Laiks un izdevumi              | 2081793          | **Izdevumu kategorijas nosaukums** ir jākartē uz lauku **Izdevumu kategorijas apraksts** finanšu un operāciju programmās                                                  |
 | Laiks un izdevumi              | 2034882          | Poga **Jauns** komandjoslā laika ierakstiem tiek parādīta divreiz, instalējot Dynamics 365 Field Service                                          |
 | Laiks un izdevumi              | 2056028          | Atjaunināta lapa **Laika rediģēšana**, lai iekļautu laika rindu                                                                                                              |
 | Laiks un izdevumi              | 1983747          | Laika ievades diagrammā tiek parādīti papildu dati                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektu vadība un grāmatvedība Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektu pārvaldība un uzskaite programmā Dynamics 365 Finance
 
 | Līdzekļu apgabals                        | Atsauces numurs | Kvalitātes atjauninājums                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Informāciju par to, kā veikt atjaunināšanu uz šo laidienu, skatiet rakstā 
 | Komandējumi un izdevumi                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Izdevumu atskaites automātiskās grāmatošanas darbplūsma ir pabeigta, bet rēķins nav iegrāmatots                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
-Informāciju par finanšu un operāciju programmu regulatīvajiem atjauninājumiem skatiet sadaļā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošajiem atjauninājumiem finanšu un operāciju programmās skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Varat arī pieteikties LCS un skatīt plānotos reglamentējošos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

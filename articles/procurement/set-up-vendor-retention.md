@@ -1,6 +1,6 @@
 ---
 title: Iestatīt piegādātāju ieturēšanu
-description: Šajā rakstā paskaidrots, kā iestatīt kreditora ieturējumu.
+description: Šajā rakstā ir izskaidrots, kā iestatīt piegādātāja ieturēšanu.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929775"
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā rakstā ir sniegta informācija par to, kā iestatīt piegādātāja ieturējumu.
+Šajā rakstā ir informācija, kā iestatīt piegādātāja ieturēšanu.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Piegādātāja ieturēšanas konta iestatīšana vispārējā virsgrāmatā
 
-1. Sadaļā Dynamics 365 Finance dodieties uz **Virsgrāmatas** > **grāmatošanas uzstādījumu** > **konti automātiskām darbībām**.
+1. Programmā Dynamics 365 Finance dodieties uz **Vispārējā virsgrāmata** > **Grāmatošanas iestatīšana** > **Automātisko transakciju konti**.
 2. Pievienot jaunu rindu.
 3. Laukā **Grāmatošanas veids** atlasiet **Piegādātāja ieturēšana**.
 4. Atlasiet galveno kontu, lai iegrāmatotu piegādātāja ieturēšanu.

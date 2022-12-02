@@ -1,6 +1,6 @@
 ---
 title: Rēķinu izveidošanas papildu līgumi, pamatojoties uz norisi
-description: Šajā rakstā paskaidrots, kā izveidot projektu līgumus, lai varētu ģenerēt rēķinus klientiem, pamatojoties uz pabeigtā darba procentuālo daļu.
+description: Šajā rakstā izskaidrots, kā izveidot projekta līgumus, lai varētu ģenerēt klientiem rēķinus, par pamatu izmantojot pabeigtā darba procentus.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913675"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Rēķinu izveidošanas papildu līgumi, pamatojoties uz norisi
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā paskaidrots, kā izveidot projektu līgumus, lai klientiem varētu izveidot rēķinus, pamatojoties uz pabeigtā darba procentuālo vērtību. Rēķina summas automātiski tiek aprēķinātas budžeta darba kategorijām, kas ir iestatītas projektam. Rēķina laiks tiek iestatīts, vienojoties par projekta līgumu ar klientu.
+Šajā rakstā izskaidrots, kā izveidot projekta līgumus, lai varētu izveidot klientiem rēķinus, par pamatu izmantojot pabeigtā darba procentus. Rēķina summas automātiski tiek aprēķinātas budžeta darba kategorijām, kas ir iestatītas projektam. Rēķina laiks tiek iestatīts, vienojoties par projekta līgumu ar klientu.
 
-Lietojiet šajā rakstā aprakstītās procedūras, lai iestatītu līgumu, saistīto projektu un norēķinu noteikumus, kas aprēķina rēķina summas projektam iestatītajām budžeta darba kategorijām.
+Izmantojiet šajā rakstā norādītās darbības, lai iestatītu līgumu, saistīto projektu un rēķinu noteikumus, kas aprēķina rēķinu summas projektam iestatītajām budžeta kategorijām.
 
 Pēc tam, kad esat izveidojis līgumu un projektu, varat iestatīt detalizētu informāciju par projektu. Piemēram, var definēt aktivitātes un piešķirt darbiniekiem projektu.
 

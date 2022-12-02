@@ -1,6 +1,6 @@
 ---
 title: Navigācija risinājumā Project Operations
-description: Šajā rakstā sniegta informācija par to, kā piekļūt projekta darbībām no dzīves cikla pakalpojumiem.
+description: Šajā rakstā ir sniegta informācija par to, kā piekļūt risinājumam Project Operations no Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 Dynamics 365 Project Operations resursu/bez krājumu scenāriji sastāv no diviem komponentiem. 
 
  - **Project Operations pakalpojuma Common Data Service (CDS) vidē**: šis komponents aptver iespējas un procesus, sākot no iespējas līdz pro forma rēķiniem. 
- - **Projektu vadība un Dynamics 365 Finance vides** uzskaite: šis komponents aptver izdevumu pārvaldības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. 
+ - **Projektu pārvaldība un uzskaite Dynamics 365 Finance vidē**: šis komponents aptver izdevumu pārvaldības iespējas, projektu uzskaiti un ieņēmumu atzīšanu. 
 
-Pēc projekta darbību nodrošināšanas, kā aprakstīts šajā rakstā, dzīves cikla pakalpojumu (LKA) **vides informācijas** lapa nodrošina ērtu piekļuvi abiem projekta darbību komponentiem.  
+Kad esat nodrošinājis Project Operations, kā aprakstīts šajā rakstā, risinājuma Lifecycle Services (LCS) lapa **Vides informācija** nodrošina ērtu piekļuvi abiem Project Operations komponentiem.  
 
 Izmantojiet vides nosaukumu sadaļā **Common Data Service Vides nosaukums**, lai pārietu uz Project Operations vidē CDS. 
 

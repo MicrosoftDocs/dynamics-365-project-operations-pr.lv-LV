@@ -1,6 +1,6 @@
 ---
 title: Izdevumu ievade (Lite)
-description: Šajā rakstā ir sniegta informācija par to, kā strādāt ar izdevumu ierakstu lite izvietošanā.
+description: Šajā rakstā sniegta informācija par to, kā strādāt ar izdevumu ierakstu Lite izvietošanā.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

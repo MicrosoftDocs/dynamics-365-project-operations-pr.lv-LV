@@ -1,6 +1,6 @@
 ---
 title: Naudas avanss
-description: Šajā rakstā sniegta informācija par naudas avansiem.
+description: Šajā rakstā ir sniegta informācija par naudas avansiem.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Pirms izdevumu atskaites iesniegšanas varat atlasīt naudas avansu, kas atbilst
  
  Ja ir iespējoti šie līdzekļi:
  
-  - Katrai izdevumu rindai var pievienot vienu vai vairākus naudas avansus.
+  - Katrai izdevumu rindai varat pievienot vienu vai vairākus naudas avansus.
   - Pieejamā naudas avansa bilance ir redzama reāllaikā, kad tiek saglabāta izdevumu atskaite. Tas ļauj vienlaikus apstrādāt izdevumu transakcijas un atgriezt naudas transakciju.
   - Vienai izdevumu transakcijai varat atlasīt vairākus naudas avansus.
   - Izmantojot vaicājumu, ir pieejami naudas avansa saskaņošanas dati. 

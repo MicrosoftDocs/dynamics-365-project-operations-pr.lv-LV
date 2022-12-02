@@ -1,6 +1,6 @@
 ---
 title: Projekta grafika API izmantošana ar Power Automate
-description: Šajā rakstā ir sniegts plūsmas paraugs, kas izmanto lietojumprogrammu interfeisus Project schedule (PROJECT schedule lietojumprogrammu interfeisus (API).
+description: Šajā rakstā ir sniegts plūsmas paraugs, kurā izmantotas projekta grafika programmas programmēšanas saskarnes (API).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
@@ -17,97 +17,97 @@ ms.locfileid: "9404459"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Šajā rakstā ir aprakstīta plūsmas paraugs, kurā parādīts, kā izveidot pilnīgu projekta plānu, izmantojot Microsoft Power Automate, kā izveidot operāciju kopu un kā atjaunināt entītiju. Piemērā ir parādīts, kā izveidot projektu, projekta grupas dalībnieku, operāciju kopas, projekta uzdevumus un resursu piešķires. Šajā rakstā ir arī paskaidrots, kā atjaunināt entītiju un izpildīt operāciju kopu.
+Šajā rakstā ir aprakstīts plūsmas paraugs, kurā parādīts, kā izveidot pilnīgu projekta plānu, izmantojot Microsoft Power Automate, kā izveidot darbību kopu un kā atjaunināt entītiju. Piemērā tiek parādīts, kā izveidot projektu, projekta darba grupas dalībnieku, darbību kopas, projekta uzdevumus un resursu piešķīrumus. Šajā rakstā arī izskaidrots, kā atjaunināt entītiju un izpildīt darbību kopu.
 
-Šis ir pilns to darbību saraksts, kas ir dokumentētas šī raksta parauga plūsmā:
+Tālāk ir sniegts pilns darbību saraksts, kas šajā rakstā ir dokumentētas parauga plūsmā.
 
-1. [Trigera PowerApps izveide](#1)
+1. [PowerApps trigera izveidošana](#1)
 2. [Projekta izveidošana](#2)
-3. [Mainīgā inicializēšana komandas dalībniekam](#3)
-4. [Vispārīga darba grupas dalībnieka izveide](#4)
-5. [Operāciju kopas izveide](#5)
-6. [Projekta kausa izveide](#6)
-7. [Mainīgā inicializēšana saites statusam](#7)
-8. [Mainīgo inicializēt uzdevumu skaitam](#8)
-9. [Mainīgā inicializēšana projekta uzdevuma ID](#9)
-10. [Dariet līdz](#10)
+3. [Darba grupas dalībnieka mainīgā inicializēšana](#3)
+4. [Vispārēja darba grupas dalībnieka izveide](#4)
+5. [Darbību kopas izveide](#5)
+6. [Projekta intervāla izveide](#6)
+7. [Saites statusa mainīgā inicializēšana](#7)
+8. [Uzdevumu skaita mainīgā inicializēšana](#8)
+9. [Projekta uzdevuma ID mainīgā inicializēšana](#9)
+10. [Paveikt līdz](#10)
 11. [Projekta uzdevuma iestatīšana](#11)
-12. [Projekta uzdevuma izveide](#12)
-13. [Resursu piešķiršanas izveide](#13)
-14. [Mainīgā lieluma pazemināšana](#14)
+12. [Projekta uzdevuma izveidošana](#12)
+13. [Resursu piešķīruma izveidošana](#13)
+14. [Mainīgā samazināšana](#14)
 15. [Projekta uzdevuma pārdēvēšana](#15)
-16. [Operāciju kopas palaišana](#16)
+16. [Darbību kopas palaišana](#16)
 
 ## <a name="assumptions"></a>Pieņēmumi
 
-Šajā rakstā tiek pieņemts, ka jums ir pamatzināšanas par Dataverse platformu, mākoņa plūsmām un projekta grafika lietojumprogrammu programmēšanas interfeisu (Project Schedule Application Programming Interface — API). Papildinformāciju [skatiet šī raksta sadaļā Atsauces](#references).
+Šajā rakstā tiek pieņemts, ka jums ir pamatzināšanas par Dataverse platformu, mākoņa plūsmām un projekta grafika programmas programmēšanas saskarni (API). Papildinformāciju skatiet šī raksta sadaļā [Atsauces](#references).
 
 ## <a name="create-a-flow"></a>Plūsmas izveide
 
 ### <a name="select-an-environment"></a>Atlasiet vidi
 
-Jūs varat izveidot Power Automate plūsmu savā vidē.
+Savā vidē varat izveidot Power Automate plūsmu.
 
-1. Dodieties uz <https://flow.microsoft.com> un izmantojiet administratora akreditācijas datus, lai pieteiktos.
-2. Augšējā labajā stūrī atlasiet **Vides**.
-3. Sarakstā atlasiet vidi, kurā Dynamics 365 Project Operations ir instalēta.
+1. Pārejiet uz <https://flow.microsoft.com> un izmantojiet savus administratora akreditācijas datus, lai pieteiktos.
+2. Augšējā labējā stūrī atlasiet **Vides**.
+3. Sarakstā atlasiet vidi, kurā instalēta programma Dynamics 365 Project Operations.
 
 ### <a name="create-a-solution"></a>Risinājuma izveide
 
-Veiciet šīs darbības, lai izveidotu [uz risinājumu balstītu plūsmu](/power-automate/overview-solution-flows). Izveidojot uz risinājumu balstītu plūsmu, varat vieglāk eksportēt plūsmu, lai to vēlāk izmantotu.
+Izpildiet šīs darbības, lai izveidotu [par risinājumu informētu plūsmu](/power-automate/overview-solution-flows). Izveidojot par risinājumu informētu plūsmu, varat plūsmu vieglāk eksportēt, lai to izmantotu vēlāk.
 
-1. Navigācijas rūtī atlasiet **Risinājumi**.
-2. **Lapā Risinājumi** atlasiet **Jauns risinājums**.
-3. **Dialoglodziņā Jauns risinājums** iestatiet nepieciešamos laukus un pēc tam atlasiet **Izveidot**.
+1. Navigācijas rūtī atlasiet vienumu **Risinājumi**.
+2. Lapā **Risinājumi** atlasiet **Jauns risinājums**.
+3. Dialoglodziņā **Jauns risinājums** iestatiet obligātos laukus un pēc tam atlasiet **Izveidot**.
 
-## <a name="step-1-create-a-powerapps-trigger"></a><a id="1"></a> 1. darbība: izveidojiet trigeri PowerApps
+## <a name="step-1-create-a-powerapps-trigger"></a><a id="1"></a>1. darbība: PowerApps trigera izveidošana
 
-1. **Lapā Risinājumi** atlasiet izveidoto risinājumu un pēc tam atlasiet **Jauns**.
-2. Kreisajā rūtī atlasiet **Cloud flows** \> **Automation** \> **Cloud flow** \> **Instant.**
-3. **Laukā Plūsmas nosaukums** ievadiet **Schedule API Demo Flow**.
-4. **Sarakstā Izvēlieties, kā aktivizēt šo plūsmu** atlasiet **Power Apps**. Kad izveidojat trigeri Power Apps, loģika ir atkarīga no jums kā autora. Šajā rakstā atstājiet ievades parametrus tukšus testēšanas nolūkos.
+1. Lapā **Risinājumi** atlasiet izveidoto risinājumu un pēc tam atlasiet **Jauns**.
+2. Kreisajā rūtī atlasiet **Mākoņa plūsmas** \> **Automatizācija** \> **Mākoņa plūsma** \> **Tūlītēja**.
+3. Laukā **Plūsmas nosaukums** ievadiet **Plānota API demonstrācijas plūsma**.
+4. Sarakstā **Izvēlieties, kā izraisīt šo plūsmu** atlasiet **Power Apps**. Veidojot aktivizēšanas Power Apps kārtulu, loģiku nosakāt jūs kā autors. Šajā rakstā ievades parametrus testēšanas nolūkos atstājiet tukšus.
 5. Atlasiet **Izveidot**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>2. darbība: Izveidot projektu
 
-Veiciet šīs darbības, lai izveidotu projekta paraugu.
+Lai izveidotu parauga projektu, izpildiet tālāk aprakstītās darbības.
 
-1. Izveidotajā plūsmā atlasiet **Jauns solis**.
+1. Izveidotajā plūsmā atlasiet **Jauna darbība**.
 
-    ![Jaunas darbības pievienošana.](media/newstep.png)
+    ![Jaunas darbības pievienošana](media/newstep.png)
 
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **veikt nesaistītās darbības**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **izpildīt nesaistītu darbību**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
 
-    ![Operācijas izvēle.](media/chooseactiontab.png)
+    ![Darbības atlasīšana.](media/chooseactiontab.png)
 
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
 
-![Soļa pārdēvēšana.](media/renamestep.png)
+![Darbības pārdēvēšana.](media/renamestep.png)
 
 4. Pārdēvējiet darbību **Izveidot projektu**.
-5. **Laukā Darbības nosaukums** atlasiet **msdyn\_ CreateProjectV1**.
-6. Zem tēmas lauka msdyn **atlasiet \_ Pievienot dinamisko saturu**.**·**
-7. **Cilnes Izteiksme** laukā Funkcija ievadiet **Projekta nosaukums - utcNow()**.
+5. Laukā **Darbības nosaukums** atlasiet **msdyn\_CreateButtonV1**.
+6. Laukā **msdyn\_subject** atlasiet **Pievienot dinamisku saturu**.
+7. Cilnes **Izteiksme** funkciju laukā ievadiet **Projekta nosaukums - utcNow()**.
 8. Atlasiet **Labi**.
 
-## <a name="step-3-initialize-a-variable-for-the-team-member"></a><a id="3"></a> 3. solis: Inicializējiet mainīgo komandas dalībniekam
+## <a name="step-3-initialize-a-variable-for-the-team-member"></a><a id="3"></a>3. darbība. Darba grupas dalībnieka mainīgā inicializēšana
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **inicializēt mainīgo**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
-4. Pārdēvējiet soli **Init komandas dalībnieks**.
-5. **Laukā Nosaukums** ievadiet **TeamMemberAction**.
-6. **Laukā Tips** atlasiet **Virkne**.
-7. **Laukā Vērtība** ievadiet **msdyn\_ CreateTeamMemberV1**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **inicializēt mainīgo**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
+4. Pārdēvējiet darbību **Inicializēt darba grupas dalībnieku**.
+5. Laukā **Nosaukums** ievadiet **TeamMemberAction**.
+6. Laukā **Tips** atlasiet **Virkne**.
+7. Laukā **Vērtība** ievadiet **msdyn\_CreateTeamMemberV1**.
 
-## <a name="step-4-create-a-generic-team-member"></a><a id="4"></a> 4. darbība: izveidojiet vispārēju komandas dalībnieku
+## <a name="step-4-create-a-generic-team-member"></a><a id="4"></a>4. darbība. Vispārēja darba grupas dalībnieka izveide
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **veikt nesaistītās darbības**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
-4. Pārdēvējiet darbību **Izveidot grupas dalībnieku**.
-5. **Laukā Darbības nosaukums** dialoglodziņā Dinamiskais **saturs** atlasiet **TeamMemberAction**.
-6. **Laukā Darbības parametri** ievadiet šādu parametru informāciju.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **izpildīt nesaistītu darbību**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
+4. Pārdēvējiet darbību **Izveidot darba grupas dalībnieku**.
+5. Laukam **Darbības nosaukums** atlasiet **TeamMemberAction** dialoglodziņā **Dinamiskais saturs**.
+6. Laukā **Darbības parametri** ievadiet tālāk norādīto informāciju par parametru.
 
     ```
     {
@@ -122,91 +122,91 @@ Veiciet šīs darbības, lai izveidotu projekta paraugu.
 
     Šeit ir parametru skaidrojums:
 
-    - **\@\@ odata.type** — entītijas nosaukums. Piemēram, ievadiet **"Microsoft.Dynamics.CRM.msdyn\_ projectteam"**.
-    - **msdyn\_ projectteamid** - projekta grupas ID primārā atslēga. Vērtība ir vispārēji unikāla identifikatora (Globally Unique Identifier — GUID) izteiksme.   ID tiek ģenerēts no izteiksmes cilnes.
+    - **\@\@odata.type** — entītijas nosaukums. Piemēram, ievadiet **"Microsoft.Dynamics.CRM.msdyn\_projectteam"**.
+    - **msdyn\_projectteamid** — projekta darba grupas ID primārā atslēga. Šī vērtība ir vispārēji unikālā identifikatora (GUID) izteiksme.   ID tiek ģenerēts no izteiksmes cilnes.
 
-    - **msdyn\_ project\@ odata.bind** – Piederošā projekta ID. Vērtība būs dinamisks saturs, kas nāk no soļa "Izveidot projektu" atbildes. Pārliecinieties, vai esat ievadījis pilnu ceļu un starp iekavām pievienojis dinamisku saturu. Ir nepieciešamas pēdiņas. Piemēram, ievadiet **"/msdyn\_ projects(ADD DYNAMIC CONTENT)"**.
-    - **msdyn\_ vārds** – Komandas dalībnieka vārds. Piemēram, ievadiet **"ScheduleAPIDemoTM1"**.
+    - **msdyn\_project\@odata.bind** — atbildīgā projekta ID. Šī vērtība ir dinamisks saturs, kas tiek veidots no darbības “Izveidot projektu” atbildes. Pārliecinieties, vai ir ievadīts pilnais ceļš un pievienots dinamisks saturs iekavās. Ir nepieciešamas pēdiņas. Piemēram, ievadiet **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_name** — darba grupas dalībnieka vārds. Piemēram, ievadiet **"ScheduleAPIDemoTM1"**.
 
-## <a name="step-5-create-an-operation-set"></a><a id="5"></a> 5. darbība: izveidojiet operāciju kopu
+## <a name="step-5-create-an-operation-set"></a><a id="5"></a>5. darbība. Darbību kopas izveide
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **veikt nesaistītās darbības**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **izpildīt nesaistītu darbību**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
 4. Pārdēvējiet darbību **Izveidot darbību kopu**.
-5. **Laukā Darbības nosaukums** atlasiet **pielāgoto darbību msdyn\_ CreateOperationSetV1** Dataverse.
-6. **Laukā Apraksts** ievadiet **ScheduleAPIDemoOperationSet**.
-7. **Laukā Projekts** ievadiet **/msdyn\_ projekti(**.
-8. Dialoglodziņā Dinamiskais **saturs** atlasiet **msdyn\_ CreateProjectV1Response ProjectId**.
-9. **Laukā Projekts** ievadiet **)**.
+5. Laukā **Darbības nosaukums** atlasiet pielāgoto darbību **msdyn\_CreateOperationSetV1** Dataverse.
+6. Laukā **Apraksts** ievadiet **ScheduleAPIDemoOperationSet**.
+7. Laukā **Projekts** ievadiet **/msdyn\_projects(**.
+8. Dialoglodziņā **Dinamiskais saturs** atlasiet **msdyn\_CreateProjectV1Response ProjectId**.
+9. Laukā **Projekts** ievadiet **)**.
 
-## <a name="step-6-create-a-project-bucket"></a><a id="6"></a> 6. darbība: izveidojiet projekta kausu
+## <a name="step-6-create-a-project-bucket"></a><a id="6"></a>6. darbība. Projekta intervāla izveide
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **pievienot jaunu rindu**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
-4. Pārdēvējiet darbību **Izveidot kausu**.
-5. **Laukā Tabulas nosaukums** atlasiet **Projektu kausi**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **pievienot jaunu rindu**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
+4. Pārdēvējiet darbību **Izveidot intervālu**.
+5. Laukā **Tabulas nosaukums** atlasiet **Projekta intervāli**.
 6. Laukā **Nosaukums** ievadiet **ScheduleAPIDemoBucket1**.
-7. **Laukā Projekts** dialoglodziņā Dinamiskais saturs **atlasiet \_ msdyn** CreateProjectV1Response **ProjectId**.
+7. Laukā **Projekts** atlasiet **msdyn\_CreateProjectV1Response ProjectId** dialoglodziņā **Dinamiskais saturs**.
 
-## <a name="step-7-initialize-a-variable-for-the-link-status"></a><a id="7"></a> 7. darbība: inicializēt mainīgo saites statusam
+## <a name="step-7-initialize-a-variable-for-the-link-status"></a><a id="7"></a>7. darbība. Saites statusa mainīgā inicializēšana
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **inicializēt mainīgo**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **inicializēt mainīgo**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
 4. Pārdēvējiet darbību **Init linkstatus**.
-5. **Laukā Nosaukums** ievadiet **linkstatus**.
-6. **Laukā Tips** atlasiet **Vesels skaitlis**.
-7. **Laukā Vērtība** ievadiet **192350000**.
+5. Laukā **Nosaukums** ievadiet **linkstatus**.
+6. Laukā **Tips** atlasiet **Vesels skaitlis**.
+7. Laukā **Vērtība** ierakstiet **192350000**.
 
-## <a name="step-8-initialize-a-variable-for-the-number-of-tasks"></a><a id="8"></a> 8. solis: Inicializējiet mainīgo uzdevumu skaitam
+## <a name="step-8-initialize-a-variable-for-the-number-of-tasks"></a><a id="8"></a>8. darbība. Uzdevumu skaita mainīgā inicializēšana
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **inicializēt mainīgo**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
-4. Pārdēvējiet soli **Init uzdevumu** skaits.
-5. Laukā **Nosaukums** ievadiet **uzdevumu** skaitu.
-6. **Laukā Tips** atlasiet **Vesels skaitlis**.
-7. Laukā **Vērtība** ievadiet **5**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **inicializēt mainīgo**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
+4. Pārdēvējiet darbību **Inicializēt uzdevumu skaitu**.
+5. Laukā **Nosaukums** ievadiet **uzdevumu skaits**.
+6. Laukā **Tips** atlasiet **Vesels skaitlis**.
+7. Laukā **Vērtība** ierakstiet **5**.
 
-## <a name="step-9-initialize-a-variable-for-the-project-task-id"></a><a id="9"></a> 9. solis: inicializējiet mainīgo projekta uzdevuma ID
+## <a name="step-9-initialize-a-variable-for-the-project-task-id"></a><a id="9"></a>9. darbība. Projekta uzdevuma ID mainīgā inicializēšana
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **inicializēt mainīgo**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **inicializēt mainīgo**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
 4. Pārdēvējiet darbību **Init ProjectTaskID**.
-5. Laukā **Nosaukums** ievadiet **uzdevumu** skaitu.
-6. **Laukā Tips** atlasiet **Virkne**.
-7. **Laukā Vērtība** izteiksmju veidotājā ievadiet **guid().**
+5. Laukā **Nosaukums** ievadiet **uzdevumu skaits**.
+6. Laukā **Tips** atlasiet **Virkne**.
+7. Lauka **Vērtība** izteiksmes veidotājā ievadiet **guid()**.
 
-## <a name="step-10-do-until"></a><a id="10"></a> 10. solis: dariet līdz
+## <a name="step-10-do-until"></a><a id="10"></a>10. darbība. Paveikt līdz
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **darīt** līdz. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Iestatiet pirmo vērtību nosacījuma priekšrakstā uz **uzdevumu** mainīgo skaitu no dialoglodziņa **Dinamiskais saturs**.
-4. Iestatiet nosacījumu, lai tas būtu **mazāks par vienādu ar**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **paveikt līdz**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Nosacījuma priekšrakstā pirmo vērtību iestatiet uz mainīgo **uzdevumu skaits** no dialoglodziņa **Dinamiskais saturs** dialoglodziņa.
+4. Iestatiet nosacījumu uz **mazāks par vai vienāds ar**.
 5. Iestatiet otro vērtību nosacījuma priekšrakstā uz **0**.
 
-## <a name="step-11-set-a-project-task"></a><a id="11"></a> 11. darbība: projekta uzdevuma iestatīšana
+## <a name="step-11-set-a-project-task"></a><a id="11"></a>11. darbība. Projekta uzdevuma iestatīšana
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **iestatīt mainīgo**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **iestatīt mainīgo**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Jaunajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
 4. Pārdēvējiet darbību **Iestatīt projekta uzdevumu**.
-5. **Laukā Nosaukums** atlasiet **msdyn\_ projecttaskid**.
-6. **Laukā Vērtība** izteiksmju veidotājā ievadiet **guid().**
+5. Laukā **Nosaukums** atlasiet **msdyn\_projecttaskid**.
+6. Lauka **Vērtība** izteiksmes veidotājā ievadiet **guid()**.
 
-## <a name="step-12-create-a-project-task"></a><a id="12"></a> 12. darbība: izveidojiet projekta uzdevumu
+## <a name="step-12-create-a-project-task"></a><a id="12"></a>12. darbība: Projekta uzdevuma izveidošana
 
-Veiciet šīs darbības, lai izveidotu projekta uzdevumu, kuram ir unikāls ID, kas pieder pašreizējam projektam un jūsu izveidotajam projekta spainim.
+Veiciet šīs darbības, lai izveidotu projekta uzdevumu ar unikālu ID, kas pieder pašreizējam projektam un projekta intervālam, ko izveidojāt.
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **veikt nesaistītās darbības**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **izpildīt nesaistītu darbību**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Šajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
 4. Pārdēvējiet darbību **Izveidot projekta uzdevumu**.
-5. **Laukā Darbības nosaukums** atlasiet **msdyn\_ PssCreateV1**.
-6. Laukā Entītija **ievadiet** šādu parametru informāciju.
+5. Laukā **Darbības nosaukums** atlasiet **msdyn\_PssCreateV1**.
+6. Laukā **Entītija** ievadiet sekojošo parametru informāciju.
 
     ```
     {
@@ -224,26 +224,26 @@ Veiciet šīs darbības, lai izveidotu projekta uzdevumu, kuram ir unikāls ID, 
 
     Šeit ir parametru skaidrojums:
 
-    - **\@\@ odata.type** — entītijas nosaukums. Piemēram, ievadiet **"Microsoft.Dynamics.CRM.msdyn\_ projecttask"**.
-    - **msdyn\_ projecttaskid** – Uzdevuma unikālais ID. Vērtība jāiestata uz dinamisku mainīgo no **msdyn\_ projecttaskid**.
-    - **msdyn\_ project\@ odata.bind** – Piederošā projekta ID. Vērtība būs dinamisks saturs, kas nāk no soļa "Izveidot projektu" atbildes. Pārliecinieties, vai esat ievadījis pilnu ceļu un starp iekavām pievienojis dinamisku saturu. Ir nepieciešamas pēdiņas. Piemēram, ievadiet **"/msdyn\_ projects(ADD DYNAMIC CONTENT)"**.
-    - **msdyn\_ subject** – Jebkurš uzdevuma nosaukums.
-    - **msdyn\_ projectbucket\@ odata.bind** - projekta kauss, kurā ir uzdevumi. Vērtība būs dinamisks saturs, kas nāk no soļa "Izveidot kausu" atbildes. Pārliecinieties, vai esat ievadījis pilnu ceļu un starp iekavām pievienojis dinamisku saturu. Ir nepieciešamas pēdiņas. Piemēram, ievadiet **"/msdyn\_ projectbuckets(ADD DYNAMIC CONTENT)"**.
-    - **msdyn\_ start** – Dinamisks saturs sākuma datumam. Piemēram, rītdiena tiks attēlota kā **"addDays(utcNow(), 1)"**.
-    - **msdyn\_ scheduledstart** – Plānotais sākuma datums. Piemēram, rītdiena tiks attēlota kā **"addDays(utcNow(), 1)"**.
-    - **msdyn\_ scheduleend** - Plānotais beigu datums. Atlasiet datumu nākotnē. Piemēram, norādiet **"addDays(utcNow(), 5)"**.
-    - **msdyn\_ LinkStatus** - saites statuss. Piemēram, ievadiet **"192350000"**.
+    - **\@\@odata.type** — entītijas nosaukums. Piemēram, ievadiet **"Microsoft.Dynamics.CRM.msdyn\_projecttask"**.
+    - **msdyn\_projecttaskid** — uzdevuma unikālais ID. Šī vērtība jāiestata uz dinamisku mainīgo no **msdyn\_projecttaskid**.
+    - **msdyn\_project\@odata.bind** — atbildīgā projekta ID. Šī vērtība ir dinamisks saturs, kas tiek veidots no darbības “Izveidot projektu” atbildes. Pārliecinieties, vai ir ievadīts pilnais ceļš un pievienots dinamisks saturs iekavās. Ir nepieciešamas pēdiņas. Piemēram, ievadiet **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_subject** — jebkurš uzdevuma nosaukums.
+    - **msdyn\_projectbucket\@odata.bind** — projekta intervāls, kurā iekļauti uzdevumi. Šī vērtība ir dinamisks saturs, kas tiek veidots no darbības “Izveidot intervālu” atbildes. Pārliecinieties, vai ir ievadīts pilnais ceļš un pievienots dinamisks saturs iekavās. Ir nepieciešamas pēdiņas. Piemēram, ievadiet **"/msdyn\_projectbuckets(PIEVIENOJIET DINAMISKO SATURU)"**.
+    - **msdyn\_start** — sākuma datuma dinamiskais saturs. Piemēram, rītdiena tiks parādīta kā **"addDays(utcNow(), 1)"**.
+    - **msdyn\_scheduledstart** — ieplānotais sākšanas datums. Piemēram, rītdiena tiks parādīta kā **"addDays(utcNow(), 1)"**.
+    - **msdyn\_scheduleend** — ieplānotais beigu datums. Atlasiet datumu nākotnē. Piemēram, norādiet **"addDays(utcNow(), 5)"**.
+    - **msdyn\_LinkStatus** — saites statuss. Piemēram, ievadiet **"192350000"**.
 
-7. **Laukā OperationSetId** dialoglodziņā Dinamiskais saturs **atlasiet \_ msdyn** CreateOperationSetV1Response **·**.
+7. Laukā **OperationSetId** atlasiet **msdyn\_CreateOperationSetV1Response** dialoglodziņā **Dinamiskais saturs**.
 
-## <a name="step-13-create-a-resource-assignment"></a><a id="13"></a> 13. darbība: resursu piešķiršanas izveide
+## <a name="step-13-create-a-resource-assignment"></a><a id="13"></a>13. darbība. Resursa piešķīruma izveide
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **veikt nesaistītās darbības**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
-4. Pārdēvējiet darbību **Izveidot uzdevumu**.
-5. **Laukā Darbības nosaukums** atlasiet **msdyn\_ PssCreateV1**.
-6. Laukā Entītija **ievadiet** šādu parametru informāciju.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **izpildīt nesaistītu darbību**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Šajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
+4. Pārdēvējiet darbību **Izveidot piešķīrumu**.
+5. Laukā **Darbības nosaukums** atlasiet **msdyn\_PssCreateV1**.
+6. Laukā **Entītija** ievadiet sekojošo parametru informāciju.
 
     ```
     {
@@ -256,23 +256,23 @@ Veiciet šīs darbības, lai izveidotu projekta uzdevumu, kuram ir unikāls ID, 
     }
     ```
 
-7. **Laukā OperationSetId** dialoglodziņā Dinamiskais saturs **atlasiet \_ msdyn** CreateOperationSetV1Response **·**.
+7. Laukā **OperationSetId** atlasiet **msdyn\_CreateOperationSetV1Response** dialoglodziņā **Dinamiskais saturs**.
 
-## <a name="step-14-decrement-a-variable"></a><a id="14"></a> 14. solis: mainīgā lieluma pazemināšana
+## <a name="step-14-decrement-a-variable"></a><a id="14"></a>14. darbība. Mainīgā samazināšana
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **decrement mainīgo**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Laukā **Nosaukums** atlasiet **uzdevumu** skaitu.
-4. Laukā **Vērtība** ievadiet **1**.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **samazināt mainīgo**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Laukā **Nosaukums** atlasiet **uzdevumu skaits**.
+4. Laukā **Vērtība** ierakstiet **1**.
 
-## <a name="step-15-rename-a-project-task"></a><a id="15"></a> 15. darbība: projekta uzdevuma pārdēvēšana
+## <a name="step-15-rename-a-project-task"></a><a id="15"></a>15. darbība. Projekta uzdevuma pārdēvēšana
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **veikt nesaistītās darbības**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
-4. Pārdēvējiet darbību **Projekta uzdevuma** pārdēvēšana.
-5. **Laukā Darbības nosaukums** atlasiet **msdyn\_ PssUpdateV1**.
-6. Laukā Entītija **ievadiet** šādu parametru informāciju.
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **izpildīt nesaistītu darbību**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Šajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
+4. Pārdēvējiet darbību **Pārdēvēt projekta uzdevumu**.
+5. Laukā **Darbības nosaukums** atlasiet **msdyn\_PssUpdateV1**.
+6. Laukā **Entītija** ievadiet sekojošo parametru informāciju.
 
     ```
     {
@@ -282,20 +282,20 @@ Veiciet šīs darbības, lai izveidotu projekta uzdevumu, kuram ir unikāls ID, 
     }
     ```
 
-7. **Laukā OperationSetId** dialoglodziņā Dinamiskais saturs **atlasiet \_ msdyn** CreateOperationSetV1Response **·**.
+7. Laukā **OperationSetId** atlasiet **msdyn\_CreateOperationSetV1Response** dialoglodziņā **Dinamiskais saturs**.
 
-## <a name="step-16-run-an-operation-set"></a><a id="16"></a> 16. solis: palaidiet operāciju kopu
+## <a name="step-16-run-an-operation-set"></a><a id="16"></a>16. darbība. Darbību kopas palaišana
 
-1. Plūsmā atlasiet **Jauns solis**.
-2. Dialoglodziņa **Operācijas** izvēle meklēšanas laukā ievadiet **veikt nesaistītās darbības**. Pēc tam **cilnē Darbības** atlasiet darbību rezultātu sarakstā.
-3. Darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pārdēvēt**.
-4. Pārdēvējiet darbību **Izpildes operāciju kopa**.
-5. **Laukā Darbības nosaukums** atlasiet **msdyn\_ ExecuteOperationSetV1**.
-6. Laukā OperationSetId **dialoglodziņā Dinamīda saturs** atlasiet **msdyn\_ CreateOperationSetV1Response OperationSetId** **.**
+1. Plūsmā atlasiet **Jauna darbība**.
+2. Dialoglodziņa **Darbības izvēle** meklēšanas laukā ievadiet **izpildīt nesaistītu darbību**. Pēc tam cilnē **Darbības** atlasiet darbību no rezultātu saraksta.
+3. Šajā darbībā atlasiet daudzpunkti (**...**) un pēc tam atlasiet vienumu **Pārdēvēt**.
+4. Pārdēvējiet darbību **Izpildīt darbību kopu**.
+5. Laukā **Darbības nosaukums** atlasiet **msdyn\_ExecuteOperationSetV1**.
+6. Laukā **OperationSetId** atlasiet **msdyn\_CreateOperationSetV1Response OperationSetId** dialoglodziņā **Dinamiskais saturs**.
 
 ## <a name="references"></a>Atsauces
 
-- [Pārskats par to, kā integrēt plūsmas ar Dataverse - Power Automate](/power-automate/dataverse/overview?WT.mc_id=email)
+- [Pārskats par plūsmu integrēšanu ar Dataverse — Power Automate](/power-automate/dataverse/overview?WT.mc_id=email)
 - [Projekta plānošanas API izmantošana, lai veiktu operācijas ar plānošanas entītijām](schedule-api-preview.md)
-- [Pārskats par mākoņa plūsmām - Power Automate](/power-automate/overview-cloud?WT.mc_id=email)
-- [Pārskats par plūsmām, kas saistītas ar risinājumiem - Power Automate](/power-automate/overview-solution-flows?WT.mc_id=email)
+- [Pārskats par mākoņa plūsmām — Power Automate](/power-automate/overview-cloud?WT.mc_id=email)
+- [Pārskats: par risinājumu informētas plūsmas — Power Automate](/power-automate/overview-solution-flows?WT.mc_id=email)

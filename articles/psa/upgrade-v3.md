@@ -1,6 +1,6 @@
 ---
 title: Apsvērumi par jaunināšanu — Microsoft Dynamics 365 Project Service Automation 2.x vai versija 1.x uz 3. versiju
-description: Šajā rakstā ir sniegta informācija par apsvērumiem, kas jāveic, jauninot no Project Service Automation versijas 2.x vai 1.x uz 3. versiju.
+description: Šajā rakstā ir sniegta informācija par apsvērumiem, veicot jaunināšanu no Project Service Automation versijas 2.x vai 1.x uz 3. versiju.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ Project Service Automation 2. un 1. versijā uzdevumu piešķires tika glabātas
 
 Project Service Automation 3. versijā ir mainījusies pamatshēma rezervējamo resursu piešķiršanai uzdevumiem. Rindas uzdevums ir novecojis un pastāv tieša 1:1 attiecība starp uzdevumu **Uzdevuma entītijā** un darba grupas dalībnieku **Resursu piešķiršanas** entītijā. Projekta darba grupas dalībniekam piešķirtie uzdevumi tagad tiek glabāti tieši Resursu piešķiršanas entītijā.  
 
-Šīs izmaiņas ietekmē tādu esošu projektu jaunināšanu, kuriem ir resursu piešķires norādītajiem rezervējamiem resursiem un vispārēji resursi projekta darba grupai. Šajā rakstā ir sniegti apsvērumi, kas jums būs jāņem vērā projektos, jauninot uz 3. versiju. 
+Šīs izmaiņas ietekmē tādu esošu projektu jaunināšanu, kuriem ir resursu piešķires norādītajiem rezervējamiem resursiem un vispārēji resursi projekta darba grupai. Šajā rakstā ir sniegti apsvērumi, kas jāņem vērā attiecībā uz projektiem, veicot jaunināšanu uz 3. versiju. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Norādītajiem resursiem piešķirtie uzdevumi
 Izmantojot pamatā esošo uzdevuma entītiju, uzdevumi 2. un 1. versijā ļāva darba grupas dalībniekiem parādīt citādāku lomu, kas nav pēc noklusējuma definētā loma. Piemēram, Dace Krēsliņa, kura pēc noklusējuma ir nozīmēta Programmu pārvaldnieka lomai, var tikt nozīmēts uzdevumam ar Izstrādātāja lomu. 3. versijā, nosaukta darba grupas dalībnieka loma vienmēr ir noklusējuma loma, tāpēc jebkurš uzdevums, kam Dace Krēsliņa ir norīkota, izmanto Daces Programmu pārvaldnieka noklusējuma lomu.

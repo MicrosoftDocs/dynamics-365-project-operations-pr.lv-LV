@@ -1,6 +1,6 @@
 ---
 title: 2021. gada jūlija jaunumi — Project Operations Lite izvietošana
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations lite izvietošanas 2021. gada jūlija laidienā.
+description: Šajā rakstā ir sniegta informācija par 2021. gada jūlijā pieejamajiem kvalitātes atjauninājumiem Project Operations Lite izvietošanai.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article

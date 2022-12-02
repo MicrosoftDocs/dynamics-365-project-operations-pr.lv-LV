@@ -1,6 +1,6 @@
 ---
 title: Pro forma projektā balstīta rēķina apstiprināšana
-description: Šajā rakstā sniegta informācija par proforma uz projektu balstīta rēķina apstiprināšanu.
+description: Šajā rakstā ir sniegta informācija par projektu pro forma rēķinu apstiprināšanu.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

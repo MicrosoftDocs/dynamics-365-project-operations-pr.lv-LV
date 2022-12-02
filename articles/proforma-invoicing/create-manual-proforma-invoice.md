@@ -1,6 +1,6 @@
 ---
 title: Pro forma rēķini
-description: Šajā rakstā ir sniegta informācija par proforma rēķiniem projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par pro forma rēķiniem programmā Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Izveidojot projekta rēķina melnrakstu, visi nepārdoto pārdošanas transakcij
 Atlasiet vienumu **Apstiprināt**, lai apstiprinātu rēķinu. Apstiprinājuma darbība ir vienvirziena darbība. Kad atlasāt **Apstiprināt**, sistēma padara rēķinu par tikai lasāmu un izveido izrakstīto pārdošanas darījumu no katras rēķina rindas detalizētās vērtības katrā rēķina rindā. Ja rēķina rindas informācija attiecas uz nepārdotu pārdošanas apjomu faktisko, sistēma arī apvērš nepārdoto pārdošanas darījumu faktisko. (Jebkura rēķina rindas informācija, kas izveidota no laika vai izdevumu ieraksta, atsaucas uz nepārdotu pārdošanas darījumu.) Galvenās virsgrāmatas ieviešanas sistēmas var izmantot šo apvērsi, lai nepabeigtu projekta darbu (NP) grāmatvedības vajadzībām.
 
 > [!NOTE]
-> Apstiprinātos proformas rēķinus un saistītos ierakstus, piemēram, rēķina rindas un rēķina rindas detaļas, nevar rediģēt vai dzēst. 
+> Apstiprinātus pro formas rēķinus un saistītus ierakstus, piemēram, rēķina rindas un rēķina rindu informāciju, nevar rediģēt vai dzēst. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Apstiprināta rēķina labošana
 

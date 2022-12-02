@@ -1,6 +1,6 @@
 ---
 title: Apakšuzņēmēju kā rezervējamu resursu iestatīšana
-description: Šajā rakstā ir paskaidrots, kā iestatīt un uzturēt apakšuzņēmēju resursus, kas izveidoti no lietotājiem un kontaktpersonām sistēmā, lai tos varētu saistīt ar apakšuzņēmuma līgumiem korporācijā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā izskaidrots, kā iestatīt un uzturēt apakšuzņēmēju resursus, kas tiek veidoti no sistēmas lietotājiem un kontaktpersonām, lai tos varētu saistīt ar apakšuzņēmējiem programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

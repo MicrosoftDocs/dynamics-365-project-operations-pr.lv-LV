@@ -1,6 +1,6 @@
 ---
 title: 2022. gada jūnija jaunumi — Project Operations Lite izvietošana
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Microsoft Dynamics 365 Project Operations lite izvietošanas 2022. gada jūnija laidienā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Microsoft Dynamics 365 Project Operations lite izvietošanas 2022. gada jūnija laidienā.
 author: sigitac
 ms.date: 06/03/2022
 ms.topic: article
@@ -20,18 +20,18 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 
 Šis raksts attiecas uz šādiem Microsoft Dynamics 365 Project Operations komponentiem un versijām:
 
-- Project Operations Dataverse vides versijā 4.43.0.77 vai 4.43.0.119
+- Project Operations programmas Dataverse vides versijā 4.43.0.77 vai 4.43.0.119
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
-| Apakšuzņēmuma līgumi | 2708885 | Novērsta kļūda, kas tiek parādīta, kad lietotājs izveido rezervējamu resursu rezervācijas galvenes ierakstu, kurā nav aizpildīts rezervējams resurss. |
-| Projektu plānošana un izsekošana | 2629441 | Laboja darbplūsmas aktivizēšanas loģiku, lai palīdzētu novērst bezgalīgu cilpu, kad projekta uzdevumi tiek atjaunināti. |
-| Laiks un izdevumi | 2641209 | Laika ieraksta importēšanai no uzdevumiem/rezervācijām ir jāsaglabā atsauce uz rezervējamiem resursiem. |
-| Projektu plānošana un izsekošana | 2651148 | Projekta dokumenta galvene ir jāsargā.|
-| Projektu plānošana un izsekošana | 2653145 | Pievienotas validācijas, lai nodrošinātu, ka nevar izveidot projekta ierakstu, kura nosaukumā ir nederīgas rakstzīmes. |
-| Laiks un izdevumi | 2654710 | Labota filtrēšana **lapā Apstiprinājumi**. |
-| Cenu noteikšana un norēķini | 2667805 | Pievienotas validācijas, lai novērstu rēķinā norādīto pārdošanas faktisko vērtību izveidi, ja nepastāv nesamaksāto pārdošanas faktisko rezultātu dublēšana. |
-| Cenu noteikšana un norēķini | 2668378 | Pievienotas validācijas, lai novērstu pielāgotas cenu dimensijas pievienošanu, ja vien nav aizpildīts loģiskais nosaukums un lauka nosaukums. |
-| Laiks un izdevumi | 2700428 | Uzlabota apstiprinājumu loģika, lai nodrošinātu, ka citas projekta apstiprināšanas kopas var apstrādāt pat tad, ja viena no apstiprināšanas kopām ir iestrēgusi sistēmas darbos. |
+| Apakšlīgumu slēgšana | 2708885 | Novērsts kļūdas ziņojums, kas tiek rādīts, kad lietotājs izveido rezervējama resursa rezervācijas galvenes ierakstu, kurā nav ievadīts neviens rezervējams resurss. |
+| Projektu plānošana un izsekošana | 2629441 | Labota darbplūsmas aktivizēšanas loģika, lai novērstu bezgalīgu cilpu, atjauninot projekta uzdevumus. |
+| Laiks un izdevumi | 2641209 | Laika ierakstu importēšanai no piešķīrumiem/rezervācijām jāsaglabā rezervējama resursa atsauce. |
+| Projektu plānošana un izsekošana | 2651148 | Projekta dokumenta galvenei jābūt aizsargātai.|
+| Projektu plānošana un izsekošana | 2653145 | Pievienotas validācijas, lai nodrošinātu, ka nevar izveidot tādu projekta ierakstu, kura nosaukumā ir nederīgas rakstzīmes. |
+| Laiks un izdevumi | 2654710 | Labota filtrēšana lapā **Apstiprinājumi**. |
+| Cenu noteikšana un norēķini | 2667805 | Ir pievienotas validācijas, lai nepieļautu rēķinā iekļautu faktisko pārdošanu izveidošanas, ja nepastāv dublētas rēķinā neiekļautas faktiskās pārdošanas. |
+| Cenu noteikšana un norēķini | 2668378 | Pievienotas validācijas, lai novērstu pielāgota izcenojuma dimensijas pievienošanu, ja nav norādīts loģiskais nosaukums un lauka nosaukums. |
+| Laiks un izdevumi | 2700428 | Uzlabota apstiprinājumu loģika, lai nodrošinātu, ka citas projekta apstiprinājumu kopas var apstrādāt pat tad, ja viena no apstiprinājumu kopām ir iestrēgusi sistēmas uzdevumos. |

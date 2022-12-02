@@ -1,6 +1,6 @@
 ---
 title: Izdevumu atskaišu publicēšana
-description: Šajā rakstā ir paskaidrots, kā publicēt izdevumu pārskatus.
+description: Šajā rakstā ir izskaidrots, kā grāmatot izdevumu atskaites.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Lai grāmatotu izdevumu atskaiti, lapā **Apstiprinātās izdevumu atskaites** a
 
 Varat arī grāmatot visas sarakstā esošās izdevumu atskaites vienlaicīgi. Atlasiet visas izdevumu atskaites un pēc tam atlasiet vienumu **Grāmatot**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Iespējojiet funkciju Iespēja grāmatot izdevumu saistības kreditora valūtā skaidras naudas maksājuma veidam
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Iespējot iespēju grāmatot izdevumu atbildību piegādātāja valūtai attiecībā uz skaidras naudas maksājuma metodes līdzekli
 
-Līdzeklis **Iespēja grāmatot izdevumu saistības kreditora valūtā attiecībā uz maksāšanas metodi** skaidrā naudā ļauj izdevumu pārskatus grāmatot kreditora valūtā, kas paredzēta maksājuma veidam skaidrā naudā.
+Līdzeklis **Iespēja grāmatot izdevumu atbildību piegādātāja valūtā maksājumiem skaidrā naudā** ļauj grāmatot izdevumu atskaites piegādātāja valūtā, ja tiek izmantota skaidras naudas maksājuma metode.
 
-Pašlaik, iesniedzot naudas izdevumus, izdevumu pārskati tiek grāmatoti grāmatvedības valūtā. Tā kā summa tiek konvertēta starp transakcijas valūtu, uzskaites valūtu un kreditora valūtu, kreditoriem tiek izmaksāta nepareiza summa, ja izdevumu transakcijas datumam un faktiskajam maksājuma datumam ir atšķirīgi valūtas maiņas kursi.
+Pašlaik, iesniedzot skaidras naudas izdevumus, izdevumu atskaites tiek grāmatots uzskaites valūtā. Tā kā summa tiek pārvērsta starp transakcijas valūtu, grāmatvedības valūtu un piegādātāja valūtu, piegādātājiem tiek samaksāta nepareiza summa, ja rēķina transakcijas datumam un faktiskajam maksājuma datumam ir atšķirīgs valūtas kurss.
 
-Šis līdzeklis nodrošinās, ka kreditora bilance tiek reģistrēta kreditora valūtā, kad tiek grāmatots izdevumu pārskats.
+Šis līdzeklis nodrošinās to, ka piegādātāja bilance tiek ierakstīta piegādātāja valūtā, kad tiek grāmatota izmaksu atskaite.
 
 1. Atveriet sadaļu **Darbvietas** \> **Līdzekļu pārvaldība**.
-2. Sarakstā atrodiet un atlasiet **Iespēja grāmatot izdevumu saistības kreditora valūtā skaidras naudas maksājuma veidam** un pēc tam atlasiet **Iespējot tūlīt**.
+2. Sarakstā atrodiet un atlasiet **Iespēja grāmatot izdevumu atbildību piegādātāja valūtā maksājumam skaidrā naudā**, pēc tam atlasiet **Iespējot tagad**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

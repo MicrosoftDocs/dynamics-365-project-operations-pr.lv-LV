@@ -1,6 +1,6 @@
 ---
 title: Manuāla programmas Project Operations Dataverse ar duālās rakstīšanas atbalstu izvietošana
-description: Šajā rakstā ir paskaidrots, kā manuāli izvietot programmu Project Operations Dataverse, lai tā atbalstītu dubultrakstīšanu.
+description: Šajā rakstā izskaidrots, kā manuāli izvietot programmu Project Operations Dataverse, lai tā atbalstītu duālo rakstīšanu.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028573"
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā rakstā ir paskaidrots, kā manuāli izvietot Microsoft Dynamics 365 Project Operations Microsoft Dataverse, lai tā atbalstītu dubultrakstīšanu. Project Operations konstatē vides konfigurāciju un pievieno papildu atbalstu attiecībā duālajai rakstīšanai, ja tiek izpildīti priekšnosacījumi.
+Šajā rakstā izskaidrots, kā manuāli izvietot Microsoft Dynamics 365 Project Operations programmā Microsoft Dataverse, lai tā atbalstītu duālo rakstīšanu. Project Operations konstatē vides konfigurāciju un pievieno papildu atbalstu attiecībā duālajai rakstīšanai, ja tiek izpildīti priekšnosacījumi.
 
-Izvietošanas laikā, izmantojot Microsoft Dynamics Lifecycle Services (LCS), ja esat izpildījis šajā rakstā sniegtos norādījumus, varat izlaist integrācijas izvietošanu Microsoft Power Platform (iepriekš zināma kā Common Data Service vide).
+Veicot izvietošanu, izmantojot Microsoft Dynamics Lifecycle Services (LCS), ja ir izpildīti šajā rakstā sniegtie norādījumi, varat izlaist integrācijas Microsoft Power Platform (iepriekš zināma kā Common Data Service vide) izvietošanu.
 
 Project Operations izvietošanas procesam Dataverse, lai tas atbalstītu duālo rakstīšanu, jāveic četras galvenās darbības.
 
@@ -37,7 +37,7 @@ Lai pabeigtu šo procedūru, jāpiesakās kā administratoram.
 3. Atlasiet vides tipu. Ja reģistrējāties izmēģinājumversijas piedāvājumam, atlasiet **Izmēģinājumversija (abonementa)**.
 4. Apstipriniet izvietošanas reģionu.
 5. Iespējojiet opciju **Izveidot datu bāzi šai videi**. 
-6. Apstipriniet valodu un pēc tam apstipriniet, vai valūta atbilst jūsu finanšu un operāciju lietotņu valūtai.
+6. Apstipriniet valodu un pēc tam apstipriniet, ka valūta atbilst jūsu finanšu un operāciju programmu valūtai.
 7. Iespējojiet opciju **Dynamics 365 programmas** un pārliecinieties, ka lauks **Automātiski izvietot šīs programmas** ir iestatīts kā **Neviens**.
 8. Ja ir nepieciešama drošības grupa, pievienojiet to.
 9. Atlasiet **Saglabāt**, lai izveidotu vidi.
@@ -62,4 +62,4 @@ Izpildiet šo procedūru, lai pievienotu videi duālās rakstīšanas priekšnos
 
 ## <a name="link-your-environments"></a><a name="link"></a>Vižu saistīšana
 
-Dataverse Kad vide ir izvietota, varat iestatīt saiti savās finanšu un operāciju programmās. Izpildiet darbības, kas norādītas sadaļā [Duālās rakstīšanas vedņa izmantošana vižu saistīšanai](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Kad Dataverse vide ir izvietota, varat iestatīt saiti finanšu un operāciju programmās. Izpildiet darbības, kas norādītas sadaļā [Duālās rakstīšanas vedņa izmantošana vižu saistīšanai](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

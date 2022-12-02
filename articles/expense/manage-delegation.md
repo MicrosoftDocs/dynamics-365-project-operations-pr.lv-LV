@@ -1,6 +1,6 @@
 ---
 title: Deleģēšanas pārvalde
-description: Šajā rakstā sniegta informācija par to, kā izdevumu pārstāvis var izveidot un pārvaldīt izdevumu pārskatus citam darbiniekam.
+description: Šajā rakstā ir sniegta informācija par to, kā izdevumu pārstāvis var izveidot un pārvaldīt izdevumu atskaites citam darbiniekam.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

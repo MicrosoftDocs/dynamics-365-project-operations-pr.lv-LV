@@ -1,6 +1,6 @@
 ---
 title: Laika ierakstu kalendārs
-description: Šajā rakstā sniegta informācija par to, kā izmantot laika ieraksta kalendāru.
+description: Šajā rakstā ir sniegta informācija par to, kā izmantot laika ierakstu kalendāru.
 author: rumant
 ms.custom:
 - dyn365-projectservice

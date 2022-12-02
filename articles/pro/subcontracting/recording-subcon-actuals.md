@@ -1,6 +1,6 @@
 ---
 title: Laika, izmaksu un materiālu izlietojuma reģistrēšana apakšlīguma komponentiem
-description: Šajā rakstā ir paskaidrots, kā Microsoft izseko laiku, izdevumus un materiālu lietojumu, kas reģistrēts projektos no apakšuzņēmuma līgumiem paredzētiem komponentiem Dynamics 365 Project Operations.
+description: Šajā rakstā izskaidrots, kā korporācija Microsoft izseko projektiem ierakstīto laiku, izdevumus un materiālu izlietojumu no apakšvadītajiem komponentiem Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -13,26 +13,26 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 09/15/2022
 ms.locfileid: "9522523"
 ---
-# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Laika, izdevumu un materiālu izmantošanas reģistrēšana projektos ar apakšuzņēmuma līgumiem
+# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Laika, izmaksu un materiālu izlietojuma reģistrēšana projektiem ar apakšlīguma komponentiem
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Šajā rakstā ir paskaidrots, kā Microsoft izseko laiku, izdevumus un materiālu lietojumu, kas reģistrēts projektos no apakšuzņēmuma līgumiem paredzētiem komponentiem Dynamics 365 Project Operations.
+Šajā rakstā izskaidrots, kā korporācija Microsoft izseko projektiem ierakstīto laiku, izdevumus un materiālu izlietojumu no apakšvadītajiem komponentiem Microsoft Dynamics 365 Project Operations.
 
-## <a name="costing-for-subcontractor-time-on-projects"></a>Apakšuzņēmēja laika izmaksas projektos
-Programmā Project Operations līgumdarbinieki var ierakstīt laiku projektos līdzīgi kā darbinieki. Ievadot laiku projektiem un/vai projekta uzdevumiem, līgumdarbinieks var izvēlēties konkrētu apakšuzņēmuma līgumu un apakšuzņēmuma līgumu rindu.
+## <a name="costing-for-subcontractor-time-on-projects"></a>Izmaksas par apakšuzņēmēja laiku, kas veltīts projektiem
+Project Operations ietvaros līguma darbinieki projektos var ierakstīt laiku līdzīgi kā pastāvīgie darbinieki. Ievadot laiku par projektiem un/vai projektu uzdevumiem, līgumdarbinieks var atlasīt īpašu apakšlīgumu un apakšlīguma rindu.
 
-Kad līgumdarbinieku iesniegtais laiks ir apstiprināts, projekta izmaksas tiek reģistrētas, izmantojot vienības izmaksu likmi, kas šim līgumdarbinieka resursam **ir iestatīta apakšuzņēmuma līguma iepirkuma cenrāža pirkuma cenrāža sadaļā Lomu cenas**.
+Kad līgumdarbinieku iesniegtais laiks ir apstiprināts, projekta izmaksas tiek reģistrētas, izmantojot vienības izmaksu likmi, kas tiek iestatīt līgumdarbinieka resursam apakšlīguma pirkuma cenrāža sadaļā **Lomu cenas**.
 
-## <a name="costing-for-subcontracted-expenses-on-projects"></a>Izmaksas par apakšuzņēmuma līgumiem par izdevumiem par projektiem
-Ievadot izdevumus, kas radušies saistībā ar projektiem, izdevumu ierakstā varat izvēlēties apakšlīgumu un apakšlīguma rindu. 
+## <a name="costing-for-subcontracted-expenses-on-projects"></a>Apakšuzņēmēju izdevumu par projektiem aprēķini
+Ja tiek ievadītas projektu ietvaros radušās izmaksas, varat izdevumu ierakstā atlasīt apakšlīgumu un apakšlīguma rindu. 
 
-Kad šis izdevumu ieraksts ir iesniegts un apstiprināts, izdevumu izmaksas tiek reģistrētas projektā, pamatojoties uz vienības izmaksām, kas ir iestatītas šai transakciju kategorijai **apakšuzņēmuma pirkuma cenrāža sadaļā Kategorijas cenas**.
+Kad ir iesniegts un apstiprināts izdevumu ieraksts, izdevumu izmaksas tiek reģistrētas projektā, pamatojoties vienības izmaksās, kas iestatītas attiecīgajai transakcijas kategorijai apakšlīguma pirkuma cenrāža sadaļā **Kategoriju cenas**.
 
-## <a name="costing-for-subcontracted-materials-on-projects"></a>Izmaksas par materiāliem, par kuriem noslēgti apakšlīgumi par projektiem
-Ievadot materiālu izmantošanu projektos, materiālu izmantošanas žurnālā varat atlasīt apakšlīgumu un apakšuzņēmuma līgumu līniju. Kad materiālu izmantošanas žurnāls ir iesniegts un apstiprināts, materiālu izmaksas tiek reģistrētas projektā, pamatojoties uz vienības izmaksām, kas šim produktam **ir** iestatītas apakšuzņēmuma cenrāža cenu saraksta sadaļā.
+## <a name="costing-for-subcontracted-materials-on-projects"></a>Apakšuzņēmēju projektos izmantot materiālu aprēķini
+Ja tiek ievadītas projektu ietvaros radies materiālu lietojums, varat materiālu lietojuma žurnālā atlasīt apakšlīgumu un apakšlīguma rindu. Kad ir iesniegts un apstiprināts materiālu lietojuma žurnāls, materiālu izmaksas tiek reģistrētas projektā, pamatojoties vienības izmaksās, kas tiek attiecīgajam produktam iestatītas apakšlīguma cenrāža sadaļā **Cenrāža vienības**.
 
-Materiālu izmantošanu var reģistrēt arī projektu rakstīšanai. Šāda veida materiālu izmantošanu var saistīt arī ar apakšuzņēmuma līgumu un apakšlīgumu līniju. Reģistrējot materiālu lietojumu rakstīšanas produktiem, jums jāievada ierakstāmā produkta vienas vienības izmaksas. 
+Materiālu lietojumu tāpat var reģistrēt ierakstītiem projekta produktiem. Šā tipa materiālu lietojumu var arī saistīt ar apakšlīgumu un apakšlīguma rindu. Reģistrējot materiālu lietojumu ierakstītiem produktiem, ir jāievada ierakstītā produkta vienības izmaksas. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

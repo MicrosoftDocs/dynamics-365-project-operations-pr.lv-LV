@@ -1,6 +1,6 @@
 ---
 title: Plānojiet savu darbu programmā Microsoft Project ar Project Service pievienojumprogrammu
-description: Šajā rakstā ir sniegta informācija par to, kā izmantot Microsoft Project pievienojumprogrammu Microsoft Project pakalpojumam.
+description: Šajā rakstā ir sniegta informācija par to, kā lietot Microsoft Project pievienojumprogrammu programmai Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

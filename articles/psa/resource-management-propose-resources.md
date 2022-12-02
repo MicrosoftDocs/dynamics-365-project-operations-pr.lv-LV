@@ -1,6 +1,6 @@
 ---
 title: Projekta resursu piedāvāšana
-description: Šajā rakstā sniegta informācija par projekta resursu ierosināšanu.
+description: Šajā rakstā ir sniegta informācija par projekta resursu piedāvāšanu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Jaunumi — 2021. gada 2. viļņa agrīnā piekļuve — Project Operations Lite izvietošana
-description: Šajā rakstā ir sniegta informācija par funkcijām, kas pieejamas Project Operations lite izvietošanas 2021. gada 2. viļņa agrīnās piekļuves laidienā.
+description: Šajā rakstā ir sniegta informācija par līdzekļiem, kas pieejami Project Operations Lite izvietošanas 2021. gada 2 viļņa agrīnās piekļuves laidienā.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article

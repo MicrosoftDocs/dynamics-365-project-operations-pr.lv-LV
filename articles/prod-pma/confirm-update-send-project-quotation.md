@@ -1,6 +1,6 @@
 ---
 title: Projekta piedāvājuma apstiprināšana, atjaunināšana un nosūtīšana
-description: Šajā rakstā sniegta informācija par piedāvājuma nosūtīšanu klientam apstiprināšanai, modificēšanu, pamatojoties uz atsauksmēm, un pēc tam piedāvājuma atkārtotu nosūtīšanu.
+description: Šajā rakstā ir sniegta informācija par piedāvājuma nosūtīšanu klientam apstiprināšanai, modificēšanu, pamatojoties uz atsauksmēm, un atkārtotu piedāvājuma nosūtīšanu.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

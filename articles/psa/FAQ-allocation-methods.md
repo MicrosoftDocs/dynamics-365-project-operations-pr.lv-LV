@@ -1,6 +1,6 @@
 ---
 title: Atļauto metožu rezervēšana pakalpojumā Project Service Automation
-description: Šajā rakstā ir sniegta informācija par dažādiem piešķiršanas rezervēšanas veidiem.
+description: Šajā rakstā ir sniegta informācija par dažādiem veidiem, kā var rezervēt piešķīrumus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929177"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ja pievienojat darba grupas dalībnieku tieši projektam cilnē **Darba grupa** vai rezervējat resursu projektam vai prasībai plānošanas panelī, varat izmantot dažas atšķirīgas rezervāciju piešķiršanas metodes. Šajā rakstā ir paskaidrots, kā katra metode darbojas un kādas metodes var novest pie resursu pārrezervēšanas.
+Ja pievienojat darba grupas dalībnieku tieši projektam cilnē **Darba grupa** vai rezervējat resursu projektam vai prasībai plānošanas panelī, varat izmantot dažas atšķirīgas rezervāciju piešķiršanas metodes. Šajā rakstā ir paskaidrots, kā darbojas katra no metodēm un kuru metožu izmantošana var izraisīt resursu rezervācijas pārsniegšanu.
 
 ## <a name="full-capacity"></a>Pilna noslodze 
 Pilnas noslodzes metode: izmantojot šo metodi, tiek rezervēta resursa pilna noslodze norādītajā laika posmā un veidā. Piemēram, ja resursa kalendārs ir iestatīts kā astoņas darba stundas dienā, piecas dienas nedēļā, iestatot sākuma un beigu datumu, kas attiecas uz piecām darba dienām, resurss tiek rezervēts uz 40 stundām. Rezervācija notiek, neņemot vērā resursa atlikušo noslodzi. Ja resurss šajā periodā jau ir rezervēts citiem projektiem, 40 stundas tiek rezervētas kā papildu stundas, potenciāli pārsniedzot rezervācijas.

@@ -1,6 +1,6 @@
 ---
 title: Projekta izveide un atjaunināšana
-description: Šajā rakstā sniegta informācija par projektu atjaunināšanu Projekta operācijas.
+description: Šajā rakstā ir sniegta informācija par projektu atjaunināšanu programmā Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Rēķinu izveide pakalpojumā Project Service Automation
-description: Šajā rakstā sniegta informācija par rēķinu izrakstīšanu.
+description: Šajā rakstā ir sniegta informācija par rēķinu izveidi.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Kad **ProcessRunner** ir beidzis darboties, tas izsauc **ProcessRunCaller**, nod
 Lielapjoma izpildes darbs rēķinu izveidošanai ir kārtējais darbs. Ja šis pakešapstrādes process ir palaists vairākas reizes, tiek izveidoti vairāki darba gadījumi un var tikt izraisītas kļūdas. Tāpēc pakešapstrāde jāsāk tikai vienu reizi, un tā ir jārestartē tikai tad, ja tā pārstāj darboties.
 
 > [!NOTE]
-> Pakešuzdevumu rēķinu izrakstīšana pakalpojumā Project Service Automation darbojas tikai attiecībā uz projekta līguma rindām, kas ir konfigurētas, izmantojot rēķinu grafikus. Līguma rindai ar fiksētu cenas aprēķina metodi jābūt konfigurētiem atskaites punktiem. Projekta līguma rindai ar laika un materiālu aprēķinu metodi ir jābūt iestatītam datuma bāzes rēķina grafikam. Informācija par rēķinu izrakstīšanas frekvenču iestatīšanu projekta kontekstā, kura pamatā ir piedāvājuma rinda, ir sniegta rakstā [Piedāvājumi un piedāvājuma rindas](basic-quote-lines.md#invoice-schedule). Tas pats attiecas uz līguma rindu, kuras pamatā ir projekts.      
+> Pakešuzdevumu rēķinu izrakstīšana pakalpojumā Project Service Automation darbojas tikai attiecībā uz projekta līguma rindām, kas ir konfigurētas, izmantojot rēķinu grafikus. Līguma rindai ar fiksētu cenas aprēķina metodi jābūt konfigurētiem atskaites punktiem. Projekta līguma rindai ar laika un materiālu aprēķinu metodi ir jābūt iestatītam datuma bāzes rēķina grafikam. Informācija par to, kā iestatīt rēķinu izrakstīšanas biežumu saistībā ar projektu, kura pamatā ir piedāvājuma rinda, ir sniegta rakstā [Piedāvājumi un piedāvājumu rindas](basic-quote-lines.md#invoice-schedule). Tas pats attiecas uz līguma rindu, kuras pamatā ir projekts.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA melnrakstu rēķinu rediģēšana
 

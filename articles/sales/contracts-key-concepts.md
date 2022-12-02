@@ -1,6 +1,6 @@
 ---
 title: Projektu līgumi — pamata koncepti
-description: Šajā rakstā sniegta informācija par projektu līgumu galvenajām koncepcijām projektu darbībās.
+description: Šajā rakstā sniegta informācija par projekta līgumu pamata konceptiem risinājumā Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursie
 
 
 
-Šajā rakstā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus Dynamics 365 Project Operations programmā :
+Šajā rakstā ir sniegti galvenie jēdzieni, kas jāzina, pirms sākat izmantot projektu līgumus programmā Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Atbildīgais uzņēmums
 
-Īpašnieks uzņēmums ir juridiska persona no **projektu vadības un uzskaites** moduļa projektu operācijām no Dynamics 365 Finance. Atbildīgais uzņēmums pārstāv juridisko personu, kas būs atbildīga par izmaksām un ieņēmumiem, kas uzkrājas no darījuma.
+Atbildīgais uzņēmums ir juridiskās persona Dynamics 365 Finance Project Operations modulī **Projekta pārvaldība un uzskaite**. Atbildīgais uzņēmums pārstāv juridisko personu, kas būs atbildīga par izmaksām un ieņēmumiem, kas uzkrājas no darījuma.
 
 ## <a name="contracting-unit"></a>Līgumslēdzēja vienība
 

@@ -1,6 +1,6 @@
 ---
 title: Projektu veidnes
-description: Šajā rakstā sniegta informācija par to, kā izmantot projektu veidnes ātrai projektu iestatīšanai.
+description: Šajā rakstā ir sniegta informācija par to, kā ātrai projekta iestatīšanai var izmantot projektu veidnes.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

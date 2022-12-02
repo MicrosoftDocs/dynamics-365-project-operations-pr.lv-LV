@@ -35,21 +35,21 @@ Projekta veidnes ietaupa jūsu laiku, ja jūsu uzņēmums regulāri iesniedz pie
 ## <a name="components-of-project-template"></a>Projekta veidnes komponenti
  Projekta veidne sastāv no trim komponentiem.  
   
-- **Darba sadalījuma struktūra**: darba sadalījuma struktūrai projekta veidnē ir tāds pats elementu kopums kā projektā. Varat izveidot uzdevumu hierarhiju, saistīt lomas ar uzdevumu, definēt grafika atribūtus, iestatīt atkarības un skatīt visus ganta datus. Darba sadalījuma struktūra projektu veidnēs atbalsta arī uzdevumu režīmus katram uzdevumam. Veidojot darba grafiku, nav atšķirības starp projekta veidni un projektu.  
+- **Darba sadalījuma struktūra**: darba sadalījuma struktūrai projekta veidnē ir tāds pats elementu kopums kā projektā. Varat izveidot uzdevumu hierarhiju, piesaistīt lomas uzdevumam, noteikt plānošanas atribūtus, iestatīt atkarības un skatīt visus datus Ganta shēmā. Darba sadalījuma struktūra projekta veidnēs atbalsta arī uzdevumu režīmus katram uzdevumam. Nav nekādas atšķirības starp projekta veidni un projektu, veidojot darba grafiku.  
   
 - **Projekta tāmes**: projekta tāmes veidnēs darbojas tāpat kā projektos, izņemot to, ka cenrāži noklusējuma izmaksu cenām un pārdošanas cenām vienmēr ir noklusējuma izmaksu cenu un pārdošanas cenu rāži, kas definēti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parametros. Pārējās funkcionalitātes ir tādas pašas kā projektā.  
   
 - **Projekta darba grupas izveide**: kad veidojat projekta komandu projekta veidnei, nevarat rezervēt nosauktu resursu veidnē. Varat izmantot funkciju **Projekta darba grupas ģenerēšana** darba sadalījuma struktūrā, lai ģenerētu vispārējo resursu kopu. Varat norādīt arī vispārīgo resursu vajadzīgās prasmes un pieredzi. Projekta veidnēs nevarat aizstāt vispārīgu resursu ar rezervējamu resursu.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Projekta veidnes izveide no esoša projekta
-Projekta veidni no projekta var izveidot šādos veidos:
+## <a name="create-a-project-template-from-an-existing-project"></a>Jaunas projekta veidnes izveidošana no esoša projekta
+Projekta veidni no projekta var izveidot tālāk norādītajos veidos.
 
-- **Darba sadalījuma struktūra**: darba sadalījuma struktūra veidnē, kas atvasināta no projekta, kopēs visi uzdevumi un atkarības. Izveidotie uzdevumi būs balstīti uz vispārējiem grupas dalībniekiem, kas tiek pievienoti projekta grupai, kad tiek izveidota projekta veidne.
-- **Projekta aplēses**: kad projekta veidne ir izveidota no esoša projekta, aplēses no avota projekta tiek kopētas projekta veidnē.
-- **Projekta grupas dalībnieki**: ja veidne ir izveidota no esoša projekta, visi nosauktie grupas dalībnieki tiek aizstāti ar organizācijas vispārējo resursu. Tiek saglabāti visi amatu nosaukumi un lomas.
+- **Darba sadalījuma struktūra**: darba sadalījuma struktūra veidnē, kas atvasināta no projekta, kopē visus uzdevumus un atkarības. Izveidoto piešķīrumu pamatā ir vispārīgie darba grupas dalībnieki, kas ir pievienoti projekta darba grupai projekta veidnes izveides laikā.
+- **Projekta aprēķini**: kad projekta veidne tiek izveidota no esoša projekta, avota projekta aprēķini tiek kopēti uz projekta veidni.
+- **Projekta darba grupas dalībnieki**: kad veidne tiek izveidota no esoša projekta, visi nosauktie darba grupas dalībnieki tiek aizstāti ar organizācijas vispārējo resursu. Tiek saglabāti visi pozīciju nosaukumi un lomas.
 
 ## <a name="create-a-project-from-a-template"></a>Projekta izveidošana no veidnes  
- Projektu no veidnes var izveidot šādos veidos:  
+ Projektu no veidnes var izveidot tālāk norādītajos veidos.  
   
 -   Veidojot projektu no piedāvājuma, varat izvēlēties projekta veidni projekta ātrās izveides veidlapā.  
   

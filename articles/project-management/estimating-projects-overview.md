@@ -1,6 +1,6 @@
 ---
 title: Finanšu aprēķinu koncepcijas
-description: Šajā rakstā sniegta informācija par projektu finanšu aplēsēm projektu darbībās.
+description: Šajā rakstā ir sniegta informācija par finanšu aprēķiniem projektiem programmā Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

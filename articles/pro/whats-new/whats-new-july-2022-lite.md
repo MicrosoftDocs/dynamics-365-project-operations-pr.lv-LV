@@ -1,6 +1,6 @@
 ---
 title: 2022. gada jūlija jaunumi — Project Operations Lite izvietošana
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Microsoft Dynamics 365 Project Operations lite izvietošanas 2022. gada jūlija laidienā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Microsoft Dynamics 365 Project Operations lite izvietošanas 2022. gada jūlija laidienā.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
@@ -26,17 +26,17 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
-| Izvietošana un konfigurācija | 2761472 | Tiek apstrādāta Project Operations instalēšanas kļūda. |
-| Cenu noteikšana un norēķini | 2746940 | Apakšuzņēmuma līguma rindiņas nosaukumam jābūt ne vairāk kā 100 rakstzīmju garumam. |
-| Cenu noteikšana un norēķini | 2739162 | Klientiem ir jābūt iespējai redzēt lentes pogas faktiskā režģa skatā. |
-| Projektu plānošana un izsekošana | 2730318 | Atjaunināta validācija neatbalstītām rakstzīmēm projekta tēmā. |
-| Cenu noteikšana un norēķini | 2705361 | Atskaites punkta rēķinā norādītie pārdošanas dati ir jāiekļauj projektu izsekošanas laukos. |
-| Cenu noteikšana un norēķini | 2675880 | Neļaujiet projektam būt saistītam ar līguma līniju, kas nav balstīta uz darbu. |
-| Cenu noteikšana un norēķini | 2664396 | Ja piedāvājuma cenrādis tiek saglabāts bez piedāvājuma, ir jābūt kļūdai, kas norāda, ka piedāvājums nevar būt tukšs. |
-| Cenu noteikšana un norēķini | 2184019 | Cilne Uz **uzdevumu balstīti norēķini** nav jārāda projektiem, kuriem nav atbalsta līguma vai piedāvājuma. |
-| Laiks un izdevumi | 2754459 | Ja periodiska plānošanas mākoņa plūsma ir neaktīva, parādiet reklāmkarogu un apejiet asinhrono apstrādi. |
-| Cenu noteikšana un norēķini | 2724391 | Nepareizs izņēmums tiek izmests, ja projekta līguma sadalītā norēķinu kārtulā trūkst klienta vērtības. |
-| Cenu noteikšana un norēķini | 2708638 | Ieraksts netika atrasts, meklējot, izmantojot režģa meklēšanu materiāla lietojumos un materiālu lietojumu apstiprinājumos.|
-| Cenu noteikšana un norēķini | 2686977 | Novērsiet rēķina rindas validāciju rēķina izveides laikā. |
-| Cenu noteikšana un norēķini | 2683032 | Iekasējamo lomu un kategoriju kopēšana nepārsniedz 5000 ierakstus.|
-| Cenu noteikšana un norēķini | 2673363 | Izmaksu patēriņš % projektā tiek bojāts, ja projektam pastāv gan piepūles, gan izdevumu aprēķini un faktiskie dati. |
+| Izvietošana un konfigurācija | 2761472 | Novērsta Project Operations instalēšanas kļūda. |
+| Cenu noteikšana un norēķini | 2746940 | Apakšlīguma rindas nosaukuma maksimālais garums nedrīkst pārsniegt 100 rakstzīmes. |
+| Cenu noteikšana un norēķini | 2739162 | Klientiem jāvar redzēt lentes pogas faktisko datu režģa skatā. |
+| Projektu plānošana un izsekošana | 2730318 | Atjaunināta neatbalstīto rakstzīmju pārbaude projekta tēmā. |
+| Cenu noteikšana un norēķini | 2705361 | Projekta izsekošanas laukos ir jāiekļauj rēķinā iekļautās atskaites punktu faktiskās pārdošanas. |
+| Cenu noteikšana un norēķini | 2675880 | Netiek pieļauta projekta saistīšana ar līguma rindu, kas nav balstīta uz darbu. |
+| Cenu noteikšana un norēķini | 2664396 | Ja piedāvājuma cenrādis tiek saglabāts bez piedāvājuma, ir jābūt kļūdai, kurā norādīts, ka piedāvājums nevar būt tukšs. |
+| Cenu noteikšana un norēķini | 2184019 | Cilnei **Norēķini, kuru pamatā ir uzdevums** nav jābūt redzamai projektos, kam nav dublēta līguma vai piedāvājuma. |
+| Laiks un izdevumi | 2754459 | Ja periodiskas plānošanas mākoņa plūsma ir neaktīva, jārāda reklāmkarogs un jāapiet asinhronā apstrāde. |
+| Cenu noteikšana un norēķini | 2724391 | Ja projekta līguma sadalīšanas norēķinu kārtulā trūkst klienta vērtības, rodas nepareizs izņēmums. |
+| Cenu noteikšana un norēķini | 2708638 | Meklēšanas laikā, izmantojot režģa meklēšanu materiālu lietojumos un materiālu lietojumu apstiprinājumos, ieraksts netika atrasts.|
+| Cenu noteikšana un norēķini | 2686977 | Jānovērš rēķina rindas apstiprināšana rēķina izveides laikā. |
+| Cenu noteikšana un norēķini | 2683032 | Rēķinā iekļaujamo lomu un kategoriju kopēšanu nevar mērogot virs 5000 ierakstiem.|
+| Cenu noteikšana un norēķini | 2673363 | Izmaksu patēriņš % projektā ir kļūdains, ja projektam pastāv gan ieguldījuma un izdevumu aprēķini, gan faktiskie dati. |

@@ -1,6 +1,6 @@
 ---
 title: Izdevumu atskaites un vairāki apstiprinātāji
-description: Šajā rakstā ir sniegta informācija par izdevumu pārskatiem, kuriem nepieciešams vairāku personu apstiprinājums.
+description: Šajā rakstā sniegta informācija par izdevumu atskaitēm, kurām ir nepieciešams vairāk nekā vienas personas apstiprinājums.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

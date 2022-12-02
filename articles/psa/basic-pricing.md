@@ -1,6 +1,6 @@
 ---
 title: Projekta izcenojums
-description: Šajā rakstā sniegta informācija par to, kā darbojas cenu noteikšana programmā Dynamics 365 Project Service Automation.
+description: Šajā rakstā ir sniegta informācija par to, kā programmā Dynamics 365 Project Service Automation darbojas izcenojums.
 author: rumant
 ms.custom:
 - dyn365-projectservice

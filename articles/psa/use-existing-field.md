@@ -1,6 +1,6 @@
 ---
 title: Izmantojiet esošu programmas Project Service lauku kā cenu noteikšanas dimensiju
-description: Šajā rakstā sniegta informācija par esošo project service lauku izmantošanu kā cenu dimensijām.
+description: Šajā rakstā ir sniegta informācija par esošu Project Service lauku izmantošanu kā cenu noteikšanas dimensijas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Projekta līguma apstiprināšana
-description: Šajā rakstā ir sniegta informācija par to, kā apstiprināt līgumu projekta darbībās.
+description: Šajā rakstā ir sniegta informācija par līguma apstiprināšanu risinājumā Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

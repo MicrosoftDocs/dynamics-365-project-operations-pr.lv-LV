@@ -1,6 +1,6 @@
 ---
 title: 2022. gada augusta jaunumi — Project Operations Lite izvietošana
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Microsoft Dynamics 365 Project Operations lite izvietošanas 2022. gada augusta laidienā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Microsoft Dynamics 365 Project Operations lite izvietošanas 2022. gada augusta laidienā.
 author: ramagadu
 ms.date: 08/19/2022
 ms.topic: article
@@ -27,7 +27,7 @@ _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstī�
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |
 |   Iespēju pārvaldība | 2762089 | Kļūdu apstrāde, aizverot līgumu kā zaudētu, ja organizācijā ir atspējota automātiskā saglabāšana.|
-|Projektu plānošana un izsekošana | 2767841 | Telemetrijas atjauninājumi Projekta entītija Izveidojiet vai atjauniniet scenārijus.|
-|Cenu noteikšana un norēķini | 2771072 | Nulles atsauces izņēmuma apstrāde, uzvarot citātu.|
-|Cenu noteikšana un norēķini | 2844181 |Nespēja iegūt korelācijas ID un bloķēt rēķina izveidi.|
-|Cenu noteikšana un norēķini | 2852836 | Starpuzņēmumu faktiskie dati trūkst starpuzņēmumu izdevumiem, kas izveidoti un apstiprināti CE.|
+|Projektu plānošana un izsekošana | 2767841 | Telemetrija atjaunina projekta entītijas izveides vai atjaunināšanas scenārijus.|
+|Cenu noteikšana un norēķini | 2771072 | Nulles atsauces izņēmuma apstrāde, iegūstot piedāvājumu.|
+|Cenu noteikšana un norēķini | 2844181 |Kļūme, iegūstot korelācijas ID un bloķējot rēķina izveidi.|
+|Cenu noteikšana un norēķini | 2852836 | Trūkst starpuzņēmumu faktisko datu starpuzņēmumu izdevumos, kas izveidoti un apstiprināti CE.|

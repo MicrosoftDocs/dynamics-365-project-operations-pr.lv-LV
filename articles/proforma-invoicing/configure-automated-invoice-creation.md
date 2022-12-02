@@ -1,6 +1,6 @@
 ---
 title: Automātiskas rēķina izveides konfigurēšana
-description: Šajā rakstā sniegta informācija par to, kā konfigurēt sistēmu automātiskai rēķinu ģenerēšanai.
+description: Šajā rakstā sniegta informācija par to, kā konfigurēt sistēmu, lai automātiski izveidotu rēķinus.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

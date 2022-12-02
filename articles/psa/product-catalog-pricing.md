@@ -1,6 +1,6 @@
 ---
 title: Produktu kataloga cenu noteikšana
-description: Šajā rakstā ir sniegta informācija par to, kā darbojas preču katalogu Dynamics 365 Project Service Automation izcenojumi (PSA).
+description: Šajā rakstā ir sniegta informācija par to, kā programmatūrā Dynamics 365 Project Service Automation (PSA) darbojas produktu kataloga cenu noteikšana.
 author: rumant
 ms.custom:
 - dyn365-projectservice

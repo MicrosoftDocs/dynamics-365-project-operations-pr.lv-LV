@@ -1,6 +1,6 @@
 ---
 title: Projekta laika ieraksta mobilā darbvieta
-description: Šajā rakstā ir sniegta informācija par mobilo darbvietu Project time entry. Šī darbvieta lietotājiem ļauj ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot savu mobilo ierīci.
+description: Šajā rakstā ir sniegta informācija par to, kā izmantot projekta laika ieraksta mobilā darbvietu. Šī darbvieta lietotājiem ļauj ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot savu mobilo ierīci.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029677"
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par mobilo darbvietu **Project time entry**. Šī darbvieta lietotājiem ļauj ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot savu mobilo ierīci.
+Šajā rakstā ir sniegta informācija par to, kā izmantot mobilo darbvietu **Projekta laika ieraksts**. Šī darbvieta lietotājiem ļauj ievadīt un saglabāt laiku attiecībā pret projektu, izmantojot savu mobilo ierīci.
 
 Šo mobilo darbvietu ir paredzēts izmantot kopā ar Dynamics 365 Unified OPS mobilo programmu. 
 
@@ -82,7 +82,7 @@ Ja jūsu organizācijai ir izvietota versija 1611 ar platformas atjauninājumu�
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādējiet un instalējiet finanšu un operāciju mobilo lietotni:
+Lejupielādēt un instalēt finanšu un operāciju mobilo programmu:
 
 -   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

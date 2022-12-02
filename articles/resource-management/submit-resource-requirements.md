@@ -1,6 +1,6 @@
 ---
 title: Submit a resource request
-description: Ģenerētu resursa prasību varat iesniegt kā resursa pieprasījumu. Pēc tam pieprasījums tiek nosūtīts resursu pārvaldniekam izpildei.
+description: Ģenerētu resursa prasību varat iesniegt kā resursa pieprasījumu. Pēc tam šis pieprasījums tiek nosūtīts izpildei resursu pārvaldniekam.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9137190"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Ģenerētu resursa prasību varat iesniegt kā resursa pieprasījumu. Pēc tam pieprasījums tiek nosūtīts resursu pārvaldniekam izpildei.
+Ģenerētu resursa prasību varat iesniegt kā resursa pieprasījumu. Pēc tam šis pieprasījums tiek nosūtīts izpildei resursu pārvaldniekam.
 
 1. Programmas Dynamics 365 Project Operations lapā **Projekti** noklikšķiniet uz cilnes **Grupa**, lai skatītu rezervējamo resursu sarakstu. 
 2. Atlasiet vispārējo resursu, kam sarakstā ir resursa prasība, un pēc tam noklikšķiniet uz **Iesniegt pieprasījumu**.
 
 Vispārēja grupas dalībnieka pieprasījuma statuss mainīsies uz **Iesniegts**.
 
-Resursa pieprasījuma saņēmējam ir iespēja vai nu daļēji aizpildīt pieprasījumu, izmantojot vienu vai vairākus resursus, vai arī pilnībā izpildīt resursa pieprasījumu.
+Resursa pieprasījuma saņēmējs var daļēji izpildīt pieprasījumu, izmantojot vienu vai vairākus resursus, vai pilnībā izpildīt resursu pieprasījumu.
 
-Pēc pieprasījuma izpildes viens vai vairāki nosauktie resursi tiek pievienoti projektam kā projekta grupas dalībnieki. Ja resursa prasību izpilda viens resurss, ar resursu pieprasījumu saistītais vispārīgais grupas dalībnieks tiek dzēsts. 
+Pēc tam, kad pieprasījums ir izpildīts, projektam tiek pievienots viens vai vairāki nosauktie resursi kā projekta darba grupas dalībnieki. Ja resursa prasību izpilda viens resurss, tiek dzēsts vispārējais darba grupas dalībnieks, kas saistīts ar resursa pieprasījumu. 
 
-Pēc tam, kad resursu pieprasījuma saņēmējs ir ierosinājis resursus un ir gatavs, ka projektu vadītājs pārskatīs piedāvātos resursus, viņam ir jāatjaunina resursa pieprasījuma statuss uz **Vajadzību pārskatīšana**.
+Kad resursa pieprasījuma saņēmējs ir piedāvājis resursus un ir gatavs, ka projekta vadītājs pārskatīs piedāvātos resursus, resursa pieprasījuma statuss ir jāatjaunina uz **Nepieciešama pārskatīšana**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt vairākus klientus projekta piedāvājumu rindās — Lite
-description: Šajā rakstā ir aprakstīts, kā pārvaldīt vairākus debitorus uz projektiem balstītās piedāvājuma rindās.
+description: Šajā rakstā aprakstīts, kā pārvaldīt vairākus klientus projekta piedāvājuma rindās.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

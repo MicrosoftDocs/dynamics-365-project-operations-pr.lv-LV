@@ -1,6 +1,6 @@
 ---
-title: Pilnībā rēķinā norādīto norēķinu atskaites punktu migrēšana pārslēgšanas laikā
-description: Šajā rakstā ir paskaidrots, kā migrēt fiksētas cenas norēķinu atskaites punktus, par kuriem debitoram ir izrakstīti rēķini par atvērtiem projektu līgumiem pirms tiešraides datuma.
+title: Pilnībā izrakstītu rēķinu atskaites punktu migrēšana apgriešanas laikā
+description: Šajā rakstā izskaidrots, kā migrēt fiksētas cenas norēķinu atskaites punktus, par kuriem klientam izrakstīts rēķins, lai pirms tiešā datuma atvērtu projekta līgumus.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
@@ -13,90 +13,90 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028711"
 ---
-# <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Pilnībā rēķinā norādīto norēķinu atskaites punktu migrēšana pārslēgšanas laikā
+# <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Pilnībā izrakstītu rēķinu atskaites punktu migrēšana apgriešanas laikā
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 ## <a name="scenario"></a>Situācija
 
-Contoso sāk darboties ar Microsoft Dynamics 365 Project Operations, lai iegūtu resursresursus/ scenārijus, kas nav krājumi. Kā daļa no pārslēgšanas pasākumiem īstenošanas komandai ir jāmigrē atvērtie projektu līgumi no vecās sistēmas. Dažos projekta līgumos ir iekļautas līgumu rindas, kurās tiek izmantota fiksētas cenas norēķinu metode un par kurām jau ir izrakstīts daļējs rēķins gala klientam. Ieviešanas darba grupai šie norēķinu atskaites punkti ir jāmigrē kā **klienta rēķins, kas tiek grāmatoti**, jo ieņēmumu atzīšanas nolūkos tie ir jāiekļauj kopējā līguma vērtībā. Tomēr nedrīkst ietekmēt debitoru parādu un virsgrāmatas debitoru parādu atlikumus.
+Contoso gatavojas izmantot Microsoft Dynamics 365 Project Operations resursu / ne krājumu scenārijiem. Kā daļu no izgriešanas darbībām, ieviešanas darba grupai jāmigrē atvērti projektu līgumi no vecās sistēmas. Dažos projektu līgumos ir ietvertas līgumu rindas, kas izmanto fiksēto cenu norēķinu metodi un par kurām gala klientam jau daļēji izrakstīts rēķins. Ieviešanas darba grupai jāmigrē šie norēķinu atskaites punkti kā **Grāmatots klienta rēķins**, jo tos jāiekļauj kopējā līguma vērtībā ieņēmumu atpazīšanas nolūkā. Taču nedrīkst ietekmēt klienta bilances attiecībā uz Debitoriem un Virsgrāmatu.
 
 ## <a name="solution"></a>Risinājums
 
 ### <a name="prerequisites"></a>Priekšnoteikumi
 
-- Dynamics 365 Finance 10.0.24 vai jaunākai versijai.
-- Videi, kurā tiks pabeigtas migrācijas darbības, ir jābūt uzturēšanas režīmā. Citas darbības nedrīkst veikt, kamēr tiek migrēti atskaites punkti.
-- Migrācijas soļi ir jāievēro tieši tā, kā aprakstīts šeit, un tos var izmantot tikai pārslēgšanas darbībai. Microsoft neatbalsta citu šīs iespējas izmantošanu.
+- Ir jābūt instalētai programmai Dynamics 365 Finance ar 10.0.24 vai jaunāku versiju.
+- Videi, kurā tiks izpildītas migrācijas darbības, ir jābūt uzturēšanas režīmā. Atskaites punktu migrēšanas laikā citas darbības nedrīkst veikt.
+- Migrēšanas darbības jāveic tieši tā, kā aprakstīts šeit, un tās var izmantot tikai izgriešanas darbībām. Microsoft neatbalsta citu šīs iespējas lietojumu.
 
-### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Projekta operāciju integrācijas līguma rindiņas atskaites punktu pārgriezuma versijas izveide ar dubultrakstīšanas karti 
+### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Izveidojiet Project Operations integrācijas līguma rindas atskaites punktu duālās rakstīšanas kartes pārslēgšanas versiju 
 
-1. Pārliecinieties, vai projekta operāciju integrācijas **līguma rindiņas entītijas mērķa kartējums ir atjaunināts**. 
+1. Pārliecinieties, ka **Project Operations integrācijas līguma rindas atskaites punktu** entitījas mērķa kartējums ir atjaunināts. 
 
-    1. Programmā Finance dodieties uz **Datu pārvaldības** \> **datu entītijas** un atlasiet entītiju **Project Operations integrācijas līguma rindiņas atskaites** punkti. 
-    2. Atlasiet **Modificēt mērķa kartējumus**. 
-    3. **Lapā Kartes izstādīšana, lai atlasītu** atlasiet **Ģenerēt kartēšanu** un pēc tam apstipriniet, ka vēlaties ģenerēt kartēšanu.
+    1. Programmā Finance dodieties uz **Datu pārvaldība**\>**Datu entitījas** un atlasiet entitīju **Project Operations integrācijas līguma rindu atskaites punkti**. 
+    2. Atlasiet **Pārveidot mērķa kartējumus**. 
+    3. Lapā **Kartēt izstādīšanu uz mērķi** atlasiet **Ģenerēt kartējumu**, pēc tam apstipriniet, ka vēlaties ģenerēt kartējumu.
 
-2. Apturiet un atsvaidziniet **Project Operations integrācijas līguma rindiņu atskaites punktus** (**msdyn\_ contractlinescheduleofvalues**) divu rakstīšanas karti. 
+2. Apturiet un atsvaidziniet duālās rakstīšanas karti **Project Operations integrācijas līguma rindu atskaites punkti**(**msdyn\_contractlinescheduleofvalues**). 
 
-    1. Dodieties uz **Datu pārvaldība** \> **Dubultā rakstīšana**, atlasiet karti un atveriet tās detaļas. 
+    1. Dodieties uz **Datu pārvaldība**\>**Duālā rakstīšana**, atlasiet karti un atveriet tās informāciju. 
     2. Atlasiet **Apturēt** un pagaidiet, līdz sistēma aptur karti. 
     3. Atlasiet **Atsvaidzināt tabulas**.
 
-3. Pievienojiet transakcijas statusa kartējumu.
+3. Pievienojiet kartējumu transakcijas statusam.
 
     1. Atlasiet **Pievienot kartējumu**.
-    2. Jaunās rindas **kolonnā Finance and operations programmas** atlasiet **lauku TRANSSTATUS \[TRANSSTATUS\]**.
-    3. **Microsoft Dataverse** Kolonnā atlasiet **msdyn\_ invoicestatus \[rēķina statusu\]**.
-    4. **Kolonnā Kartes tips** atlasiet labo bultiņu (**\>**).
-    5. Parādītajā dialoglodziņā laukā Sinhronizācijas virziens **atlasiet** **Dataverse finance and operations lietojumprogrammas**.
-    6. Atlasiet **Pievienot transformāciju**.
-    7. **Laukā Transformācijas tips** atlasiet **ValueMap**.
-    8. Atlasiet **Pievienotās vērtības kartēšana**.
-    9. Kreisajā laukā ievadiet **4**. Labajā laukā ievadiet **192350001**. 
-    10. Atlasiet **Saglabāt** un pēc tam aizveriet dialoglodziņu.
+    2. Jaunajā rindā kolonnā **Finanšu un operāciju programmas** atlasiet lauku **TRANSSTATUS \[TRANSSTATUS\]**.
+    3. **Microsoft Dataverse** kolonnā atlasiet msdyn **\_invoicestatus \[rēķina statuss\]**.
+    4. Kolonnā **Kartes tips** atlasiet labo bultiņu (**\>**).
+    5. Dialoglodziņā, kas tiek parādīts laukā **Sinhronizācijas virziens**, atlasiet **Dataverse līdz finanšu un operāciju programmas**.
+    6. Atlasiet **Pievienot pārveidi**.
+    7. Laukā **Pārveides tips** atlasies **ValueMap**.
+    8. Atlasiet **Pievienot vērtības kartējumu**.
+    9. Kreisajā laukā ievadiet **4**. Labās puses laukā ierakstiet **192350001**. 
+    10. Atlasiet **Saglabāt** un tad aizveriet dialoglodziņu.
 
-4. Atlasiet **Saglabāt kā**, lai saglabātu dubultās rakstīšanas kartes versiju. 
-5. Tabulas pievienošanas **rūts** **laukā Publisher** atlasiet **Noklusējuma izdevējs**.
+4. Atlasiet **Saglabāt kā**, lai saglabātu duālās rakstīšanas kartes versiju. 
+5. Rūtī **Pievienot tabulu** laukā **Izdevējs** atlasiet **Noklusējuma izdevējs**.
 6. Laukā **Versija** ievadiet versiju.
-7. **Laukā Apraksts** ievadiet piezīmi par šo kartes pārslēgšanas versiju. 
+7. Laukā **Apraksts** ievadiet piezīmi par šo kartes pārslēgšanas versiju. 
 8. Atlasiet **Saglabāt**.
-9. Sāciet karti.
+9. Sāciet kartēšanu.
 
-### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Rēķinā norādīto atskaites punktu migrēšana uz Dataverse vidi
+### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Atskaites punktu, par kuriem izrakstīts rēķins, migrācija uz Dataverse vidi
 
-1. Vidē Project Operations Dataverse izveidojiet atskaites punktus, kuru rēķina statuss **ir Gatavs rēķinu izrakstīšanai**. Šajā brīdī nemigrējiet atskaites punktus, par kuriem nav izrakstīts rēķins.
+1. Project Operations Dataverse vidē izveidojiet atskaites punktus ar rēķina statusu **Gatavs rēķina izrakstīšanai**. Šajā brīdī nemigrējiet citus atskaites punktus, par kuriem nav izrakstīts rēķins.
 
     > [!NOTE]
-    > Pirms norēķinu atskaites punktu migrēšanas pārliecinieties, vai finanšu dimensijas, kas ir saistītas ar projekta līguma rindiņu, ir iestatītas, kā paredzēts. Finanšu dimensijas nevar rediģēt pēc migrācijas pabeigšanas.
+    > Pirms norēķinu atskaites punktu migrēšanas pārliecinieties, vai ar projekta līguma rindu saistītās finanšu kategorijas ir iestatītas, kā paredzēts. Pēc migrēšanas pabeigšanas finanšu dimensijas nevar rediģēt.
 
-2. Pēc tam, kad visi atskaites punkti ir migrēti, pārtrauciet šādas divējāda rakstīšanas kartes:
+2. Pēc visu atskaites punktu migrēšanas, apturiet tālāk uzskaitītās duālās rakstīšanas kartes:
 
-    - Projekta operāciju integrācijas līguma rindiņu atskaites punkti (msdyn\_ kontraktalīnijasviduālās vērtības)
+    - Project Operations integrācija līguma rindas atskaites punktos (msdyn\_contractlinescheduleofvalues)
     - Project Operations integrācijas faktiskie dati (msdyn\_actuals)
     - Projekta rēķinu priekšlikums V2 (invoices)
 
-    Lai apturētu kartes, rīkojieties šādi:
+    Lai apturētu kartes, izpildiet tālāk uzskaitītās darbības:
 
-    1. Programmā Finance dodieties uz **Datu pārvaldība** \> **Divreiz rakstiet**, atlasiet karti un atveriet tās detaļas.
-    2. Atlasiet **Stop (Stop)** un pagaidiet, līdz sistēma aptur karti.
+    1. Programmā Finance uz **Datu pārvaldība**\>**Duālā rakstīšana**, atlasiet karti un atveriet tās informāciju.
+    2. Atlasiet **Apturēt** un pagaidiet, līdz sistēma aptur karti.
 
-3. Vidē Project Operations Dataverse izveidojiet un apstipriniet pro-forma rēķinus par norēķinu atskaites punktiem. 
+3. Project Operations Dataverse vidē izveidojiet un apstipriniet pro forma rēķinus par norēķinu atskaites punktiem. 
 
-    1. Vietnes kartē dodieties uz projektu līgumiem, atlasiet līgumus un pēc tam atlasiet **Izveidot rēķinus**.
-    2. Kad rēķini ir izveidoti, atveriet tos **vietnes kartes izvēlnē Rēķini** un pēc tam atlasiet **Apstiprināt**.
+    1. Vietnes kartē atveriet projekta līgumus, atlasiet līgumus un pēc tam atlasiet opciju **Izveidot rēķinus**.
+    2. Pēc rēķinu izveides atveriet tos no vietnes kartes izvēlnes **Rēķini**, pēc tam atlasiet **Apstiprināt**.
 
-    Veicot šo darbību, tiek izveidoti nepieciešamie ieraksti Dataverse vidē. Tomēr tas neietekmē finanšu un debitoru parādus, jo iepriekš uzskaitītās dubultās rakstīšanas kartes tika apturētas.
+    Ar šo darbību Dataverse vidē tiek izveidoti vajadzīgie ieraksti. Taču tas neietekmē finanses un debitorus, jo tika apturētas iepriekš uzskaitītās duālās rakstīšanas kartes.
 
-4. Pēc tam, kad visi pro-forma rēķini ir apstiprināti, atgrieziet visas dubultās rakstīšanas kartes sākotnējā stāvoklī.
+4. Pēc visu pro forma rēķinu apstiprināšanas, atgrieziet visas duālās rakstīšanas kartes to sākotnējā stāvoklī.
 
-    1. Atjauniniet Project Operations integrācijas līguma rindiņu **atskaites** punktu (**msdyn\_ contractlinescheduleofvalues**) versiju ar dubultrakstīšanas karti atpakaļ uz oriģinālu. 
-    2. Karšu sarakstā atlasiet divu rakstu karti, atlasiet **Tabulas kartes versija** un pēc tam atlasiet tabulas kartes sākotnējo versiju.
+    1. Atjauniniet duālās rakstīšanas kartes **Project Operations integrācijas līguma rindu atskaites punkti**(**msdyn\_contractlinescheduleofvalues**) versiju atpakaļ uz oriģinālu. 
+    2. Karšu sarakstā atlasiet duālās rakstīšanas karti, atlasiet **Tabulas kartes versija** un atlasiet tabulas kartes oriģinālo versiju.
     3. Atlasiet **Saglabāt**.
-    4. Restartējiet šādas divrakstu kartes:
+    4. Restartējiet tālāk norādītās duālās rakstīšanas kartes:
 
-        - Projekta operāciju integrācijas līguma rindiņu atskaites punkti (msdyn\_ kontraktalīnijasviduālās vērtības)
+        - Project Operations integrācija līguma rindas atskaites punktos (msdyn\_contractlinescheduleofvalues)
         - Project Operations integrācijas faktiskie dati (msdyn\_actuals)
         - Projekta rēķinu priekšlikums V2 (invoices)
 
-Atskaites punkti tagad ir migrēti, un sistēma ir gatava nākamajiem pārslēgšanas darbības soļiem.
+Atskaites punktu skaits tagad ir migrēts, un sistēma ir gatava pārejai uz nākamajām darbībām.

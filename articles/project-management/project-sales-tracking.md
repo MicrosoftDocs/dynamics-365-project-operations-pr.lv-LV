@@ -1,6 +1,6 @@
 ---
 title: Projekta pārdošanas datu uzskaite
-description: Šajā rakstā sniegta informācija par to, kā projekta operācijas izseko progresu attiecībā pret projekta darba ieņēmumiem.
+description: Šajā rakstā ir sniegta informācija par to, kā Project Operations tiek izsekota norise attiecībā pret darbaspēka ieņēmumiem projektā.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

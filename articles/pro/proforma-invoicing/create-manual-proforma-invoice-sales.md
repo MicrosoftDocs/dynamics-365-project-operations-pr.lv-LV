@@ -1,6 +1,6 @@
 ---
 title: Pro forma projekta rēķini
-description: Šajā rakstā sniegta informācija par proformas projekta rēķiniem projekta operācijās.
+description: Šajā rakstā ir sniegta informācija par proformas projekta rēķiniem programmā Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

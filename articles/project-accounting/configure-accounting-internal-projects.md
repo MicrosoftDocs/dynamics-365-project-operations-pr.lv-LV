@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt iekšējo projektu uzskaiti
-description: Šajā rakstā sniegta informācija par to, kā iestatīt grāmatvedības praksi iekšējiem projektiem projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt uzskaites metodes Project Operations iekšējiem projektiem.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

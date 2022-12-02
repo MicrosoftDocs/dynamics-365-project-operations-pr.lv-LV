@@ -1,6 +1,6 @@
 ---
 title: Projekta piedāvājumu analīze
-description: Šajā rakstā ir sniegta informācija par projektu piedāvājumu analīzi.
+description: Šajā rakstā ir sniegta informācija par projekta piedāvājumu analīzi.
 author: rumant
 ms.custom:
 - dyn365-projectservice

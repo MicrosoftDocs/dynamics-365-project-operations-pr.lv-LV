@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation pārskats
-description: Šajā rakstā ir sniegta informācija par integrācijas risinājumu Dynamics 365 Finance Dynamics 365 Project Service Automation.
+description: Šajā rakstā ir sniegta informācija par Dynamics 365 Project Service Automation integrēšanas pakalpojumā Dynamics 365 Finance risinājumu.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929591"
 [!include[banner](../includes/banner.md)]
 
 
-Project Service Automation to Finance integration risinājums izmanto datu integrācijas līdzekli, lai sinhronizētu datus starp Dynamics 365 Finance gadījumiem un Dynamics 365 Project Service Automation izmantojot Common Data Service. Integrēšanas veidnes, kas ir pieejamas ar datu integrācijas līdzekli, iespējo projektu plūsmu, projekta līgumus, projekta līguma rindas, projekta līgumu rindu atskaites punktus, projekta uzdevumus, izdevumu darbību kategorijas, stundu aprēķinus un izdevumu tāmes no Project Service Automation uz Finance.
+Project Service Automation uz Finance integrācijas risinājumam tiek izmantots datu integrācijas līdzeklis, lai sinhronizētu datus starp Dynamics 365 Finance un Dynamics 365 Project Service Automation, izmantojot Common Data Service. Integrēšanas veidnes, kas ir pieejamas ar datu integrācijas līdzekli, iespējo projektu plūsmu, projekta līgumus, projekta līguma rindas, projekta līgumu rindu atskaites punktus, projekta uzdevumus, izdevumu darbību kategorijas, stundu aprēķinus un izdevumu tāmes no Project Service Automation uz Finance.
 
 > [!NOTE]
 > - Ja izmantojat versiju 7.3.0, ir jāinstalē KB 4074835. Tad varēsit integrēt fiksētas cenas projektus.

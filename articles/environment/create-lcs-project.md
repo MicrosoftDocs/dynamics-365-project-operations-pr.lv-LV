@@ -1,6 +1,6 @@
 ---
 title: Jauna LCS projekta sākšana
-description: Šajā rakstā ir sniegta informācija par jauna projekta izveidi LCS jūsu Project Operations vidē.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot jaunu projektu LCS jūsu Project Operations vidē.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Izmantojiet Lifecycle Services (LCS), lai pārvaldītu savu Dynamics 365 Project
   ![LCS projekta tipa izvēle.](./media/create-lcs-1.png)
 
 5. Nodēvējiet projektu. 
-6. Kā produkta nosaukumu atlasiet **Finanses un operācijas** un atlasiet nozari un metodiku. 
+6. Atlasiet **Finance and operations** kā produkta nosaukumu un atlasiet nozari un metodoloģiju. 
 7. Atlasiet **Izveidot**.
 
 ![LCS projekta izveide.](./media/create-lcs-2.png)

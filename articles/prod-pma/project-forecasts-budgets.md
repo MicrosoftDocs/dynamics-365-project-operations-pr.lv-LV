@@ -1,6 +1,6 @@
 ---
 title: Projekta prognozes un budžeti
-description: Microsoft Dynamics 365 Finanses nodrošina projektu prognozes un projektu budžetus, lai pārvaldītu un kontrolētu jūsu projektus.
+description: Microsoft Dynamics 365 Finance nodrošina projekta prognozes un projekta budžetus projektu pārvaldībai un vadībai.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Resursu projektu sākumlapa
-description: Šajā rakstā sniegta informācija par resursu pārvaldības iespējām project service automation (PSA) for Dynamics 365.
+description: Šajā rakstā ir sniegta informācija par resursu pārvaldības iespējām risinājumā Project Service Automation (PSA) programmai Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja
 - Uzturēt prasmju un kvalifikāciju krātuvi.
 
 
-Varat atrast darbiniekus savam projektam, izmantojot vispārēju vai nosauktu resursu darba grupu programmā PSA. Varat izmantot dažādas metodes, lai pievienotu un piešķirtu darba grupas dalībniekus, kā arī pārvaldītu to rezervācijas un piešķires. Papildinformāciju skatiet šajos rakstos:
+Varat atrast darbiniekus savam projektam, izmantojot vispārēju vai nosauktu resursu darba grupu programmā PSA. Varat izmantot dažādas metodes, lai pievienotu un piešķirtu darba grupas dalībniekus, kā arī pārvaldītu to rezervācijas un piešķires. Papildinformāciju skatiet šādos rakstos:
 
 - [Nosaukto rezervējamo resursu rezervēšana projekta darba grupai un uzdevumu piešķiršana](assign-named-bookable-resource.md)
 - [Vispārējo rezervējamo resursu piešķiršana uzdevumam un resursu vajadzību ģenerēšana](assign-generic-bookable-resource.md)

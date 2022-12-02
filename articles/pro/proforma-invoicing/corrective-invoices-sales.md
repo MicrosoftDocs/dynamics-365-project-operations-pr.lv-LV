@@ -1,6 +1,6 @@
 ---
 title: Laboti projekta rēķini
-description: Šajā rakstā ir sniegta informācija par to, kā izveidot un apstiprināt koriģējošos rēķinus programmā Project Operations.
+description: Šajā rakstā ir sniegta informācija par labotu rēķinu izveidi un apstiprināšanu programmā Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

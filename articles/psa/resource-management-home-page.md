@@ -31,7 +31,7 @@ ms.locfileid: "8913261"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja rezervēt pareizos resursus īstajā laikā, kā arī uzturēt to izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. Šajos rakstos galvenā uzmanība ir pievērsta resursu pārvaldības iespējām Dynamics 365 Project Service Automation:
+Resursi ir visnozīmīgākais uz servisu balstītu organizāciju aktīvs. Spēja rezervēt pareizos resursus īstajā laikā, kā arī uzturēt to izmantojumu palīdz organizācijām sasniegt ieņēmumu un klientu apmierinātības mērķus. Tālāk uzskaitītie raksti attiecas uz resursu pārvaldības iespējām programmā Dynamics 365 Project Service Automation:
 
 - [Resursu pārvaldība](manage-resources.md)
 - [Galvenie jēdzieni](reports-key-concepts.md)

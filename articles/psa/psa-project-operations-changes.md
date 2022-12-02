@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu izmaiņas no Project Service Automation uz Project Operations
-description: Šajā rakstā ir sniegts pārskats par līdzekļu izmaiņām no Project Service Automation uz Dynamics 365 Project Operations.
+description: Šajā rakstā sniegts pārskats par Project Service Automation izmaiņām programmā Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -25,79 +25,79 @@ ms.locfileid: "9459936"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Līdzekļu izmaiņas no Project Service Automation uz Project Operations
 
-Jauninājums no Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations Lite tiks piegādāts trīs posmos. Šajā rakstā ir sniegta informācija par galvenajām izmaiņām, kuras varat sagaidīt, kad jaunināšana būs pabeigta.
+Atjauninājums no Dynamics 365 Project Service Automation uz Dynamics 365 Project Operations Lite tiks nodrošināts trīs posmos. Šajā rakstā ir sniegta informācija par galvenajām izmaiņām, kuras varētu tikt ieviestas pēc jaunināšanas izpildes.
 
-| Jaunināšanas piegāde | 1. fāze <br>(Janvāris 2022) | 2. fāze <br>(2022. gada novembris) | 3. fāze  |
+| Jauninājuma nodrošināšana | 1. posms: <br>(2022. gada janvāris) | 2. posms: <br>(2022. gada novembris) | 3. posms:  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Nav atkarības no projektu darba sadalījuma struktūras (WBS). | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS ir iekļauts pašlaik atbalstītajos projektu operāciju ierobežojumos. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
-| WBS ārpus pašlaik atbalstītajiem Project Operations ierobežojumiem, ieskaitot atbalstu Projekta darbvirsmas klientam. | &nbsp; | &nbsp; | :heavy_check_mark: |
+| Projektiem nav atkarības no darba sadalījuma struktūras (WBS). | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| WBS ir iekļauts pašlaik atbalstītos Project Operations ierobežojumos. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
+| WBS ārpus pašlaik atbalstītajiem Project Operations ierobežojumiem, tostarp Project Desktop Client atbalsta. | &nbsp; | &nbsp; | :heavy_check_mark: |
 
 ## <a name="project-management"></a>Projekta pārvaldība
 
-Visnozīmīgākās izmaiņas lietotāja pieredzē būs projektu plānošanas jomā. Project Operations ievieš jaunu, modernu pieredzi darba sadalījuma struktūras (WBS) pārvaldībai, izmantojot plānošanas iespējas, ko [project nodrošina tīmeklim](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Svarīgākās lietotāju pieredzes izmaiņas būs projekta plānošanas jomā. Project Operations izmanto jaunu modernu pieredzi darba sadalījuma struktūras (WBS) pārvaldīšanā, izmantojot [Project for the Web ](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) nodrošinātās plānošanas iespējas.
 
-## <a name="differences-in-the-scheduling-experience"></a>Plānošanas pieredzes atšķirības
+## <a name="differences-in-the-scheduling-experience"></a>Plānošanas funkcionalitāšu atšķirības
 
-Nākamajā tabulā ir apkopotas plānošanas atšķirības starp Project Service Automation un Project Operations.
+Tabulā tālāk apkopotas Project Service Automation un Project Operations plānošanas atšķirības.
 
-|  Ieplānošana     |   Project Operations   |   Psa   |
+|  Ieplānošana     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
-| Projekta veidnes — iespēja definēt un lietot projekta veidnes, kad tiek izveidots projekts  |  &nbsp;    | :heavy_check_mark: |
-| Projekta darba sadalījuma struktūras (WBS) integrācija ar darbvirsmas klientu   |    &nbsp;  | :heavy_check_mark: |
-| Ierobežojumi - Sāciet ne agrāk kā, pabeidziet ne vēlāk kā  | :heavy_check_mark: |   &nbsp;  |
-| Atskaites punkti - uzdevumi ar nulles ilgumu   | :heavy_check_mark:  |  &nbsp;  |
-| Uz resursiem orientētos uzdevumos tiks ņemta vērā piešķirto resursu pieejamība   | :heavy_check_mark: |  &nbsp;    |
-| Rediģēšana pakāpeniski ar laika posmu — plānu rediģēšana un darbs katru dienu   |   &nbsp;  | :heavy_check_mark: |
-| Automātiska/manuāla plānošana — izmantojiet programmu Projektu plānošana, lai automātiski vai manuāli plānotu uzdevumus |  &nbsp; | :heavy_check_mark:  |
-| Rediģējiet lielus projektus tieši lietotāja saskarnē: rediģējamo plānu lielumam nav ierobežojumu  | 500 uzdevumu ierobežojums  | :heavy_check_mark:       |
-| Procenti pabeigti — atzīmējiet uzdevuma progresu   | :heavy_check_mark:  |  &nbsp;  |
-| [Projekta plānošanas režīmi](../project-management/scheduling-modes.md) — definējiet projektu kā fiksētas vienības, fiksētu piepūli vai fiksētu ilgumu | :heavy_check_mark: | &nbsp; |
-| Laika grafiks — izveidojiet un pielāgojiet laika grafika skatu, lai vizualizētu detalizētu informāciju par grafiku un sazinātos ar ieinteresētajām personām. | :heavy_check_mark:  | &nbsp; |
-| Uz piepūli balstīti uzdevumi — programmas atbalsta plānošana uzdevuma plānošanai kā piepūlei  | :heavy_check_mark:  | &nbsp; |
-| **dialoglodziņš Informācija par** uzdevumu — uzdevuma informācijas saglabāšana, izmantojot dialoglodziņu | :heavy_check_mark:  |  &nbsp;  |
-| Vilkšana un nomešana - vairākatlases uzdevumi un to pozīcijas modificēšana WBS | :heavy_check_mark: | &nbsp;  |
-| Elastīgi noturīgi skati — uzdevumu atribūtu detalizētāku skatu definēšana   | :heavy_check_mark:  | &nbsp; |
+| Projekta veidnes — iespēja definēt un lietot projekta veidnes projekta izveides laikā  |  &nbsp;    | :heavy_check_mark: |
+| Projekta darba sadalījuma struktūras (WBS) integrācija ar Desktop Client   |    &nbsp;  | :heavy_check_mark: |
+| Ierobežojumi — sākt ne agrāk kā, pabeigt ne vēlāk kā  | :heavy_check_mark: |   &nbsp;  |
+| Atskaites punkti — uzdevumi, kuru ilgums ir nulle   | :heavy_check_mark:  |  &nbsp;  |
+| Resursu vadītos uzdevumos tiks ņemta vērā piešķirto resursu pieejamība   | :heavy_check_mark: |  &nbsp;    |
+| Pakāpeniska rediģēšana — plānu rediģēšana un darbs no dienas uz dienu   |   &nbsp;  | :heavy_check_mark: |
+| Automātiska/manuāla plānošana — izmantojiet projekta plānošanas programmu, lai automātiski vai manuāli plānotu uzdevumus |  &nbsp; | :heavy_check_mark:  |
+| Rediģējiet apjomīgus projektus tieši lietotāja saskarnē: nav ierobežots rediģējamo plānu lielums  | 500 uzdevumu ierobežojums  | :heavy_check_mark:       |
+| Pabeigtā daļa - atzīmējiet uzdevuma progresu   | :heavy_check_mark:  |  &nbsp;  |
+| [Projekta grafika režīmi](../project-management/scheduling-modes.md) — definējiet projektu kā fiksētas vienības, fiksētu piepūli vai fiksētu ilgumu | :heavy_check_mark: | &nbsp; |
+| Laika skalas — izveidojiet un pielāgojiet laika skalas skatu, lai vizualizētu grafika informāciju un sazinātos ar iesaistītajām pusēm. | :heavy_check_mark:  | &nbsp; |
+| No piepūles vadīti uzdevumi — plānošanas programmas atbalsts uzdevuma kā no piepūles atkarīgai plānošanai  | :heavy_check_mark:  | &nbsp; |
+| Dialoglodziņš **Informācija par uzdevumu** — Saglabājiet uzdevuma informāciju, izmantojot dialoglodziņu | :heavy_check_mark:  |  &nbsp;  |
+| Velciet un nometiet — vairākatlasot uzdevumus un modificējiet to pozīciju WBS | :heavy_check_mark: | &nbsp;  |
+| Elastīgi, mainīgi skati — definējiet daudz lielākus uzdevumu atribūtu skatus   | :heavy_check_mark:  | &nbsp; |
 | WBS kārtošana un filtrēšana  | :heavy_check_mark:  | &nbsp; |
-| Plātņu skats, lai projektu, kas nav ūdenskritums, tiktu īstenots  | :heavy_check_mark:   | &nbsp; |
-| Laika skalas skats - interaktīva Ganta diagramma, ko izmanto, lai vizualizētu un rediģētu WBS   | :heavy_check_mark:  | &nbsp; |
-| Īsinājumtaustiņi — izmantojiet īsinājumtaustiņus bieži veicamām darbībām, piemēram, atkāpei vai ievietošanai  | :heavy_check_mark:  |  &nbsp; |
-| Vairāku līmeņu atsaukšana — veiciet iespēju analīzi, lai pilnībā izprastu izmaiņu ietekmi, apvēršot un atkārtoti piemērojot visu darbību kopu | :heavy_check_mark: | &nbsp; |
-| Izgriešana/ kopēšana/ielīmēšana — sadarbojieties grafika izstrādē, kopējot un ielīmējot grafika informāciju starp lietojumprogrammām  | :heavy_check_mark: | &nbsp; |
-| Uzdevumu kontrolsaraksti — pievienojiet uzdevumam līdz 20 kontrolsaraksta elementiem   | :heavy_check_mark: | &nbsp; |
+| Paneļu skats projekta piegādei bez kaskādes  | :heavy_check_mark:   | &nbsp; |
+| Laika grafika skats — interaktīvā Ganta diagramma, ko izmanto WBS vizualizācijai un rediģēšanai   | :heavy_check_mark:  | &nbsp; |
+| Īsinājumtaustiņi — izmantojiet īsinājumtaustiņus, kas tiek lietoti biežāk lietotajām operācijām, piemēram, atkāpēm vai ievietošanai  | :heavy_check_mark:  |  &nbsp; |
+| Vairāku līmeņu atsaukšana — veiciet iespēju analīzi, lai pilnībā izprastu izmaiņu ietekmi, atgriežot un atkārtoti izmantojot visu operāciju kopu | :heavy_check_mark: | &nbsp; |
+| Izgriezt/kopēt/ielīmēt — sadarbība plānošanas izstrādes laikā, kopējot un ielīmējot grafika informāciju no vienas lietojumprogrammas citā.  | :heavy_check_mark: | &nbsp; |
+| Uzdevumu kontrolsaraksti — pievienojiet uzdevumam līdz 20 kontrolsarakstiem   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Projektu plānošana
 
-**Project** lapā Project operations ir ievērojams skaits atšķirību salīdzinājumā ar **project** lapu programmā Project Service Automation.
+Project Operations lapā **Projekts** ir ievērojams skaits atšķirību, salīdzinot ar Project Service Automation lapu **Projekts**.
 
-1. posma jaunināšanas ietvaros no **lapas Projekti** ir noņemtas šādas darbības:
+1. posma atjauninājuma ietvaros no lapas **Projekti** ir noņemtas tālāk uzskaitītās darbības:
 
   - **Atvērt programmā MS Project**
   - **Izveidot veidni**
   - **Atcelt saistību ar MS Project**
 
-**Project** lapā project operations ir iekļautas tālāk norādītās jaunās cilnes.
+Project Operations lapai **Project** ir tālāk uzskaitītās jaunās cilnes.
 
 - **Materiālu aprēķini**
 - **Uzdevuma norēķinu iestatīšana**
 
-Cilne **Statuss** ir noņemta, un lauks **Statuss** tagad **atrodas cilnē Kopsavilkums** ar projekta plānošanas režīmu.
+Ir noņemta cilne **Statuss**, un lauks **Statuss** turpmāk atrodas cilnē **Kopsavilkums** ar projekta plānošanas režīmu.
 
    ![Projekta lapas atjauninājumi.](media/projectform.png)
 
-Cilne Grafiks **ir** pārdēvēta **par cilni Uzdevums**, un tajā ir iekļautas jaunās projektu plānošanas iespējas programmā Project for the Web.
+Cilne **Grafiks** ir pārdēvēta par cilni **Uzdevums**, un tai ir jauna projektu plānošanas funkcionalitāte, izmantojot Project for the Web.
 
-   ![Cilne Jauni projekta uzdevumi.](media/tasktab.png)
+   ![Jauna projekta uzdevumu cilne.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Plānošanas režīmi
 
-Project Operations ir ieviesis jaunu līdzekli — [plānošanas režīmus](../project-management/scheduling-modes.md). Visiem esošajiem Project Service Automation projektiem pēc noklusējuma **būs fiksēts ilgums** project operations. Tomēr jaunu projektu noklusējumu var pārvaldīt, dodoties uz **iestatījumu** > **parametru** > **parametru** > **plānošanas režīmu**.
+Project Operations ir ieviesuši jaunu līdzekli — [Plānošanas režīmi](../project-management/scheduling-modes.md). Visi esošie Project Service Automation projekti programmā Project Operations tiks pēc noklusējuma iestatīti uz **fiksētu ilgumu**. Taču jauno projektu noklusējuma vērtību var pārvaldīt, dodoties uz **Iestatījumi** > **Parametri** > **Parametrs** > **Grafika režīms**.
 
-   ![Projekta parametru iestatījumi plānošanas režīmam.](media/projectparameter.png)
+   ![Projekta parametru iestatījumi Plānošanas režīmam.](media/projectparameter.png)
 
-## <a name="project-planning-limits"></a>Projekta plānošanas ierobežojumi
+## <a name="project-planning-limits"></a>Projekta plānošanas robežas
 
-Project Operations paļaujas uz Project for the Web visās projektu plānošanas operācijās. Project for the Web pārvalda darba sadalījuma struktūru, izmantojot ierobežojumus nākamajā tabulā.
+Project Operations visām projekta plānošanas darbībām izmanto Project for the Web. Project for the Web pārvalda darba sadalījuma struktūru, izmantojot robežas, kas norādītas tabulā tālāk.
 
 | **Lauks**                                          | **Ierobežojums**             |
 |----------------------------------------------------|-----------------------|
@@ -114,9 +114,9 @@ Project Operations paļaujas uz Project for the Web visās projektu plānošanas
 | Atbalstītais uzdevuma datumu diapazons                    | 1/1/2000 - 12/31/2149 |
 | Kontrolsaraksta elementi                                    | 20                    |
 
-## <a name="project-planning-extensibility-and-development"></a>Projekta plānošana paplašināmība un attīstība
+## <a name="project-planning-extensibility-and-development"></a>Projektu plānošanas paplašināmība un attīstīšana
 
-Pēc jaunināšanas uz Project Operations ir jāizmanto projektu plānošanas API, lai izpildītu izveides, atjaunināšanas un dzēšanas operācijas ar tālāk norādītajām entītijām.
+Pēc jaunināšanas uz Project Operations, ir jāizmanto Project Scheduling API, lai veiktu izveides, jaunināšanas un dzēšanas darbības tālāk uzskaitītajiem elementiem:
 
 |   Entītijas nosaukums           |   Entītijas loģiskais nosaukums       |
 |-------------------------|-----------------------------|
@@ -127,18 +127,18 @@ Pēc jaunināšanas uz Project Operations ir jāizmanto projektu plānošanas AP
 | Projekta bloks          | msdyn_projectbucket         |
 | Projekta grupas dalībnieks     | msdyn_projectteam           |
 
-Ja jums pašlaik ir pielāgojumi, kas saistīti ar šīm entītijām, skatiet rakstu [Projektu grafika API izmantošana, lai veiktu darbības ar plānošanas entītijām](../project-management/schedule-api-preview.md) ieviešanas norādījumiem.
+Ja pašlaik ir pielāgojumi, kas ietver šos elementus, skat. lapu [Project Schedule API izmantošana, lai veiktu darbības ar plānošanas elementiem](../project-management/schedule-api-preview.md), kurā sniegti norādījumi par ieviešanu.
 
-## <a name="data-model-changes"></a>Datu modeļa izmaiņas
+## <a name="data-model-changes"></a>Datu modeļu izmaiņas
 
-1. jaunināšanas fāzes ietvaros datu modelī ir izmaiņas. Šīs izmaiņas galvenokārt ir lauka izmaiņas esošajās entītijās. 1. posmā entītijas, **msydn_project** un **msdyn_projectteam** ir pielāgojumu pārfrāzēšana. 
+Jaunināšanas 1. posma ietvaros tiek veiktas izmaiņas datu modelī. Šīs izmaiņas primāri ir esošo entītiju lauka izmaiņas. 1. posmā elementi **msydn_project** un **msdyn_projectteam** ir pārstrukturēti pielāgojumi. 
 
 > [!IMPORTANT]
-> Šī sadaļa tiks atjaunināta ar papildu entītijām, kad būs pabeigti turpmākie jaunināšanas posmi.
+> Šī sadaļa tiks jaunināta ar papildu elementiem, kad tiks pabeigti tālāki jaunināšanas posmi.
 
-Tālāk norādītie lauki ir aizstāti ar jauniem laukiem.
+Tālāk uzskaitītie lauki ir aizstāti ar jauniem laukiem.
 
-|   Tabula          |   Vecais loģiskais nosaukums   |   Jauns loģiskais nosaukums    |
+|   Tabula          |   Iepriekšējais loǵiskais nosaukums   |   Jaunais loǵiskais nosaukums    |
 |-------------------|----------------------|-----------------------|
 | msdyn_project     | msdyn_actualhours    | msdyn_effortcompleted |
 | msdyn_project     | msdyn_plannedhours   | msdyn_effort          |
@@ -149,63 +149,63 @@ Tālāk norādītie lauki ir aizstāti ar jauniem laukiem.
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
 
-Ir pievienoti šādi lauki.
+Ir pievienoti tālāk uzskaitītie lauki.
 
 |   Tabula          |   Loģiskais nosaukums                               |   Apraksts |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Parāda projekta faktisko pārdošanas apjomu kopsummu. Lietošanai tikai programmā Project Service Automation. |
-| msdyn_project     | msdyn_actualmaterialcost                     | Parāda projekta faktisko materiālo izmaksu kopsummu. Lietošanai tikai programmā Project Service Automation. |
-| msdyn_project     | msdyn_actualmaterialsales                    | Parāda projekta faktisko materiālu pārdošanas apjomu. Lietošanai tikai programmā Project Service Automation. |
+| msdyn_project     | msdyn_actualfeesales                         | Rāda apkopoto faktisko izmaksu pārdošanu projektā. Lietošanai vienīgi programmā Project Service Automation. |
+| msdyn_project     | msdyn_actualmaterialcost                     | Rāda apkopotās faktiskās materiālu izmaksas projektā. Lietošanai vienīgi programmā Project Service Automation. |
+| msdyn_project     | msdyn_actualmaterialsales                    | Rāda apkopoto faktisko materiālu pārdošanu projektā. Lietošanai vienīgi programmā Project Service Automation. |
 | msdyn_project     | msdyn_businesscase                           |                |
-| msdyn_project     | msdyn_contractlineproject                    | Ar šo projektu saistītā līguma līnija. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Šis ir iekšējs sistēmas lauks, kas tiek izmantots kopēšanas **projektam**, kas saistīts ar korelācijas identifikatoru. Lietošanai tikai programmā Project Service Automation. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Šis ir iekšējs sistēmas lauks, ko izmanto kopēšanas **projektam**, kas saistīts ar sesijas identifikatoru. Lietošanai tikai programmā Project Service Automation. |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Pēdējā sinhronizācija xRM globālās pārskatīšanas marķieris no projekta plānošanas pakalpojuma. |
-| msdyn_project     | msdyn_msprojectdocument                      | Microsoft Project dokuments, kas pieder projektam. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | Projekta plānoto materiālu izmaksu kopsumma. Lietošanai tikai programmā Project Service Automation. |
-| msdyn_project     | msdyn_plannedmaterialsales                   | Projekta plānoto materiālu pārdošanas kopsumma. Lietošanai tikai programmā Project Service Automation. |
+| msdyn_project     | msdyn_contractlineproject                    | Ar šo projektu saistītā līguma rinda. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Iekšējs sistēmas lauks, ko izmanto ar Correlation Identifier saistīto **Kopijas projektu**. Lietošanai vienīgi programmā Project Service Automation. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Iekšējs sistēmas lauks, ko izmanto ar Session Identifier saistīto **Kopijas projektu**. Lietošanai vienīgi programmā Project Service Automation. |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Pēdējās sinhronizācijas xRM Global Revision marḱieris no Project Scheduling Service. |
+| msdyn_project     | msdyn_msprojectdocument                      | Microsoft Project dokuments, kas ietilpst projektā. |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Plānoto projekta materiālu izmaksu apkopojums. Lietošanai vienīgi programmā Project Service Automation. |
+| msdyn_project     | msdyn_plannedmaterialsales                   | Plānoto projekta materiālu pārdošanas apkopojums. Lietošanai vienīgi programmā Project Service Automation. |
 | msdyn_project     | msdyn_program                                | Programma, ar kuru ir saistīts šis projekts. |
-| msdyn_project     | msdyn_quotelineproject                       | Ar šo projektu saistītā citāta rindiņa. |
-| msdyn_project     | msdyn_replaylogheader                        | Atkārtotas atskaņošanas žurnālu galvene. |
+| msdyn_project     | msdyn_quotelineproject                       | Ar šo projektu saistītā piedāvājuma rinda. |
+| msdyn_project     | msdyn_replaylogheader                        | Atkārtojuma žurnālu galvene. |
 | msdyn_project     | msdyn_schedulemode                           | Noklusējuma plānošanas režīms, kas tiek izmantots visiem projekta uzdevumiem.  |
 | msdyn_project     | msdyn_taskearlieststart                      | Jebkura projekta uzdevuma agrākais sākuma datums.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
-| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Projekta komandas loceklis, no kura tika kopēts šis projekta komandas loceklis. |
-| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Norāda, vai izveidot resursu nepieciešamību jaunizveidotam vispārīgam darba grupas dalībniekam.  |
-| msdyn_projectteam | msdyn_deletestatus                           | Grupas dalībnieka dzēšanas statuss, lai izsekotu, vai projekta plānošanas pakalpojumam ir nosūtīts dzēšanas pieprasījums un vai tas veiksmīgi nosūta atbildi atpakaļ paredzētajā laika logā. |
-| msdyn_projectteam | msdyn_effortcompleted                        | Izseko komandas locekļa paveikto darbu uzdevumos. |
-| msdyn_projectteam | msdyn_effortremaining                        | Izseko pūlēm, kas komandas dalībniekam vēl ir jāpabeidz savos uzdevumos. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Gaidīšanas periods no brīža, kad darba grupas dalībnieks nosūta dzēšanas pieprasījumu projekta plānošanas pakalpojumam, līdz darba grupas dalībniekam tiek faktiski izdzēsts Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Laikspiedols, kas jāieraksta, kad grupas dalībnieka dzēšanas pieprasījums tiek nosūtīts projekta plānošanas pakalpojumam. |
+| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Rāda projekta darba grupas dalībnieku, no kura ir kopēts šis projekta darba grupas dalībnieks. |
+| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Norāda, vai jāizveido resursa prasība jaunajam vispārējam darba grupas dalībniekam.  |
+| msdyn_projectteam | msdyn_deletestatus                           | Darba grupas dalībnieka dzēšanas statuss, lai izsekotu, vai uz PSS ir nosūtīts dzēšanas pieprasījums un vai Project Scheduling Service nosūta atbildi sekmīgi un paredzētajā laika periodā. |
+| msdyn_projectteam | msdyn_effortcompleted                        | Izseko darba grupas dalībnieka veiktajiem pūliņiem, pildot savu uzdevumu. |
+| msdyn_projectteam | msdyn_effortremaining                        | Izsekot pūliņiem, kas darba grupas dalībniekam vēl jāpieliek, pildot savus uzdevumus. |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Gaidīšanas laiks no brīža, kad darba grupas dalībnieks nosūta Project Scheduling Service dzēšanas pieprasījumu, līdz darba grupas dalībnieks tiek faktiski dzēsts no Microsoft Dataverse.|
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Laikspiedols, lai reǵistrētu laiku, kurā darba grupas dalībnieka dzēšanas pieprasījums ir nosūtīts programmai Project Scheduling Service. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Rāda projekta darba grupas dalībnieku, no kura ir kopēts šis projekta darba grupas dalībnieks.  |
 
 ## <a name="project-templates"></a>Projektu veidnes
 
-Project Operations nenodrošina atbalstu projektu veidnēm. Tomēr lielu daļu pamatfunkciju var atkārtot, izmantojot [project copy API](../project-management/dev-copy-project.md).
+Project Operations nenodrošina projektu veidņu atbalstu. Tomēr, izmantojot [Projekta kopijas API](../project-management/dev-copy-project.md), varat replicēt lielu daļu pamata funkcionalitātes.
 
-## <a name="desktop-add-in-support"></a>Datora pievienojumprogrammu atbalsts
+## <a name="desktop-add-in-support"></a>Datora pievienojumprogrammas atbalsts
 
-Microsoft Project Desktop pievienojumprogrammas atbalsts nebūs pieejams pirmajos 2 jaunināšanas posmos. 3. posmā klienti, kuru projekti ir lielāki par pašlaik atbalstītajiem Project for the Web ierobežojumiem, varēs izmantot datora pievienojumprogrammu.
+Atbalsts Microsoft Project Desktop pievienojumprogrammai nebūs pieejams jaunināšanas pirmajās 2 versijās. 3. posmā klienti, kuriem ir projekti, kas pārsniedz pašlaik atbalstītos Project for the Web ierobežojumus, varēs izmantot datora pievienojumprogrammu.
 
 ## <a name="editing-resource-assignment-contours"></a>Resursu piešķiršanas kontūru rediģēšana
 
-Iespēja rediģēt resursu piešķiršanas kontūras būs pieejama, kad būs pieejama jaunināšanas 2. fāze.
+Iespēja rediģēt resursu piešķiršanas palīgus būs pieejama, kad būs pieejams jaunināšanas 2. posms.
 
 ## <a name="billing-and-pricing"></a>Cenu noteikšana un norēķini
 
-Project Operations ir pievienoti tālāk norādītie jaunie līdzekļi. Šiem līdzekļiem ir papildinošs raksturs, un tie neietekmē Project Service Automation datu modeli.
+Programmai Project Operations ir pievienoti tālāk uzskaitītie jaunie līdzekļi. Šie līdzekļi ir papildināmi pēc dabas, un tie neietekmē Project Service Automation datu modeli.
 
-- [Materiālu lietojuma reģistrēšana projektos un projekta uzdevumos](../material/material-usage-log.md)
-- [Apakšuzņēmuma līgumu pārvaldība](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Materiālu lietojuma reǵistrēšana projektos un projekta uzdevumos](../material/material-usage-log.md)
+- [Pakārtotā pārvaldība](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Avansi un līgumi, kuru pamatā ir saistības](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Līguma nepārsniegšanas statuss un validācijas](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
-- [Uz uzdevumiem balstīti norēķini](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
+- [Līgums, kas nepārsniedz statusu un pārbaudes](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Uzdevumā balstīta norēķinu iestatīšana](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
-## <a name="deprecated-components"></a>Novecojuši komponenti
+## <a name="deprecated-components"></a>Novecojušie komponenti
 
-Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc jaunināšanas tiek pārvietoti uz novecojušo komponentu risinājumu. Papildinformāciju un saiti uz risinājumu skatiet rakstā [Dynamics 365 Project Service Automation 3x līdz Project Operations 4x novecojuši komponenti](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
+Tabulās tālāk aprakstīti visi novecojušie lauki, kas pēc jaunināšanas pārcelti uz novecojušo komponentu risinājumu. Papildinformāciju un saiti uz risinājumu skatiet sadaļā [Dynamics 365 Project Service Automation 3x uz Project Operations 4x novecojušajiem komponentiem ](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
-### <a name="invoicedetail"></a>rēķinsdetail
+### <a name="invoicedetail"></a>invoicedetail
 
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
@@ -221,7 +221,7 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_characteristicreqforteammember.msdyn_raksturojums                                     |
+| msdyn_characteristicreqforteammember.msdyn_characteristic                                     |
 | msdyn_characteristicreqforteammember.msdyn_characteristicreqforteammemberid                   |
 | msdyn_characteristicreqforteammember.msdyn_characteristictype                                 |
 | msdyn_characteristicreqforteammember.msdyn_name                                               |
@@ -260,10 +260,10 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 |-----------------------------------------------------------------------------------------------|
 | msdyn_findworkevent.msdyn_bookableresource                                                    |
 | msdyn_findworkevent.msdyn_findworkeventid                                                     |
-| msdyn_findworkevent.msdyn_nosaukums                                                                |
+| msdyn_findworkevent.msdyn_name                                                                |
 | msdyn_findworkevent.msdyn_timestamp                                                           |
 | msdyn_findworkevent.msdyn_type                                                                |
-| msdyn_findworkevent.msdyn_vērtība                                                               |
+| msdyn_findworkevent.msdyn_value                                                               |
 | msdyn_findworkevent.msdyn_work                                                                |
 
 ### <a name="msdyn_invoicelinetransaction"></a>msdyn_invoicelinetransaction
@@ -284,9 +284,9 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylineresourcecategory.msdyn_billingtype                                       |
-| msdyn_opportunitylineresourcecategory.msdyn_apraksts                                       |
+| msdyn_opportunitylineresourcecategory.msdyn_description                                       |
 | msdyn_opportunitylineresourcecategory.msdyn_opportunitylineresourcecategoryid                 |
-| msdyn_opportunitylineresourcecategory.msdyn_opportunitylinetransakcijuklasifikācija          |
+| msdyn_opportunitylineresourcecategory.msdyn_opportunitylinetransactionclassification          |
 | msdyn_opportunitylineresourcecategory.msdyn_resourcecategory                                  |
 
 ### <a name="msdyn_opportunitylinetransaction"></a>msdyn_opportunitylinetransaction
@@ -296,10 +296,10 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | msdyn_opportunitylinetransaction.msdyn_accountcustomer                                        |
 | msdyn_opportunitylinetransaction.msdyn_accountingdate                                         |
 | msdyn_opportunitylinetransaction.msdyn_accountvendor                                          |
-| msdyn_opportunitylinetransaction.msdyn_summa                                                 |
+| msdyn_opportunitylinetransaction.msdyn_amount                                                 |
 | msdyn_opportunitylinetransaction.msdyn_amount_base                                            |
 | msdyn_opportunitylinetransaction.msdyn_amountmethod                                           |
-| msdyn_opportunitylinetransaction.msdyn_bāzes summa                                            |
+| msdyn_opportunitylinetransaction.msdyn_basisamount                                            |
 | msdyn_opportunitylinetransaction.msdyn_basisamount_base                                       |
 | msdyn_opportunitylinetransaction.msdyn_basisprice                                             |
 | msdyn_opportunitylinetransaction.msdyn_basisprice_base                                        |
@@ -309,18 +309,18 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | msdyn_opportunitylinetransaction.msdyn_contactcustomer                                        |
 | msdyn_opportunitylinetransaction.msdyn_contactvendor                                          |
 | msdyn_opportunitylinetransaction.msdyn_customertype                                           |
-| msdyn_opportunitylinetransaction.msdyn_apraksts                                            |
+| msdyn_opportunitylinetransaction.msdyn_description                                            |
 | msdyn_opportunitylinetransaction.msdyn_documentdate                                           |
 | msdyn_opportunitylinetransaction.msdyn_enddatetime                                            |
 | msdyn_opportunitylinetransaction.msdyn_exchangeratedate                                       |
 | msdyn_opportunitylinetransaction.msdyn_opportunityline                                        |
 | msdyn_opportunitylinetransaction.msdyn_opportunitylinetransactionid                           |
-| msdyn_opportunitylinetransaction.msdyn_procentos                                                |
-| msdyn_opportunitylinetransaction.msdyn_cena                                                  |
+| msdyn_opportunitylinetransaction.msdyn_percent                                                |
+| msdyn_opportunitylinetransaction.msdyn_price                                                  |
 | msdyn_opportunitylinetransaction.msdyn_price_base                                             |
-| msdyn_opportunitylinetransaction.msdyn_cenrādis                                              |
-| msdyn_opportunitylinetransaction.msdyn_produkts                                                |
-| msdyn_opportunitylinetransaction.msdyn_projekts                                                |
+| msdyn_opportunitylinetransaction.msdyn_pricelist                                              |
+| msdyn_opportunitylinetransaction.msdyn_product                                                |
+| msdyn_opportunitylinetransaction.msdyn_project                                                |
 | msdyn_opportunitylinetransaction.msdyn_quantity                                               |
 | msdyn_opportunitylinetransaction.msdyn_resourcecategory                                       |
 | msdyn_opportunitylinetransaction.msdyn_resourceorganizationalunitid                           |
@@ -329,7 +329,7 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | msdyn_opportunitylinetransaction.msdyn_transactioncategory                                    |
 | msdyn_opportunitylinetransaction.msdyn_transactionclassification                              |
 | msdyn_opportunitylinetransaction.msdyn_transactiontypecode                                    |
-| msdyn_opportunitylinetransaction.msdyn_vienība                                                   |
+| msdyn_opportunitylinetransaction.msdyn_unit                                                   |
 | msdyn_opportunitylinetransaction.msdyn_unitschedule                                           |
 | msdyn_opportunitylinetransaction.msdyn_vendortype                                             |
 
@@ -338,7 +338,7 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylinetransactioncategory.msdyn_billingtype                                    |
-| msdyn_opportunitylinetransactioncategory.msdyn_apraksts                                    |
+| msdyn_opportunitylinetransactioncategory.msdyn_description                                    |
 | msdyn_opportunitylinetransactioncategory.msdyn_opportunitylinetransactioncategoryid           |
 | msdyn_opportunitylinetransactioncategory.msdyn_opportunitylinetransactionclassification       |
 | msdyn_opportunitylinetransactioncategory.msdyn_transactioncategory                            |
@@ -348,7 +348,7 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylinetransactionclassificatio.msdyn_billingtype                               |
-| msdyn_opportunitylinetransactionclassificatio.msdyn_apraksts                               |
+| msdyn_opportunitylinetransactionclassificatio.msdyn_description                               |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_include                                   |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_opportunityline                           |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_opportunitylinetransactionclassificatioid |
@@ -367,7 +367,7 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | msdyn_orderlinetransaction.msdyn_salescontractline                                            |
 | msdyn_orderlinetransactioncategory.msdyn_contractline                                         |
 
-### <a name="msdyn_orderlinetransactionclassification"></a>msdyn_orderlinetransactionclassification
+### <a name="msdyn_orderlinetransactionclassification"></a>msdyn_opportunitylinetransactionclassificatio
 
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
@@ -398,11 +398,11 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | msdyn_projecttask.msdyn_aggregationdirection                                                  |
 | msdyn_projecttask.msdyn_assignedresources                                                     |
 | msdyn_projecttask.msdyn_assignedteammembers                                                   |
-| msdyn_projecttask.msdyn_auto plānošana                                                        |
+| msdyn_projecttask.msdyn_autoscheduling                                                        |
 | msdyn_projecttask.msdyn_costestimatecontour                                                   |
 | msdyn_projecttask.msdyn_effortcontour                                                         |
 | msdyn_projecttask.msdyn_islinetask                                                            |
-| msdyn_projecttask.msdyn_resursu skaits                                                     |
+| msdyn_projecttask.msdyn_numberofresources                                                     |
 | msdyn_projecttask.msdyn_remaininghours                                                        |
 | msdyn_projecttask.msdyn_resourceutilization                                                   |
 | msdyn_projecttask.msdyn_salesestimatecontour                                                  |
@@ -414,7 +414,7 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projecttaskstatususer.msdyn_bookableresource                                            |
-| msdyn_projecttaskstatususer.msdyn_apraksts                                                 |
+| msdyn_projecttaskstatususer.msdyn_description                                                 |
 | msdyn_projecttaskstatususer.msdyn_expectedcompletiondate                                      |
 | msdyn_projecttaskstatususer.msdyn_expectedhourstocomplete                                     |
 | msdyn_projecttaskstatususer.msdyn_iscompleted                                                 |
@@ -428,14 +428,14 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_projectteam.msdyn_applicantkonts                                                        |
-| msdyn_projectteam.msdyn_pretendenti pieejami                                                   |
+| msdyn_projectteam.msdyn_applicantcount                                                        |
+| msdyn_projectteam.msdyn_applicantsavailable                                                   |
 | msdyn_projectteam.msdyn_assignedhours                                                         |
-| msdyn_projectteam.msdyn_apraksts                                                           |
+| msdyn_projectteam.msdyn_description                                                           |
 | msdyn_projectteam.msdyn_from                                                                  |
 | msdyn_projectteam.msdyn_hoursrequested                                                        |
 | msdyn_projectteam.msdyn_membershipstatus                                                      |
-| msdyn_projectteam.msdyn_numurs                                                                |
+| msdyn_projectteam.msdyn_number                                                                |
 | msdyn_projectteam.msdyn_to                                                                    |
 
 ### <a name="msdyn_projectteammembersignup"></a>msdyn_projectteammembersignup
@@ -454,7 +454,7 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projecttransactioncategory.msdyn_billingtype                                            |
 | msdyn_projecttransactioncategory.msdyn_name                                                   |
-| msdyn_projecttransactioncategory.msdyn_projekts                                                |
+| msdyn_projecttransactioncategory.msdyn_project                                                |
 | msdyn_projecttransactioncategory.msdyn_projecttransactioncategoryid                           |
 | msdyn_projecttransactioncategory.msdyn_transactioncategory                                    |
 
@@ -473,7 +473,7 @@ Tālāk sniegtajās tabulās ir dokumentēti visi novecojušie lauki, kas pēc j
 
 | Kolonnas                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_resourceassignment.msdyn_stundas                                                          |
+| msdyn_resourceassignment.msdyn_hours                                                          |
 | msdyn_resourceassignment.msdyn_fromdate                                                       |
 | msdyn_resourceassignment.msdyn_msprojectclientid                                              |
 | msdyn_resourceassignment.msdyn_todate                                                         |

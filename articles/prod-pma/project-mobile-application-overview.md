@@ -1,6 +1,6 @@
 ---
 title: Projekta mobilo programmu pārskats
-description: Šajā rakstā ir sniegta vispārīga informācija par projekta laika lietojumprogrammām, kas paredzētas Microsoft Dynamics 365 Project Timesheet programmai Project Time Entry un My timeheets/Timesheets, kas ir pieejamas mobilajā ierīcē.
+description: Šajā rakstā sniegta vispārīga informācija par ar projekta laiku saistītajām programmām risinājumam Microsoft Dynamics 365 Project Timesheet, Projekta laika ievadei un Manām darba laika uzskaites tabulām / Darba laika uzskaites tabulām, kas pieejamas mobilā ierīcē.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,15 +29,15 @@ Ar projekta laiku saistītas trīs mobilās lietotnes ir pieejamas Microsoft Dyn
 
 ## <a name="project-timesheet-mobile-app"></a>Projekta darba laika uzskaites tabulas mobilā programma
 
-Dynamics 365 Projekta darba laika uzskaites tabulas mobilā programma ļauj lietotājiem iesniegt un apstiprināt darba laika uzskaites tabulas par projektiem savā mobilajā ierīcē. Šī mobilā lietotne nodrošina darba laika uzskaites tabulas funkcionalitāti Dynamics 365 Finance projektu vadības un uzskaites jomā. Tā palīdz uzlabot lietotāja produktivitāti un efektivitāti, kā arī palīdz laicīgi ievadīt un apstiprināt projekta darba laika uzskaites tabulas.
+Dynamics 365 Projekta darba laika uzskaites tabulas mobilā programma ļauj lietotājiem iesniegt un apstiprināt darba laika uzskaites tabulas par projektiem savā mobilajā ierīcē. Šajā mobilajā programmā tiek rādīta darba laika uzskaites tabulas funkcionalitāte Dynamics 365 Finance projekta pārvaldības un uzskaites apgabalā. Tā palīdz uzlabot lietotāja produktivitāti un efektivitāti, kā arī palīdz laicīgi ievadīt un apstiprināt projekta darba laika uzskaites tabulas.
 
 ## <a name="project-time-entry-workspace"></a>Projekta laika ievades darbvieta
 
-Projekta laika ievades darbvieta ļauj lietotājiem ievadīt un saglabāt projekta laiku. Taču tā neļauj lietotājiem iesniegt un apstiprināt projekta darba laika tabulas. To var izmantot vienīgi laika ievadei. Šo mobilo darbvietu ir paredzēts izmantot kopā ar finanšu un operāciju mobilo lietojumprogrammu.
+Projekta laika ievades darbvieta ļauj lietotājiem ievadīt un saglabāt projekta laiku. Taču tā neļauj lietotājiem iesniegt un apstiprināt projekta darba laika tabulas. To var izmantot vienīgi laika ievadei. Šī mobilā darbvieta ir paredzēta lietošanai kopā ar finanšu un operāciju mobilo programmu.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Manas darba laika uzskaites tabulas / Darba laika uzskaites tabulas pārskatīšanai
 
-Manas darba laika uzskaites tabulas (optimizētas mobilām ierīcēm) un Darba laika uzskaites tabulas pārskatīšanai (optimizētas mobilām ierīcēm) veido risinājumu, kas ļauj darba ņēmējiem izveidot, iesniegt un apstiprināt projekta darba laika uzskaites tabulas mobilajā ierīcē. Darba ņēmēji var piekļūt Finance funkcionalitātei, izmantojot programmas URL. Šim risinājumam nav nepieciešama finanšu un operāciju mobilā lietojumprogramma.
+Manas darba laika uzskaites tabulas (optimizētas mobilām ierīcēm) un Darba laika uzskaites tabulas pārskatīšanai (optimizētas mobilām ierīcēm) veido risinājumu, kas ļauj darba ņēmējiem izveidot, iesniegt un apstiprināt projekta darba laika uzskaites tabulas mobilajā ierīcē. Darba ņēmēji var piekļūt Finance funkcionalitātei, izmantojot programmas URL. Šī risinājuma izmantošanai ir nepieciešama finanšu un operāciju mobilā programma.
 
 ## <a name="for-more-information"></a>Papildinformāciju skatiet šeit:
 

@@ -1,6 +1,6 @@
 ---
 title: Vairāku klientu pārvaldība projekta piedāvājumos — Lite
-description: Šajā rakstā sniegta informācija par darbu pie piedāvājumiem ar vairākiem klientiem, kuri finansēs projektu. (Sales)
+description: Šajā rakstā ir sniegta informācija par darbu ar piedāvājumiem ar vairākiem klientiem, kuri finansēs šo projektu. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

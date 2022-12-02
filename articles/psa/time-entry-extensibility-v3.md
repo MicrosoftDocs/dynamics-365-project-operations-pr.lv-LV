@@ -46,7 +46,7 @@ Sadaļā **Dimensijas** kā kolonnu virsraksti tiek rādītas visas dimensijas, 
 - Tips
 - Ieraksta statuss
 
-Sadaļā **Dimensijas** iekļautā rediģēšana nav atļauta. Šīs sadaļas pamatā ir skats, kas iespējo pielāgotus laukus pievienošanai iknedēļas laika ierakstu režģim. Informāciju par pielāgoto lauku pievienošanu skatiet šī raksta sadaļā "Paplašināmība".
+Sadaļā **Dimensijas** iekļautā rediģēšana nav atļauta. Šīs sadaļas pamatā ir skats, kas iespējo pielāgotus laukus pievienošanai iknedēļas laika ierakstu režģim. Lai iegūtu informāciju par pielāgotu lauku pievienošanu, skatiet tālāk šajā rakstā sadaļu “Paplašināšana”.
 
 ### <a name="duration"></a>Ilgums
 Sadaļā Ilgums ir parādītas nedēļas dienas kā kolonnu virsraksti. Šajā sadaļā iekļautā rediģēšana ir atļauta. Pēc tam, kad tiek izveidota laika ieraksta rinda ar atbilstošām dimensijām, lietotāji var ātri ievadīt, iekļaut laika periodu, ko viņi patērējuši uz šīm dimensijām.

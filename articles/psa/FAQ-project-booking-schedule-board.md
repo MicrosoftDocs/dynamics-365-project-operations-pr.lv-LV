@@ -1,6 +1,6 @@
 ---
 title: Projekta rezervāciju izveide plānošanas panelī
-description: Šajā rakstā ir sniegta informācija par to, kā izveidot projekta rezervāciju no grafika dēļa.
+description: Šajā rakstā ir sniegta informācija par to, kā plānošanas panelī izveidot projekta rezervāciju.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

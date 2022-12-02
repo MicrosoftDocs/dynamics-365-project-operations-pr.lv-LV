@@ -1,6 +1,6 @@
 ---
 title: Darba izmaksu likmju iestatīšana — Lite
-description: Šajā rakstā sniegta informācija par to, kā iestatīt darbaspēka izmaksu likmes projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt likmes darbam risinājuma Project Operations izmaksām.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

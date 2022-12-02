@@ -1,6 +1,6 @@
 ---
 title: Projekta pārdošanas pasūtījumi laika un materiālu projektiem
-description: Šajā rakstā paskaidrots, kā izveidot uz projektiem balstītus pārdošanas pasūtījumus laika un materiālu projektiem.
+description: Šajā rakstā izskaidrots, kā izveidot projektā balstītus pārdošanas pasūtījumus laika un materiālu projektiem.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933823"
 
 [!include[banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā izveidot projekta pārdošanas pasūtījumu. Pārdošanas pasūtījumus var izveidot vienīgi projektiem ar veidu **laiks un materiāli**.
+Šajā rakstā aprakstīts, kā izveidot pārdošanas pasūtījumu projektam. Pārdošanas pasūtījumus var izveidot vienīgi projektiem ar veidu **laiks un materiāli**.
 
 Ja laika un materiālu projektam projekta līgumā ir vairāki finansējuma avoti, ir jāiespējo parametrs **Atļaut pārdošanas pasūtījumus projektiem ar vairākiem finansējuma avotiem** lapā **Projekta pārvaldības un uzskaites parametri**. 
 

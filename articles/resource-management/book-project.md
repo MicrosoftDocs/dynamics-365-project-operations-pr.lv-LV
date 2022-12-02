@@ -1,6 +1,6 @@
 ---
 title: Rezervēt projektam
-description: Šajā rakstā ir sniegta informācija par resursa rezervēšanu projektam.
+description: Šajā rakstā ir sniegta informācija par to, kā rezervēt resursu projektā.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Ja Resursu pārvaldītājam ir jārezervē resurss tieši projektam, tas var izm
     - Ilgums
    
    > [!NOTE]
-   > Pašlaik Dynamics 365 Project Operations neatbalsta grafika valdi.   
+   > Pašlaik Dynamics 365 Project Operations neatbalsta plānošanas paneli.   
 
 ## <a name="book-from-the-project-form"></a>Rezervēšana no veidlapas Projekts
 

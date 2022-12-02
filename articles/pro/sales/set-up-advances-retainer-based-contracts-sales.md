@@ -1,6 +1,6 @@
 ---
 title: Avansi un līgumi, kuru pamatā ir saistības
-description: Šajā rakstā sniegta informācija par līgumu slēgšanas modeļiem, kuru pamatā ir aizturētāji, un projektu darbību sasniegumiem.
+description: Šajā rakstā ir sniegta informācija par līguma modeļiem un avansiem, kas balstīti uz honorāriem, risinājumā Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekta darba grupas izveide
-description: Šajā rakstā sniegta informācija par to, kā izveidot un pārvaldīt projektu grupas.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot un pārvaldīt projekta darba grupas.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

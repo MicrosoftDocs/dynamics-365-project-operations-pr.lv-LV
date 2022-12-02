@@ -43,7 +43,7 @@ Projektu pārvaldības rīki programmatūrā PSA palīdz jums izpildīt projektu
 - Prognozēt resursu vajadzības projektiem, kuri atrodas uz pārdošanas ceļa.
 - Sekmīgi izpildīt projektus, izsekojot progresu un izmaksu patēriņu.
 
-Šajos rakstos ir sniegta informācija, kas palīdzēs projektu vadītājiem novērtēt darbu, novērtēt projekta izmaksas un prognozēt resursu vajadzības, izmantojot PSA atbalstītos rīkus:
+Turpmāk uzskaitītajos rakstos ir sniegta informācija, kas palīdzēs projektu vadītājiem prognozēt darbu, prognozēt projekta izmaksas un prognozēt resursu vajadzības, izmantojot programmatūrā PSA atbalstītos rīkus.
 
 - [Grafika izveidošana](project-creating.md)
 - [Projekta izmaksu un ieņēmumu prognozēšana](project-estimating.md)

@@ -1,6 +1,6 @@
 ---
 title: Atskaišu veidošanas rokasgrāmata
-description: Šajā rakstā ir sniegtas saites uz informāciju par pārskatiem.
+description: Šajā rakstā ir saites uz informāciju par atskaišu veidošanu.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919195"
 
 Šajā programmā izmantotās atskaišu veidošanas metodes un tehnoloģijas var palīdzēt jums noteikt jūsu projektu darbspēju un identificēt gadījumus, kad jums ir jāievieš korekcijas. 
 
-Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz šādiem rakstiem:
+PDF saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz tālāk uzskaitītajiem rakstiem:
 
 - [Atskaišu veidošanas sākumlapa](../reports-reporting-dynamics-365-project-service.md)
 - [Informācijas paneļi](../reports-dashboards.md)
 - [Darbs ar Project Service Automation datu modeli](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Šis raksts tiks noņemts nākamajā dokumentācijas atjauninājumā. 
+> Šis raksts tiks noņemts turpmākā dokumentācijas atjauninājumā. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Fiksētas cenas ieņēmumu novērtējumu projekti
-description: Šajā rakstā sniegta informācija par fiksētas cenas ieņēmumiem projektos.
+description: Šajā rakstā ir sniegta informācija par fiksētas cenas ieņēmumiem projektos.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Izveidojot projekta līguma rindu ar tālāk norādītajiem atribūtiem Dynamics
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Fiksētas cenas ieņēmumu novērtējumu projektu pārskatīšana
 Lai pārskatītu fiksētas cenas ieņēmumu novērtējumu projektus, izpildiet tālāk norādītās darbības.
 
-1. Vidē Dynamics 365 Finance dodieties uz **Projektu vadība un grāmatvedība** > **Projekti** > **Fiksētas cenas ieņēmumu tāmes projekti**.
+1. Dynamics 365 Finance vidē pārejiet uz **Projektu pārvaldība un uzskaite** > **Projekti** > **Fiksētas cenas ieņēmumu novērtējumu projekti**.
 2. Atlasiet projektu, kuru vēlaties skatīt, un veiciet dubultklikšķi uz **Novērtējuma projekta ID**, lai atvērtu ierakstu un pārskatītu detalizētu informāciju par projektu.
 3. Izvērsiet cilni **Projekts**. Režģī **Atlasītie projekti** ir redzams viens projekts. Sistēma to izmanto kā noklusējuma projektu, jo šis projekts, ir saistīts ar projekta līguma rindu. 
 4. Lai mainītu šo piesaisti, atlasiet papildu projektus un pievienojiet tos režģī **Atlasītie projekti**. Ja šajā režģī ir atlasīti vairāki projekti, projekta pabeigšana procentos un ieņēmumu novērtējumi tiek aprēķināti kopā visiem atlasītajiem projektiem.

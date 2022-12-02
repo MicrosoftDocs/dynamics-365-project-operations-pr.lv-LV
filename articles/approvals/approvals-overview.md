@@ -1,6 +1,6 @@
 ---
 title: Apstiprinājumu pārskats
-description: Šajā rakstā ir sniegta informācija par darbu ar apstiprinājumiem projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par darbu ar apstiprinājumiem programmā Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

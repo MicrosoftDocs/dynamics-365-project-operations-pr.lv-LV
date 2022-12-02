@@ -1,6 +1,6 @@
 ---
 title: Laika ieraksta UI uzvedība
-description: Šajā rakstā ir sniegta informācija par laika ieraksta lietotāja interfeisa darbību.
+description: Šajā rakstā ir sniegta informācija par laika ieraksta UI uzvedību.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

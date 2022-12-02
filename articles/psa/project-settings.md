@@ -1,6 +1,6 @@
 ---
 title: Projekta iestatījumi
-description: Šajā rakstā ir sniegta informācija par projektu pārvaldības iestatījumiem.
+description: Šajā rakstā ir sniegta informācija par projekta pārvaldības iestatījumiem.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

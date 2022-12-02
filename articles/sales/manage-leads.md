@@ -1,6 +1,6 @@
 ---
 title: Interesentu pārvaldība
-description: Šajā rakstā ir sniegta informācija par projektu potenciālo klientu pārvaldību.
+description: Šajā rakstā ir sniegta informācija par projekta interesentu pārvaldību.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

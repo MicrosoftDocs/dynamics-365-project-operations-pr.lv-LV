@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation 3. versijā
-description: Šajā rakstā ir sniegta informācija par jaunumiem un izmaiņām projektu pakalpojumu automatizācijas 3. versijā.
+description: Šajā rakstā ir sniegta informācija par to, kas jauns un mainīts Project Service Automation 3. versijā.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926601"
 
 
 
-Šajā rakstā sniegta informācija par izmaiņām lietotāja interfeisā (UI), funkcionalitātē un terminoloģijā projektu pakalpojumu automatizācijā starp 2. versiju vai 1. versiju un 3. versiju.
+Šajā rakstā ir sniegta informācija par izmaiņām Project Service Automation lietotāja interfeisā (UI), funkcionalitātē un terminoloģijā starp 1. vai 2. versiju un 3. versiju.
 
 ## <a name="project-scheduling"></a>Projekta plānošana
 Projekta plāns, kas iepriekšējās versijās tika dēvēts par darba sadalījuma struktūru (WBS), ir pārdēvēts par plānu un ir pieejams, noklikšķinot uz cilnes **Plāns**. 
@@ -150,7 +150,7 @@ Ja resursam ir uzdevuma piešķires bez rezervācijām (rezervācijas deficīts)
 Šajā sadaļā ir sniegta informācija par laika, izdevumu un apstiprinājuma izmaiņām Project Service Automation 3. versijā. Kā daļa no Dynamics 365 Project Service Automation risinājuma, līdzeklis **Laika ieraksts** ir atsvaidzināts, lai gūtu labumu no vienotā interfeisa struktūras. Tas iespējo konsekventa, vienota lietotāja interfeisa nodrošināšanu, kas seko atsaucīgam dizainam optimālai skatīšanai jebkāda izmēra ekrānā vai ierīcē. 
 
 ### <a name="landing-page"></a>Reklāmas mērķlapa
-Nepaplašināmā pielāgotā laika ieraksta pieredze 3. versijā ir novecojusi. Tās vietā tagad ir paplašināma un pieejama vietējā režģa pieredze. Varat piekļūt laika ieraksta funkcionalitātei, izmantojot vietnes karti kreisajā pusē. Ar šo izmaiņu vairs nebūs iespējams katrā reizē ievadīt laiku nedēļai. Tā vietā ir jāizveido laika ieraksts katrai dienai režģī. Pēc dažu ierakstu izveides lietotāji var lielapjoma izveidot laika ierakstus ar **kopēšanas** funkciju, kas izskaidrota tālāk šajā rakstā. 
+Nepaplašināmā pielāgotā laika ieraksta pieredze 3. versijā ir novecojusi. Tās vietā tagad ir paplašināma un pieejama vietējā režģa pieredze. Varat piekļūt laika ieraksta funkcionalitātei, izmantojot vietnes karti kreisajā pusē. Ar šo izmaiņu vairs nebūs iespējams katrā reizē ievadīt laiku nedēļai. Tā vietā ir jāizveido laika ieraksts katrai dienai režģī. Pēc dažu laika ierakstu izveidošanas lietotāji var izveidot lielapjoma laika ierakstus, izmantojot funkciju **Kopēt**, kas paskaidrota šī raksta turpinājumā. 
 
 ![Laika ieraksta reklāmas mērķlapa.](media/time-entry-landing-page-07.png)
  

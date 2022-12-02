@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumu izmantošanas, cenu noteikšanas un norēķinu sākumlapa
-description: Šajā rakstā ir sniegta informācija par kotēšanu, cenu noteikšanu un norēķiniem.
+description: Šajā rakstā ir sniegta informācija par piedāvājumu izmantošanu, cenu noteikšanu un norēķiniem.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926739"
 
 Piedāvājumu izmantošana, cenu noteikšana un norēķini ir līdzekļi, ko izmanto gan mazas, gan lielas organizācijas. Izprotot, kā šie līdzekļi programmā darbojas, organizācijas var vienkāršāk pielāgot konfigurācijas.
 
-Šajos rakstos ir sniegta papildinformācija par kotēšanas, cenu noteikšanas un norēķinu funkcionalitāti PSA:
+Turpmāk uzskaitītajos rakstos ir sniegta plašāka informācija par piedāvājumu izmantošanas, cenu noteikšanas un norēķinu funkcionalitāti programmatūrā PSA.
 
 - [Pārdošanas process](basic-sales-process.md)
 - [Piedāvājuma rindas](basic-quote-lines.md)

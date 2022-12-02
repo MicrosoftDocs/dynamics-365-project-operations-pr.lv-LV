@@ -1,6 +1,6 @@
 ---
 title: Apakšlīguma rindas atskaites punkti
-description: Šajā rakstā ir paskaidrots, kā izveidot un uzturēt uz atskaites punktiem balstītu rēķinu grafiku apakšlīgumam ar kreditoru.
+description: Šajā rakstā ir izskaidrots, kā izveidot un uzturēt uz atskaites punktiem balstītu rēķinu izrakstīšanas grafiku apakšlīgumam ar piegādātāju.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

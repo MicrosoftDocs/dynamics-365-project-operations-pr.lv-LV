@@ -1,6 +1,6 @@
 ---
 title: Project Operations scenāriju, kas balstīti uz resursiem/bez krājumiem, izvietošanas pārskats
-description: Šajā rakstā ir sniegta informācija par izvietošanas tipu Projekta operācijas resursu/neuzkrātiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par izvietošanas veidu Project Operations scenārijiem, kas balstīti uz resursiem/bez krājumiem.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Izvietojuma veidam Dynamics 365 Project Operations scenārijiem, kas balstīti u
 - Projektu ieņēmumu atzīšana
 - Paplašināmība, lietojot Power Platform
 
-Šis izvietošanas tips nodrošina Dynamics 365 Finance un Dynamics 365 Supply Chain Management lietojumprogrammu nodrošinātās funkcionalitātes paplašinājumu.
+Šis izvietošanas tips sniedz paplašinājumu funkcionalitātei, ko nodrošina lietojumprogrammas Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 
 Šī izvietošana ir jāizvēlas, ja Project Operations paredz izmantot pilnu projekta dzīves ciklu, kas ietver šādas prasības:
 

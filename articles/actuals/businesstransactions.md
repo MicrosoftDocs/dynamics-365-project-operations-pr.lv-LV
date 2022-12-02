@@ -1,6 +1,6 @@
 ---
 title: 'Biznesa transakcijas šeit: Project Operations'
-description: Šajā rakstā sniegts pārskats par biznesa darījumu jēdzienu programmā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā sniegts pārskats par biznesa transakciju koncepciju programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -24,7 +24,7 @@ ms.locfileid: "8923289"
 
 _**Attiecas uz:** Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem, Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu_
 
-Programmā Microsoft Dynamics 365 Project Operations biznesa darījums *ir* abstrakts jēdziens, ko nepārstāv neviena entītija. Taču daži kopējie lauki un procesi entītijās ir izstrādāti biznesa transakciju koncepcijas izmantošanai. Šo abstrakciju izmanto tālāk norādītās entītijas.
+Programmā Microsoft Dynamics 365 Project Operations *biznesa transakcija* ir abstrakta koncepcija, ko nepārstāv neviena entītija. Taču daži kopējie lauki un procesi entītijās ir izstrādāti biznesa transakciju koncepcijas izmantošanai. Šo abstrakciju izmanto tālāk norādītās entītijas.
 
 - Piedāvājuma rindas detaļas
 - Līguma rindas detaļas
@@ -32,9 +32,9 @@ Programmā Microsoft Dynamics 365 Project Operations biznesa darījums *ir* abst
 - Žurnāla rindas
 - Faktiski
 
-No šīm entītijām piedāvājuma rindas detaļas, Līguma rindas detaļas un Novērtējuma rindas tiek kartētas uz *projekta dzīves cikla novērtēšanas fāzi*. Žurnāla rindas un faktiskās entītijas tiek kartētas uz *projekta dzīves cikla izpildes fāzi*.
+No šīm entītijām Piedāvājuma rindas informācija, Līguma rindas informācija un Aprēķinu rindas tiek kartētas uz projekta dzīves cikla *aprēķinu fāzi*. Entītijas Žurnāla rindas un Faktiskās entītijas tiek kartētas uz projekta dzīves cikla *izpildes fāzi*.
 
-Projekta operācijas visās piecās no šīm entītijām ierakstus uzskata par biznesa darījumiem. Vienīgā atšķirība ir tā, ka ieraksti entītijās, kas ir kartēti uz novērtēšanas fāzi (Detalizēta informācija par piedāvājuma rindu, Līguma rindas detaļas un Budžeta rindas), tiek uzskatīti par *finanšu prognozēm*, savukārt ieraksti entītijās, kas ir kartēti uz izpildes fāzi (Žurnāla rindas un Faktiskie), tiek uzskatīti par *finanšu faktiem*, kas jau ir notikuši.
+Project Operations ierakstus visās šajās piecās entītijās apstrādā kā biznesa transakcijas. Vienīgā atšķirība ir tāda, ka ieraksti entītijās, kas ir kartētas uz aprēķinu fāzi (piedāvājuma rindu informācija, līgumu rindu informācija un aprēķinu rindas), tiek uzskatīti par *finanšu prognozēm*, bet ieraksti entītijās, kas ir kartētas uz izpildes fāzi (žurnāla rindas un faktiskie dati), tiek uzskatīti par *finanšu faktiem*, kas jau ir notikuši.
 
 Papildinformāciju skatiet sadaļās [Novērtējumi](../project-management/estimating-projects-overview.md) un [Faktiskie dati](actuals-overview.md).
 
@@ -49,7 +49,7 @@ Biznesa transakciju koncepcijai ir unikālas tālāk norādītās koncepcijas.
 
 ### <a name="transaction-type"></a>Transakcijas tips
 
-Transakcijas tips norāda projekta finansiālās ietekmes laiku un kontekstu projektā. To definē opciju kopa projekta operācijās ir šādas atbalstītās vērtības:
+Transakcijas tips norāda projekta finansiālās ietekmes laiku un kontekstu projektā. To definē opciju kopa, kam programmā Project Operations ir tālāk norādītās atbalstītās vērtības.
 
 - izdevumi
 - Projekta līgums
@@ -60,7 +60,7 @@ Transakcijas tips norāda projekta finansiālās ietekmes laiku un kontekstu pro
 
 ### <a name="transaction-class"></a>Transakciju klase
 
-Transakciju klase norāda dažādus izmaksu tipus, kas rodas projektos. To definē opciju kopa projekta operācijās ir šādas atbalstītās vērtības:
+Transakciju klase norāda dažādus izmaksu tipus, kas rodas projektos. To definē opciju kopa, kam programmā Project Operations ir tālāk norādītās atbalstītās vērtības.
 
 - Laiks
 - Izdevumi
@@ -70,16 +70,16 @@ Transakciju klase norāda dažādus izmaksu tipus, kas rodas projektos. To defin
 - Nodoklis
 
 > [!NOTE]
-> **Atskaites punkta** vērtību parasti izmanto biznesa loģika fiksētas cenas norēķiniem projektu operācijās.
+> Vērtību **Atskaites punkts** parasti izmanto biznesa loģika fiksētas cenas norēķiniem programmā Project Operations.
 
 ### <a name="transaction-origin"></a>Transakcijas izcelsme
 
-Darījuma izcelsme ir entītija, kas saglabā katra biznesa darījuma izcelsmi, lai palīdzētu nodrošināt ziņošanu un izsekojamību. Sākoties projekta izpildei, katra biznesa darbība izveido citu biznesa transakciju, kas savukārt izveidos citu biznesa transakciju utt.
+Transakcijas izcelsme ir entītija, kas saglabā katras biznesa transakcijas izcelsmes vietu, lai palīdzētu veidot pārskatus un veikt izsekošanu. Kad tiek sākta projekta izpilde, katra biznesa transakcija izveido vēl vienu biznesa transakciju, kas savukārt izveido vēl vienu biznesa transakciju un tā tālāk.
 
 ### <a name="transaction-connection"></a>Transakcijas savienojums
 
-Transakcijas savienojums ir entītija, kas saglabā saistību starp divām līdzīgām biznesa darbībām, piemēram, izmaksām un saistītajām pārdošanas faktiskajām darbībām vai darbību anulēšanu, ko izraisa norēķinu darbības, piemēram, rēķina apstiprinājums vai rēķinu labojumi.
+Transakcijas savienojums ir entītija, kas glabā attiecības starp divām līdzīgām biznesa transakcijām, piemēram, izmaksām un saistītajiem pārdošanas faktiskajiem datiem vai transakciju anulēšanu, ko izraisa tādas norēķinu darbības kā rēķina apstiprinājums vai rēķina labojumi.
 
-Kopā transakcijas izcelsme un transakciju savienojuma entītijas palīdz izsekot attiecībām starp biznesa darījumiem un darbībām, kuru dēļ tika izveidota noteikta biznesa darbība.
+Kopā entītijas Transakcijas izcelsme un Transakcijas savienojums palīdz izsekot relācijas starp biznesa transakcijām un darbībām, kas izraisa noteiktas biznesa transakcijas izveidi.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

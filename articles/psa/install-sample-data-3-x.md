@@ -1,6 +1,6 @@
 ---
 title: Parauga datu instalācija
-description: Šajā rakstā sniegta informācija par datu parauga instalēšanu projektu pakalpojumu automatizācijā.
+description: Šajā rakstā ir sniegta informācija par datu parauga instalēšanu pakalpojumā Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

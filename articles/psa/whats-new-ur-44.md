@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 44, V3
-description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami atjaunināšanas laidienā Microsoft Dynamics 365 Project Service Automation 44, V3.
+description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas pieejami Microsoft Dynamics 365 Project Service Automation 44. atjauninājumu laidienā, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/26/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8918689"
 
 Ar prieku izziņojam jaunāko programmas Microsoft Dynamics 365 Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Tas ir saderīgs ar Dynamics 365 9.x. Lai atjauninātu šo laidienu, apmeklējiet Dynamics 365 tiešsaistes risinājumu lapas administrēšanas centru un instalējiet atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
-Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti projektu pakalpojumu automatizācijas atjaunināšanas laidienam 44, V3. Šīs versijas būvējuma numurs ir V3.10.75.142, un tas parasti ir pieejams, izmantojot 2022. gada jūnija pašatjauninājumu.
+Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation, atjauninājuma izlaidumā 44, V3. Šīs versijas būvējuma numurs ir V3.10.75.142, un tas parasti ir pieejams, izmantojot 2022. gada jūnija pašatjauninājumu.
 
 ## <a name="update-release-44"></a>Atjauninājumu izlaidums 44
 
@@ -39,4 +39,4 @@ Ir novērstas tālāk norādītās problēmas.
 
 **Laiks un izdevumi**
 
-- Novēloti sistēmas uzdevumi neļāva apstrādāt gaidošos apstiprinājumus.
+- Aizkavēti sistēmas uzdevumi neļāva apstrādāt gaidošos apstiprinājumus.

@@ -1,6 +1,6 @@
 ---
 title: Projekta tāmes likvidēšana
-description: Šajā rakstā sniegta informācija par projekta tāmes likvidēšanu pēc tās pabeigšanas.
+description: Šajā rakstā ir sniegta informācija par projekta tāmes likvidēšanu pēc tā pabeigšanas.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

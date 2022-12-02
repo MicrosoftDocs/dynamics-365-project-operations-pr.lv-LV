@@ -48,11 +48,11 @@ Jūsu resursi var izmantot programmu Project Finder Mobile savā telefonā ar [!
   
 4. Iestatiet **Atļaut resursam prasmju atjaunināšanu** kā **Jā**.  
   
-   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Šis ir globāls iestatījums. Projektu vadītāji var iestatīt, vai atsevišķs projektu būs redzamas tā projekta lapā **Projekta darba grupa**.  
   
-   ![ProjectService&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>E-pasta paziņojumi  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sūta e-pasta vēstules attiecībā uz resursu pieprasījumiem šādiem adresātiem šādos laikos.  

@@ -1,6 +1,6 @@
 ---
 title: Resursu vajadzību izpilde
-description: Šajā rakstā sniegta informācija par to, kā izpildīt resursu prasības.
+description: Šajā rakstā ir sniegta informācija par to, kā izpildīt resursu vajadzības.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

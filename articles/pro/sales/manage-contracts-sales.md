@@ -1,6 +1,6 @@
 ---
 title: Projekta līgumu pārvaldīšana
-description: Šajā rakstā sniegta informācija par projektu līgumu skatīšanos.
+description: Šajā rakstā ir sniegta informācija par projekta līgumu skatīšanu.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Visu projekta līgumu sarakstu var skatīt lapā **Līgumi**.
 Līgumus var izveidot vai izdzēst no šīs saraksta lapas vai detalizētās lapas.
 
 > [!NOTE]
-> Līgumus, kuriem ir saistīti projekti, uzdevumi, novērtējumi, žurnāli un/vai faktiskie dokumenti, nevar dzēst. 
+> Līgumus, kam ir piesaistīti projekti, uzdevumi, aprēķini, un/vai faktiskās vērtības, nevar dzēst. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

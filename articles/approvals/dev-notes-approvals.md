@@ -1,6 +1,6 @@
 ---
 title: Izstrādātāja piezīmes par apstiprinājumiem
-description: Šajā rakstā sniegta papildinformācija izstrādātājiem par darbu ar apstiprinājumiem.
+description: Šajā rakstā ir sniegta papildu izstrādātāja informācija par darbu ar apstiprinājumiem.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Iestatīt darba rēķinu likmes — Lite
-description: Šajā rakstā sniegta informācija par darbaspēka norēķinu likmju iestatīšanu projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par darba norēķinu likmju iestatīšanu risinājumā Project Operations.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Cenas noteikšanas dimensijas izslēgšana
-description: Šajā rakstā parādīts, kā iestatīt cenu dimensijas projektu pakalpojuma risinājumā.
+description: Šajā rakstā ir parādīts, kā Project Service risinājumā iestatīt cenu noteikšanas dimensijas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

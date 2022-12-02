@@ -1,6 +1,6 @@
 ---
 title: Kas jauns vai mainīts Project Service Automation atjauninājumu izlaidumā 39, V3
-description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir pieejami atjaunināšanas laidienā Microsoft Dynamics 365 Project Service Automation 39, V3.
+description: Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas pieejami Microsoft Dynamics 365 Project Service Automation 39. atjauninājumu laidienā, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/20/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8922461"
 
 Ar prieku izziņojam jaunāko programmas Microsoft Dynamics 365 Project Service Automation atjauninājumu. Šajā laidienā ir ietverti daži svarīgi uzlabojumi attiecībā uz kvalitāti, veiktspēju un lietojamību. Tas ir saderīgs ar Dynamics 365 9.x. Lai atjauninātu šo laidienu, apmeklējiet Dynamics 365 tiešsaistes risinājumu lapas administrēšanas centru un instalējiet atjauninājumu. Lai iegūtu papildinformācijum, skatiet [Vēlamā risinājuma instalēšana, atjaunināšana vai noņemšana](/power-platform/admin/install-remove-preferred-solution).
 
-Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti projektu pakalpojumu automatizācijas atjaunināšanas laidienam 39, V3. Šai versijai ir būvēšanas numurs V3.10.60.170, un tā parasti ir pieejama, izmantojot pašreklāmu 2022. gada janvārī.
+Šajā rakstā ir uzskaitīti līdzekļi un labojumi, kas ir jauni vai mainīti Project Service Automation, atjauninājuma izlaidumā 39, V3. Šīs versijas būvējuma numurs ir V3.10.60.170, un tas parasti ir pieejams, izmantojot 2022. gada janvāra pašatjauninājumu.
 
 ## <a name="update-release-39"></a>Atjauninājumu izlaidums 39
 
@@ -39,14 +39,14 @@ Ir novērstas tālāk norādītās problēmas.
 
 **VispārīgI**
 
-- Ir veikti vairāki uzlabojumi arābu valodas tulkošanas vietnes kartē.
+- Ir veikti vairāki uzlabojumi vietnes kartē arābu valodas tulkojumā.
 
 **Projekta pārvaldība**
 
-- Kļūda rodas, mainot projekta vadītāju uz lietotāju, kurš jau ir projekta grupas dalībnieks.
+- Rodas kļūda, mainot projekta vadītāju uz lietotāju, kurš jau ir projekta darba grupas dalībnieks.
 
 **Pārdošana**
 
-- Projekta līguma cenrāža **īpašnieks** nav pareizs, ja cenrādis tiek izveidots automātiski. 
-- Cenrāža datuma efektivitāte netiek ievērota, ja cenrādis tiek lietots projekta parametram.
-- Līgumslēdzējai vienībai, rediģējot divus atsevišķus piedāvājumus, var nebūt pareizās noklusējuma vērtības.
+- Vienuma **Projekta līguma cenrādis** īpašnieks nav pareizs, kad cenrādis tiek izveidots automātiski. 
+- Cenrāža datuma spēkā esamība netiek ņemta vērā, kad cenrādis tiek lietots projekta parametram.
+- Līgumslēdzējai vienībai var nebūt pareizās noklusējuma vērtības, rediģējot divus atsevišķus piedāvājumus.

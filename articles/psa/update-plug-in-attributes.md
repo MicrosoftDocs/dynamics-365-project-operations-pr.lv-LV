@@ -1,6 +1,6 @@
 ---
 title: Spraudņu atribūtu atjaunināšana, lai iekļautu jaunas cenu noteikšanas dimensijas
-description: Šajā rakstā sniegta informācija par spraudņu atribūtu atjaunināšanu cenu dimensijām.
+description: Šajā rakstā ir sniegta informācija par to, kā atjaunināt spraudņu atribūtus cenu noteikšanas dimensijām.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913215"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Ja neizmantojat projektu pakalpojumu automatizācijas (PSA) citēšanas un līgumu slēgšanas līdzekļus, varat izlaist šo rakstu.
+> Ja neizmantojat Project Service Automation (PSA) piedāvājuma un līguma funkcijas, varat izlaist šo rakstu.
 
-Šajā rakstā tiek pieņemts, ka esat pabeidzis procedūras rakstos, [Izveidot pielāgotus laukus un entītijas](create-custom-fields-entities.md), [Pievienot pielāgotus laukus cenu iestatīšanai un transakciju entītijām](field-references.md) un [Iestatīt pielāgotus laukus kā cenu kategorijas](set-up-pricing-dimensions.md). Ja neesat pabeidzis šīs procedūras, atgriezieties un pabeidziet tās un pēc tam atgriezieties pie šī raksta.
+Šajā rakstā tiek pieņemts, ka esat pabeidzis procedūras, kas norādītas rakstos [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md), [Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām](field-references.md) un [Pielāgotu lauku kā cenu dimensiju iestatīšana](set-up-pricing-dimensions.md). Ja šīs procedūras neesat pabeidzis, atgriezieties un pabeidziet tās, un pēc tam atgriezieties pie šī raksta.
 
 Kad piedāvājuma rindas papildinformācija tiek izveidota **Piedāvājuma rindas** lapā projekta piedāvājuma rindai, sistēma fonā izveido divas aprēķinu rindas — vienu rindu izmaksu aprēķiniem pusei un vienu pārdošanas aprēķiniem. Tas pats attiecas uz projekta līguma rindām.
 

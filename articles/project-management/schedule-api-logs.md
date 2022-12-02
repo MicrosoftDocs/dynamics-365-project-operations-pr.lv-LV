@@ -1,6 +1,6 @@
 ---
 title: Projekta grafika žurnāli
-description: Šajā rakstā sniegta informācija un paraugi, kas palīdzēs izmantot projektu plānošanas žurnālus, lai izsekotu kļūmes, kas saistītas ar projektu plānošanas pakalpojumu un projektu plānošanas API.
+description: Šajā rakstā ir sniegta informācija un paraugi, kas palīdzēs jums izmantot Project Scheduling žurnālus, lai izsekotu ar projektu plānošanas pakalpojumu un projektu plānošanas API saistītām kļūmēm.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
@@ -15,88 +15,88 @@ ms.locfileid: "8923704"
 ---
 # <a name="project-scheduling-logs"></a>Projekta grafika žurnāli
 
-_**Attiecas uz:** Projekta operācijas resursu/neuzkrātiem scenārijiem, Lite izvietošana - darījums ar proformas rēķiniem_, _Projekts tīmeklim_
+_**Attiecas uz:** Project Operations resursu balstītiem / krājumu nebalstītiem scenārijiem, Lite izvietošana — darījums ar proformas rēķinu izrakstīšanu_ _Project for the Web_
 
-Microsoft Dynamics 365 Project Operations izmanto [Web programmu Project](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kā primāro plānošanas programmu. Tā vietā, lai izmantotu standarta Microsoft Dataverse tīmekļa lietojumprogrammu programmēšanas interfeisus (API), projekta operācijas izmanto jaunās projektu plānošanas API, lai izveidotu, atjauninātu un dzēstu projekta uzdevumus, resursu piešķires, uzdevumu atkarības, projektu grupas un projektu grupu dalībniekus. Tomēr, ja darba sadalījuma struktūras (WBS) entītijām tiek programmatiski palaistas izveides, atjaunināšanas vai dzēšanas operācijas, var rasties kļūdas. Lai izsekotu šīs kļūdas un operāciju vēsturi, ir ieviesti divi jauni administratīvie žurnāli: **Operāciju kopa** un **Projektu plānošanas pakalpojums (PSS)**. Lai piekļūtu šiem žurnāliem, dodieties uz **Iestatījumu** \> **grafika integrācija.**
+Microsoft Dynamics 365 Project Operations izmanto [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kā galveno plānošanas programmu. Tā vietā, lai lietotu standarta Microsoft Dataverse tīmekļa programmu programmēšanas saskarnes (API), Project Operations izmanto jaunu projektu plānošanas API, lai izveidotu, jauninātu un dzēstu projektu uzdevumus, resursu piešķīrumus, uzdevumu atkarības, projektu intervālus un projekta darba grupas dalībniekus. Taču, ja izveides, jaunināšanas vai dzēšanas darbības tiek programmiski palaistas darba sadalījuma struktūras (WBS) entitījās, var rasties kļūdas. Lai izsekotu šīm kļūdām un darbību vēsturei, ir ieviesti divi jauni administratīvie žurnāli: **Darbību kopa** un **Projekta plānošanas pakalpojums (PSS)**. Lai piekļūtu šiem žurnāliem, dodieties uz **Iestatījumi** \>**Plānotāja integrācija**.
 
-Šajā attēlā parādīts projektu plānošanas žurnālu datu modelis.
+Attēlā tālāk parādīts projektu plānošanas žurnālu datu modelis.
 
 ![Projektu plānošanas žurnālu datu modelis.](media/LOGDATAMODEL.jpg)
 
-## <a name="operation-set-log"></a>Operāciju kopas žurnāls
+## <a name="operation-set-log"></a>Darbību kopas žurnāls
 
-Operāciju kopas žurnāls izseko operāciju kopas izpildi, kas tiek izmantota, lai palaistu vienu vai vairākas izveides, atjaunināšanas vai dzēšanas operācijas paketē projektiem, projekta uzdevumiem, resursu piešķirēm, uzdevumu atkarībām, projektu grupām vai projekta grupas dalībniekiem. Laukā **Operācija statusā** ir norādīts operāciju kopas vispārējais statuss. Detalizēta informācija par operāciju kopas derīgo kravu tiek uztverta saistītajos operāciju kopas detalizētās informācijas ierakstos.
+Darbību kopas žurnāls izsekot darbību kopas izpildei, kas tiek izmantota, lai palaistu vienu vai vairākas izveides, jaunināšanas vai dzēšanas darbības projektu partijā, projekta uzdevumos, resursu piešķīrumos, uzdevumu atkarībās, projektu intervālos vai projekta darba grupas dalībniekiem. Laukā **Darbības statuss** tiek rādīts darbību kopas vispārējais statuss. Darbību kopas slodzes informācija tiek tverta attiecīgajos Operāciju kopas informācijas ierakstos.
 
-### <a name="operation-set"></a>Operāciju kopa
+### <a name="operation-set"></a>Darbību kopa
 
-Šajā tabulā parādīti lauki, kas ir saistīti ar entītiju Operāciju **kopa**.
+Tabulā tālāk parādīti lauki, kas ir saistīti ar entitīju **Darbību kopa**.
 
 | Shēmas nosaukums            | Apraksts                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
-| msdyn_completedon     | Operācijas kopas pabeigšanas vai neizdevās datums/laiks.                                                | CompletedOn            |
-| msdyn_correlationid   | Pieprasījuma **korelācijas Id** vērtība.                                                                  | CorrelationId          |
-| msdyn_description     | Operāciju kopas apraksts.                                                                        | Apraksts            |
-| msdyn_executedon      | Ieraksta izpildes datums/laiks.                                                                       | Izpildes laiks            |
-| msdyn_operationsetId  | Entītiju instanču unikālais identifikators.                                                                   | OperationSet           |
-| msdyn_Project         | Projekts, kas ir saistīts ar operāciju kopu.                                                            | Project                |
+| msdyn_completedon     | Datums/laiks, kad darbību kopa tika pabeigta vai tās pabeigšana neizdevās.                                                | CompletedOn            |
+| msdyn_correlationid   | Pieprasījuma **correlationId** vērtība.                                                                  | CorrelationId          |
+| msdyn_description     | Darbību kopas apraksts.                                                                        | Apraksts            |
+| msdyn_executedon      | Ieraksta palaišanas datums/laiks.                                                                       | Izpildes laiks            |
+| msdyn_operationsetId  | Entitījas instanču unikālais identifikators.                                                                   | OperationSet           |
+| msdyn_Project         | Ar darbību kopu saistītais projekts.                                                            | Project                |
 | msdyn_projectid       | Pieprasījuma **projectId** vērtība.                                                                      | ProjectId (novecojis) |
 | msdyn_projectName     | Nav lietojams.                                                                                              | Nav piemērojams         |
-| msdyn_PSSErrorLog     | Ar operāciju kopu saistītā projektu plānošanas pakalpojuma kļūdu žurnāla unikālais identifikators. | PSS kļūdu žurnāls          |
+| msdyn_PSSErrorLog     | Project Scheduling Service kļūdu žurnāla unikālais identifikators, kas ir saistīts ar darbību kopu. | PSS kļūdu žurnāls          |
 | msdyn_PSSErrorLogName | Nav lietojams.                                                                                              | Nav piemērojams         |
-| msdyn_status          | Operāciju kopas statuss.                                                                             | Statuss                 |
+| msdyn_status          | Darbību kopas statuss.                                                                             | Statuss                 |
 | msdyn_statusName      | Nav lietojams.                                                                                              | Nav piemērojams         |
-| msdyn_useraadid       | Tā Azure Active Directory lietotāja (Azure AD) objekta ID, kuram pieder pieprasījums.                     | UserAADID              |
+| msdyn_useraadid       | Azure Active Directory (Azure AD) objekta ID lietotājam, kam pieder pieprasījums.                     | UserAADID              |
 
-### <a name="operation-set-detail"></a>Operāciju kopas detalizētā informācija
+### <a name="operation-set-detail"></a>Darbību kopas informācija
 
-Šajā tabulā ir parādīti lauki, kas ir saistīti ar entītiju Operāciju **kopas detaļas**.
+Tabulā tālāk parādīti lauki, kas ir saistīti ar entitīju **Darbību kopas informācija**.
 
 | Shēmas nosaukums                 | Apraksts                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Pieprasījuma serializētie Dataverse lauki.                                            | CdsPayload            |
-| msdyn_entityname           | Pieprasījuma entītijas nosaukums.                                                     | EntityName            |
+| msdyn_cdspayload           | Serializēti Dataverse lauki pieprasījumam.                                            | CdsPayload            |
+| msdyn_entityname           | Entītijas nosaukums šim pieprasījumam.                                                     | EntityName            |
 | msdyn_httpverb             | Pieprasījuma metode.                                                                         | HTTP darbības vārds (novecojis) |
 | msdyn_httpverbName         | Nav lietojams.                                                                             | Nav piemērojams        |
-| msdyn_operationset         | Tās operācijas kopas unikālais identifikators, kurai pieder ieraksts.                      | OperationSet          |
-| msdyn_operationsetdetailId | Entītiju instanču unikālais identifikators.                                                  | OperationSet detalizētā informācija   |
+| msdyn_operationset         | Tās darbību kopas unikālais identifikators, kam pieder šis ieraksts.                      | OperationSet          |
+| msdyn_operationsetdetailId | Entitījas instanču unikālais identifikators.                                                  | OperationSet detalizētā informācija   |
 | msdyn_operationsetName     | Nav lietojams.                                                                             | Nav piemērojams        |
-| msdyn_operationtype        | Operācijas kopas detalizētās informācijas operācijas tips.                                             | OperationType         |
+| msdyn_operationtype        | Darbību kopas detalizētās informācijas darbības tips.                                             | OperationType         |
 | msdyn_operationtypeName    | Nav lietojams.                                                                             | Nav piemērojams        |
-| msdyn_psspayload           | Pieprasījuma serializētie projektu plānošanas pakalpojuma lauki.                           | PssPayload            |
+| msdyn_psspayload           | Pieprasījumam serializētie projektu plānošanas pakalpojuma lauki.                           | PssPayload            |
 | msdyn_recordid             | Pieprasījuma ieraksta identifikators.                                                       | Ieraksta ID             |
-| msdyn_requestnumber        | Automātiski ģenerēts numurs, kas identificē pasūtījumu, kurā tika saņemti pieprasījumi. | Pieprasījuma numurs        |
+| msdyn_requestnumber        | Automātiski ģenerēts numurs, ko izmanto, lai identificētu pasūtījumu, kurā pieprasījumi tiek saņemti | Pieprasījuma numurs        |
 
-## <a name="project-scheduling-service-error-logs"></a>Projektu plānošanas pakalpojuma kļūdu žurnāli
+## <a name="project-scheduling-service-error-logs"></a>Project Scheduling Service kļūdu žurnāli
 
-Projekta plānošanas pakalpojuma kļūda reģistrē tveršanas kļūmes, kas rodas, kad projektu plānošanas pakalpojums izmēģina saglabāšanas **vai** atvēršanas **operāciju**. Ir trīs atbalstīti scenāriji, kuros tiek ģenerēti šie žurnāli:
+Project Scheduling Service kļūdu žurnālos tiek tvertas kļūdas, kas radušās, Project Scheduling Service mēģinot **Saglabāt** vai **Atvērt** darbību. Šie žurnāli tiek izveidoti trijos atbalstītos scenārijos:
 
-- Lietotāja iniciētās darbības kritiski neizdodas (piemēram, piešķiri nevar izveidot trūkstošo atļauju dēļ).
-- Projektu plānošanas pakalpojums entītijai nevar programmatiski izveidot, atjaunināt, dzēst vai veikt nevienu citu kaskadētu operāciju.
-- Ja neizdodas atvērt ierakstu, lietotājam rodas kļūdas (piemēram, atverot projektu vai atjauninot grupas dalībnieka informāciju).
+- Neizdodas lietotāja ierosinātas darbības (piemēram, nav iespējams piešķirt uzdevumu, jo trūkst privilēģiju).
+- Project Scheduling Service nevar programmiski izveidot, jaunināt, dzēst entitīju vai veikt citas kaskadēšanas darbības.
+- Lietotājam rodas kļūdas, ja nevar atvērt ierakstu (piemēram, ja ir atvērts projekts vai ir atjaunināta informācija par darba grupas dalībnieku).
 
-### <a name="project-scheduling-service-log"></a>Projektu plānošanas pakalpojumu žurnāls
+### <a name="project-scheduling-service-log"></a>Project Scheduling Service žurnāls
 
-Šajā tabulā ir parādīti lauki, kas iekļauti projektu plānošanas pakalpojumu žurnālā.
+Tabulā parādīti lauki, kas iekļauti Project Scheduling Service žurnālā.
 
 | Shēmas nosaukums          | Apraksts                                                                    | DisplayName    |
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Izņēmuma izsaukuma steks.                                               | Izsaukuma steks     |
 | msdyn_correlationid | Kļūdas korelācijas ID.                                               | CorrelationId  |
-| msdyn_errorcode     | Lauks, kas tiek izmantots, lai saglabātu Dataverse kļūdas kodu vai HTTP kļūdas kodu. | Kļūdas kods     |
-| msdyn_HelpLink      | Saite uz publiskās palīdzības dokumentāciju.                                       | Palīdzības saite      |
-| msdyn_log           | Žurnālu no projekta plānošanas pakalpojuma.                                   | Žurnāls            |
-| msdyn_project       | Projekts, kas ir saistīts ar kļūdu žurnālu.                             | Project        |
-| msdyn_projectName   | Projekta nosaukums, ja operāciju kopas lietderīgā slodze tiks saglabāta. | Nav piemērojams |
-| msdyn_psserrorlogId | Entītiju instanču unikālais identifikators.                                     | PSS kļūdu žurnāls  |
-| msdyn_SessionId     | Projekta sesijas ID.                                                        | Sesijas ID     |
+| msdyn_errorcode     | Lauks, kas tiek izmantots Dataverse kļūdas koda vai HTTP kļūdas koda glabāšanas nolūkam. | Kļūdas kods     |
+| msdyn_HelpLink      | Publiskās palīdzības dokumentācijas saite.                                       | Palīdzības saite      |
+| msdyn_log           | Žurnāls no Project Scheduling Service.                                   | Žurnāls            |
+| msdyn_project       | Ar kļūdu žurnālu saistīts projekts.                             | Project        |
+| msdyn_projectName   | Projekta nosaukums, ja darbību kopas slodze tiek saglabāta. | Nav piemērojams |
+| msdyn_psserrorlogId | Entitījas instanču unikālais identifikators.                                     | PSS kļūdu žurnāls  |
+| msdyn_SessionId     | Projekta sesijas ID.                                                        | Sesijas ID     |
 
-## <a name="error-log-cleanup"></a>Kļūdu žurnāla tīrīšana
+## <a name="error-log-cleanup"></a>Kļūdu žurnāla notīrīšana
 
-Pēc noklusējuma gan projektu plānošanas pakalpojuma kļūdu žurnālus, gan operāciju kopas žurnālu var iztīrīt ik pēc 90 dienām. Visi ieraksti, kas ir vecāki par 90 dienām, tiks dzēsti. Tomēr, mainot msdyn_StateOperationSetAge **lauka** vērtību **lapā Projekta parametri**, administratori var pielāgot tīrīšanas diapazonu tā, lai tas būtu no 1 līdz 120 dienām. Ir pieejamas vairākas metodes šīs vērtības mainīšanai:
+Pēc noklusējuma gan Project Scheduling Service kļūdu žurnālus, gan operāciju kopas žurnālu var notīrīt ik pēc 90 dienām. Ieraksti, kas ir vecāki par 90 dienām, tiks dzēsti. Taču mainot lauka **msdyn_StateOperationSetAge** vērtību lapā **Projekta parametri**, administratori var regulēt tīrīšanas diapazonu, lai tas būtu no 1 līdz 120 dienām. Šīs vērtības mainīšanai ir pieejamas vairākas metodes:
 
-- Pielāgojiet entītiju **Projekta parametrs**, izveidojot pielāgotu lapu un pievienojot **lauku Novecojušu operāciju kopas vecums**.
-- Izmantojiet klienta kodu, kas izmanto WebApi programmatūras [izstrādes komplektu (SDK).](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord)
-- Izmantojiet pakalpojuma SDK kodu, kas modeļa vadītajās programmās izmanto metodi Xrm SDK **updateRecord** (klienta API atsauce). Power Apps ietver updateRecord **metodes aprakstu un atbalstītos** parametrus.
+- Pielāgojiet entitīju **Projekta parametrs**, izveidojot pielāgotu lapu un pievienojot lauku **Novecojušās darbību kopas vecums**.
+- Izmantojiet klienta kodu, kas lieto [WebApi programmatūŗas izstrādes komplektu (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
+- Izmantojiet Pakalpojuma SDK kodu, kas lieto Xrm SDK metodi **updateRecord** (klienta API atsauce) modeļa vadītās programmās. Power Apps ietver metodes **updateRecord** aprakstu un atbalstītos parametrus.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

@@ -1,6 +1,6 @@
 ---
 title: 2020. gada decembra jaunumi — Project Operations krājumu/ražošanas scenārijiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada decembra projektu operāciju laidienā uzkrātajiem/uz ražošanu balstītiem scenārijiem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada decembra laidienā Project Operations krājumu un ražošanas scenārijiem.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -20,7 +20,7 @@ _Attiecas uz: Project Operations krājumu/ražošanas scenārijiem_
 
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
-  - Projektu vadība un uzskaite Dynamics 365 Finance vides versijā 10.0.15
+  - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.15.
 
 ## <a name="quality-updates"></a>Kvalitātes atjauninājumi
 
@@ -139,7 +139,7 @@ _Attiecas uz: Project Operations krājumu/ražošanas scenārijiem_
 
 ## <a name="regulatory-updates"></a>Reglamentējoši atjauninājumi
 
-Informāciju par Dynamics 365 Finance regulatīvajiem atjauninājumiem skatiet rakstā [Regulatīvie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Vēl viens veids, kā uzzināt par regulatīviem atjauninājumiem, ir pieteikties pakalpojumā Lifecycle Services (LCS) un apskatīt plānotos regulatīvos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
+Informāciju par reglamentējošajiem atjauninājumiem programmā Dynamics 365 Finance skatiet sadaļā [Reglamentējošie atjauninājumi](/dynamics365/finance/localizations/regulatory-updates). Vēl viens veids, kā uzzināt par regulatīviem atjauninājumiem, ir pieteikties pakalpojumā Lifecycle Services (LCS) un apskatīt plānotos regulatīvos atjauninājumus, izmantojot problēmu meklēšanas rīku. Problēmu meklēšana ļauj meklēt pēc valsts, līdzekļa tipa un laidiena.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

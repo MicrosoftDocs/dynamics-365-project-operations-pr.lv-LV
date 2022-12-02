@@ -1,6 +1,6 @@
 ---
 title: Projekta piedāvājuma rindas aprēķināšana
-description: Šajā rakstā ir sniegta informācija par to, kā izveidot novērtējumu uz projektu balstīta piedāvājuma rindā.
+description: Šajā rakstā sniegta informācija par to, kā izveidot aprēķinu par projekta piedāvājuma rindu.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

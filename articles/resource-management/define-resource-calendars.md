@@ -1,6 +1,6 @@
 ---
 title: Resursu kalendāru definēšana
-description: Šajā rakstā sniegta informācija par to, kā definēt darba stundu kalendārus resursiem projekta operācijās.
+description: Šajā rakstā ir sniegta informācija par to, kā definēt darba stundu kalendāru resursiem risinājumā Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

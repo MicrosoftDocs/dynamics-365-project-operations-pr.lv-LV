@@ -1,6 +1,6 @@
 ---
 title: Plānošanas palīga pārskats
-description: Šajā rakstā sniegta informācija par darbu ar plānošanas palīgu resursu rezervēšanai.
+description: Šajā rakstā ir sniegta informācija par darbu ar plānošanas palīgu resursu rezervēšanai.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

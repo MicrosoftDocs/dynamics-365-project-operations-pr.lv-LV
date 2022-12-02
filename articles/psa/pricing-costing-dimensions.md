@@ -1,6 +1,6 @@
 ---
 title: Cenu un izmaksu noteikšanas dimensiju sākumlapa
-description: Šajā rakstā sniegts cenu dimensiju apskats.
+description: Šajā rakstā ir sniegts pārskats par cenu noteikšanas dimensijām.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Programma PSA tiek piegādāta ar cenu noteikšanas dimensiju noklusējuma kopu.
 > [!IMPORTANT]
 > Ja pirms PSA versijas 3 kā cenu noteikšanas dimensijas lietojāt lomas un organizācijas struktūrvienības standarta laukus, nekādas izmaiņas nebūs manāmas. Varat turpināt lietot programmu Project Service kā parasti. 
 
-Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas. Lai iegūtu papildinformāciju, skatiet tālāk sniegtos rakstus, tomēr ņemiet vērā, ka jums ir jāveic tālāk norādītajā secībā.
+Ja resursu cenu vai izmaksu noteikšana ir jāveic, izmantojot papildu atribūtus, varat izveidot pielāgotus laukus, entītijas un dimensijas. Lai iegūtu plašāku informāciju, skatiet tālāk norādītos rakstus, taču ņemiet vērā, ka šīs procedūras ir jāizpilda tālāk norādītajā secībā.
 
 - [Pielāgotu lauku un entītiju izveidošana](create-custom-fields-entities.md)
 - [Pielāgotu lauku pievienošana cenu iestatījumiem un transakciju entītijām](field-references.md)

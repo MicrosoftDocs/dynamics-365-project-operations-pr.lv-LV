@@ -1,6 +1,6 @@
 ---
 title: Rēķinu grafiki projekta piedāvājuma rindās
-description: Šajā rakstā sniegta informācija par rēķinu grafiku un atskaites punktu izveidi piedāvājuma rindām.
+description: Šajā rakstā ir sniegta informācija par rēķinu grafiku un atskaites punktu izveidi piedāvājuma rindām.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: 2021. gada aprīļa jaunumi — Project Operations Lite izvietošana
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations lite izvietošanas 2021. gada aprīļa laidienā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada aprīļa Project Operations Lite izvietošanas laidienam.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article

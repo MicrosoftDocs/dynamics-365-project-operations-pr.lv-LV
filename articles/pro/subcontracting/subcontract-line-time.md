@@ -1,6 +1,6 @@
 ---
 title: Apakšlīguma laika rindas
-description: Šajā rakstā ir paskaidrots, kā ierakstīt apakšuzņēmuma līgumu rindas uz laiku un reģistrēt laika iegādi no piegādātājiem.
+description: Šajā rakstā ir paskaidrots, kā reģistrēt apakšlīguma laika rindas un reģistrēt laika iegādi no pārdevējiem.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

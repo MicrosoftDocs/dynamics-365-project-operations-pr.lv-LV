@@ -1,6 +1,6 @@
 ---
 title: Projekta kopēšana
-description: Šajā rakstā sniegta informācija par projektu kopēšanu programmā Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par projektu kopēšanu programmā Microsoft Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
@@ -25,14 +25,14 @@ Izmantojot opciju Dynamics 365 Project Operations, varat ātri izveidot jaunus p
 - Projekta aprēķins
 - Projekta izmaksu aplēses
 - Projekta materiālu aprēķini
-- Projektu kontrolsaraksti
-- Projektu kausi
+- Projekta kontrolsaraksti
+- Projekta bloki
 
 ## <a name="project-properties"></a>Projekta rekvizīti
 
-Kad projekts tiek kopēts, tiek kopētas vērtības šajos laukos.
+Kopējot projektu, tiek kopētas šādu lauku vērtības.
 
-| Kolonna | Projekta operācijas neuzkrātie materiāli | Projekta operāciju Lite | Projekts tīmeklim |
+| Kolonna | Project Operations ārpus noliktavas materiāliem | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Nosaukums/vārds | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Apraksts | :heavy_check_mark: | :heavy_check_mark: | |
@@ -46,8 +46,8 @@ Kad projekts tiek kopēts, tiek kopētas vērtības šajos laukos.
 | Vispārējs projekta statuss | :heavy_check_mark: | :heavy_check_mark: | |
 | Komentāri | :heavy_check_mark: | :heavy_check_mark: | |
 | Aprēķini | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Prognozējamais sākuma datums</p><p><strong>Piezīme.:</strong> Šajā laukā ir norādīts datums, kad projekts ir izveidots no kopijas. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Plānotais beigu datums</p><p><strong>Piezīme.:</strong> Datums šajā laukā tiek koriģēts, pamatojoties uz jaunā projekta sākuma datumu, kas tika izveidots no kopijas.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Prognozējamais sākuma datums</p><p><strong>Piezīme.</strong> Šis lauks norāda paredzamo sākuma datumu, kad projekts tiek izveidots no kopijas. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Plānotais beigu datums</p><p><strong>Piezīme.</strong> Datums šajā laukā tiek pielāgots atkarībā no jaunā jeb no kopijas izveidotā projekta sākuma datuma.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Ieguldījums (stundas) | :heavy_check_mark: | :heavy_check_mark: | |
 | Novērtētās darba izmaksas | :heavy_check_mark: | :heavy_check_mark: | |
 | Novērtētās izdevumu izmaksas | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ Kad projekts tiek kopēts, tiek kopētas vērtības šajos laukos.
 
 ## <a name="work-breakdown-structure"></a>Darba sadalījuma struktūra
 
-Kopējot projektu, tiek kopēts visa ar resursu ielādētā darba sadalījuma struktūra. Nosauktie resursi tiek aizstāti ar vispārējiem resursiem. Ja nosauktajiem resursiem nav tāds pats darba laiks kā vispārējam resursam, grafiks tiks pārrēķināts un uzdevumu ilgums var mainīties.
+Kopējot projektu, tiek kopēts visa ar resursu ielādētā darba sadalījuma struktūra. Nosauktie resursi tiek aizstāti ar vispārējiem resursiem. Ja nosauktajiem resursiem nav tādas pašas darba stundas kā vispārējam resursam, grafiks tiks pārrēķināts, un var mainīties uzdevumu ilgums.
 
 ## <a name="project-team-members"></a>Projekta darba grupas dalībnieki
 
 Kad tiek kopēta projekta darba grupa no avota projekta, tiek kopēti vispārējie resursi. Arī vispārējo resursu piešķires tiek paturētas tādas, kādas tās bija avota projektā. Nosauktie resursi tiks konvertēti par vispārīgiem darba grupas dalībniekiem.
 
 > [!NOTE]
-> Grupas dalībnieki un uzdevumi netiek kopēti programmā Project for the Web.
+> Darba grupas dalībnieki un piešķīrumi netiek kopēti Project for the Web.
 
 ## <a name="estimates"></a>Aprēķini
 

@@ -1,6 +1,6 @@
 ---
 title: Vispārējo rezervējamo resursu piešķiršana uzdevumam un projekta darba grupai
-description: Šajā rakstā ir sniegta informācija par vispārīgu resursu rezervēšanu uzdevumiem un projektu grupām.
+description: Šajā rakstā ir sniegta informācija par vispārējo resursu rezervēšanu uzdevumiem un projektu darba grupām.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

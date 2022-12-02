@@ -1,6 +1,6 @@
 ---
 title: Cenrāžu deaktivēšana
-description: Šajā rakstā paskaidrots, kā deaktivizēt vai noņemt neizmantotos vai vecos cenrāžus.
+description: Šajā rakstā izskaidrots, kā deaktivizēt vai noņemt nelietotus vai vecus cenrāžus.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

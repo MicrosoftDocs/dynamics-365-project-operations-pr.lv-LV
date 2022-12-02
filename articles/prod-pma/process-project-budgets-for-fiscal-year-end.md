@@ -1,6 +1,6 @@
 ---
 title: Projekta budžeta pārcelšana finanšu gada beigās
-description: Šajā rakstā sniegta informācija par to, kā pārsūtīt atlikušās budžeta summas uz nākamajiem gadiem un izveidot detalizētu informāciju par budžeta reģistru.
+description: Šis raksts satur informāciju par to, kā pārnest atlikušās budžeta summas uz nākamajiem gadiem un izveidot budžeta reģistra detaļas.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

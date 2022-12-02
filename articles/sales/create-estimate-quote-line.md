@@ -1,6 +1,6 @@
 ---
 title: Izmaksu izveide piedāvājuma rindā
-description: Šajā rakstā sniegta informācija par to, kā izveidot novērtējumu projekta piedāvājuma rindā.
+description: Šajā rakstā sniegta informācija par to, kā izveidot aprēķinu par projekta piedāvājuma rindu.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

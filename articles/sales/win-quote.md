@@ -1,6 +1,6 @@
 ---
 title: Piedāvājuma aizvēršana
-description: Šajā rakstā sniegta informācija par piedāvājumu slēgšanu projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par piedāvājumu slēgšanu programmā Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

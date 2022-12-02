@@ -1,6 +1,6 @@
 ---
 title: Izdevumu pārskats
-description: Šajā rakstā sniegta informācija par izdevumu funkcionalitāti projekta operācijās.
+description: Šajā rakstā ir sniegta informācija par izdevumu funkcionalitāti risinājumā Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

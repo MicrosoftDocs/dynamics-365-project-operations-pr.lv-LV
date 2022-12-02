@@ -1,6 +1,6 @@
 ---
 title: Uz projektiem balstītas iespēju rindas
-description: Šajā rakstā sniegta informācija par darbu ar uz projektiem balstītām iespēju rindām.
+description: Šajā rakstā ir sniegta informācija par darbu ar iespēju rindām, kuras ir balstītas uz projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

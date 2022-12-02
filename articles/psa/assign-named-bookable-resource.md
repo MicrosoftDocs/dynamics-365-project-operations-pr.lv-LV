@@ -1,6 +1,6 @@
 ---
 title: Nosaukto rezervējamo resursu rezervēšana projekta darba grupai un uzdevumu piešķiršana
-description: Šajā rakstā ir sniegta informācija par to, kā rezervēt nosauktos resursus projektu grupām un piešķirt tos uzdevumiem.
+description: Šajā rakstā ir sniegta informācija par to, kā rezervēt nosauktos resursus projekta darba grupām un piešķirt tās uzdevumiem.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

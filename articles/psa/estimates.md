@@ -1,6 +1,6 @@
 ---
 title: Aprēķini
-description: Šajā rakstā sniegta informācija par aplēsēm programmā Dynamics 365 Project Service Automation.
+description: Šajā rakstā ir sniegta informācija par novērtējumiem risinājumā Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

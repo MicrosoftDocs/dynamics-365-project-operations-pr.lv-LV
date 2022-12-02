@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas norises pārskats
-description: Šajā rakstā sniegta informācija par pārdošanas pamatprocesiem.
+description: Šajā rakstā ir sniegta informācija par pamata pārdošanas procesiem.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

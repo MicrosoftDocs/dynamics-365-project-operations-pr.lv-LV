@@ -1,6 +1,6 @@
 ---
 title: Resursa piešķiršana uzdevumam
-description: Šajā rakstā ir sniegta informācija par to, kā uzdevumiem piešķirt resursus.
+description: Šajā rakstā ir sniegta informācija par to, kā piešķirt resursus uzdevumiem.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: 2021. gada augusta jaunumi — Project Operations Lite izvietošana
-description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations lite izvietošanas 2021. gada augusta laidienā.
+description: Šajā rakstā ir sniegta informācija par 2021. gada augustā pieejamajiem kvalitātes atjauninājumiem Project Operations Lite izvietošanai.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article

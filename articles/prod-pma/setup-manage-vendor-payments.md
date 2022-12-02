@@ -1,6 +1,6 @@
 ---
 title: Maksāt-kad-apmaksāts iestatīšana un izmantošana piegādātāja maksājumiem
-description: Šajā rakstā paskaidrots, kā izveidot apmaksas (PWP) nosacījumus, lai varētu atbrīvot daļējus kreditoru maksājumus, pamatojoties uz debitoru maksājumiem.
+description: Šajā rakstā ir paskaidrots, kā izveidot maksāt-kad-apmaksāts (PWP) nosacījumus, lai varētu atbrīvot daļējos piegādātāju maksājumus, pamatojoties uz klientu maksājumiem.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

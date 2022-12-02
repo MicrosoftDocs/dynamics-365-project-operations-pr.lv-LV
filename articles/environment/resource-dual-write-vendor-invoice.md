@@ -1,6 +1,6 @@
 ---
 title: Piegādātāja rēķina integrācija
-description: Šajā rakstā sniegta informācija par kreditoru rēķinu integrāciju projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par piegādātāju rēķinu integrāciju programmā Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -34,7 +34,7 @@ Programmā Project Operations ar projektiem saistītie piegādātāju rēķini t
      > [!NOTE]
      > Risinājumā Dataverse nav iespējams rediģēt piegādātāju rēķinu informāciju.
 
-Nodokļu apakšgrāmatas, kreditoru apakšgrāmatas un citi finanšu grāmatojumi tiek reģistrēti kā piemērojami Dynamics 365 Finance kad tiek grāmatots kreditora rēķins.
+Grāmatojot piegādātāja rēķinu, nodokļu apakšgrāmata, piegādātāju apakšgrāmata un citi finanšu reģistri tiek ierakstīti Dynamics 365 Finance atbilstoši piemērojamībai.
 
 ![Piegādātāja rēķina integrācija.](media/DW7VendorInvoice.png)
 

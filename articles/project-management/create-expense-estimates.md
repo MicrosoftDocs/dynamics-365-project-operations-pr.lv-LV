@@ -1,6 +1,6 @@
 ---
 title: Izdevumu finanšu aprēķini projektiem
-description: Šajā rakstā sniegta informācija par projektu izdevumu definēšanu vai aplēšēšanu.
+description: Šajā rakstā ir sniegta informācija par to, kā definēt vai aprēķināt projekta izdevumus.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

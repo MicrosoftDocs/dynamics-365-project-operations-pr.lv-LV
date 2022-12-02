@@ -1,6 +1,6 @@
 ---
 title: Starpuzņēmumu rēķinu izrakstīšanas konfigurēšana
-description: Šajā rakstā ir sniegta informācija un piemēri par starpuzņēmumu rēķinu konfigurēšanu projektiem.
+description: Šajā rakstā ir sniegta informācija un piemēri par starpuzņēmumu rēķinu izrakstīšanas konfigurēšanu projektiem.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ Tālāk sniegtajā piemērā Contoso Robotics USA (USPM) ir aizņēmuma juridis
 
 1. **Konfigurējiet starpuzņēmumu uzskaiti starp juridiskajām personām**. Katram aizņēmuma un aizdevuma juridisko personu pārim ir jābūt konfigurētam virsgrāmatas lapā [Starpuzņēmumu uzskaite](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. Programmā Dynamics 365 Finance dodieties uz **Virsgrāmatas** > **grāmatošanas iestatījumi** > **Starpuzņēmumu grāmatvedība**. Izveidojiet ierakstu, ievadot tajā tālāk norādīto informāciju.
+    1. Programmā Dynamics 365 Finance dodieties uz **Virsgrāmata** > **Grāmatošanas iestatīšana** > **Starpuzņēmumu uzskaite**. Izveidojiet ierakstu, ievadot tajā tālāk norādīto informāciju.
 
         - **Izveides uzņēmums** = **GBPM**
         - **Mērķa uzņēmums** = **USPM**

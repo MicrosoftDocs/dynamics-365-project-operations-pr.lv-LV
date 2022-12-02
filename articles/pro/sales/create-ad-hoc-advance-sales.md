@@ -1,6 +1,6 @@
 ---
 title: Ad hoc avansa izveide līgumā
-description: Šajā rakstā ir sniegta informācija par līguma avansa izveidi pēc vajadzības.
+description: Šajā rakstā ir sniegta informācija par līguma avansa izveidi pēc nepieciešamības.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

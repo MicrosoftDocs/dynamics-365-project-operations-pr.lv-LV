@@ -1,6 +1,6 @@
 ---
 title: PRECES
-description: Šajā rakstā ir sniegta informācija par produktu katalogu, ko var izmantot, lai klientiem sniegtu informāciju par produktiem un jūsu organizācijas piedāvātajām cenām.
+description: Šajā rakstā sniegta informācija par produktu katalogu, kuru varat izmantot, lai klientiem sniegtu informāciju par jūsu organizācijas piedāvātajiem produktiem un cenām.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

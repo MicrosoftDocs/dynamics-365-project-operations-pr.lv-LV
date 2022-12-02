@@ -1,6 +1,6 @@
 ---
 title: Projektu un uzdevumu kartēšana par projekta piedāvājuma rindu
-description: Šajā rakstā ir sniegta informācija par to, kā kartēt projektus un uzdevumus uz uzdevumu rindu, kuras pamatā ir projekts.
+description: Šajā rakstā ir sniegta informācija par to, kā kartēt projektus un uzdevumus uz projekta uzdevuma rindu.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Produktu izmaksu aprēķina līgumu rindas — Lite
-description: Šajā rakstā ir sniegta informācija par
+description: Šajā rakstā ir sniegta informācija par izveidi
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

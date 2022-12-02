@@ -1,6 +1,6 @@
 ---
 title: 2021. gada septembra jaunumi — Project Operations resursu balstītiem/krājumu nebalstītiem scenārijiem
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2021. gada septembra projekta operāciju laidienā resursu/neuzkrātu scenāriju gadījumā.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas ir pieejami Project Operations Lite izvietošanas 2021. gada septembra izlaiduma ietvaros par resursu balstītiem/krājumu nebalstītiem scenārijiem.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -21,7 +21,7 @@ ms.locfileid: "8923381"
 Šis raksts attiecas uz šādiem Dynamics 365 Project Operations komponentiem un versijām:
 
    - Project Operations Microsoft Dataverse vides versijā 4.14.0.99.
-   - Projektu vadība un grāmatvedība Dynamics 365 Finance vides versijā 10.0.20.
+   - Projektu pārvaldība un uzskaite Dynamics 365 Finance vides versijā 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations duālās rakstīšanas karšu atjauninājumi
 
@@ -45,7 +45,7 @@ Ja startējot karti rodas problēma, tad sekojiet instrukcijām [Trūkstošo tab
 | Cenu noteikšana un norēķini | 2385802 | Novērsta kļūda, kas rodas ar negatīvām faktiskajām stundām, kad tiek atsvaidzinātas projekta kopsummas. |
 | Cenu noteikšana un norēķini | 2389675 | Uzlabota proformas rēķina apstiprinājuma uzvedība. Ilgtermiņa uzdevuma entītijai ir jāņem vērā darbība, kas ir nepieciešama, lai ierakstītu grāmatvedības apstiprinājuma rezultātus. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektu vadība un grāmatvedība Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektu pārvaldība un uzskaite programmā Dynamics 365 Finance
 
 | Līdzekļu apgabals | Atsauces numurs | Kvalitātes atjauninājums |
 | --- | --- | --- |

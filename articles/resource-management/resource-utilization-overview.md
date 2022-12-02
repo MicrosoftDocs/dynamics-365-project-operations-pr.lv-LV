@@ -1,6 +1,6 @@
 ---
 title: Resursu lietojamības pārskats
-description: Šajā rakstā sniegta informācija par resursu izmantošanu projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par resursu lietojumu risinājumā Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Kāpēc nevar izdzēst ierakstus no faktisko entītijas?
-description: Šajā rakstā ir sniegta informācija par to, kāpēc nevarat dzēst ierakstus no entītijas Actuals.
+description: Šajā rakstā ir sniegta informācija par to, kāpēc nevar izdzēst ierakstus no faktisko entītijas.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Materiālu izmaksu un pārdošanas likmju iestatīšana
-description: Šajā rakstā sniegta informācija par to, kā iestatīt projektos izmantoto materiālu izmaksu un pārdošanas likmes.
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt projektu materiālos izmantoto izmaksu un pārdošanas kursus.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Lai iestatītu produktiem izmaksu un pārdošanas kursus, veiciet šādas darbī
 2. Lapas **Cenrāža elementi** apakšrežģa izvēlnē atlasiet **Jauns cenrāža elements**. 
 3. Lapā **Ātrā izveide** ievadiet produktu un vienību, par kuru veidojat jauno cenu.
 
-Papildinformāciju par to, kā definēt kataloga preču cenas, skatiet rakstā Preču cenu definēšana [ar cenrāžiem un cenrāža elementiem](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products), kā [arī decimāldaļas precizitāte valūtā un izcenojumos](/dynamics365/sales/decimal-precision-currency-pricing).
+Papildinformāciju par kataloga elementu cenu definēšanu skatiet sadaļā [Cenu noteikšana ar cenrāžiem un cenrāžu elementiem](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) un [Valūtas un cenu noapaļošanas precizitāte](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations neatbalsta visas produktu cenu noteikšanas metodes kā Dynamics 365 Sales. Vienīgā cenu noteikšanas metode, kas tiek atbalstīta projektos izmantojamiem produktiem, ir *Valūtas summa*.
+> Dynamics 365 Project Operations neatbalsta visas preču cenu noteikšanas metodes kā Dynamics 365 Sales. Vienīgā cenu noteikšanas metode, kas tiek atbalstīta izmantošanai projektos, ir *Valūtas summa*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

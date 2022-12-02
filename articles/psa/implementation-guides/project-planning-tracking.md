@@ -1,6 +1,6 @@
 ---
 title: Projektu plānošana un izsekošana
-description: Šajā rakstā ir sniegta saite uz informāciju par plānošanu un izsekošanu projektu pakalpojumu automatizācijā.
+description: Šajā rakstā ir saite uz informāciju par plānošanu un izsekošanu programmatūrā Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933271"
 
 Programma Project Service palīdz apkalpošanas organizācijām identificēt iespējas, iesniegt piedāvājumus, panākt līgumu noslēgšanu, pārvaldīt resursus, sekot līdzi laikam un izdevumiem, izrakstīt klientiem rēķinus un izpildīt projektus savlaicīgi un budžeta ietvaros. 
 
-Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz šādiem rakstiem:
+PDF saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz tālāk uzskaitītajiem rakstiem:
 
 - [Projektu grafiki](../project-creating.md)
 - [Projekta izmaksas un ieņēmumi](../project-estimating.md)
@@ -43,7 +43,7 @@ Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārviet
 - [Projekta iestatījumi](../project-settings.md)
 
 > [!NOTE]
-> Šis raksts tiks noņemts nākamajā dokumentācijas atjauninājumā. 
+> Šis raksts tiks noņemts turpmākā dokumentācijas atjauninājumā. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

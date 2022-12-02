@@ -1,6 +1,6 @@
 ---
 title: Jaunumi 2020. gada novembrī — Project Operations Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu
-description: Šajā rakstā sniegta informācija par kvalitātes atjauninājumiem, kas pieejami Project Operations Lite izvietošanas 2020. gada novembra laidienā - darījums ar proforma rēķiniem.
+description: Šajā rakstā ir sniegta informācija par kvalitātes atjauninājumiem, kas pieejami 2020. gada novembra Project Operations Lite izvietošanas laidienā — darbs ar pro forma rēķiniem.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

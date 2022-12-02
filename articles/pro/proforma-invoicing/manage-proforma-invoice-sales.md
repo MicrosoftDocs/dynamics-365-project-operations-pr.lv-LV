@@ -1,6 +1,6 @@
 ---
 title: Pro formas projekta rēķina pārvaldība
-description: Šajā rakstā sniegta informācija par to, kā strādāt ar proforma projektu rēķiniem.
+description: Šajā rakstā ir sniegta informācija par pro forma rēķiniem.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

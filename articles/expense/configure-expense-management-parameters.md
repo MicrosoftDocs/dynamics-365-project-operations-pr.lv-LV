@@ -1,6 +1,6 @@
 ---
 title: Izdevumu pārvaldības parametru konfigurēšana
-description: Šajā rakstā ir aprakstīti parametri, kas kontrolē vispārējo darbību izdevumu pārvaldībā.
+description: Šajā rakstā ir aprakstīti parametri, kas kontrolē Izmaksu pārvaldības vispārējo darbību.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931477"
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Šajā rakstā ir aprakstīti parametri, kas kontrolē vispārējo darbību izdevumu pārvaldībā.
+Šajā rakstā ir aprakstīti parametri, kas kontrolē Izmaksu pārvaldības vispārējo darbību.
 
 ## <a name="general"></a>VispārīgI
 

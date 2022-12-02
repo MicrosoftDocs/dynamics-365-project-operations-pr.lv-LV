@@ -1,6 +1,6 @@
 ---
 title: Rezervāciju rediģēšana
-description: Šajā rakstā ir sniegta informācija par to, kā atjaunināt un veikt izmaiņas rezervācijās.
+description: Šajā rakstā ir sniegta informācija par to, kā atjaunināt un veikt rezervāciju izmaiņas.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915239"
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
 
-Ja projektā rodas izmaiņas, kuru dēļ jums ir jāatjaunina esošās rezervācijas, ir vairāki veidi, kādos veikt izmaiņas. Šajā rakstā ir izklāstīts, kā atjaunināt un veikt izmaiņas rezervācijās.
+Ja projektā rodas izmaiņas, kuru dēļ jums ir jāatjaunina esošās rezervācijas, ir vairāki veidi, kādos veikt izmaiņas. Šajā rakstā izklāstīts, kā atjaunināt un veikt rezervāciju izmaiņas.
 
 ## <a name="resource-reconciliation"></a>Resursu saskaņošana
 

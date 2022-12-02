@@ -1,6 +1,6 @@
 ---
 title: Projekta izmaksu uzskaite
-description: Šajā rakstā ir sniegta informācija par to, kā projekta operācijas seko progresam attiecībā pret darbaspēka izmaksām un tēriņiem projektam.
+description: Šajā rakstā ir sniegta informācija par to, kā Project Operations tiek izsekota norise attiecībā pret darba izmaksām un projekta vajadzībām.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

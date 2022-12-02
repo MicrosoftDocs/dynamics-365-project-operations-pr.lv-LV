@@ -1,6 +1,6 @@
 ---
 title: Cenu noteikšanas produktu piedāvājuma rindas
-description: Šajā rakstā sniegta informācija par izmaksu cenas attiecināšanu uz produkta piedāvājuma rindu.
+description: Šajā rakstā ir sniegta informācija par izmaksu piemērošanu produktu piedāvājumu rindai.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

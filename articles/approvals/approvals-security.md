@@ -1,6 +1,6 @@
 ---
 title: Drošība un apstiprinājumi
-description: Šajā rakstā ir sniegta informācija par drošības iestatījumiem darbam ar apstiprinājumiem korporācijā Microsoft Dynamics 365 Project Operations.
+description: Šajā rakstā ir sniegta informācija par drošības iestatījumiem darbam ar apstiprinājumiem Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 08/29/2022
 ms.topic: security
@@ -17,22 +17,22 @@ ms.locfileid: "9709407"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Microsoft Dynamics 365 Project Operations izmanto divas drošības lomas, lai varētu apstiprināt laika, izdevumu un materiālu ierakstus:
+Microsoft Dynamics 365 Project Operations izmanto divas drošības lomas, lai atļautu laika, izdevumu un materiālu ierakstu apstiprināšanu.
 
 - Projekta apstiprinātājs
-- Projekta apstiprinātāja administrators
+- Projekta apstiprinātājs administrators
 
 ## <a name="project-approver"></a>Projekta apstiprinātājs
 
-Jums ir jābūt projekta apstiprinātāja **drošības loma, lai apstiprinātu projekta** laiku, izdevumus un materiālu ierakstus. Jums ir jābūt arī piekļuvei attiecīgajām saistītajām entītijām, piemēram **, Project**. Šo piekļuvi var piešķirt persona, kurai ir **projektu vadītāja** loma. Turklāt jums ir jābūt projekta komandas loceklim un atzīmētam kā apstiprinātājam.
+Lai apstiprinātu projekta laika, izdevumu un materiālu ierakstus, ir nepieciešama drošības loma **Projekta apstiprinātājs**. Ir jābūt piekļuvei arī attiecīgajām saistītajām entītijām, piemēram, **Projekts**. Šādu piekļuvi var piešķirt kāds lietotājs, kuram ir loma **Projekta vadītājs**. Turklāt jums ir jābūt projekta darba grupas dalībniekam un atzīmētam kā apstiprinātājam.
 
-Lai apstiprinātu ar projektu nesaistītus ierakstus, jums ir jābūt iesniedzēja vadītājam.
+Lai apstiprinātu ar projektu nesaistītus ierakstus, ir jābūt iesniedzēja vadītājam.
 
-## <a name="project-approver-admin"></a>Projekta apstiprinātāja administrators
+## <a name="project-approver-admin"></a>Projekta apstiprinātājs administrators
 
 > [!NOTE]
-> Lai [varētu izmantot Project Approver administratora funkcionalitāti, ir jābūt iespējotam līdzeklim Apstiprinājuma kopas](approval-sets.md).
+> Lai varētu izmantot projekta apstiprinātāja administratora funkcionalitāti, vispirms ir jāiespējo līdzeklis [Apstiprināšanas kopas](approval-sets.md).
 
-Projekta **apstiprinātāja administratora** drošības loma ļauj lietotājiem apiet politikas un apstiprināt ierakstus visos projektos. Šīs lomas piešķiršana apiet validācijas loģiku, kas prasa dalību komandā un atzīmēšanu kā apstiprinātāju. Jums ir jābūt piekļuvei attiecīgajām saistītajām tabulām, piemēram **, Project**, izmantojot jums piešķirtās drošības lomas.
+Drošības loma **Projekta apstiprinātājs administrators** lietotājiem ļauj apiet politikas un ļauj apstiprināt ierakstus visos projektos. Piešķirot šo lomu, tiek apieta validācijas loģika, kurai ir nepieciešama darba grupas dalība un apstiprinātāja apzīmējums. Ir jābūt piekļuvei attiecīgajām saistītajām tabulām, piemēram, **Projekts**, izmantojot jums piešķirtās drošības lomas.
 
-SISTĒMAS lietotāja konteksts apiet validācijas tāpat kā projekta apstiprinātāja administratora drošības loma.
+Sistēmas lietotāja konteksts apiet validācijas tāpat kā projekta apstiprinātāja administratora drošības loma.

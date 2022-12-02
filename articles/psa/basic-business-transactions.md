@@ -1,6 +1,6 @@
 ---
 title: Biznesa transakcijas
-description: Šajā rakstā sniegta informācija par biznesa darījumiem.
+description: Šajā rakstā ir sniegta informācija par biznesa transakcijām.
 author: rumant
 ms.custom:
 - dyn365-projectservice

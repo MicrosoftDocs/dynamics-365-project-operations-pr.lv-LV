@@ -1,6 +1,6 @@
 ---
 title: Prasmes un sertifikācijas
-description: Šajā rakstā sniegta informācija par prasmju un sertifikācijas raksturlielumu pievienošanu resursiem.
+description: Šajā rakstā ir sniegta informācija par prasmju un sertifikācijas raksturīgo pazīmju pievienošanu resursiem.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

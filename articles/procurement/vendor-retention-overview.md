@@ -1,6 +1,6 @@
 ---
 title: Piegādātāja ieturēšanas pārskats
-description: Šajā rakstā sniegts pārskats par kreditoru saglabāšanas iespējām.
+description: Šajā rakstā ir sniegts pārskats par piegādātāju ieturēšanas iespējām.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

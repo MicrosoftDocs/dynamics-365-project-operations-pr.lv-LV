@@ -1,6 +1,6 @@
 ---
 title: Sarežģītu vienību, piemēram, viena lietotāja, pārvaldība, uz vienu mēnesi produktu piedāvājuma rindām — Lite
-description: Šajā rakstā sniegta informācija par sarežģītu vienību pārvaldību uz produktu balstītām piedāvājuma rindām.
+description: Šajā rakstā ir sniegta informācija par sarežģītu vienību pārvaldību produktu piedāvājumu rindām.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

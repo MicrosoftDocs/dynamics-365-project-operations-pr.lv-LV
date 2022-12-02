@@ -1,6 +1,6 @@
 ---
 title: Piedāvājumi — pamata koncepti — Lite
-description: Šajā rakstā sniegta informācija par projektu piedāvājumu izmantošanu projektu operācijās.
+description: Šajā rakstā ir sniegta informācija par projekta piedāvājumu izmantošanu Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

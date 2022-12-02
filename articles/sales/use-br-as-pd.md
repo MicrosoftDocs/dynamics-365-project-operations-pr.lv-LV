@@ -1,6 +1,6 @@
 ---
 title: Rezervējamu resursu kā cenu noteikšanas dimensiju izmantošana
-description: Šajā rakstā sniegta informācija par to, kā izmantot rezervējamo resursu kā cenu dimensiju.
+description: Šajā rakstā ir sniegta informācija par rezervējama resursa izmantošanu kā izcenojuma dimensiju.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914825"
 
  _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_ 
 
-Šajā rakstā sniegta informācija par to, kā izmantot rezervējamo resursu kā cenu dimensiju. Ja jūsu cenu noteikšanas stratēģija ir iestatīta tā, lai katram rezervējamajam resursam būtu noteikta cena vai izmaksu likme, izmantojiet rezervējamo resursu kā cenu noteikšanas dimensiju.
+Šajā rakstā ir sniegta informācija par rezervējama resursa izmantošanu kā izcenojuma dimensiju. Ja jūsu cenu noteikšanas stratēģija ir iestatīta tā, lai katram rezervējamajam resursam būtu noteikta cena vai izmaksu likme, izmantojiet rezervējamo resursu kā cenu noteikšanas dimensiju.
 
 ## <a name="prerequisites"></a>Priekšnoteikumi
-Pirms šajā rakstā aprakstīto procedūru pabeigšanas ir nepieciešams jauns cenu dimensijas risinājums jūsu organizācijai. Ja tas vēl nav paveikts, skatiet tēmu [Pielāgotu lauku un entītiju izveide](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Pirms šajā rakstā aprakstīto procedūru veikšanas ir nepieciešams jauns organizācijas cenu dimensiju risinājums. Ja tas vēl nav paveikts, skatiet tēmu [Pielāgotu lauku un entītiju izveide](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Rezervējamu resursu lauka pievienošana veidlapām un skatiem
 Lai lauks **Rezervējamais resurss** būtu redzams cenu noteikšanas dimensijas risinājumā, šis lauks ir jāpievieno visām veidlapām un skatiem kā entītija.

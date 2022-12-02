@@ -1,6 +1,6 @@
 ---
 title: Transakciju savienojumi — saite uz dažādu transakciju tipu datiem
-description: Šajā rakstā paskaidrots, kā transakcijas savienojums tiek izmantots, lai saistītu dažādu veidu faktiskos datus, kas palīdz izsekot rentabilitātei, rēķinu uzkrāšanai un rēķinos iekļauto ieņēmumu aprēķiniem.
+description: Šajā rakstā ir izskaidrots, kā tiek izmantots transakcijas savienojums, lai saistītu dažādu tipu faktiskos datus, tādējādi palīdzot sekot līdzi ienesīgumam, rēķinu izrakstīšanas rezervei un rēķinos iekļautās un neiekļautās peļņas aprēķiniem.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -17,22 +17,22 @@ ms.locfileid: "8926095"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Transakciju savienojuma ieraksti tiek izveidoti, lai saistītu dažādu tipu faktiskos datus kā laika, izdevumu vai materiālu lietojuma kustības tā dzīves ciklā no piedāvājuma vai pirmspārdošanas posma uz līguma stadiju, apstiprinājumiem un/vai atsaukumiem, rēķinu izrakstīšanu un, iespējams, kredīta vai koriģējošiem rēķiniem.
+Transakciju savienojumu ieraksti tiek izveidoti, lai saistītu dažādu tipu faktiskos datus, kamēr laiks, izmaksas vai materiālu lietojums dzīves cikla laikā pārvietojas no piedāvājuma vai pirmspārdošanas posma uz līguma posmu, apstiprināšanu un/vai atsaukšanu, rēķinu izrakstīšanu un potenciāli kredītu vai rēķinu korekcijām.
 
 Tālāk sniegtajā piemērā ir redzama tipiska laika ierakstu apstrāde Project Operations projekta dzīves ciklā.
 
-> ![Laika ierakstu apstrāde projekta operācijās.](media/basic-guide-17.png)
+> ![Laika ierakstu apstrāde programmā Project Operations.](media/basic-guide-17.png)
 
-Projekta operāciju projekta dzīves cikla laika ierakstu apstrāde notiek šādi: 
+Laika ierakstu apstrāde Project Operations projekta dzīves ciklā notiek, veicot tālāk aprakstītās darbības. 
 
-1. Laika ieraksta iesniegšanas rezultātā tiek izveidotas divas žurnāla rindas: viena izmaksām un otra nelīdzenai pārdošanai. 
-2. Iespējamā laika ieraksta apstiprināšana izraisa divu faktisko datu izveidi: vienu izmaksām un otru par nemainīgu pārdošanu. Šie 2 faktiskie fakti ir saistīti, izmantojot transakciju savienojumus.
+1. Iesniedzot laika ierakstu, tiek izveidotas divas žurnāla rindas: viena ir paredzēta izmaksām, bet otra ir paredzēta rēķinā neiekļautajai pārdošanai. 
+2. Veicot laika ieraksta galīgo apstiprināšanu, tiek izveidoti divu veidu faktiskie dati: vieni ir paredzēti izmaksām, bet otri ir paredzēti rēķinā neiekļautajai pārdošanai. Šie 2 faktisko datu vienumi tiek saistīti, izmantojot transakciju savienojumus.
 3. Kad lietotājs izveido projekta rēķinu, rēķina rindas transakcija tiek izveidota, izmantojot datus no rēķinā neiekļautās pārdošanas faktiskajiem datiem.
-4. Kad rēķins ir apstiprināts, tiek izveidoti divi jauni fakti: nemainīga pārdošanas anulēšana un faktiskā rēķinā iekļautā pārdošana. Nemainīgā pārdošanas atsaukšana un sākotnējā nemainīgā pārdošana faktiski ir savienota, izmantojot atpakaļgaitas transakciju savienojumus. Rēķinos iekļautie pārdošanas apjomi un sākotnējie nemainīgie pārdošanas fakti ir saistīti arī, lai parādītu saikni starp kādreiz neizskatītajiem vai nepabeigtā darba (NP) ieņēmumiem ar tagadējiem rēķinos iekļautajiem ieņēmumiem.   
+4. Apstiprinot rēķinu, tiek izveidoti divi jauni faktisko datu vienumi: rēķinā neiekļautās pārdošanas anulēšana un rēķinā iekļautās pārdošanas faktisko datu vienums. Rēķinā neiekļautu pārdošanu apgriešana un sākotnējā rēķinā neiekļautā faktiskā pārdošana tiek saistīta, izmantojot apgriezto transakciju savienojumus. Rēķinos iekļautās pārdošanas un sākotnējās rēķinos neiekļautās faktiskās pārdošana tiek saistītas, arī lai parādītu saites starp vienumiem, kas iepriekš bija rezerve vai notiekoša projekta (NP) ieņēmumi, un vienumiem, kas tagad ir rēķinā iekļautie ieņēmumi.   
 
-Katrs notikums apstrādes darbplūsmā izraisa ierakstu izveidi tabulā Transakcijas **savienojums**. Tas palīdz izveidot to ierakstu attiecību izsekošanu, kas izveidoti laika ieraksta, žurnāla rindas, faktiskās un rēķina rindas detaļās.
+Katrs apstrādes darbplūsmas notikums izraisa ierakstu izveidi tabulā **Transakcijas savienojums**. Tas palīdz izveidot izsekojamu ierakstu attiecību vēsturi, kas tiek veidoti dažādos laika ierakstos, laika žurnāla rindā, faktiskajos datos un rēķina rindas informācijā.
 
-Šajā tabulā ir parādīti iepriekšējās darbplūsmas transakciju **savienojuma** entītijas ieraksti.
+Tālāk sniegtajā tabulā ir parādīti iepriekšējās darbplūsmas ieraksti entītijā **Transakcijas savienojums**.
 
 |Notikums                   |1. transakcija                 |1. transakcijas loma |1. transakcijas tips       |2. transakcija          |2. transakcijas loma |2. transakcijas tips |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|
@@ -43,11 +43,11 @@ Katrs notikums apstrādes darbplūsmā izraisa ierakstu izveidi tabulā Transakc
 |                        |Rēķinā iekļautās pārdošanas GUID             |Rēķinā iekļautā pārdošana   |msdyn_actual                 |Rēķinā neiekļautās pārdošanas faktisko datu GUID   |Rēķinā neiekļautā pārdošana  |msdyn_actual       |
 |Melnraksta rēķina labojums |Rēķina rindas transakcijas GUID|Aizstāšana      |msdyn_invoicelinetransaction |Rēķinā iekļautās pārdošanas GUID            |Sākotnējā        |msdyn_actual       |
 |Rēķina labojuma apstiprināšana|Rēķinā iekļautās pārdošanas anulēšanas GUID  |Anulēšana      |msdyn_actual                 |Rēķinā iekļautās pārdošanas GUID            |Sākotnējā        |msdyn_actual       |
-|                        |Jauns nemainīgs pārdošanas GUID |Aizstāšana            |msdyn_actual                 |Rēķinā iekļautās pārdošanas GUID            |Sākotnējā        |msdyn_actual       |
+|                        |Jaunas rēķinā neiekļautā pārdošanas GUID |Aizstāšana            |msdyn_actual                 |Rēķinā iekļautās pārdošanas GUID            |Sākotnējā        |msdyn_actual       |
 
 
-Šajā attēlā parādītas saites, kas izveidotas starp dažāda veida faktiskajiem datiem dažādos pasākumos, izmantojot laika ierakstu piemēru projekta operācijās.
+Attēlā tālāk parādītas saites, kas tiek izveidotas starp dažādu tipu faktiskajiem datiem vairākos gadījumos, izmantojot laika ierakstu piemēru programmā Project Operations.
 
-> ![Kā projektu operācijās tiek savstarpēji saistīti dažādu tipu faktiskie fakti.](media/TransactionConnections.png)
+> ![Kā programmā Project Operations tiek saistīti dažādu tipu faktiskie dati.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

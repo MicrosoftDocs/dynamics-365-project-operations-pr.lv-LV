@@ -1,6 +1,6 @@
 ---
 title: Rezervāciju statusi
-description: Šajā rakstā ir sniegta saite uz informāciju par to, kā iestatīt projekta operāciju rezervācijas statusus.
+description: Šajā rakstā ir sniegta saite uz informāciju par to, kā iestatīt rezervācijas statusus risinājumā Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

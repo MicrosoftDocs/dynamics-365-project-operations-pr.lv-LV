@@ -1,6 +1,6 @@
 ---
 title: Projekta iespēju pārvaldība
-description: Šajā rakstā ir sniegta informācija par to, kā strādāt ar iespējām, kas saistītas ar projektiem.
+description: Šajā rakstā ir sniegta informācija par to, kā strādāt ar iespējām, kas ir saistītas ar projektiem.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 Uzņēmumiem, kas strādā ar projektiem, piegādes operācijas parasti ir izvērstas vairākās valstīs un ģeogrāfiskajās atrašanās vietās. Projekta izpildes un piegādes izmaksas var mainīties atkarībā no tā, kāda ģeogrāfiskā vieta vai nodaļa pārvalda piegādi. Savukārt tas var ietekmēt darījuma uzcenojumu. Projekta pakalpojumu piegāde parasti ietver daudz cilvēkresursu nodaļas laika, ievērojamas izmaksas par ceļojumiem, materiālu izmaksas un citus izdevumus.
 
-Projekta iespējas programmā ir Dynamics 365 Project Operations izstrādātas ar paplašinājumiem programmai Dynamics 365 Sales. Rakstā sniegta detalizēta informācija par dažādām jomām un biznesa loģiku, kas iekļauta papildu funkcionalitātē, kuru pieprasa uz projektiem balstīti uzņēmumi, lai pārvaldītu uz projektiem balstītas iespējas.
+Projekta iespējas programmā ir Dynamics 365 Project Operations izstrādātas ar paplašinājumiem programmai Dynamics 365 Sales. Šajā rakstā ir sniegta detalizēta informācija par dažādiem laukiem un biznesa loģiku, kas ir iekļauta papildu funkcionalitātē un kas ir nepieciešama uzņēmumiem, kas strādā projektiem, lai pārvaldītu projektu iespējas.
 
 ## <a name="view-all-project-based-opportunities"></a>Visu projekta iespēju skatīšana
 

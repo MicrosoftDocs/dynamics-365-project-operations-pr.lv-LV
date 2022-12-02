@@ -1,6 +1,6 @@
 ---
 title: Lomu iestatīšana darba sadalījuma struktūras veidnēs
-description: Šajā rakstā sniegta informācija par lomas informācijas iestatīšanu darba sadalījuma struktūras veidnēs.
+description: Šajā rakstā ir sniegta informācija par lomas informācijas iestatīšanu darba sadalījuma struktūras veidnēs.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

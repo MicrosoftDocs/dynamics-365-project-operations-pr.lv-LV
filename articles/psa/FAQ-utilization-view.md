@@ -1,6 +1,6 @@
 ---
 title: Skatīt rēķinā iekļaujamo resursu lietojumu
-description: Šajā rakstā ir sniegta informācija par resursu izmantošanas skatu.
+description: Šajā rakstā ir sniegta informācija par resursu lietojuma skatu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

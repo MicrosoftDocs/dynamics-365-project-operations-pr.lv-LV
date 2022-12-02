@@ -1,6 +1,6 @@
 ---
 title: Pasīvā resursa rezervācija
-description: Šajā rakstā ir sniegta informācija par to, kā provizoriski plānot vai mīksto grāmatu projekta komandas dalībniekus.
+description: Šajā rakstā ir sniegta informācija par to, kā varbūtēji ieplānot vai pasīvi rezervēt projekta darba grupas dalībniekus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

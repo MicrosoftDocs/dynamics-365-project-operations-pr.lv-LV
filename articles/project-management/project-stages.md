@@ -1,6 +1,6 @@
 ---
 title: Projekta posmi
-description: Šajā rakstā ir sniegta informācija par projekta posmiem, kas ir pieejami programmā Microsoft Dynamics Project Operations.
+description: Šajā rakstā sniegta informācija par projekta posmiem, kas ir pieejami Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Kad projektu saistāt ar piedāvājumu vai kad projektu izveidojat no piedāvāj
 
 ## <a name="plan"></a>Plāns
 
-Kad iegūstat piedāvājumu, kurš ir saistīts ar projektu, un kad šis projekts tiek pārvietots uz fāzi **Līgums**, projekta posms tiek atjaunināts uz **Plāns**. Kamēr projekts ir **plānošanas stadijā,** lapas Projekta entītija **cilnē** Pārdošana **tiek rādīta detalizēta** informācija par līgumu.
+Kad iegūstat piedāvājumu, kurš ir saistīts ar projektu, un kad šis projekts tiek pārvietots uz fāzi **Līgums**, projekta posms tiek atjaunināts uz **Plāns**. Kamēr projekts ir posmā **Plāns**, lapas **Projekta entītija** cilnē **Pārdošana** tiek rādīta detalizēta informācija par līgumu.
 
 ## <a name="deliver"></a>Sniegt
 

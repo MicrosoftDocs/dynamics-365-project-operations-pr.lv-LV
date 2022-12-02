@@ -1,6 +1,6 @@
 ---
 title: Automātiskas rēķina izveides iestatīšana
-description: Šajā rakstā sniegta informācija par proformas rēķinu automātiskās izveides iestatīšanu un konfigurēšanu.
+description: Šajā rakstā ir sniegta informācija par proformas rēķinu automātiskās izveides iestatīšanu un konfigurēšanu.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

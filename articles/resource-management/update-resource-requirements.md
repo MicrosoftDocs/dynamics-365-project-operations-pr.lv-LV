@@ -1,6 +1,6 @@
 ---
 title: Resursu vajadzības rediģēšana
-description: Šajā rakstā ir sniegta informācija par resursu vajadzību informācijas atjaunināšanu.
+description: Šajā rakstā ir sniegta informācija par to, kā atjaunināt resursu prasību informāciju.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projektu un uzdevumu kartēšana uz projekta līguma rindu — Lite
-description: Šajā rakstā sniegta informācija par projektu un uzdevumu pievienošanu un noņemšanu līguma rindai.
+description: Šajā rakstā ir sniegta informācija par projektu un uzdevumu pievienošanu un noņemšanu līguma rindai.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

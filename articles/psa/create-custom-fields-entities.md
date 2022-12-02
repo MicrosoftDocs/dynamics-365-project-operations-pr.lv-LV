@@ -1,6 +1,6 @@
 ---
 title: Pielāgotu lauku un entītiju izveide
-description: Šajā rakstā paskaidrots, kā platformā izveidot opciju kopas un entītijas savā risinājumā Power Apps.
+description: Šajā rakstā ir paskaidrots, kā izveidot opciju kopas un entītijas jūsu risinājumā Power Apps platformā.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926923"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Veiciet tālāk norādītās darbības jebkurā laikā, kad vēlaties izveidot pielāgotu opciju kopu vai entītiju platformā Power Apps.  
-Šajā rakstā aprakstītās procedūras jāpabeidz, izmantojot projektu pakalpojumu automatizācijas (PSA) tīmekļa saskarni.
+Šajā rakstā aprakstītās procedūras ir jāizpilda, izmantojot Project Service Automation (PSA) tīmekļa saskarni.
 
 > [!IMPORTANT]
 > Iesakām veikt visas pielāgotās cenu noteikšanas dimensijas izmaiņas katrā atsevišķā risinājumā. Šī svarīgā paraugprakse nodrošina elastību nākotnē, lai atjauninātu vai noņemtu nepieciešamās izmaiņas; tā palīdzēs ar jūsu darba atkārtotu izmantošanu un vienkāršos šo izmaiņu saglabāšanu citā gadījumā. Pēc visu nepieciešamo izmaiņu veikšanas eksportējiet šo risinājumu kā **Pārvaldīts risinājums** un importējiet to citās instancēs, lai izmantotu cenas noteikšanas iestatījumus.

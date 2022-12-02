@@ -1,6 +1,6 @@
 ---
 title: Starpuzņēmumu darbību izveide
-description: Šajā rakstā sniegta informācija par to, kā izveidot starpuzņēmumu darbības.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot starpuzņēmumu darbības.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Kad starpuzņēmumu darbība ir apstiprināta, tiek izveidotas tālāk norādīt
 
 Izmaksas, resursu vienības izmaksas un starporganizāciju vienības pārdošanas darbību cenas un valūtu nosaka **Organizācijas vienība**. To ir svarīgi atcerēties, lemjot par to, kā strukturēt uzņēmumus un organizācijas struktūrvienības savā ieviešanā.
 
-Kad izveidojat iespēju, piedāvājumu, projekta līgumu un projekta ierakstus, sistēma pārbauda, vai līgumslēdzēja vienības valūta atbilst līgumslēdzēja uzņēmuma uzskaites valūtai. Ja tās nav vienādas, šos ierakstus nevar izveidot. Organizācijas vienības valūta jānorāda programmā Dynamics 365 Project Operations, dodoties uz **Dataverse** > **Iestatījumi** > **Organizācijas vienības**. Uzņēmuma uzskaites valūta ir definēta Dynamics 365 Finance, dodoties uz **Virsgrāmatas** > **iestatījumu** > **Virsgrāmatu**. Valūta tiek sinhronizēta ar jūsu Dataverse vidi, izmantojot virsgrāmatu duālās rakstīšanas karti.
+Kad izveidojat iespēju, piedāvājumu, projekta līgumu un projekta ierakstus, sistēma pārbauda, vai līgumslēdzēja vienības valūta atbilst līgumslēdzēja uzņēmuma uzskaites valūtai. Ja tās nav vienādas, šos ierakstus nevar izveidot. Organizācijas vienības valūta jānorāda programmā Dynamics 365 Project Operations, dodoties uz **Dataverse** > **Iestatījumi** > **Organizācijas vienības**. Uzņēmuma uzskaites valūta jānorāda programmā Dynamics 365 Finance, dodoties uz **Virsgrāmata** > **Virsgrāmatas iestatīšana** > **Virsgrāmata**. Valūta tiek sinhronizēta ar jūsu Dataverse vidi, izmantojot virsgrāmatu duālās rakstīšanas karti.
 
 Sistēma izveido resursu vienības izmaksas un starporganizāciju vienības pārdošanas faktiskos datus tālāk norādītajās situācijās.
 
   - Ja resursu vienība atšķiras no līgumslēdzēja vienības
   - Ja resursu uzņēmums atšķiras no līgumslēdzēja uzņēmuma
 
-Tomēr tikai tie darījumi, kuriem ir atšķirīgs resursu ieguves uzņēmums nekā līgumslēdzējam uzņēmumam, tiks nodoti Dynamics 365 Finance videi papildu uzskaitei.
+Taču uz Dynamics 365 Finance vidi papildu uzskaitei tiks pārnestas tikai darbības, kuru resursu uzņēmums atšķiras no līgumslēdzēja uzņēmuma.
 
 Projekta faktisko datu uzskaite tiek reģistrēta Project Operations integrācijas žurnālā programmā Finance. Sistēma izveido tālāk norādītās žurnāla rindas.
 

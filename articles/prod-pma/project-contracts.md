@@ -44,7 +44,7 @@ Dažos projekta līgumos ir norādīts, ka vairākas puses kopīgi atbild par pr
 -   Ceļu projektu kopīgi finansē divas pašvaldības.
 -   Tilta projektu finansē valsts dotācija un privāta korporācija.
 
-Programmā Dynamics 365 Finance norēķinus par vienu darbību vai visu projektu var sadalīt starp vairākiem klientiem, dotācijām vai organizācijām. 
+Programmā Dynamics 365 Finance varat sadalīt rēķinu par vienu transakciju vai veselu projektu, izmantojot vairākus klientus, dotācijas vai organizācijas. 
 
 Projektos, kuriem ir vairāki finansētāji, visas puses, kas sniedz ieguldījumu avansā finansēta projekta finansēšanā, sauc par finansējuma avotiem. Pēc tam, kad klients, organizācija vai dotācija ir definēta kā finansējuma avots, to var piešķirt vienai vai vairākām finansēšanas kārtulām. Finansēšanas kārtulas satur kritērijus, kas nosaka, kā maksas tiek piešķirtas dažādiem projekta finansējuma avotiem. 
 

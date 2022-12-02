@@ -1,6 +1,6 @@
 ---
 title: Problēmu novēršana, strādājot ar uzdevuma režģi
-description: Šajā rakstā ir sniegta problēmu novēršanas informācija, kas nepieciešama, strādājot uzdevumu režģī.
+description: Šajā rakstā sniegta informācija par problēmu novēršanu, kura ir nepieciešama, strādājot uzdevumu režģī.
 author: ruhercul
 ms.date: 07/22/2022
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9188241"
 
 _**Attiecas uz:** Project Operations resursu balstītiem / krājumu nebalstītiem scenārijiem, Lite izvietošana — darījums ar proformas rēķinu izrakstīšanu Project for the web_
 
-Uzdevumu režģis, ko Dynamics 365 Project Operations izmanto, ir mitināts iframe iekšā Microsoft Dataverse. Šīs izmantošanas rezultātā ir jāievēro īpašas prasības, lai nodrošinātu autentifikāciju, un autorizācija darbojas pareizi. Šajā rakstā ir izklāstītas bieži sastopamās problēmas, kas var ietekmēt iespēju atveidot režģi vai pārvaldīt uzdevumus darba sadalījuma struktūrā (WBS).
+Izmantotais uzdevumu režģis Dynamics 365 Project Operations ir viesots iFrame programmā Microsoft Dataverse. Šīs lietošanas rezultātā ir jāizpilda noteiktas prasības, lai nodrošinātu autentifikācijas un autorizācijas pareizu darbību. Šajā rakstā apskatītas visbiežāk izplatītās problēmas, kas var ietekmēt iespēju atveidot režģi vai pārvaldīt uzdevumus darba sarežģījumu struktūrā (WBS).
 
 Bieži sastopamās problēmas ir:
 
@@ -32,7 +32,7 @@ Bieži sastopamās problēmas ir:
 
 ### <a name="mitigation-1-enable-cookies"></a>Mazināšana 1: Iespējot sīkfailus
 
-Project Operations pieprasa, lai trešās puses sīkfaili tiktu iespējoti, lai atveidotu darba sadalījumu struktūru. Ja trešo pušu sīkfaili nav iespējoti, tā vietā, lai skatītu uzdevumus, jūs redzēsit tukšu lapu, kad lapā Projekts atlasīsit **cilni** Uzdevumi **.**
+Project Operations pieprasa, lai trešās puses sīkfaili tiktu iespējoti, lai atveidotu darba sadalījumu struktūru. Ja nav iespējoti trešo pušu sīkfaili, jūs redzēsit nevis uzdevumus, bet gan tukšu lapu, ja lapā **Projekts** atlasīsit cilni **Uzdevumi**.
 
 Microsoft Edge vai Google Chrome pārlūkiem šīs procedūras izklāsta, kā atjaunināt pārlūka iestatījumu, lai iespējotu trešo pušu sīkfailus.
 
@@ -57,10 +57,10 @@ Microsoft Edge vai Google Chrome pārlūkiem šīs procedūras izklāsta, kā at
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Mazināšana 2: validēt PEX galapunktu, kas ir pareizi konfigurēts
 
-Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu. Šis galapunkts ir nepieciešams, lai sazinātos ar servisu, kas tiek izmantots, lai atveidotu darba sadalījumu struktūru. Ja parametrs nav iespējots, tiks parādīts kļūdas ziņojums "Projekta parametrs nav derīgs". Lai atjauninātu PEX galapunktu, veiciet tālāk norādītās darbības.
+Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu. Šis galapunkts ir nepieciešams, lai sazinātos ar servisu, kas tiek izmantots, lai atveidotu darba sadalījumu struktūru. Ja parametrs nav iespējots, saņemsit kļūdu "Projekta parametrs nav derīgs". Lai atjauninātu PEX galapunktu, veiciet tālāk norādītās darbības.
 
 1. Pievienojiet **PEX galapunkta** lauku **Projekta parametru** lapai.
-2. Nosakiet produkta veidu, kuru izmantojat. Šī vērtība tiek izmantota, iestatot PEX galapunktu. Izguves brīdī produkta tips jau ir definēts PEX galapunktā. Paturiet šo vērtību.
+2. Nosakiet izmantotā produkta tipu. Šī vērtība tiek izmantota, iestatot PEX galapunktu. Izguves brīdī produkta tips jau ir definēts PEX galapunktā. Paturiet šo vērtību.
 3. Atjauniniet lauku ar šādu vērtību: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Šajā tabulā ir norādīts tipa parametrs, kas ir jāizmanto, pamatojoties uz produkta tipu.
 
       | **Produkta tips**                     | **Parametra tips** |
@@ -71,15 +71,15 @@ Project Operations vajadzībām projekta parametrs norāda uz PEX galapunktu. Š
 
 4. Noņemiet lauku no **Projekta parametru** lapas.
 
-### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>3. mazināšana: piesakieties project.microsoft.com
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mazināšana 3: Pierakstieties vietnē project.microsoft.com
 
-Pārlūkprogrammā atveriet jaunu cilni, dodieties uz project.microsoft.com un piesakieties ar lietotāja lomu, ko izmantojat, lai piekļūtu Project Operations. Ir svarīgi, lai tikai viens lietotājs pārlūkprogrammā būtu pieteicies Microsoft produktā. Kļūdas ziņojums "login.microsoftonline.com atteicās izveidot savienojumu" visbiežāk rodas, ja ir pieteikušies vairāki lietotāji, kā parādīts nākamajā attēlā.
+Pārlūkprogrammā atveriet jaunu cilni, dodieties uz project.microsoft.com un piesakieties, izmantojot lietotāja lomu, kuru izmantojat, lai piekļūtu Project Operations. Ir svarīgi, lai tikai viens lietotājs pārlūkprogrammā būtu pieteicies Microsoft produktā. Kļūdas ziņojums "login.microsoftonline.com atteikusies izveidot savienojumu" visbiežāk tiek rādīts, ja ir pieteicies vairāk nekā viens lietotājs, kā parādīts nākamajā ilustrācijā.
 
-![Izvēlieties konta pierakstīšanās lapu, kurā redzams, ka divi lietotāji ir pieteikušies.](media/MULTIPLE_USERS_LOGGED_IN.png)
+![Izvēlieties uzņēmuma pierakstīšanās lapu, kurā parādīts, ka ir reģistrējušies divi lietotāji.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problēma: projekts netiek ielādēts, un lietotāja interfeiss ir iestrēdzis skaitītājā
 
-Autentifikācijas vajadzībām ir jāiespējo uznirstošie logi, lai uzdevumu režģis tiktu ielādēts. Ja uznirstošie logi nav iespējoti, ekrāns iestrēgs ielādēšanas skaitītājā. Nākamajā grafikā adreses joslā ir redzams URL ar bloķētu uznirstošo elementu, kā rezultātā vērpējs iestrēgst, mēģinot ielādēt lapu. 
+Autentifikācijas vajadzībām ir jāiespējo uznirstošie logi, lai uzdevumu režģis tiktu ielādēts. Ja uznirstošie logi nav iespējoti, ekrāns iestrēgs ielādēšanas skaitītājā. Šajā grafikā ir redzams URL ar bloķētu uznirstošu etiķeti adreses joslā, kā rezultātā skaitītājs iestrēgst, mēģinot ielādēt lapu. 
 
    ![Iestrēdzis skaitītājs un uznirstošo logu bloķētājs.](media/popupsblocked.png)
 
@@ -115,7 +115,7 @@ Varat arī veikt vienu no tālāk minētajām darbībām.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problēma 3: Project for the Web administrēšanas atļaujas
 
-Project Operations ir atkarīgs no ārēja plānošanas servisa. Pakalpojumam ir nepieciešams, lai lietotājam būtu piešķirtas vairākas lomas, kas ļauj viņam lasīt un rakstīt entītijām, kas saistītas ar WBS. Šīs entitījas ietver projekta uzdevumus, resursu piešķiri un uzdevumu atkarības. Ja lietotājs nevar atveidot WBS, kad viņš naviģē uz **cilni Uzdevumi**, iespējams, tas ir tāpēc **, ka nav iespējota programma Project** for **Project Operations**. Lietotājs var saņemt vai nu drošības lomas kļūdu vai kļūdu, kas saistīta ar piekļuves liegumu.
+Project Operations ir atkarīgs no ārēja plānošanas servisa. Servisa veikšanai nepieciešams, lai lietotājam būtu piešķirtas vairākas lomas, kas atļauj lasīt un rakstīt ar WBS saistītajām entītijām. Šīs entitījas ietver projekta uzdevumus, resursu piešķiri un uzdevumu atkarības. Ja lietotājs nevar atveidot WBS, pārejot uz cilni **Uzdevumi**, tad tas, iespējams, ir tāpēc, ka **Projekts** sadaļā **Project Operations** nav iespējots. Lietotājs var saņemt vai nu drošības lomas kļūdu vai kļūdu, kas saistīta ar piekļuves liegumu.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Mazināšana 1: validēt lietojumprogrammas lietotāja un lietotāja drošības lomas
 

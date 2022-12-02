@@ -1,6 +1,6 @@
 ---
 title: Projekta dotācijas
-description: Šajā rakstā ir paskaidrots, kā izveidot vai modificēt grantu.
+description: Šajā rakstā ir paskaidrots, kā izveidot vai modificēt dotāciju.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

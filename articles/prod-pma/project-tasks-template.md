@@ -1,6 +1,6 @@
 ---
-title: Projekta uzdevumu sinhronizēšana tieši no Project Service Automation uz finansēm un operācijām
-description: Šajā rakstā ir aprakstīta veidne un pamatā esošais uzdevums, kas tiek izmantots, lai sinhronizētu projekta uzdevumus tieši no Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Sinhronizējiet projekta uzdevumus tieši no Project Service Automation uz finansēm un operācijām
+description: Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta uzdevumu sinhronizēšanai tieši no Microsoft Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028370"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projekta uzdevumu sinhronizēšana tieši no Project Service Automation uz finansēm un operācijām
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizējiet projekta uzdevumus tieši no Project Service Automation uz finansēm un operācijām
 
 [!include[banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīta veidne un pamatā esošais uzdevums, kas tiek izmantots, lai sinhronizētu projekta uzdevumus tieši no Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti projekta uzdevumu sinhronizēšanai tieši no Dynamics 365 Project Service Automation uz Dynamics 365 Finance.
 
 > [!NOTE]
 > - 8.0 versijā varat izmantot projekta uzdevumu integrāciju, izdevumu darbības kategorijas, stundu aprēķinus, izdevumu aprēķinus un funkcionalitātes bloķēšanu.
@@ -67,11 +67,11 @@ Pirms projekta uzdevumu sinhronizēšanas, ir jāsinhronizē projekta līgumi un
 
 ## <a name="power-query"></a>Power Query
 
-Datu filtrēšanai ir jāizmanto Microsoft Power Query programmai Excel, ja ir izpildīts šis nosacījums:
+Ja ir izpildīts šis nosacījums, ir jāizmanto Power Query programmai Excel, lai filtrētu datus:
 
 - Projekta uzdevumā ir resursam specifiski ieraksti.
 
-Ja jums ir jāizmanto Power Query, izpildiet šīs vadlīnijas:
+Ja ir jāizmanto Power Query, ievērojiet šīs vadlīnijas:
 
 - Projekta uzdevumu (PSA uz Fin un Ops) veidnei ir noklusējuma filtrs, kas projekta uzdevumam neietver resursu specifiskos ierakstus, iestatot filtru sadaļā **IsLineTask** uz **Aplams**. Ja izveidojat savu veidni, šis filtrs ir jāpievieno.
 

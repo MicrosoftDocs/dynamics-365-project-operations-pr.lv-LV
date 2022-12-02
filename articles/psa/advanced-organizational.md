@@ -1,6 +1,6 @@
 ---
-title: Uzlabotas organizatoriskās vienības
-description: Šajā rakstā ir sniegta informācija par organizācijas vienībām programmā Dynamics 365 Project Service Automation.
+title: Detalizētas organizācijas vienības
+description: Šajā rakstā ir sniegta informācija par organizācijas struktūrvienībām programmā Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -24,7 +24,7 @@ ms.contentlocale: lv-LV
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927107"
 ---
-# <a name="about-organizational-units"></a>Par organizatoriskajām vienībām 
+# <a name="about-organizational-units"></a>Par organizācijas vienībām 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

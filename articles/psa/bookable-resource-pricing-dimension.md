@@ -1,6 +1,6 @@
 ---
 title: Rezervējama resursa izmantošana par izcenojuma dimensiju
-description: Šajā rakstā sniegta informācija par rezervējamā resursa izmantošanu kā cenu dimensiju.
+description: Šajā rakstā ir sniegta informācija par rezervējama resursa izmantošanu par izcenojuma dimensiju.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916113"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šajā rakstā sniegta informācija par rezervējamā resursa izmantošanu kā cenu dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja neesat izveidojis jaunu cenu dimensiju risinājumu savai organizācijai, veiciet procedūras, kas aprakstītas [rakstā Pielāgoto lauku un entītiju](create-custom-fields-entities.md) izveide.
+Šajā rakstā ir sniegta informācija par rezervējama resursa izmantošanu par izcenojuma dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja savai organizācijai neesat izveidojis jaunu cenas noteikšanas dimensijas risinājumu, izpildiet procedūru rakstā [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Rezervējama resursa pievienošana veidlapām un skatiem
 Lai padarītu laukus redzamus lietotāja interfeisā, izmantojot izcenojumu dimensijas risinājumu, jums būs jāapskata visas galveno Project Service entītiju veidlapas un skati un šie lauki jāpievieno šo entītiju veidlapām un skatiem.

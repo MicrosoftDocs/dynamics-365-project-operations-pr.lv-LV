@@ -1,6 +1,6 @@
 ---
 title: Pielāgotu lauku un entītiju kā cenu noteikšanas kategoriju izveide
-description: Šajā rakstā ir sniegta informācija par to, kā izveidot pielāgotas opciju kopas vai entītijas.
+description: Šajā rakstā sniegta informācija par to, kā izveidot pielāgotas opciju kopas vai entītijas.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

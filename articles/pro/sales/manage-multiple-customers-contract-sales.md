@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt vairākus klientus projekta līgumus — lite
-description: Šajā rakstā sniegta informācija par vairāku debitoru pārvaldību projektu līgumos.
+description: Šajā rakstā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumos.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Piedāvātā projekta resursa pieņemšana vai noraidīšana
-description: Šajā rakstā sniegta informācija par to, kā apstiprināt vai noraidīt piedāvāto projekta resursu.
+description: Šajā rakstā ir sniegta informācija par to, kā pieņemt vai noraidīt piedāvāto projekta resursu.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916205"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Šajā rakstā sniegta informācija par to, kā apstiprināt vai noraidīt piedāvāto projekta resursu.
+Šajā rakstā ir sniegta informācija par to, kā pieņemt vai noraidīt piedāvāto projekta resursu.
 
 Kad resursu pārvaldnieks piedāvā kādu nosauktu resursu, lai izpildītu vispārējo resursu pieprasījumu, vispārējā darba grupas dalībnieka lauks **Pieprasījuma statuss** tiks atjaunināts uz **Jāpārskata**. Pieprasījums tiks nosūtīts projekta vadītājam, lai to apstiprinātu vai noraidītu.
 

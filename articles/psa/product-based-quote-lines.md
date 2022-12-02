@@ -1,6 +1,6 @@
 ---
 title: Uz produktu balstītas piedāvājuma rindas
-description: Šajā rakstā sniegta informācija par produktu piedāvājuma rindām.
+description: Šajā rakstā ir sniegta informācija par piedāvājuma rindām, kuras ir balstītas uz produktu.
 author: rumant
 ms.custom:
 - dyn365-projectservice

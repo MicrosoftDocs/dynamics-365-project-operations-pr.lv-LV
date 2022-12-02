@@ -1,6 +1,6 @@
 ---
 title: Projekta laika ierakstu finanšu dimensiju noklusēšana
-description: Šajā rakstā sniegta informācija par to, kā laika ierakstiem tiek lietotas noklusējuma finanšu dimensijas.
+description: Šajā rakstā ir sniegta informācija par to, kā laika ierakstiem tiek lietotas noklusējuma finanšu dimensijas.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916573"
 
 [!include [banner](../includes/banner.md)]
 
-Ja projekta laika ierakstiem izmantojat finanšu dimensijas, noklusējuma dimensijas vērtība tiek novērtēta šādā secībā:
+Projekta laika ierakstiem izmantojot finanšu dimensijas, noklusējuma dimensijas vērtība tiek novērtēta tālāk norādītajā secībā.
 
 1. Resursa
 2. Project
 3. Finansējuma avots
 
-Piemēram, ja resursā ir norādīta noklusējuma dimensija, noklusējuma vērtība tiek lietota virs noklusējuma vērtības, kas norādīta projektam. Tāpat, ja projektā ir norādīta noklusējuma dimensija, noklusējuma vērtība tiek lietota virs noklusējuma vērtības, kas norādīta finansējuma avotam.
+Piemēram, ja resursam ir norādīta noklusējuma dimensija, šī noklusējuma vērtība tiek lietota projektam norādītās noklusējuma vērtības vietā. Tāpat, ja projektam ir norādīta noklusējuma dimensija, šī noklusējuma vērtība tiek lietota finansējuma avotam norādītās noklusējuma vērtības vietā.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

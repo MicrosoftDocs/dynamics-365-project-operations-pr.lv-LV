@@ -1,6 +1,6 @@
 ---
 title: Projekta līguma rindas aprēķins
-description: Šajā rakstā sniegta informācija par projekta līguma rindas aprēķiniem.
+description: Šajā rakstā ir sniegta informācija par aprēķiniem projekta piedāvājuma rindā.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

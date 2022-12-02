@@ -1,6 +1,6 @@
 ---
 title: Informācijas paneļi
-description: Šajā rakstā sniegta informācija par atskaišu informācijas paneļiem, kas ir iekļauti programmā Dynamics 365 Project Service Automation.
+description: Šajā rakstā ir sniegta informācija par atskaišu veidošanas informācijas paneļiem, kas ir iekļauti programmā Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

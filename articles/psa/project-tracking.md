@@ -1,6 +1,6 @@
 ---
 title: Projekta norise un izmaksu patēriņš
-description: Šajā rakstā ir sniegta informācija par projekta progresa un izmaksu patēriņa izsekošanu.
+description: Šajā rakstā ir sniegta informācija par to, kā izsekot līdzi projekta progresam un izmaksu patēriņam.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921771"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Dažās nozarēs izsekošana notiek ļoti smalkā līmenī, turpretī citās nozarēs izsekošana tiek veikta augstākā līmenī. Šajā rakstā ir parādīts, kā ieplānot, lai izpildītu organizācijas prasības.
+Nepieciešamība sekot līdzi grafika gaitai dažādās nozarēs atšķiras. Dažās nozarēs izsekošana notiek ļoti smalkā līmenī, turpretī citās nozarēs izsekošana tiek veikta augstākā līmenī. Šajā rakstā ir parādīts, kā veikt plānošanu, lai izpildītu jūsu organizācijas prasības.
 
 ## <a name="effort-tracking-view"></a>Piepūles izsekošanas skats
 

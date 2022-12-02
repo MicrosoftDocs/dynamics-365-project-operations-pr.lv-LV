@@ -1,6 +1,6 @@
 ---
 title: Jaunu pielāgotu entītiju veidlapu pievienošana (Project Service Automation 2.x)
-description: Šajā rakstā sniegta informācija par to, kā pievienot pielāgotas entītiju veidlapas iespējām, piedāvājumiem, pasūtījumiem Dynamics 365 Project Service Automation vai rēķiniem 2.x formātā.
+description: Šajā rakstā ir sniegta informācija par to, kā programmā Dynamics 365 Project Service Automation 2.x pievienot pielāgotas entītiju veidlapas iespējām, piedāvājumiem, pasūtījumiem vai rēķiniem.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Darba un izdevumu standarta izmaksu konfigurēšana
-description: Šajā rakstā paskaidrots, kā iestatīt projekta darbaspēka un izdevumu standarta izmaksas.
+description: Šajā rakstā ir paskaidrots, kā iestatīt darba un izdevumu standarta izmaksas projektam.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919520"
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā paskaidrots, kā iestatīt projekta darbaspēka un izdevumu standarta izmaksas. Šajā uzdevumā tiek izmantota USSI datu kopa.
+Šajā rakstā ir paskaidrots, kā iestatīt darba un izdevumu standarta izmaksas projektam. Šajā uzdevumā tiek izmantota USSI datu kopa.
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Projekta pārvaldība un grāmatvedība > Iestatīšana > Cenas > Izmaksas (stunda)**.
 2. Atlasiet **Jauns**.

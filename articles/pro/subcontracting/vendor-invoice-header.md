@@ -1,6 +1,6 @@
 ---
 title: Informācija par piegādātāju rēķiniem
-description: Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta Microsoft kreditora rēķina galvenē Dynamics 365 Project Operations.
+description: Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta piegādātāja rēķina galvenē programmā Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,29 +17,29 @@ ms.locfileid: "9261670"
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta Microsoft kreditora rēķina galvenē Dynamics 365 Project Operations.
+Šajā rakstā ir izskaidrota funkcionalitāte, kas tiek nodrošināta piegādātāja rēķina galvenē programmā Microsoft Dynamics 365 Project Operations.
 
-Tā kā projektu vadītāji plāno un īsteno projektus, viņi var nodarbināt apakšuzņēmējus un iegādāties produktus un pakalpojumus no piegādātājiem. Projekta izpildes laikā izmaksas rodas no pakalpojumiem, materiāliem un izdevumu kategorijām, kas tiek iepirktas apakšuzņēmuma līgumos ar piegādātājiem. Kreditori izraksta rēķinus par šīm izmaksām projektiem, izveidojot kreditoru rēķinus.
+Kamēr projektu vadītāji plāno un izpilda projektus, viņi var nodarbināt apakšuzņēmējus un iegādāties produktus un pakalpojumus no piegādātājiem. Projekta izpildes laikā izmaksas rodas no pakalpojumu, materiālu un izmaksu kategorijām, kas tiek iepirktas ar apakšlīgumiem no piegādātājiem. Piegādātāji izraksta rēķinu par šīm izmaksām projektā, izveidojot piegādātāju rēķinus.
 
-Šajā tabulā ir sniegta informācija par laukiem kreditoru rēķinu galvenēs programmā Project Operations.
+Šajā tabulā ir informācija par piegādātāja rēķina galvenēm programmā Project Operations.
 
 | Kolonna | Apraksts | Funkcionālā ietekme |
 | --- | --- | --- |
-| Nosaukums/vārds | Kreditora rēķina nosaukums. | Visos kreditoru rēķinu nolaižamajās sarakstos kreditora rēķina nosaukums ir norādīts pirmajā kolonnā, lai palīdzētu identificēt kreditora rēķinu. Pēc noklusējuma, kad kreditora rēķins tiek izveidots no apakšuzņēmuma līguma, **kreditora rēķina laukam Nosaukums** tiek iestatīta vērtība, kas sastāv no apakšuzņēmuma līguma nosaukuma un pašreizējā datuma. |
-| Apraksts | Īss apraksts par pakalpojumiem un precēm, par kurām tiek izrakstīts rēķins kreditora rēķinā. | Nevienu |
-| Kreditors | Tā uzņēmuma nosaukums, kas izraksta rēķinus par produktiem un pakalpojumiem. Šim uzņēmumam ir jābūt konta ierakstam, kura relāciju tips ir Kreditors **vai** **Piegādātājs**. | <p>Pamatojoties uz atlasīto kreditoru, noklusējuma vērtības tiek automātiski ievadītas šādos laukos:</p><ul><li>Valūta</li><li>Cenrāži</li><li>Maksājumu nosacījumi</li><li>Maksājuma adrese</li></ul> |
-| Apakšuzņēmēja līgums | Atsauce uz apakšlīgumu par kreditora rēķinu. | <p>Pamatojoties uz atlasīto apakšuzņēmuma līgumu, noklusējuma vērtības tiek automātiski ievadītas tālāk norādītajos laukos.</p><ul><li>Valūta</li><li>Cenrāži</li><li>Maksājumu nosacījumi</li><li>Maksājuma adrese</li></ul><p>Apakšlīgums, kas ir atlasīts kreditora rēķina galvenē, pēc noklusējuma tiek ievadīts kreditora rēķina rindās, un tur to nevar mainīt.</p> |
-| Rēķina datums | Faktisko izmaksu datums, kas tiks izveidots, apstiprinot kreditora rēķinu. | Rēķina datums tiek izmantots arī, lai atlasītu pareizo pirkšanas cenrādi vai nu no cenrāžiem, kas ir pievienoti saistītajam kreditoram, vai no projekta parametriem. |
-| Statusa iemesls | Kreditora rēķina statuss. | <p>Statuss nosaka, kur kreditora rēķins atrodas biznesa procesā un vai to var rediģēt. Tālāk ir norādītas dažas no pieejamajām vērtībām.</p><ul><li>**Melnraksts** — kreditora rēķinu var rediģēt.</li><li>**Apstiprināts** — kreditora rēķins tika pārbaudīts un apstiprināts. Kreditoru rēķinus šajā statusā nevar rediģēt vai dzēst.</li><li>**Procesā** — tiek pārskatīts kreditora rēķins. Kreditoru rēķinus šajā statusā var rediģēt, bet tos nevar izdzēst.</li><li>**Atcelts** — kreditora rēķins tika atcelts. Kreditoru rēķinus šajā statusā nevar rediģēt vai dzēst.</li></ul> |
-| Valūta | Valūta, par kuru kreditors izraksta rēķinus par precēm un pakalpojumiem kreditora rēķinā. | Kreditora rēķinā, kurā ir atsauce uz apakšlīgumu, apakšuzņēmuma līguma valūta pēc noklusējuma tiek ievadīta kā kreditora rēķina valūta. Kreditora rēķinā, kurā nav atsauces uz apakšlīgumu, noklusējuma vērtība tiek ievadīta kreditora konta ierakstā un var tikt mainīta. Pēc kreditora rēķina saglabāšanas valūtu vairs nevar rediģēt. |
-| Līgumslēdzēja vienība | Uzņēmuma nodaļa, kas ir atbildīga par pakalpojumu un/vai produktu saņemšanu no pārdevēja. | Nevienu |
-| Maksājumu nosacījumi | Apmaksas noteikumi izrakstītajos kreditoru rēķinos. Noklusējuma vērtība tiek automātiski ievadīta no piegādātāja konta ierakstiem. | Maksājuma nosacījumi no apakšuzņēmuma līguma tiek kopēti uz visiem kreditoru rēķiniem, kas ir saistīti ar apakšlīgumu. Maksājuma nosacījumus var atjaunināt, ja kreditora rēķinam ir melnraksta **statuss**. |
-| Maksājuma adrese | Piegādātāja adrese, uz kuru ir jānosūta maksājumi. Noklusējuma vērtība tiek automātiski ievadīta no piegādātāja konta ierakstiem. | Maksājuma adrese no apakšuzņēmuma līguma tiek kopēta kā maksājuma adrese visiem kreditoru rēķiniem, kas ir izveidoti šim apakšlīgumam. Maksājuma adresi var atjaunināt, ja kreditora rēķinam ir melnraksta **statuss**. |
-| Starpsumma | Ja kreditora rēķinam nav rindu, pirms nodokļu nomaksas ievadiet rēķina starpsummu. Ja kreditora rēķinā ir rindas, šis lauks ir tikai lasāms. Šajā gadījumā parādītā summa ir starpsummu summa no visām rindām kreditora rēķinā. | Nevienu |
-| Kopējais nodoklis | Ja kreditora rēķinā nav rindu, ievadiet kopējos nodokļus apakšuzņēmuma līgumā. Ja kreditora rēķinā ir rindas, šis lauks ir tikai lasāms. Šajā gadījumā parādītā summa ir nodokļu summu summa no visām rindām kreditora rēķinā. | Nevienu |
-| Kopsumma | Šajā aprēķinātajā laukā tiek parādīta kreditora rēķina kopējā summa pēc nodokļu iekļaušanas. | Nevienu |
+| Nosaukums/vārds | Piegādātāja rēķina nosaukums. | Visos piegādātāja rēķina nolaižamajos sarakstos piegādātāja rēķina nosaukums tiek norādīts pirmajā kolonnā, lai palīdzētu jums identificēt piegādātāja rēķinu. Pēc noklusējuma, izveidojot piegādātāja rēķinu no apakšlīguma, piegādātāja rēķina laukā **Nosaukums** tiek iestatīta vērtība, kas sastāv no apakšlīguma nosaukuma un pašreizējā datuma. |
+| Apraksts | Īss pakalpojumu un produktu apraksts, par kuriem tiek izrakstīts piegādātāja rēķins. | Nevienu |
+| Kreditors | Uzņēmuma nosaukums, kas izraksta rēķinu par produktiem un pakalpojumiem. Šim uzņēmumam ir nepieciešams uzņēmuma ieraksts, kam ir attiecību tips **Pārdevējs** vai **Piegādātājs**. | <p>Pamatojoties uz atlasīto piegādātāju, noklusējuma vērtības tiek automātiski ievadītas šādos laukos:</p><ul><li>Valūta</li><li>Cenrāži</li><li>Maksājumu nosacījumi</li><li>Maksājuma adrese</li></ul> |
+| Apakšuzņēmēja līgums | Atsauce uz piegādātāja rēķina apakšlīgumu. | <p>Pamatojoties uz atlasīto apakšlīgumu, noklusējuma vērtības tiek automātiski ievadītas šādos laukos:</p><ul><li>Valūta</li><li>Cenrāži</li><li>Maksājumu nosacījumi</li><li>Maksājuma adrese</li></ul><p>Apakšlīgums, kas tiek atlasīts piegādātāja rēķina galvenē, tiek ievadīts pēc noklusējuma piegādātāja rēķina rindās, un to tur nevar mainīt.</p> |
+| Rēķina datums | Faktisko izmaksu datums, kas tiks izveidots, kad tiks apstiprināts piegādātāja rēķins. | Rēķina datums tiek arī izmantots, lai atlasītu pareizo cenrādi no cenrāžiem, kas ir pievienoti saistītajam piegādātājam, vai no projekta parametriem. |
+| Statusa iemesls | Piegādātāja rēķina statuss. | <p>Statuss nosaka, kur atrodas piegādātāja rēķins uzņēmējdarbības procesā, un to var rediģēt. Šīs ir dažas no pieejamajām vērtībām:</p><ul><li>**Melnraksts** — piegādātāja rēķinu var rediģēt.</li><li>**Apstiprināts** — piegādātāja rēķins tika pārbaudīts un apstiprināts. Šajā statusā piegādātāja rēķinus nevar rediģēt vai dzēst.</li><li>**Procesā** — piegādātāja rēķins tiek pārskatīts. Šajā statusā piegādātāja rēķinus var rediģēt, bet nevar dzēst.</li><li>**Atcelts** — piegādātāja rēķins tika atcelts. Šajā statusā piegādātāja rēķinus nevar rediģēt vai dzēst.</li></ul> |
+| Valūta | Valūta, kurā piegādātājs izraksta rēķinu par produktiem un pakalpojumiem piegādātāja rēķinā. | Piegādātāja rēķinā, kas atsaucas uz apakšlīgumu, apakšlīguma valūta pēc noklusējuma tiek ievadīta tāda pati kā piegādātāja rēķina valūta. Piegādātāja rēķinā, kam nav atsauces uz apakšlīgumu, noklusējuma vērtība tiek ievadīta no piegādātāja uzņēmuma ieraksta, un to var mainīt. Pēc piegādātāja rēķina saglabāšanas valūtu vairs nevar rediģēt. |
+| Līgumslēdzēja vienība | Uzņēmuma nodaļa, kas ir atbildīga par pakalpojumu un/vai produktu saņemšanu no piegādātāja. | Nevienu |
+| Maksājumu nosacījumi | Maksājumu nosacījumi par piegādātāju rēķiniem, kas tiek izsniegti. Noklusējuma vērtība tiek automātiski ievadīta no piegādātāja konta ierakstiem. | Maksājumu nosacījumi no apakšuzņēmēja līguma tiek kopēti uz visiem ar apakšlīgumu saistītajiem piegādātāja rēķiniem. Maksājumu nosacījumus var atjaunināt, ja piegādātāja rēķina statuss ir **Melnraksts**. |
+| Maksājuma adrese | Piegādātāja adrese, uz kuru ir jānosūta maksājumi. Noklusējuma vērtība tiek automātiski ievadīta no piegādātāja konta ierakstiem. | Maksājumu adrese no apakšuzņēmēja līguma tiek kopēta, kā maksājuma adrese visiem šim apakšlīgumam izveidotajiem piegādātāja rēķiniem. Maksājumu adresi var atjaunināt, ja piegādātāja rēķina statuss ir **Melnraksts**. |
+| Starpsumma | Ja piegādātāja rēķinā nav rindu, ievadiet rēķinu starpsummu pirms nodokļiem. Ja piegādātāja rēķinā ir rindas, šis lauks ir tikai lasāms. Šajā gadījumā parādītā summa ir starpsumma no visām piegādātāja rēķina rindām. | Nevienu |
+| Kopā nodokļi | Ja piegādātāja rēķinā nav rindu, ievadiet nodokļu kopsummu apakšlīgumā. Ja piegādātāja rēķinā ir rindas, šis lauks ir tikai lasāms. Šajā gadījumā parādītā summa ir nodokļu summu kopsumma no visām piegādātāja rēķina rindām. | Nevienu |
+| Kopsumma | Šajā aprēķinātajā laukā ir redzama piegādātāja rēķina kopsumma pēc nodokļu iekļaušanas. | Nevienu |
 
 > [!NOTE]
-> Pēc kreditora rēķina saglabāšanas nevar mainīt šādus kreditora rēķina laukus: Kreditors **, Apakšlīgums**, **Valūta** **,** Līgumslēdzēja struktūrvienība **un** Maksājuma nosacījumi **.** Ja šajos laukos kreditora rēķinā ir nepieciešamas kādas izmaiņas, jums ir jāizdzēš kreditora rēķins un jāizveido jauns kreditora rēķins.
+> Pēc piegādātāja rēķina saglabāšanas piegādātāja rēķinā nevar mainīt šādus laukus: **Piegādātājs**, **Apakšlīgums**, **Valūta**, **Līgumslēdzēja vienība** un **Maksājumu nosacījumi**. Ja šajos laukos piegādātāja rēķinā ir vajadzīgas izmaiņas, piegādātāja rēķins ir jāizdzēš un jāizveido jauns piegādātāja rēķins.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

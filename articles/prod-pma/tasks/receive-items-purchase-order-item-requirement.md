@@ -1,6 +1,6 @@
 ---
 title: Vienumu saņemšana pirkšanas pasūtījumā no vienuma prasībām
-description: Šajā rakstā paskaidrots, kā saņemt krājumus pirkšanas pasūtījumā no krājuma vajadzības.
+description: Šajā rakstā izskaidrots, kā no vienuma prasībām saņemt pirkšanas pasūtījuma elementus.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929545"
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā paskaidrots, kā saņemt krājumus pirkšanas pasūtījumā no krājuma vajadzības.
+Šajā rakstā izskaidrots, kā no vienuma prasībām saņemt pirkšanas pasūtījuma elementus.
 
 Izmantojot vienuma prasības, nevis vienumu transakciju, var plānot piegādi tieši pirms elementa faktiskās izmantošanas, izveidot pirkšanas pasūtījumu, iekļaut to pārdošanas līgumu shēmā, un iekļaut vienuma prasības ražošanas plānošanā. 
 

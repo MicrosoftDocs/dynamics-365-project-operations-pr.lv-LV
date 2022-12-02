@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt nepārsniedzošu statusu un pārbaudes
-description: Šajā rakstā sniegta informācija par ierobežojumu pārbaudēm, kas nepārsniedz projekta darbības.
+description: Šajā rakstā ir sniegta informācija par risinājumā Project Operations veiktajām nepārsniedzamā ierobežojuma pārbaudēm.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

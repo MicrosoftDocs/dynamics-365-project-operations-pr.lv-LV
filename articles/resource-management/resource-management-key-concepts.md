@@ -1,6 +1,6 @@
 ---
 title: Resursu pārvaldības galvenie jēdzieni
-description: Šajā rakstā sniegta informācija par resursu pārvaldības iespējām projektu operācijās Microsoft Dynamics.
+description: Šajā rakstā ir sniegta informācija par resursu pārvaldības iespējām programmā Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Resursu izveide
-description: Šajā rakstā ir sniegta saite uz informāciju par to, kā izveidot rezervējamus resursus.
+description: Šajā rakstā ir sniegta saite uz informāciju par rezervējamo resursu izveidi.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvi
 
 Varat izmantot Dynamics 365 Field Service, lai izveidotu rezervējamos resursus izmantošanai savā Dynamics 365 Project Operations vidē. Lai izveidotu šos resursus, skatiet sadaļu [Rezervējamo resursu iestatīšana](/dynamics365/field-service/set-up-bookable-resources).
 
-Project Operations atbalsta šādus resursu tipus:
+Programmā Project Operations grafiks atbalsta tālāk norādītos resursu tipus.
 - Uzņēmums
 - Kontaktinformācija
 - User

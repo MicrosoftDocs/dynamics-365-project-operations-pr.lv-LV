@@ -1,6 +1,6 @@
 ---
 title: Apakšsadarbību pārvaldība projekta operācijās
-description: Šajā rakstā ir sniegts pārskats par apakšlīgumu pārvaldības procesu no gala līdz galam, kas parasti notiek uz projektiem balstītās organizācijās.
+description: Šajā rakstā ir sniegts pārskats par pilnīgu apakšlīgumu pārvaldības procesu, kāds tas parasti ir uz projektiem balstītās organizācijās.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522335"
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Šajā rakstā ir sniegts pārskats par apakšuzņēmuma līgumu pārvaldības procesu no gala līdz galam uz projektiem balstītās organizācijās. Pakalpojumu apakšlīgumu slēgšana parasti ietilpst biznesa procesu plūsmā, kas parādīta tālāk redzamajā diagrammā.
+Šajā rakstā ir sniegts pārskats par pilnīgu apakšlīgumu pārvaldības procesu, kāds tas ir uz projektiem balstītās organizācijās. Pakalpojumu apakšlīgumu slēgšana parasti ietilpst biznesa procesu plūsmā, kas parādīta tālāk redzamajā diagrammā.
 
 ![Apakšlīgumu slēgšanas procesa plūsma](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Apakšlīguma rinda var būt balstīta uz daudzumu vai uz darbu.
 
 Ja apakšlīguma rinda ir **balstīta uz daudzumu**, tad daudzumu, kas tiek iegādāts apakšlīguma laika, izdevumu vai materiāla rindā, var izmantot jebkurā projektā.
 
-Ja apakšlīguma rinda ir **balstīta uz darbu**, apakšlīguma rinda ir kartēta uz darba vienību, ko atspoguļo mezgls projekta plānā. Apakšlīguma rindas vērtība ir visu to komponentu summa, kas nepieciešami, lai nodrošinātu šīs darba vienības izpildi. Tās tiek modelētas kā apakšlīguma rindas detaļas un var būt laika, izdevumu vai materiālu kolekcija. Uz darbu balstītām apakšlīguma rindām apakšlīguma rinda ir arī paredzēta atsevišķam projektam. Šāda veida apakšuzņēmuma līgumi ir galīgi, un tos neatbalsta projekta darbības.
+Ja apakšlīguma rinda ir **balstīta uz darbu**, apakšlīguma rinda ir kartēta uz darba vienību, ko atspoguļo mezgls projekta plānā. Apakšlīguma rindas vērtība ir visu to komponentu summa, kas nepieciešami, lai nodrošinātu šīs darba vienības izpildi. Tās tiek modelētas kā apakšlīguma rindas detaļas un var būt laika, izdevumu vai materiālu kolekcija. Uz darbu balstītām apakšlīguma rindām apakšlīguma rinda ir arī paredzēta atsevišķam projektam. Šie apakšsadarbību tipi netiek atbalstīti Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Produktu cenrāži
-description: Šajā rakstā sniegta informācija par cenrāžiem katalogu izcenojumos, kas tiek izmantoti projektu piedāvājumiem un līgumiem.
+description: Šajā rakstā sniegta informācija par cenu sarakstiem katalogu cenrāžos, ko izmanto projektu piedāvājumos un līgumos.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

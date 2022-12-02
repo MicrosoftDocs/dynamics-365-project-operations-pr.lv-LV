@@ -1,6 +1,6 @@
 ---
 title: Transakcijas kategorijas izmantošana kā cenu noteikšanas dimensiju
-description: Šajā rakstā sniegta informācija par darbību kategorijas kā cenu dimensijas izmantošanu.
+description: Šajā rakstā ir sniegta informācija par transakcijas kategorijas izmantošanu kā cenu noteikšanas dimensiju.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915745"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šajā rakstā parādīts, kā izmantot darbību kategoriju kā cenu dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja neesat izveidojis jaunu cenu dimensiju risinājumu savai organizācijai, veiciet procedūras, kas aprakstītas [rakstā Pielāgoto lauku un entītiju](create-custom-fields-entities.md) izveide.
+Šajā rakstā ir sniegta informācija par transakcijas kategorijas izmantošanu kā cenu noteikšanas dimensiju. Pirms darba sākšanas, ja vēl neesat izveidojis cenas noteikšanas dimensijas risinājumu, jums būs jāizveido jauns. Ja jums jau ir cenas noteikšanas dimensijas risinājums, varat veikt izmaiņas šajā risinājumā. Ja savai organizācijai neesat izveidojis jaunu cenas noteikšanas dimensijas risinājumu, izpildiet procedūru rakstā [Pielāgotu lauku un entītiju izveide](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Transakcijas kategorijas pievienošana veidlapām un skatiem
 Lai padarītu transakcijas kategoriju redzamu lietotāja interfeisā (UI), izmantojot cenas noteikšanas dimensijas risinājumu, jums būs jāapskata visas galveno entītiju veidlapas un skati un šie lauki jāpievieno šo entītiju veidlapām un skatiem.

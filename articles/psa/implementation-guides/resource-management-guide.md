@@ -1,6 +1,6 @@
 ---
 title: Resursu pārvaldības rokasgrāmata
-description: Šajā rakstā ir sniegtas saites uz informāciju par resursu pārvaldību projektu pakalpojumu automatizācijā
+description: Šajā rakstā ir saites uz informāciju par resursu vadību programmā Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910787"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz šādiem rakstiem:
+PDF saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārvietots uz tālāk uzskaitītajiem rakstiem:
 
 - [Resursu pārvaldības sākumlapa](../resource-management-home-page.md)
 - [Galvenie jēdzieni](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Pdf saite, kas iepriekš bija šajā rakstā, ir noņemta, un saturs ir pārviet
 - [Bieži uzdotie jautājumi par resursu pārvaldību](../resource-management-faq.md)
 
 > [!NOTE]
-> Šis raksts tiks noņemts nākamajā dokumentācijas atjauninājumā. 
+> Šis raksts tiks noņemts turpmākā dokumentācijas atjauninājumā. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
