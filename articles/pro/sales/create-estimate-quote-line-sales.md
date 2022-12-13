@@ -1,21 +1,21 @@
 ---
-title: Projekta piedāvājuma rindas aprēķināšana
-description: Šajā rakstā sniegta informācija par to, kā izveidot aprēķinu par projekta piedāvājuma rindu.
+title: Projekta piedāvājuma rindas aprēķins
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot tāmi projekta piedāvājuma rindā.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914365"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825997"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Projekta piedāvājuma rindas aprēķināšana
+# <a name="estimate-a-project-quote-line"></a>Projekta piedāvājuma rindas aprēķins
 
-_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
+_**Attiecas uz:** Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu, Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem_
 
 Projekta piedāvājuma rindā ir informācija, kas palīdz aprēķināt attiecīgā darba izmaksas un iespējamos ieņēmumus, lai izpildītu piedāvājuma rindu.
 
@@ -24,7 +24,7 @@ Lai aprēķinātu projekta piedāvājuma rindu, projekta piedāvājuma rindā at
 - Novērtējuma manuāla izveide tieši piedāvājuma rindā, izmantojot piedāvājuma rindas informāciju. 
 - Izveidojiet projektu un projekta plānu un pēc tam saistiet projektu un projekta uzdevumus ar piedāvājuma rindu. Tiek iespējots process, kurā projekta plānā ietvertie aprēķini tiek importēti piedāvājuma rindā, pamatojoties uz jūsu sniegto informāciju.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Aprēķinu izveide tieši projekta piedāvājuma rindā
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Tāmju izveide tieši projekta piedāvājuma rindiņā
 
 Lai izveidotu aprēķinu projekta piedāvājuma rindā, atlasiet cilni **Piedāvājuma rindas informācija** . Rindas elements, ko izveidojat šajā cilnē, apkopo šīs piedāvājuma rindas aprēķināto vērtību. 
 
@@ -68,8 +68,7 @@ Valūta piedāvājuma rindas informācijā attiecībā uz izmaksu noklusējuma v
 
 Rentabilitātes aprēķinos summas par piedāvājumu rindu informāciju attiecībā uz izmaksām un pārdošanas apjomiem tiek konvertētas attiecīgās vides pamata valūtā, lai sniegtu atskaiti par piedāvājuma prognozēto peļņu.
 
-> [PIEZĪME
-> > Valūtas noapaļošanas kļūdas un mainīti uzcenojumi var rasties, jo trūkst spēkā stāšanās datuma valūtas kursu. Izmantojiet šos aprēķinus tikai projekta līgumos, jo tie ir aptuveni un nav paredzēti faktiskiem statūtu vai citu veidu pārskatiem, kuriem nepieciešama augstāka noapaļošanas precizitāte un datuma precizitāte valūtas maiņas kursiem.
+> [! PIEZĪME Valūtas noapaļošanas kļūdas un izmaiņas maržās var rasties datuma efektīvo valūtas kursu trūkuma dēļ. Izmantojiet šos aprēķinus tikai projekta līgumos, jo tie ir aptuveni un nav paredzēti faktiskiem statūtu vai citu veidu pārskatiem, kuriem nepieciešama augstāka noapaļošanas precizitāte un datuma precizitāte valūtas maiņas kursiem.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

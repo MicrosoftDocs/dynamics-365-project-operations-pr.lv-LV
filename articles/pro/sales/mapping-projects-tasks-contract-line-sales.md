@@ -1,23 +1,23 @@
 ---
-title: Projektu un uzdevumu kartēšana uz projekta līguma rindu — Lite
+title: Projektu un uzdevumu kartēšana ar līguma rindu
 description: Šajā rakstā ir sniegta informācija par projektu un uzdevumu pievienošanu un noņemšanu līguma rindai.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932535"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825068"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projektu un uzdevumu kartēšana par projekta piedāvājuma rindu 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Projektu un uzdevumu kartēšana ar līguma rindu 
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu, Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem_
 
-Projekta līguma rindās var kartēt noteiktus uzdevumus projektā ar līguma rindu.
+Projekta līguma rindās varat kartēt konkrētus projekta uzdevumus uz līguma rindu.
 
 Kartējot noteiktus uzdevumus uz līguma rindu, norēķinu metode, maksāšanas iespējas, nepārsniedzamie ierobežojumi un līguma rindā definētie klienti būs piemērojami tikai šiem specifiskajiem uzdevumiem.
 
@@ -25,7 +25,7 @@ Ja jums ir scenārijs, kurā vienā projekta fāzē, piemēram, prototipa fāzē
 
 Visas pārējās projekta darba sadalījuma struktūra (WBS) fāzes var saistīt ar laika un materiālu līguma rindu.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Uzdevumu saistīšana ar projekta līguma rindām
+## <a name="associate-tasks-to-project-contract-lines"></a>Uzdevumu saistīšana ar projekta līguma līnijām
 
 Uzdevumus var saistīt ar līguma rindām lapas **Līguma rinda** cilnē **Rēķinā iekļaujamie uzdevumi** vai lapas **Projekts** cilnē **Uzdevumu norēķini**.
 

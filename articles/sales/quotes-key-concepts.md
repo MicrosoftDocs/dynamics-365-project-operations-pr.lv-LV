@@ -1,8 +1,8 @@
 ---
-title: Piedāvājumi — pamata koncepti
-description: Šajā rakstā sniegta informācija par projektu piedāvājumiem un pārdošanas piedāvājumiem, kas pieejami Project Operations.
+title: Projektā balstītu piedāvājumu unikālās koncepcijas
+description: Šajā rakstā ir sniegta informācija par projektu piedāvājumiem korporācijā Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912525"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824337"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Projektu piedāvājumiem raksturīgie koncepti
+# <a name="concepts-unique-to-project-based-quotes"></a>Projektā balstītu piedāvājumu unikālās koncepcijas
 
-_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
+_**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Programmā Dynamics 365 Project Operations ir divu tipu piedāvājumi — projekta piedāvājumi un pārdošanas piedāvājumi. Abi piedāvājumu veidi atšķiras šādi:
+Pirms sākat izmantot projektu citātus korporācijā Microsoft Dynamics 365 Project Operations, jums jāzina šādi galvenie jēdzieni.
 
-- **Rindas elementu režģi**: Pārdošanas piedāvājumā rindas elementiem ir tikai viens režģis. Projekta piedāvājumā rindas elementiem ir divi režģi. Viens režģis ir projekta rindām, bet otrs — produktu rindām.
-- **Aktivizēšana un pārskatīšana**: Pārdošanas piedāvājumu atbalsta aktivizēšana un pārskatīšana. Šie procesi netiek atbalstīt projekta piedāvājumā.
-- **Pievienotie pasūtījumi**: Pārdošanas piedāvājumam varat pievienot vairākus pasūtījumus. Projekta piedāvājumam var pievienot tikai vienu projekta līgumu.
-- **Piedāvājuma iegūšana**: Iegūstot pārdošanas piedāvājumu, saistīta iespēja var palikt atvērta. Pēc tam, kad projekta piedāvājums ir iegūts, saistītā iespēja tiek slēgta.
-- **Lauki un koncepti**: Pārdošanas piedāvājumā nav iekļauti daži lauki un koncepcijas, kas ir iekļautas projekta piedāvājumā. Šie lauki ir, piemēram, **Līgumslēdzēja struktūrvienība**, **Uzņēmumu pārvaldnieks** un **Rēķina saņēmēja kontaktpersonas vārds**.  
-- **Veids**: Pārdošanas piedāvājumus un projekta piedāvājumus norāda arī pēc opciju kopā balstīta lauka **Veids**. Pārdošanas piedāvājumā šim laukam ir vērtība **Balstīts uz elementu**. Projekta piedāvājumā tam ir vērtība **Balstīts uz darbu**.
+## <a name="owning-company"></a>Atbildīgais uzņēmums
 
-Šajā rakstā galvenā uzmanība tiks pievērsta detalizētai informācijai par projekta piedāvājumiem.
+Piederošais uzņēmums pārstāv juridisko personu, kurai pieder projekta piegāde. Debitoram piedāvājumā ir jābūt derīgam klientam šajā juridiskajā personā Finance and Operations programmās. Piederošā uzņēmuma valūtai un līgumslēdzējas struktūrvienības valūtai, kas atlasīta uz projektu balstītā piedāvājumā, ir jāatbilst.
 
-Projekta piedāvājumam Project Operations var būt vairāki rindas elementi vai piedāvājuma rindas. Projekta piedāvājumā ir divi režģi rindas elementiem. Viens režģis ir paredzēts uz projektu balstītām rindām, kas nodrošina detalizētus novērtējumus. Otrs režģis ir paredzēts uz preci balstītām rindām, kas izmanto vienkāršu vienības cenas un uz daudzumu balstītu metodi.
+## <a name="contracting-unit"></a>Līgumslēdzēja vienība
 
-- **Balstīts uz projektu**: Piedāvātā vērtība tiek noteikta pēc tam, kad ir novērtēts, cik daudz darba ir nepieciešams. Izmantojot projektu un projekta plānu, varat aprēķināt darbu augstā līmenī, tieši kā rindas informāciju zem katras piedāvājuma rindas vai, pamatojoties uz sākotnējiem aprēķiniem, izmantojot projektu un projekta plānu. Uz projektu balstītas piedāvājuma rindas ir atrodamas tikai uz projektu balstītos piedāvājumos, kas izveidoti, izmantojot Project Operations. Šī tipa piedāvājuma rinda ir pielāgota programmā Microsoft Dynamics 365 Sales pieejamo ierakstāmo piedāvājuma rindu forma.
+Līgumslēdzēja struktūrvienība pārstāv nodaļu vai praksi, kurai pieder projekta īstenošana. Katrai līgumslēdzējai vienībai var iestatīt resursu izmaksas. Norādot resursu izmaksas resursam līgumslēdzēja struktūrvienībā, varat iestatīt dažādas izmaksu likmes resursiem, no kuriem līgumslēdzēja struktūrvienība aizņemas, vai citām nodaļām vai praksēm uzņēmumā. Šīs izmaksu likmes sauc par transfertcenām, resursu aizņēmumu vai biržas cenām. Iestatot resursu aizņemšanās izmaksas no citām nodaļām, varat iestatīt izmaksu likmes kreditēšanas nodaļas valūtā.
 
-- **Balstīts uz preci**: Piedāvātā vērtība tiek noteikta, pamatojoties uz pārdoto vienību daudzumu un vienības pārdošanas cenu. Prece uz preci balstītā rindā var būt iegūta no Sales preču kataloga vai arī tā var būt jūsu definētā prece. Šī tipa piedāvājuma rinda ir pieejama arī uz projektu balstītos piedāvājumos, kas izveidoti, izmantojot Project Operations.
+## <a name="cost-currency"></a>Izmaksu valūta
 
-Piedāvājumā ietvertā summa ir uz preci balstīto rindu un uz projektu balstīto rindu kopsumma.
+Izmaksu valūta programmā Project Operations ir valūta, kurā tiek uzrādītas izmaksas. Šī valūta tiek atvasināta no valūtas, kas ir pievienota **kotējuma, līguma un projekta laukam Līgumslēdzēja vienība** . Izmaksas pret projektu var reģistrēt jebkurā valūtā. Tomēr notiek valūtas konvertēšana no valūtas, kurā izmaksas tika reģistrētas, uz projekta izmaksu valūtu.
 
-> [!NOTE]
-> Piedāvājumi un piedāvājuma rindas programmā Project Operations nav obligātas. Projekta procesu var sākt ar projekta līgumu (pārdotais projekts). Tomēr vienmēr ir nepieciešama iespēja neatkarīgi no tā, vai sākat darbu ar piedāvājumu vai projekta līgumu.
+Tā kā valūtas maiņas kursi Dataverse platformā nevar būt spēkā no datuma, ekrānā redzamās izmaksu kopsummas laika gaitā var mainīties, ja atjaunināt valūtas maiņas kursus. Tomēr izmaksas, kas tiek reģistrētas datu bāzē, paliek nemainīgas, jo summas tiek glabātas valūtā, kurā tās radušās.
 
-## <a name="project-based-quote-lines"></a>Projekta piedāvājuma rindas
+## <a name="sales-currency"></a>Pārdošanas valūta
 
-Uz projektu balstītai piedāvājuma rindai programmā Project Operations ir tālāk norādītās norēķinu metodes.
+Pārdošanas valūta projekta operācijās ir valūta, kurā tiek reģistrētas un rādītas aplēstās un faktiskās pārdošanas summas. Tā ir arī valūta, par kuru klientam tiek izrakstīts rēķins par darījumu. Projekta piedāvājumam tiek iestatīta noklusējuma pārdošanas valūta no debitora vai uzņēmuma ieraksta, un to var mainīt, kad piedāvājums tiek izveidots. Tomēr pēc piedāvājuma saglabāšanas pārdošanas valūtu nevar mainīt. Noklusējuma produktu un projektu cenrāži tiek iestatīti, pamatojoties uz piedāvājuma pārdošanas valūtu.
 
-- Laiks un materiāli
-- Fiksētas cenas
+Atšķirībā no izmaksām pārdošanas vērtības var ierakstīt **tikai** pārdošanas valūtā.
 
-### <a name="time-and-material"></a>Laika un materiālu
+## <a name="billing-method"></a>Rēķinu izrakstīšanas metode
 
-Laika un materiālu norēķinu metodes pamatā ir patēriņš. Kad atlasāt šo norēķinu metodi, klientam tiek izrakstīts rēķins par projekta izmaksām. Rēķini tiek izveidoti periodiski, pamatojoties uz datumu. Pārdošanas procesa laikā laika un materiālu komponenta piedāvātā vērtība klientam sniedz tikai galīgo izmaksu novērtējumu. Kreditors neuzņemas saistības izpildīt projektu precīzi atbilstoši piedāvātajai vērtībai. Laika un materiālu komponenti palielina klienta risku. Klienti, iespējams, vēlēsies apspiest papildu klauzulas par nepārsniegšanu, lai samazinātu to risku. Project Operations neatbalsta klauzulu par nepārsniegšanu iestatīšanu.
+Projektiem parasti ir fiksētas maksas un patēriņa līgumu modeļi. Sadaļā Projekta operācijas projekta līguma modelis tiek attēlots ar norēķinu metodi. Norēķinu metodei ir divas vērtības: laiks un materiāls un fiksēta cena.
 
-### <a name="fixed-price"></a>Fiksētas cenas
+- **Laiks un materiāli**  — uz patēriņu balstīts līgumu slēgšanas modelis, kurā visas radušās izmaksas tiek segtas ar atbilstošiem ieņēmumiem. Aprēķinot vai radot vairāk izmaksu, palielinās arī aplēstais un faktiskais pārdošanas apjoms. Varat norādīt nepārsniedzamos ierobežojumus to piedāvājumu rindās, kam ir šī norēķinu metode. Tādā veidā jūs varat ierobežot faktiskos ieņēmumus. Aprēķinātos ieņēmumus neietekmē ierobežojumi, kas nepārsniedz ierobežojumus.
+- **Fiksēta cena**  — fiksētas maksas līgumu modelis, kurā pārdošanas vērtības nav atkarīgas no izmaksām, kas radušās. Pārdošanas vērtība ir fiksēta un nemainās, aplēšot vai radot vairāk izmaksu.
 
-Izmantojot fiksētas cenas norēķinu metodi, kreditors apņemas nodrošināt projektu klientam par fiksētu samaksu. Klientam tiek izrakstīts rēķins par fiksētas cenas piedāvājuma rindas piedāvāto vērtību neatkarīgi no izmaksām, kas kreditoram rodas, nodrošinot šo piedāvājuma rindu. Rēķins par fiksētas cenas piedāvājuma rindas vērtību tiek izrakstīts vienā no tālāk norādītajiem veidiem. 
+## <a name="project-price-lists"></a>Projekta cenrāži
 
-- Kā vienreizējās izmaksas summa projekta sākumā vai beigās vai tad, kad ir sasniegts projekta atskaites punkts. 
-- No datuma atkarīgos intervālos, veicot vienlīdzīgus piedāvājuma rindas fiksētās vērtības maksājumus. Šie maksājumi ir pazīstami kā periodiskie atskaites punkti.
-- Maksājumi, kam ir naudas vērtība, tiek saskaņoti ar darba norisi vai konkrētiem projektā sasniegtiem atskaites punktiem. Šajā gadījumā katra maksājuma vērtība var atšķirties, bet tiem kopā ir jāveido piedāvājuma rindas fiksētā vērtība.
+Projekta cenrāži ir cenrāži, kas tiek izmantoti, lai ievadītu noklusējuma cenas, nevis izmaksu likmes laikam, izdevumiem un citiem ar projektu saistītiem komponentiem. Var būt vairāki cenrāži, un katram no tiem var būt savs datums katram projekta piedāvājumam. Project Operations neatbalsta pārklājošos datumu efektivitāti projekta cenrāžiem.
 
-Project Operations atbalsta visus trīs rēķinu grafiku tipus fiksētas cenas piedāvājuma rindām.
+## <a name="product-price-lists"></a>Produktu cenrāži
 
-## <a name="transaction-classification"></a>Transakciju klasifikācija
+Produktu cenrāži ir cenrāži, kas tiek izmantoti, lai piedāvājumā ievadītu noklusējuma cenas, nevis izmaksu likmes uz precēm balstītām rindām. Katram piedāvājumam ir tikai viens produktu cenrādis.
 
-Profesionālo pakalpojumu organizācijas parasti sniedz piedāvājumus un izraksta rēķinus saviem klientiem, izmantojot izmaksu klasifikāciju. Izmaksas tiek apzīmētas ar tālāk norādītajām transakciju klasifikācijām.
+## <a name="transaction-classes"></a>Transakciju klases
 
-- **Laiks**: Šī klasifikācija norāda darba vai cilvēkresursu laika izmaksas projektā.
-- **Izdevumi**: Šī klasifikācija norāda visus pārējos izdevumus projektā. Tā kā izdevumus var plaši klasificēt, lielākā daļā organizāciju izveido apakškategorijas, piemēram, ceļojumi, automašīnu īre, viesnīca vai biroja preces.
-- **Maksa**: Šī klasifikācija norāda dažādas pieskaitāmās izmaksas, soda naudas un citas no klienta iekasējamās maksas. 
-- **Nodoklis**: Šī klasifikācija norāda nodokļu summas, ko lietotāji pievieno, ievadot izdevumus.
-- **Materiālu transakcija**: Šī klasifikācija norāda faktiskās vērtības no preču rindām apstiprinātā projekta rēķinā.
-- **Atskaites punkts**: Šo klasifikāciju izmanto fiksētas cenas norēķinu loģika.
+Project Operations atbalsta četru veidu transakciju klases:
 
-Vienu vai vairākas no šīm transakciju klasifikācijām var saistīt ar katru piedāvājuma rindu. Pēc tam, kad piedāvājums ir iegūts, kartējums starp transakciju klasifikāciju un piedāvājuma rindu tiek pārsūtīts uz līguma rindu.
-  
-Piedāvājumā var būt ietvertas, piemēram, tālāk norādītās divas piedāvājuma rindas. 
+- Laiks
+- Izdevumi
+- Materiāls
+- Maksa
 
-- Konsultāciju darbs, kas izmanto laika un materiālu norēķinu metodi, kurā ir piemērojamas laika un maksu transakciju klasifikācijas. Piemēram, par visām projekta parauga **Dynamics AX ieviešana** laika un maksu transakcijām rēķins klientam tiek izrakstīts, pamatojoties uz patērēto laiku un materiāliem. 
-- Saistītie ceļa izdevumi, kas izmanto fiksētu cenas norēķinu metodi. Piemēram, par visiem projekta parauga **Dynamics AX ieviešana** ceļa izdevumiem rēķins tiek izrakstīts, izmantojot fiksētu naudas vērtību.
+Izmaksu un pārdošanas vērtības var aplēst un radīt klasēs **Laiks**, **Izdevumi** un **Materiālu** transakcijas. **Maksa** ir darījumu klase, kas attiecas tikai uz ieņēmumiem.
 
-> [!NOTE]
-> Projekta un transakciju klasifikāciju **Laiks**, **Izdevumi** un **Maksa** kombinācijai, kas saistīta ar piedāvājuma rindu vai līguma rindu, ir jābūt unikālai. Ja viena un tā pati projekta un transakciju klases kombinācija būs saistīta ar vairāk nekā vienu līguma rindu vai piedāvājuma rindu, Project Operations nedarbosies pareizi.
+## <a name="work-entities-and-billing-entities"></a>Darba entītijas un norēķinu entītijas
 
-## <a name="billing-types"></a>Norēķinu tipi
+Projekti un Uzdevumi ir entītijas, kas pārstāv darbu. Piedāvājuma rindas un Līguma rindas ir entītijas, kas apzīmē norēķinus. Varat saistīt dažādas darba entītijas ar norēķinu opcijām, saistot tās ar piedāvājuma rindām vai līguma rindām.
 
-Lauks **Norēķinu tips** definē rēķinā iekļaujamības koncepciju. Tas ir opciju kopa ar tālāk norādītajām iespējamajām vērtībām.
+## <a name="multi-customer-deals"></a>Vairāku klientu darījumi
 
-- **Rēķinā iekļaujams**: Izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, un klientam ir jāmaksā par šo darbu. Maksājumu var administrēt kā laika un materiālu vai fiksētas cenas apmaksu. Tomēr darbinieks, kas veltīs šo laiku, saņems atbilstošo kredītu par savu apmaksājamo izmantošanu.
-- **Rēķinā iekļaujams**: Izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, lai gan klients šo faktu neatzīst un nevēlas maksāt par šo darbu. Darbinieks, kas veltīs šo laiku, nesaņems atbilstošo kredītu par savu apmaksājamo izmantošanu.
-- **Bezmaksas**: Izmaksas, kas tiek uzkrātas, izmantojot šo lomu/kategoriju, ir tiešās izmaksas, kas virza projekta izpildi, un klients atzīst šo faktu. Darbinieks, kas veltīs šo laiku, saņems kredītu par savu apmaksājamo izmantošanu. Taču šīs izmaksas netiks iekasētas no klienta.
-- **Nav pieejams**: Izmaksas, kas rodas iekšējos projektos un kam nav nepieciešama ieņēmumu izsekošana, tiek izsekotas, izmantojot šo opciju.
+Vairāku klientu darījumi notiek, ja vienā rēķinā ir vairāk nekā viens klients. Šeit ir daži tipiski piemēri:
 
-## <a name="invoice-schedule"></a>Rēķina izrakstīšanas grafiks
+- **Oriģinālā aprīkojuma ražotāja (OEM) uzņēmumi un to partneri**  – Partneri un tālākpārdevēji pārdod produktu, kas ietver pievienotās vērtības pakalpojumus. Darījuma laikā ar klientu OEM parasti piedāvā finansēt daļu no projekta.
+- **Publiskā sektora projekti**  – Vairāki pašvaldības departamenti piekrīt finansēt projektu un tiek izrakstīti rēķini saskaņā ar iepriekš saskaņotu sadalījumu. Piemēram, skolas rajons un pilsēta vai vietējās pašvaldības departaments vienojas par peldbaseina būvniecības finansēšanu.
 
-Rēķina izrakstīšanas grafiks ir datumu sērija, kas attiecas uz rēķinu izrakstīšanu projektā. Pēc izvēles varat izveidot rēķina izrakstīšanas grafiku piedāvājuma rindā. Katrai piedāvājuma rindai var būt savs rēķina izrakstīšanas grafiks. Lai izveidotu rēķina izrakstīšanas grafiku, ir jānorāda tālāk norādītās atribūtu vērtības.
+## <a name="invoice-schedules"></a>Rēķina izrakstīšanas grafiki
 
-- Rēķina perioda sākuma datums 
-- Piegādes datums, kas norāda rēķina perioda beigu datumu projektā
-- Rēķinu izrakstīšanas biežums
+Rēķinu grafiki ir specifiski katrai piedāvājuma rindai un nav obligāti. Rēķinu grafiki tiek izveidoti, pamatojoties uz konkrētiem sākuma un beigu datumiem un rēķinu biežumu. Tie tiek izmantoti līguma posmā, kad ir konfigurēts automātiskais rēķinu izveides process. Piedāvājuma posmā rēķinu grafiki nav obligāti. Ja tie tiek izveidoti piedāvājuma stadijā, tie tiek kopēti uz projekta līgumu, kas tiek izveidots, kad tiek uzvarēts projekta piedāvājums.
 
-Šīs trīs atribūtu vērtības izmanto, lai ģenerētu varbūtēju datumu kopu, kam izveidot rēķinu izrakstīšanu.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Atšķirības no Dynamics 365 pārdošanas piedāvājumiem
 
-## <a name="invoice-frequency"></a>Rēķinu izrakstīšanas biežums
+Project Operations piedāvājumi ir balstīti uz Dynamics 365 Sales piedāvājumiem. Tomēr ir dažas būtiskas atšķirības funkcionalitātē, kas jāņem vērā.
 
-Rēķinu izrakstīšanas biežums ir entītija, kas glabā atribūtu vērtības, kuras palīdz izteikt rēķinu izveides biežumu. Tālāk norādītie atribūti izsaka vai definē rēķinu izrakstīšanas biežuma entītiju.
+- Projekta operāciju piedāvājumiem ir divu veidu rindas: viena projektiem un otra precēm.
+- Project Operations piedāvājumiem ir savi lapas un lietotāja interfeisa (User Interface — UI) elementi, biznesa kārtulas, biznesa loģika spraudņos un klienta puses skripti, kas padara tos atšķirīgus no pārdošanas piedāvājumiem.
+- Sadaļā Pārdošana vienam pārdošanas piedāvājumam varat pievienot vairākus pasūtījumus. Sadaļā Project Operations projekta piedāvājumam varat pievienot tikai vienu projekta līgumu.
+- Vinnējot pārdošanas piedāvājumu, saistītā iespēja var palikt atvērta. Pēc tam, kad projekta piedāvājums ir iegūts, saistītā iespēja tiek slēgta.
+- Pārdošanas piedāvājumā nav iekļauti daži lauki un koncepcijas, kas iekļautas projekta piedāvājumā. Šie lauki ir, piemēram, **Līgumslēdzēja struktūrvienība**, **Uzņēmumu pārvaldnieks** un **Rēķina saņēmēja kontaktpersonas vārds**.
+- Pārdošanas piedāvājumi un projektu piedāvājumi tiek identificēti pēc lauka opciju kopa **Tips** . Pārdošanas piedāvājumam šī lauka vērtība ir **balstīta** uz krājumu. Projekta piedāvājumam vērtība ir **Uz darbu balstīta**.
 
-- **Periods**: Tiek atbalstīti mēneša, divu nedēļu un nedēļas periodi. 
-- **Izpildes katrā periodā**: Nedēļas un divu nedēļas periodiem var definēt tikai vienu izpildi katrā periodā. Mēneša periodiem var definēt no vienas līdz četrām izpildēm katrā periodā. 
-- **Izpildes dienas**: Dienas, kurās jāveic rēķinu izrakstīšana. Šo atribūtu var konfigurēt divos veidos.
-  - **Darbadienas**: Varat, piemēram, norādīt, ka rēķini tiek izrakstīti katru pirmdienu vai katru otro pirmdienu. Klienti, kuriem jāiestata rēķinu izrakstīšana darbadienā, var dod priekšroku šāda veida konfigurācijai. 
-  - **Kalendārās dienas**: Varat, piemēram, norādīt, ka rēķini tiek izrakstīti katra mēneša septītajā un divdesmit pirmajā dienā. Dažas organizācijas var izvēlēties šāda veida konfigurāciju, jo tā palīdz garantēt, ka rēķini tiek izrakstīti, izmantojot fiksētu grafiku katru mēnesi.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Fiksētas cenas piedāvājuma rindas rēķina izrakstīšanas grafiks
-
-Fiksētas cenas piedāvājuma rindai varat izmantot režģi **Rēķina izrakstīšanas grafiks**, lai izveidotu rēķina izrakstīšanas atskaites punktus, kas ir līdzvērtīgi piedāvājuma rindas vērtībai.
-
-- Lai izveidotu rēķina izrakstīšanas atskaites punktus, kas ir vienādi sadalīti, atlasiet rēķinu izrakstīšanas biežumu, piedāvājuma rindā ievadiet rēķina perioda sākuma datumu un atlasiet piedāvājumam opciju **Pieprasītais pabeigšanas datums** piedāvājuma virsraksta sadaļā **Kopsavilkums**. Pēc tam atlasiet opciju **Izveidot periodiskus atskaites punktus**, lai izveidotu vienādi sadalītus atskaites punktus, pamatojoties uz atlasīto rēķinu izrakstīšanas biežumu. 
-- Lai izveidotu vienreizējās izmaksas rēķina izrakstīšanas atskaites punktu, izveidojiet atskaites punktu un pēc tam ievadiet piedāvājuma rindas vērtību kā atskaites punkta summu.
-- Lai izveidotu rēķinu izrakstīšanas atskaites punktus, kuru pamatā ir noteikti uzdevumi projekta plānā, izveidojiet atskaites punktu un kartējiet to uz projekta grafika elementu rēķina izrakstīšanas atskaites punkta UI.
-
+Šo atšķirību dēļ mēs neiesakām pārdošanas piedāvājumus un Project Operations piedāvājumus izmantot pamīšus.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,19 +1,19 @@
 ---
-title: Vairāku klientu pārvaldība projekta līgumos
-description: Šajā rakstā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumā.
+title: Vairāku klientu pārvaldība, izmantojot uz projektiem balstītus līgumus
+description: Šajā rakstā ir sniegta informācija par to, kā pārvaldīt vairākus klientus uz projektu balstītā līgumā.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928349"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825388"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Vairāku klientu pārvaldība projekta līgumos
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Vairāku klientu pārvaldība, izmantojot uz projektiem balstītus līgumus
 
 Šajā rakstā ir sniegta informācija par vairāku klientu pārvaldīšanu projekta līgumā. Ja darījuma finansēšanai ir nepieciešams līgums, kurā ir iesaistīti vairāki klienti, var izmantot projekta līgumu. Lapas **Projekta līgums** cilnē **Kopsavilkums** ir iekļauta informācija par darījuma primāro klientu. Citus klientus, kas piedalās darījumā, var pievienot cilnē **Klienti**.
 

@@ -1,19 +1,19 @@
 ---
-title: Projekta aprēķinu importēšana uz projekta piedāvājuma rindu — Lite
-description: Šajā rakstā sniegta informācija par to, kā importēt aprēķinus no projekta piedāvājuma rindā.
+title: Tāmju importēšana no projekta uz projekta piedāvājuma rindiņu
+description: Šajā rakstā ir sniegta informācija par to, kā importēt aplēses no projekta uz projekta piedāvājuma rindiņu.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917309"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824496"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekta aprēķinu importēšana uz projekta piedāvājuma rindu 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>Tāmju importēšana no projekta uz projekta piedāvājuma rindiņu 
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu, Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem_
 

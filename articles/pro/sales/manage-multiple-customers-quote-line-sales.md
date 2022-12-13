@@ -1,23 +1,23 @@
 ---
-title: Pārvaldīt vairākus klientus projekta piedāvājumu rindās — Lite
-description: Šajā rakstā aprakstīts, kā pārvaldīt vairākus klientus projekta piedāvājuma rindās.
+title: Vairāku klientu pārvaldība projekta piedāvājuma rindiņās
+description: Šajā rakstā ir aprakstīts, kā pārvaldīt vairākus klientus projekta piedāvājuma rindās.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927797"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824448"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Pārvaldīt vairākus klientus projekta piedāvājumu rindās — Lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Vairāku klientu pārvaldība projekta piedāvājuma rindiņās
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Projekta piedāvājuma rindas atbalsta scenārijus, kuros katrā piedāvājuma rindā ir to klientu saraksts, kas par to maksā. Šis klientu saraksts projekta piedāvājuma rindā var būt tāds pats kā piedāvājuma klientu saraksts. Varat arī mainīt klientu sarakstu, lai tas būtu atšķirīgs. Kad projekta piedāvājums ir iegūts, projekta piedāvājuma rindas klientu saraksts tiek kopēts uz atbilstošo projekta līguma rindu, lai izveidotu izrietošo projekta līgumu. Projekta piedāvājuma klienti tiek pārkopēti projekta līgumā.
+Projekta piedāvājuma rindas atbalsta scenārijus, kur katrai piedāvājuma rindiņai ir to klientu saraksts, kuri par to maksā. Šis klientu saraksts projekta piedāvājuma rindā var būt tāds pats kā piedāvājuma klientu saraksts. Varat arī mainīt klientu sarakstu, lai tas būtu atšķirīgs. Kad projekta piedāvājums ir iegūts, projekta piedāvājuma rindas klientu saraksts tiek kopēts uz atbilstošo projekta līguma rindu, lai izveidotu izrietošo projekta līgumu. Projekta piedāvājuma klienti tiek pārkopēti projekta līgumā.
 
 Izrakstot rēķinu saskaņā ar izrietošo projekta līgumu, klientu sarakstam projekta līguma rindā ir prioritāte pār projekta līguma sarakstu. Projekta līgumā esošais klientu saraksts pēc noklusējuma tiek izmantots kā noklusējuma vērtības jaunajās projekta līguma rindās.
 

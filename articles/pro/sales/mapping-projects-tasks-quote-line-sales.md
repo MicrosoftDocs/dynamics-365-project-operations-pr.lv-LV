@@ -1,23 +1,23 @@
 ---
-title: Projektu un uzdevumu kartēšana par projekta piedāvājuma rindu
-description: Šajā rakstā ir sniegta informācija par to, kā kartēt projektus un uzdevumus uz projekta uzdevuma rindu.
+title: Projektu un uzdevumu kartēšana, lai projicētu citātu rindas
+description: Šajā rakstā ir sniegta informācija par to, kā kartēt projektus un uzdevumus, lai projicētu citātu rindas.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917171"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824356"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projektu un uzdevumu kartēšana par projekta piedāvājuma rindu
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Projektu un uzdevumu kartēšana, lai projicētu citātu rindas
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Projekta piedāvājumu rindās var kartēt tāda projekta specifiskos uzdevumus, kas jau ir saistīts ar piedāvājuma rindu.
+Projekta piedāvājuma rindās varat kartēt konkrētus uzdevumus projektam, kas jau ir saistīts ar piedāvājuma rindiņu.
 
 Kartējot uzdevumus uz piedāvājuma rindu, tālāk minētie vienumi, kas tika definēti piedāvājuma rindā, tiek lietoti tikai šiem uzdevumiem.
 

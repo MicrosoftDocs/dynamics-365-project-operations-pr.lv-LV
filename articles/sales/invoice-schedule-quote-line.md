@@ -6,22 +6,22 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918321"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825763"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Rēķinu grafiki projekta piedāvājuma rindās
+# <a name="invoice-schedules-on-project-quote-lines"></a>Rēķinu grafiki projekta piedāvājuma rindās
 
 _**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
 
-Projekta piedāvājuma rinda nodrošina iespēju izteikt rēķinu grafiku. Tas nav obligāti piedāvājuma fāzes laikā, jo programma neatbalsta rēķinu izrakstīšanu par projektu, ja tas ir saistīts ar Piedāvājuma rindu. Rēķinu izrakstīšana ir atļauta tikai pēc tam, kad piedāvājums ir iegūts. Ja rēķina grafiks izveidots piedāvājuma fāzē, vienīgā lejupstraumes ietekme ir tas, ka šis rēķinu grafiks tiek kopēts projekta līguma rindā. Ja piedāvājuma fāzē neizveidojat rēķina grafiku, to var izdarīt projekta līguma rindā.
+Projekta piedāvājuma rinda dod iespēju izteikt rēķina grafiku. Tas nav obligāti piedāvājuma fāzes laikā, jo programma neatbalsta rēķinu izrakstīšanu par projektu, ja tas ir saistīts ar Piedāvājuma rindu. Rēķinu izrakstīšana ir atļauta tikai pēc tam, kad piedāvājums ir iegūts. Ja rēķina grafiks izveidots piedāvājuma fāzē, vienīgā lejupstraumes ietekme ir tas, ka šis rēķinu grafiks tiek kopēts projekta līguma rindā. Ja piedāvājuma fāzē neizveidojat rēķina grafiku, to var izdarīt projekta līguma rindā.
 
 Kopumā rēķinu grafiku nolūks ir ļaut automātiski izveidot rēķinu melnrakstus projekta līguma rindai. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Laika un materiālu rēķina grafika izveide projekta piedāvājuma rindai
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Laika un materiālu rēķina grafika izveide projekta piedāvājuma rindai
 
 Ja projekta piedāvājuma rindas norēķinu metode ir Laiks un materiāli, sistēma ģenerē rēķina grafiku uz datumu pamata. Lai automātiski ģenerētu rēķina grafiku uz datumu pamata, veiciet tālāk norādītās darbības.
 
@@ -36,7 +36,7 @@ Ja projekta piedāvājuma rindas norēķinu metode ir Laiks un materiāli, sist�
     - **Darījuma pēdējais datums** ir iestatīts uz dienu pirms **Rēķina izpildes datuma**.
     - **Izpildes statuss** tiek automātiski iestatīts uz **Nav palaists**. Kad automātiskās rēķina izveides uzdevums tiek pildīts attiecībā uz noteiktu rēķina izpildes datumu, šis lauks tiek atjaunināts, rādot **Izpilde neveiksmīga** vai **Izpilde neizdevās**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Fiksētas cenas rēķina grafika izveide projekta piedāvājuma rindai
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Fiksētas cenas rēķina grafika izveide projekta piedāvājuma rindai
 
 Ja projekta piedāvājuma rindai ir **Fiksēta** norēķinu metode, sistēma izveido uz atskaites punktiem balstītu rēķina grafiku. Izpildiet tālāk aprakstītās darbības, lai automātiski izveidotu šo grafiku fiksētai atskaites punktu kopai, kas ir vienmērīgi izplatīti kalendāra periodā.
 

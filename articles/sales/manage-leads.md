@@ -1,31 +1,29 @@
 ---
-title: Interesentu pārvaldība
+title: Uz projektiem balstītu potenciālo pirkumu pārvaldība
 description: Šajā rakstā ir sniegta informācija par projekta interesentu pārvaldību.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920207"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825809"
 ---
-# <a name="manage-leads"></a>Interesentu pārvaldība
+# <a name="manage-project-based-leads"></a>Uz projektiem balstītu potenciālo pirkumu pārvaldība
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
 Project Operations ļauj pārvaldīt un kvalificēt projekta interesentus. Interesentu pārvaldības process iekļauj darba interesentu izveidi un šo interesentu kvalificēšanu. 
 
-## <a name="project-sales-leads"></a>Projekta pārdošanas interesenti
-
 Sadaļas **Pārdošana** kreisajā navigācijas rūtī atveriet saraksta lapu **Interesenti**, lai skatītu sarakstu ar visiem interesentu ierakstiem sistēmā. Parādītais interesentu saraksts satur darba un cita veida interesentus, ko var izveidot, ja jums ir arī lietojumprogrammas Dynamics 365 Sales vai Dynamics 365 Field Service.
 
 Varat izveidot filtrēto skatu, lai skatītu tikai projekta interesentus, izveidojot filtru ar vērtību **Tips**. Piemēram, varat atlasīt, lai parādītu tikai darba interesentus.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Jauna interesenta izveide projekta darījumam
+## <a name="create-a-new-project-based-lead"></a>Jauna, uz projektiem balstīta interesenta izveide 
 
 Ja projekta interesents ir kvalificēts, tiek izveidota iespēja un uzņēmums. Projekta iespēja ir sākuma punkts pārdošanas veikšanas darbībām iespējas fāzē. Projekta iespējām ir unikālas funkcijas, kas nepieciešamas, lai pārdotu projekta darbu. Šīs funkcijas ir uzskaitītas tālāk.
 

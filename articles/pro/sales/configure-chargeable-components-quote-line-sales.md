@@ -1,19 +1,19 @@
 ---
-title: Piedāvājuma rindas maksas komponentu konfigurēšana
+title: Konfigurējiet uzlādējamus komponentus projekta piedāvājuma rindās
 description: Šajā rakstā ir sniegta informācija par apmaksājamu un neapmaksājamu komponentu iestatīšanu projekta piedāvājuma rindā.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1e454278a1c5c24ac346c537c778b25448d9ea03
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930051"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825527"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Piedāvājuma rindas maksas komponentu konfigurēšana 
+# <a name="configure-chargeable-components-on-project-quote-lines"></a>Konfigurējiet uzlādējamus komponentus projekta piedāvājuma rindās
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz pro forma rēķina izrakstīšanu, Project Operations resursos balstītiem/krājumos nebalstītiem scenārijiem_
 

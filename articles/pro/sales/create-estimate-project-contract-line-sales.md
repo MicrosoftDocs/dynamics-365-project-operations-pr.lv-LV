@@ -1,32 +1,32 @@
 ---
-title: Projekta līguma rindas aprēķini — Lite
+title: Projec līguma līnijas novērtēšana
 description: Šajā rakstā ir sniegta informācija par aprēķiniem, pamatojoties uz projekta līguma rindu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914411"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824777"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Projekta līguma rindas aprēķini — Lite
+# <a name="estimate-a-project-contract-line"></a>Projekta līguma rindas aprēķins
 
 _**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
-Līdzeklī Dynamics 365 Project Operations projekta līguma rindā ir detalizēta informācija, kas palīdz novērtēt attiecīgā darba izmaksas un iespējamos ieņēmumus, lai izpildītu līguma rindu.
+Projekta Dynamics 365 Project Operations līguma rindā ir informācija, kas palīdz novērtēt izmaksas un potenciālos ieņēmumus no darba, kas saistīts ar līguma līnijas piegādi.
 
-Lai aprēķinātu projekta līguma rindu, skatiet cilni **Līguma rindas informācija**, kas atrodas projekta **Līguma rindā**.  Ir divi veidi, kā aprēķināt projekta līguma rindu.
+Lai aprēķinātu projekta līguma rindu, dodieties uz **cilni Līguma rindas detalizēta informācija** projekta **līguma rindā**.  Ir divi veidi, kā aprēķināt projekta līguma rindu.
 
    - Izveidojiet aprēķinu tieši līguma rindā, manuāli pievienojot detalizētu līguma rindas informāciju.
    - Izveidojiet projektu un projekta plānu un pēc tam saistiet projektu un uzdevumus ar projekta līguma rindu. Tas iespējo procesu, ar kuru līguma rindā var importēt projekta plāna aprēķinu, pamatojoties uz līguma rindā iekļautajiem komponentiem.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Aprēķinu izveide tieši projekta līguma rindā
 
-Lai novērtējumu izveidotu tieši projekta līguma rindā, veiciet šīs darbības:
+Lai izveidotu novērtējumu tieši projekta līguma rindā, rīkojieties šādi:
 
 1. Atveriet līguma rindu un atlasiet cilni **Līguma rindas informācija**. Šajā cilnē izveidotās rindas tiek summētas un rādītas kā šīs **Līguma rindas** **Līguma vērtība**. 
 2. Apakšrežģī **Līguma rindas informācija** atlasiet **Jauna līguma rindas informācija**. Tiek atvērts ātrās izveidošanas slīdnis. Lapā **Līguma rindas informācija** ir pieejami tālāk norādītie lauki.

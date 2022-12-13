@@ -1,17 +1,17 @@
 ---
-title: Piedāvājumi — pamata koncepti — Lite
+title: Projektu piedāvājumiem raksturīgie koncepti
 description: Šajā rakstā ir sniegta informācija par projekta piedāvājumu izmantošanu Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916987"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825903"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Projektu piedāvājumiem raksturīgie koncepti
 
@@ -82,9 +82,13 @@ Rēķinu grafiki ir specifiski katrai piedāvājuma rindai un arī nav obligāti
 
 Project Operations piedāvājumi ir izveidoti, izmantojot Dynamics 365 Sales piedāvājumus. Tomēr ir dažas būtiskas atšķirības funkcionalitātē, kas jāņem vērā.
 
-- Darbības **Pārskatīt** un **Aktivizēt** netiek atbalstītas.
+
 - Project Operations piedāvājumiem ir divi dažādi rindu tipi. Viens ir projektiem, bet otrs — produktiem.
 - Project Operations piedāvājumiem ir savas veidlapas un lietotāja interfeisa elementi, biznesa kārtulas, biznesa loģika spraudņi, kā arī klienta puses skripti, kas atšķir tos no Sales piedāvājumiem.
+- Pārdošanas piedāvājumi ļauj pārdošanas piedāvājumam pievienot vairākus pasūtījumus. Sadaļā Projekta operācijas projekta piedāvājumam var pievienot tikai vienu projekta līgumu.
+- Vinnējot pārdošanas piedāvājumu, saistītā iespēja var palikt atvērta. Pēc tam, kad projekta piedāvājums ir iegūts, saistītā iespēja tiek slēgta.
+- Pārdošanas piedāvājumā nav iekļauti daži lauki un koncepcijas, kas ir iekļautas projekta piedāvājumā. Šie lauki ir, piemēram, **Līgumslēdzēja struktūrvienība**, **Uzņēmumu pārvaldnieks** un **Rēķina saņēmēja kontaktpersonas vārds**.  
+- **Veids**: Pārdošanas piedāvājumus un projekta piedāvājumus norāda arī pēc opciju kopā balstīta lauka **Veids**. Pārdošanas piedāvājumā šim laukam ir vērtība **Balstīts uz elementu**. Projekta piedāvājumā tam ir vērtība **Balstīts uz darbu**.
 
 Šo iemeslu dēļ nav ieteicams izmantot Sales piedāvājumu un Project Operations piedāvājumu pamīšus.
 

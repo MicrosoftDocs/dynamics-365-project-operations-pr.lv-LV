@@ -1,21 +1,21 @@
 ---
 title: Cenu noteikšanas produktu piedāvājuma rindas
 description: Šajā rakstā ir sniegta informācija par izmaksu piemērošanu produktu piedāvājumu rindai.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932581"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825621"
 ---
 # <a name="costing-product-based-quote-lines"></a>Cenu noteikšanas produktu piedāvājuma rindas
 
-_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
+_**Attiecas uz:** Lite izvietošana — pāreja uz proforma rēķina izrakstīšanu_
 
 
 Produkta piedāvājuma rindās ir Dynamics 365 Project Operations arī lauks **Izmaksu cena**. Šo lauku izmanto, lai sekotu produkta izmaksām piedāvājuma rindā un lejupstraumes ienesīguma aprēķiniem.

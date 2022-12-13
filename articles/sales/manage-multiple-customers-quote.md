@@ -1,23 +1,23 @@
 ---
-title: Vairāku klientu pārvaldība projekta piedāvājumā
+title: Vairāku klientu pārvaldība, izmantojot uz projektu balstītu piedāvājumu
 description: Šajā rakstā ir sniegta informācija par darbu ar piedāvājumiem, kas ietver vairākus klientus, kuri finansēs šo projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928211"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825158"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Vairāku klientu pārvaldība projekta piedāvājumā
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Vairāku klientu pārvaldība, izmantojot uz projektu balstītu piedāvājumu
 
-_**Attiecas uz:** Project Operations resursu/ne krājumu scenārijiem, Lite izvietošanu —pro formas rēķinu izrakstīšanai_
+_**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Projekta piedāvājumi atbalsta scenāriju, kurā priekšlikumā ir iesaistīti vairāki klienti, kas finansēs darījumu. Piedāvājuma cilnē **Kopsavilkums** ir lauks **Potenciālais klients**, kurā identificē darījuma primāro klientu. Citus darījuma klientus var iestatīt projekta piedāvājuma cilnē **Klienti**.
+Uz projektu balstīti kotējumi atbalsta scenāriju, kurā priekšlikumā ir iesaistīti vairāki klienti, kas finansēs darījumu. Piedāvājuma cilnē **Kopsavilkums** ir lauks **Potenciālais klients**, kurā identificē darījuma primāro klientu. Citus darījuma klientus var iestatīt projekta piedāvājuma cilnē **Klienti**.
 
 Visi piedāvājuma klienti projekta piedāvājuma cilnē **Klienti** pēc noklusējuma ir piedāvājuma rindas klienti visām **jaunajām** projekta piedāvājuma rindām, kas izveidotas šim piedāvājumam. Esošas projekta piedāvājuma rindas nepārņem jaunus piedāvājuma klientu ierakstus, kas ir izveidoti pēc tām.
 

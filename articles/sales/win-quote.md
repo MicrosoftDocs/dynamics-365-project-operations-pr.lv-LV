@@ -1,23 +1,23 @@
 ---
-title: Piedāvājuma aizvēršana
+title: Projekta balstītu piedāvājumu slēgšana
 description: Šajā rakstā ir sniegta informācija par piedāvājumu slēgšanu programmā Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931891"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824227"
 ---
-# <a name="close-a-quote"></a>Piedāvājuma slēgšana
+# <a name="close-project-based-quotes"></a>Projekta balstītu piedāvājumu slēgšana
 
 _**Attiecas uz:** Project Operations scenārijiem, kas nav balstīti uz resursiem/krājumiem_
 
-Projekta piedāvājumu var slēgt kā iegūtu vai zaudētu. Tā kā Microsoft Dynamics 365 Project Operations piedāvājumu funkcijas Aktivizēt un Pārskatīt netiek atbalstītas, varat aizvērt piedāvājuma melnrakstu.
+Projekta piedāvājumu var slēgt kā **uzvarētu** vai **zaudētu**. 
 
 ## <a name="close-a-quote-as-won"></a>Iegūta piedāvājuma slēgšana
 
