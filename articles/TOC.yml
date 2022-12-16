@@ -844,9 +844,9 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Avansi un honorāri
               items:
-                - name: Uz avansiem un honorāru balstīti līgumi
+                - name: 'Avansi un līgumi, kuru pamatā ir iepriekšēji honorāri'
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Honorāru grafika iestatīšanaHonorāru grafika iestatīšana
+                - name: Honorāru grafiku iestatīšana
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Ekspromta avansa izveide projekta līgumā
                   href: pro/sales/create-ad-hoc-advance-sales.md
